@@ -415,7 +415,7 @@
 			y: 2.5d
 		}
 		{
-			description: ["&1Functional Storage&r adds compact and expandable storage solutions to Minecraft, such as drawers, cabinets, and controller blocks for efficient item organization and automation."]
+			description: ["{ftbquests.chapter.functional_drawer.quest5732634362465369701.description1}"]
 			hide_dependent_lines: true
 			id: "4F8E689471F23E65"
 			rewards: [{
@@ -432,5 +432,5 @@
 			y: 0.0d
 		}
 	]
-	title: "Functional Storage"
+	title: "{ftbquests.chapter.functional_drawer.title}"
 }

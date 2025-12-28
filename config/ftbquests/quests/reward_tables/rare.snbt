@@ -80,6 +80,6 @@
 		}
 		{ item: "ironfurnaces:diamond_furnace", weight: 3.0f }
 	]
-	title: "&9Rare Reward"
+	title: "{ftbquests.loot_table.5564196992594175882.title}"
 	use_title: true
 }

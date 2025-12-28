@@ -37,9 +37,9 @@
 	quests: [
 		{
 			description: [
-				"Powah is a modern tech mod that adds efficient energy generation, storage, and transmission systems to Minecraft. It introduces Energetic Blocks, Reactors, and Upgrades that operate using its internal energy system, \"Energized.\""
+				"{ftbquests.chapter.powah.quest7719213580627148596.description1}"
 				""
-				"To get started, go out and mine some &aUraninite&r!"
+				"{ftbquests.chapter.powah.quest7719213580627148596.description2}"
 			]
 			icon: "powah:book"
 			id: "6B2027DA7AA6FF34"
@@ -68,14 +68,14 @@
 				item: "powah:uraninite_raw"
 				type: "item"
 			}]
-			title: "&aWelcome to&r &9Powah&r!!!"
+			title: "{ftbquests.chapter.powah.quest7719213580627148596.title}"
 			x: -0.5d
 			y: 4.5d
 		}
 		{
 			dependencies: ["6B2027DA7AA6FF34"]
 			description: [
-				"Dielectric Paste is a crafting material used in Powah to create insulated Energized Cables, preventing energy loss in power transfer. It's also used in higher-tier machines and reactors for improved energy efficiency."
+				"{ftbquests.chapter.powah.quest9120612947346324965.description1}"
 				""
 			]
 			hide_dependency_lines: false
@@ -108,13 +108,13 @@
 					type: "item"
 				}
 			]
-			title: "Starting with Dielectric Mats"
+			title: "{ftbquests.chapter.powah.quest9120612947346324965.title}"
 			x: -0.5d
 			y: 6.5d
 		}
 		{
 			dependencies: ["7E92ED270C67FDE5"]
-			description: ["The Energizing Orb is a multiblock structure from Powah that uses energy (\"Energized\") to craft special items and charge gear. It acts as a powered crafting station for high-tech recipes."]
+			description: ["{ftbquests.chapter.powah.quest4458431285537656841.description1}"]
 			hide_dependency_lines: false
 			icon: "powah:energizing_orb"
 			id: "3DDF87A1E5F5D009"
@@ -202,13 +202,13 @@
 					type: "item"
 				}
 			]
-			title: "The &9Energizing Orb&r"
+			title: "{ftbquests.chapter.powah.quest4458431285537656841.title}"
 			x: -0.5d
 			y: 8.0d
 		}
 		{
 			dependencies: ["7E92ED270C67FDE5"]
-			description: ["Generates power from heat (lava, magma blocks, fire)."]
+			description: ["{ftbquests.chapter.powah.quest5973356175974362063.description1}"]
 			id: "52E59FCB39D66BCF"
 			rewards: [
 				{
@@ -233,7 +233,7 @@
 		}
 		{
 			dependencies: ["7E92ED270C67FDE5"]
-			description: ["Burns solid fuels (coal, wood) for energy."]
+			description: ["{ftbquests.chapter.powah.quest4422402862193613851.description1}"]
 			id: "3D5F87F8E6B89C1B"
 			rewards: [
 				{
@@ -258,7 +258,7 @@
 		}
 		{
 			dependencies: ["7E92ED270C67FDE5"]
-			description: ["Daylight-powered generator (tiers: Basic → Blazing → Nitro)."]
+			description: ["{ftbquests.chapter.powah.quest8536773054795711294.description1}"]
 			id: "7678B5DD1339833E"
 			rewards: [
 				{
@@ -283,7 +283,7 @@
 		}
 		{
 			dependencies: ["7E92ED270C67FDE5"]
-			description: ["Upgraded thermal gen that consumes lava buckets faster for higher output."]
+			description: ["{ftbquests.chapter.powah.quest1141143705450646214.description1}"]
 			id: "0FD62827710F0AC6"
 			rewards: [
 				{
@@ -309,13 +309,13 @@
 		{
 			dependencies: ["7E92ED270C67FDE5"]
 			description: [
-				"The &9Reactor&r is a 3x4x3 multiblock generator that burns &aUrananite&r as fuel to produce FE."
+				"{ftbquests.chapter.powah.quest1945703748157016905.description1}"
 				""
-				"To build it, you'll need to make a total of 36 Reactor Blocks. While holding 36 in hand, placing one block will auto-build the reactor. Make sure to clear out some room first!"
+				"{ftbquests.chapter.powah.quest1945703748157016905.description2}"
 				""
-				"You'll want to cool the reactor down for it to create more FE, and you can do this with either solid or liquid &bcoolant&r. To use a solid coolant, you'll also need to give it some liquid coolant as well. &bDry Ice&r makes for a great solid coolant! (Note: 1 Water Bucket will do)"
+				"{ftbquests.chapter.powah.quest1945703748157016905.description3}"
 				""
-				"Late-game energy source."
+				"{ftbquests.chapter.powah.quest1945703748157016905.description4}"
 			]
 			id: "1B0087400B0B8B49"
 			min_width: 300
@@ -343,13 +343,13 @@
 				item: "powah:reactor_starter"
 				type: "item"
 			}]
-			title: "Reactor (Starter)"
+			title: "{ftbquests.chapter.powah.quest1945703748157016905.title}"
 			x: -1.0d
 			y: 10.5d
 		}
 		{
 			dependencies: ["7D52DD751DDADA1B"]
-			description: ["Teleports energy between two linked gates across dimensions."]
+			description: ["{ftbquests.chapter.powah.quest4374926371601132798.description1}"]
 			id: "3CB6DC5B09C62CFE"
 			rewards: [
 				{
@@ -374,7 +374,7 @@
 		}
 		{
 			dependencies: ["7E92ED270C67FDE5"]
-			description: ["Basic power transfer wire (insulate with Dielectric Paste)."]
+			description: ["{ftbquests.chapter.powah.quest9030523697913059867.description1}"]
 			id: "7D52DD751DDADA1B"
 			rewards: [
 				{
@@ -399,7 +399,7 @@
 		}
 		{
 			dependencies: ["7E92ED270C67FDE5"]
-			description: ["Wirelessly charges equipped tools/armor when linked to a Binding Card."]
+			description: ["{ftbquests.chapter.powah.quest7454413580836359307.description1}"]
 			icon: "powah:player_transmitter_starter"
 			id: "677365A816994C8B"
 			rewards: [
@@ -447,7 +447,7 @@
 		}
 		{
 			dependencies: ["7E92ED270C67FDE5"]
-			description: ["Transfers energy wirelessly between linked blocks (upgradeable range)."]
+			description: ["{ftbquests.chapter.powah.quest6614168758976572621.description1}"]
 			id: "5BCA3F716348ECCD"
 			optional: true
 			rewards: [
@@ -473,7 +473,7 @@
 		}
 		{
 			dependencies: ["7E92ED270C67FDE5"]
-			description: ["Releases stored energy into adjacent machines or cables."]
+			description: ["{ftbquests.chapter.powah.quest3711365150823543199.description1}"]
 			id: "33816AF0E699F19F"
 			optional: true
 			rewards: [
@@ -499,7 +499,7 @@
 		}
 		{
 			dependencies: ["7E92ED270C67FDE5"]
-			description: ["The Energy Cell is Powah’s modular energy storage block, capable of storing and distributing \"Energized\" power to connected machines or cables."]
+			description: ["{ftbquests.chapter.powah.quest8655964787678145428.description1}"]
 			id: "78202A1CF5D86B94"
 			rewards: [
 				{
@@ -525,7 +525,7 @@
 		{
 			dependencies: ["7E92ED270C67FDE5"]
 			dependency_requirement: "one_completed"
-			description: ["Wireless energy storage that syncs across dimensions (like an Ender Chest for power)."]
+			description: ["{ftbquests.chapter.powah.quest8074742990246841359.description1}"]
 			hide_dependency_lines: true
 			id: "700F3FF7C23D0C0F"
 			rewards: [
@@ -551,7 +551,7 @@
 		}
 		{
 			dependencies: ["7E92ED270C67FDE5"]
-			description: ["Portable energy storage (small → large tiers)."]
+			description: ["{ftbquests.chapter.powah.quest7037150310626853961.description1}"]
 			id: "61A8FAEC4FF18449"
 			rewards: [
 				{
@@ -888,7 +888,7 @@
 				item: "powah:reactor_basic"
 				type: "item"
 			}]
-			title: "Reactor (Basic)"
+			title: "{ftbquests.chapter.powah.quest6872865555496138198.title}"
 			x: -1.5d
 			y: 11.5d
 		}
@@ -1225,7 +1225,7 @@
 				item: "powah:reactor_hardened"
 				type: "item"
 			}]
-			title: "Reactor (Hardened)"
+			title: "{ftbquests.chapter.powah.quest410012080999040271.title}"
 			x: -2.5d
 			y: 11.5d
 		}
@@ -1562,7 +1562,7 @@
 				item: "powah:reactor_blazing"
 				type: "item"
 			}]
-			title: "Reactor (Blazing)"
+			title: "{ftbquests.chapter.powah.quest7445682936744294848.title}"
 			x: -3.0d
 			y: 10.5d
 		}
@@ -1899,7 +1899,7 @@
 				item: "powah:reactor_niotic"
 				type: "item"
 			}]
-			title: "Reactor (Niotic)"
+			title: "{ftbquests.chapter.powah.quest1152688332401982994.title}"
 			x: -2.5d
 			y: 9.5d
 		}
@@ -2236,7 +2236,7 @@
 				item: "powah:reactor_spirited"
 				type: "item"
 			}]
-			title: "Reactor (Spirited)"
+			title: "{ftbquests.chapter.powah.quest3752772591420964535.title}"
 			x: -1.5d
 			y: 9.5d
 		}
@@ -2572,7 +2572,7 @@
 				item: "powah:reactor_nitro"
 				type: "item"
 			}]
-			title: "Reactor (Nitro)"
+			title: "{ftbquests.chapter.powah.quest7051771571898736977.title}"
 			x: -2.0d
 			y: 10.5d
 		}
@@ -2603,7 +2603,7 @@
 		}
 		{
 			dependencies: ["7E92ED270C67FDE5"]
-			description: ["Upgrades the Orb’s speed/capacity when placed adjacent."]
+			description: ["{ftbquests.chapter.powah.quest2028657906042261898.description1}"]
 			hide_dependency_lines: true
 			id: "1C273D9E046FD18A"
 			rewards: [
@@ -2780,7 +2780,7 @@
 		}
 		{
 			dependencies: ["3DDF87A1E5F5D009"]
-			description: ["Binding Cards are used to link Powah devices wirelessly, allowing energy transfer or remote activation without cables."]
+			description: ["{ftbquests.chapter.powah.quest4817573222139468440.description1}"]
 			id: "42DB7552290E9A98"
 			shape: "square"
 			tasks: [{
@@ -2788,10 +2788,10 @@
 				item: "powah:binding_card"
 				type: "item"
 			}]
-			title: "Binding Cards"
+			title: "{ftbquests.chapter.powah.quest4817573222139468440.title}"
 			x: 1.0d
 			y: 8.0d
 		}
 	]
-	title: "&cPowah"
+	title: "{ftbquests.chapter.powah.title}"
 }

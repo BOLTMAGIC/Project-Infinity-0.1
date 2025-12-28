@@ -14,6 +14,6 @@
 		{ item: "powah:blazing_crystal_block", weight: 2.0f }
 		{ item: "powah:niotic_crystal_block" }
 	]
-	title: "Powah: Niotic Loot Reward"
+	title: "{ftbquests.loot_table.5644430283229160518.title}"
 	use_title: true
 }

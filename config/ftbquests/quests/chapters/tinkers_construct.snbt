@@ -16,9 +16,9 @@
 	quests: [
 		{
 			description: [
-				"The &aTinkers' Construct&r mod centers around &bmodifying&r weapons and tools. It introduces &6patterns&r applied to tools for &dunique effects&r, each with &astrengths&r and &cweaknesses&r for &ecountless combinations&r."
+				"{ftbquests.chapter.tinkers_construct.quest2627732614259019109.description1}"
 				""
-				"After crafting tools and weapons, they can be &aupgraded&r with additional materials to &eenhance&r their &aabilities&r or &dreplicate vanilla enchantments&r."
+				"{ftbquests.chapter.tinkers_construct.quest2627732614259019109.description2}"
 			]
 			icon: "tconstruct:encyclopedia"
 			id: "247794E3ED9E0D65"
@@ -46,13 +46,13 @@
 				id: "25C27D7B63CFAA20"
 				type: "checkmark"
 			}]
-			title: "Welcome to &2Tinkers' Construct"
+			title: "{ftbquests.chapter.tinkers_construct.quest2627732614259019109.title}"
 			x: -7.0d
 			y: -9.0d
 		}
 		{
 			dependencies: ["2F7D55EE5BE52446"]
-			description: ["To make &aSmeltery Controller&r, smelt 4 ingots of &6Copper&r in the &cMelter.&r Then place a &0Seared Brick&r in the &6Casting Basin&r and pour the &6molten copper&r over it."]
+			description: ["{ftbquests.chapter.tinkers_construct.quest3486271098047977500.description1}"]
 			icon: {
 				Count: 1
 				id: "tconstruct:smeltery_controller"
@@ -124,13 +124,13 @@
 					type: "item"
 				}
 			]
-			title: "&aSmeltery Controller"
+			title: "{ftbquests.chapter.tinkers_construct.quest3486271098047977500.title}"
 			x: -1.0d
 			y: -4.0d
 		}
 		{
 			dependencies: ["2F7D55EE5BE52446"]
-			description: ["Uses &0coal&r and some other &cburnable&r for fuel instead of &6lava&r for the &esmeltery.&r"]
+			description: ["{ftbquests.chapter.tinkers_construct.quest2552950449257702759.description1}"]
 			id: "236DE6E8512DE567"
 			rewards: [
 				{
@@ -161,21 +161,21 @@
 		{
 			dependencies: ["3061B917B5DC581C"]
 			description: [
-				"It's time to build the real &cSmeltery.&r"
+				"{ftbquests.chapter.tinkers_construct.quest2107747270583892160.description1}"
 				""
-				"This can be any size, up to &n16x16x64&r, but it must be rectangular."
+				"{ftbquests.chapter.tinkers_construct.quest2107747270583892160.description2}"
 				""
-				"The basic &cstandard Smeltery&r starts with a &n3x3 base&r, usually in the ground."
+				"{ftbquests.chapter.tinkers_construct.quest2107747270583892160.description3}"
 				""
-				"and you don't need the corners filled!"
-				""
-				"{@pagebreak}"
-				"To make the &6smeltery,&r have a &esmeltery controller&r and &cfuel tank&r or &cheater&r in the &0seared brick wall&r, make sure to have a &abrick floor&r to. Then you need &cseared drain&r &nwithin the wall&r attached to &afaucets&r on the &noutside&r for the &bliquid&r to flow out on to a &etable&r or &6basin&r beneath the &afaucet.&r, then just click on it"
+				"{ftbquests.chapter.tinkers_construct.quest2107747270583892160.description4}"
 				""
 				"{@pagebreak}"
-				"The &6smeltery,&r is used to make &6casts&r, &bmetal tools&r, and is used to store &emolten metal&r. On very &lleft&r of the menu you place the&a ore your melting down&r, in the &nmiddle&r is whats &bcurrentaly inside&r of it, and on the &nright&r is where you put the &cfuel.&r"
+				"{ftbquests.chapter.tinkers_construct.quest2107747270583892160.description5}"
 				""
-				"If you have &emultiple different metals&r inside it and want a &bspecific one&r just &lclick&r it to move it to the &abottom,&r this machine &cpours out metal&r &ebottom to top&r. Though sometimes you could accidently make a&a alloy or mix&r of &etwo metals&r by having them both in the &csmeltery&r at the same time."
+				"{@pagebreak}"
+				"{ftbquests.chapter.tinkers_construct.quest2107747270583892160.description6}"
+				""
+				"{ftbquests.chapter.tinkers_construct.quest2107747270583892160.description7}"
 			]
 			id: "1D4038F9AB73B8C0"
 			min_width: 300
@@ -230,31 +230,31 @@
 					type: "item"
 				}
 			]
-			title: "Tier 2: &6&oThe Smeltery"
+			title: "{ftbquests.chapter.tinkers_construct.quest2107747270583892160.title}"
 			x: 0.75d
 			y: -5.25d
 		}
 		{
 			dependencies: ["5F3D0594173B14B7"]
 			description: [
-				"&l&6Crafting Station&r&r:"
-				"   "
-				"   An &aupgraded crafting table&r in which you can &eleave items&r in the crafting grind for when you &cexit&r the UI."
+				"{ftbquests.chapter.tinkers_construct.quest2861507075050328379.description1}"
+				""
+				"{ftbquests.chapter.tinkers_construct.quest2861507075050328379.description2}"
 				""
 				"{@pagebreak}"
-				"&9&lTinker Station:&r&r"
+				"{ftbquests.chapter.tinkers_construct.quest2861507075050328379.description3}"
 				""
-				"   This is where you build the &6custom tools&r, click the&b type of item&r you want to craft from the menu on the &eleft&r and a slots for &aparts&r will appear in the &emiddle&r of the &lUI&r for you to place what you have made from the &apart builder&r. And you can &dname the item&r from the top bar!"
+				"{ftbquests.chapter.tinkers_construct.quest2861507075050328379.description4}"
 				""
-				"If you decide to click the &banvil&r on the left instead of a tool, you can &dadd modifiers&r to your tool, &esimply&r add the &aitem you want to modify&r and the &bmaterial&r you are using to &dmodify&r it add &ovoila&r a&9 modified item&r!"
-				""
-				"{@pagebreak}"
-				"&a&lPart Builder&r&r"
-				""
-				"   Here you build the &aparts&r for your &6custom tools&r! Just put in a &epattern&r and &amaterial,&r then choose the part you want to craft. Each &amaterial&r has &bdifferent effects&r."
+				"{ftbquests.chapter.tinkers_construct.quest2861507075050328379.description5}"
 				""
 				"{@pagebreak}"
-				"&o&6Tip&r:&r&o By placing the &6custom tables&r next to each other, you can &baccess them all&r in &aone UI&r by clicking their &eappropriate symbol&r on the top.&r"
+				"{ftbquests.chapter.tinkers_construct.quest2861507075050328379.description6}"
+				""
+				"{ftbquests.chapter.tinkers_construct.quest2861507075050328379.description7}"
+				""
+				"{@pagebreak}"
+				"{ftbquests.chapter.tinkers_construct.quest2861507075050328379.description8}"
 			]
 			id: "27B61D861AA4513B"
 			rewards: [
@@ -286,13 +286,13 @@
 					type: "item"
 				}
 			]
-			title: "&eTinker Stations"
+			title: "{ftbquests.chapter.tinkers_construct.quest2861507075050328379.title}"
 			x: -7.0d
 			y: -4.0d
 		}
 		{
 			dependencies: ["27B61D861AA4513B"]
-			description: ["A chest with &6more storage&r, and also has the functionality of &nconnecting to tables next to it&r."]
+			description: ["{ftbquests.chapter.tinkers_construct.quest3580954093404070382.description1}"]
 			id: "31B21AC67654A1EE"
 			rewards: [
 				{
@@ -316,7 +316,7 @@
 		}
 		{
 			dependencies: ["27B61D861AA4513B"]
-			description: ["Simply stores &aparts&r for you, and also has the functionality off &nconnecting to tables next to it.&r"]
+			description: ["{ftbquests.chapter.tinkers_construct.quest4707253107703888694.description1}"]
 			id: "415385C2E88B3B36"
 			rewards: [
 				{
@@ -340,7 +340,7 @@
 		}
 		{
 			dependencies: ["27B61D861AA4513B"]
-			description: ["Simply stores &ecasts&r for you, and also has the functionality of &nconnecting to tables next to it.&r"]
+			description: ["{ftbquests.chapter.tinkers_construct.quest3324235030436441261.description1}"]
 			id: "2E220E25CB12ECAD"
 			rewards: [
 				{
@@ -364,7 +364,7 @@
 		}
 		{
 			dependencies: ["3637B30CBF8F7231"]
-			description: ["Used &dspecial modifiers&r to items in the &aModifier worktable&r."]
+			description: ["{ftbquests.chapter.tinkers_construct.quest2143769746424267089.description1}"]
 			id: "1DC03339E7D90151"
 			rewards: [
 				{
@@ -410,7 +410,7 @@
 		}
 		{
 			dependencies: ["3637B30CBF8F7231"]
-			description: ["Has many uses including &adecorating&r with &9armor trims&r or being used as modi&dfiers.&r"]
+			description: ["{ftbquests.chapter.tinkers_construct.quest3792116628754913219.description1}"]
 			id: "34A04DFB7BC9D7C3"
 			rewards: [
 				{
@@ -455,13 +455,13 @@
 					type: "item"
 				}
 			]
-			title: "Crystals"
+			title: "{ftbquests.chapter.tinkers_construct.quest3792116628754913219.title}"
 			x: 4.5d
 			y: -2.5d
 		}
 		{
 			dependencies: ["247794E3ED9E0D65"]
-			description: ["The &abasic crafting ingredient&r for this mod, used in &bdifferent workstations&r for &dunique effects&r."]
+			description: ["{ftbquests.chapter.tinkers_construct.quest6862647540785550519.description1}"]
 			id: "5F3D0594173B14B7"
 			rewards: [
 				{
@@ -490,7 +490,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "You'll need a lot of these"
+			subtitle: "{ftbquests.chapter.tinkers_construct.quest6862647540785550519.subtitle}"
 			tasks: [{
 				count: 6L
 				id: "3271C83621600A34"
@@ -505,13 +505,13 @@
 				}
 				type: "item"
 			}]
-			title: "Patterns"
+			title: "{ftbquests.chapter.tinkers_construct.quest6862647540785550519.title}"
 			x: -7.0d
 			y: -6.5d
 		}
 		{
 			dependencies: ["3637B30CBF8F7231"]
-			description: ["Used &dspecial modifiers&r to items in the &aModifier worktable&r."]
+			description: ["{ftbquests.chapter.tinkers_construct.quest1937296608497918886.description1}"]
 			id: "1AE2A9004E1663A6"
 			rewards: [
 				{
@@ -608,13 +608,13 @@
 					type: "item"
 				}
 			]
-			title: "Reinforcements"
+			title: "{ftbquests.chapter.tinkers_construct.quest1937296608497918886.title}"
 			x: 3.0d
 			y: -2.0d
 		}
 		{
 			dependencies: ["3637B30CBF8F7231"]
-			description: ["Used &dspecial modifiers&r to items in the &aModifier worktable&r."]
+			description: ["{ftbquests.chapter.tinkers_construct.quest1138528332443059556.description1}"]
 			id: "0FCCDD7C75FC8564"
 			rewards: [
 				{
@@ -683,20 +683,20 @@
 					type: "item"
 				}
 			]
-			title: "More Reinforcements"
+			title: "{ftbquests.chapter.tinkers_construct.quest1138528332443059556.title}"
 			x: 4.0d
 			y: -2.0d
 		}
 		{
 			dependencies: ["1D4038F9AB73B8C0"]
 			description: [
-				"Using &bCobalt&r from the &cNether,&r you can create yourself a customizable set of &9Plate Armor&r."
+				"{ftbquests.chapter.tinkers_construct.quest822732092262725363.description1}"
 				""
-				"Each piece of &9Plate Armor&r has high durability and armor, and they all come with:"
+				"{ftbquests.chapter.tinkers_construct.quest822732092262725363.description2}"
 				""
-				"&l- 1 Upgrade Slot"
-				"&l- 4 Defense Slots&r"
-				"&l- 1 Ability Slot&r&r"
+				"{ftbquests.chapter.tinkers_construct.quest822732092262725363.description3}"
+				"{ftbquests.chapter.tinkers_construct.quest822732092262725363.description4}"
+				"{ftbquests.chapter.tinkers_construct.quest822732092262725363.description5}"
 			]
 			id: "0B6AEE7A98A236F3"
 			rewards: [
@@ -723,7 +723,7 @@
 							value: "forge:ingots/cobalt"
 						}
 					}
-					title: "Any #forge:ingots/cobalt"
+					title: "{ftbquests.chapter.tinkers_construct.quest822732092262725363.task.1723742176778695925.title}"
 					type: "item"
 				}
 				{
@@ -741,13 +741,13 @@
 					type: "item"
 				}
 			]
-			title: "Plate Armor"
+			title: "{ftbquests.chapter.tinkers_construct.quest822732092262725363.title}"
 			x: 0.75d
 			y: -2.25d
 		}
 		{
 			dependencies: ["2F7D55EE5BE52446"]
-			description: ["These &6casts&r can be used &bmultiple times&r, a better&e investment&r."]
+			description: ["{ftbquests.chapter.tinkers_construct.quest9113004957262069804.description1}"]
 			id: "7E77E5B9D1FAC02C"
 			rewards: [
 				{
@@ -856,13 +856,13 @@
 					type: "item"
 				}
 			]
-			title: "More Useful Casts"
+			title: "{ftbquests.chapter.tinkers_construct.quest9113004957262069804.title}"
 			x: -2.0d
 			y: -6.5d
 		}
 		{
 			dependencies: ["2CF1FFFDCF5A891E"]
-			description: ["Allows for the creation of &6more advanced&r &atools&r and &cweapons&r with amazing &eabilities.&r. These &9anvils&r can be crafted from &adifferent materials&r to &ecustomize&r it to your liking."]
+			description: ["{ftbquests.chapter.tinkers_construct.quest275890367023041632.description1}"]
 			icon: {
 				Count: 1
 				id: "tconstruct:tinkers_anvil"
@@ -898,13 +898,13 @@
 				type: "item"
 				weak_nbt_match: true
 			}]
-			title: "Tinker's Anvil"
+			title: "{ftbquests.chapter.tinkers_construct.quest275890367023041632.title}"
 			x: 3.5d
 			y: -4.0d
 		}
 		{
 			dependencies: ["27B61D861AA4513B"]
-			description: ["A mixture of &bgravel,&r &esand,&r and &6clay,&r you can smelt this for &cSeared bricks&r!"]
+			description: ["{ftbquests.chapter.tinkers_construct.quest6557778453117558615.description1}"]
 			id: "5B01E8C22DC85F57"
 			rewards: [
 				{
@@ -947,13 +947,13 @@
 				}
 				type: "item"
 			}]
-			title: "Grout"
+			title: "{ftbquests.chapter.tinkers_construct.quest6557778453117558615.title}"
 			x: -5.5d
 			y: -4.0d
 		}
 		{
 			dependencies: ["27B61D861AA4513B"]
-			description: ["Made at the &aPart builder&r, you will use these to craft &dunique tools&r."]
+			description: ["{ftbquests.chapter.tinkers_construct.quest6871335718750984985.description1}"]
 			id: "5F5BE36E289B1B19"
 			rewards: [
 				{
@@ -1047,13 +1047,13 @@
 					type: "item"
 				}
 			]
-			title: "Tool Parts"
+			title: "{ftbquests.chapter.tinkers_construct.quest6871335718750984985.title}"
 			x: -7.0d
 			y: -2.0d
 		}
 		{
 			dependencies: ["5F5BE36E289B1B19"]
-			description: ["Good job, you made &0rock tools&r, try experimenting with other materials like &6copper,&r &bstring,&r and &dchorus.&r"]
+			description: ["{ftbquests.chapter.tinkers_construct.quest7855111590278130848.description1}"]
 			id: "6D02F65F8994ECA0"
 			rewards: [
 				{
@@ -1180,13 +1180,13 @@
 					type: "item"
 				}
 			]
-			title: "First Tools"
+			title: "{ftbquests.chapter.tinkers_construct.quest7855111590278130848.title}"
 			x: -6.0d
 			y: -1.0d
 		}
 		{
 			dependencies: ["6D02F65F8994ECA0"]
-			description: ["A &asimple way&r to get easy &brepairs&r in. Simply click on the &dcustom tool&r you want &brepair&r while holding the &akit&r in your &einventory.&r"]
+			description: ["{ftbquests.chapter.tinkers_construct.quest3696491195734981797.description1}"]
 			id: "334C93285D247CA5"
 			rewards: [
 				{
@@ -1237,7 +1237,7 @@
 		}
 		{
 			dependencies: ["5B01E8C22DC85F57"]
-			description: ["Made from smelting &bGrout,&r and used to craft the &0smeltery parts&r."]
+			description: ["{ftbquests.chapter.tinkers_construct.quest6905460864613265906.description1}"]
 			id: "5FD52011D5A2B1F2"
 			rewards: [
 				{
@@ -1275,14 +1275,14 @@
 		{
 			dependencies: ["5FD52011D5A2B1F2"]
 			description: [
-				"To assemble the &cMelter,&r place a &6Seared Heater&r or &6Fuel Tank&r on the &aground,&r then place the &cSeared Melter&r &eon top&r of it. Position the &eSeared Casting Basin&r next to the &cHeater,&r and attach a &6Faucet&r to the &cMelter&r so it’s &babove&r the &eCasting Basin&r."
+				"{ftbquests.chapter.tinkers_construct.quest3421985774103766086.description1}"
 				""
-				"&lRight-Click&r the faucet to open it so the &bliquid&r can flow out into the&6 basin&r or &etable&r beneath."
+				"{ftbquests.chapter.tinkers_construct.quest3421985774103766086.description2}"
 				""
 				"{@pagebreak}"
-				"You will use the &cmelter&r to turn &asolid materials&r into &bliquid&r form for a few crafts."
+				"{ftbquests.chapter.tinkers_construct.quest3421985774103766086.description3}"
 				""
-				"&e&oThough this is a very small weak version compared to the true Smeltery&r&r"
+				"{ftbquests.chapter.tinkers_construct.quest3421985774103766086.description4}"
 			]
 			icon: "tconstruct:seared_melter"
 			id: "2F7D55EE5BE52446"
@@ -1394,13 +1394,13 @@
 					type: "item"
 				}
 			]
-			title: "Tier 1: &d&oThe Melter"
+			title: "{ftbquests.chapter.tinkers_construct.quest3421985774103766086.title}"
 			x: -2.5d
 			y: -4.0d
 		}
 		{
 			dependencies: ["2F7D55EE5BE52446"]
-			description: ["If you don't have access to &bmetals&r you can use &esand casts&r which &cburn up&r after &afirst&r use."]
+			description: ["{ftbquests.chapter.tinkers_construct.quest5189641895308114516.description1}"]
 			id: "48054FCED1533A54"
 			rewards: [
 				{
@@ -1426,18 +1426,18 @@
 				item: "tconstruct:ingot_sand_cast"
 				type: "item"
 			}]
-			title: "Single-Use Metal Casts"
+			title: "{ftbquests.chapter.tinkers_construct.quest5189641895308114516.title}"
 			x: -3.0d
 			y: -6.5d
 		}
 		{
 			dependencies: ["1D4038F9AB73B8C0"]
 			description: [
-				"Aside from the Seared Drain, there are more ways to pump fluids and items into or out of your Smeltery."
+				"{ftbquests.chapter.tinkers_construct.quest2278348796825149591.description1}"
 				""
-				"The &9Seared Duct&r allows you to output &bspecific fluids&r from your &cSmeltery.&r To do this, fill a &6Copper Can &ror &bBucket&r filled with the &bfluid&r you wish to &6filter&r out, then put it inside of the &1Duct&r to act as a &6filter.&r This will then be shown in the &emiddle&r of the Duct."
+				"{ftbquests.chapter.tinkers_construct.quest2278348796825149591.description2}"
 				""
-				"The &6Seared Chute&r allows you input and output item into the &cSmeltery.&r"
+				"{ftbquests.chapter.tinkers_construct.quest2278348796825149591.description3}"
 			]
 			id: "1F9E5228D533A097"
 			min_width: 250
@@ -1494,13 +1494,13 @@
 					type: "item"
 				}
 			]
-			title: "Input \\& Output"
+			title: "{ftbquests.chapter.tinkers_construct.quest2278348796825149591.title}"
 			x: 0.0d
 			y: -8.0d
 		}
 		{
 			dependencies: ["1D4038F9AB73B8C0"]
-			description: ["These blocks can be used as a &ereplacement&r for &0Seared Bricks&r, while still making the &cSmeltery functional&r!"]
+			description: ["{ftbquests.chapter.tinkers_construct.quest6798191360988049568.description1}"]
 			id: "5E58070642D270A0"
 			rewards: [
 				{
@@ -1570,13 +1570,13 @@
 					type: "item"
 				}
 			]
-			title: "Customizing the Smeltery"
+			title: "{ftbquests.chapter.tinkers_construct.quest6798191360988049568.title}"
 			x: 2.0d
 			y: -8.0d
 		}
 		{
 			dependencies: ["1D4038F9AB73B8C0"]
-			description: ["These are &ealloys,&r they are crafted through having &bdifferent types&r of &emetal&r within your &csmeltery&r at the &6same time&r, though some have &aother means&r you can obtain them."]
+			description: ["{ftbquests.chapter.tinkers_construct.quest3238651072626723102.description1}"]
 			id: "2CF1FFFDCF5A891E"
 			rewards: [
 				{
@@ -1596,7 +1596,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "You have explored much of this mod"
+			subtitle: "{ftbquests.chapter.tinkers_construct.quest3238651072626723102.subtitle}"
 			tasks: [
 				{
 					id: "3B146FC381EF2132"
@@ -1607,7 +1607,7 @@
 							value: "forge:ingots/brass"
 						}
 					}
-					title: "Any #forge:ingots/brass"
+					title: "{ftbquests.chapter.tinkers_construct.quest3238651072626723102.task.4257150433261199666.title}"
 					type: "item"
 				}
 				{
@@ -1619,7 +1619,7 @@
 							value: "forge:ingots/amethyst_bronze"
 						}
 					}
-					title: "Any #forge:ingots/amethyst_bronze"
+					title: "{ftbquests.chapter.tinkers_construct.quest3238651072626723102.task.4335831342077777586.title}"
 					type: "item"
 				}
 				{
@@ -1631,7 +1631,7 @@
 							value: "forge:ingots/constantan"
 						}
 					}
-					title: "Any #forge:ingots/constantan"
+					title: "{ftbquests.chapter.tinkers_construct.quest3238651072626723102.task.846883459378793155.title}"
 					type: "item"
 				}
 				{
@@ -1643,7 +1643,7 @@
 							value: "forge:ingots/electrum"
 						}
 					}
-					title: "Any #forge:ingots/electrum"
+					title: "{ftbquests.chapter.tinkers_construct.quest3238651072626723102.task.3659321188227917404.title}"
 					type: "item"
 				}
 				{
@@ -1655,17 +1655,17 @@
 							value: "forge:ingots/rose_gold"
 						}
 					}
-					title: "Any #forge:ingots/rose_gold"
+					title: "{ftbquests.chapter.tinkers_construct.quest3238651072626723102.task.6025574072600802664.title}"
 					type: "item"
 				}
 			]
-			title: "&9Some Basic Alloys"
+			title: "{ftbquests.chapter.tinkers_construct.quest3238651072626723102.title}"
 			x: 3.5d
 			y: -5.25d
 		}
 		{
 			dependencies: ["2CF1FFFDCF5A891E"]
-			description: ["These are more &eadvanced alloys&r used for&c powerful tools&r."]
+			description: ["{ftbquests.chapter.tinkers_construct.quest5225651791017150962.description1}"]
 			id: "48853E9E037609F2"
 			rewards: [
 				{
@@ -1689,7 +1689,7 @@
 							value: "forge:ingots/slimesteel"
 						}
 					}
-					title: "Any #forge:ingots/slimesteel"
+					title: "{ftbquests.chapter.tinkers_construct.quest5225651791017150962.task.1351236582003280730.title}"
 					type: "item"
 				}
 				{
@@ -1701,7 +1701,7 @@
 							value: "forge:ingots/queens_slime"
 						}
 					}
-					title: "Any #forge:ingots/queens_slime"
+					title: "{ftbquests.chapter.tinkers_construct.quest5225651791017150962.task.7249938507189768485.title}"
 					type: "item"
 				}
 				{
@@ -1713,7 +1713,7 @@
 							value: "forge:ingots/manyullyn"
 						}
 					}
-					title: "Any #forge:ingots/manyullyn"
+					title: "{ftbquests.chapter.tinkers_construct.quest5225651791017150962.task.8911533733232894659.title}"
 					type: "item"
 				}
 				{
@@ -1725,7 +1725,7 @@
 							value: "forge:ingots/hepatizon"
 						}
 					}
-					title: "Any #forge:ingots/hepatizon"
+					title: "{ftbquests.chapter.tinkers_construct.quest5225651791017150962.task.5031203992856266404.title}"
 					type: "item"
 				}
 				{
@@ -1737,7 +1737,7 @@
 							value: "forge:ingots/signalum"
 						}
 					}
-					title: "Any #forge:ingots/signalum"
+					title: "{ftbquests.chapter.tinkers_construct.quest5225651791017150962.task.2806050252923017034.title}"
 					type: "item"
 				}
 				{
@@ -1749,7 +1749,7 @@
 							value: "forge:ingots/lumium"
 						}
 					}
-					title: "Any #forge:ingots/lumium"
+					title: "{ftbquests.chapter.tinkers_construct.quest5225651791017150962.task.1531428151027803624.title}"
 					type: "item"
 				}
 				{
@@ -1761,17 +1761,17 @@
 							value: "forge:ingots/enderium"
 						}
 					}
-					title: "Any #forge:ingots/enderium"
+					title: "{ftbquests.chapter.tinkers_construct.quest5225651791017150962.task.2632394240499184398.title}"
 					type: "item"
 				}
 			]
-			title: "&4Some Advanced Alloys"
+			title: "{ftbquests.chapter.tinkers_construct.quest5225651791017150962.title}"
 			x: 3.5d
 			y: -6.5d
 		}
 		{
 			dependencies: ["03D428D3BB5C4C60"]
-			description: ["Crafted by &efilling casts&r with &biron&r at the &csmeltery&r then assembled at a &9tinker station&r, you can finally have &dpure iron tools&r."]
+			description: ["{ftbquests.chapter.tinkers_construct.quest3949225342451919279.description1}"]
 			hide_dependency_lines: true
 			hide_until_deps_complete: true
 			id: "36CE77866AD129AF"
@@ -1853,7 +1853,7 @@
 		}
 		{
 			dependencies: ["03D428D3BB5C4C60"]
-			description: ["Crafted by &efilling casts&r with &biron&r at the &csmeltery&r then assembled at a &9tinker station&r, you can finally have &dpure iron tools&r."]
+			description: ["{ftbquests.chapter.tinkers_construct.quest6584496650501486233.description1}"]
 			hide_dependency_lines: true
 			hide_until_deps_complete: true
 			id: "5B60D4D145E3F699"
@@ -1938,7 +1938,7 @@
 		}
 		{
 			dependencies: ["03D428D3BB5C4C60"]
-			description: ["Crafted by &efilling casts&r with &biron&r at the &csmeltery&r then assembled at a &9tinker station&r, you can finally have &dpure iron tools&r."]
+			description: ["{ftbquests.chapter.tinkers_construct.quest8341931235189186847.description1}"]
 			hide_dependency_lines: true
 			hide_until_deps_complete: true
 			id: "73C47E42CE2FE11F"
@@ -2020,7 +2020,7 @@
 		}
 		{
 			dependencies: ["03D428D3BB5C4C60"]
-			description: ["Crafted by &efilling casts&r with &biron&r at the &csmeltery&r then assembled at a &9tinker station&r, you can finally have &dpure iron tools&r."]
+			description: ["{ftbquests.chapter.tinkers_construct.quest2098458701688561269.description1}"]
 			hide_dependency_lines: true
 			hide_until_deps_complete: true
 			id: "1D1F391231F95E75"
@@ -2109,7 +2109,7 @@
 		}
 		{
 			dependencies: ["03D428D3BB5C4C60"]
-			description: ["Crafted by &efilling casts&r with &biron&r at the &csmeltery&r then assembled at a &9tinker station&r, you can finally have &dpure iron tools&r."]
+			description: ["{ftbquests.chapter.tinkers_construct.quest2442120710757033207.description1}"]
 			hide_dependency_lines: true
 			hide_until_deps_complete: true
 			id: "21E427D8F74C24F7"
@@ -2194,7 +2194,7 @@
 		}
 		{
 			dependencies: ["03D428D3BB5C4C60"]
-			description: ["Crafted by &efilling casts&r with &biron&r at the &csmeltery&r then assembled at a &9tinker station&r, you can finally have &dpure iron tools&r."]
+			description: ["{ftbquests.chapter.tinkers_construct.quest5992845643291036002.description1}"]
 			hide_dependency_lines: true
 			hide_until_deps_complete: true
 			id: "532ADD5C721C0962"
@@ -2285,7 +2285,7 @@
 		}
 		{
 			dependencies: ["0B6AEE7A98A236F3"]
-			description: ["Essentially &9Diamond armor&r with more &aupgrade slots&r and some &6knockback resistance&r."]
+			description: ["{ftbquests.chapter.tinkers_construct.quest4213233531944364965.description1}"]
 			id: "3A7869931B4EEBA5"
 			rewards: [
 				{
@@ -2336,7 +2336,7 @@
 		}
 		{
 			dependencies: ["0B6AEE7A98A236F3"]
-			description: ["Essentially &9Diamond armor&r with more &aupgrade slots&r and some &6knockback resistance&r."]
+			description: ["{ftbquests.chapter.tinkers_construct.quest6627311073459549960.description1}"]
 			id: "5BF8F04EED91B708"
 			rewards: [
 				{
@@ -2387,7 +2387,7 @@
 		}
 		{
 			dependencies: ["0B6AEE7A98A236F3"]
-			description: ["Essentially &9Diamond armor&r with more &aupgrade slots&r and some &6knockback resistance&r."]
+			description: ["{ftbquests.chapter.tinkers_construct.quest8119268857166609118.description1}"]
 			id: "70AD7002034EBADE"
 			rewards: [
 				{
@@ -2438,7 +2438,7 @@
 		}
 		{
 			dependencies: ["1F9E5228D533A097"]
-			description: ["A cheaper &ealternative&r for &bbuckets,&r these can be used to hold &6molten liquids&r."]
+			description: ["{ftbquests.chapter.tinkers_construct.quest4971080722720565331.description1}"]
 			hide_until_deps_complete: true
 			id: "44FCD394538D2853"
 			rewards: [
@@ -2468,13 +2468,13 @@
 				}
 				type: "item"
 			}]
-			title: "Copper Can"
+			title: "{ftbquests.chapter.tinkers_construct.quest4971080722720565331.title}"
 			x: 1.0d
 			y: -8.5d
 		}
 		{
 			dependencies: ["03D428D3BB5C4C60"]
-			description: ["A better version of the &9Tinker station&r with more &bcustomizability.&r Do note that tools can only be &aupgraded&r a &elimited amount&r of times, choose wisely!"]
+			description: ["{ftbquests.chapter.tinkers_construct.quest3906788069102023217.description1}"]
 			id: "3637B30CBF8F7231"
 			rewards: [
 				{
@@ -2522,9 +2522,9 @@
 		{
 			dependencies: ["6D02F65F8994ECA0"]
 			description: [
-				"Using the &9Tinker Station&r or &cModifire Wortable&r you can &dmodify&r your tools."
+				"{ftbquests.chapter.tinkers_construct.quest6038535752010055899.description1}"
 				""
-				"&dModifiers&r add &especial stats&r and &5abilities&r to your tools based on the &6modifier type&r."
+				"{ftbquests.chapter.tinkers_construct.quest6038535752010055899.description2}"
 			]
 			hide_dependency_lines: true
 			icon: {
@@ -2560,16 +2560,16 @@
 				id: "11230753F260973D"
 				type: "checkmark"
 			}]
-			title: "Modifiers"
+			title: "{ftbquests.chapter.tinkers_construct.quest6038535752010055899.title}"
 			x: 8.25d
 			y: -0.75d
 		}
 		{
 			dependencies: ["53CD3045DE0E40DB"]
 			description: [
-				"These &bmodifiers&r are applied to &eArmor,&r which gives certain &2defense abilities&r."
+				"{ftbquests.chapter.tinkers_construct.quest2640435091780048296.description1}"
 				""
-				"If you're looking to check out all of the available &2Defense Modifiers&r, check out the book &aMighty Smelting&r."
+				"{ftbquests.chapter.tinkers_construct.quest2640435091780048296.description2}"
 			]
 			icon: {
 				Count: 1
@@ -2624,18 +2624,18 @@
 				id: "473D40C84F243433"
 				type: "checkmark"
 			}]
-			title: "Defense Modifiers"
+			title: "{ftbquests.chapter.tinkers_construct.quest2640435091780048296.title}"
 			x: 6.5d
 			y: -1.0d
 		}
 		{
 			dependencies: ["53CD3045DE0E40DB"]
 			description: [
-				"&5Abilities&r are &cpowerful modifiers&r, like &bSilk Touch&r."
+				"{ftbquests.chapter.tinkers_construct.quest235350522422014073.description1}"
 				""
-				"&5Abilities&r require &dability slots&r on the tool, which most tools start with&e at least one slot&r. You can only add &b1 more ability slot&r per tool!"
+				"{ftbquests.chapter.tinkers_construct.quest235350522422014073.description2}"
 				""
-				"The book &aMighty Smelting&r lists all available abilities that can be placed on tools."
+				"{ftbquests.chapter.tinkers_construct.quest235350522422014073.description3}"
 			]
 			icon: {
 				Count: 1
@@ -2698,16 +2698,16 @@
 				id: "26B586C763AC501D"
 				type: "checkmark"
 			}]
-			title: "Tool Abilities"
+			title: "{ftbquests.chapter.tinkers_construct.quest235350522422014073.title}"
 			x: 7.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["53CD3045DE0E40DB"]
 			description: [
-				"&bSlotless Modifiers&r do not require a slot to add. You can add &eas many as you'd like&r."
+				"{ftbquests.chapter.tinkers_construct.quest8855991206052765046.description1}"
 				""
-				"To see a list of available&b Slotless Modifiers,&r check out the book &aPuny Smelting&r."
+				"{ftbquests.chapter.tinkers_construct.quest8855991206052765046.description2}"
 			]
 			icon: "minecraft:enchanted_golden_apple"
 			id: "7AE6CD14B2C21D76"
@@ -2728,16 +2728,16 @@
 				id: "58F88598CA8F3E97"
 				type: "checkmark"
 			}]
-			title: "Slotless Modifiers"
+			title: "{ftbquests.chapter.tinkers_construct.quest8855991206052765046.title}"
 			x: 8.25d
 			y: 0.75d
 		}
 		{
 			dependencies: ["53CD3045DE0E40DB"]
 			description: [
-				"Each tool starts with &63 to 4 upgrade slots.&r These slots can be used to &denhance&r the tool with &amaterials.&r"
+				"{ftbquests.chapter.tinkers_construct.quest3359936749091218338.description1}"
 				""
-				"Make sure to check out the book &aPuny Smelting&r to see all of the available upgrades!"
+				"{ftbquests.chapter.tinkers_construct.quest3359936749091218338.description2}"
 			]
 			icon: "minecraft:redstone_block"
 			id: "2EA0E4ABED5CE3A2"
@@ -2758,18 +2758,18 @@
 				id: "178B537D64E0BD7E"
 				type: "checkmark"
 			}]
-			title: "Tool Upgrade Slots"
+			title: "{ftbquests.chapter.tinkers_construct.quest3359936749091218338.title}"
 			x: 9.5d
 			y: 0.0d
 		}
 		{
 			dependencies: ["53CD3045DE0E40DB"]
 			description: [
-				"&cTraits&r are&e inborne abilities&r related to the creation of the tool."
+				"{ftbquests.chapter.tinkers_construct.quest7402847227009525987.description1}"
 				""
-				"There are two basic types of &ctraits:&r &amaterial traits&r, which come from the &amaterials&r chosen foreach part in the tool, and &btool traits&r which arenative to the &btype of tool&r crafted."
+				"{ftbquests.chapter.tinkers_construct.quest7402847227009525987.description2}"
 				""
-				"To see all of the different kinds of traits, make sure to check out the books &aMaterials and You&r, &aMighty Smelting&r, and &aFantastic Foundry&r."
+				"{ftbquests.chapter.tinkers_construct.quest7402847227009525987.description3}"
 			]
 			icon: {
 				Count: 1
@@ -2796,13 +2796,13 @@
 				id: "5D542CB6E878D778"
 				type: "checkmark"
 			}]
-			title: "Traits"
+			title: "{ftbquests.chapter.tinkers_construct.quest7402847227009525987.title}"
 			x: 10.0d
 			y: -1.0d
 		}
 		{
 			dependencies: ["03D428D3BB5C4C60"]
-			description: ["You will be using this to &6smelt bricks&r for a &4foundry&r."]
+			description: ["{ftbquests.chapter.tinkers_construct.quest6274657664067670236.description1}"]
 			id: "57140FE6A1EF90DC"
 			rewards: [
 				{
@@ -2845,13 +2845,13 @@
 				}
 				type: "item"
 			}]
-			title: "Nether Grout"
+			title: "{ftbquests.chapter.tinkers_construct.quest6274657664067670236.title}"
 			x: 5.5d
 			y: -4.0d
 		}
 		{
 			dependencies: ["57140FE6A1EF90DC"]
-			description: ["&cSmelting down grout&r while give these &6bricks&r which are used to craft the &ablocks&r for use in building a &4Foundry&r"]
+			description: ["{ftbquests.chapter.tinkers_construct.quest7332497576076722589.description1}"]
 			id: "65C243B23A77419D"
 			rewards: [
 				{
@@ -2894,13 +2894,13 @@
 				}
 				type: "item"
 			}]
-			title: "Scorched Bricks"
+			title: "{ftbquests.chapter.tinkers_construct.quest7332497576076722589.title}"
 			x: 7.0d
 			y: -4.0d
 		}
 		{
 			dependencies: ["65C243B23A77419D"]
-			description: ["To make &9Foundry Controller&r, place a &6Scorched Brick&r in a Casting Basin, then pour at least 1 block's worth of &dObsidian&r over it."]
+			description: ["{ftbquests.chapter.tinkers_construct.quest4143938808365246494.description1}"]
 			icon: {
 				Count: 1
 				id: "tconstruct:foundry_controller"
@@ -2973,18 +2973,18 @@
 					type: "item"
 				}
 			]
-			title: "&9Foundry Contorller"
+			title: "{ftbquests.chapter.tinkers_construct.quest4143938808365246494.title}"
 			x: 8.5d
 			y: -4.0d
 		}
 		{
 			dependencies: ["39823A640390E81E"]
 			description: [
-				"The &4Foundry&r is just like the &csmeltery,&r but doesn't create &ealloys.&r"
+				"{ftbquests.chapter.tinkers_construct.quest3120605013722446723.description1}"
 				""
-				"The &4Foundry&r also creates &bByproducts&r from items smelted. For example, Copper can give Gold as a byproduct."
+				"{ftbquests.chapter.tinkers_construct.quest3120605013722446723.description2}"
 				""
-				"The &4Foundry,&r is built similarly to the &cSmeltery&r except you'll need to build the &ecorners&r too."
+				"{ftbquests.chapter.tinkers_construct.quest3120605013722446723.description3}"
 			]
 			id: "2B4E9DB9EF3ABB83"
 			min_width: 400
@@ -3021,7 +3021,7 @@
 			]
 			shape: "hexagon"
 			size: 1.5d
-			subtitle: "Youve come far"
+			subtitle: "{ftbquests.chapter.tinkers_construct.quest3120605013722446723.subtitle}"
 			tasks: [
 				{
 					count: 16L
@@ -3107,13 +3107,13 @@
 					type: "item"
 				}
 			]
-			title: "Tier 3: &5&oThe Foundry"
+			title: "{ftbquests.chapter.tinkers_construct.quest3120605013722446723.title}"
 			x: 8.5d
 			y: -5.5d
 		}
 		{
 			dependencies: ["2B4E9DB9EF3ABB83"]
-			description: ["Just like the &cSmeltery,&r there are many &ablocks&r you can use that function as &4Foundry blocks&r when creating your &4Foundry.&r use them for &bdeoration!&r"]
+			description: ["{ftbquests.chapter.tinkers_construct.quest2452164459725978561.description1}"]
 			id: "2207D69580CDFBC1"
 			rewards: [
 				{
@@ -3249,13 +3249,13 @@
 					type: "item"
 				}
 			]
-			title: "Customizing the Foundry"
+			title: "{ftbquests.chapter.tinkers_construct.quest2452164459725978561.title}"
 			x: 10.0d
 			y: -5.5d
 		}
 		{
 			dependencies: ["2B4E9DB9EF3ABB83"]
-			description: ["Insert the &6molten ingots&r into each of the &cIngot Tanks&r, and the &bAlloyer&r will create the alloy."]
+			description: ["{ftbquests.chapter.tinkers_construct.quest1438479485891598687.description1}"]
 			id: "13F681789541595F"
 			min_width: 300
 			rewards: [
@@ -3324,13 +3324,13 @@
 					type: "item"
 				}
 			]
-			title: "&3The Alloyer"
+			title: "{ftbquests.chapter.tinkers_construct.quest1438479485891598687.title}"
 			x: 7.0d
 			y: -5.5d
 		}
 		{
 			dependencies: ["2B4E9DB9EF3ABB83"]
-			description: ["&6Lava&r will not cut it for smelting down ores like &bNether cobalt&r. For this you'll need something hotter. You need &cblaze blood&r, You can smelt &cBlaze Heads&r in the &4Foundry&r or smelt the &eBlazes directly&r."]
+			description: ["{ftbquests.chapter.tinkers_construct.quest3950084685221449332.description1}"]
 			id: "36D18517BF55CE74"
 			min_width: 250
 			rewards: [
@@ -3371,13 +3371,13 @@
 				}
 				type: "item"
 			}]
-			title: "&eBlazing Blood"
+			title: "{ftbquests.chapter.tinkers_construct.quest3950084685221449332.title}"
 			x: 8.5d
 			y: -7.0d
 		}
 		{
 			dependencies: ["1D4038F9AB73B8C0"]
-			description: ["One of the five &6cakes&r in this mod, this one gives you &abouncy&r which will boost you in the air when you fall without taking &cdamage.&r"]
+			description: ["{ftbquests.chapter.tinkers_construct.quest7033146561154596330.description1}"]
 			hide_dependency_lines: true
 			hide_until_deps_complete: true
 			id: "619AC188BEE13DEA"
@@ -3418,7 +3418,7 @@
 		}
 		{
 			dependencies: ["619AC188BEE13DEA"]
-			description: ["One of the five &6cakes&r in this mod, this one gives lets you &bjump&r in the air, the &dstronger the effect&r the &bmore&r &bjumps&r you get."]
+			description: ["{ftbquests.chapter.tinkers_construct.quest8230838403710855730.description1}"]
 			id: "7239CFEB58D42A32"
 			optional: true
 			rewards: [
@@ -3457,7 +3457,7 @@
 		}
 		{
 			dependencies: ["7239CFEB58D42A32"]
-			description: ["One of the five &6cakes&r in this mod, this one gives you &cregeneration,&r it heals you."]
+			description: ["{ftbquests.chapter.tinkers_construct.quest7866562323653581737.description1}"]
 			id: "6D2BA4C128D7DBA9"
 			optional: true
 			rewards: [
@@ -3496,7 +3496,7 @@
 		}
 		{
 			dependencies: ["6E746849EB9360D7"]
-			description: ["One of the five &6cakes&r in this mod, this one gives you &dreturning&r, this &beffect&r allows you to &emove around&r then when the affect ends, it &9teleports&r you back to where you &6first got&r the &beffect.&r"]
+			description: ["{ftbquests.chapter.tinkers_construct.quest8562043525446994327.description1}"]
 			id: "76D27D3905B38997"
 			optional: true
 			rewards: [
@@ -3535,7 +3535,7 @@
 		}
 		{
 			dependencies: ["6D2BA4C128D7DBA9"]
-			description: ["One of the five &6cakes&r in this mod, this one gives you &6fire resistance&r."]
+			description: ["{ftbquests.chapter.tinkers_construct.quest7959101108164714711.description1}"]
 			id: "6E746849EB9360D7"
 			optional: true
 			rewards: [
@@ -3574,7 +3574,7 @@
 		}
 		{
 			dependencies: ["6D02F65F8994ECA0"]
-			description: ["Simple &athrowables&r made from either &0flint&r for &9knockback&r or &bquartz&r for &cdamage.&r"]
+			description: ["{ftbquests.chapter.tinkers_construct.quest5406473819147588425.description1}"]
 			id: "4B07A74B35BDD349"
 			rewards: [
 				{
@@ -3617,13 +3617,13 @@
 				}
 				type: "item"
 			}]
-			title: "Shuriken"
+			title: "{ftbquests.chapter.tinkers_construct.quest5406473819147588425.title}"
 			x: -6.5d
 			y: 0.0d
 		}
 		{
 			dependencies: ["36D18517BF55CE74"]
-			description: ["&eGolden apples&r are a thing of the past, you want &9Jeweled apples&r! These are apples coated with &bmolten diamond&r in a &ccasting table&r. &eGolden apples&r may by superior in &6general combat&r due to its &dhealing effects&r, but you will want &9Jeweled apples&r for general purpose and mining as they give &6haste.&r"]
+			description: ["{ftbquests.chapter.tinkers_construct.quest5317590266026664989.description1}"]
 			id: "49CBE02C5398241D"
 			rewards: [
 				{
@@ -3649,7 +3649,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Don't forget the Notch apple!!!"
+			subtitle: "{ftbquests.chapter.tinkers_construct.quest5317590266026664989.subtitle}"
 			tasks: [{
 				id: "65015BEEEA567CAB"
 				item: {
@@ -3668,7 +3668,7 @@
 		}
 		{
 			dependencies: ["6D02F65F8994ECA0"]
-			description: ["This is a &cthrowable bomb&r made from flint and &0gunpowder,&r great for &cdestroying&r &ablocks&r and &eplayers.&r"]
+			description: ["{ftbquests.chapter.tinkers_construct.quest679887271045060064.description1}"]
 			hide_until_deps_complete: true
 			id: "096F71DEEDF355E0"
 			rewards: [
@@ -3691,7 +3691,7 @@
 				}
 			]
 			shape: "octagon"
-			subtitle: "Pretty much a gernade "
+			subtitle: "{ftbquests.chapter.tinkers_construct.quest679887271045060064.subtitle}"
 			tasks: [{
 				id: "13E9B080CBD095B8"
 				item: {
@@ -3710,7 +3710,7 @@
 		}
 		{
 			dependencies: ["0B6AEE7A98A236F3"]
-			description: ["Essentially &9Diamond armor&r with more &aupgrade slots&r and some &6knockback resistance&r."]
+			description: ["{ftbquests.chapter.tinkers_construct.quest8379453296319004757.description1}"]
 			id: "7449CC6073120055"
 			rewards: [
 				{
@@ -3764,7 +3764,7 @@
 		}
 		{
 			dependencies: ["0B6AEE7A98A236F3"]
-			description: ["Crafted by pouring &9cobalt&r onto a &6plate shield&r, this is an &bamazing shield&r with more &aupgrade slots&r."]
+			description: ["{ftbquests.chapter.tinkers_construct.quest1645558530570384884.description1}"]
 			id: "16D632C3D7C2F5F4"
 			rewards: [
 				{
@@ -3826,7 +3826,7 @@
 		}
 		{
 			dependencies: ["03D428D3BB5C4C60"]
-			description: ["Crafted by &efilling casts&r with &biron&r at the &csmeltery&r then assembled at a &9tinker station&r, you can finally have &dpure iron tools&r."]
+			description: ["{ftbquests.chapter.tinkers_construct.quest6595064537686840726.description1}"]
 			hide_dependency_lines: true
 			id: "5B8660413F999596"
 			invisible: true
@@ -3920,12 +3920,12 @@
 			]
 			tasks: [{
 				id: "2BC09F9E8E36D55D"
-				title: "More cake"
+				title: "{ftbquests.chapter.tinkers_construct.quest2823888652124873055.task.3152695242498954589.title}"
 				type: "checkmark"
 			}]
 			x: -11.0d
 			y: 0.4d
 		}
 	]
-	title: "Tinkers' Construct"
+	title: "{ftbquests.chapter.tinkers_construct.title}"
 }

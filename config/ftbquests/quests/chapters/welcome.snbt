@@ -57,7 +57,7 @@
 		{
 			click: "#6BD02BDE3155F746"
 			height: 3.0d
-			hover: ["Shop"]
+			hover: ["ftbquests.chapter.welcome.image.hovertext1"]
 			image: "kubejs:item/ascended_coin"
 			rotation: 0.0d
 			width: 3.0d
@@ -67,7 +67,7 @@
 		{
 			click: "#6BD02BDE3155F746"
 			height: 3.0d
-			hover: ["Shop"]
+			hover: ["ftbquests.chapter.welcome.image.hovertext2"]
 			image: "kubejs:item/apotheotic_coin"
 			rotation: 0.0d
 			width: 3.0d
@@ -77,7 +77,7 @@
 		{
 			click: "#6BD02BDE3155F746"
 			height: 3.0d
-			hover: ["Shop"]
+			hover: ["ftbquests.chapter.welcome.image.hovertext3"]
 			image: "kubejs:item/infused_coin"
 			rotation: 0.0d
 			width: 3.0d
@@ -107,7 +107,7 @@
 	quest_links: [ ]
 	quests: [
 		{
-			description: ["Welcome!"]
+			description: ["{ftbquests.chapter.welcome.quest2575421076840355700.description1}"]
 			id: "23BDBBD3001F9774"
 			rewards: [
 				{
@@ -133,10 +133,10 @@
 			size: 2.0d
 			tasks: [{
 				id: "6CB3ED756B23BE88"
-				title: "Ready?"
+				title: "{ftbquests.chapter.welcome.quest2575421076840355700.task.7832865265491885704.title}"
 				type: "checkmark"
 			}]
-			title: "Welcome"
+			title: "{ftbquests.chapter.welcome.quest2575421076840355700.title}"
 			x: -1.0d
 			y: -10.0d
 		}
@@ -158,16 +158,16 @@
 					type: "item"
 				}
 			]
-			subtitle: "Plant the sapling and get some logs. Spam shift to bonemeal"
+			subtitle: "{ftbquests.chapter.welcome.quest3459242727924222379.subtitle}"
 			tasks: [{
 				count: 3L
 				icon: "minecraft:oak_log"
 				id: "1BB08F6BC4167067"
 				item: "minecraft:oak_log"
-				title: "Any #minecraft:logs"
+				title: "{ftbquests.chapter.welcome.quest3459242727924222379.task.1995252327939207271.title}"
 				type: "item"
 			}]
-			title: "Where it all began"
+			title: "{ftbquests.chapter.welcome.quest3459242727924222379.title}"
 			x: 0.5d
 			y: -8.5d
 		}
@@ -193,7 +193,7 @@
 				item: "solarflux:sp_1"
 				type: "item"
 			}]
-			title: "First Energy"
+			title: "{ftbquests.chapter.welcome.quest2725018887447963587.title}"
 			x: 11.5d
 			y: -5.0d
 		}
@@ -214,13 +214,13 @@
 					type: "item"
 				}
 			]
-			subtitle: "2x2 pebble = 1 Cobblestone"
+			subtitle: "{ftbquests.chapter.welcome.quest4572660320769949275.subtitle}"
 			tasks: [{
 				id: "4AE51A3A3D9B6E3A"
 				item: "minecraft:cobblestone"
 				type: "item"
 			}]
-			title: "Stone"
+			title: "{ftbquests.chapter.welcome.quest4572660320769949275.title}"
 			x: 0.5d
 			y: -7.0d
 		}
@@ -256,20 +256,20 @@
 				}
 				type: "item"
 			}]
-			title: "Crook"
+			title: "{ftbquests.chapter.welcome.quest8380765134756511558.title}"
 			x: 3.0d
 			y: -8.5d
 		}
 		{
 			dependencies: ["3F755A55B2043E5B"]
 			description: [
-				"You will get 2x the resources for hammering the blocks down manually :)"
+				"{ftbquests.chapter.welcome.quest3886387790316060820.description1}"
 				""
-				"1 Cobblestone --> 2 Gravel"
-				"1 Gravel --> 2 Sand"
-				"1 Sand --> 2 Dust"
+				"{ftbquests.chapter.welcome.quest3886387790316060820.description2}"
+				"{ftbquests.chapter.welcome.quest3886387790316060820.description3}"
+				"{ftbquests.chapter.welcome.quest3886387790316060820.description4}"
 				""
-				"That will speed up the early game"
+				"{ftbquests.chapter.welcome.quest3886387790316060820.description5}"
 			]
 			id: "35EF391AB5344094"
 			rewards: [
@@ -290,7 +290,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Place the cobble and hammer it down"
+			subtitle: "{ftbquests.chapter.welcome.quest3886387790316060820.subtitle}"
 			tasks: [{
 				id: "596CB9CDB4192339"
 				item: {
@@ -302,7 +302,7 @@
 				}
 				type: "item"
 			}]
-			title: "Hammer time"
+			title: "{ftbquests.chapter.welcome.quest3886387790316060820.title}"
 			x: 3.0d
 			y: -7.0d
 		}
@@ -327,7 +327,7 @@
 				item: "minecraft:string"
 				type: "item"
 			}]
-			title: "String"
+			title: "{ftbquests.chapter.welcome.quest5355737702993516274.title}"
 			x: 4.5d
 			y: -8.5d
 		}
@@ -369,7 +369,7 @@
 					type: "item"
 				}
 			]
-			title: "Mesh"
+			title: "{ftbquests.chapter.welcome.quest8543062898166323684.title}"
 			x: 6.5d
 			y: -8.5d
 		}
@@ -394,7 +394,7 @@
 					elevate_perms: true
 					icon: "draconicevolution:dragon_heart"
 					id: "035BC1E95467477D"
-					title: "Your first friend :)"
+					title: "{ftbquests.chapter.welcome.quest1283025815629559903.reward.242000212882048893.title}"
 					type: "command"
 				}
 			]
@@ -404,7 +404,7 @@
 				item: "minecraft:gravel"
 				type: "item"
 			}]
-			title: "Time to get some gravel"
+			title: "{ftbquests.chapter.welcome.quest1283025815629559903.title}"
 			x: 3.0d
 			y: -6.0d
 		}
@@ -438,7 +438,7 @@
 					type: "item"
 				}
 			]
-			title: "Flint Mesh"
+			title: "{ftbquests.chapter.welcome.quest3238350211089823025.title}"
 			x: 6.5d
 			y: -5.0d
 		}
@@ -464,7 +464,7 @@
 				item: "exdeorum:iron_mesh"
 				type: "item"
 			}]
-			title: "Iron Mesh"
+			title: "{ftbquests.chapter.welcome.quest1227650439117424909.title}"
 			x: 6.5d
 			y: -4.0d
 		}
@@ -489,7 +489,7 @@
 				item: "exdeorum:golden_mesh"
 				type: "item"
 			}]
-			title: "Gold Mesh"
+			title: "{ftbquests.chapter.welcome.quest7314088397391043522.title}"
 			x: 8.0d
 			y: -4.0d
 		}
@@ -538,7 +538,7 @@
 					type: "item"
 				}
 			]
-			title: "Furnace"
+			title: "{ftbquests.chapter.welcome.quest2528601593168401079.title}"
 			x: 9.5d
 			y: -5.0d
 		}
@@ -565,7 +565,7 @@
 				item: "exdeorum:oak_barrel"
 				type: "item"
 			}]
-			title: "Barrel"
+			title: "{ftbquests.chapter.welcome.quest4765947418598050120.title}"
 			x: 3.0d
 			y: -10.0d
 		}
@@ -598,7 +598,7 @@
 					type: "item"
 				}
 			]
-			title: "Clay"
+			title: "{ftbquests.chapter.welcome.quest6050500260161808748.title}"
 			x: 5.5d
 			y: -10.0d
 		}
@@ -640,7 +640,7 @@
 					type: "item"
 				}
 			]
-			title: "Crucible"
+			title: "{ftbquests.chapter.welcome.quest4658012827713774477.title}"
 			x: 7.5d
 			y: -13.0d
 		}
@@ -681,7 +681,7 @@
 				id: "1C50BB96A8128D96"
 				type: "checkmark"
 			}]
-			title: "Headstart"
+			title: "{ftbquests.chapter.welcome.quest3175967769399669767.title}"
 			x: -5.5d
 			y: -7.5d
 		}
@@ -702,13 +702,13 @@
 					type: "item"
 				}
 			]
-			subtitle: "Check heat sources"
+			subtitle: "{ftbquests.chapter.welcome.quest8417599848683984431.subtitle}"
 			tasks: [{
 				id: "7F1EEFBE68C82523"
-				title: "Crucible heat sources!"
+				title: "{ftbquests.chapter.welcome.quest8417599848683984431.task.9160022293198939427.title}"
 				type: "checkmark"
 			}]
-			title: "Heat"
+			title: "{ftbquests.chapter.welcome.quest8417599848683984431.title}"
 			x: 7.5d
 			y: -16.0d
 		}
@@ -726,13 +726,13 @@
 				id: "2019707AE4DAC703"
 				type: "checkmark"
 			}]
-			title: "Emergency"
+			title: "{ftbquests.chapter.welcome.quest3024206127706087430.title}"
 			x: -5.5d
 			y: -6.5d
 		}
 		{
 			dependencies: ["42240BED17BA0948"]
-			description: ["Milk + Water inside a barrel = Smile Block"]
+			description: ["{ftbquests.chapter.welcome.quest4657692213852061571.description1}"]
 			icon: "minecraft:slime_ball"
 			id: "40A3726417C13F83"
 			rewards: [
@@ -753,7 +753,7 @@
 				item: "minecraft:slime_block"
 				type: "item"
 			}]
-			title: "Slime"
+			title: "{ftbquests.chapter.welcome.quest4657692213852061571.title}"
 			x: 4.5d
 			y: -11.0d
 		}
@@ -779,7 +779,7 @@
 				item: "exdeorum:diamond_mesh"
 				type: "item"
 			}]
-			title: "Diamond Mesh"
+			title: "{ftbquests.chapter.welcome.quest4072708082078024547.title}"
 			x: 8.0d
 			y: -3.0d
 		}
@@ -792,13 +792,13 @@
 				item: "kubejs:apotheotic_coin"
 				type: "item"
 			}]
-			subtitle: "Put the leaves in the Wodden Crucible and get some water"
+			subtitle: "{ftbquests.chapter.welcome.quest3987307909000198037.subtitle}"
 			tasks: [{
 				id: "17626A5DBEBE5CB5"
 				item: "exdeorum:oak_crucible"
 				type: "item"
 			}]
-			title: "Crucible"
+			title: "{ftbquests.chapter.welcome.quest3987307909000198037.title}"
 			x: 4.5d
 			y: -3.0d
 		}
@@ -828,7 +828,7 @@
 				}
 				type: "item"
 			}]
-			title: "Shears"
+			title: "{ftbquests.chapter.welcome.quest6095945376971177129.title}"
 			x: 4.5d
 			y: -5.0d
 		}
@@ -852,7 +852,7 @@
 				item: "minecraft:bone_meal"
 				type: "item"
 			}]
-			title: "Bone Meal"
+			title: "{ftbquests.chapter.welcome.quest2729858306889455915.title}"
 			x: 6.0d
 			y: -13.0d
 		}
@@ -871,7 +871,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Shear some leaves"
+			subtitle: "{ftbquests.chapter.welcome.quest2233232891835997197.subtitle}"
 			tasks: [{
 				id: "5674B09AC991D7EB"
 				item: {
@@ -881,10 +881,10 @@
 						value: "minecraft:leaves"
 					}
 				}
-				title: "Any #minecraft:leaves"
+				title: "{ftbquests.chapter.welcome.quest2233232891835997197.task.6229798363413469163.title}"
 				type: "item"
 			}]
-			title: "Leaves, Leaves, Leaves"
+			title: "{ftbquests.chapter.welcome.quest2233232891835997197.title}"
 			x: 4.5d
 			y: -4.0d
 		}
@@ -911,7 +911,7 @@
 				item: "minecraft:lava_bucket"
 				type: "item"
 			}]
-			title: "Lava"
+			title: "{ftbquests.chapter.welcome.quest7837820439090179174.title}"
 			x: 8.5d
 			y: -14.5d
 		}
@@ -938,7 +938,7 @@
 				item: "mysticalagriculture:inferium_essence"
 				type: "item"
 			}]
-			title: "Your first Inferium Essence"
+			title: "{ftbquests.chapter.welcome.quest5967094467589952498.title}"
 			x: 3.0d
 			y: -17.0d
 		}
@@ -984,7 +984,7 @@
 		}
 		{
 			dependencies: ["0DE706CEFF3D04DC"]
-			description: ["place a stone barrel on top of a block of mycelium and input water."]
+			description: ["{ftbquests.chapter.welcome.quest4263876490132200915.description1}"]
 			id: "3B2C5513A8781DD3"
 			rewards: [{
 				id: "27D46D2646731D70"
@@ -1032,15 +1032,15 @@
 				}
 				type: "item"
 			}]
-			title: "Witchwater"
+			title: "{ftbquests.chapter.welcome.quest201686393360254235.title}"
 			x: 3.0d
 			y: -14.0d
 		}
 		{
 			dependencies: ["768F0E715B05D9E4"]
 			description: [
-				"you can right click dirt to turn it into a grass or mycelium block"
-				"thats a easy way to spawn passive mobs or to get witch water"
+				"{ftbquests.chapter.welcome.quest3505427747946399807.description1}"
+				"{ftbquests.chapter.welcome.quest3505427747946399807.description2}"
 			]
 			id: "30A5C7F6D624883F"
 			rewards: [{
@@ -1105,7 +1105,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "hold shift and rightclick the grass"
+			subtitle: "{ftbquests.chapter.welcome.quest4059616832753752310.subtitle}"
 			tasks: [{
 				count: 64L
 				id: "2B0618FC9B055FEE"
@@ -1132,13 +1132,13 @@
 				item: "minecraft:water_bucket"
 				type: "item"
 			}]
-			title: "Water is life"
+			title: "{ftbquests.chapter.welcome.quest2205883173760515046.title}"
 			x: 4.0d
 			y: -1.0d
 		}
 		{
 			dependencies: ["01FEB5D4F5ADD557"]
-			description: ["Multiblock for sieving a lot of gravel/ sand/ dust."]
+			description: ["{ftbquests.chapter.welcome.quest1112753807742499910.description1}"]
 			icon: "mm:auto_sieve_controller"
 			id: "0F714BB148F47C46"
 			rewards: [
@@ -1364,13 +1364,13 @@
 				item: "jamd:portal_block"
 				type: "item"
 			}]
-			title: "New best friend"
+			title: "{ftbquests.chapter.welcome.quest6077331191014858412.title}"
 			x: 8.5d
 			y: -17.5d
 		}
 		{
 			dependencies: ["53F7B1EE005A696C"]
-			description: ["You can upgrade the Botany Pots to auto insert the Items inside a chest. Botany Pot + Hopper"]
+			description: ["{ftbquests.chapter.welcome.quest700337082188070908.description1}"]
 			id: "09B818DD9EDA7FFC"
 			rewards: [{
 				id: "511E5D109F2B4179"
@@ -1457,7 +1457,7 @@
 					type: "item"
 				}
 			]
-			title: "Mob Farm?"
+			title: "{ftbquests.chapter.welcome.quest9062311095884946329.title}"
 			x: 4.5d
 			y: -7.0d
 		}
@@ -1489,7 +1489,7 @@
 					type: "item"
 				}
 			]
-			title: "Hunting Dimension"
+			title: "{ftbquests.chapter.welcome.quest662596697156285574.title}"
 			x: 1.0d
 			y: -18.0d
 		}
@@ -1641,18 +1641,18 @@
 		{
 			dependencies: ["0E519EB534A90450"]
 			description: [
-				"&4You dont have to use the Cakes. The Nether Portal is not disabled.&r"
+				"{ftbquests.chapter.welcome.quest7602217742565107196.description1}"
 				""
-				"Place the Nether Cake on your island and right click it with a empty hand. You should place the Overworld Cake in the Nether."
+				"{ftbquests.chapter.welcome.quest7602217742565107196.description2}"
 				""
-				"You can refill the Cakes with some items."
+				"{ftbquests.chapter.welcome.quest7602217742565107196.description3}"
 				""
-				"Overworld Cake: Sapling"
-				"Nether Cake: Obsidian"
-				"End Cake: Ender Eye"
-				"Hunting Dimension Cake: Arrow"
-				"Lost Cities Cake: Beds"
-				"Twillight Dimension Cake: Diamonds"
+				"{ftbquests.chapter.welcome.quest7602217742565107196.description4}"
+				"{ftbquests.chapter.welcome.quest7602217742565107196.description5}"
+				"{ftbquests.chapter.welcome.quest7602217742565107196.description6}"
+				"{ftbquests.chapter.welcome.quest7602217742565107196.description7}"
+				"{ftbquests.chapter.welcome.quest7602217742565107196.description8}"
+				"{ftbquests.chapter.welcome.quest7602217742565107196.description9}"
 			]
 			icon: "telepastries:nether_cake"
 			id: "698080C232C3E5FC"
@@ -1756,18 +1756,18 @@
 						}
 					}
 					id: "6D8469EFAF4121D1"
-					title: "Kill the Wither"
+					title: "{ftbquests.chapter.welcome.quest8734835513648297641.task.7891548925218333137.title}"
 					type: "kill"
 					value: 1L
 				}
 			]
-			title: "Kill the Wither"
+			title: "{ftbquests.chapter.welcome.quest8734835513648297641.title}"
 			x: 11.5d
 			y: 0.5d
 		}
 		{
 			dependencies: ["76779A876D143D34"]
-			description: ["{image:kubejs:block/screen/dynamic_dungeon_portal width:250 height:175 align:center}"]
+			description: ["{ftbquests.chapter.welcome.quest3158608245371644075.image0}"]
 			id: "2BD5A176D1FF28AB"
 			rewards: [{
 				id: "2A648285011CC925"
@@ -1787,10 +1787,10 @@
 					type: "item"
 				}
 			]
-			title: "Dungeon Pass"
+			title: "{ftbquests.chapter.welcome.quest3158608245371644075.title}"
 			x: 15.5d
 			y: -1.0d
 		}
 	]
-	title: "Early Game"
+	title: "{ftbquests.chapter.welcome.title}"
 }

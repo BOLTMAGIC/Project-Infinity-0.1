@@ -21,6 +21,6 @@
 		{ count: 2, item: "botania:mana_glass", random_bonus: 2 }
 		{ item: "botania:black_lotus", weight: 0.1f }
 	]
-	title: "&bCommon Mana Materials Loot Bag&r"
+	title: "{ftbquests.loot_table.5354288240016506720.title}"
 	use_title: true
 }

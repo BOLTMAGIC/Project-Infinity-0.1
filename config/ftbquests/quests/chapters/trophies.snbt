@@ -115,7 +115,7 @@
 			]
 			shape: "rsquare"
 			size: 2.0d
-			subtitle: "Hunting Dimension"
+			subtitle: "{ftbquests.chapter.trophies.quest871209496946822165.subtitle}"
 			tasks: [{
 				entity: "cataclysm:the_leviathan"
 				icon: {
@@ -180,7 +180,7 @@
 			}]
 			shape: "rsquare"
 			size: 2.0d
-			subtitle: "End Dimension"
+			subtitle: "{ftbquests.chapter.trophies.quest651673107298720815.subtitle}"
 			tasks: [{
 				consume_items: false
 				id: "4D960D843D196E12"
@@ -283,7 +283,7 @@
 			}]
 			shape: "rsquare"
 			size: 2.0d
-			subtitle: "Lost Cities"
+			subtitle: "{ftbquests.chapter.trophies.quest1850212651860189803.subtitle}"
 			tasks: [{
 				consume_items: false
 				id: "2996F643A889BE33"
@@ -417,7 +417,7 @@
 			}]
 			shape: "rsquare"
 			size: 2.0d
-			subtitle: "Hunting Dimension"
+			subtitle: "{ftbquests.chapter.trophies.quest4762279976941095504.subtitle}"
 			tasks: [{
 				consume_items: false
 				id: "1BEAE18014D96BC2"
@@ -647,7 +647,7 @@
 			}]
 			shape: "rsquare"
 			size: 2.0d
-			subtitle: "Hunting Dimension"
+			subtitle: "{ftbquests.chapter.trophies.quest5730304800161792499.subtitle}"
 			tasks: [{
 				consume_items: false
 				id: "490AC22321279129"
@@ -747,7 +747,7 @@
 			}]
 			shape: "rsquare"
 			size: 2.0d
-			subtitle: "Nether Dimension"
+			subtitle: "{ftbquests.chapter.trophies.quest1687216292866735963.subtitle}"
 			tasks: [{
 				consume_items: false
 				id: "12BAA128B30B42E4"
@@ -1048,7 +1048,7 @@
 			}]
 			shape: "rsquare"
 			size: 2.0d
-			subtitle: "Nether Dimension"
+			subtitle: "{ftbquests.chapter.trophies.quest5788694381609632577.subtitle}"
 			tasks: [{
 				consume_items: false
 				id: "60E3DD68D17F87FB"
@@ -1083,7 +1083,7 @@
 			}]
 			shape: "rsquare"
 			size: 2.0d
-			subtitle: "End Dimension"
+			subtitle: "{ftbquests.chapter.trophies.quest1650485185011254784.subtitle}"
 			tasks: [{
 				consume_items: false
 				id: "20F4F0B36FC557EE"
@@ -1220,7 +1220,7 @@
 			}]
 			shape: "rsquare"
 			size: 2.0d
-			subtitle: "Lost Cities"
+			subtitle: "{ftbquests.chapter.trophies.quest1534638918427556127.subtitle}"
 			tasks: [{
 				consume_items: false
 				id: "147744672A0CB816"
@@ -1378,5 +1378,5 @@
 			y: 0.0d
 		}
 	]
-	title: "Trophies"
+	title: "{ftbquests.chapter.trophies.title}"
 }

@@ -11,13 +11,13 @@
 		{
 			dependencies: ["7AD0A09E83F4D09C"]
 			description: [
-				"Go to the Bedrock level."
+				"{ftbquests.chapter.flux_networks.quest4871888063546408241.description1}"
 				""
-				"Place a obsidian above it, leaving one block space in between."
+				"{ftbquests.chapter.flux_networks.quest4871888063546408241.description2}"
 				""
-				"Throw as much redstone dust in the gap left by the Bedrock and Obsidian as you want."
+				"{ftbquests.chapter.flux_networks.quest4871888063546408241.description3}"
 				""
-				"Left-click the Obsidian. The Obsidian will crush the Redstone Dust against the Bedrock and create Flux!"
+				"{ftbquests.chapter.flux_networks.quest4871888063546408241.description4}"
 			]
 			id: "439C6C61A5263D31"
 			min_width: 300
@@ -39,7 +39,7 @@
 				item: "fluxnetworks:flux_dust"
 				type: "item"
 			}]
-			title: "&fFlux"
+			title: "{ftbquests.chapter.flux_networks.quest4871888063546408241.title}"
 			x: -4.0d
 			y: -3.0d
 		}
@@ -57,7 +57,7 @@
 				item: "fluxnetworks:flux_configurator"
 				type: "item"
 			}]
-			title: "&fFlux Configurator"
+			title: "{ftbquests.chapter.flux_networks.quest1608316222648314301.title}"
 			x: -4.0d
 			y: -1.5d
 		}
@@ -81,16 +81,16 @@
 				item: "fluxnetworks:flux_block"
 				type: "item"
 			}]
-			title: "&fFlux Block"
+			title: "{ftbquests.chapter.flux_networks.quest8836497053551335634.title}"
 			x: 0.0d
 			y: -3.0d
 		}
 		{
 			dependencies: ["7AA18B409FB698D2"]
 			description: [
-				"Used to Store Energy in the network"
+				"{ftbquests.chapter.flux_networks.quest1972657033718219899.description1}"
 				""
-				"Energy Capacity: 2,000,000 FE"
+				"{ftbquests.chapter.flux_networks.quest1972657033718219899.description2}"
 			]
 			id: "1B60491EDE73447B"
 			min_width: 330
@@ -101,13 +101,13 @@
 			}]
 			shape: "diamond"
 			size: 1.0d
-			subtitle: "Tier 1"
+			subtitle: "{ftbquests.chapter.flux_networks.quest1972657033718219899.subtitle}"
 			tasks: [{
 				id: "000430BA08919240"
 				item: "fluxnetworks:basic_flux_storage"
 				type: "item"
 			}]
-			title: "&fFlux Storage"
+			title: "{ftbquests.chapter.flux_networks.quest1972657033718219899.title}"
 			x: 1.5d
 			y: -3.0d
 		}
@@ -134,7 +134,7 @@
 				item: "fluxnetworks:flux_plug"
 				type: "item"
 			}]
-			title: "&fFlux Plug"
+			title: "{ftbquests.chapter.flux_networks.quest8857158665387759186.title}"
 			x: -2.5d
 			y: -4.0d
 		}
@@ -160,7 +160,7 @@
 				item: "fluxnetworks:flux_point"
 				type: "item"
 			}]
-			title: "&fFlux Point"
+			title: "{ftbquests.chapter.flux_networks.quest7970070397776683911.title}"
 			x: -1.5d
 			y: -4.0d
 		}
@@ -184,13 +184,13 @@
 				item: "fluxnetworks:flux_controller"
 				type: "item"
 			}]
-			title: "&fFlux Controller"
+			title: "{ftbquests.chapter.flux_networks.quest2026986884992384589.title}"
 			x: -2.0d
 			y: -1.5d
 		}
 		{
 			dependencies: ["1B60491EDE73447B"]
-			description: ["Energy Capacity: 16,000,000&r FE"]
+			description: ["{ftbquests.chapter.flux_networks.quest5531029206610919765.description1}"]
 			id: "4CC229C23E5AC155"
 			rewards: [{
 				id: "04B53CCA9C85763E"
@@ -199,7 +199,7 @@
 			}]
 			shape: "diamond"
 			size: 1.0d
-			subtitle: "Tier 2"
+			subtitle: "{ftbquests.chapter.flux_networks.quest5531029206610919765.subtitle}"
 			tasks: [{
 				id: "28F65D4F11F6AA7B"
 				item: "fluxnetworks:herculean_flux_storage"
@@ -210,7 +210,7 @@
 		}
 		{
 			dependencies: ["4CC229C23E5AC155"]
-			description: ["Energy Capacity: 128,000,000 FE"]
+			description: ["{ftbquests.chapter.flux_networks.quest7531953671921309523.description1}"]
 			id: "6886DFF567919753"
 			rewards: [{
 				id: "62581571F3835125"
@@ -219,7 +219,7 @@
 			}]
 			shape: "diamond"
 			size: 1.0d
-			subtitle: "Tier 3"
+			subtitle: "{ftbquests.chapter.flux_networks.quest7531953671921309523.subtitle}"
 			tasks: [{
 				id: "0E8AC367918AD54F"
 				item: "fluxnetworks:gargantuan_flux_storage"
@@ -229,7 +229,7 @@
 			y: -3.0d
 		}
 		{
-			description: ["Welcome to the world of wireless power! Flux Networks lets you send, receive, and store energy across dimensions without cables. No more messy wires!"]
+			description: ["{ftbquests.chapter.flux_networks.quest8849749870462161052.description1}"]
 			icon: "fluxnetworks:admin_configurator"
 			id: "7AD0A09E83F4D09C"
 			min_width: 300
@@ -244,13 +244,13 @@
 				id: "0A5DAF2F42E5BEB5"
 				type: "checkmark"
 			}]
-			title: "Welcome to Flux Networks"
+			title: "{ftbquests.chapter.flux_networks.quest8849749870462161052.title}"
 			x: -4.0d
 			y: -6.0d
 		}
 		{
 			dependencies: ["439C6C61A5263D31"]
-			description: ["key crafting ingredient of the mod"]
+			description: ["{ftbquests.chapter.flux_networks.quest5216390974106377513.description1}"]
 			id: "486457F40D2A1D29"
 			rewards: [
 				{
@@ -270,10 +270,10 @@
 				item: "fluxnetworks:flux_core"
 				type: "item"
 			}]
-			title: "&fFlux Core"
+			title: "{ftbquests.chapter.flux_networks.quest5216390974106377513.title}"
 			x: -2.0d
 			y: -3.0d
 		}
 	]
-	title: "Flux Networks"
+	title: "{ftbquests.chapter.flux_networks.title}"
 }

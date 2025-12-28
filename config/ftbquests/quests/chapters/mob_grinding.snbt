@@ -10,7 +10,7 @@
 	quests: [
 		{
 			dependencies: ["24CF73443031CEAE"]
-			description: ["Right click on a chicken to get Golden Egg."]
+			description: ["{ftbquests.chapter.mob_grinding.quest2378243403204568715.description1}"]
 			id: "210137C6556CA68B"
 			rewards: [{
 				id: "77B1EE37A7B30114"
@@ -27,7 +27,7 @@
 		}
 		{
 			dependencies: ["24CF73443031CEAE"]
-			description: ["Right click on a chicken to get Rotten Egg."]
+			description: ["{ftbquests.chapter.mob_grinding.quest6728939617165824766.description1}"]
 			id: "5D61FEEE2C38D2FE"
 			rewards: [{
 				id: "4A0DAB4156C393D6"
@@ -45,12 +45,12 @@
 		{
 			dependencies: ["210137C6556CA68B"]
 			description: [
-				"Use on dirt to create Delightful Dirt."
-				"(make a 5x5 of dirt and use it in the middle)"
+				"{ftbquests.chapter.mob_grinding.quest2655880571149608686.description1}"
+				"{ftbquests.chapter.mob_grinding.quest2655880571149608686.description2}"
 				""
-				"Passive mobs spawn on this."
+				"{ftbquests.chapter.mob_grinding.quest2655880571149608686.description3}"
 				""
-				"As time goes on it will grow grass and the like, if all the Delightful Dirt is covered, it will not spawn passive mobs so make sure to check on that."
+				"{ftbquests.chapter.mob_grinding.quest2655880571149608686.description4}"
 			]
 			id: "24DB954ED93BE6EE"
 			rewards: [{
@@ -69,13 +69,13 @@
 		{
 			dependencies: ["5D61FEEE2C38D2FE"]
 			description: [
-				"Use on dirt to create Dreadful Dirt."
-				"(make a 5x5 of dirt and use it in the middle)"
+				"{ftbquests.chapter.mob_grinding.quest4054424939239477848.description1}"
+				"{ftbquests.chapter.mob_grinding.quest4054424939239477848.description2}"
 				""
-				"Hostile mobs spawn on this."
+				"{ftbquests.chapter.mob_grinding.quest4054424939239477848.description3}"
 				""
-				"They will only spawn if there is no light."
-				"You could use Tinted Glass to see them spawn."
+				"{ftbquests.chapter.mob_grinding.quest4054424939239477848.description4}"
+				"{ftbquests.chapter.mob_grinding.quest4054424939239477848.description5}"
 			]
 			id: "384436003FDA9258"
 			rewards: [{
@@ -92,7 +92,7 @@
 			y: 4.0d
 		}
 		{
-			description: ["Push mobs. Need redstone signal."]
+			description: ["{ftbquests.chapter.mob_grinding.quest2297790580147054751.description1}"]
 			id: "1FE3645BC1E7689F"
 			rewards: [{
 				id: "4FE5E05A7EE6A176"
@@ -124,7 +124,7 @@
 			y: 5.0d
 		}
 		{
-			description: ["Absorbs any items and XP in the area."]
+			description: ["{ftbquests.chapter.mob_grinding.quest9088276254373574404.description1}"]
 			id: "7E200B1A028DF704"
 			rewards: [{
 				id: "1589F0BA39A0F8CA"
@@ -157,7 +157,7 @@
 			y: 5.0d
 		}
 		{
-			description: ["A simple fluid storage."]
+			description: ["{ftbquests.chapter.mob_grinding.quest1380775145282288260.description1}"]
 			id: "13297FADD13D3A84"
 			rewards: [{
 				id: "477391B84AA37600"
@@ -207,7 +207,7 @@
 			y: 4.0d
 		}
 		{
-			description: ["Attacks anything that comes in contact with it."]
+			description: ["{ftbquests.chapter.mob_grinding.quest6585823492835730461.description1}"]
 			id: "5B658B92D3E5641D"
 			rewards: [{
 				id: "24A53725A4767287"
@@ -327,7 +327,7 @@
 		}
 		{
 			dependencies: ["13297FADD13D3A84"]
-			description: ["Put it on XP fluid tank to extract XP."]
+			description: ["{ftbquests.chapter.mob_grinding.quest419476041304543092.description1}"]
 			id: "05D2473CB1BE8F74"
 			rewards: [{
 				id: "602C1752EC984164"
@@ -344,7 +344,7 @@
 		}
 		{
 			dependencies: ["13297FADD13D3A84"]
-			description: ["Transfer your xp to the tank by standing on it."]
+			description: ["{ftbquests.chapter.mob_grinding.quest2668199402108582792.description1}"]
 			id: "2507593830977B88"
 			rewards: [{
 				id: "3E653D6E079C2996"
@@ -376,7 +376,7 @@
 			y: 4.0d
 		}
 		{
-			description: ["Glass that doesn't let light through."]
+			description: ["{ftbquests.chapter.mob_grinding.quest7671079431010460577.description1}"]
 			id: "6A752619712F23A1"
 			rewards: [{
 				id: "77C4F3D09F6262DC"
@@ -395,8 +395,8 @@
 		{
 			dependencies: ["13297FADD13D3A84"]
 			description: [
-				"Solidifies Fluid XP."
-				"Requires an XP Moult and Fluid XP in its tank."
+				"{ftbquests.chapter.mob_grinding.quest1232007348060224357.description1}"
+				"{ftbquests.chapter.mob_grinding.quest1232007348060224357.description2}"
 			]
 			id: "1118F827D5CCFB65"
 			rewards: [{
@@ -422,8 +422,8 @@
 		{
 			dependencies: ["1118F827D5CCFB65"]
 			description: [
-				"Uses a Mob Egg on the top slot."
-				"Fuelled by solid XP. Create Egg Mob with \"GM Chicken Feed\""
+				"{ftbquests.chapter.mob_grinding.quest3360783494382326551.description1}"
+				"{ftbquests.chapter.mob_grinding.quest3360783494382326551.description2}"
 			]
 			id: "2EA3E6C82DA79317"
 			rewards: [{
@@ -482,7 +482,7 @@
 		}
 		{
 			dependencies: ["13297FADD13D3A84"]
-			description: ["For a just a &l&olittle extra&r fluid storage..."]
+			description: ["{ftbquests.chapter.mob_grinding.quest4326250429603420509.description1}"]
 			id: "3C09EDD821E4995D"
 			rewards: [{
 				id: "2A68D8DDE7DED8DA"
@@ -499,7 +499,7 @@
 		}
 		{
 			dependencies: ["5B658B92D3E5641D"]
-			description: ["A easy way to deactivated teleporting mobs in a small radius"]
+			description: ["{ftbquests.chapter.mob_grinding.quest8959602517852975660.description1}"]
 			id: "7C56E7051D52722C"
 			rewards: [{
 				id: "5C666620CDA51362"
@@ -686,7 +686,7 @@
 				item: "cataclysm:abyssal_egg"
 				type: "item"
 			}]
-			title: "Obtain The Abyssal Egg"
+			title: "{ftbquests.chapter.mob_grinding.quest3864927293747781831.title}"
 			x: -1.5d
 			y: -1.5d
 		}
@@ -746,7 +746,7 @@
 				type: "kill"
 				value: 1L
 			}]
-			title: "Kill the harbinger"
+			title: "{ftbquests.chapter.mob_grinding.quest4422294723971245229.title}"
 			x: 8.0d
 			y: -0.5d
 		}
@@ -774,16 +774,16 @@
 				item: "cataclysm:witherite_ingot"
 				type: "item"
 			}]
-			title: "Obtain Witherite"
+			title: "{ftbquests.chapter.mob_grinding.quest5252265012526081763.title}"
 			x: 8.0d
 			y: -2.0d
 		}
 		{
 			dependencies: ["2EA2F770EFCD342B"]
 			description: [
-				"My personal favorite weapon."
+				"{ftbquests.chapter.mob_grinding.quest8720348856699971083.description1}"
 				""
-				"Haha saw go brrrrr"
+				"{ftbquests.chapter.mob_grinding.quest8720348856699971083.description2}"
 			]
 			id: "7904E7153115E60B"
 			rewards: [
@@ -813,7 +813,7 @@
 				item: "cataclysm:meat_shredder"
 				type: "item"
 			}]
-			title: "Craft the Meat Shredder"
+			title: "{ftbquests.chapter.mob_grinding.quest8720348856699971083.title}"
 			x: 8.0d
 			y: -5.0d
 		}
@@ -845,7 +845,7 @@
 				}
 				type: "item"
 			}]
-			title: "Craft The Laser Gatling"
+			title: "{ftbquests.chapter.mob_grinding.quest4169187333385200097.title}"
 			x: 7.0d
 			y: -5.0d
 		}
@@ -871,7 +871,7 @@
 				item: "cataclysm:wither_assault_shoulder_weapon"
 				type: "item"
 			}]
-			title: "Craft the WASW"
+			title: "{ftbquests.chapter.mob_grinding.quest7061508169305734670.title}"
 			x: 9.0d
 			y: -5.0d
 		}
@@ -896,7 +896,7 @@
 				item: "cataclysm:mechanical_fusion_anvil"
 				type: "item"
 			}]
-			title: "Craft the Mechanical Fusion Anvil"
+			title: "{ftbquests.chapter.mob_grinding.quest3360520336403412011.title}"
 			x: 8.0d
 			y: -3.5d
 		}
@@ -1266,5 +1266,5 @@
 			y: -4.0d
 		}
 	]
-	title: "Mob Grinding"
+	title: "{ftbquests.chapter.mob_grinding.title}"
 }

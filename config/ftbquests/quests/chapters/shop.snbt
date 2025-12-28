@@ -80,7 +80,7 @@
 				type: "item"
 			}]
 			size: 2.0d
-			subtitle: "Allows you to fly. Needs a lot of levels"
+			subtitle: "{ftbquests.chapter.shop.quest9127701270851266623.subtitle}"
 			tasks: [{
 				consume_items: true
 				count: 32L
@@ -88,13 +88,13 @@
 				item: "kubejs:ascended_coin"
 				type: "item"
 			}]
-			title: "Creative Flight"
+			title: "{ftbquests.chapter.shop.quest9127701270851266623.title}"
 			x: -5.0d
 			y: -1.0d
 		}
 		{
 			can_repeat: true
-			description: ["Automatically step up a certain number of blocks depending on the level"]
+			description: ["{ftbquests.chapter.shop.quest7717036434078175540.description1}"]
 			icon: {
 				Count: 1
 				id: "everlastingabilities:ability_totem"
@@ -129,13 +129,13 @@
 				item: "kubejs:apotheotic_coin"
 				type: "item"
 			}]
-			title: "Step Assist"
+			title: "{ftbquests.chapter.shop.quest7717036434078175540.title}"
 			x: -7.0d
 			y: 3.5d
 		}
 		{
 			can_repeat: true
-			description: ["Push away entities you're looking at"]
+			description: ["{ftbquests.chapter.shop.quest4713364924931459433.description1}"]
 			icon: {
 				Count: 1
 				id: "everlastingabilities:ability_totem"
@@ -170,13 +170,13 @@
 				item: "kubejs:apotheotic_coin"
 				type: "item"
 			}]
-			title: "Power Stare"
+			title: "{ftbquests.chapter.shop.quest4713364924931459433.title}"
 			x: -3.0d
 			y: 3.5d
 		}
 		{
 			can_repeat: true
-			description: ["Attract nearby items"]
+			description: ["{ftbquests.chapter.shop.quest8982436092166195407.description1}"]
 			icon: {
 				Count: 1
 				id: "everlastingabilities:ability_totem"
@@ -211,13 +211,13 @@
 				item: "kubejs:infused_coin"
 				type: "item"
 			}]
-			title: "Magnetize"
+			title: "{ftbquests.chapter.shop.quest8982436092166195407.title}"
 			x: -5.5d
 			y: 2.5d
 		}
 		{
 			can_repeat: true
-			description: ["Reduce the cooldown rate when attacking"]
+			description: ["{ftbquests.chapter.shop.quest4670389293020460649.description1}"]
 			icon: {
 				Count: 1
 				id: "everlastingabilities:ability_totem"
@@ -252,13 +252,13 @@
 				item: "kubejs:apotheotic_coin"
 				type: "item"
 			}]
-			title: "Attack Steroids"
+			title: "{ftbquests.chapter.shop.quest4670389293020460649.title}"
 			x: -7.5d
 			y: 4.5d
 		}
 		{
 			can_repeat: true
-			description: ["Animals in the area become fertile"]
+			description: ["{ftbquests.chapter.shop.quest6976399837524779826.description1}"]
 			icon: {
 				Count: 1
 				id: "everlastingabilities:ability_totem"
@@ -293,13 +293,13 @@
 				item: "kubejs:apotheotic_coin"
 				type: "item"
 			}]
-			title: "Fertility"
+			title: "{ftbquests.chapter.shop.quest6976399837524779826.title}"
 			x: -3.5d
 			y: 4.5d
 		}
 		{
 			can_repeat: true
-			description: ["Increase max health"]
+			description: ["{ftbquests.chapter.shop.quest7996252282784636527.description1}"]
 			icon: {
 				Count: 1
 				id: "everlastingabilities:ability_totem"
@@ -334,13 +334,13 @@
 				item: "kubejs:apotheotic_coin"
 				type: "item"
 			}]
-			title: "Heart Gainer"
+			title: "{ftbquests.chapter.shop.quest7996252282784636527.title}"
 			x: -4.0d
 			y: 3.5d
 		}
 		{
 			can_repeat: true
-			description: ["Adds absorption hearts"]
+			description: ["{ftbquests.chapter.shop.quest1669384185506495649.description1}"]
 			icon: {
 				Count: 1
 				id: "everlastingabilities:ability_totem"
@@ -375,13 +375,13 @@
 				item: "kubejs:ascended_coin"
 				type: "item"
 			}]
-			title: "Absorption"
+			title: "{ftbquests.chapter.shop.quest1669384185506495649.title}"
 			x: -5.5d
 			y: 0.5d
 		}
 		{
 			can_repeat: true
-			description: ["Bonemeal the area"]
+			description: ["{ftbquests.chapter.shop.quest8887598396444475872.description1}"]
 			icon: {
 				Count: 1
 				id: "everlastingabilities:ability_totem"
@@ -416,13 +416,13 @@
 				item: "kubejs:infused_coin"
 				type: "item"
 			}]
-			title: "Bonemealer"
+			title: "{ftbquests.chapter.shop.quest8887598396444475872.title}"
 			x: -6.5d
 			y: 2.5d
 		}
 		{
 			can_repeat: true
-			description: ["Hit entities are knocked back further"]
+			description: ["{ftbquests.chapter.shop.quest6093873791018569106.description1}"]
 			icon: {
 				Count: 1
 				id: "everlastingabilities:ability_totem"
@@ -457,13 +457,13 @@
 				item: "kubejs:infused_coin"
 				type: "item"
 			}]
-			title: "Knockback"
+			title: "{ftbquests.chapter.shop.quest6093873791018569106.title}"
 			x: -3.5d
 			y: 2.5d
 		}
 		{
 			can_repeat: true
-			description: ["Increase armor points"]
+			description: ["{ftbquests.chapter.shop.quest1106217087592347103.description1}"]
 			icon: {
 				Count: 1
 				id: "everlastingabilities:ability_totem"
@@ -498,13 +498,13 @@
 				item: "kubejs:apotheotic_coin"
 				type: "item"
 			}]
-			title: "Hidden Chestplate"
+			title: "{ftbquests.chapter.shop.quest1106217087592347103.title}"
 			x: -2.5d
 			y: 4.5d
 		}
 		{
 			can_repeat: true
-			description: ["Take less damage from fire"]
+			description: ["{ftbquests.chapter.shop.quest8668639284216086769.description1}"]
 			icon: {
 				Count: 1
 				id: "everlastingabilities:ability_totem"
@@ -539,13 +539,13 @@
 				item: "kubejs:ascended_coin"
 				type: "item"
 			}]
-			title: "Fire Resistance"
+			title: "{ftbquests.chapter.shop.quest8668639284216086769.title}"
 			x: -4.5d
 			y: 0.5d
 		}
 		{
 			can_repeat: true
-			description: ["Mine faster"]
+			description: ["{ftbquests.chapter.shop.quest4447533416411704881.description1}"]
 			icon: {
 				Count: 1
 				id: "everlastingabilities:ability_totem"
@@ -580,13 +580,13 @@
 				item: "kubejs:infused_coin"
 				type: "item"
 			}]
-			title: "Haste"
+			title: "{ftbquests.chapter.shop.quest4447533416411704881.title}"
 			x: -5.0d
 			y: 1.5d
 		}
 		{
 			can_repeat: true
-			description: ["Become invisible"]
+			description: ["{ftbquests.chapter.shop.quest3008001583612572998.description1}"]
 			icon: {
 				Count: 1
 				id: "everlastingabilities:ability_totem"
@@ -621,13 +621,13 @@
 				item: "kubejs:apotheotic_coin"
 				type: "item"
 			}]
-			title: "Invisibility"
+			title: "{ftbquests.chapter.shop.quest3008001583612572998.title}"
 			x: -6.0d
 			y: 3.5d
 		}
 		{
 			can_repeat: true
-			description: ["Jump Higher"]
+			description: ["{ftbquests.chapter.shop.quest8100216302023136320.description1}"]
 			icon: {
 				Count: 1
 				id: "everlastingabilities:ability_totem"
@@ -662,13 +662,13 @@
 				item: "kubejs:apotheotic_coin"
 				type: "item"
 			}]
-			title: "Jump Boost"
+			title: "{ftbquests.chapter.shop.quest8100216302023136320.title}"
 			x: -6.5d
 			y: 4.5d
 		}
 		{
 			can_repeat: true
-			description: ["Have a higher chance on better loot"]
+			description: ["{ftbquests.chapter.shop.quest5093570472287748935.description1}"]
 			icon: {
 				Count: 1
 				id: "everlastingabilities:ability_totem"
@@ -703,13 +703,13 @@
 				item: "kubejs:apotheotic_coin"
 				type: "item"
 			}]
-			title: "Luck"
+			title: "{ftbquests.chapter.shop.quest5093570472287748935.title}"
 			x: -5.0d
 			y: 3.5d
 		}
 		{
 			can_repeat: true
-			description: ["See in the dark"]
+			description: ["{ftbquests.chapter.shop.quest4768702681419019451.description1}"]
 			icon: {
 				Count: 1
 				id: "everlastingabilities:ability_totem"
@@ -744,13 +744,13 @@
 				item: "kubejs:infused_coin"
 				type: "item"
 			}]
-			title: "Night Vision"
+			title: "{ftbquests.chapter.shop.quest4768702681419019451.title}"
 			x: -4.5d
 			y: 2.5d
 		}
 		{
 			can_repeat: true
-			description: ["Regenerate health faster"]
+			description: ["{ftbquests.chapter.shop.quest167704011011646090.description1}"]
 			icon: {
 				Count: 1
 				id: "everlastingabilities:ability_totem"
@@ -785,13 +785,13 @@
 				item: "kubejs:ascended_coin"
 				type: "item"
 			}]
-			title: "Regeneration"
+			title: "{ftbquests.chapter.shop.quest167704011011646090.title}"
 			x: -5.0d
 			y: -2.5d
 		}
 		{
 			can_repeat: true
-			description: ["Take less damage from attacks"]
+			description: ["{ftbquests.chapter.shop.quest1659902456668928123.description1}"]
 			icon: {
 				Count: 1
 				id: "everlastingabilities:ability_totem"
@@ -826,13 +826,13 @@
 				item: "kubejs:ascended_coin"
 				type: "item"
 			}]
-			title: "Resistance"
+			title: "{ftbquests.chapter.shop.quest1659902456668928123.title}"
 			x: -3.5d
 			y: -1.0d
 		}
 		{
 			can_repeat: true
-			description: ["Reduce hunger"]
+			description: ["{ftbquests.chapter.shop.quest4011321137786660039.description1}"]
 			icon: {
 				Count: 1
 				id: "everlastingabilities:ability_totem"
@@ -867,13 +867,13 @@
 				item: "kubejs:infused_coin"
 				type: "item"
 			}]
-			title: "Saturation"
+			title: "{ftbquests.chapter.shop.quest4011321137786660039.title}"
 			x: -6.0d
 			y: 1.5d
 		}
 		{
 			can_repeat: true
-			description: ["Walk faster"]
+			description: ["{ftbquests.chapter.shop.quest4111623954427578405.description1}"]
 			icon: {
 				Count: 1
 				id: "everlastingabilities:ability_totem"
@@ -908,13 +908,13 @@
 				item: "kubejs:infused_coin"
 				type: "item"
 			}]
-			title: "Speed"
+			title: "{ftbquests.chapter.shop.quest4111623954427578405.title}"
 			x: -4.0d
 			y: 1.5d
 		}
 		{
 			can_repeat: true
-			description: ["Inflict more damage when attacking"]
+			description: ["{ftbquests.chapter.shop.quest5159139442022203248.description1}"]
 			icon: {
 				Count: 1
 				id: "everlastingabilities:ability_totem"
@@ -949,13 +949,13 @@
 				item: "kubejs:ascended_coin"
 				type: "item"
 			}]
-			title: "Strength"
+			title: "{ftbquests.chapter.shop.quest5159139442022203248.title}"
 			x: -6.5d
 			y: -1.0d
 		}
 		{
 			can_repeat: true
-			description: ["Breathe underwater"]
+			description: ["{ftbquests.chapter.shop.quest1195176999096066417.description1}"]
 			icon: {
 				Count: 1
 				id: "everlastingabilities:ability_totem"
@@ -990,13 +990,13 @@
 				item: "kubejs:apotheotic_coin"
 				type: "item"
 			}]
-			title: "Water Breathing"
+			title: "{ftbquests.chapter.shop.quest1195176999096066417.title}"
 			x: -5.5d
 			y: 4.5d
 		}
 		{
 			can_repeat: true
-			description: ["Fall down slowly and take no fall damage"]
+			description: ["{ftbquests.chapter.shop.quest252652127258337273.description1}"]
 			icon: {
 				Count: 1
 				id: "everlastingabilities:ability_totem"
@@ -1031,7 +1031,7 @@
 				item: "kubejs:apotheotic_coin"
 				type: "item"
 			}]
-			title: "Slow Falling"
+			title: "{ftbquests.chapter.shop.quest252652127258337273.title}"
 			x: -4.5d
 			y: 4.5d
 		}
@@ -1053,7 +1053,7 @@
 				item: "kubejs:apotheotic_coin"
 				type: "item"
 			}]
-			title: "64x Iron Block"
+			title: "{ftbquests.chapter.shop.quest9217780891121564548.title}"
 			x: 11.0d
 			y: -3.5d
 		}
@@ -1075,7 +1075,7 @@
 				item: "kubejs:apotheotic_coin"
 				type: "item"
 			}]
-			title: "16x Infused Diamond"
+			title: "{ftbquests.chapter.shop.quest27996021969263895.title}"
 			x: 3.0d
 			y: -0.5d
 		}
@@ -1097,7 +1097,7 @@
 				item: "kubejs:apotheotic_coin"
 				type: "item"
 			}]
-			title: "32x Enhanced: Diamond"
+			title: "{ftbquests.chapter.shop.quest3868412734599343458.title}"
 			x: 2.0d
 			y: -2.5d
 		}
@@ -1119,7 +1119,7 @@
 				item: "kubejs:apotheotic_coin"
 				type: "item"
 			}]
-			title: "16x Mana Diamond"
+			title: "{ftbquests.chapter.shop.quest3499145598132331428.title}"
 			x: 2.0d
 			y: -0.5d
 		}
@@ -1141,7 +1141,7 @@
 				item: "kubejs:apotheotic_coin"
 				type: "item"
 			}]
-			title: "8x Dragonstone"
+			title: "{ftbquests.chapter.shop.quest3542598310001683103.title}"
 			x: 2.0d
 			y: 0.5d
 		}
@@ -1163,7 +1163,7 @@
 				item: "kubejs:apotheotic_coin"
 				type: "item"
 			}]
-			title: "64x Emerald"
+			title: "{ftbquests.chapter.shop.quest7191456862688991744.title}"
 			x: 3.0d
 			y: -3.5d
 		}
@@ -1185,7 +1185,7 @@
 				item: "kubejs:apotheotic_coin"
 				type: "item"
 			}]
-			title: "64x Lapis"
+			title: "{ftbquests.chapter.shop.quest655352445541144272.title}"
 			x: 4.0d
 			y: -3.5d
 		}
@@ -1207,7 +1207,7 @@
 				item: "kubejs:apotheotic_coin"
 				type: "item"
 			}]
-			title: "64x Diamond"
+			title: "{ftbquests.chapter.shop.quest4543584258394739708.title}"
 			x: 2.0d
 			y: -3.5d
 		}
@@ -1229,7 +1229,7 @@
 				item: "kubejs:apotheotic_coin"
 				type: "item"
 			}]
-			title: "64x Cinnabar"
+			title: "{ftbquests.chapter.shop.quest4016204412548302898.title}"
 			x: 5.0d
 			y: -3.5d
 		}
@@ -1251,7 +1251,7 @@
 				item: "kubejs:apotheotic_coin"
 				type: "item"
 			}]
-			title: "64x Nether Quartz"
+			title: "{ftbquests.chapter.shop.quest2476239327201913168.title}"
 			x: 6.0d
 			y: -3.5d
 		}
@@ -1273,7 +1273,7 @@
 				item: "kubejs:apotheotic_coin"
 				type: "item"
 			}]
-			title: "64x Niter"
+			title: "{ftbquests.chapter.shop.quest5097478791117645055.title}"
 			x: 7.0d
 			y: -3.5d
 		}
@@ -1295,7 +1295,7 @@
 				item: "kubejs:apotheotic_coin"
 				type: "item"
 			}]
-			title: "64x Sulfur"
+			title: "{ftbquests.chapter.shop.quest2121955079691317763.title}"
 			x: 8.0d
 			y: -3.5d
 		}
@@ -1317,7 +1317,7 @@
 				item: "kubejs:apotheotic_coin"
 				type: "item"
 			}]
-			title: "16x Flux-Infused Gem"
+			title: "{ftbquests.chapter.shop.quest6563678960719070665.title}"
 			x: 4.0d
 			y: -0.5d
 		}
@@ -1339,7 +1339,7 @@
 				item: "kubejs:apotheotic_coin"
 				type: "item"
 			}]
-			title: "32x Prismarine Crystals"
+			title: "{ftbquests.chapter.shop.quest2904593614580430262.title}"
 			x: 3.0d
 			y: -2.5d
 		}
@@ -1361,7 +1361,7 @@
 				item: "kubejs:apotheotic_coin"
 				type: "item"
 			}]
-			title: "64x Fluorite"
+			title: "{ftbquests.chapter.shop.quest3268235381757951060.title}"
 			x: 9.0d
 			y: -3.5d
 		}
@@ -1383,7 +1383,7 @@
 				item: "kubejs:apotheotic_coin"
 				type: "item"
 			}]
-			title: "8x Blazing Crystal"
+			title: "{ftbquests.chapter.shop.quest25102173352268299.title}"
 			x: 11.0d
 			y: -2.5d
 		}
@@ -1406,7 +1406,7 @@
 				item: "kubejs:apotheotic_coin"
 				type: "item"
 			}]
-			title: "4x Niotic Crystal"
+			title: "{ftbquests.chapter.shop.quest6419997991923472738.title}"
 			x: 12.0d
 			y: -2.5d
 		}
@@ -1429,7 +1429,7 @@
 				item: "kubejs:apotheotic_coin"
 				type: "item"
 			}]
-			title: "2x Spirited Crystal"
+			title: "{ftbquests.chapter.shop.quest7253605992954047493.title}"
 			x: 13.0d
 			y: -2.5d
 		}
@@ -1451,7 +1451,7 @@
 				item: "kubejs:infused_coin"
 				type: "item"
 			}]
-			title: "1x Nitro Crystal"
+			title: "{ftbquests.chapter.shop.quest2720272698379515322.title}"
 			x: 14.0d
 			y: -2.5d
 		}
@@ -1473,7 +1473,7 @@
 				item: "kubejs:apotheotic_coin"
 				type: "item"
 			}]
-			title: "32x Ruby"
+			title: "{ftbquests.chapter.shop.quest7769789232211425846.title}"
 			x: 2.0d
 			y: -1.5d
 		}
@@ -1495,7 +1495,7 @@
 				item: { Count: 64, id: "kubejs:apotheotic_coin" }
 				type: "item"
 			}]
-			title: "32x Sapphire"
+			title: "{ftbquests.chapter.shop.quest5638052464062829857.title}"
 			x: 3.0d
 			y: -1.5d
 		}
@@ -1517,7 +1517,7 @@
 				item: "kubejs:infused_coin"
 				type: "item"
 			}]
-			title: "2x Ender Star"
+			title: "{ftbquests.chapter.shop.quest1290710921878709807.title}"
 			x: 12.0d
 			y: -1.5d
 		}
@@ -1539,7 +1539,7 @@
 				item: "kubejs:infused_coin"
 				type: "item"
 			}]
-			title: "2x Flux Star"
+			title: "{ftbquests.chapter.shop.quest8940653680150735511.title}"
 			x: 11.0d
 			y: -1.5d
 		}
@@ -1561,7 +1561,7 @@
 				item: { Count: 64, id: "kubejs:apotheotic_coin" }
 				type: "item"
 			}]
-			title: "16x Luminessence"
+			title: "{ftbquests.chapter.shop.quest6952438775317612902.title}"
 			x: 13.0d
 			y: -1.5d
 		}
@@ -1583,7 +1583,7 @@
 				item: { Count: 64, id: "kubejs:apotheotic_coin" }
 				type: "item"
 			}]
-			title: "32x Dimensional Gem"
+			title: "{ftbquests.chapter.shop.quest809993756542316941.title}"
 			x: 4.0d
 			y: -2.5d
 		}
@@ -1605,7 +1605,7 @@
 				item: { Count: 64, id: "kubejs:apotheotic_coin" }
 				type: "item"
 			}]
-			title: "32x Certus Quartz Crystal"
+			title: "{ftbquests.chapter.shop.quest7660656623290510351.title}"
 			x: 6.0d
 			y: -1.5d
 		}
@@ -1627,7 +1627,7 @@
 				item: { Count: 64, id: "kubejs:apotheotic_coin" }
 				type: "item"
 			}]
-			title: "16x Charged Certus Quartz Crystal"
+			title: "{ftbquests.chapter.shop.quest1952113660814295043.title}"
 			x: 6.0d
 			y: -0.5d
 		}
@@ -1649,7 +1649,7 @@
 				item: { Count: 64, id: "kubejs:apotheotic_coin" }
 				type: "item"
 			}]
-			title: "8x Fluix Crystal"
+			title: "{ftbquests.chapter.shop.quest3453854866232819247.title}"
 			x: 5.0d
 			y: 0.5d
 		}
@@ -1671,7 +1671,7 @@
 				item: { Count: 64, id: "kubejs:apotheotic_coin" }
 				type: "item"
 			}]
-			title: "16x Amethyst Shard"
+			title: "{ftbquests.chapter.shop.quest8961585129749527539.title}"
 			x: 5.0d
 			y: -0.5d
 		}
@@ -1692,7 +1692,7 @@
 				item: "kubejs:ascended_coin"
 				type: "item"
 			}]
-			title: "4x Enhanced Redstone Ingot"
+			title: "{ftbquests.chapter.shop.quest2529334550793451477.title}"
 			x: 11.0d
 			y: 1.5d
 		}
@@ -1713,7 +1713,7 @@
 				item: "kubejs:ascended_coin"
 				type: "item"
 			}]
-			title: "4x Enhanced Ender Ingot"
+			title: "{ftbquests.chapter.shop.quest8101510353903259367.title}"
 			x: 12.0d
 			y: 1.5d
 		}
@@ -1735,7 +1735,7 @@
 				item: "kubejs:apotheotic_coin"
 				type: "item"
 			}]
-			title: "64x Redstone Ingot"
+			title: "{ftbquests.chapter.shop.quest8951346022761744376.title}"
 			x: 11.0d
 			y: 0.5d
 		}
@@ -1757,7 +1757,7 @@
 				item: "kubejs:apotheotic_coin"
 				type: "item"
 			}]
-			title: "64x Ender Ingot"
+			title: "{ftbquests.chapter.shop.quest1139165364006821427.title}"
 			x: 12.0d
 			y: 0.5d
 		}
@@ -1779,7 +1779,7 @@
 				item: "kubejs:ascended_coin"
 				type: "item"
 			}]
-			title: "64x Black Iron Ingot"
+			title: "{ftbquests.chapter.shop.quest7338439555938561699.title}"
 			x: 11.0d
 			y: 3.5d
 		}
@@ -1792,7 +1792,7 @@
 				count: 64
 				id: "3F7D0BB816165099"
 				item: "armorplus:en_gold"
-				title: "Enhanced: Gold Ingot"
+				title: "{ftbquests.chapter.shop.quest3456808363100679627.reward.4574825681750741145.title}"
 				type: "item"
 			}]
 			tasks: [{
@@ -1802,7 +1802,7 @@
 				item: "kubejs:apotheotic_coin"
 				type: "item"
 			}]
-			title: "64x Enhanced: Gold Ingot"
+			title: "{ftbquests.chapter.shop.quest3456808363100679627.title}"
 			x: 14.0d
 			y: 0.5d
 		}
@@ -1823,7 +1823,7 @@
 				item: "kubejs:infused_coin"
 				type: "item"
 			}]
-			title: "1x Lava Crystal"
+			title: "{ftbquests.chapter.shop.quest9189214144639250136.title}"
 			x: 11.0d
 			y: -0.5d
 		}
@@ -1844,7 +1844,7 @@
 				item: "kubejs:infused_coin"
 				type: "item"
 			}]
-			title: "1x Infused Lava Crystal"
+			title: "{ftbquests.chapter.shop.quest5301261109238016287.title}"
 			x: 13.0d
 			y: -0.5d
 		}
@@ -1865,7 +1865,7 @@
 				item: "kubejs:infused_coin"
 				type: "item"
 			}]
-			title: "1x Frost Crystal"
+			title: "{ftbquests.chapter.shop.quest2471761980016032181.title}"
 			x: 12.0d
 			y: -0.5d
 		}
@@ -1886,7 +1886,7 @@
 				item: "kubejs:infused_coin"
 				type: "item"
 			}]
-			title: "1x Infused Frost Crystal"
+			title: "{ftbquests.chapter.shop.quest7561905717182201256.title}"
 			x: 14.0d
 			y: -0.5d
 		}
@@ -1908,7 +1908,7 @@
 				item: { Count: 64, id: "kubejs:apotheotic_coin" }
 				type: "item"
 			}]
-			title: "16x Guardian Scale"
+			title: "{ftbquests.chapter.shop.quest2635993831627433427.title}"
 			x: 14.0d
 			y: -1.5d
 		}
@@ -1930,7 +1930,7 @@
 				item: "kubejs:apotheotic_coin"
 				type: "item"
 			}]
-			title: "64x Block of Gold"
+			title: "{ftbquests.chapter.shop.quest3265372816524195560.title}"
 			x: 12.0d
 			y: -3.5d
 		}
@@ -1952,7 +1952,7 @@
 				item: "kubejs:apotheotic_coin"
 				type: "item"
 			}]
-			title: "64x Sky Stone"
+			title: "{ftbquests.chapter.shop.quest2516487145127418483.title}"
 			x: 13.0d
 			y: -3.5d
 		}
@@ -1974,7 +1974,7 @@
 				item: "kubejs:infused_coin"
 				type: "item"
 			}]
-			title: "4x White Plastic Block"
+			title: "{ftbquests.chapter.shop.quest5729548854686973324.title}"
 			x: 14.0d
 			y: -3.5d
 		}
@@ -1995,7 +1995,7 @@
 				item: "kubejs:ascended_coin"
 				type: "item"
 			}]
-			title: "4x Melodium Ingot"
+			title: "{ftbquests.chapter.shop.quest1001729916535041429.title}"
 			x: 13.0d
 			y: 1.5d
 		}
@@ -2016,7 +2016,7 @@
 				item: "kubejs:ascended_coin"
 				type: "item"
 			}]
-			title: "4x Signalium Ingot"
+			title: "{ftbquests.chapter.shop.quest6376582113864405986.title}"
 			x: 14.0d
 			y: 1.5d
 		}
@@ -2038,7 +2038,7 @@
 				item: "kubejs:ascended_coin"
 				type: "item"
 			}]
-			title: "64x Lumium Ingot"
+			title: "{ftbquests.chapter.shop.quest2214124648116456320.title}"
 			x: 11.0d
 			y: 2.5d
 		}
@@ -2060,7 +2060,7 @@
 				item: "kubejs:ascended_coin"
 				type: "item"
 			}]
-			title: "64x Enderium Ingot"
+			title: "{ftbquests.chapter.shop.quest5025105052035224166.title}"
 			x: 12.0d
 			y: 2.5d
 		}
@@ -2082,7 +2082,7 @@
 				item: "kubejs:ascended_coin"
 				type: "item"
 			}]
-			title: "64x Prismalium Ingot"
+			title: "{ftbquests.chapter.shop.quest6635597677740019100.title}"
 			x: 13.0d
 			y: 2.5d
 		}
@@ -2103,7 +2103,7 @@
 				item: "kubejs:ascended_coin"
 				type: "item"
 			}]
-			title: "64x Stellarium Ingot"
+			title: "{ftbquests.chapter.shop.quest6876244797528887232.title}"
 			x: 14.0d
 			y: 2.5d
 		}
@@ -2111,8 +2111,8 @@
 			can_repeat: true
 			dependencies: ["6857EBCB5EE5161B"]
 			description: [
-				"Use the Task Screen to input the Capacitor."
-				"Right Click the Task Screen and choose the correct Quest"
+				"{ftbquests.chapter.shop.quest8992318285250679404.description1}"
+				"{ftbquests.chapter.shop.quest8992318285250679404.description2}"
 			]
 			id: "7CCB21D64B9DD26C"
 			optional: true
@@ -2139,8 +2139,8 @@
 			can_repeat: true
 			dependencies: ["6857EBCB5EE5161B"]
 			description: [
-				"Use the Task Screen to input the Energy."
-				"Right Click the Task Screen and choose the correct Quest"
+				"{ftbquests.chapter.shop.quest4840698646469432306.description1}"
+				"{ftbquests.chapter.shop.quest4840698646469432306.description2}"
 			]
 			id: "432D9DC5978653F2"
 			optional: true
@@ -2189,7 +2189,7 @@
 				type: "questsadditions:killnbt"
 				value: 250L
 			}]
-			title: "Kill: 250x Wither"
+			title: "{ftbquests.chapter.shop.quest6172122099299844798.title}"
 			x: -6.5d
 			y: 13.0d
 		}
@@ -2206,8 +2206,8 @@
 		{
 			can_repeat: true
 			description: [
-				"When you are on a server you can use this trade. "
-				"If on singleplayer then go search the meteors in hunting dimension or lost cities."
+				"{ftbquests.chapter.shop.quest4408383861054217495.description1}"
+				"{ftbquests.chapter.shop.quest4408383861054217495.description2}"
 			]
 			id: "3D2DB9C3D7B39D17"
 			optional: true
@@ -2270,7 +2270,7 @@
 					type: "item"
 				}
 			]
-			title: "Inscriber Presses"
+			title: "{ftbquests.chapter.shop.quest4408383861054217495.title}"
 			x: 5.5d
 			y: 5.5d
 		}
@@ -2322,7 +2322,7 @@
 				item: "kubejs:infused_coin"
 				type: "item"
 			}]
-			title: "&aCommon Loot Crate"
+			title: "{ftbquests.chapter.shop.quest3744926893974837613.title}"
 			x: 4.5d
 			y: 8.5d
 		}
@@ -2355,7 +2355,7 @@
 				item: "kubejs:infused_coin"
 				type: "item"
 			}]
-			title: "&2Uncommon Loot Crate"
+			title: "{ftbquests.chapter.shop.quest5997106877849656842.title}"
 			x: 5.5d
 			y: 8.5d
 		}
@@ -2388,7 +2388,7 @@
 				item: "kubejs:ascended_coin"
 				type: "item"
 			}]
-			title: "&9Rare Loot Crate"
+			title: "{ftbquests.chapter.shop.quest1502877318348219585.title}"
 			x: 6.5d
 			y: 8.5d
 		}
@@ -2421,7 +2421,7 @@
 				item: "kubejs:ascended_coin"
 				type: "item"
 			}]
-			title: "&eEpic Loot Crate"
+			title: "{ftbquests.chapter.shop.quest1302919825936275619.title}"
 			x: 7.5d
 			y: 8.5d
 		}
@@ -2454,7 +2454,7 @@
 				item: "kubejs:ascended_coin"
 				type: "item"
 			}]
-			title: "&cLegendary Loot Crate"
+			title: "{ftbquests.chapter.shop.quest4130276391263623483.title}"
 			x: 8.5d
 			y: 8.5d
 		}
@@ -2487,7 +2487,7 @@
 				item: "kubejs:ascended_coin"
 				type: "item"
 			}]
-			title: "&5Mythic Loot Crate"
+			title: "{ftbquests.chapter.shop.quest5532563486048891962.title}"
 			x: 9.5d
 			y: 8.5d
 		}
@@ -2520,7 +2520,7 @@
 				item: "kubejs:infused_coin"
 				type: "item"
 			}]
-			title: "&aTier 1 Seed Crate"
+			title: "{ftbquests.chapter.shop.quest4070552877664981494.title}"
 			x: 4.5d
 			y: 10.0d
 		}
@@ -2553,7 +2553,7 @@
 				item: "kubejs:infused_coin"
 				type: "item"
 			}]
-			title: "&2Tier 2 Seed Crate"
+			title: "{ftbquests.chapter.shop.quest2322129880888718512.title}"
 			x: 5.5d
 			y: 10.0d
 		}
@@ -2586,7 +2586,7 @@
 				item: "kubejs:ascended_coin"
 				type: "item"
 			}]
-			title: "&6Tier 3 Seed Crate"
+			title: "{ftbquests.chapter.shop.quest2581500271016372610.title}"
 			x: 6.5d
 			y: 10.0d
 		}
@@ -2619,7 +2619,7 @@
 				item: "kubejs:ascended_coin"
 				type: "item"
 			}]
-			title: "&9Tier 4 Seed Crate"
+			title: "{ftbquests.chapter.shop.quest1682256076223737637.title}"
 			x: 7.5d
 			y: 10.0d
 		}
@@ -2652,7 +2652,7 @@
 				item: "kubejs:ascended_coin"
 				type: "item"
 			}]
-			title: "&cTier 5 Seed Crate"
+			title: "{ftbquests.chapter.shop.quest8079882180209702738.title}"
 			x: 8.5d
 			y: 10.0d
 		}
@@ -2685,7 +2685,7 @@
 				item: "kubejs:ascended_coin"
 				type: "item"
 			}]
-			title: "&5Tier 6 Seed Crate"
+			title: "{ftbquests.chapter.shop.quest1378068570264227240.title}"
 			x: 9.5d
 			y: 10.0d
 		}
@@ -2718,7 +2718,7 @@
 				item: "kubejs:ascended_coin"
 				type: "item"
 			}]
-			title: "&5DE Chaotic Loot Crate"
+			title: "{ftbquests.chapter.shop.quest1242192399453860701.title}"
 			x: 9.5d
 			y: 11.5d
 		}
@@ -2751,7 +2751,7 @@
 				item: "kubejs:ascended_coin"
 				type: "item"
 			}]
-			title: "&cDE Draconic Loot Crate"
+			title: "{ftbquests.chapter.shop.quest4291886109130978819.title}"
 			x: 8.5d
 			y: 11.5d
 		}
@@ -2784,7 +2784,7 @@
 				item: "kubejs:infused_coin"
 				type: "item"
 			}]
-			title: "&2DE Wyvern Loot Crate"
+			title: "{ftbquests.chapter.shop.quest5237997949030884530.title}"
 			x: 5.5d
 			y: 11.5d
 		}
@@ -2816,7 +2816,7 @@
 				item: "kubejs:infused_coin"
 				type: "item"
 			}]
-			title: "&aDE Basic Loot Crate"
+			title: "{ftbquests.chapter.shop.quest8603478038327514473.title}"
 			x: 4.5d
 			y: 11.5d
 		}
@@ -2848,7 +2848,7 @@
 				item: "kubejs:infused_coin"
 				type: "item"
 			}]
-			title: "&aBotania Common Loot Crate"
+			title: "{ftbquests.chapter.shop.quest2560801585507300846.title}"
 			x: 4.5d
 			y: 13.0d
 		}
@@ -2881,7 +2881,7 @@
 				item: "kubejs:ascended_coin"
 				type: "item"
 			}]
-			title: "&cBotania Legendary Loot Crate"
+			title: "{ftbquests.chapter.shop.quest1612397544589662973.title}"
 			x: 8.5d
 			y: 13.0d
 		}
@@ -2913,7 +2913,7 @@
 				item: "kubejs:infused_coin"
 				type: "item"
 			}]
-			title: "&aMekanism Common Loot Crate"
+			title: "{ftbquests.chapter.shop.quest7471124289040280076.title}"
 			x: 4.5d
 			y: 14.5d
 		}
@@ -2945,7 +2945,7 @@
 				item: "kubejs:ascended_coin"
 				type: "item"
 			}]
-			title: "&2Essence Loot Crate"
+			title: "{ftbquests.chapter.shop.quest4802340179624867676.title}"
 			x: 5.5d
 			y: 14.5d
 		}
@@ -2967,10 +2967,10 @@
 				item: "kubejs:apotheotic_coin"
 				type: "item"
 			}]
-			title: "64x Enhanced: Iron Ingot"
+			title: "{ftbquests.chapter.shop.quest1313519374716883806.title}"
 			x: 13.0d
 			y: 0.5d
 		}
 	]
-	title: "&dShop"
+	title: "{ftbquests.chapter.shop.title}"
 }

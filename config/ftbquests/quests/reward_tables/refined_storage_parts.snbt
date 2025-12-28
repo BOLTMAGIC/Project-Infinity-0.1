@@ -7,6 +7,6 @@
 		{ count: 2, item: "refinedstorage:improved_processor", weight: 20.0f }
 		{ item: "refinedstorage:advanced_processor", weight: 5.0f }
 	]
-	title: "Refined Storage Basic Parts"
+	title: "{ftbquests.loot_table.3567941291661635734.title}"
 	use_title: true
 }

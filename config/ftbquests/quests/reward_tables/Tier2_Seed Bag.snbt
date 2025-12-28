@@ -55,6 +55,6 @@
 		{ item: "mysticalagriculture:basalt_seeds" }
 		{ item: "mysticalagriculture:menril_seeds" }
 	]
-	title: "&2Tier 2 Seed Bag"
+	title: "{ftbquests.loot_table.2427872771413920777.title}"
 	use_title: true
 }

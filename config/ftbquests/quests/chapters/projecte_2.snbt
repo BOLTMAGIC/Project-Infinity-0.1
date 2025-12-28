@@ -83,7 +83,7 @@
 	quest_links: [ ]
 	quests: [
 		{
-			description: ["&dProjectE&r is a mod focused around &aconverting items&r to &eEMC&r and &eEMC&r back into &brarer items&r."]
+			description: ["{ftbquests.chapter.projecte_2.quest2178943064270974867.description1}"]
 			icon: "projectexpansion:fading_matter"
 			id: "1E3D292C23AC2F93"
 			rewards: [
@@ -100,7 +100,7 @@
 			]
 			tasks: [{
 				id: "373B00FDF17053F0"
-				title: "Welcome!"
+				title: "{ftbquests.chapter.projecte_2.quest2178943064270974867.task.3979775786389361648.title}"
 				type: "checkmark"
 			}]
 			x: -10.5d
@@ -108,7 +108,7 @@
 		}
 		{
 			dependencies: ["1E3D292C23AC2F93"]
-			description: ["An &6expensive chest&r with a lot of &astorage.&r"]
+			description: ["{ftbquests.chapter.projecte_2.quest552070545566138575.description1}"]
 			id: "07A9593C776D00CF"
 			rewards: [
 				{
@@ -132,7 +132,7 @@
 		}
 		{
 			dependencies: ["1E3D292C23AC2F93"]
-			description: ["Crafted with a &bDiamond block&r and &eAeternalis fuel&r, you will use &0Dark matter&r for many crafting recipes. And you can craft the &dtransmutation tablet&r with &lblocks of dark matter&r, which is a &aportable version&r of the &5transmutation table&r."]
+			description: ["{ftbquests.chapter.projecte_2.quest7024603218742982822.description1}"]
 			id: "617C6768D53DB8A6"
 			rewards: [
 				{
@@ -151,7 +151,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "chocolate?"
+			subtitle: "{ftbquests.chapter.projecte_2.quest7024603218742982822.subtitle}"
 			tasks: [{
 				id: "41EA888884A73844"
 				item: "projecte:dark_matter"
@@ -163,11 +163,11 @@
 		{
 			dependencies: ["1E3D292C23AC2F93"]
 			description: [
-				"The \"&6core&r\" of this mod, you will be using this to &acraft&r many items and &btransform&r blocks into other blocks with the same &eEMC value&r with &lRight-Click.&r This &cstone&r also gives you an &6portable crafting table&r, with the &lC key&r!"
+				"{ftbquests.chapter.projecte_2.quest96160101346759674.description1}"
 				""
-				"By pressing &lV&r it will &e\"Charge\"&r to increase the area of blocks affected, &lShift-V&r &b\"Depletes\"&r it and pressing &lG&r will switch the &c\"mode\"&r of the stone so it will only affect blocks in a &6line&r, &6square,&r or all in a &6cube.&r"
+				"{ftbquests.chapter.projecte_2.quest96160101346759674.description2}"
 				""
-				"If you have an &eenergy source&r, &credstone,&r &6glowstone,&r or &acoal,&r you can change mobs into other mobs of the same type (&chostile&r to &chostile&r and &apassive&r to &apassive)&r"
+				"{ftbquests.chapter.projecte_2.quest96160101346759674.description3}"
 			]
 			id: "0155A11A4A56D3FA"
 			rewards: [
@@ -182,7 +182,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "We may have buffed the recipe... a little"
+			subtitle: "{ftbquests.chapter.projecte_2.quest96160101346759674.subtitle}"
 			tasks: [{
 				id: "33B55955760760DF"
 				item: {
@@ -200,7 +200,7 @@
 		}
 		{
 			dependencies: ["07A9593C776D00CF"]
-			description: ["A &dportable&r &astorage unit&r which can be opened with &lRight-Click,&r also holds &emany items&r."]
+			description: ["{ftbquests.chapter.projecte_2.quest47879162205854479.description1}"]
 			id: "00AA19D8276C5B0F"
 			rewards: [
 				{
@@ -224,7 +224,7 @@
 		}
 		{
 			dependencies: ["617C6768D53DB8A6"]
-			description: ["&6Charged&r by pressing &lV&r and &cempted&r by pressing &lShift-V&r these &btools&r have special &lRight-Click&r &afunctionality.&r All of the tools &dnever break&r."]
+			description: ["{ftbquests.chapter.projecte_2.quest3462839753122374655.description1}"]
 			id: "300E7A6896F5E3FF"
 			rewards: [
 				{
@@ -336,11 +336,11 @@
 		{
 			dependencies: ["0155A11A4A56D3FA"]
 			description: [
-				"Crafted from the &cphilosophers stone&r, you will place items in the &6fire slot&r to collect its &eEMC&r in the table's storage and &a\"learn\"&r the item. or you can place items in the &emiddle&r of the right slot just to &alearn&r it, and items in the left slot to &echarge.&r"
+				"{ftbquests.chapter.projecte_2.quest7777483484173878350.description1}"
 				""
 				""
 				"{@pagebreak}"
-				"&dKnown items&r will appear in the &eright circle&r and when &aclicked upon&r will give you that item if the table has sufficient &eEMC.&r"
+				"{ftbquests.chapter.projecte_2.quest7777483484173878350.description2}"
 			]
 			id: "6BEF2C05A0A6C44E"
 			rewards: [
@@ -355,7 +355,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "We may have buffed the recipe... a little"
+			subtitle: "{ftbquests.chapter.projecte_2.quest7777483484173878350.subtitle}"
 			tasks: [{
 				id: "797E3D756DFA0D8C"
 				item: "projecte:transmutation_table"
@@ -367,11 +367,11 @@
 		{
 			dependencies: ["00AA19D8276C5B0F"]
 			description: [
-				"There are two types of &6Energy condensers&r, &aMk1&r and &bMk2.&r"
+				"{ftbquests.chapter.projecte_2.quest1941033030149473067.description1}"
 				""
-				"&aMk1:&r &eConverts items&r in the &astorage area&r into the item placed in the &6top slot&r by the &eyellow bar&r."
+				"{ftbquests.chapter.projecte_2.quest1941033030149473067.description2}"
 				""
-				"&bMk2:&r Similar to the &aMk1,&r however this chest will&e convert items&r in the &aleft side&r to the item in the &6top slot&r which will be placed in the &bright slot&r and can be extracted with &cMekanism pipes&r."
+				"{ftbquests.chapter.projecte_2.quest1941033030149473067.description3}"
 			]
 			id: "1AEFEF41C35C032B"
 			rewards: [
@@ -393,7 +393,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Obsidian is a pain to mine, have some compensation"
+			subtitle: "{ftbquests.chapter.projecte_2.quest1941033030149473067.subtitle}"
 			tasks: [{
 				id: "1773C26A22E2C8E7"
 				item: "projecte:condenser_mk1"
@@ -404,7 +404,7 @@
 		}
 		{
 			dependencies: ["300E7A6896F5E3FF"]
-			description: ["&aArmor&r almost identical to &cNetherite,&r though crafted from &0Dark matter&r. All of the armor &dnever breaks&r."]
+			description: ["{ftbquests.chapter.projecte_2.quest2915337536212334870.description1}"]
 			id: "28755C0B064C7916"
 			rewards: [
 				{
@@ -451,9 +451,9 @@
 		{
 			dependencies: ["1AEFEF41C35C032B"]
 			description: [
-				"There are &cthree versions&r of the &eEnergy collector&r, each faster then the previous, these &ecollecters &rwork simailrly to &asolor panels&r and can be made to work &9round the clock&r by placing &6glowstone&r atop it. &eEnergy collectors&r will &dpassivaly collect EMC&r."
+				"{ftbquests.chapter.projecte_2.quest4527766399449478289.description1}"
 				""
-				"&eEnergy collectors&r are used to &bcharge items&r, turn items from the &aleft slots&r into items of more &6EMC,&r and can be used to power &6Energy condensers&r if placed next to one."
+				"{ftbquests.chapter.projecte_2.quest4527766399449478289.description2}"
 			]
 			id: "3ED5DB8D1922B491"
 			rewards: [
@@ -485,7 +485,7 @@
 		}
 		{
 			dependencies: ["28755C0B064C7916"]
-			description: ["Created with &0Dark matter&r and &eAeternalis fuel&r, you will use this to create even &cstronger&r &atools&r and &barmor.&r"]
+			description: ["{ftbquests.chapter.projecte_2.quest784398701499881056.description1}"]
 			id: "0AE2BE768D2D9660"
 			rewards: [
 				{
@@ -509,7 +509,7 @@
 		}
 		{
 			dependencies: ["6BEF2C05A0A6C44E"]
-			description: ["Essentially a &6battery,&r if you need &eEMC&r to use an item, just have a &9charged star&r in your inventory."]
+			description: ["{ftbquests.chapter.projecte_2.quest939934742369585529.description1}"]
 			id: "0D0B51AB0EFCC979"
 			rewards: [
 				{
@@ -541,16 +541,16 @@
 				}
 				type: "item"
 			}]
-			title: "Klein Stars"
+			title: "{ftbquests.chapter.projecte_2.quest939934742369585529.title}"
 			x: -1.5d
 			y: 0.5d
 		}
 		{
 			dependencies: ["3ED5DB8D1922B491"]
 			description: [
-				"&0Relays&r also have &cMultiple tiers&r and will move &eEMC&r from &ecollectors&r attached to them into &6Condensers&r also attached to the &0relay.&r"
+				"{ftbquests.chapter.projecte_2.quest3798753233357305477.description1}"
 				""
-				"&0Relays&r can also &edrain EMC&r from items to then input into nearby &6condensers.&r"
+				"{ftbquests.chapter.projecte_2.quest3798753233357305477.description2}"
 			]
 			id: "34B7E1F067A0F685"
 			rewards: [
@@ -575,7 +575,7 @@
 		}
 		{
 			dependencies: ["0AE2BE768D2D9660"]
-			description: ["Similar to the &0Dark matter armor&r, though this set has more&6 knockback resistance&r. All of the armor &dnever breaks&r."]
+			description: ["{ftbquests.chapter.projecte_2.quest6560268395620430789.description1}"]
 			id: "5B0AC159182D73C5"
 			rewards: [
 				{
@@ -617,17 +617,17 @@
 		{
 			dependencies: ["0AE2BE768D2D9660"]
 			description: [
-				"&5Left click&r - &4shears&r the &aanimal&r."
+				"{ftbquests.chapter.projecte_2.quest8769525950226250090.description1}"
 				""
-				"&6Right click&r on a tree - &9Breaks&r all wood blocks in the &aarea&r of the right-clicked block."
+				"{ftbquests.chapter.projecte_2.quest8769525950226250090.description2}"
 				""
-				"&6Right click&r on leaves - &4Shears&r all &2leaf&r blocks in the &barea&r of the right-clicked block, &3dropping&r them as items."
+				"{ftbquests.chapter.projecte_2.quest8769525950226250090.description3}"
 				""
-				"&6Right click&r on grass - &8Tills&r all &edirt&r in the area of &9effect&r."
+				"{ftbquests.chapter.projecte_2.quest8769525950226250090.description4}"
 				""
-				"&dPressing&r [&4Change Mode&r] will execute a &eattack&r that will insta &0kill&r most &2mob&r/&cbosses&r"
+				"{ftbquests.chapter.projecte_2.quest8769525950226250090.description5}"
 				""
-				"&dPressing&r the [&4Change Mode&r] button will &9change&r the mode of the &0death&r swing between Slay-All and Slay-Agro."
+				"{ftbquests.chapter.projecte_2.quest8769525950226250090.description6}"
 			]
 			id: "79B39D6387CE396A"
 			rewards: [
@@ -644,7 +644,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Good luck killing the Chaos Dragon to make this"
+			subtitle: "{ftbquests.chapter.projecte_2.quest8769525950226250090.subtitle}"
 			tasks: [{
 				id: "0EFBB57DD46AB9D7"
 				item: {
@@ -695,11 +695,11 @@
 		{
 			dependencies: ["0D0B51AB0EFCC979"]
 			description: [
-				"&0Dark matter pedestals&r are used to activate the &cextra ability&r withen &6trinkets &o(usally rings&r)&r added with &dProjectE&r, "
+				"{ftbquests.chapter.projecte_2.quest701552335235054950.description1}"
 				""
-				"&lRight-Click&r with the &aitem&r you want to put on the &0pedestal,&r &lRight-Click&r again to &aactivate&r or &bdeactivate&r it, and &lLeft-Click&r to &cremove the item&r."
+				"{ftbquests.chapter.projecte_2.quest701552335235054950.description2}"
 				""
-				"You can view what the &aitem&r does by &ehovering over it&r with your &amouse&r and &bblue text&r should appear."
+				"{ftbquests.chapter.projecte_2.quest701552335235054950.description3}"
 			]
 			id: "09BC6A21C507FD66"
 			rewards: [
@@ -732,21 +732,21 @@
 		{
 			dependencies: ["34B7E1F067A0F685"]
 			description: [
-				"Using &9relays,&r you can create a &eEMC \"Flower\"&r to generate almost any item easily, you will make this similarly to a &bpyramid&r with a stem."
+				"{ftbquests.chapter.projecte_2.quest4173263223623666170.description1}"
 				""
-				"&cFlowers&r will provide much &eEMC&r to the &6Condenser&r in the &amiddle.&r"
+				"{ftbquests.chapter.projecte_2.quest4173263223623666170.description2}"
 				""
 				"{@pagebreak}"
 				""
-				"&d&lFirst:&r&r Place your &6energy condenser&r, this will be the &amiddle&r of the flower."
+				"{ftbquests.chapter.projecte_2.quest4173263223623666170.description3}"
 				""
-				"&d&lSecond:&r&r surround it with &9relays&r on every side &aexcept the&r &abottom.&r"
+				"{ftbquests.chapter.projecte_2.quest4173263223623666170.description4}"
 				""
-				"&d&lThird:&r&r Place &benergy collectors&r on every side of the &9relays&r except the &abottom.&r"
+				"{ftbquests.chapter.projecte_2.quest4173263223623666170.description5}"
 				""
-				"&d&lFourth:&r&r Place &cglowstone&r on the &atop&r of every &benergy collector&r."
+				"{ftbquests.chapter.projecte_2.quest4173263223623666170.description6}"
 				""
-				"&5&lFinally:&r&r place the item you want to produce into the &6energy condenser&r and attach &cMekanism&r pipes to the &6condenser&r to transport the generated items."
+				"{ftbquests.chapter.projecte_2.quest4173263223623666170.description7}"
 			]
 			id: "39EA68CA7E4A49FA"
 			rewards: [
@@ -763,7 +763,7 @@
 			]
 			tasks: [{
 				id: "4AABCAF6D28650F2"
-				title: "Flower"
+				title: "{ftbquests.chapter.projecte_2.quest4173263223623666170.task.5380617341266972914.title}"
 				type: "checkmark"
 			}]
 			x: 2.5d
@@ -772,13 +772,13 @@
 		{
 			dependencies: ["09BC6A21C507FD66"]
 			description: [
-				"&dProjectE&r adds &anew items &ruseful for all your &cdestructive intentions&r. "
-				"&6New tnt&r, for &cbigger explosions&r! &o"
-				"(has a &eVERY short fuse&r though, be carful!)&r"
-				"The &edestruction catalyst&r mines in a straight &l3x3&r line based on its &6charge.&r"
-				"&o(&lV&r to &acharge,&r &lShift-V&r to &clower charge&r)&r"
-				"The &6Hyperkinetic lens&r is a bomb, you throw it, it blows up."
-				"(You can create a &4catalytic lens&r with the &6hyper lens&r and &ecatalyst.&r The &4catalytic&r lens is just a &ecatalyst&r but longer)"
+				"{ftbquests.chapter.projecte_2.quest2109067521219532941.description1}"
+				"{ftbquests.chapter.projecte_2.quest2109067521219532941.description2}"
+				"{ftbquests.chapter.projecte_2.quest2109067521219532941.description3}"
+				"{ftbquests.chapter.projecte_2.quest2109067521219532941.description4}"
+				"{ftbquests.chapter.projecte_2.quest2109067521219532941.description5}"
+				"{ftbquests.chapter.projecte_2.quest2109067521219532941.description6}"
+				"{ftbquests.chapter.projecte_2.quest2109067521219532941.description7}"
 			]
 			id: "1D44E9BC799A988D"
 			rewards: [
@@ -800,7 +800,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Have fun!"
+			subtitle: "{ftbquests.chapter.projecte_2.quest2109067521219532941.subtitle}"
 			tasks: [
 				{
 					id: "2207E7D5906E89C6"
@@ -840,7 +840,7 @@
 		}
 		{
 			dependencies: ["30F7F3CC1BDAD46F"]
-			description: ["&6Links&r from&d project Expansion&r are used to&a transport items&r, &bliquids&r, and &eEMC&r. Place one &6link&r and &ainput items&r through &ehoppers&r or &bpipes&r, &9liquids&r through clicking on the &6link&r with a &abucket&r of the &bfluid&r you want to transport to make a &efilter&r, then using &bpipes&r to insert the rest of the &bfluid,&r Then place another &6link&r &esomewhere else&r and extract the &atransported items&r with &bpipes&r set to extract or with &ehoppers&r, &eEMC&r will be turned into &aitems&r when transported, you need to choose what to transport by &lRight-Clicking&r with the item and &lShift-Right-Clicking&r to remove it if you need to &aswitch&r it for something else."]
+			description: ["{ftbquests.chapter.projecte_2.quest2506688838399800829.description1}"]
 			id: "22C98C37AF41B5FD"
 			rewards: [
 				{
@@ -854,7 +854,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Did you read that?"
+			subtitle: "{ftbquests.chapter.projecte_2.quest2506688838399800829.subtitle}"
 			tasks: [{
 				id: "7C2F81696BD961AE"
 				item: {
@@ -866,18 +866,18 @@
 				}
 				type: "item"
 			}]
-			title: "EMC Link"
+			title: "{ftbquests.chapter.projecte_2.quest2506688838399800829.title}"
 			x: 5.0d
 			y: 2.0d
 		}
 		{
 			dependencies: ["5B0AC159182D73C5"]
 			description: [
-				"Also has &lRight-Click&r functions, though &dmore potent&r and have &abetter stats&r."
+				"{ftbquests.chapter.projecte_2.quest3528556891034276975.description1}"
 				""
-				"You can also craft the &6Morningstar&r and &cKatar&r which is crafted with the &cred matter&r &ctools,&r they will act like a &6multitool&r based on what tools where used to craft them."
+				"{ftbquests.chapter.projecte_2.quest3528556891034276975.description2}"
 				""
-				"All of the tools &dnever break&r."
+				"{ftbquests.chapter.projecte_2.quest3528556891034276975.description3}"
 			]
 			id: "30F7F3CC1BDAD46F"
 			rewards: [
@@ -991,7 +991,7 @@
 		}
 		{
 			dependencies: ["39EA68CA7E4A49FA"]
-			description: ["&aPassivaly generates&r &eEMC&r and adds it to your \"&eEMC Acount&r\" in the &atop left&r of your screen. The &eEMC account&r can be spent at the &dtransmutation table&r."]
+			description: ["{ftbquests.chapter.projecte_2.quest1705041975811143711.description1}"]
 			id: "17A986A4AF5A781F"
 			rewards: [
 				{
@@ -1021,7 +1021,7 @@
 				}
 				type: "item"
 			}]
-			title: "Power Flower"
+			title: "{ftbquests.chapter.projecte_2.quest1705041975811143711.title}"
 			x: 5.0d
 			y: -1.0d
 		}
@@ -1031,7 +1031,7 @@
 				"17A986A4AF5A781F"
 				"1D44E9BC799A988D"
 			]
-			description: ["&dGem armor&r is the best this mod has to offer, each piece gives you &cspecial abilities&r, including, &9Night-vision&r, &eflight,&r &bspeed,&r and &6fire-resistance&r"]
+			description: ["{ftbquests.chapter.projecte_2.quest8261331397591275633.description1}"]
 			id: "72A62522BD359871"
 			rewards: [
 				{
@@ -1071,5 +1071,5 @@
 			y: 0.5d
 		}
 	]
-	title: "ProjectE"
+	title: "{ftbquests.chapter.projecte_2.title}"
 }

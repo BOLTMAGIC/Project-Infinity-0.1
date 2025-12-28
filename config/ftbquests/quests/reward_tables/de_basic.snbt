@@ -18,5 +18,5 @@
 		{ count: 3, item: "draconicevolution:draconium_core" }
 		{ count: 3, item: "minecraft:diamond", weight: 0.5f }
 	]
-	title: "DE Basic"
+	title: "{ftbquests.loot_table.8319312224449668135.title}"
 }

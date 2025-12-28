@@ -39,6 +39,6 @@
 		{ item: "mysticalagriculture:neutronium_seeds" }
 		{ item: "mysticalagriculture:nitro_crystal_seeds" }
 	]
-	title: "&dTier 6 Seed Bag"
+	title: "{ftbquests.loot_table.3663852184954822005.title}"
 	use_title: true
 }

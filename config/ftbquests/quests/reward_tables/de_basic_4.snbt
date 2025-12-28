@@ -18,5 +18,5 @@
 		{ count: 2, item: "draconicevolution:awakened_draconium_block", weight: 3.0f }
 		{ count: 2, item: "draconicevolution:chaotic_energy_core" }
 	]
-	title: "DE Chaotic"
+	title: "{ftbquests.loot_table.1711091222353074689.title}"
 }

@@ -46,6 +46,6 @@
 			}
 		}
 	]
-	title: "Legendary Reward"
+	title: "{ftbquests.loot_table.7175652334583451871.title}"
 	use_title: true
 }

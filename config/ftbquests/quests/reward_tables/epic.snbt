@@ -87,6 +87,6 @@
 		}
 		{ item: "ironfurnaces:netherite_furnace" }
 	]
-	title: "Epic Reward"
+	title: "{ftbquests.loot_table.7025454341029952768.title}"
 	use_title: true
 }

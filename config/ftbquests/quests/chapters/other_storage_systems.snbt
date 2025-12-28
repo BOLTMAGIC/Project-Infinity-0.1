@@ -9,21 +9,21 @@
 	quests: [
 		{
 			description: [
-				"Welcome to the &bBasic Storage System&r chapter! Here, you'll learn about essential mods that improve your storage capabilities in Minecraft. This chapter covers:"
+				"{ftbquests.chapter.other_storage_systems.quest1049072861297840448.description1}"
 				""
-				"- &eSophisticated Backpacks and Storage&r"
-				"- &6Dank&r"
+				"{ftbquests.chapter.other_storage_systems.quest1049072861297840448.description2}"
+				"{ftbquests.chapter.other_storage_systems.quest1049072861297840448.description3}"
 				""
-				"These mods offer a variety of &dstorage solutions&r to help you manage your &aitems&r and &cfluids&r efficiently."
+				"{ftbquests.chapter.other_storage_systems.quest1049072861297840448.description4}"
 				""
-				"&eSophisticated Backpacks&r offer portable storage with upgradeable features, allowing you to carry more items on your adventures."
+				"{ftbquests.chapter.other_storage_systems.quest1049072861297840448.description5}"
 				""
-				"&eSophisticated Storage&r adds smarter storage solutions to Minecraft, including larger chests, barrels, and backpacks with upgrades like sorting, filtering, and auto-pickup."
+				"{ftbquests.chapter.other_storage_systems.quest1049072861297840448.description6}"
 				""
-				"&6Dank&r introduces 7 new containers that function as both storage and backpacks. Each slot can hold much more than a normal stack and increases with each tier. The stack size and tier color are fully configurable and shown in the tooltip, providing a quick visual reference."
+				"{ftbquests.chapter.other_storage_systems.quest1049072861297840448.description7}"
 				""
 				""
-				"Explore each mod to find the best storage solutions for your needs and enhance your overall gameplay experience."
+				"{ftbquests.chapter.other_storage_systems.quest1049072861297840448.description8}"
 			]
 			disable_toast: true
 			id: "0E8F0E3589291140"
@@ -1839,5 +1839,5 @@
 			y: 8.5d
 		}
 	]
-	title: "&6Other Storage Systems"
+	title: "{ftbquests.chapter.other_storage_systems.title}"
 }

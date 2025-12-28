@@ -401,5 +401,5 @@
 			y: -5.5d
 		}
 	]
-	title: "&eCreative items"
+	title: "{ftbquests.chapter.creative_items.title}"
 }

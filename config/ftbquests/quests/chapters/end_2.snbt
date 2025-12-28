@@ -23,11 +23,11 @@
 				entity: "minecraft:ender_dragon"
 				icon: "minecraft:dragon_head"
 				id: "74278AF6C738017C"
-				title: "Kill The Ender Dragon"
+				title: "{ftbquests.chapter.end_2.quest4080976407910423919.task.8369811225000280444.title}"
 				type: "kill"
 				value: 1L
 			}]
-			title: "Defeat the &8&lEnder Dragon"
+			title: "{ftbquests.chapter.end_2.quest4080976407910423919.title}"
 			x: 0.0d
 			y: -6.5d
 		}
@@ -44,7 +44,7 @@
 				advancement: "minecraft:end/find_end_city"
 				criterion: ""
 				id: "5FE31259434B7318"
-				title: "Discover a &eEnd City"
+				title: "{ftbquests.chapter.end_2.quest5999080114077028506.task.6909386427906880280.title}"
 				type: "advancement"
 			}]
 			x: 0.0d
@@ -69,13 +69,13 @@
 				}
 				type: "item"
 			}]
-			title: "Obtain an &bElytra&r"
+			title: "{ftbquests.chapter.end_2.quest8326983615523187894.title}"
 			x: 0.0d
 			y: -10.0d
 		}
 		{
 			dependencies: ["534103944AABD09A"]
-			description: ["Chests can be converter into shulker by right clicking them using 2 shells"]
+			description: ["{ftbquests.chapter.end_2.quest146228297974786633.description1}"]
 			id: "020781DCBCE5AA49"
 			rewards: [{
 				id: "34CE13324A90AAB8"
@@ -126,11 +126,11 @@
 				entity: "cataclysm:ender_golem"
 				icon: "cataclysm:void_core"
 				id: "1FAFB11B8DEB2D1D"
-				title: "Defeat an Ender Golem"
+				title: "{ftbquests.chapter.end_2.quest2826903241059138572.task.2283238268003364125.title}"
 				type: "kill"
 				value: 1L
 			}]
-			title: "Defeat the Ender Golem"
+			title: "{ftbquests.chapter.end_2.quest2826903241059138572.title}"
 			x: 3.5d
 			y: -6.5d
 		}
@@ -154,7 +154,7 @@
 				entity: "cataclysm:ender_guardian"
 				icon: "cataclysm:altar_of_void"
 				id: "3C7FFAC89C33E199"
-				title: "Defeat the Ender Guardian"
+				title: "{ftbquests.chapter.end_2.quest1271171606736074210.task.4359478703838978457.title}"
 				type: "kill"
 				value: 1L
 			}]
@@ -173,7 +173,7 @@
 				icon: "cataclysm:void_eye"
 				id: "04E95A4D04586D22"
 				structure: "cataclysm:ruined_citadel"
-				title: "Find the Ruined Citadel"
+				title: "{ftbquests.chapter.end_2.quest6307371904672848240.task.353913332557180194.title}"
 				type: "structure"
 			}]
 			x: 2.0d
@@ -242,7 +242,7 @@
 			y: -8.0d
 		}
 		{
-			description: ["Right click the air with a empty bottle."]
+			description: ["{ftbquests.chapter.end_2.quest5627545075294196232.description1}"]
 			id: "4E190E6E1268D208"
 			rewards: [{
 				id: "635DC8F0F1589F07"
@@ -258,5 +258,5 @@
 			y: -6.5d
 		}
 	]
-	title: "&eEnd"
+	title: "{ftbquests.chapter.end_2.title}"
 }

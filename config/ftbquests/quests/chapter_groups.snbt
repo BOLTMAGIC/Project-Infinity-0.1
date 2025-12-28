@@ -1,9 +1,9 @@
 {
 	chapter_groups: [
-		{ id: "5F4DF11C296D769D", title: "&5Storyline" }
-		{ id: "3D3A412C3395C674", title: "Resource Generation" }
-		{ id: "5255C8D5C49409ED", title: "Storage and Power" }
-		{ id: "29543B666C58207C", title: "Production" }
-		{ id: "5A71028F4E9FB5EC", title: "Challenges" }
+		{ id: "5F4DF11C296D769D", title: "{ftbquests.chapter_groups.6867410110066292381.title}" }
+		{ id: "3D3A412C3395C674", title: "{ftbquests.chapter_groups.4411910443062642292.title}" }
+		{ id: "5255C8D5C49409ED", title: "{ftbquests.chapter_groups.5932868904582121965.title}" }
+		{ id: "29543B666C58207C", title: "{ftbquests.chapter_groups.2978070564689158268.title}" }
+		{ id: "5A71028F4E9FB5EC", title: "{ftbquests.chapter_groups.6516992950304486892.title}" }
 	]
 }

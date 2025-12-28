@@ -118,19 +118,19 @@
 	quests: [
 		{
 			description: [
-				"Void Miners is a tech mod for Minecraft that adds tiered multiblock machines which generate resources from the void using power and upgradeable modifiers."
+				"{ftbquests.chapter.voidminer.quest1181362382776659276.description1}"
 				""
-				"The Solar panels generate a lot of energy."
+				"{ftbquests.chapter.voidminer.quest1181362382776659276.description2}"
 				""
-				"The Voidminers only work in the Overworld (garden of glass), nether and the end."
+				"{ftbquests.chapter.voidminer.quest1181362382776659276.description3}"
 				""
-				"The Solarpanels wont work in the Void dimension (javd mod)"
+				"{ftbquests.chapter.voidminer.quest1181362382776659276.description4}"
 			]
 			id: "10650AD3F8696D4C"
 			size: 2.0d
 			tasks: [{
 				id: "25FADFE2900B9911"
-				title: "Welcome to Voidminers"
+				title: "{ftbquests.chapter.voidminer.quest1181362382776659276.task.2736745887753279761.title}"
 				type: "checkmark"
 			}]
 			x: -11.0d
@@ -139,10 +139,10 @@
 		{
 			dependencies: ["613DA71A509DC39C"]
 			description: [
-				"You have to build the multiblock correctly. The Multibuilder tool helps you."
+				"{ftbquests.chapter.voidminer.quest7664018079179666234.description1}"
 				""
-				"And you need a lot of power. "
-				"If you want to extract the ores you need to connect the miner with a pipe to a chest or use AE2 importers. "
+				"{ftbquests.chapter.voidminer.quest7664018079179666234.description2}"
+				"{ftbquests.chapter.voidminer.quest7664018079179666234.description3}"
 			]
 			icon: "voidminers:rubetine_miner"
 			id: "6A5C0FD659ACF33A"
@@ -165,7 +165,7 @@
 					type: "item"
 				}
 			]
-			title: "Rubetine Miner Tier 1"
+			title: "{ftbquests.chapter.voidminer.quest7664018079179666234.title}"
 			x: -7.0d
 			y: 0.5d
 		}
@@ -224,11 +224,11 @@
 		{
 			dependencies: ["6A5C0FD659ACF33A"]
 			description: [
-				"This Multiblock is sometimes weird to build with the multibuilder tool."
+				"{ftbquests.chapter.voidminer.quest4920100275697084902.description1}"
 				""
-				"If its not forming then rotate the multiblock once with shift and mouse wheel. It will work!"
+				"{ftbquests.chapter.voidminer.quest4920100275697084902.description2}"
 				""
-				"Thank you :)"
+				"{ftbquests.chapter.voidminer.quest4920100275697084902.description3}"
 			]
 			icon: "voidminers:aurantium_miner"
 			id: "4447B5220839E9E6"
@@ -457,14 +457,14 @@
 		{
 			dependencies: ["4447B5220839E9E6"]
 			description: [
-				"You can replace any of the NULL Modifiers with:"
-				"&4-Energy Modifiers"
-				"&2-Duration Modifiers"
-				"&1-Item Modifiers&f"
+				"{ftbquests.chapter.voidminer.quest8814619899137910551.description1}"
+				"{ftbquests.chapter.voidminer.quest8814619899137910551.description2}"
+				"{ftbquests.chapter.voidminer.quest8814619899137910551.description3}"
+				"{ftbquests.chapter.voidminer.quest8814619899137910551.description4}"
 				""
-				"You dont need the same tier miner and same tier modifiers. "
+				"{ftbquests.chapter.voidminer.quest8814619899137910551.description5}"
 				""
-				"place maximum 6 item modifiers!"
+				"{ftbquests.chapter.voidminer.quest8814619899137910551.description6}"
 			]
 			id: "7A53D218AE346717"
 			tasks: [
@@ -578,11 +578,11 @@
 		{
 			dependencies: ["6E34E7248F1B7E27"]
 			description: [
-				"This Multiblock is sometimes weird to build with the multibuilder tool."
+				"{ftbquests.chapter.voidminer.quest54028500459609235.description1}"
 				""
-				"If its not forming then rotate the multiblock once with shift and mouse wheel. It will work!"
+				"{ftbquests.chapter.voidminer.quest54028500459609235.description2}"
 				""
-				"Thank you :)"
+				"{ftbquests.chapter.voidminer.quest54028500459609235.description3}"
 			]
 			id: "00BFF2A289A45C93"
 			rewards: [{
@@ -732,5 +732,5 @@
 			y: -2.0d
 		}
 	]
-	title: "&dVoidminer"
+	title: "{ftbquests.chapter.voidminer.title}"
 }

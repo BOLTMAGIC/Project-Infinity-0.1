@@ -212,6 +212,6 @@
 			weight: 0.15f
 		}
 	]
-	title: "&5Mythic Reward"
+	title: "{ftbquests.loot_table.5196609362437981520.title}"
 	use_title: true
 }

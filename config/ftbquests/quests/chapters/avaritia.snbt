@@ -10,7 +10,7 @@
 	quests: [
 		{
 			dependencies: ["3DB4820E671C641B"]
-			description: ["This can be used as a normal &6crafting table&r, or crafted for &6crafting table storage&r, similar to blocks of &bDiamond&r and &egold.&r"]
+			description: ["{ftbquests.chapter.avaritia.quest1336589488864071219.description1}"]
 			id: "128C850EFE438E33"
 			rewards: [{
 				count: 9
@@ -28,7 +28,7 @@
 		}
 		{
 			dependencies: ["128C850EFE438E33"]
-			description: ["Used to craft the &9Skulk Crafting Table.&r These are made with &6compressed crafting tables&r."]
+			description: ["{ftbquests.chapter.avaritia.quest7179984484862766029.description1}"]
 			id: "63A46DD9090FABCD"
 			rewards: [{
 				count: 18
@@ -46,7 +46,7 @@
 		}
 		{
 			dependencies: ["63A46DD9090FABCD"]
-			description: ["Infused with the echoes of the &dDeep Dark&r, this table unlocks a new &ccrafting table tier&r and a few vanilla items. It's the first step to &eultimate power&r."]
+			description: ["{ftbquests.chapter.avaritia.quest7840950751205416725.description1}"]
 			id: "6CD0A72A42EE5F15"
 			rewards: [
 				{
@@ -71,7 +71,7 @@
 			y: -13.5d
 		}
 		{
-			description: ["&9Avaritia&r returns, &ereforged&r and &cdeadlier.&r This isn't just endgame anymore. It's &dbeyond endgame&r. Brace yourself."]
+			description: ["{ftbquests.chapter.avaritia.quest4446321730492589083.description1}"]
 			id: "3DB4820E671C641B"
 			rewards: [{
 				id: "32E5C292004F9AB8"
@@ -89,7 +89,7 @@
 		}
 		{
 			dependencies: ["6CD0A72A42EE5F15"]
-			description: ["Forged in &chellish flame&r, the &cNether table&r handles recipes too volatile for the &aOverworld.&r"]
+			description: ["{ftbquests.chapter.avaritia.quest7768362872606097526.description1}"]
 			id: "6BCEC4DFC4050076"
 			rewards: [
 				{
@@ -117,7 +117,7 @@
 		}
 		{
 			dependencies: ["6CD0A72A42EE5F15"]
-			description: ["A &bdiamond&r is no longer rare. A &dstar&r is no longer bright. This is the new foundation of &aimpossibility.&r Crafted at the &bSkulk Crafting Table&r."]
+			description: ["{ftbquests.chapter.avaritia.quest6346497895981264176.description1}"]
 			id: "58134A3611BA2D30"
 			rewards: [
 				{
@@ -143,7 +143,7 @@
 		}
 		{
 			dependencies: ["58134A3611BA2D30"]
-			description: ["Crafted from &bDiamond lattice&r, this is used in a few &6crafting recipes.&r"]
+			description: ["{ftbquests.chapter.avaritia.quest4913973737965771788.description1}"]
 			id: "4431F1144F0C5C0C"
 			rewards: [
 				{
@@ -167,7 +167,7 @@
 		}
 		{
 			dependencies: ["4431F1144F0C5C0C"]
-			description: ["A block of &9Matrix Ingots&r which gives Enchanting tables &aEterna.&r And is used to craft."]
+			description: ["{ftbquests.chapter.avaritia.quest8994093025989291581.description1}"]
 			id: "7CD16FF452E8EE3D"
 			rewards: [
 				{
@@ -228,7 +228,7 @@
 		}
 		{
 			dependencies: ["6BCEC4DFC4050076"]
-			description: ["Made at the &cNether table&r these can be used to craft a block which provides &aEterna&r to &dEnchanting tables&r."]
+			description: ["{ftbquests.chapter.avaritia.quest596720625011143480.description1}"]
 			id: "0847FA3F33F03338"
 			rewards: [{
 				count: 12
@@ -246,7 +246,7 @@
 		}
 		{
 			dependencies: ["6CD0A72A42EE5F15"]
-			description: ["Same old &dnetherite,&r though it can be obtained in new ways."]
+			description: ["{ftbquests.chapter.avaritia.quest1739838302949882805.description1}"]
 			id: "182525B7EDF23BB5"
 			rewards: [{
 				id: "43E5619CA2F7F856"
@@ -263,7 +263,7 @@
 		}
 		{
 			dependencies: ["6BCEC4DFC4050076"]
-			description: ["You are making progress, &agood,&r but you must &6improve.&r"]
+			description: ["{ftbquests.chapter.avaritia.quest2682758915732881659.description1}"]
 			hide_dependency_lines: true
 			id: "253B13051E4540FB"
 			rewards: [{
@@ -289,7 +289,7 @@
 		}
 		{
 			dependencies: ["6BCEC4DFC4050076"]
-			description: ["You are making progress, &agood,&r but you must &6improve.&r"]
+			description: ["{ftbquests.chapter.avaritia.quest560318857804932386.description1}"]
 			hide_dependency_lines: true
 			id: "07C6A708506A6522"
 			rewards: [{
@@ -315,7 +315,7 @@
 		}
 		{
 			dependencies: ["6BCEC4DFC4050076"]
-			description: ["You are making progress, &agood,&r but you must &6improve.&r"]
+			description: ["{ftbquests.chapter.avaritia.quest7091789984504516400.description1}"]
 			hide_dependency_lines: true
 			id: "626B196AC0108F30"
 			rewards: [{
@@ -341,7 +341,7 @@
 		}
 		{
 			dependencies: ["6BCEC4DFC4050076"]
-			description: ["You are making progress, &agood,&r but you must &6improve.&r"]
+			description: ["{ftbquests.chapter.avaritia.quest4551015577400349933.description1}"]
 			hide_dependency_lines: true
 			id: "3F28748E2A3794ED"
 			rewards: [{
@@ -367,7 +367,7 @@
 		}
 		{
 			dependencies: ["6BCEC4DFC4050076"]
-			description: ["You are making progress, &agood,&r but you must &6improve.&r"]
+			description: ["{ftbquests.chapter.avaritia.quest6938724230158435531.description1}"]
 			hide_dependency_lines: true
 			id: "604B4CECA4FD44CB"
 			rewards: [{
@@ -393,7 +393,7 @@
 		}
 		{
 			dependencies: ["0D9F327D30321040"]
-			description: ["What you have made so far &acomes together&r, &bThe extreme crafting table&f. You will use this for most of the &6powerful crafts&r."]
+			description: ["{ftbquests.chapter.avaritia.quest6191729440616320963.description1}"]
 			id: "55ED711EFD438FC3"
 			rewards: [
 				{
@@ -420,7 +420,7 @@
 		}
 		{
 			dependencies: ["0D9F327D30321040"]
-			description: ["You are making progress, &agood,&r but you must &6improve.&r"]
+			description: ["{ftbquests.chapter.avaritia.quest8338102004565222842.description1}"]
 			hide_dependency_lines: true
 			id: "73B6E398931525BA"
 			rewards: [{
@@ -446,7 +446,7 @@
 		}
 		{
 			dependencies: ["0D9F327D30321040"]
-			description: ["You are making progress, &agood,&r but you must &6improve.&r"]
+			description: ["{ftbquests.chapter.avaritia.quest7247767149641078547.description1}"]
 			hide_dependency_lines: true
 			id: "64953DD2811A1713"
 			rewards: [{
@@ -472,7 +472,7 @@
 		}
 		{
 			dependencies: ["0D9F327D30321040"]
-			description: ["You are making progress, &agood,&r but you must &6improve.&r"]
+			description: ["{ftbquests.chapter.avaritia.quest5257061859815620177.description1}"]
 			hide_dependency_lines: true
 			id: "48F4D5E88C907E51"
 			rewards: [{
@@ -498,7 +498,7 @@
 		}
 		{
 			dependencies: ["0D9F327D30321040"]
-			description: ["You are making progress, &agood,&r but you must &6improve.&r"]
+			description: ["{ftbquests.chapter.avaritia.quest5509122351441821476.description1}"]
 			hide_dependency_lines: true
 			id: "4C7455970DDABF24"
 			rewards: [{
@@ -524,7 +524,7 @@
 		}
 		{
 			dependencies: ["0D9F327D30321040"]
-			description: ["You are making progress, &agood,&r but you must &6improve.&r"]
+			description: ["{ftbquests.chapter.avaritia.quest8361262409191111385.description1}"]
 			hide_dependency_lines: true
 			id: "74092BDC7DA9BAD9"
 			rewards: [{
@@ -561,7 +561,7 @@
 		}
 		{
 			dependencies: ["55ED711EFD438FC3"]
-			description: ["It condenses &9pure neutron energy&r from the &0void,&r one particle at a time. &cHigher tiers&r mean faster &ageneration&r and more &dmadness.&r This will &epassively&r generate &9Neu&9trons&r&r over a long period of time."]
+			description: ["{ftbquests.chapter.avaritia.quest4818733138872652687.description1}"]
 			id: "42DF944251E8538F"
 			rewards: [{
 				count: 6
@@ -580,7 +580,7 @@
 		}
 		{
 			dependencies: ["42DF944251E8538F"]
-			description: ["A single unit of pure &9neutron matter&r. Useless alone, but terrifying in numbers."]
+			description: ["{ftbquests.chapter.avaritia.quest9085530123499437141.description1}"]
 			id: "7E164982974B7C55"
 			rewards: [{
 				id: "75904785CA912A47"
@@ -597,7 +597,7 @@
 		}
 		{
 			dependencies: ["7E164982974B7C55"]
-			description: ["Useful in more powerful crafts."]
+			description: ["{ftbquests.chapter.avaritia.quest7040781312309098777.description1}"]
 			id: "61B5E14CC5647919"
 			rewards: [{
 				id: "37320F02FC16256A"
@@ -614,7 +614,7 @@
 		}
 		{
 			dependencies: ["61B5E14CC5647919"]
-			description: ["Used in crafting and for a block that provides &aEterna&r to &dEnchanting tables&r."]
+			description: ["{ftbquests.chapter.avaritia.quest1275695940836695519.description1}"]
 			id: "11B42EB302FA9DDF"
 			rewards: [{
 				id: "69CD7F12F64751E1"
@@ -631,7 +631,7 @@
 		}
 		{
 			dependencies: ["11B42EB302FA9DDF"]
-			description: ["Provides &aEterna&r to &dEnchanting tables&r when used in place of a bookshelf."]
+			description: ["{ftbquests.chapter.avaritia.quest1544243298873791235.description1}"]
 			id: "156E41193C265303"
 			rewards: [
 				{
@@ -656,7 +656,7 @@
 		}
 		{
 			dependencies: ["42DF944251E8538F"]
-			description: ["Generates &9Neutrons&r faster."]
+			description: ["{ftbquests.chapter.avaritia.quest6761228467667522594.description1}"]
 			id: "5DD4B5780494D422"
 			tasks: [{
 				id: "60EBF03A28F6FDC3"
@@ -668,7 +668,7 @@
 		}
 		{
 			dependencies: ["5DD4B5780494D422"]
-			description: ["Generates &9Neutron Ingots&r faster."]
+			description: ["{ftbquests.chapter.avaritia.quest3302227069647967862.description1}"]
 			id: "2DD3DE061E0BD676"
 			tasks: [{
 				id: "3B7213EB1C2B3422"
@@ -680,7 +680,7 @@
 		}
 		{
 			dependencies: ["2DD3DE061E0BD676"]
-			description: ["Generates &9Neutron Ingots&r faster."]
+			description: ["{ftbquests.chapter.avaritia.quest1410505568451152992.description1}"]
 			id: "13931F57613DCC60"
 			rewards: [{
 				count: 2
@@ -698,7 +698,7 @@
 		}
 		{
 			dependencies: ["55ED711EFD438FC3"]
-			description: ["&dA true Pearl&r. Capable of creating a &0black hole&r when thrown. And used to craft the amazing &6Infinity Catalyst&r"]
+			description: ["{ftbquests.chapter.avaritia.quest6108734986393521547.description1}"]
 			id: "54C6961ACAFC8D8B"
 			rewards: [
 				{
@@ -727,7 +727,7 @@
 				"2F6E8A0DFB555ED6"
 				"623B6948CC6BEE3B"
 			]
-			description: ["A spark of &6divine potential&r. Everything &mimpossible&r &9begins here&r. &eYou have come far&r, use this to craft the &9best&r of the &9best.&r"]
+			description: ["{ftbquests.chapter.avaritia.quest3787110680057869291.description1}"]
 			id: "348E851939EFF3EB"
 			rewards: [{
 				id: "7CF6B6CE1EF7FFE6"
@@ -744,7 +744,7 @@
 		}
 		{
 			dependencies: ["348E851939EFF3EB"]
-			description: ["Forged from &aeverything.&r Infused with &einfinity.&r This is the &6metal of gods&r."]
+			description: ["{ftbquests.chapter.avaritia.quest3194117163982826376.description1}"]
 			id: "2C53C8A3322CAB88"
 			rewards: [{
 				id: "1954BBB17319DE38"
@@ -763,7 +763,7 @@
 		}
 		{
 			dependencies: ["54C6961ACAFC8D8B"]
-			description: ["Useful for &6crafting giant recipes&r from a few mods."]
+			description: ["{ftbquests.chapter.avaritia.quest3698530055993269516.description1}"]
 			id: "3353D17D82959D0C"
 			rewards: [{
 				id: "2427616CF7ED18DD"
@@ -772,7 +772,7 @@
 			}]
 			shape: "hexagon"
 			size: 1.5d
-			subtitle: "Hey this is not from Avaritia!"
+			subtitle: "{ftbquests.chapter.avaritia.quest3698530055993269516.subtitle}"
 			tasks: [{
 				id: "75AE8D903B1972C1"
 				item: "extendedcrafting:ultimate_table"
@@ -783,7 +783,7 @@
 		}
 		{
 			dependencies: ["2C53C8A3322CAB88"]
-			description: ["The &6best&r of the &6best,&r &dno one can match you&r, You will see through all."]
+			description: ["{ftbquests.chapter.avaritia.quest1980016178568340985.description1}"]
 			id: "1B7A6E394D17A5F9"
 			rewards: [
 				{
@@ -798,7 +798,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "See beyond reality. No illusion can deceive you now."
+			subtitle: "{ftbquests.chapter.avaritia.quest1980016178568340985.subtitle}"
 			tasks: [{
 				id: "7693959B8E016C97"
 				item: "avaritia:infinity_helmet"
@@ -809,7 +809,7 @@
 		}
 		{
 			dependencies: ["2C53C8A3322CAB88"]
-			description: ["The &dbest&r of the &dbest,&r &6no one can match you&r. And it lets you &bfly&r!"]
+			description: ["{ftbquests.chapter.avaritia.quest5638648504548234546.description1}"]
 			id: "4E4080F0A6E29532"
 			rewards: [
 				{
@@ -824,7 +824,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "A heart of singularity. Protects against time, space, and logic."
+			subtitle: "{ftbquests.chapter.avaritia.quest5638648504548234546.subtitle}"
 			tasks: [{
 				id: "14744B4644031618"
 				item: "avaritia:infinity_chestplate"
@@ -836,9 +836,9 @@
 		{
 			dependencies: ["2C53C8A3322CAB88"]
 			description: [
-				"The &dbest&r of the &dbest,&r &6no one can match you&r."
+				"{ftbquests.chapter.avaritia.quest647294558028485181.description1}"
 				""
-				"&e&ospeeeed&r&r"
+				"{ftbquests.chapter.avaritia.quest647294558028485181.description2}"
 			]
 			id: "08FBA6F89454D23D"
 			rewards: [
@@ -854,7 +854,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Move with the weight of neutronium and the speed of starlight."
+			subtitle: "{ftbquests.chapter.avaritia.quest647294558028485181.subtitle}"
 			tasks: [{
 				id: "4DB1EE3CF1DEA987"
 				item: "avaritia:infinity_pants"
@@ -865,7 +865,7 @@
 		}
 		{
 			dependencies: ["2C53C8A3322CAB88"]
-			description: ["The &dbest&r of the &dbest,&r &6no one can match you&r. Not even &agravity&r can kill you."]
+			description: ["{ftbquests.chapter.avaritia.quest6453164371091477186.description1}"]
 			id: "598E3ECE201D52C2"
 			rewards: [
 				{
@@ -880,7 +880,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Gravity is optional. So is falling."
+			subtitle: "{ftbquests.chapter.avaritia.quest6453164371091477186.subtitle}"
 			tasks: [{
 				id: "5D5CAE9D3C33F415"
 				item: "avaritia:infinity_boots"
@@ -891,7 +891,7 @@
 		}
 		{
 			dependencies: ["2C53C8A3322CAB88"]
-			description: ["The &dbest&r of the &dbest,&r &6no one can match you&r. Everything will die at your touch."]
+			description: ["{ftbquests.chapter.avaritia.quest3217741761948656596.description1}"]
 			id: "2CA7B7158BE3A3D4"
 			rewards: [
 				{
@@ -906,7 +906,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "One hit. That’s all it takes. No exceptions."
+			subtitle: "{ftbquests.chapter.avaritia.quest3217741761948656596.subtitle}"
 			tasks: [{
 				id: "1AD615AAB6B4E1F5"
 				item: "avaritia:infinity_sword"
@@ -917,7 +917,7 @@
 		}
 		{
 			dependencies: ["2C53C8A3322CAB88"]
-			description: ["The &dbest&r of the &dbest,&r &6no one can match you&r. The power to destroy all."]
+			description: ["{ftbquests.chapter.avaritia.quest3122875407469921277.description1}"]
 			id: "2B56AEA32C0C43FD"
 			rewards: [
 				{
@@ -932,7 +932,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Mines everything. Breaks everything. Probably too much."
+			subtitle: "{ftbquests.chapter.avaritia.quest3122875407469921277.subtitle}"
 			tasks: [{
 				id: "67636438AD4249BD"
 				item: {
@@ -947,7 +947,7 @@
 		}
 		{
 			dependencies: ["2C53C8A3322CAB88"]
-			description: ["The &dbest&r of the &dbest,&r &6no one can match you&r."]
+			description: ["{ftbquests.chapter.avaritia.quest4653673580617702882.description1}"]
 			id: "40952B7721569DE2"
 			rewards: [
 				{
@@ -962,7 +962,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Turns trees into dust. Turns enemies into memories."
+			subtitle: "{ftbquests.chapter.avaritia.quest4653673580617702882.subtitle}"
 			tasks: [{
 				id: "5DF2AF19F4614AD1"
 				item: "avaritia:infinity_axe"
@@ -973,7 +973,7 @@
 		}
 		{
 			dependencies: ["2C53C8A3322CAB88"]
-			description: ["The &dbest&r of the &dbest,&r &6no one can match you&r."]
+			description: ["{ftbquests.chapter.avaritia.quest2894007916819925816.description1}"]
 			id: "282994DE03384B38"
 			rewards: [
 				{
@@ -988,7 +988,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "A shovel that doesn't dig it devours."
+			subtitle: "{ftbquests.chapter.avaritia.quest2894007916819925816.subtitle}"
 			tasks: [{
 				id: "3502D5596AFECA84"
 				item: {
@@ -1003,7 +1003,7 @@
 		}
 		{
 			dependencies: ["2C53C8A3322CAB88"]
-			description: ["The &dbest&r of the &dbest,&r &6no one can match you&r. You can bring &agrowth&r and &alife&r to the world around you"]
+			description: ["{ftbquests.chapter.avaritia.quest1221978238102397247.description1}"]
 			id: "10F556BBB559E13F"
 			rewards: [
 				{
@@ -1018,7 +1018,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Planets would grow from this, if you let them."
+			subtitle: "{ftbquests.chapter.avaritia.quest1221978238102397247.subtitle}"
 			tasks: [{
 				id: "7C59ACB2216AB4D6"
 				item: "avaritia:infinity_hoe"
@@ -1029,7 +1029,7 @@
 		}
 		{
 			dependencies: ["2C53C8A3322CAB88"]
-			description: ["The &dbest&r of the &dbest,&r &6no one can match you&r. Summons more arrows on hit, has &dInfinity&r."]
+			description: ["{ftbquests.chapter.avaritia.quest8996654525311564815.description1}"]
 			id: "7CDA899FDC1B3C0F"
 			rewards: [
 				{
@@ -1044,7 +1044,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "aim and shoot, your foe will die"
+			subtitle: "{ftbquests.chapter.avaritia.quest8996654525311564815.subtitle}"
 			tasks: [{
 				id: "01BC9F5A5BEC81C7"
 				item: "avaritia:infinity_bow"
@@ -1055,7 +1055,7 @@
 		}
 		{
 			dependencies: ["2C53C8A3322CAB88"]
-			description: ["This &bblueprint&r holds the shape of &0impossible&r creations. Place it in the right station... and &drewrite creation&r. Use in the&b Extreme Smithing&r for some of the&a best utility gear&r."]
+			description: ["{ftbquests.chapter.avaritia.quest3473868822460550347.description1}"]
 			id: "3035A949E710CCCB"
 			rewards: [
 				{
@@ -1080,7 +1080,7 @@
 		}
 		{
 			dependencies: ["2C53C8A3322CAB88"]
-			description: ["A &0mysterious component&r used to &dempower&r &9ancient tools&r and &bartifacts.&r Brimming with &cunstable energy&r and &aforbidden logic&r."]
+			description: ["{ftbquests.chapter.avaritia.quest117745128792451306.description1}"]
 			id: "01A250921FB4E8EA"
 			rewards: [
 				{
@@ -1104,7 +1104,7 @@
 			y: -0.5d
 		}
 		{
-			description: ["The flavor of the &dmultiverse&r. A soup brewed from &eeverything&r the &aworld&r offers. &lOne time use&r, but provides &damazing effects&r and &afully restores hunger&r and &esaturation.&r"]
+			description: ["{ftbquests.chapter.avaritia.quest7078367000731053627.description1}"]
 			hide_dependency_lines: true
 			id: "623B6948CC6BEE3B"
 			rewards: [{
@@ -1121,7 +1121,7 @@
 			y: -4.5d
 		}
 		{
-			description: ["&e&oYou are what you eat and this time&r&r, you're becoming a &dstar.&r Another amazing &6food source&r, though &aexpensive.&r"]
+			description: ["{ftbquests.chapter.avaritia.quest3417820959876669142.description1}"]
 			hide_dependency_lines: true
 			id: "2F6E8A0DFB555ED6"
 			rewards: [{
@@ -1143,7 +1143,7 @@
 				"3035A949E710CCCB"
 				"01A250921FB4E8EA"
 			]
-			description: ["&dThe final forge&r. Fuses power from the&a ancient tables&r into one &6absolute workstation&r."]
+			description: ["{ftbquests.chapter.avaritia.quest3753262220412554913.description1}"]
 			hide_dependency_lines: true
 			id: "3416441A94958EA1"
 			rewards: [
@@ -1171,7 +1171,7 @@
 		}
 		{
 			dependencies: ["3416441A94958EA1"]
-			description: ["&eInfinite space&r inside an &6unmovable object&r. You’ll lose items before you fill it."]
+			description: ["{ftbquests.chapter.avaritia.quest2087179543559804563.description1}"]
 			id: "1CF726BC8C581693"
 			rewards: [
 				{
@@ -1196,7 +1196,7 @@
 		}
 		{
 			dependencies: ["3416441A94958EA1"]
-			description: ["&bA second chance...&r &apowered by the infinite.&r &cJust don’t die 99 times.&r"]
+			description: ["{ftbquests.chapter.avaritia.quest2566219855238440133.description1}"]
 			id: "239D0B5CA70AA4C5"
 			rewards: [
 				{
@@ -1227,7 +1227,7 @@
 		}
 		{
 			dependencies: ["3416441A94958EA1"]
-			description: ["Your &6horse&r now weighs billions of tons and is &0invulnerable.&r You’re welcome."]
+			description: ["{ftbquests.chapter.avaritia.quest6597505487587395416.description1}"]
 			id: "5B8F0C492F564758"
 			rewards: [
 				{
@@ -1242,7 +1242,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Thank you"
+			subtitle: "{ftbquests.chapter.avaritia.quest6597505487587395416.subtitle}"
 			tasks: [{
 				id: "55E0B5EA98D05E3C"
 				item: "avaritia:neutron_horse_armor"
@@ -1253,7 +1253,7 @@
 		}
 		{
 			dependencies: ["3416441A94958EA1"]
-			description: ["Turns out the &dcake&r was not a lie. &eInfinite food&r, &6never hunger.&r"]
+			description: ["{ftbquests.chapter.avaritia.quest4179243933988306247.description1}"]
 			id: "39FFA83723143D47"
 			rewards: [
 				{
@@ -1268,7 +1268,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "The solution to world hunger"
+			subtitle: "{ftbquests.chapter.avaritia.quest4179243933988306247.subtitle}"
 			tasks: [{
 				id: "30F966ED6B1DFB6F"
 				item: "avaritia:endless_cake"
@@ -1279,7 +1279,7 @@
 		}
 		{
 			dependencies: ["3416441A94958EA1"]
-			description: ["It doesn't do anything. Yet. But it looks like it will do something terrifying."]
+			description: ["{ftbquests.chapter.avaritia.quest6184582246513572907.description1}"]
 			id: "55D40CC92FA0FC2B"
 			rewards: [
 				{
@@ -1294,7 +1294,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "DO NOT CLICK U ON THE ANVIL"
+			subtitle: "{ftbquests.chapter.avaritia.quest6184582246513572907.subtitle}"
 			tasks: [{
 				id: "63DE348D262D87C3"
 				item: "avaritia:extreme_anvil"
@@ -1305,7 +1305,7 @@
 		}
 		{
 			dependencies: ["3416441A94958EA1"]
-			description: ["&bFly&r between &dstars.&r Ignore the &0void.&r Become the &bsky.&r"]
+			description: ["{ftbquests.chapter.avaritia.quest869492211191187948.description1}"]
 			id: "0C110E8F2F0509EC"
 			rewards: [
 				{
@@ -1330,7 +1330,7 @@
 		}
 		{
 			dependencies: ["3416441A94958EA1"]
-			description: ["&eHolds anything.&r Even things that shouldn't be held. Useful? &aYes.&r Safe? &cNo.&r"]
+			description: ["{ftbquests.chapter.avaritia.quest638210788131026201.description1}"]
 			id: "08DB6154965F3519"
 			rewards: [
 				{
@@ -1355,7 +1355,7 @@
 		}
 		{
 			dependencies: ["2C53C8A3322CAB88"]
-			description: ["Provides Nigh &eInfinite&r &aEterna&r, and Used for a few &6crafting recipes&r."]
+			description: ["{ftbquests.chapter.avaritia.quest352779296140785005.description1}"]
 			id: "04E552E69695756D"
 			rewards: [{
 				id: "312E24468F558983"
@@ -1372,7 +1372,7 @@
 		}
 		{
 			dependencies: ["2C53C8A3322CAB88"]
-			description: ["Gathered from the &6Infinity Ingot&r, you will use this to craft the &bExtreme Smithing Table&r and &bTe&bmplate.&r&r"]
+			description: ["{ftbquests.chapter.avaritia.quest5917294390478470555.description1}"]
 			id: "521E73E59FE17D9B"
 			rewards: [{
 				id: "1FD328961900EEAE"
@@ -1389,9 +1389,9 @@
 		}
 		{
 			dependencies: ["348E851939EFF3EB"]
-			description: ["An &aexpensive&r &aflower&r crafted at the &bExtreme Crafting Table&r, this is used to provide near &dinfinite mana&r. &6Permanently&r, for &bBotania.&r"]
+			description: ["{ftbquests.chapter.avaritia.quest6277894926027611591.description1}"]
 			id: "571F902C6B1A5DC7"
-			subtitle: "Asgarda- what now"
+			subtitle: "{ftbquests.chapter.avaritia.quest6277894926027611591.subtitle}"
 			tasks: [{
 				id: "5BA72A53FBEF045A"
 				item: "botaniaasgard:asgardandelion"
@@ -1401,5 +1401,5 @@
 			y: -1.5d
 		}
 	]
-	title: " &5Avaritia"
+	title: "{ftbquests.chapter.avaritia.title}"
 }

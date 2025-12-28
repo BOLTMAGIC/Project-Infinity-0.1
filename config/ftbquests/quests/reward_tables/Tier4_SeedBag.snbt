@@ -41,6 +41,6 @@
 		{ item: "mysticalagriculture:imperium_ingot", random_bonus: 1, weight: 5.0f }
 		{ item: "mysticalagriculture:imperium_gemstone", weight: 5.0f }
 	]
-	title: "&9Tier 4 Seed Bag"
+	title: "{ftbquests.loot_table.7059507240202337975.title}"
 	use_title: true
 }

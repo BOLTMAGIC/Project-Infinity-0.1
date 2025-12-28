@@ -276,6 +276,6 @@
 		}
 		{ item: "ironfurnaces:gold_furnace" }
 	]
-	title: "Common Reward"
+	title: "{ftbquests.loot_table.487623848494439020.title}"
 	use_title: true
 }

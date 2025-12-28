@@ -10,7 +10,7 @@
 	quests: [
 		{
 			dependencies: ["347C16F0F7CFAACF"]
-			description: ["&aExtreme Reactors&r is a mod focused on &epower generation&r though &bturbines&r and &creactors.&r This quest-line will act as your &aguide&r through this world of &eelectricity,&r once you have &agenerated power&r you can use it for other mods like &cMekanism&r"]
+			description: ["{ftbquests.chapter.extreme_reactors.quest8957175409238638052.description1}"]
 			icon: {
 				Count: 1
 				id: "patchouli:guide_book"
@@ -36,10 +36,10 @@
 						value: "c:ingots/uranium"
 					}
 				}
-				title: "Any #c:ingots/uranium"
+				title: "{ftbquests.chapter.extreme_reactors.quest8957175409238638052.task.9137315814577796041.title}"
 				type: "item"
 			}]
-			title: "Welcome to &2Extreme Reactors"
+			title: "{ftbquests.chapter.extreme_reactors.quest8957175409238638052.title}"
 			x: -9.5d
 			y: -9.0d
 		}
@@ -60,31 +60,31 @@
 						value: "forge:ingots/graphite"
 					}
 				}
-				title: "Any #forge:ingots/graphite"
+				title: "{ftbquests.chapter.extreme_reactors.quest5739484390577583938.task.5441369597569909286.title}"
 				type: "item"
 			}]
-			title: "Graphite Bars"
+			title: "{ftbquests.chapter.extreme_reactors.quest5739484390577583938.title}"
 			x: -9.5d
 			y: -7.5d
 		}
 		{
 			dependencies: ["75AD0CEBC1335915"]
 			description: [
-				"Your first&c basic reactor&r has a max size of &l5x5x5,&r though they &ecan be smaller&r, you can make by following these directions:"
+				"{ftbquests.chapter.extreme_reactors.quest5393120191332327538.description1}"
 				""
-				"&lFirst:&r Make the &6walls&r and &6floor&r of &abasic Reactor Casing&r and &aGlass.&r"
+				"{ftbquests.chapter.extreme_reactors.quest5393120191332327538.description2}"
 				""
-				"&lSecond:&r Add a &bbasic Reactor controller&r to one wall."
+				"{ftbquests.chapter.extreme_reactors.quest5393120191332327538.description3}"
 				""
-				"&lThird:&r add &dtwo basic Reactor Solid Access Ports&r, one set to &cInlet (red)&r the other &aOutlet (green)&r you can attach &epumps&r from other mods to these."
+				"{ftbquests.chapter.extreme_reactors.quest5393120191332327538.description4}"
 				""
-				"&lFourth:&r Add a &ebasic Reactor Active Forge Energy Power Tap&r, which will &astore&r and &apipe out&r &eenergy&r from the &creactor.&r"
+				"{ftbquests.chapter.extreme_reactors.quest5393120191332327538.description5}"
 				""
-				"&lFifth:&r Then you want &9basic Reactor Fuel Rod&r in a &ediagonal&r pattern across the floor and build them up till &eone block&r from the roof where on top of the&9 Fuel rods&r you put &bbasic Reactor Control Rods.&r"
+				"{ftbquests.chapter.extreme_reactors.quest5393120191332327538.description6}"
 				""
-				"Then fill in the empty spots of the roof with &aReactor casing&r. if done correctly the &etextures&r will change slightly to show it has become a &4Multi-block reactor.&r"
+				"{ftbquests.chapter.extreme_reactors.quest5393120191332327538.description7}"
 				"{@pagebreak}"
-				"You can build &cbigger reactors&r with &9reinforced forms&r of the previously mentioned blocks instead of &abasic ones&r, also the &etaller&r a &creactor&r is, the &emore fuel&r it will use and hold while the &6energy&r it will make increases, but the &awidth&r will help it &bcool.&r"
+				"{ftbquests.chapter.extreme_reactors.quest5393120191332327538.description8}"
 			]
 			icon: "bigreactors:wrench"
 			id: "4AD8363D7359A072"
@@ -129,14 +129,14 @@
 					type: "item"
 				}
 			]
-			title: "The First Reactor"
+			title: "{ftbquests.chapter.extreme_reactors.quest5393120191332327538.title}"
 			x: -9.5d
 			y: -3.0d
 		}
 		{
 			dependencies: ["4FA6BEA4E646B742"]
 			description: [
-				"These are the used to create &cbasic reactors&r, and will be used for the &6outer walls&r and &6edges.&r"
+				"{ftbquests.chapter.extreme_reactors.quest5448955979256103062.description1}"
 				""
 			]
 			id: "4B9E9497E44D0096"
@@ -160,13 +160,13 @@
 					type: "item"
 				}
 			]
-			title: "Reactor Casings"
+			title: "{ftbquests.chapter.extreme_reactors.quest5448955979256103062.title}"
 			x: -9.5d
 			y: -6.25d
 		}
 		{
 			dependencies: ["4B9E9497E44D0096"]
-			description: ["The &dSolid access port&r allows for fuel to be &cinputed&r and waste &aoutputed&r from the reactor, while the &eEnergy tap&r stores and outputs the &creactors&r energy."]
+			description: ["{ftbquests.chapter.extreme_reactors.quest3035426216204231018.description1}"]
 			id: "2A20000FAEC2E16A"
 			min_width: 300
 			rewards: [{
@@ -186,22 +186,22 @@
 					type: "item"
 				}
 			]
-			title: "Reactor Interacting Components"
+			title: "{ftbquests.chapter.extreme_reactors.quest3035426216204231018.title}"
 			x: -11.0d
 			y: -5.75d
 		}
 		{
 			dependencies: ["4B9E9497E44D0096"]
 			description: [
-				"After placing this in a &creactor&r you will be able to view its stats, including &epower controls&r fuel levels&6, and &ctemperature levels&r."
+				"{ftbquests.chapter.extreme_reactors.quest8479447880106727701.description1}"
 				""
-				"&oA few tips:&r"
+				"{ftbquests.chapter.extreme_reactors.quest8479447880106727701.description2}"
 				""
-				"&cHigher core heat&r means &emore fuel used.&r"
+				"{ftbquests.chapter.extreme_reactors.quest8479447880106727701.description3}"
 				""
-				"&cHigher casing heat&r &eincreases energy production&r, and &bcoolent conversion&r."
+				"{ftbquests.chapter.extreme_reactors.quest8479447880106727701.description4}"
 				""
-				"You can choose either &amanual&r or &bautomatic&r &ewaste ejection&r mode, &aManual&r means the pipe attached to the &dSolid port&r must call for the waste i.e &cMekanism&r p&aipes on pull mode&r, while &9automatic&r outputs the &ewaste&r to the pipe anyways."
+				"{ftbquests.chapter.extreme_reactors.quest8479447880106727701.description5}"
 			]
 			id: "75AD0CEBC1335915"
 			min_width: 300
@@ -221,11 +221,11 @@
 		{
 			dependencies: ["4B9E9497E44D0096"]
 			description: [
-				"&9Fuel rods&r and will be placed inside of a &creactor&r in a &ediagonal&r patteren, towering up to the &6roof&r where on the very top will be the &bControl rods&r."
+				"{ftbquests.chapter.extreme_reactors.quest8884102829678682227.description1}"
 				""
-				"If you interact with a &bcontrol rod&r, you will get a &6small slider&r on the bottom of a &lUI&r which allows you to \"push the &9fuel rods&r\" which makes them use &aless fuel&r, but make &eless energy&r."
+				"{ftbquests.chapter.extreme_reactors.quest8884102829678682227.description2}"
 				""
-				"The fuel for your first &cbasic reactor&r should be &auranium.&r"
+				"{ftbquests.chapter.extreme_reactors.quest8884102829678682227.description3}"
 			]
 			id: "7B4AAC741F0A6073"
 			min_width: 290
@@ -246,16 +246,16 @@
 					type: "item"
 				}
 			]
-			title: "Reactor Control Rods"
+			title: "{ftbquests.chapter.extreme_reactors.quest8884102829678682227.title}"
 			x: -11.0d
 			y: -6.75d
 		}
 		{
 			dependencies: ["4AD8363D7359A072"]
 			description: [
-				"When the reactor &o&6burns&r up fuel, it creates &o&dwaste&r that you will want to collect. That is what the other &3Solid Access Port&r is for!"
+				"{ftbquests.chapter.extreme_reactors.quest5135534243571712691.description1}"
 				""
-				"Make sure to set it to &o&coutput&r, then &o&9pipe it&r into some type of storage."
+				"{ftbquests.chapter.extreme_reactors.quest5135534243571712691.description2}"
 			]
 			id: "4745152F6FF242B3"
 			min_width: 250
@@ -273,19 +273,19 @@
 						value: "forge:ingots/cyanite"
 					}
 				}
-				title: "Any #forge:ingots/cyanite"
+				title: "{ftbquests.chapter.extreme_reactors.quest5135534243571712691.task.8644550674550161173.title}"
 				type: "item"
 			}]
-			title: "The Waste"
+			title: "{ftbquests.chapter.extreme_reactors.quest5135534243571712691.title}"
 			x: -6.0d
 			y: -3.0d
 		}
 		{
 			dependencies: ["4745152F6FF242B3"]
 			description: [
-				"Now that we have some &dCyanite&r from our &o&bsmall reactor&r, we'll want a way to &o&breprocess&r that &o&3waste&r into &nsomething useful&r. To do this, we'll need to build the &6Reprocessor&r."
+				"{ftbquests.chapter.extreme_reactors.quest3837215077562384724.description1}"
 				""
-				"This takes a lot of &dCyanite&r, so start &o&bstocking up&r! You might want to upgrade to a &o&bbigger reinforced reactor&r as well."
+				"{ftbquests.chapter.extreme_reactors.quest3837215077562384724.description2}"
 			]
 			id: "354086C858E10154"
 			min_width: 250
@@ -299,18 +299,18 @@
 				item: "bigreactors:reprocessorcasing"
 				type: "item"
 			}]
-			title: "Reprocessing the Waste"
+			title: "{ftbquests.chapter.extreme_reactors.quest3837215077562384724.title}"
 			x: -3.0d
 			y: -3.0d
 		}
 		{
 			dependencies: ["4745152F6FF242B3"]
 			description: [
-				"When your &2Reinforced Reactor&r turns its coolent to &7vapor,&r you can send it to a &aturbine&r to &egenerate power&r and turn it into &bwater.&r"
+				"{ftbquests.chapter.extreme_reactors.quest4906049439739510376.description1}"
 				""
-				"You can make &bturbines&l&r 5x5x10&r with &abasic parts&r, but much &ebigger&r with &6reinforced parts&r."
+				"{ftbquests.chapter.extreme_reactors.quest4906049439739510376.description2}"
 				""
-				"Just like the &creactor,&r you will need to place the &bturbine&r controller in the wall."
+				"{ftbquests.chapter.extreme_reactors.quest4906049439739510376.description3}"
 			]
 			icon: "bigreactors:reinforced_turbinecontroller"
 			id: "4415C9F8DA2D7E68"
@@ -333,18 +333,18 @@
 					type: "item"
 				}
 			]
-			title: "Turbines"
+			title: "{ftbquests.chapter.extreme_reactors.quest4906049439739510376.title}"
 			x: -6.0d
 			y: -6.0d
 		}
 		{
 			dependencies: ["4AD8363D7359A072"]
 			description: [
-				"Reactor &2Moderators&r are materials placed inside of a reactor where there aren't fuel rods &o&bto change how it performs&r, based on the &nproperties&r of the moderator. These are placed inside of the reactor &o&bduring construction&r."
+				"{ftbquests.chapter.extreme_reactors.quest8301874488086858255.description1}"
 				""
-				"The &o&9rarer&r the material is, the &nbetter&r of a &2Moderator&r it is. Leaving the reactor &o&bempty&r means you are using the &7air&r inside as a moderator, which isn't that great."
+				"{ftbquests.chapter.extreme_reactors.quest8301874488086858255.description2}"
 				""
-				"If you are looking for something &o&acheap&r in the early game, try using &3Graphite Blocks&r!"
+				"{ftbquests.chapter.extreme_reactors.quest8301874488086858255.description3}"
 			]
 			id: "73362EDC984B8A0F"
 			min_width: 300
@@ -359,20 +359,20 @@
 				item: "bigreactors:graphite_block"
 				type: "item"
 			}]
-			title: "Reactor Moderators"
+			title: "{ftbquests.chapter.extreme_reactors.quest8301874488086858255.title}"
 			x: -11.0d
 			y: -3.0d
 		}
 		{
 			dependencies: ["4415C9F8DA2D7E68"]
 			description: [
-				"&cReactors&r can also be used to &o&bheat up&r coolants like &o&bwater&r to create &o&bvapor&r, like &7Steam&r."
+				"{ftbquests.chapter.extreme_reactors.quest5145174726822627935.description1}"
 				""
-				"To do this, you'll need to build a &2Reinforced Reactor&r. I'd also suggest on it being bigger than a &o&b3x3x3&r."
+				"{ftbquests.chapter.extreme_reactors.quest5145174726822627935.description2}"
 				""
-				"To input a &o&bcoolant&r to the &creactor,&r you'll need two &9Forge Fluid Port&r. This will port in &nany fluids&r into the reactor. This will also be used to &o&bexport the vapor&r created in the reactor."
+				"{ftbquests.chapter.extreme_reactors.quest5145174726822627935.description3}"
 				""
-				"If you want, you can create a &eMekanism Fluid Port&r to convert the &o&bfluid steam&r into the mekanism &o&bgas steam&r instead."
+				"{ftbquests.chapter.extreme_reactors.quest5145174726822627935.description4}"
 			]
 			id: "476755275B948A5F"
 			min_width: 300
@@ -393,16 +393,16 @@
 					type: "item"
 				}
 			]
-			title: "The Actively Cooled Reactor"
+			title: "{ftbquests.chapter.extreme_reactors.quest5145174726822627935.title}"
 			x: -4.5d
 			y: -5.0d
 		}
 		{
 			dependencies: ["4415C9F8DA2D7E68"]
 			description: [
-				"The &9Fluid Port&r is used &o&bto insert&r vapors like &3Steam&r, or &o&bextract&r the product of the turbine, like &1Water&r if inputing &7steam.&r Because of this, you'll need &ntwo&r for your &2Turbine&r."
+				"{ftbquests.chapter.extreme_reactors.quest1758428433724275154.description1}"
 				""
-				"The &cPower Tap&r extracts power, and is &nrequired&r to complete the multiblock."
+				"{ftbquests.chapter.extreme_reactors.quest1758428433724275154.description2}"
 			]
 			id: "186731580B14F9D2"
 			min_width: 250
@@ -424,13 +424,13 @@
 					type: "item"
 				}
 			]
-			title: "Turbine Ports"
+			title: "{ftbquests.chapter.extreme_reactors.quest1758428433724275154.title}"
 			x: -7.5d
 			y: -6.5d
 		}
 		{
 			dependencies: ["4415C9F8DA2D7E68"]
-			description: ["These are used to make the &bturbine&r inside of the &cmulti-block build&r, place the &bturbine bearing&r inside the &emiddle block&r on the floor on the inside of the &amachine,&r then place your &6rotator&r &6shafts&r so they touch the &eroof,&r finally attach &6rotator&r &6blades&r to the &6shaft,&r the &bmore and longer&r they are, the more &7vapor&r your &bturbine&r can process."]
+			description: ["{ftbquests.chapter.extreme_reactors.quest7471414394512748681.description1}"]
 			id: "67AFCBCE7AAC3089"
 			min_width: 300
 			rewards: [{
@@ -457,13 +457,13 @@
 					type: "item"
 				}
 			]
-			title: "Turbine Shaft"
+			title: "{ftbquests.chapter.extreme_reactors.quest7471414394512748681.title}"
 			x: -6.0d
 			y: -7.5d
 		}
 		{
 			dependencies: ["4415C9F8DA2D7E68"]
-			description: ["Just like the &2Reactor&r, the frame must be built out of &eCasings&r, but the walls can be &3Turbine Glass&r instead!"]
+			description: ["{ftbquests.chapter.extreme_reactors.quest3267685241154967443.description1}"]
 			id: "2D592669F4D41793"
 			min_width: 250
 			rewards: [{
@@ -477,16 +477,16 @@
 				item: "bigreactors:basic_turbineglass"
 				type: "item"
 			}]
-			title: "Turbine Construction Parts"
+			title: "{ftbquests.chapter.extreme_reactors.quest3267685241154967443.title}"
 			x: -4.5d
 			y: -6.5d
 		}
 		{
 			dependencies: ["354086C858E10154"]
 			description: [
-				"The &6Reprocessor&r is a &o&b3x3x7&r multiblock structure that has &o&bspecific rules&r to complete the construction of the multiblock."
+				"{ftbquests.chapter.extreme_reactors.quest3094851554340525633.description1}"
 				""
-				"The heart of this multiblock is the &dController&r, and can be placed in &o&bany vertical face&r as long as it is not an &bedge/frame&r."
+				"{ftbquests.chapter.extreme_reactors.quest3094851554340525633.description2}"
 			]
 			id: "2AF31F1769085641"
 			min_width: 250
@@ -506,7 +506,7 @@
 		}
 		{
 			dependencies: ["2AF31F1769085641"]
-			description: ["This is the &amain block&r you will be using to build the &breprocessor frame&r."]
+			description: ["{ftbquests.chapter.extreme_reactors.quest7594241283487985133.description1}"]
 			id: "69642A3618E86DED"
 			min_width: 300
 			rewards: [{
@@ -520,18 +520,18 @@
 				item: "bigreactors:reprocessorcasing"
 				type: "item"
 			}]
-			title: "The Frame"
+			title: "{ftbquests.chapter.extreme_reactors.quest7594241283487985133.title}"
 			x: -0.5d
 			y: -1.5d
 		}
 		{
 			dependencies: ["2AF31F1769085641"]
 			description: [
-				"When building the &6Reprocessor&r, you will need &o&bat least&r one &aCollector&r and &3Waste Injector&r."
+				"{ftbquests.chapter.extreme_reactors.quest2708958264069271958.description1}"
 				""
-				"The &aReprocessor Collector&r must be placed &o&bin the center of the bottom face&r of the structure."
+				"{ftbquests.chapter.extreme_reactors.quest2708958264069271958.description2}"
 				""
-				"The &cWaste Injector&r must go &o&bin the center of the top face&r, which is where you'll &npipe in&r or &ninsert waste&r like &dCyanite Ingots&r."
+				"{ftbquests.chapter.extreme_reactors.quest2708958264069271958.description3}"
 			]
 			id: "2598273041353196"
 			min_width: 300
@@ -552,20 +552,20 @@
 					type: "item"
 				}
 			]
-			title: "Importing Waste"
+			title: "{ftbquests.chapter.extreme_reactors.quest2708958264069271958.title}"
 			x: 1.0d
 			y: -3.5d
 		}
 		{
 			dependencies: ["2AF31F1769085641"]
 			description: [
-				"These three parts can be placed on &o&bany vertical face&r as long as they aren't on the frame!"
+				"{ftbquests.chapter.extreme_reactors.quest4341439653612495915.description1}"
 				""
-				"The &cPower Port&r is used to &o&bgive power&r to the multiblock machine to process waste."
+				"{ftbquests.chapter.extreme_reactors.quest4341439653612495915.description2}"
 				""
-				"The &9Fluid Injector Port&r is used &o&bto inject&r the liquid needed, which will depend on the type of waste injected. For &dCyanite&r, that means &o&1water&r!"
+				"{ftbquests.chapter.extreme_reactors.quest4341439653612495915.description3}"
 				""
-				"The &cOutput Port&r is used &o&bto output&r the reprocessed material. You can &eRight-click&r it &o&bto grab&r the material out by hand, or &o&bpipe it out&r for automation."
+				"{ftbquests.chapter.extreme_reactors.quest4341439653612495915.description4}"
 			]
 			id: "3C3FE45CEF5E242B"
 			min_width: 300
@@ -597,9 +597,9 @@
 		{
 			dependencies: ["69642A3618E86DED"]
 			description: [
-				"Once you've built a fully functional &6Reprocessor&r, you can pump in &ePower&r, &9Water&r and &dCyanite&r to create &1Blutonium&r."
+				"{ftbquests.chapter.extreme_reactors.quest9081444494572481311.description1}"
 				""
-				"This can be used as a fuel for your &2Reactor&r, and creates its own &o&3waste&r called &5Magentite&r."
+				"{ftbquests.chapter.extreme_reactors.quest9081444494572481311.description2}"
 			]
 			id: "7E07C5A6FA6B6B1F"
 			min_width: 270
@@ -617,7 +617,7 @@
 						value: "forge:ingots/blutonium"
 					}
 				}
-				title: "Any #forge:ingots/blutonium"
+				title: "{ftbquests.chapter.extreme_reactors.quest9081444494572481311.task.4015851288534391203.title}"
 				type: "item"
 			}]
 			x: -3.0d
@@ -626,9 +626,9 @@
 		{
 			dependencies: ["4AD8363D7359A072"]
 			description: [
-				"The &2Fluidizer&r is a &o&bcustomizable multiblock&r that has a &nminimum&r size of &o&b3x3x3&r."
+				"{ftbquests.chapter.extreme_reactors.quest2725874510160759995.description1}"
 				""
-				"You can transport the &bfluids&r with pipes from &cMekanism&r"
+				"{ftbquests.chapter.extreme_reactors.quest2725874510160759995.description2}"
 			]
 			id: "25D4406CB86C8CBB"
 			min_width: 300
@@ -642,13 +642,13 @@
 				item: "bigreactors:fluidizercontroller"
 				type: "item"
 			}]
-			title: "The Fluidizer"
+			title: "{ftbquests.chapter.extreme_reactors.quest2725874510160759995.title}"
 			x: -9.5d
 			y: 2.25d
 		}
 		{
 			dependencies: ["25D4406CB86C8CBB"]
-			description: ["Just like the other &cmultiblocks,&r the frame will need to be made out of &7Casings&r, while the faces can be made out of &9Glass&r."]
+			description: ["{ftbquests.chapter.extreme_reactors.quest5772606974789497872.description1}"]
 			id: "501C6B7580453410"
 			min_width: 250
 			rewards: [{
@@ -669,19 +669,19 @@
 					type: "item"
 				}
 			]
-			title: "Fluidizer Construction Parts"
+			title: "{ftbquests.chapter.extreme_reactors.quest5772606974789497872.title}"
 			x: -7.5d
 			y: 1.25d
 		}
 		{
 			dependencies: ["25D4406CB86C8CBB"]
 			description: [
-				"The &2Fluidizer&r can operate in one of &o&b3&r modes: &o&bSolid&r to &o&bFluid&r, combining &o&b2 Solids&r into a &o&bFluid&r, or combining &o&b2 Fluids&r into a new &o&bFluid&r. This all depends on the type of &aInjectors&r you use for the multiblock."
+				"{ftbquests.chapter.extreme_reactors.quest6418984161152088181.description1}"
 				""
-				"For example, if you want to convert &1Blutonium&r into a fluid, you can use &o&b1&r &aSolid Injector&r,"
-				"If you want to combine &o&btwo solids together&r into something &nnew&r, you'll build the multiblock with &o&b2&r &aSolid Injectors&r. If you want to combine &o&btwo fluids&r, you'll use &o&b2&r &9Fluid Injectors&r."
+				"{ftbquests.chapter.extreme_reactors.quest6418984161152088181.description2}"
+				"{ftbquests.chapter.extreme_reactors.quest6418984161152088181.description3}"
 				""
-				"This might seem confusing, but is &o&6important&r for progression. For example, you'll want to convert &cMagentite&r into a fluid in the &2Fluidizer&r first, then send it to a &eReprocessor&r with &5Ludicrite&r to create &7Ridiculite&r."
+				"{ftbquests.chapter.extreme_reactors.quest6418984161152088181.description4}"
 			]
 			id: "5914D015D8543875"
 			min_width: 400
@@ -702,13 +702,13 @@
 					type: "item"
 				}
 			]
-			title: "Fluidizer Injectors"
+			title: "{ftbquests.chapter.extreme_reactors.quest6418984161152088181.title}"
 			x: -7.5d
 			y: 3.25d
 		}
 		{
 			dependencies: ["25D4406CB86C8CBB"]
-			description: ["The &2Fluidizer&r needs &o&epower&r to operate, so a &6Power Port&r is required and to take the product the &2Fluidizer&r makes you'll be needed a &cOutput Port&r as well."]
+			description: ["{ftbquests.chapter.extreme_reactors.quest6186996188199112435.description1}"]
 			id: "55DCA040C84DCEF3"
 			min_width: 250
 			rewards: [{
@@ -728,16 +728,16 @@
 					type: "item"
 				}
 			]
-			title: "Fluidizer Ports"
+			title: "{ftbquests.chapter.extreme_reactors.quest6186996188199112435.title}"
 			x: -8.0d
 			y: 2.25d
 		}
 		{
 			dependencies: ["7E07C5A6FA6B6B1F"]
 			description: [
-				"Using the &6Reprocessor&r, we can combine &o&beverything&r we've made so far to make &o&bnew ingots&r."
+				"{ftbquests.chapter.extreme_reactors.quest6512587378939188018.description1}"
 				""
-				"You might need a &aFluidizer&r to complete this step!"
+				"{ftbquests.chapter.extreme_reactors.quest6512587378939188018.description2}"
 			]
 			id: "5A615BB74A5CD332"
 			min_width: 230
@@ -768,11 +768,11 @@
 				"501C6B7580453410"
 			]
 			description: [
-				"By using the &3Fluidizer&r, we can combine &1Blutonium&r with &eYellorium&r to make &2Verderium&r."
+				"{ftbquests.chapter.extreme_reactors.quest8956967658129459093.description1}"
 				""
-				"When used &o&bas fuel&r in a reactor, &2Verderium&r produces &4Rossinite&r as a reactant. &nWe need this&r!"
+				"{ftbquests.chapter.extreme_reactors.quest8956967658129459093.description2}"
 				""
-				"To use &2Verderium&r as a fuel, you'll need to make &9Fuel Injection Ports&r for your reactor. Don't forget &o&bto empty&r out the fuel currently in your reactor, or make &o&ba new reactor&r for this purpose."
+				"{ftbquests.chapter.extreme_reactors.quest8956967658129459093.description3}"
 			]
 			id: "7C4D8AA107780795"
 			min_width: 350
@@ -787,7 +787,7 @@
 				item: "bigreactors:reinforced_reactorfluidaccessport"
 				type: "item"
 			}]
-			title: "Making Rossinite"
+			title: "{ftbquests.chapter.extreme_reactors.quest8956967658129459093.title}"
 			x: -6.0d
 			y: 2.25d
 		}
@@ -796,7 +796,7 @@
 				"7C4D8AA107780795"
 				"5A615BB74A5CD332"
 			]
-			description: ["Combining &bRidiculite Ingots&r with &4Rossinite&r will create &cInanite Ingots&r."]
+			description: ["{ftbquests.chapter.extreme_reactors.quest7700589482290837460.description1}"]
 			id: "6ADDFD55AD0DF7D4"
 			rewards: [{
 				id: "3B264D836CA83698"
@@ -812,7 +812,7 @@
 						value: "forge:ingots/inanite"
 					}
 				}
-				title: "Any #forge:ingots/inanite"
+				title: "{ftbquests.chapter.extreme_reactors.quest7700589482290837460.task.6074310695384012721.title}"
 				type: "item"
 			}]
 			x: -3.0d
@@ -823,7 +823,7 @@
 				"0B1DF8A040826D87"
 				"6ADDFD55AD0DF7D4"
 			]
-			description: ["One of the &o&bhardest materials&r to get in the mod! This block can be used as a &ecoil&r in your &bturbine.&r"]
+			description: ["{ftbquests.chapter.extreme_reactors.quest6545996567904337760.description1}"]
 			icon: "bigreactors:insanite_block"
 			id: "5AD80D3242DD3F60"
 			min_width: 220
@@ -843,7 +843,7 @@
 						value: "forge:storage_blocks/insanite"
 					}
 				}
-				title: "Any #forge:storage_blocks/insanite"
+				title: "{ftbquests.chapter.extreme_reactors.quest6545996567904337760.task.6031924570662901996.title}"
 				type: "item"
 			}]
 			x: 0.5d
@@ -852,9 +852,9 @@
 		{
 			dependencies: ["7C4D8AA107780795"]
 			description: [
-				"Now that you have &4Rossinite&r, you can mix it with &bBenitoite&r to create &6Insanite Ingots&r."
+				"{ftbquests.chapter.extreme_reactors.quest801069675902561671.description1}"
 				""
-				"&bBenitoite Ore&r can be found in the &cNether&r."
+				"{ftbquests.chapter.extreme_reactors.quest801069675902561671.description2}"
 			]
 			id: "0B1DF8A040826D87"
 			rewards: [{
@@ -871,12 +871,12 @@
 						value: "forge:ingots/insanite"
 					}
 				}
-				title: "Any #forge:ingots/insanite"
+				title: "{ftbquests.chapter.extreme_reactors.quest801069675902561671.task.2491104429050011203.title}"
 				type: "item"
 			}]
 			x: -3.0d
 			y: 3.0d
 		}
 	]
-	title: "Extreme Reactors"
+	title: "{ftbquests.chapter.extreme_reactors.title}"
 }

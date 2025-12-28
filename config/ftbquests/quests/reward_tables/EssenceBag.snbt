@@ -85,6 +85,6 @@
 			weight: 5.0f
 		}
 	]
-	title: "&5Essence Bag"
+	title: "{ftbquests.loot_table.5325714992629626565.title}"
 	use_title: true
 }

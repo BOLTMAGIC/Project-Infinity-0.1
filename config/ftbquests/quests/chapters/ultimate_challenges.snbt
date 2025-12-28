@@ -37,7 +37,7 @@
 				type: "stat"
 				value: 6900000
 			}]
-			title: "&cSince Last Death"
+			title: "{ftbquests.chapter.ultimate_challenges.quest904011430606426727.title}"
 			x: -1.6d
 			y: -6.4d
 		}
@@ -65,7 +65,7 @@
 				type: "stat"
 				value: 5900000
 			}]
-			title: "&bTime Played"
+			title: "{ftbquests.chapter.ultimate_challenges.quest9047117034857061527.title}"
 			x: 0.0d
 			y: -6.4d
 		}
@@ -86,7 +86,7 @@
 			]
 			shape: "square"
 			size: 1.6d
-			subtitle: "1 million steaks waiting to be grilled"
+			subtitle: "{ftbquests.chapter.ultimate_challenges.quest5062561880180809611.subtitle}"
 			tasks: [{
 				consume_items: true
 				count: 1000000L
@@ -94,7 +94,7 @@
 				item: "minecraft:cooked_beef"
 				type: "item"
 			}]
-			title: "&6King of the Grill"
+			title: "{ftbquests.chapter.ultimate_challenges.quest5062561880180809611.title}"
 			x: -8.0d
 			y: -4.8d
 		}
@@ -115,16 +115,16 @@
 			]
 			shape: "square"
 			size: 1.6d
-			subtitle: "Spend 1 million of diamonds to benefit poor"
+			subtitle: "{ftbquests.chapter.ultimate_challenges.quest3931660430117692399.subtitle}"
 			tasks: [{
 				consume_items: true
 				count: 5000000L
 				id: "79ACBA57DC39394B"
 				item: "minecraft:diamond"
-				title: "1,000,000 Diamonds"
+				title: "{ftbquests.chapter.ultimate_challenges.quest3931660430117692399.task.8767587461103171915.title}"
 				type: "item"
 			}]
-			title: "&9Robin Hood"
+			title: "{ftbquests.chapter.ultimate_challenges.quest3931660430117692399.title}"
 			x: -9.6d
 			y: -6.4d
 		}
@@ -144,12 +144,12 @@
 				}
 			]
 			size: 1.6d
-			subtitle: "Vanilla Crafting Table"
+			subtitle: "{ftbquests.chapter.ultimate_challenges.quest8882389907459206678.subtitle}"
 			tasks: [{
 				icon: "minecraft:crafting_table"
 				id: "632CDBDBB8ACE278"
 				stat: "minecraft:interact_with_crafting_table"
-				title: "&9Open Crafting Table 1k Times"
+				title: "{ftbquests.chapter.ultimate_challenges.quest8882389907459206678.task.7146328445472793208.title}"
 				type: "stat"
 				value: 1000
 			}]
@@ -187,7 +187,7 @@
 				entity: "minecraft:wither"
 				icon: "minecraft:wither_skeleton_skull"
 				id: "51E2C4E17C4B629C"
-				title: "Kill: 100x Wither"
+				title: "{ftbquests.chapter.ultimate_challenges.quest5136905609605973951.task.5900494934540771996.title}"
 				type: "kill"
 				value: 100L
 			}]
@@ -213,7 +213,7 @@
 			tasks: [{
 				id: "5CFE33E5A9F78A10"
 				points: false
-				title: "XP Levels: &c3,000"
+				title: "{ftbquests.chapter.ultimate_challenges.quest5621868653188005765.task.6700850357065976336.title}"
 				type: "xp"
 				value: 3000L
 			}]
@@ -240,7 +240,7 @@
 				icon: "minecraft:red_bed"
 				id: "0F332AE1241A512A"
 				stat: "minecraft:sleep_in_bed"
-				title: "Sleep: 3,000x in your bed"
+				title: "{ftbquests.chapter.ultimate_challenges.quest4014302672262523586.task.1095266280842875178.title}"
 				type: "stat"
 				value: 3000
 			}]
@@ -248,7 +248,7 @@
 			y: -8.8d
 		}
 		{
-			description: ["Use Jukebox."]
+			description: ["{ftbquests.chapter.ultimate_challenges.quest2293956268685099074.description1}"]
 			id: "1FD5C5128D418042"
 			rewards: [
 				{
@@ -268,7 +268,7 @@
 				icon: "minecraft:jukebox"
 				id: "5C69AE6392056334"
 				stat: "minecraft:play_record"
-				title: "Play: 1,000 Music Discs"
+				title: "{ftbquests.chapter.ultimate_challenges.quest2293956268685099074.task.6659045266718810932.title}"
 				type: "stat"
 				value: 1000
 			}]
@@ -301,11 +301,11 @@
 				}
 				id: "14B3C291F47A3E72"
 				stat: "minecraft:fish_caught"
-				title: "Catch: 1,500x Fish"
+				title: "{ftbquests.chapter.ultimate_challenges.quest4687150309383444324.task.1491749833717464690.title}"
 				type: "stat"
 				value: 1500
 			}]
-			title: "&6That's fishy.."
+			title: "{ftbquests.chapter.ultimate_challenges.quest4687150309383444324.title}"
 			x: -0.8d
 			y: -10.4d
 		}
@@ -329,7 +329,7 @@
 				icon: "minecraft:enchanting_table"
 				id: "2C3910CD1178E3CC"
 				stat: "minecraft:enchant_item"
-				title: "Enchant: 500x Items"
+				title: "{ftbquests.chapter.ultimate_challenges.quest6745847925545038497.task.3186596684288811980.title}"
 				type: "stat"
 				value: 500
 			}]
@@ -337,7 +337,7 @@
 			y: -8.8d
 		}
 		{
-			description: ["Use &eTask Screen&r to complete this Quest."]
+			description: ["{ftbquests.chapter.ultimate_challenges.quest5236175758486187732.description1}"]
 			id: "48AAA21C2214AED4"
 			rewards: [
 				{
@@ -354,20 +354,20 @@
 			]
 			shape: "square"
 			size: 1.6d
-			subtitle: "Hot Stuff"
+			subtitle: "{ftbquests.chapter.ultimate_challenges.quest5236175758486187732.subtitle}"
 			tasks: [{
 				amount: 1000000000L
 				fluid: "minecraft:lava"
 				id: "014040012F86D797"
-				title: "1,000,000 Buckets of Lava"
+				title: "{ftbquests.chapter.ultimate_challenges.quest5236175758486187732.task.90142366383921047.title}"
 				type: "fluid"
 			}]
-			title: "&4The Smeltery"
+			title: "{ftbquests.chapter.ultimate_challenges.quest5236175758486187732.title}"
 			x: -6.4d
 			y: -4.8d
 		}
 		{
-			description: ["Use &eTask Screen&r to complete this Quest."]
+			description: ["{ftbquests.chapter.ultimate_challenges.quest5905393331664778573.description1}"]
 			id: "51F42BF270D6F54D"
 			rewards: [
 				{
@@ -384,14 +384,14 @@
 			]
 			shape: "square"
 			size: 1.6d
-			subtitle: "Cool, eh?"
+			subtitle: "{ftbquests.chapter.ultimate_challenges.quest5905393331664778573.subtitle}"
 			tasks: [{
 				id: "4D8588BE28BFAE5C"
 				max_input: 2147483647L
 				type: "forge_energy"
 				value: 1000000000L
 			}]
-			title: "&5All That Power"
+			title: "{ftbquests.chapter.ultimate_challenges.quest5905393331664778573.title}"
 			x: -11.2d
 			y: -4.8d
 		}
@@ -417,7 +417,7 @@
 				item: "allthemodium:alloy_sword"
 				type: "item"
 			}]
-			title: "&6Allthemodium Alloy Blade"
+			title: "{ftbquests.chapter.ultimate_challenges.quest9006752444144010915.title}"
 			x: 0.0d
 			y: -1.6d
 		}
@@ -443,7 +443,7 @@
 				item: "allthemodium:alloy_paxel"
 				type: "item"
 			}]
-			title: "&6Allthemodium Alloy Paxel"
+			title: "{ftbquests.chapter.ultimate_challenges.quest8871882496913569123.title}"
 			x: 1.6d
 			y: -1.6d
 		}
@@ -475,7 +475,7 @@
 				}
 				type: "item"
 			}]
-			title: "&5The Master of the Singularity"
+			title: "{ftbquests.chapter.ultimate_challenges.quest822696311237271124.title}"
 			x: -16.0d
 			y: -4.0d
 		}
@@ -499,11 +499,11 @@
 				icon: "draconicevolution:mob_soul"
 				id: "6C3E75B7FC24C344"
 				stat: "minecraft:pig_one_cm"
-				title: "They see me piggin', They hatin'"
+				title: "{ftbquests.chapter.ultimate_challenges.quest4461475011010388328.task.7799801037722010436.title}"
 				type: "stat"
 				value: 10000
 			}]
-			title: "&2Travel 10k Blocks Riding a Pig"
+			title: "{ftbquests.chapter.ultimate_challenges.quest4461475011010388328.title}"
 			x: 0.8d
 			y: -4.0d
 		}
@@ -527,11 +527,11 @@
 				icon: "minecraft:chest"
 				id: "771136E7D407A4F9"
 				stat: "minecraft:open_chest"
-				title: "Open 10k Chests"
+				title: "{ftbquests.chapter.ultimate_challenges.quest2366533727771971814.task.8579699134440121593.title}"
 				type: "stat"
 				value: 10000
 			}]
-			title: "&cBeing a little Chesty"
+			title: "{ftbquests.chapter.ultimate_challenges.quest2366533727771971814.title}"
 			x: 2.4000000000000004d
 			y: -10.4d
 		}
@@ -552,16 +552,16 @@
 			]
 			shape: "square"
 			size: 1.6d
-			subtitle: "Spend 1 million Wood"
+			subtitle: "{ftbquests.chapter.ultimate_challenges.quest5137144572504682166.subtitle}"
 			tasks: [{
 				consume_items: true
 				count: 10000000L
 				id: "6C4EDABA20BE140C"
 				item: "minecraft:oak_log"
-				title: "1,000,000 Wood"
+				title: "{ftbquests.chapter.ultimate_challenges.quest5137144572504682166.task.7804415697227748364.title}"
 				type: "item"
 			}]
-			title: "&9Robin Wood"
+			title: "{ftbquests.chapter.ultimate_challenges.quest5137144572504682166.title}"
 			x: -11.2d
 			y: -6.4d
 		}
@@ -582,16 +582,16 @@
 			]
 			shape: "square"
 			size: 1.6d
-			subtitle: "Stuff the vault with half a million radiant cores."
+			subtitle: "{ftbquests.chapter.ultimate_challenges.quest4662746927718482305.subtitle}"
 			tasks: [{
 				consume_items: true
 				count: 50000L
 				id: "486429CD1A0F4F2E"
 				item: "minecraft:nether_star"
-				title: "50,000 Nether Stars"
+				title: "{ftbquests.chapter.ultimate_challenges.quest4662746927718482305.task.5216340229284122414.title}"
 				type: "item"
 			}]
-			title: "&4Nether Star Donation Drive"
+			title: "{ftbquests.chapter.ultimate_challenges.quest4662746927718482305.title}"
 			x: -6.4d
 			y: -6.4d
 		}
@@ -612,16 +612,16 @@
 			]
 			shape: "square"
 			size: 1.6d
-			subtitle: "Become the bank every villager dreams about."
+			subtitle: "{ftbquests.chapter.ultimate_challenges.quest1053634900485031699.subtitle}"
 			tasks: [{
 				consume_items: true
 				count: 2500000L
 				id: "31023B177EBC52E0"
 				item: "minecraft:emerald"
-				title: "1,000,000 Emeralds"
+				title: "{ftbquests.chapter.ultimate_challenges.quest1053634900485031699.task.3531450029908447968.title}"
 				type: "item"
 			}]
-			title: "&2Emerald Endowment"
+			title: "{ftbquests.chapter.ultimate_challenges.quest1053634900485031699.title}"
 			x: -8.0d
 			y: -6.4d
 		}
@@ -642,16 +642,16 @@
 			]
 			shape: "pentagon"
 			size: 1.6d
-			subtitle: "Stack a quarter million Vibranium ingots."
+			subtitle: "{ftbquests.chapter.ultimate_challenges.quest4833661000852787003.subtitle}"
 			tasks: [{
 				consume_items: true
 				count: 250000L
 				id: "4691FD152DDF4022"
 				item: "allthemodium:vibranium_ingot"
-				title: "250,000 Vibranium Ingots"
+				title: "{ftbquests.chapter.ultimate_challenges.quest4833661000852787003.task.5085123721683746850.title}"
 				type: "item"
 			}]
-			title: "&6Vibranium Vault"
+			title: "{ftbquests.chapter.ultimate_challenges.quest4833661000852787003.title}"
 			x: -17.6d
 			y: -5.6000000000000005d
 		}
@@ -672,16 +672,16 @@
 			]
 			shape: "pentagon"
 			size: 1.6d
-			subtitle: "If it's unobtainable, prove otherwise."
+			subtitle: "{ftbquests.chapter.ultimate_challenges.quest2548322985171583121.subtitle}"
 			tasks: [{
 				consume_items: true
 				count: 150000L
 				id: "4C949CA352C54212"
 				item: "allthemodium:unobtainium_ingot"
-				title: "150,000 Unobtainium Ingots"
+				title: "{ftbquests.chapter.ultimate_challenges.quest2548322985171583121.task.5518207668717961746.title}"
 				type: "item"
 			}]
-			title: "&dUnobtainium Treasury"
+			title: "{ftbquests.chapter.ultimate_challenges.quest2548322985171583121.title}"
 			x: -17.6d
 			y: -4.0d
 		}
@@ -702,16 +702,16 @@
 			]
 			shape: "pentagon"
 			size: 1.6d
-			subtitle: "Build a sea of chaotic energy nodes."
+			subtitle: "{ftbquests.chapter.ultimate_challenges.quest4079331342941897748.subtitle}"
 			tasks: [{
 				consume_items: true
 				count: 512L
 				id: "13AF5FD687FC402C"
 				item: "draconicevolution:chaotic_core"
-				title: "512 Chaotic Cores"
+				title: "{ftbquests.chapter.ultimate_challenges.quest4079331342941897748.task.1418457782654091308.title}"
 				type: "item"
 			}]
-			title: "&5Chaotic Core Cascade"
+			title: "{ftbquests.chapter.ultimate_challenges.quest4079331342941897748.title}"
 			x: -17.6d
 			y: -2.4000000000000004d
 		}
@@ -732,16 +732,16 @@
 			]
 			shape: "pentagon"
 			size: 1.6d
-			subtitle: "Harvest a thousand shards from Chaos Islands."
+			subtitle: "{ftbquests.chapter.ultimate_challenges.quest3997916888447075756.subtitle}"
 			tasks: [{
 				consume_items: true
 				count: 1000L
 				id: "5BE479CC32C741EB"
 				item: "draconicevolution:chaos_shard"
-				title: "1,000 Chaos Shards"
+				title: "{ftbquests.chapter.ultimate_challenges.quest3997916888447075756.task.6621551270073680363.title}"
 				type: "item"
 			}]
-			title: "&5Shardfall"
+			title: "{ftbquests.chapter.ultimate_challenges.quest3997916888447075756.title}"
 			x: -17.6d
 			y: -8.8d
 		}
@@ -762,16 +762,16 @@
 			]
 			shape: "pentagon"
 			size: 1.6d
-			subtitle: "Serve every table with the ultimate alloy plate."
+			subtitle: "{ftbquests.chapter.ultimate_challenges.quest8651542867498191463.subtitle}"
 			tasks: [{
 				consume_items: true
 				count: 2048L
 				id: "7BD06564C4E149BE"
 				item: "extendedcrafting:the_ultimate_ingot"
-				title: "2,048 Ultimate Ingots"
+				title: "{ftbquests.chapter.ultimate_challenges.quest8651542867498191463.task.8921742345295186366.title}"
 				type: "item"
 			}]
-			title: "&6Ultimate Ingot Buffet"
+			title: "{ftbquests.chapter.ultimate_challenges.quest8651542867498191463.title}"
 			x: -17.6d
 			y: -7.2d
 		}
@@ -792,16 +792,16 @@
 			]
 			shape: "pentagon"
 			size: 1.6d
-			subtitle: "Wrap the base in pure creative essence."
+			subtitle: "{ftbquests.chapter.ultimate_challenges.quest7702126152623137063.subtitle}"
 			tasks: [{
 				consume_items: true
 				count: 1024L
 				id: "5815D97B298A4198"
 				item: "mysticalagradditions:creative_essence"
-				title: "1,024 Creative Essence"
+				title: "{ftbquests.chapter.ultimate_challenges.quest7702126152623137063.task.6347218372849713560.title}"
 				type: "item"
 			}]
-			title: "&dCreative Essence Cloud"
+			title: "{ftbquests.chapter.ultimate_challenges.quest7702126152623137063.title}"
 			x: -16.0d
 			y: -5.6d
 		}
@@ -822,16 +822,16 @@
 			]
 			shape: "hexagon"
 			size: 1.6d
-			subtitle: "Stage sixty-four nitro reactors at once."
+			subtitle: "{ftbquests.chapter.ultimate_challenges.quest1662928217440598483.subtitle}"
 			tasks: [{
 				consume_items: true
 				count: 64L
 				id: "18E23FEA96F84DEB"
 				item: "powah:reactor_nitro"
-				title: "64 Nitro Reactors"
+				title: "{ftbquests.chapter.ultimate_challenges.quest1662928217440598483.task.1793065878434631147.title}"
 				type: "item"
 			}]
-			title: "&cNitro Grid Overload"
+			title: "{ftbquests.chapter.ultimate_challenges.quest1662928217440598483.title}"
 			x: -8.0d
 			y: -2.4d
 		}
@@ -852,16 +852,16 @@
 			]
 			shape: "square"
 			size: 1.6d
-			subtitle: "Feed the SPS an ocean of polonium."
+			subtitle: "{ftbquests.chapter.ultimate_challenges.quest8314204722673108671.subtitle}"
 			tasks: [{
 				consume_items: true
 				count: 5000L
 				id: "5A52DCC22F0445DA"
 				item: "mekanism:pellet_polonium"
-				title: "5,000 Polonium Pellets"
+				title: "{ftbquests.chapter.ultimate_challenges.quest8314204722673108671.task.6508507138074363354.title}"
 				type: "item"
 			}]
-			title: "&3Polonium Pantry"
+			title: "{ftbquests.chapter.ultimate_challenges.quest8314204722673108671.title}"
 			x: -9.6d
 			y: -4.8d
 		}
@@ -882,16 +882,16 @@
 			]
 			shape: "hexagon"
 			size: 1.6d
-			subtitle: "Industrial Foregoing never sleeps."
+			subtitle: "{ftbquests.chapter.ultimate_challenges.quest6817415628588598858.subtitle}"
 			tasks: [{
 				consume_items: true
 				count: 256L
 				id: "54E9A83CB5864DCE"
 				item: "industrialforegoing:machine_frame_supreme"
-				title: "256 Supreme Frames"
+				title: "{ftbquests.chapter.ultimate_challenges.quest6817415628588598858.task.6118606547456511438.title}"
 				type: "item"
 			}]
-			title: "&6Supreme Machine Network"
+			title: "{ftbquests.chapter.ultimate_challenges.quest6817415628588598858.title}"
 			x: -11.2d
 			y: -2.4d
 		}
@@ -912,16 +912,16 @@
 			]
 			shape: "hexagon"
 			size: 1.6d
-			subtitle: "Line every assembly with catalysts."
+			subtitle: "{ftbquests.chapter.ultimate_challenges.quest6502603286486663372.subtitle}"
 			tasks: [{
 				consume_items: true
 				count: 512L
 				id: "4744D6BD4E57458A"
 				item: "extendedcrafting:ultimate_catalyst"
-				title: "512 Ultimate Catalysts"
+				title: "{ftbquests.chapter.ultimate_challenges.quest6502603286486663372.task.5135465583660713354.title}"
 				type: "item"
 			}]
-			title: "&5Catalyst Cascade"
+			title: "{ftbquests.chapter.ultimate_challenges.quest6502603286486663372.title}"
 			x: -9.6d
 			y: -2.4d
 		}
@@ -942,7 +942,7 @@
 			]
 			shape: "circle"
 			size: 1.6d
-			subtitle: "Fly five thousand kilometers without touching ground."
+			subtitle: "{ftbquests.chapter.ultimate_challenges.quest6993004455501841185.subtitle}"
 			tasks: [{
 				icon: {
 					Count: 1
@@ -953,11 +953,11 @@
 				}
 				id: "2C8E67B8E9184D79"
 				stat: "minecraft:fly_one_cm"
-				title: "Fly 5,000 km"
+				title: "{ftbquests.chapter.ultimate_challenges.quest6993004455501841185.task.3210617628244069753.title}"
 				type: "stat"
 				value: 500000000
 			}]
-			title: "&bElytra Marathon"
+			title: "{ftbquests.chapter.ultimate_challenges.quest6993004455501841185.title}"
 			x: -9.6d
 			y: -10.4d
 		}
@@ -978,7 +978,7 @@
 			]
 			shape: "circle"
 			size: 1.6d
-			subtitle: "Sprint the overworld into a groove."
+			subtitle: "{ftbquests.chapter.ultimate_challenges.quest2263828446842471476.subtitle}"
 			tasks: [{
 				icon: {
 					Count: 1
@@ -989,11 +989,11 @@
 				}
 				id: "24AE638F155D898C"
 				stat: "minecraft:sprint_one_cm"
-				title: "Sprint 7,500 km"
+				title: "{ftbquests.chapter.ultimate_challenges.quest2263828446842471476.task.2643159497502984588.title}"
 				type: "stat"
 				value: 750000000
 			}]
-			title: "&2Sprint Ultramarathon"
+			title: "{ftbquests.chapter.ultimate_challenges.quest2263828446842471476.title}"
 			x: -11.2d
 			y: -10.4d
 		}
@@ -1014,7 +1014,7 @@
 			]
 			shape: "circle"
 			size: 1.6d
-			subtitle: "Cross oceans on pure lung power."
+			subtitle: "{ftbquests.chapter.ultimate_challenges.quest7673967848386088365.subtitle}"
 			tasks: [{
 				icon: {
 					Count: 1
@@ -1025,11 +1025,11 @@
 				}
 				id: "1987851DBD494093"
 				stat: "minecraft:swim_one_cm"
-				title: "Swim 2,500 km"
+				title: "{ftbquests.chapter.ultimate_challenges.quest7673967848386088365.task.1839585335580377235.title}"
 				type: "stat"
 				value: 250000000
 			}]
-			title: "&3Underwater Express"
+			title: "{ftbquests.chapter.ultimate_challenges.quest7673967848386088365.title}"
 			x: -8.0d
 			y: -10.4d
 		}
@@ -1050,16 +1050,16 @@
 			]
 			shape: "circle"
 			size: 1.6d
-			subtitle: "Hop until gravity files a complaint."
+			subtitle: "{ftbquests.chapter.ultimate_challenges.quest4869166885226022874.subtitle}"
 			tasks: [{
 				icon: "minecraft:rabbit_foot"
 				id: "5DAB376306833D90"
 				stat: "minecraft:jump"
-				title: "Jump 500,000 Times"
+				title: "{ftbquests.chapter.ultimate_challenges.quest4869166885226022874.task.6749549364995374480.title}"
 				type: "stat"
 				value: 500000
 			}]
-			title: "&9Leap Legend"
+			title: "{ftbquests.chapter.ultimate_challenges.quest4869166885226022874.title}"
 			x: -6.4d
 			y: -10.4d
 		}
@@ -1080,7 +1080,7 @@
 			]
 			shape: "circle"
 			size: 1.6d
-			subtitle: "Deal half a billion hearts of damage."
+			subtitle: "{ftbquests.chapter.ultimate_challenges.quest6476506040745744900.subtitle}"
 			tasks: [{
 				icon: {
 					Count: 1
@@ -1091,11 +1091,11 @@
 				}
 				id: "2DD56842D9FD447C"
 				stat: "minecraft:damage_dealt"
-				title: "Deal 500,000,000 Damage"
+				title: "{ftbquests.chapter.ultimate_challenges.quest6476506040745744900.task.3302660538080511100.title}"
 				type: "stat"
 				value: 500000000
 			}]
-			title: "&4Damage Incarnate"
+			title: "{ftbquests.chapter.ultimate_challenges.quest6476506040745744900.title}"
 			x: -11.2d
 			y: -8.8d
 		}
@@ -1116,16 +1116,16 @@
 			]
 			shape: "pentagon"
 			size: 1.6d
-			subtitle: "Populate the planet with happy animals."
+			subtitle: "{ftbquests.chapter.ultimate_challenges.quest8048903948713017682.subtitle}"
 			tasks: [{
 				icon: "minecraft:wheat"
 				id: "0A859316833A4093"
 				stat: "minecraft:animals_bred"
-				title: "Breed 10,000 Animals"
+				title: "{ftbquests.chapter.ultimate_challenges.quest8048903948713017682.task.758173837181993107.title}"
 				type: "stat"
 				value: 10000
 			}]
-			title: "&aMaster Breeder"
+			title: "{ftbquests.chapter.ultimate_challenges.quest8048903948713017682.title}"
 			x: -6.4d
 			y: -2.4d
 		}
@@ -1146,16 +1146,16 @@
 			]
 			shape: "circle"
 			size: 1.6d
-			subtitle: "No more dragon resets."
+			subtitle: "{ftbquests.chapter.ultimate_challenges.quest8172103456634456610.subtitle}"
 			tasks: [{
 				entity: "minecraft:ender_dragon"
 				icon: "minecraft:dragon_head"
 				id: "683141AC36E14C91"
-				title: "Slay 50 Ender Dragons"
+				title: "{ftbquests.chapter.ultimate_challenges.quest8172103456634456610.task.7507854261714242705.title}"
 				type: "kill"
 				value: 50L
 			}]
-			title: "&5Dragon Eradicator"
+			title: "{ftbquests.chapter.ultimate_challenges.quest8172103456634456610.title}"
 			x: -8.0d
 			y: -8.8d
 		}
@@ -1176,16 +1176,16 @@
 			]
 			shape: "circle"
 			size: 1.6d
-			subtitle: "Empty every ocean monument twice over."
+			subtitle: "{ftbquests.chapter.ultimate_challenges.quest7115122776521527264.subtitle}"
 			tasks: [{
 				entity: "minecraft:elder_guardian"
 				icon: "minecraft:prismarine_shard"
 				id: "3DDF2F594A6CD35B"
-				title: "Defeat 250 Elder Guardians"
+				title: "{ftbquests.chapter.ultimate_challenges.quest7115122776521527264.task.4458334216667321179.title}"
 				type: "kill"
 				value: 250L
 			}]
-			title: "&3Guardian Buster"
+			title: "{ftbquests.chapter.ultimate_challenges.quest7115122776521527264.title}"
 			x: -6.4d
 			y: -8.8d
 		}
@@ -1205,14 +1205,14 @@
 				}
 			]
 			size: 1.6d
-			subtitle: "Die 1000 times"
+			subtitle: "{ftbquests.chapter.ultimate_challenges.quest2787810112665439900.subtitle}"
 			tasks: [{
 				id: "328D228B8F1B1B9D"
 				stat: "minecraft:deaths"
 				type: "stat"
 				value: 1000
 			}]
-			title: "&3DIE"
+			title: "{ftbquests.chapter.ultimate_challenges.quest2787810112665439900.title}"
 			x: 3.2d
 			y: -6.4d
 		}
@@ -1233,7 +1233,7 @@
 			]
 			shape: "pentagon"
 			size: 1.6d
-			subtitle: "4x Chaos Dragon"
+			subtitle: "{ftbquests.chapter.ultimate_challenges.quest3182406548149990451.subtitle}"
 			tasks: [{
 				id: "460810D19E9E783A"
 				item: {
@@ -1253,10 +1253,10 @@
 				match_nbt: true
 				type: "item"
 			}]
-			title: "&cChaos Dragon"
+			title: "{ftbquests.chapter.ultimate_challenges.quest3182406548149990451.title}"
 			x: -16.0d
 			y: -7.2d
 		}
 	]
-	title: "Legendary Challenges"
+	title: "{ftbquests.chapter.ultimate_challenges.title}"
 }

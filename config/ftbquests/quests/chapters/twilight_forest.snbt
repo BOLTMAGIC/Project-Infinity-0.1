@@ -67,7 +67,7 @@
 				"5AECF3E8794966F6"
 				"03BE22C4F4327D85"
 			]
-			description: ["Eat the stew to get to the hydra"]
+			description: ["{ftbquests.chapter.twilight_forest.quest1404818878314248907.description1}"]
 			icon: "twilightforest:minoshroom_trophy"
 			id: "137EEB53A7AEFACB"
 			rewards: [{
@@ -338,17 +338,17 @@
 					type: "item"
 				}
 			]
-			title: "Quest Ram Trophy"
+			title: "{ftbquests.chapter.twilight_forest.quest2619674814813358814.title}"
 			x: -7.0d
 			y: 1.0d
 		}
 		{
 			description: [
-				"Use the Cake or build the portal."
+				"{ftbquests.chapter.twilight_forest.quest6551879737710044918.description1}"
 				""
-				"4x4 with grass blocks. fill it with water. place flowers on the grass blocks and trow a diamond in the water."
+				"{ftbquests.chapter.twilight_forest.quest6551879737710044918.description2}"
 				""
-				"{image:kubejs:block/screen/twilight_forest_portal width:100 height:100 align:center}"
+				"{ftbquests.chapter.twilight_forest.quest6551879737710044918.image0}"
 			]
 			hide_dependency_lines: true
 			hide_dependent_lines: true
@@ -376,5 +376,5 @@
 			y: -3.0d
 		}
 	]
-	title: "Twilight Forest"
+	title: "{ftbquests.chapter.twilight_forest.title}"
 }

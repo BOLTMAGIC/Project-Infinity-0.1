@@ -52,7 +52,7 @@
 	quest_links: [ ]
 	quests: [
 		{
-			description: ["&6Hostile Neural Networks&r (or HNN for short) is a mod based around simulating mob kills for loot! \\\\n \\\\n To do this, you will be collecting 'data' on mobs, then running simulations from the data to create their drops!"]
+			description: ["{ftbquests.chapter.hostile_neural_networks.quest4029517567430621217.description1}"]
 			icon: {
 				Count: 1
 				id: "hostilenetworks:data_model"
@@ -74,13 +74,13 @@
 				id: "463EB27ECC7E6509"
 				type: "checkmark"
 			}]
-			title: "Welcome to &9Hostile Neural Networks&r!"
+			title: "{ftbquests.chapter.hostile_neural_networks.quest4029517567430621217.title}"
 			x: -2.5d
 			y: -2.5d
 		}
 		{
 			dependencies: ["37EBB8E0D6E5F821"]
-			description: ["The &9Deep Learner&r is one of the core components of HNN. \\\\n \\\\n With this item, you can right click to open up a HUD and store &6Data Models&r to gather data while killing mobs. \\\\n \\\\n Each Learner can hold 4 Data Models, and as long as you have the Learner anywhere in your inventory, it will collect data for the models placed inside! \\\\n \\\\n Note: You can have multiple Deep Learners in your inventory, and it will count the kills for all Data Models inside all of the Learners."]
+			description: ["{ftbquests.chapter.hostile_neural_networks.quest4484668024285033103.description1}"]
 			hide_dependency_lines: false
 			hide_until_deps_visible: false
 			id: "3E3CBDCEAB0FF28F"
@@ -97,19 +97,19 @@
 				}
 			]
 			shape: "square"
-			subtitle: "The Learning HUD"
+			subtitle: "{ftbquests.chapter.hostile_neural_networks.quest4484668024285033103.subtitle}"
 			tasks: [{
 				id: "054BE385F6537CBA"
 				item: "hostilenetworks:deep_learner"
 				type: "item"
 			}]
-			title: "&aLearning Mobs&r"
+			title: "{ftbquests.chapter.hostile_neural_networks.quest4484668024285033103.title}"
 			x: -4.0d
 			y: -0.5d
 		}
 		{
 			dependencies: ["37EBB8E0D6E5F821"]
-			description: ["&9Model Frameworks&r are the starting point for creating Data Models. \\\\n \\\\n To start collecting data on a specific mob, you'll want to make one of these then &9right click&r the mob you'd like to gather data on. When done properly, the Model Framework will turn into the Data Model of the mob you clicked on. \\\\n \\\\n To 'gather data' for that mob, place the newly created Data Model inside of a &aDeep Learner&r, then start killing that specific mob with the Deep Learner in your inventory."]
+			description: ["{ftbquests.chapter.hostile_neural_networks.quest6395863456350923361.description1}"]
 			hide_dependency_lines: false
 			hide_until_deps_visible: false
 			id: "58C2ABED43B2EA61"
@@ -126,13 +126,13 @@
 				}
 			]
 			shape: "square"
-			subtitle: "For 'Gathering Data'"
+			subtitle: "{ftbquests.chapter.hostile_neural_networks.quest6395863456350923361.subtitle}"
 			tasks: [{
 				id: "1C090CE24508A2EC"
 				item: "hostilenetworks:blank_data_model"
 				type: "item"
 			}]
-			title: "&9Modeling Mobs&r"
+			title: "{ftbquests.chapter.hostile_neural_networks.quest6395863456350923361.title}"
 			x: -1.0d
 			y: -0.5d
 		}
@@ -141,7 +141,7 @@
 				"3E3CBDCEAB0FF28F"
 				"58C2ABED43B2EA61"
 			]
-			description: ["The &dSimulation Chamber&r is the main machine within HNN. \\\\n \\\\n When given power, it will run simulations based on the &bData Model&r that is placed inside. The power required also depends on the Data Model placed inside, and can be seen within the Model's tooltip.  \\\\n \\\\n The machine also requires at least one &9Prediction Matrix&r to run a simulation. \\\\n \\\\n The result of the simulation will be output onto the Matrix. Simulations will always produce some kind of &eGeneralized Prediction&r, which can be used in various crafting recipes. They also vary depending on the origin of the mob in the Data Model. \\\\n \\\\n If the simulation succeeds, you will receive a &dMob Prediction&r based off of the model. The higher the tier of the Data Model used, the higher the success rate is for a simulation."]
+			description: ["{ftbquests.chapter.hostile_neural_networks.quest1175082988435092469.description1}"]
 			hide_dependency_lines: false
 			hide_until_deps_visible: false
 			id: "104EBBC08B4733F5"
@@ -164,7 +164,7 @@
 				item: "hostilenetworks:sim_chamber"
 				type: "item"
 			}]
-			title: "&aSimulating Deaths&r"
+			title: "{ftbquests.chapter.hostile_neural_networks.quest1175082988435092469.title}"
 			x: -2.5d
 			y: 1.0d
 		}
@@ -173,7 +173,7 @@
 				"58C2ABED43B2EA61"
 				"3E3CBDCEAB0FF28F"
 			]
-			description: ["Once you make your first Data Model, you'll need to level it up to be useful. \\\\n \\\\n Data Models start out at the first tier: &7Faulty&r. You'll need to at least level it to &aBasic&r if you'd like to run some simulations on it! \\\\n \\\\n Once placed inside of the Deep Learner, the HUD will tell you how many kills are required to level it up. You can also see this info in the tooltip of the Model itself, although you'll have to do math."]
+			description: ["{ftbquests.chapter.hostile_neural_networks.quest3804789844636869045.description1}"]
 			hide_dependency_lines: false
 			hide_until_deps_visible: false
 			icon: {
@@ -201,16 +201,16 @@
 			shape: "diamond"
 			tasks: [{
 				id: "7CEA92391454DDD3"
-				title: "{atm9.quest.hostile.data}"
+				title: "{ftbquests.chapter.hostile_neural_networks.quest3804789844636869045.task.9001167579105254867.title}"
 				type: "checkmark"
 			}]
-			title: "Leveling Up Data Models"
+			title: "{ftbquests.chapter.hostile_neural_networks.quest3804789844636869045.title}"
 			x: -2.5d
 			y: -0.5d
 		}
 		{
 			dependencies: ["104EBBC08B4733F5"]
-			description: ["Makes various Overworld materials."]
+			description: ["{ftbquests.chapter.hostile_neural_networks.quest2691217556145785212.description1}"]
 			hide_dependency_lines: false
 			id: "2559201BCF5D497C"
 			rewards: [{
@@ -224,13 +224,13 @@
 				item: "hostilenetworks:overworld_prediction"
 				type: "item"
 			}]
-			title: "Generalized Overworld Prediction"
+			title: "{ftbquests.chapter.hostile_neural_networks.quest2691217556145785212.title}"
 			x: -3.5d
 			y: 2.5d
 		}
 		{
 			dependencies: ["104EBBC08B4733F5"]
-			description: ["Makes various Nether materials."]
+			description: ["{ftbquests.chapter.hostile_neural_networks.quest1218430548385913339.description1}"]
 			hide_dependency_lines: false
 			id: "10E8BC20D406D9FB"
 			rewards: [{
@@ -244,13 +244,13 @@
 				item: "hostilenetworks:nether_prediction"
 				type: "item"
 			}]
-			title: "Generalized Nether Prediction"
+			title: "{ftbquests.chapter.hostile_neural_networks.quest1218430548385913339.title}"
 			x: -2.5d
 			y: 2.5d
 		}
 		{
 			dependencies: ["104EBBC08B4733F5"]
-			description: ["Makes various End materials."]
+			description: ["{ftbquests.chapter.hostile_neural_networks.quest6495053213270155422.description1}"]
 			hide_dependency_lines: false
 			id: "5A23107C363A209E"
 			rewards: [{
@@ -264,7 +264,7 @@
 				item: "hostilenetworks:end_prediction"
 				type: "item"
 			}]
-			title: "Generalized End Prediction"
+			title: "{ftbquests.chapter.hostile_neural_networks.quest6495053213270155422.title}"
 			x: -1.5d
 			y: 2.5d
 		}
@@ -1423,7 +1423,7 @@
 		}
 		{
 			dependencies: ["104EBBC08B4733F5"]
-			description: ["The &5Loot Fabricator&r is the machine that gets you that sweet, sweet loot from Mob Predictions. \\\\n \\\\n When given power and a successful Mob Prediction, you will be able to choose which item you'd like to get from that mob's Data Model. The machine will remember your choice, so it can be automated. \\\\n \\\\n Notable Mob Predictions: \\\\n \\\\n - &dEnder Dragons&r for &dDragon Eggs&r \\\\n - &2Zombies&r for Iron \\\\n - &0Withers&r for &5Nether Stars&r"]
+			description: ["{ftbquests.chapter.hostile_neural_networks.quest1491628461546636956.description1}"]
 			hide_dependency_lines: false
 			id: "14B3542ECB59869C"
 			rewards: [{
@@ -1438,7 +1438,7 @@
 				item: "hostilenetworks:loot_fabricator"
 				type: "item"
 			}]
-			title: "Creating &dLoot&r"
+			title: "{ftbquests.chapter.hostile_neural_networks.quest1491628461546636956.title}"
 			x: -2.5d
 			y: 4.0d
 		}
@@ -2598,7 +2598,7 @@
 		}
 		{
 			dependencies: ["104EBBC08B4733F5"]
-			description: ["Makes various Twilight Forest materials."]
+			description: ["{ftbquests.chapter.hostile_neural_networks.quest3609031737508256482.description1}"]
 			hide_dependency_lines: false
 			id: "3215DB3E694A5AE2"
 			rewards: [{
@@ -2612,7 +2612,7 @@
 				item: "hostilenetworks:twilight_prediction"
 				type: "item"
 			}]
-			title: "Generalized Twilight Prediction"
+			title: "{ftbquests.chapter.hostile_neural_networks.quest3609031737508256482.title}"
 			x: -0.5d
 			y: 2.5d
 		}
@@ -2859,16 +2859,16 @@
 		{
 			dependencies: ["7B92C09E74D6ABB2"]
 			description: [
-				"You need to put them in this order inside the Merger Camera:"
-				"Wither Skeleton"
-				"Wither"
-				"Ender Dragon"
-				"Warden"
+				"{ftbquests.chapter.hostile_neural_networks.quest6181032133058561178.description1}"
+				"{ftbquests.chapter.hostile_neural_networks.quest6181032133058561178.description2}"
+				"{ftbquests.chapter.hostile_neural_networks.quest6181032133058561178.description3}"
+				"{ftbquests.chapter.hostile_neural_networks.quest6181032133058561178.description4}"
+				"{ftbquests.chapter.hostile_neural_networks.quest6181032133058561178.description5}"
 				""
-				"&4DONT USE THE CHAOS GUARDIAN INSIDE THE MERGER OR THE SIMULATING MODELING.&r"
-				"&4IT WONT WORK!&r"
+				"{ftbquests.chapter.hostile_neural_networks.quest6181032133058561178.description6}"
+				"{ftbquests.chapter.hostile_neural_networks.quest6181032133058561178.description7}"
 				""
-				"Thx to GUTS for the Info!"
+				"{ftbquests.chapter.hostile_neural_networks.quest6181032133058561178.description8}"
 			]
 			id: "55C76FF9FC3B049A"
 			rewards: [{
@@ -2895,13 +2895,13 @@
 				match_nbt: true
 				type: "item"
 			}]
-			title: "Wither Skeleton, Wither, Ender Dragon, Warden Data Model"
+			title: "{ftbquests.chapter.hostile_neural_networks.quest6181032133058561178.title}"
 			x: 9.0d
 			y: 4.0d
 		}
 		{
 			dependencies: ["20879753F697BF83"]
-			description: ["Get more data"]
+			description: ["{ftbquests.chapter.hostile_neural_networks.quest6811946203962572881.description1}"]
 			id: "5E88E4FB34428051"
 			rewards: [{
 				id: "244DDC9EB8FE944C"
@@ -2918,7 +2918,7 @@
 		}
 		{
 			dependencies: ["20879753F697BF83"]
-			description: ["Upgrade the tier of the Data model. Faulty Data models cant be upgraded"]
+			description: ["{ftbquests.chapter.hostile_neural_networks.quest1708650466381954372.description1}"]
 			id: "17B6588BDE007D44"
 			rewards: [{
 				id: "0998BC2FE3A9F2C3"
@@ -2935,7 +2935,7 @@
 		}
 		{
 			dependencies: ["20879753F697BF83"]
-			description: ["Upgrade the speed of the machine"]
+			description: ["{ftbquests.chapter.hostile_neural_networks.quest6042326811700395664.description1}"]
 			id: "53DAA838BC387E90"
 			rewards: [{
 				id: "4ABC13CC49C4D32E"
@@ -3757,7 +3757,7 @@
 		}
 		{
 			dependencies: ["14B3542ECB59869C"]
-			description: ["You cant put the Chaos Dragon Data Model inside the Simualting Modeling and you should not put it inside the Merger!"]
+			description: ["{ftbquests.chapter.hostile_neural_networks.quest2486793746712929706.description1}"]
 			hide_until_deps_visible: false
 			id: "2282DDBCAE7CA5AA"
 			rewards: [
@@ -5200,7 +5200,7 @@
 		}
 		{
 			dependencies: ["14B3542ECB59869C"]
-			description: ["You cant put the Chaos Dragon Data Model inside the Simualting Modeling and you should not put it inside the Merger!"]
+			description: ["{ftbquests.chapter.hostile_neural_networks.quest9018878742229754411.description1}"]
 			id: "7D297E6E96ED222B"
 			rewards: [{
 				id: "79FACD21C89B2108"
@@ -6000,5 +6000,5 @@
 			y: 20.5d
 		}
 	]
-	title: "&aHostile Neural Networks"
+	title: "{ftbquests.chapter.hostile_neural_networks.title}"
 }

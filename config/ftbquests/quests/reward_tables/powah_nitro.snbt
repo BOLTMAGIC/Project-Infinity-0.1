@@ -13,6 +13,6 @@
 		{ item: "powah:nitro_crystal_block" }
 		{ item: "powah:solar_panel_nitro" }
 	]
-	title: "Powah: Nitro Loot Reward"
+	title: "{ftbquests.loot_table.1432029627393651571.title}"
 	use_title: true
 }

@@ -62,6 +62,6 @@
 		{ item: "mysticalagriculture:ice_seeds" }
 		{ item: "mysticalagriculture:deepslate_seeds" }
 	]
-	title: "&aTier 1 Seed Bag"
+	title: "{ftbquests.loot_table.6553016128235291313.title}"
 	use_title: true
 }

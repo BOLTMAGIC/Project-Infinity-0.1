@@ -761,5 +761,5 @@
 			y: -3.5d
 		}
 	]
-	title: "Botanical Machinery + Extra"
+	title: "{ftbquests.chapter.botanic.title}"
 }

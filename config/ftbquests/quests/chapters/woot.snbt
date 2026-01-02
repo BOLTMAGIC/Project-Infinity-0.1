@@ -10,11 +10,11 @@
 	quests: [
 		{
 			description: [
-				"&6Woot Revived&r is a &bmultiblock mod&r for &aMinecraft 1.20.1&r that allows players to &eautomate mob drops&r without spawning the mobs themselves. By &dcapturing&r any &cmob&r and &9programming&r it into a &bFactory structure&r, the mod generates &6loot&r, &aexperience&r, and other drops entirely through automation.  "
+				"{ftbquests.chapter.woot.quest5185799944421188708.description1}"
 				""
-				"&bFactories&r come in &eMultiple Tiers&r, with higher tiers capable of handling stronger mobs such as the &4Wither&r. A &9Layout Block&r helps guide construction, while various &dUpgrades&r — like &6Looting&r, &eRate&r, &aMass&r, &bEfficiency&r, &aXP&r, and &cDecapitation&r — enhance production at the cost of higher &2energy consumption&r.  "
+				"{ftbquests.chapter.woot.quest5185799944421188708.description2}"
 				""
-				"This makes &6Woot Revived&r a powerful alternative to traditional &cmob farms&r, eliminating &clag&r and &4danger&r while providing fully automated &6resource generation&r."
+				"{ftbquests.chapter.woot.quest5185799944421188708.description3}"
 			]
 			id: "47F7A992EB772464"
 			rewards: [
@@ -29,10 +29,10 @@
 					type: "item"
 				}
 			]
-			subtitle: "woot is going on"
+			subtitle: "{ftbquests.chapter.woot.quest5185799944421188708.subtitle}"
 			tasks: [{
 				id: "033C41B1F247ED9B"
-				title: "Woot"
+				title: "{ftbquests.chapter.woot.quest5185799944421188708.task.233133513246240155.title}"
 				type: "checkmark"
 			}]
 			x: -1.0d
@@ -56,7 +56,7 @@
 							value: "forge:dyes/yellow"
 						}
 					}
-					title: "Any #forge:dyes/yellow"
+					title: "{ftbquests.chapter.woot.quest1840572035888653904.task.3604404074151894078.title}"
 					type: "item"
 				}
 				{
@@ -68,7 +68,7 @@
 							value: "forge:dyes/red"
 						}
 					}
-					title: "Any #forge:dyes/red"
+					title: "{ftbquests.chapter.woot.quest1840572035888653904.task.5230178948943198723.title}"
 					type: "item"
 				}
 				{
@@ -80,7 +80,7 @@
 							value: "forge:dyes/blue"
 						}
 					}
-					title: "Any #forge:dyes/blue"
+					title: "{ftbquests.chapter.woot.quest1840572035888653904.task.6937668338404105054.title}"
 					type: "item"
 				}
 				{
@@ -92,7 +92,7 @@
 							value: "forge:dyes/white"
 						}
 					}
-					title: "Any #forge:dyes/white"
+					title: "{ftbquests.chapter.woot.quest1840572035888653904.task.5712805485730781511.title}"
 					type: "item"
 				}
 			]
@@ -257,9 +257,9 @@
 		{
 			dependencies: ["48FAE3394DCC00E0"]
 			description: [
-				"You dont need to use a pipe to output the items from the loot exporter."
+				"{ftbquests.chapter.woot.quest4813220316394356512.description1}"
 				""
-				"Just place a barrel beside the loot exporter and its auto exporting to the barrel"
+				"{ftbquests.chapter.woot.quest4813220316394356512.description2}"
 			]
 			icon: "woot_revived:copper_cell"
 			id: "42CBFE605060FF20"
@@ -316,7 +316,7 @@
 					type: "item"
 				}
 			]
-			title: "Tier 1 Multiblock"
+			title: "{ftbquests.chapter.woot.quest4813220316394356512.title}"
 			x: 8.0d
 			y: -1.0d
 		}
@@ -344,7 +344,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "the hard part"
+			subtitle: "{ftbquests.chapter.woot.quest1481094541784322222.subtitle}"
 			tasks: [{
 				id: "323889FCBDCFB896"
 				item: {
@@ -385,10 +385,10 @@
 		{
 			dependencies: ["148DE7A379D310AE"]
 			description: [
-				"After placing the Fake Spawner inside the Multiblock you can left click the mob in the Factory Heart and it will tell you the items you have to input."
+				"{ftbquests.chapter.woot.quest2315439562223077368.description1}"
 				""
-				"Example:"
-				"Wither needs 4 Soul Sand and 3 Wither Skeleton Skulls"
+				"{ftbquests.chapter.woot.quest2315439562223077368.description2}"
+				"{ftbquests.chapter.woot.quest2315439562223077368.description3}"
 			]
 			id: "202218039D3147F8"
 			rewards: [{
@@ -1090,7 +1090,7 @@
 				"42CBFE605060FF20"
 				"0D10194315F6BCC7"
 			]
-			description: ["need the shard drop upgrade 1 to upgrade to tier 2"]
+			description: ["{ftbquests.chapter.woot.quest3744575996229713230.description1}"]
 			icon: "woot_revived:iron_cell"
 			id: "33F7680769B9FD4E"
 			rewards: [{
@@ -1130,7 +1130,7 @@
 					type: "item"
 				}
 			]
-			title: "Tier 2 Multiblock"
+			title: "{ftbquests.chapter.woot.quest3744575996229713230.title}"
 			x: 8.0d
 			y: 3.0d
 		}
@@ -1163,7 +1163,7 @@
 					type: "item"
 				}
 			]
-			title: "Tier 3 Multiblock"
+			title: "{ftbquests.chapter.woot.quest3312310273210764977.title}"
 			x: 8.0d
 			y: 7.0d
 		}
@@ -1196,7 +1196,7 @@
 					type: "item"
 				}
 			]
-			title: "Tier 4 Multiblock"
+			title: "{ftbquests.chapter.woot.quest2222251988094443807.title}"
 			x: 12.0d
 			y: 7.0d
 		}
@@ -1229,10 +1229,10 @@
 					type: "item"
 				}
 			]
-			title: "Tier 5 Multiblock"
+			title: "{ftbquests.chapter.woot.quest4944855626258653442.title}"
 			x: 12.0d
 			y: 3.0d
 		}
 	]
-	title: "Woot ?!?"
+	title: "{ftbquests.chapter.woot.title}"
 }

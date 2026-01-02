@@ -69,11 +69,11 @@
 		{
 			dependencies: ["2E747C1C2DB534B5"]
 			description: [
-				"&dEssence&r is the starting point for all of your growing needs in Mystical Agriculture. "
+				"{ftbquests.chapter.mystical_agriculture.quest2907184143402679098.description1}"
 				""
-				"&eInferium Essence&r is the base tier of all essences. You can get this from mining, killing mobs, or by making seeds to grow them!"
+				"{ftbquests.chapter.mystical_agriculture.quest2907184143402679098.description2}"
 				""
-				"To make the bigger and better essences, you'll need to make an &9Infusion Crystal&r. "
+				"{ftbquests.chapter.mystical_agriculture.quest2907184143402679098.description3}"
 			]
 			hide_dependent_lines: true
 			id: "28586493542A3B3A"
@@ -83,14 +83,14 @@
 				type: "item"
 			}]
 			shape: "rsquare"
-			subtitle: "&bTier:&r &a1"
+			subtitle: "{ftbquests.chapter.mystical_agriculture.quest2907184143402679098.subtitle}"
 			tasks: [{
 				count: 64L
 				id: "14C0517833A0912C"
 				item: "mysticalagriculture:inferium_essence"
 				type: "item"
 			}]
-			title: "&aInferium Essence"
+			title: "{ftbquests.chapter.mystical_agriculture.quest2907184143402679098.title}"
 			x: -22.0d
 			y: -7.5d
 		}
@@ -105,13 +105,13 @@
 				type: "item"
 			}]
 			shape: "rsquare"
-			subtitle: "&bTier:&r &22"
+			subtitle: "{ftbquests.chapter.mystical_agriculture.quest4748455092237436479.subtitle}"
 			tasks: [{
 				id: "5B44AD7E8F44030C"
 				item: "mysticalagriculture:prudentium_essence"
 				type: "item"
 			}]
-			title: "&2Prudentium Essence&r"
+			title: "{ftbquests.chapter.mystical_agriculture.quest4748455092237436479.title}"
 			x: -16.0d
 			y: -7.5d
 		}
@@ -126,13 +126,13 @@
 				type: "item"
 			}]
 			shape: "rsquare"
-			subtitle: "&bTier:&r &c3"
+			subtitle: "{ftbquests.chapter.mystical_agriculture.quest1074039411123145243.subtitle}"
 			tasks: [{
 				id: "1C482C69BF168CA7"
 				item: "mysticalagriculture:tertium_essence"
 				type: "item"
 			}]
-			title: "&cTertium Essence"
+			title: "{ftbquests.chapter.mystical_agriculture.quest1074039411123145243.title}"
 			x: -10.0d
 			y: -7.5d
 		}
@@ -147,13 +147,13 @@
 				type: "item"
 			}]
 			shape: "rsquare"
-			subtitle: "&bTier:&r &94"
+			subtitle: "{ftbquests.chapter.mystical_agriculture.quest3991255011262327906.subtitle}"
 			tasks: [{
 				id: "0D1F0A398BFE5635"
 				item: "mysticalagriculture:imperium_essence"
 				type: "item"
 			}]
-			title: "&9Imperium Essence"
+			title: "{ftbquests.chapter.mystical_agriculture.quest3991255011262327906.title}"
 			x: -4.0d
 			y: -7.5d
 		}
@@ -168,13 +168,13 @@
 				type: "item"
 			}]
 			shape: "rsquare"
-			subtitle: "&bTier:&r &45"
+			subtitle: "{ftbquests.chapter.mystical_agriculture.quest7805428772660128276.subtitle}"
 			tasks: [{
 				id: "5A8F544AD3C7FA43"
 				item: "mysticalagriculture:supremium_essence"
 				type: "item"
 			}]
-			title: "&4Supremium Essence"
+			title: "{ftbquests.chapter.mystical_agriculture.quest7805428772660128276.title}"
 			x: 2.0d
 			y: -7.5d
 		}
@@ -189,13 +189,13 @@
 				type: "item"
 			}]
 			shape: "rsquare"
-			subtitle: "&bTier:&r &16"
+			subtitle: "{ftbquests.chapter.mystical_agriculture.quest5291954035698534914.subtitle}"
 			tasks: [{
 				id: "799329ED8A028E70"
 				item: "mysticalagradditions:insanium_essence"
 				type: "item"
 			}]
-			title: "&1Insanium Essence"
+			title: "{ftbquests.chapter.mystical_agriculture.quest5291954035698534914.title}"
 			x: 8.0d
 			y: -7.5d
 		}
@@ -298,13 +298,13 @@
 		{
 			dependencies: ["3A83B7208433E77E"]
 			description: [
-				"The &aWatering Can&r is used to increase the speed that crops grow. Higher tiers have a larger area of effect. To use this, fill it up with some water by right clicking some water, then hold right click near your crops to water them!"
+				"{ftbquests.chapter.mystical_agriculture.quest4943932698492543598.description1}"
 				""
-				"Shift+right click while looking in the air with the watering can to enable auto-watering."
+				"{ftbquests.chapter.mystical_agriculture.quest4943932698492543598.description2}"
 				""
-				"&eEssence Farmland&r will increase the growth speed of the seeds. The certain seeds will require certain farmlands to be planted on."
+				"{ftbquests.chapter.mystical_agriculture.quest4943932698492543598.description3}"
 				""
-				"&9Growth Accelerators&r very slightly increase the growth speed of a seed when placed directly underneath the farmland. Each tier has a range of how many blocks \"up\" it can accelerate, with Inferium being the lowest at 12."
+				"{ftbquests.chapter.mystical_agriculture.quest4943932698492543598.description4}"
 			]
 			id: "449C60985F16226E"
 			min_width: 300
@@ -345,7 +345,7 @@
 					type: "item"
 				}
 			]
-			title: "&aGrowing \\& Speed up Growth&r &f&oTier 1"
+			title: "{ftbquests.chapter.mystical_agriculture.quest4943932698492543598.title}"
 			x: -22.0d
 			y: -3.0d
 		}
@@ -389,7 +389,7 @@
 					type: "item"
 				}
 			]
-			title: "&2Growing \\& Speed up Growth&r &f&oTier 2"
+			title: "{ftbquests.chapter.mystical_agriculture.quest5312576642704724944.title}"
 			x: -16.0d
 			y: -3.0d
 		}
@@ -433,7 +433,7 @@
 					type: "item"
 				}
 			]
-			title: "&cGrowing \\& Speed up Growth&r &f&oTier 3"
+			title: "{ftbquests.chapter.mystical_agriculture.quest8103892136150131472.title}"
 			x: -10.0d
 			y: -3.0d
 		}
@@ -477,7 +477,7 @@
 					type: "item"
 				}
 			]
-			title: "&9Growing \\& Speed up Growth&r &f&oTier 4"
+			title: "{ftbquests.chapter.mystical_agriculture.quest6593428933461666837.title}"
 			x: -4.0d
 			y: -3.0d
 		}
@@ -521,7 +521,7 @@
 					type: "item"
 				}
 			]
-			title: "&4Growing \\& Speed up Growth&r &f&oTier 5"
+			title: "{ftbquests.chapter.mystical_agriculture.quest4349778710133765351.title}"
 			x: 2.0d
 			y: -3.0d
 		}
@@ -560,16 +560,16 @@
 					type: "item"
 				}
 			]
-			title: "&1Growing \\& Speed up Growth&r &f&oTier 6"
+			title: "{ftbquests.chapter.mystical_agriculture.quest4050852337412047704.title}"
 			x: 8.0d
 			y: -3.0d
 		}
 		{
 			dependencies: ["3A83B7208433E77E"]
 			description: [
-				"Starting with Inferium Essence, you can create ingots to make both Essence &9Tools&r and &9Armor&r."
+				"{ftbquests.chapter.mystical_agriculture.quest9201059370799434565.description1}"
 				""
-				"Essence tools can be upgraded to higher tiers, and just like the Armor, they can be &5Augmented&r in the &3Tinkering Table&r."
+				"{ftbquests.chapter.mystical_agriculture.quest9201059370799434565.description2}"
 			]
 			id: "7FB0BABF99C78B45"
 			rewards: [{
@@ -671,10 +671,10 @@
 						]
 					}
 				}
-				title: "&aEssence Tools \\& Weapons"
+				title: "{ftbquests.chapter.mystical_agriculture.quest9201059370799434565.task.6137072861688319819.title}"
 				type: "item"
 			}]
-			title: "&aEssence Tools \\& Weapons"
+			title: "{ftbquests.chapter.mystical_agriculture.quest9201059370799434565.title}"
 			x: -23.5d
 			y: -4.5d
 		}
@@ -829,9 +829,9 @@
 		{
 			dependencies: ["24902049F1152926"]
 			description: [
-				"The &9Tinkering Table&r is used to upgrade &aEssence Gear&r with &dAugments&r."
+				"{ftbquests.chapter.mystical_agriculture.quest3575978006195811751.description1}"
 				""
-				"Augments can be made using the Infusion Altar. Just like the Essences, Augments have tiers!"
+				"{ftbquests.chapter.mystical_agriculture.quest3575978006195811751.description2}"
 			]
 			id: "31A06D0CDFE935A7"
 			rewards: [{
@@ -852,16 +852,16 @@
 					type: "item"
 				}
 			]
-			title: "&dTinkering Table"
+			title: "{ftbquests.chapter.mystical_agriculture.quest3575978006195811751.title}"
 			x: 15.0d
 			y: -6.5d
 		}
 		{
 			dependencies: ["2E397DEC7A70A2A8"]
 			description: [
-				"The &9Infusion Altar&r is the bread and butter of creating &aSeeds&r in the mod. You'll need to create the Altar itself, as well as 8 Pedestals."
+				"{ftbquests.chapter.mystical_agriculture.quest5010297430903436628.description1}"
 				""
-				"Placing the Altar down first will show you where to put the Pedestals. To craft a seed, place the required mats in each pedestal, then give a redstone signal to the Altar."
+				"{ftbquests.chapter.mystical_agriculture.quest5010297430903436628.description2}"
 			]
 			id: "458826F7BC0D3554"
 			rewards: [{
@@ -883,13 +883,13 @@
 					type: "item"
 				}
 			]
-			title: "&dThe Infusion Altar"
+			title: "{ftbquests.chapter.mystical_agriculture.quest5010297430903436628.title}"
 			x: 15.0d
 			y: -4.5d
 		}
 		{
 			dependencies: ["52CF60CDA1E5D3F2"]
-			description: ["&dMystical Agriculture&r is a mod based around the concept of growing your resources with crops. Use crops to grow essences used to make materials, mob drops, tools, armor and possibly even more!"]
+			description: ["{ftbquests.chapter.mystical_agriculture.quest3347436883510899893.description1}"]
 			disable_toast: true
 			icon: {
 				Count: 1
@@ -912,18 +912,18 @@
 				id: "00954CEB0D4ECDCB"
 				type: "checkmark"
 			}]
-			title: "Welcome to &5Mystical Agriculture"
+			title: "{ftbquests.chapter.mystical_agriculture.quest3347436883510899893.title}"
 			x: -22.0d
 			y: -9.75d
 		}
 		{
 			dependencies: ["16F3395D7F66884E"]
 			description: [
-				"Most seeds are simple to make, but to make &9Mob Seeds&r, you'll need to head to the Nether to pick up some &8Soulium&r."
+				"{ftbquests.chapter.mystical_agriculture.quest7418935284657389638.description1}"
 				""
-				"With the stone and ore that you find, you'll need to use these to make the &3Soulium Dagger&r and &3Soul Jars&r. Using the dagger to kill mobs, you'll be able to gather their &bsouls&r, which are used in the Infusion Altar to create the respective mob seeds."
+				"{ftbquests.chapter.mystical_agriculture.quest7418935284657389638.description2}"
 				""
-				"Alternatively, you can fill Soul Jars inside of the &3Soul Extractor&r by inserting a jar and using mob items to fill them. For example, adding Rotten Flesh will give a portion of a Zombie Soul."
+				"{ftbquests.chapter.mystical_agriculture.quest7418935284657389638.description3}"
 				""
 			]
 			hide_dependency_lines: true
@@ -971,7 +971,7 @@
 					type: "item"
 				}
 			]
-			title: "&dCreating Mob \\& Experiance Seeds"
+			title: "{ftbquests.chapter.mystical_agriculture.quest7418935284657389638.title}"
 			x: 15.0d
 			y: -7.5d
 		}
@@ -1104,9 +1104,9 @@
 		{
 			dependencies: ["6C52741D22052A14"]
 			description: [
-				"To awaken your Supremium Essence, you'll need to create a new Altar and 4 new Pedestals, as well as a new type of pedestal called the &cEssence Vessel&r."
+				"{ftbquests.chapter.mystical_agriculture.quest6371510040029221035.description1}"
 				""
-				"The Essence Vessels will require the starter Element Essences to fill: Fire, Water, Earth, and Air."
+				"{ftbquests.chapter.mystical_agriculture.quest6371510040029221035.description2}"
 			]
 			hide_dependency_lines: true
 			id: "586C269FAAC6D0AB"
@@ -1135,7 +1135,7 @@
 					type: "item"
 				}
 			]
-			title: "&dThe Awakening"
+			title: "{ftbquests.chapter.mystical_agriculture.quest6371510040029221035.title}"
 			x: 14.0d
 			y: -4.5d
 		}
@@ -1158,9 +1158,9 @@
 		{
 			dependencies: ["3A83B7208433E77E"]
 			description: [
-				"To start making &aEssence Gear&r, you'll need to make the Inferium Armor first."
+				"{ftbquests.chapter.mystical_agriculture.quest5845065893251371409.description1}"
 				""
-				"This gear can be upgraded to higher tiers, just like the Essences. You can also &9Augment&r them with the &bTinkering Table&r!"
+				"{ftbquests.chapter.mystical_agriculture.quest5845065893251371409.description2}"
 			]
 			id: "511DD8761FFFD191"
 			rewards: [{
@@ -1214,16 +1214,16 @@
 					type: "item"
 				}
 			]
-			title: "&aEssence Armor"
+			title: "{ftbquests.chapter.mystical_agriculture.quest5845065893251371409.title}"
 			x: -23.5d
 			y: -5.5d
 		}
 		{
 			dependencies: ["28586493542A3B3A"]
 			description: [
-				"&bProsperity Shards&r are used as one of the main crafting mats for several of the recipes in Mystical Agriculture, like seeds, ingots, and more."
+				"{ftbquests.chapter.mystical_agriculture.quest3139742701197687769.description1}"
 				""
-				"You'll find these from mining!"
+				"{ftbquests.chapter.mystical_agriculture.quest3139742701197687769.description2}"
 			]
 			hide_dependency_lines: true
 			id: "2B929B5A07037BD9"
@@ -1323,7 +1323,7 @@
 		}
 		{
 			dependencies: ["4970CC2851818A02"]
-			description: ["This special essence is used for making most of the &6Creative&r items."]
+			description: ["{ftbquests.chapter.mystical_agriculture.quest8994610402681382990.description1}"]
 			hide_dependency_lines: true
 			id: "7CD3468178DB684E"
 			rewards: [{
@@ -1332,13 +1332,13 @@
 				type: "item"
 			}]
 			shape: "hexagon"
-			subtitle: "&bTier:&r &5Creative"
+			subtitle: "{ftbquests.chapter.mystical_agriculture.quest8994610402681382990.subtitle}"
 			tasks: [{
 				id: "362BCA59E34B3E7D"
 				item: "mysticalagradditions:creative_essence"
 				type: "item"
 			}]
-			title: "&5Essence of Haven"
+			title: "{ftbquests.chapter.mystical_agriculture.quest8994610402681382990.title}"
 			x: 14.0d
 			y: -7.5d
 		}
@@ -1444,10 +1444,10 @@
 						]
 					}
 				}
-				title: "&2Essence Tools \\& Weapons"
+				title: "{ftbquests.chapter.mystical_agriculture.quest5651999952357120014.task.8651388905749086439.title}"
 				type: "item"
 			}]
-			title: "&2Essence Tools \\& Weapons"
+			title: "{ftbquests.chapter.mystical_agriculture.quest5651999952357120014.title}"
 			x: -14.5d
 			y: -4.5d
 		}
@@ -1505,7 +1505,7 @@
 					type: "item"
 				}
 			]
-			title: "&2Essence Armor"
+			title: "{ftbquests.chapter.mystical_agriculture.quest8389163347535061596.title}"
 			x: -14.5d
 			y: -5.5d
 		}
@@ -1611,10 +1611,10 @@
 						]
 					}
 				}
-				title: "&cEssence Tools \\& Weapons"
+				title: "{ftbquests.chapter.mystical_agriculture.quest2419237403988820094.task.6213838790235964760.title}"
 				type: "item"
 			}]
-			title: "&cEssence Tools \\& Weapons"
+			title: "{ftbquests.chapter.mystical_agriculture.quest2419237403988820094.title}"
 			x: -11.5d
 			y: -4.0d
 		}
@@ -1720,10 +1720,10 @@
 						]
 					}
 				}
-				title: "&9Essence Tools \\& Weapons"
+				title: "{ftbquests.chapter.mystical_agriculture.quest1904615408814382737.task.6319649890803935779.title}"
 				type: "item"
 			}]
-			title: "&9Essence Tools \\& Weapons"
+			title: "{ftbquests.chapter.mystical_agriculture.quest1904615408814382737.title}"
 			x: -2.5d
 			y: -4.5d
 		}
@@ -1781,7 +1781,7 @@
 					type: "item"
 				}
 			]
-			title: "&9Essence Armor"
+			title: "{ftbquests.chapter.mystical_agriculture.quest8137917039967378854.title}"
 			x: -2.5d
 			y: -5.5d
 		}
@@ -1839,7 +1839,7 @@
 					type: "item"
 				}
 			]
-			title: "&4Essence Armor"
+			title: "{ftbquests.chapter.mystical_agriculture.quest5765925000349090470.title}"
 			x: 0.5d
 			y: -5.5d
 		}
@@ -1897,7 +1897,7 @@
 					type: "item"
 				}
 			]
-			title: "&cEssence Armor"
+			title: "{ftbquests.chapter.mystical_agriculture.quest2050709879867551218.title}"
 			x: -11.5d
 			y: -5.0d
 		}
@@ -1967,10 +1967,10 @@
 						]
 					}
 				}
-				title: "&4Essence Tools \\& Weapons"
+				title: "{ftbquests.chapter.mystical_agriculture.quest6923058871220114302.task.1038733918421474197.title}"
 				type: "item"
 			}]
-			title: "&4Essence Tools \\& Weapons"
+			title: "{ftbquests.chapter.mystical_agriculture.quest6923058871220114302.title}"
 			x: 0.5d
 			y: -4.5d
 		}
@@ -2040,10 +2040,10 @@
 						]
 					}
 				}
-				title: "&1Essence Tools \\& Weapons"
+				title: "{ftbquests.chapter.mystical_agriculture.quest6364613938290357139.task.5733508258134098571.title}"
 				type: "item"
 			}]
-			title: "&1Essence Tools \\& Weapons"
+			title: "{ftbquests.chapter.mystical_agriculture.quest6364613938290357139.title}"
 			x: 9.5d
 			y: -4.5d
 		}
@@ -2101,7 +2101,7 @@
 					type: "item"
 				}
 			]
-			title: "&1Essence Armor"
+			title: "{ftbquests.chapter.mystical_agriculture.quest2023459762213445760.title}"
 			x: 9.5d
 			y: -5.5d
 		}
@@ -2115,13 +2115,13 @@
 				type: "item"
 			}]
 			shape: "rsquare"
-			subtitle: "&bTier:&r &6Awakened"
+			subtitle: "{ftbquests.chapter.mystical_agriculture.quest2183807714216787709.subtitle}"
 			tasks: [{
 				id: "4DBB187E9ADA4384"
 				item: "mysticalagriculture:awakened_supremium_essence"
 				type: "item"
 			}]
-			title: "&cAwakened Supremium Essence"
+			title: "{ftbquests.chapter.mystical_agriculture.quest2183807714216787709.title}"
 			x: 13.0d
 			y: -7.5d
 		}
@@ -2147,7 +2147,7 @@
 					type: "item"
 				}
 			]
-			title: "Awakened Gemstone \\& Ingot"
+			title: "{ftbquests.chapter.mystical_agriculture.quest2588069867766592493.title}"
 			x: 13.0d
 			y: -6.5d
 		}
@@ -2219,10 +2219,10 @@
 						]
 					}
 				}
-				title: "&cEssence Tools \\& Weapons"
+				title: "{ftbquests.chapter.mystical_agriculture.quest7067252274966076000.task.1422797945092551883.title}"
 				type: "item"
 			}]
-			title: "&cEssence Tools \\& Weapons"
+			title: "{ftbquests.chapter.mystical_agriculture.quest7067252274966076000.title}"
 			x: 13.0d
 			y: -4.5d
 		}
@@ -2282,13 +2282,13 @@
 					type: "item"
 				}
 			]
-			title: "&cEssence Armor"
+			title: "{ftbquests.chapter.mystical_agriculture.quest2292242364430410568.title}"
 			x: 13.0d
 			y: -5.5d
 		}
 		{
 			dependencies: ["586C269FAAC6D0AB"]
-			description: ["This special &eDust&r is dropped from the Wither and the Ender Dragon when killed by an &dEssence Weapon&r enchanted with &dMystical Enlightenment&r."]
+			description: ["{ftbquests.chapter.mystical_agriculture.quest3009620445491602572.description1}"]
 			hide_dependency_lines: true
 			id: "29C451D97A47A48C"
 			rewards: [{
@@ -2302,13 +2302,13 @@
 				item: "mysticalagriculture:cognizant_dust"
 				type: "item"
 			}]
-			title: "&5Cognizant Dust"
+			title: "{ftbquests.chapter.mystical_agriculture.quest3009620445491602572.title}"
 			x: 14.0d
 			y: -5.5d
 		}
 		{
 			dependencies: ["7FB0BABF99C78B45"]
-			description: ["This special &eDust&r is dropped from the Wither and the Ender Dragon when killed by an &dEssence Weapon&r enchanted with &dMystical Enlightenment&r."]
+			description: ["{ftbquests.chapter.mystical_agriculture.quest6179478583487865137.description1}"]
 			hide_dependency_lines: true
 			id: "55C1EB0809EDA131"
 			rewards: [{
@@ -2417,10 +2417,10 @@
 						]
 					}
 				}
-				title: "Mystical Enlightenment"
+				title: "{ftbquests.chapter.mystical_agriculture.quest6179478583487865137.task.8615332862295181751.title}"
 				type: "item"
 			}]
-			title: "&bThe Mystical Enlightenment"
+			title: "{ftbquests.chapter.mystical_agriculture.quest6179478583487865137.title}"
 			x: 15.0d
 			y: -3.5d
 		}
@@ -2685,8 +2685,8 @@
 		{
 			dependencies: ["41E5E6BF7CB5063F"]
 			description: [
-				"You cant see this Item in JEI. "
-				"You can look at it while pressing U on a basalt block from enviromental materials"
+				"{ftbquests.chapter.mystical_agriculture.quest1025416431013375454.description1}"
+				"{ftbquests.chapter.mystical_agriculture.quest1025416431013375454.description2}"
 			]
 			id: "0E3B02CFA566ADDE"
 			rewards: [{
@@ -2801,8 +2801,8 @@
 		{
 			dependencies: ["41E5E6BF7CB5063F"]
 			description: [
-				"You cant see this Item in JEI. "
-				"You can look at it while pressing U on a marble block from enviromental materials"
+				"{ftbquests.chapter.mystical_agriculture.quest4352666809873357938.description1}"
+				"{ftbquests.chapter.mystical_agriculture.quest4352666809873357938.description2}"
 			]
 			id: "3C67C766F4225C72"
 			rewards: [{
@@ -4756,9 +4756,9 @@
 		}
 		{
 			description: [
-				"The best seed in the modpack."
+				"{ftbquests.chapter.mystical_agriculture.quest3133041320500401124.description1}"
 				""
-				"It cant be tick accelerated with torcherino or block boosters. And cant be put into a botanypot."
+				"{ftbquests.chapter.mystical_agriculture.quest3133041320500401124.description2}"
 			]
 			id: "2B7ACC7B3F0C13E4"
 			rewards: [{
@@ -4792,5 +4792,5 @@
 			y: 9.0d
 		}
 	]
-	title: "Mystical Agriculture"
+	title: "{ftbquests.chapter.mystical_agriculture.title}"
 }

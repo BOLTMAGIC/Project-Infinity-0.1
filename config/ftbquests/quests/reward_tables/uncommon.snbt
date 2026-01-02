@@ -218,6 +218,6 @@
 		{ item: "minecraft:wither_skeleton_skull", weight: 10.0f }
 		{ item: "ironfurnaces:emerald_furnace", weight: 3.5f }
 	]
-	title: "&aUncommon Reward"
+	title: "{ftbquests.loot_table.4196188979167302596.title}"
 	use_title: true
 }

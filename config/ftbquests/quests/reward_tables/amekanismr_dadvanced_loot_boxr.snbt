@@ -77,6 +77,6 @@
 		}
 		{ item: "mysticalagriculture:uranium_seeds", random_bonus: 1, weight: 25.0f }
 	]
-	title: "Mekanism and Advanced Loot Box"
+	title: "{ftbquests.loot_table.8364958827326577211.title}"
 	use_title: true
 }

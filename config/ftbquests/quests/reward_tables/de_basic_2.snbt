@@ -18,5 +18,5 @@
 		{ item: "minecraft:nether_star", weight: 0.5f }
 		{ count: 2, item: "draconicevolution:wyvern_energy_core" }
 	]
-	title: "DE Wyvern"
+	title: "{ftbquests.loot_table.5036812014823277174.title}"
 }

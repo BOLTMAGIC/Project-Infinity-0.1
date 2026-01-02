@@ -244,7 +244,7 @@
 				type: "kill"
 				value: 1L
 			}]
-			title: "Allthemodium Intro"
+			title: "{ftbquests.chapter.allthemodium.quest224018295647737167.title}"
 			x: 0.0d
 			y: -2.625d
 		}
@@ -342,10 +342,10 @@
 						]
 					}
 				}
-				title: "{atm9.quest.allthemodium.atm_tools}"
+				title: "{ftbquests.chapter.allthemodium.quest4907717429167035936.task.3292266626391628109.title}"
 				type: "item"
 			}]
-			title: "ATM Tools"
+			title: "{ftbquests.chapter.allthemodium.quest4907717429167035936.title}"
 			x: 3.5d
 			y: 3.5d
 		}
@@ -366,10 +366,10 @@
 			]
 			tasks: [{
 				id: "44CB5CBCB991BB23"
-				title: "ATM Ore"
+				title: "{ftbquests.chapter.allthemodium.quest5043424877949736816.task.4957157780488305443.title}"
 				type: "checkmark"
 			}]
-			title: "ATM Ore"
+			title: "{ftbquests.chapter.allthemodium.quest5043424877949736816.title}"
 			x: 1.5d
 			y: 4.0d
 		}
@@ -574,10 +574,10 @@
 						]
 					}
 				}
-				title: "{atm9.quest.allthemodium.atm_armor}"
+				title: "{ftbquests.chapter.allthemodium.quest7950814267964421228.task.1848596982854942136.title}"
 				type: "item"
 			}]
-			title: "ATM Armor"
+			title: "{ftbquests.chapter.allthemodium.quest7950814267964421228.title}"
 			x: 4.5d
 			y: 3.5d
 		}
@@ -905,5 +905,5 @@
 			y: 3.5d
 		}
 	]
-	title: "AllTheModium"
+	title: "{ftbquests.chapter.allthemodium.title}"
 }

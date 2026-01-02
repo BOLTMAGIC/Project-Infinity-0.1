@@ -11,5 +11,5 @@
 	progression_mode: "flexible"
 	quest_links: [ ]
 	quests: [ ]
-	title: "Mekanism Reactor"
+	title: "{ftbquests.chapter.mekanism_reactors.title}"
 }

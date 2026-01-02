@@ -50,5 +50,5 @@
 		{ item: "mysticalagriculture:spirited_crystal_seeds" }
 		{ item: "mysticalagriculture:uraninite_seeds" }
 	]
-	title: "&4Tier 5 Seed Bag"
+	title: "{ftbquests.loot_table.3627365748998225633.title}"
 }

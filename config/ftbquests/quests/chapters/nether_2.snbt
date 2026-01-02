@@ -21,10 +21,10 @@
 				advancement: "minecraft:nether/find_fortress"
 				criterion: ""
 				id: "2E0D15CFA9367D96"
-				title: "Find a &4Fortress"
+				title: "{ftbquests.chapter.nether_2.quest7167897475343554400.task.3318332482083257750.title}"
 				type: "advancement"
 			}]
-			title: "Find a fortress"
+			title: "{ftbquests.chapter.nether_2.quest7167897475343554400.title}"
 			x: 1.0d
 			y: -1.5d
 		}
@@ -40,10 +40,10 @@
 				advancement: "minecraft:nether/find_bastion"
 				criterion: ""
 				id: "382F43C90FF509A4"
-				title: "Discover a Bastion Remenant"
+				title: "{ftbquests.chapter.nether_2.quest8976860567257438648.task.4048529120864569764.title}"
 				type: "advancement"
 			}]
-			title: "Discover a Bastion Remnant"
+			title: "{ftbquests.chapter.nether_2.quest8976860567257438648.title}"
 			x: -1.0d
 			y: -1.5d
 		}
@@ -59,10 +59,10 @@
 				icon: "cataclysm:flame_eye"
 				id: "5F013C4AEA9703B1"
 				structure: "cataclysm:burning_arena"
-				title: "Find the Burning Arena"
+				title: "{ftbquests.chapter.nether_2.quest7001068888739992354.task.6845819201040876465.title}"
 				type: "structure"
 			}]
-			title: "Find a Burning Arena"
+			title: "{ftbquests.chapter.nether_2.quest7001068888739992354.title}"
 			x: -1.5d
 			y: -4.0d
 		}
@@ -78,11 +78,11 @@
 				entity: "cataclysm:ignited_revenant"
 				icon: "cataclysm:burning_ashes"
 				id: "648E867999AB2B3B"
-				title: "Defeat an Ignited Revenant"
+				title: "{ftbquests.chapter.nether_2.quest3827313653760934484.task.7245876707313003323.title}"
 				type: "kill"
 				value: 1L
 			}]
-			title: "Defeat the Ignited Revenants"
+			title: "{ftbquests.chapter.nether_2.quest3827313653760934484.title}"
 			x: -1.5d
 			y: -5.5d
 		}
@@ -112,7 +112,7 @@
 					}
 				}
 				id: "53C35ACB199AA198"
-				title: "Defeat Ignis"
+				title: "{ftbquests.chapter.nether_2.quest24171437239433099.task.6035767753961021848.title}"
 				type: "kill"
 				value: 1L
 			}]
@@ -133,7 +133,7 @@
 				structure: "cataclysm:soul_black_smith"
 				type: "structure"
 			}]
-			title: "Find a Soul Blacksmith"
+			title: "{ftbquests.chapter.nether_2.quest7590967051750117995.title}"
 			x: 3.0d
 			y: -6.5d
 		}
@@ -157,11 +157,11 @@
 				entity: "cataclysm:netherite_monstrosity"
 				icon: "cataclysm:monstrous_horn"
 				id: "3A710965D6B471DB"
-				title: "Defeat a Netherite Monstrosity"
+				title: "{ftbquests.chapter.nether_2.quest2017539957837485174.task.4211157459566621147.title}"
 				type: "kill"
 				value: 1L
 			}]
-			title: "Defeat the Netherite Monstrosity"
+			title: "{ftbquests.chapter.nether_2.quest2017539957837485174.title}"
 			x: 3.0d
 			y: -8.0d
 		}
@@ -1028,5 +1028,5 @@
 			y: -5.5d
 		}
 	]
-	title: "&4Nether"
+	title: "{ftbquests.chapter.nether_2.title}"
 }

@@ -46,7 +46,7 @@
 			y: 0.0d
 		}
 		{
-			description: ["Good Luck :)"]
+			description: ["{ftbquests.chapter.endgame.quest1423761732431019882.description1}"]
 			id: "13C237C092587F6A"
 			rewards: [{
 				id: "07E7E1DF6CC4BAF2"
@@ -63,5 +63,5 @@
 			y: 0.0d
 		}
 	]
-	title: "&cEndGame"
+	title: "{ftbquests.chapter.endgame.title}"
 }

@@ -3,6 +3,6 @@
 	loot_size: 1
 	order_index: 8
 	rewards: [{ item: "extrastorage:neural_processor", random_bonus: 2, weight: 50.0f }]
-	title: "RS Advanced Parts"
+	title: "{ftbquests.loot_table.1739527894044761161.title}"
 	use_title: true
 }

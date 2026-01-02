@@ -61,8 +61,8 @@
 		{
 			dependencies: ["231765C07B4A12B7"]
 			description: [
-				"Push smelting to the absolute limit with extraordinary &asmelting speed&r, reconfigurable sides, &daugments&r for &csmoking&r and &2blasting&r and much more."
-				"Mystical Agriculture is much faster then better furnaces, but alot harder to craft"
+				"{ftbquests.chapter.iron_furngens.quest7094452609883966665.description1}"
+				"{ftbquests.chapter.iron_furngens.quest7094452609883966665.description2}"
 			]
 			disable_toast: true
 			id: "62748F0F87FA0CC9"
@@ -73,7 +73,7 @@
 				id: "10434650507FA384"
 				type: "checkmark"
 			}]
-			title: "Welcome to &dBetter Furnaces"
+			title: "{ftbquests.chapter.iron_furngens.quest7094452609883966665.title}"
 			x: 0.0d
 			y: -13.5d
 		}
@@ -501,5 +501,5 @@
 			y: -17.5d
 		}
 	]
-	title: "Furnaces"
+	title: "{ftbquests.chapter.iron_furngens.title}"
 }

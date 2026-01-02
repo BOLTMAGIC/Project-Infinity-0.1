@@ -9,19 +9,19 @@
 	quests: [
 		{
 			description: [
-				"Prepare yourself for an epic journey in the &5Epic&r &bChallenges&r chapter! Here, you will face a great number of weird and fun challenges that test various aspects of your Minecraft skills."
+				"{ftbquests.chapter.odd_challenges.quest7263478885569022395.description1}"
 				""
-				"&9What to Expect&r:"
-				"- &cCrafting Challenges&r: Test your ability to create complex items."
-				"- &eJumping Challenges&r: Perfect your Jumping skills."
-				"- &aCollecting Challenges&r: Gather specific items and resources."
-				"- &6Placing Challenges&r: Polish off your building skills."
-				"- &7Breaking Challenges&r: Break blocks efficiently.."
-				"- &bInteracting Challenges&r: Engage with various Entities."
+				"{ftbquests.chapter.odd_challenges.quest7263478885569022395.description2}"
+				"{ftbquests.chapter.odd_challenges.quest7263478885569022395.description3}"
+				"{ftbquests.chapter.odd_challenges.quest7263478885569022395.description4}"
+				"{ftbquests.chapter.odd_challenges.quest7263478885569022395.description5}"
+				"{ftbquests.chapter.odd_challenges.quest7263478885569022395.description6}"
+				"{ftbquests.chapter.odd_challenges.quest7263478885569022395.description7}"
+				"{ftbquests.chapter.odd_challenges.quest7263478885569022395.description8}"
 				""
-				"And many more! Each challenge is designed to be unique and engaging, pushing you to think creatively and act swiftly. Can you finish them all?"
+				"{ftbquests.chapter.odd_challenges.quest7263478885569022395.description9}"
 				""
-				"&n&l&4NOTE:&r &4Some challenges can only be done using Vanilla Blocks or Items.&r"
+				"{ftbquests.chapter.odd_challenges.quest7263478885569022395.description10}"
 			]
 			disable_toast: true
 			hide_dependency_lines: true
@@ -46,12 +46,12 @@
 				type: "item"
 			}]
 			shape: "diamond"
-			subtitle: "Times jumped"
+			subtitle: "{ftbquests.chapter.odd_challenges.quest8493543894743398532.subtitle}"
 			tasks: [{
 				icon: "draconicevolution:item_draconium_jump"
 				id: "1AAE04E07D1BFC89"
 				stat: "minecraft:jump"
-				title: "Bunny bun bun I"
+				title: "{ftbquests.chapter.odd_challenges.quest8493543894743398532.task.1922479453151952009.title}"
 				type: "stat"
 				value: 500
 			}]
@@ -67,12 +67,12 @@
 				type: "item"
 			}]
 			shape: "diamond"
-			subtitle: "Open the furnace"
+			subtitle: "{ftbquests.chapter.odd_challenges.quest1792324086123698719.subtitle}"
 			tasks: [{
 				icon: "minecraft:furnace"
 				id: "7459860F6AB0A8A0"
 				stat: "minecraft:interact_with_furnace"
-				title: "Boots in the Fur(nace) I"
+				title: "{ftbquests.chapter.odd_challenges.quest1792324086123698719.task.8383879582099482784.title}"
 				type: "stat"
 				value: 50
 			}]
@@ -88,12 +88,12 @@
 				type: "item"
 			}]
 			shape: "diamond"
-			subtitle: "Open Crafting Table"
+			subtitle: "{ftbquests.chapter.odd_challenges.quest2996990213709524702.subtitle}"
 			tasks: [{
 				icon: "minecraft:crafting_table"
 				id: "14378209632C523F"
 				stat: "minecraft:interact_with_crafting_table"
-				title: "Putting Craft in Minecraft I"
+				title: "{ftbquests.chapter.odd_challenges.quest2996990213709524702.task.1456775981307810367.title}"
 				type: "stat"
 				value: 50
 			}]
@@ -109,7 +109,7 @@
 				type: "item"
 			}]
 			shape: "diamond"
-			subtitle: "Deal Damage"
+			subtitle: "{ftbquests.chapter.odd_challenges.quest2807241696729055220.subtitle}"
 			tasks: [{
 				icon: {
 					Count: 1
@@ -120,7 +120,7 @@
 				}
 				id: "62A0C4F4CBA39846"
 				stat: "minecraft:damage_dealt"
-				title: "That's a lot of Damage I"
+				title: "{ftbquests.chapter.odd_challenges.quest2807241696729055220.task.7106896767658203206.title}"
 				type: "stat"
 				value: 1000
 			}]
@@ -136,12 +136,12 @@
 				type: "item"
 			}]
 			shape: "diamond"
-			subtitle: "Enchant Items or Books"
+			subtitle: "{ftbquests.chapter.odd_challenges.quest1595234222934053778.subtitle}"
 			tasks: [{
 				icon: "minecraft:enchanting_table"
 				id: "0536C2D540D42AE0"
 				stat: "minecraft:enchant_item"
-				title: "&bBeing Magical I"
+				title: "{ftbquests.chapter.odd_challenges.quest1595234222934053778.task.375701840103484128.title}"
 				type: "stat"
 				value: 50
 			}]
@@ -157,7 +157,7 @@
 				type: "item"
 			}]
 			shape: "diamond"
-			subtitle: "Catch fish"
+			subtitle: "{ftbquests.chapter.odd_challenges.quest6186738556091442673.subtitle}"
 			tasks: [{
 				icon: {
 					Count: 1
@@ -168,7 +168,7 @@
 				}
 				id: "3806BD78C294B6CA"
 				stat: "minecraft:fish_caught"
-				title: "What a catch I"
+				title: "{ftbquests.chapter.odd_challenges.quest6186738556091442673.task.4037122442342479562.title}"
 				type: "stat"
 				value: 100
 			}]
@@ -184,7 +184,7 @@
 				type: "item"
 			}]
 			shape: "diamond"
-			subtitle: "Breed Animals"
+			subtitle: "{ftbquests.chapter.odd_challenges.quest1861646309042667200.subtitle}"
 			tasks: [{
 				icon: {
 					Count: 1
@@ -198,7 +198,7 @@
 				}
 				id: "7AAFF94D47513A8A"
 				stat: "minecraft:animals_bred"
-				title: "Match Maker I"
+				title: "{ftbquests.chapter.odd_challenges.quest1861646309042667200.task.8840558703855876746.title}"
 				type: "stat"
 				value: 100
 			}]
@@ -214,12 +214,12 @@
 				type: "item"
 			}]
 			shape: "diamond"
-			subtitle: "Blocks placed with wand"
+			subtitle: "{ftbquests.chapter.odd_challenges.quest469066404019676977.subtitle}"
 			tasks: [{
 				icon: "minecraft:oak_log"
 				id: "59E793831DEC57D2"
 				stat: "constructionwand:use_wand"
-				title: "Bob the Builder I"
+				title: "{ftbquests.chapter.odd_challenges.quest469066404019676977.task.6478308780347774930.title}"
 				type: "stat"
 				value: 1000
 			}]
@@ -236,12 +236,12 @@
 				type: "item"
 			}]
 			shape: "diamond"
-			subtitle: "Enchant Items or Books"
+			subtitle: "{ftbquests.chapter.odd_challenges.quest6099840472517823002.subtitle}"
 			tasks: [{
 				icon: "minecraft:enchanting_table"
 				id: "1DB2945EAF2F30B9"
 				stat: "minecraft:enchant_item"
-				title: "&bBeing Magical II"
+				title: "{ftbquests.chapter.odd_challenges.quest6099840472517823002.task.2139935907341349049.title}"
 				type: "stat"
 				value: 100
 			}]
@@ -258,12 +258,12 @@
 				type: "item"
 			}]
 			shape: "diamond"
-			subtitle: "Enchant Items or Books"
+			subtitle: "{ftbquests.chapter.odd_challenges.quest3028528681257570128.subtitle}"
 			tasks: [{
 				icon: "minecraft:enchanting_table"
 				id: "118E84485684E81E"
 				stat: "minecraft:enchant_item"
-				title: "&bBeing Magical III"
+				title: "{ftbquests.chapter.odd_challenges.quest3028528681257570128.task.1265093991561750558.title}"
 				type: "stat"
 				value: 200
 			}]
@@ -280,12 +280,12 @@
 				type: "item"
 			}]
 			shape: "diamond"
-			subtitle: "Enchant Items or Books"
+			subtitle: "{ftbquests.chapter.odd_challenges.quest4384170186921642149.subtitle}"
 			tasks: [{
 				icon: "minecraft:enchanting_table"
 				id: "028EEA174C611728"
 				stat: "minecraft:enchant_item"
-				title: "&bBeing Magical IV"
+				title: "{ftbquests.chapter.odd_challenges.quest4384170186921642149.task.184342020555347752.title}"
 				type: "stat"
 				value: 350
 			}]
@@ -302,12 +302,12 @@
 				type: "item"
 			}]
 			shape: "diamond"
-			subtitle: "Enchant Items or Books"
+			subtitle: "{ftbquests.chapter.odd_challenges.quest6852011850754087149.subtitle}"
 			tasks: [{
 				icon: "minecraft:enchanting_table"
 				id: "43C420679CFCBBBE"
 				stat: "minecraft:enchant_item"
-				title: "&bBeing Magical V"
+				title: "{ftbquests.chapter.odd_challenges.quest6852011850754087149.task.4883063525363989438.title}"
 				type: "stat"
 				value: 500
 			}]
@@ -324,7 +324,7 @@
 				type: "item"
 			}]
 			shape: "diamond"
-			subtitle: "Deal Damage"
+			subtitle: "{ftbquests.chapter.odd_challenges.quest22970501197754952.subtitle}"
 			tasks: [{
 				icon: {
 					Count: 1
@@ -335,7 +335,7 @@
 				}
 				id: "556398176F33BC7B"
 				stat: "minecraft:damage_dealt"
-				title: "That's a lot of Damage II"
+				title: "{ftbquests.chapter.odd_challenges.quest22970501197754952.task.6152928742335560827.title}"
 				type: "stat"
 				value: 5000
 			}]
@@ -352,7 +352,7 @@
 				type: "item"
 			}]
 			shape: "diamond"
-			subtitle: "Deal Damage"
+			subtitle: "{ftbquests.chapter.odd_challenges.quest5925611792758105021.subtitle}"
 			tasks: [{
 				icon: {
 					Count: 1
@@ -363,7 +363,7 @@
 				}
 				id: "2467160D7AF5B761"
 				stat: "minecraft:damage_dealt"
-				title: "That's a lot of Damage III"
+				title: "{ftbquests.chapter.odd_challenges.quest5925611792758105021.task.2623089555119912801.title}"
 				type: "stat"
 				value: 10000
 			}]
@@ -380,7 +380,7 @@
 				type: "item"
 			}]
 			shape: "diamond"
-			subtitle: "Deal Damage"
+			subtitle: "{ftbquests.chapter.odd_challenges.quest6498148779412291899.subtitle}"
 			tasks: [{
 				icon: {
 					Count: 1
@@ -391,7 +391,7 @@
 				}
 				id: "41F1BDAAB6F4E694"
 				stat: "minecraft:damage_dealt"
-				title: "That's a lot of Damage IV"
+				title: "{ftbquests.chapter.odd_challenges.quest6498148779412291899.task.4751787622764177044.title}"
 				type: "stat"
 				value: 50000
 			}]
@@ -408,7 +408,7 @@
 				type: "item"
 			}]
 			shape: "diamond"
-			subtitle: "Deal Damage"
+			subtitle: "{ftbquests.chapter.odd_challenges.quest5244774687635907240.subtitle}"
 			tasks: [{
 				icon: {
 					Count: 1
@@ -419,7 +419,7 @@
 				}
 				id: "442FA2DAD1F3F1FE"
 				stat: "minecraft:damage_dealt"
-				title: "That's a lot of Damage V"
+				title: "{ftbquests.chapter.odd_challenges.quest5244774687635907240.task.4913324779193496062.title}"
 				type: "stat"
 				value: 100000
 			}]
@@ -436,12 +436,12 @@
 				type: "item"
 			}]
 			shape: "diamond"
-			subtitle: "Open Crafting Table"
+			subtitle: "{ftbquests.chapter.odd_challenges.quest5071528391372586400.subtitle}"
 			tasks: [{
 				icon: "minecraft:crafting_table"
 				id: "30890E8E145B7EF6"
 				stat: "minecraft:interact_with_crafting_table"
-				title: "Putting Craft in Minecraft II"
+				title: "{ftbquests.chapter.odd_challenges.quest5071528391372586400.task.3497342589019586294.title}"
 				type: "stat"
 				value: 100
 			}]
@@ -458,12 +458,12 @@
 				type: "item"
 			}]
 			shape: "diamond"
-			subtitle: "Open Crafting Table"
+			subtitle: "{ftbquests.chapter.odd_challenges.quest6699051111624104087.subtitle}"
 			tasks: [{
 				icon: "minecraft:crafting_table"
 				id: "0B86FFDBA44F193A"
 				stat: "minecraft:interact_with_crafting_table"
-				title: "Putting Craft in Minecraft III"
+				title: "{ftbquests.chapter.odd_challenges.quest6699051111624104087.task.830632500116003130.title}"
 				type: "stat"
 				value: 150
 			}]
@@ -480,12 +480,12 @@
 				type: "item"
 			}]
 			shape: "diamond"
-			subtitle: "Open Crafting Table"
+			subtitle: "{ftbquests.chapter.odd_challenges.quest6906508204077160091.subtitle}"
 			tasks: [{
 				icon: "minecraft:crafting_table"
 				id: "4EA453D3488A447F"
 				stat: "minecraft:interact_with_crafting_table"
-				title: "Putting Craft in Minecraft IV"
+				title: "{ftbquests.chapter.odd_challenges.quest6906508204077160091.task.5666746398059152511.title}"
 				type: "stat"
 				value: 200
 			}]
@@ -502,12 +502,12 @@
 				type: "item"
 			}]
 			shape: "diamond"
-			subtitle: "Open Crafting Table"
+			subtitle: "{ftbquests.chapter.odd_challenges.quest4900363845747716922.subtitle}"
 			tasks: [{
 				icon: "minecraft:crafting_table"
 				id: "2C999F81DCFF5EA5"
 				stat: "minecraft:interact_with_crafting_table"
-				title: "Putting Craft in Minecraft V"
+				title: "{ftbquests.chapter.odd_challenges.quest4900363845747716922.task.3213775189212880549.title}"
 				type: "stat"
 				value: 300
 			}]
@@ -523,12 +523,12 @@
 				item: "kubejs:apotheotic_coin"
 				type: "item"
 			}]
-			subtitle: "Blocks placed with wand"
+			subtitle: "{ftbquests.chapter.odd_challenges.quest5458963193769313500.subtitle}"
 			tasks: [{
 				icon: "minecraft:oak_log"
 				id: "6E7B3B11C8C0EE51"
 				stat: "constructionwand:use_wand"
-				title: "Bob the Builder II"
+				title: "{ftbquests.chapter.odd_challenges.quest5458963193769313500.task.7961021713876053585.title}"
 				type: "stat"
 				value: 5000
 			}]
@@ -544,12 +544,12 @@
 				item: "kubejs:apotheotic_coin"
 				type: "item"
 			}]
-			subtitle: "Blocks placed with wand"
+			subtitle: "{ftbquests.chapter.odd_challenges.quest4344938979269009821.subtitle}"
 			tasks: [{
 				icon: "minecraft:oak_log"
 				id: "3530BC17B0F9E68C"
 				stat: "constructionwand:use_wand"
-				title: "Bob the Builder III"
+				title: "{ftbquests.chapter.odd_challenges.quest4344938979269009821.task.3832770092831729292.title}"
 				type: "stat"
 				value: 15000
 			}]
@@ -565,12 +565,12 @@
 				item: "kubejs:apotheotic_coin"
 				type: "item"
 			}]
-			subtitle: "Blocks placed with wand"
+			subtitle: "{ftbquests.chapter.odd_challenges.quest9103701138343880129.subtitle}"
 			tasks: [{
 				icon: "minecraft:oak_log"
 				id: "2F6B85ACC78BC525"
 				stat: "constructionwand:use_wand"
-				title: "Bob the Builder IV"
+				title: "{ftbquests.chapter.odd_challenges.quest9103701138343880129.task.3416971719419348261.title}"
 				type: "stat"
 				value: 30000
 			}]
@@ -586,12 +586,12 @@
 				item: "kubejs:infused_coin"
 				type: "item"
 			}]
-			subtitle: "Blocks placed with wand"
+			subtitle: "{ftbquests.chapter.odd_challenges.quest7440932006365872665.subtitle}"
 			tasks: [{
 				icon: "minecraft:oak_log"
 				id: "3539C5120BF42049"
 				stat: "constructionwand:use_wand"
-				title: "Bob the Builder V"
+				title: "{ftbquests.chapter.odd_challenges.quest7440932006365872665.task.3835313238983319625.title}"
 				type: "stat"
 				value: 100000
 			}]
@@ -606,7 +606,7 @@
 				item: "kubejs:apotheotic_coin"
 				type: "item"
 			}]
-			subtitle: "Damage blocked"
+			subtitle: "{ftbquests.chapter.odd_challenges.quest4123192793693088688.subtitle}"
 			tasks: [{
 				icon: {
 					Count: 1
@@ -617,7 +617,7 @@
 				}
 				id: "4A70A1236C52D7FB"
 				stat: "minecraft:damage_blocked_by_shield"
-				title: "Get Blocked I"
+				title: "{ftbquests.chapter.odd_challenges.quest4123192793693088688.task.5363964329711556603.title}"
 				type: "stat"
 				value: 500
 			}]
@@ -637,7 +637,7 @@
 				icon: "draconicevolution:item_draconium_jump"
 				id: "3EDEA5DE61F7990B"
 				stat: "minecraft:jump"
-				title: "Bunny bun bun II"
+				title: "{ftbquests.chapter.odd_challenges.quest5107137962634013916.task.4530240649726236939.title}"
 				type: "stat"
 				value: 2500
 			}]
@@ -657,7 +657,7 @@
 				icon: "draconicevolution:item_wyvern_jump"
 				id: "319679FA245E4089"
 				stat: "minecraft:jump"
-				title: "Bunny bun bun III"
+				title: "{ftbquests.chapter.odd_challenges.quest9130320086993392461.task.3573177469624008841.title}"
 				type: "stat"
 				value: 5000
 			}]
@@ -677,7 +677,7 @@
 				icon: "draconicevolution:item_draconic_jump"
 				id: "59F8F4B6919CA83D"
 				stat: "minecraft:jump"
-				title: "Bunny bun bun IV"
+				title: "{ftbquests.chapter.odd_challenges.quest4907935999931009801.task.6483200728564017213.title}"
 				type: "stat"
 				value: 15000
 			}]
@@ -697,7 +697,7 @@
 				icon: "draconicevolution:item_chaotic_jump"
 				id: "1E6C28774F2292F9"
 				stat: "minecraft:jump"
-				title: "Bunny bun bun V"
+				title: "{ftbquests.chapter.odd_challenges.quest6807381176330285938.task.2192171611516474105.title}"
 				type: "stat"
 				value: 50000
 			}]
@@ -717,7 +717,7 @@
 				icon: "minecraft:furnace"
 				id: "76EBF7B58C3115A2"
 				stat: "minecraft:interact_with_furnace"
-				title: "Boots in the Fur(nace) II"
+				title: "{ftbquests.chapter.odd_challenges.quest5395477228802888770.task.8569215075115668898.title}"
 				type: "stat"
 				value: 100
 			}]
@@ -737,7 +737,7 @@
 				icon: "minecraft:furnace"
 				id: "782D1250F93E2B48"
 				stat: "minecraft:interact_with_furnace"
-				title: "Boots in the Fur(nace) III"
+				title: "{ftbquests.chapter.odd_challenges.quest7644611431225495258.task.8659597797491616584.title}"
 				type: "stat"
 				value: 150
 			}]
@@ -757,7 +757,7 @@
 				icon: "minecraft:furnace"
 				id: "3BF62819488A1B58"
 				stat: "minecraft:interact_with_furnace"
-				title: "Boots in the Fur(nace) IV"
+				title: "{ftbquests.chapter.odd_challenges.quest4778126818277289161.task.4320684981564873560.title}"
 				type: "stat"
 				value: 200
 			}]
@@ -777,7 +777,7 @@
 				icon: "minecraft:furnace"
 				id: "77C39F7D38554A36"
 				stat: "minecraft:interact_with_furnace"
-				title: "Boots in the Fur(nace) V"
+				title: "{ftbquests.chapter.odd_challenges.quest4840720682942751849.task.8629916671136844342.title}"
 				type: "stat"
 				value: 250
 			}]
@@ -793,7 +793,7 @@
 				item: "kubejs:apotheotic_coin"
 				type: "item"
 			}]
-			subtitle: "Catch fish"
+			subtitle: "{ftbquests.chapter.odd_challenges.quest8380076560120715828.subtitle}"
 			tasks: [{
 				icon: {
 					Count: 1
@@ -804,7 +804,7 @@
 				}
 				id: "138E4294638605DB"
 				stat: "minecraft:fish_caught"
-				title: "What a catch  II"
+				title: "{ftbquests.chapter.odd_challenges.quest8380076560120715828.task.1409136938505864667.title}"
 				type: "stat"
 				value: 250
 			}]
@@ -820,7 +820,7 @@
 				item: "kubejs:apotheotic_coin"
 				type: "item"
 			}]
-			subtitle: "Catch fish"
+			subtitle: "{ftbquests.chapter.odd_challenges.quest4135189725867730579.subtitle}"
 			tasks: [{
 				icon: {
 					Count: 1
@@ -831,7 +831,7 @@
 				}
 				id: "2BD4557622D5CAA0"
 				stat: "minecraft:fish_caught"
-				title: "What a catch III"
+				title: "{ftbquests.chapter.odd_challenges.quest4135189725867730579.task.3158243204572498592.title}"
 				type: "stat"
 				value: 500
 			}]
@@ -847,7 +847,7 @@
 				item: "kubejs:apotheotic_coin"
 				type: "item"
 			}]
-			subtitle: "Catch fish"
+			subtitle: "{ftbquests.chapter.odd_challenges.quest7709738228978328978.subtitle}"
 			tasks: [{
 				icon: {
 					Count: 1
@@ -858,7 +858,7 @@
 				}
 				id: "4DA1BE80FAAC6B3A"
 				stat: "minecraft:fish_caught"
-				title: "What a catch IV"
+				title: "{ftbquests.chapter.odd_challenges.quest7709738228978328978.task.5593961673341561658.title}"
 				type: "stat"
 				value: 1000
 			}]
@@ -874,7 +874,7 @@
 				item: "kubejs:infused_coin"
 				type: "item"
 			}]
-			subtitle: "Catch fish"
+			subtitle: "{ftbquests.chapter.odd_challenges.quest7118950319406241535.subtitle}"
 			tasks: [{
 				icon: {
 					Count: 1
@@ -885,7 +885,7 @@
 				}
 				id: "5B82FD41CA951FB7"
 				stat: "minecraft:mob_kills"
-				title: "What a catch V"
+				title: "{ftbquests.chapter.odd_challenges.quest7118950319406241535.task.6594111263437299639.title}"
 				type: "stat"
 				value: 1000
 			}]
@@ -914,7 +914,7 @@
 				}
 				id: "10ECA9D39776DDB4"
 				stat: "minecraft:animals_bred"
-				title: "Match Maker II"
+				title: "{ftbquests.chapter.odd_challenges.quest7460218232146277397.task.1219536325354905012.title}"
 				type: "stat"
 				value: 250
 			}]
@@ -943,7 +943,7 @@
 				}
 				id: "7474BB4E0087B44C"
 				stat: "minecraft:animals_bred"
-				title: "Match Maker III"
+				title: "{ftbquests.chapter.odd_challenges.quest121579118379977898.task.8391537949388813388.title}"
 				type: "stat"
 				value: 500
 			}]
@@ -972,7 +972,7 @@
 				}
 				id: "743E573A1F65C503"
 				stat: "minecraft:animals_bred"
-				title: "Match Maker IV"
+				title: "{ftbquests.chapter.odd_challenges.quest5566002520080203305.task.8376228264102184195.title}"
 				type: "stat"
 				value: 1000
 			}]
@@ -1001,7 +1001,7 @@
 				}
 				id: "3468C04845852BFB"
 				stat: "minecraft:animals_bred"
-				title: "Match Maker V"
+				title: "{ftbquests.chapter.odd_challenges.quest6439583029296991848.task.3776479704186694651.title}"
 				type: "stat"
 				value: 2500
 			}]
@@ -1017,7 +1017,7 @@
 				item: "kubejs:apotheotic_coin"
 				type: "item"
 			}]
-			subtitle: "Damage blocked"
+			subtitle: "{ftbquests.chapter.odd_challenges.quest8758864864827997410.subtitle}"
 			tasks: [{
 				icon: {
 					Count: 1
@@ -1028,7 +1028,7 @@
 				}
 				id: "2FE2A689B1BFFC56"
 				stat: "minecraft:damage_blocked_by_shield"
-				title: "Get Blocked II"
+				title: "{ftbquests.chapter.odd_challenges.quest8758864864827997410.task.3450503374842100822.title}"
 				type: "stat"
 				value: 5000
 			}]
@@ -1044,7 +1044,7 @@
 				item: "kubejs:apotheotic_coin"
 				type: "item"
 			}]
-			subtitle: "Damage blocked"
+			subtitle: "{ftbquests.chapter.odd_challenges.quest1932114103148469554.subtitle}"
 			tasks: [{
 				icon: {
 					Count: 1
@@ -1055,7 +1055,7 @@
 				}
 				id: "3B8460267BBA4FA6"
 				stat: "minecraft:damage_blocked_by_shield"
-				title: "Get Blocked III"
+				title: "{ftbquests.chapter.odd_challenges.quest1932114103148469554.task.4288658463564386214.title}"
 				type: "stat"
 				value: 10000
 			}]
@@ -1071,7 +1071,7 @@
 				item: "kubejs:apotheotic_coin"
 				type: "item"
 			}]
-			subtitle: "Damage blocked"
+			subtitle: "{ftbquests.chapter.odd_challenges.quest5779195778712804205.subtitle}"
 			tasks: [{
 				icon: {
 					Count: 1
@@ -1082,7 +1082,7 @@
 				}
 				id: "70ED446D043D6754"
 				stat: "minecraft:damage_blocked_by_shield"
-				title: "Get Blocked IV"
+				title: "{ftbquests.chapter.odd_challenges.quest5779195778712804205.task.8137235336741611348.title}"
 				type: "stat"
 				value: 50000
 			}]
@@ -1098,7 +1098,7 @@
 				item: "kubejs:infused_coin"
 				type: "item"
 			}]
-			subtitle: "Damage blocked"
+			subtitle: "{ftbquests.chapter.odd_challenges.quest5689509018907515749.subtitle}"
 			tasks: [{
 				icon: {
 					Count: 1
@@ -1109,7 +1109,7 @@
 				}
 				id: "5D6286A6E13F7E3D"
 				stat: "minecraft:damage_blocked_by_shield"
-				title: "Get Blocked V"
+				title: "{ftbquests.chapter.odd_challenges.quest5689509018907515749.task.6729088844546670141.title}"
 				type: "stat"
 				value: 100000
 			}]
@@ -1117,5 +1117,5 @@
 			y: 6.0d
 		}
 	]
-	title: "Epic Challenges"
+	title: "{ftbquests.chapter.odd_challenges.title}"
 }

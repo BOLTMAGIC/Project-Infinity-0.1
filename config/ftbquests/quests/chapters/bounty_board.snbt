@@ -37,11 +37,11 @@
 				entity: "minecraft:zombie"
 				icon: "minecraft:zombie_head"
 				id: "5457CD8C1ABA0B9E"
-				title: "Kill 5 Zombies"
+				title: "{ftbquests.chapter.bounty_board.quest3100062711063998130.task.6077552223787289502.title}"
 				type: "kill"
 				value: 5L
 			}]
-			title: "Zombie"
+			title: "{ftbquests.chapter.bounty_board.quest3100062711063998130.title}"
 			x: -4.0d
 			y: -0.5d
 		}
@@ -66,7 +66,7 @@
 				entity: "minecraft:zombie"
 				icon: "minecraft:zombie_head"
 				id: "3AD10C31CB6BA4C2"
-				title: "Kill 10 Zombies"
+				title: "{ftbquests.chapter.bounty_board.quest4920972215443385524.task.4238182132338107586.title}"
 				type: "kill"
 				value: 10L
 			}]
@@ -99,7 +99,7 @@
 				entity: "minecraft:zombie"
 				icon: "minecraft:zombie_head"
 				id: "51471254BFEBDAA7"
-				title: "Kill 50 Zombies"
+				title: "{ftbquests.chapter.bounty_board.quest1468792195678439873.task.5856669995625077415.title}"
 				type: "kill"
 				value: 50L
 			}]
@@ -120,7 +120,7 @@
 				entity: "minecraft:zombie"
 				icon: "minecraft:zombie_head"
 				id: "5056DC37AEF523E5"
-				title: "Kill 100 Zombies"
+				title: "{ftbquests.chapter.bounty_board.quest9032873672641136959.task.5789056502747964389.title}"
 				type: "kill"
 				value: 100L
 			}]
@@ -154,11 +154,11 @@
 				entity: "minecraft:skeleton"
 				icon: "minecraft:skeleton_skull"
 				id: "5B35720DF93CE2DB"
-				title: "Kill 5 Skeletons"
+				title: "{ftbquests.chapter.bounty_board.quest4792440363645390929.task.6572284635558765275.title}"
 				type: "kill"
 				value: 5L
 			}]
-			title: "Skeleton"
+			title: "{ftbquests.chapter.bounty_board.quest4792440363645390929.title}"
 			x: -2.0d
 			y: -0.5d
 		}
@@ -183,7 +183,7 @@
 				entity: "minecraft:skeleton"
 				icon: "minecraft:skeleton_skull"
 				id: "015CB0D172D0712A"
-				title: "Kill 10 Skeletons"
+				title: "{ftbquests.chapter.bounty_board.quest5136499541862269118.task.98147705516224810.title}"
 				type: "kill"
 				value: 10L
 			}]
@@ -210,7 +210,7 @@
 				entity: "minecraft:skeleton"
 				icon: "minecraft:skeleton_skull"
 				id: "2E17443A1BF2A0DA"
-				title: "Kill 50 Skeletons"
+				title: "{ftbquests.chapter.bounty_board.quest4687699475044185193.task.3321198266576707802.title}"
 				type: "kill"
 				value: 50L
 			}]
@@ -231,7 +231,7 @@
 				entity: "minecraft:skeleton"
 				icon: "minecraft:skeleton_skull"
 				id: "00655AC734444E54"
-				title: "Kill 100 Skeletons"
+				title: "{ftbquests.chapter.bounty_board.quest6150043443057654008.task.28528784269659732.title}"
 				type: "kill"
 				value: 100L
 			}]
@@ -265,11 +265,11 @@
 				entity: "minecraft:creeper"
 				icon: "minecraft:creeper_head"
 				id: "423AF6C6647B1626"
-				title: "Kill 5 Creepers"
+				title: "{ftbquests.chapter.bounty_board.quest8645901017131331311.task.4772398087102207526.title}"
 				type: "kill"
 				value: 5L
 			}]
-			title: "Creeper"
+			title: "{ftbquests.chapter.bounty_board.quest8645901017131331311.title}"
 			x: 0.0d
 			y: -0.5d
 		}
@@ -294,7 +294,7 @@
 				entity: "minecraft:creeper"
 				icon: "minecraft:creeper_head"
 				id: "1AB92CF7F0246D21"
-				title: "Kill 10 Creepers"
+				title: "{ftbquests.chapter.bounty_board.quest7330635066200998687.task.1925619759075061025.title}"
 				type: "kill"
 				value: 10L
 			}]
@@ -321,7 +321,7 @@
 				entity: "minecraft:creeper"
 				icon: "minecraft:creeper_head"
 				id: "24BA89BD9898759B"
-				title: "Kill 50 Creepers"
+				title: "{ftbquests.chapter.bounty_board.quest8548562267013002146.task.2646579178435540379.title}"
 				type: "kill"
 				value: 50L
 			}]
@@ -342,7 +342,7 @@
 				entity: "minecraft:creeper"
 				icon: "minecraft:creeper_head"
 				id: "045D1087A2692360"
-				title: "Kill 100 Creepers"
+				title: "{ftbquests.chapter.bounty_board.quest6902417308710683486.task.314425723717231456.title}"
 				type: "kill"
 				value: 100L
 			}]
@@ -376,11 +376,11 @@
 				entity: "minecraft:ender_dragon"
 				icon: "minecraft:dragon_head"
 				id: "1809F1F9A3043683"
-				title: "Kill the Ender Dragon"
+				title: "{ftbquests.chapter.bounty_board.quest8253938688092945856.task.1732181586184779395.title}"
 				type: "kill"
 				value: 1L
 			}]
-			title: "Dragon"
+			title: "{ftbquests.chapter.bounty_board.quest8253938688092945856.title}"
 			x: 1.5d
 			y: 4.5d
 		}
@@ -411,11 +411,11 @@
 				entity: "minecraft:wither"
 				icon: "minecraft:wither_skeleton_skull"
 				id: "171FD27057746E80"
-				title: "Kill the Wither"
+				title: "{ftbquests.chapter.bounty_board.quest704862672201504969.task.1666281767095791232.title}"
 				type: "kill"
 				value: 1L
 			}]
-			title: "Wither"
+			title: "{ftbquests.chapter.bounty_board.quest704862672201504969.title}"
 			x: 3.0d
 			y: 4.5d
 		}
@@ -446,11 +446,11 @@
 				entity: "minecraft:elder_guardian"
 				icon: "minecraft:elder_guardian_spawn_egg"
 				id: "2F28B803C75DA3B2"
-				title: "Kill the Elder Guardian"
+				title: "{ftbquests.chapter.bounty_board.quest635513826383184515.task.3398168245220254642.title}"
 				type: "kill"
 				value: 1L
 			}]
-			title: "Elder Gurdian"
+			title: "{ftbquests.chapter.bounty_board.quest635513826383184515.title}"
 			x: 4.5d
 			y: 4.5d
 		}
@@ -489,16 +489,16 @@
 				}
 			]
 			size: 1.5d
-			subtitle: "I dont like him."
+			subtitle: "{ftbquests.chapter.bounty_board.quest1105018758676172507.subtitle}"
 			tasks: [{
 				entity: "minecraft:wandering_trader"
 				icon: "minecraft:trader_llama_spawn_egg"
 				id: "596ABB45C0612AAF"
-				title: "Kill the Trader Villager"
+				title: "{ftbquests.chapter.bounty_board.quest1105018758676172507.task.6443168125161646767.title}"
 				type: "kill"
 				value: 1L
 			}]
-			title: "Wandering Trader"
+			title: "{ftbquests.chapter.bounty_board.quest1105018758676172507.title}"
 			x: 3.0d
 			y: 6.0d
 		}
@@ -529,11 +529,11 @@
 				entity: "minecraft:enderman"
 				icon: "minecraft:ender_pearl"
 				id: "0EA4B08DAAFA4287"
-				title: "&l&9The End Bounty:&r&e Endermen"
+				title: "{ftbquests.chapter.bounty_board.quest1725912291323392373.task.1055162335216943751.title}"
 				type: "kill"
 				value: 5L
 			}]
-			title: "Enderman"
+			title: "{ftbquests.chapter.bounty_board.quest1725912291323392373.title}"
 			x: 10.0d
 			y: -0.5d
 		}
@@ -559,7 +559,7 @@
 				entity: "minecraft:enderman"
 				icon: "minecraft:ender_pearl"
 				id: "58BF5D3267CF02F8"
-				title: "Kill 10 Endermen"
+				title: "{ftbquests.chapter.bounty_board.quest2960826980613391592.task.6394932466960761592.title}"
 				type: "kill"
 				value: 10L
 			}]
@@ -587,7 +587,7 @@
 				entity: "minecraft:enderman"
 				icon: "minecraft:ender_pearl"
 				id: "6BA6847A172C8DD7"
-				title: "Kill 50 Endermen"
+				title: "{ftbquests.chapter.bounty_board.quest3075773629312232440.task.7757033068101930455.title}"
 				type: "kill"
 				value: 50L
 			}]
@@ -608,7 +608,7 @@
 				entity: "minecraft:enderman"
 				icon: "minecraft:ender_eye"
 				id: "53C23DB8B4D1CEE2"
-				title: "Kill 100 Endermen"
+				title: "{ftbquests.chapter.bounty_board.quest5159522598489256727.task.6035454314146811618.title}"
 				type: "kill"
 				value: 100L
 			}]
@@ -645,7 +645,7 @@
 				type: "kill"
 				value: 5L
 			}]
-			title: "Spider"
+			title: "{ftbquests.chapter.bounty_board.quest2240741254378324125.title}"
 			x: 2.0d
 			y: -0.5d
 		}
@@ -670,7 +670,7 @@
 				entity: "minecraft:spider"
 				icon: "minecraft:spider_eye"
 				id: "5801AF8000768808"
-				title: "Kill 10 Spiders"
+				title: "{ftbquests.chapter.bounty_board.quest2899375721658307307.task.6341542714612811784.title}"
 				type: "kill"
 				value: 10L
 			}]
@@ -703,7 +703,7 @@
 				entity: "minecraft:spider"
 				icon: "minecraft:spider_eye"
 				id: "0F94F7427F99DAFE"
-				title: "Kill 50 Spiders"
+				title: "{ftbquests.chapter.bounty_board.quest7179285766384161418.task.1122794072102787838.title}"
 				type: "kill"
 				value: 50L
 			}]
@@ -724,7 +724,7 @@
 				entity: "minecraft:spider"
 				icon: "minecraft:spider_eye"
 				id: "0F8ACB07CFA8CB33"
-				title: "Kill 100 Spiders"
+				title: "{ftbquests.chapter.bounty_board.quest3278114047349231216.task.1119930691764144947.title}"
 				type: "kill"
 				value: 100L
 			}]
@@ -758,11 +758,11 @@
 				entity: "minecraft:blaze"
 				icon: "minecraft:blaze_powder"
 				id: "1718CA0F8978181C"
-				title: "&l&cThe Nether Bounty:&r&e Blazes"
+				title: "{ftbquests.chapter.bounty_board.quest7008127100300478634.task.1664302230393067548.title}"
 				type: "kill"
 				value: 5L
 			}]
-			title: "Blaze"
+			title: "{ftbquests.chapter.bounty_board.quest7008127100300478634.title}"
 			x: 6.0d
 			y: -0.5d
 		}
@@ -787,7 +787,7 @@
 				entity: "minecraft:blaze"
 				icon: "minecraft:blaze_rod"
 				id: "00445193DEB7EAA0"
-				title: "Kill 10 Blazes"
+				title: "{ftbquests.chapter.bounty_board.quest5712997012473158802.task.19229993954962080.title}"
 				type: "kill"
 				value: 10L
 			}]
@@ -814,7 +814,7 @@
 				entity: "minecraft:blaze"
 				icon: "minecraft:blaze_rod"
 				id: "404D3420276BD963"
-				title: "Kill 50 Blazes"
+				title: "{ftbquests.chapter.bounty_board.quest7826063897800307042.task.4633416904339085667.title}"
 				type: "kill"
 				value: 50L
 			}]
@@ -835,7 +835,7 @@
 				entity: "minecraft:blaze"
 				icon: "minecraft:blaze_rod"
 				id: "2038156A13C07BFC"
-				title: "Kill 100 Blazes"
+				title: "{ftbquests.chapter.bounty_board.quest3876507591514457736.task.2321629153251589116.title}"
 				type: "kill"
 				value: 100L
 			}]
@@ -875,11 +875,11 @@
 					}
 				}
 				id: "7BAB5E17D2DE4E3E"
-				title: "&l&9Overworld Bounty:&r&e Witches"
+				title: "{ftbquests.chapter.bounty_board.quest6540519647740455516.task.8911319744097701438.title}"
 				type: "kill"
 				value: 5L
 			}]
-			title: "Witch"
+			title: "{ftbquests.chapter.bounty_board.quest6540519647740455516.title}"
 			x: 4.0d
 			y: -0.5d
 		}
@@ -929,7 +929,7 @@
 					}
 				}
 				id: "7127A76DEB4D1696"
-				title: "Kill 10 Witches"
+				title: "{ftbquests.chapter.bounty_board.quest7948801344897201145.task.8153669740918544022.title}"
 				type: "kill"
 				value: 10L
 			}]
@@ -974,7 +974,7 @@
 					}
 				}
 				id: "78A782913B7E6353"
-				title: "Kill 50 Witches"
+				title: "{ftbquests.chapter.bounty_board.quest3248062685361509036.task.8694061165942039379.title}"
 				type: "kill"
 				value: 50L
 			}]
@@ -1001,7 +1001,7 @@
 					}
 				}
 				id: "5A3D6416BA0C7A20"
-				title: "Kill 100 Witches"
+				title: "{ftbquests.chapter.bounty_board.quest8039945880860387838.task.6502463485766302240.title}"
 				type: "kill"
 				value: 100L
 			}]
@@ -1040,11 +1040,11 @@
 				entity: "minecraft:wither_skeleton"
 				icon: "minecraft:wither_skeleton_skull"
 				id: "1016033CBB003413"
-				title: "&l&cThe Nether Bounty:&r&e Wither Skeles"
+				title: "{ftbquests.chapter.bounty_board.quest3707017903686563428.task.1159117513464755219.title}"
 				type: "kill"
 				value: 5L
 			}]
-			title: "Wither Skeleton"
+			title: "{ftbquests.chapter.bounty_board.quest3707017903686563428.title}"
 			x: 8.0d
 			y: -0.5d
 		}
@@ -1069,7 +1069,7 @@
 				entity: "minecraft:wither_skeleton"
 				icon: "minecraft:wither_skeleton_skull"
 				id: "33107949548BC22D"
-				title: "Kill 10 Wither Skeles"
+				title: "{ftbquests.chapter.bounty_board.quest8326756334073568529.task.3679574251419714093.title}"
 				type: "kill"
 				value: 10L
 			}]
@@ -1096,7 +1096,7 @@
 				entity: "minecraft:wither_skeleton"
 				icon: "minecraft:wither_skeleton_skull"
 				id: "29A605F8B896F3B9"
-				title: "Kill 50 Wither Skeles"
+				title: "{ftbquests.chapter.bounty_board.quest7335960374109520091.task.3001092767495943097.title}"
 				type: "kill"
 				value: 50L
 			}]
@@ -1117,7 +1117,7 @@
 				entity: "minecraft:wither_skeleton"
 				icon: "minecraft:wither_skeleton_skull"
 				id: "727813FFC599C36D"
-				title: "Kill 100 Wither Skeles"
+				title: "{ftbquests.chapter.bounty_board.quest1732543350899552063.task.8248364706781840237.title}"
 				type: "kill"
 				value: 100L
 			}]
@@ -1148,16 +1148,16 @@
 				}
 			]
 			size: 1.5d
-			subtitle: "Craft the sculk shrieker or visit the hunting dimension"
+			subtitle: "{ftbquests.chapter.bounty_board.quest1018000121865725495.subtitle}"
 			tasks: [{
 				entity: "minecraft:warden"
 				icon: "minecraft:spawner"
 				id: "69678CAC075C8EA5"
-				title: "Kill the Warden"
+				title: "{ftbquests.chapter.bounty_board.quest1018000121865725495.task.7595193967069400741.title}"
 				type: "kill"
 				value: 1L
 			}]
-			title: "Warden"
+			title: "{ftbquests.chapter.bounty_board.quest1018000121865725495.title}"
 			x: 1.5d
 			y: 6.0d
 		}
@@ -1196,11 +1196,11 @@
 			tasks: [{
 				entity: "born_in_chaos_v1:lord_pumpkinhead_withouta_horse"
 				id: "65EB78DE87A47727"
-				title: "Kill the Lord Pumpkinhead"
+				title: "{ftbquests.chapter.bounty_board.quest8339145812534723838.task.7344096514511501095.title}"
 				type: "kill"
 				value: 1L
 			}]
-			title: "Lord Pumpkinhead"
+			title: "{ftbquests.chapter.bounty_board.quest8339145812534723838.title}"
 			x: 4.5d
 			y: 6.0d
 		}
@@ -1227,7 +1227,7 @@
 				}
 			]
 			size: 1.5d
-			subtitle: "Find me inside the Lost Cities Dimension"
+			subtitle: "{ftbquests.chapter.bounty_board.quest2577043599527985596.subtitle}"
 			tasks: [
 				{
 					checkItem: false
@@ -1243,7 +1243,7 @@
 					type: "item"
 				}
 			]
-			title: "Night Lich"
+			title: "{ftbquests.chapter.bounty_board.quest2577043599527985596.title}"
 			x: -3.75d
 			y: 3.75d
 		}
@@ -1270,7 +1270,7 @@
 				}
 			]
 			size: 1.5d
-			subtitle: "Find me inside the Hunting Dimension"
+			subtitle: "{ftbquests.chapter.bounty_board.quest7664986467801167179.subtitle}"
 			tasks: [
 				{
 					checkItem: false
@@ -1286,7 +1286,7 @@
 					type: "item"
 				}
 			]
-			title: "Void Blossom"
+			title: "{ftbquests.chapter.bounty_board.quest7664986467801167179.title}"
 			x: -3.75d
 			y: 6.75d
 		}
@@ -1313,12 +1313,12 @@
 				}
 			]
 			size: 1.5d
-			subtitle: "Find him inside the End Dimension"
+			subtitle: "{ftbquests.chapter.bounty_board.quest6160226180820088391.subtitle}"
 			tasks: [
 				{
 					entity: "bosses_of_mass_destruction:obsidilith"
 					id: "0566E585581CB0CC"
-					title: "Kill the Obsidilith"
+					title: "{ftbquests.chapter.bounty_board.quest6160226180820088391.task.389250778685812940.title}"
 					type: "kill"
 					value: 1L
 				}
@@ -1328,7 +1328,7 @@
 					type: "item"
 				}
 			]
-			title: "Obsidilith"
+			title: "{ftbquests.chapter.bounty_board.quest6160226180820088391.title}"
 			x: -3.75d
 			y: 5.25d
 		}
@@ -1355,12 +1355,12 @@
 				}
 			]
 			size: 1.5d
-			subtitle: "Find him inside the Nether Dimension"
+			subtitle: "{ftbquests.chapter.bounty_board.quest490154759315738275.subtitle}"
 			tasks: [
 				{
 					entity: "bosses_of_mass_destruction:gauntlet"
 					id: "7CA6E6B748931FD8"
-					title: "Kill the Nether Gauntlet"
+					title: "{ftbquests.chapter.bounty_board.quest490154759315738275.task.8982120181708038104.title}"
 					type: "kill"
 					value: 1L
 				}
@@ -1370,12 +1370,12 @@
 					type: "item"
 				}
 			]
-			title: "Nether Gauntlet"
+			title: "{ftbquests.chapter.bounty_board.quest490154759315738275.title}"
 			x: -5.25d
 			y: 4.5d
 		}
 		{
-			description: ["Place the Sculk Shrieker and insert the Sculk Core. Jump on the Shrieker. The Warden will spawn. You need to sieve a lot to get the items"]
+			description: ["{ftbquests.chapter.bounty_board.quest2566994780211858914.description1}"]
 			id: "239FCC26EECF4DE2"
 			rewards: [{
 				id: "53C5BD162D05A8F7"
@@ -1420,15 +1420,15 @@
 				}
 			]
 			size: 1.5d
-			subtitle: "Find him inside the Lost Cities Dimension"
+			subtitle: "{ftbquests.chapter.bounty_board.quest2729427614779218015.subtitle}"
 			tasks: [{
 				entity: "cataclysm:aptrgangr"
 				id: "654C72C6E2C547B7"
-				title: "Kill the Aptrgangr"
+				title: "{ftbquests.chapter.bounty_board.quest2729427614779218015.task.7299335294594402231.title}"
 				type: "kill"
 				value: 1L
 			}]
-			title: "Aptrgangr"
+			title: "{ftbquests.chapter.bounty_board.quest2729427614779218015.title}"
 			x: 9.75d
 			y: 6.75d
 		}
@@ -1454,14 +1454,14 @@
 				}
 			]
 			size: 1.5d
-			subtitle: "Find him inside the Lost Cities Dimension. Underwater"
+			subtitle: "{ftbquests.chapter.bounty_board.quest7211206997453900565.subtitle}"
 			tasks: [{
 				entity: "cataclysm:the_leviathan"
 				id: "198DE332E1BAFD9C"
 				type: "kill"
 				value: 1L
 			}]
-			title: "Leviathan"
+			title: "{ftbquests.chapter.bounty_board.quest7211206997453900565.title}"
 			x: 9.75d
 			y: 3.75d
 		}
@@ -1488,7 +1488,7 @@
 				}
 			]
 			size: 1.5d
-			subtitle: "Find him inside the Nether Dimension"
+			subtitle: "{ftbquests.chapter.bounty_board.quest3196626541149576412.subtitle}"
 			tasks: [
 				{
 					entity: "cataclysm:ignis"
@@ -1502,7 +1502,7 @@
 					type: "item"
 				}
 			]
-			title: "Ignis"
+			title: "{ftbquests.chapter.bounty_board.quest3196626541149576412.title}"
 			x: 12.75d
 			y: 6.75d
 		}
@@ -1529,7 +1529,7 @@
 				}
 			]
 			size: 1.5d
-			subtitle: "Find him inside the Lost Cities Dimension"
+			subtitle: "{ftbquests.chapter.bounty_board.quest3022726418417138632.subtitle}"
 			tasks: [
 				{
 					entity: "cataclysm:the_harbinger"
@@ -1543,7 +1543,7 @@
 					type: "item"
 				}
 			]
-			title: "Harbinger"
+			title: "{ftbquests.chapter.bounty_board.quest3022726418417138632.title}"
 			x: 8.25d
 			y: 6.75d
 		}
@@ -1570,14 +1570,14 @@
 				}
 			]
 			size: 1.5d
-			subtitle: "Find him inside the Lost Cities Dimension"
+			subtitle: "{ftbquests.chapter.bounty_board.quest7836428731088888741.subtitle}"
 			tasks: [{
 				entity: "cataclysm:the_prowler"
 				id: "03786D24313C4DD6"
 				type: "kill"
 				value: 1L
 			}]
-			title: "Prowler"
+			title: "{ftbquests.chapter.bounty_board.quest7836428731088888741.title}"
 			x: 8.25d
 			y: 5.25d
 		}
@@ -1604,7 +1604,7 @@
 				}
 			]
 			size: 1.5d
-			subtitle: "Find him inside the Lost Cities Dimension. Desert Biomes"
+			subtitle: "{ftbquests.chapter.bounty_board.quest7278059168277183759.subtitle}"
 			tasks: [
 				{
 					entity: "cataclysm:ancient_remnant"
@@ -1618,7 +1618,7 @@
 					type: "item"
 				}
 			]
-			title: "Ancient Remnant"
+			title: "{ftbquests.chapter.bounty_board.quest7278059168277183759.title}"
 			x: 11.25d
 			y: 3.75d
 		}
@@ -1645,14 +1645,14 @@
 				}
 			]
 			size: 1.5d
-			subtitle: "Find him inside the End Dimension"
+			subtitle: "{ftbquests.chapter.bounty_board.quest6447284277119682473.subtitle}"
 			tasks: [{
 				entity: "cataclysm:ender_guardian"
 				id: "58863AB3C5D809FF"
 				type: "kill"
 				value: 1L
 			}]
-			title: "Ender Guardian"
+			title: "{ftbquests.chapter.bounty_board.quest6447284277119682473.title}"
 			x: 11.25d
 			y: 5.25d
 		}
@@ -1679,14 +1679,14 @@
 				}
 			]
 			size: 1.5d
-			subtitle: "Find him inside the Nether Dimension"
+			subtitle: "{ftbquests.chapter.bounty_board.quest4081696395133259272.subtitle}"
 			tasks: [{
 				entity: "cataclysm:netherite_monstrosity"
 				id: "12C3CE4F3DE40F2D"
 				type: "kill"
 				value: 1L
 			}]
-			title: "Netherite Monstrosity"
+			title: "{ftbquests.chapter.bounty_board.quest4081696395133259272.title}"
 			x: 12.75d
 			y: 5.25d
 		}
@@ -1713,14 +1713,14 @@
 				}
 			]
 			size: 1.5d
-			subtitle: "Find him inside the Lost Cities Dimension. Snowy Biomes"
+			subtitle: "{ftbquests.chapter.bounty_board.quest3978823428399987565.subtitle}"
 			tasks: [{
 				entity: "cataclysm:maledictus"
 				id: "28D13321B6BCB4D0"
 				type: "kill"
 				value: 1L
 			}]
-			title: "Maledictus"
+			title: "{ftbquests.chapter.bounty_board.quest3978823428399987565.title}"
 			x: 9.75d
 			y: 5.25d
 		}
@@ -1747,14 +1747,14 @@
 				}
 			]
 			size: 1.5d
-			subtitle: "You have to spawn him"
+			subtitle: "{ftbquests.chapter.bounty_board.quest8764376239969192523.subtitle}"
 			tasks: [{
 				entity: "botania:doppleganger"
 				id: "0408A89C580DA4D5"
 				type: "kill"
 				value: 1L
 			}]
-			title: "Gaia"
+			title: "{ftbquests.chapter.bounty_board.quest8764376239969192523.title}"
 			x: -5.25d
 			y: 6.0d
 		}
@@ -1781,7 +1781,7 @@
 				}
 			]
 			size: 1.5d
-			subtitle: "Find him inside the End Dimension"
+			subtitle: "{ftbquests.chapter.bounty_board.quest6301483622442308402.subtitle}"
 			tasks: [
 				{
 					entity: "cataclysm:ender_golem"
@@ -1800,7 +1800,7 @@
 					type: "item"
 				}
 			]
-			title: "Ender Golem"
+			title: "{ftbquests.chapter.bounty_board.quest6301483622442308402.title}"
 			x: 11.25d
 			y: 6.75d
 		}
@@ -1827,15 +1827,15 @@
 				}
 			]
 			size: 1.5d
-			subtitle: "Find him inside the Hunting Dimension. Ocean Biome"
+			subtitle: "{ftbquests.chapter.bounty_board.quest7656971054816962754.subtitle}"
 			tasks: [{
 				entity: "cataclysm:scylla"
 				id: "1C01F6151B04646A"
-				title: "Kill Scylla"
+				title: "{ftbquests.chapter.bounty_board.quest7656971054816962754.task.2018164678546711658.title}"
 				type: "kill"
 				value: 1L
 			}]
-			title: "Scylla"
+			title: "{ftbquests.chapter.bounty_board.quest7656971054816962754.title}"
 			x: 8.25d
 			y: 3.75d
 		}
@@ -1862,11 +1862,11 @@
 				}
 			]
 			size: 1.5d
-			subtitle: "Find him inside the Lost Cities Dimension. Ocean Biome. Miniboss"
+			subtitle: "{ftbquests.chapter.bounty_board.quest2392007459642555902.subtitle}"
 			tasks: [{
 				entity: "cataclysm:clawdian"
 				id: "40FEA6E2775962A9"
-				title: "Kill the Clawdian"
+				title: "{ftbquests.chapter.bounty_board.quest2392007459642555902.task.4683364154107060905.title}"
 				type: "kill"
 				value: 1L
 			}]
@@ -1874,5 +1874,5 @@
 			y: 3.75d
 		}
 	]
-	title: "Kill, Kill, KILL!!!!!!"
+	title: "{ftbquests.chapter.bounty_board.title}"
 }

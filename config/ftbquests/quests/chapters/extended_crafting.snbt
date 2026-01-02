@@ -305,9 +305,9 @@
 		{
 			dependencies: ["0C43E0D8C4C8743F"]
 			description: [
-				"The &aEnder Crafter&r will launch the &9Ender Alternators&r power in a 7x7x7 area around it. The Ender Crafter is the center block."
+				"{ftbquests.chapter.extended_crafting.quest1288430845877857013.description1}"
 				""
-				"If you have more Ender Alternators in the zone, you can produce faster."
+				"{ftbquests.chapter.extended_crafting.quest1288430845877857013.description2}"
 			]
 			id: "11E16D072634AAF5"
 			rewards: [{
@@ -328,7 +328,7 @@
 					type: "item"
 				}
 			]
-			title: "&3The Ender Crafter"
+			title: "{ftbquests.chapter.extended_crafting.quest1288430845877857013.title}"
 			x: 9.0d
 			y: -14.5d
 		}
@@ -735,14 +735,14 @@
 			}]
 			shape: "hexagon"
 			size: 1.5d
-			subtitle: "The Ultimate Singularity"
+			subtitle: "{ftbquests.chapter.extended_crafting.quest4439027694844782437.subtitle}"
 			tasks: [{
 				id: "187735BA60615F3A"
 				item: "extendedcrafting:ultimate_singularity"
 				match_nbt: true
 				type: "item"
 			}]
-			title: "&5&l&oOne to rule them all"
+			title: "{ftbquests.chapter.extended_crafting.quest4439027694844782437.title}"
 			x: -4.5d
 			y: -10.5d
 		}
@@ -942,13 +942,13 @@
 			}]
 			shape: "hexagon"
 			size: 1.5d
-			subtitle: "The Ultimate Ingot"
+			subtitle: "{ftbquests.chapter.extended_crafting.quest7349027665837091174.subtitle}"
 			tasks: [{
 				id: "4DA07334BF25E287"
 				item: "extendedcrafting:the_ultimate_ingot"
 				type: "item"
 			}]
-			title: "&5&l&oThe one and only"
+			title: "{ftbquests.chapter.extended_crafting.quest7349027665837091174.title}"
 			x: 15.0d
 			y: -10.5d
 		}
@@ -974,7 +974,7 @@
 				id: "02871F2050384194"
 				type: "checkmark"
 			}]
-			title: "Welcome to &5Extended Crafting"
+			title: "{ftbquests.chapter.extended_crafting.quest6138618329256505290.title}"
 			x: 4.0d
 			y: -13.5d
 		}
@@ -1000,7 +1000,7 @@
 		}
 		{
 			dependencies: ["22698729A224CCBC"]
-			description: ["Same as &aEnder Crafter&r the &6Flux Crafter&r will launch the &9Flux Alternators&r in a 7x7x7 area around it, but it requires power."]
+			description: ["{ftbquests.chapter.extended_crafting.quest7960527397311894762.description1}"]
 			id: "6E79797DBD8A54EA"
 			rewards: [{
 				id: "48E0D281D8444274"
@@ -1020,7 +1020,7 @@
 					type: "item"
 				}
 			]
-			title: "&6The Flux Crafter"
+			title: "{ftbquests.chapter.extended_crafting.quest7960527397311894762.title}"
 			x: 9.0d
 			y: -12.5d
 		}
@@ -1122,7 +1122,7 @@
 					type: "item"
 				}
 			]
-			title: "&bAuto Ender \\& Flux Crafters"
+			title: "{ftbquests.chapter.extended_crafting.quest6657538160744564613.title}"
 			x: 12.0d
 			y: -13.5d
 		}
@@ -4895,5 +4895,5 @@
 			y: 12.5d
 		}
 	]
-	title: "Extended Crafting"
+	title: "{ftbquests.chapter.extended_crafting.title}"
 }

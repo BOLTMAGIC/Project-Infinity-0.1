@@ -9,6 +9,6 @@
 		{ item: "botania:rune_air" }
 		{ item: "botania:rune_mana" }
 	]
-	title: "&9Rune Loot Chest&r"
+	title: "{ftbquests.loot_table.3061540174582862923.title}"
 	use_title: true
 }

@@ -382,5 +382,7 @@
   
   "tooltip.credit.recipe_added": "Recipe added by %s. Thanks a lot!",
   "tooltip.credit.recipe_item_added": "Recipe and Item added by %s.",
-  "tooltip.credit.joke": "Thanks a lot! Dont hate me, hate him :)"
+  "tooltip.credit.joke": "Thanks a lot! Dont hate me, hate him :)",
+
+  "tooltip.industrialforegoing.addon_warning": "This is a dummy item, use it to craft the actual addon or upgrade it."
 }

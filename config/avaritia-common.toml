@@ -1,6 +1,9 @@
 
 #Avaritia Common Config
 [tools]
+	#Chain number of endless axe cutting trees
+	#Range: 16 ~ 128
+	"Axe Chain Count" = 64
 
 	[tools.config]
 
@@ -57,9 +60,6 @@
 			#config.avaritia.blaze_cube_emc.tooltip
 			#Range: > 0
 			blaze_cube_emc = 30568
-			#config.avaritia.bedrock_emc.tooltip
-			#Range: > 0
-			bedrock_emc = 10
 
 [channel]
 

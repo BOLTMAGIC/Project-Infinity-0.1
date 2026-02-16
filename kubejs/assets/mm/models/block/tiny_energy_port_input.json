@@ -5,7 +5,7 @@
       "parent": "minecraft:block/cube_all",
       "render_type": "minecraft:solid",
       "textures": {
-        "all": "kubejs:block/mm_textures/energy/input/tiny_energy_input"
+        "all": "kubejs:block/mm_textures/inputs/tiny"
       }
     },
     "overlay": {

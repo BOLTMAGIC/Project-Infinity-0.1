@@ -5,7 +5,7 @@
       "parent": "minecraft:block/cube_all",
       "render_type": "minecraft:solid",
       "textures": {
-        "all": "kubejs:block/mm_textures/item/output/titanic_item_output"
+        "all": "kubejs:block/mm_textures/outputs/titanic"
       }
     },
     "overlay": {

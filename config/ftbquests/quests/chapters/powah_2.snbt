@@ -1,0 +1,1820 @@
+{
+	autofocus_id: "50402B3043E98F05"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "powah_2"
+	group: "5255C8D5C49409ED"
+	icon: "powah:player_transmitter_nitro"
+	id: "1949CB4E404895CA"
+	order_index: 9
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["37EC8847643485B3"]
+			description: [
+				"Made with iron and gold, Energized Steel is the first step to upgraded machines."
+				""
+				"A block of Energized Steel can also be made with a Gold Block and Iron Block."
+			]
+			id: "7D63CEF4A5A2928D"
+			rewards: [{
+				id: "3AED6166273AEF7C"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			subtitle: "Tier 2"
+			tasks: [{
+				id: "173C29091DCEBF75"
+				item: "powah:steel_energized"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7D63CEF4A5A2928D"]
+			description: [
+				"Blazing Crystals are the third stage, made with either 1 Blaze Rod or 4 Blaze Powder."
+				""
+				"This also has a block craft with 4 Blaze Meshes. "
+			]
+			hide_dependency_lines: false
+			id: "425768712B4346A7"
+			rewards: [{
+				id: "7117392C38418AAB"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			subtitle: "Tier 3"
+			tasks: [{
+				id: "661C87C805E3966C"
+				item: "powah:crystal_blazing"
+				type: "item"
+			}]
+			x: 13.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["425768712B4346A7"]
+			description: [
+				"Next up are Niotic Crystals, made with 1 Diamond."
+				""
+				"This block craft costs 1 Block of Diamond."
+			]
+			id: "2CB4A101005B075E"
+			rewards: [{
+				id: "3AD7A50E408CA69D"
+				item: "kubejs:infused_coin"
+				type: "item"
+			}]
+			subtitle: "Tier 4"
+			tasks: [{
+				id: "0AC2A5272578EF08"
+				item: "powah:crystal_niotic"
+				type: "item"
+			}]
+			x: 17.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2CB4A101005B075E"]
+			description: [
+				"Your almost there! Spirited crystals are tier 4, made with 1 Emerald."
+				""
+				"As you may have guessed, it can also be made in block form with one Emerald Block."
+			]
+			id: "3037A7B311DA0740"
+			rewards: [{
+				id: "16C9C5CF9939C2D0"
+				item: "kubejs:infused_coin"
+				type: "item"
+			}]
+			subtitle: "Tier 5"
+			tasks: [{
+				id: "063980C5BD06E7A2"
+				item: "powah:crystal_spirited"
+				type: "item"
+			}]
+			x: 20.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3037A7B311DA0740"]
+			description: [
+				"The final and best tier of material, Nitro Crystals are also the hardest to make."
+				""
+				"To make them you need a block of blazing cystal, 2 redstone blocks, and a nether star."
+				""
+				"The craft makes 16 but there is also a block recipe that takes a nether star block, 1 1x compressed block of redstone, and 4 blocks of blazing crystal to makes 8 Blocks of Nitro Crystal."
+			]
+			hide_dependent_lines: true
+			id: "576ACB07185AA060"
+			rewards: [{
+				id: "46812F70DC3B2A66"
+				item: "kubejs:ascended_coin"
+				type: "item"
+			}]
+			subtitle: "Tier 6"
+			tasks: [{
+				id: "74BAFC0E08D44C89"
+				item: "powah:crystal_nitro"
+				type: "item"
+			}]
+			x: 24.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7D63CEF4A5A2928D"]
+			hide_dependency_lines: true
+			id: "25AB0F920C77BBF6"
+			rewards: [{
+				id: "07C314BC4F2C20C8"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "51C494BF3D94C67F"
+				item: "powah:energizing_rod_hardened"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["7D63CEF4A5A2928D"]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			id: "215A8424228A6682"
+			rewards: [{
+				id: "67A394D941D79CF4"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "14426AEFA0BB7C2C"
+				item: "powah:thermo_generator_hardened"
+				type: "item"
+			}]
+			x: 9.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["7D63CEF4A5A2928D"]
+			hide_dependency_lines: true
+			id: "175C50AB01EDE653"
+			rewards: [{
+				id: "73DE384B66CEAFAE"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				count: 36L
+				id: "38E3E893D30AAC02"
+				item: "powah:reactor_hardened"
+				type: "item"
+			}]
+			x: 10.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["7D63CEF4A5A2928D"]
+			hide_dependency_lines: true
+			id: "6CACDA6170DA42A9"
+			rewards: [{
+				id: "2B3D619DF3379E80"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0DA6BE2C79CD2E1B"
+				item: "powah:furnator_hardened"
+				type: "item"
+			}]
+			x: 11.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["7D63CEF4A5A2928D"]
+			hide_dependency_lines: true
+			id: "0ABA75B55630AD05"
+			rewards: [{
+				id: "27716F156A89819A"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7976D89D6CFB6AEF"
+				item: "powah:magmator_hardened"
+				type: "item"
+			}]
+			x: 10.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["7D63CEF4A5A2928D"]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			id: "46955876A599E37D"
+			rewards: [{
+				id: "403E41D990F5E36B"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3A69D17F73F3347C"
+				item: "powah:player_transmitter_hardened"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["7D63CEF4A5A2928D"]
+			hide_dependency_lines: true
+			id: "0B479442CE2C9AAC"
+			rewards: [{
+				id: "18E2F3F011CBFE41"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "53F990DE9538C2A2"
+				item: "powah:solar_panel_hardened"
+				type: "item"
+			}]
+			x: 10.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["7D63CEF4A5A2928D"]
+			hide_dependency_lines: true
+			id: "1DAED0EA7E89C821"
+			rewards: [{
+				id: "58724C2695E9977C"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4B841CBFF5A66183"
+				item: "powah:energy_cell_hardened"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["7D63CEF4A5A2928D"]
+			hide_dependency_lines: true
+			id: "5D3841EC137D89C4"
+			rewards: [{
+				id: "4EBD73A042BCEF38"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "62882C03E644664A"
+				item: "powah:ender_cell_hardened"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["425768712B4346A7"]
+			hide_dependency_lines: true
+			id: "2BC1F9F0FB671079"
+			rewards: [{
+				id: "737818865D69A29B"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "72EAC73D34C45D5B"
+				item: "powah:furnator_blazing"
+				type: "item"
+			}]
+			x: 14.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["425768712B4346A7"]
+			hide_dependency_lines: true
+			id: "021BEDE9632F1FA0"
+			rewards: [{
+				id: "1057FDD42B5A93AF"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7BC863DA5363236B"
+				item: "powah:thermo_generator_blazing"
+				type: "item"
+			}]
+			x: 12.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["425768712B4346A7"]
+			hide_dependency_lines: true
+			id: "51C790C007164D49"
+			rewards: [{
+				id: "318C30A66BBE821E"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				count: 36L
+				id: "1DDAD0F8E2DDF9C5"
+				item: "powah:reactor_blazing"
+				type: "item"
+			}]
+			x: 13.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["425768712B4346A7"]
+			hide_dependency_lines: true
+			id: "24AAE0A7A0FD3B7D"
+			rewards: [{
+				id: "290FC5D394CB5F30"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1A28D1D4687E585D"
+				item: "powah:magmator_blazing"
+				type: "item"
+			}]
+			x: 13.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["425768712B4346A7"]
+			hide_dependency_lines: true
+			id: "3D18304923D46061"
+			rewards: [{
+				id: "29A8436FF94A18AC"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "050DDAEB859C1EB1"
+				item: "powah:solar_panel_blazing"
+				type: "item"
+			}]
+			x: 13.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["425768712B4346A7"]
+			hide_dependency_lines: true
+			id: "7933FCA865EC142F"
+			rewards: [{
+				id: "17BD5989C89161CB"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "39684078D0B24536"
+				item: "powah:player_transmitter_blazing"
+				type: "item"
+			}]
+			x: 12.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["425768712B4346A7"]
+			hide_dependency_lines: true
+			id: "4E4BCCB85B53121C"
+			rewards: [{
+				id: "319CA25E1BBB2F08"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1120C23AFF072F5C"
+				item: "powah:energy_cell_blazing"
+				type: "item"
+			}]
+			x: 12.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["425768712B4346A7"]
+			hide_dependency_lines: true
+			id: "460AF801BBDF4C3C"
+			rewards: [{
+				id: "688C9E6395788E5A"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "240157387495E3CB"
+				item: "powah:ender_cell_blazing"
+				type: "item"
+			}]
+			x: 13.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["425768712B4346A7"]
+			hide_dependency_lines: true
+			id: "7CC2E109F13D291F"
+			rewards: [{
+				id: "2793F7BCBB47AB1E"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "65EE1637935C283C"
+				item: "powah:energizing_rod_blazing"
+				type: "item"
+			}]
+			x: 13.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["2CB4A101005B075E"]
+			hide_dependency_lines: true
+			id: "38A2D0109CCC82BF"
+			rewards: [{
+				id: "58F1F557DEB34914"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "63B6842744F46A6D"
+				item: "powah:energizing_rod_niotic"
+				type: "item"
+			}]
+			x: 17.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["2CB4A101005B075E"]
+			hide_dependency_lines: true
+			id: "3540FFD81AC03B5C"
+			rewards: [{
+				id: "1D6AB07F0228C29E"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6D0FA02B393E495D"
+				item: "powah:magmator_niotic"
+				type: "item"
+			}]
+			x: 17.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["2CB4A101005B075E"]
+			hide_dependency_lines: true
+			id: "3BCE45B01C87C4AB"
+			rewards: [{
+				id: "573845E84019CFA0"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0B2093745FF7321C"
+				item: "powah:thermo_generator_niotic"
+				type: "item"
+			}]
+			x: 16.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["2CB4A101005B075E"]
+			hide_dependency_lines: true
+			id: "2C51B52E2FD7B863"
+			rewards: [{
+				id: "000BDC8F64BC6837"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "12E1A0CD406AF868"
+				item: "powah:furnator_niotic"
+				type: "item"
+			}]
+			x: 18.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["2CB4A101005B075E"]
+			hide_dependency_lines: true
+			id: "44C740A9BFB0EBF3"
+			rewards: [{
+				id: "198408BD408BBB5F"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				count: 36L
+				id: "0E9FDBC5368D26C1"
+				item: "powah:reactor_niotic"
+				type: "item"
+			}]
+			x: 17.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["2CB4A101005B075E"]
+			hide_dependency_lines: true
+			id: "1619D5D974E05455"
+			rewards: [{
+				id: "79E30AD6B9030ED4"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2C8E426A714B5CFC"
+				item: "powah:solar_panel_niotic"
+				type: "item"
+			}]
+			x: 17.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["2CB4A101005B075E"]
+			hide_dependency_lines: true
+			id: "50AE7E15B562C9B6"
+			rewards: [{
+				id: "4076560C4E17936E"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "357D1DEA4F0E3A12"
+				item: "powah:player_transmitter_niotic"
+				type: "item"
+			}]
+			x: 16.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["2CB4A101005B075E"]
+			hide_dependency_lines: true
+			id: "01095D9719A53747"
+			rewards: [{
+				id: "2E8958845A269390"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "11A1CB0D2DCBD2F1"
+				item: "powah:energy_cell_niotic"
+				type: "item"
+			}]
+			x: 16.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["2CB4A101005B075E"]
+			hide_dependency_lines: true
+			id: "5605B483F380436E"
+			rewards: [{
+				id: "69272F57BD127C92"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "40303D8D7E9156BD"
+				item: "powah:ender_cell_niotic"
+				type: "item"
+			}]
+			x: 17.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["3037A7B311DA0740"]
+			hide_dependency_lines: true
+			id: "560495F4B1CFBE55"
+			rewards: [{
+				id: "73BA870D9C9F4A98"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1844E18620269F96"
+				item: "powah:magmator_spirited"
+				type: "item"
+			}]
+			x: 20.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["3037A7B311DA0740"]
+			hide_dependency_lines: true
+			id: "4BF32FE0611531DA"
+			rewards: [{
+				id: "12D7397CFD1A5CD8"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "39A13EE6860C45BE"
+				item: "powah:energizing_rod_spirited"
+				type: "item"
+			}]
+			x: 20.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["576ACB07185AA060"]
+			id: "1660BBEF3B4531E2"
+			rewards: [{
+				id: "153D40ECC3434063"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "420503FCC580B598"
+				item: "powah:energizing_rod_nitro"
+				type: "item"
+			}]
+			x: 24.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["576ACB07185AA060"]
+			id: "051A90EFC0F24E25"
+			rewards: [{
+				id: "408A7B30CC8BD099"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "26DECA0EF01F3322"
+				item: "powah:furnator_nitro"
+				type: "item"
+			}]
+			x: 25.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["3037A7B311DA0740"]
+			hide_dependency_lines: true
+			id: "1343F5538C1C8002"
+			rewards: [{
+				id: "0E3B08FB7A17B466"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "438922790D87399B"
+				item: "powah:thermo_generator_spirited"
+				type: "item"
+			}]
+			x: 19.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["576ACB07185AA060"]
+			id: "3D7165A7683BC147"
+			rewards: [{
+				id: "68CC3D75D5C109DB"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5E5F68D10A71D71F"
+				item: "powah:thermo_generator_nitro"
+				type: "item"
+			}]
+			x: 23.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["3037A7B311DA0740"]
+			hide_dependency_lines: true
+			id: "61787C0846DE3B28"
+			rewards: [{
+				id: "2734877462533A2B"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6005C8A520036521"
+				item: "powah:furnator_spirited"
+				type: "item"
+			}]
+			x: 21.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["576ACB07185AA060"]
+			id: "4950C0644EA293AB"
+			rewards: [{
+				id: "51B475D357CB29A9"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "358DB95F133C0E5A"
+				item: "powah:magmator_nitro"
+				type: "item"
+			}]
+			x: 24.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["3037A7B311DA0740"]
+			hide_dependency_lines: true
+			id: "2C68DBEE1182E3CD"
+			rewards: [{
+				id: "095BEEAEE8110A6C"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				count: 36L
+				id: "0858A51570981F1E"
+				item: "powah:reactor_spirited"
+				type: "item"
+			}]
+			x: 20.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["576ACB07185AA060"]
+			id: "3C0BBC6557E502C5"
+			rewards: [{
+				id: "5D33EA5792550A5B"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				count: 36L
+				id: "47C0915B17656527"
+				item: "powah:reactor_nitro"
+				type: "item"
+			}]
+			x: 24.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["3037A7B311DA0740"]
+			hide_dependency_lines: true
+			id: "20A4581A3F5F7153"
+			rewards: [{
+				id: "0148C82B27B988C4"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4AB41B3491E2C11E"
+				item: "powah:solar_panel_spirited"
+				type: "item"
+			}]
+			x: 20.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["576ACB07185AA060"]
+			id: "4F1B5F7A7CEEB1DF"
+			rewards: [{
+				id: "41C89699E0283B11"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "61B9BA0BF7C1A889"
+				item: "powah:solar_panel_nitro"
+				type: "item"
+			}]
+			x: 24.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["3037A7B311DA0740"]
+			hide_dependency_lines: true
+			id: "561DEF6FA29D61DB"
+			rewards: [{
+				id: "56EB9DD33608BA10"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "62576CD8C198368F"
+				item: "powah:player_transmitter_spirited"
+				type: "item"
+			}]
+			x: 19.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["576ACB07185AA060"]
+			id: "74965A741678A6EE"
+			rewards: [{
+				id: "0F913AB372F536BE"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1EDA8ACEE7F9AB73"
+				item: "powah:player_transmitter_nitro"
+				type: "item"
+			}]
+			x: 23.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["3037A7B311DA0740"]
+			hide_dependency_lines: true
+			id: "58DEC28A6CD958A5"
+			rewards: [{
+				id: "59789A87E47CCD1C"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3AE4552665155D90"
+				item: "powah:energy_cell_spirited"
+				type: "item"
+			}]
+			x: 19.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["576ACB07185AA060"]
+			id: "191AA32804249B13"
+			rewards: [{
+				id: "09941372230A7FCE"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6B22AC2ECDDC664C"
+				item: "powah:energy_cell_nitro"
+				type: "item"
+			}]
+			x: 23.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["3037A7B311DA0740"]
+			hide_dependency_lines: true
+			id: "55DD5312D0EB858A"
+			rewards: [{
+				id: "6F5B4AE742FB926D"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7C71456FBCF84F3A"
+				item: "powah:ender_cell_spirited"
+				type: "item"
+			}]
+			x: 20.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["576ACB07185AA060"]
+			id: "77BFB58262ECE375"
+			rewards: [{
+				id: "77851A39E6473C93"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "39A3CD49BEE0FD96"
+				item: "powah:ender_cell_nitro"
+				type: "item"
+			}]
+			x: 24.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["7D63CEF4A5A2928D"]
+			hide_dependency_lines: true
+			id: "0238E09046AE28D7"
+			rewards: [{
+				id: "121AB1B7F250EDE7"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7FEE1A688C173833"
+				item: "powah:ender_gate_hardened"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["425768712B4346A7"]
+			hide_dependency_lines: true
+			id: "2D80FB9519600EE4"
+			rewards: [{
+				id: "18256B2C647E18D8"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0AD54829B678E7F1"
+				item: "powah:ender_gate_blazing"
+				type: "item"
+			}]
+			x: 13.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["2CB4A101005B075E"]
+			hide_dependency_lines: true
+			id: "2217F047E22CBE85"
+			rewards: [{
+				id: "09BD191966E9F5FE"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "42B4D11FC5B91D0C"
+				item: "powah:ender_gate_niotic"
+				type: "item"
+			}]
+			x: 17.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["3037A7B311DA0740"]
+			hide_dependency_lines: true
+			id: "18FDEEC018CEA80D"
+			rewards: [{
+				id: "475323AC649F8704"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4269F57DA2DE5F2F"
+				item: "powah:ender_gate_spirited"
+				type: "item"
+			}]
+			x: 20.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["576ACB07185AA060"]
+			dependency_requirement: "one_completed"
+			id: "06E3A54A0153AB8E"
+			rewards: [{
+				id: "162FA90AEACDB455"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7F893DEB9561DA6D"
+				item: "powah:ender_gate_nitro"
+				type: "item"
+			}]
+			x: 24.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["7E6AEBDD984080AD"]
+			description: [
+				"To use Powah's unique crafting system you need a Energizing Orb and at least one Energizing Rod (although it is recommended to make more)."
+				""
+				"Start with Basic Energizing Rods and place it/them on any power cable, then place your energizing orb nearby. "
+				""
+				"Right click the orb with your items and wait for it to craft. "
+			]
+			id: "37EC8847643485B3"
+			rewards: [{
+				id: "071AC0F12206D518"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			subtitle: "Energizing!"
+			tasks: [{
+				id: "5332938B784E8761"
+				item: "powah:energizing_orb"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7D63CEF4A5A2928D"]
+			hide_dependency_lines: true
+			id: "5335CA9328AA2E86"
+			rewards: [{
+				id: "7B1D75ED5CBED4C1"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "737E1770A314AD36"
+				item: "powah:energy_cable_hardened"
+				type: "item"
+			}]
+			x: 11.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["425768712B4346A7"]
+			hide_dependency_lines: true
+			id: "5D7176AB273A18F4"
+			rewards: [{
+				id: "7B5F96B805037D66"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2A0952DD9C1F2AE5"
+				item: "powah:energy_cable_blazing"
+				type: "item"
+			}]
+			x: 14.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["2CB4A101005B075E"]
+			hide_dependency_lines: true
+			id: "521FE9033A9876D7"
+			rewards: [{
+				id: "4ED7E13C6CDFFFFC"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0AEB7F818315C302"
+				item: "powah:energy_cable_niotic"
+				type: "item"
+			}]
+			x: 18.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["3037A7B311DA0740"]
+			hide_dependency_lines: true
+			id: "0EDFA33FF89A4DFA"
+			rewards: [{
+				id: "3078A637FBDED0F1"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "38138A8550993E36"
+				item: "powah:energy_cable_spirited"
+				type: "item"
+			}]
+			x: 21.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["576ACB07185AA060"]
+			id: "762DD7F8EB7DD01C"
+			rewards: [{
+				id: "4A7510CE91021A5A"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6BD35CFE480255D7"
+				item: "powah:energy_cable_nitro"
+				type: "item"
+			}]
+			x: 25.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["7D63CEF4A5A2928D"]
+			hide_dependency_lines: true
+			id: "6EDA46AAD739C21A"
+			rewards: [{
+				id: "316C335FC9DEF1EE"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "64E885C2ED828EE9"
+				item: {
+					Count: 1
+					id: "powah:battery_hardened"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 11.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["425768712B4346A7"]
+			hide_dependency_lines: true
+			id: "3F141CE84C002DDA"
+			rewards: [{
+				id: "37F887B1358FD8CD"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "179F81D50E62D805"
+				item: {
+					Count: 1
+					id: "powah:battery_blazing"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 14.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["2CB4A101005B075E"]
+			hide_dependency_lines: true
+			id: "71A1C4A2786B7932"
+			rewards: [{
+				id: "0155CBB9EDE8660D"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "630B115637849AB3"
+				item: {
+					Count: 1
+					id: "powah:battery_niotic"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 18.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["3037A7B311DA0740"]
+			hide_dependency_lines: true
+			id: "3F217E902EA50F77"
+			rewards: [{
+				id: "193A303A9BC56350"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5DBEB77E1F1ABDC5"
+				item: {
+					Count: 1
+					id: "powah:battery_spirited"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 21.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["576ACB07185AA060"]
+			id: "7D4BCD27B31EAD2E"
+			rewards: [{
+				id: "7A7A2EAE9A7E4FAA"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1FDC479F88E1461B"
+				item: {
+					Count: 1
+					id: "powah:battery_nitro"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 25.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["37EC8847643485B3"]
+			description: [
+				"Eventually you will probably want to set up autocrafting for the energizing orb."
+				""
+				"The easiest way is with ae2 pattern providers."
+				""
+				"Since the orb requires exact input and will still accept items after it is filled, you can only input one craft at a time."
+				""
+				"To do so with ae2, simply set the pattern provider to blocking mode using the button in the upper left hand corner."
+			]
+			id: "44AE4403A7AD3A2D"
+			subtitle: "Easiest with AE2"
+			tasks: [{
+				id: "120EE28EB73882FF"
+				title: "Automation"
+				type: "checkmark"
+			}]
+			x: 8.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["5A8A261986DC8B28"]
+			description: ["Basic is the first truly usable tier of Powah. "]
+			id: "7E6AEBDD984080AD"
+			rewards: [{
+				id: "02D373A946F811FF"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			subtitle: "Tier 1"
+			tasks: [{
+				id: "6201E1D7D23D804F"
+				item: "powah:capacitor_basic"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1BEE6A25B4AEE069"]
+			description: [
+				"Starter tier machines are, as they are called, starter."
+				""
+				"They arent very good and mostly serve as a stepping stone to Basic tier."
+			]
+			id: "5A8A261986DC8B28"
+			rewards: [{
+				id: "303ABAA73D85BBD5"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			subtitle: "Tier 0"
+			tasks: [{
+				id: "4FF12746015260B4"
+				item: "powah:capacitor_basic_tiny"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			description: [
+				"Powah is a very powerful mod for early-to-midgame power generation."
+				""
+				"You are going to need alot of Dielectric Paste."
+			]
+			id: "1BEE6A25B4AEE069"
+			rewards: [{
+				id: "060755FE63B11036"
+				item: "powah:book"
+				type: "item"
+			}]
+			shape: "rsquare"
+			size: 1.5d
+			tasks: [{
+				id: "3C409B8E15BCE26A"
+				item: "powah:dielectric_paste"
+				type: "item"
+			}]
+			title: "Start of the Powah Quest Line !"
+			x: -1.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7E6AEBDD984080AD"]
+			hide_dependency_lines: true
+			id: "1925C3B60DCEF43A"
+			rewards: [{
+				id: "0AD62AB409667F26"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5ECF972000FB5310"
+				item: "powah:furnator_basic"
+				type: "item"
+			}]
+			x: 7.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["7E6AEBDD984080AD"]
+			hide_dependency_lines: true
+			id: "4AF23CD8CCB31B7C"
+			rewards: [{
+				id: "3DC85802221C539C"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				count: 36L
+				id: "299D9AED434657DB"
+				item: "powah:reactor_basic"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["7E6AEBDD984080AD"]
+			hide_dependency_lines: true
+			id: "5CDE547A6EC3BCFE"
+			rewards: [{
+				id: "20FCE9202CD94359"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3CAF78DEE4506CE3"
+				item: "powah:thermo_generator_basic"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["7E6AEBDD984080AD"]
+			hide_dependency_lines: true
+			id: "115116C3F08B046E"
+			rewards: [{
+				id: "2CFE5FF4B6223094"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5DC8A9FE33C0E33D"
+				item: "powah:magmator_basic"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["7E6AEBDD984080AD"]
+			hide_dependency_lines: true
+			id: "18F4D5EC1795DA59"
+			rewards: [{
+				id: "2C95BB071639C7F0"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "77EE8B10606B9336"
+				item: "powah:solar_panel_basic"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["7E6AEBDD984080AD"]
+			hide_dependency_lines: true
+			id: "36C66F88AAEEA9BF"
+			rewards: [{
+				id: "5560D32B129444B2"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "27DE67878F2207CF"
+				item: "powah:energizing_rod_basic"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["7E6AEBDD984080AD"]
+			hide_dependency_lines: true
+			id: "2D1202C619F9A9D8"
+			rewards: [{
+				id: "1B43BE5C7E397F08"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6B8B7927BBF2E53F"
+				item: "powah:energy_cable_basic"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["7E6AEBDD984080AD"]
+			hide_dependency_lines: true
+			id: "4E385275334D1E5C"
+			rewards: [{
+				id: "4FD82CA69C1A84FD"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "61DFF6C8B552FAA8"
+				item: "powah:player_transmitter_basic"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["7E6AEBDD984080AD"]
+			hide_dependency_lines: true
+			id: "71C37FCBB8A35DE7"
+			rewards: [{
+				id: "67ED3DF733FC1166"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4924CB8749983EA8"
+				item: "powah:ender_gate_basic"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["7E6AEBDD984080AD"]
+			hide_dependency_lines: true
+			id: "3B1E815369023CD1"
+			rewards: [{
+				id: "63E7C496A9FC814D"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4291542FFE6319F5"
+				item: "powah:energy_cell_basic"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["7E6AEBDD984080AD"]
+			hide_dependency_lines: true
+			id: "11289E25218FB975"
+			rewards: [{
+				id: "50B78FFC3FA0CEFE"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2756A27D07B5C5E9"
+				item: "powah:ender_cell_basic"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["7E6AEBDD984080AD"]
+			hide_dependency_lines: true
+			id: "723A830B38768129"
+			rewards: [{
+				id: "1E27200282289B8F"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "09D95220A23167F9"
+				item: {
+					Count: 1
+					id: "powah:battery_basic"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 7.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["5A8A261986DC8B28"]
+			description: [
+				"The furnator is the most simple generator."
+				""
+				"It takes any burnable item and turns it into power."
+			]
+			hide_dependency_lines: true
+			id: "644CCFF892037163"
+			rewards: [{
+				id: "67391F163561A6D0"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			subtitle: "Active Power"
+			tasks: [{
+				id: "0B2233D6AA8CA343"
+				item: "powah:furnator_starter"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["5A8A261986DC8B28"]
+			description: [
+				"The Reactor is the best power generator in Powah."
+				""
+				"It runs on uraninite, which is most easily made in the energizing orb using."
+				""
+				"For the best results you can feed it Redstone, Coal, Water, and a solid coolant. The water is not consumed."
+			]
+			hide_dependency_lines: true
+			id: "35179C553FED0B87"
+			rewards: [{
+				id: "621ED1D9B9D15109"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			subtitle: "Active Power"
+			tasks: [{
+				count: 36L
+				id: "18722B0CFA851CC5"
+				item: "powah:reactor_starter"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["5A8A261986DC8B28"]
+			description: ["The Magmator turns lava into power, simple as that."]
+			hide_dependency_lines: true
+			id: "7DAD3538EC18EBF2"
+			rewards: [{
+				id: "736B7FC29FFB892F"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			subtitle: "Active Powah"
+			tasks: [{
+				id: "00B649DCE33AD460"
+				item: "powah:magmator_starter"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["5A8A261986DC8B28"]
+			description: [
+				"The Thermo generator is great for early game power."
+				""
+				"To run it, place a heat source underneath and pipe in water."
+				""
+				"Heat sources are :"
+				"Magma blocks 800°C = x0.8"
+				"Lava 1000°C = x1.0"
+				"Block of Blazing Crystal 2800°C = x2.8"
+			]
+			hide_dependency_lines: true
+			id: "059B3E88794222B2"
+			rewards: [{
+				id: "2C2D5C621FCD4F10"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			subtitle: "Passive Powah"
+			tasks: [{
+				id: "74A3DA335D19204E"
+				item: "powah:thermo_generator_starter"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["5A8A261986DC8B28"]
+			description: [
+				"Do I even need to explain this one?"
+				"Its a solar panel."
+			]
+			hide_dependency_lines: true
+			id: "4F41E02BBB8D4123"
+			rewards: [{
+				id: "370AFB59E577E45A"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			subtitle: "Passive Powah!"
+			tasks: [{
+				id: "7FA9CE874446B961"
+				item: "powah:solar_panel_starter"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["5A8A261986DC8B28"]
+			description: ["Energizing rods are the basis for Crafting in this mod."]
+			hide_dependency_lines: true
+			id: "3A1C936F19145E5F"
+			rewards: [{
+				id: "4A0075B7A28D4C3F"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			subtitle: "Charging!"
+			tasks: [{
+				id: "60AD4C96DDDC3C65"
+				item: "powah:energizing_rod_starter"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["5A8A261986DC8B28"]
+			description: [
+				"Energy cables do exactly as they sound, they transfer power."
+				""
+				"At nitro they are one of the best, and they are also great for tps."
+			]
+			hide_dependency_lines: true
+			id: "2BEE61D5EA111F5B"
+			rewards: [{
+				id: "21AA935E75AE3A7C"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			subtitle: "Wired Powah!"
+			tasks: [{
+				id: "5AA5B079FD25CDB0"
+				item: "powah:energy_cable_starter"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["5A8A261986DC8B28"]
+			description: [
+				"The ender gate, when paired with the Ender Cell, allows you acess to wireless power."
+				""
+				"Simply place it on your machine and it will start to transfer power!"
+				""
+				"If needed you can right click it to acess the gui."
+			]
+			hide_dependency_lines: true
+			id: "50ED5BE6490F83F0"
+			rewards: [{
+				id: "59B0C4114C350EEE"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			subtitle: "Wireless Powah!"
+			tasks: [{
+				id: "0A38B732F74225BB"
+				item: "powah:ender_gate_starter"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["5A8A261986DC8B28"]
+			description: [
+				"The Battery is exactly what it sounds like, a battery."
+				""
+				"It provides power to any item in your inventory that requires it until the battery is empty."
+				""
+				"Shift right click with it to activate."
+			]
+			hide_dependency_lines: true
+			id: "4DC6CB201C92587C"
+			rewards: [{
+				id: "23590C957807605E"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			subtitle: "Powah Storage!"
+			tasks: [{
+				id: "2524E6958B14E7AA"
+				item: {
+					Count: 1
+					id: "powah:battery_starter"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 3.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["5A8A261986DC8B28"]
+			description: [
+				"The Ender Cell, when used with the Ender Gates, allows cross-dimensional wireless power."
+				""
+				"They have 12 different channels that can be used."
+				""
+				"Channels initially have no power storage, simply shift-click any Powah Battery / Energy Cell from your inventory and your good to go!"
+			]
+			hide_dependency_lines: true
+			id: "1725FE520BE6765E"
+			rewards: [{
+				id: "1E800973782AD00C"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			subtitle: "Wireless Powah!"
+			tasks: [{
+				id: "3C114F7D28CFE3B5"
+				item: "powah:ender_cell_starter"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["5A8A261986DC8B28"]
+			description: ["The energy call is a battery that you can place down in-world, simple as that."]
+			hide_dependency_lines: true
+			id: "16C399E4B72D39F7"
+			rewards: [{
+				id: "4DADE12ED8E3C0D3"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			subtitle: "Powah Storage!"
+			tasks: [{
+				id: "365B6A8DA7CF4926"
+				item: "powah:energy_cell_starter"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["5A8A261986DC8B28"]
+			description: [
+				"The player transmitter charges items in a players inventory, including armor and curio slots."
+				""
+				"To do so you need to make a binding card, then right click it to bind it to the player."
+				""
+				"For it to work across dimensions you need a dimensional card, which you get by right clicking a enderman or endermite with the binding card."
+			]
+			hide_dependency_lines: true
+			id: "799F27D09677B1E2"
+			rewards: [{
+				id: "3BFBE0B0ACCB719A"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			subtitle: "Wireless Powah!"
+			tasks: [
+				{
+					id: "39AFE1B7DB9D2CD2"
+					item: "powah:player_transmitter_starter"
+					type: "item"
+				}
+				{
+					id: "773D69D2C2D67ED4"
+					item: "powah:binding_card"
+					type: "item"
+				}
+			]
+			x: 1.5d
+			y: 2.0d
+		}
+		{
+			description: ["This is for focus"]
+			id: "50402B3043E98F05"
+			optional: true
+			secret: true
+			subtitle: "Hi."
+			tasks: [{
+				id: "09FBD00B89115F3B"
+				title: "Gahooner was here"
+				type: "checkmark"
+			}]
+			x: 11.75d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1BEE6A25B4AEE069"]
+			description: [
+				"Many mods come with their own wrench, and this one too!"
+				""
+				"The Wrench has 3 modes:"
+				""
+				"Config Mode: used to change Cables I/0 configuration."
+				""
+				"Link Mode: used to link linkable blocks like Energizing Orbs and Rods."
+				""
+				"Rotate Mode: used to rotate blocks horizontally."
+				""
+				"Change mode with shift + right-click."
+			]
+			id: "4D33D9FAAE828603"
+			rewards: [{
+				id: "2C00C940DF7A8E58"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6DB81E8294C7D325"
+				item: {
+					Count: 1
+					id: "powah:wrench"
+					tag: {
+						PowahWrenchNBT: { }
+					}
+				}
+				type: "item"
+			}]
+			x: 0.5d
+			y: 1.0d
+		}
+	]
+	title: "Powah"
+}

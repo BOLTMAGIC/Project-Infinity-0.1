@@ -290,4 +290,32 @@ ItemEvents.tooltip((event) => {
       text.add(1, Text.translate('tooltip.credit.recipe_added', 'Anti').red());
     }
   );
+  //Industrial Foregoing Addons Warning
+  const addons = [
+    'kubejs:speed_addon_1',
+    'kubejs:speed_addon_2',
+    'kubejs:speed_addon_3',
+    'kubejs:speed_addon_4',
+    'kubejs:speed_addon_5',
+    'kubejs:speed_addon_6',
+    'kubejs:efficiency_addon_1',
+    'kubejs:efficiency_addon_2',
+    'kubejs:efficiency_addon_3',
+    'kubejs:efficiency_addon_4',
+    'kubejs:efficiency_addon_5',
+    'kubejs:efficiency_addon_6',
+    'kubejs:processing_addon_1',
+    'kubejs:processing_addon_2',
+    'kubejs:processing_addon_3',
+    'kubejs:processing_addon_4',
+    'kubejs:processing_addon_5',
+    'kubejs:processing_addon_6',
+  ];
+
+  for (const addon of addons) {
+    event.add(
+      addon,
+      Text.translate('tooltip.industrialforegoing.addon_warning'))
+    ;
+  }
 });

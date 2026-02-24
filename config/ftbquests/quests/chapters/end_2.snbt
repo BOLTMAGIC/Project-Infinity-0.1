@@ -257,6 +257,17 @@
 			x: -2.0d
 			y: -6.5d
 		}
+		{
+			dependencies: ["38A28A6BCA401D6F"]
+			id: "4A7E2F5B578123D8"
+			tasks: [{
+				id: "612C3A8E857AB582"
+				item: "minecraft:dragon_breath"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -5.0d
+		}
 	]
 	title: "&eEnd"
 }

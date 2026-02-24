@@ -1027,6 +1027,455 @@
 			x: 4.0d
 			y: -5.5d
 		}
+		{
+			id: "32DAAD14E1E215DE"
+			rewards: [{
+				id: "7E76FC392D6BC268"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "590D9D8D7D8AD9E2"
+				item: "minecraft:ghast_tear"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["32DAAD14E1E215DE"]
+			id: "50EF508A9A8EF18D"
+			rewards: [{
+				id: "3B64B6464469426D"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "7056BA71CF48FBB2"
+				item: {
+					Count: 1
+					id: "minecraft:potion"
+					tag: {
+						Potion: "minecraft:regeneration"
+					}
+				}
+				type: "item"
+			}]
+			x: 4.0d
+			y: -2.5d
+		}
+		{
+			dependencies: [
+				"50EF508A9A8EF18D"
+				"63797CC6D4459760"
+				"47C34A83CCD12EBE"
+			]
+			description: ["This shelf allows you to reach level 50 wich is needed to infuse them"]
+			id: "5663541467928052"
+			rewards: [{
+				id: "103307B7284AE76B"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "627C122F17D11561"
+				item: "apotheosis:hellshelf"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["5663541467928052"]
+			description: ["This is an upgraded version of the hellshelf but is mostly not meant to be used by itself but upgraded to a glowing or other alternative"]
+			id: "34668598F76B18E2"
+			rewards: [{
+				id: "76B63585E23F91EF"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "16A7A1C1B547AD9D"
+				item: "apotheosis:infused_hellshelf"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["34668598F76B18E2"]
+			description: ["level 60 enchants yay"]
+			id: "12E29F145A3B05D9"
+			tasks: [{
+				id: "5493117CA058B038"
+				item: "apotheosis:glowing_hellshelf"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["34668598F76B18E2"]
+			description: ["Alternative to the glowing hellshelf with a different set of stats"]
+			id: "08453B477ABFE22A"
+			tasks: [{
+				id: "2AC3F4DB67DA17ED"
+				item: "apotheosis:blazing_hellshelf"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 0.5d
+		}
+		{
+			id: "47C34A83CCD12EBE"
+			rewards: [{
+				id: "1924C4888921F898"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "3FE14990C17250D1"
+				item: "minecraft:blaze_rod"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"12E29F145A3B05D9"
+				"08453B477ABFE22A"
+			]
+			description: ["Like the infused hellshelves the dormant deepshelf is a transitional part taht is meant to be infused / crafted with"]
+			id: "326BEA2BC8F7A9C7"
+			min_required_dependencies: 1
+			rewards: [{
+				id: "03DFA2913C02764E"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "731A40DA19D93423"
+				item: "apotheosis:dormant_deepshelf"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["326BEA2BC8F7A9C7"]
+			description: [
+				"This one requires to have 30 Eterna ( lvl 60 enchanting ) and 40 of each other stat to infuse."
+				""
+				"You can augment each of those with the items / blocks mentioned in the stat modulation quest."
+			]
+			id: "5B03F5C6822AF433"
+			rewards: [{
+				id: "20E96BF2AB5BF5A9"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "6FC978F0B2D31362"
+				item: "apotheosis:deepshelf"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 2.5d
+		}
+		{
+			dependencies: [
+				"34668598F76B18E2"
+				"5B03F5C6822AF433"
+			]
+			description: ["This is one hell of a QOL block allowing you to store enchanted books up to level 16."]
+			id: "416970A2EEBACC88"
+			min_required_dependencies: 1
+			tasks: [{
+				id: "20369E54EFA3464C"
+				item: "apotheosis:library"
+				type: "item"
+			}]
+			x: 6.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["5B03F5C6822AF433"]
+			description: ["Avoid the warden ?"]
+			id: "7CB91911F496F71E"
+			rewards: [{
+				id: "621064DE7C4A6366"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "4273A46FF0748E52"
+				item: "apotheosis:soul_touched_deepshelf"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["5B03F5C6822AF433"]
+			description: ["Kill the warden ? "]
+			id: "03BB9F82106BC0BA"
+			rewards: [{
+				id: "3AB1EF5EADEBB9B4"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "6120E1EDB1D0DF1E"
+				item: "apotheosis:echoing_deepshelf"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["03BB9F82106BC0BA"]
+			description: ["Again ?"]
+			id: "5DA785117148FC2D"
+			rewards: [{
+				id: "66A11FFC552ACFDD"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "4EE63D5257C070E1"
+				item: "apotheosis:echoing_sculkshelf"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["7CB91911F496F71E"]
+			description: ["Kill the warden now."]
+			id: "34888659B693C4D1"
+			rewards: [{
+				id: "31C4F69873E1E99E"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "22369B18EC41A803"
+				item: "apotheosis:soul_touched_sculkshelf"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 4.5d
+		}
+		{
+			dependencies: [
+				"5DA785117148FC2D"
+				"34888659B693C4D1"
+				"4A7E2F5B578123D8"
+			]
+			description: ["This shelf doesnt seem hard to craft but needs a dragon breath enchanted with level 80 "]
+			id: "6BBA8C9E8E94C010"
+			min_required_dependencies: 1
+			rewards: [{
+				id: "64C674F06ACC18DA"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "6D562304BB5E22F2"
+				item: "apotheosis:endshelf"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["6BBA8C9E8E94C010"]
+			description: [
+				"This is the final shelf just requires the endshelf and to find a dragon head from exploring the end :)"
+				""
+				"Just add one of this to your sculkshelf setup and you're good to go."
+			]
+			id: "78870AEBA12BEFEE"
+			rewards: [{
+				id: "4127D39C05B0BF42"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "3C00688B772E25AB"
+				item: "apotheosis:draconic_endshelf"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 5.5d
+		}
+		{
+			description: ["This is one of of the tomes that permits to filter enchantements by what's on the tin."]
+			id: "27B4617053DA28CA"
+			tasks: [{
+				id: "102DA34FFE5A7E31"
+				item: "apotheosis:pickaxe_tome"
+				type: "item"
+			}]
+			x: 6.5d
+			y: -2.5d
+		}
+		{
+			description: ["Spawners can now be buffed ;)"]
+			id: "0FC4A9198C6A0A58"
+			tasks: [{
+				id: "3174F53775DDCAEE"
+				item: "minecraft:spawner"
+				type: "item"
+			}]
+			x: 9.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["0FC4A9198C6A0A58"]
+			description: ["Reduces the max delta time between spawns"]
+			id: "046C716335A2B01A"
+			tasks: [{
+				id: "4F7C178024A69AD7"
+				item: "minecraft:sugar"
+				type: "item"
+			}]
+			x: 10.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["0FC4A9198C6A0A58"]
+			description: ["Reduces the lowest delta time between modpack"]
+			id: "06E86F9010BF0D0B"
+			tasks: [{
+				id: "0B4FD436A960C00B"
+				item: "minecraft:clock"
+				type: "item"
+			}]
+			x: 9.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["0FC4A9198C6A0A58"]
+			description: ["Makes it so mobs spawn without IA ( no moovement / abilities )"]
+			id: "0FFFD9EA73F63525"
+			tasks: [{
+				id: "1DD02E4B96B814D2"
+				item: "minecraft:chorus_fruit"
+				type: "item"
+			}]
+			x: 11.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["0FC4A9198C6A0A58"]
+			description: ["Toggles off the spawner and makes it activable with redstone."]
+			id: "2B588AE3BF32790B"
+			tasks: [{
+				id: "79E1163B6BDAE5FD"
+				item: "minecraft:comparator"
+				type: "item"
+			}]
+			x: 11.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["0FC4A9198C6A0A58"]
+			description: ["Removes the need for the player to be close for mobs to appear."]
+			id: "2039559C25E35448"
+			tasks: [{
+				id: "4A084D80BBE43A82"
+				item: "minecraft:nether_star"
+				type: "item"
+			}]
+			x: 11.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["0FC4A9198C6A0A58"]
+			description: ["Augments the local mob cap for this type."]
+			id: "0B2596DC7BF92ED6"
+			tasks: [{
+				id: "22B210682D648B78"
+				item: "minecraft:ghast_tear"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["0FC4A9198C6A0A58"]
+			description: ["Holding this item while applying one of the items on the left will have the opposite effect"]
+			id: "0E934C5B516C03A5"
+			tasks: [{
+				id: "1573EA15895FEB25"
+				item: "minecraft:quartz"
+				type: "item"
+			}]
+			x: 8.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["0FC4A9198C6A0A58"]
+			description: ["Ignores mob's spawn conditions ( height level, light, biome, dimention ect... )"]
+			id: "1B7F729E578CE99A"
+			tasks: [{
+				id: "38B4D2DBF682DADB"
+				item: "minecraft:dragon_egg"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["0FC4A9198C6A0A58"]
+			description: ["Makes the mobs silent"]
+			id: "06AA964E77DE4D5B"
+			tasks: [{
+				id: "13C94E2FA8312EB6"
+				item: "minecraft:white_wool"
+				type: "item"
+			}]
+			x: 11.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["0FC4A9198C6A0A58"]
+			description: ["Augments the range of the spawner ( often used inverted for compact stuff )"]
+			id: "51CA52A40728481D"
+			tasks: [{
+				id: "7DE02F64B33967DE"
+				item: "minecraft:blaze_rod"
+				type: "item"
+			}]
+			x: 11.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["0FC4A9198C6A0A58"]
+			description: ["Worse version of the nether star allowing the spawner to work from farther"]
+			id: "1E697291969A7847"
+			tasks: [{
+				id: "17E8F972A55F1988"
+				item: "minecraft:prismarine_crystals"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["0FC4A9198C6A0A58"]
+			description: ["Spawns more mobs per spawning tick"]
+			id: "07C39674998FE934"
+			tasks: [{
+				id: "559DB2C4B610AB82"
+				item: "minecraft:fermented_spider_eye"
+				type: "item"
+			}]
+			x: 8.0d
+			y: -2.5d
+		}
 	]
 	title: "&4Nether"
 }

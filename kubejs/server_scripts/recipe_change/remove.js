@@ -195,6 +195,11 @@ const removeItemsbyOutput = [
   'draconicevolution:wyvern_chestpiece',
   'draconicevolution:draconic_chestpiece',
   'draconicevolution:chaotic_chestpiece',
+  'draconicevolution:chaotic_chestpiece',
+  'draconicevolution:draconic_chestpiece',
+  'draconicevolution:wyvern_chestpiece',
+  'draconicevolution:chaotic_staff',
+  'draconicevolution:draconic_staff',
 ];
 
 const removeItemsbyID = [
@@ -488,6 +493,7 @@ const removeItemsbyID = [
   'draconicadditions:chaotic_necklace',
   'draconicadditions:draconic_necklace',
   'draconicadditions:items/wyvern_necklace',
+  'draconicevolution:tools/chaotic_staff_alt',
   'industrialforegoing:dissolution_chamber/speed_addon_1',
   'industrialforegoing:dissolution_chamber/processing_addon_1',
   'industrialforegoing:dissolution_chamber/efficiency_addon_1',  '',

@@ -5,7 +5,7 @@
       "parent": "minecraft:block/cube_all",
       "render_type": "minecraft:solid",
       "textures": {
-        "all": "kubejs:block/mm_textures/energy/output/normal_energy_output"
+            "all": "kubejs:block/mm_textures/outputs/normal"
       }
     },
     "overlay": {

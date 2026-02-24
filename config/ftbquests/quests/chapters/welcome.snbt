@@ -1632,6 +1632,98 @@
 			x: -1.5d
 			y: -1.5d
 		}
+		{
+			dependencies: ["1B3A1C61683F9AC5"]
+			description: [
+				"Enchantement in this modpack is overhauled by the apotheosis mod."
+				""
+				"Allowing enchantement over level 30, although the normal setup with 15 bookshelves will still only give you access to level 30."
+			]
+			id: "785136490949AC41"
+			rewards: [
+				{
+					count: 3
+					id: "0D71877AC352F39D"
+					item: "minecraft:lapis_lazuli"
+					type: "item"
+				}
+				{
+					id: "3C44DA45D9C61E5A"
+					type: "xp"
+					xp: 1000
+				}
+			]
+			tasks: [
+				{
+					id: "2697C5FF4298F7C7"
+					item: "minecraft:enchanting_table"
+					type: "item"
+				}
+				{
+					id: "486C322F128128E3"
+					item: "minecraft:bookshelf"
+					type: "item"
+				}
+			]
+			title: "Apotheosis"
+			x: 6.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["785136490949AC41"]
+			description: [
+				"For enchantement you have 3 main values to look after."
+				"You can see all three of them by looking at a table with jade or opening the GUI"
+				""
+				""
+				"Eterna : This value multiplied by 2 is your max enchant level"
+				""
+				"Quanta : Makes it so you have either way better enchants or way worse enchantements ( Rectification lessens the bad )"
+				""
+				"Arcana : Makes it so you have better chance to get more and better enchantement per"
+			]
+			hide_until_deps_complete: true
+			id: "65655A9CEA51CE31"
+			tasks: [{
+				id: "07A99CA3BD1E2408"
+				type: "checkmark"
+			}]
+			title: "Information"
+			x: 6.0d
+			y: -7.0d
+		}
+		{
+			description: ["Some items / blocks other than shelves allow you to influence your quanta or arcana"]
+			id: "6B3C05DDF66E4294"
+			tasks: [
+				{
+					id: "04893F2A85B16FF0"
+					item: "minecraft:candle"
+					type: "item"
+				}
+				{
+					id: "34271D8349AAFA2A"
+					item: "minecraft:skeleton_skull"
+					type: "item"
+				}
+			]
+			title: "Stat modulation"
+			x: 7.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["785136490949AC41"]
+			description: ["Adding more shelves of a different type will not affect the Eterna if the threshold of the shelf is already given by others "]
+			hide_until_deps_complete: true
+			id: "249898A9B4E8035D"
+			tasks: [{
+				id: "17E06A42A5FA987D"
+				title: "Caveats"
+				type: "checkmark"
+			}]
+			x: 7.0d
+			y: -7.0d
+		}
 	]
 	title: "The Beginning"
 }

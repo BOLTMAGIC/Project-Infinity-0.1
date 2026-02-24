@@ -41,6 +41,10 @@ Recipe changes and fixes:
 -fixed Lord Pumpkinhead Recipe
 -changed and fixed creative power source recipe (thx to MiniMaxi)
 -added 6 new dummy items for draconic (thx to MiniMaxi)
+-changed event horizon recipes from 4 to 1 tick each
+-changed polonium to antimatter recipe and added a new recipe
+-fixed wither aconite craft
+-changed MasterfulMachinery Textures (thx to MiniMaxi!!!!!)
 -
 ----------------------------------------------------------------------------------------
 Mod changes and fixes:

@@ -5,7 +5,7 @@
       "parent": "minecraft:block/cube_all",
       "render_type": "minecraft:solid",
       "textures": {
-        "all": "kubejs:block/mm_textures/item/input/big_item_input"
+        "all": "kubejs:block/mm_textures/inputs/big"
       }
     },
     "overlay": {

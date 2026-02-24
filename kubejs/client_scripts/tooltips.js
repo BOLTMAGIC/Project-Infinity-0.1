@@ -318,4 +318,10 @@ ItemEvents.tooltip((event) => {
       Text.translate('tooltip.industrialforegoing.addon_warning'))
     ;
   }
+
+  // Wither Aconite Autocrafting Warning
+  event.add(
+    'mythicbotany:wither_aconite',
+    Text.translate('tooltip.mythicbotany.wither_aconite_warning')
+  );
 });

@@ -48,6 +48,12 @@ StartupEvents.registry('item', (e) => {
     .texture('kubejs:item/vibranium_mesh')
     .glow(true);
 
+  e.create('wither_token')
+    .tag('kubejs:wither_token')
+    .displayName('§7Wither Token')
+    .maxStackSize(64)
+    .texture('kubejs:item/wither_token');
+
   e.create('left_dragon_heart')
     .tag('kubejs:left_dragon_heart')
     .tag('kubejs:dragon_heart')
@@ -414,8 +420,7 @@ StartupEvents.registry('item', (e) => {
             /\w\S*/g,
             (txt) => txt.charAt(0).toUpperCase() + txt.substr(1).toLowerCase()
           )
-          .replace(/(\w+)$/, '($1)')
-          + ' Dummy Item'
+          .replace(/(\w+)$/, '($1)') + ' Dummy Item'
       );
   }
   createPowah(e, 'full_battery_nitro');

@@ -42,6 +42,7 @@
   "block.mm.normal_item_port_input": "Normal Item Port Input",
   "block.mm.normal_item_port_output": "Normal Item Port Output",
   "block.mm.pinky_controller": "Pinky Machine Controller",
+  "block.mm.prediction_chamber_controller": "Prediction Chamber Controller",
   "block.mm.small_energy_port_input": "Small Energy Port Input",
   "block.mm.small_energy_port_output": "Small Energy Port Output",
   "block.mm.small_fluid_port_input": "Small Fluid Port Input",

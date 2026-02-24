@@ -11,7 +11,7 @@
 	#Range: 0 ~ 1200
 	blockDeactivationDelay = 60
 	#Any mod ids added to this list will not be able to have any of their blocks, picked up by the cardboard box. For example: ["mekanism"]
-	cardboardModBlacklist = []
+	cardboardModBlacklist = ["mekanism"]
 	#Allow right clicking on Cables/Pipes/Tubes with alloys to upgrade the tier.
 	transmitterAlloyUpgrade = true
 	#Base factor for working out machine performance with upgrades - UpgradeModifier * (UpgradesInstalled/UpgradesPossible).

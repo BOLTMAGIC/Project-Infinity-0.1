@@ -24,7 +24,8 @@ changelog v. 0.0.47.2
 -updated some mods
 ----------------------------------------------------------------------------------------
 Mod added:
--
+-Rechiseled
+-Rechiseled Chipped
 ----------------------------------------------------------------------------------------
 Mods removed:
 -none
@@ -45,10 +46,19 @@ Recipe changes and fixes:
 -changed polonium to antimatter recipe and added a new recipe
 -fixed wither aconite craft
 -changed MasterfulMachinery Textures (thx to MiniMaxi!!!!!)
--
+-changed Powah quest (thx to Gahooner)
+-changed Compution Power for Infinity Block from 35 to 38 means you need 14 Infinity Blocks for Infinity 9 Research
+-changed the recipes for the loot fabrication plant
+    -this multiblock will use the predictions and create items like zombie prediction to iron ingot
+-added a new multiblock to generate predictions (prediction chamber) (thx to br3ndaddy for the name)
+-fixed a dupe (thx to iron4695)
+-added fire attuned tier 2 multiblock
+-disabled parallelProcessing for T1 and T2. lowered the essence value for T2 from 512 to 256 (thx to laynord. hate him not me)
+-added EMC to crystaltine ingot (250 Million EMC per ingot) (thx to kyo297)
+-added a new dummy item (wither token)
 ----------------------------------------------------------------------------------------
 Mod changes and fixes:
--
+-updated Botanical Machinery Extra to add the pure daisy water to snow block feature
 /---------------------------
 known bugs:
 -polymorph (changing the output for mod conflicts) is not possible with tinkers crafting station

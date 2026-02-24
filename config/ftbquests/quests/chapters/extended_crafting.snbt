@@ -9,26 +9,6 @@
 	quest_links: [ ]
 	quests: [
 		{
-			dependencies: [
-				"183E47DFBC340187"
-				"7BA12D4416DFE365"
-			]
-			hide_dependency_lines: true
-			id: "00BF1724D4F902C9"
-			rewards: [{
-				id: "6E124FA227F5766F"
-				item: "kubejs:apotheotic_coin"
-				type: "item"
-			}]
-			tasks: [{
-				id: "083864D1D5521A55"
-				item: "extendedcrafting:basic_table"
-				type: "item"
-			}]
-			x: 2.5d
-			y: -8.5d
-		}
-		{
 			dependencies: ["5530C0D8BF092FCA"]
 			id: "6C8754CBAA4B7D90"
 			rewards: [{
@@ -489,7 +469,6 @@
 			dependencies: [
 				"47D23E9CB93DE790"
 				"36EC2AF9842DE616"
-				"00BF1724D4F902C9"
 			]
 			hide_dependency_lines: true
 			id: "6735CD1B161A8AB2"
@@ -503,7 +482,7 @@
 				item: "extendedcrafting:advanced_table"
 				type: "item"
 			}]
-			x: 4.0d
+			x: 2.5d
 			y: -8.5d
 		}
 		{
@@ -524,7 +503,7 @@
 				item: "extendedcrafting:elite_table"
 				type: "item"
 			}]
-			x: 5.5d
+			x: 4.0d
 			y: -8.5d
 		}
 		{
@@ -545,25 +524,8 @@
 				item: "extendedcrafting:ultimate_table"
 				type: "item"
 			}]
-			x: 7.0d
+			x: 5.5d
 			y: -8.5d
-		}
-		{
-			dependencies: ["00BF1724D4F902C9"]
-			id: "6AC18A3442FCA08B"
-			rewards: [{
-				id: "0DC31424312B45A7"
-				item: "kubejs:apotheotic_coin"
-				type: "item"
-			}]
-			shape: "rsquare"
-			tasks: [{
-				id: "3ECD222894F2B49F"
-				item: "extendedcrafting:basic_auto_table"
-				type: "item"
-			}]
-			x: 2.5d
-			y: -6.5d
 		}
 		{
 			dependencies: ["6735CD1B161A8AB2"]
@@ -579,7 +541,7 @@
 				item: "extendedcrafting:advanced_auto_table"
 				type: "item"
 			}]
-			x: 4.0d
+			x: 2.5d
 			y: -6.5d
 		}
 		{
@@ -596,7 +558,7 @@
 				item: "extendedcrafting:elite_auto_table"
 				type: "item"
 			}]
-			x: 5.5d
+			x: 4.0d
 			y: -6.5d
 		}
 		{
@@ -613,7 +575,7 @@
 				item: "extendedcrafting:ultimate_auto_table"
 				type: "item"
 			}]
-			x: 7.0d
+			x: 5.5d
 			y: -6.5d
 		}
 		{
@@ -1156,7 +1118,7 @@
 				item: "extendedcrafting:epic_auto_table"
 				type: "item"
 			}]
-			x: 8.5d
+			x: 7.0d
 			y: -6.5d
 		}
 		{
@@ -1173,7 +1135,7 @@
 				item: "extendedcrafting:epic_table"
 				type: "item"
 			}]
-			x: 8.5d
+			x: 7.0d
 			y: -8.5d
 		}
 		{

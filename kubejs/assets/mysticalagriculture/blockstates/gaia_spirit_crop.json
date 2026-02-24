@@ -22,7 +22,7 @@
       "model": "mysticalagriculture:block/mystical_resource_crop_6"
     },
     "age=7": {
-      "model": "mysticalagriculture:block/apatite_flower"
+      "model": "mysticalagriculture:block/gaia_spirit_crop"
     }
   }
 }

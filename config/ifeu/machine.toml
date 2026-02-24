@@ -17,9 +17,9 @@
 		#Cooldown Time in Ticks [20 Ticks per Second] - Default: [600 (30s)]
 		maxProgress = 600
 		#Amount of Power Consumed per Operation - Default: [3000FE]
-		powerPerOperation = 3000
+		powerPerOperation = 300000
 		#Max Stored Power [FE] - Default: [20000 FE]
-		maxStoredPower = 20000
+		maxStoredPower = 2000000
 		#Chance to increase the executions of the current processor, 0.1 = 10% chance - Default: [0.1]
 		chanceToIncreaseExecutions = 0.1
 		#Use the same blacklist as for HydroponicBed - Default: [true]
@@ -104,7 +104,7 @@
 		supreme = 50000000
 
 	[MachineConfig.BigDissolutionChamberConfig]
-		#Cooldown Time in Ticks [20 Ticks per Second] - Default: [100 (5s)]
+		#Cooldown Time in Ticks [20 Ticks per Second] - Default: [60 (3s)]
 		maxProgress = 100
 		#Amount of Power Consumed per Tick - Default: [180FE]
 		powerPerTick = 180
@@ -116,7 +116,7 @@
 		maxOutputTankSize = 64000
 		#Default Max Thread - Default: [8]
 		maxThread = 8
-		#Item input rules, 0: The maximum number of items in the slot is the corresponding number of items in the slot when locked, 1: The maximum number of items in the slot is the machine thread - Default: [0]
+		#Item input rules, 0: The maximum number of items in the slot is the corresponding number of items in the slot when locked, 1: The maximum number of items in the slot is the machine thread - Default: [1]
 		inputRule = 0
 
 	[MachineConfig.ArcaneDragonForgingConfig]

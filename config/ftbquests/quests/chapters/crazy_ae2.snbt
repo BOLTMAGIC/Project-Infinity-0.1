@@ -113,6 +113,16 @@
 			x: -2.3035714285714377d
 			y: -1.1071428571428612d
 		}
+		{
+			click: "https://www.youtube.com/watch?v=VvgBHT97HtM"
+			height: 0.5d
+			hover: ["Youtube Link from Lashamk"]
+			image: "jei:textures/jei/atlas/gui/icons/info.png"
+			rotation: 0.0d
+			width: 0.5d
+			x: 1.5d
+			y: -3.0d
+		}
 	]
 	order_index: 4
 	quest_links: [ ]
@@ -224,19 +234,19 @@
 				""
 				"Each &dCrafting Storage&r tier provides a different amount of &acomputation power (CP)&r, but also increases &cenergy&r and &bcoolant&r consumption."
 				""
-				"{@pagebreak}"
-				""
 				"In addition to standard &dAE2 Crafting Storage&r blocks, there are also &9custom blocks&r that can be inserted into &dResearch Units&r:"
 				""
 				"• &9Empowered Super Block&r &7(20 CP)&r"
 				"• &9Crystal Matrix Block&r &7(22 CP)&r"
 				"• &9Neutronium Block&r &7(25 CP)&r"
-				"• &9Infinity Block&r &7(35 CP)&r"
+				"• &9Infinity Block&r &7(40 CP)&r"
 				""
 				"&cIMPORTANT:&r  "
 				"Each &6Research Pedestal Bottom&r must be connected to its &2OWN&r &dResearch Unit&r multiblock."
 				""
 				"Sharing &acomputation&r between pedestals is &cNOT possible&r."
+				""
+				"If you want a &1Youtube Video&r click on the image under this quest. Its from Laskmak."
 			]
 			icon: "crazyae2addons:research_unit"
 			id: "45FC26A201DB8F40"

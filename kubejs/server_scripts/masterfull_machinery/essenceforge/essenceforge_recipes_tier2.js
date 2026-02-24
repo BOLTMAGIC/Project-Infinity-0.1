@@ -215,7 +215,7 @@ function generateTier2Recipes(event, seeds, maxSeedsPerRecipe) {
       var essence = seed.replace('_seeds', '_essence');
       recipe.output({
         type: 'mm:output/simple',
-        ingredient: { type: 'mm:item', item: essence, count: 512 },
+        ingredient: { type: 'mm:item', item: essence, count: 256 },
       });
     });
   }

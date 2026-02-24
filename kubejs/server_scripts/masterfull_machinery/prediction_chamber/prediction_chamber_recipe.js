@@ -94,18 +94,20 @@ const dataModelsMiscArray = [
   'twilightforest/yeti',
 ];
 
+
+
 function safeIdPart (str) {
   return str.split(':').join('_').split('/').join('_');
 }
 
-function createLootFabricationRecipes (event, mobs) {
+function createPredictionChamberRecipes (event, mobs) {
   mobs.forEach((mob) => {
     const mobHNN = `hostilenetworks:${mob}`;
-    const rid = `mm:loot_fabrication_plant_recipe_${safeIdPart(mob)}`;
+    const rid = `mm:prediction_chamber_recipe_${safeIdPart(mob)}`;
 
     event
       .create(rid)
-      .structureId('mm:loot_fabrication_plant_structure')
+      .structureId('mm:prediction_chamber_structure')
       .ticks(100)
       .input({
         type: 'mm:input/consume',
@@ -147,7 +149,7 @@ function createLootFabricationRecipes (event, mobs) {
 }
 
 MMEvents.createProcesses((event) => {
-  createLootFabricationRecipes(event, dataModelsVanillaArray);
-  createLootFabricationRecipes(event, dataModelsBossArray);
-  createLootFabricationRecipes(event, dataModelsMiscArray);
+  createPredictionChamberRecipes(event, dataModelsVanillaArray);
+  createPredictionChamberRecipes(event, dataModelsBossArray);
+  createPredictionChamberRecipes(event, dataModelsMiscArray);
 });

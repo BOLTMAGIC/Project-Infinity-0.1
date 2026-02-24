@@ -1,6 +1,5 @@
 {
   "values": [
-    "mm:loot_fabrication_plant_controller",
     "mm:advanced_awakening_altar_controller",
     "mm:auto_crusher_controller",
     "mm:auto_sieve_controller",
@@ -8,11 +7,13 @@
     "mm:event_horizon_antimatter_synthesizer_controller",
     "mm:fire_attuned_controller",
     "mm:infinity_crucible_controller",
+    "mm:loot_fabrication_plant_controller",
     "mm:mechanical_empowerer_controller",
     "mm:mega_dissolver_controller",
     "mm:multi_compressor_controller",
     "mm:multi_compactor_controller",
     "mm:pinky_controller",
+    "mm:prediction_chamber_controller",
     "mm:water_condenser_controller",
     "mm:tiny_item_port_input",
     "mm:tiny_item_port_output",

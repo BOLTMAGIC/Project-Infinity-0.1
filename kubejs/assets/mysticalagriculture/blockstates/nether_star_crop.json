@@ -22,7 +22,7 @@
       "model": "mysticalagriculture:block/mystical_resource_crop_6"
     },
     "age=7": {
-      "model": "mysticalagriculture:block/rock_crystal_flower"
+      "model": "mysticalagriculture:block/nether_star_crop"
     }
   }
 }

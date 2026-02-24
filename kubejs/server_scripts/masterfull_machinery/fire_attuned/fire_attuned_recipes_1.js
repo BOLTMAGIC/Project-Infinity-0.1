@@ -1,9 +1,9 @@
 priority: 1;
 MMEvents.createProcesses((event) => {
-  //spirit attuned gem recipe @occultism
+  //spirit attuned gem recipe1 @occultism
   event
-    .create('mm:spirit_attuned_recipe')
-    .structureId('mm:fire_attuned_structure')
+    .create('mm:spirit_attuned_recipe1')
+    .structureId('mm:fire_attuned_structure1')
     .ticks(4)
     .input({
       type: 'mm:input/consume',
@@ -39,8 +39,8 @@ MMEvents.createProcesses((event) => {
 
   //Infused Lava Crystal
   event
-    .create('mm:infused_lava_crystal_recipe')
-    .structureId('mm:fire_attuned_structure')
+    .create('mm:infused_lava_crystal_recipe1')
+    .structureId('mm:fire_attuned_structure1')
     .ticks(4)
     .input({
       type: 'mm:input/consume',
@@ -76,8 +76,8 @@ MMEvents.createProcesses((event) => {
 
   //Blood Magic Life Essence Craft
   event
-    .create('mm:blood_recipe')
-    .structureId('mm:fire_attuned_structure')
+    .create('mm:blood_recipe1')
+    .structureId('mm:fire_attuned_structure1')
     .ticks(40)
     .input({
       type: 'mm:input/consume',
@@ -105,8 +105,8 @@ MMEvents.createProcesses((event) => {
 
   //lava
   event
-    .create('mm:cobble_to_lava_recipe')
-    .structureId('mm:fire_attuned_structure')
+    .create('mm:cobble_to_lava_recipe1')
+    .structureId('mm:fire_attuned_structure1')
     .ticks(8)
     .input({
       type: 'mm:input/consume',
@@ -134,8 +134,8 @@ MMEvents.createProcesses((event) => {
 
   //ether gas
   event
-    .create('mm:ether_gas_recipe')
-    .structureId('mm:fire_attuned_structure')
+    .create('mm:ether_gas_recipe1')
+    .structureId('mm:fire_attuned_structure1')
     .ticks(8)
     .input({
       type: 'mm:input/consume',
@@ -180,8 +180,8 @@ MMEvents.createProcesses((event) => {
 
   //liquid sculk matter
   event
-    .create('mm:liquid_sculk_matter_recipe')
-    .structureId('mm:fire_attuned_structure')
+    .create('mm:liquid_sculk_matter_recipe1')
+    .structureId('mm:fire_attuned_structure1')
     .ticks(8)
     .input({
       type: 'mm:input/consume',
@@ -226,8 +226,8 @@ MMEvents.createProcesses((event) => {
 
   //liquid dragon breath
   event
-    .create('mm:liquid_dragon_breath_recipe')
-    .structureId('mm:fire_attuned_structure')
+    .create('mm:liquid_dragon_breath_recipe1')
+    .structureId('mm:fire_attuned_structure1')
     .ticks(8)
     .input({
       type: 'mm:input/consume',

@@ -80,6 +80,8 @@
 [worldgenSettings]
 	#Should Black Quartz generate in the world?
 	blackQuartzGeneration = true
+	#Should engineer houses be generated in villages?
+	engineerHouseGeneration = true
 
 #Item settings
 [itemsSettings]

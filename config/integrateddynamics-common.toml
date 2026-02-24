@@ -44,6 +44,8 @@
 		operatorRecursionLimit = 256
 		#If the version checker should be enabled.
 		versionChecker = true
+		#If variable card IDs should be logged during evaluation. This is useful for debugging crashes caused by card evaluation.
+		logCardEvaluation = false
 
 [general]
 
@@ -104,6 +106,10 @@
 		diagnosticsWebServerPort = 3030
 		#The base energy usage for the machine reader.
 		machineReaderBaseConsumption = 1
+		#The minimum update intervals to enforce for specific parts. You can add entries in the form of 'integrateddynamics:machine_reader:10', where '10' refers to the number of ticks.
+		partMinimumUpdateIntervals = []
+		#The minimum update interval to enforce for all parts, in number of ticks.
+		partsMinimumUpdateInterval = 1
 
 [machine]
 

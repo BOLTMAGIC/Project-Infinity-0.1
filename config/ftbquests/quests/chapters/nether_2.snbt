@@ -1346,7 +1346,7 @@
 		}
 		{
 			dependencies: ["0FC4A9198C6A0A58"]
-			description: ["Reduces the lowest delta time between modpack"]
+			description: ["Reduces the lowest delta time between mob pack"]
 			id: "06E86F9010BF0D0B"
 			tasks: [{
 				id: "0B4FD436A960C00B"

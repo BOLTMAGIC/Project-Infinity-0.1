@@ -1,5 +1,5 @@
 JEIEvents.hideItems((event) => {
-  let excludedItems = [
+  let excludedItemsChipped = [
     'chipped:botanist_workbench',
     'chipped:glassblower',
     'chipped:carpenters_table',
@@ -8,12 +8,24 @@ JEIEvents.hideItems((event) => {
     'chipped:alchemy_bench',
     'chipped:tinkering_table',
   ];
+
+  let excludedItemsRechiseled = ['rechiseled:chisel'];
   event.hide('tconstruct:potion');
 
   Ingredient.of(/^chipped:/).itemIds.forEach((id) => {
-    if (!excludedItems.includes(id)) event.hide(id);
+    if (!excludedItemsChipped.includes(id)) event.hide(id);
+  });
+  Ingredient.of(/^rechiseled:/).itemIds.forEach((id) => {
+    if (!excludedItemsRechiseled.includes(id)) event.hide(id);
   });
 });
+
+// hide all the new Wither Aconite recipes
+JEIEvents.removeRecipes(event => {
+  for (let data = 1255; data < 1272; data++) {
+    event.remove('botania:petals', `mythicbotany:wither_aconite_${data}`)
+  }
+})
 
 JEIEvents.removeCategories((event) => {
   // console.log(event.categoryIds)
@@ -28,6 +40,7 @@ JEIEvents.removeCategories((event) => {
     'cyclic:packager',
     'tconstruct:worktable',
     'packagedauto:fluid_package_contents',
+    'packagedauto:volume_package',
     'packagedauto:fluid_package_filling',
     'evolvedmekanism:solidification_chamber',
     'evolvedmekanism:thermalizer',

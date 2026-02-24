@@ -3674,48 +3674,6 @@
 			y: -7.0d
 		}
 		{
-			dependencies: ["6D02F65F8994ECA0"]
-			description: ["This is a &cthrowable bomb&r made from flint and &0gunpowder,&r great for &cdestroying&r &ablocks&r and &eplayers.&r"]
-			hide_until_deps_complete: true
-			id: "096F71DEEDF355E0"
-			rewards: [
-				{
-					id: "50DF9B9878FD09D9"
-					type: "xp"
-					xp: 70
-				}
-				{
-					count: 7
-					id: "263DB820DB43009F"
-					item: "minecraft:gunpowder"
-					random_bonus: 5
-					type: "item"
-				}
-				{
-					id: "4A944DD5A724890F"
-					item: "kubejs:apotheotic_coin"
-					type: "item"
-				}
-			]
-			shape: "octagon"
-			subtitle: "Pretty much a gernade "
-			tasks: [{
-				id: "13E9B080CBD095B8"
-				item: {
-					Count: 1
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": {
-							BuiltInEnchantments: [ ]
-						}
-					}
-					id: "tconstruct:efln_ball"
-				}
-				type: "item"
-			}]
-			x: -5.0d
-			y: 0.0d
-		}
-		{
 			dependencies: ["0B6AEE7A98A236F3"]
 			description: ["Essentially &9Diamond armor&r with more &aupgrade slots&r and some &6knockback resistance&r."]
 			id: "7449CC6073120055"

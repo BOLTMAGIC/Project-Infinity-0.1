@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "mm:block/prediction_chamber_controller",
+      "y": 270
+    },
+    "facing=north": {
+      "model": "mm:block/prediction_chamber_controller",
+      "y": 180
+    },
+    "facing=south": {
+      "model": "mm:block/prediction_chamber_controller"
+    },
+    "facing=west": {
+      "model": "mm:block/prediction_chamber_controller",
+      "y": 90
+    }
+  }
+}

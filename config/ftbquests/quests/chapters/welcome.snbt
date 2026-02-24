@@ -7,14 +7,6 @@
 	id: "69DBD1BDA43872D9"
 	images: [
 		{
-			height: 1.0d
-			image: "abyssal_descent:block/abyss_portal"
-			rotation: 0.0d
-			width: 0.03125d
-			x: -3.0d
-			y: -15.0d
-		}
-		{
 			click: "#6BD02BDE3155F746"
 			height: 3.0d
 			hover: ["Shop"]
@@ -23,6 +15,14 @@
 			width: 3.0d
 			x: -4.0d
 			y: -3.5d
+		}
+		{
+			height: 4.0d
+			image: "kubejs:block/screen/project_infinity_logo"
+			rotation: 0.0d
+			width: 8.0d
+			x: -3.0d
+			y: -6.5d
 		}
 	]
 	order_index: 0

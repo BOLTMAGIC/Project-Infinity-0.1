@@ -22,7 +22,7 @@
       "model": "mysticalagriculture:block/mystical_resource_crop_6"
     },
     "age=7": {
-      "model": "mysticalagriculture:block/coal_flower"
+      "model": "mysticalagriculture:block/dragon_egg_crop"
     }
   }
 }

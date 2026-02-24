@@ -3,5 +3,4 @@ MMEvents.registerControllers((event) => {
     .create('essenceforge_controller')
     .name('Essenceforge Controller')
     .type('mm:machine')
-    .parallelProcessingDefault(true);
 });

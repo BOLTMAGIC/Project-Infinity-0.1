@@ -131,7 +131,7 @@
 		#Keys with ':' must be quoted, e.g. { "minecraft:glass" = 1 }.
 		#Default: empty map.
 		[general.Research.researchUnitExtraQBlocks]
-			"avaritia:infinity" = 35
+			"avaritia:infinity" = 40
 			"avaritia:neutron" = 25
 			"avaritia:crystal_matrix" = 22
 			"kubejs:empowered_super_block" = 20

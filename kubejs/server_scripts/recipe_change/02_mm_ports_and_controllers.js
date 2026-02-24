@@ -96,7 +96,7 @@ ServerEvents.recipes((event) => {
     '#forge:ingots/cobalt',
   ]);
 
-    create3x3(event, 'mm:compressed_titanic_item_port_input', [
+  create3x3(event, 'mm:compressed_titanic_item_port_input', [
     '#forge:ingots/cobalt',
     'minecraft:chest',
     '#forge:ingots/cobalt',
@@ -204,7 +204,7 @@ ServerEvents.recipes((event) => {
     '#forge:ingots/cobalt',
   ]);
 
-    create3x3(event, 'mm:compressed_titanic_item_port_output', [
+  create3x3(event, 'mm:compressed_titanic_item_port_output', [
     '#forge:ingots/cobalt',
     'minecraft:hopper',
     '#forge:ingots/cobalt',
@@ -588,7 +588,7 @@ ServerEvents.recipes((event) => {
     'thermal:redstone_servo',
   ]);
 
-    create3x3(event, 'mm:loot_fabrication_plant_controller', [
+  create3x3(event, 'mm:loot_fabrication_plant_controller', [
     'thermal:redstone_servo',
     'extrahnn:simulator_modeling',
     'thermal:rf_coil',
@@ -597,6 +597,18 @@ ServerEvents.recipes((event) => {
     'common_ore_library:cobalt_block',
     'thermal:rf_coil',
     'extrahnn:merger_camera',
+    'thermal:redstone_servo',
+  ]);
+
+  create3x3(event, 'mm:prediction_chamber_controller', [
+    'thermal:redstone_servo',
+    'extrahnn:merger_camera',
+    'thermal:rf_coil',
+    'common_ore_library:cobalt_block',
+    'botania:elementium_ingot',
+    'common_ore_library:cobalt_block',
+    'thermal:rf_coil',
+    'extrahnn:simulator_modeling',
     'thermal:redstone_servo',
   ]);
 

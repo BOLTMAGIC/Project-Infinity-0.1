@@ -3,7 +3,7 @@
 moduleEnergyUsage = 25.0
 #The amount of AE energy used to transmute items, per 2000 EMC.
 #Range: 0.0 ~ 1.7976931348623157E308
-transmutationPowerMultiplier = 1.0
+transmutationPowerMultiplier = 1.0E-4
 #The number of EMC units (of any tier) per byte as used in AE2 auto-crafting.
 #It is not recommended to set this very low as this will require unreasonably large
 #amounts of crafting storage for some jobs.

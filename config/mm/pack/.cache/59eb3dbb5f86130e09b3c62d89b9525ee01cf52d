@@ -1,4 +1,4 @@
-// 1.20.1	2026-01-30T19:46:08.8923576	Loot Tables
+// 1.20.1	2026-02-16T20:36:30.0687402	Loot Tables
 9fdf7151e82498699c3950ae185e9dbb659b4078 data/mm/loot_tables/blocks/advanced_awakening_altar_controller.json
 ccf1aa2ca4c6307c261df07dee94e2c12475dbae data/mm/loot_tables/blocks/auto_crusher_controller.json
 f68253f0235bfc5d0979ebdd642ea96b410ece4f data/mm/loot_tables/blocks/auto_sieve_controller.json
@@ -42,6 +42,7 @@ aae250d919b71ab3b1e31ac05c9cdb3b65ee382a data/mm/loot_tables/blocks/normal_fluid
 a93dae29928a6b96280e1c27849dbb46fa234f7f data/mm/loot_tables/blocks/normal_item_port_input.json
 6e89f8ddc685f64712d5f9a99222981ed8640b55 data/mm/loot_tables/blocks/normal_item_port_output.json
 6aa22111264d0e77e98b03837386bf900aa50536 data/mm/loot_tables/blocks/pinky_controller.json
+401cfa704b0e2565317b70fe3f36bfd0e3d40541 data/mm/loot_tables/blocks/prediction_chamber_controller.json
 16c35504df49060e3280b80f64e7e651e1af1e43 data/mm/loot_tables/blocks/small_energy_port_input.json
 43f3960a33510de05b775c5e4ca392bc4d61b114 data/mm/loot_tables/blocks/small_energy_port_output.json
 bcd882a984d8f0be09810f6232b1c44acd4c3b84 data/mm/loot_tables/blocks/small_fluid_port_input.json

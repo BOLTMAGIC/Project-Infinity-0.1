@@ -11,10 +11,10 @@ MMEvents.createStructures((event) => {
         .layer(['ADEEEDA', 'DF   GD', 'E     E', 'DH   ID', 'ALECEJA'])
         .layer(['ABBBBBA', 'BBBBBBB', 'BBBBBBB', 'BBBBBBB', 'ABBBBBA'])
         .key('A', {
-          block: 'actuallyadditions:ender_casing',
+          block: 'evolvedmekanism:apt_casing',
         })
         .key('B', {
-          block: 'evolvedmekanism:apt_casing',
+          block: 'actuallyadditions:ender_casing',
         })
         .key('D', {
           block: 'chisel_chipped_integration:factory_blue_framed_circuit',

@@ -257,6 +257,7 @@ function createTier6SeedRecipes (event, seeds) {
       )
       .structureId('mm:essenceforge_tier3_structure')
       .ticks(100)
+      .parallelProcessing(true)
       .input({
         type: 'mm:input/consume',
         ingredient: { type: 'mm:energy', amount: 1000000000 },

@@ -30,3 +30,18 @@
 		#Range: 0 ~ 10000
 		time_system_cache_ttl = 100
 
+	[dragonlib_common_config.networking]
+		#in Seconds
+		#The time to wait for a response before an error is thrown. (Default: 60)
+		#Range: 10 ~ 300
+		response_timeout = 60
+		#in Seconds
+		#The maximum amount of time a networking thread can be busy before the task is terminated. (Default: 30)
+		#A WORLD RESTART IS REQUIRED FOR CHANGES TO TAKE EFFECT!
+		#Range: 10 ~ 60
+		thread_timeout = 30
+		#The number of threads to be used for networking. This should not exceed the number of available CPU cores, as more threads will cause performance issues. By default (auto = 0), the amount of available CPU cores are used, but at least two. (Default: 0)
+		#A WORLD RESTART IS REQUIRED FOR CHANGES TO TAKE EFFECT!
+		#Range: 0 ~ 32
+		thread_count = 0
+

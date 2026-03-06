@@ -2683,11 +2683,6 @@
 		}
 		{
 			dependencies: ["41E5E6BF7CB5063F"]
-			description: [
-				"You cant see this Item in JEI. "
-				"You can look at it while pressing U on a basalt block from enviromental materials"
-				"{image:kubejs:block/screen/basalt_seed width:175 height:100 align:center fit:true}"
-			]
 			id: "0E3B02CFA566ADDE"
 			rewards: [{
 				id: "639FB3B3DF43D43D"

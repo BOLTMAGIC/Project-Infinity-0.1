@@ -20,15 +20,16 @@ creative items recipes!
 EMC
 
 /---------------------------------------------------------------------------------------------------------------/
-changelog v. 0.0.47.2
+changelog v. 0.0.47.3
 -updated some mods
 ----------------------------------------------------------------------------------------
 Mod added:
--Rechiseled
--Rechiseled Chipped
+-
 ----------------------------------------------------------------------------------------
 Mods removed:
--none
+-DragonLib (thx to grinchfan22)
+-Whats that slot
+-FindME
 ----------------------------------------------------------------------------------------
 Mod INFO:
 -mods maybe getting removed:
@@ -36,37 +37,19 @@ Mod INFO:
     -Occultism
     -Chemlib and Alchemistry
     -Chance Cube
-    -Whats this slot
-
+    
 ----------------------------------------------------------------------------------------
 Recipe changes and fixes:
--fixed infinity crucible in mbtool
--fixed Lord Pumpkinhead Recipe
--changed and fixed creative power source recipe (thx to MiniMaxi)
--added 6 new dummy items for draconic (thx to MiniMaxi)
--changed event horizon recipes from 4 to 1 tick each
--changed polonium to antimatter recipe and added a new recipe
--fixed wither aconite craft
--changed MasterfulMachinery Textures (thx to MiniMaxi!!!!!)
--changed Powah quest (thx to Gahooner)
--changed Compution Power for Infinity Block from 35 to 40 means you need 14 Infinity Blocks for Infinity 9 Research
--changed the recipes for the loot fabrication plant
-    -this multiblock will use the predictions and create items like zombie prediction to iron ingot
--added a new multiblock to generate predictions (prediction chamber) (thx to br3ndaddy for the name)
--fixed a dupe (thx to iron4695)
--added fire attuned tier 2 multiblock
--disabled parallelProcessing for T1 and T2. lowered the essence value for T2 from 512 to 256 (thx to laynord. hate him not me)
--added EMC to crystaltine ingot (250 Million EMC per ingot) (thx to kyo297)
--added a new dummy item (wither token)
--fixed wither aconite recipe (thx to MiniMaxi)
--added a recipe for the dragon_upgrade_template
--fixed seeds not working with growth accelerator (thx to MiniMaxi)
--changed Wireless Transeiver recipe (thx to MiniMaxi)
+-fixed hydroangeas and pure daisy craft (Thx to MiniMaxi!)
+-fixed essenceforge parallelProcessing (thx to thornado7942)
+-added ME Inf lava cell (thx to vmohammad_ and grinchfan22)
+-added dirt, gravel, sand, dust, netherrack, end stone, blackstone, prosperity shard ME inf Cells (thx to srgato.)
+-added soul lava to get used in the Powah Magmator
 ----------------------------------------------------------------------------------------
 Mod changes and fixes:
--updated Botanical Machinery Extra to add the pure daisy water to snow block feature
+-downgraded Botanical Machinery Extra to fix a crash
+    -the pure daisy water to snow block feature is not working anymore. sorry!
 /---------------------------
 known bugs:
 -polymorph (changing the output for mod conflicts) is not possible with tinkers crafting station
--there are some tier 6 seed that dont have a texture inside the hydroponic bed from industrial foregoing
--Its not possible to see the marble and basalt seeds from mystical agriculture. they are hidden by code because there is not the correct chisel mod installed
+-Its not possible to see the marble seed from mystical agriculture. its  hidden by code because there is not the correct chisel mod installed

@@ -26,11 +26,11 @@
 	#Allowed Values: OFF, VANILLA, SIMPLE, FANCY
 	"What kind of healthbar should be used by default?" = "FANCY"
 	#Allowed Values: DEFAULT, OFF, VANILLA, SIMPLE, FANCY
-	"What kind of healthbar should the Warden use?" = "DEFAULT"
+	"What kind of healthbar should the Warden use?" = "VANILLA"
 	#Allowed Values: DEFAULT, OFF, VANILLA, SIMPLE, FANCY
-	"What kind of healthbar should the Ender Dragon use?" = "DEFAULT"
+	"What kind of healthbar should the Ender Dragon use?" = "VANILLA"
 	#Allowed Values: DEFAULT, OFF, VANILLA, SIMPLE, FANCY
-	"What kind of healthbar should the Wither use?" = "DEFAULT"
+	"What kind of healthbar should the Wither use?" = "VANILLA"
 	#Allowed Values: DEFAULT, OFF, VANILLA, SIMPLE, FANCY
 	"What kind of healthbar should Skor, The Yeti use?" = "DEFAULT"
 	#Allowed Values: DEFAULT, OFF, VANILLA, SIMPLE, FANCY

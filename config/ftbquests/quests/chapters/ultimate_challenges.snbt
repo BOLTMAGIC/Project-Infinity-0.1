@@ -115,13 +115,13 @@
 			]
 			shape: "square"
 			size: 1.6d
-			subtitle: "Spend 1 million of diamonds to benefit poor"
+			subtitle: "Spend 5 million of diamonds to benefit poor"
 			tasks: [{
 				consume_items: true
 				count: 5000000L
 				id: "79ACBA57DC39394B"
 				item: "minecraft:diamond"
-				title: "1,000,000 Diamonds"
+				title: "5,000,000 Diamonds"
 				type: "item"
 			}]
 			title: "&9Robin Hood"
@@ -552,13 +552,13 @@
 			]
 			shape: "square"
 			size: 1.6d
-			subtitle: "Spend 1 million Wood"
+			subtitle: "Spend 10 million Wood"
 			tasks: [{
 				consume_items: true
 				count: 10000000L
 				id: "6C4EDABA20BE140C"
 				item: "minecraft:oak_log"
-				title: "1,000,000 Wood"
+				title: "10,000,000 Wood"
 				type: "item"
 			}]
 			title: "&9Robin Wood"
@@ -618,7 +618,7 @@
 				count: 2500000L
 				id: "31023B177EBC52E0"
 				item: "minecraft:emerald"
-				title: "1,000,000 Emeralds"
+				title: "2,500,000 Emeralds"
 				type: "item"
 			}]
 			title: "&2Emerald Endowment"

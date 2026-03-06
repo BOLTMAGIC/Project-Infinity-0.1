@@ -107,3 +107,8 @@
 	#The tick rate for the Netherite Magmator [Default: 1]
 	netheriteTickRate = 1
 
+#Upgrades
+[upgrades]
+	#Should the mass upgrade reroll the loot table or otherwise duplicate the already rolled items [Default: true]
+	massRerollLoot = true
+

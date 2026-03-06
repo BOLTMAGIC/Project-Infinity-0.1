@@ -20,13 +20,6 @@ JEIEvents.hideItems((event) => {
   });
 });
 
-// hide all the new Wither Aconite recipes
-JEIEvents.removeRecipes(event => {
-  for (let data = 1255; data < 1272; data++) {
-    event.remove('botania:petals', `mythicbotany:wither_aconite_${data}`)
-  }
-})
-
 JEIEvents.removeCategories((event) => {
   // console.log(event.categoryIds)
   event.remove([

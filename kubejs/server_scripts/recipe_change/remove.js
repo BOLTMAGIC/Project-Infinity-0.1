@@ -498,7 +498,7 @@ const removeItemsbyID = [
   'industrialforegoing:dissolution_chamber/processing_addon_1',
   'industrialforegoing:dissolution_chamber/efficiency_addon_1',
   'industrialforegoing:item_transporter_type',
-  '',
+  'avaritia:eternal_singularity',
   '',
   '',
   '',

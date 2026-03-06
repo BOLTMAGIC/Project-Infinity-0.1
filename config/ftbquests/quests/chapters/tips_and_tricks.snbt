@@ -605,8 +605,7 @@
 		{
 			dependency_requirement: "all_started"
 			description: [
-				"&6Pipez&r mod adds &o&bsimple&r and &o&bhighly configurable&r pipes that are designed to create"
-				"&nas little lag as possible&r."
+				"&6Pipez&r mod adds &o&bsimple&r and &o&bhighly configurable&r pipes."
 				""
 				"Pipe Types:"
 				"• &eItem&r Pipes"

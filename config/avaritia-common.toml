@@ -53,7 +53,7 @@
 		[emc.config.avaritia]
 			#config.avaritia.neutron_pile_emc.tooltip
 			#Range: > 0
-			neutron_pile_emc = 100
+			neutron_pile_emc = 0
 			#config.avaritia.vanilla_totem_emc.tooltip
 			#Range: > 0
 			vanilla_totem_emc = 1000

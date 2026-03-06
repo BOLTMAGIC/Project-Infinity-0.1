@@ -134,22 +134,6 @@ ServerEvents.tags('block', (event) => {
     'allthemodium:unobtainium_allthemodium_alloy_block',
     'allthemodium:unobtainium_vibranium_alloy_block',
   ]);
-
-  event.add('ae2:growth_acceleratable', [
-    'mysticalagriculture:boron_crop',
-    'mysticalagriculture:cognizant_dust_crop',
-    'mysticalagriculture:dark_metal_ingot_crop',
-    'mysticalagriculture:niter_crop',
-    'mysticalagriculture:plastic_crop',
-    'mysticalagriculture:iesnium_crop',
-    'mysticalagriculture:ignitium_crop',
-    'mysticalagriculture:sky_steel_crop',
-    'mysticalagriculture:allthemodium_crop',
-    'mysticalagriculture:unobtainium_crop',
-    'mysticalagriculture:vibranium_crop',
-    'mysticalagriculture:plutonium_crop',
-    'mysticalagriculture:lithium_crop',
-  ]);
 });
 
 const hammer = [
@@ -207,3 +191,21 @@ ServerEvents.tags('fluid', (event) => {
   event.add('bloodmagic:life_essence_fluid', 'bloodmagic:life_essence_fluid');
   event.add('forge:steam', ['bigreactors:steam', 'bigreactors:steam_vapor']);
 });
+
+ServerEvents.tags('block', event => {
+  event.add('ae2:growth_acceleratable', [
+    'mysticalagriculture:boron_crop',
+    'mysticalagriculture:cognizant_dust_crop',
+    'mysticalagriculture:dark_metal_ingot_crop',
+    'mysticalagriculture:niter_crop',
+    'mysticalagriculture:plastic_crop',
+    'mysticalagriculture:iesnium_crop',
+    'mysticalagriculture:ignitium_crop',
+    'mysticalagriculture:sky_steel_crop',
+    'mysticalagriculture:allthemodium_crop',
+    'mysticalagriculture:unobtainium_crop',
+    'mysticalagriculture:vibranium_crop',
+    'mysticalagriculture:plutonium_crop',
+    'mysticalagriculture:lithium_crop',
+  ]);
+})

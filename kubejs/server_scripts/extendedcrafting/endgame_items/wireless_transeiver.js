@@ -6,9 +6,9 @@ ServerEvents.recipes((event) => {
       pattern: [
         'AA   AA',
         'ABB BBA',
-        ' BCDEB ',
+        ' BCDCB ',
         ' FGHIF ',
-        ' BEJCB ',
+        ' BCJCB ',
         'ABB BBA',
         'AA   AA',
       ],
@@ -20,33 +20,30 @@ ServerEvents.recipes((event) => {
           item: 'ae2:quantum_link',
         },
         C: {
-          item: 'extendedae_plus:infinity_core',
+          item: 'ae2omnicells:quantum_omni_cell_component_64k',
         },
         D: {
           item: 'ae2omnicells:spent_nuclear_waste_singularity',
         },
-        E: {
-          item: 'extendedae_plus:infinity_core',
-        },
         F: {
-          item: 'botanicalextramachinery:crimson_dragonstone',
+          item: 'botanicalextramachinery:malachite_dragonstone',
         },
         G: {
-          item: 'ae2:quantum_entangled_singularity',
+          item: 'ae2:singularity',
         },
         H: {
-          item: 'crazyae2addons:super_singularity',
+          item: 'ae2omnicells:singularity_block',
         },
         I: {
           item: 'extendedae_plus:oblivion_singularity',
         },
         J: {
-          item: 'ae2omnicells:singularity_block',
+          item: 'aeinfinitybooster:dimension_card',
         },
       },
       result: {
         item: 'extendedae_plus:wireless_transceiver',
       },
     })
-    .id('extendedae_plus:wireless_transceiver');
+    .id('extendedae_plus:wireless_transceiver4');
 });

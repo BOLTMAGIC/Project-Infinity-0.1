@@ -4,5 +4,7 @@
   "minecraft:blasting": "高炉",
   "gtceu:assembler": "组装机",
   "assembler": "组装机",
-  "minecraft:smoking": "烟熏"
+  "minecraft:smoking": "烟熏",
+  "smelter": "1",
+  "1": "smelter"
 }

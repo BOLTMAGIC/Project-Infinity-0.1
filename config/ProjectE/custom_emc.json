@@ -2,19 +2,19 @@
   "entries": [
     {
       "item": "projecte:transmutation_table",
-      "emc": 2000000000
+      "emc": 2000000001
     },
     {
       "item": "projecte:transmutation_tablet",
-      "emc": 2000000000
+      "emc": 2000000001
     },
     {
       "item": "projecte:condenser_mk2",
-      "emc": 2000000000
+      "emc": 2000000001
     },
     {
       "item": "projecte:condenser_mk1",
-      "emc": 1000000000
+      "emc": 1000000001
     },
     {
       "item": "kubejs:infinity_11",
@@ -178,7 +178,119 @@
     },
     {
       "item": "extendedcrafting:crystaltine_ingot",
-      "emc": 250000000
+      "emc": 250000001
+    },
+    {
+      "item": "avaritia:eternal_singularity",
+      "emc": 0
+    },
+    {
+      "item": "avaritia:singularity{Id:\"avaritia:emerald\"}",
+      "emc": 0
+    },
+    {
+      "item": "avaritia:singularity{Id:\"avaritia:iron\"}",
+      "emc": 0
+    },
+    {
+      "item": "avaritia:singularity{Id:\"avaritia:platinum\"}",
+      "emc": 0
+    },
+    {
+      "item": "avaritia:singularity{Id:\"avaritia:glowstone\"}",
+      "emc": 0
+    },
+    {
+      "item": "avaritia:singularity{Id:\"avaritia:bronze\"}",
+      "emc": 0
+    },
+    {
+      "item": "avaritia:singularity{Id:\"avaritia:coal\"}",
+      "emc": 0
+    },
+    {
+      "item": "avaritia:singularity{Id:\"avaritia:uranium\"}",
+      "emc": 0
+    },
+    {
+      "item": "avaritia:singularity{Id:\"avaritia:obsidian\"}",
+      "emc": 0
+    },
+    {
+      "item": "avaritia:singularity{Id:\"avaritia:copper\"}",
+      "emc": 0
+    },
+    {
+      "item": "avaritia:singularity{Id:\"avaritia:redstone\"}",
+      "emc": 0
+    },
+    {
+      "item": "avaritia:singularity{Id:\"avaritia:invar\"}",
+      "emc": 0
+    },
+    {
+      "item": "avaritia:singularity{Id:\"avaritia:blue_ice\"}",
+      "emc": 0
+    },
+    {
+      "item": "avaritia:singularity{Id:\"avaritia:aluminum\"}",
+      "emc": 0
+    },
+    {
+      "item": "avaritia:singularity{Id:\"avaritia:silver\"}",
+      "emc": 0
+    },
+    {
+      "item": "avaritia:singularity{Id:\"avaritia:refined_obsidian\"}",
+      "emc": 0
+    },
+    {
+      "item": "avaritia:singularity{Id:\"avaritia:steel\"}",
+      "emc": 0
+    },
+    {
+      "item": "avaritia:singularity{Id:\"avaritia:osmium\"}",
+      "emc": 0
+    },
+    {
+      "item": "avaritia:singularity{Id:\"avaritia:lead\"}",
+      "emc": 0
+    },
+    {
+      "item": "avaritia:singularity{Id:\"avaritia:quartz\"}",
+      "emc": 0
+    },
+    {
+      "item": "avaritia:singularity{Id:\"avaritia:gold\"}",
+      "emc": 0
+    },
+    {
+      "item": "avaritia:singularity{Id:\"avaritia:amethyst_shard\"}",
+      "emc": 0
+    },
+    {
+      "item": "avaritia:singularity{Id:\"avaritia:netherite\"}",
+      "emc": 0
+    },
+    {
+      "item": "avaritia:singularity{Id:\"avaritia:tin\"}",
+      "emc": 0
+    },
+    {
+      "item": "avaritia:singularity{Id:\"avaritia:diamond\"}",
+      "emc": 0
+    },
+    {
+      "item": "avaritia:singularity{Id:\"avaritia:nickel\"}",
+      "emc": 0
+    },
+    {
+      "item": "avaritia:singularity{Id:\"avaritia:lapis_lazuli\"}",
+      "emc": 0
+    },
+    {
+      "item": "avaritia:singularity{Id:\"avaritia:electrum\"}",
+      "emc": 0
     }
   ]
 }

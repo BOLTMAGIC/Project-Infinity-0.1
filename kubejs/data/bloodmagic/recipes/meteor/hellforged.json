@@ -31,11 +31,11 @@
                 },
                 {
                     "block": "bloodmagic:speedrune2",
-                    "weight": 30
+                    "weight": 35
                 },
                 {
                     "block": "bloodmagic:altarcapacityrune2",
-                    "weight": 30
+                    "weight": 35
                 }
             ]
         }

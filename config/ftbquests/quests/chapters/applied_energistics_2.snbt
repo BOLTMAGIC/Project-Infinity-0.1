@@ -8,36 +8,37 @@
 	id: "6E88892132CCED84"
 	images: [
 		{
-			height: 2.0d
-			image: "ae2:block/mysterious_cube_bottom"
+			height: 3.0d
+			image: "ae2:block/controller_lights"
 			rotation: 0.0d
-			width: 2.0d
+			width: 3.0d
 			x: 0.0d
 			y: 0.0d
 		}
 		{
-			height: 2.0d
-			image: "ae2:block/quantum_ring_light"
+			height: 3.0d
+			image: "ae2:block/molecular_assembler_lights"
 			rotation: 0.0d
-			width: 2.0d
+			width: 3.0d
 			x: 0.0d
 			y: 0.0d
 		}
 		{
-			height: 2.0d
-			image: "ae2:block/quantum_ring_light_corner"
+			height: 5.0d
+			image: "kubejs:block/screen/extended_ae_multiblock"
+			order: 1
 			rotation: 0.0d
-			width: 2.0d
-			x: 0.0d
-			y: 0.0d
+			width: 5.0d
+			x: 13.5d
+			y: 1.0d
 		}
 		{
-			height: 2.0d
-			image: "ae2:block/mysterious_cube_side"
+			height: 5.0d
+			image: "kubejs:block/screen/advanced_ae_multiblock"
 			rotation: 0.0d
-			width: 2.0d
-			x: 0.0d
-			y: 0.0d
+			width: 5.0d
+			x: 13.5d
+			y: 5.0d
 		}
 	]
 	order_index: 0
@@ -2106,6 +2107,311 @@
 			}]
 			x: -2.0d
 			y: 14.0d
+		}
+		{
+			dependencies: ["6EE4B174356FB915"]
+			description: [
+				"&7The &bQuantum Computer&7 is a special type of crafting computer designed to handle an &eunlimited number of crafting requests&7—as long as it has enough &bcrafting storage&7 available."
+				" "
+				"&6Quantum Core&r  "
+				"&7The &bQuantum Core&7 is the heart of the system: it works standalone and provides &b256M crafting storage&7 plus &b8 co-processors&7 on its own."
+				"&7When used standalone, power must be provided through the &eUp or Down&7 sides (where the connectors are). "
+				""
+				"&6Storage expansion&r  "
+				"&7Use &bQuantum Storage&7 blocks to increase the available crafting storage and therefore improve how many concurrent tasks the computer can handle. "
+				"&7Two variants exist: &b128M&7 and &b256M&7 capacity."
+				""
+				"&6Performance blocks&r  "
+				"&bQuantum Accelerator&7: Adds &b8 co-processors&7 to the multiblock, and all crafting tasks can share the available co-processors—so stacking accelerators is very effective. "
+				"&bQuantum Data Entangler&7: Multiplies the storage of all storage blocks in the multiblock by &b4x&7, and only &eone&7 can be placed. "
+				"&bQuantum Multi-threader&7: Multiplies total co-processing power by &b4x&7, and only &eone&7 can be placed. "
+				""
+				"&6Multiblock rules&r  "
+				"&7The Quantum Computer multiblock can scale up to &b7x7x7&7 (external dimensions). "
+				""
+				"&7The outside layer must be &bQuantum Structure&7 blocks, and &eQuantum Structure cannot be placed inside&7 the multiblock. "
+				""
+				"&7The interior must contain &eno empty spaces&7 (you can fill extra space with &bQuantum Unit&7 blocks for no additional benefit). "
+				""
+				"&7Place &eexactly one&7 &bQuantum Core&7, and at most &eone&7 &bData Entangler&7 and at most &eone&7 &bMulti-threader&7. "
+			]
+			icon: "advanced_ae:quantum_core"
+			id: "32A2624C78A14A38"
+			min_width: 400
+			rewards: [{
+				id: "15C6C14E703C1888"
+				item: "kubejs:infused_coin"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "74608F728A76FA1E"
+					item: "advanced_ae:quantum_core"
+					type: "item"
+				}
+				{
+					id: "200B5DDA8B9BCB5C"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "advanced_ae:quantum_storage_128"
+								}
+								{
+									Count: 1b
+									id: "advanced_ae:quantum_storage_256"
+								}
+							]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3EC4FEF23997F35A"
+					item: "advanced_ae:quantum_structure"
+					type: "item"
+				}
+				{
+					id: "19C29BD797BA3D3D"
+					item: "advanced_ae:data_entangler"
+					type: "item"
+				}
+				{
+					id: "5552494FF4FB7FA6"
+					item: "advanced_ae:quantum_multi_threader"
+					type: "item"
+				}
+				{
+					id: "0103C11AF62AE89C"
+					item: "advanced_ae:quantum_accelerator"
+					type: "item"
+				}
+			]
+			title: "&9&lQuantum Crafter&r"
+			x: 8.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["6EE4B174356FB915"]
+			description: [
+				"&7A powerful multiblock that merges the functionality of a &bMolecular Assembler&7 and a &bPattern Provider&7. It helps you process &emultiple crafting tasks in parallel&7 (especially with enough &bCrafting Accelerators&7 in your ME network) and can save you &achannels&7 compared to large arrays."
+				""
+				"&6How to build&r"
+				"&7The Matrix is a solid &erectangular prism&7 with edge lengths from &b3 to 7&7 blocks."
+				""
+				"&bEdges:&7 Use &9Assembler Matrix Frame&7"
+				""
+				"&bOuter faces:&7 Use &9Assembler Matrix Wall&7 and/or &9Assembler Matrix Glass&7"
+				""
+				"&bInside (must be fully filled):&7 Use any mix of &9Pattern Core&7, &9Craft Core&7, and &9Speed Core&7"
+				""
+				"&cRules:&7 The structure &cmust not be hollow&7 and must be completely filled."
+				"&cRequired:&7 At least &e1x Pattern Core&7 and &e1x Craft Core&7 must be inside."
+				""
+				"&6&lFormed state&r"
+				"&7Once the structure is correct and receiving power, the lines on the &9Frame&7 glow &bblue&7. That indicates the Matrix is &aonline&7."
+				""
+				"&6&lCore functions&r"
+				"&9&lPattern Core&r"
+				"&7The Matrix only reads crafting patterns from its Pattern Cores."
+				"&7Each Pattern Core provides &b36 pattern slots&7."
+				""
+				"&9&lCraft Core&r"
+				"&7Crafting jobs get distributed across Craft Cores."
+				"&7Each Craft Core can run &b8 jobs simultaneously&7."
+				""
+				"&9&lSpeed Core&r"
+				"&7Speed Cores act like a built-in &bSpeed Card&7 upgrade."
+				"&7With &b5 Speed Cores&7, the Matrix reaches &afull speed&7; more than 5 gives no further benefit."
+				""
+				"&6&lAssembler Matrix Plus Cores&r"
+				"&7The Assembler Matrix can be upgraded with three &bPlus Cores&7. They work like the original cores, but with &egreatly increased stats&7."
+				"&bAssembler Matrix Pattern Core+&7: Provides &e72 pattern slots&7 per core"
+				"&bAssembler Matrix Craft Core+&7: Runs &e32 crafting jobs in parallel&7 per core"
+				"&bAssembler Matrix Speed Core+&7: Gives &e5x the effect&7 of a regular Speed Core for the Matrix"
+			]
+			id: "4D529BF135A82201"
+			min_width: 400
+			rewards: [{
+				id: "2456A4F89B9D9E57"
+				item: "kubejs:infused_coin"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "26D44795977486A4"
+					item: "expatternprovider:assembler_matrix_frame"
+					type: "item"
+				}
+				{
+					id: "047C599D4865548D"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "expatternprovider:assembler_matrix_wall"
+								}
+								{
+									Count: 1b
+									id: "expatternprovider:assembler_matrix_glass"
+								}
+							]
+						}
+					}
+					title: "Assembler Matrix Glass/ Wall"
+					type: "item"
+				}
+				{
+					id: "1B0312699C25FBA9"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "expatternprovider:assembler_matrix_pattern"
+								}
+								{
+									Count: 1b
+									id: "extendedae_plus:assembler_matrix_pattern_plus"
+								}
+							]
+						}
+					}
+					title: "Pattern Core"
+					type: "item"
+				}
+				{
+					id: "1CC037F387F7A881"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "expatternprovider:assembler_matrix_crafter"
+								}
+								{
+									Count: 1b
+									id: "extendedae_plus:assembler_matrix_crafter_plus"
+								}
+							]
+						}
+					}
+					title: "Craft Core"
+					type: "item"
+				}
+				{
+					id: "7175544BDC339B12"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "expatternprovider:assembler_matrix_speed"
+								}
+								{
+									Count: 1b
+									id: "extendedae_plus:assembler_matrix_speed_plus"
+								}
+							]
+						}
+					}
+					title: "Speed Core"
+					type: "item"
+				}
+			]
+			title: "&9&lAssembler Matrix&r"
+			x: 8.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["4D529BF135A82201"]
+			description: [
+				"&7The &bAssembler Matrix Upload Core&7 is a special module for your Assembler Matrix that enables &aautomatic pattern upload&7 directly from the &bPattern Encoding Terminal&7."
+				""
+				"&6&lWhat it does&r"
+				"&7When this core is installed, patterns created in the Pattern Encoding Terminal are sent to the Assembler Matrix storage &ewithout manual transfer&7, including:"
+				""
+				"&bCrafting patterns&7"
+				""
+				"&bSmelter patterns&7"
+				""
+				"&bStonecutter patterns&7"
+				""
+				"&8Note:&7 This core only affects &eautomatic uploads from the Pattern Encoding Terminal to the Assembler Matrix&7. It does &cnot&7 change how processing patterns upload to &bPattern Providers&7."
+			]
+			id: "62226CF7455EC7E8"
+			rewards: [{
+				id: "449DF9DC63D6D0E7"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "35F46CE05A180C15"
+				item: "extendedae_plus:assembler_matrix_upload_core"
+				type: "item"
+			}]
+			title: "&9&lAssembler Matrix Upload Core&r"
+			x: 10.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["6D899457C59B4562"]
+			description: [
+				"&7The &bWireless Transceiver&7 is an advanced AE wireless device that sends &eME channels&7 over the air—like wireless connectors, but with &across-dimensional&7 reach similar to Quantum Rings. One setup can feed channels to &emultiple locations&7."
+				""
+				"&6&lHow it works&r"
+				"&7The system uses a &emaster-slave&7 design:"
+				""
+				"&bMaster:&7 Connects to the source ME network and provides the channel"
+				""
+				"&bSlave:&7 Placed where you need the channel; receives it from a Master"
+				"&7A single &bMaster&7 can serve &emany Slaves&7."
+				""
+				"&6&lCross-dimensional link&r"
+				"&7Wireless Transceivers can transmit channels &eacross dimensions&7."
+				"&cRequirement:&7 The chunks containing both the Master and the Slave must stay &cloaded&7, or the connection will drop."
+				"&6&lControls (mode and frequency)&r"
+				"&7Use these actions to configure and protect your setup:"
+				""
+				"&eRight-click (empty hand):&7 Toggle &bMaster/Slave&7 mode"
+				""
+				"&eShift + Right-click:&7 Increase frequency"
+				""
+				"&eShift + Left-click:&7 Decrease frequency"
+				""
+				"&eHold Wrench + Left-click:&7 Quickly adjust frequency"
+				""
+				"&eWrench + Right-click:&7 Lock mode and frequency (prevents accidents)"
+				""
+				"&eQuartz Cutter:&7 Rename the transceiver; a Slave’s UI shows the connected Master’s name for easier management"
+			]
+			id: "427048DE91F255C6"
+			min_width: 400
+			rewards: [{
+				id: "7A896F28F1E7E100"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "202A583519600133"
+				item: "extendedae_plus:wireless_transceiver"
+				type: "item"
+			}]
+			title: "&9&lWireless Transceiver&r"
+			x: -7.0d
+			y: 11.5d
 		}
 	]
 	title: "&3Applied Energistics 2&r"

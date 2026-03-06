@@ -3,6 +3,9 @@
 # If true, unknown pipes in save data will be deleted instead of crashing.
 ignore_unknown_pipes: false
 
+# Right-clicking an item pipe with this item will toggle it between being opaque and being transparent.
+transparency_toggle_item: glass
+
 # Customizable pipe types are defined here. You can remove this section entirely if you only want pipes added by cross-mod integrations, or the redstone cable.
 pipe_types:
   - # ID of the pipe item

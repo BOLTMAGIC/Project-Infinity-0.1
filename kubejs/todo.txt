@@ -35,6 +35,8 @@ Mod INFO:
     -The Aether
     -Occultism
     -Chemlib and Alchemistry
+    -Chance Cube
+    -Whats this slot
 
 ----------------------------------------------------------------------------------------
 Recipe changes and fixes:
@@ -47,7 +49,7 @@ Recipe changes and fixes:
 -fixed wither aconite craft
 -changed MasterfulMachinery Textures (thx to MiniMaxi!!!!!)
 -changed Powah quest (thx to Gahooner)
--changed Compution Power for Infinity Block from 35 to 38 means you need 14 Infinity Blocks for Infinity 9 Research
+-changed Compution Power for Infinity Block from 35 to 40 means you need 14 Infinity Blocks for Infinity 9 Research
 -changed the recipes for the loot fabrication plant
     -this multiblock will use the predictions and create items like zombie prediction to iron ingot
 -added a new multiblock to generate predictions (prediction chamber) (thx to br3ndaddy for the name)
@@ -56,6 +58,10 @@ Recipe changes and fixes:
 -disabled parallelProcessing for T1 and T2. lowered the essence value for T2 from 512 to 256 (thx to laynord. hate him not me)
 -added EMC to crystaltine ingot (250 Million EMC per ingot) (thx to kyo297)
 -added a new dummy item (wither token)
+-fixed wither aconite recipe (thx to MiniMaxi)
+-added a recipe for the dragon_upgrade_template
+-fixed seeds not working with growth accelerator (thx to MiniMaxi)
+-changed Wireless Transeiver recipe (thx to MiniMaxi)
 ----------------------------------------------------------------------------------------
 Mod changes and fixes:
 -updated Botanical Machinery Extra to add the pure daisy water to snow block feature

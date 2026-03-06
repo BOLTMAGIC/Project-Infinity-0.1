@@ -20,16 +20,10 @@ ServerEvents.recipes((event) => {
           item: 'kubejs:infinity_11',
         },
         C: {
-          type: 'forge:nbt',
           item: 'mekanism:creative_energy_cube',
-          count: 1,
-          nbt: '{mekData:{componentConfig:{config0:{side0:1,side1:1,side2:1,side3:1,side4:1,side5:1}}}}',
         },
         D: {
-          type: 'forge:nbt',
           item: 'solarpanels:creative_energy_tablet',
-          count: 1,
-          nbt: '{mekData:{EnergyContainers:[{Container:0b,stored:\"2000000000\"}]}}',
         },
         E: {
           item: 'kubejs:tyrian_steel_ingot',

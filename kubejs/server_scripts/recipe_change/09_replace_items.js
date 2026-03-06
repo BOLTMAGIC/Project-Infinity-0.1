@@ -31,6 +31,16 @@ ServerEvents.recipes((event) => {
     'projecte:body_stone'
   );
   event.replaceInput(
+    { output: 'draconicevolution:creative_capacitor' },
+    'draconicevolution:chaotic_capacitor',
+    'kubejs:chaotic_capacitor'
+  );
+  event.replaceInput(
+    { output: 'ender_dragon_loot:dragon_hoe' },
+    'ender_dragon_loot:dragon_scale',
+    'mysticalagradditions:dragon_scale'
+  );
+  event.replaceInput(
     { output: 'cyclic:soulstone' },
     'thermal:netherite_nugget',
     'botanicalextramachinery:shadow_dragonstone'

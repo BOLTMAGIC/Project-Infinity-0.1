@@ -46,13 +46,21 @@
 			y: 0.0d
 		}
 		{
-			description: ["Good Luck :)"]
 			id: "13C237C092587F6A"
 			rewards: [{
-				id: "07E7E1DF6CC4BAF2"
-				table_id: 9128196905553497212L
-				team_reward: true
-				type: "random"
+				id: "75B51073DEB77ABA"
+				item: {
+					Count: 1
+					id: "obtrophies:display_trophy"
+					tag: {
+						BlockEntityTag: {
+							display: {
+								display: "mekanism:creative_bin"
+							}
+						}
+					}
+				}
+				type: "item"
 			}]
 			tasks: [{
 				id: "4377DD430E8B9982"
@@ -61,6 +69,39 @@
 			}]
 			x: 3.5d
 			y: 0.0d
+		}
+		{
+			id: "2971295789B17FB9"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "72461C00C6FBEF88"
+					table_id: 9128196905553497212L
+					type: "random"
+				}
+				{
+					id: "1CC406E886A814F7"
+					item: {
+						Count: 1
+						id: "obtrophies:display_trophy"
+						tag: {
+							BlockEntityTag: {
+								display: {
+									display: "ae2:creative_item_cell"
+								}
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "35573648C49B566A"
+				item: "ae2:creative_item_cell"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 2.0d
 		}
 	]
 	title: "&cEndGame"

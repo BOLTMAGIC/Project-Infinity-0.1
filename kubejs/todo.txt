@@ -23,6 +23,7 @@ changelog v. 0.0.48.0
 -----------------------------------------------------
 Mod added:
 -Recipe Advancements Nuker
+-added Spark mod
 -----------------------------------------------------
 Mods removed:
 -Chance Cube
@@ -49,6 +50,7 @@ Recipe changes and fixes:
 -fixed rechiseled to stonecutter code (thx to MiniMaxi)
 -fixed recipe viewer for the ifwootaddon:laser_drill_upgrade (thx to MiniMaxi)
 -changed collector recipe for MK2 uses inf1 and MK3 uses inf8 (thx to Color)
+-changed loot fab multiblock recipes to not use the 1 item you put into the input
 -
 -----------------------------------------------------
 Mod changes and fixes:

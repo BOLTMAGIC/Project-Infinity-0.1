@@ -41,7 +41,7 @@ MMEvents.createProcesses((event) => {
       type: 'mm:input/consume',
       ingredient: {
         type: 'mm:item',
-        item: 'kubejs:ultimate_prediction',
+        item: 'kubejs:chaos_guardian_prediction',
         count: 1,
       },
     })

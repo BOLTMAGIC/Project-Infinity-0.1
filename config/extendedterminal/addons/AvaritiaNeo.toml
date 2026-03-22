@@ -1,0 +1,14 @@
+
+#AvaritiaNeo Terminal Settings
+[AvaritiaNeo]
+
+	#Neo Extreme Crafting Terminal
+	[AvaritiaNeo."Neo Extreme Crafting Terminal"]
+		#Enable this terminal
+		Enable = true
+		#AE system must be online & powered to craft
+		"Craftable when Active" = false
+		#Passive AE/t drain
+		#Range: 0.0 ~ 1.7976931348623157E308
+		"Passive drain AE" = 1.0
+

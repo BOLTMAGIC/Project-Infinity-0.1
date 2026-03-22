@@ -1,0 +1,54 @@
+
+#Extended Crafting Terminal Settings
+[ExtendedCrafting]
+
+	#Basic Crafting Terminal
+	[ExtendedCrafting."Basic Crafting Terminal"]
+		#Enable this terminal
+		Enable = true
+		#AE system must be online & powered to craft
+		"Craftable when Active" = false
+		#Passive AE/t drain
+		#Range: 0.0 ~ 1.7976931348623157E308
+		"Passive drain AE" = 1.0
+
+	#Advanced Crafting Terminal
+	[ExtendedCrafting."Advanced Crafting Terminal"]
+		#Enable this terminal
+		Enable = true
+		#AE system must be online & powered to craft
+		"Craftable when Active" = false
+		#Passive AE/t drain
+		#Range: 0.0 ~ 1.7976931348623157E308
+		"Passive drain AE" = 1.0
+
+	#Elite Crafting Terminal
+	[ExtendedCrafting."Elite Crafting Terminal"]
+		#Enable this terminal
+		Enable = true
+		#AE system must be online & powered to craft
+		"Craftable when Active" = false
+		#Passive AE/t drain
+		#Range: 0.0 ~ 1.7976931348623157E308
+		"Passive drain AE" = 1.0
+
+	#Ultimate Crafting Terminal
+	[ExtendedCrafting."Ultimate Crafting Terminal"]
+		#Enable this terminal
+		Enable = true
+		#AE system must be online & powered to craft
+		"Craftable when Active" = false
+		#Passive AE/t drain
+		#Range: 0.0 ~ 1.7976931348623157E308
+		"Passive drain AE" = 1.0
+
+	#Epic Crafting Terminal
+	[ExtendedCrafting."Epic Crafting Terminal"]
+		#Enable this terminal
+		Enable = true
+		#AE system must be online & powered to craft
+		"Craftable when Active" = false
+		#Passive AE/t drain
+		#Range: 0.0 ~ 1.7976931348623157E308
+		"Passive drain AE" = 1.0
+

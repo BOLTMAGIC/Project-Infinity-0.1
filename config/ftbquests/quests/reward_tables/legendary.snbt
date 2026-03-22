@@ -21,18 +21,6 @@
 			type: "xp_levels"
 			xp_levels: 100
 		}
-		{
-			item: {
-				Count: 1
-				id: "hostilenetworks:data_model"
-				tag: {
-					data_model: {
-						data: 54
-						id: "hostilenetworks:ender_dragon"
-					}
-				}
-			}
-		}
 		{ item: "apotheosis:draconic_endshelf" }
 		{
 			item: {
@@ -40,7 +28,20 @@
 				id: "hostilenetworks:data_model"
 				tag: {
 					data_model: {
+						data: 1254
 						id: "hostilenetworks:wither"
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "hostilenetworks:data_model"
+				tag: {
+					data_model: {
+						data: 1254
+						id: "hostilenetworks:ender_dragon"
 					}
 				}
 			}

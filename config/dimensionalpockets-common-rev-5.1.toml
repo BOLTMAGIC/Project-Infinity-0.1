@@ -38,7 +38,7 @@
 
 [blocked]
 	#List of Structures that are blocked when inside a Pocket
-	blocked_structures = ["minecraft:bedrock", "lucky:lucky_block", "chancecubes:chance_cube", "chancecubes:chance_icosahedron", "chancecubes:giant_chance_cube", "chancecubes:cube_dispenser", "xreliquary:wraith_node"]
+	blocked_structures = ["minecraft:bedrock", "lucky:lucky_block", "xreliquary:wraith_node"]
 	#List of Items that are blocked when inside a Pocket
 	blocked_items = ["minecraft:chorus_fruit", "minecraft:ender_pearl", "xreliquary:ender_staff", "inventorypets:pet_nether_portal", "inventorypets:pet_enderman", "inventorypets:pet_silverfish", "mana-and-artifice:spell", "mana-and-artifice:spell_book", "mana-and-artifice:grimoire", "notenoughwands:teleportation_wand"]
 	#The required OP level when on servers to bypass the below blocked commands

@@ -1,9 +1,0 @@
-// Compost colors for chancecubes. You may add your own colors, change existing ones, or remove colors that aren't needed.
-chance_pendant_tier1, #b82828
-chance_pendant_tier2, #ffde3a
-chance_pendant_tier3, #25a119
-creative_pendant, #ff98d3
-reward_selector_pendant, #d23cc8
-scanner, #504e4e
-silk_touch_pendant, #ffff91
-single_use_reward_selector_pendant, #656e65

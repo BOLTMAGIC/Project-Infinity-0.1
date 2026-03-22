@@ -3,15 +3,15 @@
 	loot_size: 1
 	order_index: 36
 	rewards: [
-		{ item: "botania:elementium_ingot", random_bonus: 2 }
-		{ item: "botania:pixie_dust", random_bonus: 1 }
-		{ item: "botania:quartz_elven", random_bonus: 1 }
-		{ item: "botania:elf_glass", random_bonus: 3 }
-		{ item: "botania:dreamwood_log", random_bonus: 3 }
-		{ item: "botania:dreamwood", random_bonus: 3 }
+		{ item: "botania:elementium_ingot", random_bonus: 4 }
+		{ count: 4, item: "botania:pixie_dust", random_bonus: 16 }
+		{ count: 16, item: "botania:quartz_elven", random_bonus: 48 }
+		{ count: 16, item: "botania:elf_glass", random_bonus: 16 }
+		{ count: 32, item: "botania:dreamwood_log", random_bonus: 32 }
+		{ count: 32, item: "botania:dreamwood", random_bonus: 32 }
 		{ item: "botania:dragonstone", random_bonus: 1 }
-		{ item: "botania:black_lotus", weight: 0.2f }
-		{ item: "botania:blacker_lotus", weight: 0.1f }
+		{ item: "botania:black_lotus", random_bonus: 2, weight: 0.2f }
+		{ item: "botania:blacker_lotus", random_bonus: 1, weight: 0.1f }
 	]
 	title: "&2Elven Loot Bag&r"
 	use_title: true

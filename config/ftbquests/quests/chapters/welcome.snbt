@@ -65,7 +65,11 @@
 		{
 			dependencies: ["23BDBBD3001F9774"]
 			dependency_requirement: "one_completed"
-			description: ["Plant the Sapling and get some Logs. &6Sneak repeatedly&r to &6fertilize&r nearby Saplings and Crops."]
+			description: [
+				"Plant the Sapling and get some Logs. &6Sneak repeatedly&r to &6fertilize&r nearby Saplings and Crops."
+				""
+				"[ \"You can use \", { \"text\": \"FTB Ultimine (click me)\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"5A2174711D9219BF\" } } ]"
+			]
 			icon: "minecraft:oak_log"
 			id: "3001B2EEE5C6C9AB"
 			rewards: [{
@@ -79,7 +83,7 @@
 				icon: "minecraft:oak_log"
 				id: "1BB08F6BC4167067"
 				item: "minecraft:oak_log"
-				title: "Any #minecraft:logs"
+				title: "Logs"
 				type: "item"
 			}]
 			title: "Where it all began"
@@ -609,7 +613,13 @@
 		}
 		{
 			dependencies: ["23BDBBD3001F9774"]
-			description: ["Sneak and right click &6Grass&r to generate a &6Pebble&r, which you can turn into &6Cobblestone&r by crafting it in a 2x2 grid."]
+			description: [
+				"Sneak and right click &6Grass&r to generate a &6Pebble&r, which you can turn into &6Cobblestone&r by crafting it in a 2x2 grid."
+				""
+				""
+				"There's a keybind for compressing stacks of items to its 3x3 or 2x2 recipe through a key press."
+				"Default is Shift + K"
+			]
 			id: "3856A800287BD8F6"
 			rewards: [
 				{
@@ -669,7 +679,11 @@
 		}
 		{
 			dependencies: ["07CB0C4388DEBCA3"]
-			description: ["Later in the Pack you can build the Auto Sieve Multiblock which provides great processing power for all your sieving needs."]
+			description: [
+				"Later in the Pack you can build the Auto Sieve Multiblock which provides great processing power for all your sieving needs."
+				""
+				"[ \"Use the \", { \"text\": \"Multibuilder Tool\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"518405876B7FEB5A\" } } ]"
+			]
 			icon: "mm:auto_sieve_controller"
 			id: "0F714BB148F47C46"
 			rewards: [{

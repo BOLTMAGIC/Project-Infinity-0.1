@@ -98,8 +98,6 @@ bygonenether:mob_feature_strider
 bygonenether:mob_feature_warped_enderman
 bygonenether:mob_feature_wither_skeleton
 bygonenether:soul_stone_blobs
-chancecubes:chance_cube_oregen
-chancecubes:chance_cube_worldgen
 cyclic:flower_absalon
 cyclic:flower_cyan
 cyclic:flower_lime

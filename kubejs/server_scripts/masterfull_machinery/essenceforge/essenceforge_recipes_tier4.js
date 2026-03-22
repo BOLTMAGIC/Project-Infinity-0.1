@@ -13,7 +13,6 @@ MMEvents.createProcesses((event) => {
     'mysticalagriculture:ice_seeds',
     'mysticalagriculture:deepslate_seeds',
   ];
-  generateTier3Recipes(event, tier1Seeds, 5);
 
   // --- Tier 2 ---
   const tier2Seeds = [
@@ -45,19 +44,8 @@ MMEvents.createProcesses((event) => {
     'mysticalagriculture:marble_seeds',
     'mysticalagriculture:basalt_seeds',
   ];
-  generateTier3Recipes(event, tier2Seeds, 4);
 
   // --- Tier 3 ---
-  const tier3MobSeeds = [
-    'mysticalagriculture:creeper_seeds',
-    'mysticalagriculture:skeleton_seeds',
-    'mysticalagriculture:spider_seeds',
-    'mysticalagriculture:zombie_seeds',
-    'mysticalagriculture:basalz_seeds',
-    'mysticalagriculture:blizz_seeds',
-    'mysticalagriculture:blitz_seeds',
-    'mysticalagriculture:rabbit_seeds',
-  ];
   const tier3Seeds = [
     'mysticalagriculture:boron_seeds',
     'mysticalagriculture:quartz_enriched_iron_seeds',
@@ -88,9 +76,15 @@ MMEvents.createProcesses((event) => {
     'mysticalagriculture:prismarine_seeds',
     'mysticalagriculture:sky_stone_seeds',
     'mysticalagriculture:certus_quartz_seeds',
+    'mysticalagriculture:creeper_seeds',
+    'mysticalagriculture:skeleton_seeds',
+    'mysticalagriculture:spider_seeds',
+    'mysticalagriculture:zombie_seeds',
+    'mysticalagriculture:basalz_seeds',
+    'mysticalagriculture:blizz_seeds',
+    'mysticalagriculture:blitz_seeds',
+    'mysticalagriculture:rabbit_seeds',
   ];
-  generateTier3Recipes(event, tier3MobSeeds, 4);
-  generateTier3Recipes(event, tier3Seeds, 5);
 
   // --- Tier 4 ---
   const tier4Seeds = [
@@ -133,7 +127,6 @@ MMEvents.createProcesses((event) => {
     'mysticalagriculture:energized_steel_seeds',
     'mysticalagriculture:blazing_crystal_seeds',
   ];
-  generateTier3Recipes(event, tier4Seeds, 4);
 
   // --- Tier 5 ---
   const tier5Seeds = [
@@ -161,7 +154,6 @@ MMEvents.createProcesses((event) => {
     'mysticalagriculture:uraninite_seeds',
     'mysticalagriculture:manyullyn_seeds',
   ];
-  generateTier3Recipes(event, tier5Seeds, 4);
 
   // --- Tier 6 ---
   const tier6Seeds = [
@@ -177,33 +169,54 @@ MMEvents.createProcesses((event) => {
     'mysticalagriculture:neutronium_seeds',
     'mysticalagriculture:nitro_crystal_seeds',
   ];
-  createTier6SeedRecipes(event, tier6Seeds);
-});
+  const seedToCrux = {
+    'mysticalagriculture:allthemodium_seeds': 'allthemodium:allthemodium_block',
+    'mysticalagriculture:dark_metal_ingot_seeds': 'born_in_chaos_v1:dark_metal_block',
+    'mysticalagriculture:plutonium_seeds': 'evolvedmekanism:block_better_gold',
+    'mysticalagriculture:unobtainium_seeds': 'allthemodium:unobtainium_block',
+    'mysticalagriculture:vibranium_seeds': 'allthemodium:vibranium_block',
+    'mysticalagriculture:nether_star_seeds': 'mysticalagradditions:nether_star_crux',
+    'mysticalagriculture:dragon_egg_seeds': 'mysticalagradditions:dragon_egg_crux',
+    'mysticalagriculture:gaia_spirit_seeds': 'mysticalagradditions:gaia_spirit_crux',
+    'mysticalagriculture:awakened_draconium_seeds': 'mysticalagradditions:awakened_draconium_crux',
+    'mysticalagriculture:neutronium_seeds': 'mysticalagradditions:neutronium_crux',
+    'mysticalagriculture:nitro_crystal_seeds': 'mysticalagradditions:nitro_crystal_crux',
+  };
 
-// --- Funktionen ---
+  const tiers = [
+    tier1Seeds,
+    tier2Seeds,
+    tier3Seeds,
+    tier4Seeds,
+    tier5Seeds,
+    tier6Seeds,
+  ]
 
-function generateTier3Recipes (event, seeds) {
-  seeds.forEach((seed) => {
-    var name = seed.replace('mysticalagriculture:', '').replace('_seeds', '');
-    var recipeId = `mm:essenceforge_tier3_${name}`;
+  for (var i = 0; i < 6; i++){
 
-    event
-      .create(recipeId)
-      .structureId('mm:essenceforge_tier3_structure')
-      .ticks(100)
-      .parallelProcessing(true)
-      .input({
-        type: 'mm:input/consume',
-        ingredient: { type: 'mm:energy', amount: 1000000000 },
-      })
-      .input({
-        type: 'mm:input/consume',
-        ingredient: {
-          type: 'mm:fluid',
-          fluid: 'industrialforegoing:ether_gas',
-          amount: 300,
-        },
-      })
+    var recipeId = `mm:essenceforge_tier4_tier${i+1}_seeds`;
+    var seeds = tiers[i];
+
+    var recipe = event
+    .create(recipeId)
+    .structureId('mm:essenceforge_tier4_structure')
+    .ticks(20)
+    .parallelProcessing(false)
+    .input({
+      type: 'mm:input/consume',
+      ingredient: { type: 'mm:energy', amount: 2147483647 },
+    })
+    .input({
+      type: 'mm:input/consume',
+      ingredient: {
+        type: 'mm:fluid',
+        fluid: 'industrialforegoing:ether_gas',
+        amount: 500 * seeds.length,
+      },
+    });
+
+    seeds.forEach((seed) => {
+      recipe
       .input({
         type: 'mm:input/consume',
         chance: 0.0,
@@ -217,133 +230,19 @@ function generateTier3Recipes (event, seeds) {
           count: 1024,
         },
       });
-  });
-}
-
-function createTier6SeedRecipes (event, seeds) {
-  const seedToCrux = {
-    'mysticalagriculture:allthemodium_seeds': 'allthemodium:allthemodium_block',
-    'mysticalagriculture:dark_metal_ingot_seeds':
-      'born_in_chaos_v1:dark_metal_block',
-    'mysticalagriculture:plutonium_seeds': 'evolvedmekanism:block_better_gold',
-    'mysticalagriculture:unobtainium_seeds': 'allthemodium:unobtainium_block',
-    'mysticalagriculture:vibranium_seeds': 'allthemodium:vibranium_block',
-    'mysticalagriculture:nether_star_seeds':
-      'mysticalagradditions:nether_star_crux',
-    'mysticalagriculture:dragon_egg_seeds':
-      'mysticalagradditions:dragon_egg_crux',
-    'mysticalagriculture:gaia_spirit_seeds':
-      'mysticalagradditions:gaia_spirit_crux',
-    'mysticalagriculture:awakened_draconium_seeds':
-      'mysticalagradditions:awakened_draconium_crux',
-    'mysticalagriculture:neutronium_seeds':
-      'mysticalagradditions:neutronium_crux',
-    'mysticalagriculture:nitro_crystal_seeds':
-      'mysticalagradditions:nitro_crystal_crux',
-  };
-
-  seeds.forEach((seed) => {
-    const essence = seed.replace('_seeds', '_essence');
-    const crux = seedToCrux[seed];
-    if (!crux) {
-      console.error(`No Crux found for Seed: ${seed}`);
-      return;
-    }
-
-    event
-      .create(
-        `mm:essenceforge_tier3_${seed
-          .replace('mysticalagriculture:', '')
-          .replace('_seeds', '')}`
-      )
-      .structureId('mm:essenceforge_tier3_structure')
-      .ticks(100)
-      .parallelProcessing(true)
-      .input({
-        type: 'mm:input/consume',
-        ingredient: { type: 'mm:energy', amount: 1000000000 },
-      })
-      .input({
-        type: 'mm:input/consume',
-        ingredient: {
-          type: 'mm:fluid',
-          fluid: 'industrialforegoing:ether_gas',
-          amount: 400,
-        },
-      })
-      .input({
-        type: 'mm:input/consume',
-        chance: 0.0,
-        ingredient: { type: 'mm:item', item: seed, count: 1 },
-      })
-      .input({
-        type: 'mm:input/consume',
-        chance: 0.0,
-        ingredient: { type: 'mm:item', item: crux, count: 1 },
-      })
-
-      .output({
-        type: 'mm:output/simple',
-        ingredient: { type: 'mm:item', item: essence, count: 1024 },
-      });
-  });
-
-  event
-    .create('mm:essenceforge_tier3_inferium_seed')
-    .structureId('mm:essenceforge_tier3_structure')
-    .ticks(100)
-    .input({
-      type: 'mm:input/consume',
-      ingredient: { type: 'mm:energy', amount: 1000000000 },
-    })
-    .input({
-      type: 'mm:input/consume',
-      chance: 0.0,
-      ingredient: {
-        type: 'mm:item',
-        item: 'mysticalagriculture:inferium_seeds',
-        count: 1,
-      },
-    })
-    .input({
-      type: 'mm:input/consume',
-      chance: 0.0,
-      ingredient: {
-        type: 'mm:item',
-        item: 'mysticalagradditions:insanium_block',
-        count: 128,
-      },
-    })
-    .input({
-      type: 'mm:input/consume',
-      ingredient: {
-        type: 'mm:item',
-        item: 'pneumaticcraft:memory_essence_bucket',
-        count: 10,
-      },
-    })
-    .input({
-      type: 'mm:input/consume',
-      ingredient: {
-        type: 'mm:item',
-        item: 'mob_grinding_utils:solid_xp_baby',
-        count: 64,
-      },
-    })
-    .input({
-      type: 'mm:input/consume',
-      ingredient: {
-        type: 'mm:fluid',
-        fluid: 'ifeu:liquid_dragon_breath',
-        amount: 5000,
-      },
-    })
-    .output({
-      type: 'mm:output/simple',
-      ingredient: {
-        type: 'mm:item',
-        item: 'mysticalagradditions:insanium_essence',
-        count: 6144,
-      },
+      if (i == 5){
+        const crux = seedToCrux[seed];
+        if (!crux) {
+          console.error(`No Crux found for: ${seed}`);
+          return;
+        }
+        recipe.input({
+          type: 'mm:input/consume',
+          chance: 0.0,
+          ingredient: { type: 'mm:item', item: crux, count: 1 },
+        });
+      };
     });
-}
+  };
+});
+

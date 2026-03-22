@@ -1,0 +1,44 @@
+
+#Re:Avaritia Terminal Settings
+[ReAvaritia]
+
+	#Sculk Crafting Terminal
+	[ReAvaritia."Sculk Crafting Terminal"]
+		#Enable this terminal
+		Enable = true
+		#AE system must be online & powered to craft
+		"Craftable when Active" = false
+		#Passive AE/t drain
+		#Range: 0.0 ~ 1.7976931348623157E308
+		"Passive drain AE" = 1.0
+
+	#Nether Crafting Terminal
+	[ReAvaritia."Nether Crafting Terminal"]
+		#Enable this terminal
+		Enable = true
+		#AE system must be online & powered to craft
+		"Craftable when Active" = false
+		#Passive AE/t drain
+		#Range: 0.0 ~ 1.7976931348623157E308
+		"Passive drain AE" = 1.0
+
+	#End Crafting Terminal
+	[ReAvaritia."End Crafting Terminal"]
+		#Enable this terminal
+		Enable = true
+		#AE system must be online & powered to craft
+		"Craftable when Active" = false
+		#Passive AE/t drain
+		#Range: 0.0 ~ 1.7976931348623157E308
+		"Passive drain AE" = 1.0
+
+	#Extreme Crafting Terminal
+	[ReAvaritia."Extreme Crafting Terminal"]
+		#Enable this terminal
+		Enable = true
+		#AE system must be online & powered to craft
+		"Craftable when Active" = false
+		#Passive AE/t drain
+		#Range: 0.0 ~ 1.7976931348623157E308
+		"Passive drain AE" = 1.0
+

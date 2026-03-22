@@ -9,7 +9,7 @@ ServerEvents.recipes((event) => {
           item: 'minecraft:glowstone',
         },
         B: {
-          item: 'kubejs:infinity_8',
+          item: 'kubejs:infinity_1',
         },
         C: {
           item: 'minecraft:black_stained_glass',

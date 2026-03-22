@@ -1,0 +1,22 @@
+
+#Extended Terminal Settings
+[ExtendedTerminal]
+
+	#Extended Terminal
+	[ExtendedTerminal."Extended Terminal"]
+		#Enable this terminal
+		Enable = true
+		#AE system must be online & powered to craft
+		"Craftable when Active" = false
+		#Passive AE/t drain
+		#Range: 0.0 ~ 1.7976931348623157E308
+		"Passive drain AE" = 1.0
+		#Enable Crafting Panel in Extended Terminal
+		"Enable Crafting Panel" = true
+		#Enable Smithing Panel in Extended Terminal
+		"Enable Smithing Panel" = true
+		#Enable Stonecutter Panel in Extended Terminal
+		"Enable Stonecutter Panel" = true
+		#Enable Anvil Panel in Extended Terminal
+		"Enable Anvil Panel" = true
+

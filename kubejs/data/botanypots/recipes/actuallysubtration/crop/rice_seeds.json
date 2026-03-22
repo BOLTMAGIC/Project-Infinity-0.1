@@ -6,7 +6,7 @@
     "categories": ["dirt"],
     "growthTicks": 1200,
     "display": {
-        "block": "actuallyadditions:rice_seeds"
+        "block": "actuallyadditions:rice"
     },
     "drops": [
         {

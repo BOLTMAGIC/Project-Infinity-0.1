@@ -75,6 +75,8 @@ const lootByMob = {
     { item: 'born_in_chaos_v1:fused_bone', outCount: 1 },
   ],
 
+  'botania/gaia_spirit': [{ item: 'botania:life_essence', outCount: 1 }],
+
   'cataclysm/ancient_remnant': [
     { item: 'cataclysm:ancient_metal_ingot', outCount: 4 },
     { item: 'cataclysm:necklace_of_the_desert', outCount: 1 },
@@ -140,6 +142,8 @@ const lootByMob = {
   enderman: [
     { item: 'minecraft:ender_pearl', outCount: 16 },
     { item: 'minecraft:end_crystal', outCount: 1 },
+    { item: 'enderio:enderman_head', outCount: 1 },
+    { item: 'tconstruct:enderman_head', outCount: 1 },
   ],
 
   evoker: [

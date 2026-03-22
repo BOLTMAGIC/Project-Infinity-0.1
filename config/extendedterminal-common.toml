@@ -1,0 +1,87 @@
+
+#setting for Extended Crafting Terminal
+["Extended Crafting"]
+
+	#Basic Terminal
+	["Extended Crafting"."Basic Crafting Terminal"]
+		#enable basic crafting terminal
+		Enable = true
+		#The AE system must be online and powered to perform the crafting.
+		"Craftable when Active" = false
+		#basic crafting terminal drain passive AE
+		#Range: 0.0 ~ 1.7976931348623157E308
+		"Passive drain AE" = 1.0
+
+	#Advanced Terminal
+	["Extended Crafting"."Advanced Crafting Terminal"]
+		#enable advanced crafting terminal
+		Enable = true
+		#The AE system must be online and powered to perform the crafting.
+		"Craftable when Active" = false
+		#advanced crafting terminal drain passive AE
+		#Range: 0.0 ~ 1.7976931348623157E308
+		"Passive drain AE" = 1.0
+
+	#Elite Terminal
+	["Extended Crafting"."Elite Crafting Terminal"]
+		#enable elite crafting terminal
+		Enable = true
+		#The AE system must be online and powered to perform the crafting.
+		"Craftable when Active" = false
+		#elite crafting terminal drain passive AE
+		#Range: 0.0 ~ 1.7976931348623157E308
+		"Passive drain AE" = 1.0
+
+	#Ultimate Terminal
+	["Extended Crafting"."Ultimate Crafting Terminal"]
+		#enable ultimate crafting terminal
+		Enable = true
+		#The AE system must be online and powered to perform the crafting.
+		"Craftable when Active" = false
+		#ultimate crafting terminal drain passive AE
+		#Range: 0.0 ~ 1.7976931348623157E308
+		"Passive drain" = 1.0
+
+#setting for Re:Avaritia
+["Re:Avaritia"]
+
+	#Sculk Terminal
+	["Re:Avaritia"."Sculk Crafting Terminal"]
+		#enable sculk crafting terminal
+		Enable = true
+		#The AE system must be online and powered to perform the crafting.
+		"Craftable when Active" = false
+		#sculk crafting terminal drain passive AE
+		#Range: 0.0 ~ 1.7976931348623157E308
+		"Passive drain AE" = 1.0
+
+	#Nether Terminal
+	["Re:Avaritia"."Nether Crafting Terminal"]
+		#enable nether crafting terminal
+		Enable = true
+		#The AE system must be online and powered to perform the crafting.
+		"Craftable when Active" = false
+		#nether crafting terminal drain passive AE
+		#Range: 0.0 ~ 1.7976931348623157E308
+		"Passive drain AE" = 1.0
+
+	#End Terminal
+	["Re:Avaritia"."End Crafting Terminal"]
+		#enable end crafting terminal
+		Enable = true
+		#The AE system must be online and powered to perform the crafting.
+		"Craftable when Active" = false
+		#end crafting terminal drain passive AE
+		#Range: 0.0 ~ 1.7976931348623157E308
+		"Passive drain AE" = 1.0
+
+	#Extreme Terminal
+	["Re:Avaritia"."Extreme Crafting Terminal"]
+		#enable Extreme crafting terminal
+		Enable = true
+		#The AE system must be online and powered to perform the crafting.
+		"Craftable when Active" = false
+		#Extreme crafting terminal drain passive AE
+		#Range: 0.0 ~ 1.7976931348623157E308
+		"Passive drain AE" = 1.0
+

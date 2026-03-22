@@ -1,5 +1,4 @@
 ServerEvents.recipes((event) => {
-
   // Processing Addons
   event.custom({
     type: 'industrialforegoing:dissolution_chamber',
@@ -16,7 +15,7 @@ ServerEvents.recipes((event) => {
     inputFluid: '{Amount:1000,FluidName:"industrialforegoing:latex"}',
     output: {
       count: 1,
-      item: 'kubejs:processing_addon_1'
+      item: 'kubejs:processing_addon_1',
     },
     processingTime: 200,
   });
@@ -36,7 +35,7 @@ ServerEvents.recipes((event) => {
     inputFluid: '{Amount:2000,FluidName:"industrialforegoing:latex"}',
     output: {
       count: 1,
-      item: 'kubejs:processing_addon_2'
+      item: 'kubejs:processing_addon_2',
     },
     processingTime: 200,
   });
@@ -56,7 +55,7 @@ ServerEvents.recipes((event) => {
     inputFluid: '{Amount:1000,FluidName:"industrialforegoing:pink_slime"}',
     output: {
       count: 1,
-      item: 'kubejs:processing_addon_3'
+      item: 'kubejs:processing_addon_3',
     },
     processingTime: 200,
   });
@@ -75,7 +74,7 @@ ServerEvents.recipes((event) => {
     inputFluid: '{Amount:2000,FluidName:"industrialforegoing:pink_slime"}',
     output: {
       count: 1,
-      item: 'kubejs:processing_addon_4'
+      item: 'kubejs:processing_addon_4',
     },
     processingTime: 200,
   });
@@ -94,7 +93,7 @@ ServerEvents.recipes((event) => {
     inputFluid: '{Amount:1000,FluidName:"industrialforegoing:ether_gas"}',
     output: {
       count: 1,
-      item: 'kubejs:processing_addon_5'
+      item: 'kubejs:processing_addon_5',
     },
     processingTime: 200,
   });
@@ -120,7 +119,7 @@ ServerEvents.recipes((event) => {
   });
 
   // Efficiency Addons
-event.custom({
+  event.custom({
     type: 'industrialforegoing:dissolution_chamber',
     input: [
       { item: 'minecraft:redstone' },
@@ -135,7 +134,7 @@ event.custom({
     inputFluid: '{Amount:1000,FluidName:"industrialforegoing:latex"}',
     output: {
       count: 1,
-      item: 'kubejs:efficiency_addon_1'
+      item: 'kubejs:efficiency_addon_1',
     },
     processingTime: 200,
   });
@@ -155,7 +154,7 @@ event.custom({
     inputFluid: '{Amount:2000,FluidName:"industrialforegoing:latex"}',
     output: {
       count: 1,
-      item: 'kubejs:efficiency_addon_2'
+      item: 'kubejs:efficiency_addon_2',
     },
     processingTime: 200,
   });
@@ -175,7 +174,7 @@ event.custom({
     inputFluid: '{Amount:1000,FluidName:"industrialforegoing:pink_slime"}',
     output: {
       count: 1,
-      item: 'kubejs:efficiency_addon_3'
+      item: 'kubejs:efficiency_addon_3',
     },
     processingTime: 200,
   });
@@ -194,7 +193,7 @@ event.custom({
     inputFluid: '{Amount:2000,FluidName:"industrialforegoing:pink_slime"}',
     output: {
       count: 1,
-      item: 'kubejs:efficiency_addon_4'
+      item: 'kubejs:efficiency_addon_4',
     },
     processingTime: 200,
   });
@@ -213,7 +212,7 @@ event.custom({
     inputFluid: '{Amount:1000,FluidName:"industrialforegoing:ether_gas"}',
     output: {
       count: 1,
-      item: 'kubejs:efficiency_addon_5'
+      item: 'kubejs:efficiency_addon_5',
     },
     processingTime: 200,
   });
@@ -254,11 +253,11 @@ event.custom({
     inputFluid: '{Amount:1000,FluidName:"industrialforegoing:latex"}',
     output: {
       count: 1,
-      item: 'kubejs:speed_addon_1'
+      item: 'kubejs:speed_addon_1',
     },
     processingTime: 200,
   });
-  
+
   event.custom({
     type: 'industrialforegoing:dissolution_chamber',
     input: [
@@ -274,7 +273,7 @@ event.custom({
     inputFluid: '{Amount:2000,FluidName:"industrialforegoing:latex"}',
     output: {
       count: 1,
-      item: 'kubejs:speed_addon_2'
+      item: 'kubejs:speed_addon_2',
     },
     processingTime: 200,
   });
@@ -294,7 +293,7 @@ event.custom({
     inputFluid: '{Amount:1000,FluidName:"industrialforegoing:pink_slime"}',
     output: {
       count: 1,
-      item: 'kubejs:speed_addon_3'
+      item: 'kubejs:speed_addon_3',
     },
     processingTime: 200,
   });
@@ -313,7 +312,7 @@ event.custom({
     inputFluid: '{Amount:2000,FluidName:"industrialforegoing:pink_slime"}',
     output: {
       count: 1,
-      item: 'kubejs:speed_addon_4'
+      item: 'kubejs:speed_addon_4',
     },
     processingTime: 200,
   });
@@ -332,7 +331,7 @@ event.custom({
     inputFluid: '{Amount:1000,FluidName:"industrialforegoing:ether_gas"}',
     output: {
       count: 1,
-      item: 'kubejs:speed_addon_5'
+      item: 'kubejs:speed_addon_5',
     },
     processingTime: 200,
   });
@@ -353,6 +352,26 @@ event.custom({
       count: 1,
       item: 'ifeu:speed_addon_6',
       nbt: '{TitaniumAugment:{Speed:7.0f}}',
+    },
+    processingTime: 200,
+  });
+  event.custom({
+    type: 'industrialforegoing:dissolution_chamber',
+    input: [
+      { item: 'woot_revived:upgrade_base' },
+      { item: 'industrialforegoing:machine_frame_advanced' },
+      { item: 'woot_revived:upgrade_base' },
+      { item: 'industrialforegoing:fluid_laser_base' },
+      { item: 'industrialforegoing:fluid_laser_base' },
+      { item: 'thermal:diamond_gear' },
+      { item: 'industrialforegoing:laser_drill' },
+      { item: 'thermal:diamond_gear' },
+    ],
+    inputFluid: '{Amount:2000,FluidName:"woot_revived:vitality_fuel_fluid"}',
+    output: {
+      count: 1,
+      item: 'ifwootaddon:laser_drill_upgrade',
+      nbt: '{UpgradeItemVariant:"default"}',
     },
     processingTime: 200,
   });

@@ -176,4 +176,79 @@ MMEvents.createStructures((event) => {
         });
     });
 
+      event
+    .create('mm:essenceforge_tier4_structure')
+    .controllerId('mm:essenceforge_controller')
+    .name('EssenceForge Tier 4')
+    .layout((a) => {
+      a.layer(['AAAAA', 'ADDDA', 'ADDDA', 'ADDDA', 'AAAAA'])
+        .layer(['PHQHR', 'HHHHH', 'QHHHQ', 'HHHHH', 'SHQHT'])
+        .layer(['     ', ' LHM ', ' H H ', ' NHO ', '     '])
+        .layer(['     ', ' DHD ', ' HHH ', ' DUD ', '     '])
+        .layer(['DFHFD', 'E   I', 'H   H', 'E   I', 'DGCGD'])
+        .layer(['AAAAA', 'AWVWA', 'AVBVA', 'AWVWA', 'AAAAA'])
+        .key('A', {
+          block: 'chisel_chipped_integration:futura_fabulously_wavy',
+        })
+        .key('B', {
+          block: 'ifeu:simulated_hydroponic_bed',
+        })
+        .key('D', {
+          block: 'chisel_chipped_integration:futura_mysterious_cube',
+        })
+        .key('E', {
+          portType: 'mm:item',
+          input: true,
+        })
+        .key('F', {
+          portType: 'mm:fluid',
+          input: true,
+        })
+        .key('G', {
+          block: 'mm:compressed_titanic_item_port_output'
+        })
+        .key('H', {
+          block: 'chisel_chipped_integration:factory_blue_framed_circuit',
+        })
+        .key('I', {
+          portType: 'mm:energy',
+          input: true,
+        })
+        .key('L', {
+          block: 'botanicalextramachinery:crimson_ingot_block',
+        })
+        .key('M', {
+          block: 'botanicalextramachinery:shadow_ingot_block',
+        })
+        .key('N', {
+          block: 'botanicalextramachinery:malachite_ingot_block',
+        })
+        .key('O', {
+          block: 'botanicalextramachinery:saffron_ingot_block',
+        })
+        .key('P', {
+          block: 'mysticalexpansion:divinium_block',
+        })
+        .key('Q', {
+          block: 'chisel_chipped_integration:technical_fan',
+        })
+        .key('R', {
+          block: 'mysticalexpansion:etherium_block',
+        })
+        .key('S', {
+          block: 'mysticalagradditions:insanium_block',
+        })
+        .key('T', {
+          block: 'mysticalexpansion:extremium_block',
+        })
+        .key('U', {
+          block: 'kubejs:infinity_8_block',
+        })
+        .key('V', {
+          block: 'bloodmagic:accelerationrune2',
+        })
+        .key('W', {
+          block: 'bloodmagic:speedrune2',
+        });
+    });
 });

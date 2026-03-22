@@ -65,7 +65,7 @@ ServerEvents.recipes((event) => {
         type: 'forge:nbt',
         item: 'mekanism:creative_energy_cube',
         count: 1,
-        nbt: '{mekData:{EnergyContainers:[{Container:0b,stored:"18446744073709551615.9999"}]}}}}',
+        nbt: '{mekData:{EnergyContainers:[{Container:0b,stored:"18446744073709551615.9999"}]}}',
       },
     })
     .id('mekanism:creative_energy_cube');

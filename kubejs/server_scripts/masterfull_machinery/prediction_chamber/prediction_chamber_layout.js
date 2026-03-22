@@ -5,50 +5,82 @@ MMEvents.createStructures((event) => {
     .controllerId('mm:prediction_chamber_controller')
     .name('Prediction Chamber')
     .layout((a) => {
-      a.layer(['ABBBBBA', 'BEEEEEB', 'BEEOEEB', 'BEEEEEB', 'ABBBBBA'])
-        .layer(['ADEEEDA', 'DF   GD', 'E     E', 'DH   ID', 'ADENEDA'])
-        .layer(['MDEEEDM', 'D     D', 'E     E', 'D     D', 'MDEEEDM'])
-        .layer(['ADEEEDA', 'DF   GD', 'E     E', 'DH   ID', 'ALECEJA'])
-        .layer(['ABBBBBA', 'BBBBBBB', 'BBBBBBB', 'BBBBBBB', 'ABBBBBA'])
+      a.layer([
+        '  AAA  ',
+        ' ADDDA ',
+        'ADDDDDA',
+        'ADDDDDA',
+        'ADDDDDA',
+        ' ADDDA ',
+        '  AAA  '
+      ])
+      .layer([
+        '  GGG  ',
+        ' G   G ',
+        'G     G',
+        'G  F  G',
+        'G     G',
+        ' G   G ',
+        '  GGG  '
+      ])
+      .layer([
+        '  GEG  ',
+        ' G F G ',
+        'G     G',
+        'EF B FE',
+        'G     G',
+        ' G F G ',
+        '  GEG  '
+      ])
+      .layer([
+        '  2H1  ',
+        ' G   G ',
+        'G     G',
+        '3  F  3',
+        'G     G',
+        ' G   G ',
+        '  1C2  '
+      ])
+      .layer([
+        '  HHH  ',
+        ' HDDDH ',
+        'HDDDDDH',
+        'HDDDDDH',
+        'HDDDDDH',
+        ' HDDDH ',
+        '  HHH  '
+      ])
         .key('A', {
           block: 'actuallyadditions:ender_casing',
         })
         .key('B', {
-          block: 'evolvedmekanism:apt_casing',
+          block: 'botanicalextramachinery:crimson_dragonstone_block',
         })
         .key('D', {
-          block: 'chisel_chipped_integration:factory_blue_framed_circuit',
+          block: 'evolvedmekanism:apt_casing',
         })
         .key('E', {
-          block: 'tconstruct:clear_glass',
-        })
-        .key('F', {
           block: 'extrahnn:ultimate_loot_fabricator_v4',
         })
+        .key('F', {
+          block: 'mekanism:supercharged_coil',
+        })
         .key('G', {
-          block: 'extrahnn:ultimate_sim_chamber_v4',
+          block: 'tconstruct:clear_glass',
         })
         .key('H', {
-          block: 'extrahnn:simulator_modeling',
+          block: 'chisel_chipped_integration:factory_blue_framed_circuit',
         })
-        .key('I', {
-          block: 'extrahnn:merger_camera',
-        })
-        .key('J', {
-          block: 'mm:compressed_titanic_item_port_output'
-        })
-        .key('L', {
+        .key('1', {
           portType: 'mm:item',
           input: true,
         })
-        .key('M', {
-          block: 'chisel_chipped_integration:laboratory_small_steel',
+        .key('2', {
+          block: 'mm:compressed_titanic_item_port_output',
         })
-        .key('N', {
-          block: 'mm:gigantic_energy_port_input'
+        .key('3', {
+          block: 'mm:gigantic_energy_port_input',
         })
-        .key('O', {
-          block: 'mekanism:block_refined_glowstone',
-        });
+
     });
 });

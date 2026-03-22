@@ -1,4 +1,4 @@
-/---------------------------------------------------------------------------------------------------------------/
+-----------------------------------------------------
 //main
 finish quests high prio
 fix shop prices high prio
@@ -9,31 +9,31 @@ add tooltips for the multiblocks. what they do and how to use them. maybe in the
 multibuilder tool tooltip
 gateway change. players need to kill not masher
 hellforged parts --> 100m coal for 1% chance to get something
-/--------------------------------------------------------------------------------------------------------------/
+-----------------------------------------------------
 //recipes
 creative items recipes!
 
-/---------------------------------------------------------------------------------------------------------------/
+-----------------------------------------------------
 //projectE
 EMC
 
-/---------------------------------------------------------------------------------------------------------------/
+-----------------------------------------------------
 changelog v. 0.0.48.0
 -updated some mods
-----------------------------------------------------------------------------------------
+-----------------------------------------------------
 Mod added:
 -Recipe Advancements Nuker
-----------------------------------------------------------------------------------------
+-----------------------------------------------------
 Mods removed:
 -Chance Cube
-----------------------------------------------------------------------------------------
+-----------------------------------------------------
 Mod INFO:
 -mods maybe getting removed:
     -The Aether
     -Occultism
     -Chemlib and Alchemistry
 
-----------------------------------------------------------------------------------------
+-----------------------------------------------------
 Recipe changes and fixes:
 -removed compact machine biggest 3 room recipes because they crash servers and clients
 -removed recipe for projectexpansion transmutation_interface
@@ -50,7 +50,7 @@ Recipe changes and fixes:
 -fixed recipe viewer for the ifwootaddon:laser_drill_upgrade (thx to MiniMaxi)
 -changed collector recipe for MK2 uses inf1 and MK3 uses inf8 (thx to Color)
 -
-----------------------------------------------------------------------------------------
+-----------------------------------------------------
 Mod changes and fixes:
 -botanical machinery extra TPS changes (I hope)
 -Voidminers Preview fixed for miners and solar panels

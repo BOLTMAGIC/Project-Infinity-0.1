@@ -140,6 +140,12 @@ ServerEvents.tags('item', (event) => {
   ]);
 });
 
+
+//remove Tags from Items
+ServerEvents.tags('item', (event) => {
+  event.remove('mysticalagriculture:infusion_crystals', 'mysticalagriculture:infusion_crystal');
+});
+
 //add Tags to Fluids
 ServerEvents.tags('fluid', (event) => {
   event.add('forge:uranium_hexafluoride', 'mekanism:uranium_hexafluoride');

@@ -39,5 +39,5 @@ ServerEvents.recipes((event) => {
   manufactoring(event, 'nuclearcraft:lithium_ore', 2, 'nuclearcraft:lithium_dust');
   manufactoring(event, 'nuclearcraft:boron_ore', 2, 'nuclearcraft:boron_dust');
 
-  manufactoring(event, 'draconicevolution:draconium_ingot', 2, 'draconicevolution:draconium_dust')
+  manufactoring(event, 'draconicevolution:draconium_ingot', 1, 'draconicevolution:draconium_dust')
 });

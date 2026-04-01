@@ -194,6 +194,10 @@ ServerEvents.recipes((event) => {
     'kubejs:double_compressed_iron_block',
   ]);
 
+  shapeless(event, '9x pneumaticcraft:compressed_iron_block', ['kubejs:double_compressed_iron_block']);
+
+  shapeless(event, '9x kubejs:double_compressed_iron_block', ['kubejs:triple_compressed_iron_block']);
+
   create3x3same(event, 'kubejs:double_compressed_slate', [
     'kubejs:compressed_slate',
   ]);

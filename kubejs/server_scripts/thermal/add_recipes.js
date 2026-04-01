@@ -59,6 +59,7 @@ ServerEvents.recipes((event) => {
     'common_ore_library:zinc_ingot',
     'common_ore_library:brass_ingot',
     'common_ore_library:manyullyn_ingot',
+    'common_ore_library:aluminum_ingot',
   ];
 
   const plates = [
@@ -69,12 +70,8 @@ ServerEvents.recipes((event) => {
     'common_ore_library:zinc_plate',
     'common_ore_library:brass_plate',
     'common_ore_library:manyullyn_plate',
-  ];
-
-  event.recipes.thermal.press(
     'common_ore_library:aluminum_plate',
-    'common_ore_library:aluminum_ingot'
-  );
+  ];
 
   for (let i = 0; i < ingots.length; i++) {
     event.recipes.thermal.press(plates[i], ingots[i]);

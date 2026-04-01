@@ -309,4 +309,11 @@ ServerEvents.recipes((event) => {
     'powah:battery_nitro',
     'kubejs:empty_battery_nitro'
   );
+
+  //Ender IO
+  event.replaceInput(
+    { output: 'enderio:conduit_probe' },
+    'enderio:energy_conduit',
+    'enderio:energetic_conduit'
+  );
 });

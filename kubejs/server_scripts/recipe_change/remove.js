@@ -202,7 +202,19 @@ const removeItemsbyOutput = [
   'botanicalextramachinery:upgraded_mana_infuser',
   'botanicalextramachinery:advanced_mana_infuser',
   'botanicalextramachinery:ultimate_mana_infuser',
+  'draconicadditions:chaos_infuser',
+  'draconicadditions:chaos_liquifier',
+  'draconicadditions:chaos_extractor',
+  'draconicadditions:chaos_crystalizer',
+  'draconicadditions:chaos_container',
+  'draconicadditions:item_chaos_injector',
+  'draconicadditions:item_chaotic_tick_accel',
+  'draconicadditions:item_draconic_tick_accel',
+  'draconicadditions:item_semi_stable_chaos',
+  'draconicadditions:item_stable_chaos',
+  'draconicadditions:item_unstable_chaos',
 ];
+
 
 const removeItemsbyID = [
   'thermal:fire_charge/enderium_ingot_2',

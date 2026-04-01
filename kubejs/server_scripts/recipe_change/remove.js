@@ -213,6 +213,7 @@ const removeItemsbyOutput = [
   'draconicadditions:item_semi_stable_chaos',
   'draconicadditions:item_stable_chaos',
   'draconicadditions:item_unstable_chaos',
+  'packagedexcrafting:basic_crafter',
 ];
 
 

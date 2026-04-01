@@ -61,16 +61,16 @@ MMEvents.createProcesses((event) => {
     .input({
       type: 'mm:input/consume',
       ingredient: {
-        type: 'mm:energy',
-        amount: 16384,
+        type: 'mm:item',
+        item: 'minecraft:redstone',
+        count: 4,
       },
     })
     .input({
       type: 'mm:input/consume',
       ingredient: {
-        type: 'mm:item',
-        item: 'minecraft:redstone',
-        count: 4,
+        type: 'mm:energy',
+        amount: 16384,
       },
     })
     .input({

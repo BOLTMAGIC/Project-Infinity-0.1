@@ -32,6 +32,11 @@ ServerEvents.recipes((event) => {
     'kubejs:azure_silver_ingot'
   );
 
+  event.recipes.thermal.pulverizer(
+    'draconicevolution:draconium_dust',
+    'draconicevolution:draconium_ingot'
+  );
+
   event.recipes.thermal
     .bottler('kubejs:infinity_1_333333', [
       Fluid.of('kubejs:molten_basalz', 500),

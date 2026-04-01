@@ -35,6 +35,8 @@ ServerEvents.recipes((event) => {
   crush(event, 'kubejs:voidmetal_ore', 2, 'kubejs:raw_voidmetal');
   crush(event, '#forge:ingots/graphite', 1, 'bigreactors:graphite_dust');
 
+  crush(event, 'draconicevolution:draconium_ingot', 1, 'draconicevolution:draconium_dust')
+
   function alloying (
     event,
     input_amount1,

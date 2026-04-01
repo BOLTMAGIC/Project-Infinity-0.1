@@ -73,6 +73,14 @@ MMEvents.createProcesses((event) => {
         count: 4,
       },
     })
+    .input({
+      type: 'mm:input/consume',
+      ingredient: {
+        type: 'mm:fluid',
+        fluid: 'bloodmagic:life_essence_fluid',
+        amount: 1000,
+      },
+    })
     .output({
       type: 'mm:output/simple',
       ingredient: {

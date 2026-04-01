@@ -78,7 +78,6 @@ ServerEvents.recipes((event) => {
     }).id(uniqueId);
   }
 
-  // Réinitialiser le compteur pour chaque nouveau chargement
   recipeCounter.clear();
   
   pressureChamberSimple(event, 'kubejs:infinity_4', 3, 'kubejs:infinity_5', 1);

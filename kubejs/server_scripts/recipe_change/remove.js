@@ -292,7 +292,6 @@ const removeItemsbyID = [
   'compactmekanismmachines:compact_fission_reactor',
   'compactmekanismmachines:compact_industrial_turbine',
   'compactmekanismmachines:compact_thermal_evaporation',
-  'jei:/nuclearcraft/manufactory/ender_pearl',
   'alltheores:lumium_dust_from_alloy_blending',
   'mysticalagradditions:essence/gaia_spirit',
   'jei:/thermal/bottler_florb',

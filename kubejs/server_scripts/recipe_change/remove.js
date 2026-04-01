@@ -196,6 +196,12 @@ const removeItemsbyOutput = [
   'draconicevolution:wyvern_chestpiece',
   'draconicevolution:chaotic_staff',
   'draconicevolution:draconic_staff',
+  'mythicbotany:mana_infuser',
+  'botanicalmachinery:mechanical_mana_infuser',
+  'botanicalextramachinery:base_mana_infuser',
+  'botanicalextramachinery:upgraded_mana_infuser',
+  'botanicalextramachinery:advanced_mana_infuser',
+  'botanicalextramachinery:ultimate_mana_infuser',
 ];
 
 const removeItemsbyID = [
@@ -491,8 +497,8 @@ const removeItemsbyID = [
   'avaritia:eternal_singularity',
   'botania:petal_apothecary/hydroangeas',
   'botania:petal_apothecary/pure_daisy',
-  '',
-  '',
+  'mythicbotany:mythicbotany_infusion/alfsteel_ingot',
+  'mythicbotany:mythicbotany_infusion/terrasteel_ingot',
   '',
   '',
   '',

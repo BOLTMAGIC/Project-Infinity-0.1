@@ -144,7 +144,6 @@ ServerEvents.tags('item', (event) => {
 //remove Tags from Items
 ServerEvents.tags('item', (event) => {
   event.remove('mysticalagriculture:infusion_crystals', 'mysticalagriculture:infusion_crystal');
-  event.remove('forge:ingots/neutronium', 'avaritia:neutron_ingot');
 });
 
 //add Tags to Fluids

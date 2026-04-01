@@ -2,8 +2,6 @@ priority: 0;
 
 //add Tags to Items
 ServerEvents.tags('item', (event) => {
-  event.add('forge:ingots/neutronium', 'avaritia:neutron_ingot');
-	
   event.add('forge:plastic', 'pneumaticcraft:plastic');
 
   event.add('mysticalagriculture:essences', [

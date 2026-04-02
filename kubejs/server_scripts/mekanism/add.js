@@ -213,6 +213,34 @@ ServerEvents.recipes((event) => {
     'thermal:electrum_ingot',
     1
   );
+
+  combining(
+    event,
+    1,
+    'nuclearcraft:lithium_ingot',
+    1,
+    'nuclearcraft:ferroboron_ingot',
+    'nuclearcraft:tough_alloy_ingot',
+    1
+  );
+  combining(
+    event,
+    1,
+    'nuclearcraft:chromium_ingot',
+    1,
+    'thermal:steel_ingot',
+    'nuclearcraft:stainless_steel_ingot',
+    1
+  );
+  combining(
+    event,
+    1,
+    'nuclearcraft:hard_carbon_ingot',
+    1,
+    'nuclearcraft:tough_alloy_ingot',
+    'nuclearcraft:extreme_ingot',
+    1
+  );
 });
 
 ServerEvents.recipes((event) => {

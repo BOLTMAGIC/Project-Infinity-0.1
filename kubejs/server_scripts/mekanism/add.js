@@ -186,6 +186,63 @@ ServerEvents.recipes((event) => {
     'thermal_extra:dragonsteel_ingot',
     1
   );
+
+  alloying(
+    event,
+    1,
+    'advanced_ae:printed_quantum_processor',
+    1,
+    'ae2:printed_silicon',
+    1,
+    'minecraft:redstone',
+    'advanced_ae:quantum_processor',
+    1
+  );
+  alloying(
+    event,
+    1,
+    'ae2omnicells:multidimensional_expansion_circuit_print',
+    1,
+    'ae2:printed_silicon',
+    1,
+    'minecraft:redstone',
+    'ae2omnicells:multidimensional_expansion_processor',
+    1
+  );
+  alloying(
+    event,
+    1,
+    'ae2omnicells:complex_link_circuit_print',
+    1,
+    'ae2:printed_silicon',
+    1,
+    'minecraft:redstone',
+    'ae2omnicells:complex_link_processor',
+    1
+  );
+  alloying(
+    event,
+    1,
+    'ae2omnicells:omni_link_circuit_print',
+    1,
+    'ae2:printed_silicon',
+    1,
+    'minecraft:redstone',
+    'ae2omnicells:omni_link_processor',
+    1
+  );
+  alloying(
+    event,
+    1,
+    'appflux:printed_energy_processor',
+    1,
+    'ae2:printed_silicon',
+    1,
+    'minecraft:redstone',
+    'appflux:energy_processor',
+    1
+  );
+
   combining(
     event,
     1,

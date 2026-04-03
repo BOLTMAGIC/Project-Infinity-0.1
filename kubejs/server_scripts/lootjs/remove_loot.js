@@ -30,7 +30,7 @@ LootJS.modifiers((event) => {
 });
 
 LootJS.modifiers((event) => {
-  event.addLootTypeModifier(LootType.FISHING).removeLoot([/.*swasher*/]);
+  event.addLootTypeModifier(LootType.FISHING, LootType.ENTITY).removeLoot([/.*swasher*/]);
   event.addLootTypeModifier(LootType.ENTITY).removeLoot([/.*melting_pan*/]);
 });
 

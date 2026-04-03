@@ -794,6 +794,7 @@ ServerEvents.recipes((event) => {
 
   shapeless(event, '9x minecraft:end_stone', ['compressium:endstone_1']);
   shapeless(event, '9x minecraft:glass', ['kubejs:compressed_glass']);
+  shapeless(event, 'kubejs:compressed_glass', ['9x minecraft:glass']);
 
   shapeless(event, 'kubejs:infinity_8_block', ['kubejs:infinity_8']);
   shapeless(event, 'kubejs:infinity_8', ['kubejs:infinity_8_block']);

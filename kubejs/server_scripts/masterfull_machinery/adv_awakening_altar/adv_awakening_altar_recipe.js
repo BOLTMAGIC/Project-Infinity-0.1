@@ -470,31 +470,7 @@ MMEvents.createProcesses((event) => {
       ingredient: {
         type: 'mm:item',
         item: 'draconicevolution:wyvern_energy_core',
-        count: 1,
-      },
-    })
-    .input({
-      type: 'mm:input/consume',
-      ingredient: {
-        type: 'mm:item',
-        item: 'draconicevolution:wyvern_energy_core',
-        count: 1,
-      },
-    })
-    .input({
-      type: 'mm:input/consume',
-      ingredient: {
-        type: 'mm:item',
-        item: 'draconicevolution:wyvern_energy_core',
-        count: 1,
-      },
-    })
-    .input({
-      type: 'mm:input/consume',
-      ingredient: {
-        type: 'mm:item',
-        item: 'draconicevolution:wyvern_energy_core',
-        count: 1,
+        count: 4,
       },
     })
     .input({
@@ -502,31 +478,7 @@ MMEvents.createProcesses((event) => {
       ingredient: {
         type: 'mm:item',
         item: 'minecraft:diamond',
-        count: 1,
-      },
-    })
-    .input({
-      type: 'mm:input/consume',
-      ingredient: {
-        type: 'mm:item',
-        item: 'minecraft:diamond',
-        count: 1,
-      },
-    })
-    .input({
-      type: 'mm:input/consume',
-      ingredient: {
-        type: 'mm:item',
-        item: 'minecraft:diamond',
-        count: 1,
-      },
-    })
-    .input({
-      type: 'mm:input/consume',
-      ingredient: {
-        type: 'mm:item',
-        item: 'minecraft:diamond',
-        count: 1,
+        count: 4,
       },
     })
     .input({
@@ -1031,31 +983,7 @@ MMEvents.createProcesses((event) => {
       ingredient: {
         type: 'mm:item',
         item: 'draconicevolution:wyvern_energy_core',
-        count: 4,
-      },
-    })
-    .input({
-      type: 'mm:input/consume',
-      ingredient: {
-        type: 'mm:item',
-        item: 'draconicevolution:wyvern_energy_core',
-        count: 4,
-      },
-    })
-    .input({
-      type: 'mm:input/consume',
-      ingredient: {
-        type: 'mm:item',
-        item: 'draconicevolution:wyvern_energy_core',
-        count: 4,
-      },
-    })
-    .input({
-      type: 'mm:input/consume',
-      ingredient: {
-        type: 'mm:item',
-        item: 'draconicevolution:wyvern_energy_core',
-        count: 4,
+        count: 16,
       },
     })
     .input({
@@ -1063,31 +991,7 @@ MMEvents.createProcesses((event) => {
       ingredient: {
         type: 'mm:item',
         item: 'minecraft:diamond',
-        count: 4,
-      },
-    })
-    .input({
-      type: 'mm:input/consume',
-      ingredient: {
-        type: 'mm:item',
-        item: 'minecraft:diamond',
-        count: 4,
-      },
-    })
-    .input({
-      type: 'mm:input/consume',
-      ingredient: {
-        type: 'mm:item',
-        item: 'minecraft:diamond',
-        count: 4,
-      },
-    })
-    .input({
-      type: 'mm:input/consume',
-      ingredient: {
-        type: 'mm:item',
-        item: 'minecraft:diamond',
-        count: 4,
+        count: 16,
       },
     })
     .input({

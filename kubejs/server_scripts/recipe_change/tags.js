@@ -1,8 +1,9 @@
 priority: 0;
-ServerEvents.tags('item', (event) => {
-  event.add('forge:ingots/neutronium', 'avaritia:neutron_ingot');
 
+//add Tags to Items
+ServerEvents.tags('item', (event) => {
   event.add('forge:plastic', 'pneumaticcraft:plastic');
+
   event.add('mysticalagriculture:essences', [
     'mysticalagriculture:boron_essence',
     'mysticalagriculture:cognizant_dust_essence',
@@ -20,22 +21,6 @@ ServerEvents.tags('item', (event) => {
   ]);
 
   event.add('mysticalagriculture:seeds', [
-    'mysticalagriculture:boron_seeds',
-    'mysticalagriculture:cognizant_dust_seeds',
-    'mysticalagriculture:dark_metal_ingot_seeds',
-    'mysticalagriculture:niter_seeds',
-    'mysticalagriculture:plastic_seeds',
-    'mysticalagriculture:iesnium_seeds',
-    'mysticalagriculture:ignitium_seeds',
-    'mysticalagriculture:sky_steel_seeds',
-    'mysticalagriculture:allthemodium_seeds',
-    'mysticalagriculture:unobtainium_seeds',
-    'mysticalagriculture:vibranium_seeds',
-    'mysticalagriculture:plutonium_seeds',
-    'mysticalagriculture:lithium_seeds',
-  ]);
-
-    event.add('ae2:growth_acceleratable', [
     'mysticalagriculture:boron_seeds',
     'mysticalagriculture:cognizant_dust_seeds',
     'mysticalagriculture:dark_metal_ingot_seeds',
@@ -121,37 +106,22 @@ ServerEvents.tags('item', (event) => {
     'evolvedmekanism:multiversal_induction_provider',
   ]);
 
-
   event.add('forge:clay_balls', 'minecraft:clay_ball');
   event.add('forge:fruits/chorus', 'minecraft:chorus_fruit');
   event.add('forge:vegetables/beetroot', 'minecraft:beetroot');
   event.add('forge:rubber', 'thermal:cured_rubber');
-});
-
-ServerEvents.tags('block', (event) => {
-  event.add('minecraft:beacon_base_blocks', [
-    'allthemodium:vibranium_allthemodium_alloy_block',
-    'allthemodium:unobtainium_allthemodium_alloy_block',
-    'allthemodium:unobtainium_vibranium_alloy_block',
+  
+  event.add('exdeorum:hammers', [
+    'thermal_extra:signalum_hammer',
+    'thermal_extra:lumium_hammer',
+    'thermal_extra:enderium_hammer',
+    'thermal_extra:soul_infused_hammer',
+    'thermal_extra:shellite_hammer',
+    'thermal_extra:twinite_hammer',
+    'thermal_extra:dragonsteel_hammer',
+    'thermal_extra:abyssal_hammer',
   ]);
-});
 
-const hammer = [
-  'thermal_extra:signalum_hammer',
-  'thermal_extra:lumium_hammer',
-  'thermal_extra:enderium_hammer',
-  'thermal_extra:soul_infused_hammer',
-  'thermal_extra:shellite_hammer',
-  'thermal_extra:twinite_hammer',
-  'thermal_extra:dragonsteel_hammer',
-  'thermal_extra:abyssal_hammer',
-];
-
-//add Tags to Items
-ServerEvents.tags('item', (event) => {
-  hammer.forEach((hammer) => {
-    event.add('exdeorum:hammers', hammer);
-  });
   event.add('minecraft:wooden_slabs', 'minecraft:wooden_slabs');
 
   event.add('exdeorum:sieve', [
@@ -168,6 +138,12 @@ ServerEvents.tags('item', (event) => {
     'exdeorum:warped_sieve',
     'exdeorum:skyroot_sieve',
   ]);
+});
+
+
+//remove Tags from Items
+ServerEvents.tags('item', (event) => {
+  event.remove('mysticalagriculture:infusion_crystals', 'mysticalagriculture:infusion_crystal');
 });
 
 //add Tags to Fluids
@@ -192,6 +168,7 @@ ServerEvents.tags('fluid', (event) => {
   event.add('forge:steam', ['bigreactors:steam', 'bigreactors:steam_vapor']);
 });
 
+//add Tags to Blocks
 ServerEvents.tags('block', event => {
   event.add('ae2:growth_acceleratable', [
     'mysticalagriculture:boron_crop',
@@ -207,5 +184,11 @@ ServerEvents.tags('block', event => {
     'mysticalagriculture:vibranium_crop',
     'mysticalagriculture:plutonium_crop',
     'mysticalagriculture:lithium_crop',
+  ]);
+
+  event.add('minecraft:beacon_base_blocks', [
+    'allthemodium:vibranium_allthemodium_alloy_block',
+    'allthemodium:unobtainium_allthemodium_alloy_block',
+    'allthemodium:unobtainium_vibranium_alloy_block',
   ]);
 })

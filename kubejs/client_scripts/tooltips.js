@@ -27,7 +27,7 @@ ItemEvents.tooltip((event) => {
 
   // EnderIO Conduits
   const conduits = [
-    { id: 'enderio:conductive_conduit', val: '2,024' },
+    { id: 'enderio:conductive_conduit', val: '2,048' },
     { id: 'enderio:energetic_conduit', val: '8,192' },
     { id: 'enderio:vibrant_conduit', val: '32,768' },
     { id: 'enderio:endsteel_conduit', val: '131,072' },

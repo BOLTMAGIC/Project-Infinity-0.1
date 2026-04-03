@@ -61,6 +61,14 @@ MMEvents.createProcesses((event) => {
     .input({
       type: 'mm:input/consume',
       ingredient: {
+        type: 'mm:item',
+        item: 'minecraft:redstone',
+        count: 4,
+      },
+    })
+    .input({
+      type: 'mm:input/consume',
+      ingredient: {
         type: 'mm:energy',
         amount: 16384,
       },
@@ -68,9 +76,9 @@ MMEvents.createProcesses((event) => {
     .input({
       type: 'mm:input/consume',
       ingredient: {
-        type: 'mm:item',
-        item: 'minecraft:redstone',
-        count: 4,
+        type: 'mm:fluid',
+        fluid: 'bloodmagic:life_essence_fluid',
+        amount: 1000,
       },
     })
     .output({

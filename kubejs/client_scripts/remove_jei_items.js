@@ -12,12 +12,8 @@ JEIEvents.hideItems((event) => {
   let excludedItemsRechiseled = ['rechiseled:chisel'];
   event.hide('tconstruct:potion');
 
-  Ingredient.of(/^chipped:/).itemIds.forEach((id) => {
-    if (!excludedItemsChipped.includes(id)) event.hide(id);
-  });
-  Ingredient.of(/^rechiseled:/).itemIds.forEach((id) => {
-    if (!excludedItemsRechiseled.includes(id)) event.hide(id);
-  });
+  event.hide(Ingredient.of("@chipped").subtract(excludedItemsChipped));
+  event.hide(Ingredient.of("@rechiseled").subtract(excludedItemsRechiseled));
 });
 
 JEIEvents.removeCategories((event) => {

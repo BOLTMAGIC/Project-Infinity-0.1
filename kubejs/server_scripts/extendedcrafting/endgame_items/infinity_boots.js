@@ -130,13 +130,13 @@ ServerEvents.recipes((event) => {
           item: 'advancednetherite:netherite_diamond_boots',
         },
         m: {
-          item: 'aether:gravitite_boots',
+          item: 'avaritia_expand:crystal_boots',
         },
         n: {
           item: 'thermal:hazmat_boots',
         },
         o: {
-          item: 'aether:valkyrie_boots',
+          item: 'avaritia_expand:blaze_boots',
         },
         p: {
           item: 'armorplus:frost_lava_boots',

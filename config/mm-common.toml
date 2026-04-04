@@ -5,7 +5,7 @@ asyncValidation = true
 structureValidationRate = 10
 #Enables the Debug Tool Item's functionality (Disable when on server). Default: true
 debugTool = true
-#Splits JEI recipe viewer categroies by the structure they belong to. Default: true
+#Splits JEI recipe viewer categories by the structure they belong to. Default: true
 splitRecipesJei = true
 #The default value of 'autoPush' (when not set) on ports that support automatic extract to nearby storages. Default: false
 portsAutoExtractByDefault = false

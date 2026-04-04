@@ -20,6 +20,9 @@
 		wormholeP2PTeleportation = false
 		#Create immersive portals on wormhole p2ps. Expect visual glitches with shaders.
 		immersiveP2PWormhole = false
+		#Maximum number of speed cards that can be installed in Entity Ticker
+		#Range: 0 ~ 8
+		entityTickerMaxSpeedCards = 8
 
 	[general.Machines]
 		#XP cost multiplier for Auto Enchanter

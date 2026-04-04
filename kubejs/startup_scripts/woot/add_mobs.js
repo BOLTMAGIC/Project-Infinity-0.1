@@ -47,7 +47,6 @@ WootStartupEvents.registerFactoryMob(
   'cataclysm:kobolediator',
   'cataclysm:netherite_monstrosity',
   'cataclysm:scylla',
-  'aether:valkyrie',
   'twilightforest:armored_giant',
   'twilightforest:carminite_golem',
   'twilightforest:giant_miner',
@@ -74,13 +73,9 @@ WootStartupEvents.registerFactoryMob(
   'mutantmonsters:mutant_zombie',
   'mutantmonsters:spider_pig',
   'botania:doppleganger',
-  'aether:mimic',
-  'aether:slider',
   'bosses_of_mass_destruction:lich',
   'bosses_of_mass_destruction:gauntlet',
   'cataclysm:the_prowler',
-  'aether:sun_spirit',
-  'aether:valkyrie_queen',
   (event) => {
     event.factoryMobPatcher().tier('tier_4').patch();
   });

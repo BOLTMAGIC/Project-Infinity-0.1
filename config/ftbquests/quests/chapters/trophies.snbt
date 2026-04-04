@@ -19,14 +19,6 @@
 	images: [
 		{
 			height: 2.0d
-			image: "kubejs:block/screen/theaether"
-			rotation: 0.0d
-			width: 6.0d
-			x: -19.0d
-			y: 4.0d
-		}
-		{
-			height: 2.0d
 			image: "kubejs:block/screen/twilightforest"
 			rotation: 0.0d
 			width: 6.0d
@@ -70,8 +62,8 @@
 			image: "kubejs:block/screen/allthemodium"
 			rotation: 0.0d
 			width: 3.0d
-			x: -21.0d
-			y: -3.0d
+			x: -20.5d
+			y: 3.0d
 		}
 	]
 	order_index: 0
@@ -360,40 +352,6 @@
 			hide_text_until_complete: false
 			hide_until_deps_visible: false
 			icon_scale: 2.0d
-			id: "5BD96C03E71D8DE7"
-			rewards: [{
-				id: "03F1E1CFE9322551"
-				item: "kubejs:ascended_coin"
-				type: "item"
-			}]
-			shape: "rsquare"
-			size: 2.0d
-			tasks: [{
-				consume_items: false
-				id: "3EE0CC8D76273165"
-				item: {
-					Count: 1
-					id: "obtrophies:trophy"
-					tag: {
-						BlockEntityTag: {
-							VariantID: 0
-							entity: "aether:slider"
-						}
-					}
-				}
-				match_nbt: true
-				only_from_crafting: false
-				type: "item"
-			}]
-			x: -19.0d
-			y: 6.0d
-		}
-		{
-			can_repeat: false
-			hide_details_until_startable: false
-			hide_text_until_complete: false
-			hide_until_deps_visible: false
-			icon_scale: 2.0d
 			id: "421704684A878A50"
 			rewards: [{
 				id: "6526ECC25FCC83E2"
@@ -456,40 +414,6 @@
 			}]
 			x: 5.0d
 			y: 14.0d
-		}
-		{
-			can_repeat: false
-			hide_details_until_startable: false
-			hide_text_until_complete: false
-			hide_until_deps_visible: false
-			icon_scale: 2.0d
-			id: "62F8771EC7AE68D5"
-			rewards: [{
-				id: "2FB0922233FE4DA5"
-				item: "kubejs:ascended_coin"
-				type: "item"
-			}]
-			shape: "rsquare"
-			size: 2.0d
-			tasks: [{
-				consume_items: false
-				id: "32702784F58C8764"
-				item: {
-					Count: 1
-					id: "obtrophies:trophy"
-					tag: {
-						BlockEntityTag: {
-							VariantID: 0
-							entity: "aether:sun_spirit"
-						}
-					}
-				}
-				match_nbt: true
-				only_from_crafting: false
-				type: "item"
-			}]
-			x: -21.0d
-			y: 6.0d
 		}
 		{
 			can_repeat: false
@@ -849,8 +773,8 @@
 				only_from_crafting: false
 				type: "item"
 			}]
-			x: -21.0d
-			y: 0.0d
+			x: -20.5d
+			y: 6.0d
 		}
 		{
 			can_repeat: false
@@ -1054,40 +978,6 @@
 			}]
 			x: -17.0d
 			y: 12.0d
-		}
-		{
-			can_repeat: false
-			hide_details_until_startable: false
-			hide_text_until_complete: false
-			hide_until_deps_visible: false
-			icon_scale: 2.0d
-			id: "6D900F0EAA7506AC"
-			rewards: [{
-				id: "28575DD99BD10B17"
-				item: "kubejs:ascended_coin"
-				type: "item"
-			}]
-			shape: "rsquare"
-			size: 2.0d
-			tasks: [{
-				consume_items: false
-				id: "2438E08E9827485F"
-				item: {
-					Count: 1
-					id: "obtrophies:trophy"
-					tag: {
-						BlockEntityTag: {
-							VariantID: 0
-							entity: "aether:valkyrie_queen"
-						}
-					}
-				}
-				match_nbt: true
-				only_from_crafting: false
-				type: "item"
-			}]
-			x: -17.0d
-			y: 6.0d
 		}
 		{
 			can_repeat: false

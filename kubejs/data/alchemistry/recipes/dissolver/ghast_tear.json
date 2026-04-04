@@ -10,7 +10,7 @@
     "output": {
         "groups": [
             {
-                "probability": 100.0,
+                "probability": 5.0,
                 "results": [
                     {
                         "count": 1,

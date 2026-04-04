@@ -1,8 +1,4 @@
 ae2:meteorite
-aether:bronze_dungeon
-aether:gold_dungeon
-aether:large_aercloud
-aether:silver_dungeon
 allthemodium:ancient_pyramid
 allthemodium:dungeon
 allthemodium:piglin_village
@@ -49,10 +45,16 @@ bosses_of_mass_destruction:void_blossom
 bygonenether:catacomb
 bygonenether:citadel
 bygonenether:piglin_manor
+cataclysm:abandoned_spire
+cataclysm:abandoned_temple
+cataclysm:abandoned_village
 cataclysm:acropolis
+cataclysm:amethyst_nest
 cataclysm:ancient_factory
 cataclysm:burning_arena
 cataclysm:cursed_pyramid
+cataclysm:desert_occupied_village
+cataclysm:desert_site
 cataclysm:frosted_prison
 cataclysm:ruined_citadel
 cataclysm:soul_black_smith

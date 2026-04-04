@@ -1,8 +1,4 @@
 ae2:spatial_storage
-aether:skyroot_forest
-aether:skyroot_grove
-aether:skyroot_meadow
-aether:skyroot_woodland
 allthemodium:basalt_deltas
 allthemodium:crimson_forest
 allthemodium:desert

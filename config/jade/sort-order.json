@@ -81,6 +81,8 @@
   "jadeaddons.tconstruct:casting_table": null,
   "jadeaddons.tconstruct:duct_fluid": null,
   "jadeaddons.tconstruct:duct_item": null,
+  "logisticsnetworks:logistics_node_entity": null,
+  "logisticsnetworks:node_attached": null,
   "mekanism:data_provider": null,
   "mekanism:entity_data_provider": null,
   "mekanism:remove_builtin": null,

@@ -1,5 +1,5 @@
 // priority: 1;
-function createCompactorRecipe (
+function createCompactorRecipe(
   event,
   input,
   output,
@@ -216,4 +216,33 @@ MMEvents.createProcesses((event) => {
     'mysticalexpansion:divinium_essence',
     64
   );
+
+  event
+    .create('mm:coal_to_hellforged_parts')
+    .structureId('mm:multi_compactor_structure')
+    .ticks(1200)
+    .input({
+      type: 'mm:input/consume',
+      ingredient: {
+        type: 'mm:item',
+        item: 'compressium:coal_2',
+        count: 344064,
+      },
+    })
+    .input({
+      type: 'mm:input/consume',
+      ingredient: {
+        type: 'mm:energy',
+        amount: 2147483647,
+      },
+    })
+    .output({
+      type: 'mm:output/simple',
+      ingredient: {
+        type: 'mm:item',
+        item: 'bloodmagic:hellforgedparts',
+        count: 4,
+      },
+      chance: 0.133,
+    });
 });

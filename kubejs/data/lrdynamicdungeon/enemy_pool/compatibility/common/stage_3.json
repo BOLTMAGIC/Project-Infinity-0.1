@@ -1,9 +1,6 @@
 {
   "ground": [
     [
-      ["aether:mimic", 0, 0, 0]
-    ],
-    [
       ["ancientlegends:ash_golem", 0, 0, 0]
     ],
     [
@@ -188,9 +185,6 @@
     ]
   ],
   "boss": [
-    [
-      ["aether:fire_minion", 0, 0, 0]
-    ],
     [
       ["ancientlegends:ice_behemoth", 0, 0, 0]
     ],

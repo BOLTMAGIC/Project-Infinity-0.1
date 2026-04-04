@@ -59,36 +59,6 @@
                     "apotheosis:gem",
                     4,
                     {
-                        "gem": "apotheotic_additions:aether/purity",
-                        "affix_data": { "rarity": "apotheosis:rare" }
-                    }
-                ]
-            ],
-            [
-                [
-                    "apotheosis:gem",
-                    4,
-                    {
-                        "gem": "apotheotic_additions:aether/zanite_alchemist",
-                        "affix_data": { "rarity": "apotheosis:rare" }
-                    }
-                ]
-            ],
-            [
-                [
-                    "apotheosis:gem",
-                    4,
-                    {
-                        "gem": "apotheotic_additions:aether/zanite_alchemist",
-                        "affix_data": { "rarity": "apotheosis:rare" }
-                    }
-                ]
-            ],
-            [
-                [
-                    "apotheosis:gem",
-                    4,
-                    {
                         "gem": "apotheosis:core/ballast",
                         "affix_data": { "rarity": "apotheosis:rare" }
                     }
@@ -740,9 +710,9 @@
                 ["ae2:annihilation_core", 32],
                 ["ae2:formation_core", 32]
             ],
-            [["mekanism:hdpe_pellet", 32]],
-            [["mekanism:pellet_polonium", 16]],
-            [["mekanism:pellet_plutonium", 8]],
+            [["mekanism:hdpe_pellet", 4]],
+            [["mekanism:pellet_polonium", 2]],
+            [["mekanism:pellet_plutonium", 1]],
             [["mekanism:pellet_antimatter", 1]]
         ]
     },

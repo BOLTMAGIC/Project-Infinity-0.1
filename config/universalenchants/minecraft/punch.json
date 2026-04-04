@@ -4,9 +4,6 @@
     "$minecraft:bow",
     "apotheosis:bow_tome",
     "cataclysm:cursed_bow",
-    "aether:golden_dart_shooter",
-    "aether:poison_dart_shooter",
-    "aether:enchanted_dart_shooter",
     "$minecraft:crossbow"
   ],
   "incompatible": [

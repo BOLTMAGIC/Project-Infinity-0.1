@@ -1,0 +1,5 @@
+#Whether nodes should drop their item when the attached block is broken.
+dropNodeItem = true
+#Enable debug overlays and diagnostic logging.
+debugMode = false
+

@@ -34,7 +34,7 @@ ServerEvents.recipes((event) => {
           item: 'allthemodium:unobtainium_chestplate',
         },
         G: {
-          item: 'aether:gravitite_chestplate',
+          item: 'avaritia_expand:crystal_chestplate',
         },
         H: {
           item: 'advancednetherite:netherite_diamond_chestplate',
@@ -43,7 +43,7 @@ ServerEvents.recipes((event) => {
           item: 'mutantmonsters:mutant_skeleton_chestplate',
         },
         J: {
-          item: 'aether:valkyrie_chestplate',
+          item: 'avaritia_expand:blaze_chestplate',
         },
         K: {
           item: 'pneumaticcraft:pneumatic_chestplate',

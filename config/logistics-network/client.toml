@@ -1,0 +1,4 @@
+#Maximum number of nodes rendered when holding a wrench. Nearest nodes are prioritized.
+#Range: > 1
+maxRenderedNodes = 200
+

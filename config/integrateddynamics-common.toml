@@ -169,6 +169,10 @@
 		#The energy capacity of a mechanical drying basin.
 		capacity = 100000
 
+	[machine.coal_generator]
+		#The energy production rate (in RF/t) of the coal generator.
+		energyPerTick = 20
+
 [worldgeneration]
 
 	[worldgeneration.menril_log_filled]

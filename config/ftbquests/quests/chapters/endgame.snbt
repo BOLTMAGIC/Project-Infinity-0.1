@@ -103,6 +103,370 @@
 			x: 2.0d
 			y: 2.0d
 		}
+		{
+			id: "3F546D112F96CB64"
+			rewards: [{
+				id: "7F6B3802EB682418"
+				item: {
+					Count: 1
+					id: "obtrophies:display_trophy"
+					tag: {
+						BlockEntityTag: {
+							display: {
+								display: "kubejs:infinity_1"
+								scale: 2.0f
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "7380C4A30F5F72EB"
+				item: "kubejs:infinity_1"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 5.0d
+		}
+		{
+			dependencies: [
+				"39DCFBD8A110EB53"
+				"195A8D5F6476876A"
+				"5675CF73AF40A9D8"
+				"3F546D112F96CB64"
+			]
+			id: "3C7ABEC92AFECACE"
+			rewards: [{
+				id: "193E12B180A7CFAD"
+				item: {
+					Count: 1
+					id: "obtrophies:display_trophy"
+					tag: {
+						BlockEntityTag: {
+							display: {
+								display: "kubejs:infinity_2"
+								scale: 2.0f
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "7EEF9294E1622D95"
+				item: "kubejs:infinity_2"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["3C7ABEC92AFECACE"]
+			id: "09E417572962783A"
+			rewards: [{
+				id: "1602848DDCE2914B"
+				item: {
+					Count: 1
+					id: "obtrophies:display_trophy"
+					tag: {
+						BlockEntityTag: {
+							display: {
+								display: "kubejs:infinity_3"
+								scale: 2.0f
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "346B8BD14AF4E696"
+				item: "kubejs:infinity_3"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["09E417572962783A"]
+			id: "1CCDE53F4A707C91"
+			rewards: [{
+				id: "67D1924670C89BBA"
+				item: {
+					Count: 1
+					id: "obtrophies:display_trophy"
+					tag: {
+						BlockEntityTag: {
+							display: {
+								display: "kubejs:infinity_4"
+								scale: 2.0f
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "4A266F02DFD14C04"
+				item: "kubejs:infinity_4"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["1CCDE53F4A707C91"]
+			id: "65F732CD15E10BBD"
+			rewards: [{
+				id: "5F45C24706F2DCF6"
+				item: {
+					Count: 1
+					id: "obtrophies:display_trophy"
+					tag: {
+						BlockEntityTag: {
+							display: {
+								display: "kubejs:infinity_5"
+								scale: 2.0f
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "4EF7C2ABAE7AAFC8"
+				item: "kubejs:infinity_5"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["65F732CD15E10BBD"]
+			id: "06F8F31942E7741C"
+			rewards: [{
+				id: "496A445229D59CD0"
+				item: {
+					Count: 1
+					id: "obtrophies:display_trophy"
+					tag: {
+						BlockEntityTag: {
+							display: {
+								display: "kubejs:infinity_6"
+								scale: 2.0f
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "25C2EBBDC8D8D8DA"
+				item: "kubejs:infinity_6"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["06F8F31942E7741C"]
+			id: "7B5143F86F4FAC74"
+			rewards: [{
+				id: "32AC6EC6ECA18057"
+				item: {
+					Count: 1
+					id: "obtrophies:display_trophy"
+					tag: {
+						BlockEntityTag: {
+							display: {
+								display: "kubejs:infinity_7"
+								scale: 2.0f
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "7A10AB1136175919"
+				item: "kubejs:infinity_7"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["7B5143F86F4FAC74"]
+			id: "3B7AEEE67CA9D3BC"
+			rewards: [{
+				id: "7978AB8FAF670CF9"
+				item: {
+					Count: 1
+					id: "obtrophies:display_trophy"
+					tag: {
+						BlockEntityTag: {
+							display: {
+								display: "kubejs:infinity_8"
+								scale: 2.0f
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "4F67595C993FC045"
+				item: "kubejs:infinity_8"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["3B7AEEE67CA9D3BC"]
+			id: "21F3CB7EEAAFDFBB"
+			rewards: [{
+				id: "79DAF473FB02C7FB"
+				item: {
+					Count: 1
+					id: "obtrophies:display_trophy"
+					tag: {
+						BlockEntityTag: {
+							display: {
+								display: "kubejs:infinity_9"
+								scale: 2.0f
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "10CD0C5E756DDB5C"
+				item: "kubejs:infinity_9"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["21F3CB7EEAAFDFBB"]
+			id: "08FC6B05DAE0AE82"
+			rewards: [{
+				id: "6DEADB574944F83D"
+				item: {
+					Count: 1
+					id: "obtrophies:display_trophy"
+					tag: {
+						BlockEntityTag: {
+							display: {
+								display: "kubejs:infinity_10"
+								scale: 2.0f
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "3E09880F9FFCD163"
+				item: "kubejs:infinity_10"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["08FC6B05DAE0AE82"]
+			id: "263CF5984CE06F89"
+			rewards: [{
+				id: "714E855055DAD7A7"
+				item: {
+					Count: 1
+					id: "obtrophies:display_trophy"
+					tag: {
+						BlockEntityTag: {
+							display: {
+								display: "kubejs:infinity_11"
+								scale: 2.0f
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "6FCC7F2496F080B5"
+				item: "kubejs:infinity_11"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["263CF5984CE06F89"]
+			id: "39F206873B1761EC"
+			rewards: [{
+				id: "43F2912FBEC8D331"
+				item: {
+					Count: 1
+					id: "obtrophies:display_trophy"
+					tag: {
+						BlockEntityTag: {
+							display: {
+								display: "kubejs:infinity_12"
+								scale: 2.0f
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "342AE660679C5455"
+				item: "kubejs:infinity_12"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["3F546D112F96CB64"]
+			hide_dependency_lines: true
+			id: "39DCFBD8A110EB53"
+			tasks: [{
+				id: "47A52E5267795785"
+				item: "kubejs:infinity_1_333333"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["3F546D112F96CB64"]
+			hide_dependency_lines: true
+			id: "195A8D5F6476876A"
+			tasks: [{
+				id: "71FFD42398C89BA6"
+				item: "kubejs:infinity_1_666666"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["3F546D112F96CB64"]
+			hide_dependency_lines: true
+			id: "5675CF73AF40A9D8"
+			tasks: [{
+				id: "3BAE5BF57E8F12C5"
+				item: "kubejs:infinity_1_999999"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 3.5d
+		}
 	]
 	title: "&cEndGame"
 }

@@ -64,7 +64,7 @@ ServerEvents.recipes((event) => {
           item: 'twilightforest:steeleaf_hoe',
         },
         Q: {
-          item: 'aether:gravitite_hoe',
+          item: 'avaritia:blaze_hoe',
         },
         R: {
           item: 'mysticaladaptations:insanium_hoe',

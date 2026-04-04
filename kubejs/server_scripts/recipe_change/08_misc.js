@@ -539,7 +539,7 @@ ServerEvents.recipes((event) => {
     'ae2omnicells:quantum_omni_cell_16m',
     Item.of('armorplus:slayer_helmet', '{Damage:0}'),
     'ae2omnicells:quantum_omni_cell_16m',
-    'aether:regeneration_stone',
+    'kubejs:infinity_1',
     'advanced_ae:quantum_upgrade_base',
     'cyclic:heart',
     'ae2omnicells:quantum_omni_cell_16m',
@@ -1366,10 +1366,7 @@ ServerEvents.recipes((event) => {
     [
       '#forge:stone',
       Item.of('ironjetpacks:capacitor', '{Id:"ironjetpacks:stone"}'),
-      Item.of(
-        'ironjetpacks:jetpack',
-        '{Id:"ironjetpacks:wood"}'
-      ).weakNBT(),
+      Item.of('ironjetpacks:jetpack', '{Id:"ironjetpacks:wood"}').weakNBT(),
       Item.of('ironjetpacks:thruster', '{Id:"ironjetpacks:stone"}'),
     ]
   );
@@ -1379,10 +1376,7 @@ ServerEvents.recipes((event) => {
     [
       '#forge:ingots/copper',
       Item.of('ironjetpacks:capacitor', '{Id:"ironjetpacks:copper"}'),
-      Item.of(
-        'ironjetpacks:jetpack',
-        '{Id:"ironjetpacks:wood"}'
-      ).weakNBT(),
+      Item.of('ironjetpacks:jetpack', '{Id:"ironjetpacks:wood"}').weakNBT(),
       Item.of('ironjetpacks:thruster', '{Id:"ironjetpacks:copper"}'),
     ]
   );
@@ -1394,10 +1388,7 @@ ServerEvents.recipes((event) => {
     [
       '#forge:ingots/iron',
       Item.of('ironjetpacks:capacitor', '{Id:"ironjetpacks:iron"}'),
-      Item.of(
-        'ironjetpacks:jetpack',
-        '{Id:"ironjetpacks:copper"}'
-      ).weakNBT(),
+      Item.of('ironjetpacks:jetpack', '{Id:"ironjetpacks:copper"}').weakNBT(),
       Item.of('ironjetpacks:thruster', '{Id:"ironjetpacks:iron"}'),
     ]
   );
@@ -1407,10 +1398,7 @@ ServerEvents.recipes((event) => {
     [
       '#forge:ingots/bronze',
       Item.of('ironjetpacks:capacitor', '{Id:"ironjetpacks:bronze"}'),
-      Item.of(
-        'ironjetpacks:jetpack',
-        '{Id:"ironjetpacks:copper"}'
-      ).weakNBT(),
+      Item.of('ironjetpacks:jetpack', '{Id:"ironjetpacks:copper"}').weakNBT(),
       Item.of('ironjetpacks:thruster', '{Id:"ironjetpacks:bronze"}'),
     ]
   );
@@ -1420,10 +1408,7 @@ ServerEvents.recipes((event) => {
     [
       '#forge:ingots/silver',
       Item.of('ironjetpacks:capacitor', '{Id:"ironjetpacks:silver"}'),
-      Item.of(
-        'ironjetpacks:jetpack',
-        '{Id:"ironjetpacks:copper"}'
-      ).weakNBT(),
+      Item.of('ironjetpacks:jetpack', '{Id:"ironjetpacks:copper"}').weakNBT(),
       Item.of('ironjetpacks:thruster', '{Id:"ironjetpacks:silver"}'),
     ]
   );
@@ -1434,10 +1419,7 @@ ServerEvents.recipes((event) => {
     [
       '#forge:ingots/iron',
       Item.of('ironjetpacks:capacitor', '{Id:"ironjetpacks:iron"}'),
-      Item.of(
-        'ironjetpacks:jetpack',
-        '{Id:"ironjetpacks:stone"}'
-      ).weakNBT(),
+      Item.of('ironjetpacks:jetpack', '{Id:"ironjetpacks:stone"}').weakNBT(),
       Item.of('ironjetpacks:thruster', '{Id:"ironjetpacks:iron"}'),
     ]
   );
@@ -1447,10 +1429,7 @@ ServerEvents.recipes((event) => {
     [
       '#forge:ingots/bronze',
       Item.of('ironjetpacks:capacitor', '{Id:"ironjetpacks:bronze"}'),
-      Item.of(
-        'ironjetpacks:jetpack',
-        '{Id:"ironjetpacks:stone"}'
-      ).weakNBT(),
+      Item.of('ironjetpacks:jetpack', '{Id:"ironjetpacks:stone"}').weakNBT(),
       Item.of('ironjetpacks:thruster', '{Id:"ironjetpacks:bronze"}'),
     ]
   );
@@ -1460,10 +1439,7 @@ ServerEvents.recipes((event) => {
     [
       '#forge:ingots/silver',
       Item.of('ironjetpacks:capacitor', '{Id:"ironjetpacks:silver"}'),
-      Item.of(
-        'ironjetpacks:jetpack',
-        '{Id:"ironjetpacks:stone"}'
-      ).weakNBT(),
+      Item.of('ironjetpacks:jetpack', '{Id:"ironjetpacks:stone"}').weakNBT(),
       Item.of('ironjetpacks:thruster', '{Id:"ironjetpacks:silver"}'),
     ]
   );
@@ -1475,10 +1451,7 @@ ServerEvents.recipes((event) => {
     [
       '#forge:ingots/gold',
       Item.of('ironjetpacks:capacitor', '{Id:"ironjetpacks:gold"}'),
-      Item.of(
-        'ironjetpacks:jetpack',
-        '{Id:"ironjetpacks:iron"}'
-      ).weakNBT(),
+      Item.of('ironjetpacks:jetpack', '{Id:"ironjetpacks:iron"}').weakNBT(),
       Item.of('ironjetpacks:thruster', '{Id:"ironjetpacks:gold"}'),
     ]
   );
@@ -1488,26 +1461,17 @@ ServerEvents.recipes((event) => {
     [
       '#forge:ingots/steel',
       Item.of('ironjetpacks:capacitor', '{Id:"ironjetpacks:steel"}'),
-      Item.of(
-        'ironjetpacks:jetpack',
-        '{Id:"ironjetpacks:iron"}'
-      ).weakNBT(),
+      Item.of('ironjetpacks:jetpack', '{Id:"ironjetpacks:iron"}').weakNBT(),
       Item.of('ironjetpacks:thruster', '{Id:"ironjetpacks:steel"}'),
     ]
   );
   create3x3jetpack(
     event,
-    Item.of(
-      'ironjetpacks:jetpack',
-      '{Id:"ironjetpacks:electrum"}'
-    ),
+    Item.of('ironjetpacks:jetpack', '{Id:"ironjetpacks:electrum"}'),
     [
       '#forge:ingots/electrum',
       Item.of('ironjetpacks:capacitor', '{Id:"ironjetpacks:electrum"}'),
-      Item.of(
-        'ironjetpacks:jetpack',
-        '{Id:"ironjetpacks:iron"}'
-      ).weakNBT(),
+      Item.of('ironjetpacks:jetpack', '{Id:"ironjetpacks:iron"}').weakNBT(),
       Item.of('ironjetpacks:thruster', '{Id:"ironjetpacks:electrum"}'),
     ]
   );
@@ -1517,10 +1481,7 @@ ServerEvents.recipes((event) => {
     [
       '#forge:ingots/invar',
       Item.of('ironjetpacks:capacitor', '{Id:"ironjetpacks:invar"}'),
-      Item.of(
-        'ironjetpacks:jetpack',
-        '{Id:"ironjetpacks:iron"}'
-      ).weakNBT(),
+      Item.of('ironjetpacks:jetpack', '{Id:"ironjetpacks:iron"}').weakNBT(),
       Item.of('ironjetpacks:thruster', '{Id:"ironjetpacks:invar"}'),
     ]
   );
@@ -1531,10 +1492,7 @@ ServerEvents.recipes((event) => {
     [
       '#forge:ingots/gold',
       Item.of('ironjetpacks:capacitor', '{Id:"ironjetpacks:gold"}'),
-      Item.of(
-        'ironjetpacks:jetpack',
-        '{Id:"ironjetpacks:bronze"}'
-      ).weakNBT(),
+      Item.of('ironjetpacks:jetpack', '{Id:"ironjetpacks:bronze"}').weakNBT(),
       Item.of('ironjetpacks:thruster', '{Id:"ironjetpacks:gold"}'),
     ]
   );
@@ -1544,26 +1502,17 @@ ServerEvents.recipes((event) => {
     [
       '#forge:ingots/steel',
       Item.of('ironjetpacks:capacitor', '{Id:"ironjetpacks:steel"}'),
-      Item.of(
-        'ironjetpacks:jetpack',
-        '{Id:"ironjetpacks:bronze"}'
-      ).weakNBT(),
+      Item.of('ironjetpacks:jetpack', '{Id:"ironjetpacks:bronze"}').weakNBT(),
       Item.of('ironjetpacks:thruster', '{Id:"ironjetpacks:steel"}'),
     ]
   );
   create3x3jetpack(
     event,
-    Item.of(
-      'ironjetpacks:jetpack',
-      '{Id:"ironjetpacks:electrum"}'
-    ),
+    Item.of('ironjetpacks:jetpack', '{Id:"ironjetpacks:electrum"}'),
     [
       '#forge:ingots/electrum',
       Item.of('ironjetpacks:capacitor', '{Id:"ironjetpacks:electrum"}'),
-      Item.of(
-        'ironjetpacks:jetpack',
-        '{Id:"ironjetpacks:bronze"}'
-      ).weakNBT(),
+      Item.of('ironjetpacks:jetpack', '{Id:"ironjetpacks:bronze"}').weakNBT(),
       Item.of('ironjetpacks:thruster', '{Id:"ironjetpacks:electrum"}'),
     ]
   );
@@ -1573,10 +1522,7 @@ ServerEvents.recipes((event) => {
     [
       '#forge:ingots/invar',
       Item.of('ironjetpacks:capacitor', '{Id:"ironjetpacks:invar"}'),
-      Item.of(
-        'ironjetpacks:jetpack',
-        '{Id:"ironjetpacks:bronze"}'
-      ).weakNBT(),
+      Item.of('ironjetpacks:jetpack', '{Id:"ironjetpacks:bronze"}').weakNBT(),
       Item.of('ironjetpacks:thruster', '{Id:"ironjetpacks:invar"}'),
     ]
   );
@@ -1587,10 +1533,7 @@ ServerEvents.recipes((event) => {
     [
       '#forge:ingots/gold',
       Item.of('ironjetpacks:capacitor', '{Id:"ironjetpacks:gold"}'),
-      Item.of(
-        'ironjetpacks:jetpack',
-        '{Id:"ironjetpacks:silver"}'
-      ).weakNBT(),
+      Item.of('ironjetpacks:jetpack', '{Id:"ironjetpacks:silver"}').weakNBT(),
       Item.of('ironjetpacks:thruster', '{Id:"ironjetpacks:gold"}'),
     ]
   );
@@ -1600,26 +1543,17 @@ ServerEvents.recipes((event) => {
     [
       '#forge:ingots/steel',
       Item.of('ironjetpacks:capacitor', '{Id:"ironjetpacks:steel"}'),
-      Item.of(
-        'ironjetpacks:jetpack',
-        '{Id:"ironjetpacks:silver"}'
-      ).weakNBT(),
+      Item.of('ironjetpacks:jetpack', '{Id:"ironjetpacks:silver"}').weakNBT(),
       Item.of('ironjetpacks:thruster', '{Id:"ironjetpacks:steel"}'),
     ]
   );
   create3x3jetpack(
     event,
-    Item.of(
-      'ironjetpacks:jetpack',
-      '{Id:"ironjetpacks:electrum"}'
-    ),
+    Item.of('ironjetpacks:jetpack', '{Id:"ironjetpacks:electrum"}'),
     [
       '#forge:ingots/electrum',
       Item.of('ironjetpacks:capacitor', '{Id:"ironjetpacks:electrum"}'),
-      Item.of(
-        'ironjetpacks:jetpack',
-        '{Id:"ironjetpacks:silver"}'
-      ).weakNBT(),
+      Item.of('ironjetpacks:jetpack', '{Id:"ironjetpacks:silver"}').weakNBT(),
       Item.of('ironjetpacks:thruster', '{Id:"ironjetpacks:electrum"}'),
     ]
   );
@@ -1629,10 +1563,7 @@ ServerEvents.recipes((event) => {
     [
       '#forge:ingots/invar',
       Item.of('ironjetpacks:capacitor', '{Id:"ironjetpacks:invar"}'),
-      Item.of(
-        'ironjetpacks:jetpack',
-        '{Id:"ironjetpacks:silver"}'
-      ).weakNBT(),
+      Item.of('ironjetpacks:jetpack', '{Id:"ironjetpacks:silver"}').weakNBT(),
       Item.of('ironjetpacks:thruster', '{Id:"ironjetpacks:invar"}'),
     ]
   );
@@ -1640,132 +1571,84 @@ ServerEvents.recipes((event) => {
   //Gold to Diamond/Platinum
   create3x3jetpack(
     event,
-    Item.of(
-      'ironjetpacks:jetpack',
-      '{Id:"ironjetpacks:diamond"}'
-    ),
+    Item.of('ironjetpacks:jetpack', '{Id:"ironjetpacks:diamond"}'),
     [
       '#forge:gems/diamond',
       Item.of('ironjetpacks:capacitor', '{Id:"ironjetpacks:diamond"}'),
-      Item.of(
-        'ironjetpacks:jetpack',
-        '{Id:"ironjetpacks:gold"}'
-      ).weakNBT(),
+      Item.of('ironjetpacks:jetpack', '{Id:"ironjetpacks:gold"}').weakNBT(),
       Item.of('ironjetpacks:thruster', '{Id:"ironjetpacks:diamond"}'),
     ]
   );
   create3x3jetpack(
     event,
-    Item.of(
-      'ironjetpacks:jetpack',
-      '{Id:"ironjetpacks:platinum"}'
-    ),
+    Item.of('ironjetpacks:jetpack', '{Id:"ironjetpacks:platinum"}'),
     [
       '#forge:ingots/platinum',
       Item.of('ironjetpacks:capacitor', '{Id:"ironjetpacks:platinum"}'),
-      Item.of(
-        'ironjetpacks:jetpack',
-        '{Id:"ironjetpacks:gold"}'
-      ).weakNBT(),
+      Item.of('ironjetpacks:jetpack', '{Id:"ironjetpacks:gold"}').weakNBT(),
       Item.of('ironjetpacks:thruster', '{Id:"ironjetpacks:platinum"}'),
     ]
   );
   //Steel to Diamond/Platinum
   create3x3jetpack(
     event,
-    Item.of(
-      'ironjetpacks:jetpack',
-      '{Id:"ironjetpacks:diamond"}'
-    ),
+    Item.of('ironjetpacks:jetpack', '{Id:"ironjetpacks:diamond"}'),
     [
       '#forge:gems/diamond',
       Item.of('ironjetpacks:capacitor', '{Id:"ironjetpacks:diamond"}'),
-      Item.of(
-        'ironjetpacks:jetpack',
-        '{Id:"ironjetpacks:steel"}'
-      ).weakNBT(),
+      Item.of('ironjetpacks:jetpack', '{Id:"ironjetpacks:steel"}').weakNBT(),
       Item.of('ironjetpacks:thruster', '{Id:"ironjetpacks:diamond"}'),
     ]
   );
   create3x3jetpack(
     event,
-    Item.of(
-      'ironjetpacks:jetpack',
-      '{Id:"ironjetpacks:platinum"}'
-    ),
+    Item.of('ironjetpacks:jetpack', '{Id:"ironjetpacks:platinum"}'),
     [
       '#forge:ingots/platinum',
       Item.of('ironjetpacks:capacitor', '{Id:"ironjetpacks:platinum"}'),
-      Item.of(
-        'ironjetpacks:jetpack',
-        '{Id:"ironjetpacks:steel"}'
-      ).weakNBT(),
+      Item.of('ironjetpacks:jetpack', '{Id:"ironjetpacks:steel"}').weakNBT(),
       Item.of('ironjetpacks:thruster', '{Id:"ironjetpacks:platinum"}'),
     ]
   );
   //Electrum to Diamond/Platinum
   create3x3jetpack(
     event,
-    Item.of(
-      'ironjetpacks:jetpack',
-      '{Id:"ironjetpacks:diamond"}'
-    ),
+    Item.of('ironjetpacks:jetpack', '{Id:"ironjetpacks:diamond"}'),
     [
       '#forge:gems/diamond',
       Item.of('ironjetpacks:capacitor', '{Id:"ironjetpacks:diamond"}'),
-      Item.of(
-        'ironjetpacks:jetpack',
-        '{Id:"ironjetpacks:electrum"}'
-      ).weakNBT(),
+      Item.of('ironjetpacks:jetpack', '{Id:"ironjetpacks:electrum"}').weakNBT(),
       Item.of('ironjetpacks:thruster', '{Id:"ironjetpacks:diamond"}'),
     ]
   );
   create3x3jetpack(
     event,
-    Item.of(
-      'ironjetpacks:jetpack',
-      '{Id:"ironjetpacks:platinum"}'
-    ),
+    Item.of('ironjetpacks:jetpack', '{Id:"ironjetpacks:platinum"}'),
     [
       '#forge:ingots/platinum',
       Item.of('ironjetpacks:capacitor', '{Id:"ironjetpacks:platinum"}'),
-      Item.of(
-        'ironjetpacks:jetpack',
-        '{Id:"ironjetpacks:electrum"}'
-      ).weakNBT(),
+      Item.of('ironjetpacks:jetpack', '{Id:"ironjetpacks:electrum"}').weakNBT(),
       Item.of('ironjetpacks:thruster', '{Id:"ironjetpacks:platinum"}'),
     ]
   );
   //Invar to Diamond/Platinum
   create3x3jetpack(
     event,
-    Item.of(
-      'ironjetpacks:jetpack',
-      '{Id:"ironjetpacks:diamond"}'
-    ),
+    Item.of('ironjetpacks:jetpack', '{Id:"ironjetpacks:diamond"}'),
     [
       '#forge:gems/diamond',
       Item.of('ironjetpacks:capacitor', '{Id:"ironjetpacks:diamond"}'),
-      Item.of(
-        'ironjetpacks:jetpack',
-        '{Id:"ironjetpacks:invar"}'
-      ).weakNBT(),
+      Item.of('ironjetpacks:jetpack', '{Id:"ironjetpacks:invar"}').weakNBT(),
       Item.of('ironjetpacks:thruster', '{Id:"ironjetpacks:diamond"}'),
     ]
   );
   create3x3jetpack(
     event,
-    Item.of(
-      'ironjetpacks:jetpack',
-      '{Id:"ironjetpacks:platinum"}'
-    ),
+    Item.of('ironjetpacks:jetpack', '{Id:"ironjetpacks:platinum"}'),
     [
       '#forge:ingots/platinum',
       Item.of('ironjetpacks:capacitor', '{Id:"ironjetpacks:platinum"}'),
-      Item.of(
-        'ironjetpacks:jetpack',
-        '{Id:"ironjetpacks:invar"}'
-      ).weakNBT(),
+      Item.of('ironjetpacks:jetpack', '{Id:"ironjetpacks:invar"}').weakNBT(),
       Item.of('ironjetpacks:thruster', '{Id:"ironjetpacks:platinum"}'),
     ]
   );
@@ -1773,10 +1656,7 @@ ServerEvents.recipes((event) => {
   //Diamond to Emerald
   create3x3(
     event,
-    Item.of(
-      'ironjetpacks:jetpack',
-      '{Id:"ironjetpacks:emerald"}'
-    ),
+    Item.of('ironjetpacks:jetpack', '{Id:"ironjetpacks:emerald"}'),
     [
       'minecraft:emerald',
       Item.of(
@@ -1785,10 +1665,7 @@ ServerEvents.recipes((event) => {
       ).weakNBT(),
       'minecraft:emerald',
       'minecraft:emerald',
-      Item.of(
-        'ironjetpacks:jetpack',
-        '{Id:"ironjetpacks:diamond"}'
-      ).weakNBT(),
+      Item.of('ironjetpacks:jetpack', '{Id:"ironjetpacks:diamond"}').weakNBT(),
       'minecraft:emerald',
       Item.of('ironjetpacks:thruster', '{Id:"ironjetpacks:emerald"}').weakNBT(),
       'kubejs:infinity_1',
@@ -1798,10 +1675,7 @@ ServerEvents.recipes((event) => {
   //Platinum to Emerald
   create3x3(
     event,
-    Item.of(
-      'ironjetpacks:jetpack',
-      '{Id:"ironjetpacks:emerald"}'
-    ),
+    Item.of('ironjetpacks:jetpack', '{Id:"ironjetpacks:emerald"}'),
     [
       'minecraft:emerald',
       Item.of(
@@ -1810,10 +1684,7 @@ ServerEvents.recipes((event) => {
       ).weakNBT(),
       'minecraft:emerald',
       'minecraft:emerald',
-      Item.of(
-        'ironjetpacks:jetpack',
-        '{Id:"ironjetpacks:platinum"}'
-      ).weakNBT(),
+      Item.of('ironjetpacks:jetpack', '{Id:"ironjetpacks:platinum"}').weakNBT(),
       'minecraft:emerald',
       Item.of('ironjetpacks:thruster', '{Id:"ironjetpacks:emerald"}').weakNBT(),
       'kubejs:infinity_1',
@@ -1824,4 +1695,48 @@ ServerEvents.recipes((event) => {
   //Powah Battery
   event.shapeless(`powah:battery_nitro`, `kubejs:empty_battery_nitro`);
   event.shapeless(`kubejs:empty_battery_nitro`, `powah:battery_nitro`);
+
+  //Project E
+  create3x3(event, 'projecte:gem_helmet', [
+    'projecte:rm_helmet',
+    'projecte:klein_star_omega',
+    'projecte:evertide_amulet',
+    'projecte:soul_stone',
+    'kubejs:infinity_8',
+    'kubejs:infinity_8',
+    'projecte:body_stone',
+  ]);
+
+  //Project E
+  create3x3(event, 'projecte:gem_chestplate', [
+    'projecte:rm_helmet',
+    'projecte:klein_star_omega',
+    'projecte:evertide_amulet',
+    'projecte:soul_stone',
+    'kubejs:infinity_8',
+    'kubejs:infinity_8',
+    'projecte:body_stone',
+  ]);
+
+  //Project E
+  create3x3(event, 'projecte:gem_leggings', [
+    'projecte:rm_leggings',
+    'projecte:klein_star_omega',
+    'projecte:black_hole_band',
+    'projecte:body_stone',
+    'kubejs:infinity_8',
+    'kubejs:infinity_8',
+    'projecte:body_stone',
+  ]);
+
+  //Project E
+  create3x3(event, 'projecte:gem_boots', [
+    'projecte:rm_boots',
+    'projecte:klein_star_omega',
+    'projecte:swiftwolf_rending_gale',
+    'projecte:swiftwolf_rending_gale',
+    'kubejs:infinity_8',
+    'kubejs:infinity_8',
+    'projecte:body_stone',
+  ]);
 });

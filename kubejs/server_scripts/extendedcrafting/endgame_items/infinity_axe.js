@@ -139,7 +139,7 @@ ServerEvents.recipes((event) => {
           item: 'mysticalagriculture:imperium_axe',
         },
         p: {
-          item: 'aether:gravitite_axe',
+          item: 'avaritia:blaze_axe',
         },
       },
       result: {

@@ -5,6 +5,14 @@
 	group: "29543B666C58207C"
 	icon: "botanicalmachinery:mechanical_apothecary"
 	id: "185D6EBA2956F921"
+	images: [{
+		height: 7.5d
+		image: "kubejs:block/screen/botanical_extra_machinery_recipes_per_machine"
+		rotation: 0.0d
+		width: 10.0d
+		x: 12.0d
+		y: 7.5d
+	}]
 	order_index: 2
 	quest_links: [ ]
 	quests: [

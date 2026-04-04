@@ -1,0 +1,20 @@
+// Compost colors for logisticsnetworks. You may add your own colors, change existing ones, or remove colors that aren't needed.
+amount_filter, #bea27a
+ars_source_upgrade, #5c6b6f
+big_filter, #938470
+diamond_upgrade, #5efcf4
+dimensional_upgrade, #dc5cff
+durability_filter, #aaab7f
+gold_upgrade, #ffe352
+iron_upgrade, #afafaf
+medium_filter, #938470
+mekanism_chemical_upgrade, #5c6b6f
+mod_filter, #c9ae83
+name_filter, #c9ae83
+nbt_filter, #e7d6b6
+netherite_upgrade, #dd2647
+pattern_setter, #9e9ebc
+slot_filter, #eddeb1
+small_filter, #938470
+tag_filter, #dac69e
+wrench, #9acfb2

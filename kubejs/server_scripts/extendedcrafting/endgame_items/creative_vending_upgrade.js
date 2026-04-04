@@ -49,7 +49,7 @@ ServerEvents.recipes((event) => {
           item: 'draconicevolution:chaotic_core',
         },
         L: {
-          item: 'aether:regeneration_stone',
+          item: 'custom_capacitors:ultimate_capacitor',
         },
         M: {
           item: 'extendedae_plus:infinity_biginteger_cell',

@@ -17,14 +17,6 @@
       "emc": 1000000001
     },
     {
-      "item": "kubejs:infinity_11",
-      "emc": 9223372036854775806
-    },
-    {
-      "item": "kubejs:infinity_12",
-      "emc": 9223372036854775807
-    },
-    {
       "item": "projectexpansion:basic_power_flower",
       "emc": 0
     },

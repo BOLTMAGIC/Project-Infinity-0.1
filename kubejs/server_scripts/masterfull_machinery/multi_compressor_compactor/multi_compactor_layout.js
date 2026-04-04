@@ -98,7 +98,8 @@ MMEvents.createStructures((event) => {
           block: 'chisel_chipped_integration:factory_blue_framed_circuit',
         })
         .key('F', {
-          block: 'mm:titanic_item_port_input',
+          portType: 'mm:item',
+          input: true,
         })
         .key('G', {
           block: 'compressium:cobblestone_7',

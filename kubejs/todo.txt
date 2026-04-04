@@ -23,10 +23,13 @@ Mod added:
 -Spark
 -Measurements
 -added logistic networks
+-removed Botany Pots and replaced it woth Botany Pots FPS Fix from MiniMaxi
+    -this will save a lot of FPS and TPS
 -----------------------------------------------------
 Mods removed:
 -Chance Cube
 -The Aether
+-Avaritia Asgarddandelions
 -----------------------------------------------------
 Mod INFO:
 -mods maybe getting removed:
@@ -83,10 +86,13 @@ Recipe changes and fixes:
 -added a recipe from 344064 double compressed dust blocks with a 13.3% chance to get 4 hellforged parts in a compactor multiblock (thats 27.869.184 blocks of coal.)
 -improved loading times (thank you a lot radimous)
 -added Pinky Tier 2 and some recipes
+-changed soulstone, shape_card_void, gadget_destruction and soul_heart_canister recipe
+-changed recipe for the ender dragon armor
+-changed recipe for creative tank
 -
 -----------------------------------------------------
 Mod changes and fixes:
--botanical machinery extra TPS changes
+-masterful machinery TPS fix
 -Voidminers Preview fixed for miners and solar panels
 -Solarpanels now can transfer more than 2.1 GFE/t
 /---------------------------

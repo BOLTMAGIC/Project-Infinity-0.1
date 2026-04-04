@@ -210,7 +210,6 @@ ServerEvents.recipes((event) => {
     'minecraft:diamond',
     'kubejs:infinity_8'
   );
-
   //Creative Item EvolvedMekanism
   event.replaceInput(
     { output: 'evolvedmekanism:creative_alloying_factory' },
@@ -316,4 +315,46 @@ ServerEvents.recipes((event) => {
     'enderio:energy_conduit',
     'enderio:energetic_conduit'
   );
+  //Misc.
+  event.replaceInput(
+    { output: 'cyclic:soulstone' },
+    'minecraft:nether_star',
+    'allthemodium:vibranium_plate'
+  );
+  event.replaceInput(
+    { output: 'bhc:soul_heart_canister' },
+    '#forge:heart',
+    'allthemodium:vibranium_ingot'
+  );
+  event.replaceInput(
+    { output: 'buildinggadgets2:gadget_destruction' },
+    'minecraft:lapis_lazuli',
+    'allthemodium:unobtainium_ingot'
+  );
+  event.replaceInput(
+    { output: 'rftoolsbuilder:shape_card_void' },
+    'minecraft:obsidian',
+    'allthemodium:allthemodium_ingot'
+  );
+  event.replaceInput(
+    { output: 'armorplus:ender_dragon_helmet',  },
+    'armorplus:infused_lava_crystal',
+    'kubejs:infinity_4'
+  );
+    event.replaceInput(
+    { output: 'armorplus:ender_dragon_chestplate',  },
+    'armorplus:infused_lava_crystal',
+    'kubejs:infinity_4'
+  );
+    event.replaceInput(
+    { output: 'armorplus:ender_dragon_leggings',  },
+    'armorplus:infused_lava_crystal',
+    'kubejs:infinity_4'
+  );
+    event.replaceInput(
+    { output: 'armorplus:ender_dragon_boots',  },
+    'armorplus:infused_lava_crystal',
+    'kubejs:infinity_4'
+  );
 });
+

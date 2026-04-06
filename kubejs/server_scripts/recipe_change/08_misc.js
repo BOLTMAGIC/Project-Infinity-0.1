@@ -1706,8 +1706,6 @@ ServerEvents.recipes((event) => {
     'kubejs:infinity_8',
     'projecte:body_stone',
   ]);
-
-  //Project E
   create3x3(event, 'projecte:gem_chestplate', [
     'projecte:rm_helmet',
     'projecte:klein_star_omega',
@@ -1717,8 +1715,6 @@ ServerEvents.recipes((event) => {
     'kubejs:infinity_8',
     'projecte:body_stone',
   ]);
-
-  //Project E
   create3x3(event, 'projecte:gem_leggings', [
     'projecte:rm_leggings',
     'projecte:klein_star_omega',
@@ -1728,8 +1724,6 @@ ServerEvents.recipes((event) => {
     'kubejs:infinity_8',
     'projecte:body_stone',
   ]);
-
-  //Project E
   create3x3(event, 'projecte:gem_boots', [
     'projecte:rm_boots',
     'projecte:klein_star_omega',
@@ -1738,5 +1732,41 @@ ServerEvents.recipes((event) => {
     'kubejs:infinity_8',
     'kubejs:infinity_8',
     'projecte:body_stone',
+  ]);
+
+  create3x3(event, 'logisticsnetworks:mekanism_chemical_upgrade', [
+    'mekanism:basic_chemical_tank',
+    'emextras:supreme_quantum_control_circuit',
+    'mekanism:basic_chemical_tank',
+    'minecraft:chest',
+    'logisticsnetworks:dimensional_upgrade',
+    'minecraft:chest',
+    'mekanism:basic_chemical_tank',
+    'emextras:supreme_quantum_control_circuit',
+    'mekanism:basic_chemical_tank',
+  ]);
+
+  shapeless(event, '3x bigreactors:yellorium_ingot', [
+    'mekanism:ingot_uranium',
+    'mekanism:ingot_uranium',
+    'mekanism:ingot_uranium',
+  ]);
+
+  shapeless(event, '3x mekanism:ingot_uranium', [
+    'bigreactors:yellorium_ingot',
+    'bigreactors:yellorium_ingot',
+    'bigreactors:yellorium_ingot',
+  ]);
+
+  create3x3(event, 'mekanism:chargepad', [
+    'minecraft:polished_blackstone_pressure_plate',
+    'minecraft:polished_blackstone_pressure_plate',
+    'minecraft:polished_blackstone_pressure_plate',
+    'minecraft:polished_blackstone_pressure_plate',
+    'minecraft:polished_blackstone_pressure_plate',
+    'minecraft:polished_blackstone_pressure_plate',
+    'thermal:steel_ingot',
+    'mekanism:energy_tablet',
+    'thermal:steel_ingot',
   ]);
 });

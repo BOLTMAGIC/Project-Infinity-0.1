@@ -470,7 +470,6 @@ function createLootFabRecipe (event, mob, spec) {
     })
     .input({
       type: 'mm:input/consume',
-      chance: 0.0,
       ingredient: { type: 'mm:item', item: spec.item, count: 1 },
     })
     .input({

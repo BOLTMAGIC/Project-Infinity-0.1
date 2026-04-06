@@ -23,7 +23,7 @@ Mod added:
 -Spark
 -Measurements
 -added logistic networks
--removed Botany Pots and replaced it woth Botany Pots FPS Fix from MiniMaxi
+-removed Botany Pots and replaced it with Botany Pots FPS Fix from MiniMaxi
     -this will save a lot of FPS and TPS
 -----------------------------------------------------
 Mods removed:
@@ -38,6 +38,7 @@ Mod INFO:
 -mods getting removed next update:
     -Pipez DONT USE THEM ANYMORE!
     -AE Additions
+    -AE2 Things
 
 -----------------------------------------------------
 Recipe changes and fixes:
@@ -78,7 +79,7 @@ Recipe changes and fixes:
 -Removed Chaos machines from Draconic Additions and also Modules that cannot be used (thx to MiniMaxi)
 -Add Draconium Dust recipes from Draconium Ingot in the Crusher, Manufactory and Pulverizer (thx to MiniMaxi)
 -Add 3 Nuclearcraft ingots crafts to Mekanism Combiner (thx to MiniMaxi)
--changed recipes for logistic networks, curvy pipes, SFM (dont hate me)
+-changed recipes for logistic networks, ⁡⁢⁣⁢curvy pipes, SFM⁡ (dont hate me)
 -changed recipe for Gem Armor (ProjectE) (thx to Lightreaper45)
 -changed loot pool in dynamic dungeons for mekanism polonium, plutonium and antimatter pellets
 -changed the chance for the ghast tear to polonium from chemlib in a dissolver from 100% to 5%
@@ -89,10 +90,12 @@ Recipe changes and fixes:
 -changed soulstone, shape_card_void, gadget_destruction and soul_heart_canister recipe
 -changed recipe for the ender dragon armor
 -changed recipe for creative tank
+-loot fabrication plant recipe changed. it will use single item!
 -
 -----------------------------------------------------
 Mod changes and fixes:
 -masterful machinery TPS fix
+-small botanical machinery extra fixes and new sparks 
 -Voidminers Preview fixed for miners and solar panels
 -Solarpanels now can transfer more than 2.1 GFE/t
 /---------------------------

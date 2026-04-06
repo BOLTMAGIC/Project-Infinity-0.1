@@ -45,10 +45,6 @@ ServerEvents.recipes((event) => {
     'mysticalagriculture:rubber_essence',
   ]);
 
-  create3x3same(event, '4x bigreactors:yellorium_ingot', [
-    'mysticalagriculture:yellorium_essence',
-  ]);
-
   create3x3same(event, '9x botania:life_essence', [
     'mysticalagriculture:gaia_spirit_essence',
   ]);

@@ -486,9 +486,8 @@
 				}
 			]
 			tasks: [{
-				count: 3L
 				id: "445C2138305829E2"
-				item: { Count: 3, id: "mysticalagradditions:insanium_essence" }
+				item: "mysticalagradditions:insanium_essence"
 				type: "item"
 			}]
 			x: 2.0d

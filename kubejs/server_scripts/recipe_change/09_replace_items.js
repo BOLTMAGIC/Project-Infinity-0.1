@@ -337,24 +337,49 @@ ServerEvents.recipes((event) => {
     'allthemodium:allthemodium_ingot'
   );
   event.replaceInput(
-    { output: 'armorplus:ender_dragon_helmet',  },
+    { output: 'armorplus:ender_dragon_helmet' },
     'armorplus:infused_lava_crystal',
     'kubejs:infinity_4'
   );
-    event.replaceInput(
-    { output: 'armorplus:ender_dragon_chestplate',  },
+  event.replaceInput(
+    { output: 'armorplus:ender_dragon_chestplate' },
     'armorplus:infused_lava_crystal',
     'kubejs:infinity_4'
   );
-    event.replaceInput(
-    { output: 'armorplus:ender_dragon_leggings',  },
+  event.replaceInput(
+    { output: 'armorplus:ender_dragon_leggings' },
     'armorplus:infused_lava_crystal',
     'kubejs:infinity_4'
   );
-    event.replaceInput(
-    { output: 'armorplus:ender_dragon_boots',  },
+  event.replaceInput(
+    { output: 'armorplus:ender_dragon_boots' },
     'armorplus:infused_lava_crystal',
     'kubejs:infinity_4'
+  );
+
+  event.replaceInput(
+    { output: 'logisticsnetworks:iron_upgrade' },
+    'minecraft:smooth_stone',
+    'common_ore_library:cobalt_ingot'
+  );
+    event.replaceInput(
+    { output: 'logisticsnetworks:gold_upgrade'},
+    'minecraft:smooth_stone',
+    'logisticsnetworks:iron_upgrade'
+  );
+    event.replaceInput(
+    { output: 'logisticsnetworks:diamond_upgrade' },
+    'minecraft:smooth_stone',
+    'logisticsnetworks:gold_upgrade'
+  );
+    event.replaceInput(
+    { output: 'logisticsnetworks:netherite_upgrade' },
+    'minecraft:smooth_stone',
+    'logisticsnetworks:diamond_upgrade'
+  );
+    event.replaceInput(
+    { output: 'logisticsnetworks:dimensional_upgrade'},
+    'minecraft:smooth_stone',
+    'logisticsnetworks:netherite_upgrade'
   );
 });
-

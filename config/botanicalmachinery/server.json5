@@ -1,70 +1,77 @@
 {
   // This is a resource list. See https://moddingx.org/libx/org/moddingx/libx/util/data/ResourceList.html#use_resource_lists_in_configs
-  "autoExportAllowed": {
-    "allow_list": true,
-    "elements": [
+  autoExportAllowed: {
+    allow_list: true,
+    elements: [
       "ae2:pattern_provider",
-      "ae2:cable_bus"
-    ]
+      "ae2:cable_bus",
+      "advanced_ae:adv_pattern_provider",
+      "advanced_ae:small_adv_pattern_provider",
+      "crazyae2addons:crazy_pattern_provider",
+      "expatternprovider:ex_pattern_provider",
+      "megacells:mega_pattern_provider",
+      "advanced_ae:adv_pattern_provider_part",
+      "advanced_ae:small_adv_pattern_provider_part",
+      "crazyae2addons:crazy_pattern_provider_part",
+      "expatternprovider:ex_pattern_provider_part",
+      "megacells:cable_mega_pattern_provider",
+    ],
   },
-  
+
   // The amount of mana used in alfheim market to trade items [Default: 500]
-  "AlfheimMarket": {
-  
+  AlfheimMarket: {
     // Minimum: 1
-    "recipeCost": 500
+    recipeCost: 500,
   },
-  
+
   // The default amount of mana capacity in each machine.
-  "MaxManaCapacity": {
-  
+  MaxManaCapacity: {
     // Minimum: 1
-    "alfheimMarket": 100000,
-    
+    alfheimMarket: 100000,
+
     // Minimum: 500000
-    "industrialAgglomerationFactory": 1000000,
-    
+    industrialAgglomerationFactory: 1000000,
+
     // Minimum: 1
-    "manaBattery": 10000000,
-    
+    manaBattery: 10000000,
+
     // Minimum: 1
-    "mechanicalBrewery": 100000,
-    
+    mechanicalBrewery: 100000,
+
     // Minimum: 2500000
-    "mechanicalManaInfuser": 5000000,
-    
+    mechanicalManaInfuser: 5000000,
+
     // Minimum: 1
-    "mechanicalManaPool": 100000,
-    
+    mechanicalManaPool: 100000,
+
     // Minimum: 1
-    "mechanicalRunicAltar": 250000
+    mechanicalRunicAltar: 250000,
   },
-  
+
   // The default duration multiplied with this will be the used working duration.
-  "WorkingDurationMultiplier": {
-  
+  WorkingDurationMultiplier: {
     // Range: 1 - 25
-    "alfheimMarket": 1,
-    
+    alfheimMarket: 1,
+
     // Range: 1 - 5000
-    "industrialAgglomerationFactory": 1,
-    
+    industrialAgglomerationFactory: 1,
+
     // Minimum: 1
-    "mechanicalApothecary": 1,
-    
+    mechanicalApothecary: 1,
+
     // Range: 1 - 50
-    "mechanicalBrewery": 1,
-    
+    mechanicalBrewery: 1,
+
     // Minimum: 1
-    "mechanicalDaisy": 1,
-    
+    mechanicalDaisy: 1,
+
     // Range: 1 - 5000
-    "mechanicalManaInfuser": 1,
-    
+    mechanicalManaInfuser: 1,
+
     // Minimum: 1
-    "mechanicalManaPool": 1,
-    
+    mechanicalManaPool: 1,
+
     // Range: 1 - 100
-    "mechanicalRunicAltar": 1
-  }
+    mechanicalRunicAltar: 1,
+  },
 }

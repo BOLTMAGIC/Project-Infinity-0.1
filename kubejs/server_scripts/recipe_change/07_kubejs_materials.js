@@ -264,4 +264,7 @@ ServerEvents.recipes((event) => {
   shapeless(event, 'exdeorum:mechanical_sieve', [
     'kubejs:auto_mechanical_sieve',
   ]);
+  
+  shapeless(event, 'kubejs:tank_nbt_remover', ['minecraft:slime_ball']);
+  shapeless(event, 'minecraft:slime_ball', ['kubejs:tank_nbt_remover']);
 });

@@ -444,6 +444,10 @@ StartupEvents.registry('item', (e) => {
   createEnderIO(e, 'filled_shulker_soul_vial');
   createEnderIO(e, 'filled_zombie_soul_vial');
   createEnderIO(e, 'filled_villager_soul_vial');
+
+  e.create('tank_nbt_remover')
+    .displayName('Tank NBT Remover')
+    .texture('kubejs:item/tank_nbt_remover');
 });
 
 StartupEvents.registry('block', (event) => {

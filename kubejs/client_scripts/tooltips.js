@@ -377,4 +377,9 @@ ItemEvents.tooltip((event) => {
     'ifeu:big_dissolution_chamber',
     Text.translate('tooltip.ifeu.big_dissolution_chamber_warning')
   );
+  
+  event.addAdvanced(['kubejs:tank_nbt_remover'], (item, advanced, text) => {
+    text.add(1, Text.translate('tooltip.kubejs.tank_nbt_remover_1'));
+    text.add(2, Text.translate('tooltip.kubejs.tank_nbt_remover_2'));
+  });
 });

@@ -388,5 +388,6 @@
   
   "tooltip.mythicbotany.wither_aconite_warning": "If AE2 / RS doesn't let you autocraft it, craft it by hand.",
 
-  "tooltip.ifeu.big_dissolution_chamber_warning": "When using AE2 or RS for automation, the pattern must be a multiple of the max thread count."
+  "tooltip.kubejs.tank_nbt_remover_1": "Combine with Mekanism Tanks to remove their unwanted NBT data.",
+  "tooltip.kubejs.tank_nbt_remover_2": "Use this when AE2 / RS doesn't let you craft items with tanks even though you have the right ones."
 }

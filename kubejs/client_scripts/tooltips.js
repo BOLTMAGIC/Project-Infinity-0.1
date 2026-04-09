@@ -324,4 +324,9 @@ ItemEvents.tooltip((event) => {
     'mythicbotany:wither_aconite',
     Text.translate('tooltip.mythicbotany.wither_aconite_warning')
   );
+  
+  event.addAdvanced(['kubejs:tank_nbt_remover'], (item, advanced, text) => {
+    text.add(1, Text.translate('tooltip.kubejs.tank_nbt_remover_1'));
+    text.add(2, Text.translate('tooltip.kubejs.tank_nbt_remover_2'));
+  });
 });

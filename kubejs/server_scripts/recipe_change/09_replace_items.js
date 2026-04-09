@@ -356,30 +356,81 @@ ServerEvents.recipes((event) => {
     'armorplus:infused_lava_crystal',
     'kubejs:infinity_4'
   );
-
+  //Logistics Networks Upgrades
   event.replaceInput(
     { output: 'logisticsnetworks:iron_upgrade' },
     'minecraft:smooth_stone',
     'common_ore_library:cobalt_ingot'
   );
-    event.replaceInput(
-    { output: 'logisticsnetworks:gold_upgrade'},
+  event.replaceInput(
+    { output: 'logisticsnetworks:gold_upgrade' },
     'minecraft:smooth_stone',
     'logisticsnetworks:iron_upgrade'
   );
-    event.replaceInput(
+  event.replaceInput(
     { output: 'logisticsnetworks:diamond_upgrade' },
     'minecraft:smooth_stone',
     'logisticsnetworks:gold_upgrade'
   );
-    event.replaceInput(
+  event.replaceInput(
     { output: 'logisticsnetworks:netherite_upgrade' },
-    'minecraft:smooth_stone',
-    'logisticsnetworks:diamond_upgrade'
+    'minecraft:chest',
+    'allthemodium:allthemodium_ingot'
   );
-    event.replaceInput(
-    { output: 'logisticsnetworks:dimensional_upgrade'},
+  event.replaceInput(
+    { output: 'logisticsnetworks:dimensional_upgrade' },
     'minecraft:smooth_stone',
     'logisticsnetworks:netherite_upgrade'
+  );
+  //Ender IO Filled Soul Vials
+  event.replaceInput(
+    {
+      output: 'enderio:sentient_ender',
+    },
+    Item.of(
+      'enderio:filled_soul_vial',
+      '{BlockEntityTag:{EntityStorage:{Entity:{id:"minecraft:witch"}}}}'
+    ),
+    'kubejs:filled_witch_soul_vial'
+  );
+  event.replaceInput(
+    {
+      output: 'enderio:sentient_ender',
+    },
+    Item.of(
+      'enderio:filled_soul_vial',
+      '{BlockEntityTag:{EntityStorage:{Entity:{id:"minecraft:zombie"}}}}'
+    ),
+    'kubejs:filled_zombie_soul_vial'
+  );
+  event.replaceInput(
+    {
+      output: 'enderio:prescient_crystal',
+    },
+    Item.of(
+      'enderio:filled_soul_vial',
+      '{BlockEntityTag:{EntityStorage:{Entity:{id:"minecraft:shulker"}}}}'
+    ),
+    'kubejs:filled_shulker_soul_vial'
+  );
+  event.replaceInput(
+    {
+      output: 'enderio:ender_crystal',
+    },
+    Item.of(
+      'enderio:filled_soul_vial',
+      '{BlockEntityTag:{EntityStorage:{Entity:{id:"minecraft:enderman"}}}}'
+    ),
+    'kubejs:filled_enderman_soul_vial'
+  );
+  event.replaceInput(
+    {
+      output: 'enderio:sentient_ender',
+    },
+    Item.of(
+      'enderio:filled_soul_vial',
+      '{BlockEntityTag:{EntityStorage:{Entity:{id:"minecraft:villager"}}}}'
+    ),
+    'kubejs:filled_villager_soul_vial'
   );
 });

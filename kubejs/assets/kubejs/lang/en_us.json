@@ -386,5 +386,7 @@
 
   "tooltip.industrialforegoing.addon_warning": "This is a dummy item, use it to craft the actual addon or upgrade it.",
   
-  "tooltip.mythicbotany.wither_aconite_warning": "If AE2 / RS doesn't let you autocraft it, craft it by hand."
+  "tooltip.mythicbotany.wither_aconite_warning": "If AE2 / RS doesn't let you autocraft it, craft it by hand.",
+
+  "tooltip.ifeu.big_dissolution_chamber_warning": "When using AE2 or RS for automation, the pattern must be a multiple of the max thread count."
 }

@@ -2980,80 +2980,7 @@
 			y: 0.5d
 		}
 		{
-			icon: {
-				Count: 1
-				id: "expatternprovider:infinity_cell"
-				tag: {
-					record: {
-						"#c": "ae2:f"
-						id: "minecraft:water"
-					}
-				}
-			}
-			id: "7FD38B66D035300F"
-			rewards: [{
-				id: "4EC7086D84A0C9B8"
-				item: {
-					Count: 1
-					id: "expatternprovider:infinity_cell"
-					tag: {
-						record: {
-							"#c": "ae2:i"
-							id: "ae2:matter_ball"
-						}
-					}
-				}
-				type: "item"
-			}]
-			tasks: [{
-				consume_items: true
-				count: 64L
-				id: "76E687D0E55A3805"
-				item: "kubejs:ascended_coin"
-				type: "item"
-			}]
-			title: "ME Infinity Matter Ball Cell"
-			x: 2.0d
-			y: 3.0d
-		}
-		{
-			icon: {
-				Count: 1
-				id: "expatternprovider:infinity_cell"
-				tag: {
-					record: {
-						"#c": "ae2:f"
-						id: "minecraft:water"
-					}
-				}
-			}
-			id: "5C0FD1D48930F324"
-			rewards: [{
-				id: "7629059C9360F027"
-				item: {
-					Count: 1
-					id: "expatternprovider:infinity_cell"
-					tag: {
-						record: {
-							"#c": "ae2:f"
-							id: "minecraft:lava"
-						}
-					}
-				}
-				type: "item"
-			}]
-			tasks: [{
-				consume_items: true
-				count: 64L
-				id: "55700D16ABAF125E"
-				item: "kubejs:ascended_coin"
-				type: "item"
-			}]
-			title: "ME Infinity Lava Cell"
-			x: 3.0d
-			y: 3.0d
-		}
-		{
+			can_repeat: true
 			icon: {
 				Count: 1
 				id: "expatternprovider:infinity_cell"
@@ -3065,6 +2992,7 @@
 				}
 			}
 			id: "17A198BCD46C4F67"
+			optional: true
 			rewards: [{
 				id: "058BEE3F73A0E583"
 				item: {
@@ -3099,6 +3027,7 @@
 			y: 3.0d
 		}
 		{
+			can_repeat: true
 			icon: {
 				Count: 1
 				id: "expatternprovider:infinity_cell"
@@ -3110,6 +3039,7 @@
 				}
 			}
 			id: "39D36502DF241EFC"
+			optional: true
 			rewards: [{
 				id: "249FC6A0991F9A73"
 				item: {
@@ -3144,43 +3074,7 @@
 			y: 3.0d
 		}
 		{
-			icon: {
-				Count: 1
-				id: "expatternprovider:infinity_cell"
-				tag: {
-					record: {
-						"#c": "ae2:f"
-						id: "minecraft:water"
-					}
-				}
-			}
-			id: "1FC1A23F9F5F7B5A"
-			rewards: [{
-				id: "2D6F3BA5A61DFC09"
-				item: {
-					Count: 1
-					id: "expatternprovider:infinity_cell"
-					tag: {
-						record: {
-							"#c": "ae2:i"
-							id: "exdeorum:dust"
-						}
-					}
-				}
-				type: "item"
-			}]
-			tasks: [{
-				consume_items: true
-				count: 64L
-				id: "043F9BE59BA509F6"
-				item: "kubejs:ascended_coin"
-				type: "item"
-			}]
-			title: "ME Infinity Dust Cell"
-			x: 6.0d
-			y: 3.0d
-		}
-		{
+			can_repeat: true
 			icon: {
 				Count: 1
 				id: "expatternprovider:infinity_cell"
@@ -3192,6 +3086,7 @@
 				}
 			}
 			id: "66058316503CC84F"
+			optional: true
 			rewards: [{
 				id: "1FB9B4577A88A989"
 				item: {
@@ -3222,10 +3117,11 @@
 				}
 			]
 			title: "ME Infinity Dirt Cell"
-			x: 2.0d
-			y: 4.0d
+			x: 3.0d
+			y: 3.0d
 		}
 		{
+			can_repeat: true
 			icon: {
 				Count: 1
 				id: "expatternprovider:infinity_cell"
@@ -3237,6 +3133,7 @@
 				}
 			}
 			id: "7EAC1C7BBB644065"
+			optional: true
 			rewards: [{
 				id: "60B4BED9B251946C"
 				item: {
@@ -3271,43 +3168,7 @@
 			y: 4.0d
 		}
 		{
-			icon: {
-				Count: 1
-				id: "expatternprovider:infinity_cell"
-				tag: {
-					record: {
-						"#c": "ae2:f"
-						id: "minecraft:water"
-					}
-				}
-			}
-			id: "182782EF096EB40C"
-			rewards: [{
-				id: "276E148D9A1C1F92"
-				item: {
-					Count: 1
-					id: "expatternprovider:infinity_cell"
-					tag: {
-						record: {
-							"#c": "ae2:i"
-							id: "minecraft:blackstone"
-						}
-					}
-				}
-				type: "item"
-			}]
-			tasks: [{
-				consume_items: true
-				count: 64L
-				id: "4EDE98C08E8C343D"
-				item: "kubejs:ascended_coin"
-				type: "item"
-			}]
-			title: "ME Infinity Blackstone Cell"
-			x: 4.0d
-			y: 4.0d
-		}
-		{
+			can_repeat: true
 			icon: {
 				Count: 1
 				id: "expatternprovider:infinity_cell"
@@ -3319,6 +3180,7 @@
 				}
 			}
 			id: "22FF485B2CED5054"
+			optional: true
 			rewards: [{
 				id: "113C9BE7410EDB0B"
 				item: {
@@ -3353,6 +3215,7 @@
 			y: 4.0d
 		}
 		{
+			can_repeat: true
 			icon: {
 				Count: 1
 				id: "expatternprovider:infinity_cell"
@@ -3364,6 +3227,7 @@
 				}
 			}
 			id: "0A3D34B9BABE5DA9"
+			optional: true
 			rewards: [{
 				id: "7F686A3E05508A70"
 				item: {
@@ -3394,45 +3258,8 @@
 				}
 			]
 			title: "ME Infinity Soul Sand Cell"
-			x: 6.0d
+			x: 4.0d
 			y: 4.0d
-		}
-		{
-			icon: {
-				Count: 1
-				id: "expatternprovider:infinity_cell"
-				tag: {
-					record: {
-						"#c": "ae2:f"
-						id: "minecraft:water"
-					}
-				}
-			}
-			id: "42B36434A1FA20D4"
-			rewards: [{
-				id: "18FAF3A565CFD8B5"
-				item: {
-					Count: 1
-					id: "expatternprovider:infinity_cell"
-					tag: {
-						record: {
-							"#c": "ae2:i"
-							id: "mysticalagriculture:prosperity_shard"
-						}
-					}
-				}
-				type: "item"
-			}]
-			tasks: [{
-				consume_items: true
-				count: 64L
-				id: "568FB24D42201169"
-				item: "kubejs:ascended_coin"
-				type: "item"
-			}]
-			title: "ME Infinity Prosperity Shard Cell"
-			x: 7.0d
-			y: 3.5d
 		}
 	]
 	title: "&dShop"

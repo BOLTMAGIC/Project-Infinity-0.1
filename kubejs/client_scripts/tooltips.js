@@ -35,11 +35,14 @@ ItemEvents.tooltip((event) => {
     { id: 'enderio:signalum_conduit', val: '2,097,152' },
     { id: 'enderio:enderium_conduit', val: '4,194,304' },
     { id: 'enderio:sculk_superconductor_conduit', val: '134,217,728' },
-    { id: 'enderio:energy_conduit', val: '2,147,483,647' }
+    { id: 'enderio:energy_conduit', val: '2,147,483,647' },
   ];
 
-  conduits.forEach(conduit => {
-    event.add(conduit.id, Text.translate('tooltip.enderio.conduit_transfer', conduit.val));
+  conduits.forEach((conduit) => {
+    event.add(
+      conduit.id,
+      Text.translate('tooltip.enderio.conduit_transfer', conduit.val)
+    );
   });
 
   // KubeJS Credits
@@ -84,15 +87,19 @@ ItemEvents.tooltip((event) => {
     Text.translate('tooltip.mm.item_port', ['6x8', '48'])
   );
   event.add(
-    ['mm:titanic_item_port_input', 'mm:titanic_item_port_output', 'mm:compressed_titanic_item_port_input', 'mm:compressed_titanic_item_port_output'],
+    [
+      'mm:titanic_item_port_input',
+      'mm:titanic_item_port_output',
+      'mm:compressed_titanic_item_port_input',
+      'mm:compressed_titanic_item_port_output',
+    ],
     Text.translate('tooltip.mm.item_port', ['8x12', '96'])
   );
 
-    event.add(
+  event.add(
     ['kubejs:fake_mob_masher'],
     Text.translate('item.kubejs.fake_mob_masher')
   );
-  
 
   // Fluid Ports
   const fluidPorts = [
@@ -100,10 +107,10 @@ ItemEvents.tooltip((event) => {
     { id: 'mm:normal_fluid_port', val: '2,560,000' },
     { id: 'mm:big_fluid_port', val: '10,240,000' },
     { id: 'mm:enormous_fluid_port', val: '163,840,000' },
-    { id: 'mm:gigantic_fluid_port', val: '2,147,483,647' }
+    { id: 'mm:gigantic_fluid_port', val: '2,147,483,647' },
   ];
 
-  fluidPorts.forEach(port => {
+  fluidPorts.forEach((port) => {
     event.add(
       [`${port.id}_input`, `${port.id}_output`],
       Text.translate('tooltip.mm.fluid_port', port.val)
@@ -121,15 +128,27 @@ ItemEvents.tooltip((event) => {
   );
   event.add(
     ['mm:normal_energy_port_input', 'mm:normal_energy_port_output'],
-    Text.translate('tooltip.mm.energy_port', ['1,000,000', '200,000', '100,000'])
+    Text.translate('tooltip.mm.energy_port', [
+      '1,000,000',
+      '200,000',
+      '100,000',
+    ])
   );
   event.add(
     ['mm:big_energy_port_input', 'mm:big_energy_port_output'],
-    Text.translate('tooltip.mm.energy_port', ['10,000,000', '2,000,000', '1,000,000'])
+    Text.translate('tooltip.mm.energy_port', [
+      '10,000,000',
+      '2,000,000',
+      '1,000,000',
+    ])
   );
   event.add(
     ['mm:enormous_energy_port_input', 'mm:enormous_energy_port_output'],
-    Text.translate('tooltip.mm.energy_port', ['25,000,000', '5,000,000', '2,500,000'])
+    Text.translate('tooltip.mm.energy_port', [
+      '25,000,000',
+      '5,000,000',
+      '2,500,000',
+    ])
   );
   event.add(
     ['mm:gigantic_energy_port_input', 'mm:gigantic_energy_port_output'],
@@ -144,7 +163,11 @@ ItemEvents.tooltip((event) => {
 
   // Compact Machines
   event.add(
-    ['compactmachines:machine_maximum', 'compactmachines:machine_giant', 'compactmachines:machine_large'],
+    [
+      'compactmachines:machine_maximum',
+      'compactmachines:machine_giant',
+      'compactmachines:machine_large',
+    ],
     Text.translate('tooltip.compactmachines.warning')
   );
 
@@ -153,33 +176,46 @@ ItemEvents.tooltip((event) => {
   const holdShiftText = () => [
     Text.translate('tooltip.general.hold').gold(),
     Text.translate('tooltip.general.shift').yellow(),
-    Text.translate('tooltip.general.more_info').gold()
+    Text.translate('tooltip.general.more_info').gold(),
   ];
 
-  event.addAdvanced(['mm:multi_compactor_controller'], (item, advanced, text) => {
-    let refundText = Text.translate('tooltip.mm.controller_refund');
-    text.add(1, refundText.white()); 
-  });
+  event.addAdvanced(
+    ['mm:multi_compactor_controller'],
+    (item, advanced, text) => {
+      let refundText = Text.translate('tooltip.mm.controller_refund');
+      text.add(1, refundText.white());
+    }
+  );
 
   event.addAdvanced(
-    ['avaritia:neutron_pile', 'avaritia:neutron_nugget', 'avaritia:neutron_ingot'],
+    [
+      'avaritia:neutron_pile',
+      'avaritia:neutron_nugget',
+      'avaritia:neutron_ingot',
+    ],
     (item, advanced, text) => {
       if (!event.shift) {
         text.add(1, holdShiftText());
       } else {
-        text.add(1, Text.translate('tooltip.avaritia.neutron').green().bold(true));
+        text.add(
+          1,
+          Text.translate('tooltip.avaritia.neutron').green().bold(true)
+        );
       }
     }
   );
 
-  event.addAdvanced(['mekanism_extras:end_naquadah_ore'], (item, advanced, text) => {
-    if (!event.shift) {
-      text.add(1, holdShiftText());
-    } else {
-      text.add(1, Text.translate('tooltip.mekanism_extras.naquadah').green());
+  event.addAdvanced(
+    ['mekanism_extras:end_naquadah_ore'],
+    (item, advanced, text) => {
+      if (!event.shift) {
+        text.add(1, holdShiftText());
+      } else {
+        text.add(1, Text.translate('tooltip.mekanism_extras.naquadah').green());
+      }
+      text.remove(2);
     }
-    text.remove(2);
-  });
+  );
 
   event.addAdvanced(['mbtool:mbtool'], (item, advanced, text) => {
     if (!event.shift) {
@@ -231,7 +267,10 @@ ItemEvents.tooltip((event) => {
       if (!event.shift) {
         text.add(1, holdShiftText());
       } else {
-        text.add(1, Text.translate('tooltip.born_in_chaos.chaos_component').green());
+        text.add(
+          1,
+          Text.translate('tooltip.born_in_chaos.chaos_component').green()
+        );
       }
     }
   );
@@ -253,16 +292,22 @@ ItemEvents.tooltip((event) => {
     'mekanism:creative_chemical_tank',
     'mm:advanced_awakening_altar_controller',
     'botanicalextramachinery:catalyst_mana_infinity',
-    'botanicalmachinery:mana_battery_creative'
+    'botanicalmachinery:mana_battery_creative',
   ];
 
   event.addAdvanced(kemCredits, (item, advanced, text) => {
     text.add(1, Text.translate('tooltip.credit.recipe_added', 'Kem5540').red());
   });
 
-  event.addAdvanced(['pneumaticcraft:creative_compressor'], (item, advanced, text) => {
-    text.add(1, Text.translate('tooltip.credit.recipe_added', 'Itz_izumito').red());
-  });
+  event.addAdvanced(
+    ['pneumaticcraft:creative_compressor'],
+    (item, advanced, text) => {
+      text.add(
+        1,
+        Text.translate('tooltip.credit.recipe_added', 'Itz_izumito').red()
+      );
+    }
+  );
 
   event.addAdvanced(
     [
@@ -275,7 +320,10 @@ ItemEvents.tooltip((event) => {
   );
 
   event.addAdvanced(['kubejs:ultimate_prediction'], (item, advanced, text) => {
-    text.add(1, Text.translate('tooltip.credit.recipe_item_added', 'realspinelle').red());
+    text.add(
+      1,
+      Text.translate('tooltip.credit.recipe_item_added', 'realspinelle').red()
+    );
     text.add(2, Text.translate('tooltip.credit.joke').red());
   });
 
@@ -315,13 +363,18 @@ ItemEvents.tooltip((event) => {
   for (const addon of addons) {
     event.add(
       addon,
-      Text.translate('tooltip.industrialforegoing.addon_warning'))
-    ;
+      Text.translate('tooltip.industrialforegoing.addon_warning')
+    );
   }
 
   // Wither Aconite Autocrafting Warning
   event.add(
     'mythicbotany:wither_aconite',
     Text.translate('tooltip.mythicbotany.wither_aconite_warning')
+  );
+
+  event.add(
+    'ifeu:big_dissolution_chamber',
+    Text.translate('tooltip.ifeu.big_dissolution_chamber_warning')
   );
 });

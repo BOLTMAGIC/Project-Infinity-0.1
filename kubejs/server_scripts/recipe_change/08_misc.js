@@ -266,18 +266,6 @@ ServerEvents.recipes((event) => {
     'ae2:logic_processor',
   ]);
 
-  create3x3(event, 'advanced_ae:adv_processing_pattern', [
-    'ae2:charged_certus_quartz_crystal',
-    'minecraft:redstone',
-    'ae2:charged_certus_quartz_crystal',
-    'ae2:blank_pattern',
-    'advanced_ae:quantum_processor',
-    'ae2:blank_pattern',
-    'ae2:charged_certus_quartz_crystal',
-    'minecraft:redstone',
-    'ae2:charged_certus_quartz_crystal',
-  ]);
-
   event.custom({
     type: 'advanced_ae:reaction',
     energy: 250000,
@@ -1736,13 +1724,13 @@ ServerEvents.recipes((event) => {
 
   create3x3(event, 'logisticsnetworks:mekanism_chemical_upgrade', [
     'mekanism:basic_chemical_tank',
-    'emextras:supreme_quantum_control_circuit',
+    'mekanism_extras:alloy_radiance',
     'mekanism:basic_chemical_tank',
     'minecraft:chest',
     'logisticsnetworks:dimensional_upgrade',
     'minecraft:chest',
     'mekanism:basic_chemical_tank',
-    'emextras:supreme_quantum_control_circuit',
+    'mekanism_extras:alloy_radiance',
     'mekanism:basic_chemical_tank',
   ]);
 
@@ -1769,4 +1757,245 @@ ServerEvents.recipes((event) => {
     'mekanism:energy_tablet',
     'thermal:steel_ingot',
   ]);
+
+  //Curvy Pipes
+  shapeless(event, 'curvy_pipes:medium_item_pipe', [
+    'curvy_pipes:small_item_pipe',
+    'curvy_pipes:small_item_pipe',
+    'curvy_pipes:small_item_pipe',
+    'curvy_pipes:small_item_pipe',
+    'evolvedmekanism:alloy_hypercharged',
+  ]);
+  shapeless(event, 'curvy_pipes:medium_fluid_pipe', [
+    'curvy_pipes:small_fluid_pipe',
+    'curvy_pipes:small_fluid_pipe',
+    'curvy_pipes:small_fluid_pipe',
+    'curvy_pipes:small_fluid_pipe',
+    'evolvedmekanism:alloy_hypercharged',
+  ]);
+  shapeless(event, 'curvy_pipes:medium_energy_pipe', [
+    'curvy_pipes:small_energy_pipe',
+    'curvy_pipes:small_energy_pipe',
+    'curvy_pipes:small_energy_pipe',
+    'curvy_pipes:small_energy_pipe',
+    'evolvedmekanism:alloy_hypercharged',
+  ]);
+  shapeless(event, 'curvy_pipes:large_item_pipe', [
+    'curvy_pipes:medium_item_pipe',
+    'curvy_pipes:medium_item_pipe',
+    'curvy_pipes:medium_item_pipe',
+    'curvy_pipes:medium_item_pipe',
+    'mekanism_extras:alloy_thermonuclear',
+  ]);
+  shapeless(event, 'curvy_pipes:large_fluid_pipe', [
+    'curvy_pipes:medium_fluid_pipe',
+    'curvy_pipes:medium_fluid_pipe',
+    'curvy_pipes:medium_fluid_pipe',
+    'curvy_pipes:medium_fluid_pipe',
+    'mekanism_extras:alloy_thermonuclear',
+  ]);
+  shapeless(event, 'curvy_pipes:large_energy_pipe', [
+    'curvy_pipes:medium_energy_pipe',
+    'curvy_pipes:medium_energy_pipe',
+    'curvy_pipes:medium_energy_pipe',
+    'curvy_pipes:medium_energy_pipe',
+    'mekanism_extras:alloy_thermonuclear',
+  ]);
+  shapeless(event, 'curvy_pipes:huge_item_pipe', [
+    'curvy_pipes:large_item_pipe',
+    'curvy_pipes:large_item_pipe',
+    'curvy_pipes:large_item_pipe',
+    'curvy_pipes:large_item_pipe',
+    'emextras:cosmic_dense_control_circuit',
+  ]);
+  shapeless(event, 'curvy_pipes:huge_fluid_pipe', [
+    'curvy_pipes:large_fluid_pipe',
+    'curvy_pipes:large_fluid_pipe',
+    'curvy_pipes:large_fluid_pipe',
+    'curvy_pipes:large_fluid_pipe',
+    'emextras:cosmic_dense_control_circuit',
+  ]);
+  shapeless(event, 'curvy_pipes:huge_energy_pipe', [
+    'curvy_pipes:large_energy_pipe',
+    'curvy_pipes:large_energy_pipe',
+    'curvy_pipes:large_energy_pipe',
+    'curvy_pipes:large_energy_pipe',
+    'emextras:cosmic_dense_control_circuit',
+  ]);
+
+  create3x3(event, Item.of('sfm:cable', 16), [
+    'advanced_ae:quantum_alloy',
+    'minecraft:light_weighted_pressure_plate',
+    'allthemodium:allthemodium_ingot',
+    'minecraft:iron_bars',
+    '#forge:chests',
+    'minecraft:iron_bars',
+    'kubejs:crystalline_alloy',
+    'minecraft:light_weighted_pressure_plate',
+    'botania:terrasteel_ingot',
+  ]);
+  //Infinity Cells
+  create3x3(
+    event,
+    Item.of(
+      'expatternprovider:infinity_cell',
+      '{record:{"#c":"ae2:f",id:"minecraft:lava"}}'
+    ),
+    [
+      'ae2:quartz_glass',
+      'minecraft:lava_bucket',
+      'ae2:quartz_glass',
+      'minecraft:lava_bucket',
+      'ae2omnicells:quantum_omni_cell_component_256m',
+      'minecraft:lava_bucket',
+      'minecraft:diamond',
+      'minecraft:diamond',
+      'minecraft:diamond',
+    ]
+  );
+  create3x3(
+    event,
+    Item.of(
+      'expatternprovider:infinity_cell',
+      '{record:{"#c":"ae2:i",id:"ae2:matter_ball"}}'
+    ),
+    [
+      'advanced_ae:shattered_singularity',
+      'advanced_ae:quantum_alloy',
+      'extendedae_plus:oblivion_singularity',
+      'ae2omnicells:spent_nuclear_waste_singularity',
+      'ae2omnicells:quantum_omni_cell_component_256m',
+      'ae2omnicells:spent_nuclear_waste_singularity',
+      'ae2:matter_ball',
+      'ae2:matter_ball',
+      'ae2:matter_ball',
+    ]
+  );
+  create3x3(
+    event,
+    Item.of(
+      'expatternprovider:infinity_cell',
+      '{record:{"#c":"ae2:i",id:"mysticalagriculture:prosperity_shard"}}'
+    ),
+    [
+      'kubejs:tier2_crafting_seed',
+      'kubejs:tier3_crafting_seed',
+      'kubejs:tier4_crafting_seed',
+      'kubejs:tier5_crafting_seed',
+      'mysticalagriculture:master_infusion_crystal',
+      'kubejs:tier6_crafting_seed',
+      'mysticalagriculture:prosperity_shard',
+      'mysticalagriculture:prosperity_shard',
+      'mysticalagriculture:prosperity_shard',
+    ]
+  );
+  create3x3(
+    event,
+    Item.of(
+      'expatternprovider:infinity_cell',
+      '{record:{"#c":"ae2:i",id:"exdeorum:dust"}}'
+    ),
+    [
+      'dimensionalpocketsii:dimensional_shard',
+      'rftoolsbase:dimensionalshard',
+      'enderio:grains_of_infinity',
+      'minecraft:blaze_powder',
+      'ae2omnicells:quantum_omni_cell_component_256m',
+      'ae2:sky_dust',
+      'exdeorum:compressed_dust',
+      'exdeorum:compressed_dust',
+      'exdeorum:compressed_dust',
+    ]
+  );
+  create3x3(
+    event,
+    Item.of(
+      'expatternprovider:infinity_cell',
+      '{record:{"#c":"ae2:i",id:"minecraft:blackstone"}}'
+    ),
+    [
+      'minecraft:blackstone',
+      'exdeorum:crushed_blackstone',
+      'minecraft:magma_cream',
+      'minecraft:ancient_debris',
+      'ae2omnicells:quantum_omni_cell_component_256m',
+      'minecraft:ancient_debris',
+      'minecraft:magma_cream',
+      'exdeorum:crushed_blackstone',
+      'minecraft:blackstone',
+    ]
+  );
+  //EnderIO Soul Vials
+    //NBT to Dummy Item
+  shapeless(event, 'kubejs:filled_witch_soul_vial', [
+    Item.of(
+      'enderio:filled_soul_vial',
+      '{BlockEntityTag:{EntityStorage:{Entity:{id:"minecraft:witch"}}}}'
+    ),
+  ]);
+  shapeless(event, 'kubejs:filled_enderman_soul_vial', [
+    Item.of(
+      'enderio:filled_soul_vial',
+      '{BlockEntityTag:{EntityStorage:{Entity:{id:"minecraft:enderman"}}}}'
+    ),
+  ]);
+  shapeless(event, 'kubejs:filled_shulker_soul_vial', [
+    Item.of(
+      'enderio:filled_soul_vial',
+      '{BlockEntityTag:{EntityStorage:{Entity:{id:"minecraft:shulker"}}}}'
+    ),
+  ]);
+  shapeless(event, 'kubejs:filled_zombie_soul_vial', [
+    Item.of(
+      'enderio:filled_soul_vial',
+      '{BlockEntityTag:{EntityStorage:{Entity:{id:"minecraft:zombie"}}}}'
+    ),
+  ]);
+  shapeless(event, 'kubejs:filled_villager_soul_vial', [
+    Item.of(
+      'enderio:filled_soul_vial',
+      '{BlockEntityTag:{EntityStorage:{Entity:{id:"minecraft:villager"}}}}'
+    ),
+  ]);
+  //Dummy Item to NBT
+  shapeless(
+    event,
+    Item.of(
+      'enderio:filled_soul_vial',
+      '{BlockEntityTag:{EntityStorage:{Entity:{id:"minecraft:witch"}}}}'
+    ),
+    ['kubejs:filled_witch_soul_vial']
+  );
+  shapeless(
+    event,
+    Item.of(
+      'enderio:filled_soul_vial',
+      '{BlockEntityTag:{EntityStorage:{Entity:{id:"minecraft:enderman"}}}}'
+    ),
+    ['kubejs:filled_enderman_soul_vial']
+  );
+  shapeless(
+    event,
+    Item.of(
+      'enderio:filled_soul_vial',
+      '{BlockEntityTag:{EntityStorage:{Entity:{id:"minecraft:shulker"}}}}'
+    ),
+    ['kubejs:filled_shulker_soul_vial']
+  );
+  shapeless(
+    event,
+    Item.of(
+      'enderio:filled_soul_vial',
+      '{BlockEntityTag:{EntityStorage:{Entity:{id:"minecraft:zombie"}}}}'
+    ),
+    ['kubejs:filled_zombie_soul_vial']
+  );
+  shapeless(
+    event,
+    Item.of(
+      'enderio:filled_soul_vial',
+      '{BlockEntityTag:{EntityStorage:{Entity:{id:"minecraft:villager"}}}}'
+    ),
+    ['kubejs:filled_villager_soul_vial']
+  );
 });

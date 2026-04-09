@@ -196,7 +196,7 @@ StartupEvents.registry('item', (e) => {
     .texture('kubejs:item/infinityingot/infinity_12');
 
   //silent items
-  function createingot (e, input) {
+  function createingot(e, input) {
     e.create(input)
       .tag('forge:ingots/' + input)
       .tag('ae2:metal_ingots')
@@ -220,7 +220,7 @@ StartupEvents.registry('item', (e) => {
   createingot(e, 'voidmetal_ingot');
   createingot(e, 'sculk_alloy_ingot');
 
-  function createdust (e, input) {
+  function createdust(e, input) {
     e.create(input)
       .tag('forge:dusts/' + input)
       .tag('forge:dusts')
@@ -236,7 +236,7 @@ StartupEvents.registry('item', (e) => {
   createdust(e, 'starmetal_dust');
   createdust(e, 'tyrian_steel_dust');
 
-  function createraw (e, input) {
+  function createraw(e, input) {
     e.create(input)
       .tag('c:raw_materials/' + input)
       .tag('forge:raw_materials/' + input)
@@ -336,7 +336,7 @@ StartupEvents.registry('item', (e) => {
     .tag('kubejs:chaos_guardian_prediction');
 
   //Industrial Foregoing Addons
-  function createAddon (e, input) {
+  function createAddon(e, input) {
     e.create(input)
       .texture('kubejs:item/industrial_forgegoing/' + input)
       .tag('industrialforegoing:addon')
@@ -366,7 +366,7 @@ StartupEvents.registry('item', (e) => {
   createAddon(e, 'speed_addon_5');
 
   //Draconic Evolution
-  function createDraconic (e, input) {
+  function createDraconic(e, input) {
     e.create(input)
       .texture('kubejs:item/draconic/' + input)
       .displayName(
@@ -410,7 +410,7 @@ StartupEvents.registry('item', (e) => {
   createDraconic(e, 'chaotic_necklace');
 
   //Powah
-  function createPowah (e, input) {
+  function createPowah(e, input) {
     e.create(input)
       .texture('kubejs:item/powah/' + input)
       .displayName(
@@ -425,6 +425,25 @@ StartupEvents.registry('item', (e) => {
   }
   createPowah(e, 'full_battery_nitro');
   createPowah(e, 'empty_battery_nitro');
+
+  //EnderIO Items
+  function createEnderIO(e, input) {
+    e.create(input)
+      .texture('kubejs:item/enderio/' + input)
+      .displayName(
+        input
+          .replace(/_/g, ' ')
+          .replace(
+            /\w\S*/g,
+            (txt) => txt.charAt(0).toUpperCase() + txt.substr(1).toLowerCase()
+          ) + ' Dummy Item'
+      );
+  }
+  createEnderIO(e, 'filled_witch_soul_vial');
+  createEnderIO(e, 'filled_enderman_soul_vial');
+  createEnderIO(e, 'filled_shulker_soul_vial');
+  createEnderIO(e, 'filled_zombie_soul_vial');
+  createEnderIO(e, 'filled_villager_soul_vial');
 });
 
 StartupEvents.registry('block', (event) => {
@@ -587,7 +606,7 @@ StartupEvents.registry('block', (event) => {
 });
 
 StartupEvents.registry('block', (e) => {
-  function createblock (e, input1, input2) {
+  function createblock(e, input1, input2) {
     e.create(input1)
       .displayName(input2)
       .tag('forge:storage_blocks/' + input1)
@@ -612,7 +631,7 @@ StartupEvents.registry('block', (e) => {
   createblock(e, 'solarmetal_block', 'Solarmetal Block');
   createblock(e, 'voidmetal_block', 'Voidmetal Block');
 
-  function createore (e, input1, input2) {
+  function createore(e, input1, input2) {
     e.create(input1)
       .displayName(input2)
       .tagBlock('mineable/pickaxe')

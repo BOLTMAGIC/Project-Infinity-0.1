@@ -269,4 +269,41 @@ MMEvents.createProcesses((event) => {
         amount: 1000,
       },
     });
+
+  //Quantum Infusion
+  event
+    .create('mm:quantum_infusion_recipe1')
+    .structureId('mm:fire_attuned_structure1')
+    .ticks(8)
+    .input({
+      type: 'mm:input/consume',
+      ingredient: {
+        type: 'mm:item',
+        item: 'advanced_ae:quantum_infused_dust',
+        count: 16,
+      },
+    })
+    .input({
+      type: 'mm:input/consume',
+      ingredient: {
+        type: 'mm:fluid',
+        fluid: 'minecraft:water',
+        amount: 64000,
+      },
+    })
+    .input({
+      type: 'mm:input/consume',
+      ingredient: {
+        type: 'mm:energy',
+        amount: 320000,
+      },
+    })
+    .output({
+      type: 'mm:output/simple',
+      ingredient: {
+        type: 'mm:fluid',
+        fluid: 'advanced_ae:quantum_infusion_source',
+        amount: 16000,
+      },
+    });
 });

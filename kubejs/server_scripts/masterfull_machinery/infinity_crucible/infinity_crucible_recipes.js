@@ -103,16 +103,16 @@ MMEvents.createProcesses((event) => {
       type: 'mm:input/consume',
       ingredient: {
         type: 'mm:item',
-        item: "kubejs:chaos_guardian_prediction",
+        item: 'kubejs:chaos_guardian_prediction',
         count: 16,
       },
     })
     .input({
       type: 'mm:input/consume',
-      chance: 0.20,
+      chance: 0.33,
       ingredient: {
         type: 'mm:item',
-        item: 'kubejs:ultimate_heart',
+        item: 'bigreactors:insanite_ingot',
         count: 1,
       },
     })

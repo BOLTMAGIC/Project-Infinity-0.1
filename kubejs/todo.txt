@@ -7,14 +7,6 @@ add tooltips for the multiblocks. what they do and how to use them. maybe in the
 multibuilder tool tooltip
 gateway change. players need to kill not masher
 -----------------------------------------------------
-//recipes
-creative items recipes!
-
------------------------------------------------------
-//projectE
-EMC
-
------------------------------------------------------
 changelog v. 0.0.48.0
 -updated some mods
 -----------------------------------------------------
@@ -25,6 +17,7 @@ Mod added:
 -added logistic networks
 -removed Botany Pots and replaced it with Botany Pots FPS Fix from MiniMaxi
     -this will save a lot of FPS and TPS
+-replaced Iron Furnaces Enhanced with the Original Iron Furnaces (he dev merged my code into his mod)
 -----------------------------------------------------
 Mods removed:
 -Chance Cube
@@ -79,7 +72,7 @@ Recipe changes and fixes:
 -Removed Chaos machines from Draconic Additions and also Modules that cannot be used (thx to MiniMaxi)
 -Add Draconium Dust recipes from Draconium Ingot in the Crusher, Manufactory and Pulverizer (thx to MiniMaxi)
 -Add 3 Nuclearcraft ingots crafts to Mekanism Combiner (thx to MiniMaxi)
--changed recipes for logistic networks, ⁡⁢⁣⁢curvy pipes, SFM⁡ (dont hate me)
+-changed recipes for logistic networks, curvy pipes, SFM (dont hate me)
 -changed recipe for Gem Armor (ProjectE) (thx to Lightreaper45)
 -changed loot pool in dynamic dungeons for mekanism polonium, plutonium and antimatter pellets
 -changed the chance for the ghast tear to polonium from chemlib in a dissolver from 100% to 5%
@@ -91,6 +84,11 @@ Recipe changes and fixes:
 -changed recipe for the ender dragon armor
 -changed recipe for creative tank
 -loot fabrication plant recipe changed. it will use single item!
+-fixed dupe (thx to tekaro_)
+-added recipe for quantum infusion in the fire attuned multiblock
+-changed chaos shard recipe (changed ultimate heart to insanite_ingot and from 20 to 33% to get consumed) (thx to jean._. and DoctorBlaze) (hate jean._. not me)
+-added recipe for 5 of 11 ME inf Cells
+-added some filled soul vial dummy items
 -
 -----------------------------------------------------
 Mod changes and fixes:

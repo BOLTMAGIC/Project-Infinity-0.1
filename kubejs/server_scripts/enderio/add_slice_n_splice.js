@@ -1,12 +1,31 @@
 ServerEvents.recipes((event) => {
-  event.recipes.enderio
-    .slicing('kubejs:infinity_6', [
-      'kubejs:infinity_5',
-      'allthemodium:allthemodium_ingot',
-      'kubejs:infinity_5',
-      'allthemodium:vibranium_ingot',
-      'kubejs:infinity_5',
-      'allthemodium:unobtainium_ingot',
-    ])
-    .energy(10000);
+  event
+    .custom({
+      type: 'enderio:slicing',
+      energy: 10000,
+      inputs: [
+        {
+          item: 'kubejs:infinity_5',
+        },
+        {
+          item: 'allthemodium:allthemodium_ingot',
+        },
+        {
+          item: 'kubejs:infinity_5',
+        },
+        {
+          item: 'allthemodium:vibranium_ingot',
+        },
+        {
+          item: 'kubejs:infinity_5',
+        },
+        {
+          item: 'allthemodium:unobtainium_ingot',
+        },
+      ],
+      output: {
+        item: 'kubejs:infinity_6',
+      },
+    })
+    .id('kubejs:infinity_6');
 });

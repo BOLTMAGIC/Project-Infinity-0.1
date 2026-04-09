@@ -1926,37 +1926,6 @@ ServerEvents.recipes((event) => {
     ]
   );
   //EnderIO Soul Vials
-    //NBT to Dummy Item
-  shapeless(event, 'kubejs:filled_witch_soul_vial', [
-    Item.of(
-      'enderio:filled_soul_vial',
-      '{BlockEntityTag:{EntityStorage:{Entity:{id:"minecraft:witch"}}}}'
-    ),
-  ]);
-  shapeless(event, 'kubejs:filled_enderman_soul_vial', [
-    Item.of(
-      'enderio:filled_soul_vial',
-      '{BlockEntityTag:{EntityStorage:{Entity:{id:"minecraft:enderman"}}}}'
-    ),
-  ]);
-  shapeless(event, 'kubejs:filled_shulker_soul_vial', [
-    Item.of(
-      'enderio:filled_soul_vial',
-      '{BlockEntityTag:{EntityStorage:{Entity:{id:"minecraft:shulker"}}}}'
-    ),
-  ]);
-  shapeless(event, 'kubejs:filled_zombie_soul_vial', [
-    Item.of(
-      'enderio:filled_soul_vial',
-      '{BlockEntityTag:{EntityStorage:{Entity:{id:"minecraft:zombie"}}}}'
-    ),
-  ]);
-  shapeless(event, 'kubejs:filled_villager_soul_vial', [
-    Item.of(
-      'enderio:filled_soul_vial',
-      '{BlockEntityTag:{EntityStorage:{Entity:{id:"minecraft:villager"}}}}'
-    ),
-  ]);
   //Dummy Item to NBT
   shapeless(
     event,
@@ -1986,16 +1955,16 @@ ServerEvents.recipes((event) => {
     event,
     Item.of(
       'enderio:filled_soul_vial',
-      '{BlockEntityTag:{EntityStorage:{Entity:{id:"minecraft:zombie"}}}}'
+      '{BlockEntityTag:{EntityStorage:{Entity:{id:"minecraft:villager"}}}}'
     ),
-    ['kubejs:filled_zombie_soul_vial']
+    ['kubejs:filled_villager_soul_vial']
   );
   shapeless(
     event,
     Item.of(
       'enderio:filled_soul_vial',
-      '{BlockEntityTag:{EntityStorage:{Entity:{id:"minecraft:villager"}}}}'
+      '{BlockEntityTag:{EntityStorage:{Entity:{id:"minecraft:zombie"}}}}'
     ),
-    ['kubejs:filled_villager_soul_vial']
+    ['kubejs:filled_zombie_soul_vial']
   );
 });

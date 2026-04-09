@@ -1,81 +1,50 @@
 ServerEvents.recipes((event) => {
-  // event.recipes.enderio
-  // .sag_milling(['output'], 'input')
-  // .energy(5000)
-
-  event.recipes.enderio
-    .sag_milling(['2x compressium:cobblestone_1'], 'compressium:stone_1')
-    .energy(5000);
-  event.recipes.enderio
-    .sag_milling(['2x compressium:cobblestone_2'], 'compressium:stone_2')
-    .energy(5000);
-  event.recipes.enderio
-    .sag_milling(['2x compressium:cobblestone_3'], 'compressium:stone_3')
-    .energy(5000);
-  event.recipes.enderio
-    .sag_milling(['2x compressium:gravel_1'], 'compressium:cobblestone_1')
-    .energy(5000);
-  event.recipes.enderio
-    .sag_milling(['2x compressium:gravel_2'], 'compressium:cobblestone_2')
-    .energy(5000);
-  event.recipes.enderio
-    .sag_milling(['2x compressium:gravel_3'], 'compressium:cobblestone_3')
-    .energy(5000);
-  event.recipes.enderio
-    .sag_milling(['2x compressium:sand_1'], 'compressium:gravel_1')
-    .energy(5000);
-  event.recipes.enderio
-    .sag_milling(['2x compressium:sand_2'], 'compressium:gravel_2')
-    .energy(5000);
-  event.recipes.enderio
-    .sag_milling(['2x compressium:sand_3'], 'compressium:gravel_3')
-    .energy(5000);
-  event.recipes.enderio
-    .sag_milling(['2x exdeorum:dust'], 'minecraft:sand')
-    .energy(5000);
-  event.recipes.enderio
-    .sag_milling(
-      ['2x exdeorum:compressed_crushed_netherrack'],
-      'compressium:netherrack_1'
-    )
-    .energy(5000);
-
-  event.recipes.enderio
-    .sag_milling(
-      ['2x exdeorum:compressed_crushed_end_stone'],
-      'compressium:endstone_1'
-    )
-    .energy(5000);
-
-  event.recipes.enderio
-    .sag_milling(['kubejs:blaze_gold_dust'], 'kubejs:blaze_gold_ingot')
-    .energy(5000);
-
-  event.recipes.enderio
-    .sag_milling(['kubejs:azure_silver_dust'], 'kubejs:azure_silver_ingot')
-    .energy(5000);
-
-  event.recipes.enderio
-    .sag_milling(['kubejs:azure_electrum_dust'], 'kubejs:azure_electrum_ingot')
-    .energy(5000);
-
-  event.recipes.enderio
-    .sag_milling(['kubejs:azure_electrum_dust'], 'kubejs:azure_electrum_ingot')
-    .energy(5000);
-
-  event.recipes.enderio
-    .sag_milling(['2x kubejs:raw_arcmetal'], 'kubejs:arcmetal_ore')
-    .energy(5000);
-
-  event.recipes.enderio
-    .sag_milling(['2x kubejs:raw_solarmetal'], 'kubejs:solarmetal_ore')
-    .energy(5000);
-
-  event.recipes.enderio
-    .sag_milling(['2x kubejs:raw_plasteel'], 'kubejs:plasteel_ore')
-    .energy(5000);
-
-  event.recipes.enderio
-    .sag_milling(['2x kubejs:raw_voidmetal'], 'kubejs:voidmetal_ore')
-    .energy(5000);
+  sag_milling(event, 'compressium:stone_1', '2x compressium:cobblestone_1');
+  sag_milling(event, 'compressium:stone_2', '2x compressium:cobblestone_2');
+  sag_milling(event, 'compressium:stone_3', '2x compressium:cobblestone_3');
+  sag_milling(event, 'compressium:cobblestone_1', '2x compressium:gravel_1');
+  sag_milling(event, 'compressium:cobblestone_2', '2x compressium:gravel_2');
+  sag_milling(event, 'compressium:cobblestone_3', '2x compressium:gravel_3');
+  sag_milling(event, 'compressium:gravel_1', '2x compressium:sand_1');
+  sag_milling(event, 'compressium:gravel_2', '2x compressium:sand_2');
+  sag_milling(event, 'compressium:gravel_3', '2x compressium:sand_3');
+  sag_milling(event, 'minecraft:sand', '2x exdeorum:dust');
+  sag_milling(
+    event,
+    'compressium:netherrack_1',
+    '2x compressium:crushed_netherrack_1'
+  );
+  sag_milling(
+    event,
+    'compressium:endstone_1',
+    '2x compressium:crushed_end_stone_1'
+  );
+  sag_milling(event, 'kubejs:blaze_gold_ingot', 'kubejs:blaze_gold_dust');
+  sag_milling(event, 'kubejs:azure_silver_ingot', 'kubejs:azure_silver_dust');
+  sag_milling(
+    event,
+    'kubejs:azure_electrum_ingot',
+    'kubejs:azure_electrum_dust'
+  );
+  sag_milling(event, 'kubejs:arcmetal_ore', '2x kubejs:raw_arcmetal');
+  sag_milling(event, 'kubejs:solarmetal_ore', '2x kubejs:raw_solarmetal');
+  sag_milling(event, 'kubejs:plasteel_ore', '2x kubejs:raw_plasteel');
+  sag_milling(event, 'kubejs:voidmetal_ore', '2x kubejs:raw_voidmetal');
 });
+
+function sag_milling(event, input, output) {
+  event
+    .custom({
+      type: 'enderio:sag_milling',
+      input: { item: input },
+      outputs: [
+        {
+          item: {
+            item: output,
+          },
+        },
+      ],
+      energy: 5000,
+    })
+    .id('sag_milling_' + output);
+}

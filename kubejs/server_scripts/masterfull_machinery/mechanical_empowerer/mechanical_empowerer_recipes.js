@@ -204,9 +204,46 @@ MMEvents.createProcesses((event) => {
     'botania:black_lotus',
     4
   );
+
+  //EnderIO Soul Vial Recipes
+  enderio_recipe1(event, 'witch', 'kubejs:filled_witch_soul_vial');
+  enderio_recipe1(event, 'enderman', 'kubejs:filled_enderman_soul_vial');
+  enderio_recipe1(event, 'shulker', 'kubejs:filled_shulker_soul_vial');
+  enderio_recipe1(event, 'zombie', 'kubejs:filled_zombie_soul_vial');
+  enderio_recipe1(event, 'villager', 'kubejs:filled_villager_soul_vial');
+  enderio_recipe2(
+    event,
+    'kubejs:filled_witch_soul_vial',
+    'enderio:ender_resonator',
+    'enderio:sentient_ender'
+  );
+  enderio_recipe2(
+    event,
+    'kubejs:filled_enderman_soul_vial',
+    'enderio:vibrant_crystal',
+    'enderio:ender_crystal'
+  );
+  enderio_recipe2(
+    event,
+    'kubejs:filled_shulker_soul_vial',
+    'enderio:vibrant_crystal',
+    'enderio:prescient_crystal'
+  );
+  enderio_recipe2(
+    event,
+    'kubejs:filled_zombie_soul_vial',
+    'enderio:z_logic_controller',
+    'enderio:frank_n_zombie'
+  );
+  enderio_recipe2(
+    event,
+    'kubejs:filled_villager_soul_vial',
+    'enderio:dark_steel_grinding_ball',
+    'enderio:player_token'
+  );
 });
 
-function createSimple1 (event, input, output) {
+function createSimple1(event, input, output) {
   const sanitizedOutput = output.replace(':', '_');
   event
     .create(`mm:mechanical_empowerer_${sanitizedOutput}`)
@@ -237,7 +274,7 @@ function createSimple1 (event, input, output) {
     });
 }
 
-function createSimple2 (event, input1, input2, output) {
+function createSimple2(event, input1, input2, output) {
   const sanitizedOutput = output.replace(':', '_');
   event
     .create(`mm:mechanical_empowerer_${sanitizedOutput}`)
@@ -276,7 +313,7 @@ function createSimple2 (event, input1, input2, output) {
     });
 }
 
-function createEmpowered (event, inputs, output) {
+function createEmpowered(event, inputs, output) {
   const sanitizedOutput = output.replace(':', '_');
   const recipe = event
     .create(`mm:mechanical_empowerer_empowered_${sanitizedOutput}`)
@@ -312,7 +349,7 @@ function createEmpowered (event, inputs, output) {
   });
 }
 
-function createRecipe (event, inputs, output, outputCount) {
+function createRecipe(event, inputs, output, outputCount) {
   const sanitizedOutput = output.replace(':', '_');
   const recipe = event
     .create(`mm:mechanical_empowerer_empowered_${sanitizedOutput}`)
@@ -382,4 +419,83 @@ function createRecipe2(event, inputs, output, outputCount) {
       count: outputCount,
     },
   });
+}
+
+function enderio_recipe1(event, input, output) {
+  const sanitizedOutput = output.replace(':', '_');
+  event
+    .create(`mm:mechanical_empowerer_${sanitizedOutput}`)
+    .structureId('mm:mechanical_empowerer_structure')
+    .ticks(TICKS)
+    .input({
+      type: 'mm:input/consume',
+      ingredient: {
+        type: 'mm:item',
+        item: 'enderio:filled_soul_vial',
+        count: 1,
+        nbt_snbt: `{BlockEntityTag:{EntityStorage:{Entity:{id:"minecraft:${input}"}}}}`,
+      },
+    })
+    .input({
+      type: 'mm:input/consume',
+      ingredient: {
+        type: 'mm:energy',
+        amount: 40000,
+      },
+    })
+    .output({
+      type: 'mm:output/simple',
+      ingredient: {
+        type: 'mm:item',
+        item: output,
+        count: 1,
+      },
+    });
+}
+
+function enderio_recipe2(event, input1, input2, output) {
+  const sanitizedOutput = output.replace(':', '_');
+  event
+    .create(`mm:mechanical_empowerer_${sanitizedOutput}`)
+    .structureId('mm:mechanical_empowerer_structure')
+    .ticks(TICKS)
+    .input({
+      type: 'mm:input/consume',
+      ingredient: {
+        type: 'mm:item',
+        item: input1,
+        count: 1,
+      },
+    })
+    .input({
+      type: 'mm:input/consume',
+      ingredient: {
+        type: 'mm:item',
+        item: input2,
+        count: 1,
+      },
+    })
+    .input({
+      type: 'mm:input/consume',
+      ingredient: {
+        type: 'mm:energy',
+        amount: 400000,
+      },
+    })
+    .output({
+      type: 'mm:output/simple',
+      ingredient: {
+        type: 'mm:item',
+        item: 'enderio:empty_soul_vial',
+        count: 1,
+      },
+    })
+    .output({
+      type: 'mm:output/simple',
+      ingredient: {
+        type: 'mm:item',
+        item: output,
+        count: 1,
+      },
+    });
 }

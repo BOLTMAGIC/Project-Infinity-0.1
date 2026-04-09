@@ -89,6 +89,9 @@ Recipe changes and fixes:
 -changed chaos shard recipe (changed ultimate heart to insanite_ingot and from 20 to 33% to get consumed) (thx to jean._. and DoctorBlaze) (hate jean._. not me)
 -added recipe for 5 of 11 ME inf Cells
 -added some filled soul vial dummy items
+-fixed solar plasteel recipe
+-added a NBT remover item and recipe (thx to MiniMaxi)
+-code cleanup
 -
 -----------------------------------------------------
 Mod changes and fixes:

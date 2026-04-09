@@ -425,6 +425,10 @@ StartupEvents.registry('item', (e) => {
   }
   createPowah(e, 'full_battery_nitro');
   createPowah(e, 'empty_battery_nitro');
+
+  e.create('tank_nbt_remover')
+  .displayName('Tank NBT Remover')
+  .texture('kubejs:item/tank_nbt_remover')
 });
 
 StartupEvents.registry('block', (event) => {

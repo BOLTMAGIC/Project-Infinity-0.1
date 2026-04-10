@@ -389,5 +389,7 @@
   "tooltip.mythicbotany.wither_aconite_warning": "If AE2 / RS doesn't let you autocraft it, craft it by hand.",
 
   "tooltip.kubejs.tank_nbt_remover_1": "Combine with Mekanism Tanks to remove their unwanted NBT data.",
-  "tooltip.kubejs.tank_nbt_remover_2": "Use this when AE2 / RS doesn't let you craft items with tanks even though you have the right ones."
+  "tooltip.kubejs.tank_nbt_remover_2": "Use this when AE2 / RS doesn't let you craft items with tanks even though you have the right ones.",
+
+  "tooltip.kubejs.compressed_material_warning": "This item can only be used in Elite or better Infusing Factories."
 }

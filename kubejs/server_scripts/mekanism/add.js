@@ -392,4 +392,30 @@ ServerEvents.recipes((event) => {
     'kubejs:spectrum_alloy_block',
     1
   );
+
+    function infusion_conversion (event, item_input, amount_output, infusion_type_output) {
+    event
+      .custom({
+        "type": "mekanism:infusion_conversion",
+        "input": {
+          "ingredient": {
+            "item": item_input,
+          }
+        },
+        "output": {
+          "amount": amount_output,
+          "infuse_type": infusion_type_output,
+        }
+      })
+      .id('mek_' + infusion_type_output.replace(/[:]/g, '_').toLowerCase() + '_from_' + item_input.replace(/[:]/g, '_').toLowerCase());
+  }
+
+  infusion_conversion(event, 'kubejs:compressed_enriched_redstone_x1', 720, 'mekanism:redstone');
+  infusion_conversion(event, 'kubejs:compressed_enriched_redstone_x2', 6480, 'mekanism:redstone');
+  infusion_conversion(event, 'kubejs:compressed_enriched_carbon_x1', 720, 'mekanism:carbon');
+  infusion_conversion(event, 'kubejs:compressed_enriched_carbon_x2', 6480, 'mekanism:carbon');
+  infusion_conversion(event, 'kubejs:compressed_enriched_diamond_x1', 720, 'mekanism:diamond');
+  infusion_conversion(event, 'kubejs:compressed_enriched_diamond_x2', 6480, 'mekanism:diamond');
+  infusion_conversion(event, 'kubejs:compressed_enriched_refined_obsidian_x1', 720, 'mekanism:refined_obsidian');
+  infusion_conversion(event, 'kubejs:compressed_enriched_refined_obsidian_x2', 6480, 'mekanism:refined_obsidian');
 });

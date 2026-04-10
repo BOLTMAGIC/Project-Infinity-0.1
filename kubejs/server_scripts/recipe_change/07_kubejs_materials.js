@@ -264,7 +264,31 @@ ServerEvents.recipes((event) => {
   shapeless(event, 'exdeorum:mechanical_sieve', [
     'kubejs:auto_mechanical_sieve',
   ]);
-  
+
   shapeless(event, 'kubejs:tank_nbt_remover', ['minecraft:slime_ball']);
   shapeless(event, 'minecraft:slime_ball', ['kubejs:tank_nbt_remover']);
+
+  create3x3same(event, 'kubejs:compressed_enriched_redstone_x1', ['mekanism:enriched_redstone',]);
+  shapeless(event, '9x mekanism:enriched_redstone', ['kubejs:compressed_enriched_redstone_x1',]);
+
+  create3x3same(event, 'kubejs:compressed_enriched_redstone_x2', ['kubejs:compressed_enriched_redstone_x1',]);
+  shapeless(event, '9x kubejs:compressed_enriched_redstone_x1', ['kubejs:compressed_enriched_redstone_x2',]);
+
+  create3x3same(event, 'kubejs:compressed_enriched_carbon_x1', ['mekanism:enriched_carbon',]);
+  shapeless(event, '9x mekanism:enriched_carbon', ['kubejs:compressed_enriched_carbon_x1',]);
+
+  create3x3same(event, 'kubejs:compressed_enriched_carbon_x2', ['kubejs:compressed_enriched_carbon_x1',]);
+  shapeless(event, '9x kubejs:compressed_enriched_carbon_x1', ['kubejs:compressed_enriched_carbon_x2',]);
+
+  create3x3same(event, 'kubejs:compressed_enriched_diamond_x1', ['mekanism:enriched_diamond',]);
+  shapeless(event, '9x mekanism:enriched_diamond', ['kubejs:compressed_enriched_diamond_x1',]);
+
+  create3x3same(event, 'kubejs:compressed_enriched_diamond_x2', ['kubejs:compressed_enriched_diamond_x1',]);
+  shapeless(event, '9x kubejs:compressed_enriched_diamond_x1', ['kubejs:compressed_enriched_diamond_x2',]);
+
+  create3x3same(event, 'kubejs:compressed_enriched_refined_obsidian_x1', ['mekanism:enriched_refined_obsidian',]);
+  shapeless(event, '9x mekanism:enriched_refined_obsidian', ['kubejs:compressed_enriched_refined_obsidian_x1',]);
+
+  create3x3same(event, 'kubejs:compressed_enriched_refined_obsidian_x2', ['kubejs:compressed_enriched_refined_obsidian_x1',]);
+  shapeless(event, '9x kubejs:compressed_enriched_refined_obsidian_x1', ['kubejs:compressed_enriched_refined_obsidian_x2',]);
 });

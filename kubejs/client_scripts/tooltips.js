@@ -382,9 +382,6 @@ ItemEvents.tooltip((event) => {
     text.add(1, Text.translate('tooltip.kubejs.tank_nbt_remover_1'));
     text.add(2, Text.translate('tooltip.kubejs.tank_nbt_remover_2'));
   });
-<<<<<<< Updated upstream
-});
-=======
 
   const compressedMaterials = [
     'kubejs:compressed_enriched_redstone_x2',
@@ -401,4 +398,3 @@ ItemEvents.tooltip((event) => {
   });
 
 });
->>>>>>> Stashed changes

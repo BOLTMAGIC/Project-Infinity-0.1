@@ -1,4 +1,7 @@
 #Maximum number of nodes rendered when holding a wrench. Nearest nodes are prioritized.
 #Range: > 1
 maxRenderedNodes = 200
+#Maximum number of visible node models rendered. Nearest nodes are prioritized. 0 = unlimited.
+#Range: > 0
+maxVisibleNodes = 500
 

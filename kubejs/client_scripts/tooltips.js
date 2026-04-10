@@ -382,4 +382,19 @@ ItemEvents.tooltip((event) => {
     text.add(1, Text.translate('tooltip.kubejs.tank_nbt_remover_1'));
     text.add(2, Text.translate('tooltip.kubejs.tank_nbt_remover_2'));
   });
+
+  const compressedMaterials = [
+    'kubejs:compressed_enriched_redstone_x2',
+    'kubejs:compressed_enriched_carbon_x2',
+    'kubejs:compressed_enriched_diamond_x2',
+    'kubejs:compressed_enriched_refined_obsidian_x2'
+  ];
+
+  compressedMaterials.forEach(material => {
+    event.add(
+      material,
+      Text.translate('tooltip.kubejs.compressed_material_warning', material)
+    );
+  });
+
 });

@@ -418,4 +418,27 @@ ServerEvents.recipes((event) => {
   infusion_conversion(event, 'kubejs:compressed_enriched_diamond_x2', 6480, 'mekanism:diamond');
   infusion_conversion(event, 'kubejs:compressed_enriched_refined_obsidian_x1', 720, 'mekanism:refined_obsidian');
   infusion_conversion(event, 'kubejs:compressed_enriched_refined_obsidian_x2', 6480, 'mekanism:refined_obsidian');
+
+  function enriching (event, item_input, item_output) {
+    event
+      .custom({
+        "type": "mekanism:enriching",
+        "input": {
+          "ingredient": {
+            "item": item_input,
+          }
+        },
+        "output": {
+          "item": item_output,
+        }
+      })
+      .id('mek_' + item_output.replace(/[:]/g, '_').toLowerCase() + '_from_' + item_input.replace(/[:]/g, '_').toLowerCase());
+  }
+
+  enriching(event, 'minecraft:redstone_block', 'kubejs:compressed_enriched_redstone_x1');
+  enriching(event, 'compressium:redstone_1', 'kubejs:compressed_enriched_redstone_x2');
+  enriching(event, 'minecraft:coal_block', 'kubejs:compressed_enriched_carbon_x1');
+  enriching(event, 'compressium:coal_1', 'kubejs:compressed_enriched_carbon_x2');
+  enriching(event, 'minecraft:diamond_block', 'kubejs:compressed_enriched_diamond_x1');
+  enriching(event, 'compressium:diamond_1', 'kubejs:compressed_enriched_diamond_x2');
 });

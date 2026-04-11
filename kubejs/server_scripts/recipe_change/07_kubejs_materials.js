@@ -268,27 +268,25 @@ ServerEvents.recipes((event) => {
   shapeless(event, 'kubejs:tank_nbt_remover', ['minecraft:slime_ball']);
   shapeless(event, 'minecraft:slime_ball', ['kubejs:tank_nbt_remover']);
 
-  create3x3same(event, 'kubejs:compressed_enriched_redstone_x1', ['mekanism:enriched_redstone',]);
-  shapeless(event, '9x mekanism:enriched_redstone', ['kubejs:compressed_enriched_redstone_x1',]);
+  const mekanismEnrichedMaterialsToCompress = [
+    { id: 'redstone', mod: 'mekanism' },
+    { id: 'carbon', mod: 'mekanism' },
+    { id: 'diamond', mod: 'mekanism' },
+    { id: 'refined_obsidian', mod: 'mekanism' },
+    { id: 'uranium', mod: 'evolvedmekanism' },
+    { id: 'better_gold', mod: 'evolvedmekanism' },
+    { id: 'plaslitherite', mod: 'evolvedmekanism' },
+    { id: 'radiance', mod: 'mekanism_extras' },
+    { id: 'thermonuclear', mod: 'mekanism_extras' },
+    { id: 'shining', mod: 'mekanism_extras' },
+    { id: 'spectrum', mod: 'mekanism_extras' },
+  ];
 
-  create3x3same(event, 'kubejs:compressed_enriched_redstone_x2', ['kubejs:compressed_enriched_redstone_x1',]);
-  shapeless(event, '9x kubejs:compressed_enriched_redstone_x1', ['kubejs:compressed_enriched_redstone_x2',]);
+  mekanismEnrichedMaterialsToCompress.forEach(material => {
+    create3x3same(event, 'kubejs:compressed_enriched_' + material.id, [material.mod + ':enriched_' + material.id,]);
+    shapeless(event, '9x ' + material.mod + ':enriched_' + material.id, ['kubejs:compressed_enriched_' + material.id,]);
 
-  create3x3same(event, 'kubejs:compressed_enriched_carbon_x1', ['mekanism:enriched_carbon',]);
-  shapeless(event, '9x mekanism:enriched_carbon', ['kubejs:compressed_enriched_carbon_x1',]);
-
-  create3x3same(event, 'kubejs:compressed_enriched_carbon_x2', ['kubejs:compressed_enriched_carbon_x1',]);
-  shapeless(event, '9x kubejs:compressed_enriched_carbon_x1', ['kubejs:compressed_enriched_carbon_x2',]);
-
-  create3x3same(event, 'kubejs:compressed_enriched_diamond_x1', ['mekanism:enriched_diamond',]);
-  shapeless(event, '9x mekanism:enriched_diamond', ['kubejs:compressed_enriched_diamond_x1',]);
-
-  create3x3same(event, 'kubejs:compressed_enriched_diamond_x2', ['kubejs:compressed_enriched_diamond_x1',]);
-  shapeless(event, '9x kubejs:compressed_enriched_diamond_x1', ['kubejs:compressed_enriched_diamond_x2',]);
-
-  create3x3same(event, 'kubejs:compressed_enriched_refined_obsidian_x1', ['mekanism:enriched_refined_obsidian',]);
-  shapeless(event, '9x mekanism:enriched_refined_obsidian', ['kubejs:compressed_enriched_refined_obsidian_x1',]);
-
-  create3x3same(event, 'kubejs:compressed_enriched_refined_obsidian_x2', ['kubejs:compressed_enriched_refined_obsidian_x1',]);
-  shapeless(event, '9x kubejs:compressed_enriched_refined_obsidian_x1', ['kubejs:compressed_enriched_refined_obsidian_x2',]);
+    create3x3same(event, 'kubejs:double_compressed_enriched_' + material.id, ['kubejs:compressed_enriched_' + material.id,]);    
+    shapeless(event, 'kubejs:compressed_enriched_' + material.id, ['kubejs:double_compressed_enriched_' + material.id,]);
+  });
 });

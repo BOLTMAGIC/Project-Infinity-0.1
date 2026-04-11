@@ -275,11 +275,11 @@ ServerEvents.recipes((event) => {
       .id('mek_' + output.replace(/[:]/g, '_').toLowerCase());
   }
 
-  function nucleosynthesizing (event, gasAmount, input, output) {
+  function nucleosynthesizing (event, gasAmount, duration, input, output) {
     event
       .custom({
         type: 'mekanism:nucleosynthesizing',
-        duration: 1000,
+        duration: duration,
         gasInput: {
           amount: gasAmount,
           gas: 'mekanism:antimatter',
@@ -326,6 +326,7 @@ ServerEvents.recipes((event) => {
   nucleosynthesizing(
     event,
     450,
+    1000,
     'evolvedmekanism:block_alloy_hypercharged',
     'evolvedmekanism:block_alloy_subatomic'
   );
@@ -393,7 +394,7 @@ ServerEvents.recipes((event) => {
     1
   );
 
-    function infusion_conversion (event, item_input, amount_output, infusion_type_output) {
+  function infusion_conversion (event, item_input, amount_output, infusion_type_output) {
     event
       .custom({
         "type": "mekanism:infusion_conversion",
@@ -409,15 +410,36 @@ ServerEvents.recipes((event) => {
       })
       .id('mek_' + infusion_type_output.replace(/[:]/g, '_').toLowerCase() + '_from_' + item_input.replace(/[:]/g, '_').toLowerCase());
   }
+  
+  const mekanismEnrichedMaterialsToCompress = [
+    { id: 'redstone', mod: 'mekanism', normal_amount: 80 },
+    { id: 'carbon', mod: 'mekanism', normal_amount: 80 },
+    { id: 'diamond', mod: 'mekanism', normal_amount: 80 },
+    { id: 'refined_obsidian', mod: 'mekanism', normal_amount: 80 },
+    { id: 'uranium', mod: 'evolvedmekanism', normal_amount: 80 },
+    { id: 'better_gold', mod: 'evolvedmekanism', normal_amount: 80 },
+    { id: 'plaslitherite', mod: 'evolvedmekanism', normal_amount: 80 },
+    { id: 'radiance', mod: 'mekanism_extras', normal_amount: 80 },
+    { id: 'thermonuclear', mod: 'mekanism_extras', normal_amount: 40 },
+    { id: 'shining', mod: 'mekanism_extras', normal_amount: 40 },
+    { id: 'spectrum', mod: 'mekanism_extras', normal_amount: 50 },
+  ];
 
-  infusion_conversion(event, 'kubejs:compressed_enriched_redstone_x1', 720, 'mekanism:redstone');
-  infusion_conversion(event, 'kubejs:compressed_enriched_redstone_x2', 6480, 'mekanism:redstone');
-  infusion_conversion(event, 'kubejs:compressed_enriched_carbon_x1', 720, 'mekanism:carbon');
-  infusion_conversion(event, 'kubejs:compressed_enriched_carbon_x2', 6480, 'mekanism:carbon');
-  infusion_conversion(event, 'kubejs:compressed_enriched_diamond_x1', 720, 'mekanism:diamond');
-  infusion_conversion(event, 'kubejs:compressed_enriched_diamond_x2', 6480, 'mekanism:diamond');
-  infusion_conversion(event, 'kubejs:compressed_enriched_refined_obsidian_x1', 720, 'mekanism:refined_obsidian');
-  infusion_conversion(event, 'kubejs:compressed_enriched_refined_obsidian_x2', 6480, 'mekanism:refined_obsidian');
+  mekanismEnrichedMaterialsToCompress.forEach(material => {
+    infusion_conversion(
+      event,
+      'kubejs:compressed_enriched_' + material.id,
+      material.normal_amount * 9,
+      material.mod + ':' + material.id
+    );
+
+    infusion_conversion(
+      event,
+      'kubejs:double_compressed_enriched_' + material.id,
+      material.normal_amount * 9 * 9,
+      material.mod + ':' + material.id
+    );
+  });
 
   function enriching (event, item_input, item_output) {
     event
@@ -435,10 +457,61 @@ ServerEvents.recipes((event) => {
       .id('mek_' + item_output.replace(/[:]/g, '_').toLowerCase() + '_from_' + item_input.replace(/[:]/g, '_').toLowerCase());
   }
 
-  enriching(event, 'minecraft:redstone_block', 'kubejs:compressed_enriched_redstone_x1');
-  enriching(event, 'compressium:redstone_1', 'kubejs:compressed_enriched_redstone_x2');
-  enriching(event, 'minecraft:coal_block', 'kubejs:compressed_enriched_carbon_x1');
-  enriching(event, 'compressium:coal_1', 'kubejs:compressed_enriched_carbon_x2');
-  enriching(event, 'minecraft:diamond_block', 'kubejs:compressed_enriched_diamond_x1');
-  enriching(event, 'compressium:diamond_1', 'kubejs:compressed_enriched_diamond_x2');
+  enriching(event, 'minecraft:redstone_block', 'kubejs:compressed_enriched_redstone');
+  enriching(event, 'compressium:redstone_1', 'kubejs:double_compressed_enriched_redstone');
+  enriching(event, 'minecraft:coal_block', 'kubejs:compressed_enriched_carbon');
+  enriching(event, 'compressium:coal_1', 'kubejs:double_compressed_enriched_carbon');
+  enriching(event, 'minecraft:diamond_block', 'kubejs:compressed_enriched_diamond');
+  enriching(event, 'compressium:diamond_1', 'kubejs:compressed_enriched_diamond');
+
+  nucleosynthesizing(
+    event,
+    9,
+    2000,
+    'kubejs:compressed_enriched_thermonuclear',
+    'kubejs:compressed_enriched_shining'
+  );
+
+  nucleosynthesizing(
+    event,
+    81,
+    2000,
+    'kubejs:double_compressed_enriched_thermonuclear',
+    'kubejs:double_compressed_enriched_shining'
+  );
+
+  function compressing (event, gas_amount, gas_input, item_input, item_output) {
+    event
+      .custom({
+        "type": "mekanism:compressing",
+        "chemicalInput": {
+          "amount": gas_amount / 200,
+          "gas": gas_input
+        },
+        "itemInput": {
+          "ingredient": {
+            "item": item_input,
+          }
+        },
+        "output": {
+          "item": item_output,
+        }
+      })
+      .id('mek_' + item_output.replace(/[:]/g, '_').toLowerCase() + '_from_' + item_input.replace(/[:]/g, '_').toLowerCase());
+  }
+
+  compressing(
+    event,
+    1800,
+    'mekanism:antimatter',
+    'kubejs:compressed_enriched_shining',
+    'kubejs:compressed_enriched_spectrum'
+  );
+  compressing(
+    event,
+    16200,
+    'mekanism:antimatter',
+    'kubejs:double_compressed_enriched_shining',
+    'kubejs:double_compressed_enriched_spectrum'
+  );
 });

@@ -383,17 +383,24 @@ ItemEvents.tooltip((event) => {
     text.add(2, Text.translate('tooltip.kubejs.tank_nbt_remover_2'));
   });
 
-  const compressedMaterials = [
-    'kubejs:compressed_enriched_redstone_x2',
-    'kubejs:compressed_enriched_carbon_x2',
-    'kubejs:compressed_enriched_diamond_x2',
-    'kubejs:compressed_enriched_refined_obsidian_x2'
-  ];
+  const mekanismEnrichedMaterialsToCompress = [
+    { id: 'redstone', machine: 'Elite' },
+    { id: 'carbon', machine: 'Elite' },
+    { id: 'diamond', machine: 'Elite' },
+    { id: 'refined_obsidian', machine: 'Elite' },
+    { id: 'uranium', machine: 'Elite' },
+    { id: 'better_gold', machine: 'Elite' },
+    { id: 'plaslitherite', machine: 'Elite' },
+    { id: 'radiance', machine: 'Elite' },
+    { id: 'thermonuclear', machine: 'Advanced' },
+    { id: 'shining', machine: 'Advanced' },
+    { id: 'spectrum', machine: 'Advanced' },
+   ];
 
-  compressedMaterials.forEach(material => {
+  mekanismEnrichedMaterialsToCompress.forEach(material => {
     event.add(
-      material,
-      Text.translate('tooltip.kubejs.compressed_material_warning', material)
+      'double_compressed_enriched_' + material.id,
+      Text.translate('tooltip.kubejs.compressed_material_warning', material.machine)
     );
   });
 

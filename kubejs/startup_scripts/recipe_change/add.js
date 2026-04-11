@@ -449,37 +449,34 @@ StartupEvents.registry('item', (e) => {
     .displayName('Tank NBT Remover')
     .texture('kubejs:item/tank_nbt_remover');
     
-  e.create('compressed_enriched_redstone_x1')
-  .displayName('Compressed Enriched Redstone x1')
-  .texture('kubejs:item/mekanism/compressed_enriched_redstone_x1')
+  function createMekanismCompressed (e, item) {
+    e.create('compressed_enriched_' + item)
+      .displayName('Compressed Enriched ' + item.charAt(0).toUpperCase() + item.slice(1))
+      .texture('kubejs:item/mekanism/compressed_enriched_' + item);
 
-  e.create('compressed_enriched_redstone_x2')
-  .displayName('Compressed Enriched Redstone x2')
-  .texture('kubejs:item/mekanism/compressed_enriched_redstone_x2')
+    e.create('double_compressed_enriched_' + item)
+      .displayName('Double Compressed Enriched ' + item.charAt(0).toUpperCase() + item.slice(1))
+      .texture('kubejs:item/mekanism/double_compressed_enriched_' + item);
+  }
 
-  e.create('compressed_enriched_carbon_x1')
-  .displayName('Compressed Enriched Carbon x1')
-  .texture('kubejs:item/mekanism/compressed_enriched_carbon_x1')
+  const mekanismEnrichedMaterialsToCompress = [
+    'redstone',
+    'carbon',
+    'diamond',
+    'refined_obsidian',
+    'uranium',
+    'better_gold',
+    'plaslitherite',
+    'radiance',
+    'thermonuclear',
+    'shining',
+    'spectrum',
+  ];
 
-  e.create('compressed_enriched_carbon_x2')
-  .displayName('Compressed Enriched Carbon x2')
-  .texture('kubejs:item/mekanism/compressed_enriched_carbon_x2')
+  mekanismEnrichedMaterialsToCompress.forEach((material) => {
+    createMekanismCompressed(e, material);
+  });
 
-  e.create('compressed_enriched_diamond_x1')
-  .displayName('Compressed Enriched Diamond x1')
-  .texture('kubejs:item/mekanism/compressed_enriched_diamond_x1')
-
-  e.create('compressed_enriched_diamond_x2')
-  .displayName('Compressed Enriched Diamond x2')
-  .texture('kubejs:item/mekanism/compressed_enriched_diamond_x2')
-
-  e.create('compressed_enriched_refined_obsidian_x1')
-  .displayName('Compressed Enriched Refined Obsidian x1')
-  .texture('kubejs:item/mekanism/compressed_enriched_refined_obsidian_x1')
-
-  e.create('compressed_enriched_refined_obsidian_x2')
-  .displayName('Compressed Enriched Refined Obsidian x2')
-  .texture('kubejs:item/mekanism/compressed_enriched_refined_obsidian_x2')
 });
 
 StartupEvents.registry('block', (event) => {

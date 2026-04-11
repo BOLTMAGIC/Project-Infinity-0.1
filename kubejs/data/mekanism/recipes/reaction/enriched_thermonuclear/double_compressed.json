@@ -1,0 +1,21 @@
+{
+  "type": "mekanism:reaction",
+  "duration": 60,
+  "fluidInput": {
+    "amount": 9720,
+    "tag": "minecraft:lava"
+  },
+  "gasInput": {
+    "amount": 9720,
+    "gas": "mekanism_extras:molten_thermonuclear"
+  },
+  "itemInput": {
+    "ingredient": {
+      "item": "kubejs:double_compressed_enriched_radiance"
+    }
+  },
+  "itemOutput": {
+    "count": 1,
+    "item": "kubejs:double_compressed_enriched_thermonuclear"
+  }
+}

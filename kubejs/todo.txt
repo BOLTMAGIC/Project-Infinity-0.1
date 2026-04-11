@@ -23,6 +23,7 @@ Mods removed:
 -Chance Cube
 -The Aether
 -Avaritia Asgarddandelions
+-Quests Freeze Fix
 -----------------------------------------------------
 Mod INFO:
 -mods maybe getting removed:
@@ -92,7 +93,7 @@ Recipe changes and fixes:
 -fixed solar plasteel recipe
 -added a NBT remover item and recipe (thx to MiniMaxi)
 -code cleanup
--
+-added recipe for the spawner extractor in the entropy cradle (dont hate me)
 -----------------------------------------------------
 Mod changes and fixes:
 -masterful machinery TPS fix

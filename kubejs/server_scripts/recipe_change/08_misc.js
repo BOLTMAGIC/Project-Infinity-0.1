@@ -1914,15 +1914,15 @@ ServerEvents.recipes((event) => {
       '{record:{"#c":"ae2:i",id:"minecraft:blackstone"}}'
     ),
     [
-      'minecraft:blackstone',
-      'exdeorum:crushed_blackstone',
       'minecraft:magma_cream',
-      'minecraft:ancient_debris',
+      'minecraft:nether_star',
+      'minecraft:magma_cream',
+      'minecraft:blackstone',
       'ae2omnicells:quantum_omni_cell_component_256m',
-      'minecraft:ancient_debris',
-      'minecraft:magma_cream',
-      'exdeorum:crushed_blackstone',
       'minecraft:blackstone',
+      'minecraft:netherite_ingot',
+      'minecraft:netherite_ingot',
+      'minecraft:netherite_ingot',
     ]
   );
   //EnderIO Soul Vials

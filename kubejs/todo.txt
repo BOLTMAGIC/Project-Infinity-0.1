@@ -95,6 +95,7 @@ Recipe changes and fixes:
 -code cleanup
 -added recipe for the spawner extractor in the entropy cradle (dont hate me)
 -added texture for inf 3, inf 5 and inf 6 (thx to MiniMaxi)
+-mbtool config change
 -----------------------------------------------------
 Mod changes and fixes:
 -masterful machinery TPS fix

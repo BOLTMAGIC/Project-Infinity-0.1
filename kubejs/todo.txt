@@ -17,7 +17,7 @@ Mod added:
 -added logistic networks
 -removed Botany Pots and replaced it with Botany Pots FPS Fix from MiniMaxi
     -this will save a lot of FPS and TPS
--replaced Iron Furnaces Enhanced with the Original Iron Furnaces (he dev merged my code into his mod)
+-replaced Iron Furnaces Enhanced with the Original Iron Furnaces (the dev merged my code into his mod)
 -----------------------------------------------------
 Mods removed:
 -Chance Cube
@@ -94,6 +94,7 @@ Recipe changes and fixes:
 -added a NBT remover item and recipe (thx to MiniMaxi)
 -code cleanup
 -added recipe for the spawner extractor in the entropy cradle (dont hate me)
+-added texture for inf 3, inf 5 and inf 6 (thx to MiniMaxi)
 -----------------------------------------------------
 Mod changes and fixes:
 -masterful machinery TPS fix

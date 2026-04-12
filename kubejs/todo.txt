@@ -33,9 +33,11 @@ Recipe changes and fixes:
 -fixed Advancements for twilight forest
 -disabled spawns for THORNSHELL_CRAB
 -new recipe for enchanting_infuser
+-changed insanite ingot to blutonium ingot
 -----------------------------------------------------
 Mod changes and fixes:
 -fixed console spam for masterful machinery
+-GUI changed for masterful machinery
 /---------------------------
 known bugs:
 -polymorph (changing the output for mod conflicts) is not possible with tinkers crafting station

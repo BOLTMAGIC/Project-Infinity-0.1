@@ -112,7 +112,7 @@ MMEvents.createProcesses((event) => {
       chance: 0.33,
       ingredient: {
         type: 'mm:item',
-        item: 'bigreactors:insanite_ingot',
+        item: 'bigreactors:blutonium_ingot',
         count: 1,
       },
     })

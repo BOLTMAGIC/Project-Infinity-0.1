@@ -1695,7 +1695,7 @@ ServerEvents.recipes((event) => {
     'projecte:body_stone',
   ]);
   create3x3(event, 'projecte:gem_chestplate', [
-    'projecte:rm_helmet',
+    'projecte:rm_chestplate',
     'projecte:klein_star_omega',
     'projecte:evertide_amulet',
     'projecte:soul_stone',

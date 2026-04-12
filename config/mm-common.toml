@@ -14,6 +14,8 @@ parallelProcessingDefault = false
 #The max Parallel Recipes per controller. Default: 5
 #Range: 1 ~ 100
 maxParallelRecipes = 5
+#Show 'Max Parallel Processing' line in JEI structure view. Default: true
+showJeiMaxParallel = true
 
 #Preview features that are not yet stable or ready for use.
 [preview_features]

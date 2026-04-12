@@ -4,6 +4,7 @@ MMEvents.createStructures((event) => {
     .create('mm:essenceforge_tier1_structure')
     .controllerId('mm:essenceforge_controller')
     .name('EssenceForge Tier 1')
+    .maxParallelRecipes(3)
     .layout((a) => {
       a.layer(['AAAAA', 'ADDDA', 'ADDDA', 'ADDDA', 'AAAAA'])
         .layer([' HQH ', 'HHHHH', 'QHHHQ', 'HHHHH', ' HQH '])
@@ -51,6 +52,7 @@ MMEvents.createStructures((event) => {
     .create('mm:essenceforge_tier2_structure')
     .controllerId('mm:essenceforge_controller')
     .name('EssenceForge Tier 2')
+    .maxParallelRecipes(3)
     .layout((a) => {
       a.layer(['AAAAA', 'ADDDA', 'ADDDA', 'ADDDA', 'AAAAA'])
         .layer(['PHQHR', 'HHHHH', 'QHHHQ', 'HHHHH', 'SHQHT'])
@@ -110,6 +112,7 @@ MMEvents.createStructures((event) => {
     .create('mm:essenceforge_tier3_structure')
     .controllerId('mm:essenceforge_controller')
     .name('EssenceForge Tier 3')
+    .maxParallelRecipes(0)
     .layout((a) => {
       a.layer(['AAAAA', 'ADDDA', 'ADDDA', 'ADDDA', 'AAAAA'])
         .layer(['PHQHR', 'HHHHH', 'QHHHQ', 'HHHHH', 'SHQHT'])
@@ -180,6 +183,7 @@ MMEvents.createStructures((event) => {
     .create('mm:essenceforge_tier4_structure')
     .controllerId('mm:essenceforge_controller')
     .name('EssenceForge Tier 4')
+    .maxParallelRecipes(0)
     .layout((a) => {
       a.layer(['AAAAA', 'ADDDA', 'ADDDA', 'ADDDA', 'AAAAA'])
         .layer(['PHQHR', 'HHHHH', 'QHHHQ', 'HHHHH', 'SHQHT'])

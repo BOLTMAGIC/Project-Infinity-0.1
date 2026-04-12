@@ -1360,8 +1360,10 @@
 				"Disabled:"
 				"Villager Trades"
 				"Traveling Merchant"
+				"Advancements (except Twilight Forest for progression)"
 			]
 			id: "06CA3E88417FE311"
+			min_width: 350
 			rewards: [{
 				id: "653B351B18802681"
 				type: "xp"

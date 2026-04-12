@@ -471,6 +471,7 @@
 						"patchouli:book": "packagedauto:guide"
 					}
 				}
+				match_nbt: true
 				type: "item"
 			}]
 			title: "&ePackagedAuto – Introduction&r"

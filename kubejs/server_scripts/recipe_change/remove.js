@@ -508,17 +508,9 @@ const removeItemsbyID = [
   'avaritia:eternal_singularity',
   'botania:petal_apothecary/hydroangeas',
   'botania:petal_apothecary/pure_daisy',
-  'compactmachines:machine_tiny',
-  'compactmachines:machine_small',
-  'compactmachines:machine_normal',
   'compactmachines:machine_large',
   'compactmachines:machine_giant',
   'compactmachines:machine_maximum',
-  'compactmachines:personal_shrinking_device',
-  'compactmachines:wall',
-  'compactmachines:tunnels/energy',
-  'compactmachines:tunnels/fluid',
-  'compactmachines:tunnels/item',
   'pipez:item_pipe',
   'pipez:fluid_pipe',
   'pipez:energy_pipe',
@@ -533,8 +525,6 @@ const removeItemsbyID = [
   'logisticsnetworks:mekanism_chemical_upgrade',
   'enderio:soulbinding/enticing_crystal',
   'ifwootaddon:dissolution_chamber/laser_drill_upgrade',
-  'mythicbotany:mythicbotany_infusion/alfsteel_ingot',
-  'mythicbotany:mythicbotany_infusion/terrasteel_ingot',
   'bigreactors:crafting/yellorium_ingot_to_nugget',
   'mekanism:chargepad',
   'sfm:cable',
@@ -547,9 +537,9 @@ const removeItemsbyID = [
   'curvy_pipes:energy_s2m',
   'curvy_pipes:energy_m2l',
   'curvy_pipes:energy_l2h',
-  '',
-  '',
-  '',
+  'mysticalagradditions:essence/neutron_nugget',
+  'crazyae2addons:spawner_extractor_controller_alt16',
+  'enchantinginfuser:enchanting_infuser',
   '',
   '',
   '',
@@ -688,4 +678,5 @@ ServerEvents.loaded((event) => {
 
   event.server.gameRules.set('doTraderSpawning', false);
   event.server.persistentData.gameRules = true;
+  event.server.gameRules.set('announceAdvancements', false);
 });

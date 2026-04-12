@@ -1,5 +1,5 @@
-nuke_all = true
+nuke_all = false
 nuke_recipes = true
-nuke_mods = []
+nuke_mods = ["cataclysm", "minecraft", "lootr", "tconstruct", "ironfurnaces", "born_in_chaos_v1", "mekanism", "integrateddynamics", "skyblockbuilder", "avaritia", "mutantmonsters", "woot_revived", "bygonenether", "incendium", "obtrophies", "dimensionalpocketsii", "integratedtunnels", "endlessbiomes", "integratedscripting", "integratedterminals", "advancednetherite", "darkutils", "bosses_of_mass_destruction", "mekanismtools", "enderio", "naturescompass", "mekanismgenerators", "integratedcrafting", "explorerscompass", "botanypots", "actuallyadditions", "ae2", "apotheosis", "armorplus", "block_factorys_bosses", "botania", "cabletiers", "dimstorage", "ender_dragon_loot", "exdeorum", "extrastorage", "laserio", "mythicbotany", "nuclearcraft", "occultism", "pneumaticcraft", "projecte", "projectexpansion", "refinedstorage", "trashcans"]
 whitelist_keywords = ["bumblezone:root"]
 

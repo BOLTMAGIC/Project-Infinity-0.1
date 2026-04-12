@@ -1967,4 +1967,15 @@ ServerEvents.recipes((event) => {
     ),
     ['kubejs:filled_zombie_soul_vial']
   );
+  create3x3(event, 'enchantinginfuser:enchanting_infuser', [
+    'allthemodium:unobtainium_allthemodium_alloy_ingot',
+    'minecraft:book',
+    'allthemodium:unobtainium_allthemodium_alloy_ingot',
+    'minecraft:amethyst_shard',
+    'minecraft:crying_obsidian',
+    'minecraft:amethyst_shard',
+    'minecraft:crying_obsidian',
+    'minecraft:enchanting_table',
+    'minecraft:crying_obsidian',
+  ]);
 });

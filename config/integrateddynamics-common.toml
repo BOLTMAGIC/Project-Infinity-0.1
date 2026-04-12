@@ -110,6 +110,8 @@
 		partMinimumUpdateIntervals = []
 		#The minimum update interval to enforce for all parts, in number of ticks.
 		partsMinimumUpdateInterval = 1
+		#The base energy usage for the delayer.
+		delayerBaseConsumption = 2
 
 [machine]
 

@@ -2795,11 +2795,6 @@
 		}
 		{
 			dependencies: ["41E5E6BF7CB5063F"]
-			description: [
-				"You cant see this Item in JEI. "
-				"You can look at it while pressing U on a marble block from enviromental materials"
-				"{image:kubejs:block/screen/marble_seed width:175 height:100 align:center fit:true}"
-			]
 			id: "3C67C766F4225C72"
 			rewards: [{
 				id: "0D15BEA9512A90CA"

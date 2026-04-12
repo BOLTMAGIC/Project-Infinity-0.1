@@ -7,101 +7,35 @@ add tooltips for the multiblocks. what they do and how to use them. maybe in the
 multibuilder tool tooltip
 gateway change. players need to kill not masher
 -----------------------------------------------------
-changelog v. 0.0.48.0
+changelog v. 0.0.48.1
 -updated some mods
 -----------------------------------------------------
 Mod added:
--Recipe Advancements Nuker
--Spark
--Measurements
--added logistic networks
--removed Botany Pots and replaced it with Botany Pots FPS Fix from MiniMaxi
-    -this will save a lot of FPS and TPS
--replaced Iron Furnaces Enhanced with the Original Iron Furnaces (the dev merged my code into his mod)
+-
 -----------------------------------------------------
 Mods removed:
--Chance Cube
--The Aether
--Avaritia Asgarddandelions
--Quests Freeze Fix
+-Avaritia Asgarddandelions now really! 
 -----------------------------------------------------
 Mod INFO:
 -mods maybe getting removed:
     -Occultism
     -Chemlib and Alchemistry
 -mods getting removed next update:
-    -Pipez DONT USE THEM ANYMORE!
+    -Pipez
     -AE Additions
     -AE2 Things
 
 -----------------------------------------------------
 Recipe changes and fixes:
--REMOVED THE AETHER!!! changed every recipe that got a aether item to another item
-
--removed compact machine biggest 3 room recipes because they crash servers and clients
--removed recipe for projectexpansion transmutation_interface
--added tier 4 essenceforge (thx to KYO297)
--fixed prediction chamber layout and nbt (thx to MiniMaxi and grinchfan22)
--fixed creative energy cube recipe (thx to grinchfan22)
--changed some quest things
--changed the HNN models for Twillight Forest bosses to need 2 kills not 6
--changed Enderman datamodel. you can get enderman heads from enderio and tinkers (thx to j00nyyyy)
--changed chaos shard recipe from ult prediction to chaos guardian prediction (thx to potatoman999)
--added botania gaia drops to the loot fab plant (thx to MiniMaxi)
--fixed canola flax and rice seeds in botany pots (thx to grinchfan22)
--fixed rechiseled to stonecutter code (thx to MiniMaxi)
--fixed recipe viewer for the ifwootaddon:laser_drill_upgrade (thx to MiniMaxi)
--changed collector recipe for MK2 uses inf1 and MK3 uses inf8 (thx to Color)
--changed loot fab multiblock recipes to not use the 1 item you put into the input
--disabled tinker swasher drops from mobs (thx to Desdaa)
--changed woot config (thank you a lot Desdaa!!!)
--added a max size mekanism fission reactor (thx to MiniMaxi)
--added recipe to change botania rings (thx to MiniMaxi)
--added a recipe for 9x glass into compressed glass (thx to kylesexton)
--changed the ME Requester to have 16 slots (not 5) (thx to vmohammad)
--Extended AE plus Accelerators and AE2Additions Crafting Storages shift click the air gives back ingredients (thx to MiniMaxi)
--Added Eterna values for Avaritia blocks (thx to MiniMaxi)
--add Marble and Basalt seeds to JEI (thx to MiniMaxi)
--Removed Hammerlib Gears from everywhere (thx to MiniMaxi)
--Added bloodmagic:life_essence_fluid to the Pinky Crimson Iron Ingot recipe (thx to MiniMaxi)
--Removed extendedcrafting:advanced_table from JEI blacklist (thx to MiniMaxi)
--Removed NBT from Jetpack crafts (thx to MiniMaxi)
--Add decompression recipes for Double and Triple Compressed Iron Block (thx to MiniMaxi)
--Change craft of Conduit Probe to not use the very expensive Energy Conduit (thx to MiniMaxi)
--Added reversal crafts for floating flower for Botania and MythicBotany (thx to MiniMaxi)
--Removed Mana Infuser + machines + crafts (thx to MiniMaxi)
--Removed Chaos machines from Draconic Additions and also Modules that cannot be used (thx to MiniMaxi)
--Add Draconium Dust recipes from Draconium Ingot in the Crusher, Manufactory and Pulverizer (thx to MiniMaxi)
--Add 3 Nuclearcraft ingots crafts to Mekanism Combiner (thx to MiniMaxi)
--changed recipes for logistic networks, curvy pipes, SFM (dont hate me)
--changed recipe for Gem Armor (ProjectE) (thx to Lightreaper45)
--changed loot pool in dynamic dungeons for mekanism polonium, plutonium and antimatter pellets
--changed the chance for the ghast tear to polonium from chemlib in a dissolver from 100% to 5%
--removed EMC from Infinity 11 and 12 (thx to KYO297)
--added a recipe from 344064 double compressed dust blocks with a 13.3% chance to get 4 hellforged parts in a compactor multiblock (thats 27.869.184 blocks of coal.)
--improved loading times (thank you a lot radimous)
--added Pinky Tier 2 and some recipes
--changed soulstone, shape_card_void, gadget_destruction and soul_heart_canister recipe
--changed recipe for the ender dragon armor
--changed recipe for creative tank
--loot fabrication plant recipe changed. it will use single item!
--fixed dupe (thx to tekaro_)
--added recipe for quantum infusion in the fire attuned multiblock
--changed chaos shard recipe (changed ultimate heart to insanite_ingot and from 20 to 33% to get consumed) (thx to jean._. and DoctorBlaze) (hate jean._. not me)
--added recipe for 5 of 11 ME inf Cells
--added some filled soul vial dummy items
--fixed solar plasteel recipe
--added a NBT remover item and recipe (thx to MiniMaxi)
--code cleanup
--added recipe for the spawner extractor in the entropy cradle (dont hate me)
--added texture for inf 3, inf 5 and inf 6 (thx to MiniMaxi)
--mbtool config change
+-removed a recipe from essence to neutronium nugget
+-fixed lexia botania and blood magic book error
+-Compact machines first 3 tiers are craftable again
+-fixed Advancements for twilight forest
+-disabled spawns for THORNSHELL_CRAB
+-new recipe for enchanting_infuser
 -----------------------------------------------------
 Mod changes and fixes:
--masterful machinery TPS fix
--small botanical machinery extra fixes and new sparks 
--Voidminers Preview fixed for miners and solar panels
--Solarpanels now can transfer more than 2.1 GFE/t
+-fixed console spam for masterful machinery
 /---------------------------
 known bugs:
 -polymorph (changing the output for mod conflicts) is not possible with tinkers crafting station

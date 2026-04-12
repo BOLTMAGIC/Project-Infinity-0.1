@@ -57,7 +57,6 @@
 		{ count: 4, item: "mekanism:ingot_refined_obsidian", random_bonus: 4, weight: 5.0f }
 		{ item: "minecraft:beacon", weight: 2.0f }
 		{ item: "minecraft:nether_star", random_bonus: 2, weight: 2.0f }
-		{ item: "tempad:tempad" }
 		{ item: "sophisticatedbackpacks:stack_upgrade_tier_4" }
 		{ item: "pipez:ultimate_upgrade" }
 		{

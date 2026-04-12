@@ -10,9 +10,6 @@ gateway change. players need to kill not masher
 changelog v. 0.0.48.1
 -updated some mods
 -----------------------------------------------------
-Mod added:
--
------------------------------------------------------
 Mods removed:
 -Avaritia Asgarddandelions now really! 
 -----------------------------------------------------
@@ -20,6 +17,7 @@ Mod INFO:
 -mods maybe getting removed:
     -Occultism
     -Chemlib and Alchemistry
+    -Extreme/ Big Reactors
 -mods getting removed next update:
     -Pipez
     -AE Additions
@@ -34,6 +32,12 @@ Recipe changes and fixes:
 -disabled spawns for THORNSHELL_CRAB
 -new recipe for enchanting_infuser
 -changed insanite ingot to blutonium ingot
+-fixed Advancement Crash
+-fixed gem armor
+-changed insanite ingot to blutonium ingot
+-swapped  Essenceforge T2 an T3 recipes
+    -t1 and t2 can do 3 parallel processing
+    -t3 and t4 0 parallel processing
 -----------------------------------------------------
 Mod changes and fixes:
 -fixed console spam for masterful machinery

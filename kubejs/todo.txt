@@ -8,6 +8,8 @@ multibuilder tool tooltip
 gateway change. players need to kill not masher
 ----------
 changelog v. 0.0.48.2
+-UPDATED FORGE TO 47.4.20!!!!!!!!!!!!!!!!!!!!!!!!!!
+
 -updated some mods
 -updated Blackout AE2
 ----------

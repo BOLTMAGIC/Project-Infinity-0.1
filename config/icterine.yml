@@ -1,13 +1,9 @@
-# Report issues on Github ${issue_tracker}
-# Discuss, get help or report issues on Discord ${discord}
+# Report issues on Github https://github.com/Mephodio/Icterine/issues
+# Discuss, get help or report issues on Discord https://discord.gg/2SpfwvM7dm
 
 # Enables debug logs
 # Will worsen your performance, please do not enable if you don't need it!
 debug_mode: false
-
-# Makes advancement checks run less often
-# Disable if you have issues with advancements not processing fast enough
-enable_skip_ticks: true
 
 # Cancels advancement check when stack becomes empty (for example, when player throws out the whole stack).
 # Injects into InventoryChangeTrigger.

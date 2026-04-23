@@ -121,10 +121,10 @@ ServerEvents.recipes((event) => {
       energy_per_tick: 500,
       gadget: true,
       consumables: [
-        { item: 'extendedcrafting:nether_star_block', count: 64, computation: 469 },
-        { item: 'extendedcrafting:nether_star_block', count: 64, computation: 469 },
-        { item: 'extendedcrafting:nether_star_block', count: 64, computation: 469 },
         { item: 'botanicalextramachinery:aureate_ingot', count: 32, computation: 531 },
+        { item: 'extendedcrafting:nether_star_block', count: 64, computation: 469 },
+        { item: 'extendedcrafting:nether_star_block', count: 64, computation: 469 },
+        { item: 'extendedcrafting:nether_star_block', count: 64, computation: 469 },
         { item: 'botanicalextramachinery:aureate_ingot', count: 32, computation: 531 },
         { item: 'extendedcrafting:nether_star_block', count: 64, computation: 469 },
         { item: 'extendedcrafting:nether_star_block', count: 64, computation: 469 },

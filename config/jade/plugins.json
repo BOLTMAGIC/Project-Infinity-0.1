@@ -208,11 +208,6 @@
   "jadeaddons.lootr": {
     "info": true
   },
-  "shetiphiancore": {
-    "hud.rgb16": true,
-    "hud": true,
-    "hud.redstone": true
-  },
   "mysticalagradditions": {
     "infused_farmland": true
   },

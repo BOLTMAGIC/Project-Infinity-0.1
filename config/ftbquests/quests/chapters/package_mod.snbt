@@ -23,52 +23,6 @@
 				type: "item"
 			}]
 			title: "&eAdvanced Crafting&r"
-			x: 0.5d
-			y: 6.5d
-		}
-		{
-			dependencies: ["0AFFE685B5B34A56"]
-			description: [
-				"&eWhat Is Basic Crafting?&r"
-				""
-				"&eBasic Crafting&r is a simple crafting recipe type used to automate recipes craftable in a &eBasic Crafting Table&r."
-				""
-				"It is designed as a lightweight alternative to standard crafting systems."
-				""
-				"&eHow It Works&r"
-				""
-				"• Uses the &eBasic Package Crafter&r"
-				"• Supports recipes from the &eBasic Crafting Table&r"
-				"• Crafted items are &eejected&r into adjacent inventories"
-				""
-				"The Basic Package Crafter &crequires power&r to operate."
-				""
-				"&eUse Cases&r"
-				""
-				"• Automating simple crafting recipes"
-				"• Early- to mid-game automation"
-				"• Lightweight PackagedAuto setups"
-				"• Compact crafting systems"
-				""
-				"&eWhy Use Basic Crafting?&r"
-				""
-				"• Simple and easy to set up"
-				"• Lower complexity than full crafting systems"
-				"• Works seamlessly with &ePackagedAuto&r"
-				"• Integrates cleanly with &3AE2&r"
-			]
-			id: "76E0FA2416CF0B39"
-			rewards: [{
-				id: "567C7632CE1A95C0"
-				item: "kubejs:apotheotic_coin"
-				type: "item"
-			}]
-			tasks: [{
-				id: "2CAF5AB3081CBC3D"
-				item: "packagedexcrafting:basic_crafter"
-				type: "item"
-			}]
-			title: "&eBasic Crafting&r"
 			x: 0.0d
 			y: 5.5d
 		}
@@ -125,8 +79,8 @@
 				}
 			]
 			title: "&eCombination Crafting&r"
-			x: 3.0d
-			y: 9.5d
+			x: 2.5d
+			y: 8.5d
 		}
 		{
 			dependencies: ["71222E3AF49A8143"]
@@ -314,8 +268,8 @@
 				type: "item"
 			}]
 			title: "&eFlux Crafting&r"
-			x: 5.0d
-			y: 9.5d
+			x: 4.5d
+			y: 8.5d
 		}
 		{
 			dependencies: ["54832AACF9BC8B54"]
@@ -374,8 +328,8 @@
 				type: "item"
 			}]
 			title: "&eElite Crafting&r"
-			x: 1.0d
-			y: 7.5d
+			x: 0.5d
+			y: 6.5d
 		}
 		{
 			dependencies: ["7167023C7FD28CF0"]
@@ -657,8 +611,8 @@
 				type: "item"
 			}]
 			title: "&eUltimate Crafting&r"
-			x: 1.5d
-			y: 8.5d
+			x: 1.0d
+			y: 7.5d
 		}
 		{
 			dependencies: ["1FD6976F1F2761E5"]
@@ -743,8 +697,8 @@
 				type: "item"
 			}]
 			title: "&eEnder Crafting&r"
-			x: 4.0d
-			y: 9.5d
+			x: 3.5d
+			y: 8.5d
 		}
 		{
 			dependencies: ["0AFFE685B5B34A56"]
@@ -760,8 +714,8 @@
 				type: "item"
 			}]
 			title: "&eEpic Crafting&r"
-			x: 2.0d
-			y: 9.5d
+			x: 1.5d
+			y: 8.5d
 		}
 		{
 			dependencies: ["1DA71A2A36736336"]

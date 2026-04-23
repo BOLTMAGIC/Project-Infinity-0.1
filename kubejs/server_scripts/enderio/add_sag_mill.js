@@ -10,13 +10,13 @@ ServerEvents.recipes((event) => {
   sag_milling(event, 'compressium:gravel_3', ['compressium:sand_3', 2]);
   sag_milling(event, 'minecraft:sand', ['exdeorum:dust', 2]);
   sag_milling(event, 'compressium:netherrack_1', [
-    'compressium:crushed_netherrack_1',
+    'exdeorum:compressed_crushed_netherrack',
     2,
   ]);
   sag_milling(
     event,
     'compressium:endstone_1',
-    ['compressium:crushed_end_stone_1', 2],
+    ['exdeorum:compressed_crushed_end_stone', 2],
     2
   );
   sag_milling(event, 'kubejs:blaze_gold_ingot', ['kubejs:blaze_gold_dust', 1]);

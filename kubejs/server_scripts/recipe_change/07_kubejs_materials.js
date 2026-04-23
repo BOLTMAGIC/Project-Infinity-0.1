@@ -287,6 +287,6 @@ ServerEvents.recipes((event) => {
     shapeless(event, '9x ' + material.mod + ':enriched_' + material.id, ['kubejs:compressed_enriched_' + material.id,]);
 
     create3x3same(event, 'kubejs:double_compressed_enriched_' + material.id, ['kubejs:compressed_enriched_' + material.id,]);    
-    shapeless(event, 'kubejs:compressed_enriched_' + material.id, ['kubejs:double_compressed_enriched_' + material.id,]);
+    shapeless(event, '9x kubejs:compressed_enriched_' + material.id, ['kubejs:double_compressed_enriched_' + material.id,]);
   });
 });

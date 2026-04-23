@@ -283,6 +283,10 @@
     {
       "item": "avaritia:singularity{Id:\"avaritia:electrum\"}",
       "emc": 0
+    },
+    {
+      "item": "mythicbotany:wither_aconite",
+      "emc": 5000000001
     }
   ]
 }

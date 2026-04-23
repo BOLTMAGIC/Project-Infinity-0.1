@@ -220,7 +220,7 @@ MMEvents.createProcesses((event) => {
       ingredient: {
         type: 'mm:fluid',
         fluid: 'ifeu:liquid_sculk_matter',
-        amount: 1000,
+        amount: 10000,
       },
     });
 

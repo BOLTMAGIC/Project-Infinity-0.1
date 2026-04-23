@@ -13,8 +13,6 @@ LootJS.modifiers((event) => {
 LootJS.modifiers((event) => {
   event
     .addEntityLootModifier('allthemodium:piglich')
-    .randomChance(0.125)
-    .addLoot('allthemodium:piglich_heart')
     .removeLoot([
       'allthemodium:allthemodium_helmet',
       'allthemodium:allthemodium_chestplate',
@@ -22,7 +20,9 @@ LootJS.modifiers((event) => {
       'allthemodium:allthemodium_boots',
       'allthemodium:allthemodium_carrot',
       'allthemodium:allthemodium_apple',
-    ]);
+    ])
+    .randomChance(0.125)
+    .addLoot('allthemodium:piglich_heart');
 });
 
 LootJS.modifiers((event) => {

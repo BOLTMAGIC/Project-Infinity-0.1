@@ -33,6 +33,7 @@
 					}
 				}
 			}
+			weight: 0.75f
 		}
 		{
 			item: {
@@ -45,6 +46,7 @@
 					}
 				}
 			}
+			weight: 0.75f
 		}
 	]
 	title: "Legendary Reward"

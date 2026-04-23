@@ -61,6 +61,16 @@ ServerEvents.recipes((event) => {
     },
   });
 
+  //spirited_crystal_block
+  event.custom({
+    type: 'powah:energizing',
+    ingredients: [{ tag: '#forge:storage_blocks/uranium' }],
+    energy: 4500000,
+    result: {
+      item: 'powah:uraninite_block',
+    },
+  });
+
   //nitro_crystal_block
   event.custom({
     type: 'powah:energizing',
@@ -82,9 +92,7 @@ ServerEvents.recipes((event) => {
   //full_battery_nitro Dummy
   event.custom({
     type: 'powah:energizing',
-    ingredients: [
-      { item: 'kubejs:empty_battery_nitro' },
-    ],
+    ingredients: [{ item: 'kubejs:empty_battery_nitro' }],
     energy: 2000000000,
     result: {
       item: 'kubejs:full_battery_nitro',

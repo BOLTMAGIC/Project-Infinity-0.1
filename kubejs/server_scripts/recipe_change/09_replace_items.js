@@ -301,6 +301,11 @@ ServerEvents.recipes((event) => {
     'minecraft:piston',
     'allthemodium:unobtainium_gear'
   );
+  event.replaceInput(
+    { output: 'mekanism:atomic_disassembler' },
+    'mekanism:alloy_atomic',
+    'evolvedmekanism:alloy_singular'
+  );
 
   //Powah
   event.replaceOutput(
@@ -353,6 +358,26 @@ ServerEvents.recipes((event) => {
   );
   event.replaceInput(
     { output: 'armorplus:ender_dragon_boots' },
+    'armorplus:infused_lava_crystal',
+    'kubejs:infinity_4'
+  );
+  event.replaceInput(
+    { output: 'armorplus:slayer_helmet' },
+    'armorplus:infused_lava_crystal',
+    'kubejs:infinity_4'
+  );
+  event.replaceInput(
+    { output: 'armorplus:slayer_chestplate' },
+    'armorplus:infused_lava_crystal',
+    'kubejs:infinity_4'
+  );
+  event.replaceInput(
+    { output: 'armorplus:slayer_leggings' },
+    'armorplus:infused_lava_crystal',
+    'kubejs:infinity_4'
+  );
+  event.replaceInput(
+    { output: 'armorplus:slayer_boots' },
     'armorplus:infused_lava_crystal',
     'kubejs:infinity_4'
   );

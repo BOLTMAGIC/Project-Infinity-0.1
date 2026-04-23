@@ -66,31 +66,6 @@ ServerEvents.recipes((event) => {
     tier: 4,
   });
 
-  //infused_lava_crystal
-  event.custom({
-    type: 'avaritia:extreme_smithing',
-    addition: [
-      {
-        item: 'armorplus:infused_frost_crystal',
-      },
-      {
-        item: 'armorplus:infused_lava_crystal',
-      },
-      {
-        item: 'armorplus:infused_frost_crystal',
-      },
-    ],
-    base: {
-      item: 'minecraft:lava_bucket',
-    },
-    result: {
-      item: '2x armorplus:infused_frost_lava_crystal',
-    },
-    template: {
-      item: 'armorplus:infused_lava_crystal',
-    },
-  });
-
   //densest_neutron_collector
   event.custom({
     type: 'avaritia:shaped_table',

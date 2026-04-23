@@ -17,13 +17,21 @@
 				type: "item"
 			}]
 			shape: "hexagon"
-			tasks: [{
-				advancement: "minecraft:nether/find_fortress"
-				criterion: ""
-				id: "2E0D15CFA9367D96"
-				title: "Find a &4Fortress"
-				type: "advancement"
-			}]
+			tasks: [
+				{
+					advancement: "minecraft:nether/find_fortress"
+					criterion: ""
+					id: "2E0D15CFA9367D96"
+					title: "Find a &4Fortress"
+					type: "advancement"
+				}
+				{
+					id: "4DCEFCF249EBFD28"
+					structure: "betterfortresses:fortress"
+					title: "Find a &4Fortress"
+					type: "structure"
+				}
+			]
 			title: "Find a fortress"
 			x: 1.0d
 			y: -1.5d
@@ -37,11 +45,11 @@
 			}]
 			shape: "hexagon"
 			tasks: [{
-				advancement: "minecraft:nether/find_bastion"
-				criterion: ""
-				id: "382F43C90FF509A4"
+				icon: "minecraft:wheat"
+				id: "4F726CFA70BD7891"
+				structure: "minecraft:bastion_remnant"
 				title: "Discover a Bastion Remenant"
-				type: "advancement"
+				type: "structure"
 			}]
 			title: "Discover a Bastion Remnant"
 			x: -1.0d

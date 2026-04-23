@@ -29,7 +29,6 @@ jamd:end
 jamd:mining
 jamd:nether
 javd:void
-lionfishapi:original_source_marker
 minecraft:badlands
 minecraft:bamboo_jungle
 minecraft:basalt_deltas

@@ -3,3 +3,18 @@ dropNodeItem = true
 #Enable debug overlays and diagnostic logging.
 debugMode = false
 
+[backoff]
+	#Maximum backoff ticks for item, fluid, chemical, and source transfers.
+	#Range: 1 ~ 200
+	backoffMaxTicks = 40
+	#Enable backoff for item transfers
+	backoffItem = true
+	#Enable backoff for fluid transfers
+	backoffFluid = true
+	#Enable backoff for energy transfers
+	backoffEnergy = true
+	#Enable backoff for chemical transfers
+	backoffChemical = true
+	#Enable backoff for source transfers
+	backoffSource = true
+

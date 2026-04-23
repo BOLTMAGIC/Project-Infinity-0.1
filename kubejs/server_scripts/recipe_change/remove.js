@@ -210,6 +210,8 @@ const removeItemsbyOutput = [
   'draconicadditions:item_unstable_chaos',
   'packagedexcrafting:basic_crafter',
   'cyclic:glass_connected',
+  'crazyae2addons:entity_ticker',
+  
 ];
 
 const removeItemsbyID = [
@@ -544,6 +546,7 @@ const removeItemsbyID = [
   'projecte:gem_chestplate',
   'projecte:gem_leggings',
   'projecte:gem_boots',
+  'industrialforegoing:simulated_hydroponic_bed',
   '',
   '',
   '',
@@ -568,8 +571,6 @@ const removeItemsbyID = [
   '',
   '',
   '',
-  '',
-  
 ];
 
 const removeItemsbyType = [
@@ -591,6 +592,7 @@ const removeItemsbyType = [
   'packagedauto:package_processing',
   'packagedauto:package_recipe',
   'packagedauto:packaging',
+  'mekanism:bin_insert',
 ];
 
 //Function to remove the items above

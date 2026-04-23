@@ -7,26 +7,26 @@ ServerEvents.recipes((event) => {
   ]);
 
   create3x3(event, 'entangled:block', [
-    'minecraft:ender_pearl',
+    'allthemodium:allthemodium_ingot',
     'minecraft:obsidian',
     'minecraft:ender_pearl',
     'minecraft:obsidian',
-    'dimensionalpocketsii:nether_star_shard',
+    'minecraft:nether_star',
     'minecraft:obsidian',
     'minecraft:ender_pearl',
     'minecraft:obsidian',
-    'minecraft:ender_pearl',
+    'allthemodium:allthemodium_ingot',
   ]);
 
   create3x3(event, 'entangled:block', [
     'minecraft:obsidian',
-    'minecraft:ender_pearl',
+    'allthemodium:allthemodium_ingot',
     'minecraft:obsidian',
     'minecraft:ender_pearl',
-    'dimensionalpocketsii:nether_star_shard',
+    'minecraft:nether_star',
     'minecraft:ender_pearl',
     'minecraft:obsidian',
-    'minecraft:ender_pearl',
+    'allthemodium:allthemodium_ingot',
     'minecraft:obsidian',
   ]);
 

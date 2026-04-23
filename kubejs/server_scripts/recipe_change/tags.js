@@ -138,6 +138,8 @@ ServerEvents.tags('item', (event) => {
     'exdeorum:warped_sieve',
     'exdeorum:skyroot_sieve',
   ]);
+
+  event.add('curios:curio', 'compactmachines:personal_shrinking_device');
 });
 
 

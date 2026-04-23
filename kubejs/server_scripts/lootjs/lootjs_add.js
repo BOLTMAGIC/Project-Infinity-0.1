@@ -49,12 +49,7 @@ LootJS.modifiers((event) => {
   event
     .addLootTypeModifier(LootType.ENTITY)
     .anyDimension("minecraft:overworld")
-    .randomChance(0.5)
-    .randomChanceWithEnchantment(
-      'minecraft:looting',
-      [1.5, 3.0, 4.5, 6.0, 7.5, 9.0, 10.5, 12.0, 13.5, 15.0]
-    )
-    .anyStructure(['bosses_of_mass_destruction:lich_tower'], false)
+    .randomChance(0.01)
     .addLoot('bosses_of_mass_destruction:soul_star');
 });
 

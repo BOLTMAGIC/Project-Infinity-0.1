@@ -605,29 +605,15 @@
 		{
 			dependency_requirement: "all_started"
 			description: [
-				"&6Pipez&r mod adds &o&bsimple&r and &o&bhighly configurable&r pipes."
+				"&aCurvy Pipes&r lets you move &eitems&r, &bfluids&r, and &denergy&r through your base in a smooth and elegant way."
 				""
-				"Pipe Types:"
-				"• &eItem&r Pipes"
-				"• &9Fluid&r Pipes"
-				"• &cEnergy&r Pipes"
-				"• &3Gas&r Pipes (Mekanism)"
-				"• &8Universal&r Pipes (All &o&b4&r Pipes in one!)"
+				"Instead of relying on plain straight pipes, you can create clean transport lines that curve naturally around walls and corners."
 				""
-				"Pipes &o&bdon't transfer anything&r if they are not set to &nextract&r."
-				"You can &eSneak-click&r onto the end of a connected pipe with a &2Wrench&r to set it to &o&bextract&r."
+				"Its curved design keeps your logistics clean, organized, and &avery TPS-friendly&r, making it an excellent choice for larger worlds and busy factories."
 				""
-				"Click the &nextracting&r part of the pipe to &o&bchange modes&r, add &3filters&r or add &aupgrades&r."
+				"This makes your factory or storage network look much neater while still keeping everything efficient and easy to organize."
 				""
-				"Pipes can be &cdisconnected&r/&9reconnected&r by &eSneak-clicking&r with a &2Wrench&r."
-				""
-				"By default pipes are &o&brelatively slow&r. The speed can &nonly&r be increased by &o&badding an upgrade&r."
-				"Higher tiers of upgrades mean a higher transfer rate."
-				""
-				"&3Filters&r can be used with &aitem&r pipes, &9fluid&r pipes and &7gas&r pipes. To add a specific item, just &eClick&r it on the slot in the filter &o&bGUI&r. Alternatively you can type the item &o&bID&r in the text field next to it."
-				""
-				"&4Pipez is not a TPS friendly option!&r"
-				"&2Use Curvy Pipes.&r"
+				"&7Use filters and pipe settings to control what travels where, and build a logistics system that is both functional and stylish.&r"
 			]
 			id: "4D3274AE190EEA88"
 			min_width: 420
@@ -639,87 +625,23 @@
 			size: 2.0d
 			tasks: [
 				{
-					id: "6A0219D60B532D3D"
-					item: {
-						Count: 1
-						id: "itemfilters:or"
-						tag: {
-							items: [
-								{
-									Count: 1b
-									id: "pipez:item_pipe"
-								}
-								{
-									Count: 1b
-									id: "pipez:fluid_pipe"
-								}
-								{
-									Count: 1b
-									id: "pipez:energy_pipe"
-								}
-								{
-									Count: 1b
-									id: "pipez:gas_pipe"
-								}
-								{
-									Count: 1b
-									id: "pipez:universal_pipe"
-								}
-							]
-						}
-					}
-					title: "Pipes"
+					id: "18B3B9F82A282A63"
+					item: "curvy_pipes:redstone_cable"
 					type: "item"
 				}
 				{
-					id: "506AD15B9CF8A11D"
-					item: {
-						Count: 1
-						id: "itemfilters:or"
-						tag: {
-							items: [
-								{
-									Count: 1b
-									id: "pipez:basic_upgrade"
-								}
-								{
-									Count: 1b
-									id: "pipez:improved_upgrade"
-								}
-								{
-									Count: 1b
-									id: "pipez:advanced_upgrade"
-								}
-								{
-									Count: 1b
-									id: "pipez:ultimate_upgrade"
-								}
-								{
-									Count: 1b
-									id: "pipez:infinity_upgrade"
-								}
-							]
-						}
-					}
-					title: "Pipe Upgrades"
+					id: "2017335BC5001590"
+					item: "curvy_pipes:small_item_pipe"
 					type: "item"
 				}
 				{
-					id: "338BC8E1EC3F370E"
-					item: {
-						Count: 1
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
-						id: "pipez:wrench"
-					}
+					id: "5505737E4DE36F45"
+					item: "curvy_pipes:small_fluid_pipe"
 					type: "item"
 				}
 				{
-					id: "65E0F0F244C7800E"
-					item: "pipez:filter_destination_tool"
+					id: "6774107743FBAF40"
+					item: "curvy_pipes:small_energy_pipe"
 					type: "item"
 				}
 			]

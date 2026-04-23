@@ -2136,7 +2136,7 @@
 			optional: true
 			rewards: [{
 				auto: "enabled"
-				count: 10
+				count: 1000
 				id: "5B55A24FA744CC6D"
 				item: "kubejs:ascended_coin"
 				type: "item"
@@ -2162,6 +2162,7 @@
 			]
 			id: "432D9DC5978653F2"
 			optional: true
+			repeat_cooldown: 300
 			rewards: [{
 				auto: "enabled"
 				count: 2

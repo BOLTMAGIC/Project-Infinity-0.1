@@ -52,7 +52,9 @@
 				""
 				"The quests in this quest line should be enough but you can always consult the GuideMe mod. Just put your mouse over an &3AE2&r item and press G to open a comphrensive guide. The default keybind is G but you can change it in the settings."
 				""
-				"First you'll need the &7Meteor Compass&r to find the meteors. Craft a charger, plug it to your energy generation solution and put a normal compas in it !"
+				"First you'll need the &7Meteor Compass&r to find the meteors. Craft a charger, plug it to your energy generation solution and put a normal compass in it !"
+				""
+				"&7You need to enter the &bHunting Dimension &7or the &dLost Cities Dimension &7to find the &6Meteors&7.&r"
 				""
 				"&2This quest was made by MiniMaxi!&r"
 				"&1Thank you a lot!&r"
@@ -202,8 +204,6 @@
 		{
 			dependencies: ["08B3905C53BC441D"]
 			description: [
-				"Now that you have the &7Meteor Compass&r, go find the Meteors in the Hunting or the Lost Cities dimensions."
-				""
 				"Break the &5Mysterious Cube&r inside a Meteor to find the &8Inscriber Preses&r. (One &5Mysterious Cube&r will drop all of the Presses)"
 				""
 				"The Meteors can be buried so you'll have to dig to find them !"
@@ -1757,22 +1757,13 @@
 				"21F6DAE21CB20EF6"
 			]
 			description: [
-				"Each &3CPU&r can only do 1 craft at a time."
+				"&bAdvancedAE &7– &dQuantum Computer&r  "
+				"&7A powerful multiblock for &badvanced calculations&7 and &bautomation logic&7.  "
+				"&7Used for &dcomplex processing&7 beyond normal AE2 systems."
 				""
-				"The amount of subcrafts do not matter,crafting a stone hoe or crafting a ultimate quantum entanglonaquadh space station will use the entire &3CPU&r so if you want to do multiple crafts at the same time, make more &3CPUs&r"
-				""
-				"A &3CPU Multiblock&r at it's smallest is :"
-				"1 Crafting Storage"
-				""
-				"At it's biggest it can be infinite and comprised of :"
-				"-Crafting Storages"
-				"-Co-Processing Units"
-				"-Crafting Units"
-				""
-				"More Crafting Storages = Bigger crafts"
-				"More Co-Processing Units = Faster crafts"
-				""
-				"Crafting Units are just filler blocks because the &3CPU Multiblock&r must be a cuboid."
+				"&bExtendedAE &7– &dAssembler Matrix&r  "
+				"&7An upgraded &bautocrafting system&7 with &dfaster performance&7.  "
+				"&7Allows &bparallel crafting&7 and &dcompact, efficient setups&7."
 			]
 			id: "6EE4B174356FB915"
 			optional: true
@@ -1786,7 +1777,7 @@
 				title: "CPU Multiblock"
 				type: "checkmark"
 			}]
-			title: "&3CPU Multiblock&r"
+			title: "&6AE2 Addons &7– &bAdvanced Systems&r"
 			x: 7.5d
 			y: 3.0d
 		}
@@ -2190,7 +2181,7 @@
 					type: "item"
 				}
 			]
-			title: "&9&lQuantum Crafter&r"
+			title: "&9&lQuantum Computer&r"
 			x: 8.5d
 			y: 5.0d
 		}
@@ -2231,7 +2222,7 @@
 				"&7The Assembler Matrix can be upgraded with three &bPlus Cores&7. They work like the original cores, but with &egreatly increased stats&7."
 				"&bAssembler Matrix Pattern Core+&7: Provides &e72 pattern slots&7 per core"
 				"&bAssembler Matrix Craft Core+&7: Runs &e32 crafting jobs in parallel&7 per core"
-				"&bAssembler Matrix Speed Core+&7: Gives &e5x the effect&7 of a regular Speed Core for the Matrix"
+				"&bAssembler Matrix Speed Core+&7: Gives &e5x the effect&7 of a regular Speed Core for the Matrix. You only need 1."
 			]
 			id: "4D529BF135A82201"
 			min_width: 400

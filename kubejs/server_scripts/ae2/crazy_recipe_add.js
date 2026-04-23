@@ -111,5 +111,31 @@ ServerEvents.recipes((event) => {
         item: 'kubejs:infinity_9',
       },
     })
-    .id('kubejs:ae2/crazy_entropy_cradle/infinity_9_block_drive');
+    .id('kubejs:ae2/crazy_recipe_add/infinity_9_block_drive');
+
+  //Infinity 9 Block Research Data Drive
+  event
+    .custom({
+      type: 'crazyae2addons:research',
+      duration: 1206400,
+      energy_per_tick: 500,
+      gadget: true,
+      consumables: [
+        { item: 'extendedcrafting:nether_star_block', count: 64, computation: 469 },
+        { item: 'extendedcrafting:nether_star_block', count: 64, computation: 469 },
+        { item: 'extendedcrafting:nether_star_block', count: 64, computation: 469 },
+        { item: 'botanicalextramachinery:aureate_ingot', count: 32, computation: 531 },
+        { item: 'botanicalextramachinery:aureate_ingot', count: 32, computation: 531 },
+        { item: 'extendedcrafting:nether_star_block', count: 64, computation: 469 },
+        { item: 'extendedcrafting:nether_star_block', count: 64, computation: 469 },
+        { item: 'extendedcrafting:nether_star_block', count: 64, computation: 469 },
+      ],
+      drive: true,
+      unlock: {
+        key: 'crazyae2addons:entity_ticker_research',
+        label: 'Entity ticker',
+        item: 'crazyae2addons:entity_ticker',
+      },
+    })
+    .id('kubejs:ae2/crazy_recipe_add/entity_ticker_drive');
 });

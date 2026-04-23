@@ -242,13 +242,13 @@
 				{
 					count: 4
 					id: "555B430984FFF5B0"
-					item: "exdeorum:compressed_gravel"
+					item: "compressium:gravel_1"
 					type: "item"
 				}
 				{
 					count: 4
 					id: "60A14F4177F628E4"
-					item: "exdeorum:compressed_sand"
+					item: "compressium:sand_1"
 					type: "item"
 				}
 				{
@@ -859,7 +859,13 @@
 		}
 		{
 			dependencies: ["349588784C2748E2"]
-			description: ["A Dimension to hunt &6Mobs&r and gather Mob loot."]
+			description: [
+				"A Dimension to hunt &6Mobs&r and gather Mob loot."
+				""
+				"The Arrow in the quest is not a normal arrow. Rightclick with the Portal Igniter in the portal frame to activate the portal."
+				""
+				"{image:kubejs:block/screen/hunting_portal width:100 height:100 align:center}"
+			]
 			icon: "hunting_dimension_reforged:frame"
 			id: "0932042F7B58F486"
 			rewards: [{
@@ -1249,6 +1255,11 @@
 		{
 			dependencies: ["23BDBBD3001F9774"]
 			id: "349588784C2748E2"
+			rewards: [{
+				id: "1AF70FCD818E016D"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "6F697D0CA2B36869"
 				title: "Dimension Hopping"
@@ -1261,6 +1272,11 @@
 			dependencies: ["349588784C2748E2"]
 			description: ["Craft a &6Nether Cake&r to enter the Nether. Alternatively you can still enter it via the regular &6Nether Portal&r."]
 			id: "2453487FBB29D7C6"
+			rewards: [{
+				id: "6E22D9BF92B3C5C8"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
 			tasks: [{
 				dimension: "minecraft:the_nether"
 				id: "649B8BC46DFD0EA3"
@@ -1282,6 +1298,7 @@
 			tasks: [{
 				dimension: "minecraft:the_end"
 				id: "7697CB0FE47E3294"
+				title: "Visit the END"
 				type: "dimension"
 			}]
 			title: "Visit the END"
@@ -1292,6 +1309,11 @@
 			dependencies: ["349588784C2748E2"]
 			description: ["The Mining Portal will teleport you to the &6Mining Dimension&r, where various ores will generate."]
 			id: "0E502AE18C3C1109"
+			rewards: [{
+				id: "2843AF6D8E448F91"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
 			tasks: [{
 				id: "730081D0693CCA68"
 				item: "jamd:portal_block"
@@ -1304,6 +1326,11 @@
 			dependencies: ["349588784C2748E2"]
 			description: ["The Nether Mining Portal will teleport you to the &6Nether Mining Dimension&r, where various Nether ores will generate."]
 			id: "53A83789E2445C98"
+			rewards: [{
+				id: "4E4DB0800C9C8A71"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
 			tasks: [{
 				id: "22068C171031FAFA"
 				item: "jamd:nether_portal"
@@ -1316,6 +1343,11 @@
 			dependencies: ["349588784C2748E2"]
 			description: ["The End Mining Portal will teleport you to the &6End Mining Dimension&r, where various End ores will generate."]
 			id: "5CCEF4959151BA3F"
+			rewards: [{
+				id: "09D345DF48563F75"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
 			tasks: [{
 				id: "02664C129A2FF3FE"
 				item: "jamd:end_portal"
@@ -1590,22 +1622,47 @@
 		}
 		{
 			dependencies: ["349588784C2748E2"]
+			description: [
+				"You need 2 diamond blocks, 6 skulls and a bed on top of the diamond blocks."
+				""
+				"Or build the Cake"
+				"{image:kubejs:block/screen/lost_cities_portal width:100 height:100 align:center}"
+			]
 			id: "14C6DFD828E30ECE"
+			rewards: [{
+				id: "571536174508E68E"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
 			tasks: [{
 				dimension: "lostcities:lostcity"
 				id: "577BD88783E01524"
+				title: "Visit the Lost Cities"
 				type: "dimension"
 			}]
-			title: "Visit the LOST CITYS"
+			title: "Visit the LOST CITIES"
 			x: -1.5d
 			y: 4.0d
 		}
 		{
 			dependencies: ["349588784C2748E2"]
+			description: [
+				"Place water source blocks in a 2x2 space. surround it with flowers of any kind. throw a diamond in the water."
+				""
+				"Or craft the Cake"
+				"{image:kubejs:block/screen/twilight_forest_portal1 width:100 height:100 align:center}"
+				"{image:kubejs:block/screen/twilight_forest_portal2 width:100 height:100 align:center}"
+			]
 			id: "7EEA94C0D88156AC"
+			rewards: [{
+				id: "38B99D42BFAF77AD"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
 			tasks: [{
 				dimension: "twilightforest:twilight_forest"
 				id: "4CC33BA161652E30"
+				title: "Visit the Twilight Forest"
 				type: "dimension"
 			}]
 			title: "Visit the TWILLIGHT FOREST"

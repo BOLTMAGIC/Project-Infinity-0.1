@@ -113,7 +113,7 @@ ServerEvents.recipes((event) => {
     })
     .id('kubejs:ae2/crazy_recipe_add/infinity_9_block_drive');
 
-  //Infinity 9 Block Research Data Drive
+  //Entity Ticker Research Data Drive
   event
     .custom({
       type: 'crazyae2addons:research',

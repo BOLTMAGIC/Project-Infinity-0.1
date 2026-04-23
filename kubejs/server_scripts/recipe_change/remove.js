@@ -210,7 +210,6 @@ const removeItemsbyOutput = [
   'draconicadditions:item_unstable_chaos',
   'packagedexcrafting:basic_crafter',
   'cyclic:glass_connected',
-  'crazyae2addons:entity_ticker',
   
 ];
 

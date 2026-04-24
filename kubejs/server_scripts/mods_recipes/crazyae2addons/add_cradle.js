@@ -1,0 +1,57 @@
+ServerEvents.recipes((event) => {
+  //Infinity 9 Block
+  event
+    .custom({
+      type: 'crazyae2addons:cradle',
+      result_block: 'kubejs:infinity_9_block',
+      preview_nbt: 'kubejs:infinity_9_structure.nbt',
+      pattern: {
+        symbols: {
+          A: ['minecraft:crying_obsidian'],
+          B: ['kubejs:empowered_super_block'],
+          C: ['advancednetherite:netherite_diamond_block'],
+          D: ['ae2omnicells:ender_ingot_block'],
+          E: ['botanicalextramachinery:saffron_dragonstone_block'],
+          F: ['advanced_ae:quantum_alloy_block'],
+          G: ['ae2omnicells:singularity_block'],
+          H: ['kubejs:infinity_8_block'],
+        },
+        layers: [
+          ['A A A A A', 'A B B B A', 'A B B B A', 'A B B B A', 'A A A A A'],
+          ['E E F E E', 'E E D E E', 'F D G D F', 'E E D E E', 'E E F E E'],
+          ['C C F C C', 'C C D C C', 'F D H D F', 'C C D C C', 'C C F C C'],
+          ['E E F E E', 'E E D E E', 'F D G D F', 'E E D E E', 'E E F E E'],
+          ['A A A A A', 'A B B B A', 'A B B B A', 'A B B B A', 'A A A A A'],
+        ],
+      },
+    })
+    .id('kubejs:ae2/crazy_entropy_cradle/infinity_9_block');
+
+  //Spawner Extractor Recipe
+  event
+    .custom({
+      type: 'crazyae2addons:cradle',
+      result_block: 'crazyae2addons:spawner_extractor_controller',
+      preview_nbt: 'kubejs:spawner_extractor_recipe.nbt',
+      pattern: {
+        symbols: {
+          A: ['crazyae2addons:spawner_extractor_wall'],
+          B: ['minecraft:obsidian'],
+          C: ['crazyae2addons:energy_storage_256m'],
+          D: ['minecraft:iron_block'],
+          E: ['extendedcrafting:nether_star_block'],
+          F: ['botanicalextramachinery:saffron_dragonstone_block'],
+          G: ['ae2:fluix_block'],
+          H: ['voidminers:rosarium_block'],
+        },
+        layers: [
+          ['A A A A A', 'A B B B A', 'A B C B A', 'A B B B A', 'A A A A A'],
+          ['A B B B A', 'B D D D B', 'B D E D B', 'B D D D B', 'A B B B A'],
+          ['A B C B A', 'B F G F B', 'C G H G C', 'B F G F B', 'A B C B A'],
+          ['A B B B A', 'B D D D B', 'B D E D B', 'B D D D B', 'A B B B A'],
+          ['A A A A A', 'A B B B A', 'A B C B A', 'A B B B A', 'A A A A A'],
+        ],
+      },
+    })
+    .id('kubejs:ae2/crazy_entropy_cradle/spawner_extractor_controller');
+});

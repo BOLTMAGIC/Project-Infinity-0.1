@@ -1,0 +1,44 @@
+ServerEvents.recipes((event) => {
+  //EnderIO Soul Vials
+  //Dummy Item to NBT
+  shapeless(
+    event,
+    Item.of(
+      'enderio:filled_soul_vial',
+      '{BlockEntityTag:{EntityStorage:{Entity:{id:"minecraft:witch"}}}}'
+    ),
+    ['kubejs:filled_witch_soul_vial']
+  );
+  shapeless(
+    event,
+    Item.of(
+      'enderio:filled_soul_vial',
+      '{BlockEntityTag:{EntityStorage:{Entity:{id:"minecraft:enderman"}}}}'
+    ),
+    ['kubejs:filled_enderman_soul_vial']
+  );
+  shapeless(
+    event,
+    Item.of(
+      'enderio:filled_soul_vial',
+      '{BlockEntityTag:{EntityStorage:{Entity:{id:"minecraft:shulker"}}}}'
+    ),
+    ['kubejs:filled_shulker_soul_vial']
+  );
+  shapeless(
+    event,
+    Item.of(
+      'enderio:filled_soul_vial',
+      '{BlockEntityTag:{EntityStorage:{Entity:{id:"minecraft:villager"}}}}'
+    ),
+    ['kubejs:filled_villager_soul_vial']
+  );
+  shapeless(
+    event,
+    Item.of(
+      'enderio:filled_soul_vial',
+      '{BlockEntityTag:{EntityStorage:{Entity:{id:"minecraft:zombie"}}}}'
+    ),
+    ['kubejs:filled_zombie_soul_vial']
+  );
+});

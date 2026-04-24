@@ -1,0 +1,23 @@
+ServerEvents.recipes((event) => {
+  create3x3(
+    event,
+    Item.of(
+      'hostilenetworks:data_model',
+      '{data_model:{data:6,id:"hostilenetworks:born_in_chaos/lord_pumpkinhead"}}'
+    ),
+    [
+      'born_in_chaos_v1:bagof_candy',
+      'born_in_chaos_v1:pumpkin_bullet',
+      'born_in_chaos_v1:lord_pumpkinheads_hat_helmet',
+      'born_in_chaos_v1:smoldering_infernal_ember',
+      'born_in_chaos_v1:pumpkinhandgun',
+      'born_in_chaos_v1:soulbane',
+      'born_in_chaos_v1:magical_holiday_candy',
+      Item.of(
+        'hostilenetworks:data_model',
+        '{data_model:{id:"hostilenetworks:born_in_chaos/lord_pumpkinhead"}}'
+      ).weakNBT(),
+      'born_in_chaos_v1:magical_holiday_candy',
+    ]
+  );
+});

@@ -39,9 +39,3 @@ LootJS.modifiers((event) => {
     .addLootTypeModifier(LootType.ENTITY, LootType.CHEST)
     .removeLoot([/.*dimlet*/]);
 });
-
-LootJS.modifiers((event) => {
-  event
-    .addLootTypeModifier(LootType.ENTITY)
-    .removeLoot([/.*evolvedmekanism*/]);
-});

@@ -46,7 +46,7 @@ ServerEvents.recipes((event) => {
           item: 'industrialforegoing:machine_frame_supreme',
         },
         K: {
-          item: 'evolvedmekanism:multiversal_tier_installer',
+          item: 'mekanism_extras:supreme_tier_installer',
         },
         L: {
           item: 'voidminers:rosarium',

@@ -22,7 +22,7 @@ ServerEvents.recipes((event) => {
           nbt: '{mekData:{PigmentTanks:[{Tank:0b,stored:{amount:8192000L,pigmentName:\"mekanism:yellow\"}}]}}',
         },
         B: {
-          item: 'evolvedmekanism:multiversal_chemical_tank',
+          item: 'mekanism_extras:infinite_chemical_tank',
         },
         C: {
           item: 'evolvedmekanism:alloy_creative',
@@ -101,7 +101,7 @@ ServerEvents.recipes((event) => {
         },
         R: {
           type: 'forge:partial_nbt',
-          item: 'evolvedmekanism:overclocked_chemical_tank',
+          item: 'mekanism_extras:absolute_chemical_tank',
           count: 1,
           nbt: '{mekData:{GasTanks:[{Tank:0b,stored:{amount:65536000L,gasName:\"mekanism:oxygen\"}}]}}',
         },
@@ -113,7 +113,7 @@ ServerEvents.recipes((event) => {
         },
         T: {
           type: 'forge:partial_nbt',
-          item: 'evolvedmekanism:overclocked_chemical_tank',
+          item: 'mekanism_extras:absolute_chemical_tank',
           count: 1,
           nbt: '{mekData:{GasTanks:[{Tank:0b,stored:{amount:65536000L,gasName:\"mekanism:hydrogen\"}}]}}',
         },

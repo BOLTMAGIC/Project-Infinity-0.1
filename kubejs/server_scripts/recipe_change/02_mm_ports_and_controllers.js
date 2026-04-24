@@ -518,7 +518,7 @@ ServerEvents.recipes((event) => {
 
   create3x3(event, 'mm:event_horizon_antimatter_synthesizer_controller', [
     'thermal:redstone_servo',
-    'evolvedmekanism:quantum_purifying_factory',
+    'mekanism_extras:supreme_purifying_factory',
     'thermal:rf_coil',
     'common_ore_library:cobalt_block',
     'botania:elementium_ingot',

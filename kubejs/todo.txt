@@ -28,6 +28,7 @@ Mod INFO:
 ----------
 Recipe changes and fixes:
 -changed every recipe that used the removed mods
+-changed recipe for SFM Cable (easier) (thx to thereitisdude)
 -
 ----------
 Mod changes and fixes:

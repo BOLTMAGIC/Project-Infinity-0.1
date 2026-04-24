@@ -49,7 +49,7 @@ ServerEvents.recipes((event) => {
           item: 'industrialforegoing:machine_frame_supreme',
         },
         L: {
-          item: 'evolvedmekanism:quantum_tier_installer',
+          item: 'mekanism_extras:cosmic_tier_installer',
         },
         M: {
           item: 'voidminers:caerium',

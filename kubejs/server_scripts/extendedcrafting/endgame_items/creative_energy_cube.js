@@ -52,10 +52,10 @@ ServerEvents.recipes((event) => {
           item: 'solarpanels:quantum_energy_tablet',
         },
         M: {
-          item: 'evolvedmekanism:creative_induction_cell',
+          item: 'mekanism_extras:infinite_induction_cell',
         },
         N: {
-          item: 'evolvedmekanism:creative_induction_provider',
+          item: 'mekanism_extras:infinite_induction_provider',
         },
         O: {
           item: 'solarpanels:creative_energy_tablet',

@@ -210,101 +210,11 @@ ServerEvents.recipes((event) => {
     'minecraft:diamond',
     'kubejs:infinity_8'
   );
-  //Creative Item EvolvedMekanism
-  event.replaceInput(
-    { output: 'evolvedmekanism:creative_alloying_factory' },
-    'evolvedmekanism:multiversal_alloying_factory',
-    '#em_ev:alloying_factory'
-  );
-  event.replaceInput(
-    { output: 'evolvedmekanism:creative_injecting_factory' },
-    'evolvedmekanism:multiversal_injecting_factory',
-    '#em_ev:injecting_factory'
-  );
-  event.replaceInput(
-    { output: 'evolvedmekanism:creative_purifying_factory' },
-    'evolvedmekanism:multiversal_purifying_factory',
-    '#em_ev:purifying_factory'
-  );
-  event.replaceInput(
-    { output: 'evolvedmekanism:creative_combining_factory' },
-    'evolvedmekanism:multiversal_combining_factory',
-    '#em_ev:combining_factory'
-  );
-  event.replaceInput(
-    { output: 'evolvedmekanism:creative_compressing_factory' },
-    'evolvedmekanism:multiversal_compressing_factory',
-    '#em_ev:compressing_factory'
-  );
-  event.replaceInput(
-    { output: 'evolvedmekanism:creative_crushing_factory' },
-    'evolvedmekanism:multiversal_crushing_factory',
-    '#em_ev:crushing_factory'
-  );
-  event.replaceInput(
-    { output: 'evolvedmekanism:creative_enriching_factory' },
-    'evolvedmekanism:multiversal_enriching_factory',
-    '#em_ev:enriching_factory'
-  );
-  event.replaceInput(
-    { output: 'evolvedmekanism:creative_sawing_factory' },
-    'evolvedmekanism:multiversal_sawing_factory',
-    '#em_ev:sawing_factory'
-  );
-  event.replaceInput(
-    { output: 'evolvedmekanism:creative_smelting_factory' },
-    'evolvedmekanism:multiversal_smelting_factory',
-    '#em_ev:smelting_factory'
-  );
-  event.replaceInput(
-    { output: 'evolvedmekanism:creative_infusing_factory' },
-    'evolvedmekanism:multiversal_infusing_factory',
-    '#em_ev:infusing_factory'
-  );
-  event.replaceInput(
-    { output: 'evolvedmekanism:creative_pressurized_tube' },
-    'evolvedmekanism:multiversal_pressurized_tube',
-    '#em_ev:pressurized_tube'
-  );
-  event.replaceInput(
-    { output: 'evolvedmekanism:creative_thermodynamic_conductor' },
-    'evolvedmekanism:multiversal_thermodynamic_conductor',
-    '#em_ev:thermodynamic_conductor'
-  );
-  event.replaceInput(
-    { output: 'evolvedmekanism:creative_universal_cable' },
-    'evolvedmekanism:multiversal_universal_cable',
-    '#em_ev:universal_cable'
-  );
-  event.replaceInput(
-    { output: 'evolvedmekanism:creative_mechanical_pipe' },
-    'evolvedmekanism:multiversal_mechanical_pipe',
-    '#em_ev:mechanical_pipe'
-  );
-  event.replaceInput(
-    { output: 'evolvedmekanism:creative_logistical_transporter' },
-    'evolvedmekanism:multiversal_logistical_transporter',
-    '#em_ev:logistical_transporter'
-  );
-  event.replaceInput(
-    { output: 'evolvedmekanism:creative_induction_cell' },
-    'evolvedmekanism:multiversal_induction_cell',
-    '#em_ev:induction_cell'
-  );
-  event.replaceInput(
-    { output: 'evolvedmekanism:creative_induction_provider' },
-    'evolvedmekanism:multiversal_induction_provider',
-    '#em_ev:induction_provider'
-  );
+
   event.replaceInput(
     { output: 'industrialforegoingsouls:soul_surge' },
     'minecraft:piston',
     'allthemodium:unobtainium_gear'
-  );
-  event.replaceInput(
-    { output: 'mekanism:atomic_disassembler' },
-    'mekanism:alloy_atomic',
-    'evolvedmekanism:alloy_singular'
   );
 
   //Powah

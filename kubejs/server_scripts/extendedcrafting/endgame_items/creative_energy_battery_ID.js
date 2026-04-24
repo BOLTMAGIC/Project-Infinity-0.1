@@ -71,7 +71,7 @@ ServerEvents.recipes((event) => {
         },
         Q: {
           type: 'forge:nbt',
-          item: 'evolvedmekanism:quantum_fluid_tank',
+          item: 'mekanism_extras:supreme_fluid_tank',
           count: 1,
           nbt: '{mekData:{FluidTanks:[{Tank:0b,stored:{Amount:1024000,FluidName:\"integrateddynamics:menril_resin\"}}]}}',
         },
@@ -83,7 +83,7 @@ ServerEvents.recipes((event) => {
         },
         T: {
           type: 'forge:nbt',
-          item: 'evolvedmekanism:quantum_fluid_tank',
+          item: 'mekanism_extras:supreme_fluid_tank',
           count: 1,
           nbt: '{mekData:{FluidTanks:[{Tank:0b,stored:{Amount:1024000,FluidName:\"integrateddynamics:liquid_chorus\"}}]}}',
         },

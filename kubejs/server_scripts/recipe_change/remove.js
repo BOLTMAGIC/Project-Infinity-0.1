@@ -177,8 +177,6 @@ const removeItemsbyOutput = [
   'thermal:earth_tnt',
   'industrialforegoing:hydroponic_bed',
   'functionalstorage:max_storage_upgrade',
-  'evolvedmekanism:creative_personal_chest',
-  'evolvedmekanism:creative_personal_barrel',
   'draconicevolution:grinder',
   'extendedcrafting:advanced_table',
   'draconicevolution:draconic_staff',
@@ -269,8 +267,6 @@ const removeItemsbyID = [
   'jei:/thermal_extra/machine/pulverizer/abyssal_dust',
   'projecte:repair_talisman_alt',
   'jei:/apotheosis/potion_charm_enchanting',
-  'evolvedmekanism:chemical_tank/creative',
-  'evolvedmekanism:fluid_tank/creative',
   'mekanism:digital_miner',
   'allthemodium:teleport_pad',
   'jei:/bloodmagic/soulforge/fungal_charge_2',
@@ -307,7 +303,6 @@ const removeItemsbyID = [
   'ironfurnaces:rainbow_core',
   'emi:/crafting/repairing/mysticalagriculture/infusion_crystal',
   'jei:/thermal/compat/tconstruct/smelter_alloy_tconstruct_rose_gold_ingot',
-  'evolvedmekanism:tier_installer/creative',
   'projectexpansion:transmutation_interface',
   'compactmekanismmachines:compressed_wind_generator_x2',
   'compactmekanismmachines:compressed_wind_generator_x8',
@@ -414,18 +409,11 @@ const removeItemsbyID = [
   'projectexpansion:power_flower/dark',
   'gardenofglass:end_portal_frame',
   'cyclic:crystal_pickaxe',
-  'evolvedmekanism:thermalizer',
-  'evolvedmekanism:solidification_chamber',
-  'evolvedmekanism:jei.personal_upgrade.barrel.block.evolvedmekanism.creative_personal_chest',
-  'evolvedmekanism:jei.personal_upgrade.barrel.block.evolvedmekanism.creative_personal_barrel',
-  'evolvedmekanism:bin/creative',
   'projectexpansion:collector/mk1_conversion',
   'projectexpansion:collector/basic',
   'advanced_ae:regeneration_card',
   'compressium:endstone_1_uncraft',
-  'evolvedmekanism:energy_cube/creative',
   'enderio:smelting/refinedstorage/silicon',
-  'evolvedmekanism:max_tier_installer',
   'voidminers:the_end/tier8_miner/ultimate_stellar_core',
   'avaritia:neutron_ring',
   'extendedae_plus:wireless_transceiver',
@@ -445,17 +433,6 @@ const removeItemsbyID = [
   'draconicevolution:modules/item_draconic_flight',
   'common_ore_library:crafting/gear/netherite',
   'thermal:parts/netherite_gear',
-  'evolvedmekanism:factory/creative/alloying',
-  'evolvedmekanism:factory/creative/injecting',
-  'evolvedmekanism:factory/creative/purifying',
-  'evolvedmekanism:factory/creative/combining',
-  'evolvedmekanism:factory/creative/compressing',
-  'evolvedmekanism:factory/creative/crushing',
-  'evolvedmekanism:factory/creative/enriching',
-  'evolvedmekanism:factory/creative/sawing',
-  'evolvedmekanism:factory/creative/smelting',
-  'evolvedmekanism:factory/creative/infusing',
-  'evolvedmekanism:induction/cell/creative',
   'allthemodium:allthemodium_gear',
   'allthemodium:vibranium_gear',
   'allthemodium:unobtainium_gear',
@@ -612,21 +589,6 @@ ServerEvents.recipes((event) => {
   event.remove({
     type: 'packagedauto:fluid_package_filling',
   });
-  event.remove({
-    type: 'evolvedmekanism:solidification_chamber',
-  });
-  event.remove({
-    type: 'evolvedmekanism:thermalizer',
-  });
-  event.remove([{ output: /mold/, mod: 'evolvedmekanism' }]);
-  event.remove([{ output: /molten/, mod: 'evolvedmekanism' }]);
-  event.remove([{ output: /evolvedmekanism\/molten/, type: 'ifeu:infuser' }]);
-  event.remove([
-    { output: /evolvedmekanism\/molten/, type: 'thermal:bottler' },
-  ]);
-  event.remove([
-    { output: /evolvedmekanism\/molten/, type: 'tconstruct:casting_table' },
-  ]);
   event.remove([{ output: /bucket/, type: 'thermal:bottler' }]);
   event.remove([{ output: /bottler_florb/, type: 'thermal:bottler' }]);
 

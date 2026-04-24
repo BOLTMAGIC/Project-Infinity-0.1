@@ -610,49 +610,6 @@ ServerEvents.recipes((event) => {
     'voidminers:ultimate_block',
   ]);
 
-  create3x3_EV_EX(event, 'evolvedmekanism:creative_alloying_factory', [
-    '#em_ev:alloying_factory',
-  ]);
-  create3x3_EV_EX(event, 'evolvedmekanism:creative_injecting_factory', [
-    '#em_ev:injecting_factory',
-  ]);
-  create3x3_EV_EX(event, 'evolvedmekanism:creative_purifying_factory', [
-    '#em_ev:purifying_factory',
-  ]);
-  create3x3_EV_EX(event, 'evolvedmekanism:creative_combining_factory', [
-    '#em_ev:combining_factory',
-  ]);
-  create3x3_EV_EX(event, 'evolvedmekanism:creative_compressing_factory', [
-    '#em_ev:compressing_factory',
-  ]);
-  create3x3_EV_EX(event, 'evolvedmekanism:creative_crushing_factory', [
-    '#em_ev:crushing_factory',
-  ]);
-  create3x3_EV_EX(event, 'evolvedmekanism:creative_enriching_factory', [
-    '#em_ev:enriching_factory',
-  ]);
-  create3x3_EV_EX(event, 'evolvedmekanism:creative_sawing_factory', [
-    '#em_ev:sawing_factory',
-  ]);
-  create3x3_EV_EX(event, 'evolvedmekanism:creative_smelting_factory', [
-    '#em_ev:smelting_factory',
-  ]);
-  create3x3_EV_EX(event, 'evolvedmekanism:creative_infusing_factory', [
-    '#em_ev:infusing_factory',
-  ]);
-
-  create3x3(event, 'evolvedmekanism:creative_induction_cell', [
-    'mekanism:energy_tablet',
-    '#em_ev:induction_cell',
-    'mekanism:energy_tablet',
-    '#em_ev:induction_cell',
-    'mekanism:creative_energy_cube',
-    '#em_ev:induction_cell',
-    'mekanism:energy_tablet',
-    '#em_ev:induction_cell',
-    'mekanism:energy_tablet',
-  ]);
-
   shapeless(event, '9x extendedcrafting:crystaltine_ingot', [
     'extendedcrafting:crystaltine_block',
   ]);
@@ -889,7 +846,7 @@ ServerEvents.recipes((event) => {
     'evolvedmekanism:alloy_creative',
     'mekanism_extras:infinite_energy_cube',
     'minecraft:nether_star',
-    'evolvedmekanism:multiversal_energy_cube',
+    'mekanism_extras:infinite_energy_cube',
     'evolvedmekanism:alloy_creative',
     'evolvedmekanism:creative_control_circuit',
     'evolvedmekanism:alloy_creative',

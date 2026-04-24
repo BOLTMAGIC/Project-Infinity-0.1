@@ -34,13 +34,13 @@ ServerEvents.recipes((event) => {
           item: 'compressium:cobblestone_9',
         },
         H: {
-          item: 'evolvedmekanism:overclocked_bin',
+          item: 'mekanism_extras:absolute_bin',
         },
         I: {
           item: 'mysticalagradditions:creative_essence',
         },
         J: {
-          item: 'evolvedmekanism:quantum_bin',
+          item: 'mekanism_extras:cosmic_bin',
         },
         K: {
           item: 'kubejs:infinity_12',
@@ -67,10 +67,10 @@ ServerEvents.recipes((event) => {
           item: 'pneumaticcraft:creative_compressor',
         },
         S: {
-          item: 'evolvedmekanism:multiversal_bin',
+          item: 'mekanism_extras:infinite_bin',
         },
         T: {
-          item: 'evolvedmekanism:dense_bin',
+          item: 'mekanism_extras:supreme_bin',
         },
       },
       result: {

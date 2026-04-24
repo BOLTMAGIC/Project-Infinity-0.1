@@ -96,7 +96,7 @@
 				item: "mekanism:ultimate_control_circuit"
 				type: "item"
 			}]
-			x: 0.0d
+			x: 0.5d
 			y: -5.0d
 		}
 		{
@@ -122,194 +122,6 @@
 		}
 		{
 			dependencies: ["019D5A05A2134C7E"]
-			id: "2C688CC8798ED8E1"
-			rewards: [{
-				id: "77DC76A2EE484873"
-				item: "kubejs:apotheotic_coin"
-				type: "item"
-			}]
-			size: 1.0d
-			tasks: [{
-				id: "668EBE30FEC7326D"
-				item: "evolvedmekanism:alloy_hypercharged"
-				type: "item"
-			}]
-			x: 2.5d
-			y: -6.0d
-		}
-		{
-			dependencies: [
-				"2C688CC8798ED8E1"
-				"4AA150A009E904DA"
-			]
-			id: "6172D30357058EED"
-			rewards: [{
-				id: "32D7D95BEC2F7600"
-				item: "kubejs:apotheotic_coin"
-				type: "item"
-			}]
-			size: 1.0d
-			tasks: [{
-				id: "791E3F2136435A7C"
-				item: "evolvedmekanism:overclocked_control_circuit"
-				type: "item"
-			}]
-			x: 1.5d
-			y: -6.0d
-		}
-		{
-			dependencies: ["2C688CC8798ED8E1"]
-			id: "55AFA5721F4F4FFA"
-			rewards: [{
-				id: "2E04C30086354B15"
-				item: "kubejs:apotheotic_coin"
-				type: "item"
-			}]
-			size: 1.0d
-			tasks: [{
-				id: "246849A952273759"
-				item: "evolvedmekanism:alloy_subatomic"
-				type: "item"
-			}]
-			x: 2.5d
-			y: -7.0d
-		}
-		{
-			dependencies: [
-				"55AFA5721F4F4FFA"
-				"6172D30357058EED"
-			]
-			id: "2176C44AFEBCF718"
-			rewards: [{
-				id: "3A3F306E95942FF8"
-				item: "kubejs:apotheotic_coin"
-				type: "item"
-			}]
-			size: 1.0d
-			tasks: [{
-				id: "3953A1A54D7F5177"
-				item: "evolvedmekanism:quantum_control_circuit"
-				type: "item"
-			}]
-			x: 1.5d
-			y: -7.0d
-		}
-		{
-			dependencies: ["55AFA5721F4F4FFA"]
-			id: "4D671F3258234C60"
-			rewards: [{
-				id: "60AEBC1D40FC6575"
-				item: "kubejs:apotheotic_coin"
-				type: "item"
-			}]
-			size: 1.0d
-			tasks: [{
-				id: "1AE5D014EB77F821"
-				item: "evolvedmekanism:alloy_singular"
-				type: "item"
-			}]
-			x: 2.5d
-			y: -8.0d
-		}
-		{
-			dependencies: ["4D671F3258234C60"]
-			id: "141CBD6AB7DD27DE"
-			rewards: [{
-				id: "7D67E55E41BDD0F4"
-				item: "kubejs:apotheotic_coin"
-				type: "item"
-			}]
-			size: 1.0d
-			tasks: [{
-				id: "71B89057390FC8C5"
-				item: "evolvedmekanism:alloy_exoversal"
-				type: "item"
-			}]
-			x: 2.5d
-			y: -9.0d
-		}
-		{
-			dependencies: [
-				"4D671F3258234C60"
-				"2176C44AFEBCF718"
-			]
-			id: "40EC956E1E5394BF"
-			rewards: [{
-				id: "7A34CFBD1C6BBF4A"
-				item: "kubejs:apotheotic_coin"
-				type: "item"
-			}]
-			size: 1.0d
-			tasks: [{
-				id: "3970F4E4440EC492"
-				item: "evolvedmekanism:dense_control_circuit"
-				type: "item"
-			}]
-			x: 1.5d
-			y: -8.0d
-		}
-		{
-			dependencies: [
-				"141CBD6AB7DD27DE"
-				"40EC956E1E5394BF"
-			]
-			id: "1DF297AD29537258"
-			rewards: [{
-				id: "5E271BC3DDCC4461"
-				item: "kubejs:apotheotic_coin"
-				type: "item"
-			}]
-			size: 1.0d
-			tasks: [{
-				id: "31A86F2F607829E6"
-				item: "evolvedmekanism:multiversal_control_circuit"
-				type: "item"
-			}]
-			x: 1.5d
-			y: -9.0d
-		}
-		{
-			dependencies: ["141CBD6AB7DD27DE"]
-			id: "0E7687A733602532"
-			rewards: [{
-				id: "67DBED17CAABEAF0"
-				item: "kubejs:apotheotic_coin"
-				type: "item"
-			}]
-			size: 1.0d
-			tasks: [{
-				id: "6F2DD6975754E025"
-				item: "evolvedmekanism:alloy_creative"
-				type: "item"
-			}]
-			title: "&cCreative Ingot"
-			x: 2.5d
-			y: -10.0d
-		}
-		{
-			dependencies: [
-				"1DF297AD29537258"
-				"0E7687A733602532"
-			]
-			id: "2E214494AA4B7A2E"
-			rewards: [{
-				id: "6FC37291182D3620"
-				item: "kubejs:apotheotic_coin"
-				type: "item"
-			}]
-			shape: "hexagon"
-			size: 2.0d
-			tasks: [{
-				id: "0353C85A842A2162"
-				item: "evolvedmekanism:creative_control_circuit"
-				type: "item"
-			}]
-			title: "&cCreative Control Circuit"
-			x: 0.0d
-			y: -11.0d
-		}
-		{
-			dependencies: ["019D5A05A2134C7E"]
 			id: "59F35CBC4B1B43F9"
 			rewards: [{
 				id: "4376218B6A0B13B7"
@@ -322,8 +134,8 @@
 				item: "mekanism_extras:alloy_radiance"
 				type: "item"
 			}]
-			x: -2.5d
-			y: -6.0d
+			x: -0.5d
+			y: -5.0d
 		}
 		{
 			dependencies: ["59F35CBC4B1B43F9"]
@@ -339,8 +151,8 @@
 				item: "mekanism_extras:alloy_thermonuclear"
 				type: "item"
 			}]
-			x: -2.5d
-			y: -7.0d
+			x: -0.5d
+			y: -6.0d
 		}
 		{
 			dependencies: ["5CD8B31A2CD2546B"]
@@ -356,8 +168,8 @@
 				item: "mekanism_extras:alloy_shining"
 				type: "item"
 			}]
-			x: -2.5d
-			y: -8.0d
+			x: -0.5d
+			y: -7.0d
 		}
 		{
 			dependencies: ["75D25A33174FC2A9"]
@@ -373,95 +185,8 @@
 				item: "mekanism_extras:alloy_spectrum"
 				type: "item"
 			}]
-			x: -2.5d
-			y: -9.0d
-		}
-		{
-			dependencies: [
-				"6172D30357058EED"
-				"578C2DA3B4865CB8"
-			]
-			id: "7EAB7CCF120FB7BF"
-			rewards: [{
-				id: "5611FC1317A856C6"
-				item: "kubejs:apotheotic_coin"
-				type: "item"
-			}]
-			shape: "hexagon"
-			size: 1.0d
-			tasks: [{
-				id: "7D961E7EBA47472D"
-				item: "emextras:absolute_overclocked_control_circuit"
-				type: "item"
-			}]
-			x: 0.0d
-			y: -6.0d
-		}
-		{
-			dependencies: [
-				"7EAB7CCF120FB7BF"
-				"2176C44AFEBCF718"
-				"34E20B91135F8AF4"
-			]
-			id: "78D9752A5D6C2937"
-			rewards: [{
-				id: "3E82F2C937548483"
-				item: "kubejs:apotheotic_coin"
-				type: "item"
-			}]
-			shape: "hexagon"
-			size: 1.0d
-			tasks: [{
-				id: "75DD1134E791620F"
-				item: "emextras:supreme_quantum_control_circuit"
-				type: "item"
-			}]
-			x: 0.0d
-			y: -7.0d
-		}
-		{
-			dependencies: [
-				"78D9752A5D6C2937"
-				"40EC956E1E5394BF"
-				"2AD7BEDA1613184C"
-			]
-			id: "6259FCAF96D9C0A1"
-			rewards: [{
-				id: "13BD56C1E3BB6C27"
-				item: "kubejs:apotheotic_coin"
-				type: "item"
-			}]
-			shape: "hexagon"
-			size: 1.0d
-			tasks: [{
-				id: "6D4A10C4A84C9CF6"
-				item: "emextras:cosmic_dense_control_circuit"
-				type: "item"
-			}]
-			x: 0.0d
+			x: -0.5d
 			y: -8.0d
-		}
-		{
-			dependencies: [
-				"1DF297AD29537258"
-				"6259FCAF96D9C0A1"
-				"2340FA9731E2C594"
-			]
-			id: "52B42E5B517C837A"
-			rewards: [{
-				id: "2DD8440275E49103"
-				item: "kubejs:apotheotic_coin"
-				type: "item"
-			}]
-			shape: "hexagon"
-			size: 1.0d
-			tasks: [{
-				id: "72713A20D9499909"
-				item: "emextras:infinite_multiversal_control_circuit"
-				type: "item"
-			}]
-			x: 0.0d
-			y: -9.0d
 		}
 		{
 			dependencies: [
@@ -480,7 +205,7 @@
 				item: "mekanism_extras:absolute_control_circuit"
 				type: "item"
 			}]
-			x: -1.5d
+			x: 0.5d
 			y: -6.0d
 		}
 		{
@@ -500,7 +225,7 @@
 				item: "mekanism_extras:infinite_control_circuit"
 				type: "item"
 			}]
-			x: -1.5d
+			x: 0.5d
 			y: -9.0d
 		}
 		{
@@ -520,7 +245,7 @@
 				item: "mekanism_extras:supreme_control_circuit"
 				type: "item"
 			}]
-			x: -1.5d
+			x: 0.5d
 			y: -7.0d
 		}
 		{
@@ -540,7 +265,7 @@
 				item: "mekanism_extras:cosmic_control_circuit"
 				type: "item"
 			}]
-			x: -1.5d
+			x: 0.5d
 			y: -8.0d
 		}
 		{
@@ -989,23 +714,7 @@
 				item: "mekanism_extras:absolute_tier_installer"
 				type: "item"
 			}]
-			x: -6.0d
-			y: -6.0d
-		}
-		{
-			dependencies: ["4DF2DE1E9AA814A2"]
-			id: "1A83121AD64E2F98"
-			rewards: [{
-				id: "2C0D670AECD70B46"
-				item: "kubejs:apotheotic_coin"
-				type: "item"
-			}]
-			tasks: [{
-				id: "13F744B10DF5F8BE"
-				item: "evolvedmekanism:overclocked_tier_installer"
-				type: "item"
-			}]
-			x: -5.0d
+			x: -5.5d
 			y: -6.0d
 		}
 		{
@@ -1021,23 +730,7 @@
 				item: "mekanism_extras:supreme_tier_installer"
 				type: "item"
 			}]
-			x: -6.0d
-			y: -7.0d
-		}
-		{
-			dependencies: ["1A83121AD64E2F98"]
-			id: "78955AC4504FF3E3"
-			rewards: [{
-				id: "43A7982316139E23"
-				item: "kubejs:apotheotic_coin"
-				type: "item"
-			}]
-			tasks: [{
-				id: "181730A8791E4CA2"
-				item: "evolvedmekanism:quantum_tier_installer"
-				type: "item"
-			}]
-			x: -5.0d
+			x: -5.5d
 			y: -7.0d
 		}
 		{
@@ -1053,23 +746,7 @@
 				item: "mekanism_extras:cosmic_tier_installer"
 				type: "item"
 			}]
-			x: -6.0d
-			y: -8.0d
-		}
-		{
-			dependencies: ["78955AC4504FF3E3"]
-			id: "3E488BCF8CFE5B76"
-			rewards: [{
-				id: "1B0B509EFC8A0CA5"
-				item: "kubejs:apotheotic_coin"
-				type: "item"
-			}]
-			tasks: [{
-				id: "41D08D6FBBACC38F"
-				item: "evolvedmekanism:dense_tier_installer"
-				type: "item"
-			}]
-			x: -5.0d
+			x: -5.5d
 			y: -8.0d
 		}
 		{
@@ -1085,28 +762,12 @@
 				item: "mekanism_extras:infinite_tier_installer"
 				type: "item"
 			}]
-			x: -6.0d
-			y: -9.0d
-		}
-		{
-			dependencies: ["3E488BCF8CFE5B76"]
-			id: "4BA1C6A288EF7C5A"
-			rewards: [{
-				id: "38BC1429F139880E"
-				item: "kubejs:apotheotic_coin"
-				type: "item"
-			}]
-			tasks: [{
-				id: "0D47A040622C5497"
-				item: "evolvedmekanism:multiversal_tier_installer"
-				type: "item"
-			}]
-			x: -5.0d
+			x: -5.5d
 			y: -9.0d
 		}
 		{
 			dependencies: ["66D40619BDB8DC60"]
-			description: ["There are many different tiers of upgrades and factories available. After Ultimate, &6two different branches&r are available. Branches can be &6merged&r in machines to turn them into compound machines with bigger capabilities than their constituents. See the &6alloys and circuits quest line&r in this chapter to see all the available alloys and compounds."]
+			description: ["There are many different tiers of upgrades and factories available. See the &6alloys and circuits quest line&r in this chapter to see all the available alloys and compounds."]
 			id: "5012E356410BDF1B"
 			rewards: [{
 				id: "321BBD79D058C1A4"
@@ -1415,27 +1076,6 @@
 			y: -3.0d
 		}
 		{
-			dependencies: [
-				"1911D826360A7DE8"
-				"4BA1C6A288EF7C5A"
-			]
-			description: ["There is no Creative Tier Installer. Craft Machines of the previous tier into their Creative Tier versions."]
-			icon: "evolvedmekanism:creative_tier_installer"
-			id: "65C05EDC0F24BB21"
-			rewards: [{
-				id: "217148CD4E00D765"
-				item: "kubejs:apotheotic_coin"
-				type: "item"
-			}]
-			tasks: [{
-				id: "502590F82A2D2983"
-				title: "Creative Tier"
-				type: "checkmark"
-			}]
-			x: -5.5d
-			y: -10.0d
-		}
-		{
 			dependencies: ["66D40619BDB8DC60"]
 			id: "609D080C33BE0F54"
 			rewards: [{
@@ -1573,10 +1213,6 @@
 							}
 							{
 								Count: 1b
-								id: "evolvedmekanism:creative_universal_cable"
-							}
-							{
-								Count: 1b
 								id: "mekanism:basic_universal_cable"
 							}
 							{
@@ -1586,18 +1222,6 @@
 							{
 								Count: 1b
 								id: "mekanism:elite_universal_cable"
-							}
-							{
-								Count: 1b
-								id: "evolvedmekanism:overclocked_universal_cable"
-							}
-							{
-								Count: 1b
-								id: "evolvedmekanism:multiversal_universal_cable"
-							}
-							{
-								Count: 1b
-								id: "evolvedmekanism:dense_universal_cable"
 							}
 							{
 								Count: 1b
@@ -1660,22 +1284,6 @@
 										}
 									}
 								}
-							}
-							{
-								Count: 1b
-								id: "evolvedmekanism:overclocked_energy_cube"
-							}
-							{
-								Count: 1b
-								id: "evolvedmekanism:quantum_energy_cube"
-							}
-							{
-								Count: 1b
-								id: "evolvedmekanism:dense_energy_cube"
-							}
-							{
-								Count: 1b
-								id: "evolvedmekanism:multiversal_energy_cube"
 							}
 							{
 								Count: 1b
@@ -1747,47 +1355,7 @@
 							}
 							{
 								Count: 1b
-								id: "evolvedmekanism:overclocked_induction_cell"
-							}
-							{
-								Count: 1b
-								id: "evolvedmekanism:quantum_induction_cell"
-							}
-							{
-								Count: 1b
-								id: "evolvedmekanism:dense_induction_cell"
-							}
-							{
-								Count: 1b
 								id: "mekanism_extras:supreme_induction_cell"
-							}
-							{
-								Count: 1b
-								id: "evolvedmekanism:creative_induction_provider"
-							}
-							{
-								Count: 1b
-								id: "evolvedmekanism:multiversal_induction_provider"
-							}
-							{
-								Count: 1b
-								id: "evolvedmekanism:dense_induction_provider"
-							}
-							{
-								Count: 1b
-								id: "evolvedmekanism:quantum_induction_provider"
-							}
-							{
-								Count: 1b
-								id: "evolvedmekanism:overclocked_induction_provider"
-							}
-							{
-								Count: 1b
-								id: "evolvedmekanism:creative_induction_cell"
-							}
-							{
-								Count: 1b
-								id: "evolvedmekanism:multiversal_induction_cell"
 							}
 							{
 								Count: 1b
@@ -1816,6 +1384,10 @@
 							{
 								Count: 1b
 								id: "mekanism_extras:infinite_induction_provider"
+							}
+							{
+								Count: 1
+								id: "mekanism:elite_induction_cell"
 							}
 						]
 					}
@@ -1859,22 +1431,6 @@
 					id: "itemfilters:or"
 					tag: {
 						items: [
-							{
-								Count: 1b
-								id: "evolvedmekanism:multiversal_mechanical_pipe"
-							}
-							{
-								Count: 1b
-								id: "evolvedmekanism:dense_mechanical_pipe"
-							}
-							{
-								Count: 1b
-								id: "evolvedmekanism:quantum_mechanical_pipe"
-							}
-							{
-								Count: 1b
-								id: "evolvedmekanism:overclocked_mechanical_pipe"
-							}
 							{
 								Count: 1b
 								id: "mekanism:basic_mechanical_pipe"
@@ -1941,26 +1497,6 @@
 							}
 							{
 								Count: 1b
-								id: "evolvedmekanism:overclocked_logistical_transporter"
-							}
-							{
-								Count: 1b
-								id: "evolvedmekanism:quantum_logistical_transporter"
-							}
-							{
-								Count: 1b
-								id: "evolvedmekanism:dense_logistical_transporter"
-							}
-							{
-								Count: 1b
-								id: "evolvedmekanism:multiversal_logistical_transporter"
-							}
-							{
-								Count: 1b
-								id: "evolvedmekanism:creative_logistical_transporter"
-							}
-							{
-								Count: 1b
 								id: "mekanism:basic_logistical_transporter"
 							}
 							{
@@ -1978,6 +1514,10 @@
 							{
 								Count: 1b
 								id: "mekanism:elite_logistical_transporter"
+							}
+							{
+								Count: 1
+								id: "mekanism:advanced_logistical_transporter"
 							}
 						]
 					}
@@ -2032,24 +1572,8 @@
 								id: "mekanism_extras:supreme_pressurized_tube"
 							}
 							{
-								Count: 1b
-								id: "evolvedmekanism:overclocked_pressurized_tube"
-							}
-							{
-								Count: 1b
-								id: "evolvedmekanism:quantum_pressurized_tube"
-							}
-							{
-								Count: 1b
-								id: "evolvedmekanism:dense_pressurized_tube"
-							}
-							{
-								Count: 1b
-								id: "evolvedmekanism:multiversal_pressurized_tube"
-							}
-							{
-								Count: 1b
-								id: "evolvedmekanism:creative_pressurized_tube"
+								Count: 1
+								id: "mekanism:basic_pressurized_tube"
 							}
 						]
 					}
@@ -2098,26 +1622,6 @@
 							{
 								Count: 1b
 								id: "mekanism_extras:infinite_thermodynamic_conductor"
-							}
-							{
-								Count: 1b
-								id: "evolvedmekanism:overclocked_thermodynamic_conductor"
-							}
-							{
-								Count: 1b
-								id: "evolvedmekanism:quantum_thermodynamic_conductor"
-							}
-							{
-								Count: 1b
-								id: "evolvedmekanism:dense_thermodynamic_conductor"
-							}
-							{
-								Count: 1b
-								id: "evolvedmekanism:multiversal_thermodynamic_conductor"
-							}
-							{
-								Count: 1b
-								id: "evolvedmekanism:creative_thermodynamic_conductor"
 							}
 							{
 								Count: 1b
@@ -2187,22 +1691,6 @@
 								Count: 1b
 								id: "mekanism:basic_chemical_tank"
 							}
-							{
-								Count: 1b
-								id: "evolvedmekanism:multiversal_chemical_tank"
-							}
-							{
-								Count: 1b
-								id: "evolvedmekanism:dense_chemical_tank"
-							}
-							{
-								Count: 1b
-								id: "evolvedmekanism:quantum_chemical_tank"
-							}
-							{
-								Count: 1b
-								id: "evolvedmekanism:overclocked_chemical_tank"
-							}
 						]
 					}
 				}
@@ -2246,22 +1734,6 @@
 							{
 								Count: 1b
 								id: "mekanism_extras:absolute_bin"
-							}
-							{
-								Count: 1b
-								id: "evolvedmekanism:multiversal_bin"
-							}
-							{
-								Count: 1b
-								id: "evolvedmekanism:dense_bin"
-							}
-							{
-								Count: 1b
-								id: "evolvedmekanism:quantum_bin"
-							}
-							{
-								Count: 1b
-								id: "evolvedmekanism:overclocked_bin"
 							}
 							{
 								Count: 1b
@@ -2334,22 +1806,6 @@
 							{
 								Count: 1b
 								id: "mekanism:basic_fluid_tank"
-							}
-							{
-								Count: 1b
-								id: "evolvedmekanism:multiversal_fluid_tank"
-							}
-							{
-								Count: 1b
-								id: "evolvedmekanism:dense_fluid_tank"
-							}
-							{
-								Count: 1b
-								id: "evolvedmekanism:quantum_fluid_tank"
-							}
-							{
-								Count: 1b
-								id: "evolvedmekanism:overclocked_fluid_tank"
 							}
 							{
 								Count: 1b

@@ -31,7 +31,5 @@ JEIEvents.removeCategories((event) => {
     'packagedauto:fluid_package_contents',
     'packagedauto:volume_package',
     'packagedauto:fluid_package_filling',
-    'evolvedmekanism:solidification_chamber',
-    'evolvedmekanism:thermalizer',
   ]);
 });

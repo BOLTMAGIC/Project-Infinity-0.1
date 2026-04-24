@@ -12,6 +12,6 @@
   },
   "crux": "evolvedmekanism:block_better_gold",
   "recipes": {
-    "infusion": false // the infusion altar recipe for the seed
+    "infusion": false
   }
 }

@@ -286,8 +286,6 @@ ItemEvents.tooltip((event) => {
   // Credit Recipes
   const kemCredits = [
     'integrateddynamics:energy_battery_creative',
-    'evolvedmekanism:creative_personal_barrel',
-    'evolvedmekanism:creative_personal_chest',
     'mekanism:creative_energy_cube',
     'mekanism:creative_chemical_tank',
     'mm:advanced_awakening_altar_controller',

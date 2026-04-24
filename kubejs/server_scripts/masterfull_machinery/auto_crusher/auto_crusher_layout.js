@@ -201,7 +201,7 @@ MMEvents.createStructures((event) => {
           input: true,
         })
         .key('3', {
-          block: 'evolvedmekanism:overclocked_crushing_factory',
+          block: 'mekanism_extras:absolute_crushing_factory',
         })
         .key('4', {
           portType: 'mm:item',
@@ -212,7 +212,7 @@ MMEvents.createStructures((event) => {
           input: false,
         })
         .key('6', {
-          block: 'evolvedmekanism:overclocked_purifying_factory',
+          block: 'mekanism_extras:absolute_purifying_factory',
         })
         .key('7', {
           block: 'tconstruct:clear_glass',
@@ -222,7 +222,7 @@ MMEvents.createStructures((event) => {
           input: true,
         })
         .key('9', {
-          block: 'evolvedmekanism:overclocked_enriching_factory',
+          block: 'mekanism_extras:absolute_enriching_factory',
         })
         .key('A', {
           block: 'chisel_chipped_integration:technical_fan',
@@ -253,7 +253,7 @@ MMEvents.createStructures((event) => {
           input: true,
         })
         .key('3', {
-          block: 'evolvedmekanism:multiversal_crushing_factory',
+          block: 'mekanism_extras:infinite_crushing_factory',
         })
         .key('4', {
           portType: 'mm:item',
@@ -263,7 +263,7 @@ MMEvents.createStructures((event) => {
           block: 'mm:titanic_item_port_output',
         })
         .key('6', {
-          block: 'evolvedmekanism:multiversal_purifying_factory',
+          block: 'mekanism_extras:infinite_purifying_factory',
         })
         .key('7', {
           block: 'tconstruct:clear_glass',
@@ -273,7 +273,7 @@ MMEvents.createStructures((event) => {
           input: true,
         })
         .key('9', {
-          block: 'evolvedmekanism:multiversal_enriching_factory',
+          block: 'mekanism_extras:infinite_enriching_factory',
         })
         .key('A', {
           block: 'chisel_chipped_integration:technical_fan',

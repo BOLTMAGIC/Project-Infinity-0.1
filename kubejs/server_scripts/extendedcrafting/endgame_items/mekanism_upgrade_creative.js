@@ -47,7 +47,7 @@ ServerEvents.recipes((event) => {
           item: 'mekanism_extras:polonium_containing_solution_bucket',
         },
         L: {
-          item: 'evolvedmekanism:multiversal_tier_installer',
+          item: 'mekanism_extras:cosmic_tier_installer',
         },
         M: {
           item: 'mekanism:upgrade_stone_generator',

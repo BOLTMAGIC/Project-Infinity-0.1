@@ -1626,6 +1626,7 @@
 				"Just like the Manasteel Armor, it will repair itself with &bmana&r."
 			]
 			id: "7006DD713B305FD6"
+			optional: true
 			rewards: [
 				{
 					count: 4
@@ -1713,6 +1714,7 @@
 				"The &aTerra Truncator&r will chop entire trees down."
 			]
 			id: "6989D4891C2ABDE3"
+			optional: true
 			rewards: [
 				{
 					count: 4
@@ -2060,6 +2062,7 @@
 				"Just like the Manasteel Armor, it will repair itself with &bmana&r."
 			]
 			id: "3D9753C5F792B3D1"
+			optional: true
 			tasks: [
 				{
 					id: "716E6BF9CA770862"

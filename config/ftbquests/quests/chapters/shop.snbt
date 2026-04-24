@@ -104,6 +104,7 @@
 					}
 					match_nbt: true
 					type: "item"
+					weak_nbt_match: true
 				}
 			]
 			title: "Creative Flight"

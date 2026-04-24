@@ -127,4 +127,16 @@ ServerEvents.recipes((event) => {
     'enderio:pulsating_alloy_ingot',
     'redstone_arsenal:flux_ingot',
   ]);
+
+  create3x3(event, 'enderio:powered_spawner', [
+    'enderio:soularium_ingot',
+    'enderio:broken_spawner',
+    'enderio:soularium_ingot',
+    'enderio:soularium_ingot',
+    'enderio:ensouled_chassis',
+    'enderio:soularium_ingot',
+    'enderio:vibrant_crystal',
+    'enderio:z_logic_controller',
+    'enderio:vibrant_crystal',
+  ]);
 });

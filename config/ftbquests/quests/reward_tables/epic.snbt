@@ -29,7 +29,6 @@
 			}
 		}
 		{ count: 6, icon: "mekanism:dirty_netherite_scrap", item: "mekanism:dirty_netherite_scrap", weight: 3.5f }
-		{ item: "pipez:ultimate_upgrade", random_bonus: 2, weight: 2.0f }
 		{ item: "mekanism:ultimate_tier_installer" }
 		{
 			item: {

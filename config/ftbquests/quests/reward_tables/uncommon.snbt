@@ -49,8 +49,6 @@
 			}
 		}
 		{ count: 4, item: "modularrouters:speed_upgrade", random_bonus: 4 }
-		{ item: "pipez:advanced_upgrade", random_bonus: 1, weight: 3.0f }
-		{ count: 8, item: "pipez:universal_pipe", random_bonus: 16, weight: 10.0f }
 		{ item: "mekanism:advanced_tier_installer" }
 		{
 			item: {

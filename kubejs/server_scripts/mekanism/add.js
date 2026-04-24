@@ -462,7 +462,7 @@ ServerEvents.recipes((event) => {
   enriching(event, 'minecraft:coal_block', 'kubejs:compressed_enriched_carbon');
   enriching(event, 'compressium:coal_1', 'kubejs:double_compressed_enriched_carbon');
   enriching(event, 'minecraft:diamond_block', 'kubejs:compressed_enriched_diamond');
-  enriching(event, 'compressium:diamond_1', 'kubejs:compressed_enriched_diamond');
+  enriching(event, 'compressium:diamond_1', 'kubejs:double_compressed_enriched_diamond');
 
   nucleosynthesizing(
     event,

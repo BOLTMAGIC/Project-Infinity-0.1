@@ -15,10 +15,17 @@ BlockEvents.rightClicked((event) => {
     /^sophisticatedstorage:.*shulker_box.*$/, // uuid based item, can't filter with NBT
 
     'cyclic:crate', // dumb item that doesn't use NBT correctly
+    'cyclic:storage_bag',
 
     /^refinedstorage:.*_storage_(disk|block)$/, // uuid based item, can't filter with NBT
-  ];
 
+    'expatternprovider:package',
+
+    'cyclic:mob_container',
+
+    'ae2wtlib:wireless_universal_terminal',
+    'ae2:wireless_crafting_terminal',
+  ];
   // check for bannedItems
   for (const banned of bannedItems) {
     if (matchesPattern(item.id, banned)) {
@@ -34,6 +41,8 @@ BlockEvents.rightClicked((event) => {
     }
   }
 
+  if (!item.hasNBT()) return;
+
   /* Commented because not used, conditionalBannedItems should already cover these cases and is more flexible, but can be re-added if needed
   // Items only banned if they have NBT data (for the items losing their NBT data when empty)
   // format: 'string'|/^regex$/
@@ -41,14 +50,12 @@ BlockEvents.rightClicked((event) => {
   ];
 
   // check for bannedIfHasNBT
-  if (item.hasNBT()) {
-    for (const bannedPattern of bannedIfHasNBT) {
-      if (matchesPattern(item.id, bannedPattern)) {
-        player.tell(Text.red("§lBlocked:§r "));
-        player.tell(Text.white(item.getDisplayName().getString() + " has NBT data and cannot be inserted"));
-        event.cancel();
-        return;
-      }
+  for (const bannedPattern of bannedIfHasNBT) {
+    if (matchesPattern(item.id, bannedPattern)) {
+      player.tell(Text.red("§lBlocked:§r "));
+      player.tell(Text.white(item.getDisplayName().getString() + " has NBT data and cannot be inserted"));
+      event.cancel();
+      return;
     }
   }
   */
@@ -105,23 +112,10 @@ BlockEvents.rightClicked((event) => {
     { pattern: /^ae2:.*_cell_.*$/, nbtPath: 'keys', check: (value) => value },
 
     {
-      pattern: /^ae2additions:.*_cell_.*$/,
-      nbtPath: 'keys',
-      check: (value) => value,
-    },
-    {
-      pattern: /^ae2additions:disk.*k$/,
-      nbtPath: 'diskuuid',
-      check: (value) => value,
-    },
-
-    {
       pattern: /^ae2omnicells:.*$/,
       nbtPath: 'ae_universal_cell_types_usage',
       check: (value) => value,
     },
-
-    { pattern: /^ae2things:.*$/, nbtPath: 'diskuuid', check: (value) => value },
 
     { pattern: /^appflux:fe.*$/, nbtPath: 'power', check: (value) => value },
 
@@ -151,7 +145,276 @@ BlockEvents.rightClicked((event) => {
       nbtPath: 'mekData.qioMetaCount',
       check: (value) => value,
     },
+
+    {
+      pattern: 'cyclic:filter_data',
+      nbtPath: 'itemCount',
+      check: (value) => value && value != 0,
+    },
+    {
+      pattern: 'cyclic:ender_item_shelf',
+      nbtPath: 'Items',
+      check: (value) => value && value.length > 0,
+    },
+    {
+      pattern: 'cyclic:ender_shelf',
+      nbtPath: 'Items',
+      check: (value) => value && value.length > 0,
+    },
+    {
+      pattern: 'cyclic:tile_transporter',
+      nbtPath: 'block',
+      check: (value) => value,
+    },
+
+    {
+      pattern: 'pneumaticcraft:liquid_hopper',
+      nbtPath: 'BlockEntityTag',
+      check: (value) => value,
+    },
+
+    {
+      pattern: 'enderio:impulse_hopper',
+      nbtPath: 'BlockEntityTag.Items.Items',
+      check: (value) => value && value.length > 0,
+    },
+    {
+      pattern: 'enderio:xp_vacuum',
+      nbtPath: 'BlockEntityTag.Fluid.Tanks[0].Amount',
+      check: (value) => value != 0,
+    },
+
+    {
+      pattern: 'enderio:soul_binder',
+      nbtPath: 'BlockEntityTag.Fluid.Tanks[0].Amount',
+      check: (value) => value != 0,
+    },
+    {
+      pattern: 'enderio:soul_binder',
+      nbtPath: 'BlockEntityTag.Items.Items',
+      check: (value) => value && value.length > 0,
+    },
+    {
+      pattern: 'enderio:fluid_tank',
+      nbtPath: 'BlockEntityTag.Fluid.Tanks[0].Amount',
+      check: (value) => value != 0,
+    },
+    {
+      pattern: 'enderio:fluid_tank',
+      nbtPath: 'BlockEntityTag.Items.Items',
+      check: (value) => value && value.length > 0,
+    },
+    {
+      pattern: 'enderio:pressurized_fluid_tank',
+      nbtPath: 'BlockEntityTag.Fluid.Tanks[0].Amount',
+      check: (value) => value != 0,
+    },
+    {
+      pattern: 'enderio:pressurized_fluid_tank',
+      nbtPath: 'BlockEntityTag.Items.Items',
+      check: (value) => value && value.length > 0,
+    },
+    {
+      pattern: 'enderio:drain',
+      nbtPath: 'BlockEntityTag.Fluid.Tanks[0].Amount',
+      check: (value) => value != 0,
+    },
+    {
+      pattern: 'enderio:drain',
+      nbtPath: 'BlockEntityTag.Items.Items',
+      check: (value) => value && value.length > 0,
+    },
+    {
+      pattern: 'enderio:soul_engine',
+      nbtPath: 'BlockEntityTag.Fluid.Tanks[0].Amount',
+      check: (value) => value != 0,
+    },
+    {
+      pattern: 'enderio:soul_engine',
+      nbtPath: 'BlockEntityTag.Items.Items',
+      check: (value) => value && value.length > 0,
+    },
+    {
+      pattern: 'enderio:painting_machine',
+      nbtPath: 'BlockEntityTag.Items.Items',
+      check: (value) => value && value.length > 0,
+    },
+    {
+      pattern: 'enderio:wired_charger',
+      nbtPath: 'BlockEntityTag.Items.Items',
+      check: (value) => value && value.length > 0,
+    },
+    {
+      pattern: 'enderio:stirling_generator',
+      nbtPath: 'BlockEntityTag.Items.Items',
+      check: (value) => value && value.length > 0,
+    },
+    {
+      pattern: 'enderio:sag_mill',
+      nbtPath: 'BlockEntityTag.Items.Items',
+      check: (value) => value && value.length > 0,
+    },
+    {
+      pattern: 'enderio:slice_and_splice',
+      nbtPath: 'BlockEntityTag.Items.Items',
+      check: (value) => value && value.length > 0,
+    },
+    {
+      pattern: 'enderio:powered_spawner',
+      nbtPath: 'BlockEntityTag.Items.Items',
+      check: (value) => value && value.length > 0,
+    },
+    {
+      pattern: 'enderio:alloy_smelter',
+      nbtPath: 'BlockEntityTag.Items.Items',
+      check: (value) => value && value.length > 0,
+    },
+    {
+      pattern: 'enderio:vacuum_chest',
+      nbtPath: 'BlockEntityTag.Items.Items',
+      check: (value) => value && value.length > 0,
+    },
+    {
+      pattern: 'enderio:enchanter',
+      nbtPath: 'BlockEntityTag.Items.Items',
+      check: (value) => value && value.length > 0,
+    },
+    {
+      pattern: 'enderio:crafter',
+      nbtPath: 'BlockEntityTag.Items.Items',
+      check: (value) => value && value.length > 0,
+    },
+    {
+      pattern: 'enderio:filled_soul_vial',
+      nbtPath: 'BlockEntityTag',
+      check: (value) => value,
+    },
+    {
+      pattern: 'industrialforegoing:mob_imprisonment_tool',
+      nbtPath: 'entity',
+      check: (value) => value,
+    },
+    {
+      pattern: 'draconicevolution:draconium_chest',
+      nbtPath: 'bc_tile_data.bc_caps.crafting_inv.Items',
+      check: (value) => value && value.length > 0,
+    },
+    {
+      pattern: 'draconicevolution:draconium_chest',
+      nbtPath: 'bc_tile_data.bc_caps.energy_inv.Items',
+      check: (value) => value && value.length > 0,
+    },
+    {
+      pattern: 'draconicevolution:draconium_chest',
+      nbtPath: 'bc_tile_data.bc_caps.furnace_inv.Items',
+      check: (value) => value && value.length > 0,
+    },
+    {
+      pattern: 'draconicevolution:draconium_chest',
+      nbtPath: 'bc_tile_data.bc_caps.main_inv.Items',
+      check: (value) => value && value.length > 0,
+    },
+    {
+      pattern: 'draconicevolution:grinder',
+      nbtPath: 'bc_tile_data.bc_caps.inventory.Items',
+      check: (value) => value && value.length > 0,
+    },
+    {
+      pattern: 'draconicevolution:awakened_crafting_injector',
+      nbtPath: 'bc_tile_data.bc_caps.inventory.Items',
+      check: (value) => value && value.length > 0,
+    },
+    {
+      pattern: 'draconicevolution:basic_crafting_injector',
+      nbtPath: 'bc_tile_data.bc_caps.inventory.Items',
+      check: (value) => value && value.length > 0,
+    },
+    {
+      pattern: 'draconicevolution:chaotic_crafting_injector',
+      nbtPath: 'bc_tile_data.bc_caps.inventory.Items',
+      check: (value) => value && value.length > 0,
+    },
+    {
+      pattern: 'draconicevolution:crafting_core',
+      nbtPath: 'bc_tile_data.bc_caps.inventory.Items',
+      check: (value) => value && value.length > 0,
+    },
+    {
+      pattern: 'draconicevolution:wyvern_crafting_injector',
+      nbtPath: 'bc_tile_data.bc_caps.inventory.Items',
+      check: (value) => value && value.length > 0,
+    },
+    {
+      pattern: 'rftoolsutility:crafter1',
+      nbtPath: 'BlockEntityTag.McItems',
+      check: (value) => value && rftoolsCheck(value),
+    },
+    {
+      pattern: 'rftoolsutility:crafter2',
+      nbtPath: 'BlockEntityTag.McItems',
+      check: (value) => value && rftoolsCheck(value),
+    },
+    {
+      pattern: 'rftoolsutility:crafter3',
+      nbtPath: 'BlockEntityTag.McItems',
+      check: (value) => value && rftoolsCheck(value),
+    },
+    {
+      pattern: 'pneumaticcraft:smart_chest',
+      nbtPath: 'BlockEntityTag',
+      check: (value) => value,
+    },
+    {
+      pattern: 'pneumaticcraft:reinforced_chest',
+      nbtPath: 'BlockEntityTag',
+      check: (value) => value,
+    },
+    {
+      pattern: 'avaritia:compressed_chest',
+      nbtPath: 'stackCount',
+      check: (value) => value > 0,
+    },
+    {
+      pattern: /^.*mekanism.*/,
+      nbtPath: 'mekData.Items',
+      check: (value) => value && value.length > 0,
+    },
+    {
+      pattern: /^.*mekanism.*/,
+      nbtPath: 'mekData.componentUpgrade.upgrades',
+      check: (value) => value && value.length > 0,
+    },
+    {
+      pattern: /^.*mekanism.*/,
+      nbtPath: 'mekData.componentUpgrade.Items',
+      check: (value) => value && value.length > 0,
+    },
+    {
+      pattern: /^.*mekanism.*/,
+      nbtPath: 'mekData.FluidTanks',
+      check: (value) => value && value.length > 0,
+    },
+    {
+      pattern: /^.*mekanism.*/,
+      nbtPath: 'mekData.GasTanks',
+      check: (value) => value && value.length > 0,
+    },
+    {
+      pattern: /^.*mekanism.*/,
+      nbtPath: 'mekData.InfusionTanks',
+      check: (value) => value && value.length > 0,
+    },
   ];
+
+  function rftoolsCheck(array) {
+    for(const item of array) {
+      if(item.id != 10.0) {
+        console.log("true")
+        return true;
+      }
+    }
+    return false;
+  }
 
   // check for conditionalBannedItems
   let nbtValue;

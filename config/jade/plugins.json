@@ -134,9 +134,6 @@
   "projectexpansion": {
     "provider": true
   },
-  "pipez": {
-    "pipe": true
-  },
   "woot_revived": {
     "machines": true
   },

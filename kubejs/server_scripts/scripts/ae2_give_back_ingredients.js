@@ -5,19 +5,6 @@ ItemEvents.rightClicked((event) => {
   if (item.isEmpty()) return;
 
   const items = {
-    'ae2additions:65536k_crafting_storage': {
-      outputs: ['ae2additions:cell_component_65536', 'ae2:crafting_unit'],
-    },
-    'ae2additions:16384k_crafting_storage': {
-      outputs: ['ae2additions:cell_component_16384', 'ae2:crafting_unit'],
-    },
-    'ae2additions:4096k_crafting_storage': {
-      outputs: ['ae2additions:cell_component_4096', 'ae2:crafting_unit'],
-    },
-    'ae2additions:1024k_crafting_storage': {
-      outputs: ['ae2additions:cell_component_1024', 'ae2:crafting_unit'],
-    },
-
     'extendedae_plus:1024x_crafting_accelerator': {
       outputs: [
         'ae2:cell_component_256k',

@@ -37,7 +37,7 @@ ServerEvents.recipes((event) => {
           nbt: '{woodType:"oak"}',
         },
         G: {
-          item: 'ae2additions:disk_item_65536k',
+          item: 'ae2omnicells:quantum_omni_cell_256m',
         },
         H: {
           item: 'cyclic:user',

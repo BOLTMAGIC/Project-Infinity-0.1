@@ -64,7 +64,7 @@ ServerEvents.recipes((event) => {
   //spirited_crystal_block
   event.custom({
     type: 'powah:energizing',
-    ingredients: [{ tag: '#forge:storage_blocks/uranium' }],
+    ingredients: [{ tag: 'forge:storage_blocks/uranium' }],
     energy: 4500000,
     result: {
       item: 'powah:uraninite_block',

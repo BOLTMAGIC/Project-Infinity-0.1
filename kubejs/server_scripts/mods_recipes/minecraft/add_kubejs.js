@@ -1,4 +1,4 @@
 ServerEvents.recipes((event) => {
-  shapeless(event, 'kubejs:empty_battery_nitro', ['kubejs:empty_battery_nitro']);
-  shapeless(event, 'kubejs:empty_battery_nitro', ['kubejs:empty_battery_nitro']);
+  shapeless(event, '9x minecraft:glass', ['kubejs:compressed_glass']);
+  shapeless(event, 'kubejs:compressed_glass', ['9x minecraft:glass']);
 });

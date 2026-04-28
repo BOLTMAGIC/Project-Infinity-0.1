@@ -2404,6 +2404,29 @@
 			x: -7.0d
 			y: 11.5d
 		}
+		{
+			dependencies: ["47A2266666468E4D"]
+			description: [
+				"While having Blank Pattern in your Inventory and pressing Q on a Item in JEI it will generate a Pattern for you."
+				""
+				"Pressing Shift + LMB on a Item in JEI gives you a stack of this item in your inventory (needs wireless terminal)."
+				"if you dont have the items and have patterns you go into the request window"
+			]
+			id: "760CBB459BBF2621"
+			optional: true
+			rewards: [{
+				id: "282D9C8F07F202B0"
+				type: "xp"
+				xp: 1
+			}]
+			tasks: [{
+				id: "7A5BB7D6E45CBC56"
+				title: "Tips"
+				type: "checkmark"
+			}]
+			x: -3.0d
+			y: 8.0d
+		}
 	]
 	title: "&3Applied Energistics 2&r"
 }

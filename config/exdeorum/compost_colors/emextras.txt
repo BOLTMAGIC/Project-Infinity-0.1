@@ -1,6 +1,0 @@
-// Compost colors for emextras. You may add your own colors, change existing ones, or remove colors that aren't needed.
-absolute_overclocked_control_circuit, #58da26
-base_control_circuit, #727272
-cosmic_dense_control_circuit, #ffc3d6
-infinite_multiversal_control_circuit, #bb9d89
-supreme_quantum_control_circuit, #f25570

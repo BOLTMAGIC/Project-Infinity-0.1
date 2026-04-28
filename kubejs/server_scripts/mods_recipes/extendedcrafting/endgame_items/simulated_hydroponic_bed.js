@@ -67,7 +67,10 @@ ServerEvents.recipes((event) => {
           item: 'cyclic:soil',
         },
         O: {
+          type: 'forge:nbt',
           item: 'mysticalagriculture:supremium_hoe',
+          count: 1,
+          nbt: '{Damage:0}',
         },
         P: {
           item: 'industrialforegoing:hydroponic_bed',

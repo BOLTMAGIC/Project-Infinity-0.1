@@ -15,9 +15,3 @@
 		#Energy needed (in Joules) per tick to process the recipe.
 		energyPerInput = "100000"
 
-	#Items Settings
-	[general.items]
-		#Defines the machine tier up to which the maximum tier installer should go
-		#Allowed Values: BASIC, ADVANCED, ELITE, ULTIMATE, CREATIVE, OVERCLOCKED, QUANTUM, DENSE, MULTIVERSAL
-		maxInstallerTier = "MULTIVERSAL"
-

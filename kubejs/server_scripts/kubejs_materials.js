@@ -88,17 +88,6 @@ ServerEvents.recipes((event) => {
     'mysticalagriculture:ultimate_infinity_essence',
     'mysticalagriculture:ultimate_infinity_essence',
   ]);
-  create3x3(event, 'emextras:infinite_multiversal_control_circuit', [
-    'mysticalagriculture:ultimate_infinity_essence',
-    'minecraft:air',
-    'minecraft:air',
-    'mysticalagriculture:ultimate_infinity_essence',
-    'mysticalagriculture:ultimate_infinity_essence',
-    'minecraft:air',
-    'mysticalagriculture:ultimate_infinity_essence',
-    'mysticalagriculture:ultimate_infinity_essence',
-    'mysticalagriculture:ultimate_infinity_essence',
-  ]);
   create3x3(event, 'evolvedmekanism:creative_control_circuit', [
     'mysticalagriculture:ultimate_infinity_essence',
     'mysticalagriculture:ultimate_infinity_essence',

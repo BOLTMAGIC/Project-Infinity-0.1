@@ -823,6 +823,11 @@
 					item: "chisel_chipped_integration:technical_fan"
 					type: "item"
 				}
+				{
+					id: "218CD0AC4C9ED441"
+					item: "exdeorum:cobalt_ore_chunk"
+					type: "item"
+				}
 			]
 			title: "Auto Sieve"
 			x: 9.5d

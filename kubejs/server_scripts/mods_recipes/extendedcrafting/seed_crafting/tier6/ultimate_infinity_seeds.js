@@ -37,7 +37,7 @@ ServerEvents.recipes((event) => {
           item: 'extendedcrafting:ultimate_singularity',
         },
         H: {
-          item: 'emextras:infinite_multiversal_control_circuit',
+          item: 'mekanism_extras:infinite_control_circuit',
         },
         I: {
           item: 'kubejs:empowered_super_block',

@@ -52,7 +52,7 @@ ServerEvents.recipes((event) => {
           nbt: '{mekData:{InfusionTanks:[{Tank:0b,stored:{amount:64000L,infuseTypeName:"evolvedmekanism:plaslitherite"}}]}}',
         },
         L: {
-          item: 'emextras:cosmic_dense_control_circuit',
+          item: 'evolvedmekanism:dense_control_circuit',
         },
         M: {
           type: 'forge:partial_nbt',
@@ -70,7 +70,7 @@ ServerEvents.recipes((event) => {
           item: 'evolvedmekanism:alloy_hypercharged',
         },
         Q: {
-          item: 'emextras:infinite_multiversal_control_circuit',
+          item: 'mekanism_extras:infinite_control_circuit',
         },
         R: {
           item: 'evolvedmekanism:multiversal_control_circuit',

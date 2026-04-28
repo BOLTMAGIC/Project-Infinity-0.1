@@ -24,22 +24,6 @@
 		creativeStorage = "18446744073709551615.9999"
 		#Output rate in Joules of Creative energy cubes.
 		creativeOutput = "18446744073709551615.9999"
-		#Maximum number of Joules Overclocked energy cubes can store.
-		overclockedStorage = "1024000000"
-		#Output rate in Joules of Overclocked energy cubes.
-		overclockedOutput = "1024000"
-		#Maximum number of Joules Quantum energy cubes can store.
-		quantumStorage = "4096000000"
-		#Output rate in Joules of Quantum energy cubes.
-		quantumOutput = "4096000"
-		#Maximum number of Joules Dense energy cubes can store.
-		denseStorage = "16384000000"
-		#Output rate in Joules of Dense energy cubes.
-		denseOutput = "16384000"
-		#Maximum number of Joules Multiversal energy cubes can store.
-		multiversalStorage = "65536000000"
-		#Output rate in Joules of Multiversal energy cubes.
-		multiversalOutput = "65536000"
 
 	#Fluid Tanks
 	[tier.fluid_tanks]
@@ -73,30 +57,6 @@
 		#Output rate of Creative fluid tanks in mB.
 		#Range: > 1
 		creativeOutput = 1073741823
-		#Storage size of Overclocked fluid tanks in mB.
-		#Range: > 1
-		overclockedStorage = 512000
-		#Output rate of Overclocked fluid tanks in mB.
-		#Range: > 1
-		overclockedOutput = 256000
-		#Storage size of Quantum fluid tanks in mB.
-		#Range: > 1
-		quantumStorage = 1024000
-		#Output rate of Quantum fluid tanks in mB.
-		#Range: > 1
-		quantumOutput = 1024000
-		#Storage size of Dense fluid tanks in mB.
-		#Range: > 1
-		denseStorage = 2048000
-		#Output rate of Dense fluid tanks in mB.
-		#Range: > 1
-		denseOutput = 4096000
-		#Storage size of Multiversal fluid tanks in mB.
-		#Range: > 1
-		multiversalStorage = 4096000
-		#Output rate of Multiversal fluid tanks in mB.
-		#Range: > 1
-		multiversalOutput = 16384000
 
 	#Chemical Tanks
 	[tier.chemical_tanks]
@@ -130,30 +90,6 @@
 		#Output rate of Creative chemical tanks in mB.
 		#Range: 1 ~ 9223372036854775807
 		creativeOutput = 4611686018427387903
-		#Storage size of Overclocked chemical tanks in mB.
-		#Range: 1 ~ 9223372036854775807
-		overclockedStorage = 65536000
-		#Output rate of Overclocked chemical tanks in mB.
-		#Range: 1 ~ 9223372036854775807
-		overclockedOutput = 2048000
-		#Storage size of Quantum chemical tanks in mB.
-		#Range: 1 ~ 9223372036854775807
-		quantumStorage = 524288000
-		#Output rate of Quantum chemical tanks in mB.
-		#Range: 1 ~ 9223372036854775807
-		quantumOutput = 8192000
-		#Storage size of Dense chemical tanks in mB.
-		#Range: 1 ~ 9223372036854775807
-		denseStorage = 4194304000
-		#Output rate of Dense chemical tanks in mB.
-		#Range: 1 ~ 9223372036854775807
-		denseOutput = 32768000
-		#Storage size of Multiversal chemical tanks in mB.
-		#Range: 1 ~ 9223372036854775807
-		multiversalStorage = 33554432000
-		#Output rate of Multiversal chemical tanks in mB.
-		#Range: 1 ~ 9223372036854775807
-		multiversalOutput = 131072000
 
 	#Bins
 	[tier.bins]
@@ -172,18 +108,6 @@
 		#The number of items Creative bins can store.
 		#Range: > 1
 		creativeStorage = 2147483647
-		#The number of items Overclocked bins can store.
-		#Range: > 1
-		overclockedStorage = 2097152
-		#The number of items Quantum bins can store.
-		#Range: > 1
-		quantumStorage = 16777216
-		#The number of items Dense bins can store.
-		#Range: > 1
-		denseStorage = 134217728
-		#The number of items Multiversal bins can store.
-		#Range: > 1
-		multiversalStorage = 1073741824
 
 	#Induction
 	[tier.induction]
@@ -195,16 +119,6 @@
 		eliteStorage = "512000000000"
 		#Maximum number of Joules Ultimate induction cells can store.
 		ultimateStorage = "4000000000000"
-		#Maximum number of Joules Overclocked induction cells can store.
-		overclockedStorage = "32000000000000"
-		#Maximum number of Joules Quantum induction cells can store.
-		quantumStorage = "256000000000000"
-		#Maximum number of Joules Dense induction cells can store.
-		denseStorage = "2048000000000000"
-		#Maximum number of Joules Multiversal induction cells can store.
-		multiversalStorage = "16384000000000000"
-		#Maximum number of Joules Creative induction cells can store.
-		creativeStorage = "18446744073709551615.9999"
 		#Maximum number of Joules Basic induction providers can output or accept.
 		basicOutput = "256000"
 		#Maximum number of Joules Advanced induction providers can output or accept.
@@ -213,16 +127,6 @@
 		eliteOutput = "16384000"
 		#Maximum number of Joules Ultimate induction providers can output or accept.
 		ultimateOutput = "131072000"
-		#Maximum number of Joules Overclocked induction providers can output or accept.
-		overclockedOutput = "1048576000"
-		#Maximum number of Joules Quantum induction providers can output or accept.
-		quantumOutput = "8388608000"
-		#Maximum number of Joules Dense induction providers can output or accept.
-		denseOutput = "67108864000"
-		#Maximum number of Joules Multiversal induction providers can output or accept.
-		multiversalOutput = "536870912000"
-		#Maximum number of Joules Creative induction providers can output or accept.
-		creativeOutput = "18446744073709551615.9999"
 
 	#Transmitters
 	[tier.transmitters]
@@ -237,16 +141,6 @@
 			eliteCapacity = "1024000"
 			#Internal buffer in Joules of each Ultimate universal cable.
 			ultimateCapacity = "8192000"
-			#Internal buffer in Joules of each Overclocked universal cable.
-			overclockedCapacity = "65536000"
-			#Internal buffer in Joules of each Quantum universal cable.
-			quantumCapacity = "524288000"
-			#Internal buffer in Joules of each Dense universal cable.
-			denseCapacity = "4194304000"
-			#Internal buffer in Joules of each Multiversal universal cable.
-			multiversalCapacity = "33554432000"
-			#Internal buffer in Joules of each Creative universal cable.
-			creativeCapacity = "9223372036854775807"
 
 		#Mechanical Pipes
 		[tier.transmitters.fluid]
@@ -274,36 +168,6 @@
 			#Pump rate of Ultimate mechanical pipes in mB/t.
 			#Range: > 1
 			ultimatePullAmount = 32000
-			#Capacity of Overclocked mechanical pipes in mB.
-			#Range: > 1
-			overclockedCapacity = 1024000
-			#Pump rate of Overclocked mechanical pipes in mB/t.
-			#Range: > 1
-			overclockedPullAmount = 256000
-			#Capacity of Quantum mechanical pipes in mB.
-			#Range: > 1
-			quantumCapacity = 8192000
-			#Pump rate of Quantum mechanical pipes in mB/t.
-			#Range: > 1
-			quantumPullAmount = 2048000
-			#Capacity of Dense mechanical pipes in mB.
-			#Range: > 1
-			denseCapacity = 65536000
-			#Pump rate of Dense mechanical pipes in mB/t.
-			#Range: > 1
-			densePullAmount = 16384000
-			#Capacity of Multiversal mechanical pipes in mB.
-			#Range: > 1
-			multiversalCapacity = 524288000
-			#Pump rate of Multiversal mechanical pipes in mB/t.
-			#Range: > 1
-			multiversalPullAmount = 131072000
-			#Capacity of Creative mechanical pipes in mB.
-			#Range: > 1
-			creativeCapacity = 2147483647
-			#Pump rate of Creative mechanical pipes in mB/t.
-			#Range: > 1
-			creativePullAmount = 2147483647
 
 		#Pressurized Tubes
 		[tier.transmitters.chemical]
@@ -331,36 +195,6 @@
 			#Pump rate of Ultimate pressurized tubes in mB/t.
 			#Range: 1 ~ 9223372036854775807
 			ultimatePullAmount = 256000
-			#Capacity of Overclocked pressurized tubes in mB.
-			#Range: 1 ~ 9223372036854775807
-			overclockedCapacity = 8192000
-			#Pump rate of Overclocked pressurized tubes in mB/t.
-			#Range: 1 ~ 9223372036854775807
-			overclockedPullAmount = 2048000
-			#Capacity of Quantum pressurized tubes in mB.
-			#Range: 1 ~ 9223372036854775807
-			quantumCapacity = 65536000
-			#Pump rate of Quantum pressurized tubes in mB/t.
-			#Range: 1 ~ 9223372036854775807
-			quantumPullAmount = 16384000
-			#Capacity of Dense pressurized tubes in mB.
-			#Range: 1 ~ 9223372036854775807
-			denseCapacity = 524288000
-			#Pump rate of Dense pressurized tubes in mB/t.
-			#Range: 1 ~ 9223372036854775807
-			densePullAmount = 131072000
-			#Capacity of Multiversal pressurized tubes in mB.
-			#Range: 1 ~ 9223372036854775807
-			multiversalCapacity = 4194304000
-			#Pump rate of Multiversal pressurized tubes in mB/t.
-			#Range: 1 ~ 9223372036854775807
-			multiversalPullAmount = 1048576000
-			#Capacity of Creative pressurized tubes in mB.
-			#Range: 1 ~ 9223372036854775807
-			creativeCapacity = 9223372036854775807
-			#Pump rate of Creative pressurized tubes in mB/t.
-			#Range: 1 ~ 9223372036854775807
-			creativePullAmount = 9223372036854775807
 
 		#Logistical Transporters
 		[tier.transmitters.items]
@@ -388,36 +222,6 @@
 			#Five times the travel speed in m/s of Ultimate logistical transporter.
 			#Range: > 1
 			ultimateSpeed = 50
-			#Item throughput rate of Overclocked logistical transporters in items/half second.
-			#Range: > 1
-			overclockedPullAmount = 128
-			#Five times the travel speed in m/s of Overclocked logistical transporter.
-			#Range: > 1
-			overclockedSpeed = 75
-			#Item throughput rate of Quantum logistical transporters in items/half second.
-			#Range: > 1
-			quantumPullAmount = 256
-			#Five times the travel speed in m/s of Quantum logistical transporter.
-			#Range: > 1
-			quantumSpeed = 100
-			#Item throughput rate of Dense logistical transporters in items/half second.
-			#Range: > 1
-			densePullAmount = 512
-			#Five times the travel speed in m/s of Dense logistical transporter.
-			#Range: > 1
-			denseSpeed = 150
-			#Item throughput rate of Multiversal logistical transporters in items/half second.
-			#Range: > 1
-			multiversalPullAmount = 1024
-			#Five times the travel speed in m/s of Multiversal logistical transporter.
-			#Range: > 1
-			multiversalSpeed = 200
-			#Item throughput rate of Creative logistical transporters in items/half second.
-			#Range: > 1
-			creativePullAmount = 2147483647
-			#Five times the travel speed in m/s of Creative logistical transporter.
-			#Range: > 1
-			creativeSpeed = 2147483647
 
 		#Thermodynamic Conductors
 		[tier.transmitters.heat]
@@ -457,49 +261,4 @@
 			#Insulation value of Ultimate thermodynamic conductor.
 			#Range: 0.0 ~ 1.7976931348623157E308
 			ultimateInsulation = 100000.0
-			#Conduction value of Overclocked thermodynamic conductors.
-			#Range: 1.0 ~ 1.7976931348623157E308
-			overclockedInverseConduction = 5.0
-			#Heat capacity of Overclocked thermodynamic conductors.
-			#Range: 1.0 ~ 1.7976931348623157E308
-			overclockedHeatCapacity = 1.0
-			#Insulation value of Overclocked thermodynamic conductor.
-			#Range: 0.0 ~ 1.7976931348623157E308
-			overclockedInsulation = 8192000.0
-			#Conduction value of Quantum thermodynamic conductors.
-			#Range: 1.0 ~ 1.7976931348623157E308
-			quantumInverseConduction = 5.0
-			#Heat capacity of Quantum thermodynamic conductors.
-			#Range: 1.0 ~ 1.7976931348623157E308
-			quantumHeatCapacity = 1.0
-			#Insulation value of Quantum thermodynamic conductor.
-			#Range: 0.0 ~ 1.7976931348623157E308
-			quantumInsulation = 6.5536E7
-			#Conduction value of Dense thermodynamic conductors.
-			#Range: 1.0 ~ 1.7976931348623157E308
-			denseInverseConduction = 5.0
-			#Heat capacity of Dense thermodynamic conductors.
-			#Range: 1.0 ~ 1.7976931348623157E308
-			denseHeatCapacity = 1.0
-			#Insulation value of Dense thermodynamic conductor.
-			#Range: 0.0 ~ 1.7976931348623157E308
-			denseInsulation = 5.24288E8
-			#Conduction value of Multiversal thermodynamic conductors.
-			#Range: 1.0 ~ 1.7976931348623157E308
-			multiversalInverseConduction = 5.0
-			#Heat capacity of Multiversal thermodynamic conductors.
-			#Range: 1.0 ~ 1.7976931348623157E308
-			multiversalHeatCapacity = 1.0
-			#Insulation value of Multiversal thermodynamic conductor.
-			#Range: 0.0 ~ 1.7976931348623157E308
-			multiversalInsulation = 4.194304E9
-			#Conduction value of Creative thermodynamic conductors.
-			#Range: 1.0 ~ 1.7976931348623157E308
-			creativeInverseConduction = 5.0
-			#Heat capacity of Creative thermodynamic conductors.
-			#Range: 1.0 ~ 1.7976931348623157E308
-			creativeHeatCapacity = 1.0
-			#Insulation value of Creative thermodynamic conductor.
-			#Range: 0.0 ~ 1.7976931348623157E308
-			creativeInsulation = 1.7976931348623157E308
 

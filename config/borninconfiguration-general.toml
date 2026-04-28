@@ -14,6 +14,10 @@
 	WARNING_SPAWN_ENABLED = false
 	#Whether you gain naughtiness from certain actions
 	NAUGHTINESS_ENABLED = true
+	#Chaotic Spring event enabled
+	CHAOTIC_SPRING_ENABLED = true
+	#Chilling Horror event enabled
+	CHILLING_HORROR_ENABLED = true
 
 [Weapons]
 	#Amount of phantom bombs that gets spawned when thrown
@@ -809,8 +813,6 @@
 			MS_PUMPKIN_SPEED = 0.2
 
 		[Weapons.Mobs."Nightmare Stalker"]
-			#Whether you get effects when hit by a nightmare stalker
-			NIGHTMARE_EFFECTS_ENABLED = true
 			#Whether nightmare stalker, gets stronger the longer the world is
 			NIGHTMARE_STRENGTH_ENABLED = true
 			#Whether nightmare stalker freezes water

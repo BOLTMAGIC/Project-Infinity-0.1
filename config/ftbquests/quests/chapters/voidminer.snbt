@@ -551,7 +551,7 @@
 			y: -3.0d
 		}
 		{
-			dependencies: ["6A5C0FD659ACF33A"]
+			dependencies: ["4447B5220839E9E6"]
 			description: [
 				"&fThe Voidminer is powerful on its own, but its true potential is unlocked through &dModifiers&f."
 				""
@@ -564,6 +564,8 @@
 				"&a• &fMore modifiers &7= &bBetter performance"
 				"&a• &fMore modifiers &7= &cHigher energy cost"
 				"&a• &fHigher miner tiers &7= &aMore modifier slots"
+				""
+				"You can install the first modifier from Tier 2+. The first Tier &4Rubetine&r does not have a slot for a Modifier"
 				""
 				"&cPoor power management will shut the miner down."
 				""
@@ -662,7 +664,6 @@
 		}
 		{
 			dependencies: ["6FF80530D4F0FD81"]
-			hide_dependent_lines: true
 			id: "6E34E7248F1B7E27"
 			rewards: [{
 				id: "601D2807D223A469"
@@ -971,7 +972,7 @@
 				"&fStorage Upgrades increase the &ainternal item storage&f of a Voidminer."
 				"&fThis allows the miner to run longer without external item extraction."
 				""
-				"&7&lImportant Rules"
+				"&aImportant Rules&r"
 				""
 				"&c• &fStorage Upgrades are &lNOT cumulative"
 				"&c• &fOnly &lONE&f Storage Upgrade can be installed per Voidminer"
@@ -994,7 +995,7 @@
 			y: -5.0d
 		}
 		{
-			dependencies: ["6E34E7248F1B7E27"]
+			dependencies: ["00BFF2A289A45C93"]
 			description: [
 				"&fIncreases the &aenergy output&f of connected Solar Panels."
 				""
@@ -1004,6 +1005,7 @@
 				""
 				"&fRecommended for: &bHigh-output solar setups&f"
 			]
+			hide_dependency_lines: true
 			id: "457A6496FA02E39E"
 			rewards: [{
 				id: "78A02E4004B9386B"
@@ -1020,7 +1022,7 @@
 			y: 2.0d
 		}
 		{
-			dependencies: ["6E34E7248F1B7E27"]
+			dependencies: ["00BFF2A289A45C93"]
 			description: [
 				"&fAllows Solar Panels to &agenerate energy&f during"
 				"&brain, storms, and other bad weather."
@@ -1031,6 +1033,7 @@
 				""
 				"&fRecommended for: &bStable and uninterrupted power generation&f"
 			]
+			hide_dependency_lines: true
 			id: "399AB99920896FE3"
 			rewards: [{
 				id: "69B3733B674041F5"

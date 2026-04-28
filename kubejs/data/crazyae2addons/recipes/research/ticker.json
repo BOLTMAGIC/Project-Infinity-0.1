@@ -1,0 +1,22 @@
+{
+      "type": "crazyae2addons:research",
+      "duration": 1036800,
+      "energy_per_tick": 500,
+      "gadget": true,
+      "consumables": [
+        { "item": "botanicalextramachinery:aureate_ingot", "count": 32, "computation": 531 },
+        { "item": "extendedcrafting:nether_star_block", "count": 64, "computation": 469 },
+        { "item": "extendedcrafting:nether_star_block", "count": 64, "computation": 469 },
+        { "item": "extendedcrafting:nether_star_block", "count": 64, "computation": 469 },
+        { "item": "botanicalextramachinery:aureate_ingot", "count": 32, "computation": 531 },
+        { "item": "extendedcrafting:nether_star_block", "count": 64, "computation": 469 },
+        { "item": "extendedcrafting:nether_star_block", "count": 64, "computation": 469 },
+        { "item": "extendedcrafting:nether_star_block", "count": 64, "computation": 469 }
+      ],
+      "drive": true,
+      "unlock": {
+        "key": "crazyae2addons:entity_ticker_research",
+        "label": "Entity ticker",
+        "item": "crazyae2addons:entity_ticker"
+      }
+    }

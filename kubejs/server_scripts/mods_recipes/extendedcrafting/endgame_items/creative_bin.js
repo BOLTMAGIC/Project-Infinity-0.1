@@ -16,7 +16,7 @@ ServerEvents.recipes((event) => {
       ],
       key: {
         A: {
-          item: 'emextras:infinite_multiversal_control_circuit',
+          item: 'mekanism_extras:infinite_control_circuit',
         },
         B: {
           item: 'avaritia:infinity',

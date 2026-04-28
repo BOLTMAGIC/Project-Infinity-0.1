@@ -215,6 +215,36 @@ ServerEvents.recipes((event) => {
     1
   );
 
+
+  combining(
+    event,
+    1,
+    'nuclearcraft:chromium_ingot',
+    1,
+    'thermal:steel_ingot',
+    'nuclearcraft:stainless_steel_ingot',
+    1
+  );
+
+  combining(
+    event,
+    1,
+    'mekanism:ingot_steel',
+    1,
+    'nuclearcraft:boron_ingot',
+    'nuclearcraft:ferroboron_ingot',
+    1
+  );
+  combining(
+    event,
+    1,
+    'mekanism:block_steel',
+    1,
+    'nuclearcraft:boron_block',
+    'kubejs:ferroboron_block',
+    1
+  );
+
   combining(
     event,
     1,
@@ -227,19 +257,48 @@ ServerEvents.recipes((event) => {
   combining(
     event,
     1,
-    'nuclearcraft:chromium_ingot',
+    'kubejs:ferroboron_block',
     1,
-    'thermal:steel_ingot',
-    'nuclearcraft:stainless_steel_ingot',
+    'nuclearcraft:lithium_block',
+    'kubejs:tough_alloy_block',
+    1
+  );
+
+  combining(
+    event,
+    1,
+    'minecraft:diamond',
+    1,
+    'nuclearcraft:graphite_ingot',
+    'nuclearcraft:hard_carbon_ingot',
     1
   );
   combining(
     event,
     1,
-    'nuclearcraft:hard_carbon_ingot',
+    'minecraft:diamond_block',
+    1,
+    'nuclearcraft:graphite_block',
+    'kubejs:hard_carbon_block',
+    1
+  );
+
+  combining(
+    event,
     1,
     'nuclearcraft:tough_alloy_ingot',
+    1,
+    'nuclearcraft:hard_carbon_ingot',
     'nuclearcraft:extreme_ingot',
+    1
+  );
+  combining(
+    event,
+    1,
+    'kubejs:tough_alloy_block',
+    1,
+    'kubejs:hard_carbon_block',
+    'kubejs:extreme_block',
     1
   );
 });

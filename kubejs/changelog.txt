@@ -1,1 +1,241 @@
-hi ;:)
+changelog v. 0.0.49.0
+-Updated some mods
+----------
+Mods added:
+-Replaced JEI with JEIAsync
+-Canary
+-Nether Package Fixer (to fix the nether if it gets removed) (thx you MiniMaxi)
+-BetterBlockZ
+-FancyMenu
+----------
+Mods removed:
+-Pipez
+-AE Additions
+-AE2 Things
+-Evolved Mekanism (it will get replaced with a fork from me that only contain the APT, alloys and circuits)
+-Evolved Mekanism Extra (the compat for Evolved Mekanism and Mekanism Extra. Mekanism Extra stays!)
+----------
+Mod INFO:
+-mods maybe getting removed:
+    -Occultism
+    -Chemlib and Alchemistry
+    -Extreme/ Big Reactors
+
+-mods getting removed in 0.0.50.0:
+    -Incendium
+    -This will make the Nether inaccesible the first time you load your world, just exit it and load it again
+
+-mods getting removed in 0.0.51.0:
+    -YTones (its discontinued, replaced with BetterBlockZ)
+----------
+Recipe changes and fixes:
+-changed every recipe that used the removed mods
+-changed recipe for SFM Cable (easier) (thx to thereitisdude)
+-fixed sim hydroponic beds recipe
+-fixed entity ticker recipe
+-blacklisted some items from the entity ticker
+----------
+Mod changes and fixes:
+-fixed Daisys not working with in and outputing items
+
+
+changelog v. 0.0.48.2
+-UPDATED FORGE TO 47.4.20!!!!!!!!!!!!!!!!!!!!
+-UPDATED SOME MODS
+-updated Blackout AE2
+----------
+Mods added:
+-Icterine
+----------
+Mods removed:
+-Advancement Nuker (fix server loading error)
+-ShetiPhianCore (not used)
+-Clean Swing Through Grass (its not a adventure pack)
+-Equipment Compare (not used)
+-Iceberg (Equipment Compare lib)
+----------
+Mod INFO:
+-mods maybe getting removed:
+    -Occultism
+    -Chemlib and Alchemistry
+    -Extreme/ Big Reactors
+-mods getting removed next update (0.0.49.0):
+    -Pipez
+    -AE Additions
+    -AE2 Things
+    -Evolved Mekanism (it will get replaced with a fork from me that only contain the APT, alloys and circuits)
+        -pls remove all factorys from Evolved Mekanism and place Mekanism Extra Factorys! Thank you!
+    -Evolved Mekanism Extra (the compat for Evolved Mekanism and Mekanism Extra. Mekanism Extra stays!)
+----------
+Recipe changes and fixes:
+-loot fabriaction chamber multiblock now does not consume the item. better for recursive crafts
+-changed EMC value for wither aconite from 16 to 5 billion (thx to horjop007)
+-fixed liquid_sculk_matter in fire attuned t2 (thx to matty661)
+-changed chance for soul_star from 0.5 to 0.01 but removed the structure requirement (thx to pharuxtan)
+-added Pinky Tier 2 to the MBtool
+-changed the ExtendedAE Assembler Matrix layout to only use 1 speed core plus
+-added curio tag to the personal_shrinking_device (thx to MiniMaxi)
+-fixed wither aconite craft (thx to MiniMaxi)
+-changed recipe for entangled block (thx a lot dori_combo for saying its to easy)
+-changed recipe for crazy AE2 entity_ticker (thx to dori_combo again saying "amazing". hate him not me)
+-added recipe for uraninite_block (thx to Solardaisy)
+-changed recipe for the slayer armor (thx to rekohart)
+-changed recipe for the Atomic Disassembler (it can mine ores it should not be able to mine....)
+
+
+changelog v. 0.0.48.1
+-updated some mods
+--------
+Mods removed:
+-Avaritia Asgarddandelions now really!
+--------
+Mod INFO:
+-mods maybe getting removed:
+    -Occultism
+    -Chemlib and Alchemistry
+    -Extreme/ Big Reactors
+
+-mods getting removed next update:
+    -Pipez
+    -AE Additions
+    -AE2 Things
+--------
+Recipe changes and fixes:
+-removed a recipe from essence to neutronium nugget
+-fixed lexia botania and blood magic book error
+-Compact machines first 3 tiers are craftable again
+-fixed Advancements for twilight forest
+-disabled spawns for THORNSHELL_CRAB
+-new recipe for enchanting_infuser
+-changed insanite ingot to blutonium ingot
+-!!!!fixed Advancement Crash!!!!
+-fixed gem armor
+-changed insanite ingot to blutonium ingot
+-swapped Essenceforge T2 an T3 recipes
+-t1 and t2 can do 3 parallel processing
+-t3 and t4 0 parallel processing
+--------
+Mod changes and fixes:
+-fixed console spam for masterful machinery
+-GUI changed for masterful machinery
+
+
+changelog v. 0.0.48.0
+-updated some mods
+---------
+Mod added:
+-Recipe Advancements Nuker
+-Spark
+-Measurements
+-added logistic networks
+-removed Botany Pots and replaced it with Botany Pots FPS Fix from MiniMaxi
+-this will save a lot of FPS and TPS
+-replaced Iron Furnaces Enhanced with the Original Iron Furnaces (the dev merged my code into his mod)
+-----------
+Mods removed:
+-Chance Cube
+-The Aether
+-Avaritia Asgarddandelions
+-Quests Freeze Fix
+------------
+Mod INFO:
+-mods maybe getting removed:
+    -Occultism
+    -Chemlib and Alchemistry
+-mods getting removed next update:
+    -Pipez DONT USE THEM ANYMORE!
+    -AE Additions
+    -AE2 Things
+--------------
+Recipe changes and fixes:
+-REMOVED THE AETHER! changed every recipe that got a aether item to another item
+-removed compact machine biggest 3 room recipes because they crash servers and clients
+-removed recipe for projectexpansion transmutation_interface
+-added tier 4 essenceforge (thx to KYO297)
+-fixed prediction chamber layout and nbt (thx to MiniMaxi and grinchfan22)
+-fixed creative energy cube recipe (thx to grinchfan22)
+-changed some quest things
+-changed the HNN models for Twillight Forest bosses to need 2 kills not 6
+-changed Enderman datamodel. you can get enderman heads from enderio and tinkers (thx to j00nyyyy)
+-changed chaos shard recipe from ult prediction to chaos guardian prediction (thx to potatoman999)
+-added botania gaia drops to the loot fab plant (thx to MiniMaxi)
+-fixed canola flax and rice seeds in botany pots (thx to grinchfan22)
+-fixed rechiseled to stonecutter code (thx to MiniMaxi)
+-fixed recipe viewer for the ifwootaddon:laser_drill_upgrade (thx to MiniMaxi)
+-changed collector recipe for MK2 uses inf1 and MK3 uses inf8 (thx to Color)
+-changed loot fab multiblock recipes to not use the 1 item you put into the input
+-disabled tinker swasher drops from mobs (thx to Desdaa)
+-changed woot config (thank you a lot Desdaa!!!)
+-added a max size mekanism fission reactor (thx to MiniMaxi)
+-added recipe to change botania rings (thx to MiniMaxi)
+-added a recipe for 9x glass into compressed glass (thx to kylesexton)
+-changed the ME Requester to have 16 slots (not 5) (thx to vmohammad)
+-Extended AE plus Accelerators and AE2Additions Crafting Storages shift click the air gives back ingredients (thx to MiniMaxi)
+-Added Eterna values for Avaritia blocks (thx to MiniMaxi)
+-added Marble and Basalt seeds to JEI (thx to MiniMaxi)
+-Removed Hammerlib Gears from everywhere (thx to MiniMaxi)
+-Added bloodmagic:life_essence_fluid to the Pinky Crimson Iron Ingot recipe (thx to MiniMaxi)
+-Removed extendedcrafting:advanced_table from JEI blacklist (thx to MiniMaxi)
+-Removed NBT from Jetpack crafts (thx to MiniMaxi)
+-Add decompression recipes for Double and Triple Compressed Iron Block (thx to MiniMaxi)
+-Change craft of Conduit Probe to not use the very expensive Energy Conduit (thx to MiniMaxi)
+-Added reversal crafts for floating flower for Botania and MythicBotany (thx to MiniMaxi)
+-Removed Mana Infuser + machines + crafts (thx to MiniMaxi)
+-Removed Chaos machines from Draconic Additions and also Modules that cannot be used (thx to MiniMaxi)
+-Add Draconium Dust recipes from Draconium Ingot in the Crusher, Manufactory and Pulverizer (thx to MiniMaxi)
+-Add 3 Nuclearcraft ingots crafts to Mekanism Combiner (thx to MiniMaxi)
+-changed recipes for logistic networks, curvy pipes, SFM (dont hate me)
+-changed recipe for Gem Armor (ProjectE) (thx to Lightreaper45)
+-changed loot pool in dynamic dungeons for mekanism polonium, plutonium and antimatter pellets
+-changed the chance for the ghast tear to polonium from chemlib in a dissolver from 100% to 5%
+-removed EMC from Infinity 11 and 12 (thx to KYO297)
+-added a recipe from 344064 double compressed dust blocks with a 13.3% chance to get 4 hellforged parts in a compactor multiblock (thats 27.869.184 blocks of coal.)
+-improved loading times (thank you a lot radimous)
+-added Pinky Tier 2 and some recipes
+-changed soulstone, shape_card_void, gadget_destruction and soul_heart_canister recipe
+-changed recipe for the ender dragon armor
+-changed recipe for creative tank
+-loot fabrication plant recipe changed. it will use single item!
+-fixed dupe (thx to tekaro_)
+-added recipe for quantum infusion in the fire attuned multiblock
+-changed chaos shard recipe (changed ultimate heart to insanite_ingot and from 20 to 33% to get consumed) (thx to jean._. and DoctorBlaze) (hate jean._. not me)
+-added recipe for 5 of 11 ME inf Cells
+-added some filled soul vial dummy items
+-fixed solar plasteel recipe
+-added a NBT remover item and recipe (thx to MiniMaxi)
+-code cleanup
+-added recipe for the spawner extractor in the entropy cradle (dont hate me)
+-added texture for inf 3, inf 5 and inf 6 (thx to MiniMaxi)
+-mbtool config change
+---------
+Mod changes and fixes:
+-masterful machinery TPS fix
+-small botanical machinery extra fixes and new sparks
+-Voidminers Preview fixed for miners and solar panels
+-Solarpanels now can transfer more than 2.1 GFE/t
+
+
+changelog v. 0.0.47.3
+-----------------------------------------------------------
+Mods removed:
+-DragonLib (thx to grinchfan22)
+-Whats that slot
+-FindME
+-----------------------------------------------------------
+Mod INFO:
+-mods maybe getting removed:
+    -The Aether
+    -Occultism
+    -Chemlib and Alchemistry
+    -Chance Cube
+-----------------------------------------------------------
+Recipe changes and fixes:
+-fixed hydroangeas and pure daisy craft (Thx to MiniMaxi!)
+-fixed essenceforge parallelProcessing (thx to thornado7942)
+-added ME Inf lava cell (thx to vmohammad_ and grinchfan22)
+-added dirt, gravel, sand, dust, netherrack, end stone, blackstone, prosperity shard ME inf Cells (thx to srgato.)
+-added soul lava to get used in the Powah Magmator
+-----------------------------------------------------------
+Mod changes and fixes:
+-downgraded Botanical Machinery Extra to fix a crash
+-the pure daisy water to snow block feature is not working anymore. sorry!

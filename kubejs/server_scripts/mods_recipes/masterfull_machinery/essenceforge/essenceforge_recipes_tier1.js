@@ -164,6 +164,7 @@ function createSeedRecipes(event, seeds) {
       .create(`mm:essenceforge_${seed.replace(':', '_')}`)
       .structureId('mm:essenceforge_tier1_structure')
       .ticks(400)
+      .parallelProcessing(true)
       // Input Energy
       .input({
         type: 'mm:input/consume',

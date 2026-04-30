@@ -296,6 +296,7 @@ ItemEvents.tooltip((event) => {
   event.addAdvanced(kemCredits, (item, advanced, text) => {
     text.add(1, Text.translate('tooltip.credit.recipe_added', 'Kem5540').red());
   });
+  
 
   event.addAdvanced(
     ['pneumaticcraft:creative_compressor'],
@@ -303,6 +304,16 @@ ItemEvents.tooltip((event) => {
       text.add(
         1,
         Text.translate('tooltip.credit.recipe_added', 'Itz_izumito').red()
+      );
+    }
+  );
+  
+    event.addAdvanced(
+    ['appflux:fe_creative_cell', 'ae2omnicells:creative_ae_cell_long'],
+    (item, advanced, text) => {
+      text.add(
+        1,
+        Text.translate('tooltip.credit.recipe_added', 'kylesexton').red()
       );
     }
   );

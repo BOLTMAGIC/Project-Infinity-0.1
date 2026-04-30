@@ -184,13 +184,13 @@
 			enabled = true
 			# Base XP cost to activate at level 1 (level 2 is this/2)
 			#Range: 1 ~ 9999
-			xp_cost = 50
+			xp_cost = 5000
 			# How many ticks of Absorption hearts given on trigger, 0 to disable
 			#Range: 0 ~ 9999
-			potion_ticks = 600
+			potion_ticks = 1
 			# How many ticks of cooldown, 0 to disable
 			#Range: 0 ~ 99999
-			cooldown = 20
+			cooldown = 6000
 
 		[cyclic.enchantment.traveler]
 			# Set false to stop enchantment from working

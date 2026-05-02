@@ -453,6 +453,10 @@ StartupEvents.registry('item', (e) => {
     .displayName('Tank NBT Remover')
     .texture('kubejs:item/tank_nbt_remover');
   
+  e.create('nuclearcraft_copy_paste_tool')
+    .displayName('Nuclearcraft Copy Paste Tool')
+    .texture('kubejs:item/nuclearcraft_copy_paste_tool');
+  
   function createMekanismCompressed (e, item) {
     e.create('compressed_enriched_' + item)
       .displayName('Compressed Enriched ' + item.charAt(0).toUpperCase() + item.slice(1))

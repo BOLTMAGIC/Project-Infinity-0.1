@@ -429,6 +429,11 @@ ServerEvents.recipes((event) => {
   shapeless(event, 'kubejs:tank_nbt_remover', ['kubejs:full_nbt_remover']);
   shapeless(event, 'minecraft:slime_ball', ['kubejs:tank_nbt_remover']);
 
+  shapeless(event, 'kubejs:nuclearcraft_copy_paste_tool', [
+    'minecraft:stick',
+    'nuclearcraft:plate_basic'
+  ]);
+
   const mekanismEnrichedMaterialsToCompress = [
     { id: 'redstone', mod: 'mekanism' },
     { id: 'carbon', mod: 'mekanism' },

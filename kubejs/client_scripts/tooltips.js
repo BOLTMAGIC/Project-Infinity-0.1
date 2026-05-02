@@ -397,6 +397,11 @@ ItemEvents.tooltip((event) => {
     text.add(2, Text.translate('tooltip.kubejs.tank_nbt_remover_2'));
   });
 
+  event.addAdvanced(['kubejs:nuclearcraft_copy_paste_tool'], (item, advanced, text) => {
+    text.add(1, Text.translate('tooltip.kubejs.nuclearcraft_copy_paste_tool_1'));
+    text.add(2, Text.translate('tooltip.kubejs.nuclearcraft_copy_paste_tool_2'));
+  });
+
   const mekanismEnrichedMaterialsToCompress = [
     { id: 'redstone', machine: 'Elite' },
     { id: 'carbon', machine: 'Elite' },

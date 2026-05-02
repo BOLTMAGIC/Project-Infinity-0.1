@@ -425,7 +425,8 @@ ServerEvents.recipes((event) => {
     'kubejs:auto_mechanical_sieve',
   ]);
 
-  shapeless(event, 'kubejs:tank_nbt_remover', ['minecraft:slime_ball']);
+  shapeless(event, 'kubejs:full_nbt_remover', ['minecraft:slime_ball']);
+  shapeless(event, 'kubejs:tank_nbt_remover', ['kubejs:full_nbt_remover']);
   shapeless(event, 'minecraft:slime_ball', ['kubejs:tank_nbt_remover']);
 
   const mekanismEnrichedMaterialsToCompress = [

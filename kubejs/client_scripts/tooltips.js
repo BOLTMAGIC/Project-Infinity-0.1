@@ -308,7 +308,7 @@ ItemEvents.tooltip((event) => {
     }
   );
   
-    event.addAdvanced(
+  event.addAdvanced(
     ['appflux:fe_creative_cell', 'ae2omnicells:creative_ae_cell_long'],
     (item, advanced, text) => {
       text.add(
@@ -411,5 +411,20 @@ ItemEvents.tooltip((event) => {
       'kubejs:double_compressed_enriched_' + material.id,
       Text.translate('tooltip.kubejs.compressed_material_warning', material.machine)
     );
+  });
+
+  const meshes =[
+    'exdeorum:string_mesh',
+    'exdeorum:flint_mesh',
+    'exdeorum:iron_mesh',
+    'exdeorum:golden_mesh',
+    'exdeorum:diamond_mesh',
+    'exdeorum:netherite_mesh',
+    'kubejs:allthemodium_mesh',
+    'kubejs:vibranium_mesh',
+  ]
+
+  meshes.forEach(mesh => {
+    event.add(mesh,Text.translate('tooltip.exdeorum.mesh_enchant_warning'));
   });
 });

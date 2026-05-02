@@ -1,15 +1,15 @@
 ServerEvents.recipes((event) => {
-  shapeless(event, 'kubejs:vibranium_mesh', [
+  event.smithing('kubejs:vibranium_mesh',
     'cataclysm:ignitium_upgrade_smithing_template',
     'kubejs:allthemodium_mesh',
     'allthemodium:vibranium_nugget',
-  ]);
+  );
 
-  shapeless(event, 'kubejs:allthemodium_mesh', [
+  event.smithing('kubejs:allthemodium_mesh',
     'born_in_chaos_v1:dark_upgrade',
     'exdeorum:netherite_mesh',
     'allthemodium:allthemodium_nugget',
-  ]);
+  );
 
   create3x3(event, 'allthemodium:teleport_pad', [
     'cyclic:netherite_pressure_plate',

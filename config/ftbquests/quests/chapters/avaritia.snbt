@@ -1117,7 +1117,7 @@
 				item: "avaritia:ultimate_stew"
 				type: "item"
 			}]
-			x: -5.0d
+			x: -4.5d
 			y: -4.5d
 		}
 		{
@@ -1134,8 +1134,8 @@
 				item: "avaritia:cosmic_meatballs"
 				type: "item"
 			}]
-			x: -4.0d
-			y: -4.5d
+			x: -4.5d
+			y: -1.5d
 		}
 		{
 			dependencies: [
@@ -1386,19 +1386,6 @@
 			}]
 			x: -1.5d
 			y: -4.5d
-		}
-		{
-			dependencies: ["348E851939EFF3EB"]
-			description: ["An &aexpensive&r &aflower&r crafted at the &bExtreme Crafting Table&r, this is used to provide near &dinfinite mana&r. &6Permanently&r, for &bBotania.&r"]
-			id: "571F902C6B1A5DC7"
-			subtitle: "Asgarda- what now"
-			tasks: [{
-				id: "5BA72A53FBEF045A"
-				item: "botaniaasgard:asgardandelion"
-				type: "item"
-			}]
-			x: -4.5d
-			y: -1.5d
 		}
 	]
 	title: " &5Avaritia"

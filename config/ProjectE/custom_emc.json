@@ -599,6 +599,10 @@
     {
       "item": "sophisticatedbackpacks:netherite_backpack",
       "emc": 0
+    },
+    {
+      "item": "hostilenetworks:deep_learner",
+      "emc": 0
     }
   ]
 }

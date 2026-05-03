@@ -25,6 +25,46 @@
       "north": [],
       "west": [],
       "east": []
+    },
+    "crossroads": {
+      "north": [],
+      "east": [
+        [ 2, 4, 8 ]
+      ],
+      "south": [],
+      "west": []
+    },
+    "fast_ae2_start": {
+      "north": [
+        [ 3, 3, 6 ]
+      ],
+      "east": [],
+      "south": [],
+      "west": []
+    },
+    "floating_castle": {
+      "north": [],
+      "east": [],
+      "south": [],
+      "west": [
+        [ 9, 1, 8 ]
+      ]
+    },
+    "just_a_tree": {
+      "north": [
+        [ 2, 7, 2 ]
+      ],
+      "east": [],
+      "south": [],
+      "west": []
+    },
+    "house_tree": {
+      "north": [],
+      "east": [],
+      "south": [
+        [ 3, 2, 3 ]
+      ],
+      "west": []
     }
   },
   
@@ -50,11 +90,46 @@
   // The list of templates being available. The first entry is the default template.
   "templates": [
     {
-      "name": "default",
+      "name": "A Typical Skyblock",
+      "desc": "Nothing to see here, just a normal island.",
       "file": "default.nbt",
       "spawns": "default",
-      "surroundingBlocks": "default",
-      "spreads": "default"
+      "offset": [ -4, 0, -3 ]
+    },
+    {
+      "name": "Crossroads",
+      "desc": "All roads lead to the tree.",
+      "file": "crossroads.nbt",
+      "spawns": "crossroads",
+      "offset": [ -8, 0, -8 ]
+    },
+    {
+      "name": "Fast AE2 start",
+      "desc": "Want a fast start ? Here, have a little AE2 setup. (Item and Fluid Storage Cell included)",
+      "file": "fast_ae2_start.nbt",
+      "spawns": "fast_ae2_start",
+      "offset": [ -3, 0, -9 ]
+    },
+    {
+      "name": "Floating Castle",
+      "desc": "Pretty self-explanatory.",
+      "file": "floating_castle.nbt",
+      "spawns": "floating_castle",
+      "offset": [ -6, 0, -5 ]
+    },
+    {
+      "name": "Just a Tree",
+      "desc": "I'm sure you weren't expecting that one ! Be careful, there is only 1 Dirt block.",
+      "file": "just_a_tree.nbt",
+      "spawns": "just_a_tree",
+      "offset": [ -2, 0, -2 ]
+    },
+    {
+      "name": "Tree House",
+      "desc": "Ever wanted to make one with nature ? Well we didn't find a way for you but your house sure can !",
+      "file": "house_tree.nbt",
+      "spawns": "house_tree",
+      "offset": [ -3, 0, -3 ]
     }
   ]
 }

@@ -155,6 +155,35 @@ StartupEvents.registry('block', (event) => {
     .hardness(1.0)
     .resistance(1.0)
     .textureAll('kubejs:block/silent/fake_mob_masher');
+
+  event
+    .create('block_of_en_iron')
+    .displayName('Block of Enhanced Iron')
+    .soundType('metal')
+    .hardness(1.0)
+    .resistance(1.0)
+    .textureAll('kubejs:block/silent/block_of_en_iron');
+  event
+    .create('block_of_en_gold')
+    .displayName('Block of Enhanced Gold')
+    .soundType('metal')
+    .hardness(1.0)
+    .resistance(1.0)
+    .textureAll('kubejs:block/silent/block_of_en_gold');
+  event
+    .create('block_of_en_diamond')
+    .displayName('Block of Enhanced Diamond')
+    .soundType('metal')
+    .hardness(1.0)
+    .resistance(1.0)
+    .textureAll('kubejs:block/silent/block_of_en_diamond');
+  event
+    .create('block_of_en_netherite')
+    .displayName('Block of Enhanced Netherite')
+    .soundType('metal')
+    .hardness(1.0)
+    .resistance(1.0)
+    .textureAll('kubejs:block/silent/block_of_en_netherite');
 });
 
 StartupEvents.registry('block', (e) => {

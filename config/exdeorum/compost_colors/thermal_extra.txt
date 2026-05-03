@@ -24,8 +24,6 @@ abyssal_machine_speed_augment, #7f9e72
 abyssal_nugget, #729a6c
 abyssal_pickaxe, #476848
 abyssal_plate, #709a6c
-abyssal_potion_amplifier_augment, #90a27d
-abyssal_potion_duration_augment, #8ea78a
 abyssal_rf_coil_augment, #697055
 abyssal_rf_coil_storage_augment, #64804e
 abyssal_rf_coil_xfer_augment, #797c57
@@ -49,7 +47,7 @@ cod_jerky, #fcd2a1
 constantan_rod, #ed9e50
 copper_ore_chunk, #c27855
 copper_rod, #f88461
-crystallized_sunflower_oil_bucket, #d2c5b4
+crystallized_sunflower_oil_bucket, #d0b194
 diamond_rod, #57e3d7
 diesel_bucket, #c9bfab
 dragonsteel_area_radius_augment, #66aad9
@@ -77,8 +75,6 @@ dragonsteel_machine_speed_augment, #7f93d3
 dragonsteel_nugget, #6986dc
 dragonsteel_pickaxe, #4d5ea1
 dragonsteel_plate, #6b86de
-dragonsteel_potion_amplifier_augment, #9098d2
-dragonsteel_potion_duration_augment, #8e9edc
 dragonsteel_rf_coil_augment, #6865ae
 dragonsteel_rf_coil_storage_augment, #6476a0
 dragonsteel_rf_coil_xfer_augment, #7972aa
@@ -102,7 +98,8 @@ enderium_rod, #23788e
 enderium_shovel, #288ca8
 enderium_sickle, #196c8d
 enderium_sword, #1c7094
-flux_infused_oil_bucket, #d6aea4
+flux_infused_oil_bucket, #b4a78d
+gasoline_bucket, #8ca8d0
 gold_ore_chunk, #ffbe30
 gold_rod, #ffbf41
 invar_rod, #afcfcc
@@ -110,6 +107,7 @@ iron_ore_chunk, #bba084
 iron_rod, #afafaf
 lead_ore_chunk, #505587
 lead_rod, #464a7a
+lubricant_bucket, #bbb49a
 lumium_axe, #ffdc6f
 lumium_boots, #ffd764
 lumium_chestplate, #fff882
@@ -125,11 +123,14 @@ lumium_shovel, #ffeb83
 lumium_sickle, #ffe372
 lumium_sword, #ffe876
 mutton_jerky, #b26b51
+naphtha_bucket, #c3c0a8
 netherite_rod, #504a4b
 nickel_ore_chunk, #f7dea0
 nickel_rod, #d7ac7c
 obsidian_dust, #231836
 osmium_ore_chunk, #afc6da
+paraffin_wax, #e1e8cf
+paraffin_wax_bucket, #bbbcb6
 polyolefin_bucket, #ccc9c5
 polyolefin_plate, #dacdb9
 pork_jerky, #ffe4a2
@@ -147,7 +148,7 @@ raw_silver_bucket, #c2cacf
 raw_tin_bucket, #afbbbf
 raw_uranium_bucket, #a8aea4
 raw_zinc_bucket, #b5c0bb
-refined_sunflower_oil_bucket, #d6d6c5
+refined_sunflower_oil_bucket, #d0ab96
 salmon_jerky, #a87651
 shellite_area_radius_augment, #937dbf
 shellite_axe, #8c3e9e
@@ -174,8 +175,6 @@ shellite_machine_speed_augment, #ac66b9
 shellite_nugget, #ac5acc
 shellite_pickaxe, #7f398e
 shellite_plate, #a755c5
-shellite_potion_amplifier_augment, #b872bb
-shellite_potion_duration_augment, #b679c6
 shellite_rf_coil_augment, #933d97
 shellite_rf_coil_storage_augment, #8a518a
 shellite_rf_coil_xfer_augment, #a14b94
@@ -224,8 +223,6 @@ soul_infused_machine_speed_augment, #d3916f
 soul_infused_nugget, #d78d68
 soul_infused_pickaxe, #a86850
 soul_infused_plate, #d48a68
-soul_infused_potion_amplifier_augment, #da987a
-soul_infused_potion_duration_augment, #d79e87
 soul_infused_rf_coil_augment, #b66552
 soul_infused_rf_coil_storage_augment, #ac764b
 soul_infused_rf_coil_xfer_augment, #c37254
@@ -235,7 +232,7 @@ soul_infused_sickle, #bc7058
 soul_infused_sword, #c3755a
 soul_sand_dust, #654d3e
 sticky_ball, #d38952
-sunflower_oil_bucket, #ccb99e
+sunflower_oil_bucket, #d2bc94
 tin_ore_chunk, #7aa2b4
 tin_rod, #7aacc3
 twinite_area_radius_augment, #ffb5c3
@@ -263,8 +260,6 @@ twinite_machine_speed_augment, #ffa0be
 twinite_nugget, #ffa7d4
 twinite_pickaxe, #ff70ac
 twinite_plate, #ffa7d4
-twinite_potion_amplifier_augment, #ffa2c0
-twinite_potion_duration_augment, #ffa7cc
 twinite_rf_coil_augment, #ff729d
 twinite_rf_coil_storage_augment, #f88090
 twinite_rf_coil_xfer_augment, #ff7c9a

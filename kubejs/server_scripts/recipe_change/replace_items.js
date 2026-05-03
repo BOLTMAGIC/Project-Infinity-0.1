@@ -121,9 +121,19 @@ ServerEvents.recipes((event) => {
     'ae2omnicells:quantum_omni_cell_component_16m'
   );
   event.replaceInput(
-    { output: 'extendedae_plus:infinity_biginteger_cell' },
-    'minecraft:nether_star',
-    'kubejs:infinity_12'
+    { output: 'constructionwand:core_destruction' },
+    '#forge:glass_panes',
+    'kubejs:infinity_5'
+  );
+  event.replaceInput(
+    { output: 'buildinggadgets2:gadget_cut_paste' },
+    'minecraft:iron_ingot',
+    'kubejs:infinity_5'
+  );
+  event.replaceInput(
+    { output: 'rftoolsbuilder:shape_card_void' },
+    'rftoolsbuilder:shape_card_def',
+    'rftoolsbuilder:shape_card_quarry'
   );
   event.replaceInput(
     { output: 'advanced_ae:reaction_chamber' },

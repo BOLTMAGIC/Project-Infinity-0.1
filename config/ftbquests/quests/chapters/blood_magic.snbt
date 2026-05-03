@@ -202,9 +202,7 @@
 			description: [
 				"These &3Tartaric Gems&r allow you to store souls in them, thereby allowing you to craft with more souls."
 				""
-				"You're going to want to craft atleast 2 of these, as you'll want 2 for upgrading, since you need 1 to craft the other."
-				""
-				"The third will be used to craft the &3Sentient Sword&r, which will allow you to obtain souls without needing soul snares."
+				"Theres also can be used to craft the &3Sentient Sword&r, which will allow you to obtain souls without needing soul snares."
 			]
 			id: "1CD1610FD2C009CD"
 			rewards: [{
@@ -1143,11 +1141,18 @@
 				type: "xp"
 				xp: 10
 			}]
-			tasks: [{
-				id: "6CE189907E825929"
-				title: "Other ways of blood"
-				type: "checkmark"
-			}]
+			tasks: [
+				{
+					id: "6CE189907E825929"
+					title: "Other ways of blood"
+					type: "checkmark"
+				}
+				{
+					id: "06A83357A785AA36"
+					item: "sanguine_networks:virtual_sacrificer"
+					type: "item"
+				}
+			]
 			x: -7.0d
 			y: -8.0d
 		}

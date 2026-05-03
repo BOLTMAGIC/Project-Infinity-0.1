@@ -514,7 +514,7 @@ const removeItemsbyID = [
   'crazyae2addons:spawner_extractor_controller_alt7',
   'nuclearcraft:cobalt_block',
   'minecraft:dragon_breath',
-  '',
+  'extendedae_plus:infinity_biginteger_cell',
   '',
   '',
   '',

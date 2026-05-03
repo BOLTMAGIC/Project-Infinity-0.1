@@ -176,7 +176,7 @@ super_star_pickaxe, #333337
 super_star_pickaxe_base, #232325
 super_star_sword, #ffd0ff
 super_star_sword_base, #686668
-thank_you_6m, #a5a2a2
+thank_you, #a5a2a2
 the_ultimate_material, #9e6bc0
 wither_bone, #64626c
 wooden_rod, #61481b

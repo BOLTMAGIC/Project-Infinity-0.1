@@ -1,13 +1,11 @@
 // Compost colors for evolvedmekanism. You may add your own colors, change existing ones, or remove colors that aren't needed.
-alloy_creative, #181919
+alloy_creative, #161919
 alloy_exoversal, #979693
 alloy_hypercharged, #c80a
 alloy_singular, #fff266
 alloy_subatomic, #ee94ff
 creative_control_circuit, #151515
-creative_tier_installer, #e7e7e7
 dense_control_circuit, #ffd44e
-dense_tier_installer, #ffffe8
 dust_better_gold, #ffff5e
 dust_plaslitherite, #8e8e8d
 enriched_better_gold, #ffeb64
@@ -15,16 +13,10 @@ enriched_plaslitherite, #8a8986
 enriched_uranium, #afedb2
 ingot_better_gold, #ffff66
 ingot_plaslitherite, #909090
+ingot_refined_redstone, #bb1e23
 multiversal_control_circuit, #898683
-multiversal_tier_installer, #f0f0f0
 nugget_better_gold, #fff764
 nugget_plaslitherite, #a5a5a1
+nugget_refined_redstone, #a5202f
 overclocked_control_circuit, #d700
-overclocked_tier_installer, #e7fce6
-qio_drive_black_hole, #ffffff
-qio_drive_boosted, #ffffff
-qio_drive_creative, #ffffff
-qio_drive_hypra_solidified, #ffffff
-qio_drive_singularity, #ffffff
 quantum_control_circuit, #dd86f7
-quantum_tier_installer, #faf0ff

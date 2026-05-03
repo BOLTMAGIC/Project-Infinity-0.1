@@ -1,4 +1,4 @@
-127 possible biomes found:
+126 possible biomes found:
 - "mythicbotany:alfheim_hills"
 - "mythicbotany:alfheim_lakes"
 - "mythicbotany:alfheim_plains"
@@ -76,7 +76,6 @@
 - "minecraft:old_growth_pine_taiga"
 - "minecraft:old_growth_spruce_taiga"
 - "blueprint:original_source_marker"
-- "lionfishapi:original_source_marker"
 - "endlessbiomes:penumbral_forest"
 - "minecraft:plains"
 - "dimensionalpocketsii:pocket"

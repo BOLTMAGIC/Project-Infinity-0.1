@@ -39,4 +39,6 @@
 	"What kind of healthbar should Sirok, The Sandworm use?" = "DEFAULT"
 	#Allowed Values: DEFAULT, OFF, VANILLA, SIMPLE, FANCY
 	"What kind of healthbar should Helvar, the Underworld Knight use?" = "DEFAULT"
+	#Allowed Values: DEFAULT, OFF, VANILLA, SIMPLE, FANCY
+	"What kind of healthbar should Volrak, the Kraken use?" = "DEFAULT"
 

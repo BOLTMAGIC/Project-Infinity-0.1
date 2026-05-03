@@ -4,6 +4,7 @@ allthemodium:dungeon
 allthemodium:piglin_village
 betterfortresses:fortress
 block_factorys_bosses:dragon_tower
+block_factorys_bosses:kraken_ship
 block_factorys_bosses:sandworm_nest
 block_factorys_bosses:underworld_arena
 block_factorys_bosses:yeti_hideout

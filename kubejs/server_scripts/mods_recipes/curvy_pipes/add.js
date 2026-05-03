@@ -25,41 +25,41 @@ ServerEvents.recipes((event) => {
     'curvy_pipes:medium_item_pipe',
     'curvy_pipes:medium_item_pipe',
     'curvy_pipes:medium_item_pipe',
-    'mekanism_extras:alloy_thermonuclear',
+    'mekanism_extras:alloy_radiance',
   ]);
   shapeless(event, 'curvy_pipes:large_fluid_pipe', [
     'curvy_pipes:medium_fluid_pipe',
     'curvy_pipes:medium_fluid_pipe',
     'curvy_pipes:medium_fluid_pipe',
     'curvy_pipes:medium_fluid_pipe',
-    'mekanism_extras:alloy_thermonuclear',
+    'mekanism_extras:alloy_radiance',
   ]);
   shapeless(event, 'curvy_pipes:large_energy_pipe', [
     'curvy_pipes:medium_energy_pipe',
     'curvy_pipes:medium_energy_pipe',
     'curvy_pipes:medium_energy_pipe',
     'curvy_pipes:medium_energy_pipe',
-    'mekanism_extras:alloy_thermonuclear',
+    'mekanism_extras:alloy_radiance',
   ]);
   shapeless(event, 'curvy_pipes:huge_item_pipe', [
     'curvy_pipes:large_item_pipe',
     'curvy_pipes:large_item_pipe',
     'curvy_pipes:large_item_pipe',
     'curvy_pipes:large_item_pipe',
-    'evolvedmekanism:dense_control_circuit',
+    'evolvedmekanism:quantum_control_circuit',
   ]);
   shapeless(event, 'curvy_pipes:huge_fluid_pipe', [
     'curvy_pipes:large_fluid_pipe',
     'curvy_pipes:large_fluid_pipe',
     'curvy_pipes:large_fluid_pipe',
     'curvy_pipes:large_fluid_pipe',
-    'evolvedmekanism:dense_control_circuit',
+    'evolvedmekanism:quantum_control_circuit',
   ]);
   shapeless(event, 'curvy_pipes:huge_energy_pipe', [
     'curvy_pipes:large_energy_pipe',
     'curvy_pipes:large_energy_pipe',
     'curvy_pipes:large_energy_pipe',
     'curvy_pipes:large_energy_pipe',
-    'evolvedmekanism:dense_control_circuit',
+    'evolvedmekanism:quantum_control_circuit',
   ]);
 });

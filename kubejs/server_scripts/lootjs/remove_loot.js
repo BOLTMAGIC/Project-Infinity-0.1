@@ -27,6 +27,7 @@ LootJS.modifiers((event) => {
 
 LootJS.modifiers((event) => {
   event.disableLootModification(/.*swasher*/);
+  event.disableLootModification(/.*melting_pan*/);
 });
 
 LootJS.modifiers((event) => {

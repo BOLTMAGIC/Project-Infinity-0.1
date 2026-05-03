@@ -2135,9 +2135,10 @@
 			]
 			id: "7CCB21D64B9DD26C"
 			optional: true
+			repeat_cooldown: 6000
 			rewards: [{
 				auto: "enabled"
-				count: 1000
+				count: 100
 				id: "5B55A24FA744CC6D"
 				item: "kubejs:ascended_coin"
 				type: "item"
@@ -2163,12 +2164,13 @@
 			]
 			id: "432D9DC5978653F2"
 			optional: true
-			repeat_cooldown: 300
+			repeat_cooldown: 3000
 			rewards: [{
 				auto: "enabled"
-				count: 2
+				count: 5
 				id: "33C6D71F405169F4"
 				item: "kubejs:ascended_coin"
+				random_bonus: 1
 				type: "item"
 			}]
 			tasks: [{
@@ -2184,6 +2186,7 @@
 			can_repeat: true
 			id: "55A7C859171B02BE"
 			optional: true
+			repeat_cooldown: 3000
 			rewards: [{
 				auto: "enabled"
 				count: 10

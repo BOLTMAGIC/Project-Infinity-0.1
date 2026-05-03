@@ -1,10 +1,9 @@
 // Compost colors for crazyae2addons. You may add your own colors, change existing ones, or remove colors that aren't needed.
+automation_upgrade_card, #b6aca8
 builder_pattern, #d2f8cd
-circuit_upgrade_card, #aeaaa5
 cpu_prio_tuner, #bbffff
 crazy_calculator, #54615b
 crazy_emitter_multiplier, #6f3a2c
-crazy_pattern_modifier, #b4c3c3
 crazy_pattern_multiplier, #a4b9bf
 crazy_upgrade, #ccffff
 data_drive, #f7ffff
@@ -19,11 +18,13 @@ mob_storage_cell_256k, #34b1e0
 mob_storage_cell_4k, #41c2bf
 mob_storage_cell_64k, #29c2e1
 nbt_view_cell, #91d7d2
-nokia_3310, #7f868e
+player_upgrade_card, #b9afab
+portable_builder, #68a19d
+portable_spatial_storage, #4e7c97
 research_fluid_bucket, #a0b5c3
-samsung_galaxy_s6, #fff4ff
 super_singularity, #646464
 tag_view_cell, #d99a90
-unassembled_crazy_pattern_provider, #768a87
-wireless_redstone_terminal, #eee0f4
+wireless_emitter_terminal, #a893b4
+wireless_notification_terminal, #a894b4
+wireless_redstone_terminal, #a893b4
 xp_shard, #7fff18

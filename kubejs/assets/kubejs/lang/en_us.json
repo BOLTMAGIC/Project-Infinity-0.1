@@ -378,9 +378,9 @@
   "tooltip.armorplus.frost_crystal_2": "Or throw a Trident at a mob with channeling while a thunderstorm is occurring. Or use the Mechanical Empowerer",
   "tooltip.kubejs.ore_mining_dim": "Find me inside the Mining Dimension",
   "tooltip.born_in_chaos.chaos_component": "Brewing/ Potion Station --> 1 Seed of Chaos and 3 Water Bottle + a blaze powder",
-  "tooltip.occultism.iesnium": "Find me inside the Nether Mining Dimension. Y-Level 0-50",
+  "tooltip.occultism.iesnium": "Find me inside the @JAMD Nether Mining Dimension. Y-Level : from Bedrock to 50",
   "tooltip.born_in_chaos.pumpkinhead": "Search a Infernal Evil Pumpkin and right click it with a Transmutation Elixir to spawn Lord Pumpkinhead",
-  
+
   "tooltip.credit.recipe_added": "Recipe added by %s. Thanks a lot!",
   "tooltip.credit.recipe_item_added": "Recipe and Item added by %s.",
   "tooltip.credit.joke": "Thanks a lot! Dont hate me, hate him :)",

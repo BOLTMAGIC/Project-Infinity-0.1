@@ -33,7 +33,7 @@ MMEvents.createProcesses((event) => {
       ingredient: {
         type: 'mm:item',
         item: 'exdeorum:crushed_blackstone',
-        count: 24,
+        count: 32,
       },
     });
 
@@ -70,7 +70,7 @@ MMEvents.createProcesses((event) => {
       ingredient: {
         type: 'mm:item',
         item: 'exdeorum:crushed_netherrack',
-        count: 24,
+        count: 32,
       },
     });
 
@@ -107,7 +107,7 @@ MMEvents.createProcesses((event) => {
       ingredient: {
         type: 'mm:item',
         item: 'minecraft:gravel',
-        count: 24,
+        count: 32,
       },
     });
 
@@ -144,7 +144,7 @@ MMEvents.createProcesses((event) => {
       ingredient: {
         type: 'mm:item',
         item: 'minecraft:sand',
-        count: 24,
+        count: 32,
       },
     });
 
@@ -181,7 +181,7 @@ MMEvents.createProcesses((event) => {
       ingredient: {
         type: 'mm:item',
         item: 'exdeorum:dust',
-        count: 24,
+        count: 32,
       },
     });
 
@@ -218,7 +218,7 @@ MMEvents.createProcesses((event) => {
       ingredient: {
         type: 'mm:item',
         item: 'exdeorum:crushed_end_stone',
-        count: 24,
+        count: 32,
       },
     });
 

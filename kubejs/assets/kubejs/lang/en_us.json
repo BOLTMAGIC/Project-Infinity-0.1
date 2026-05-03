@@ -392,8 +392,16 @@
   "tooltip.ifeu.big_dissolution_chamber_warning_1": "Do not use to make items that have NBT such as the non-dummy addons.",
   "tooltip.ifeu.big_dissolution_chamber_warning_2": "Can be a bit dificult to work with when using AE2 or RS. Try making the Patterns a multiple of 64.",
 
+  "tooltip.kubejs.full_nbt_remover_1": "If you right click this item while looking at a Grindstone, the item in your offhand will loose it's NBT.",
+  "tooltip.kubejs.full_nbt_remover_2": "Be very careful, there is no way to restore lost NBT !",
+
   "tooltip.kubejs.tank_nbt_remover_1": "Combine with Mekanism Tanks to remove their unwanted NBT data.",
   "tooltip.kubejs.tank_nbt_remover_2": "Use this when AE2 / RS doesn't let you craft items with tanks even though you have the right ones.",
 
-  "tooltip.kubejs.compressed_material_warning": "This item can only be used in %s or better Infusing Factories."
+  "tooltip.kubejs.nuclearcraft_copy_paste_tool_1": "Sneak + Right Click a Nuclearcraft machine to copy settings and Upgrades.",
+  "tooltip.kubejs.nuclearcraft_copy_paste_tool_2": "Right Click a Nuclearcraft machine to paste settings and Upgrades.",
+
+  "tooltip.kubejs.compressed_material_warning": "This item can only be used in %s or better Infusing Factories.",
+
+  "tooltip.exdeorum.mesh_enchant_warning": "Only 2 enchant levels can be added to this item."
 }

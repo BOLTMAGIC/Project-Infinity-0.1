@@ -189,6 +189,9 @@
 				"Use the Sieve to get all kinds of important &6resources&r. You can place &6multiple Sieves&r next to one another to operate multiple &6at the same time&r."
 				""
 				"JEI will provide you with all possible drops from all the different Sieves."
+				""
+				"As their description states, Meshes can only be enchanted with 2 levels of enchant !"
+				"So either 2 levels of Efficiency, 2 levels of Fortune or 1 level of each."
 			]
 			id: "768F0E715B05D9E4"
 			rewards: [

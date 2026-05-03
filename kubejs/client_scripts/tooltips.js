@@ -308,7 +308,7 @@ ItemEvents.tooltip((event) => {
     }
   );
   
-    event.addAdvanced(
+  event.addAdvanced(
     ['appflux:fe_creative_cell', 'ae2omnicells:creative_ae_cell_long'],
     (item, advanced, text) => {
       text.add(
@@ -386,10 +386,20 @@ ItemEvents.tooltip((event) => {
     text.add(1, Text.translate('tooltip.ifeu.big_dissolution_chamber_warning_1'));
     text.add(2, Text.translate('tooltip.ifeu.big_dissolution_chamber_warning_2'));
   });
+
+  event.addAdvanced(['kubejs:full_nbt_remover'], (item, advanced, text) => {
+    text.add(1, Text.translate('tooltip.kubejs.full_nbt_remover_1'));
+    text.add(2, Text.translate('tooltip.kubejs.full_nbt_remover_2').red());
+  });
   
   event.addAdvanced(['kubejs:tank_nbt_remover'], (item, advanced, text) => {
     text.add(1, Text.translate('tooltip.kubejs.tank_nbt_remover_1'));
     text.add(2, Text.translate('tooltip.kubejs.tank_nbt_remover_2'));
+  });
+
+  event.addAdvanced(['kubejs:nuclearcraft_copy_paste_tool'], (item, advanced, text) => {
+    text.add(1, Text.translate('tooltip.kubejs.nuclearcraft_copy_paste_tool_1'));
+    text.add(2, Text.translate('tooltip.kubejs.nuclearcraft_copy_paste_tool_2'));
   });
 
   const mekanismEnrichedMaterialsToCompress = [
@@ -411,5 +421,20 @@ ItemEvents.tooltip((event) => {
       'kubejs:double_compressed_enriched_' + material.id,
       Text.translate('tooltip.kubejs.compressed_material_warning', material.machine)
     );
+  });
+
+  const meshes =[
+    'exdeorum:string_mesh',
+    'exdeorum:flint_mesh',
+    'exdeorum:iron_mesh',
+    'exdeorum:golden_mesh',
+    'exdeorum:diamond_mesh',
+    'exdeorum:netherite_mesh',
+    'kubejs:allthemodium_mesh',
+    'kubejs:vibranium_mesh',
+  ]
+
+  meshes.forEach(mesh => {
+    event.add(mesh,Text.translate('tooltip.exdeorum.mesh_enchant_warning'));
   });
 });

@@ -38,6 +38,9 @@ ServerEvents.recipes((event) => {
   manufactoring(event, 'nuclearcraft:magnesium_ore', 2, 'nuclearcraft:magnesium_dust');
   manufactoring(event, 'nuclearcraft:lithium_ore', 2, 'nuclearcraft:lithium_dust');
   manufactoring(event, 'nuclearcraft:boron_ore', 2, 'nuclearcraft:boron_dust');
+  manufactoring(event, 'exdeorum:aluminum_ore_chunk', 2, 'common_ore_library:aluminum_dust');
+  manufactoring(event, 'exdeorum:nickel_ore_chunk', 2, 'thermal:nickel_dust');
+  manufactoring(event, 'exdeorum:iridium_ore_chunk', 2, 'common_ore_library:iridium_dust');
 
   manufactoring(event, 'draconicevolution:draconium_ingot', 1, 'draconicevolution:draconium_dust')
 });

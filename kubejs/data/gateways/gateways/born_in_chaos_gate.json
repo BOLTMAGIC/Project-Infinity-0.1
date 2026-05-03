@@ -15,6 +15,10 @@
                 {
                     "entity": "born_in_chaos_v1:supreme_bonescaller",
                     "count": 2
+                },
+                {
+                    "entity": "born_in_chaos_v1:door_knight",
+                    "count": 3
                 }
             ],
             "rewards": [
@@ -26,6 +30,11 @@
                 {
                     "type": "gateways:entity_loot",
                     "entity": "born_in_chaos_v1:supreme_bonescaller",
+                    "rolls": 5
+                },
+                {
+                    "type": "gateways:entity_loot",
+                    "entity": "born_in_chaos_v1:door_knight",
                     "rolls": 5
                 },
                 {

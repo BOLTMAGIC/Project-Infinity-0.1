@@ -1,16 +1,4 @@
 ServerEvents.recipes((event) => {
-  create3x3(event, Item.of('projecte:medium_covalence_dust', 40), [
-    'minecraft:air',
-    'minecraft:air',
-    'minecraft:air',
-    'minecraft:redstone',
-    'minecraft:air',
-    'minecraft:iron_ingot',
-    'minecraft:air',
-    'minecraft:air',
-    'minecraft:air',
-  ]);
-
   create3x3(event, 'projecte:gem_helmet', [
     'projecte:rm_helmet',
     'projecte:klein_star_omega',

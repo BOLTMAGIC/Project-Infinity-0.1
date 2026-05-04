@@ -146,7 +146,7 @@ MMEvents.createProcesses((event) => {
       ingredient: {
         type: 'mm:item',
         item: 'minecraft:iron_ingot',
-        count: 256,
+        count: 128,
       },
     })
     .input({
@@ -154,7 +154,7 @@ MMEvents.createProcesses((event) => {
       ingredient: {
         type: 'mm:item',
         item: 'minecraft:redstone',
-        count: 256,
+        count: 64,
       },
     })
     .input({

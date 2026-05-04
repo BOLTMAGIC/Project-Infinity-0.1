@@ -1,0 +1,7 @@
+type = last_world
+
+last_world {
+  is_server = false
+  world = C:/Users/Admin/curseforge/minecraft/Instances/Project Infinity/saves/MM Test 2
+}
+

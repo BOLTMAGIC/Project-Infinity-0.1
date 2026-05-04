@@ -2048,6 +2048,7 @@
 						]
 					}
 				}
+				title: "Augments"
 				type: "item"
 			}]
 			title: "&eSpark Augments&r"
@@ -2689,16 +2690,18 @@
 		{
 			dependencies: ["0C2063795FE160A8"]
 			description: [
-				"Go take a look at the Botanical Machinery + Extra Quest Line."
-				""
-				"Though not necessary for progression, they are way faster, produce more &bmana&r and can be automated using AE2 or RS2."
+				"{\"extra\":[{\"underlined\":true,\"clickEvent\":{\"action\":\"change_page\",\"value\":\"39BDA119A3E1B4D5\"},\"text\":\"Botanical Machinery + Extra Quest Line\"},{\"text\":\".\"}],\"text\":\"Go take a look at the \"}"
+				"{\"text\":\"\"}"
+				"{\"extra\":[{\"text\":\"Though not necessary for progression, they are way faster, produce more \"},{\"color\":\"aqua\",\"text\":\"mana\"},{\"text\":\" and can be automated using AE2 or RS2.\"}],\"text\":\"\"}"
 			]
+			icon_scale: 1.5d
 			id: "29290AE9FBE8013C"
 			rewards: [{
 				id: "628B2CCB11AEA5BC"
 				item: "kubejs:apotheotic_coin"
 				type: "item"
 			}]
+			size: 1.5d
 			tasks: [{
 				id: "55642C000649165F"
 				title: "Botanical Machinery + Extra"
@@ -2769,6 +2772,32 @@
 			}]
 			x: 0.0d
 			y: -2.0d
+		}
+		{
+			dependencies: [
+				"71FB86B215E90081"
+				"2F56FF2B78780A76"
+				"1E6DD710F4869937"
+				"36D2373573A690CD"
+				"646148DD269720B7"
+			]
+			description: [
+				"Best flower in the Pack (need Greenhouse to use it to 100%)"
+				"Generating 1.2 M mana every 100 sec"
+			]
+			id: "3F41FFD99F5748EE"
+			rewards: [{
+				id: "01CD6C206C2F099A"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4B4CC0BA4ACBC182"
+				item: "mythicbotany:wither_aconite"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 15.0d
 		}
 	]
 	title: "&aBotania&r"

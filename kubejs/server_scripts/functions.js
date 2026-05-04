@@ -60,7 +60,7 @@ function create3x3 (event, output, input) {
     output === '' ||
     (typeof output === 'string' && output.includes(' '))
   ) {
-    console.error('❌ Ungültiger Output in create3x3: ' + output);
+    console.error('❌ False Output in create3x3: ' + output);
   }
 
   event.shaped(output, ['012', '345', '678'], {

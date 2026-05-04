@@ -515,7 +515,7 @@ const removeItemsbyID = [
   'nuclearcraft:cobalt_block',
   'minecraft:dragon_breath',
   'extendedae_plus:infinity_biginteger_cell',
-  '',
+  'rftoolsbuilder:shape_card_void',
   '',
   '',
   '',

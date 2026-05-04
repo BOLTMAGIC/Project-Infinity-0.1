@@ -17,21 +17,6 @@
 					type: "item"
 				}
 				{
-					id: "4A695EC6A1711470"
-					item: {
-						Count: 1
-						id: "obtrophies:display_trophy"
-						tag: {
-							BlockEntityTag: {
-								display: {
-									display: "extendedcrafting:the_ultimate_ingot"
-								}
-							}
-						}
-					}
-					type: "item"
-				}
-				{
 					id: "04B085716F4668B6"
 					table_id: 5196609362437981520L
 					type: "random"

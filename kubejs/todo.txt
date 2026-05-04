@@ -11,7 +11,10 @@ changelog v. 0.0.49.0
 -updated some mods
 ----------
 Mods added:
--replaced JEI with JEIAsync
+-Canary
+-Nether Package Fixer (to fix the nether if it gets removed) (thx you MiniMaxi)
+-BetterBlockZ
+-FancyMenu
 ----------
 Mods removed:
 -Pipez
@@ -25,14 +28,49 @@ Mod INFO:
     -Occultism
     -Chemlib and Alchemistry
     -Extreme/ Big Reactors
+-mods getting removed in 0.0.50.0:
+    -Incendium
+        -This will make the Nether inaccesible the first time you load your world, just exit it and load it again
+-mods getting removed in 0.0.51.0:
+    -YTones (its discontinued, replaced with BetterBlockZ)
 ----------
 Recipe changes and fixes:
 -changed every recipe that used the removed mods
 -changed recipe for SFM Cable (easier) (thx to thereitisdude)
--
+-fixed sim hydroponic beds recipe
+-fixed entity ticker recipe
+-blacklisted some items from the entity ticker
+-added creative FE cell and Long tier creative storage cell (thx to kylesexton)
+-fixed born in chaos gateway (thx to MiniMaxi)
+-changed RF/t value for entity ticker (dont hate me)
+-fixed EssenceForge T1 Parallel Processing (thx to hi_5979)
+-removed tinkers drops from mobs (no one likes swashers and melting pans) (thx to grinchfan22)
+-changed recipe for Devourer of cosmic silence
+-changed recipe for destruction wand core (thx to grinchfan22)
+-changed recipe for cut paste gadget
+-changed recipe for Void Card 
+-added blocks for enhanced diamond, gold, iron and netherite
+-changed last stand and beheading enchant
+-changed the recipe for huge and large curvy pipes (easier now)
+-changed the meshes upgrade from shapeless to smithing (thx to Hocok-of-Chaos)
+-added tooltips for meshes (thx to MiniMaxi)
+-Remove asgardandelion from quest and config (thx to MiniMaxi)
+-Add a Full NBT Remover item (thx to MiniMaxi)
+-Add a Nuclearcraft Copy Paste Tool (thx to MiniMaxi)
+-added 5 new starter islands (thx to solardaisy and MiniMaxi)
+-added a recipe for the creative flux effiency upgrade for thermal (thx to kylesexton)
+-added smelting recipe from rhodochrosite_dust to manganese_oxide_dust
+-fix Iesnium description (thx to MiniMaxi)
+-remove items that are not used from blacklist.cfg and en_us.json (thx to MiniMaxi)
+-change mysticalagriculture:master_infusion_crystal recipe to be able to use itself (thx to MiniMaxi)
+-modify Auto Crusher Recipes (thx to MiniMaxi)
+-make exdeorum Auto Crusher Recipes give the same as hammer (thx to MiniMaxi)
+-add born_in_chaos_v1:door_knight to the Born in Chaos Gate (thx to RekoHar)
 ----------
 Mod changes and fixes:
--
+-fixed Daisys not working with in and outputing items
+-fixed Voidminer Solar Panels stacking
+-Fixed Masterful Machinery Priority Setter not working
 ----------
 known bugs:
 -polymorph (changing the output for mod conflicts) is not possible with tinkers crafting station

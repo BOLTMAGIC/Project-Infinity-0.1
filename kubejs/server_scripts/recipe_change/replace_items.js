@@ -131,11 +131,6 @@ ServerEvents.recipes((event) => {
     'kubejs:infinity_5'
   );
   event.replaceInput(
-    { output: 'rftoolsbuilder:shape_card_void' },
-    'rftoolsbuilder:shape_card_def',
-    'rftoolsbuilder:shape_card_quarry'
-  );
-  event.replaceInput(
     { output: 'advanced_ae:reaction_chamber' },
     'minecraft:bucket',
     'ae2omnicells:omni_link_processor'

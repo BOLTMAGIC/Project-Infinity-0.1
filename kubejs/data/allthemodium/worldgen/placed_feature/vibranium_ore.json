@@ -2,7 +2,7 @@
   "feature": "allthemodium:vibranium_ore",
   "placement": [
     {
-      "count": 6,
+      "count": 2,
       "type": "minecraft:count"
     },
     {

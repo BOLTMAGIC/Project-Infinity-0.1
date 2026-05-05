@@ -66,6 +66,13 @@ Recipe changes and fixes:
 -modify Auto Crusher Recipes (thx to MiniMaxi)
 -make exdeorum Auto Crusher Recipes give the same as hammer (thx to MiniMaxi)
 -add born_in_chaos_v1:door_knight to the Born in Chaos Gate (thx to RekoHar)
+-disabled mana enchanter (thx to grinchfan22)
+-set ignoreEnchantMaxLevels to false for enchantment applicator (thx to grinchfan22)
+-removed medium covalence dust recipe as its redundant (projecte adds the same recipe but shapeless) (thx to grinchfan22)
+-fixed some mm muliblock recipes to take proper amount of energy/items (thx to grinchfan22)
+-changed basalt seed from requiring enviromats basalt to vanilla (thx to grinchfan22)
+-changed netherite upgrade from logistics networks to require diamond upgrade (thx to grinchfan22)
+-changed mystical agriculture seed block tags from ae2:growth_acceleratable to mysticalagriculture:crops so they get the same tags as other ma seeds (thx to grinchfan22)
 ----------
 Mod changes and fixes:
 -fixed Daisys not working with in and outputing items

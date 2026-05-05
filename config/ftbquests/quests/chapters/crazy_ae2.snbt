@@ -481,18 +481,11 @@
 				item: "kubejs:apotheotic_coin"
 				type: "item"
 			}]
-			tasks: [
-				{
-					id: "2967199909D4AC01"
-					item: "crazyae2addons:recipe_fabricator"
-					type: "item"
-				}
-				{
-					id: "15E166855B9AD571"
-					item: "crazyae2addons:crazy_pattern_modifier"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "2967199909D4AC01"
+				item: "crazyae2addons:recipe_fabricator"
+				type: "item"
+			}]
 			title: "&eUsing the Recipe Fabricator&r"
 			x: 7.5d
 			y: -4.0d
@@ -1118,44 +1111,8 @@
 		{
 			dependencies: ["6BED74AB906CBFE5"]
 			description: [
-				"The &dCrazy Pattern Modifier&r is a powerful tool"
-				"that allows you to &etweak&r and &acustomize&r"
-				"&3AE2&r &eprocessing patterns&r."
-				""
-				"It is especially useful for advanced automation"
-				"and complex mod interactions."
-				""
-				"• &eIgnore NBT&r"
-				"  Allows patterns to accept items regardless of NBT data"
-				""
-				"1. &eOpen the Modifier&r"
-				"• Hold the &dCrazy Pattern Modifier&r"
-				"• &aRight-click&r to open its interface"
-				""
-				"You can also &aRight-click&r a &ePattern Provider&r"
-				"to open the modifier directly on its inventory."
-				""
-				"2. &eInsert a Pattern&r"
-				"• Place a &eProcessing Pattern&r into the single slot"
-				""
-				"3. &eAdjust Settings&r"
-				"• Use the buttons to change how the pattern behaves"
-				""
-				"{@pagebreak}"
-				"• Toggle &eIgnore NBT&r on or off"
-				"• When enabled, patterns will accept &aANY&r matching item"
-				"• Enchantments, tags, or other NBT data are ignored"
-				""
-				"This is ideal for crafting things like:"
-				"• &eenchanted books&r"
-				"• &etools with random stats&r"
-				""
-				"The GUI always shows the current mode:"
-				"• &7Current: Ignore NBT&r"
-				""
-				"• Use &eIgnore NBT&r carefully — it can consume rare items"
-				"• Perfect for &aautomation&r with variable outputs"
-				"• Combine with &dCrazy Pattern Provider&r for large setups"
+				"The &dCrazy Pattern Multiplier&r is a powerful tool"
+				"that allows you to &etweak&r &3AE2&r &eprocessing patterns&r."
 			]
 			id: "0C71707A970A68B9"
 			rewards: [{
@@ -1164,11 +1121,17 @@
 				type: "item"
 			}]
 			tasks: [{
-				id: "13CF990FC61DE147"
-				item: "crazyae2addons:crazy_pattern_modifier"
+				id: "1EA648DD758F8D2B"
+				item: {
+					Count: 1
+					id: "crazyae2addons:crazy_pattern_multiplier"
+					tag: {
+						limit: 0
+					}
+				}
 				type: "item"
 			}]
-			title: "&dCrazy Pattern Modifier&r"
+			title: "&dCrazy Pattern Multiplier&r"
 			x: 13.5d
 			y: -2.5d
 		}

@@ -430,12 +430,12 @@
 			id: "2909CC7DAE6E69AC"
 			rewards: [
 				{
-					id: "570C2623EFBB28F2"
-					type: "xp_levels"
-					xp_levels: 100
+					id: "6F3FD7B1AE7FD50C"
+					type: "xp"
+					xp: 3
 				}
 				{
-					id: "172FEE946AAC5B1B"
+					id: "406AA7B43138964C"
 					item: "kubejs:infused_coin"
 					type: "item"
 				}

@@ -8,14 +8,6 @@ StartupEvents.registry('block', (event) => {
     .textureAll('kubejs:block/silent/compressed_block_of_gunpowder');
 
   event
-    .create('infinity_9_block')
-    .displayName('Infinity 9 Block')
-    .soundType('metal')
-    .hardness(1.2)
-    .resistance(2.0)
-    .textureAll('kubejs:block/silent/infinity_9_block');
-
-  event
     .create('infinity_8_block')
     .displayName('Infinity 8 Block')
     .soundType('metal')
@@ -24,12 +16,27 @@ StartupEvents.registry('block', (event) => {
     .textureAll('kubejs:block/silent/infinity_8_block');
 
   event
+    .create('infinity_9_block')
+    .displayName('Infinity 9 Block')
+    .soundType('metal')
+    .hardness(1.2)
+    .resistance(2.0)
+    .textureAll('kubejs:block/silent/infinity_9_block');
+
+  event
     .create('compressed_slate')
     .displayName('Compressed Slate')
     .soundType('metal')
     .hardness(0.8)
     .resistance(1.0)
     .textureAll('kubejs:block/silent/compressed_slate');
+  event
+    .create('double_compressed_slate')
+    .displayName('Double Compressed Slate')
+    .soundType('metal')
+    .hardness(0.8)
+    .resistance(1.0)
+    .textureAll('kubejs:block/silent/double_compressed_slate');
 
   event
     .create('compressed_hellforgedparts')
@@ -40,20 +47,20 @@ StartupEvents.registry('block', (event) => {
     .textureAll('kubejs:block/silent/compressed_hellforgedparts');
 
   event
-    .create('double_compressed_slate')
-    .displayName('Double Compressed Slate')
-    .soundType('metal')
-    .hardness(0.8)
-    .resistance(1.0)
-    .textureAll('kubejs:block/silent/double_compressed_slate');
-
-  event
     .create('double_compressed_iron_block')
     .displayName('Double Compressed Iron Block')
     .soundType('metal')
     .hardness(0.8)
     .resistance(1.0)
     .textureAll('kubejs:block/silent/double_compressed_iron_block');
+
+  event
+    .create('triple_compressed_iron_block')
+    .displayName('Triple Compressed Iron Block')
+    .soundType('metal')
+    .hardness(0.8)
+    .resistance(1.0)
+    .textureAll('kubejs:block/silent/triple_compressed_iron_block');
 
   event
     .create('radiance_alloy_block')
@@ -86,14 +93,6 @@ StartupEvents.registry('block', (event) => {
     .hardness(0.8)
     .resistance(1.0)
     .textureAll('kubejs:block/silent/spectrum_alloy_block');
-
-  event
-    .create('triple_compressed_iron_block')
-    .displayName('Triple Compressed Iron Block')
-    .soundType('metal')
-    .hardness(0.8)
-    .resistance(1.0)
-    .textureAll('kubejs:block/silent/triple_compressed_iron_block');
 
   event
     .create('pink_slime_block')
@@ -202,15 +201,15 @@ StartupEvents.registry('block', (e) => {
   }
 
   createblock(e, 'arcmetal_block', 'Arcmetal Block');
+  createblock(e, 'solarmetal_block', 'Solarmetal Block');
+  createblock(e, 'voidmetal_block', 'Voidmetal Block');
+  createblock(e, 'plasteel_block', 'Plasteel Block');
   createblock(e, 'azure_electrum_block', 'Azure Electrum Block');
   createblock(e, 'azure_silver_block', 'Azure Silver Block');
   createblock(e, 'blaze_gold_block', 'Blaze Gold Block');
   createblock(e, 'bunny_steel_block', 'Bunny Steel Block');
   createblock(e, 'midnight_iron_block', 'Midnight Iron Block');
-  createblock(e, 'plasteel_block', 'Plasteel Block');
   createblock(e, 'sculk_alloy_block', 'Sculk Alloy Block');
-  createblock(e, 'solarmetal_block', 'Solarmetal Block');
-  createblock(e, 'voidmetal_block', 'Voidmetal Block');
 
   function createore(e, input1, input2) {
     e.create(input1)
@@ -224,10 +223,10 @@ StartupEvents.registry('block', (e) => {
   }
 
   createore(e, 'arcmetal_ore', 'Arcmetal Ore');
-  createore(e, 'azure_silver_ore', 'Azure Silver Ore');
-  createore(e, 'plasteel_ore', 'Plasteel Ore');
   createore(e, 'solarmetal_ore', 'Solarmetal Ore');
   createore(e, 'voidmetal_ore', 'Voidmetal Ore');
+  createore(e, 'plasteel_ore', 'Plasteel Ore');
+  createore(e, 'azure_silver_ore', 'Azure Silver Ore');
 });
 
 // Nuclearcraft

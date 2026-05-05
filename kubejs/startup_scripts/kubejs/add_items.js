@@ -206,19 +206,19 @@ StartupEvents.registry('item', (e) => {
   }
 
   createingot(e, 'arcmetal_ingot');
+  createingot(e, 'solarmetal_ingot');
+  createingot(e, 'voidmetal_ingot');
+  createingot(e, 'plasteel_ingot');
   createingot(e, 'azure_electrum_ingot');
   createingot(e, 'azure_silver_ingot');
   createingot(e, 'blaze_gold_ingot');
   createingot(e, 'bunny_steel_ingot');
+  createingot(e, 'midnight_iron_ingot');
+  createingot(e, 'sculk_alloy_ingot');
   createingot(e, 'crimson_iron_ingot');
   createingot(e, 'crimson_steel_ingot');
-  createingot(e, 'crystalline_alloy');
-  createingot(e, 'midnight_iron_ingot');
-  createingot(e, 'plasteel_ingot');
-  createingot(e, 'solarmetal_ingot');
+  createingot(e, 'crystalline_alloy');  
   createingot(e, 'tyrian_steel_ingot');
-  createingot(e, 'voidmetal_ingot');
-  createingot(e, 'sculk_alloy_ingot');
 
   function createdust(e, input) {
     e.create(input)
@@ -233,8 +233,8 @@ StartupEvents.registry('item', (e) => {
   createdust(e, 'blaze_gold_dust');
   createdust(e, 'crimson_iron_dust');
   createdust(e, 'crimson_steel_dust');
-  createdust(e, 'starmetal_dust');
   createdust(e, 'tyrian_steel_dust');
+  createdust(e, 'starmetal_dust');
 
   function createraw(e, input) {
     e.create(input)
@@ -245,9 +245,9 @@ StartupEvents.registry('item', (e) => {
   }
 
   createraw(e, 'raw_arcmetal');
-  createraw(e, 'raw_plasteel');
   createraw(e, 'raw_solarmetal');
   createraw(e, 'raw_voidmetal');
+  createraw(e, 'raw_plasteel');
 
   //starmetal ingot
   e.create('starmetal_ingot')

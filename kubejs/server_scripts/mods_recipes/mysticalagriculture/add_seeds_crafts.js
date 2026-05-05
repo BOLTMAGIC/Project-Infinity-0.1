@@ -173,7 +173,7 @@ ServerEvents.recipes((event) => {
   ]);
 
   seedtiercrafting2(event, 'mysticalagriculture:basalt_seeds', [
-    '#forge:stone/basalt',
+    'minecraft:basalt',
   ]);
 
   seedtiercrafting2(event, 'mysticalagriculture:marble_seeds', [

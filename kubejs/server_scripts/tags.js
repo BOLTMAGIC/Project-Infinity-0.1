@@ -102,7 +102,7 @@ ServerEvents.tags('fluid', (event) => {
 
 //add Tags to Blocks
 ServerEvents.tags('block', event => {
-  event.add('ae2:growth_acceleratable', [
+  event.add('mysticalagriculture:crops', [
     'mysticalagriculture:boron_crop',
     'mysticalagriculture:cognizant_dust_crop',
     'mysticalagriculture:dark_metal_ingot_crop',

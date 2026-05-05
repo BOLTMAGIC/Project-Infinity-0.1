@@ -314,6 +314,11 @@ ServerEvents.recipes((event) => {
   );
   event.replaceInput(
     { output: 'logisticsnetworks:netherite_upgrade' },
+    'minecraft:smooth_stone',
+    'logisticsnetworks:diamond_upgrade'
+  );
+  event.replaceInput(
+    { output: 'logisticsnetworks:netherite_upgrade' },
     'minecraft:chest',
     'allthemodium:allthemodium_ingot'
   );

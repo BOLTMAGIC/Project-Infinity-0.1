@@ -17,7 +17,7 @@ MMEvents.createProcesses((event) => {
       type: 'mm:input/consume',
       ingredient: {
         type: 'mm:energy',
-        amount: 16384,
+        amount: 163840,
       },
     })
     .input({
@@ -54,7 +54,7 @@ MMEvents.createProcesses((event) => {
       type: 'mm:input/consume',
       ingredient: {
         type: 'mm:energy',
-        amount: 16384,
+        amount: 163840,
       },
     })
     .input({
@@ -212,7 +212,7 @@ MMEvents.createProcesses((event) => {
       type: 'mm:input/consume',
       ingredient: {
         type: 'mm:energy',
-        amount: 100000000,
+        amount: 10000000,
       },
     })
     .output({
@@ -295,7 +295,7 @@ MMEvents.createProcesses((event) => {
       type: 'mm:input/consume',
       ingredient: {
         type: 'mm:energy',
-        amount: 5120000,
+        amount: 1280000,
       },
     })
     .output({
@@ -303,7 +303,7 @@ MMEvents.createProcesses((event) => {
       ingredient: {
         type: 'mm:fluid',
         fluid: 'advanced_ae:quantum_infusion_source',
-        amount: 16000,
+        amount: 64000,
       },
     });
 });

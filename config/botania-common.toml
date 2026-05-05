@@ -5,7 +5,7 @@ flowerBindingForceCheck = true
 #Set to false to disable the ability for the Hand of Ender to pickpocket other players' ender chests
 enderPickpocket = true
 #Set this to false to disable the Mana Enchanter. Since some people find it OP or something. This only disables the entry and creation. Old ones that are already in the world will stay.
-manaEnchanter = true
+manaEnchanter = false
 #Set this to false to disable the Relic System. This only disables the entries, drops and achievements. Old ones that are already in the world will stay.
 relics = true
 #Set this to true to invert the Ring of Magnetization's controls (from shift to stop to shift to work)

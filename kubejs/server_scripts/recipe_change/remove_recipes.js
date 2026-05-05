@@ -298,7 +298,6 @@ const removeItemsbyID = [
   'jei:/allthemodium/mek_processing/allthemodium/ore/deepslate_from_raw',
   'jei:/allthemodium/mek_processing/vibranium/ore/from_dust',
   'extendedcrafting:redstone_ingot',
-  'projecte:medium_covalence_dust',
   'ironfurnaces:rainbow_plating',
   'ironfurnaces:rainbow_core',
   'emi:/crafting/repairing/mysticalagriculture/infusion_crystal',

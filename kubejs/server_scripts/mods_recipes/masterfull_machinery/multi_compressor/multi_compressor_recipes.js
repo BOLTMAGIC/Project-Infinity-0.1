@@ -81,16 +81,16 @@ MMEvents.createProcesses((event) => {
       count: 1111,
     },
     enhanced_gold: {
-      inputItem: 'armorplus:en_gold',
-      count: 20000,
+      inputItem: 'kubejs:block_of_en_gold',
+      count: 2223,
     },
     enhanced_iron: {
-      inputItem: 'armorplus:en_iron',
-      count: 20000,
+      inputItem: 'kubejs:block_of_en_iron',
+      count: 2223,
     },
     enhanced_netherite: {
-      inputItem: 'armorplus:en_netherite',
-      count: 20000,
+      inputItem: 'kubejs:block_of_en_netherite',
+      count: 2223,
     },
     ethereal_spirit: {
       inputItem: 'born_in_chaos_v1:ethereal_spirit',
@@ -351,8 +351,9 @@ MMEvents.createProcesses((event) => {
         type: 'mm:output/simple',
         ingredient: {
           type: 'mm:item',
-          item: `kubejs:quantum_hyperdense_${material}_singularity`,
+          item: 'extendedcrafting:singularity',
           count: 1,
+          nbt_snbt: `{Id:"extendedcrafting:${material}"}`,
         },
       });
   }

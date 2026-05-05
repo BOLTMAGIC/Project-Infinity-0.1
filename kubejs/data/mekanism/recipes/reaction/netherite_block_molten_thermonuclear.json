@@ -1,0 +1,22 @@
+{
+  "type": "mekanism:reaction",
+  "duration": 900,
+  "energyRequired": 1000,
+  "fluidInput": {
+    "amount": 4500,
+    "tag": "minecraft:lava"
+  },
+  "gasInput": {
+    "amount": 4500,
+    "gas": "mekanism:superheated_sodium"
+  },
+  "itemInput": {
+    "ingredient": {
+      "item": "minecraft:netherite_block"
+    }
+  },
+  "gasOutput": {
+    "amount": 2160,
+    "gas": "mekanism_extras:molten_thermonuclear"
+  }
+}

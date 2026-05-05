@@ -21,7 +21,7 @@
 				item: "extendedcrafting:black_iron_ingot"
 				type: "item"
 			}]
-			x: 1.0d
+			x: -0.5d
 			y: -13.5d
 		}
 		{
@@ -38,7 +38,7 @@
 				type: "item"
 			}]
 			x: -0.5d
-			y: -12.5d
+			y: -10.5d
 		}
 		{
 			dependencies: [
@@ -59,7 +59,7 @@
 				type: "item"
 			}]
 			x: 0.5d
-			y: -11.0d
+			y: -10.5d
 		}
 		{
 			dependencies: [
@@ -80,7 +80,7 @@
 				type: "item"
 			}]
 			x: 1.5d
-			y: -11.0d
+			y: -10.5d
 		}
 		{
 			dependencies: ["6C8754CBAA4B7D90"]
@@ -95,8 +95,8 @@
 				item: "extendedcrafting:black_iron_slate"
 				type: "item"
 			}]
-			x: -0.5d
-			y: -14.5d
+			x: 0.5d
+			y: -12.0d
 		}
 		{
 			dependencies: [
@@ -117,7 +117,7 @@
 				type: "item"
 			}]
 			x: 2.5d
-			y: -11.0d
+			y: -10.5d
 		}
 		{
 			dependencies: [
@@ -138,7 +138,7 @@
 				type: "item"
 			}]
 			x: 3.5d
-			y: -11.0d
+			y: -10.5d
 		}
 		{
 			dependencies: [
@@ -160,7 +160,7 @@
 				type: "item"
 			}]
 			x: 4.5d
-			y: -11.0d
+			y: -10.5d
 		}
 		{
 			dependencies: [
@@ -182,7 +182,7 @@
 				type: "item"
 			}]
 			x: 6.5d
-			y: -11.0d
+			y: -10.5d
 		}
 		{
 			dependencies: [
@@ -204,13 +204,12 @@
 				type: "item"
 			}]
 			x: 7.5d
-			y: -11.0d
+			y: -10.5d
 		}
 		{
 			dependencies: [
 				"5974F712DA017C94"
 				"7E21D8137624442D"
-				"0A6FFA0295BE1616"
 			]
 			hide_dependency_lines: true
 			id: "7C3C6EE0AF2DF234"
@@ -226,7 +225,7 @@
 				type: "item"
 			}]
 			x: 8.5d
-			y: -11.0d
+			y: -10.5d
 		}
 		{
 			dependencies: [
@@ -248,7 +247,7 @@
 				type: "item"
 			}]
 			x: 9.5d
-			y: -11.0d
+			y: -10.5d
 		}
 		{
 			dependencies: ["5530C0D8BF092FCA"]
@@ -264,7 +263,7 @@
 				type: "item"
 			}]
 			x: 7.0d
-			y: -12.5d
+			y: -14.5d
 		}
 		{
 			dependencies: ["5530C0D8BF092FCA"]
@@ -280,7 +279,7 @@
 				type: "item"
 			}]
 			x: 7.0d
-			y: -14.5d
+			y: -12.5d
 		}
 		{
 			dependencies: ["0C43E0D8C4C8743F"]
@@ -310,7 +309,7 @@
 			]
 			title: "&3The Ender Crafter"
 			x: 9.0d
-			y: -14.5d
+			y: -12.5d
 		}
 		{
 			dependencies: ["11E16D072634AAF5"]
@@ -326,7 +325,7 @@
 				type: "item"
 			}]
 			x: 11.0d
-			y: -14.5d
+			y: -12.0d
 		}
 		{
 			dependencies: ["2EC1D0576E0D417C"]
@@ -344,7 +343,7 @@
 				type: "item"
 			}]
 			x: 13.0d
-			y: -14.5d
+			y: -12.5d
 		}
 		{
 			dependencies: ["183E47DFBC340187"]
@@ -361,7 +360,7 @@
 				type: "item"
 			}]
 			x: 0.5d
-			y: -10.0d
+			y: -9.5d
 		}
 		{
 			dependencies: ["47D23E9CB93DE790"]
@@ -378,7 +377,7 @@
 				type: "item"
 			}]
 			x: 1.5d
-			y: -10.0d
+			y: -9.5d
 		}
 		{
 			dependencies: ["74C4FD5EF14EDB3A"]
@@ -395,7 +394,7 @@
 				type: "item"
 			}]
 			x: 3.5d
-			y: -10.0d
+			y: -9.5d
 		}
 		{
 			dependencies: ["790B36479144770F"]
@@ -412,7 +411,7 @@
 				type: "item"
 			}]
 			x: 2.5d
-			y: -10.0d
+			y: -9.5d
 		}
 		{
 			dependencies: ["058BAA533EFE63EB"]
@@ -429,7 +428,7 @@
 				type: "item"
 			}]
 			x: 4.5d
-			y: -10.0d
+			y: -9.5d
 		}
 		{
 			dependencies: ["33565398C0DA7135"]
@@ -446,7 +445,7 @@
 				type: "item"
 			}]
 			x: 6.5d
-			y: -10.0d
+			y: -9.5d
 		}
 		{
 			dependencies: ["501A8D68AA146608"]
@@ -463,14 +462,10 @@
 				type: "item"
 			}]
 			x: 7.5d
-			y: -10.0d
+			y: -9.5d
 		}
 		{
-			dependencies: [
-				"47D23E9CB93DE790"
-				"36EC2AF9842DE616"
-			]
-			hide_dependency_lines: true
+			dependencies: ["36EC2AF9842DE616"]
 			id: "6735CD1B161A8AB2"
 			rewards: [{
 				id: "7D86F90BDFF1EA80"
@@ -482,16 +477,14 @@
 				item: "extendedcrafting:advanced_table"
 				type: "item"
 			}]
-			x: 2.5d
-			y: -8.5d
+			x: 1.5d
+			y: -8.0d
 		}
 		{
 			dependencies: [
-				"790B36479144770F"
 				"4FDC471CEB587D21"
 				"6735CD1B161A8AB2"
 			]
-			hide_dependency_lines: true
 			id: "083AABDD7093C1E4"
 			rewards: [{
 				id: "1F1DB7BE81E80697"
@@ -503,16 +496,14 @@
 				item: "extendedcrafting:elite_table"
 				type: "item"
 			}]
-			x: 4.0d
-			y: -8.5d
+			x: 2.5d
+			y: -8.0d
 		}
 		{
 			dependencies: [
-				"74C4FD5EF14EDB3A"
 				"63CAB90493C64AF3"
 				"083AABDD7093C1E4"
 			]
-			hide_dependency_lines: true
 			id: "588BD1C2DEC4DEE6"
 			rewards: [{
 				id: "19AA6D9675E11BF9"
@@ -524,8 +515,8 @@
 				item: "extendedcrafting:ultimate_table"
 				type: "item"
 			}]
-			x: 5.5d
-			y: -8.5d
+			x: 3.5d
+			y: -8.0d
 		}
 		{
 			dependencies: ["6735CD1B161A8AB2"]
@@ -541,7 +532,7 @@
 				item: "extendedcrafting:advanced_auto_table"
 				type: "item"
 			}]
-			x: 2.5d
+			x: 1.5d
 			y: -6.5d
 		}
 		{
@@ -558,7 +549,7 @@
 				item: "extendedcrafting:elite_auto_table"
 				type: "item"
 			}]
-			x: 4.0d
+			x: 2.5d
 			y: -6.5d
 		}
 		{
@@ -575,7 +566,7 @@
 				item: "extendedcrafting:ultimate_auto_table"
 				type: "item"
 			}]
-			x: 5.5d
+			x: 3.5d
 			y: -6.5d
 		}
 		{
@@ -591,8 +582,8 @@
 				item: "extendedcrafting:compressor"
 				type: "item"
 			}]
-			x: 0.5d
-			y: -6.5d
+			x: 3.5d
+			y: -12.0d
 		}
 		{
 			dependencies: [
@@ -696,7 +687,7 @@
 				type: "item"
 			}]
 			shape: "hexagon"
-			size: 1.5d
+			size: 2.0d
 			subtitle: "The Ultimate Singularity"
 			tasks: [{
 				id: "187735BA60615F3A"
@@ -705,26 +696,8 @@
 				type: "item"
 			}]
 			title: "&5&l&oOne to rule them all"
-			x: -4.5d
-			y: -10.5d
-		}
-		{
-			dependencies: ["083AABDD7093C1E4"]
-			hide_dependency_lines: true
-			id: "0A6FFA0295BE1616"
-			rewards: [{
-				id: "69EEB67B1A6EE5A7"
-				item: "kubejs:apotheotic_coin"
-				type: "item"
-			}]
-			shape: "hexagon"
-			tasks: [{
-				id: "105F39E89EBB6821"
-				item: "extendedcrafting:crystaltine_ingot"
-				type: "item"
-			}]
-			x: 14.0d
-			y: -13.5d
+			x: 1.5d
+			y: -0.5d
 		}
 		{
 			dependencies: ["7C3C6EE0AF2DF234"]
@@ -741,7 +714,7 @@
 				type: "item"
 			}]
 			x: 8.5d
-			y: -10.0d
+			y: -9.5d
 		}
 		{
 			dependencies: ["3CB10BBE42C7A96C"]
@@ -758,7 +731,7 @@
 				type: "item"
 			}]
 			x: 9.5d
-			y: -10.0d
+			y: -9.5d
 		}
 		{
 			dependencies: [
@@ -810,7 +783,6 @@
 				"7B72E904B0DC0DCB"
 				"37E45F9B3778DA66"
 				"07FCF9F9BF4DDD29"
-				"6BFF9C6836C54637"
 				"4D9A1D8BBCCE0CBA"
 				"54092C6F1E944095"
 				"080110CD55E2A346"
@@ -852,12 +824,10 @@
 				"4F3205E09442F53F"
 				"1CB97D001F63DE6A"
 				"082DD5A72D5A1062"
-				"7C360334824775F3"
 				"40445AE829B699AD"
 				"22C4F3E1D8EAEF76"
 				"1B9C77D182821F76"
 				"59A4B74079084352"
-				"108D6E68FB41DA1B"
 				"42D5A4829923D1B4"
 				"3A59771ACE2E0EA9"
 				"422CCD99C5021972"
@@ -867,7 +837,6 @@
 				"16B87DEDE4769BF7"
 				"3BED0E603E0D1456"
 				"458158B91411D4F1"
-				"51A074A074D8D203"
 				"1BD21112D4086A15"
 				"60AA65A76D572284"
 				"69A939D9A7D31A7C"
@@ -880,7 +849,6 @@
 				"280F15D0E6EBE2C3"
 				"547561DE5CE63AB5"
 				"07C6EE2303D4EAC8"
-				"2989CC84FCDC482A"
 				"0E0404DC5CDE5AF8"
 				"3D34D2CFB6133C17"
 			]
@@ -903,7 +871,7 @@
 				type: "item"
 			}]
 			shape: "hexagon"
-			size: 1.5d
+			size: 2.0d
 			subtitle: "The Ultimate Ingot"
 			tasks: [{
 				id: "4DA07334BF25E287"
@@ -911,8 +879,8 @@
 				type: "item"
 			}]
 			title: "&5&l&oThe one and only"
-			x: 14.25d
-			y: -10.5d
+			x: 6.5d
+			y: -0.5d
 		}
 		{
 			disable_toast: true
@@ -941,11 +909,7 @@
 			y: -13.5d
 		}
 		{
-			dependencies: [
-				"6C8754CBAA4B7D90"
-				"5974F712DA017C94"
-			]
-			hide_dependency_lines: true
+			dependencies: ["5974F712DA017C94"]
 			id: "66958504698EE334"
 			rewards: [{
 				id: "1C5A3FD56291CF4A"
@@ -957,8 +921,8 @@
 				item: "extendedcrafting:frame"
 				type: "item"
 			}]
-			x: 0.5d
-			y: -8.5d
+			x: 2.0d
+			y: -12.0d
 		}
 		{
 			dependencies: ["22698729A224CCBC"]
@@ -984,7 +948,7 @@
 			]
 			title: "&6The Flux Crafter"
 			x: 9.0d
-			y: -12.5d
+			y: -14.5d
 		}
 		{
 			dependencies: [
@@ -1006,7 +970,7 @@
 				type: "item"
 			}]
 			x: 5.5d
-			y: -11.0d
+			y: -10.5d
 		}
 		{
 			dependencies: ["0C824D2FDD62401F"]
@@ -1022,7 +986,7 @@
 				type: "item"
 			}]
 			x: 5.5d
-			y: -10.0d
+			y: -9.5d
 		}
 		{
 			dependencies: ["6E79797DBD8A54EA"]
@@ -1038,7 +1002,7 @@
 				type: "item"
 			}]
 			x: 11.0d
-			y: -12.5d
+			y: -15.0d
 		}
 		{
 			dependencies: ["68463B5E8E6698F6"]
@@ -1056,7 +1020,7 @@
 				type: "item"
 			}]
 			x: 13.0d
-			y: -12.5d
+			y: -14.0d
 		}
 		{
 			dependencies: [
@@ -1085,7 +1049,7 @@
 				}
 			]
 			title: "&bAuto Ender \\& Flux Crafters"
-			x: 12.0d
+			x: 11.0d
 			y: -13.5d
 		}
 		{
@@ -1102,7 +1066,7 @@
 				type: "item"
 			}]
 			x: -1.5d
-			y: -13.5d
+			y: -14.5d
 		}
 		{
 			dependencies: ["294EAB81A6EA6D7C"]
@@ -1118,12 +1082,11 @@
 				item: "extendedcrafting:epic_auto_table"
 				type: "item"
 			}]
-			x: 7.0d
+			x: 5.0d
 			y: -6.5d
 		}
 		{
 			dependencies: ["588BD1C2DEC4DEE6"]
-			hide_dependency_lines: true
 			id: "294EAB81A6EA6D7C"
 			rewards: [{
 				id: "709AEEDAF864FE81"
@@ -1135,8 +1098,8 @@
 				item: "extendedcrafting:epic_table"
 				type: "item"
 			}]
-			x: 7.0d
-			y: -8.5d
+			x: 5.0d
+			y: -8.0d
 		}
 		{
 			id: "22BA87708E0F506C"
@@ -1157,8 +1120,8 @@
 				match_nbt: true
 				type: "item"
 			}]
-			x: -6.0d
-			y: -8.0d
+			x: -8.5d
+			y: -2.5d
 		}
 		{
 			id: "7C002CD2CCC01501"
@@ -1179,8 +1142,8 @@
 				match_nbt: true
 				type: "item"
 			}]
-			x: -5.0d
-			y: -8.0d
+			x: -8.5d
+			y: -3.5d
 		}
 		{
 			id: "06A937A7EA999182"
@@ -1201,8 +1164,8 @@
 				match_nbt: true
 				type: "item"
 			}]
-			x: -4.0d
-			y: -8.0d
+			x: -8.5d
+			y: -4.5d
 		}
 		{
 			id: "67E662C37D9026A7"
@@ -1223,8 +1186,8 @@
 				match_nbt: true
 				type: "item"
 			}]
-			x: -3.0d
-			y: -8.0d
+			x: -7.5d
+			y: -4.5d
 		}
 		{
 			id: "7F212C10D25CBB18"
@@ -1245,8 +1208,8 @@
 				match_nbt: true
 				type: "item"
 			}]
-			x: -6.5d
-			y: -7.0d
+			x: -8.5d
+			y: 0.5d
 		}
 		{
 			id: "55967F5CA7C8DCE3"
@@ -1267,8 +1230,8 @@
 				match_nbt: true
 				type: "item"
 			}]
-			x: -5.5d
-			y: -7.0d
+			x: -6.5d
+			y: -4.5d
 		}
 		{
 			id: "3F0474DF3A51CB40"
@@ -1289,8 +1252,8 @@
 				match_nbt: true
 				type: "item"
 			}]
-			x: -4.5d
-			y: -7.0d
+			x: -1.5d
+			y: -4.5d
 		}
 		{
 			id: "64799EA963D7DE9C"
@@ -1311,8 +1274,8 @@
 				match_nbt: true
 				type: "item"
 			}]
-			x: -3.5d
-			y: -7.0d
+			x: -5.5d
+			y: -4.5d
 		}
 		{
 			id: "539E72790538FDA1"
@@ -1333,8 +1296,8 @@
 				match_nbt: true
 				type: "item"
 			}]
-			x: -6.0d
-			y: -6.0d
+			x: -3.5d
+			y: -4.5d
 		}
 		{
 			id: "619D46DEF30F515F"
@@ -1355,8 +1318,8 @@
 				match_nbt: true
 				type: "item"
 			}]
-			x: -5.0d
-			y: -6.0d
+			x: -2.5d
+			y: -4.5d
 		}
 		{
 			id: "0F5302390CD3EBC9"
@@ -1377,8 +1340,8 @@
 				match_nbt: true
 				type: "item"
 			}]
-			x: -4.0d
-			y: -6.0d
+			x: -8.5d
+			y: -1.5d
 		}
 		{
 			id: "345447CFECB1EAEA"
@@ -1399,8 +1362,8 @@
 				match_nbt: true
 				type: "item"
 			}]
-			x: -3.0d
-			y: -6.0d
+			x: -7.5d
+			y: -1.5d
 		}
 		{
 			id: "595AFEA7195FCF0D"
@@ -1421,8 +1384,8 @@
 				match_nbt: true
 				type: "item"
 			}]
-			x: -6.5d
-			y: -5.0d
+			x: -7.5d
+			y: -2.5d
 		}
 		{
 			id: "5E1DEE61573E2081"
@@ -1443,8 +1406,8 @@
 				match_nbt: true
 				type: "item"
 			}]
-			x: -5.5d
-			y: -5.0d
+			x: -7.5d
+			y: -3.5d
 		}
 		{
 			id: "0560E4387D067C3E"
@@ -1465,8 +1428,8 @@
 				match_nbt: true
 				type: "item"
 			}]
-			x: -4.5d
-			y: -5.0d
+			x: -6.5d
+			y: -1.5d
 		}
 		{
 			id: "0C2661F93E2EEA9E"
@@ -1487,8 +1450,8 @@
 				match_nbt: true
 				type: "item"
 			}]
-			x: -3.5d
-			y: -5.0d
+			x: -6.5d
+			y: -3.5d
 		}
 		{
 			id: "6A84AA6205ED01C3"
@@ -1509,8 +1472,8 @@
 				match_nbt: true
 				type: "item"
 			}]
-			x: -6.0d
-			y: -4.0d
+			x: -5.5d
+			y: -3.5d
 		}
 		{
 			id: "15FBF82A9B13FC8C"
@@ -1531,8 +1494,8 @@
 				match_nbt: true
 				type: "item"
 			}]
-			x: -5.0d
-			y: -4.0d
+			x: -4.5d
+			y: -3.5d
 		}
 		{
 			id: "4288C2AD752807B4"
@@ -1553,8 +1516,8 @@
 				match_nbt: true
 				type: "item"
 			}]
-			x: -4.0d
-			y: -4.0d
+			x: -3.5d
+			y: -3.5d
 		}
 		{
 			id: "32B6C7A033B80033"
@@ -1575,8 +1538,8 @@
 				match_nbt: true
 				type: "item"
 			}]
-			x: -3.0d
-			y: -4.0d
+			x: -8.5d
+			y: -0.5d
 		}
 		{
 			id: "3109EE54A8B50F5D"
@@ -1597,8 +1560,8 @@
 				match_nbt: true
 				type: "item"
 			}]
-			x: -6.5d
-			y: -3.0d
+			x: -7.5d
+			y: -0.5d
 		}
 		{
 			id: "362250BCBCEC06B2"
@@ -1619,8 +1582,8 @@
 				match_nbt: true
 				type: "item"
 			}]
-			x: -5.5d
-			y: -3.0d
+			x: -6.5d
+			y: -0.5d
 		}
 		{
 			id: "4C76AAFC67B38348"
@@ -1641,8 +1604,8 @@
 				match_nbt: true
 				type: "item"
 			}]
-			x: -4.5d
-			y: -3.0d
+			x: -6.5d
+			y: -2.5d
 		}
 		{
 			id: "2CFFE9AB7C49F0BF"
@@ -1663,8 +1626,8 @@
 				match_nbt: true
 				type: "item"
 			}]
-			x: -3.5d
-			y: -3.0d
+			x: -5.5d
+			y: -2.5d
 		}
 		{
 			id: "71D9727148D5DE09"
@@ -1685,8 +1648,8 @@
 				match_nbt: true
 				type: "item"
 			}]
-			x: -6.0d
-			y: -2.0d
+			x: -4.5d
+			y: -2.5d
 		}
 		{
 			id: "259EAF6D8C29613A"
@@ -1707,8 +1670,8 @@
 				match_nbt: true
 				type: "item"
 			}]
-			x: -5.0d
-			y: -2.0d
+			x: -2.5d
+			y: -3.5d
 		}
 		{
 			id: "52FC6E9D981B1C41"
@@ -1729,8 +1692,8 @@
 				match_nbt: true
 				type: "item"
 			}]
-			x: -4.0d
-			y: -2.0d
+			x: -3.5d
+			y: 2.5d
 		}
 		{
 			id: "2DD28DD1614C5F89"
@@ -1751,8 +1714,8 @@
 				match_nbt: true
 				type: "item"
 			}]
-			x: -3.0d
-			y: -2.0d
+			x: -0.5d
+			y: -4.5d
 		}
 		{
 			id: "06DC2BBF134E4D3A"
@@ -1773,8 +1736,8 @@
 				match_nbt: true
 				type: "item"
 			}]
-			x: -6.5d
-			y: -1.0d
+			x: -7.5d
+			y: 0.5d
 		}
 		{
 			id: "75CA070BB26D59C4"
@@ -1795,8 +1758,8 @@
 				match_nbt: true
 				type: "item"
 			}]
-			x: -5.5d
-			y: -1.0d
+			x: -6.5d
+			y: 0.5d
 		}
 		{
 			id: "42EA48E74B954384"
@@ -1817,8 +1780,8 @@
 				match_nbt: true
 				type: "item"
 			}]
-			x: -4.5d
-			y: -1.0d
+			x: -5.5d
+			y: 0.5d
 		}
 		{
 			id: "57F6AA4F885E94FE"
@@ -1839,8 +1802,8 @@
 				match_nbt: true
 				type: "item"
 			}]
-			x: -3.5d
-			y: -1.0d
+			x: -5.5d
+			y: -0.5d
 		}
 		{
 			id: "77E55BC6069ED918"
@@ -1861,8 +1824,8 @@
 				match_nbt: true
 				type: "item"
 			}]
-			x: -6.0d
-			y: 0.0d
+			x: -5.5d
+			y: -1.5d
 		}
 		{
 			id: "46D69E999E55DFCE"
@@ -1883,8 +1846,8 @@
 				match_nbt: true
 				type: "item"
 			}]
-			x: -5.0d
-			y: 0.0d
+			x: -3.5d
+			y: -2.5d
 		}
 		{
 			id: "6874D96FB0E4E6B0"
@@ -1905,8 +1868,8 @@
 				match_nbt: true
 				type: "item"
 			}]
-			x: -4.0d
-			y: 0.0d
+			x: -1.5d
+			y: -3.5d
 		}
 		{
 			id: "75B2FA11A55D974B"
@@ -1927,8 +1890,8 @@
 				match_nbt: true
 				type: "item"
 			}]
-			x: -3.0d
-			y: 0.0d
+			x: -0.5d
+			y: -3.5d
 		}
 		{
 			id: "5ED2DF58DD29F24F"
@@ -1949,8 +1912,8 @@
 				match_nbt: true
 				type: "item"
 			}]
-			x: -5.0d
-			y: 8.0d
+			x: -8.5d
+			y: 1.5d
 		}
 		{
 			id: "555C8EEB5BC9A391"
@@ -1971,8 +1934,8 @@
 				match_nbt: true
 				type: "item"
 			}]
-			x: -6.0d
-			y: 8.0d
+			x: -7.5d
+			y: 1.5d
 		}
 		{
 			id: "34C671C2ED3E9879"
@@ -1993,8 +1956,8 @@
 				match_nbt: true
 				type: "item"
 			}]
-			x: -3.0d
-			y: 8.0d
+			x: -6.5d
+			y: 1.5d
 		}
 		{
 			id: "130C7D2358C136B3"
@@ -2015,8 +1978,8 @@
 				match_nbt: true
 				type: "item"
 			}]
-			x: -6.5d
-			y: 9.0d
+			x: -4.5d
+			y: 0.5d
 		}
 		{
 			id: "3DE0759CB59A1D60"
@@ -2037,8 +2000,8 @@
 				match_nbt: true
 				type: "item"
 			}]
-			x: -6.0d
-			y: 10.0d
+			x: -4.5d
+			y: -0.5d
 		}
 		{
 			id: "5D75D096A3D3BD3B"
@@ -2059,8 +2022,8 @@
 				match_nbt: true
 				type: "item"
 			}]
-			x: -6.5d
-			y: 11.0d
+			x: -4.5d
+			y: -4.5d
 		}
 		{
 			id: "35300B93A962ED07"
@@ -2081,8 +2044,8 @@
 				match_nbt: true
 				type: "item"
 			}]
-			x: -5.5d
-			y: 9.0d
+			x: -4.5d
+			y: -1.5d
 		}
 		{
 			id: "22B8B7786A4B9093"
@@ -2103,8 +2066,8 @@
 				match_nbt: true
 				type: "item"
 			}]
-			x: -4.5d
-			y: 9.0d
+			x: -2.5d
+			y: -2.5d
 		}
 		{
 			id: "0521DA17EB048656"
@@ -2125,8 +2088,8 @@
 				match_nbt: true
 				type: "item"
 			}]
-			x: -3.5d
-			y: 9.0d
+			x: -1.5d
+			y: -2.5d
 		}
 		{
 			id: "0B31B9B96A3A96B1"
@@ -2147,8 +2110,8 @@
 				match_nbt: true
 				type: "item"
 			}]
-			x: -4.5d
-			y: -9.0d
+			x: -5.5d
+			y: 3.5d
 		}
 		{
 			id: "4718368B71868ADE"
@@ -2169,8 +2132,8 @@
 				match_nbt: true
 				type: "item"
 			}]
-			x: -5.5d
-			y: 1.0d
+			x: -4.5d
+			y: 3.5d
 		}
 		{
 			id: "534C02D17648D31C"
@@ -2191,8 +2154,8 @@
 				match_nbt: true
 				type: "item"
 			}]
-			x: -4.5d
-			y: 1.0d
+			x: -3.5d
+			y: 3.5d
 		}
 		{
 			id: "0D61394E83E07E32"
@@ -2213,8 +2176,8 @@
 				match_nbt: true
 				type: "item"
 			}]
-			x: -3.5d
-			y: 1.0d
+			x: -2.5d
+			y: 3.5d
 		}
 		{
 			id: "685BBC3BA94474A4"
@@ -2235,8 +2198,8 @@
 				match_nbt: true
 				type: "item"
 			}]
-			x: -5.0d
-			y: 10.0d
+			x: -1.5d
+			y: 3.5d
 		}
 		{
 			id: "36EBD9AC492715CB"
@@ -2257,8 +2220,8 @@
 				match_nbt: true
 				type: "item"
 			}]
-			x: -4.0d
-			y: 10.0d
+			x: -0.5d
+			y: -2.5d
 		}
 		{
 			id: "0C37C1547D28DFB7"
@@ -2279,8 +2242,8 @@
 				match_nbt: true
 				type: "item"
 			}]
-			x: -3.0d
-			y: 2.0d
+			x: -5.5d
+			y: 1.5d
 		}
 		{
 			id: "5AA1A2C956188786"
@@ -2301,8 +2264,8 @@
 				match_nbt: true
 				type: "item"
 			}]
-			x: -4.0d
-			y: 2.0d
+			x: -0.5d
+			y: 3.5d
 		}
 		{
 			id: "01DAFC9109A31E7D"
@@ -2323,8 +2286,8 @@
 				match_nbt: true
 				type: "item"
 			}]
-			x: -5.0d
-			y: 2.0d
+			x: -0.5d
+			y: 2.5d
 		}
 		{
 			id: "371ACEC1B15C64E6"
@@ -2345,8 +2308,8 @@
 				match_nbt: true
 				type: "item"
 			}]
-			x: -6.0d
-			y: 2.0d
+			x: -0.5d
+			y: 1.5d
 		}
 		{
 			id: "0BE11EB976A863BA"
@@ -2367,8 +2330,8 @@
 				match_nbt: true
 				type: "item"
 			}]
-			x: -6.5d
-			y: 3.0d
+			x: -8.5d
+			y: 2.5d
 		}
 		{
 			id: "6C205F2457EC5D5F"
@@ -2389,8 +2352,8 @@
 				match_nbt: true
 				type: "item"
 			}]
-			x: -5.5d
-			y: 3.0d
+			x: -7.5d
+			y: 2.5d
 		}
 		{
 			id: "69A435F076A19CDC"
@@ -2411,8 +2374,8 @@
 				match_nbt: true
 				type: "item"
 			}]
-			x: -4.5d
-			y: 3.0d
+			x: -3.5d
+			y: 0.5d
 		}
 		{
 			id: "274011BD14FA28EA"
@@ -2434,7 +2397,7 @@
 				type: "item"
 			}]
 			x: -3.5d
-			y: 3.0d
+			y: -0.5d
 		}
 		{
 			id: "4A5EECC743654BB3"
@@ -2455,8 +2418,8 @@
 				match_nbt: true
 				type: "item"
 			}]
-			x: -3.0d
-			y: 10.0d
+			x: -3.5d
+			y: -1.5d
 		}
 		{
 			id: "1E74FFB46D98939B"
@@ -2477,8 +2440,8 @@
 				match_nbt: true
 				type: "item"
 			}]
-			x: -5.5d
-			y: 11.0d
+			x: -6.5d
+			y: 2.5d
 		}
 		{
 			id: "1428C04FF4B26F0F"
@@ -2499,8 +2462,8 @@
 				match_nbt: true
 				type: "item"
 			}]
-			x: -3.0d
-			y: 4.0d
+			x: -8.5d
+			y: 3.5d
 		}
 		{
 			id: "70F5C81894F13224"
@@ -2521,8 +2484,8 @@
 				match_nbt: true
 				type: "item"
 			}]
-			x: -4.0d
-			y: 4.0d
+			x: -0.5d
+			y: -1.5d
 		}
 		{
 			id: "74F4BAD08542DAFA"
@@ -2543,8 +2506,8 @@
 				match_nbt: true
 				type: "item"
 			}]
-			x: -5.0d
-			y: 4.0d
+			x: -1.5d
+			y: -1.5d
 		}
 		{
 			id: "77C713C707496AA9"
@@ -2565,8 +2528,8 @@
 				match_nbt: true
 				type: "item"
 			}]
-			x: -6.0d
-			y: 4.0d
+			x: -2.5d
+			y: -1.5d
 		}
 		{
 			id: "6261065E4117B342"
@@ -2587,8 +2550,8 @@
 				match_nbt: true
 				type: "item"
 			}]
-			x: -6.5d
-			y: 5.0d
+			x: -4.5d
+			y: 1.5d
 		}
 		{
 			id: "6CE32AF7EC49F675"
@@ -2609,8 +2572,8 @@
 				match_nbt: true
 				type: "item"
 			}]
-			x: -5.5d
-			y: 5.0d
+			x: -3.5d
+			y: 1.5d
 		}
 		{
 			id: "361058FB3C4CC92E"
@@ -2631,8 +2594,8 @@
 				match_nbt: true
 				type: "item"
 			}]
-			x: -4.5d
-			y: 5.0d
+			x: -2.5d
+			y: 1.5d
 		}
 		{
 			id: "4B9186C7D751D3D7"
@@ -2653,8 +2616,8 @@
 				match_nbt: true
 				type: "item"
 			}]
-			x: -3.5d
-			y: 5.0d
+			x: -2.5d
+			y: 0.5d
 		}
 		{
 			id: "63F44E6C074CEAC1"
@@ -2675,8 +2638,8 @@
 				match_nbt: true
 				type: "item"
 			}]
-			x: -4.5d
-			y: 11.0d
+			x: -2.5d
+			y: -0.5d
 		}
 		{
 			id: "2A0FFACEAE829512"
@@ -2697,8 +2660,8 @@
 				match_nbt: true
 				type: "item"
 			}]
-			x: -3.5d
-			y: 11.0d
+			x: -4.5d
+			y: 2.5d
 		}
 		{
 			id: "4C89D68370C82B40"
@@ -2719,8 +2682,8 @@
 				match_nbt: true
 				type: "item"
 			}]
-			x: -3.0d
-			y: 6.0d
+			x: -5.5d
+			y: 2.5d
 		}
 		{
 			id: "7E86A8DC866DA750"
@@ -2741,8 +2704,8 @@
 				match_nbt: true
 				type: "item"
 			}]
-			x: -4.0d
-			y: 6.0d
+			x: -7.5d
+			y: 3.5d
 		}
 		{
 			id: "736D57705E03D0AB"
@@ -2763,8 +2726,8 @@
 				match_nbt: true
 				type: "item"
 			}]
-			x: -5.0d
-			y: 6.0d
+			x: -0.5d
+			y: -0.5d
 		}
 		{
 			id: "63E13E8EED0ABA9C"
@@ -2785,8 +2748,8 @@
 				match_nbt: true
 				type: "item"
 			}]
-			x: -6.0d
-			y: 6.0d
+			x: -1.5d
+			y: -0.5d
 		}
 		{
 			id: "02C261537C06AB91"
@@ -2807,8 +2770,8 @@
 				match_nbt: true
 				type: "item"
 			}]
-			x: -6.5d
-			y: 7.0d
+			x: -2.5d
+			y: 2.5d
 		}
 		{
 			id: "6D0315EDC209D68C"
@@ -2829,8 +2792,8 @@
 				match_nbt: true
 				type: "item"
 			}]
-			x: -5.5d
-			y: 7.0d
+			x: -1.5d
+			y: 2.5d
 		}
 		{
 			id: "1EADEF460DF9F959"
@@ -2851,8 +2814,8 @@
 				match_nbt: true
 				type: "item"
 			}]
-			x: -4.5d
-			y: 7.0d
+			x: -1.5d
+			y: 1.5d
 		}
 		{
 			id: "1F27CB7D6927C013"
@@ -2873,8 +2836,8 @@
 				match_nbt: true
 				type: "item"
 			}]
-			x: -3.5d
-			y: 7.0d
+			x: -1.5d
+			y: 0.5d
 		}
 		{
 			id: "6EC10F18CEC9DBE2"
@@ -2895,8 +2858,8 @@
 				match_nbt: true
 				type: "item"
 			}]
-			x: -6.5d
-			y: 1.0d
+			x: -0.5d
+			y: 0.5d
 		}
 		{
 			id: "513179CB9422BB56"
@@ -2917,8 +2880,8 @@
 				match_nbt: true
 				type: "item"
 			}]
-			x: -4.0d
-			y: 8.0d
+			x: -6.5d
+			y: 3.5d
 		}
 		{
 			id: "458158B91411D4F1"
@@ -2933,8 +2896,8 @@
 				item: "minecraft:iron_ingot"
 				type: "item"
 			}]
-			x: 12.0d
-			y: -8.5d
+			x: 8.0d
+			y: -5.5d
 		}
 		{
 			id: "727554823C301F48"
@@ -2949,8 +2912,8 @@
 				item: "minecraft:copper_ingot"
 				type: "item"
 			}]
-			x: 13.0d
-			y: -8.5d
+			x: 9.0d
+			y: -5.5d
 		}
 		{
 			id: "3F9E5049E3A782DE"
@@ -2965,8 +2928,8 @@
 				item: "minecraft:gold_ingot"
 				type: "item"
 			}]
-			x: 14.0d
-			y: -8.5d
+			x: 10.0d
+			y: -5.5d
 		}
 		{
 			id: "60061B8776B9390E"
@@ -2981,8 +2944,8 @@
 				item: "minecraft:netherite_ingot"
 				type: "item"
 			}]
-			x: 15.0d
-			y: -8.5d
+			x: 11.0d
+			y: -5.5d
 		}
 		{
 			id: "3A2756F1A69DC94E"
@@ -2997,8 +2960,8 @@
 				item: "mekanism:ingot_refined_obsidian"
 				type: "item"
 			}]
-			x: 16.0d
-			y: -8.5d
+			x: 12.0d
+			y: -5.5d
 		}
 		{
 			id: "3134D8C0904A8DE5"
@@ -3013,8 +2976,8 @@
 				item: "mekanism:ingot_refined_glowstone"
 				type: "item"
 			}]
-			x: 17.0d
-			y: -8.5d
+			x: 13.0d
+			y: -5.5d
 		}
 		{
 			id: "625271AF6375DFFA"
@@ -3029,8 +2992,8 @@
 				item: "mekanism:ingot_osmium"
 				type: "item"
 			}]
-			x: 12.5d
-			y: -7.5d
+			x: 14.0d
+			y: -5.5d
 		}
 		{
 			id: "30AC18AF86EF9D90"
@@ -3045,8 +3008,8 @@
 				item: "common_ore_library:brass_ingot"
 				type: "item"
 			}]
-			x: 16.5d
-			y: -7.5d
+			x: 18.0d
+			y: -5.5d
 		}
 		{
 			id: "280F15D0E6EBE2C3"
@@ -3061,8 +3024,8 @@
 				item: "industrialforegoing:pink_slime_ingot"
 				type: "item"
 			}]
-			x: 12.0d
-			y: -6.5d
+			x: 8.0d
+			y: -4.5d
 		}
 		{
 			id: "12DF66D82076FD48"
@@ -3077,8 +3040,8 @@
 				item: "advancednetherite:netherite_diamond_ingot"
 				type: "item"
 			}]
-			x: 16.0d
-			y: -6.5d
+			x: 12.0d
+			y: -4.5d
 		}
 		{
 			id: "635A2878441CF91B"
@@ -3093,8 +3056,8 @@
 				item: "kubejs:blaze_gold_ingot"
 				type: "item"
 			}]
-			x: 17.0d
-			y: -6.5d
+			x: 13.0d
+			y: -4.5d
 		}
 		{
 			id: "655B24AF81D68CB6"
@@ -3109,8 +3072,8 @@
 				item: "thermal:nickel_ingot"
 				type: "item"
 			}]
-			x: 15.5d
-			y: -5.5d
+			x: 17.0d
+			y: -4.5d
 		}
 		{
 			id: "080110CD55E2A346"
@@ -3125,8 +3088,8 @@
 				item: "thermal:silver_ingot"
 				type: "item"
 			}]
-			x: 16.5d
-			y: -5.5d
+			x: 18.0d
+			y: -4.5d
 		}
 		{
 			id: "427C6103C377C9E3"
@@ -3141,8 +3104,8 @@
 				item: "thermal:rose_gold_ingot"
 				type: "item"
 			}]
-			x: 15.0d
-			y: -4.5d
+			x: 11.0d
+			y: -3.5d
 		}
 		{
 			id: "3A6FFB0A4C1CE67C"
@@ -3157,8 +3120,8 @@
 				item: "thermal:electrum_ingot"
 				type: "item"
 			}]
-			x: 16.0d
-			y: -4.5d
+			x: 12.0d
+			y: -3.5d
 		}
 		{
 			id: "2C029CEB18930546"
@@ -3173,8 +3136,8 @@
 				item: "common_ore_library:platinum_ingot"
 				type: "item"
 			}]
-			x: 13.5d
-			y: -7.5d
+			x: 15.0d
+			y: -5.5d
 		}
 		{
 			id: "19BE17D11036764F"
@@ -3189,8 +3152,8 @@
 				item: "advancednetherite:netherite_iron_ingot"
 				type: "item"
 			}]
-			x: 13.0d
-			y: -6.5d
+			x: 9.0d
+			y: -4.5d
 		}
 		{
 			id: "2BF944EE8337412F"
@@ -3205,8 +3168,8 @@
 				item: "kubejs:azure_silver_ingot"
 				type: "item"
 			}]
-			x: 12.5d
-			y: -5.5d
+			x: 14.0d
+			y: -4.5d
 		}
 		{
 			id: "22C4F3E1D8EAEF76"
@@ -3221,8 +3184,8 @@
 				item: "thermal:lead_ingot"
 				type: "item"
 			}]
-			x: 12.0d
-			y: -4.5d
+			x: 8.0d
+			y: -3.5d
 		}
 		{
 			id: "5CF20C9FDC8D0B8E"
@@ -3237,8 +3200,8 @@
 				item: "thermal:invar_ingot"
 				type: "item"
 			}]
-			x: 17.0d
-			y: -4.5d
+			x: 13.0d
+			y: -3.5d
 		}
 		{
 			id: "1CB9AFA2C52A8F12"
@@ -3253,8 +3216,8 @@
 				item: "common_ore_library:zinc_ingot"
 				type: "item"
 			}]
-			x: 14.5d
-			y: -7.5d
+			x: 16.0d
+			y: -5.5d
 		}
 		{
 			id: "6BCB5ECF8BFF1076"
@@ -3269,8 +3232,8 @@
 				item: "kubejs:azure_electrum_ingot"
 				type: "item"
 			}]
-			x: 13.5d
-			y: -5.5d
+			x: 15.0d
+			y: -4.5d
 		}
 		{
 			id: "02C4AEB4858084A7"
@@ -3285,7 +3248,7 @@
 				item: "thermal:constantan_ingot"
 				type: "item"
 			}]
-			x: 12.5d
+			x: 14.0d
 			y: -3.5d
 		}
 		{
@@ -3301,8 +3264,8 @@
 				item: "advancednetherite:netherite_gold_ingot"
 				type: "item"
 			}]
-			x: 14.0d
-			y: -6.5d
+			x: 10.0d
+			y: -4.5d
 		}
 		{
 			id: "7B72E904B0DC0DCB"
@@ -3317,8 +3280,8 @@
 				item: "thermal:tin_ingot"
 				type: "item"
 			}]
-			x: 13.0d
-			y: -4.5d
+			x: 9.0d
+			y: -3.5d
 		}
 		{
 			id: "0523A4977687F899"
@@ -3333,8 +3296,8 @@
 				item: "common_ore_library:iridium_ingot"
 				type: "item"
 			}]
-			x: 15.5d
-			y: -7.5d
+			x: 17.0d
+			y: -5.5d
 		}
 		{
 			id: "7E73556F791DE05A"
@@ -3349,8 +3312,8 @@
 				item: "advancednetherite:netherite_emerald_ingot"
 				type: "item"
 			}]
-			x: 15.0d
-			y: -6.5d
+			x: 11.0d
+			y: -4.5d
 		}
 		{
 			id: "484958FA351A737B"
@@ -3365,8 +3328,8 @@
 				item: "kubejs:tyrian_steel_ingot"
 				type: "item"
 			}]
-			x: 14.5d
-			y: -5.5d
+			x: 16.0d
+			y: -4.5d
 		}
 		{
 			id: "30C34B0AE044C499"
@@ -3381,8 +3344,8 @@
 				item: "thermal:steel_ingot"
 				type: "item"
 			}]
-			x: 14.0d
-			y: -4.5d
+			x: 10.0d
+			y: -3.5d
 		}
 		{
 			id: "37E45F9B3778DA66"
@@ -3397,7 +3360,7 @@
 				item: "thermal:signalum_ingot"
 				type: "item"
 			}]
-			x: 13.5d
+			x: 15.0d
 			y: -3.5d
 		}
 		{
@@ -3413,8 +3376,8 @@
 				item: "avaritia:crystal_matrix_ingot"
 				type: "item"
 			}]
-			x: 13.5d
-			y: 8.5d
+			x: 15.0d
+			y: 2.5d
 		}
 		{
 			id: "0532F1242C2891AD"
@@ -3429,24 +3392,8 @@
 				item: "thermal:lumium_ingot"
 				type: "item"
 			}]
-			x: 14.5d
+			x: 16.0d
 			y: -3.5d
-		}
-		{
-			id: "2989CC84FCDC482A"
-			rewards: [{
-				id: "419052B81679F4A9"
-				item: "kubejs:apotheotic_coin"
-				type: "item"
-			}]
-			shape: "hexagon"
-			tasks: [{
-				id: "7D7C829FA788BE15"
-				item: "mekanism:alloy_atomic"
-				type: "item"
-			}]
-			x: 14.0d
-			y: -2.5d
 		}
 		{
 			id: "195AA9206B613B34"
@@ -3461,8 +3408,8 @@
 				item: "allthemodium:allthemodium_ingot"
 				type: "item"
 			}]
-			x: 13.5d
-			y: -1.5d
+			x: 16.0d
+			y: -2.5d
 		}
 		{
 			id: "6DBDCDB81ED77850"
@@ -3477,8 +3424,8 @@
 				item: "kubejs:sculk_alloy_ingot"
 				type: "item"
 			}]
-			x: 13.0d
-			y: -0.5d
+			x: 10.0d
+			y: -1.5d
 		}
 		{
 			id: "547561DE5CE63AB5"
@@ -3493,8 +3440,8 @@
 				item: "kubejs:voidmetal_ingot"
 				type: "item"
 			}]
-			x: 12.5d
-			y: 0.5d
+			x: 15.0d
+			y: -1.5d
 		}
 		{
 			id: "15E6439A23781A98"
@@ -3509,7 +3456,7 @@
 				item: "thermal:enderium_ingot"
 				type: "item"
 			}]
-			x: 15.5d
+			x: 17.0d
 			y: -3.5d
 		}
 		{
@@ -3525,7 +3472,7 @@
 				item: "evolvedmekanism:alloy_hypercharged"
 				type: "item"
 			}]
-			x: 15.0d
+			x: 12.0d
 			y: -2.5d
 		}
 		{
@@ -3541,8 +3488,8 @@
 				item: "allthemodium:vibranium_ingot"
 				type: "item"
 			}]
-			x: 14.5d
-			y: -1.5d
+			x: 17.0d
+			y: -2.5d
 		}
 		{
 			id: "082DD5A72D5A1062"
@@ -3557,24 +3504,8 @@
 				item: "kubejs:bunny_steel_ingot"
 				type: "item"
 			}]
-			x: 14.0d
-			y: -0.5d
-		}
-		{
-			id: "108D6E68FB41DA1B"
-			rewards: [{
-				id: "7D2EB1A2ADC97EBB"
-				item: "kubejs:apotheotic_coin"
-				type: "item"
-			}]
-			shape: "hexagon"
-			tasks: [{
-				id: "6B120FF72A656A09"
-				item: "botania:manasteel_ingot"
-				type: "item"
-			}]
-			x: 13.5d
-			y: 0.5d
+			x: 11.0d
+			y: -1.5d
 		}
 		{
 			id: "03D4996E270482F4"
@@ -3589,8 +3520,8 @@
 				item: "kubejs:plasteel_ingot"
 				type: "item"
 			}]
-			x: 15.0d
-			y: -0.5d
+			x: 12.0d
+			y: -1.5d
 		}
 		{
 			id: "59A4B74079084352"
@@ -3605,7 +3536,7 @@
 				item: "evolvedmekanism:alloy_subatomic"
 				type: "item"
 			}]
-			x: 16.0d
+			x: 13.0d
 			y: -2.5d
 		}
 		{
@@ -3621,7 +3552,7 @@
 				item: "evolvedmekanism:alloy_singular"
 				type: "item"
 			}]
-			x: 17.0d
+			x: 14.0d
 			y: -2.5d
 		}
 		{
@@ -3637,8 +3568,8 @@
 				item: "kubejs:arcmetal_ingot"
 				type: "item"
 			}]
-			x: 16.0d
-			y: -0.5d
+			x: 13.0d
+			y: -1.5d
 		}
 		{
 			id: "76B6CC60FAD28271"
@@ -3653,8 +3584,8 @@
 				item: "kubejs:solarmetal_ingot"
 				type: "item"
 			}]
-			x: 17.0d
-			y: -0.5d
+			x: 14.0d
+			y: -1.5d
 		}
 		{
 			id: "5A2169813656F77A"
@@ -3669,8 +3600,8 @@
 				item: "evolvedmekanism:alloy_exoversal"
 				type: "item"
 			}]
-			x: 12.5d
-			y: -1.5d
+			x: 15.0d
+			y: -2.5d
 		}
 		{
 			id: "07C6EE2303D4EAC8"
@@ -3685,8 +3616,8 @@
 				item: "botania:terrasteel_ingot"
 				type: "item"
 			}]
-			x: 14.5d
-			y: 0.5d
+			x: 16.0d
+			y: -1.5d
 		}
 		{
 			id: "3D033951087208BA"
@@ -3701,8 +3632,8 @@
 				item: "allthemodium:unobtainium_ingot"
 				type: "item"
 			}]
-			x: 15.5d
-			y: -1.5d
+			x: 18.0d
+			y: -2.5d
 		}
 		{
 			id: "1413D60985DCD716"
@@ -3717,24 +3648,8 @@
 				item: "redstone_arsenal:flux_ingot"
 				type: "item"
 			}]
-			x: 16.5d
+			x: 18.0d
 			y: -3.5d
-		}
-		{
-			id: "6BFF9C6836C54637"
-			rewards: [{
-				id: "2812E8AE6D085BC6"
-				item: "kubejs:apotheotic_coin"
-				type: "item"
-			}]
-			shape: "hexagon"
-			tasks: [{
-				id: "2D13FE4D185A1493"
-				item: "mekanism:alloy_infused"
-				type: "item"
-			}]
-			x: 12.0d
-			y: -2.5d
 		}
 		{
 			id: "16B87DEDE4769BF7"
@@ -3749,7 +3664,7 @@
 				item: "occultism:iesnium_ingot"
 				type: "item"
 			}]
-			x: 16.5d
+			x: 8.0d
 			y: -1.5d
 		}
 		{
@@ -3765,8 +3680,8 @@
 				item: "botania:elementium_ingot"
 				type: "item"
 			}]
-			x: 15.5d
-			y: 0.5d
+			x: 17.0d
+			y: -1.5d
 		}
 		{
 			id: "3A59771ACE2E0EA9"
@@ -3781,8 +3696,8 @@
 				item: "botania:gaia_ingot"
 				type: "item"
 			}]
-			x: 16.5d
-			y: 0.5d
+			x: 18.0d
+			y: -1.5d
 		}
 		{
 			id: "3865F30526797424"
@@ -3797,24 +3712,8 @@
 				item: "kubejs:midnight_iron_ingot"
 				type: "item"
 			}]
-			x: 12.0d
-			y: -0.5d
-		}
-		{
-			id: "51A074A074D8D203"
-			rewards: [{
-				id: "3AE4E226A9DDF809"
-				item: "kubejs:apotheotic_coin"
-				type: "item"
-			}]
-			shape: "hexagon"
-			tasks: [{
-				id: "1B93DF2037B446DE"
-				item: "mekanism:alloy_reinforced"
-				type: "item"
-			}]
-			x: 13.0d
-			y: -2.5d
+			x: 9.0d
+			y: -1.5d
 		}
 		{
 			id: "1D9A507EA00DD5F9"
@@ -3829,8 +3728,8 @@
 				item: "dimensionalpocketsii:dimensional_ingot_enhanced"
 				type: "item"
 			}]
-			x: 12.0d
-			y: 1.5d
+			x: 8.0d
+			y: -0.5d
 		}
 		{
 			id: "7AF508E231C17F79"
@@ -3845,8 +3744,8 @@
 				item: "thermalendergy:prismalium_ingot"
 				type: "item"
 			}]
-			x: 12.5d
-			y: 2.5d
+			x: 14.0d
+			y: -0.5d
 		}
 		{
 			id: "5D862E177EDD1D5B"
@@ -3861,8 +3760,8 @@
 				item: "cataclysm:ancient_metal_ingot"
 				type: "item"
 			}]
-			x: 16.5d
-			y: 2.5d
+			x: 18.0d
+			y: -0.5d
 		}
 		{
 			id: "103F026C14CADBDC"
@@ -3877,8 +3776,8 @@
 				item: "igleelib:blazum_ingot"
 				type: "item"
 			}]
-			x: 16.0d
-			y: 3.5d
+			x: 13.0d
+			y: 0.5d
 		}
 		{
 			id: "1682513B0CBE734B"
@@ -3893,8 +3792,8 @@
 				item: "bigreactors:cyanite_ingot"
 				type: "item"
 			}]
-			x: 15.5d
-			y: 4.5d
+			x: 18.0d
+			y: 0.5d
 		}
 		{
 			id: "5CA1B44C4EADF342"
@@ -3909,8 +3808,8 @@
 				item: "thermal_extra:shellite_ingot"
 				type: "item"
 			}]
-			x: 15.0d
-			y: 5.5d
+			x: 11.0d
+			y: 1.5d
 		}
 		{
 			id: "2D6E9D3F3FCA918D"
@@ -3925,8 +3824,8 @@
 				item: "draconicevolution:draconium_ingot"
 				type: "item"
 			}]
-			x: 14.5d
-			y: 6.5d
+			x: 16.0d
+			y: 1.5d
 		}
 		{
 			id: "09C8500F313A536C"
@@ -3941,8 +3840,8 @@
 				item: "mysticalagriculture:imperium_ingot"
 				type: "item"
 			}]
-			x: 14.0d
-			y: 7.5d
+			x: 10.0d
+			y: 2.5d
 		}
 		{
 			id: "6195F851BBBA3779"
@@ -3957,8 +3856,8 @@
 				item: "pneumaticcraft:ingot_iron_compressed"
 				type: "item"
 			}]
-			x: 13.0d
-			y: 1.5d
+			x: 9.0d
+			y: -0.5d
 		}
 		{
 			id: "0AB4E2CC1B6EAF09"
@@ -3973,8 +3872,8 @@
 				item: "twilightforest:ironwood_ingot"
 				type: "item"
 			}]
-			x: 14.0d
-			y: 1.5d
+			x: 10.0d
+			y: -0.5d
 		}
 		{
 			id: "0A09BBB5DDF18B31"
@@ -3989,8 +3888,8 @@
 				item: "twilightforest:knightmetal_ingot"
 				type: "item"
 			}]
-			x: 15.0d
-			y: 1.5d
+			x: 11.0d
+			y: -0.5d
 		}
 		{
 			id: "6701654DAA2B3F63"
@@ -4005,8 +3904,8 @@
 				item: "twilightforest:fiery_ingot"
 				type: "item"
 			}]
-			x: 16.0d
-			y: 1.5d
+			x: 12.0d
+			y: -0.5d
 		}
 		{
 			id: "379287986070559A"
@@ -4021,8 +3920,8 @@
 				item: "cataclysm:ignitium_ingot"
 				type: "item"
 			}]
-			x: 12.0d
-			y: 3.5d
+			x: 8.0d
+			y: 0.5d
 		}
 		{
 			id: "6CD52E1694035BFF"
@@ -4037,8 +3936,8 @@
 				item: "born_in_chaos_v1:dark_metal_ingot"
 				type: "item"
 			}]
-			x: 17.0d
-			y: 1.5d
+			x: 13.0d
+			y: -0.5d
 		}
 		{
 			id: "32687AE635CC0FE1"
@@ -4053,8 +3952,8 @@
 				item: "igleelib:derium_ingot"
 				type: "item"
 			}]
-			x: 17.0d
-			y: 3.5d
+			x: 14.0d
+			y: 0.5d
 		}
 		{
 			id: "3E9F25DCDD099508"
@@ -4069,8 +3968,8 @@
 				item: "thermal_extra:twinite_ingot"
 				type: "item"
 			}]
-			x: 16.0d
-			y: 5.5d
+			x: 12.0d
+			y: 1.5d
 		}
 		{
 			id: "5EAC74F40E1DD65B"
@@ -4085,8 +3984,8 @@
 				item: "mysticalagriculture:supremium_ingot"
 				type: "item"
 			}]
-			x: 15.0d
-			y: 7.5d
+			x: 11.0d
+			y: 2.5d
 		}
 		{
 			id: "101CC4CB931C6485"
@@ -4101,8 +4000,8 @@
 				item: "mysticalagriculture:awakened_supremium_ingot"
 				type: "item"
 			}]
-			x: 16.0d
-			y: 7.5d
+			x: 12.0d
+			y: 2.5d
 		}
 		{
 			id: "2DE066DE9A6B93A7"
@@ -4117,8 +4016,8 @@
 				item: "draconicevolution:awakened_draconium_ingot"
 				type: "item"
 			}]
-			x: 15.5d
-			y: 6.5d
+			x: 17.0d
+			y: 1.5d
 		}
 		{
 			id: "1B9C77D182821F76"
@@ -4133,24 +4032,8 @@
 				item: "thermal_extra:dragonsteel_ingot"
 				type: "item"
 			}]
-			x: 17.0d
-			y: 5.5d
-		}
-		{
-			id: "7C360334824775F3"
-			rewards: [{
-				id: "03A66AF4B208E63D"
-				item: "kubejs:apotheotic_coin"
-				type: "item"
-			}]
-			shape: "hexagon"
-			tasks: [{
-				id: "438C6F18287F3886"
-				item: "armorplus:en_gold"
-				type: "item"
-			}]
-			x: 16.5d
-			y: 4.5d
+			x: 13.0d
+			y: 1.5d
 		}
 		{
 			id: "6684A7934236CC8F"
@@ -4165,8 +4048,8 @@
 				item: "igleelib:lavium_ingot"
 				type: "item"
 			}]
-			x: 12.5d
-			y: 4.5d
+			x: 15.0d
+			y: 0.5d
 		}
 		{
 			id: "35244AD83B3119D9"
@@ -4181,8 +4064,8 @@
 				item: "cataclysm:cursium_ingot"
 				type: "item"
 			}]
-			x: 13.0d
-			y: 3.5d
+			x: 9.0d
+			y: 0.5d
 		}
 		{
 			id: "00E690644B11A7A9"
@@ -4197,8 +4080,8 @@
 				item: "thermalendergy:melodium_ingot"
 				type: "item"
 			}]
-			x: 13.5d
-			y: 2.5d
+			x: 15.0d
+			y: -0.5d
 		}
 		{
 			id: "2188F1535C5A23EF"
@@ -4213,8 +4096,8 @@
 				item: "thermalendergy:stellarium_ingot"
 				type: "item"
 			}]
-			x: 14.5d
-			y: 2.5d
+			x: 16.0d
+			y: -0.5d
 		}
 		{
 			id: "65359C99461D5C41"
@@ -4229,8 +4112,8 @@
 				item: "cataclysm:witherite_ingot"
 				type: "item"
 			}]
-			x: 15.5d
-			y: 2.5d
+			x: 17.0d
+			y: -0.5d
 		}
 		{
 			id: "7363B53FA304BB5C"
@@ -4245,8 +4128,8 @@
 				item: "common_ore_library:cobalt_ingot"
 				type: "item"
 			}]
-			x: 14.0d
-			y: 3.5d
+			x: 10.0d
+			y: 0.5d
 		}
 		{
 			id: "733BD23B765B3636"
@@ -4261,8 +4144,8 @@
 				item: "igleelib:modium_ingot"
 				type: "item"
 			}]
-			x: 13.5d
-			y: 4.5d
+			x: 16.0d
+			y: 0.5d
 		}
 		{
 			id: "40445AE829B699AD"
@@ -4277,8 +4160,8 @@
 				item: "common_ore_library:aluminum_ingot"
 				type: "item"
 			}]
-			x: 12.0d
-			y: 5.5d
+			x: 8.0d
+			y: 1.5d
 		}
 		{
 			id: "69A939D9A7D31A7C"
@@ -4293,8 +4176,8 @@
 				item: "thermal_extra:abyssal_ingot"
 				type: "item"
 			}]
-			x: 12.5d
-			y: 6.5d
+			x: 14.0d
+			y: 1.5d
 		}
 		{
 			id: "3D34D2CFB6133C17"
@@ -4309,8 +4192,8 @@
 				item: "mysticalagriculture:inferium_ingot"
 				type: "item"
 			}]
-			x: 16.5d
-			y: 6.5d
+			x: 18.0d
+			y: 1.5d
 		}
 		{
 			id: "6F333618644BC332"
@@ -4325,8 +4208,8 @@
 				item: "mysticalagradditions:insanium_ingot"
 				type: "item"
 			}]
-			x: 17.0d
-			y: 7.5d
+			x: 13.0d
+			y: 2.5d
 		}
 		{
 			id: "78C9D74D99D6BF1E"
@@ -4341,8 +4224,8 @@
 				item: "mysticalagriculture:soulium_ingot"
 				type: "item"
 			}]
-			x: 12.5d
-			y: 8.5d
+			x: 14.0d
+			y: 2.5d
 		}
 		{
 			id: "0C81B30CCFE9F0CA"
@@ -4357,8 +4240,8 @@
 				item: "mysticalagriculture:prudentium_ingot"
 				type: "item"
 			}]
-			x: 12.0d
-			y: 7.5d
+			x: 8.0d
+			y: 2.5d
 		}
 		{
 			id: "160CCAD6320A9F32"
@@ -4373,8 +4256,8 @@
 				item: "mysticalagriculture:tertium_ingot"
 				type: "item"
 			}]
-			x: 13.0d
-			y: 7.5d
+			x: 9.0d
+			y: 2.5d
 		}
 		{
 			id: "169910602342E1A5"
@@ -4389,8 +4272,8 @@
 				item: "kubejs:starmetal_ingot"
 				type: "item"
 			}]
-			x: 13.5d
-			y: 6.5d
+			x: 15.0d
+			y: 1.5d
 		}
 		{
 			id: "1BD21112D4086A15"
@@ -4405,8 +4288,8 @@
 				item: "armorplus:en_netherite"
 				type: "item"
 			}]
-			x: 13.0d
-			y: 5.5d
+			x: 9.0d
+			y: 1.5d
 		}
 		{
 			id: "422CCD99C5021972"
@@ -4421,8 +4304,8 @@
 				item: "thermal_extra:soul_infused_ingot"
 				type: "item"
 			}]
-			x: 14.0d
-			y: 5.5d
+			x: 10.0d
+			y: 1.5d
 		}
 		{
 			id: "54092C6F1E944095"
@@ -4437,8 +4320,8 @@
 				item: "powah:steel_energized"
 				type: "item"
 			}]
-			x: 14.5d
-			y: 4.5d
+			x: 17.0d
+			y: 0.5d
 		}
 		{
 			id: "635744EF9513926D"
@@ -4453,8 +4336,8 @@
 				item: "evolvedmekanism:ingot_better_gold"
 				type: "item"
 			}]
-			x: 15.0d
-			y: 3.5d
+			x: 11.0d
+			y: 0.5d
 		}
 		{
 			id: "0B8D99A6FCEAB35B"
@@ -4469,8 +4352,8 @@
 				item: "nuclearcraft:potassium_ingot"
 				type: "item"
 			}]
-			x: 14.5d
-			y: 8.5d
+			x: 16.0d
+			y: 2.5d
 		}
 		{
 			id: "3F321078B5437647"
@@ -4485,8 +4368,8 @@
 				item: "enderio:copper_alloy_ingot"
 				type: "item"
 			}]
-			x: 15.5d
-			y: 8.5d
+			x: 17.0d
+			y: 2.5d
 		}
 		{
 			id: "772529AA18951F4D"
@@ -4501,8 +4384,8 @@
 				item: "enderio:energetic_alloy_ingot"
 				type: "item"
 			}]
-			x: 16.5d
-			y: 8.5d
+			x: 18.0d
+			y: 2.5d
 		}
 		{
 			id: "266A7A0A6E957865"
@@ -4517,8 +4400,8 @@
 				item: "enderio:vibrant_alloy_ingot"
 				type: "item"
 			}]
-			x: 12.0d
-			y: 9.5d
+			x: 8.0d
+			y: 3.5d
 		}
 		{
 			id: "07FCF9F9BF4DDD29"
@@ -4533,8 +4416,8 @@
 				item: "enderio:redstone_alloy_ingot"
 				type: "item"
 			}]
-			x: 13.0d
-			y: 9.5d
+			x: 9.0d
+			y: 3.5d
 		}
 		{
 			id: "15E740C34A2E8AEB"
@@ -4549,8 +4432,8 @@
 				item: "enderio:end_steel_ingot"
 				type: "item"
 			}]
-			x: 12.5d
-			y: 10.5d
+			x: 14.0d
+			y: 3.5d
 		}
 		{
 			id: "4D9A1D8BBCCE0CBA"
@@ -4565,8 +4448,8 @@
 				item: "mysticalexpansion:divinium_ingot"
 				type: "item"
 			}]
-			x: 12.0d
-			y: 11.5d
+			x: 8.0d
+			y: 4.5d
 		}
 		{
 			id: "190F7E1BCFC8F585"
@@ -4581,8 +4464,8 @@
 				item: "common_ore_library:tungsten_ingot"
 				type: "item"
 			}]
-			x: 17.0d
-			y: 11.5d
+			x: 13.0d
+			y: 4.5d
 		}
 		{
 			id: "4F3205E09442F53F"
@@ -4597,8 +4480,8 @@
 				item: "enderio:conductive_alloy_ingot"
 				type: "item"
 			}]
-			x: 14.0d
-			y: 9.5d
+			x: 10.0d
+			y: 3.5d
 		}
 		{
 			id: "159172422E18929C"
@@ -4613,8 +4496,8 @@
 				item: "megacells:sky_steel_ingot"
 				type: "item"
 			}]
-			x: 13.0d
-			y: 11.5d
+			x: 9.0d
+			y: 4.5d
 		}
 		{
 			id: "6C301969D31E5AE9"
@@ -4629,8 +4512,8 @@
 				item: "extendedcrafting:enhanced_ender_ingot"
 				type: "item"
 			}]
-			x: 12.5d
-			y: 12.5d
+			x: 14.0d
+			y: 4.5d
 		}
 		{
 			id: "29081FDA7D890663"
@@ -4645,8 +4528,8 @@
 				item: "mekanism_extras:ingot_naquadah"
 				type: "item"
 			}]
-			x: 13.5d
-			y: 10.5d
+			x: 15.0d
+			y: 3.5d
 		}
 		{
 			id: "25450D267B88F142"
@@ -4661,8 +4544,8 @@
 				item: "enderio:pulsating_alloy_ingot"
 				type: "item"
 			}]
-			x: 15.0d
-			y: 9.5d
+			x: 11.0d
+			y: 3.5d
 		}
 		{
 			id: "7E156773CF5CDAA0"
@@ -4677,8 +4560,8 @@
 				item: "cataclysm:enderite_ingot"
 				type: "item"
 			}]
-			x: 14.0d
-			y: 11.5d
+			x: 10.0d
+			y: 4.5d
 		}
 		{
 			id: "0045C9FED2D48132"
@@ -4693,8 +4576,8 @@
 				item: "enderio:dark_steel_ingot"
 				type: "item"
 			}]
-			x: 16.0d
-			y: 9.5d
+			x: 12.0d
+			y: 3.5d
 		}
 		{
 			id: "7F5F212EAAE0F4C4"
@@ -4709,8 +4592,8 @@
 				item: "nuclearcraft:hard_carbon_ingot"
 				type: "item"
 			}]
-			x: 15.0d
-			y: 11.5d
+			x: 11.0d
+			y: 4.5d
 		}
 		{
 			id: "4D1412A492DD1F05"
@@ -4725,10 +4608,12 @@
 				item: "enderio:soularium_ingot"
 				type: "item"
 			}]
-			x: 17.0d
-			y: 9.5d
+			x: 13.0d
+			y: 3.5d
 		}
 		{
+			dependencies: ["083AABDD7093C1E4"]
+			hide_dependency_lines: true
 			id: "75CCA02AA19AB077"
 			rewards: [{
 				id: "3844E2CE60C90ED4"
@@ -4741,8 +4626,8 @@
 				item: "extendedcrafting:crystaltine_ingot"
 				type: "item"
 			}]
-			x: 16.0d
-			y: 11.5d
+			x: 12.0d
+			y: 4.5d
 		}
 		{
 			id: "3BED0E603E0D1456"
@@ -4757,8 +4642,8 @@
 				item: "common_ore_library:manyullyn_ingot"
 				type: "item"
 			}]
-			x: 14.5d
-			y: 10.5d
+			x: 16.0d
+			y: 3.5d
 		}
 		{
 			id: "056B0B4A38FA2C55"
@@ -4773,8 +4658,8 @@
 				item: "extendedcrafting:black_iron_ingot"
 				type: "item"
 			}]
-			x: 13.5d
-			y: 12.5d
+			x: 15.0d
+			y: 4.5d
 		}
 		{
 			id: "26B76D24EA7F1370"
@@ -4789,8 +4674,8 @@
 				item: "mysticalexpansion:extremium_ingot"
 				type: "item"
 			}]
-			x: 15.5d
-			y: 10.5d
+			x: 17.0d
+			y: 3.5d
 		}
 		{
 			id: "4DFCC4A5A195654E"
@@ -4805,8 +4690,8 @@
 				item: "extendedcrafting:redstone_ingot"
 				type: "item"
 			}]
-			x: 14.5d
-			y: 12.5d
+			x: 16.0d
+			y: 4.5d
 		}
 		{
 			id: "1C98DC78C6DDC772"
@@ -4821,8 +4706,8 @@
 				item: "mysticalexpansion:etherium_ingot"
 				type: "item"
 			}]
-			x: 16.5d
-			y: 10.5d
+			x: 18.0d
+			y: 3.5d
 		}
 		{
 			id: "6DA7A1C98A63CF83"
@@ -4837,8 +4722,8 @@
 				item: "extendedcrafting:enhanced_redstone_ingot"
 				type: "item"
 			}]
-			x: 15.5d
-			y: 12.5d
+			x: 17.0d
+			y: 4.5d
 		}
 		{
 			id: "60AA65A76D572284"
@@ -4853,8 +4738,88 @@
 				item: "extendedcrafting:ender_ingot"
 				type: "item"
 			}]
-			x: 16.5d
-			y: 12.5d
+			x: 18.0d
+			y: 4.5d
+		}
+		{
+			id: "028181442882B406"
+			rewards: [{
+				id: "151A190AF977817B"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "6DC302FCCCFAC151"
+				item: "mekanism_extras:alloy_radiance"
+				type: "item"
+			}]
+			x: 8.0d
+			y: -2.5d
+		}
+		{
+			id: "5D1934DE1E09BFB6"
+			rewards: [{
+				id: "488C0DA7EFA47D7F"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "61165F03882EC507"
+				item: "mekanism_extras:alloy_thermonuclear"
+				type: "item"
+			}]
+			x: 9.0d
+			y: -2.5d
+		}
+		{
+			id: "7235DE5431240A98"
+			rewards: [{
+				id: "1B61CC8404C1FDB1"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "03CB565479F43D75"
+				item: "mekanism_extras:alloy_shining"
+				type: "item"
+			}]
+			x: 10.0d
+			y: -2.5d
+		}
+		{
+			id: "60752E0BB752D01B"
+			rewards: [{
+				id: "1107760FF24C33B7"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "5F3C5642D680CF16"
+				item: "mekanism_extras:alloy_spectrum"
+				type: "item"
+			}]
+			x: 11.0d
+			y: -2.5d
+		}
+		{
+			id: "6A7F4D255AA90BC6"
+			rewards: [{
+				id: "308F6CDE2A9C42B1"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "77DF05550C75B5BE"
+				item: "evolvedmekanism:ingot_plaslitherite"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 0.5d
 		}
 	]
 	title: "Extended Crafting"

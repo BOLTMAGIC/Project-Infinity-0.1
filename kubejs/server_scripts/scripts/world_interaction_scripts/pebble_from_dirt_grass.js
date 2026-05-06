@@ -2,7 +2,7 @@ BlockEvents.rightClicked((event) => {
   const {block, player, level, server} = event;
   const COOLDOWN_TICKS = 1;
 
-  if (level.dimension !== 'minecraft:overworld') return;
+  if (level.dimension !== 'minecraft:overworld' && level.dimension !== 'compactmachines:compact_world') return;
 
   if (block.id !== 'minecraft:grass_block' && block.id !== 'minecraft:dirt') return;
 

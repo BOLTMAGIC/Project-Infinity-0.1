@@ -65,6 +65,14 @@
         [ 3, 2, 3 ]
       ],
       "west": []
+    },
+    "claustrophobia": {
+      "north": [],
+      "east": [],
+      "south": [
+        [ 2, 1, 1 ]
+      ],
+      "west": []
     }
   },
   
@@ -130,6 +138,13 @@
       "file": "house_tree.nbt",
       "spawns": "house_tree",
       "offset": [ -3, 0, -3 ]
+    },
+    {
+      "name": "Claustrophobia",
+      "desc": "Tiny space, big dreams !",
+      "file": "claustrophobia.nbt",
+      "spawns": "claustrophobia",
+      "offset": [ -2, 0, -2 ]
     }
   ]
 }

@@ -4,6 +4,8 @@ ServerEvents.recipes((event) => {
 
   event.smelting('kubejs:compressed_glass', 'compressium:sand_1');
 
+  event.smelting('compressium:stone_1', 'compressium:cobblestone_1');
+
   shapeless(event, 'kubejs:infinity_8_block', ['kubejs:infinity_8']);
   shapeless(event, 'kubejs:infinity_8', ['kubejs:infinity_8_block']);
 

@@ -404,6 +404,11 @@ BlockEvents.rightClicked((event) => {
       nbtPath: 'mekData.InfusionTanks',
       check: (value) => value && value.length > 0,
     },
+    {
+      pattern: 'crazyae2addons:crazy_pattern_provider',
+      nbtPath: 'returnInv',
+      check: (value) => value && value.length > 0,
+    },
   ];
 
   function rftoolsCheck(array) {

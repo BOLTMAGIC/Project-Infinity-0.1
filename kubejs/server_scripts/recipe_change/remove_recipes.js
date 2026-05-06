@@ -208,7 +208,7 @@ const removeItemsbyOutput = [
   'draconicadditions:item_unstable_chaos',
   'packagedexcrafting:basic_crafter',
   'cyclic:glass_connected',
-  
+  'industrialforegoing:hydroponic_simulation_processor',
 ];
 
 const removeItemsbyID = [

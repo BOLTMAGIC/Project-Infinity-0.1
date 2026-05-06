@@ -110,28 +110,6 @@ ServerEvents.recipes((event) => {
     'minecraft:air',
     'minecraft:air',
   ]);
-  create3x3(event, 'voidminers:ultimate_block', [
-    'mysticalagriculture:ultimate_infinity_essence',
-    'mysticalagriculture:ultimate_infinity_essence',
-    'mysticalagriculture:ultimate_infinity_essence',
-    'minecraft:air',
-    'mysticalagriculture:ultimate_infinity_essence',
-    'mysticalagriculture:ultimate_infinity_essence',
-    'minecraft:air',
-    'mysticalagriculture:ultimate_infinity_essence',
-    'mysticalagriculture:ultimate_infinity_essence',
-  ]);
-  create3x3(event, 'voidminers:solar_ultimate_block', [
-    'mysticalagriculture:ultimate_infinity_essence',
-    'mysticalagriculture:ultimate_infinity_essence',
-    'mysticalagriculture:ultimate_infinity_essence',
-    'mysticalagriculture:ultimate_infinity_essence',
-    'mysticalagriculture:ultimate_infinity_essence',
-    'minecraft:air',
-    'mysticalagriculture:ultimate_infinity_essence',
-    'mysticalagriculture:ultimate_infinity_essence',
-    'minecraft:air',
-  ]);
   create3x3(event, 'extendedcrafting:the_ultimate_block', [
     'mysticalagriculture:ultimate_infinity_essence',
     'mysticalagriculture:ultimate_infinity_essence',

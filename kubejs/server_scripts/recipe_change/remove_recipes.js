@@ -563,7 +563,7 @@ const removeItemsbyID = [
   'mekanism:processing/diamond/to_deepslate_ore',
   'alltheores:mek_processing/nickel/ore/from_dust',
   'mekanism:processing/diamond/to_ore',
-  '',
+  'botania:red_string_alt',
   '',
   '',
   '',

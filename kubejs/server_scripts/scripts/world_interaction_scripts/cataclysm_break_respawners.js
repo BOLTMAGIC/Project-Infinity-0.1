@@ -26,7 +26,6 @@ BlockEvents.rightClicked((event) => {
         )
       );
     }
-    event.cancel();
     return;
   }
 

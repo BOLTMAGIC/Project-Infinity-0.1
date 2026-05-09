@@ -4,6 +4,8 @@ ServerEvents.recipes((event) => {
 
   event.smelting('kubejs:compressed_glass', 'compressium:sand_1');
 
+  event.smelting('compressium:stone_1', 'compressium:cobblestone_1');
+
   shapeless(event, 'kubejs:infinity_8_block', ['kubejs:infinity_8']);
   shapeless(event, 'kubejs:infinity_8', ['kubejs:infinity_8_block']);
 
@@ -108,28 +110,6 @@ ServerEvents.recipes((event) => {
     'minecraft:air',
     'mysticalagriculture:ultimate_infinity_essence',
     'minecraft:air',
-    'minecraft:air',
-  ]);
-  create3x3(event, 'voidminers:ultimate_block', [
-    'mysticalagriculture:ultimate_infinity_essence',
-    'mysticalagriculture:ultimate_infinity_essence',
-    'mysticalagriculture:ultimate_infinity_essence',
-    'minecraft:air',
-    'mysticalagriculture:ultimate_infinity_essence',
-    'mysticalagriculture:ultimate_infinity_essence',
-    'minecraft:air',
-    'mysticalagriculture:ultimate_infinity_essence',
-    'mysticalagriculture:ultimate_infinity_essence',
-  ]);
-  create3x3(event, 'voidminers:solar_ultimate_block', [
-    'mysticalagriculture:ultimate_infinity_essence',
-    'mysticalagriculture:ultimate_infinity_essence',
-    'mysticalagriculture:ultimate_infinity_essence',
-    'mysticalagriculture:ultimate_infinity_essence',
-    'mysticalagriculture:ultimate_infinity_essence',
-    'minecraft:air',
-    'mysticalagriculture:ultimate_infinity_essence',
-    'mysticalagriculture:ultimate_infinity_essence',
     'minecraft:air',
   ]);
   create3x3(event, 'extendedcrafting:the_ultimate_block', [

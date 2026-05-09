@@ -273,7 +273,7 @@
 				"&2This quest was made by whothehellisnico!&r"
 				"&1Thank you a lot!&r"
 			]
-			icon: "mekanism:configurator"
+			icon: "mekanismgenerators:heat_generator"
 			id: "66D40619BDB8DC60"
 			rewards: [{
 				id: "4330415946B77183"
@@ -283,8 +283,8 @@
 			shape: "gear"
 			size: 2.0d
 			tasks: [{
-				id: "7C2D144D67589C87"
-				item: "mekanism:configurator"
+				id: "675C4DFC46CD5532"
+				item: "mekanismgenerators:heat_generator"
 				type: "item"
 			}]
 			title: "Mekanism"
@@ -997,22 +997,6 @@
 		}
 		{
 			dependencies: ["0334F8AFC8CFFA73"]
-			id: "48750A1FD2FCBBA2"
-			rewards: [{
-				id: "72EFF630BE9B34F4"
-				item: "kubejs:apotheotic_coin"
-				type: "item"
-			}]
-			tasks: [{
-				id: "6E2197E951B2C1EE"
-				item: "mekanismgenerators:heat_generator"
-				type: "item"
-			}]
-			x: -9.5d
-			y: -3.0d
-		}
-		{
-			dependencies: ["0334F8AFC8CFFA73"]
 			id: "7109D3E5095AC5C7"
 			rewards: [{
 				id: "72F442AF7D1FCE9A"
@@ -1394,7 +1378,7 @@
 				}
 				type: "item"
 			}]
-			title: "Indcution"
+			title: "Induction"
 			x: 0.0d
 			y: 6.5d
 		}

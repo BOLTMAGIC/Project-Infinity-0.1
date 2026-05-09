@@ -437,4 +437,22 @@ ItemEvents.tooltip((event) => {
   meshes.forEach(mesh => {
     event.add(mesh,Text.translate('tooltip.exdeorum.mesh_enchant_warning'));
   });
+
+  event.addAdvanced(['kubejs:wither_token'], (item, advanced, text) => {
+    if (!item.nbt) {
+      text.add(
+        Text.translate('tooltip.kubejs.wither_token').darkAqua()
+      )
+    }
+
+    if (item.nbt.self_aware == false) {
+      text.add(
+        Text.translate('tooltip.kubejs.wither_token_not_self_aware').red()
+      )
+    } else {
+      text.add(
+        Text.translate('tooltip.kubejs.wither_token_self_aware').green()
+      )
+    }
+  })
 });

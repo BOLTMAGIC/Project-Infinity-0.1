@@ -59,7 +59,7 @@ MMEvents.createProcesses((event) => {
     },
     dragonsteel_ingot: {
       inputItem: 'thermal_extra:dragonsteel_block',
-      count: 1112,
+      count: 834,
     },
     electrum: {
       inputItem: 'thermal:electrum_block',
@@ -241,7 +241,7 @@ MMEvents.createProcesses((event) => {
     },
     shellite_ingot: {
       inputItem: 'thermal_extra:shellite_block',
-      count: 1112,
+      count: 278,
     },
     signalum_ingot: {
       inputItem: 'thermal:signalum_block',

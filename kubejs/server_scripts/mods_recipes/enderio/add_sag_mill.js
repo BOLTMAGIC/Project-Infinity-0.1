@@ -1,24 +1,22 @@
 ServerEvents.recipes((event) => {
-  sag_milling(event, 'compressium:stone_1', ['compressium:cobblestone_1', 2]);
-  sag_milling(event, 'compressium:stone_2', ['compressium:cobblestone_2', 2]);
-  sag_milling(event, 'compressium:stone_3', ['compressium:cobblestone_3', 2]);
-  sag_milling(event, 'compressium:cobblestone_1', ['compressium:gravel_1', 2]);
-  sag_milling(event, 'compressium:cobblestone_2', ['compressium:gravel_2', 2]);
-  sag_milling(event, 'compressium:cobblestone_3', ['compressium:gravel_3', 2]);
-  sag_milling(event, 'compressium:gravel_1', ['compressium:sand_1', 2]);
-  sag_milling(event, 'compressium:gravel_2', ['compressium:sand_2', 2]);
-  sag_milling(event, 'compressium:gravel_3', ['compressium:sand_3', 2]);
-  sag_milling(event, 'minecraft:sand', ['exdeorum:dust', 2]);
+  sag_milling(event, 'compressium:stone_1', ['minecraft:cobblestone', 4]);
+  sag_milling(event, 'compressium:stone_2', ['compressium:cobblestone_1', 4]);
+  sag_milling(event, 'compressium:stone_3', ['compressium:cobblestone_2', 4]);
+  sag_milling(event, 'compressium:cobblestone_1', ['minecraft:gravel', 4]);
+  sag_milling(event, 'compressium:cobblestone_2', ['compressium:gravel_1', 4]);
+  sag_milling(event, 'compressium:cobblestone_3', ['compressium:gravel_2', 4]);
+  sag_milling(event, 'compressium:gravel_1', ['minecraft:sand', 4]);
+  sag_milling(event, 'compressium:gravel_2', ['compressium:sand_1', 4]);
+  sag_milling(event, 'compressium:gravel_3', ['compressium:sand_2', 4]);
+  sag_milling(event, 'minecraft:sand', ['exdeorum:dust', 1]);
   sag_milling(event, 'compressium:netherrack_1', [
-    'exdeorum:compressed_crushed_netherrack',
+    'exdeorum:crushed_netherrack',
+    4,
+  ]);
+  sag_milling(event, 'compressium:endstone_1', [
+    'exdeorum:crushed_end_stone',
     2,
   ]);
-  sag_milling(
-    event,
-    'compressium:endstone_1',
-    ['exdeorum:compressed_crushed_end_stone', 2],
-    2
-  );
   sag_milling(event, 'kubejs:blaze_gold_ingot', ['kubejs:blaze_gold_dust', 1]);
   sag_milling(event, 'kubejs:azure_silver_ingot', [
     'kubejs:azure_silver_dust',

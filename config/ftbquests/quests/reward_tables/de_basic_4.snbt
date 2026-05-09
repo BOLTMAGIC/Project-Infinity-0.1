@@ -1,15 +1,6 @@
 {
 	icon: "draconicevolution:chaotic_core"
 	id: "17BF0466A6A4DA01"
-	loot_crate: {
-		color: 16777215
-		drops: {
-			boss: 0
-			monster: 0
-			passive: 0
-		}
-		string_id: "de_chaotic"
-	}
 	loot_size: 1
 	order_index: 42
 	rewards: [

@@ -73,6 +73,10 @@ Recipe changes and fixes:
 -changed basalt seed from requiring enviromats basalt to vanilla (thx to grinchfan22)
 -changed netherite upgrade from logistics networks to require diamond upgrade (thx to grinchfan22)
 -changed mystical agriculture seed block tags from ae2:growth_acceleratable to mysticalagriculture:crops so they get the same tags as other ma seeds (thx to grinchfan22)
+-Add netherite_block to molten_thermonuclear recipe (thx to MiniMaxi)
+-replaced quantum hyperdence recipes with the normal singularities in multi compressor multiblock (thx to MiniMaxi)
+-changed Creative Item Cell. (you can hate me. its evil)
+-changed output for EnderIO and Mekanism crushers for gravel, sand, dust. use the auto crusher multiblock
 ----------
 Mod changes and fixes:
 -fixed Daisys not working with in and outputing items

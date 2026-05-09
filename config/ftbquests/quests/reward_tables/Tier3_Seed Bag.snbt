@@ -1,15 +1,6 @@
 {
 	icon: "mysticalagriculture:tertium_gemstone"
 	id: "6B7F78B9150AFFEE"
-	loot_crate: {
-		color: 16777215
-		drops: {
-			boss: 0
-			monster: 0
-			passive: 0
-		}
-		string_id: "tier_3_seed_bag"
-	}
 	loot_size: 1
 	order_index: 19
 	rewards: [

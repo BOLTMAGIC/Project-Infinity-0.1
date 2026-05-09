@@ -1,15 +1,6 @@
 {
 	icon: "mysticalagriculture:inferium_gemstone"
 	id: "5AF0FD7302DEC2B1"
-	loot_crate: {
-		color: 16777215
-		drops: {
-			boss: 0
-			monster: 0
-			passive: 0
-		}
-		string_id: "tier_1_seed_bag"
-	}
 	loot_size: 1
 	order_index: 15
 	rewards: [

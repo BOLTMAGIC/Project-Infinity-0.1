@@ -1,55 +1,152 @@
 ServerEvents.recipes((event) => {
-  //Creative ME Item Cell
+  // ae2:creative_item_cell
   event
     .custom({
       type: 'extendedcrafting:shaped_table',
       pattern: [
-        'AABCDCBAA',
-        'AEBFGFBEA',
-        'BBBHIHBBB',
-        'IGBJKJBGI',
-        'DBIKLKIBD',
-        'IGBJKJBGI',
-        'BBBHIHBBB',
-        'AEBFGFBEA',
-        'AABCDCBAA',
+        'AABCDEFGHCBAA',
+        'IIIIIIIIIIIII',
+        'JKIBLMNOPBIKJ',
+        'QRISTRUVWSIXY',
+        'ZaIDSbcbSdIef',
+        'NgIfhSSShiIgN',
+        'jNICTclcTCINj',
+        'NgIihSSShfIgN',
+        'feIdSbcbSDIao',
+        'YXISpqURTSIRQ',
+        'JKIBrsNMLBIKJ',
+        'IIIIIIIIIIIII',
+        'AABCHGFEDCBAA',
       ],
       key: {
         A: {
           item: 'projectexpansion:fading_matter',
         },
         B: {
-          item: 'kubejs:infinity_12',
+          item: 'mekanism:creative_bin',
         },
         C: {
           item: 'functionalstorage:creative_vending_upgrade',
         },
         D: {
-          item: 'avaritia:endest_pearl',
+          item: 'thermal:machine_efficiency_creative_augment',
         },
         E: {
-          item: 'megacells:cell_component_256m',
+          item: 'draconicevolution:item_chaotic_flight',
         },
         F: {
-          item: 'pneumaticcraft:printed_circuit_board',
+          item: 'avaritia:endest_pearl',
         },
         G: {
-          item: 'evolvedmekanism:alloy_creative',
+          item: 'mekanism:creative_chemical_tank',
         },
         H: {
-          item: 'avaritia:infinity_ingot',
+          item: 'mekanism:creative_fluid_tank',
         },
         I: {
-          item: 'ironfurnaces:million_furnace',
+          item: 'kubejs:infinity_12',
         },
         J: {
-          item: 'projecte:condenser_mk2',
-        },
-        K: {
           item: 'industrialforegoing:supreme_black_hole_unit',
         },
+        K: {
+          item: 'megacells:cell_component_256m',
+        },
         L: {
-          item: 'mekanism:creative_bin',
+          item: 'botanicalmachinery:mana_battery_creative',
+        },
+        M: {
+          item: 'powah:energy_cell_creative',
+        },
+        N: {
+          item: 'evolvedmekanism:alloy_creative',
+        },
+        O: {
+          item: 'avaritia:infinity_helmet',
+        },
+        P: {
+          item: 'avaritia:infinity_chestplate',
+        },
+        Q: {
+          item: 'pneumaticcraft:creative_compressor',
+        },
+        R: {
+          item: 'botania:mana_tablet',
+        },
+        S: {
+          item: 'avaritia:infinity_ingot',
+        },
+        T: {
+          item: 'ae2omnicells:creative_ae_cell_long',
+        },
+        U: {
+          item: 'appflux:fe_creative_cell',
+        },
+        V: {
+          item: 'avaritia:infinity_pants',
+        },
+        W: {
+          item: 'avaritia:infinity_boots',
+        },
+        X: {
+          item: 'kubejs:infinity_essence',
+        },
+        Y: {
+          item: 'ironjetpacks:jetpack',
+        },
+        Z: {
+          item: 'voidminers:ultimate_block',
+        },
+        a: {
+          item: 'projecte:condenser_mk2',
+        },
+        b: {
+          item: 'integrateddynamics:energy_battery_creative',
+        },
+        c: {
+          item: 'ironfurnaces:million_furnace',
+        },
+        d: {
+          item: 'kubejs:creative_capacitor',
+        },
+        e: {
+          item: 'solarflux:sp_avaritia.infinity',
+        },
+        f: {
+          item: 'botania:creative_pool',
+        },
+        g: {
+          item: 'draconicevolution:creative_op_capacitor',
+        },
+        h: {
+          item: 'mekanism_extras:upgrade_creative',
+        },
+        i: {
+          item: 'ae2:creative_energy_cell',
+        },
+        j: {
+          type: 'forge:partial_nbt',
+          item: 'mekanism:creative_energy_cube',
+          count: 1,
+          nbt: "{mekData:{EnergyContainers:[{Container:0b,stored:'18446744073709551615.9999'}]}}",
+        },
+        l: {
+          item: 'extendedae_plus:infinity_biginteger_cell',
+        },
+        o: {
+          item: 'voidminers:solar_ultimate_block',
+        },
+        p: {
+          item: 'mysticalagriculture:ultimate_infinity_seeds',
+        },
+        q: {
+          item: 'projectexpansion:final_star',
+        },
+        r: {
+          item: 'botanicalextramachinery:aureate_dragonstone_block',
+        },
+        s: {
+          item: 'botanicalextramachinery:mazarine_dragonstone_block',
         },
       },
       result: {

@@ -150,6 +150,12 @@ minecraft:village_plains
 minecraft:village_savanna
 minecraft:village_snowy
 minecraft:village_taiga
+mns:bridge_1
+mns:bridge_2
+mns:bridge_3
+mns:bridge_4
+mns:bridge_5
+mns:bridge_6
 mns:circle_blackstone
 mns:circle_nether_brick
 mns:copper_tower
@@ -169,6 +175,8 @@ mns:medium_house_2
 mns:medium_warped_fungus
 mns:medium_warped_fungus_2
 mns:medium_warped_well
+mns:nether_tower
+mns:nether_wart_farm
 mns:ruined_portal
 mns:sandy_skull
 mns:shrine

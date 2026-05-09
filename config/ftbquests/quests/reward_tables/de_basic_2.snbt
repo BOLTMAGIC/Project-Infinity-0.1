@@ -1,15 +1,6 @@
 {
 	icon: "draconicevolution:wyvern_core"
 	id: "45E659D75FF60276"
-	loot_crate: {
-		color: 16777215
-		drops: {
-			boss: 0
-			monster: 0
-			passive: 0
-		}
-		string_id: "de_wyvern"
-	}
 	loot_size: 1
 	order_index: 40
 	rewards: [

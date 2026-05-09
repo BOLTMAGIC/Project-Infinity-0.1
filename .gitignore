@@ -30,7 +30,6 @@ config/packetfixer.properties
 config/skyblockbuilder/data/dimensions.txt
 config/powah.json5
 config/packetfixer.properties
-fancymenu_data/buddy/buddy_leveling_OWYwMDRmZTItYjlmMy00NGE5LTgxYzMtN2QzMjMwMWZjNjUzLTE3Nzc5MDIwNDY2NzE.json
-fancymenu_data/buddy/buddy_save_OWYwMDRmZTItYjlmMy00NGE5LTgxYzMtN2QzMjMwMWZjNjUzLTE3Nzc5MDIwNDY2NzE.json
-fancymenu_data/action_favorites.json
+fancymenu_data/
+/fancymenu_data/
 kubejs/todo.txt

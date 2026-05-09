@@ -2495,345 +2495,6 @@
 			y: 8.5d
 		}
 		{
-			can_repeat: false
-			icon: {
-				Count: 1
-				id: "ftbquests:lootcrate"
-				tag: {
-					type: "mythic_reward"
-				}
-			}
-			id: "387D824688AA51F6"
-			invisible: true
-			optional: true
-			rewards: [{
-				id: "29DD2EF52D6DC4EE"
-				item: {
-					Count: 1
-					id: "ftbquests:lootcrate"
-					tag: {
-						type: "tier_1_seed_bag"
-					}
-				}
-				type: "item"
-			}]
-			tasks: [{
-				consume_items: true
-				count: 2L
-				id: "54722D68DC46E769"
-				item: "kubejs:infused_coin"
-				type: "item"
-			}]
-			title: "&aTier 1 Seed Crate"
-			x: 4.5d
-			y: 10.0d
-		}
-		{
-			can_repeat: false
-			icon: {
-				Count: 1
-				id: "ftbquests:lootcrate"
-				tag: {
-					type: "mythic_reward"
-				}
-			}
-			id: "2039DCD2D0B134B0"
-			invisible: true
-			optional: true
-			rewards: [{
-				id: "15135DFCC991D365"
-				item: {
-					Count: 1
-					id: "ftbquests:lootcrate"
-					tag: {
-						type: "tier_2_seed_bag"
-					}
-				}
-				type: "item"
-			}]
-			tasks: [{
-				consume_items: true
-				count: 32L
-				id: "7A702DF243008BB5"
-				item: "kubejs:infused_coin"
-				type: "item"
-			}]
-			title: "&2Tier 2 Seed Crate"
-			x: 5.5d
-			y: 10.0d
-		}
-		{
-			can_repeat: false
-			icon: {
-				Count: 1
-				id: "ftbquests:lootcrate"
-				tag: {
-					type: "mythic_reward"
-				}
-			}
-			id: "23D354D1B1816982"
-			invisible: true
-			optional: true
-			rewards: [{
-				id: "3359395649967916"
-				item: {
-					Count: 1
-					id: "ftbquests:lootcrate"
-					tag: {
-						type: "tier_3_seed_bag"
-					}
-				}
-				type: "item"
-			}]
-			tasks: [{
-				consume_items: true
-				count: 64L
-				id: "175CF227477D8AA6"
-				item: "kubejs:ascended_coin"
-				type: "item"
-			}]
-			title: "&6Tier 3 Seed Crate"
-			x: 6.5d
-			y: 10.0d
-		}
-		{
-			can_repeat: false
-			icon: {
-				Count: 1
-				id: "ftbquests:lootcrate"
-				tag: {
-					type: "mythic_reward"
-				}
-			}
-			id: "175892FD048EEF25"
-			invisible: true
-			optional: true
-			rewards: [{
-				id: "77F29F547C966039"
-				item: {
-					Count: 1
-					id: "ftbquests:lootcrate"
-					tag: {
-						type: "tier_4_seed_bag"
-					}
-				}
-				type: "item"
-			}]
-			tasks: [{
-				consume_items: true
-				count: 128L
-				id: "24B228A5C14318BD"
-				item: "kubejs:ascended_coin"
-				type: "item"
-			}]
-			title: "&9Tier 4 Seed Crate"
-			x: 7.5d
-			y: 10.0d
-		}
-		{
-			can_repeat: false
-			icon: {
-				Count: 1
-				id: "ftbquests:lootcrate"
-				tag: {
-					type: "mythic_reward"
-				}
-			}
-			id: "70218208AA687752"
-			invisible: true
-			optional: true
-			rewards: [{
-				id: "76841A8904C4A010"
-				item: {
-					Count: 1
-					id: "ftbquests:lootcrate"
-					tag: {
-						type: "tier_5_seed_bag"
-					}
-				}
-				type: "item"
-			}]
-			tasks: [{
-				consume_items: true
-				count: 256L
-				id: "0A2CCB9210FC6E6B"
-				item: "kubejs:ascended_coin"
-				type: "item"
-			}]
-			title: "&cTier 5 Seed Crate"
-			x: 8.5d
-			y: 10.0d
-		}
-		{
-			can_repeat: false
-			icon: {
-				Count: 1
-				id: "ftbquests:lootcrate"
-				tag: {
-					type: "mythic_reward"
-				}
-			}
-			id: "131FE21036BACDA8"
-			invisible: true
-			optional: true
-			rewards: [{
-				id: "22C18495BD8BE9A7"
-				item: {
-					Count: 1
-					id: "ftbquests:lootcrate"
-					tag: {
-						type: "tier_6_seed_bag"
-					}
-				}
-				type: "item"
-			}]
-			tasks: [{
-				consume_items: true
-				count: 512L
-				id: "5864F0B11BF51CFD"
-				item: "kubejs:ascended_coin"
-				type: "item"
-			}]
-			title: "&5Tier 6 Seed Crate"
-			x: 9.5d
-			y: 10.0d
-		}
-		{
-			can_repeat: false
-			icon: {
-				Count: 1
-				id: "ftbquests:lootcrate"
-				tag: {
-					type: "mythic_reward"
-				}
-			}
-			id: "113D2767E823335D"
-			invisible: true
-			optional: true
-			rewards: [{
-				id: "17B6641DC4A4DF05"
-				item: {
-					Count: 1
-					id: "ftbquests:lootcrate"
-					tag: {
-						type: "de_chaotic"
-					}
-				}
-				type: "item"
-			}]
-			tasks: [{
-				consume_items: true
-				count: 256L
-				id: "5AF6B7267F29E96E"
-				item: "kubejs:ascended_coin"
-				type: "item"
-			}]
-			title: "&5DE Chaotic Loot Crate"
-			x: 9.5d
-			y: 11.5d
-		}
-		{
-			can_repeat: false
-			icon: {
-				Count: 1
-				id: "ftbquests:lootcrate"
-				tag: {
-					type: "mythic_reward"
-				}
-			}
-			id: "3B8FD7AD472F7603"
-			invisible: true
-			optional: true
-			rewards: [{
-				id: "138ADE5D7007E489"
-				item: {
-					Count: 1
-					id: "ftbquests:lootcrate"
-					tag: {
-						type: "de_draconic"
-					}
-				}
-				type: "item"
-			}]
-			tasks: [{
-				consume_items: true
-				count: 128L
-				id: "19A8748AE163D22F"
-				item: "kubejs:ascended_coin"
-				type: "item"
-			}]
-			title: "&cDE Draconic Loot Crate"
-			x: 8.5d
-			y: 11.5d
-		}
-		{
-			can_repeat: false
-			icon: {
-				Count: 1
-				id: "ftbquests:lootcrate"
-				tag: {
-					type: "mythic_reward"
-				}
-			}
-			id: "48B11B61EE35E4B2"
-			invisible: true
-			optional: true
-			rewards: [{
-				id: "632EB7F08A00B0C3"
-				item: {
-					Count: 1
-					id: "ftbquests:lootcrate"
-					tag: {
-						type: "de_wyvern"
-					}
-				}
-				type: "item"
-			}]
-			tasks: [{
-				consume_items: true
-				count: 16L
-				id: "40C902D650A4BDB9"
-				item: "kubejs:infused_coin"
-				type: "item"
-			}]
-			title: "&2DE Wyvern Loot Crate"
-			x: 5.5d
-			y: 11.5d
-		}
-		{
-			can_repeat: false
-			icon: {
-				Count: 1
-				id: "ftbquests:lootcrate"
-				tag: {
-					type: "mythic_reward"
-				}
-			}
-			id: "7765B1B15362D569"
-			invisible: true
-			optional: true
-			rewards: [{
-				id: "318D186C22848A77"
-				item: {
-					Count: 1
-					id: "ftbquests:lootcrate"
-					tag: {
-						type: "de_basic"
-					}
-				}
-				type: "item"
-			}]
-			tasks: [{
-				consume_items: true
-				id: "11BD1B80C24A8DB2"
-				item: "kubejs:infused_coin"
-				type: "item"
-			}]
-			title: "&aDE Basic Loot Crate"
-			x: 4.5d
-			y: 11.5d
-		}
-		{
 			can_repeat: true
 			icon: {
 				Count: 1
@@ -2863,7 +2524,7 @@
 			}]
 			title: "&aBotania Common Loot Crate"
 			x: 4.5d
-			y: 13.0d
+			y: 9.5d
 		}
 		{
 			can_repeat: true
@@ -2896,7 +2557,7 @@
 			}]
 			title: "&cBotania Legendary Loot Crate"
 			x: 8.5d
-			y: 13.0d
+			y: 9.5d
 		}
 		{
 			can_repeat: true
@@ -2928,7 +2589,7 @@
 			}]
 			title: "&aMekanism Common Loot Crate"
 			x: 4.5d
-			y: 14.5d
+			y: 11.0d
 		}
 		{
 			can_repeat: true
@@ -2960,7 +2621,7 @@
 			}]
 			title: "&2Essence Loot Crate"
 			x: 5.5d
-			y: 14.5d
+			y: 11.0d
 		}
 		{
 			can_repeat: true

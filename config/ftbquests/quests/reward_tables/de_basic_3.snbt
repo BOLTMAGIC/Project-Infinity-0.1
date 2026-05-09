@@ -1,15 +1,6 @@
 {
 	icon: "draconicevolution:awakened_core"
 	id: "6329856B9A5563C4"
-	loot_crate: {
-		color: 16777215
-		drops: {
-			boss: 0
-			monster: 0
-			passive: 0
-		}
-		string_id: "de_draconic"
-	}
 	loot_size: 1
 	order_index: 41
 	rewards: [

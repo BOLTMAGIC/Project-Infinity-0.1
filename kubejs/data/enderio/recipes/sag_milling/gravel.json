@@ -1,0 +1,23 @@
+{
+  "type": "enderio:sag_milling",
+  "energy": 2400,
+  "input": {
+    "tag": "forge:gravel"
+  },
+  "outputs": [
+    {
+      "chance": 0.5,
+      "item": {
+        "item": "minecraft:sand"
+      },
+      "optional": false
+    },
+    {
+      "chance": 0.1,
+      "item": {
+        "item": "minecraft:flint"
+      },
+      "optional": false
+    }
+  ]
+}

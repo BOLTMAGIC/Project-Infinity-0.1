@@ -1,0 +1,16 @@
+{
+  "type": "enderio:sag_milling",
+  "energy": 2400,
+  "input": {
+    "tag": "forge:cobblestone"
+  },
+  "outputs": [
+    {
+      "chance": 0.5,
+      "item": {
+        "item": "minecraft:gravel"
+      },
+      "optional": false
+    }
+  ]
+}

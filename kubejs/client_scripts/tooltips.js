@@ -309,7 +309,7 @@ ItemEvents.tooltip((event) => {
   );
   
   event.addAdvanced(
-    ['appflux:fe_creative_cell', 'ae2omnicells:creative_ae_cell_long'],
+    ['appflux:fe_creative_cell', 'ae2omnicells:creative_ae_cell_long', 'thermal:machine_efficiency_creative_augment'],
     (item, advanced, text) => {
       text.add(
         1,

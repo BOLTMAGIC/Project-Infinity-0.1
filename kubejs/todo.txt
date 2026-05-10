@@ -29,6 +29,7 @@ Mods replaced:
 -Extended Crafting: Expanded is gone. added my fork Extended Crafting: Expanded Reforked
     -added new 13x13 table
     -added new item to generate recipes faster for modpack devs
+-Packet Fixer gone. Replaced with Connectivity (and the Lib Cupboard)
 ----------
 Mods removed:
 -Pipez

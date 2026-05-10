@@ -6,11 +6,22 @@ Mods added:
 -Nether Package Fixer (to fix the nether if it gets removed) (thx you MiniMaxi)
 -BetterBlockZ
 -FancyMenu
+
+Optimization mods:
+-TT20 (TPS Fixer) (helps reduce lag by optimizing how ticks work when the server's TPS is low)
+-BandwidthOptimizer (minimize unnecessary network traffic)
+-Immersive Optimization
+-Fast Loading (improve world loading speed)
+-MixinTrace Reborn (print all mixins applied to a class in the stacktrace when a crash happens)
+-Ksyxis
+-MCreator Memory Fix
+-MemGuard
 ----------
 Mods replaced:
 -Extended Crafting: Expanded is gone. added my fork Extended Crafting: Expanded Reforked
     -added new 13x13 table
     -added new item to generate recipes faster for modpack devs
+-Packet Fixer gone. Replaced with Connectivity (and the Lib Cupboard)
 ----------
 Mods removed:
 -Pipez

@@ -1873,6 +1873,324 @@
 			x: 12.75d
 			y: 3.75d
 		}
+		{
+			description: [
+				"Use the cake or build the portal."
+				"2x2 in the inside with water and throw a diamond in the water."
+				""
+				"{image:kubejs:block/screen/twilight_forest_portal1 width:100 height:100 align:center}"
+				""
+				"{image:kubejs:block/screen/twilight_forest_portal2 width:100 height:100 align:center}"
+			]
+			icon: "twilightforest:naga_trophy"
+			id: "555624120F6B11FC"
+			rewards: [{
+				id: "3FA42F90C37E06CF"
+				item: "kubejs:infused_coin"
+				type: "item"
+			}]
+			size: 2.0d
+			tasks: [
+				{
+					id: "1C8AE9553F9B33F1"
+					item: "twilightforest:naga_trophy"
+					type: "item"
+				}
+				{
+					entity: "twilightforest:naga"
+					id: "0150E5A4BD296A0D"
+					type: "kill"
+					value: 1L
+				}
+			]
+			x: 14.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["555624120F6B11FC"]
+			icon: "twilightforest:lich_trophy"
+			id: "4DE524D3E5E72629"
+			rewards: [{
+				id: "21948FBBD7556916"
+				item: "kubejs:infused_coin"
+				type: "item"
+			}]
+			size: 2.0d
+			tasks: [
+				{
+					id: "31043E1305787FBD"
+					item: "twilightforest:lich_trophy"
+					type: "item"
+				}
+				{
+					entity: "twilightforest:lich"
+					id: "7072EF23C65AD092"
+					type: "kill"
+					value: 1L
+				}
+			]
+			x: 16.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["4DE524D3E5E72629"]
+			description: ["Eat the stew to get to the hydra"]
+			icon: "twilightforest:minoshroom_trophy"
+			id: "0E27CCECB43D60EA"
+			rewards: [{
+				id: "0F492B7289876BA9"
+				item: "kubejs:infused_coin"
+				type: "item"
+			}]
+			size: 2.0d
+			tasks: [
+				{
+					id: "3C2AC541E6C1E90F"
+					item: "twilightforest:minoshroom_trophy"
+					type: "item"
+				}
+				{
+					entity: "twilightforest:minoshroom"
+					id: "387102BD3B87E9D6"
+					type: "kill"
+					value: 1L
+				}
+			]
+			x: 14.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["0E27CCECB43D60EA"]
+			icon: "twilightforest:hydra_trophy"
+			id: "5698CBDCD3FB0577"
+			rewards: [{
+				id: "436B9F21CE424D53"
+				item: "kubejs:infused_coin"
+				type: "item"
+			}]
+			size: 2.0d
+			tasks: [
+				{
+					id: "71F5636ACD655E1E"
+					item: "twilightforest:hydra_trophy"
+					type: "item"
+				}
+				{
+					entity: "twilightforest:hydra"
+					id: "60474D6BD701FEC7"
+					type: "kill"
+					value: 1L
+				}
+			]
+			x: 16.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["5698CBDCD3FB0577"]
+			icon: "twilightforest:knight_phantom_trophy"
+			id: "3F160721F849ADED"
+			rewards: [{
+				id: "6980DC9925FF8071"
+				item: "kubejs:infused_coin"
+				type: "item"
+			}]
+			size: 2.0d
+			tasks: [
+				{
+					id: "20604AF1A2782880"
+					item: "twilightforest:knight_phantom_trophy"
+					type: "item"
+				}
+				{
+					entity: "twilightforest:knight_phantom"
+					id: "51AE9D3CDD9848E2"
+					type: "kill"
+					value: 1L
+				}
+			]
+			x: 14.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["3F160721F849ADED"]
+			icon: "twilightforest:ur_ghast_trophy"
+			id: "3AD5347FE092291F"
+			rewards: [{
+				id: "66D0F38C3C570975"
+				item: "kubejs:infused_coin"
+				type: "item"
+			}]
+			size: 2.0d
+			tasks: [
+				{
+					id: "5B619B0DDD535381"
+					item: "twilightforest:ur_ghast_trophy"
+					type: "item"
+				}
+				{
+					entity: "twilightforest:ur_ghast"
+					id: "25EE0A7D9918B898"
+					type: "kill"
+					value: 1L
+				}
+			]
+			x: 16.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["3AD5347FE092291F"]
+			icon: "twilightforest:alpha_yeti_trophy"
+			id: "50F231E792894618"
+			rewards: [{
+				id: "4FB095ED2E8FD29C"
+				item: "kubejs:infused_coin"
+				type: "item"
+			}]
+			size: 2.0d
+			tasks: [
+				{
+					id: "0480EFBC26D218CF"
+					item: "twilightforest:alpha_yeti_trophy"
+					type: "item"
+				}
+				{
+					entity: "twilightforest:alpha_yeti"
+					id: "106783BCD6F3A033"
+					type: "kill"
+					value: 1L
+				}
+			]
+			x: 14.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["50F231E792894618"]
+			icon: "twilightforest:snow_queen_trophy"
+			id: "566AC50DCE60E7D5"
+			rewards: [{
+				id: "08F9DAD579968FA7"
+				item: "kubejs:infused_coin"
+				type: "item"
+			}]
+			size: 2.0d
+			tasks: [
+				{
+					id: "1E4D5B86D17B5BD4"
+					item: "twilightforest:snow_queen_trophy"
+					type: "item"
+				}
+				{
+					entity: "twilightforest:snow_queen"
+					id: "6839C31CAA5953A7"
+					type: "kill"
+					value: 1L
+				}
+			]
+			x: 16.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["566AC50DCE60E7D5"]
+			icon: "twilightforest:quest_ram_trophy"
+			id: "55F8DE0BD819E1AA"
+			optional: true
+			rewards: [{
+				id: "4E87DBA8F863906D"
+				item: "kubejs:infused_coin"
+				type: "item"
+			}]
+			size: 2.0d
+			tasks: [
+				{
+					id: "4ECDFDE1783EBDAA"
+					item: "minecraft:white_wool"
+					type: "item"
+				}
+				{
+					id: "1C3C9E794A71728A"
+					item: "minecraft:light_gray_wool"
+					type: "item"
+				}
+				{
+					id: "1D3B1ECDE9AE1C00"
+					item: "minecraft:gray_wool"
+					type: "item"
+				}
+				{
+					id: "262BE2416FE35022"
+					item: "minecraft:black_wool"
+					type: "item"
+				}
+				{
+					id: "091455C959387FCF"
+					item: "minecraft:brown_wool"
+					type: "item"
+				}
+				{
+					id: "7835AF63857FC7A0"
+					item: "minecraft:red_wool"
+					type: "item"
+				}
+				{
+					id: "09173A6F5E8DC61B"
+					item: "minecraft:orange_wool"
+					type: "item"
+				}
+				{
+					id: "2C664558FC0C371A"
+					item: "minecraft:yellow_wool"
+					type: "item"
+				}
+				{
+					id: "7DE3D1E21F595FFC"
+					item: "minecraft:lime_wool"
+					type: "item"
+				}
+				{
+					id: "45B9FEC75731AC50"
+					item: "minecraft:green_wool"
+					type: "item"
+				}
+				{
+					id: "4CC345885AC06F01"
+					item: "minecraft:cyan_wool"
+					type: "item"
+				}
+				{
+					id: "03485F0E07F70ABD"
+					item: "minecraft:light_blue_wool"
+					type: "item"
+				}
+				{
+					id: "77B24815EE537EE4"
+					item: "minecraft:blue_wool"
+					type: "item"
+				}
+				{
+					id: "31BE710905D28742"
+					item: "minecraft:purple_wool"
+					type: "item"
+				}
+				{
+					id: "5852B808E195901A"
+					item: "minecraft:magenta_wool"
+					type: "item"
+				}
+				{
+					id: "4D195A9741530F5B"
+					item: "minecraft:pink_wool"
+					type: "item"
+				}
+				{
+					id: "3AA2EA7EED855DF4"
+					item: "twilightforest:quest_ram_trophy"
+					type: "item"
+				}
+			]
+			title: "Quest Ram Trophy"
+			x: 15.0d
+			y: 1.0d
+		}
 	]
 	title: "Kill, Kill, KILL!!!!!!"
 }

@@ -1,12 +1,16 @@
 changelog v. 0.0.49.0
--Updated some mods
+-updated some mods
 ----------
 Mods added:
--Replaced JEI with JEIAsync
 -Canary
 -Nether Package Fixer (to fix the nether if it gets removed) (thx you MiniMaxi)
 -BetterBlockZ
 -FancyMenu
+----------
+Mods replaced:
+-Extended Crafting: Expanded is gone. added my fork Extended Crafting: Expanded Reforked
+    -added new 13x13 table
+    -added new item to generate recipes faster for modpack devs
 ----------
 Mods removed:
 -Pipez
@@ -20,11 +24,9 @@ Mod INFO:
     -Occultism
     -Chemlib and Alchemistry
     -Extreme/ Big Reactors
-
 -mods getting removed in 0.0.50.0:
     -Incendium
-    -This will make the Nether inaccesible the first time you load your world, just exit it and load it again
-
+        -This will make the Nether inaccesible the first time you load your world, just exit it and load it again
 -mods getting removed in 0.0.51.0:
     -YTones (its discontinued, replaced with BetterBlockZ)
 ----------
@@ -34,11 +36,55 @@ Recipe changes and fixes:
 -fixed sim hydroponic beds recipe
 -fixed entity ticker recipe
 -blacklisted some items from the entity ticker
+-added creative FE cell and Long tier creative storage cell (thx to kylesexton)
+-fixed born in chaos gateway (thx to MiniMaxi)
+-changed RF/t value for entity ticker (dont hate me)
+-fixed EssenceForge T1 Parallel Processing (thx to hi_5979)
+-removed tinkers drops from mobs (no one likes swashers and melting pans) (thx to grinchfan22)
+-changed recipe for Devourer of cosmic silence
+-changed recipe for destruction wand core (thx to grinchfan22)
+-changed recipe for cut paste gadget
+-changed recipe for Void Card 
+-added blocks for enhanced diamond, gold, iron and netherite
+-changed last stand and beheading enchant
+-changed the recipe for huge and large curvy pipes (easier now)
+-changed the meshes upgrade from shapeless to smithing (thx to Hocok-of-Chaos)
+-added tooltips for meshes (thx to MiniMaxi)
+-Remove asgardandelion from quest and config (thx to MiniMaxi)
+-Add a Full NBT Remover item (thx to MiniMaxi)
+-Add a Nuclearcraft Copy Paste Tool (thx to MiniMaxi)
+-added 5 new starter islands (thx to solardaisy and MiniMaxi)
+-added a recipe for the creative flux effiency upgrade for thermal (thx to kylesexton)
+-added smelting recipe from rhodochrosite_dust to manganese_oxide_dust
+-fix Iesnium description (thx to MiniMaxi)
+-remove items that are not used from blacklist.cfg and en_us.json (thx to MiniMaxi)
+-change mysticalagriculture:master_infusion_crystal recipe to be able to use itself (thx to MiniMaxi)
+-modify Auto Crusher Recipes (thx to MiniMaxi)
+-make exdeorum Auto Crusher Recipes give the same as hammer (thx to MiniMaxi)
+-add born_in_chaos_v1:door_knight to the Born in Chaos Gate (thx to RekoHar)
+-disabled mana enchanter (thx to grinchfan22)
+-set ignoreEnchantMaxLevels to false for enchantment applicator (thx to grinchfan22)
+-removed medium covalence dust recipe as its redundant (projecte adds the same recipe but shapeless) (thx to grinchfan22)
+-fixed some mm muliblock recipes to take proper amount of energy/items (thx to grinchfan22)
+-changed basalt seed from requiring enviromats basalt to vanilla (thx to grinchfan22)
+-changed netherite upgrade from logistics networks to require diamond upgrade (thx to grinchfan22)
+-changed mystical agriculture seed block tags from ae2:growth_acceleratable to mysticalagriculture:crops so they get the same tags as other ma seeds (thx to grinchfan22)
+-Add netherite_block to molten_thermonuclear recipe (thx to MiniMaxi)
+-replaced quantum hyperdence recipes with the normal singularities in multi compressor multiblock (thx to MiniMaxi)
+-changed Creative Item Cell. (you can hate me. its evil. its in a 13x13 table)
+-changed output for EnderIO and Mekanism crushers for gravel, sand, dust. use the auto crusher multiblock
+-disabled cyclic crusher
+-added recipe for awakened_supremium_furnace in the advanced awakening altar
+-the jetpacks got a new curio slot (back)
+-added recipe in the reaction chamber for sky_harden_insulating_resin (thx to hi_5979 and kibathebaowl)
 ----------
 Mod changes and fixes:
 -fixed Daisys not working with in and outputing items
-
-
+-fixed Voidminer Solar Panels stacking
+-fixed Masterful Machinery Priority Setter not working
+----------
+----------
+----------
 changelog v. 0.0.48.2
 -UPDATED FORGE TO 47.4.20!!!!!!!!!!!!!!!!!!!!
 -UPDATED SOME MODS
@@ -81,8 +127,9 @@ Recipe changes and fixes:
 -added recipe for uraninite_block (thx to Solardaisy)
 -changed recipe for the slayer armor (thx to rekohart)
 -changed recipe for the Atomic Disassembler (it can mine ores it should not be able to mine....)
-
-
+----------
+----------
+----------
 changelog v. 0.0.48.1
 -updated some mods
 --------
@@ -118,8 +165,9 @@ Recipe changes and fixes:
 Mod changes and fixes:
 -fixed console spam for masterful machinery
 -GUI changed for masterful machinery
-
-
+----------
+----------
+----------
 changelog v. 0.0.48.0
 -updated some mods
 ---------
@@ -213,8 +261,9 @@ Mod changes and fixes:
 -small botanical machinery extra fixes and new sparks
 -Voidminers Preview fixed for miners and solar panels
 -Solarpanels now can transfer more than 2.1 GFE/t
-
-
+----------
+----------
+----------
 changelog v. 0.0.47.3
 -----------------------------------------------------------
 Mods removed:

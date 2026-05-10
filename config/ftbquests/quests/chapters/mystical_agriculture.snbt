@@ -4058,7 +4058,7 @@
 			y: 13.5d
 		}
 		{
-			dependencies: ["6C52741D22052A14"]
+			dependencies: ["0EE7C12766C3CA1B"]
 			id: "0879FBAE2C37073F"
 			rewards: [{
 				id: "20FEC62623B5009F"
@@ -4767,7 +4767,7 @@
 			y: 8.0d
 		}
 		{
-			dependencies: ["6C52741D22052A14"]
+			dependencies: ["0EE7C12766C3CA1B"]
 			id: "79728D70E04CE259"
 			rewards: [{
 				id: "35593285FEF62692"

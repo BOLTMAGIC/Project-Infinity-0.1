@@ -1,17 +1,17 @@
 ServerEvents.recipes((event) => {
-  sag_milling(event, 'compressium:stone_1', ['minecraft:cobblestone', 4]);
-  sag_milling(event, 'compressium:stone_2', ['compressium:cobblestone_1', 4]);
-  sag_milling(event, 'compressium:stone_3', ['compressium:cobblestone_2', 4]);
-  sag_milling(event, 'compressium:cobblestone_1', ['minecraft:gravel', 4]);
-  sag_milling(event, 'compressium:cobblestone_2', ['compressium:gravel_1', 4]);
-  sag_milling(event, 'compressium:cobblestone_3', ['compressium:gravel_2', 4]);
-  sag_milling(event, 'compressium:gravel_1', ['minecraft:sand', 4]);
-  sag_milling(event, 'compressium:gravel_2', ['compressium:sand_1', 4]);
-  sag_milling(event, 'compressium:gravel_3', ['compressium:sand_2', 4]);
+  sag_milling(event, 'compressium:stone_1', ['minecraft:cobblestone', 5]);
+  sag_milling(event, 'compressium:stone_2', ['compressium:cobblestone_1', 5]);
+  sag_milling(event, 'compressium:stone_3', ['compressium:cobblestone_2', 5]);
+  sag_milling(event, 'compressium:cobblestone_1', ['minecraft:gravel', 5]);
+  sag_milling(event, 'compressium:cobblestone_2', ['compressium:gravel_1', 5]);
+  sag_milling(event, 'compressium:cobblestone_3', ['compressium:gravel_2', 5]);
+  sag_milling(event, 'compressium:gravel_1', ['minecraft:sand', 5]);
+  sag_milling(event, 'compressium:gravel_2', ['compressium:sand_1', 5]);
+  sag_milling(event, 'compressium:gravel_3', ['compressium:sand_2', 5]);
   sag_milling(event, 'minecraft:sand', ['exdeorum:dust', 1]);
   sag_milling(event, 'compressium:netherrack_1', [
     'exdeorum:crushed_netherrack',
-    4,
+    5,
   ]);
   sag_milling(event, 'compressium:endstone_1', [
     'exdeorum:crushed_end_stone',

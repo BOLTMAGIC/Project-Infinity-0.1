@@ -35,7 +35,7 @@ ServerEvents.recipes((event) => {
     })
     .id('minecraft:nether_star_reaction_chamber');
 
-  function reaction_chamber1 (event, item1, outputItem) {
+  function reaction_chamber1(event, item1, outputItem) {
     event
       .custom({
         type: 'advanced_ae:reaction',
@@ -75,7 +75,7 @@ ServerEvents.recipes((event) => {
       .id('reaction_chamber1' + outputItem.replace(/[:]/g, '_').toLowerCase());
   }
 
-  function reaction_chamber2 (event, item1, outputItem) {
+  function reaction_chamber2(event, item1, outputItem) {
     event
       .custom({
         type: 'advanced_ae:reaction',
@@ -115,7 +115,7 @@ ServerEvents.recipes((event) => {
       .id('reaction_chamber2' + outputItem.replace(/[:]/g, '_').toLowerCase());
   }
 
-    function reaction_chamber3 (event, item1, outputItem) {
+  function reaction_chamber3(event, item1, outputItem) {
     event
       .custom({
         type: 'advanced_ae:reaction',
@@ -157,9 +157,21 @@ ServerEvents.recipes((event) => {
 
   reaction_chamber1(event, 'minecraft:gold_block', 'ae2:logic_processor');
   reaction_chamber3(event, 'ae2:quartz_block', 'ae2:calculation_processor');
-  reaction_chamber1(event, 'ae2omnicells:ender_ingot_block', "ae2omnicells:omni_link_processor");
-  reaction_chamber1(event, 'ae2omnicells:netherite_scrap_block', "ae2omnicells:complex_link_processor");
-  reaction_chamber1(event, 'advanced_ae:quantum_alloy_block', "advanced_ae:quantum_processor");
+  reaction_chamber1(
+    event,
+    'ae2omnicells:ender_ingot_block',
+    'ae2omnicells:omni_link_processor'
+  );
+  reaction_chamber1(
+    event,
+    'ae2omnicells:netherite_scrap_block',
+    'ae2omnicells:complex_link_processor'
+  );
+  reaction_chamber1(
+    event,
+    'advanced_ae:quantum_alloy_block',
+    'advanced_ae:quantum_processor'
+  );
   reaction_chamber1(
     event,
     'minecraft:diamond_block',
@@ -277,7 +289,7 @@ ServerEvents.recipes((event) => {
       },
     })
     .id('reaction_chamber_appflux_printed_energy_processor');
-  
+
   event.custom({
     type: 'advanced_ae:reaction',
     energy: 250000,
@@ -311,6 +323,42 @@ ServerEvents.recipes((event) => {
       '#': 36,
       '#c': 'ae2:i',
       id: 'ae2omnicells:multidimensional_expansion_processor',
+    },
+  });
+//sky_harden_insulating_resin
+  event.custom({
+    type: 'advanced_ae:reaction',
+    energy: 25000,
+    fluid: {
+      fluidStack: {
+        Amount: 500,
+        FluidName: 'minecraft:lava',
+      },
+    },
+    input_items: [
+      {
+        amount: 4,
+        ingredient: {
+          item: 'appflux:redstone_crystal',
+        },
+      },
+      {
+        amount: 4,
+        ingredient: {
+          item: 'appflux:harden_insulating_resin',
+        },
+      },
+      {
+        amount: 4,
+        ingredient: {
+          item: 'ae2:sky_stone_block',
+        },
+      },
+    ],
+    output: {
+      '#': 8,
+      '#c': 'ae2:i',
+      id: 'appflux:sky_harden_insulating_resin',
     },
   });
 });

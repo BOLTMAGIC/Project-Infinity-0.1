@@ -564,8 +564,8 @@ const removeItemsbyID = [
   'alltheores:mek_processing/nickel/ore/from_dust',
   'mekanism:processing/diamond/to_ore',
   'botania:red_string_alt',
-  '',
-  '',
+  'minecraft:kjs/cyclic_crusher',
+  'minecraft:gravel_from_compressed_gravel',
   '',
   '',
   '',
@@ -585,13 +585,14 @@ const removeItemsbyID = [
 ];
 
 const removeItemsbyType = [
+  'cyclic:crusher',
   'cyclic:packager',
   'cyclic:solidifier',
   'thermal:insolator',
   'thermal:insolator_catalyst',
   'exdeorum:compressed_sieve',
-  'industrialforegoing:mycelial_meatallurgic',
   'exdeorum:compressed_hammer',
+  'industrialforegoing:mycelial_meatallurgic',
   'bloodmagic:arcfurnace',
   'ftbquests:loot_crate',
   'pneumaticcraft:heat_properties',

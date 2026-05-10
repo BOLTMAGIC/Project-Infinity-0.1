@@ -256,6 +256,7 @@
 					}
 				}
 				type: "item"
+				weak_nbt_match: true
 			}]
 			x: 3.0d
 			y: 0.5d

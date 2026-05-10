@@ -120,8 +120,18 @@
 			image: "jei:textures/jei/atlas/gui/icons/info.png"
 			rotation: 0.0d
 			width: 0.5d
-			x: 1.5d
-			y: -3.0d
+			x: 1.5059523809523867d
+			y: -3.250000000000007d
+		}
+		{
+			click: "https://www.youtube.com/watch?v=tP8O12OYQlQ"
+			height: 0.5d
+			hover: ["Youtube Link to automate the cradle"]
+			image: "jei:textures/jei/atlas/gui/icons/info.png"
+			rotation: 0.0d
+			width: 0.5d
+			x: -4.970238095238095d
+			y: -4.107142857142861d
 		}
 	]
 	order_index: 4

@@ -4,7 +4,6 @@ finish quests high prio
 fix shop prices high prio
 rf tools recipes
 add tooltips for the multiblocks. what they do and how to use them. maybe in the book?
-multibuilder tool tooltip
 gateway change. players need to kill not masher
 ----------
 changelog v. 0.0.49.0
@@ -15,6 +14,11 @@ Mods added:
 -Nether Package Fixer (to fix the nether if it gets removed) (thx you MiniMaxi)
 -BetterBlockZ
 -FancyMenu
+----------
+Mods replaced:
+-Extended Crafting: Expanded is gone. added my fork Extended Crafting: Expanded Reforked
+    -added new 13x13 table
+    -added new item to generate recipes faster for modpack devs
 ----------
 Mods removed:
 -Pipez
@@ -75,13 +79,18 @@ Recipe changes and fixes:
 -changed mystical agriculture seed block tags from ae2:growth_acceleratable to mysticalagriculture:crops so they get the same tags as other ma seeds (thx to grinchfan22)
 -Add netherite_block to molten_thermonuclear recipe (thx to MiniMaxi)
 -replaced quantum hyperdence recipes with the normal singularities in multi compressor multiblock (thx to MiniMaxi)
--changed Creative Item Cell. (you can hate me. its evil)
+-changed Creative Item Cell. (you can hate me. its evil. its in a 13x13 table)
 -changed output for EnderIO and Mekanism crushers for gravel, sand, dust. use the auto crusher multiblock
+-disabled cyclic crusher
+-added recipe for awakened_supremium_furnace in the advanced awakening altar
+-the jetpacks got a new curio slot (back)
+-added recipe in the reaction chamber for sky_harden_insulating_resin (thx to hi_5979 and kibathebaowl)
+-removed Twilight Forest questline and added the quests to Kill kill KILL questline
 ----------
 Mod changes and fixes:
 -fixed Daisys not working with in and outputing items
 -fixed Voidminer Solar Panels stacking
--Fixed Masterful Machinery Priority Setter not working
+-fixed Masterful Machinery Priority Setter not working
 ----------
 known bugs:
 -polymorph (changing the output for mod conflicts) is not possible with tinkers crafting station

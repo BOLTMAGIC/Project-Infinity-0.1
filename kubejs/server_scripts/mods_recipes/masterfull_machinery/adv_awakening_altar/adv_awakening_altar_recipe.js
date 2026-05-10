@@ -512,6 +512,82 @@ MMEvents.createProcesses((event) => {
         count: 4,
       },
     });
+  //'mysticalagriculture:awakened_supremium_furnace'
+  event
+    .create('mm:altar_awakened_supremium_furnace_recipe1')
+    .structureId('mm:advanced_awakening_altar_structure1')
+    .ticks(100)
+    .input({
+      type: 'mm:input/consume',
+      ingredient: {
+        type: 'mm:item',
+        item: 'mysticalagriculture:air_essence',
+        count: 40,
+      },
+    })
+    .input({
+      type: 'mm:input/consume',
+      ingredient: {
+        type: 'mm:item',
+        item: 'mysticalagriculture:earth_essence',
+        count: 40,
+      },
+    })
+    .input({
+      type: 'mm:input/consume',
+      ingredient: {
+        type: 'mm:item',
+        item: 'mysticalagriculture:fire_essence',
+        count: 40,
+      },
+    })
+    .input({
+      type: 'mm:input/consume',
+      ingredient: {
+        type: 'mm:item',
+        item: 'mysticalagriculture:water_essence',
+        count: 40,
+      },
+    })
+    .input({
+      type: 'mm:input/consume',
+      ingredient: {
+        type: 'mm:item',
+        item: 'mysticalagriculture:awakened_supremium_gemstone',
+        count: 2,
+      },
+    })
+    .input({
+      type: 'mm:input/consume',
+      ingredient: {
+        type: 'mm:item',
+        item: 'mysticalagriculture:awakened_supremium_ingot',
+        count: 2,
+      },
+    })
+    .input({
+      type: 'mm:input/consume',
+      ingredient: {
+        type: 'mm:item',
+        item: 'mysticalagriculture:supremium_furnace',
+        count: 1,
+      },
+    })
+    .input({
+      type: 'mm:input/consume',
+      ingredient: {
+        type: 'mm:energy',
+        amount: 2000000,
+      },
+    })
+    .output({
+      type: 'mm:output/simple',
+      ingredient: {
+        type: 'mm:item',
+        item: 'mysticalagriculture:awakened_supremium_furnace',
+        count: 1,
+      },
+    });
   //------------------------------------------------------------------------------------------------------------------------------------------
   // TIER 2 Recipes
   //Awakened Supremium Block
@@ -1023,6 +1099,82 @@ MMEvents.createProcesses((event) => {
         type: 'mm:item',
         item: 'draconicevolution:draconic_relay_crystal',
         count: 16,
+      },
+    });
+  //mysticalagriculture awakened supremium furnace
+  event
+    .create('mm:altar_awakened_supremium_furnace_recipe2')
+    .structureId('mm:advanced_awakening_altar_structure2')
+    .ticks(2)
+    .input({
+      type: 'mm:input/consume',
+      ingredient: {
+        type: 'mm:item',
+        item: 'mysticalagriculture:air_essence',
+        count: 160,
+      },
+    })
+    .input({
+      type: 'mm:input/consume',
+      ingredient: {
+        type: 'mm:item',
+        item: 'mysticalagriculture:earth_essence',
+        count: 160,
+      },
+    })
+    .input({
+      type: 'mm:input/consume',
+      ingredient: {
+        type: 'mm:item',
+        item: 'mysticalagriculture:fire_essence',
+        count: 160,
+      },
+    })
+    .input({
+      type: 'mm:input/consume',
+      ingredient: {
+        type: 'mm:item',
+        item: 'mysticalagriculture:water_essence',
+        count: 160,
+      },
+    })
+    .input({
+      type: 'mm:input/consume',
+      ingredient: {
+        type: 'mm:item',
+        item: 'mysticalagriculture:awakened_supremium_gemstone',
+        count: 8,
+      },
+    })
+    .input({
+      type: 'mm:input/consume',
+      ingredient: {
+        type: 'mm:item',
+        item: 'mysticalagriculture:awakened_supremium_ingot',
+        count: 8,
+      },
+    })
+    .input({
+      type: 'mm:input/consume',
+      ingredient: {
+        type: 'mm:item',
+        item: 'mysticalagriculture:supremium_furnace',
+        count: 4,
+      },
+    })
+    .input({
+      type: 'mm:input/consume',
+      ingredient: {
+        type: 'mm:energy',
+        amount: 2000000,
+      },
+    })
+    .output({
+      type: 'mm:output/simple',
+      ingredient: {
+        type: 'mm:item',
+        item: 'mysticalagriculture:awakened_supremium_furnace',
+        count: 4,
       },
     });
 });

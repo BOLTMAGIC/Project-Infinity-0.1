@@ -77,6 +77,8 @@ Recipe changes and fixes:
 -added recipe for awakened_supremium_furnace in the advanced awakening altar
 -the jetpacks got a new curio slot (back)
 -added recipe in the reaction chamber for sky_harden_insulating_resin (thx to hi_5979 and kibathebaowl)
+-removed Twilight Forest questline and added the quests to Kill kill KILL questline
+-updated woot to fix a bug
 ----------
 Mod changes and fixes:
 -fixed Daisys not working with in and outputing items

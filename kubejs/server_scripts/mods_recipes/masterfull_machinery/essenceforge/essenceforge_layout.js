@@ -144,8 +144,7 @@ MMEvents.createStructures((event) => {
           block: 'chisel_chipped_integration:factory_blue_framed_circuit',
         })
         .key('I', {
-          portType: 'mm:energy',
-          input: true,
+          block: 'mm:gigantic_energy_port_input',
         })
         .key('L', {
           block: 'botanicalextramachinery:crimson_ingot_block',
@@ -215,8 +214,7 @@ MMEvents.createStructures((event) => {
           block: 'chisel_chipped_integration:factory_blue_framed_circuit',
         })
         .key('I', {
-          portType: 'mm:energy',
-          input: true,
+          block: 'mm:gigantic_energy_port_input',
         })
         .key('L', {
           block: 'botanicalextramachinery:crimson_ingot_block',

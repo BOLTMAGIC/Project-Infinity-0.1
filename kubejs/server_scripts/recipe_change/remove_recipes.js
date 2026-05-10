@@ -209,6 +209,8 @@ const removeItemsbyOutput = [
   'packagedexcrafting:basic_crafter',
   'cyclic:glass_connected',
   'industrialforegoing:hydroponic_simulation_processor',
+  'avaritia_expand:neutron_decompose',
+  'avaritia_expand:blaze_furnace',
 ];
 
 const removeItemsbyID = [

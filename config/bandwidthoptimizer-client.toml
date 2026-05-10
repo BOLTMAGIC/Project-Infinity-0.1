@@ -1,0 +1,14 @@
+
+#Client Chunk Cache Settings
+[client-chunk-cache]
+	#
+	#--------------------------------------------------------------------------
+	#Maximum estimated memory budget in MiB used by the client-side chunk transport cache.
+	#Range: 50 ~ 500
+	chunk_cache_max_memory_mb = 110
+	#
+	#--------------------------------------------------------------------------
+	#Start recycling old chunk cache entries when the remaining cache budget drops below this MiB threshold.
+	#Range: 1 ~ 128
+	chunk_cache_recycle_trigger_free_mb = 10
+

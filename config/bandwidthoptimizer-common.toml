@@ -1,0 +1,114 @@
+
+#Logging Settings
+[logging]
+	#
+	#--------------------------------------------------------------------------
+	#Enable periodic optimizer stats logs. When false, batch, bypass, optimized play, and chunk cache summaries are not printed.
+	enable_optimizer_stats_logs = true
+	#
+	#--------------------------------------------------------------------------
+	#Use the shorter test-mode optimizer stats log interval.
+	enable_test_mode = false
+	#
+	#--------------------------------------------------------------------------
+	#Optimizer stats log interval in minutes while enable_test_mode is false.
+	#Range: 1 ~ 1440
+	stats_log_interval_minutes = 30
+
+#Debug Settings
+[debug]
+	#
+	#--------------------------------------------------------------------------
+	#Enable lightweight analysis outputs, such as packet rank, transport report, bypass rank, and telemetry dumps.
+	debug_analysis = false
+	#
+	#--------------------------------------------------------------------------
+	#Enable heavyweight diagnostic outputs, such as packet jsonl, transport traces, and chunk boundary reports.
+	debug_diagnose = false
+
+#PLAY Batch Optimizer Settings
+[play-batch]
+	#
+	#--------------------------------------------------------------------------
+	#Legacy compatibility switch for the reference-dedup test algorithm. The default PLAY optimizer does not use this directly.
+	enable_batch_reference_dedup = true
+	#
+	#--------------------------------------------------------------------------
+	#Legacy compatibility switch for the SHA-256 dictionary test algorithm. The default PLAY optimizer uses template dictionary instead.
+	enable_batch_sha256_dictionary = true
+	#
+	#--------------------------------------------------------------------------
+	#Enable the template dictionary stage used by the default PLAY optimizer.
+	enable_batch_template_dictionary = true
+	#
+	#--------------------------------------------------------------------------
+	#Legacy compatibility switch for one-shot zstd test algorithms. The default PLAY optimizer uses streaming zstd instead.
+	enable_batch_zstd = false
+	#
+	#--------------------------------------------------------------------------
+	#Legacy compatibility switch for standalone streaming-zstd tests. The default PLAY optimizer already uses streaming zstd when zstd-jni is available.
+	enable_batch_streaming_zstd = false
+	#
+	#--------------------------------------------------------------------------
+	#Move stateful PLAY batch dictionary/zstd encoding to a background worker. Packet snapshotting and final send still run on the server thread.
+	enable_async_play_batch_encoding = true
+
+#Streaming Zstd Settings
+[streaming-zstd]
+	#
+	#--------------------------------------------------------------------------
+	#Legacy one-shot zstd compression level. Kept for compatibility with deprecated test algorithms; not used by the default PLAY optimizer.
+	#Range: 1 ~ 22
+	batch_zstd_level = 3
+	#
+	#--------------------------------------------------------------------------
+	#Compression level used by streaming zstd in the default template_dictionary_streaming_zstd PLAY optimizer.
+	#Range: 1 ~ 20
+	batch_streaming_zstd_level = 4
+
+#Template Dictionary Settings
+[template-dictionary]
+	#
+	#--------------------------------------------------------------------------
+	#Maximum payload size eligible for template mapping.
+	#Range: > 1
+	batch_template_dictionary_max_packet_bytes = 4096
+	#
+	#--------------------------------------------------------------------------
+	#Maximum number of synchronized exact/template mappings kept by the template batch algorithm.
+	#Range: > 1
+	batch_template_dictionary_max_entries = 8192
+	#
+	#--------------------------------------------------------------------------
+	#Maximum total literal/template bytes kept by the template batch algorithm.
+	#Range: > 1
+	batch_template_dictionary_max_payload_bytes = 2097152
+	#
+	#--------------------------------------------------------------------------
+	#Maximum number of changed byte runs allowed when creating a reusable template.
+	#Range: 1 ~ 128
+	batch_template_dictionary_max_diff_runs = 8
+	#
+	#--------------------------------------------------------------------------
+	#Maximum total changed bytes allowed when creating a reusable template.
+	#Range: > 1
+	batch_template_dictionary_max_changed_bytes = 128
+
+#SHA-256 Dictionary Settings
+[sha256-dictionary]
+	#
+	#--------------------------------------------------------------------------
+	#Maximum payload size eligible for SHA-256 dictionary mapping. Payloads at or above this size stay literal.
+	#Range: > 1
+	batch_sha256_dictionary_max_packet_bytes = 3000
+	#
+	#--------------------------------------------------------------------------
+	#Maximum number of active payload mappings kept by the SHA-256 dictionary batch algorithm.
+	#Range: > 1
+	batch_sha256_dictionary_max_entries = 8192
+	#
+	#--------------------------------------------------------------------------
+	#Maximum total payload bytes kept by the SHA-256 dictionary batch algorithm.
+	#Range: > 1
+	batch_sha256_dictionary_max_payload_bytes = 1048576
+

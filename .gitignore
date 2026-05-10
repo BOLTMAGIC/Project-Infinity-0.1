@@ -33,3 +33,4 @@ config/packetfixer.properties
 fancymenu_data/
 /fancymenu_data/
 kubejs/todo.txt
+/bandwidthoptimizer-native/*

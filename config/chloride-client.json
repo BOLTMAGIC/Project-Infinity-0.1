@@ -1,6 +1,6 @@
 {
   "modpackMode": false,
-  "fullScreen": "WINDOWED",
+  "fullScreen": "BORDERLESS",
   "fpsDisplayMode": "ADVANCED",
   "fpsDisplayAlign": "RIGHT",
   "fpsDisplayVAlign": "TOP",

@@ -17,11 +17,11 @@
   },
   "logintimeout": {
     "desc:": "Set the max login timeout in seconds. default = 120",
-    "logintimeout": 120
+    "logintimeout": 240
   },
   "disconnectTimeout": {
     "desc:": "Set the ingame disconnect timeout for disconnecting players. Default = 60sec",
-    "disconnectTimeout": 60
+    "disconnectTimeout": 120
   },
   "packetHistoryMinutes": {
     "desc:": "Set the amount of minutes for which network packet history data is saved. Default = 5 minutes",

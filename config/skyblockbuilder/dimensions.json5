@@ -50,6 +50,11 @@
     //       "radius": 32
     //     }
     //   ]
-    "centeredBiomes": []
+    "centeredBiomes": [
+         {
+           "id": "minecraft:plains",
+           "radius": 64
+         }
+       ]
   }
 }

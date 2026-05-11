@@ -55,7 +55,7 @@ ServerEvents.recipes((event) => {
           item: 'cataclysm:witherite_ingot',
         },
         N: {
-          item: 'kubejs:infinity_4',
+          item: 'kubejs:infinity_3',
         },
         O: {
           item: 'botania:gaia_ingot',

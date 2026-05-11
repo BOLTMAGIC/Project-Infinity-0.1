@@ -71,13 +71,16 @@ ServerEvents.recipes((event) => {
           item: 'pneumaticcraft:creative_compressor',
         },
         R: {
+          type: 'forge:nbt',
           item: 'botania:mana_tablet',
+          count: 1,
+          nbt: '{mana:500000}',
         },
         S: {
           item: 'avaritia:infinity_ingot',
         },
         T: {
-          item: 'ae2omnicells:creative_ae_cell_long',
+          item: 'ae2:spatial_storage_cell_128',
         },
         U: {
           item: 'appflux:fe_creative_cell',
@@ -92,7 +95,10 @@ ServerEvents.recipes((event) => {
           item: 'kubejs:infinity_essence',
         },
         Y: {
+          type: 'forge:nbt',
           item: 'ironjetpacks:jetpack',
+          count: 1,
+          nbt: '{Id:"ironjetpacks:creative",Throttle:1.0d}',
         },
         Z: {
           item: 'voidminers:ultimate_block',
@@ -104,7 +110,7 @@ ServerEvents.recipes((event) => {
           item: 'integrateddynamics:energy_battery_creative',
         },
         c: {
-          item: 'ironfurnaces:million_furnace',
+          item: 'ironfurnaces:rainbow_core',
         },
         d: {
           item: 'kubejs:creative_capacitor',

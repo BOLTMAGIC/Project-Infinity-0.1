@@ -696,7 +696,7 @@
 		{
 			dependencies: ["0D0B51AB0EFCC979"]
 			description: [
-				"&0Dark matter pedestals&r are used to activate the &cextra ability&r withen &6trinkets &o(usally rings&r)&r added with &dProjectE&r, "
+				"&0Dark matter pedestals&r are used to activate the &cextra ability&r of &6trinkets &o(usually rings)&r added by &dProjectE&r, "
 				""
 				"&lRight-Click&r with the &aitem&r you want to put on the &0pedestal,&r &lRight-Click&r again to &aactivate&r or &bdeactivate&r it, and &lLeft-Click&r to &cremove the item&r."
 				""

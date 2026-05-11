@@ -1,6 +1,6 @@
 // misc.js is for if a mod has less then 2 recipe changes it it's add.js
 ServerEvents.recipes((event) => {
-  //mod: actuallyadditions
+  //#region actuallyadditions
   shapeless(event, 'actuallyadditions:ender_star', [
     'minecraft:nether_star',
     'minecraft:dragon_breath',
@@ -12,7 +12,7 @@ ServerEvents.recipes((event) => {
     'actuallyadditions:black_quartz_block',
   ]);
 
-  //mod: angelblockrenewed
+  //#region angelblockrenewed
   create3x3(event, 'angelblockrenewed:angel_block', [
     'minecraft:stick',
     'minecraft:feather',
@@ -25,10 +25,10 @@ ServerEvents.recipes((event) => {
     'minecraft:stick',
   ]);
 
-  //mod: avaritia
+  //#region avaritia
   create3x3same(event, 'avaritia:blaze_cube', ['avaritia_expand:blaze_nugget']);
 
-  //mod: bigreactors
+  //#region bigreactors
   event.smelting('bigreactors:benitoite_crystal', 'bigreactors:benitoite_ore');
 
   shapeless(event, '3x bigreactors:yellorium_ingot', [
@@ -37,23 +37,23 @@ ServerEvents.recipes((event) => {
     'mekanism:ingot_uranium',
   ]);
 
-  //mod: born_in_chaos_v1
+  //#region born_in_chaos_v1
   event.smelting('born_in_chaos_v1:dark_metal_ingot','born_in_chaos_v1:pileof_dark_metal');
 
-  //mod: botanypotstiers
+  //#region botanypotstiers
   shapeless(event, 'botanypotstiers:creative_terracotta_hopper_botany_pot', [
     'botanypotstiers:creative_terracotta_botany_pot',
     'minecraft:hopper',
   ]);
 
-  //mod: cataclysm
+  //#region cataclysm
   create3x3same(event, 'cataclysm:enderite_block', [
     'cataclysm:enderite_ingot',
   ]);
 
   shapeless(event, '9x cataclysm:enderite_ingot', ['cataclysm:enderite_block']);
 
-  //mod: draconicevolution
+  //#region draconicevolution
   create3x3(event, 'draconicevolution:item_draconic_flight', [
     'kubejs:infinity_1',
     'draconicevolution:wyvern_core',
@@ -78,7 +78,7 @@ ServerEvents.recipes((event) => {
     'draconicevolution:draconium_ingot',
   ]);
 
-  //mod: mysticalagriculture
+  //#region mysticalagriculture
   create3x3(event, 'mysticalagriculture:master_infusion_crystal', [
     'mysticalagriculture:prosperity_shard',
     'kubejs:infinity_4',
@@ -91,7 +91,7 @@ ServerEvents.recipes((event) => {
     'mysticalagriculture:prosperity_shard',
   ]);
 
-  //mod: enchantinginfuser
+  //#region enchantinginfuser
   create3x3(event, 'enchantinginfuser:enchanting_infuser', [
     'allthemodium:unobtainium_allthemodium_alloy_ingot',
     'minecraft:book',
@@ -116,7 +116,7 @@ ServerEvents.recipes((event) => {
     'minecraft:crying_obsidian',
   ]);
 
-  //mod: ender_dragon_loot
+  //#region ender_dragon_loot
   create3x3(event, Item.of('ender_dragon_loot:dragon_upgrade_template', 2), [
     'minecraft:netherite_ingot',
     'mysticalagradditions:dragon_scale',
@@ -129,7 +129,7 @@ ServerEvents.recipes((event) => {
     'minecraft:netherite_ingot',
   ]);
 
-  //mod: extendedcrafting
+  //#region extendedcrafting
   shapeless(event, '9x extendedcrafting:crystaltine_ingot', [
     'extendedcrafting:crystaltine_block',
   ]);
@@ -146,7 +146,7 @@ ServerEvents.recipes((event) => {
     'minecraft:air',
   ]);
 
-  //mod: functionalstorage
+  //#region functionalstorage
   create3x3(event, 'functionalstorage:max_storage_upgrade', [
     'functionalstorage:netherite_upgrade',
     'functionalstorage:netherite_upgrade',
@@ -159,7 +159,7 @@ ServerEvents.recipes((event) => {
     'functionalstorage:netherite_upgrade',
   ]);
 
-  //mod: gateways
+  //#region gateways
   shapeless(
     event,
     Item.of('gateways:gate_pearl', '{gateway:"gateways:emerald_grove_easy"}'),
@@ -171,7 +171,7 @@ ServerEvents.recipes((event) => {
     ]
   );
 
-  //mod: hostilenetworks
+  //#region hostilenetworks
   create3x3(
     event,
     Item.of(
@@ -194,7 +194,7 @@ ServerEvents.recipes((event) => {
     ]
   );
 
-  //mod: industrialforegoing
+  //#region industrialforegoing
   create3x3(event, 'industrialforegoing:mycelial_meatallurgic', [
     'minecraft:iron_ingot',
     'minecraft:iron_ingot',
@@ -218,7 +218,7 @@ ServerEvents.recipes((event) => {
     'allthemodium:unobtainium_gear',
   ]);
 
-  //mod: ironfurnaces
+  //#region ironfurnaces
   shapeless(event, '8x ironfurnaces:rainbow_plating', [
     'ironfurnaces:item_xmas',
     'ironfurnaces:iron_furnace',
@@ -242,7 +242,7 @@ ServerEvents.recipes((event) => {
     'minecraft:magenta_stained_glass',
   ]);
 
-  //mod: logisticsnetworks
+  //#region logisticsnetworks
   create3x3(event, 'logisticsnetworks:mekanism_chemical_upgrade', [
     'mekanism:basic_chemical_tank',
     'mekanism_extras:alloy_radiance',
@@ -255,7 +255,7 @@ ServerEvents.recipes((event) => {
     'mekanism:basic_chemical_tank',
   ]);
 
-  //mod: patchouli
+  //#region patchouli
   shapeless(
     event,
     Item.of('patchouli:guide_book', '{"patchouli:book":"cyclic:guide_book"}'),
@@ -268,7 +268,7 @@ ServerEvents.recipes((event) => {
     ['minecraft:book', 'voidminers:rubetine']
   );
 
-  //mod: projectexpansion
+  //#region projectexpansion
   event
     .shaped(
       Item.of('projectexpansion:basic_collector'),
@@ -294,7 +294,7 @@ ServerEvents.recipes((event) => {
     'projecte:low_covalence_dust',
   ]);
 
-  //mod: refinedstorage
+  //#region refinedstorage
   shapeless(event, 'refinedstorage:creative_storage_block', [
     'refinedstorage:creative_storage_disk',
     'refinedstorage:machine_casing',
@@ -305,7 +305,7 @@ ServerEvents.recipes((event) => {
     'refinedstorage:machine_casing',
   ]);
 
-  //mod: rftoolsutility
+  //#region rftoolsutility
   create3x3(event, Item.of('rftoolsutility:computer_module', '{Damage:0}'), [
     'minecraft:air',
     Item.of('rftoolsutility:button_module', '{Damage:0}'),
@@ -318,7 +318,7 @@ ServerEvents.recipes((event) => {
     'minecraft:air',
   ]);
 
-  //mod: rsinfinitybooster
+  //#region rsinfinitybooster
   create3x3(event, 'rsinfinitybooster:infinity_card', [
     'minecraft:ender_eye',
     'refinedstorage:range_upgrade',
@@ -343,7 +343,7 @@ ServerEvents.recipes((event) => {
     'rsinfinitybooster:infinity_card',
   ]);
 
-  //mod: sfm
+  //#region sfm
   create3x3(event, Item.of('sfm:cable', 16), [
     'advanced_ae:quantum_alloy',
     'minecraft:light_weighted_pressure_plate',
@@ -356,20 +356,7 @@ ServerEvents.recipes((event) => {
     'advanced_ae:quantum_alloy',
   ]);
 
-  //mod: sophisticatedbackpacks
-  create3x3(event, 'sophisticatedbackpacks:stack_upgrade_omega_tier', [
-    'sophisticatedbackpacks:stack_upgrade_tier_4',
-    'sophisticatedbackpacks:stack_upgrade_tier_4',
-    'sophisticatedbackpacks:stack_upgrade_tier_4',
-    'sophisticatedbackpacks:stack_upgrade_tier_4',
-    'kubejs:infinity_1',
-    'sophisticatedbackpacks:stack_upgrade_tier_4',
-    'sophisticatedbackpacks:stack_upgrade_tier_4',
-    'sophisticatedbackpacks:stack_upgrade_tier_4',
-    'sophisticatedbackpacks:stack_upgrade_tier_4',
-  ]);
-
-  //mod: telepastries
+  //#region telepastries
   create3x3(event, 'telepastries:custom_cake', [
     'minecraft:oak_log',
     'minecraft:oak_log',
@@ -394,7 +381,7 @@ ServerEvents.recipes((event) => {
     'minecraft:skeleton_skull',
   ]);
 
-  //mod: twilightforest
+  //#region twilightforest
   create3x3(event, Item.of('twilightforest:aurora_block', 8), [
     'minecraft:stone_bricks',
     'minecraft:stone_bricks',

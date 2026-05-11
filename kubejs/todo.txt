@@ -6,39 +6,17 @@ rf tools recipes
 add tooltips for the multiblocks. what they do and how to use them. maybe in the book?
 gateway change. players need to kill not masher
 ----------
-changelog v. 0.0.49.0
+changelog v. 0.0.49.1
 -updated some mods
 ----------
-Mods added:
--Canary
--Nether Package Fixer (to fix the nether if it gets removed) (thx you MiniMaxi)
--BetterBlockZ
--FancyMenu
-
-Optimization mods:
--TT20 (TPS Fixer) (helps reduce lag by optimizing how ticks work when the server's TPS is low)
--BandwidthOptimizer (minimize unnecessary network traffic)
--Immersive Optimization
--Fast Loading (improve world loading speed)
--MixinTrace Reborn (print all mixins applied to a class in the stacktrace when a crash happens)
--Ksyxis
--MCreator Memory Fix
--MemGuard
-----------
-Mods replaced:
--Extended Crafting: Expanded is gone. added my fork Extended Crafting: Expanded Reforked
-    -added new 13x13 table
-    -added new item to generate recipes faster for modpack devs
--Packet Fixer gone. Replaced with Connectivity (and the Lib Cupboard)
-----------
 Mods removed:
--Pipez
--AE Additions
--AE2 Things
--Evolved Mekanism (it will get replaced with a fork from me that only contain the APT, alloys and circuits)
--Evolved Mekanism Extra (the compat for Evolved Mekanism and Mekanism Extra. Mekanism Extra stays!)
+-Fast Loading (not working)
+-TT20 (TPS Fixer) (not working)
+-MCreator Memory Fix (not working)
 ----------
 Mod INFO:
+-mods getting added after some more time:
+    -Just Dire Things
 -mods maybe getting removed:
     -Occultism
     -Chemlib and Alchemistry
@@ -46,63 +24,20 @@ Mod INFO:
 -mods getting removed in 0.0.50.0:
     -Incendium
         -This will make the Nether inaccesible the first time you load your world, just exit it and load it again
+    -Compact Expansion
 -mods getting removed in 0.0.51.0:
     -YTones (its discontinued, replaced with BetterBlockZ)
 ----------
 Recipe changes and fixes:
--changed every recipe that used the removed mods
--changed recipe for SFM Cable (easier) (thx to thereitisdude)
--fixed sim hydroponic beds recipe
--fixed entity ticker recipe
--blacklisted some items from the entity ticker
--added creative FE cell and Long tier creative storage cell (thx to kylesexton)
--fixed born in chaos gateway (thx to MiniMaxi)
--changed RF/t value for entity ticker (dont hate me)
--fixed EssenceForge T1 Parallel Processing (thx to hi_5979)
--removed tinkers drops from mobs (no one likes swashers and melting pans) (thx to grinchfan22)
--changed recipe for Devourer of cosmic silence
--changed recipe for destruction wand core (thx to grinchfan22)
--changed recipe for cut paste gadget
--changed recipe for Void Card 
--added blocks for enhanced diamond, gold, iron and netherite
--changed last stand and beheading enchant
--changed the recipe for huge and large curvy pipes (easier now)
--changed the meshes upgrade from shapeless to smithing (thx to Hocok-of-Chaos)
--added tooltips for meshes (thx to MiniMaxi)
--Remove asgardandelion from quest and config (thx to MiniMaxi)
--Add a Full NBT Remover item (thx to MiniMaxi)
--Add a Nuclearcraft Copy Paste Tool (thx to MiniMaxi)
--added 5 new starter islands (thx to solardaisy and MiniMaxi)
--added a recipe for the creative flux effiency upgrade for thermal (thx to kylesexton)
--added smelting recipe from rhodochrosite_dust to manganese_oxide_dust
--fix Iesnium description (thx to MiniMaxi)
--remove items that are not used from blacklist.cfg and en_us.json (thx to MiniMaxi)
--change mysticalagriculture:master_infusion_crystal recipe to be able to use itself (thx to MiniMaxi)
--modify Auto Crusher Recipes (thx to MiniMaxi)
--make exdeorum Auto Crusher Recipes give the same as hammer (thx to MiniMaxi)
--add born_in_chaos_v1:door_knight to the Born in Chaos Gate (thx to RekoHar)
--disabled mana enchanter (thx to grinchfan22)
--set ignoreEnchantMaxLevels to false for enchantment applicator (thx to grinchfan22)
--removed medium covalence dust recipe as its redundant (projecte adds the same recipe but shapeless) (thx to grinchfan22)
--fixed some mm muliblock recipes to take proper amount of energy/items (thx to grinchfan22)
--changed basalt seed from requiring enviromats basalt to vanilla (thx to grinchfan22)
--changed netherite upgrade from logistics networks to require diamond upgrade (thx to grinchfan22)
--changed mystical agriculture seed block tags from ae2:growth_acceleratable to mysticalagriculture:crops so they get the same tags as other ma seeds (thx to grinchfan22)
--Add netherite_block to molten_thermonuclear recipe (thx to MiniMaxi)
--replaced quantum hyperdence recipes with the normal singularities in multi compressor multiblock (thx to MiniMaxi)
--changed Creative Item Cell. (you can hate me. its evil. its in a 13x13 table)
--changed output for EnderIO and Mekanism crushers for gravel, sand, dust. use the auto crusher multiblock
--disabled cyclic crusher
--added recipe for awakened_supremium_furnace in the advanced awakening altar
--the jetpacks got a new curio slot (back)
--added recipe in the reaction chamber for sky_harden_insulating_resin (thx to hi_5979 and kibathebaowl)
--removed Twilight Forest questline and added the quests to Kill kill KILL questline
--updated woot to fix a bug
+-set Biome for World Creation to Plains
+-fixed sand to dust in mekanism machines
+-fixed Creative ME Item Cell
+-fixed FancyMenu screen
+-changed Omega Tier Upgrade from Inf1 to Inf 2 (thx to codename_cat)
+-changed recipe for Gaia Spirit Seed from Inf 4 to Inf 3 (thx to codename_cat)
 ----------
 Mod changes and fixes:
--fixed Daisys not working with in and outputing items
--fixed Voidminer Solar Panels stacking
--fixed Masterful Machinery Priority Setter not working
+-fixed Uranium into Enriched Uranium recipe (thx to arman258)
 ----------
 known bugs:
 -polymorph (changing the output for mod conflicts) is not possible with tinkers crafting station

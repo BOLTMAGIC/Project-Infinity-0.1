@@ -28,7 +28,7 @@ ServerEvents.recipes((event) => {
   crush(event, 'kubejs:azure_silver_ingot', 1, 'kubejs:azure_silver_dust');
   crush(event, 'kubejs:azure_electrum_ingot', 1, 'kubejs:azure_electrum_dust');
   crush(event, 'kubejs:crimson_iron_ingot', 1, 'kubejs:crimson_iron_dust');
-  crush(event, 'minecraft:sand', 1, 'exdeorum:dust');
+  crush(event, 'minecraft:sand', 2, 'exdeorum:dust');
   crush(event, 'kubejs:arcmetal_ore', 2, 'kubejs:raw_arcmetal');
   crush(event, 'kubejs:solarmetal_ore', 2, 'kubejs:raw_solarmetal');
   crush(event, 'kubejs:plasteel_ore', 2, 'kubejs:raw_plasteel');

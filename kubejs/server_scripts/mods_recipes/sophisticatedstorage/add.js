@@ -92,12 +92,25 @@ ServerEvents.recipes((event) => {
     ]
   );
 
+    //#region Omega Tier
+  create3x3(event, 'sophisticatedbackpacks:stack_upgrade_omega_tier', [
+    'sophisticatedbackpacks:stack_upgrade_tier_4',
+    'sophisticatedbackpacks:stack_upgrade_tier_4',
+    'sophisticatedbackpacks:stack_upgrade_tier_4',
+    'sophisticatedbackpacks:stack_upgrade_tier_4',
+    'kubejs:infinity_2',
+    'sophisticatedbackpacks:stack_upgrade_tier_4',
+    'sophisticatedbackpacks:stack_upgrade_tier_4',
+    'sophisticatedbackpacks:stack_upgrade_tier_4',
+    'sophisticatedbackpacks:stack_upgrade_tier_4',
+  ]);
+ 
   create3x3(event, 'sophisticatedstorage:stack_upgrade_omega_tier', [
     'sophisticatedstorage:stack_upgrade_tier_5',
     'sophisticatedstorage:stack_upgrade_tier_5',
     'sophisticatedstorage:stack_upgrade_tier_5',
     'sophisticatedstorage:stack_upgrade_tier_5',
-    'kubejs:infinity_1',
+    'kubejs:infinity_2',
     'sophisticatedstorage:stack_upgrade_tier_5',
     'sophisticatedstorage:stack_upgrade_tier_5',
     'sophisticatedstorage:stack_upgrade_tier_5',

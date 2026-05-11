@@ -1,3 +1,41 @@
+changelog v. 0.0.49.1
+-updated some mods
+----------
+Mods removed:
+-Fast Loading (not working)
+-TT20 (TPS Fixer) (not working)
+-MCreator Memory Fix (not working)
+----------
+Mod INFO:
+-mods getting added after some more time:
+    -Just Dire Things
+-mods maybe getting removed:
+    -Occultism
+    -Chemlib and Alchemistry
+    -Extreme/ Big Reactors
+-mods getting removed in 0.0.50.0:
+    -Incendium
+        -This will make the Nether inaccesible the first time you load your world, just exit it and load it again
+    -Compact Expansion
+-mods getting removed in 0.0.51.0:
+    -YTones (its discontinued, replaced with BetterBlockZ)
+----------
+Recipe changes and fixes:
+-set Biome for World Creation to Plains
+-fixed sand to dust in mekanism machines
+-fixed Creative ME Item Cell
+-fixed FancyMenu screen
+-changed Omega Tier Upgrade from Inf1 to Inf 2 (thx to codename_cat)
+-changed recipe for Gaia Spirit Seed from Inf 4 to Inf 3 (thx to codename_cat)
+----------
+Mod changes and fixes:
+-fixed Uranium into Enriched Uranium recipe (thx to arman258)
+----------
+known bugs:
+-polymorph (changing the output for mod conflicts) is not possible with tinkers crafting station
+----------
+----------
+----------
 changelog v. 0.0.49.0
 -updated some mods
 ----------

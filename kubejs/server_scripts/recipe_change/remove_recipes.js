@@ -1,5 +1,5 @@
 priority: 0;
-//Items to remove by output
+//#region Output removal
 const removeItemsbyOutput = [
   'minecraft:bedrock',
   'avaritia:diamond_lattice',
@@ -212,7 +212,7 @@ const removeItemsbyOutput = [
   'avaritia_expand:neutron_decompose',
   'avaritia_expand:blaze_furnace',
 ];
-
+//#region ID removal
 const removeItemsbyID = [
   'thermal:fire_charge/enderium_ingot_2',
   'cb_microblock:stone_rod',
@@ -585,7 +585,7 @@ const removeItemsbyID = [
   '',
   '',
 ];
-
+//#region Type removal
 const removeItemsbyType = [
   'cyclic:crusher',
   'cyclic:packager',
@@ -660,8 +660,7 @@ ServerEvents.recipes((event) => {
     ],
   });
 });
-
-// Remove Village and Wandering Trader Trades
+//#region Village removal
 MoreJSEvents.playerStartTrading((event) => {
   if (!event.player.stages.has('allow_trading')) {
     event.forEachOffers((o, i) => {

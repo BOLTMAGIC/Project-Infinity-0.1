@@ -7,5 +7,6 @@
   "betterblockz": true,
   "chipped": true,
   "rechiseled": true,
-  "chisel_chipped_integration": false
+  "chisel_chipped_integration": true,
+  "spawn_eggs": true
 }

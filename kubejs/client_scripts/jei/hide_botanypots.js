@@ -17,6 +17,7 @@ JEIEvents.hideItems((event) => {
     'red',
     'black',
   ];
+
   const types = [
     '_terracotta_botany_pot',
     '_terracotta_hopper_botany_pot',
@@ -25,6 +26,7 @@ JEIEvents.hideItems((event) => {
     '_glazed_terracotta_botany_pot',
     '_glazed_terracotta_hopper_botany_pot',
   ];
+  
   colors.forEach((color) => {
     types.forEach((type) => {
       event.hide(`botanypots:${color}${type}`);

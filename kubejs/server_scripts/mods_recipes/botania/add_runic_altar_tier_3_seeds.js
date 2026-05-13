@@ -62,6 +62,11 @@ ServerEvents.recipes(function (event) {
       ingredients.push({ item: 'mysticalagriculture:tertium_essence' });
     }
 
+    // Add these three ingots to every recipe
+    ingredients.push({ item: 'botania:terrasteel_ingot' });
+    ingredients.push({ item: 'thermal_extra:dragonsteel_ingot' });
+    ingredients.push({ item: 'thermal_extra:twinite_ingot' });
+
     for (var m = 0; m < materials.length; m++) {
       var parts = expandMaterial(materials[m]);
       for (var p = 0; p < parts.length; p++) ingredients.push(parts[p]);

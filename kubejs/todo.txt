@@ -6,16 +6,26 @@ rf tools recipes
 add tooltips for the multiblocks. what they do and how to use them. maybe in the book?
 gateway change. players need to kill not masher
 ----------
-changelog v. 0.0.49.1
+changelog v. 0.0.49.2
 -updated some mods
 ----------
+mods added:
+-Calm the Leaks (and the lib Extra Special Core)
+-Xenon (thx to Hocok-of-Chaos)
+-PackagedExExExCrafting (my mod)
+-ImmediatelyFast (thx to Hocok-of-Chaos)
+-Radium Reforged (thx to Hocok-of-Chaos)
+----------
 Mods removed:
--Fast Loading (not working)
--TT20 (TPS Fixer) (not working)
--MCreator Memory Fix (not working)
+-MemGuard
+-Canary (thx to Hocok-of-Chaos)
+-MixinTrace Reborn
+-Cobweb (not used Lib)
+-Embeddium (thx to Hocok-of-Chaos)
+-Chloride (thx to Hocok-of-Chaos)
 ----------
 Mod INFO:
--mods getting added after some more time:
+-mods getting in 0.0.50.0:
     -Just Dire Things
 -mods maybe getting removed:
     -Occultism
@@ -29,15 +39,18 @@ Mod INFO:
     -YTones (its discontinued, replaced with BetterBlockZ)
 ----------
 Recipe changes and fixes:
--set Biome for World Creation to Plains
--fixed sand to dust in mekanism machines
--fixed Creative ME Item Cell
--fixed FancyMenu screen
--changed Omega Tier Upgrade from Inf1 to Inf 2 (thx to codename_cat)
--changed recipe for Gaia Spirit Seed from Inf 4 to Inf 3 (thx to codename_cat)
+-re enabled Mana Enchanter from Botania
+-fixed ATM ores not dropping anything
+-fixed creative item cell again
+-re added gateway recipes (sorry for this)
+-re added chisel blocks smelting recipes
+-added PneumaticCraft Questline (thx to KYO297 for creating this one. Thank you!)
+-changed plastic seed recipe
+-changed T3 recipes (thx to codename_cat)
+-added new Nuclearcraft Fission Reactor Multiblock to the MBtool (thx to pls)
 ----------
 Mod changes and fixes:
--fixed Uranium into Enriched Uranium recipe (thx to arman258)
+-fixed dupe in Extended Crafting
 ----------
 known bugs:
 -polymorph (changing the output for mod conflicts) is not possible with tinkers crafting station

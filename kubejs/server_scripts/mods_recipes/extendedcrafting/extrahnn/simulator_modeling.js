@@ -9,7 +9,7 @@ ServerEvents.recipes((event) => {
           item: 'extrahnn:upgrade_speed',
         },
         B: {
-          type: 'forge:nbt',
+          type: 'forge:partial_nbt',
           item: 'minecraft:netherite_sword',
           count: 1,
           nbt: '{Damage:0}',

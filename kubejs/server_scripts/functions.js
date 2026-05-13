@@ -107,6 +107,15 @@ function seedtiercrafting2 (event, output, input) {
   });
 }
 
+function seedtiercrafting2extra (event, output, input) {
+  event.shaped(output, ['123', '202', '321'], {
+    0: 'kubejs:tier2_crafting_seed',
+    1: input[0],
+    2: 'mysticalagriculture:prudentium_essence',
+    3: input[1],
+  });
+}
+
 function seedtiermobcrafting2 (event, output, input) {
   event.shaped(output, ['121', '202', '121'], {
     0: 'mysticalagriculture:soulium_seed_base',

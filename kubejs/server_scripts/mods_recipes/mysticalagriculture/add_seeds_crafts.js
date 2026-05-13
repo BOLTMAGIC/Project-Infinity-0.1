@@ -112,8 +112,9 @@ ServerEvents.recipes((event) => {
     'thermal:niter',
   ]);
 
-  seedtiercrafting2(event, 'mysticalagriculture:plastic_seeds', [
+  seedtiercrafting2extra(event, 'mysticalagriculture:plastic_seeds', [
     'industrialforegoing:plastic',
+    'pneumaticcraft:plastic',
   ]);
 
   seedtiercrafting2(event, 'mysticalagriculture:nature_seeds', [

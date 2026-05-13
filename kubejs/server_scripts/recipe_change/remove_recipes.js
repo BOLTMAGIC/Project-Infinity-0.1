@@ -568,7 +568,7 @@ const removeItemsbyID = [
   'botania:red_string_alt',
   'minecraft:kjs/cyclic_crusher',
   'minecraft:gravel_from_compressed_gravel',
-  '',
+  'nuclearcraft:aluminum_block',
   '',
   '',
   '',

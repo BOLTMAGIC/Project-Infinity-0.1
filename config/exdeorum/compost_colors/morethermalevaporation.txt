@@ -1,0 +1,2 @@
+// Compost colors for morethermalevaporation. You may add your own colors, change existing ones, or remove colors that aren't needed.
+upgrade_structure, #5f7965

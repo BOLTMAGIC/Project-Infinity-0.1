@@ -74,7 +74,7 @@ ServerEvents.recipes((event) => {
           type: 'forge:nbt',
           item: 'botania:mana_tablet',
           count: 1,
-          nbt: '{mana:500000}',
+          nbt: '{creative:1b,mana:500000}',
         },
         S: {
           item: 'avaritia:infinity_ingot',

@@ -1,0 +1,711 @@
+{
+	default_hide_dependency_lines: false
+	default_min_width: 300
+	default_quest_shape: ""
+	filename: "pneumatic_craft"
+	group: "29543B666C58207C"
+	icon: "pneumaticcraft:pressure_tube"
+	id: "0018276DE9FF69D3"
+	order_index: 16
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["3CC87D203248ACA7"]
+			description: [
+				"The materials required for a &65x5x5 pressure chamber&r with &b1 glass wall&r are listed above."
+				""
+				"Make sure to place one &aInterface&r facing inward and one &aInterface&r facing outward for input and output."
+				""
+				"You may add more than &a2 Interfaces&r if you wish; Interfaces can be upgraded with &bSpeed Upgrades&r for faster operation, and they move up to an entire &estack&r at once."
+			]
+			icon: "pneumaticcraft:pressure_chamber_wall"
+			id: "3F1219F73AD46246"
+			rewards: [{
+				id: "7C6F14D402817508"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [
+				{
+					count: 86L
+					id: "5A13701985890980"
+					item: "pneumaticcraft:pressure_chamber_wall"
+					type: "item"
+				}
+				{
+					count: 9L
+					id: "2D42D2E92DA2A842"
+					item: { Count: 9, id: "pneumaticcraft:pressure_chamber_glass" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "3AF48B1BD18EAA25"
+					item: { Count: 2, id: "pneumaticcraft:pressure_chamber_interface" }
+					type: "item"
+				}
+				{
+					id: "30E1AA803FE99F03"
+					item: "pneumaticcraft:pressure_chamber_valve"
+					type: "item"
+				}
+			]
+			title: "5x5x5 Pressure Chamber"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3CC87D203248ACA7"]
+			icon: "pneumaticcraft:air_compressor"
+			id: "4CABEF8D25B3DFAF"
+			min_required_tasks: 1
+			rewards: [{
+				id: "20D4D2E84CEA87FC"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "572837F5CE29A0DE"
+					item: "pneumaticcraft:air_compressor"
+					type: "item"
+				}
+				{
+					id: "0FA176B71930B0AC"
+					item: "pneumaticcraft:liquid_compressor"
+					type: "item"
+				}
+			]
+			title: "Basic Compressors"
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			description: ["Expose Iron Ingots or Iron Blocks to explosions (TNT, creepers). &7(This may create compressed iron but is lossy and unreliable.)"]
+			id: "0CDCE6A3AA2B26D4"
+			rewards: [{
+				id: "66ABB8B4082BBB57"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "134BB61744904129"
+				item: "pneumaticcraft:ingot_iron_compressed"
+				type: "item"
+			}]
+			title: "&bCompressed Iron"
+			x: -4.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["49AEF2760C58768A"]
+			description: ["&7Use an &aPressure Tube &7to connect compressors, tanks and machines into an air network; attach gauge, safety or regulator modules to control pressure."]
+			id: "3FD955D36E5583A0"
+			rewards: [{
+				id: "7B5296E6964DFA9B"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "64C831C9BEFCAC01"
+				item: "pneumaticcraft:pressure_tube"
+				type: "item"
+			}]
+			title: "&aPressure Tube"
+			x: -2.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["64A09B0F5337E5C3"]
+			description: [
+				"Place the laser, drill and both IO units in a cross around the platform"
+				""
+				"Place the controller next to any of the other blocks - this is where you insert upgrades and the program as well as apply pressure (from the bottom)"
+				""
+				"Place chests (or any other containers) next to each of the IO units - they are used as item input and output for the assembly line"
+			]
+			icon: "pneumaticcraft:assembly_controller"
+			id: "79D89CA01ACE05B6"
+			tasks: [
+				{
+					id: "5593CAD62D0F39B7"
+					item: "pneumaticcraft:assembly_controller"
+					type: "item"
+				}
+				{
+					id: "4D8168DE014144DD"
+					item: "pneumaticcraft:assembly_platform"
+					type: "item"
+				}
+				{
+					id: "016F65ECF9F351D7"
+					item: "pneumaticcraft:assembly_drill"
+					type: "item"
+				}
+				{
+					id: "279D4489A48268E5"
+					item: "pneumaticcraft:assembly_laser"
+					type: "item"
+				}
+				{
+					id: "4080C1E1835387B9"
+					item: "pneumaticcraft:assembly_io_unit_import"
+					type: "item"
+				}
+				{
+					id: "0FF87B0CED6F2857"
+					item: "pneumaticcraft:assembly_io_unit_export"
+					type: "item"
+				}
+				{
+					id: "3848D4444D26267F"
+					item: "pneumaticcraft:assembly_program_drill_laser"
+					type: "item"
+				}
+			]
+			title: "Assembly Line"
+			x: 8.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"3048F7D6464778D3"
+				"7287B00AD94F5D3E"
+				"560455E4DB9783D7"
+			]
+			description: ["You need to craft the Bucket in a Pressure Chamber"]
+			id: "1A76236620EAD628"
+			rewards: [{
+				id: "1E9312C76F7A9BE0"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "18DF9BF3804A0F6B"
+				item: "pneumaticcraft:etching_acid_bucket"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["49AEF2760C58768A"]
+			hide_dependency_lines: true
+			id: "27FB06E6707B172A"
+			rewards: [{
+				id: "3CED893485CA36D8"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "040FC503C54FCB9D"
+				item: "pneumaticcraft:etching_tank"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"5056DC9DB40D0F81"
+				"2461396D679349F3"
+				"213DCBA85AEEA676"
+			]
+			description: [
+				"Make sure to fully irradiate the PCB in the UV light box before etching"
+				""
+				"Etching acid is NOT consumed unless you heat the tank"
+			]
+			id: "68BB24E0782140ED"
+			rewards: [{
+				id: "2E969103F46EA3A8"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5BFAD16C046C3A25"
+				item: "pneumaticcraft:unassembled_pcb"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1C3E94A87CCF9855"]
+			id: "5ED6F6F711E62591"
+			rewards: [{
+				id: "24770A181E8AE9B2"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "37116AD1D53E338C"
+				item: "pneumaticcraft:printed_circuit_board"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5A853E85B9E2ED88"]
+			id: "6592A5AC32261260"
+			rewards: [{
+				id: "0DBA019B8B5797E7"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "10C2EF1451B40912"
+				item: "pneumaticcraft:plastic_bucket"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"498B3D8E97C865A9"
+				"27018652935D959B"
+			]
+			id: "08CA569E4FBAAF3F"
+			rewards: [{
+				id: "6ACE7712A400DF71"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6C2B8C8E48A4211D"
+				item: {
+					Count: 1
+					id: "pneumaticcraft:empty_pcb"
+					tag: {
+						"pneumaticcraft:uv_exposure": 100
+					}
+				}
+				type: "item"
+			}]
+			x: 4.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"155734405EA5619D"
+				"7736C29C52F0EC70"
+			]
+			id: "1BF324885BA69C46"
+			rewards: [{
+				id: "0782F2B353CD1790"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "500F111E35240325"
+				item: "pneumaticcraft:uv_light_box"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"3CC87D203248ACA7"
+				"05C4CE56A09E333B"
+			]
+			id: "06ABFB66A415E64A"
+			rewards: [{
+				id: "35243E2385C9073F"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "21679681C3BE46D8"
+				item: "pneumaticcraft:thermopneumatic_processing_plant"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["3048F7D6464778D3"]
+			id: "44F97C526A0B7688"
+			rewards: [{
+				id: "68388A3A574BE0D0"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "72656302360250A1"
+				item: "pneumaticcraft:empty_pcb"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["3CC87D203248ACA7"]
+			description: [
+				"Right click on a chest/tank to bind it"
+				""
+				"Summons a drone that exchanges, for example, emeralds for the PCB blueprint needed for the UV Light Box"
+				""
+				"Later, you'll also use it to purchase a program for the assembly line"
+				""
+				"Needs to be charged with pressure to be used"
+			]
+			hide_dependency_lines: true
+			id: "6743ADE46B9DB9AF"
+			rewards: [{
+				id: "0893DF17105A5837"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "75B7F20DF79BB296"
+				item: "pneumaticcraft:amadron_tablet"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["3CC87D203248ACA7"]
+			description: ["Charges the Amadron Tablet"]
+			hide_dependency_lines: true
+			id: "347669A57E6EFB25"
+			rewards: [{
+				id: "45336E62B8B9E680"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3EF7DD5EDE282458"
+				item: "pneumaticcraft:charging_station"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["3048F7D6464778D3"]
+			id: "255370227B219951"
+			rewards: [{
+				id: "456E59009FF76C8B"
+				type: "xp"
+				xp: 3
+			}]
+			tasks: [{
+				id: "6D37511CA1B01DD1"
+				item: "kubejs:infinity_5"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["3D02F5A116D0BA0A"]
+			id: "79ED01B7253FB237"
+			rewards: [{
+				id: "140256EA6D58312B"
+				type: "xp"
+				xp: 3
+			}]
+			tasks: [{
+				id: "0FE95944C798A8DC"
+				item: "kubejs:infinity_7"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["3D02F5A116D0BA0A"]
+			id: "02374F07E02F5802"
+			rewards: [{
+				id: "0C2DE0AE4D0170BA"
+				item: "kubejs:infused_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0B7CB3A7508B451D"
+				item: "pneumaticcraft:advanced_pressure_tube"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1B519D16C9BE999F"]
+			description: [
+				"Advanced Air Compressor uses solid fuels"
+				""
+				"Advanced Liquid Compressor uses liquid fuels and hot liquids"
+				""
+				"Flux Compressor uses FE"
+				""
+				"Solar Compressor uses... the sun."
+				"{@pagebreak}"
+				"All advanced compressors require heat management (see quest above). The first 3 get slower the hotter they are, the solar compressor gets faster the hotter it is, and also gets heats up more the faster it's running. However, a too high temperature causes damage."
+			]
+			icon: "pneumaticcraft:advanced_air_compressor"
+			id: "29630DE4AE5331E9"
+			rewards: [{
+				id: "7A60443DDF9C0F04"
+				item: "kubejs:infused_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "00032B2FA332F622"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "pneumaticcraft:advanced_air_compressor"
+							}
+							{
+								Count: 1b
+								id: "pneumaticcraft:advanced_liquid_compressor"
+							}
+							{
+								Count: 1b
+								id: "pneumaticcraft:solar_compressor"
+							}
+							{
+								Count: 1b
+								id: "pneumaticcraft:flux_compressor"
+							}
+						]
+					}
+				}
+				title: "Compressor"
+				type: "item"
+			}]
+			title: "Advanced Compressors"
+			x: 12.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1CB4E99411DF9AA1"]
+			description: [
+				"Advanced &cCompressors&r (like the &cFlux Compressor&r) generate &ereduced efficiency&r if heat isn’t removed; they produce heat that must be dissipated to prevent slowdown."
+				""
+				"The most basic method is attaching &aHeat Sinks&r; &a3–4 Heat Sinks&r will keep a fully upgraded compressor usable if it’s not running constantly."
+				""
+				"To run a compressor continuously with maximum &bSpeed Upgrades&r, use &dAir Grates&r to cool the heat sinks more efficiently."
+			]
+			id: "62975CBE1B6022DD"
+			min_required_tasks: 1
+			optional: true
+			rewards: [{
+				id: "4B153B47F592E868"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "0E9459F52356BAA7"
+					item: "pneumaticcraft:heat_sink"
+					type: "item"
+				}
+				{
+					id: "335A9D2FC453AFA8"
+					item: "pneumaticcraft:air_grate_module"
+					type: "item"
+				}
+			]
+			x: 12.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["1CB4E99411DF9AA1"]
+			description: ["Despite allowing you to set it higher than 20 bar, it'll explode if you do (:"]
+			id: "3CC54D71B03FA025"
+			rewards: [{
+				id: "7F80975368332574"
+				item: "kubejs:ascended_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "31FEE4230592D0A8"
+				item: "pneumaticcraft:creative_compressor"
+				type: "item"
+			}]
+			x: 14.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3CC87D203248ACA7"]
+			description: [
+				"&bPressure Gauge Tube module: &7Emits a &4redstone&r signal proportional to the pressure in the tube it's attached to."
+				""
+				"&7Can be used to automatically turn the compressor on and off on demand."
+				""
+				"&7Applying a Module Expansion Card gives more precise control over the redstone level emitted."
+			]
+			id: "3F9373946DFFFA08"
+			optional: true
+			rewards: [{
+				id: "495F3AA32A2BD965"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7C3F7A44F602E6BF"
+				item: "pneumaticcraft:pressure_gauge_module"
+				type: "item"
+			}]
+			title: "&aPreassure Gauge Tube Module"
+			x: -3.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["64A09B0F5337E5C3"]
+			description: [
+				"Adding it to the pressure gauge allows for better redstone level control"
+				""
+				"Adding it to the regulator allows you to set the output pressure higher than 5 bar"
+			]
+			id: "61CDCBB50B5D90BE"
+			optional: true
+			rewards: [{
+				id: "06FE209AE4C40311"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0AFD2665D91F8798"
+				item: "pneumaticcraft:module_expansion_card"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 2.0d
+		}
+		{
+			description: [
+				"Automatically vents pressure from machine when safe pressure is exceeded"
+				""
+				"It is not recommended to rely on it as pressure control, but only as safety net in case of a mistake"
+				""
+				"It is NOT capable of venting pressure from a fully upgraded advanced compressor fast enough to prevent the tubes attached to it from exploding"
+			]
+			id: "5D95C949E4C2A004"
+			rewards: [{
+				id: "3314307BADE78836"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "41D2C9FC0DDEE2B5"
+				item: "pneumaticcraft:security_upgrade"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 4.0d
+		}
+		{
+			description: [
+				"Increases the volume of the machine"
+				"Air volume changes will result in lower pressure changes"
+				"Smooths out pressure spikes"
+			]
+			id: "10A026A0B5232B48"
+			rewards: [{
+				id: "47D4AEE3FE1000BF"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "03A87D6BF7CCF85F"
+				item: "pneumaticcraft:volume_upgrade"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 4.0d
+		}
+		{
+			description: ["Increases the opearation speed of a machine. Duh."]
+			id: "009AD8B3634F1DDC"
+			rewards: [{
+				id: "397D0E0EB2F8B884"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0202006DB281B8B2"
+				item: "pneumaticcraft:speed_upgrade"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["3CC87D203248ACA7"]
+			description: [
+				"The &aRegulator&r controls pressure downstream when placed inline with a Pressure Tube."
+				"By default it limits pressure to &65 bar&r; applying a &credstone signal&r lowers that limit."
+				"Applying a &bModule Expansion Card&r lets you set the no-redstone limit both &6above&r and &6below&r 5 bar."
+			]
+			id: "75A8055A5589108E"
+			rewards: [{
+				id: "094BDEC4C26C2929"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1A5E1D4E14B1A2B7"
+				item: "pneumaticcraft:regulator_tube_module"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["3CC87D203248ACA7"]
+			description: [
+				"The &cSafety Tube&r module vents excess air from a connected &cPressure Tube&r network when &epressure&r exceeds its set &6threshold&r, preventing &4overpressure&r."
+				"Its &6threshold&r can be adjusted by applying a &bModule Expansion Card&r for finer control of the venting level."
+			]
+			id: "308E0DD520021464"
+			rewards: [{
+				id: "23CAD617F3561A30"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2B24089E9582BC4F"
+				item: "pneumaticcraft:safety_tube_module"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3CC87D203248ACA7"]
+			id: "05C4CE56A09E333B"
+			rewards: [{
+				id: "0E94844B8EBF36AD"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "43D4C28CA53EDA52"
+					item: "pneumaticcraft:refinery"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "6348991CF95D532A"
+					item: { Count: 4, id: "pneumaticcraft:refinery_output" }
+					type: "item"
+				}
+			]
+			title: "&aThe Refinery"
+			x: -2.0d
+			y: -5.0d
+		}
+	]
+	title: "PneumaticCraft"
+}

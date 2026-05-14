@@ -1,4 +1,9 @@
 JEIEvents.hideItems((event) => {
+  let config = JsonIO.read('kubejs/config/jei_config.json')
+  if (config.betterblockz == false) {
+    return;
+  }
+
   let keepSpecificItems = [
     'betterblockz:omni_spade',
     'betterblockz:block_disconnect',

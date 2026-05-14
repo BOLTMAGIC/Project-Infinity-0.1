@@ -1,0 +1,13 @@
+{
+  "comment1" : "Many items from mods are hidden in JEI",
+  "comment2" : "true = hidden (default)",
+  "comment3" : "false = not hidden",
+  "comment4" : "After having changed a line in this file, save it then either restart Minecraft or do",
+  "comment5" : "F3 + T then reload the world / rejoin the server",
+  "betterblockz": true,
+  "chipped": true,
+  "rechiseled": true,
+  "chisel_chipped_integration": true,
+  "spawn_eggs": true,
+  "compressium": true
+}

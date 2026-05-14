@@ -4,7 +4,7 @@ ServerEvents.recipes((event) => {
     .custom({
       type: 'extendedcrafting:shaped_table',
       pattern: [
-        'ABBBBBBBC',
+        'ABBBBBBBA',
         'BDEFFFEDB',
         'BEGDHDGEB',
         'BIJKHKJIB',
@@ -12,17 +12,14 @@ ServerEvents.recipes((event) => {
         'BIJKHKJIB',
         'BEGDHDGEB',
         'BDEIIIEDB',
-        'OBBBBBBBP',
+        'ABBBBBBBA',
       ],
       key: {
         A: {
-          item: 'extradisks:1048576k_storage_disk',
+          item: 'extrastorage:storagepart_16384k',
         },
         B: {
           item: 'projecte:dark_matter',
-        },
-        C: {
-          item: 'extradisks:1048576k_storage_disk',
         },
         D: {
           item: 'projecte:red_matter',
@@ -59,12 +56,6 @@ ServerEvents.recipes((event) => {
         },
         N: {
           item: 'projecte:condenser_mk1',
-        },
-        O: {
-          item: 'extradisks:1048576k_storage_disk',
-        },
-        P: {
-          item: 'extradisks:1048576k_storage_disk',
         },
       },
       result: {

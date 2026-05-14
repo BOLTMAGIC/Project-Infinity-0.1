@@ -28,6 +28,10 @@ ServerEvents.recipes(event => {
 
     let token = grid.find(Item.of('kubejs:wither_token'));
 
+    if (!token.nbt) {
+      return result;
+    }
+
     return Item.of('hostilenetworks:data_model', {
       data_model: {
         data: token.nbt.data_model.data,

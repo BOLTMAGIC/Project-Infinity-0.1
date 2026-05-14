@@ -1,4 +1,9 @@
 JEIEvents.hideItems((event) => {
+  let config = JsonIO.read('kubejs/config/jei_config.json')
+  if (config.chipped == false) {
+    return;
+  }
+  
   let excludedItemsChipped = [
     'chipped:botanist_workbench',
     'chipped:glassblower',
@@ -9,9 +14,5 @@ JEIEvents.hideItems((event) => {
     'chipped:tinkering_table',
   ];
 
-  let excludedItemsRechiseled = ['rechiseled:chisel'];
-  event.hide('tconstruct:potion');
-
   event.hide(Ingredient.of('@chipped').subtract(excludedItemsChipped));
-  event.hide(Ingredient.of('@rechiseled').subtract(excludedItemsRechiseled));
 });

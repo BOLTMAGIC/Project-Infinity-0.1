@@ -36,14 +36,6 @@ const removeItemsbyOutput = [
   'exdeorum:compressed_red_sand',
   'exdeorum:compressed_netherrack',
   'exdeorum:compressed_end_stone',
-  'compressium:redstone_2',
-  'compressium:redstone_3',
-  'compressium:redstone_4',
-  'compressium:redstone_5',
-  'compressium:redstone_6',
-  'compressium:redstone_7',
-  'compressium:redstone_8',
-  'compressium:redstone_9',
   'bosses_of_mass_destruction:levitation_block',
   'angelblockrenewed:angel_block',
   'cyclic:chorus_spectral',
@@ -60,26 +52,6 @@ const removeItemsbyOutput = [
   'cyclic:item_infinite',
   'rsinfinitybooster:infinity_card',
   'rsinfinitybooster:dimension_card',
-  'extradisks:infinite_storage_part',
-  'extradisks:infinite_storage_block',
-  Item.of(
-    'extradisks:infinite_fluid_storage_disk',
-    '{Id:[I;-473201620,791695217,-2114296556,-219945897]}'
-  ),
-  Item.of(
-    'extradisks:infinite_storage_disk',
-    '{Id:[I;-1892982548,-1294710588,-1136355962,-33095239]}'
-  ),
-  'extradisks:infinite_fluid_storage_part',
-  'extradisks:infinite_fluid_storage_block',
-  Item.of(
-    'extradisks:infinite_fluid_storage_disk',
-    '{Id:[I;1842455081,-1960359571,-1545294150,-595822478]}'
-  ),
-  Item.of(
-    'extradisks:infinite_storage_disk',
-    '{Id:[I;2130928246,-1143257642,-1126374237,-1590905568]}'
-  ),
   'solarflux:twilightforest/twilight_cell_1',
   'solarflux:twilightforest/twilight_cell_2',
   'solarflux:sp_tf.carminite',
@@ -233,8 +205,6 @@ const removeItemsbyID = [
   'alltheores:tin_ingot',
   'alltheores:steel_ingot',
   'alltheores:electrum_ingot',
-  'extradisks:blocks/1024k_storage_block',
-  'extradisks:disk/shaped/1024k_storage_disk',
   'chemlib:cobalt_nugget_to_ingot',
   'mysticalagriculture:essence/tconstruct/cobalt_ingot',
   'mysticalagriculture:essence/tconstruct/manyullyn_ingot',

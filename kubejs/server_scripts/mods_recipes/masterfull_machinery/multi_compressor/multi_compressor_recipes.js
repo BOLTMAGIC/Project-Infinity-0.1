@@ -3,7 +3,7 @@ MMEvents.createProcesses((event) => {
   const RECIPES = {
     abyssal_ingot: {
       inputItem: 'thermal_extra:abyssal_block',
-      count: 1112,
+      count: 167,
     },
     allthemodium_ingot: {
       inputItem: 'allthemodium:allthemodium_block',
@@ -59,7 +59,7 @@ MMEvents.createProcesses((event) => {
     },
     dragonsteel_ingot: {
       inputItem: 'thermal_extra:dragonsteel_block',
-      count: 834,
+      count: 167,
     },
     electrum: {
       inputItem: 'thermal:electrum_block',
@@ -70,14 +70,14 @@ MMEvents.createProcesses((event) => {
     },
     end_steel_ingot: {
       inputItem: 'enderio:end_steel_block',
-      count: 1112,
+      count: 167,
     },
     ender_ingot: {
       inputItem: 'extendedcrafting:ender_ingot_block',
     },
     enderium_ingot: {
       inputItem: 'thermal:enderium_block',
-      count: 1112,
+      count: 333,
     },
     enhanced_ender_ingot: {
       inputItem: 'extendedcrafting:enhanced_ender_ingot_block',
@@ -177,7 +177,7 @@ MMEvents.createProcesses((event) => {
     },
     lumium_ingot: {
       inputItem: 'thermal:lumium_block',
-      count: 1112,
+      count: 667,
     },
     manasteel_ingot: {
       inputItem: 'botania:manasteel_block',
@@ -217,7 +217,7 @@ MMEvents.createProcesses((event) => {
     },
     prismalium_ingot: {
       inputItem: 'thermalendergy:prismalium_block',
-      count: 1112,
+      count: 333,
     },
     prosperity_ingot: {
       inputItem: 'mysticalagriculture:prosperity_ingot_block',
@@ -241,11 +241,11 @@ MMEvents.createProcesses((event) => {
     },
     shellite_ingot: {
       inputItem: 'thermal_extra:shellite_block',
-      count: 278,
+      count: 167,
     },
     signalum_ingot: {
       inputItem: 'thermal:signalum_block',
-      count: 1112,
+      count: 667,
     },
     silver: {
       inputItem: 'thermal:silver_block',
@@ -255,7 +255,7 @@ MMEvents.createProcesses((event) => {
     },
     soul_infused_ingot: {
       inputItem: 'thermal_extra:soul_infused_block',
-      count: 1112,
+      count: 167,
     },
     soulium_ingot: {
       inputItem: 'mysticalagriculture:soulium_ingot_block',
@@ -285,7 +285,7 @@ MMEvents.createProcesses((event) => {
     },
     twinite_ingot: {
       inputItem: 'thermal_extra:twinite_block',
-      count: 1112,
+      count: 167,
     },
     unobtainium_allthemodium_alloy_ingot: {
       inputItem: 'allthemodium:unobtainium_allthemodium_alloy_ingot',
@@ -309,8 +309,11 @@ MMEvents.createProcesses((event) => {
   // 500 = 56
   // 1000 = 111
   // 1250 = 139
+  // 1500 = 167
   // 2500 = 278
+  // 3000 = 333
   // 5000 = 556
+  // 6000 = 667
   // 7500 = 834
   // 10000 = 1111
   // 12500 = 1389

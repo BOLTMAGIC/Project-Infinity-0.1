@@ -85,18 +85,6 @@ ServerEvents.recipes((event) => {
     'thermal:copper_nugget',
   ]);
 
-  create3x3(event, 'cyclic:crusher', [
-    'compressium:cobblestone_1',
-    'thermal:copper_nugget',
-    'compressium:cobblestone_1',
-    'minecraft:stonecutter',
-    'cyclic:flint_block',
-    'minecraft:stonecutter',
-    'compressium:cobblestone_1',
-    'thermal:copper_nugget',
-    'compressium:cobblestone_1',
-  ]);
-
   create3x3(event, 'cyclic:dropper', [
     'thermal:copper_nugget',
     'compressium:cobblestone_1',

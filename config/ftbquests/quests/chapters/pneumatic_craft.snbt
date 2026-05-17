@@ -6,11 +6,10 @@
 	group: "29543B666C58207C"
 	icon: "pneumaticcraft:pressure_tube"
 	id: "0018276DE9FF69D3"
-	order_index: 16
+	order_index: 15
 	quest_links: [ ]
 	quests: [
 		{
-			dependencies: ["3CC87D203248ACA7"]
 			description: [
 				"The materials required for a &65x5x5 pressure chamber&r with &b1 glass wall&r are listed above."
 				""
@@ -55,7 +54,6 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["3CC87D203248ACA7"]
 			icon: "pneumaticcraft:air_compressor"
 			id: "4CABEF8D25B3DFAF"
 			min_required_tasks: 1
@@ -98,7 +96,6 @@
 			y: -1.0d
 		}
 		{
-			dependencies: ["49AEF2760C58768A"]
 			description: ["&7Use an &aPressure Tube &7to connect compressors, tanks and machines into an air network; attach gauge, safety or regulator modules to control pressure."]
 			id: "3FD955D36E5583A0"
 			rewards: [{
@@ -116,7 +113,6 @@
 			y: -1.0d
 		}
 		{
-			dependencies: ["64A09B0F5337E5C3"]
 			description: [
 				"Place the laser, drill and both IO units in a cross around the platform"
 				""
@@ -168,11 +164,6 @@
 			y: 0.0d
 		}
 		{
-			dependencies: [
-				"3048F7D6464778D3"
-				"7287B00AD94F5D3E"
-				"560455E4DB9783D7"
-			]
 			description: ["You need to craft the Bucket in a Pressure Chamber"]
 			id: "1A76236620EAD628"
 			rewards: [{
@@ -189,7 +180,6 @@
 			y: -1.0d
 		}
 		{
-			dependencies: ["49AEF2760C58768A"]
 			hide_dependency_lines: true
 			id: "27FB06E6707B172A"
 			rewards: [{
@@ -206,11 +196,6 @@
 			y: -2.0d
 		}
 		{
-			dependencies: [
-				"5056DC9DB40D0F81"
-				"2461396D679349F3"
-				"213DCBA85AEEA676"
-			]
 			description: [
 				"Make sure to fully irradiate the PCB in the UV light box before etching"
 				""
@@ -231,7 +216,6 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["1C3E94A87CCF9855"]
 			id: "5ED6F6F711E62591"
 			rewards: [{
 				id: "24770A181E8AE9B2"
@@ -247,7 +231,6 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["5A853E85B9E2ED88"]
 			id: "6592A5AC32261260"
 			rewards: [{
 				id: "0DBA019B8B5797E7"
@@ -263,10 +246,6 @@
 			y: -3.0d
 		}
 		{
-			dependencies: [
-				"498B3D8E97C865A9"
-				"27018652935D959B"
-			]
 			id: "08CA569E4FBAAF3F"
 			rewards: [{
 				id: "6ACE7712A400DF71"
@@ -288,10 +267,6 @@
 			y: 2.0d
 		}
 		{
-			dependencies: [
-				"155734405EA5619D"
-				"7736C29C52F0EC70"
-			]
 			id: "1BF324885BA69C46"
 			rewards: [{
 				id: "0782F2B353CD1790"
@@ -307,10 +282,7 @@
 			y: 4.0d
 		}
 		{
-			dependencies: [
-				"3CC87D203248ACA7"
-				"05C4CE56A09E333B"
-			]
+			dependencies: ["05C4CE56A09E333B"]
 			id: "06ABFB66A415E64A"
 			rewards: [{
 				id: "35243E2385C9073F"
@@ -326,7 +298,6 @@
 			y: -4.0d
 		}
 		{
-			dependencies: ["3048F7D6464778D3"]
 			id: "44F97C526A0B7688"
 			rewards: [{
 				id: "68388A3A574BE0D0"
@@ -342,7 +313,6 @@
 			y: 2.0d
 		}
 		{
-			dependencies: ["3CC87D203248ACA7"]
 			description: [
 				"Right click on a chest/tank to bind it"
 				""
@@ -368,7 +338,6 @@
 			y: 3.0d
 		}
 		{
-			dependencies: ["3CC87D203248ACA7"]
 			description: ["Charges the Amadron Tablet"]
 			hide_dependency_lines: true
 			id: "347669A57E6EFB25"
@@ -386,7 +355,6 @@
 			y: 5.0d
 		}
 		{
-			dependencies: ["3048F7D6464778D3"]
 			id: "255370227B219951"
 			rewards: [{
 				id: "456E59009FF76C8B"
@@ -402,7 +370,6 @@
 			y: 1.0d
 		}
 		{
-			dependencies: ["3D02F5A116D0BA0A"]
 			id: "79ED01B7253FB237"
 			rewards: [{
 				id: "140256EA6D58312B"
@@ -418,7 +385,6 @@
 			y: 2.0d
 		}
 		{
-			dependencies: ["3D02F5A116D0BA0A"]
 			id: "02374F07E02F5802"
 			rewards: [{
 				id: "0C2DE0AE4D0170BA"
@@ -434,7 +400,6 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["1B519D16C9BE999F"]
 			description: [
 				"Advanced Air Compressor uses solid fuels"
 				""
@@ -487,7 +452,6 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["1CB4E99411DF9AA1"]
 			description: [
 				"Advanced &cCompressors&r (like the &cFlux Compressor&r) generate &ereduced efficiency&r if heat isn’t removed; they produce heat that must be dissipated to prevent slowdown."
 				""
@@ -519,7 +483,6 @@
 			y: -2.0d
 		}
 		{
-			dependencies: ["1CB4E99411DF9AA1"]
 			description: ["Despite allowing you to set it higher than 20 bar, it'll explode if you do (:"]
 			id: "3CC54D71B03FA025"
 			rewards: [{
@@ -536,7 +499,6 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["3CC87D203248ACA7"]
 			description: [
 				"&bPressure Gauge Tube module: &7Emits a &4redstone&r signal proportional to the pressure in the tube it's attached to."
 				""
@@ -561,7 +523,6 @@
 			y: -3.0d
 		}
 		{
-			dependencies: ["64A09B0F5337E5C3"]
 			description: [
 				"Adding it to the pressure gauge allows for better redstone level control"
 				""
@@ -641,7 +602,6 @@
 			y: 4.0d
 		}
 		{
-			dependencies: ["3CC87D203248ACA7"]
 			description: [
 				"The &aRegulator&r controls pressure downstream when placed inline with a Pressure Tube."
 				"By default it limits pressure to &65 bar&r; applying a &credstone signal&r lowers that limit."
@@ -662,7 +622,6 @@
 			y: 1.0d
 		}
 		{
-			dependencies: ["3CC87D203248ACA7"]
 			description: [
 				"The &cSafety Tube&r module vents excess air from a connected &cPressure Tube&r network when &epressure&r exceeds its set &6threshold&r, preventing &4overpressure&r."
 				"Its &6threshold&r can be adjusted by applying a &bModule Expansion Card&r for finer control of the venting level."
@@ -682,7 +641,6 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["3CC87D203248ACA7"]
 			id: "05C4CE56A09E333B"
 			rewards: [{
 				id: "0E94844B8EBF36AD"

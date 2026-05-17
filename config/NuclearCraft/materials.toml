@@ -260,6 +260,7 @@
 	zirconium = true
 	zinc = true
 	boron = true
+	corium = true
 
 [gems]
 	boron_arsenide = true

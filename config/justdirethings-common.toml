@@ -1,0 +1,193 @@
+
+#General settings
+[general]
+	#The minimum tick speed machines can be set to. Defaults to 1, meaning every tick
+	#Range: 1 ~ 100
+	minimum_machine_tick_speed = 1
+
+#Generator T1
+[generator_t1]
+	#The amount of Energy created per burn tick of fuel. Coal has 1600 burn ticks. Sticks have 100 burn ticks.
+	#Range: > 1
+	generator_t1_fe_per_fuel_tick = 15
+	#The multiplier for the burn speed, making the generator run faster. Coal is 1600 ticks to burn, if you set this to 10, it will burn in 160 ticks
+	#Range: 1 ~ 1000
+	generator_t1_burn_speed_multiplier = 4
+	#The maximum amount of Energy the generator can hold in its buffer
+	#Range: > 1
+	generator_t1_max_fe = 1000000
+	#The FE per Tick that the generator outputs
+	#Range: > 1
+	generator_t1_fe_per_tick = 1000
+
+#Generator Fluid T1
+[generator_fluid_t1]
+	#Max FE capacity for the Fluid Generator T1
+	#Range: > 1
+	generator_fluid_t1_max_fe = 1000000
+	#FE output per tick for the Fluid Generator T1
+	#Range: > 1
+	generator_fluid_t1_fe_per_tick = 1000
+
+#Energy Transmitter T1
+[energy_transmitter_t1]
+	#The maximum energy storage
+	#Range: > 1
+	energy_transmitter_t1_max_rf = 1000000
+	#The maximum RF transmitted per tick to machines and other transmitters
+	#Range: > 1
+	energy_transmitter_t1_rf_per_tick = 1000
+	#The energy loss per block distance in percent
+	#Range: 0.0 ~ 100.0
+	energy_transmitter_t1_loss_per_block = 1.0
+
+#Fuel Canister
+[fuel_canister]
+	#The amount of ticks 'consumed' per operation in the furnace. Lower is more efficient fuel use.
+	#Range: > 100
+	fuel_canister_minimum_ticks_consumed = 200
+	#The maximum amount of fuel (in ticks) permitted in the fuel canister.
+	#Range: > 100
+	fuel_canister_maximum_fuel = 10000000
+
+#Pocket Generator
+[pocket_generator]
+	#The amount of Energy created per burn tick of fuel. Coal has 1600 burn ticks. Sticks have 100 burn ticks.
+	#Range: > 1
+	pocket_gen_fe_per_fuel_tick = 15
+	#The multiplier for the burn speed, making the generator run faster. Coal is 1600 ticks to burn, if you set this to 10, it will burn in 160 ticks
+	#Range: 1 ~ 1000
+	pocket_gen_burn_speed_multiplier = 4
+	#The maximum amount of Energy the generator can hold in its buffer
+	#Range: > 1
+	pocket_gen_max_fe = 1000000
+	#The FE per Tick that the generator charges other items at
+	#Range: > 1
+	pocket_gen_fe_per_tick = 5000
+
+#Time Crystals
+[time_crystal]
+	#Do you want to customize Time Crystal Growth Dimensions? If set to true, the following 3 fields MUST be populated. Defaults to false, which means normal growth rules: Stage 1 = Overworld, Stage 2 = Nether, Stage 3 = End.
+	time_crystal_custom_dimensions = false
+	#Dimensions where Stage 0 -> Stage 1 growth occurs. Example: ["minecraft:overworld"]
+	time_crystal_stage1_dimensions = ["minecraft:overworld"]
+	#Dimensions where Stage 1 -> Stage 2 growth occurs. Example: ["minecraft:the_nether"]
+	time_crystal_stage2_dimensions = ["minecraft:the_nether"]
+	#Dimensions where Stage 2 -> Stage 3 growth occurs. Example: ["minecraft:the_end"]
+	time_crystal_stage3_dimensions = ["minecraft:the_end"]
+
+#Fluid Fuel FE per mB values
+[fluid_fuel]
+	#FE generated per mB of Refined Fuel T2
+	#Range: > 1
+	fuel_tier2_fe_per_mb = 4000
+	#FE generated per mB of Refined Fuel T3
+	#Range: > 1
+	fuel_tier3_fe_per_mb = 16000
+	#FE generated per mB of Refined Fuel T4
+	#Range: > 1
+	fuel_tier4_fe_per_mb = 64000
+
+#Paradox Machine
+[paradox_machine]
+	#Max RF capacity of the Paradox Machine
+	#Range: > 1
+	paradox_total_rf_capacity = 10000000
+	#Max fluid capacity (mB) of the Paradox Machine
+	#Range: > 1
+	paradox_total_fluid_capacity = 64000
+	#RF cost per block restored
+	#Range: > 0
+	paradox_rf_per_block = 1000
+	#RF cost per entity restored
+	#Range: > 0
+	paradox_rf_per_entity = 5000
+	#Fluid cost (mB) per block restored
+	#Range: > 0
+	paradox_fluid_per_block = 10
+	#Fluid cost (mB) per entity restored
+	#Range: > 0
+	paradox_fluid_per_entity = 50
+	#Paradox energy generated per block restored
+	#Range: 0.0 ~ 1.7976931348623157E308
+	paradox_energy_per_block = 0.5
+	#Paradox energy generated per entity restored
+	#Range: 0.0 ~ 1.7976931348623157E308
+	paradox_energy_per_entity = 2.0
+	#Max paradox energy before a ParadoxEntity spawns
+	#Range: 1.0 ~ 1.7976931348623157E308
+	paradox_energy_max = 100.0
+	#If true, only safe mob data fields are restored
+	paradox_restricted_mobs = true
+
+#Polymorphic Wand
+[polymorphic_wand]
+	#Maximum mB of polymorphic fluid the wand can hold
+	#Range: > 1
+	polymorphic_wand_max_fluid = 8000
+
+#Time Wand
+[time_wand]
+	#The maximum amount of Energy the Time Wand can hold in its buffer
+	#Range: > 1
+	time_wand_rf_capacity = 100000
+	#FE cost per use, multiplied by the acceleration rate (2^level)
+	#Range: > 0
+	time_wand_rf_cost = 100
+	#Max mB of time fluid the Time Wand can hold
+	#Range: > 1
+	time_wand_max_fluid = 8000
+	#Time Fluid cost per use, multiplied by the acceleration rate (2^level)
+	#Range: 0.0 ~ 1.7976931348623157E308
+	time_wand_fluid_cost = 0.5
+	#Maximum tick speed multiplier (must be a power of 2, e.g. 256 = up to 2^8 = 256x)
+	#Range: > 2
+	time_wand_max_multiplier = 256
+	#Can fake players (e.g. Clickers) use the Time Wand?
+	time_wand_fake_player_allowed = true
+
+#Portal Gun
+[portal_gun]
+	#Max FE capacity of the Portal Gun
+	#Range: > 1
+	portal_gun_max_fe = 1000000
+	#FE cost per portal shot
+	#Range: > 0
+	portal_gun_fe_cost = 5000
+	#Max mB of portal fluid the Portal Gun can hold
+	#Range: > 1
+	portal_gun_max_fluid = 8000
+	#mB of portal fluid consumed per shot
+	#Range: > 0
+	portal_gun_fluid_cost = 500
+	#How many ticks a portal remains open (6000 = 5 minutes, -1 for infinite)
+	#Range: > -1
+	portal_gun_lifespan = 6000
+
+#Portal Gun (Original)
+[portal_gun_original]
+	#Max mB of unstable portal fluid the original Portal Gun can hold
+	#Range: > 1
+	portal_gun_original_max_fluid = 4000
+	#mB of unstable portal fluid consumed per shot
+	#Range: > 0
+	portal_gun_original_fluid_cost = 500
+	#How many ticks a portal remains open (-1 for infinite)
+	#Range: > -1
+	portal_gun_original_lifespan = 3000
+
+#Polymorphic Wand V2
+[polymorphic_wand_v2]
+	#Maximum FE the Polymorphic Wand V2 can hold
+	#Range: > 1
+	polymorphic_wand_v2_max_fe = 200000
+	#Maximum mB of polymorphic fluid the Polymorphic Wand V2 can hold
+	#Range: > 1
+	polymorphic_wand_v2_max_fluid = 32000
+	#mB of polymorphic fluid consumed per random polymorph
+	#Range: > 0
+	random_polymorph_cost = 1000
+	#mB of polymorphic fluid consumed per targeted polymorph
+	#Range: > 0
+	target_polymorph_cost = 1000
+

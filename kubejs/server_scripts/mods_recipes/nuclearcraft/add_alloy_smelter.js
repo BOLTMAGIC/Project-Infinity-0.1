@@ -41,7 +41,7 @@ ServerEvents.recipes((event) => {
       .id('manufactoring_' + output_item.replace(/:/g, '_'));
   }
   
-  alloy_smelter(event, 1, 'mekanism:block_steel', 1, 'nuclearcraft:boron_block', 2, 'kubejs:ferroboron_block');
+  alloy_smelter(event, 1, 'thermal:steel_block', 1, 'nuclearcraft:boron_block', 2, 'kubejs:ferroboron_block');
   alloy_smelter(event, 1, 'kubejs:ferroboron_block', 1, 'nuclearcraft:lithium_block', 2, 'kubejs:tough_alloy_block');
   alloy_smelter(event, 1, 'minecraft:diamond_block', 1, 'nuclearcraft:graphite_block', 2, 'kubejs:hard_carbon_block');
   alloy_smelter(event, 1, 'kubejs:tough_alloy_block', 1, 'kubejs:hard_carbon_block', 2, 'kubejs:extreme_block');

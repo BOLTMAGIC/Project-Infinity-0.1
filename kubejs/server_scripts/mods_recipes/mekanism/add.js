@@ -269,7 +269,7 @@ ServerEvents.recipes((event) => {
     1,
     'minecraft:diamond',
     1,
-    'nuclearcraft:graphite_ingot',
+    'bigreactors:graphite_ingot',
     'nuclearcraft:hard_carbon_ingot',
     1
   );

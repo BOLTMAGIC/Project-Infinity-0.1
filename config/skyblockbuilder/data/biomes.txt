@@ -16,6 +16,14 @@ endlessbiomes:penumbral_forest
 endlessbiomes:twisted_reef
 gardens_of_the_dead:soulblight_forest
 gardens_of_the_dead:whistling_woods
+incendium:ash_barrens
+incendium:infernal_dunes
+incendium:inverted_forest
+incendium:quartz_flats
+incendium:toxic_heap
+incendium:volcanic_deltas
+incendium:weeping_valley
+incendium:withered_forest
 integrateddynamics:meneglin
 jamd:end
 jamd:mining

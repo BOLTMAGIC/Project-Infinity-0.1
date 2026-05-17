@@ -1,3 +1,4 @@
+incendium:big_cave
 minecraft:canyon
 minecraft:cave
 minecraft:cave_extra_underground

@@ -14,6 +14,10 @@ Mod INFO:
     -Occultism
     -Chemlib and Alchemistry
     -Extreme/ Big Reactors
+-mods getting removed in 0.0.50.0:
+    -Incendium
+        -This will make the Nether inaccesible the first time you load your world, just exit it and load it again
+    -Compact Expansion
 -mods getting removed in 0.0.51.0:
     -YTones (its discontinued, replaced with BetterBlockZ)
 ----------

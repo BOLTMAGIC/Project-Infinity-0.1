@@ -229,7 +229,7 @@ ServerEvents.recipes((event) => {
   combining(
     event,
     1,
-    'mekanism:ingot_steel',
+    'thermal:steel_ingot',
     1,
     'nuclearcraft:boron_ingot',
     'nuclearcraft:ferroboron_ingot',
@@ -238,7 +238,7 @@ ServerEvents.recipes((event) => {
   combining(
     event,
     1,
-    'mekanism:block_steel',
+    'thermal:steel_block',
     1,
     'nuclearcraft:boron_block',
     'kubejs:ferroboron_block',

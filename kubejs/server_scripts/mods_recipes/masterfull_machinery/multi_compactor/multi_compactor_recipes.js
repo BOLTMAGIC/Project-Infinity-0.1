@@ -241,7 +241,34 @@ MMEvents.createProcesses((event) => {
       ingredient: {
         type: 'mm:item',
         item: 'bloodmagic:hellforgedparts',
-        count: 4,
+        count: 1,
+      },
+      chance: 0.133,
+    })
+    .output({
+      type: 'mm:output/simple',
+      ingredient: {
+        type: 'mm:item',
+        item: 'bloodmagic:hellforgedparts',
+        count: 1,
+      },
+      chance: 0.133,
+    })
+    .output({
+      type: 'mm:output/simple',
+      ingredient: {
+        type: 'mm:item',
+        item: 'bloodmagic:hellforgedparts',
+        count: 1,
+      },
+      chance: 0.133,
+    })
+    .output({
+      type: 'mm:output/simple',
+      ingredient: {
+        type: 'mm:item',
+        item: 'bloodmagic:hellforgedparts',
+        count: 1,
       },
       chance: 0.133,
     });

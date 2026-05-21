@@ -191,3 +191,11 @@
 	#Range: > 0
 	target_polymorph_cost = 1000
 
+#Goo settings
+[goo]
+	#If true, goo blocks have a chance to deactivate after each successful block conversion
+	goo_can_die = true
+	#The chance (0.0 to 1.0) that a goo block deactivates after each block conversion. Default is 0.1 (10%)
+	#Range: 0.0 ~ 1.0
+	goo_death_chance = 0.1
+

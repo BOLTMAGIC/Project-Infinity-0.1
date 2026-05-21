@@ -10,6 +10,7 @@
 	quest_links: [ ]
 	quests: [
 		{
+			dependencies: ["3FD955D36E5583A0"]
 			description: [
 				"The materials required for a &65x5x5 pressure chamber&r with &b1 glass wall&r are listed above."
 				""
@@ -54,6 +55,7 @@
 			y: 0.0d
 		}
 		{
+			dependencies: ["3FD955D36E5583A0"]
 			icon: "pneumaticcraft:air_compressor"
 			id: "4CABEF8D25B3DFAF"
 			min_required_tasks: 1
@@ -96,6 +98,7 @@
 			y: -1.0d
 		}
 		{
+			dependencies: ["0CDCE6A3AA2B26D4"]
 			description: ["&7Use an &aPressure Tube &7to connect compressors, tanks and machines into an air network; attach gauge, safety or regulator modules to control pressure."]
 			id: "3FD955D36E5583A0"
 			rewards: [{
@@ -113,6 +116,7 @@
 			y: -1.0d
 		}
 		{
+			dependencies: ["5ED6F6F711E62591"]
 			description: [
 				"Place the laser, drill and both IO units in a cross around the platform"
 				""
@@ -164,6 +168,11 @@
 			y: 0.0d
 		}
 		{
+			dependencies: [
+				"3F1219F73AD46246"
+				"4CABEF8D25B3DFAF"
+				"6592A5AC32261260"
+			]
 			description: ["You need to craft the Bucket in a Pressure Chamber"]
 			id: "1A76236620EAD628"
 			rewards: [{
@@ -196,6 +205,11 @@
 			y: -2.0d
 		}
 		{
+			dependencies: [
+				"1A76236620EAD628"
+				"08CA569E4FBAAF3F"
+				"27FB06E6707B172A"
+			]
 			description: [
 				"Make sure to fully irradiate the PCB in the UV light box before etching"
 				""
@@ -216,6 +230,7 @@
 			y: 0.0d
 		}
 		{
+			dependencies: ["68BB24E0782140ED"]
 			id: "5ED6F6F711E62591"
 			rewards: [{
 				id: "24770A181E8AE9B2"
@@ -231,6 +246,7 @@
 			y: 0.0d
 		}
 		{
+			dependencies: ["06ABFB66A415E64A"]
 			id: "6592A5AC32261260"
 			rewards: [{
 				id: "0DBA019B8B5797E7"
@@ -246,6 +262,10 @@
 			y: -3.0d
 		}
 		{
+			dependencies: [
+				"44F97C526A0B7688"
+				"1BF324885BA69C46"
+			]
 			id: "08CA569E4FBAAF3F"
 			rewards: [{
 				id: "6ACE7712A400DF71"
@@ -267,6 +287,10 @@
 			y: 2.0d
 		}
 		{
+			dependencies: [
+				"6743ADE46B9DB9AF"
+				"347669A57E6EFB25"
+			]
 			id: "1BF324885BA69C46"
 			rewards: [{
 				id: "0782F2B353CD1790"
@@ -298,6 +322,7 @@
 			y: -4.0d
 		}
 		{
+			dependencies: ["3F1219F73AD46246"]
 			id: "44F97C526A0B7688"
 			rewards: [{
 				id: "68388A3A574BE0D0"
@@ -355,6 +380,7 @@
 			y: 5.0d
 		}
 		{
+			dependencies: ["1A76236620EAD628"]
 			id: "255370227B219951"
 			rewards: [{
 				id: "456E59009FF76C8B"
@@ -370,6 +396,7 @@
 			y: 1.0d
 		}
 		{
+			dependencies: ["79D89CA01ACE05B6"]
 			id: "79ED01B7253FB237"
 			rewards: [{
 				id: "140256EA6D58312B"
@@ -385,6 +412,7 @@
 			y: 2.0d
 		}
 		{
+			dependencies: ["79D89CA01ACE05B6"]
 			id: "02374F07E02F5802"
 			rewards: [{
 				id: "0C2DE0AE4D0170BA"
@@ -400,6 +428,7 @@
 			y: 0.0d
 		}
 		{
+			dependencies: ["02374F07E02F5802"]
 			description: [
 				"Advanced Air Compressor uses solid fuels"
 				""
@@ -409,7 +438,7 @@
 				""
 				"Solar Compressor uses... the sun."
 				"{@pagebreak}"
-				"All advanced compressors require heat management (see quest above). The first 3 get slower the hotter they are, the solar compressor gets faster the hotter it is, and also gets heats up more the faster it's running. However, a too high temperature causes damage."
+				"All advanced compressors require heat management (see quest above). The first 3 get slower the hotter they are, the solar compressor gets faster the hotter it is, and gets more heat the faster it is. However, a too high temperature causes damage."
 			]
 			icon: "pneumaticcraft:advanced_air_compressor"
 			id: "29630DE4AE5331E9"
@@ -452,6 +481,7 @@
 			y: 0.0d
 		}
 		{
+			dependencies: ["29630DE4AE5331E9"]
 			description: [
 				"Advanced &cCompressors&r (like the &cFlux Compressor&r) generate &ereduced efficiency&r if heat isn’t removed; they produce heat that must be dissipated to prevent slowdown."
 				""
@@ -483,6 +513,7 @@
 			y: -2.0d
 		}
 		{
+			dependencies: ["29630DE4AE5331E9"]
 			description: ["Despite allowing you to set it higher than 20 bar, it'll explode if you do (:"]
 			id: "3CC54D71B03FA025"
 			rewards: [{
@@ -499,6 +530,7 @@
 			y: 0.0d
 		}
 		{
+			dependencies: ["3FD955D36E5583A0"]
 			description: [
 				"&bPressure Gauge Tube module: &7Emits a &4redstone&r signal proportional to the pressure in the tube it's attached to."
 				""
@@ -518,11 +550,12 @@
 				item: "pneumaticcraft:pressure_gauge_module"
 				type: "item"
 			}]
-			title: "&aPreassure Gauge Tube Module"
+			title: "&aPressure Gauge Tube Module"
 			x: -3.0d
 			y: -3.0d
 		}
 		{
+			dependencies: ["5ED6F6F711E62591"]
 			description: [
 				"Adding it to the pressure gauge allows for better redstone level control"
 				""
@@ -586,7 +619,7 @@
 			y: 4.0d
 		}
 		{
-			description: ["Increases the opearation speed of a machine. Duh."]
+			description: ["Increases the operation speed of a machine. Duh."]
 			id: "009AD8B3634F1DDC"
 			rewards: [{
 				id: "397D0E0EB2F8B884"
@@ -602,6 +635,7 @@
 			y: 4.0d
 		}
 		{
+			dependencies: ["3FD955D36E5583A0"]
 			description: [
 				"The &aRegulator&r controls pressure downstream when placed inline with a Pressure Tube."
 				"By default it limits pressure to &65 bar&r; applying a &credstone signal&r lowers that limit."
@@ -622,6 +656,7 @@
 			y: 1.0d
 		}
 		{
+			dependencies: ["3FD955D36E5583A0"]
 			description: [
 				"The &cSafety Tube&r module vents excess air from a connected &cPressure Tube&r network when &epressure&r exceeds its set &6threshold&r, preventing &4overpressure&r."
 				"Its &6threshold&r can be adjusted by applying a &bModule Expansion Card&r for finer control of the venting level."
@@ -641,6 +676,7 @@
 			y: 0.0d
 		}
 		{
+			dependencies: ["3FD955D36E5583A0"]
 			id: "05C4CE56A09E333B"
 			rewards: [{
 				id: "0E94844B8EBF36AD"

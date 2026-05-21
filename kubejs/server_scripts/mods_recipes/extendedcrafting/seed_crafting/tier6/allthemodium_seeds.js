@@ -37,7 +37,7 @@ ServerEvents.recipes((event) => {
           item: 'twilightforest:lich_trophy',
         },
         H: {
-          item: 'allthemodium:allthemodium_ore',
+          tag: 'forge:ores/allthemodium',
         },
         I: {
           item: 'projectexpansion:purple_matter',

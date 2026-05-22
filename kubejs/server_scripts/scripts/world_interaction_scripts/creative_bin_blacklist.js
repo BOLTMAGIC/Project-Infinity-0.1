@@ -409,6 +409,11 @@ BlockEvents.rightClicked((event) => {
       nbtPath: 'returnInv',
       check: (value) => value && value.length > 0,
     },
+    {
+      pattern: 'toolbelt:belt',
+      nbtPath: 'Items',
+      check: (value) => value && value.length > 0,
+    },
   ];
 
   function rftoolsCheck(array) {

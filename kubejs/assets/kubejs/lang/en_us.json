@@ -356,5 +356,7 @@
 
   "tooltip.kubejs.wither_token": "Craft me using a Self Aware Data Model.",
   "tooltip.kubejs.wither_token_not_self_aware": "I wasn't crafted using a Self Aware Data Model, craft me back into a Data Model.",
-  "tooltip.kubejs.wither_token_self_aware": "I was crafted using a Self Aware Data Model"
+  "tooltip.kubejs.wither_token_self_aware": "I was crafted using a Self Aware Data Model",
+
+  "tooltip.mekanism.absolute_fluid_tank_nuclearcraft_polonium": "I contain Nuclearcraft Polonium" 
 }

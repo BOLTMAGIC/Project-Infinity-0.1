@@ -307,6 +307,16 @@ ItemEvents.tooltip((event) => {
       );
     }
   );
+
+  event.addAdvanced(
+    ['pneumaticcraft:creative_compressed_iron_block'],
+    (item, advanced, text) => {
+      text.add(
+        1,
+        Text.translate('tooltip.credit.recipe_added', '.json01').red()
+      );
+    }
+  );
   
   event.addAdvanced(
     ['appflux:fe_creative_cell', 'ae2omnicells:creative_ae_cell_long', 'thermal:machine_efficiency_creative_augment'],

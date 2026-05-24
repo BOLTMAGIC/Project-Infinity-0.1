@@ -29,6 +29,8 @@ Recipe changes and fixes:
 -changed Inf 5 recipe so you can generate more at once
 -added new Nuclearcraft Fission Reactor to the Multibuilder Tool (thx to pls! you are crazy)
 -small change to hellforged recipe in multi compactor
+-fixed knight metal block not craftable
+-added new recipe for some JDT items and upgrades
 -
 ----------
 Mod changes and fixes:

@@ -1,0 +1,101 @@
+ServerEvents.recipes((event) => {
+  create3x3(event, 'justdirethings:totem_of_death_recall', [
+    'justdirethings:blazegold_ingot',
+    'minecraft:nether_star',
+    'justdirethings:eclipsealloy_ingot',
+    'minecraft:netherite_ingot',
+    'minecraft:totem_of_undying',
+    'minecraft:netherite_ingot',
+    'justdirethings:eclipsealloy_ingot',
+    'minecraft:nether_star',
+    'justdirethings:blazegold_ingot',
+  ]);
+  create3x3(event, 'justdirethings:time_wand', [
+    'justdirethings:time_crystal',
+    'mekanism_extras:alloy_spectrum',
+    'justdirethings:time_crystal',
+    'evolvedmekanism:alloy_exoversal',
+    'justdirethings:blazegold_ingot',
+    'evolvedmekanism:alloy_exoversal',
+    'justdirethings:time_crystal',
+    'mekanism_extras:alloy_spectrum',
+    'justdirethings:time_crystal',
+  ]);
+  create3x3(event, 'justdirethings:paradoxmachine', [
+    'justdirethings:eclipsealloy_block',
+    'allthemodium:unobtainium_vibranium_alloy_block',
+    'justdirethings:eclipsealloy_block',
+    'mekanism_extras:alloy_spectrum',
+    'justdirethings:time_crystal_block',
+    'evolvedmekanism:alloy_exoversal',
+    'justdirethings:eclipsealloy_block',
+    'justdirethings:time_fluid_bucket',
+    'justdirethings:eclipsealloy_block',
+  ]);
+  create3x3(event, 'justdirethings:upgrade_deathprotection', [
+    'justdirethings:time_crystal',
+    'minecraft:emerald',
+    'justdirethings:time_crystal',
+    'justdirethings:totem_of_death_recall',
+    'justdirethings:upgrade_blank',
+    'justdirethings:totem_of_death_recall',
+    'justdirethings:time_crystal',
+    'minecraft:emerald',
+    'justdirethings:time_crystal',
+  ]);
+  create3x3(event, 'justdirethings:upgrade_flight', [
+    'kubejs:infinity_4',
+    'minecraft:end_crystal',
+    'kubejs:infinity_4',
+    'avaritia:crystal_matrix_ingot',
+    'justdirethings:time_crystal',
+    'avaritia:crystal_matrix_ingot',
+    'kubejs:infinity_4',
+    'minecraft:end_crystal',
+    'kubejs:infinity_4',
+  ]);
+  create3x3(event, 'justdirethings:upgrade_glowing', [
+    'minecraft:sculk_shrieker',
+    'evolvedmekanism:ingot_better_gold',
+    'minecraft:calibrated_sculk_sensor',
+    'mekanism_extras:alloy_spectrum',
+    'justdirethings:time_crystal',
+    'evolvedmekanism:alloy_exoversal',
+    'minecraft:calibrated_sculk_sensor',
+    'evolvedmekanism:ingot_better_gold',
+    'minecraft:sculk_shrieker',
+  ]);
+  create3x3(event, 'justdirethings:upgrade_orexray', [
+    'justdirethings:time_crystal',
+    'evolvedmekanism:ingot_better_gold',
+    'justdirethings:time_crystal',
+    'mekanism_extras:alloy_spectrum',
+    'justdirethings:upgrade_blank',
+    'evolvedmekanism:alloy_exoversal',
+    'justdirethings:time_crystal',
+    'evolvedmekanism:ingot_better_gold',
+    'justdirethings:time_crystal',
+  ]);
+  create3x3(event, 'justdirethings:upgrade_instabreak', [
+    'justdirethings:time_crystal',
+    'evolvedmekanism:ingot_better_gold',
+    'justdirethings:time_crystal',
+    'mekanism_extras:alloy_spectrum',
+    'extendedcrafting:nether_star_block',
+    'evolvedmekanism:alloy_exoversal',
+    'justdirethings:time_crystal',
+    'evolvedmekanism:ingot_better_gold',
+    'justdirethings:time_crystal',
+  ]);
+  create3x3(event, 'justdirethings:upgrade_noai', [
+    'justdirethings:time_crystal',
+    'evolvedmekanism:ingot_better_gold',
+    'justdirethings:time_crystal',
+    'mekanism_extras:alloy_spectrum',
+    'draconicevolution:small_chaos_frag',
+    'evolvedmekanism:alloy_exoversal',
+    'justdirethings:time_crystal',
+    'evolvedmekanism:ingot_better_gold',
+    'justdirethings:time_crystal',
+  ]);
+});

@@ -455,4 +455,14 @@ ItemEvents.tooltip((event) => {
       )
     }
   })
+
+  event.addAdvanced(['mekanism_extras:absolute_fluid_tank'], (item, advanced, text) => {
+    if (!item.nbt) return;
+
+    if (item.nbt.mekData.FluidTanks[0].stored.FluidName == 'nuclearcraft:polonium') {
+      text.add(
+        Text.translate('tooltip.mekanism.absolute_fluid_tank_nuclearcraft_polonium').red()
+      )
+    }
+  })
 });

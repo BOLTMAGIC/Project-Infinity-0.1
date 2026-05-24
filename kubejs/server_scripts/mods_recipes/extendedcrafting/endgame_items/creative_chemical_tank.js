@@ -103,7 +103,7 @@ ServerEvents.recipes((event) => {
           type: 'forge:partial_nbt',
           item: 'mekanism_extras:absolute_chemical_tank',
           count: 1,
-          nbt: '{mekData:{GasTanks:[{Tank:0b,stored:{amount:65536000L,gasName:\"mekanism:oxygen\"}}]}}',
+          nbt: '{mekData:{GasTanks:[{Tank:0b,stored:{amount:131072000L,gasName:\"mekanism:oxygen\"}}]}}',
         },
         S: {
           type: 'forge:partial_nbt',
@@ -115,7 +115,7 @@ ServerEvents.recipes((event) => {
           type: 'forge:partial_nbt',
           item: 'mekanism_extras:absolute_chemical_tank',
           count: 1,
-          nbt: '{mekData:{GasTanks:[{Tank:0b,stored:{amount:65536000L,gasName:\"mekanism:hydrogen\"}}]}}',
+          nbt: '{mekData:{GasTanks:[{Tank:0b,stored:{amount:131072000L,gasName:\"mekanism:hydrogen\"}}]}}',
         },
         U: {
           type: 'forge:partial_nbt',

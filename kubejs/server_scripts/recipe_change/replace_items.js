@@ -35,6 +35,11 @@ ServerEvents.recipes((event) => {
     'draconicevolution:chaotic_capacitor',
     'kubejs:chaotic_capacitor'
   );
+  event.replaceOutput(
+    { output: 'draconicevolution:creative_capacitor' },
+    'draconicevolution:creative_capacitor',
+    'kubejs:creative_capacitor'
+  );
   event.replaceInput(
     { output: 'ender_dragon_loot:dragon_hoe' },
     'ender_dragon_loot:dragon_scale',

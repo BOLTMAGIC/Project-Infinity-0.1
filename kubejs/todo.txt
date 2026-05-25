@@ -10,19 +10,19 @@ changelog v. 0.0.50.0
 -updated some mods
 ----------
 mods added:
+-Blood Magic AE2 Addition
+----------
+Mods removed:
 -Incendium
 -Compact Expansion
 ----------
-Mods removed:
--
-----------
 Mod INFO:
--mods maybe getting removed:
-    -Occultism
-    -Chemlib and Alchemistry
-    -Extreme/ Big Reactors
 -mods getting removed in 0.0.51.0:
     -YTones (its discontinued, replaced with BetterBlockZ)
+    -Tinkers Construct and all addons
+    -Extreme/ Big Reactors
+    -Chemlib and Alchemistry
+    -Occultism
 ----------
 Recipe changes and fixes:
 -changed ATM seed to use any ATM ore
@@ -31,6 +31,11 @@ Recipe changes and fixes:
 -small change to hellforged recipe in multi compactor
 -fixed knight metal block not craftable
 -added new recipe for some JDT items and upgrades
+-added a JustDireThings Questline
+-added recipe for Blood Generator (Tier 6 Table. Dont hate me)
+-added recipe for BMAddon items
+-changed recipe for logisticsnetworks:mekanism_chemical_upgrade
+-changed creative_chemical_tank recipe to use a full tank and not the half
 -
 ----------
 Mod changes and fixes:

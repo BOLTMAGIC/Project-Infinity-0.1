@@ -1,5 +1,5 @@
 {
-  "project_infinity_01.version": "0.0.49.3",
+  "project_infinity_01.version": "0.0.50.0",
   "item.kubejs.zahraanite": "Zahraanite",
   "item.kubejs.ultimate_gem": "§dUltimate Gem",
   "item.kubejs.ultimate_prediction": "§dUltimate Prediction",
@@ -358,5 +358,8 @@
   "tooltip.kubejs.wither_token_not_self_aware": "I wasn't crafted using a Self Aware Data Model, craft me back into a Data Model.",
   "tooltip.kubejs.wither_token_self_aware": "I was crafted using a Self Aware Data Model",
 
-  "tooltip.mekanism.absolute_fluid_tank_nuclearcraft_polonium": "I contain Nuclearcraft Polonium" 
+  "tooltip.mekanism.absolute_fluid_tank_nuclearcraft_polonium": "I contain Nuclearcraft Polonium",
+
+  "tooltip.bmaddon.blood_generator1": "Will generate 1M mb Blood/t. Uses 2.14 GRF/t.",
+  "tooltip.bmaddon.blood_generator2": "Holds 2.14G mb Blood."
 }

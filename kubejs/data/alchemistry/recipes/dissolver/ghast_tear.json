@@ -1,25 +1,33 @@
 {
-    "type": "alchemistry:dissolver",
-    "group": "alchemistry:dissolver",
-    "input": {
-        "count": 1,
-        "ingredient": {
-            "item": "minecraft:ghast_tear"
-        }
-    },
-    "output": {
-        "groups": [
-            {
-                "probability": 5.0,
-                "results": [
-                    {
-                        "count": 1,
-                        "item": "chemlib:polonium"
-                    }
-                ]
-            }
-        ],
-        "rolls": 1,
-        "weighted": false
+  "type": "alchemistry:dissolver",
+  "group": "alchemistry:dissolver",
+  "input": {
+    "count": 1,
+    "ingredient": {
+      "item": "minecraft:ghast_tear"
     }
+  },
+  "output": {
+    "groups": [
+      {
+        "probability": 5.0,
+        "results": [
+          {
+            "count": 1,
+            "item": "chemlib:polonium"
+          }
+        ]
+      },
+      {
+        "probability": 95.0,
+        "results": [
+            {
+                "item": "minecraft:air"
+            }
+        ]
+      }
+    ],
+    "rolls": 1,
+    "weighted": false
+  }
 }

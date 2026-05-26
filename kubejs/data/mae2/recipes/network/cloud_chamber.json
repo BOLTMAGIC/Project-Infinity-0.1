@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "a": {
+      "item": "minecraft:amethyst_shard"
+    },
+    "g": {
+      "item": "ae2:quartz_vibrant_glass"
+    }
+  },
+  "pattern": [
+    "ggg",
+    "gag",
+    "ggg"
+  ],
+  "result": {
+    "count": 8,
+    "item": "mae2:cloud_chamber"
+  },
+  "show_notification": true
+}

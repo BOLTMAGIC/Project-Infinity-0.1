@@ -18,6 +18,7 @@
 	quests: [
 		{
 			dependencies: ["39BDA119A3E1B4D5"]
+			description: ["Can't provide water via AE2 so provide it with water somehow and delete the water from the pattern."]
 			id: "1E6DA6D94BAE498E"
 			rewards: [{
 				id: "523468FC72926F2B"
@@ -130,6 +131,7 @@
 		}
 		{
 			dependencies: ["39BDA119A3E1B4D5"]
+			description: ["It doesn't auto-output items so you'll need to collect them somehow."]
 			id: "62B78C5BE6475ED5"
 			rewards: [{
 				id: "3842622071532A57"

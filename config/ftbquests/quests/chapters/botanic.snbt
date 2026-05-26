@@ -131,7 +131,7 @@
 		}
 		{
 			dependencies: ["39BDA119A3E1B4D5"]
-			description: ["It doesn't auto-output items so you'll need to collect them somehow."]
+			description: ["It doesn't auto-output items so you'll need to collect them somehow. The next tier auto outputs."]
 			id: "62B78C5BE6475ED5"
 			rewards: [{
 				id: "3842622071532A57"

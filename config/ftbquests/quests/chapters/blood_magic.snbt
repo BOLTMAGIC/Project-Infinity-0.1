@@ -1213,6 +1213,27 @@
 			x: -11.5d
 			y: 0.5d
 		}
+		{
+			dependencies: ["53E7A09F3F3B6272"]
+			description: [
+				"Endgame Blood Generation. "
+				"Good Luck crafting it. Dont hate me."
+			]
+			id: "47A2D3F9F4B9DFE7"
+			rewards: [{
+				id: "48DA0187F151A636"
+				item: "kubejs:ascended_coin"
+				type: "item"
+			}]
+			size: 3.0d
+			tasks: [{
+				id: "519CBCBAF14D395E"
+				item: "bmaddon:blood_generator"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 4.5d
+		}
 	]
 	title: "Blood Magic"
 }

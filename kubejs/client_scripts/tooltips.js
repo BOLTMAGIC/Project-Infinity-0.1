@@ -302,7 +302,6 @@ ItemEvents.tooltip((event) => {
   event.addAdvanced(kemCredits, (item, advanced, text) => {
     text.add(1, Text.translate('tooltip.credit.recipe_added', 'Kem5540').red());
   });
-  
 
   event.addAdvanced(
     ['pneumaticcraft:creative_compressor'],
@@ -323,9 +322,13 @@ ItemEvents.tooltip((event) => {
       );
     }
   );
-  
+
   event.addAdvanced(
-    ['appflux:fe_creative_cell', 'ae2omnicells:creative_ae_cell_long', 'thermal:machine_efficiency_creative_augment'],
+    [
+      'appflux:fe_creative_cell',
+      'ae2omnicells:creative_ae_cell_long',
+      'thermal:machine_efficiency_creative_augment',
+    ],
     (item, advanced, text) => {
       text.add(
         1,
@@ -398,25 +401,43 @@ ItemEvents.tooltip((event) => {
     Text.translate('tooltip.mythicbotany.wither_aconite_warning')
   );
 
-  event.addAdvanced(['ifeu:big_dissolution_chamber'], (item, advanced, text) => {
-    text.add(1, Text.translate('tooltip.ifeu.big_dissolution_chamber_warning_1'));
-    text.add(2, Text.translate('tooltip.ifeu.big_dissolution_chamber_warning_2'));
-  });
+  event.addAdvanced(
+    ['ifeu:big_dissolution_chamber'],
+    (item, advanced, text) => {
+      text.add(
+        1,
+        Text.translate('tooltip.ifeu.big_dissolution_chamber_warning_1')
+      );
+      text.add(
+        2,
+        Text.translate('tooltip.ifeu.big_dissolution_chamber_warning_2')
+      );
+    }
+  );
 
   event.addAdvanced(['kubejs:full_nbt_remover'], (item, advanced, text) => {
     text.add(1, Text.translate('tooltip.kubejs.full_nbt_remover_1'));
     text.add(2, Text.translate('tooltip.kubejs.full_nbt_remover_2').red());
   });
-  
+
   event.addAdvanced(['kubejs:tank_nbt_remover'], (item, advanced, text) => {
     text.add(1, Text.translate('tooltip.kubejs.tank_nbt_remover_1'));
     text.add(2, Text.translate('tooltip.kubejs.tank_nbt_remover_2'));
   });
 
-  event.addAdvanced(['kubejs:nuclearcraft_copy_paste_tool'], (item, advanced, text) => {
-    text.add(1, Text.translate('tooltip.kubejs.nuclearcraft_copy_paste_tool_1'));
-    text.add(2, Text.translate('tooltip.kubejs.nuclearcraft_copy_paste_tool_2'));
-  });
+  event.addAdvanced(
+    ['kubejs:nuclearcraft_copy_paste_tool'],
+    (item, advanced, text) => {
+      text.add(
+        1,
+        Text.translate('tooltip.kubejs.nuclearcraft_copy_paste_tool_1')
+      );
+      text.add(
+        2,
+        Text.translate('tooltip.kubejs.nuclearcraft_copy_paste_tool_2')
+      );
+    }
+  );
 
   const mekanismEnrichedMaterialsToCompress = [
     { id: 'redstone', machine: 'Elite' },
@@ -430,16 +451,19 @@ ItemEvents.tooltip((event) => {
     { id: 'thermonuclear', machine: 'Advanced' },
     { id: 'shining', machine: 'Advanced' },
     { id: 'spectrum', machine: 'Advanced' },
-   ];
+  ];
 
-  mekanismEnrichedMaterialsToCompress.forEach(material => {
+  mekanismEnrichedMaterialsToCompress.forEach((material) => {
     event.add(
       'kubejs:double_compressed_enriched_' + material.id,
-      Text.translate('tooltip.kubejs.compressed_material_warning', material.machine)
+      Text.translate(
+        'tooltip.kubejs.compressed_material_warning',
+        material.machine
+      )
     );
   });
 
-  const meshes =[
+  const meshes = [
     'exdeorum:string_mesh',
     'exdeorum:flint_mesh',
     'exdeorum:iron_mesh',
@@ -448,37 +472,48 @@ ItemEvents.tooltip((event) => {
     'exdeorum:netherite_mesh',
     'kubejs:allthemodium_mesh',
     'kubejs:vibranium_mesh',
-  ]
+  ];
 
-  meshes.forEach(mesh => {
-    event.add(mesh,Text.translate('tooltip.exdeorum.mesh_enchant_warning'));
+  meshes.forEach((mesh) => {
+    event.add(mesh, Text.translate('tooltip.exdeorum.mesh_enchant_warning'));
   });
 
   event.addAdvanced(['kubejs:wither_token'], (item, advanced, text) => {
     if (!item.nbt) {
-      text.add(
-        Text.translate('tooltip.kubejs.wither_token').darkAqua()
-      )
+      text.add(Text.translate('tooltip.kubejs.wither_token').darkAqua());
     }
 
     if (item.nbt.self_aware == false) {
       text.add(
         Text.translate('tooltip.kubejs.wither_token_not_self_aware').red()
-      )
+      );
     } else {
       text.add(
         Text.translate('tooltip.kubejs.wither_token_self_aware').green()
-      )
+      );
     }
-  })
+  });
 
-  event.addAdvanced(['mekanism_extras:absolute_fluid_tank'], (item, advanced, text) => {
-    if (!item.nbt) return;
+  event.addAdvanced(
+    ['mekanism_extras:absolute_fluid_tank'],
+    (item, advanced, text) => {
+      if (!item.nbt) return;
 
-    if (item.nbt.mekData.FluidTanks[0].stored.FluidName == 'nuclearcraft:polonium') {
-      text.add(
-        Text.translate('tooltip.mekanism.absolute_fluid_tank_nuclearcraft_polonium').red()
-      )
+      if (
+        item.nbt.mekData.FluidTanks[0].stored.FluidName ==
+        'nuclearcraft:polonium'
+      ) {
+        text.add(
+          Text.translate(
+            'tooltip.mekanism.absolute_fluid_tank_nuclearcraft_polonium'
+          ).red()
+        );
+      }
     }
-  })
+  );
+
+  event.addAdvanced(['bmaddon:blood_generator'], (item, advanced, text) => {
+    text.add(1, Text.yellow(Text.translate('tooltip.bmaddon.blood_generator1')));
+    text.add(2, Text.yellow(Text.translate('tooltip.bmaddon.blood_generator2')));
+  });
 });

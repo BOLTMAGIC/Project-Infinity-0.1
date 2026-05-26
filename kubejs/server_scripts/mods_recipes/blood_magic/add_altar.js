@@ -55,7 +55,7 @@ ServerEvents.recipes((event) => {
     upgradeLevel: 1,
   });
 
-    event.custom({
+  event.custom({
     type: 'bloodmagic:altar',
     altarSyphon: 81000,
     consumptionRate: 81000,
@@ -67,5 +67,103 @@ ServerEvents.recipes((event) => {
       item: 'kubejs:double_compressed_slate',
     },
     upgradeLevel: 4,
+  });
+  //#region BMAddon
+  event.custom({
+    type: 'bloodmagic:altar',
+    altarSyphon: 100000,
+    consumptionRate: 200,
+    drainRate: 200,
+    input: {
+      item: 'ae2:speed_card',
+    },
+    output: {
+      item: 'bmaddon:blood_magic_speed_card',
+    },
+    upgradeLevel: 3,
+  });
+
+  event.custom({
+    type: 'bloodmagic:altar',
+    altarSyphon: 50000,
+    consumptionRate: 150,
+    drainRate: 150,
+    input: {
+      item: 'ae2:capacity_card',
+    },
+    output: {
+      item: 'bmaddon:blood_altar_parallel_card',
+    },
+    upgradeLevel: 2,
+  });
+
+  event.custom({
+    type: 'bloodmagic:altar',
+    altarSyphon: 20000,
+    consumptionRate: 100,
+    drainRate: 100,
+    input: {
+      item: 'bloodmagic:altarcapacityrune',
+    },
+    output: {
+      item: 'bmaddon:blood_altar_tier_card_2',
+    },
+    upgradeLevel: 1,
+  });
+
+  event.custom({
+    type: 'bloodmagic:altar',
+    altarSyphon: 50000,
+    consumptionRate: 150,
+    drainRate: 150,
+    input: {
+      item: 'bmaddon:blood_altar_tier_card_2',
+    },
+    output: {
+      item: 'bmaddon:blood_altar_tier_card_3',
+    },
+    upgradeLevel: 2,
+  });
+
+  event.custom({
+    type: 'bloodmagic:altar',
+    altarSyphon: 100000,
+    consumptionRate: 200,
+    drainRate: 200,
+    input: {
+      item: 'bmaddon:blood_altar_tier_card_3',
+    },
+    output: {
+      item: 'bmaddon:blood_altar_tier_card_4',
+    },
+    upgradeLevel: 3,
+  });
+
+  event.custom({
+    type: 'bloodmagic:altar',
+    altarSyphon: 200000,
+    consumptionRate: 250,
+    drainRate: 250,
+    input: {
+      item: 'bmaddon:blood_altar_tier_card_4',
+    },
+    output: {
+      item: 'bmaddon:blood_altar_tier_card_5',
+    },
+    upgradeLevel: 4,
+  });
+
+  event.custom({
+    type: 'bloodmagic:altar',
+    altarSyphon: 200000,
+    consumptionRate: 500,
+    drainRate: 500,
+    input: {
+      item: 'ae2:molecular_assembler',
+    },
+    output: {
+      item: 'bmaddon:blood_altar_assembler',
+    },
+    upgradeLevel: 3,
   });
 });

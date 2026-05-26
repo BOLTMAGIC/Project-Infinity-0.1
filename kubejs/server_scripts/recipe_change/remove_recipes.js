@@ -538,8 +538,7 @@ const removeItemsbyID = [
   'tconstruct:common/materials/knightmetal_ingot_from_nuggets',
   'tconstruct:common/materials/knightmetal_ingot_from_block',
   'justdirethings:time_wand',
-    //TO-DO: REMOVE recipe after creating a new one
-  //'justdirethings:upgrade_time_protection',
+  'justdirethings:upgrade_time_protection',
   'justdirethings:paradoxmachine',
   'justdirethings:upgrade_instabreak',
   'justdirethings:upgrade_deathprotection',
@@ -548,16 +547,16 @@ const removeItemsbyID = [
   'justdirethings:upgrade_flight',
   'justdirethings:upgrade_glowing',
   'justdirethings:upgrade_orexray',
-  '',
-  '',
-  '',
-  '',
-  '',
-  '',
-  '',
-  '',
-  '',
-  '',
+  'justdirethings:upgrade_epicarrow',
+  'justdirethings:upgrade_phase',
+  'justdirethings:upgrade_homing',
+  'bmaddon:blood_generator',
+  'bmaddon:bloodmagic/altar/blood_magic_speed_card',
+  'bmaddon:bloodmagic/altar/blood_altar_parallel_card',
+  'bmaddon:bloodmagic/altar/blood_altar_tier_card_2',
+  'bmaddon:bloodmagic/altar/blood_altar_tier_card_3',
+  'bmaddon:bloodmagic/altar/blood_altar_tier_card_4',
+  'bmaddon:bloodmagic/altar/blood_altar_tier_card_5',
   '',
   '',
   '',
@@ -652,7 +651,7 @@ MoreJSEvents.villagerTrades((event) => {
   event.removeVanillaTrades();
   event.removeModdedTrades();
 });
-
+//#region Gamerules
 //deactive trader spawns
 ServerEvents.loaded((event) => {
   if (event.server.persistentData.gameRules) return;

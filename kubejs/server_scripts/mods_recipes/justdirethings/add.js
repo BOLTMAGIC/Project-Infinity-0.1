@@ -98,4 +98,48 @@ ServerEvents.recipes((event) => {
     'evolvedmekanism:ingot_better_gold',
     'justdirethings:time_crystal',
   ]);
+  create3x3(event, 'justdirethings:upgrade_time_protection', [
+    'justdirethings:time_crystal',
+    'evolvedmekanism:ingot_better_gold',
+    'justdirethings:time_crystal',
+    'evolvedmekanism:alloy_exoversal',
+    'justdirethings:eclipsealloy_block',
+    'mekanism_extras:alloy_spectrum',
+    'justdirethings:time_crystal',
+    'evolvedmekanism:ingot_better_gold',
+    'justdirethings:time_crystal',
+  ]);
+  create3x3(event, 'justdirethings:upgrade_homing', [
+    'minecraft:ender_eye',
+    'thermal:enderium_ingot',
+    'mekanism_extras:alloy_radiance',
+    'draconicevolution:draconium_ingot',
+    'justdirethings:upgrade_blank',
+    'draconicevolution:draconium_ingot',
+    'mekanism_extras:alloy_radiance',
+    'thermal:enderium_ingot',
+    'minecraft:ender_eye',
+  ]);
+  create3x3(event, 'justdirethings:upgrade_phase', [
+    'minecraft:dragon_breath',
+    'thermal_extra:shellite_plate',
+    'kubejs:voidmetal_ingot',
+    'kubejs:starmetal_ingot',
+    'pneumaticcraft:jet_boots_upgrade_4',
+    'kubejs:starmetal_ingot',
+    'kubejs:solarmetal_ingot',
+    'thermal_extra:shellite_plate',
+    'minecraft:dragon_breath',
+  ]);
+  create3x3(event, 'justdirethings:upgrade_epicarrow', [
+    'powah:nitro_crystal_block',
+    'extendedcrafting:enhanced_ender_ingot',
+    'nuclearcraft:palladium_ingot',
+    'kubejs:azure_electrum_ingot',
+    'justdirethings:upgrade_blank',
+    'kubejs:azure_electrum_ingot',
+    'nuclearcraft:palladium_ingot',
+    'extendedcrafting:enhanced_ender_ingot',
+    'powah:nitro_crystal_block',
+  ]);
 });

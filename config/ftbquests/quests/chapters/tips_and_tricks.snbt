@@ -937,7 +937,7 @@
 			description: [
 				"The &2DimStorage&r mod adds cross-dimensional storage for items and fluids:"
 				""
-				"- &9DimStorage Chest&r: Share item storage across distances using color-coded frequencies."
+				"- &9DimStorage Chest&r: Share item storage across distances using frequencies."
 				""
 				"- &2DimStorage Tank&r: Do the same for fluids, making it easy to transport liquids like lava or water between dimensions."
 				""

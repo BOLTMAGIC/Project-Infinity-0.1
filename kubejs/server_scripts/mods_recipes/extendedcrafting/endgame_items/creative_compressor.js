@@ -73,7 +73,7 @@ ServerEvents.recipes((event) => {
           item: 'pneumaticcraft:inventory_upgrade',
         },
         S: {
-          item: 'pneumaticcraft:pneumatic_dynamo',
+          item: 'pneumaticcraft:creative_compressed_iron_block',
         },
         T: {
           item: 'pneumaticcraft:chunkloader_upgrade',

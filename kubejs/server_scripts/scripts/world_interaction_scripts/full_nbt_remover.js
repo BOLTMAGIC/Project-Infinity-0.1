@@ -1,6 +1,8 @@
 BlockEvents.rightClicked((event) => {
   const {block, item, player, hand} = event;
 
+  if (hand !== 'MAIN_HAND') event.cancel();
+
   if(
     !item
     || !block
@@ -8,10 +10,6 @@ BlockEvents.rightClicked((event) => {
     || block.id != 'minecraft:grindstone'
   )
   return;
-
-  if (hand !== 'MAIN_HAND') event.cancel();
-
-  if(!item || item.id != 'kubejs:full_nbt_remover') return;
 
   let offHandItem = player.getHeldItem("off_hand");
 

@@ -43,7 +43,7 @@ BlockEvents.broken(
   const paxelTiers = {
     stone: ['mekanismtools:stone_paxel', 'mekanismtools:lapis_lazuli_paxel'],
     iron: ['mekanismtools:iron_paxel', 'mekanismtools:bronze_paxel', 'mekanismtools:osmium_paxel'],
-    diamond: ['mekanismtools:diamond_paxel', 'mekanismtools:netherite_paxel', 'mekanismtools:refined_glowstone_paxel', 'mekanismtools:refined_obsidian_paxel', 'mekanismtools:steel_paxel']
+    diamond: ['mekanismtools:diamond_paxel', 'mekanismtools:netherite_paxel', 'mekanismtools:refined_glowstone_paxel', 'mekanismtools:refined_obsidian_paxel', 'mekanismtools:steel_paxel', 'mysticaladaptations:insanium_paxel', 'mysticalagradditions:inferium_paxel', 'mysticalagradditions:prudentium_paxel', 'mysticalagradditions:tertium_paxel', 'mysticalagradditions:imperium_paxel', 'mysticalagradditions:supremium_paxel', 'mysticalagradditions:awakened_supremium_paxel', 'nuclearcraft:spaxelhoe_thorium', 'nuclearcraft:spaxelhoe_tough', 'allthemodium:alloy_paxel', 'ender_dragon_loot:dragon_paxel']
   };
 
   function meetsTierRequirement(paxelId, requiredTier) {

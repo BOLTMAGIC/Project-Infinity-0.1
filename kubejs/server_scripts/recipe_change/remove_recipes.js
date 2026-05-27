@@ -183,7 +183,16 @@ const removeItemsbyOutput = [
   'industrialforegoing:hydroponic_simulation_processor',
   'avaritia_expand:neutron_decompose',
   'avaritia_expand:blaze_furnace',
+  'industrialforegoing:conveyor',
+  'industrialforegoing:conveyor_blinking_upgrade',
+  'industrialforegoing:conveyor_insertion_upgrade',
+  'industrialforegoing:conveyor_bouncing_upgrade',
+  'industrialforegoing:conveyor_dropping_upgrade',
+  'industrialforegoing:conveyor_detection_upgrade',
+  'industrialforegoing:conveyor_extraction_upgrade',
+  'industrialforegoing:conveyor_splitting_upgrade',
 ];
+
 //#region ID removal
 const removeItemsbyID = [
   'thermal:fire_charge/enderium_ingot_2',

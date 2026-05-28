@@ -11,6 +11,18 @@ ServerEvents.recipes((event) => {
     'minecraft:gold_nugget',
   ]);
 
+  create3x3(event, 'minecraft:hopper', [
+  'minecraft:iron_ingot',
+  '#minecraft:logs',
+  'minecraft:iron_ingot',
+  'minecraft:iron_ingot',
+  '#minecraft:logs',
+  'minecraft:iron_ingot',
+  'minecraft:air',
+  'minecraft:iron_ingot',
+  'minecraft:air'
+]);
+
   shapeless(event, 'minecraft:wheat_seeds', ['minecraft:wheat']);
 
   create323(event, '8x minecraft:crying_obsidian', ['minecraft:obsidian']);

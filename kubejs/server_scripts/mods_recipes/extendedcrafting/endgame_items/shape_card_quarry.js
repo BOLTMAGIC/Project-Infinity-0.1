@@ -14,7 +14,10 @@ ServerEvents.recipes((event) => {
       ],
       key: {
         A: {
+          type: 'forge:partial_nbt',
           item: 'advancednetherite:netherite_diamond_shovel',
+          count: 1,
+          nbt: '{Damage:0}',
         },
         B: {
           item: 'minecraft:iron_block',
@@ -32,7 +35,10 @@ ServerEvents.recipes((event) => {
           item: 'minecraft:redstone_block',
         },
         G: {
+          type: 'forge:partial_nbt',
           item: 'advancednetherite:netherite_diamond_pickaxe',
+          count: 1,
+          nbt: '{Damage:0}',
         },
         H: {
           item: 'rftoolsbase:dimensionalshard',

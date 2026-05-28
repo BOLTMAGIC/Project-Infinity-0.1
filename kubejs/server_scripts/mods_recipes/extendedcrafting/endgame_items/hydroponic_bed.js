@@ -41,19 +41,31 @@ ServerEvents.recipes((event) => {
           item: 'minecraft:farmland',
         },
         J: {
+          type: 'forge:partial_nbt',
           item: 'minecraft:stone_hoe',
+          count: 1,
+          nbt: '{Damage:0}',
         },
         K: {
+          type: 'forge:partial_nbt',
           item: 'minecraft:wooden_hoe',
+          count: 1,
+          nbt: '{Damage:0}',
         },
         L: {
           item: 'industrialforegoing:machine_frame_supreme',
         },
         M: {
+          type: 'forge:partial_nbt',
           item: 'minecraft:iron_hoe',
+          count: 1,
+          nbt: '{Damage:0}',
         },
         N: {
+          type: 'forge:partial_nbt',
           item: 'minecraft:golden_hoe',
+          count: 1,
+          nbt: '{Damage:0}',
         },
         O: {
           item: 'nuclearcraft:compact_water_collector',

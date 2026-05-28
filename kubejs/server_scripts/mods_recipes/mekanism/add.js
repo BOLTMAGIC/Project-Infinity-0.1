@@ -1,18 +1,23 @@
 ServerEvents.recipes((event) => {
-  function crush (event, input, output_count, output) {
-    const ingredient = input.startsWith('#')
-      ? { tag: input.substring(1) }
-      : { item: input };
+  function crush(input, output_count, output, input_count) {
+    if (input_count == null) input_count = 1;
+
+    input = String(input);
+    output = String(output);
+
+    const ingredientData =
+      input.charAt(0) == '#' ? { tag: input.substring(1) } : { item: input };
 
     event
       .custom({
         type: 'mekanism:crushing',
         input: {
-          ingredient: ingredient,
+          ingredient: ingredientData,
+          amount: input_count,
         },
         output: {
-          count: output_count,
           item: output,
+          count: output_count,
         },
       })
       .id('mek_' + output.replace(/[:]/g, '_').toLowerCase());
@@ -28,16 +33,21 @@ ServerEvents.recipes((event) => {
   crush(event, 'kubejs:azure_silver_ingot', 1, 'kubejs:azure_silver_dust');
   crush(event, 'kubejs:azure_electrum_ingot', 1, 'kubejs:azure_electrum_dust');
   crush(event, 'kubejs:crimson_iron_ingot', 1, 'kubejs:crimson_iron_dust');
-  crush(event, 'minecraft:sand', 2, 'exdeorum:dust');
+  crush('minecraft:sand', 1, 'exdeorum:dust', 2);
   crush(event, 'kubejs:arcmetal_ore', 2, 'kubejs:raw_arcmetal');
   crush(event, 'kubejs:solarmetal_ore', 2, 'kubejs:raw_solarmetal');
   crush(event, 'kubejs:plasteel_ore', 2, 'kubejs:raw_plasteel');
   crush(event, 'kubejs:voidmetal_ore', 2, 'kubejs:raw_voidmetal');
   crush(event, '#forge:ingots/graphite', 1, 'bigreactors:graphite_dust');
 
-  crush(event, 'draconicevolution:draconium_ingot', 1, 'draconicevolution:draconium_dust')
+  crush(
+    event,
+    'draconicevolution:draconium_ingot',
+    1,
+    'draconicevolution:draconium_dust'
+  );
 
-  function alloying (
+  function alloying(
     event,
     input_amount1,
     input_item1,
@@ -77,7 +87,7 @@ ServerEvents.recipes((event) => {
       .id('alloying_' + output);
   }
 
-  function combining (
+  function combining(
     event,
     input_amount1,
     input_item1,
@@ -215,7 +225,6 @@ ServerEvents.recipes((event) => {
     1
   );
 
-
   combining(
     event,
     1,
@@ -304,7 +313,7 @@ ServerEvents.recipes((event) => {
 });
 
 ServerEvents.recipes((event) => {
-  function infuse (
+  function infuse(
     event,
     chemicalInput,
     chemicalAmount,
@@ -334,7 +343,7 @@ ServerEvents.recipes((event) => {
       .id('mek_' + output.replace(/[:]/g, '_').toLowerCase());
   }
 
-  function nucleosynthesizing (event, gasAmount, duration, input, output) {
+  function nucleosynthesizing(event, gasAmount, duration, input, output) {
     event
       .custom({
         type: 'mekanism:nucleosynthesizing',
@@ -453,23 +462,33 @@ ServerEvents.recipes((event) => {
     1
   );
 
-  function infusion_conversion (event, item_input, amount_output, infusion_type_output) {
+  function infusion_conversion(
+    event,
+    item_input,
+    amount_output,
+    infusion_type_output
+  ) {
     event
       .custom({
-        "type": "mekanism:infusion_conversion",
-        "input": {
-          "ingredient": {
-            "item": item_input,
-          }
+        type: 'mekanism:infusion_conversion',
+        input: {
+          ingredient: {
+            item: item_input,
+          },
         },
-        "output": {
-          "amount": amount_output,
-          "infuse_type": infusion_type_output,
-        }
+        output: {
+          amount: amount_output,
+          infuse_type: infusion_type_output,
+        },
       })
-      .id('mek_' + infusion_type_output.replace(/[:]/g, '_').toLowerCase() + '_from_' + item_input.replace(/[:]/g, '_').toLowerCase());
+      .id(
+        'mek_' +
+          infusion_type_output.replace(/[:]/g, '_').toLowerCase() +
+          '_from_' +
+          item_input.replace(/[:]/g, '_').toLowerCase()
+      );
   }
-  
+
   const mekanismEnrichedMaterialsToCompress = [
     { id: 'redstone', mod: 'mekanism', normal_amount: 80 },
     { id: 'carbon', mod: 'mekanism', normal_amount: 80 },
@@ -484,7 +503,7 @@ ServerEvents.recipes((event) => {
     { id: 'spectrum', mod: 'mekanism_extras', normal_amount: 50 },
   ];
 
-  mekanismEnrichedMaterialsToCompress.forEach(material => {
+  mekanismEnrichedMaterialsToCompress.forEach((material) => {
     infusion_conversion(
       event,
       'kubejs:compressed_enriched_' + material.id,
@@ -500,28 +519,53 @@ ServerEvents.recipes((event) => {
     );
   });
 
-  function enriching (event, item_input, item_output) {
+  function enriching(event, item_input, item_output) {
     event
       .custom({
-        "type": "mekanism:enriching",
-        "input": {
-          "ingredient": {
-            "item": item_input,
-          }
+        type: 'mekanism:enriching',
+        input: {
+          ingredient: {
+            item: item_input,
+          },
         },
-        "output": {
-          "item": item_output,
-        }
+        output: {
+          item: item_output,
+        },
       })
-      .id('mek_' + item_output.replace(/[:]/g, '_').toLowerCase() + '_from_' + item_input.replace(/[:]/g, '_').toLowerCase());
+      .id(
+        'mek_' +
+          item_output.replace(/[:]/g, '_').toLowerCase() +
+          '_from_' +
+          item_input.replace(/[:]/g, '_').toLowerCase()
+      );
   }
 
-  enriching(event, 'minecraft:redstone_block', 'kubejs:compressed_enriched_redstone');
-  enriching(event, 'compressium:redstone_1', 'kubejs:double_compressed_enriched_redstone');
+  enriching(
+    event,
+    'minecraft:redstone_block',
+    'kubejs:compressed_enriched_redstone'
+  );
+  enriching(
+    event,
+    'compressium:redstone_1',
+    'kubejs:double_compressed_enriched_redstone'
+  );
   enriching(event, 'minecraft:coal_block', 'kubejs:compressed_enriched_carbon');
-  enriching(event, 'compressium:coal_1', 'kubejs:double_compressed_enriched_carbon');
-  enriching(event, 'minecraft:diamond_block', 'kubejs:compressed_enriched_diamond');
-  enriching(event, 'compressium:diamond_1', 'kubejs:double_compressed_enriched_diamond');
+  enriching(
+    event,
+    'compressium:coal_1',
+    'kubejs:double_compressed_enriched_carbon'
+  );
+  enriching(
+    event,
+    'minecraft:diamond_block',
+    'kubejs:compressed_enriched_diamond'
+  );
+  enriching(
+    event,
+    'compressium:diamond_1',
+    'kubejs:double_compressed_enriched_diamond'
+  );
 
   nucleosynthesizing(
     event,
@@ -539,24 +583,29 @@ ServerEvents.recipes((event) => {
     'kubejs:double_compressed_enriched_shining'
   );
 
-  function compressing (event, gas_amount, gas_input, item_input, item_output) {
+  function compressing(event, gas_amount, gas_input, item_input, item_output) {
     event
       .custom({
-        "type": "mekanism:compressing",
-        "chemicalInput": {
-          "amount": gas_amount / 200,
-          "gas": gas_input
+        type: 'mekanism:compressing',
+        chemicalInput: {
+          amount: gas_amount / 200,
+          gas: gas_input,
         },
-        "itemInput": {
-          "ingredient": {
-            "item": item_input,
-          }
+        itemInput: {
+          ingredient: {
+            item: item_input,
+          },
         },
-        "output": {
-          "item": item_output,
-        }
+        output: {
+          item: item_output,
+        },
       })
-      .id('mek_' + item_output.replace(/[:]/g, '_').toLowerCase() + '_from_' + item_input.replace(/[:]/g, '_').toLowerCase());
+      .id(
+        'mek_' +
+          item_output.replace(/[:]/g, '_').toLowerCase() +
+          '_from_' +
+          item_input.replace(/[:]/g, '_').toLowerCase()
+      );
   }
 
   compressing(
@@ -604,21 +653,26 @@ ServerEvents.recipes((event) => {
     'bigreactors:yellorium_ingot',
   ]);
 
-  function oxidizing (event, item_input, gas_output_amount, gas_output) {
+  function oxidizing(event, item_input, gas_output_amount, gas_output) {
     event
       .custom({
-        "type": "mekanism:oxidizing",
-        "input": {
-          "ingredient": {
-            "item": item_input
-          }
+        type: 'mekanism:oxidizing',
+        input: {
+          ingredient: {
+            item: item_input,
+          },
         },
-        "output": {
-          "amount": gas_output_amount,
-          "gas": gas_output
-        }
+        output: {
+          amount: gas_output_amount,
+          gas: gas_output,
+        },
       })
-      .id('mek_' + gas_output.replace(/[:]/g, '_').toLowerCase() + '_from_' + item_input.replace(/[:]/g, '_').toLowerCase());
+      .id(
+        'mek_' +
+          gas_output.replace(/[:]/g, '_').toLowerCase() +
+          '_from_' +
+          item_input.replace(/[:]/g, '_').toLowerCase()
+      );
   }
 
   oxidizing(event, 'mekanism:ingot_osmium', 200, 'mekanism:osmium');

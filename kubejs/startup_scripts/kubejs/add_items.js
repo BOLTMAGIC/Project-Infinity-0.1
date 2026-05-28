@@ -49,7 +49,6 @@ StartupEvents.registry('item', (e) => {
     .glow(true);
 
   e.create('wither_token')
-    .tag('kubejs:wither_token')
     .displayName('§7Wither Token')
     .maxStackSize(64)
     .texture('kubejs:item/wither_token');
@@ -456,6 +455,10 @@ StartupEvents.registry('item', (e) => {
   e.create('nuclearcraft_copy_paste_tool')
     .displayName('Nuclearcraft Copy Paste Tool')
     .texture('kubejs:item/nuclearcraft_copy_paste_tool');
+    
+  e.create('universal_wireless_terminal_uncrafter')
+    .displayName('Universal Wireless Terminal Uncrafter')
+    .texture('kubejs:item/universal_wireless_terminal_uncrafter');
   
   function createMekanismCompressed (e, item) {
     e.create('compressed_enriched_' + item)

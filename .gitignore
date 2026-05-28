@@ -35,4 +35,6 @@ fancymenu_data/
 kubejs/todo.txt
 /bandwidthoptimizer-native/*
 fancymenu_data/last_world.fmdata
+kubejs/config/probejs.json
+kubejs/jsconfig.json
 .idea/

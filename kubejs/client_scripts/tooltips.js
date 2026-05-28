@@ -513,7 +513,13 @@ ItemEvents.tooltip((event) => {
   );
 
   event.addAdvanced(['bmaddon:blood_generator'], (item, advanced, text) => {
-    text.add(1, Text.yellow(Text.translate('tooltip.bmaddon.blood_generator1')));
-    text.add(2, Text.yellow(Text.translate('tooltip.bmaddon.blood_generator2')));
+    text.add(1, Text.translate('tooltip.bmaddon.blood_generator_1').yellow());
+    text.add(2, Text.translate('tooltip.bmaddon.blood_generator_2').yellow());
+  });
+
+  event.addAdvanced(['kubejs:universal_wireless_terminal_uncrafter'], (item, advanced, text) => {
+    text.add(1, Text.translate('tooltip.kubejs.universal_wireless_terminal_uncrafter_1'));
+    text.add(2, Text.translate('tooltip.kubejs.universal_wireless_terminal_uncrafter_2'));
+    text.add(3, Text.translate('tooltip.kubejs.universal_wireless_terminal_uncrafter_3').red());
   });
 });

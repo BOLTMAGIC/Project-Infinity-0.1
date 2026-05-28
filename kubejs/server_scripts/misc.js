@@ -393,4 +393,17 @@ ServerEvents.recipes((event) => {
     'minecraft:stone_bricks',
     'minecraft:stone_bricks',
   ]);
+
+  //#region cyclic
+  create3x3(event, Item.of('cyclic:biomass', 8), [
+    '#minecraft:leaves',
+    '#silentgems:glowroses',
+    '#minecraft:leaves',
+    '#silentgems:glowroses',
+    '#minecraft:saplings',
+    '#silentgems:glowroses',
+    '#minecraft:leaves',
+    '#silentgems:glowroses',
+    '#minecraft:leaves',
+  ]);
 });

@@ -40,21 +40,7 @@ ServerEvents.recipes((event) => {
     },
     upgradeLevel: 1,
   });
-
-  event.custom({
-    type: 'bloodmagic:altar',
-    altarSyphon: 81000,
-    consumptionRate: 810,
-    drainRate: 810,
-    input: {
-      item: 'compressium:stone_2',
-    },
-    output: {
-      item: 'kubejs:double_compressed_slate',
-    },
-    upgradeLevel: 1,
-  });
-
+  
   event.custom({
     type: 'bloodmagic:altar',
     altarSyphon: 81000,

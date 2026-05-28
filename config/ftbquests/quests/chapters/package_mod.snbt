@@ -79,8 +79,8 @@
 				}
 			]
 			title: "&eCombination Crafting&r"
-			x: 2.5d
-			y: 8.5d
+			x: 3.0d
+			y: 9.5d
 		}
 		{
 			dependencies: ["71222E3AF49A8143"]
@@ -268,8 +268,8 @@
 				type: "item"
 			}]
 			title: "&eFlux Crafting&r"
-			x: 4.5d
-			y: 8.5d
+			x: 5.0d
+			y: 9.5d
 		}
 		{
 			dependencies: ["54832AACF9BC8B54"]
@@ -697,8 +697,8 @@
 				type: "item"
 			}]
 			title: "&eEnder Crafting&r"
-			x: 3.5d
-			y: 8.5d
+			x: 4.0d
+			y: 9.5d
 		}
 		{
 			dependencies: ["0AFFE685B5B34A56"]
@@ -1094,6 +1094,22 @@
 			title: "&ePositioned Processing&r"
 			x: -0.5d
 			y: 3.5d
+		}
+		{
+			dependencies: ["0AFFE685B5B34A56"]
+			id: "1547B8D21C753435"
+			rewards: [{
+				id: "6B970F75E7ED7971"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4AB5FA617F30E79A"
+				item: "packagedexexexcrafting:legendary_crafter"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 9.5d
 		}
 	]
 	title: "Packaged"

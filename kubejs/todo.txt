@@ -11,6 +11,7 @@ changelog v. 0.0.50.0
 ----------
 mods added:
 -Blood Magic AE2 Addition
+-CC:Tweaked (+ Advanced Peripherals)
 ----------
 Mods removed:
 -Incendium
@@ -23,6 +24,7 @@ Mod INFO:
     -Extreme/ Big Reactors
     -Chemlib and Alchemistry
     -Occultism
+    -Mekanism Advanced Generators
 ----------
 Recipe changes and fixes:
 -changed ATM seed to use any ATM ore
@@ -36,10 +38,13 @@ Recipe changes and fixes:
 -added recipe for BMAddon items
 -changed recipe for logisticsnetworks:mekanism_chemical_upgrade
 -changed creative_chemical_tank recipe to use a full tank and not the half
+-added ATM ores to the ultimate miner (void miner) with a 0.025%
+-small Botanical Machinery quest tooltip change (thx to ratnu)
 -
 ----------
 Mod changes and fixes:
--
+-Void Miner Rubetine will tell you that it does not accept any modifiers
+-Changed Voidminer JEI Tab (if you are colorblind enable the config in void-miner.json5 "COLOR_BLIND_PERCENT")
 ----------
 known bugs:
 -polymorph (changing the output for mod conflicts) is not possible with tinkers crafting station

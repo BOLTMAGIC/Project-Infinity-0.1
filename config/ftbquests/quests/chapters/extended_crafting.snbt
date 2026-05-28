@@ -4821,6 +4821,39 @@
 			x: 12.0d
 			y: 0.5d
 		}
+		{
+			dependencies: ["294EAB81A6EA6D7C"]
+			id: "42A92B5A9BEFF09D"
+			rewards: [{
+				id: "6F9674F16EECEF87"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5723CFD85084B5C2"
+				item: "extendedcrafting:legendary_table"
+				type: "item"
+			}]
+			x: 6.5d
+			y: -8.0d
+		}
+		{
+			dependencies: ["42A92B5A9BEFF09D"]
+			id: "5E3E4AEAFE185BEE"
+			rewards: [{
+				id: "6ACDB26B725A47D3"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "41F3A8182AA7E67A"
+				item: "extendedcrafting:legendary_auto_table"
+				type: "item"
+			}]
+			x: 6.5d
+			y: -6.5d
+		}
 	]
 	title: "Extended Crafting"
 }

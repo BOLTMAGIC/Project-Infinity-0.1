@@ -1,0 +1,8 @@
+// Compost colors for computercraft. You may add your own colors, change existing ones, or remove colors that aren't needed.
+disk, #c5bfbc
+pocket_computer_advanced, #8d8d8d
+pocket_computer_normal, #8d8d8d
+printed_book, #908062
+printed_page, #eeeeee
+printed_pages, #fafafa
+treasure_disk, #c5bfbc

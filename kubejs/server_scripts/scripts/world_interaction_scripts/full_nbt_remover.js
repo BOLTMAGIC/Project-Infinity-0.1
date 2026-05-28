@@ -17,7 +17,8 @@ BlockEvents.rightClicked((event) => {
 
   const bannedItems = [
     "mekanism:creative_bin",
-    "mekanism:creative_fluid_tank"
+    "mekanism:creative_fluid_tank",
+    "mekanism:creative_chemical_tank"
   ]
 
   bannedItems.forEach((bannedItem) => {

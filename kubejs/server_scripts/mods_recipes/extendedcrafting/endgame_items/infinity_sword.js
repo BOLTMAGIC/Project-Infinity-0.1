@@ -11,7 +11,7 @@ ServerEvents.recipes((event) => {
         ' OPDhDQRS',
         ' TODDUV  ',
         'WXYOZa   ',
-        'QYbcO    ',
+        'iYbcO    ',
         'def  g   ',
       ],
       key: {
@@ -116,6 +116,9 @@ ServerEvents.recipes((event) => {
         },
         h: {
           item: 'kubejs:infinity_12',
+        },
+        i: {
+          item: 'justdirethings:eclipsealloy_sword',
         },
       },
       result: {

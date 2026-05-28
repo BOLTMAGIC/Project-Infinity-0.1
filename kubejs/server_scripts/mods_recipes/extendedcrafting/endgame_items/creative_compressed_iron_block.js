@@ -24,7 +24,7 @@ ServerEvents.recipes((event) => {
       G: { item: 'pneumaticcraft:solar_compressor' },
       H: { item: 'pneumaticcraft:advanced_pressure_tube' },
       I: {
-        type: 'forge:nbt',
+        type: 'forge:partial_nbt',
         item: 'pneumaticcraft:guard_drone',
         nbt: { 'pneumaticcraft:air': 120000 }
       },
@@ -35,12 +35,12 @@ ServerEvents.recipes((event) => {
       N: { item: 'kubejs:triple_compressed_iron_block' },
       O: { item: 'pneumaticcraft:compressed_iron_block' },
       P: {
-        type: 'forge:nbt',
+        type: 'forge:partial_nbt',
         item: 'cyclic:charm_fire',
         nbt: { Damage: 0 }
       },
       Q: {
-        type: 'forge:nbt',
+        type: 'forge:partial_nbt',
         item: 'pneumaticcraft:harvesting_drone',
         nbt: { 'pneumaticcraft:air': 120000 }
       },
@@ -50,13 +50,13 @@ ServerEvents.recipes((event) => {
         nbt: { Id: 'extendedcrafting:ingot_iron_compressed' }
       },
       S: {
-        type: 'forge:nbt',
+        type: 'forge:partial_nbt',
         item: 'pneumaticcraft:collector_drone',
         nbt: { 'pneumaticcraft:air': 120000 }
       },
       T: { item: 'pneumaticcraft:advanced_liquid_compressor' },
       U: {
-        type: 'forge:nbt',
+        type: 'forge:partial_nbt',
         item: 'pneumaticcraft:logistics_drone',
         nbt: { 'pneumaticcraft:air': 120000 }
       },

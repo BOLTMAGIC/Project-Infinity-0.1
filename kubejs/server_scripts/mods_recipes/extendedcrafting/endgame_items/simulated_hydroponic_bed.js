@@ -40,37 +40,25 @@ ServerEvents.recipes((event) => {
           item: 'ifeu:dragon_star',
         },
         I: {
-          type: 'forge:nbt',
           item: 'advancednetherite:netherite_diamond_hoe',
-          count: 1,
-          nbt: '{Damage:0}',
         },
         J: {
           item: 'mysticalagriculture:supremium_farmland',
         },
         K: {
-          type: 'forge:nbt',
           item: 'twilightforest:ironwood_hoe',
-          count: 1,
-          nbt: '{Damage:0,Enchantments:[{id:"minecraft:efficiency",lvl:1s}]}',
         },
         L: {
           item: 'mysticalagriculture:fertilized_essence',
         },
         M: {
-          type: 'forge:nbt',
           item: 'minecraft:netherite_hoe',
-          count: 1,
-          nbt: '{Damage:0}',
         },
         N: {
           item: 'cyclic:soil',
         },
         O: {
-          type: 'forge:nbt',
           item: 'mysticalagriculture:supremium_hoe',
-          count: 1,
-          nbt: '{Damage:0}',
         },
         P: {
           item: 'industrialforegoing:hydroponic_bed',
@@ -79,31 +67,19 @@ ServerEvents.recipes((event) => {
           item: 'mysticalagradditions:insanium_farmland',
         },
         R: {
-          type: 'forge:nbt',
           item: 'mekanismtools:refined_glowstone_hoe',
-          count: 1,
-          nbt: '{Damage:0}',
         },
         S: {
-          type: 'forge:nbt',
           item: 'thermal_extra:signalum_hoe',
-          count: 1,
-          nbt: '{Damage:0}',
         },
         T: {
           item: 'mysticalagriculture:imperium_farmland',
         },
         U: {
-          type: 'forge:nbt',
           item: 'ender_dragon_loot:dragon_hoe',
-          count: 1,
-          nbt: '{Damage:0}',
         },
         V: {
-          type: 'forge:nbt',
           item: 'cyclic:crystal_hoe',
-          count: 1,
-          nbt: '{Damage:0}',
         },
         W: {
           item: 'mysticalagriculture:tertium_farmland',

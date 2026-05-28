@@ -31,10 +31,7 @@ ServerEvents.recipes((event) => {
           item: 'kubejs:infinity_12',
         },
         F: {
-          type: 'forge:partial_nbt',
           item: 'mekanism:creative_energy_cube',
-          count: 1,
-          nbt: '{mekData:{componentConfig:{config0:{side0:1,side1:1,side2:1,side3:1,side4:1,side5:1}}}}',
         },
         G: {
           item: 'ae2omnicells:quantum_omni_cell_component_256m',

@@ -40,7 +40,7 @@ ServerEvents.recipes((event) => {
           item: 'ifeu:dragon_star',
         },
         I: {
-          type: 'forge:nbt',
+          type: 'forge:partial_nbt',
           item: 'advancednetherite:netherite_diamond_hoe',
           count: 1,
           nbt: '{Damage:0}',
@@ -49,7 +49,7 @@ ServerEvents.recipes((event) => {
           item: 'mysticalagriculture:supremium_farmland',
         },
         K: {
-          type: 'forge:nbt',
+          type: 'forge:partial_nbt',
           item: 'twilightforest:ironwood_hoe',
           count: 1,
           nbt: '{Damage:0,Enchantments:[{id:"minecraft:efficiency",lvl:1s}]}',
@@ -58,7 +58,7 @@ ServerEvents.recipes((event) => {
           item: 'mysticalagriculture:fertilized_essence',
         },
         M: {
-          type: 'forge:nbt',
+          type: 'forge:partial_nbt',
           item: 'minecraft:netherite_hoe',
           count: 1,
           nbt: '{Damage:0}',
@@ -67,7 +67,7 @@ ServerEvents.recipes((event) => {
           item: 'cyclic:soil',
         },
         O: {
-          type: 'forge:nbt',
+          type: 'forge:partial_nbt',
           item: 'mysticalagriculture:supremium_hoe',
           count: 1,
           nbt: '{Damage:0}',
@@ -79,13 +79,13 @@ ServerEvents.recipes((event) => {
           item: 'mysticalagradditions:insanium_farmland',
         },
         R: {
-          type: 'forge:nbt',
+          type: 'forge:partial_nbt',
           item: 'mekanismtools:refined_glowstone_hoe',
           count: 1,
           nbt: '{Damage:0}',
         },
         S: {
-          type: 'forge:nbt',
+          type: 'forge:partial_nbt',
           item: 'thermal_extra:signalum_hoe',
           count: 1,
           nbt: '{Damage:0}',
@@ -94,13 +94,13 @@ ServerEvents.recipes((event) => {
           item: 'mysticalagriculture:imperium_farmland',
         },
         U: {
-          type: 'forge:nbt',
+          type: 'forge:partial_nbt',
           item: 'ender_dragon_loot:dragon_hoe',
           count: 1,
           nbt: '{Damage:0}',
         },
         V: {
-          type: 'forge:nbt',
+          type: 'forge:partial_nbt',
           item: 'cyclic:crystal_hoe',
           count: 1,
           nbt: '{Damage:0}',

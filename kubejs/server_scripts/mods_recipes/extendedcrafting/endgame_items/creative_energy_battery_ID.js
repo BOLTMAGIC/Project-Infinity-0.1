@@ -28,7 +28,7 @@ ServerEvents.recipes((event) => {
           item: 'integratedtunnels:part_player_simulator',
         },
         E: {
-          type: 'forge:nbt',
+          type: 'forge:partial_nbt',
           item: 'solarpanels:creative_energy_tablet',
           count: 1,
           nbt: '{mekData:{EnergyContainers:[{Container:0b,stored:\"2000000000\"}]}}',
@@ -64,13 +64,13 @@ ServerEvents.recipes((event) => {
           item: 'integratedtunnels:part_importer_world_fluid',
         },
         P: {
-          type: 'forge:nbt',
+          type: 'forge:partial_nbt',
           item: 'solarpanels:improved_energy_tablet',
           count: 1,
           nbt: '{mekData:{EnergyContainers:[{Container:0b,stored:\"3000000\"}]}}',
         },
         Q: {
-          type: 'forge:nbt',
+          type: 'forge:partial_nbt',
           item: 'mekanism_extras:supreme_fluid_tank',
           count: 1,
           nbt: '{mekData:{FluidTanks:[{Tank:0b,stored:{Amount:1024000,FluidName:\"integrateddynamics:menril_resin\"}}]}}',
@@ -82,13 +82,13 @@ ServerEvents.recipes((event) => {
           item: 'avaritia:infinity',
         },
         T: {
-          type: 'forge:nbt',
+          type: 'forge:partial_nbt',
           item: 'mekanism_extras:supreme_fluid_tank',
           count: 1,
           nbt: '{mekData:{FluidTanks:[{Tank:0b,stored:{Amount:1024000,FluidName:\"integrateddynamics:liquid_chorus\"}}]}}',
         },
         U: {
-          type: 'forge:nbt',
+          type: 'forge:partial_nbt',
           item: 'solarpanels:quantum_energy_tablet',
           count: 1,
           nbt: '{mekData:{EnergyContainers:[{Container:0b,stored:\"9000000\"}]}}',

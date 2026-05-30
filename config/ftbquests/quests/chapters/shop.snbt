@@ -99,7 +99,6 @@
 						tag: {
 							Energy: 48000000
 							Id: "ironjetpacks:emerald"
-							Throttle: 1.0d
 						}
 					}
 					match_nbt: true

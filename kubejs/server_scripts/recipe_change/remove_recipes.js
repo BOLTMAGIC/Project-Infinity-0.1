@@ -568,7 +568,7 @@ const removeItemsbyID = [
   'bmaddon:bloodmagic/altar/blood_altar_tier_card_5',
   'botanypots:mysticalagriculture/crop/mithril',
   'mysticalagriculture:seed/reprocessor/mithril',
-  '',
+  'mysticalagriculture:essence/draconicevolution/draconium_ingot',
   '',
   '',
   '',

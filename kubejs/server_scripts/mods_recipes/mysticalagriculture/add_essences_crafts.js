@@ -120,4 +120,8 @@ ServerEvents.recipes((event) => {
   event.shaped(Item.of('ae2:silicon', 20), ['EEE', ' E ', 'EEE'], {
     E: 'mysticalagriculture:silicon_essence',
   });
+
+  create323(event, '4x draconicevolution:draconium_ingot', [
+    'mysticalagriculture:draconium_essence',
+  ]);
 });

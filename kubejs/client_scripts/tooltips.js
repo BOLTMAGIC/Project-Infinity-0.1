@@ -522,4 +522,9 @@ ItemEvents.tooltip((event) => {
     text.add(2, Text.translate('tooltip.kubejs.universal_wireless_terminal_uncrafter_2'));
     text.add(3, Text.translate('tooltip.kubejs.universal_wireless_terminal_uncrafter_3').red());
   });
+  
+  event.add(
+    ['thermal:compost'],
+    Text.translate('tooltip.thermal.compost').green()
+  );
 });

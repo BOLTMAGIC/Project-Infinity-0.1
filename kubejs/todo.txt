@@ -12,6 +12,7 @@ changelog v. 0.0.50.0
 mods added:
 -Blood Magic AE2 Addition
 -CC:Tweaked (+ Advanced Peripherals)
+-OK Zoomer
 ----------
 Mods removed:
 -Incendium
@@ -40,11 +41,37 @@ Recipe changes and fixes:
 -changed creative_chemical_tank recipe to use a full tank and not the half
 -added ATM ores to the ultimate miner (void miner) with a 0.025%
 -small Botanical Machinery quest tooltip change (thx to ratnu)
+-changed some energy values for mekanism machines
+-changed upgrade_module_stack recipe to use infinity 7 and not 12
+-TigerChin said the Gas Burning Generator is unnerfed. I changed it and nerfed it all the way (hate him not me)
+-added mekanism 18x18 boiler to MBTool
+-changed recipe for catalyst_mana_infinity
+-added slimeball into earthslime in a Nuclearcraft melter
+-added mekanism fluorite gem to sieve and auto sieve
+-removed data models:
+    -spirit guide
+    -restless spirit
+    -corpse maggot
+    -glutton fish
+    -wraith
+    -kobold
+    -stable ice core
+    -winter wolf
+    -yeti
+    -carminite golem
+    -raven
+    -towerwood borer
+    -deepling warlock
+    -stalker
+    -fire beetle
+-changed config for soulstone. max 1 enchant. no upgrade
+-added a recipe for hellforged parts (any silentgems ore 344064 for 2%)
 -
 ----------
 Mod changes and fixes:
 -Void Miner Rubetine will tell you that it does not accept any modifiers
 -Changed Voidminer JEI Tab (if you are colorblind enable the config in void-miner.json5 "COLOR_BLIND_PERCENT")
+-for Masterful Machinery multiblocks you can place any port on any other port place
 ----------
 known bugs:
 -polymorph (changing the output for mod conflicts) is not possible with tinkers crafting station

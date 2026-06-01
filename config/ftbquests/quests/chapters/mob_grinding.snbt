@@ -10,13 +10,13 @@
 	quests: [
 		{
 			description: [
-				"&6Absorption Hopper&r &7automatically collects &bitems&r &7and &aexperience&r &7from a configurable target area."
+				"{ftbquests.chapter.mob_grinding.quest7E200B1A028DF704.description1}"
 				""
-				"&7The collection area can be &evisualized&r &7by pressing &6Show Area&r &7in the GUI and &bmoved&r &7using the offset buttons."
+				"{ftbquests.chapter.mob_grinding.quest7E200B1A028DF704.description2}"
 				""
-				"&7All &66 sides&r &7of the hopper can be &aconfigured&r &7for different output types via the &eDown, Up, North, South, West, and East&r &7buttons."
+				"{ftbquests.chapter.mob_grinding.quest7E200B1A028DF704.description3}"
 				""
-				"&7Up to &66 Radius Upgrades&r &7can be installed to &bincrease the pickup area size&r &7for items and experience."
+				"{ftbquests.chapter.mob_grinding.quest7E200B1A028DF704.description4}"
 			]
 			id: "7E200B1A028DF704"
 			min_width: 300
@@ -68,9 +68,9 @@
 		}
 		{
 			description: [
-				"Glass that doesn't let light through."
+				"{ftbquests.chapter.mob_grinding.quest6A752619712F23A1.description1}"
 				""
-				"Its the perfect cage for the wither."
+				"{ftbquests.chapter.mob_grinding.quest6A752619712F23A1.description2}"
 			]
 			id: "6A752619712F23A1"
 			rewards: [
@@ -266,7 +266,7 @@
 				item: "cataclysm:abyssal_egg"
 				type: "item"
 			}]
-			title: "Obtain The Abyssal Egg"
+			title: "{ftbquests.chapter.mob_grinding.quest35A2FAE57A8C60C7.title}"
 			x: -1.5d
 			y: -3.0d
 		}
@@ -325,7 +325,7 @@
 				type: "kill"
 				value: 1L
 			}]
-			title: "Kill the harbinger"
+			title: "{ftbquests.chapter.mob_grinding.quest3D5F259F0263E4AD.title}"
 			x: 6.5d
 			y: -2.5d
 		}
@@ -353,16 +353,16 @@
 				item: "cataclysm:witherite_ingot"
 				type: "item"
 			}]
-			title: "Obtain Witherite"
+			title: "{ftbquests.chapter.mob_grinding.quest48E3CB3381D466E3.title}"
 			x: 6.5d
 			y: -4.0d
 		}
 		{
 			dependencies: ["2EA2F770EFCD342B"]
 			description: [
-				"My personal favorite weapon."
+				"{ftbquests.chapter.mob_grinding.quest7904E7153115E60B.description1}"
 				""
-				"Haha saw go brrrrr"
+				"{ftbquests.chapter.mob_grinding.quest7904E7153115E60B.description2}"
 			]
 			id: "7904E7153115E60B"
 			rewards: [
@@ -392,7 +392,7 @@
 				item: "cataclysm:meat_shredder"
 				type: "item"
 			}]
-			title: "Craft the Meat Shredder"
+			title: "{ftbquests.chapter.mob_grinding.quest7904E7153115E60B.title}"
 			x: 6.5d
 			y: -7.0d
 		}
@@ -424,7 +424,7 @@
 				}
 				type: "item"
 			}]
-			title: "Craft The Laser Gatling"
+			title: "{ftbquests.chapter.mob_grinding.quest39DBEDCA587BA1E1.title}"
 			x: 5.5d
 			y: -7.0d
 		}
@@ -450,7 +450,7 @@
 				item: "cataclysm:wither_assault_shoulder_weapon"
 				type: "item"
 			}]
-			title: "Craft the WASW"
+			title: "{ftbquests.chapter.mob_grinding.quest61FF844439FCBE0E.title}"
 			x: 7.5d
 			y: -7.0d
 		}
@@ -475,7 +475,7 @@
 				item: "cataclysm:mechanical_fusion_anvil"
 				type: "item"
 			}]
-			title: "Craft the Mechanical Fusion Anvil"
+			title: "{ftbquests.chapter.mob_grinding.quest2EA2F770EFCD342B.title}"
 			x: 6.5d
 			y: -5.5d
 		}
@@ -838,12 +838,12 @@
 		}
 		{
 			description: [
-				"&6Mob Fan&r &7pushes entities in the direction it is facing when powered by &credstone&r&7."
+				"{ftbquests.chapter.mob_grinding.quest2DECC405722071F7.description1}"
 				""
-				"&7It supports &63 upgrade types&r&7:"
-				"&6Width Modifier&r &7increases the &bpush area width&r &7by &a1 block&r&7."
-				"&6Height Modifier&r &7increases the &bpush area height&r &7by &a1 block&r&7."
-				"&6Distance Modifier&r &7increases the &epush distance&r &7by &a1 block&r&7."
+				"{ftbquests.chapter.mob_grinding.quest2DECC405722071F7.description2}"
+				"{ftbquests.chapter.mob_grinding.quest2DECC405722071F7.description3}"
+				"{ftbquests.chapter.mob_grinding.quest2DECC405722071F7.description4}"
+				"{ftbquests.chapter.mob_grinding.quest2DECC405722071F7.description5}"
 			]
 			id: "2DECC405722071F7"
 			min_width: 300
@@ -864,8 +864,8 @@
 		}
 		{
 			description: [
-				"&6Entity Conveyor&r &7pushes any &eentity&r &7standing on top of it in a set direction."
-				"&7Players can &aavoid being moved&r &7by &bsneaking&r &7(holding &eShift&r&7)."
+				"{ftbquests.chapter.mob_grinding.quest1E621425409F2864.description1}"
+				"{ftbquests.chapter.mob_grinding.quest1E621425409F2864.description2}"
 			]
 			id: "1E621425409F2864"
 			rewards: [{
@@ -939,11 +939,11 @@
 		}
 		{
 			description: [
-				"&6Vector Plates&r &7from &5Dark Utilities&r &7are &aadvanced movement blocks&r &7that push entities in a chosen direction."
+				"{ftbquests.chapter.mob_grinding.quest6DAA43F5088D6196.description1}"
 				""
-				"&7They can move &eplayers, mobs, and items&r &7quickly and reliably, making them ideal for &bautomation&r &7and &cfarm setups&r&7."
+				"{ftbquests.chapter.mob_grinding.quest6DAA43F5088D6196.description2}"
 				""
-				"&7Sneaking allows players to &aresist the movement&r&7, giving precise control when needed&r&7."
+				"{ftbquests.chapter.mob_grinding.quest6DAA43F5088D6196.description3}"
 			]
 			id: "6DAA43F5088D6196"
 			min_width: 300
@@ -1000,18 +1000,18 @@
 		}
 		{
 			description: [
-				"&6Mob Masher&r &7is an &aupgradeable mob-grinding machine&r &7that activates when powered by &credstone&r."
-				"&7Any &eliving entity&r &7that comes into contact with it while active will &ccontinuously take damage&r."
-				"&7Mobs killed by the Mob Masher are treated as &aplayer kills&r, causing them to &bdrop experience&r as well."
+				"{ftbquests.chapter.mob_grinding.quest7D61929378EAC308.description1}"
+				"{ftbquests.chapter.mob_grinding.quest7D61929378EAC308.description2}"
+				"{ftbquests.chapter.mob_grinding.quest7D61929378EAC308.description3}"
 				""
 				""
-				"&7There are &66 upgrade types&r&7:"
-				"&6Sharpness&r &7increases the &cdamage dealt per hit&r&7."
-				"&6Looting&r &7improves the &bquality of mob drops&r&7."
-				"&6Fire Aspect&r &7increases &cfire damage&r &7and &efire duration&r&7."
-				"&6Smite&r &7boosts damage against &aundead mobs&r&7."
-				"&6Bane of Arthropods&r &7increases damage dealt to &aarthropods&r&7."
-				"&6Beheading&r &7adds a &d10% chance per upgrade&r &7for mobs to &edrop their head&r&7."
+				"{ftbquests.chapter.mob_grinding.quest7D61929378EAC308.description4}"
+				"{ftbquests.chapter.mob_grinding.quest7D61929378EAC308.description5}"
+				"{ftbquests.chapter.mob_grinding.quest7D61929378EAC308.description6}"
+				"{ftbquests.chapter.mob_grinding.quest7D61929378EAC308.description7}"
+				"{ftbquests.chapter.mob_grinding.quest7D61929378EAC308.description8}"
+				"{ftbquests.chapter.mob_grinding.quest7D61929378EAC308.description9}"
+				"{ftbquests.chapter.mob_grinding.quest7D61929378EAC308.description10}"
 			]
 			id: "7D61929378EAC308"
 			min_width: 300
@@ -1133,7 +1133,7 @@
 			y: 10.0d
 		}
 		{
-			description: ["&6Singularity Tank&r &7is a &bfluid storage tank&r &7that can hold up to &a32 buckets&r &7of any fluid&r&7."]
+			description: ["{ftbquests.chapter.mob_grinding.quest56B496FCD6877FE6.description1}"]
 			id: "56B496FCD6877FE6"
 			rewards: [{
 				id: "2F9F0E869EA1103E"
@@ -1151,7 +1151,7 @@
 		}
 		{
 			dependencies: ["7396DDBFF4D4ECC1"]
-			description: ["&6Jumbo Tank&r &7is a &bfluid storage tank&r &7that can hold up to &a1024 buckets&r &7of any fluid&r&7."]
+			description: ["{ftbquests.chapter.mob_grinding.quest6C0EB4981AA33466.description1}"]
 			id: "6C0EB4981AA33466"
 			rewards: [{
 				id: "30D0618635C97406"
@@ -1170,8 +1170,8 @@
 		{
 			dependencies: ["56B496FCD6877FE6"]
 			description: [
-				"&6XP Drain Singularity Tank&r &7is a &bfluid storage tank&r &7that holds up to &a32 buckets&r &7of any fluid&r&7."
-				"&7Players standing on top of the tank will have their &aexperience drained&r &7and stored inside the tank&r&7."
+				"{ftbquests.chapter.mob_grinding.quest7396DDBFF4D4ECC1.description1}"
+				"{ftbquests.chapter.mob_grinding.quest7396DDBFF4D4ECC1.description2}"
 			]
 			id: "7396DDBFF4D4ECC1"
 			rewards: [{
@@ -1189,7 +1189,7 @@
 			y: 5.5d
 		}
 		{
-			description: ["&6Ender Inhibitor&r &7prevents &eentities&r &7from &cteleporting&r &7within an &a8-block radius&r &7of the Ender Inhibitor."]
+			description: ["{ftbquests.chapter.mob_grinding.quest343154008E85BAE3.description1}"]
 			id: "343154008E85BAE3"
 			rewards: [{
 				id: "5B83180AF1F3A918"
@@ -1208,8 +1208,8 @@
 		{
 			dependencies: ["7396DDBFF4D4ECC1"]
 			description: [
-				"&6XP Tap&r &7can be attached to the side of a &6Singularity Tank&r &7containing &aliquid experience&r&7."
-				"&7Right-clicking the tap will &erelease the stored XP&r &7as &aexperience orbs&r&7."
+				"{ftbquests.chapter.mob_grinding.quest4F4A0970FD4D5A3E.description1}"
+				"{ftbquests.chapter.mob_grinding.quest4F4A0970FD4D5A3E.description2}"
 			]
 			id: "4F4A0970FD4D5A3E"
 			rewards: [{
@@ -1333,13 +1333,13 @@
 		{
 			dependencies: ["64F63DCDA106EC3B"]
 			description: [
-				"&7Craft a &6Mob Swab&r &7and &eright-click&r &7a mob to &asave its DNA&r&7."
+				"{ftbquests.chapter.mob_grinding.quest3C8AD5F473EA51D.description1}"
 				""
-				"&7Combine the Mob Swab with &aa single seed&r &7and a &bbucket of liquid experience&r &7to craft &6GM Chicken Feed&r&7."
+				"{ftbquests.chapter.mob_grinding.quest3C8AD5F473EA51D.description2}"
 				""
-				"&7Feed the GM Chicken Feed to a &echicken&r&7; it will &cexplode&r &7and drop a &aspawn egg&r &7of the selected mob&r&7."
+				"{ftbquests.chapter.mob_grinding.quest3C8AD5F473EA51D.description3}"
 				""
-				"&7This spawn egg can be placed in an &bApotheosis mob spawner&r &7for &aeasy mob farms&r&7."
+				"{ftbquests.chapter.mob_grinding.quest3C8AD5F473EA51D.description4}"
 			]
 			id: "03C8AD5F473EA51D"
 			rewards: [{
@@ -1460,8 +1460,8 @@
 		}
 		{
 			description: [
-				"&6Wither Boss Death Muffler&r &7silences &cwither boss death sounds&r &7within an &a8-block radius&r&7."
-				"&7Right-clicking the muffler also &bhides the boss bar&r&7."
+				"{ftbquests.chapter.mob_grinding.quest755178C0306F9ADF.description1}"
+				"{ftbquests.chapter.mob_grinding.quest755178C0306F9ADF.description2}"
 			]
 			id: "755178C0306F9ADF"
 			rewards: [{
@@ -1480,8 +1480,8 @@
 		}
 		{
 			description: [
-				"&6Ender Dragon Death Muffler&r &7silences &cEnder Dragon death sounds&r &7within a &a32-block radius&r&7."
-				"&7Right-clicking the muffler also &bhides the boss bar&r&7."
+				"{ftbquests.chapter.mob_grinding.quest3E6F3D025F933FD.description1}"
+				"{ftbquests.chapter.mob_grinding.quest3E6F3D025F933FD.description2}"
 			]
 			id: "03E6F3D025F933FD"
 			rewards: [{
@@ -1534,8 +1534,8 @@
 		}
 		{
 			description: [
-				"&6Iron Spikes&r &7damage &cplayers&r &7and &emobs&r &7that come into contact with them."
-				"&7Mobs killed by Iron Spikes &bdrop experience&r&7, but &cdo not count as player kills&r&7."
+				"{ftbquests.chapter.mob_grinding.quest163EEE264D1C12B2.description1}"
+				"{ftbquests.chapter.mob_grinding.quest163EEE264D1C12B2.description2}"
 			]
 			id: "163EEE264D1C12B2"
 			rewards: [{
@@ -1554,11 +1554,11 @@
 		}
 		{
 			description: [
-				"&6Mob Grinding Utilities&r &7adds a variety of &apractical machines&r &7that help you &ecollect, move, weaken, and defeat mobs&r &7automatically."
+				"{ftbquests.chapter.mob_grinding.questE0367D5C2B35F37.description1}"
 				""
-				"&7Build &bcompact and efficient mob farms&r &7without complex redstone and take full control over mob processing."
+				"{ftbquests.chapter.mob_grinding.questE0367D5C2B35F37.description2}"
 				""
-				"&7Perfect for both &abeginners&r &7and &cadvanced players&r &7looking to optimize survival gameplay in &aMinecraft&r."
+				"{ftbquests.chapter.mob_grinding.questE0367D5C2B35F37.description3}"
 			]
 			id: "0E0367D5C2B35F37"
 			min_width: 300
@@ -1570,17 +1570,17 @@
 			size: 2.0d
 			tasks: [{
 				id: "2D63A9B90B940FA3"
-				title: "."
+				title: "{ftbquests.chapter.mob_grinding.questE0367D5C2B35F37.task.3270644366629408675.title}"
 				type: "checkmark"
 			}]
-			title: "&6Mob Grinding Utilities&r"
+			title: "{ftbquests.chapter.mob_grinding.questE0367D5C2B35F37.title}"
 			x: 4.0d
 			y: 3.0d
 		}
 		{
 			description: [
-				"&2This quest was made by whothehellisnico!&r"
-				"&1Thank you a lot!&r"
+				"{ftbquests.chapter.mob_grinding.quest32E906F55B0D9F31.description1}"
+				"{ftbquests.chapter.mob_grinding.quest32E906F55B0D9F31.description2}"
 			]
 			id: "32E906F55B0D9F31"
 			invisible: true
@@ -1592,12 +1592,12 @@
 			}]
 			tasks: [{
 				id: "111A6F2CA186260C"
-				title: "&2This quest was made by whothehellisnico!&r&1 Thank you a lot!&r"
+				title: "{ftbquests.chapter.mob_grinding.quest32E906F55B0D9F31.task.1232419685518419468.title}"
 				type: "checkmark"
 			}]
 			x: 2.0d
 			y: 1.5d
 		}
 	]
-	title: "Mob Grinding Utilities"
+	title: "{ftbquests.chapter.mob_grinding.title}"
 }

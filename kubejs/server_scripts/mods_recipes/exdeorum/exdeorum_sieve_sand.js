@@ -138,8 +138,9 @@ ServerEvents.recipes((event) => {
     'minecraft:prismarine_crystals': 0.125,
     'minecraft:raw_gold': 0.25,
     'minecraft:lapis_lazuli': 0.4,
-    'mysticalagriculture:inferium_essence': 0.1,
     'exdeorum:gold_ore_chunk': 0.25,
+    'mekanism:fluorite_gem': 0.25,
+    'mysticalagriculture:inferium_essence': 0.1,
   };
 
   Object.entries(drops).forEach(([drops, base_chance]) => {
@@ -168,6 +169,7 @@ ServerEvents.recipes((event) => {
     'minecraft:lapis_lazuli': 0.5,
     'mysticalagriculture:inferium_essence': 0.15,
     'exdeorum:gold_ore_chunk': 0.35,
+    'mekanism:fluorite_gem': 0.45,
     'allthemodium:allthemodium_nugget': 0.000001,
   };
 
@@ -197,6 +199,7 @@ ServerEvents.recipes((event) => {
     'minecraft:lapis_lazuli': 0.65,
     'mysticalagriculture:inferium_essence': 0.25,
     'exdeorum:gold_ore_chunk': 0.45,
+    'mekanism:fluorite_gem': 0.55,
     'allthemodium:allthemodium_nugget': 0.00025,
   };
 
@@ -226,6 +229,7 @@ ServerEvents.recipes((event) => {
     'minecraft:lapis_lazuli': 0.75,
     'mysticalagriculture:inferium_essence': 0.33,
     'exdeorum:gold_ore_chunk': 0.5,
+    'mekanism:fluorite_gem': 0.65,
     'allthemodium:allthemodium_nugget': 0.001,
   };
 

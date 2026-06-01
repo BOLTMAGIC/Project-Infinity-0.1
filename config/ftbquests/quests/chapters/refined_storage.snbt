@@ -18,12 +18,12 @@
 	quests: [
 		{
 			description: [
-				"&b&lRefined Storage&r&r is a storage mod that lets you build a storage network using different devices. These devices store, organize, and manage your items and fluids."
+				"{ftbquests.chapter.refined_storage.quest4E424D3A4D514B73.description1}"
 				""
-				"It is less complicated then &5&lAE2 network&r&r. It have no channels and there is no item type limitation. Other than that it allows for same things as AE2 like storage and auto-crafting."
+				"{ftbquests.chapter.refined_storage.quest4E424D3A4D514B73.description2}"
 				""
 				""
-				"&1Please use AE2 because it got so many addons!&r"
+				"{ftbquests.chapter.refined_storage.quest4E424D3A4D514B73.description3}"
 			]
 			id: "4E424D3A4D514B73"
 			rewards: [
@@ -40,16 +40,16 @@
 			]
 			tasks: [{
 				id: "2930A1A188631134"
-				title: "Start"
+				title: "{ftbquests.chapter.refined_storage.quest4E424D3A4D514B73.task.2968049869587157300.title}"
 				type: "checkmark"
 			}]
-			title: "Refined Storage"
+			title: "{ftbquests.chapter.refined_storage.quest4E424D3A4D514B73.title}"
 			x: -0.5d
 			y: -8.0d
 		}
 		{
 			dependencies: ["4E424D3A4D514B73"]
-			description: ["Let's start with some basic materials. Start by crafting some &b&lQuartz Enriched Iron&r&r and &b&lProcessor Binding&r&r. You gonna need those to start your digital storage system !"]
+			description: ["{ftbquests.chapter.refined_storage.quest1F6283A843E4F6D6.description1}"]
 			id: "1F6283A843E4F6D6"
 			rewards: [
 				{
@@ -82,13 +82,13 @@
 					type: "item"
 				}
 			]
-			title: "Getting Started"
+			title: "{ftbquests.chapter.refined_storage.quest1F6283A843E4F6D6.title}"
 			x: -0.5d
 			y: -6.0d
 		}
 		{
 			dependencies: ["1F6283A843E4F6D6"]
-			description: ["Craft some processors now. They are the basic components for monitors, storage disks and many other usefull stuff."]
+			description: ["{ftbquests.chapter.refined_storage.quest6DC89199CF88AD9D.description1}"]
 			id: "6DC89199CF88AD9D"
 			rewards: [
 				{
@@ -138,11 +138,11 @@
 		{
 			dependencies: ["6DC89199CF88AD9D"]
 			description: [
-				"The &l&bController&r&r powers the storage network."
+				"{ftbquests.chapter.refined_storage.quest220EBF75C940C7CF.description1}"
 				""
-				"Each network requires &b&lat least one Controller&r&r to stay active. Multiple Controllers can be used to meet higher energy demands."
+				"{ftbquests.chapter.refined_storage.quest220EBF75C940C7CF.description2}"
 				""
-				"Other Rafined Storage machines needs to be connected to controller, either with Cable or they can just touch controller or any other machine that is connected to it."
+				"{ftbquests.chapter.refined_storage.quest220EBF75C940C7CF.description3}"
 			]
 			id: "220EBF75C940C7CF"
 			rewards: [{
@@ -157,18 +157,18 @@
 				item: "refinedstorage:controller"
 				type: "item"
 			}]
-			title: "Core of Refined Storage"
+			title: "{ftbquests.chapter.refined_storage.quest220EBF75C940C7CF.title}"
 			x: -0.5d
 			y: -2.0d
 		}
 		{
 			dependencies: ["220EBF75C940C7CF"]
 			description: [
-				"The Cable connects storage network devices."
+				"{ftbquests.chapter.refined_storage.quest141BD9E06189A5FD.description1}"
 				""
-				"However, cables are not always required - devices that are directly touching will automatically form a connection."
+				"{ftbquests.chapter.refined_storage.quest141BD9E06189A5FD.description2}"
 				""
-				"If the Cable is colored, it will only connect to blocks and cables of the same color or the default color."
+				"{ftbquests.chapter.refined_storage.quest141BD9E06189A5FD.description3}"
 			]
 			id: "141BD9E06189A5FD"
 			rewards: [
@@ -195,15 +195,15 @@
 		{
 			dependencies: ["141BD9E06189A5FD"]
 			description: [
-				"There are many ways for you network to interact with other machines. This allows you to automate some processes and make you life easier-ish !"
+				"{ftbquests.chapter.refined_storage.quest6235BBB56DA52EAB.description1}"
 				""
-				"&b&lThe Importer&r&r extracts resources from a connected external inventory and inserts them into the storage network."
+				"{ftbquests.chapter.refined_storage.quest6235BBB56DA52EAB.description2}"
 				""
-				"&b&lThe Exporter&r&r extracts resources from the storage network and inserts them into a connected external inventory."
+				"{ftbquests.chapter.refined_storage.quest6235BBB56DA52EAB.description3}"
 				""
-				"&l&bThe Interface&r&r combines the functions of the &b&lImporter&r&r and &b&lExporter&r&r."
+				"{ftbquests.chapter.refined_storage.quest6235BBB56DA52EAB.description4}"
 				""
-				"&b&lThe External Storage&r&r provides the storage network with storage from the connected external inventory. You can use it on chests, drawers, barrels ect. That way you can have a vast quantities of items in your storage without bloating the disks."
+				"{ftbquests.chapter.refined_storage.quest6235BBB56DA52EAB.description5}"
 			]
 			id: "6235BBB56DA52EAB"
 			rewards: [{
@@ -233,7 +233,7 @@
 					type: "item"
 				}
 			]
-			title: "Bus Bus Bus Bus !"
+			title: "{ftbquests.chapter.refined_storage.quest6235BBB56DA52EAB.title}"
 			x: -6.0d
 			y: -2.0d
 		}
@@ -398,9 +398,9 @@
 		{
 			dependencies: ["220EBF75C940C7CF"]
 			description: [
-				"The Disk Drive stores &b&lstorage disks&r&r and &b&lfluid storage disks&r&r."
+				"{ftbquests.chapter.refined_storage.quest51B0E0A54C84A69B.description1}"
 				""
-				"By adding storage disks to it, the Disk Drive expands the storage capacity of the storage network. The total available storage depends on the number and type of disks inside. Removing a disk will make its stored contents temporarily inaccessible until reinserted."
+				"{ftbquests.chapter.refined_storage.quest51B0E0A54C84A69B.description2}"
 			]
 			id: "51B0E0A54C84A69B"
 			rewards: [{
@@ -413,13 +413,13 @@
 				item: "refinedstorage:disk_drive"
 				type: "item"
 			}]
-			title: "Please Insert Disk"
+			title: "{ftbquests.chapter.refined_storage.quest51B0E0A54C84A69B.title}"
 			x: -0.5d
 			y: 0.5d
 		}
 		{
 			dependencies: ["6235BBB56DA52EAB"]
-			description: ["Works same as normal interface but for fluids. Requires fluid storage disks."]
+			description: ["{ftbquests.chapter.refined_storage.quest15CF97F5FFBB92E2.description1}"]
 			id: "15CF97F5FFBB92E2"
 			rewards: [{
 				id: "60B218D16BC87EC6"
@@ -437,9 +437,9 @@
 		{
 			dependencies: ["51B0E0A54C84A69B"]
 			description: [
-				"&b&lThe Crafting Grid&r&r allows access to the resources stored in the storage network and craft with them."
+				"{ftbquests.chapter.refined_storage.quest189607EFA4AADBEC.description1}"
 				""
-				"You can insert and extract resources in the storage network within the Grid. "
+				"{ftbquests.chapter.refined_storage.quest189607EFA4AADBEC.description2}"
 			]
 			id: "189607EFA4AADBEC"
 			rewards: [{
@@ -469,7 +469,7 @@
 		}
 		{
 			dependencies: ["220EBF75C940C7CF"]
-			description: ["This is the basic component for all other upgrade cards."]
+			description: ["{ftbquests.chapter.refined_storage.quest32846AB135D2A5E3.description1}"]
 			id: "32846AB135D2A5E3"
 			rewards: [{
 				id: "71003AB6A709CFAC"
@@ -481,7 +481,7 @@
 				item: "refinedstorage:upgrade"
 				type: "item"
 			}]
-			title: "Upgrades People ! Upgrades !"
+			title: "{ftbquests.chapter.refined_storage.quest32846AB135D2A5E3.title}"
 			x: -5.0d
 			y: 0.5d
 		}
@@ -491,9 +491,9 @@
 				"189607EFA4AADBEC"
 			]
 			description: [
-				"To start your auto-crafting journey first you need Pattern Grid and some patterns."
+				"{ftbquests.chapter.refined_storage.quest75ABEA98F245395A.description1}"
 				""
-				"&oTip: Setting up a pattern for a &b&lPattern Card&r&r first is a law !&r"
+				"{ftbquests.chapter.refined_storage.quest75ABEA98F245395A.description2}"
 			]
 			id: "75ABEA98F245395A"
 			rewards: [{
@@ -517,18 +517,18 @@
 					type: "item"
 				}
 			]
-			title: "Auto-Crafting"
+			title: "{ftbquests.chapter.refined_storage.quest75ABEA98F245395A.title}"
 			x: 2.5d
 			y: -2.0d
 		}
 		{
 			dependencies: ["75ABEA98F245395A"]
 			description: [
-				"The Autocrafter executes autocrafting tasks using patterns inserted into it or available in the storage network."
+				"{ftbquests.chapter.refined_storage.quest41A5BDAD63BC029.description1}"
 				""
-				"It can be upgraded with &b&lupgrade cards&r&r and &b&lhigher tiers&r&r allows to store more patterns."
+				"{ftbquests.chapter.refined_storage.quest41A5BDAD63BC029.description2}"
 				""
-				"It can be use to autocraft items (like in crafting table) or if facing another machine, you can automate crafting with them as well (like smelting or other processes),"
+				"{ftbquests.chapter.refined_storage.quest41A5BDAD63BC029.description3}"
 			]
 			id: "041A5BDAD63BC029"
 			rewards: [{
@@ -541,7 +541,7 @@
 				item: "refinedstorage:crafter"
 				type: "item"
 			}]
-			title: "Alexa ! Craft for me"
+			title: "{ftbquests.chapter.refined_storage.quest41A5BDAD63BC029.title}"
 			x: 5.5d
 			y: -2.0d
 		}
@@ -625,13 +625,13 @@
 					type: "item"
 				}
 			]
-			title: "Other Monitors"
+			title: "{ftbquests.chapter.refined_storage.quest5E08C32428924180.title}"
 			x: 4.5d
 			y: 2.5d
 		}
 		{
 			dependencies: ["041A5BDAD63BC029"]
-			description: ["&b&lRequester&r&r allows you to set up a minimum amount of choosen item to be always available in your system."]
+			description: ["{ftbquests.chapter.refined_storage.quest6F9F4D8413DFCC4A.description1}"]
 			id: "6F9F4D8413DFCC4A"
 			rewards: [{
 				id: "6C11938F815B10CF"
@@ -643,7 +643,7 @@
 				item: "rsrequestify:requester"
 				type: "item"
 			}]
-			title: "Can I get umm..."
+			title: "{ftbquests.chapter.refined_storage.quest6F9F4D8413DFCC4A.title}"
 			x: 8.0d
 			y: -2.0d
 		}
@@ -697,7 +697,7 @@
 		}
 		{
 			dependencies: ["6F9F4D8413DFCC4A"]
-			description: ["&l&bCrafter Emitter&r&r emits a redstone signal when any item or fluid is crafted."]
+			description: ["{ftbquests.chapter.refined_storage.quest765D07B301563047.description1}"]
 			id: "765D07B301563047"
 			rewards: [{
 				id: "439E0F8D43383064"
@@ -715,9 +715,9 @@
 		{
 			dependencies: ["189607EFA4AADBEC"]
 			description: [
-				"To use wireless tools, the storage network must be accessible wirelessly by installing &l&bWireless Transmitters&r&r in the network. It have the range of &b&l16 Blocks&r&r by default but can be increased."
+				"{ftbquests.chapter.refined_storage.quest5F96B028BB23FE5D.description1}"
 				""
-				"To bind &b&lWireless Grid&r&r to your network shift right click with grin on any device in you storage network."
+				"{ftbquests.chapter.refined_storage.quest5F96B028BB23FE5D.description2}"
 			]
 			id: "5F96B028BB23FE5D"
 			rewards: [{
@@ -737,13 +737,13 @@
 					type: "item"
 				}
 			]
-			title: "Wireless Access"
+			title: "{ftbquests.chapter.refined_storage.quest5F96B028BB23FE5D.title}"
 			x: 5.5d
 			y: 0.5d
 		}
 		{
 			dependencies: ["5F96B028BB23FE5D"]
-			description: ["Adds range to your Wireless Transmitter"]
+			description: ["{ftbquests.chapter.refined_storage.quest255692048E04D933.description1}"]
 			id: "255692048E04D933"
 			rewards: [{
 				id: "6F50430F142BA092"
@@ -760,7 +760,7 @@
 		}
 		{
 			dependencies: ["32846AB135D2A5E3"]
-			description: ["&l&bThe Speed Upgrade&r&r increases the transfer speed of the device it is installed in."]
+			description: ["{ftbquests.chapter.refined_storage.quest5421CEF5EFFA4D7.description1}"]
 			id: "05421CEF5EFFA4D7"
 			rewards: [{
 				id: "28A0625071C3C1D8"
@@ -777,7 +777,7 @@
 		}
 		{
 			dependencies: ["32846AB135D2A5E3"]
-			description: ["&l&bThe Autocrafting Upgrade&r&r will schedule an autocrafting task when a resource that is required by a storage network device is needed, but not available."]
+			description: ["{ftbquests.chapter.refined_storage.quest650D0F37AA018B81.description1}"]
 			id: "650D0F37AA018B81"
 			rewards: [{
 				id: "66C97B253ABF2340"
@@ -794,7 +794,7 @@
 		}
 		{
 			dependencies: ["32846AB135D2A5E3"]
-			description: ["&b&lThe Stack Upgrade&r&r increases the transfer amount per tick of the device it is installed in."]
+			description: ["{ftbquests.chapter.refined_storage.quest4D3AEF3DB6E7BBC7.description1}"]
 			id: "4D3AEF3DB6E7BBC7"
 			rewards: [{
 				id: "753C4ACF4291D465"
@@ -811,7 +811,7 @@
 		}
 		{
 			dependencies: ["32846AB135D2A5E3"]
-			description: ["&b&lThe Silk Touch Upgrade&r&r allows the &4&lDestructor&r&r to apply silk touch when breaking blocks."]
+			description: ["{ftbquests.chapter.refined_storage.quest6E84C5F839BE53F8.description1}"]
 			id: "6E84C5F839BE53F8"
 			rewards: [{
 				id: "6CCADB987C4DA6EF"
@@ -828,7 +828,7 @@
 		}
 		{
 			dependencies: ["32846AB135D2A5E3"]
-			description: ["&b&lThe Regulator Upgrade&r&r is an upgrade for the &b&lExporter&r&r and &b&lImporter&r&r that maintains a set amount of resources in the connected inventory."]
+			description: ["{ftbquests.chapter.refined_storage.quest3DC74356834228D8.description1}"]
 			id: "3DC74356834228D8"
 			rewards: [{
 				id: "41249DC25405AAFE"
@@ -845,7 +845,7 @@
 		}
 		{
 			dependencies: ["32846AB135D2A5E3"]
-			description: ["&b&lThe Fortune Upgrade&r&r allows the &l&4Destructor&r&r to apply a fortune level when breaking blocks. The level depends on the upgrade used."]
+			description: ["{ftbquests.chapter.refined_storage.quest7E3116DDD7CB8C59.description1}"]
 			id: "7E3116DDD7CB8C59"
 			rewards: [{
 				count: 3
@@ -1123,7 +1123,7 @@
 		}
 		{
 			dependencies: ["5F96B028BB23FE5D"]
-			description: ["In order to connect storage networks to each other wirelessly, a &b&lNetwork Transmitter&r&r must be used on the transmitting end. It sends a wireless signal to a &l&bNetwork Receiver&r&r via a &b&lNetwork Card&r&r."]
+			description: ["{ftbquests.chapter.refined_storage.quest6F4566043F03772F.description1}"]
 			id: "6F4566043F03772F"
 			rewards: [{
 				id: "492C70EE9C6CA7A2"
@@ -1147,7 +1147,7 @@
 					type: "item"
 				}
 			]
-			title: "Distant Networking"
+			title: "{ftbquests.chapter.refined_storage.quest6F4566043F03772F.title}"
 			x: 8.0d
 			y: 0.5d
 		}
@@ -1238,7 +1238,7 @@
 		}
 		{
 			dependencies: ["255692048E04D933"]
-			description: ["Gives your wireless transmitter infinite range."]
+			description: ["{ftbquests.chapter.refined_storage.quest779C84DB6763FE9A.description1}"]
 			id: "779C84DB6763FE9A"
 			rewards: [{
 				id: "2D0B7D5188283652"
@@ -1255,7 +1255,7 @@
 		}
 		{
 			dependencies: ["779C84DB6763FE9A"]
-			description: ["Gives your wireless transmitter infinite range AND allows you to use your wireless grid in other dimensions."]
+			description: ["{ftbquests.chapter.refined_storage.quest26ED9F7C2B88D420.description1}"]
 			id: "26ED9F7C2B88D420"
 			rewards: [{
 				count: 2
@@ -1272,11 +1272,11 @@
 			y: 2.5d
 		}
 		{
-			description: ["This is a section of optional creative items. You can craft them later in the game if you wish."]
+			description: ["{ftbquests.chapter.refined_storage.quest5CAE5B75E6F1B399.description1}"]
 			id: "5CAE5B75E6F1B399"
 			tasks: [{
 				id: "7F3AC2A7A8137200"
-				title: "Creative Stuff"
+				title: "{ftbquests.chapter.refined_storage.quest5CAE5B75E6F1B399.task.9167854016801239552.title}"
 				type: "checkmark"
 			}]
 			x: -8.5d
@@ -1285,9 +1285,9 @@
 		{
 			dependencies: ["189607EFA4AADBEC"]
 			description: [
-				"&b&lThe Constructor&r&r places resources from the storage network into the block space in front of it."
+				"{ftbquests.chapter.refined_storage.quest6D5BF32013493D1B.description1}"
 				""
-				"&4&lThe Destructor&r&r destroys blocks in front of it and stores the drops in the storage network."
+				"{ftbquests.chapter.refined_storage.quest6D5BF32013493D1B.description2}"
 			]
 			id: "6D5BF32013493D1B"
 			rewards: [{
@@ -1360,8 +1360,8 @@
 		}
 		{
 			description: [
-				"&2This quest was made by Vespa13!&r"
-				"&1Thank you a lot!&r"
+				"{ftbquests.chapter.refined_storage.quest52CD86E80E6E2961.description1}"
+				"{ftbquests.chapter.refined_storage.quest52CD86E80E6E2961.description2}"
 			]
 			id: "52CD86E80E6E2961"
 			invisible: true
@@ -1373,12 +1373,12 @@
 			}]
 			tasks: [{
 				id: "0FDDE135BAA11F8D"
-				title: "&2This quest was made by Vespa13!&r&1 Thank you a lot!&r"
+				title: "{ftbquests.chapter.refined_storage.quest52CD86E80E6E2961.task.1143317501302611853.title}"
 				type: "checkmark"
 			}]
 			x: -0.5d
 			y: -9.5d
 		}
 	]
-	title: "Refined Storage"
+	title: "{ftbquests.chapter.refined_storage.title}"
 }

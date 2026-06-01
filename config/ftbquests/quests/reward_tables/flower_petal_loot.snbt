@@ -21,6 +21,6 @@
 		{ count: 3, item: "botania:black_petal" }
 		{ count: 2, item: "botania:fertilizer" }
 	]
-	title: "Flower Petal Loot Bag"
+	title: "{ftbquests.loot_table.5897485726455770200.title}"
 	use_title: true
 }

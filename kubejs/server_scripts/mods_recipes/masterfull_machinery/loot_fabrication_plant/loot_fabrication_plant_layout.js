@@ -5,6 +5,7 @@ MMEvents.createStructures((event) => {
     .controllerId('mm:loot_fabrication_plant_controller')
     .name('Loot Fabrication Plant')
     .layout((a) => {
+      a.portsAnywhere(true);
       a.layer(['ABBBBBA', 'BEEEEEB', 'BEEOEEB', 'BEEEEEB', 'ABBBBBA'])
         .layer(['ADEEEDA', 'DF   GD', 'E     E', 'DH   ID', 'ADENEDA'])
         .layer(['MDEEEDM', 'D     D', 'E     E', 'D     D', 'MDEEEDM'])
@@ -40,6 +41,7 @@ MMEvents.createStructures((event) => {
         .key('L', {
           portType: 'mm:item',
           input: true,
+          minTier: 2,
         })
         .key('M', {
           block: 'chisel_chipped_integration:laboratory_small_steel',

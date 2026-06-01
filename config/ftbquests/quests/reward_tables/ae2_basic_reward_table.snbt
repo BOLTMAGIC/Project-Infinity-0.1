@@ -16,6 +16,6 @@
 		{ item: "ae2:formation_core" }
 		{ item: "ae2:annihilation_core" }
 	]
-	title: "AE2 Medium Reward Bag"
+	title: "{ftbquests.loot_table.5871764666515020368.title}"
 	use_title: true
 }

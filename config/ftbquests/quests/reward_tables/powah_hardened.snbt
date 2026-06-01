@@ -13,6 +13,6 @@
 		{ item: "powah:solar_panel_hardened" }
 		{ item: "powah:energized_steel_block" }
 	]
-	title: "Powah: Hardened Loot Reward"
+	title: "{ftbquests.loot_table.323217218064538611.title}"
 	use_title: true
 }

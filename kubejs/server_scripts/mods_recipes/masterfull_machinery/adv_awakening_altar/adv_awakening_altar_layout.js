@@ -5,6 +5,7 @@ MMEvents.createStructures((event) => {
     .controllerId('mm:advanced_awakening_altar_controller')
     .name('Advanced Awakening Altar Tier 1')
     .layout((a) => {
+      a.portsAnywhere(true);
       a.layer([
         '           ',
         '    AAA    ',
@@ -145,6 +146,7 @@ MMEvents.createStructures((event) => {
     .controllerId('mm:advanced_awakening_altar_controller')
     .name('Advanced Awakening Altar Tier 2')
     .layout((a) => {
+      a.portsAnywhere(true);
       a.layer([
         '           ',
         '    AAA    ',

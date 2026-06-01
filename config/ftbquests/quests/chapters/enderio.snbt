@@ -104,7 +104,7 @@
 			y: -4.5d
 		}
 		{
-			description: ["Burn some bedrock and wait. (Under your main spawn island)"]
+			description: ["{ftbquests.chapter.enderio.quest26081EF5CD6E826F.description1}"]
 			id: "26081EF5CD6E826F"
 			rewards: [{
 				id: "78926E93D954C25D"
@@ -235,7 +235,7 @@
 				item: "kubejs:apotheotic_coin"
 				type: "item"
 			}]
-			subtitle: "Its clear...... :)"
+			subtitle: "{ftbquests.chapter.enderio.quest4994F1ABF82A9278.subtitle}"
 			tasks: [{
 				id: "5B530D47BD213BE8"
 				item: "enderio:clear_glass"
@@ -1261,5 +1261,5 @@
 			y: 0.5d
 		}
 	]
-	title: "EnderIO"
+	title: "{ftbquests.chapter.enderio.title}"
 }

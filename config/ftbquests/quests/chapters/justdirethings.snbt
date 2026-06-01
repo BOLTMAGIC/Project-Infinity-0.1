@@ -639,7 +639,7 @@
 			y: -8.0d
 		}
 		{
-			description: ["{image:kubejs:block/screen/jdt/primogel_goo width:100 height:100 align:center fit:true}"]
+			description: ["{ftbquests.chapter.justdirethings.quest56D25A91F08C0C19.image0}"]
 			icon: "justdirethings:gooblock_tier1"
 			id: "56D25A91F08C0C19"
 			tasks: [
@@ -666,7 +666,7 @@
 							]
 						}
 					}
-					title: "Sugar or Rotten Flesh"
+					title: "{ftbquests.chapter.justdirethings.quest56D25A91F08C0C19.task.5766238295861753475.title}"
 					type: "item"
 				}
 				{
@@ -680,8 +680,8 @@
 		}
 		{
 			description: [
-				"{image:kubejs:block/screen/jdt/ferricore_ore_1 width:100 height:100 align:center fit:true}"
-				"{image:kubejs:block/screen/jdt/ferricore_ore_2 width:100 height:100 align:center fit:true}"
+				"{ftbquests.chapter.justdirethings.quest18D85621DF45BBF3.image0}"
+				"{ftbquests.chapter.justdirethings.quest18D85621DF45BBF3.image2}"
 			]
 			id: "18D85621DF45BBF3"
 			tasks: [{
@@ -2303,5 +2303,5 @@
 			y: 7.0d
 		}
 	]
-	title: "JustDireThings"
+	title: "{ftbquests.chapter.justdirethings.title}"
 }

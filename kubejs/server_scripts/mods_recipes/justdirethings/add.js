@@ -142,4 +142,114 @@ ServerEvents.recipes((event) => {
     'extendedcrafting:enhanced_ender_ingot',
     'powah:nitro_crystal_block',
   ]);
+  create3x3(event, 'justdirethings:eclipsealloy_helmet', [
+    'justdirethings:eclipsealloy_ingot',
+    'justdirethings:eclipsealloy_ingot',
+    'justdirethings:eclipsealloy_ingot',
+    'justdirethings:eclipsealloy_ingot',
+    'kubejs:infinity_1',
+    'justdirethings:eclipsealloy_ingot',
+    'minecraft:air',
+    'minecraft:air',
+    'minecraft:air',
+  ]);
+  create3x3(event, 'justdirethings:eclipsealloy_leggings', [
+    'justdirethings:eclipsealloy_ingot',
+    'justdirethings:eclipsealloy_ingot',
+    'justdirethings:eclipsealloy_ingot',
+    'justdirethings:eclipsealloy_ingot',
+    'kubejs:infinity_1',
+    'justdirethings:eclipsealloy_ingot',
+    'justdirethings:eclipsealloy_ingot',
+    'minecraft:air',
+    'justdirethings:eclipsealloy_ingot',
+  ]);
+  create3x3(event, 'justdirethings:eclipsealloy_chestplate', [
+    'justdirethings:eclipsealloy_ingot',
+    'kubejs:infinity_1',
+    'justdirethings:eclipsealloy_ingot',
+    'justdirethings:eclipsealloy_ingot',
+    'justdirethings:eclipsealloy_ingot',
+    'justdirethings:eclipsealloy_ingot',
+    'justdirethings:eclipsealloy_ingot',
+    'justdirethings:eclipsealloy_ingot',
+    'justdirethings:eclipsealloy_ingot',
+  ]);
+  create3x3(event, 'justdirethings:eclipsealloy_helmet', [
+    'justdirethings:eclipsealloy_ingot',
+    'kubejs:infinity_1',
+    'justdirethings:eclipsealloy_ingot',
+    'justdirethings:eclipsealloy_ingot',
+    'minecraft:air',
+    'justdirethings:eclipsealloy_ingot',
+    'minecraft:air',
+    'minecraft:air',
+    'minecraft:air',
+  ]);
+  create3x3(event, 'justdirethings:bow_eclipsealloy', [
+    'minecraft:string',
+    'justdirethings:eclipsealloy_ingot',
+    'minecraft:air',
+    'minecraft:string',
+    'kubejs:infinity_1',
+    'justdirethings:eclipsealloy_ingot',
+    'minecraft:string',
+    'justdirethings:eclipsealloy_ingot',
+    'minecraft:air',
+  ])
+  create3x3(event, 'justdirethings:eclipsealloy_sword', [
+    'minecraft:air',
+    'justdirethings:eclipsealloy_ingot',
+    'minecraft:air',
+    'minecraft:air',
+    'justdirethings:eclipsealloy_ingot',
+    'kubejs:infinity_1',
+    'minecraft:air',
+    'minecraft:stick',
+    'minecraft:air',
+  ])
+  create3x3(event, 'justdirethings:eclipsealloy_pickaxe', [
+    'justdirethings:eclipsealloy_ingot',
+    'justdirethings:eclipsealloy_ingot',
+    'justdirethings:eclipsealloy_ingot',
+    'minecraft:air',
+    'minecraft:stick',
+    'kubejs:infinity_1',
+    'minecraft:air',
+    'minecraft:stick',
+    'minecraft:air',
+  ])
+  create3x3(event, 'justdirethings:eclipsealloy_shovel', [
+    'kubejs:infinity_1',
+    'justdirethings:eclipsealloy_ingot',
+    'minecraft:air',
+    'minecraft:air',
+    'minecraft:stick',
+    'minecraft:air',
+    'minecraft:air',
+    'minecraft:stick',
+    'minecraft:air',
+  ])
+  create3x3(event, 'justdirethings:eclipsealloy_axe', [
+    'justdirethings:eclipsealloy_ingot',
+    'justdirethings:eclipsealloy_ingot',
+    'minecraft:air',
+    'justdirethings:eclipsealloy_ingot',
+    'minecraft:stick',
+    'kubejs:infinity_1',
+    'minecraft:air',
+    'minecraft:stick',
+    'minecraft:air',
+  ])
+  create3x3(event, 'justdirethings:eclipsealloy_hoe', [
+    'justdirethings:eclipsealloy_ingot',
+    'justdirethings:eclipsealloy_ingot',
+    'minecraft:air',
+    'minecraft:air',
+    'minecraft:stick',
+    'kubejs:infinity_1',
+    'minecraft:air',
+    'minecraft:stick',
+    'minecraft:air',
+  ])
 });

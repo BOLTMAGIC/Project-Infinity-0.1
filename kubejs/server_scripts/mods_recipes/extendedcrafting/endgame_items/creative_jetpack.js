@@ -16,52 +16,52 @@ ServerEvents.recipes((event) => {
       ],
       key: {
         A: {
-          type: 'forge:nbt',
+          type: 'forge:partial_nbt',
           item: 'ironjetpacks:jetpack',
           count: 1,
-          nbt: '{Energy:12000000,Id:\"ironjetpacks:steel\",Throttle:1.0d}',
+          nbt: '{Energy:12000000,Id:\"ironjetpacks:steel\"}',
         },
         B: {
           item: 'kubejs:infinity_12',
         },
         C: {
-          type: 'forge:nbt',
+          type: 'forge:partial_nbt',
           item: 'ironjetpacks:jetpack',
           count: 1,
-          nbt: '{Energy:100000,Id:\"ironjetpacks:stone\",Throttle:1.0d}',
+          nbt: '{Energy:100000,Id:\"ironjetpacks:stone\"}',
         },
         D: {
           item: 'evolvedmekanism:block_plaslitherite',
         },
         E: {
-          type: 'forge:nbt',
+          type: 'forge:partial_nbt',
           item: 'ironjetpacks:capacitor',
           count: 1,
           nbt: '{Id:\"ironjetpacks:creative\"}',
         },
         F: {
-          type: 'forge:nbt',
+          type: 'forge:partial_nbt',
           item: 'ironjetpacks:jetpack',
           count: 1,
-          nbt: '{Energy:12000000,Id:\"ironjetpacks:invar\",Throttle:1.0d}',
+          nbt: '{Energy:12000000,Id:\"ironjetpacks:invar\"}',
         },
         G: {
-          type: 'forge:nbt',
+          type: 'forge:partial_nbt',
           item: 'ironjetpacks:jetpack',
           count: 1,
-          nbt: '{Energy:48000000,Id:\"ironjetpacks:emerald\",Throttle:1.0d}',
+          nbt: '{Energy:48000000,Id:\"ironjetpacks:emerald\"}',
         },
         H: {
           item: 'evolvedmekanism:creative_control_circuit',
         },
         I: {
-          type: 'forge:nbt',
+          type: 'forge:partial_nbt',
           item: 'ironjetpacks:jetpack',
           count: 1,
-          nbt: '{Energy:1200000,Id:\"ironjetpacks:silver\",Throttle:1.0d}',
+          nbt: '{Energy:1200000,Id:\"ironjetpacks:silver\"}',
         },
         J: {
-          type: 'forge:nbt',
+          type: 'forge:partial_nbt',
           item: 'ironjetpacks:thruster',
           count: 1,
           nbt: '{Id:\"ironjetpacks:creative\"}',
@@ -73,10 +73,7 @@ ServerEvents.recipes((event) => {
           item: 'better_angel_ring:angel_ring',
         },
         M: {
-          type: 'forge:nbt',
-          item: 'solarpanels:creative_energy_tablet',
-          count: 1,
-          nbt: '{mekData:{EnergyContainers:[{Container:0b,stored:\"2000000000\"}]}}',
+          item: 'solarpanels:creative_energy_tablet'
         },
       },
       result: {

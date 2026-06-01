@@ -35,7 +35,7 @@ ServerEvents.recipes((event) => {
           item: 'botanicalextramachinery:crimson_dragonstone_block',
         },
         H: {
-          type: 'forge:nbt',
+          type: 'forge:partial_nbt',
           item: 'ironjetpacks:cell',
           count: 1,
           nbt: '{Id:\"ironjetpacks:creative\"}',

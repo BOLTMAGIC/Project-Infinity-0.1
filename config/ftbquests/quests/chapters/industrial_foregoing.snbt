@@ -27,13 +27,13 @@
 	quests: [
 		{
 			description: [
-				"Welcome to &2Industrial Foregoing&2"
+				"{ftbquests.chapter.industrial_foregoing.quest27A669873F496EE9.description1}"
 				""
-				"This is a Mod which can a lot of things."
+				"{ftbquests.chapter.industrial_foregoing.quest27A669873F496EE9.description2}"
 				""
-				"You can automate Mob killing with it, you can do Farm related things."
+				"{ftbquests.chapter.industrial_foregoing.quest27A669873F496EE9.description3}"
 				""
-				"You can also farm ores with it and a lot more."
+				"{ftbquests.chapter.industrial_foregoing.quest27A669873F496EE9.description4}"
 			]
 			hide_dependency_lines: false
 			icon: {
@@ -57,7 +57,7 @@
 			}]
 			tasks: [{
 				id: "048F1F00D1AB4688"
-				title: "Welcome to Industrial Foregoing"
+				title: "{ftbquests.chapter.industrial_foregoing.quest27A669873F496EE9.task.328515386199459464.title}"
 				type: "checkmark"
 			}]
 			x: 1.0d
@@ -65,7 +65,7 @@
 		}
 		{
 			dependencies: ["646262D2E7B0BED0"]
-			description: ["Now put the Liquid Latex with some water in the &2Latex Processing&f Unit to get Dry Rubber"]
+			description: ["{ftbquests.chapter.industrial_foregoing.quest39D140E2665F48F6.description1}"]
 			id: "39D140E2665F48F6"
 			rewards: [{
 				id: "3793DE874CB27F53"
@@ -82,7 +82,7 @@
 		}
 		{
 			dependencies: ["245D0ECDD7B1EB51"]
-			description: ["place the &2Fluid Extractor&f next to a tree to extract Liquid Latex (Best wood to use is acacia)"]
+			description: ["{ftbquests.chapter.industrial_foregoing.quest646262D2E7B0BED0.description1}"]
 			id: "646262D2E7B0BED0"
 			require_sequential_tasks: false
 			rewards: [{
@@ -100,7 +100,7 @@
 		}
 		{
 			dependencies: ["39D140E2665F48F6"]
-			description: ["You need to smelt the Dry Rubber to get &9Plastic&f which is used to build a lot of stuff like the Dissolution Chamber"]
+			description: ["{ftbquests.chapter.industrial_foregoing.quest719297D87561694C.description1}"]
 			id: "719297D87561694C"
 			rewards: [{
 				id: "39D8147B5F47A225"
@@ -125,9 +125,9 @@
 		{
 			dependencies: ["719297D87561694C"]
 			description: [
-				"The Dissolution Chamber is the machine with, which you gonna craft things."
+				"{ftbquests.chapter.industrial_foregoing.questC45879298C3753B.description1}"
 				""
-				"Its used to craft addons for your machines or the next tier of &6Machine frame&f "
+				"{ftbquests.chapter.industrial_foregoing.questC45879298C3753B.description2}"
 			]
 			id: "0C45879298C3753B"
 			rewards: [{
@@ -161,7 +161,7 @@
 		}
 		{
 			dependencies: ["34C32614F3458479"]
-			description: ["It can hold 500k of one Item"]
+			description: ["{ftbquests.chapter.industrial_foregoing.quest5A52010F19E88B1D.description1}"]
 			id: "5A52010F19E88B1D"
 			rewards: [{
 				id: "76D9AF5AD135DEBF"
@@ -178,7 +178,7 @@
 		}
 		{
 			dependencies: ["34C32614F3458479"]
-			description: ["It can hold 1k Buckets"]
+			description: ["{ftbquests.chapter.industrial_foregoing.quest15A01AA997E561CB.description1}"]
 			id: "15A01AA997E561CB"
 			rewards: [{
 				id: "0E63FE0F78DE90F3"
@@ -230,7 +230,7 @@
 				"34C32614F3458479"
 				"0091DB2772579996"
 			]
-			description: ["With this you can fish for loot"]
+			description: ["{ftbquests.chapter.industrial_foregoing.quest1A5B1DA889D5A551.description1}"]
 			id: "1A5B1DA889D5A551"
 			rewards: [{
 				id: "2D5339FF487FC8DF"
@@ -299,9 +299,9 @@
 		{
 			dependencies: ["245D0ECDD7B1EB51"]
 			description: [
-				"With the Mob Slaughter Factory you can kill Mobs to get Pink Slime and Liquid Meat"
+				"{ftbquests.chapter.industrial_foregoing.quest6DF7B2E5786221A0.description1}"
 				""
-				"Passiv Mobs gives more &dPink Slime&f then &6Liquid Meat&f and, Non Passiv gives more &6Liquid Meat&f then &dPink Slime&f"
+				"{ftbquests.chapter.industrial_foregoing.quest6DF7B2E5786221A0.description2}"
 			]
 			id: "6DF7B2E5786221A0"
 			rewards: [{
@@ -384,7 +384,7 @@
 		}
 		{
 			dependencies: ["16A14B37A649D493"]
-			description: ["With this Multiblock you can produce Pink Slime Ingots which are used for the Ultimate Singularity"]
+			description: ["{ftbquests.chapter.industrial_foregoing.quest6D72ADBEC4B7DAFF.description1}"]
 			id: "6D72ADBEC4B7DAFF"
 			rewards: [{
 				id: "65271DCAD58970C8"
@@ -401,7 +401,7 @@
 		}
 		{
 			dependencies: ["2F37F90D3F79EDBF"]
-			description: ["With the Meat Feeder you can automating restoring your Hunger just fill it with Liquid Meat"]
+			description: ["{ftbquests.chapter.industrial_foregoing.quest2B00B8625330D207.description1}"]
 			id: "2B00B8625330D207"
 			rewards: [{
 				id: "0D3C1612E0B18249"
@@ -418,7 +418,7 @@
 		}
 		{
 			dependencies: ["1831BA1692DCA05C"]
-			description: ["With this machine you can kill mobs to get their loot and XP"]
+			description: ["{ftbquests.chapter.industrial_foregoing.quest5957171B0DC8BA75.description1}"]
 			id: "5957171B0DC8BA75"
 			rewards: [{
 				id: "5F52652996ADDD30"
@@ -435,7 +435,7 @@
 		}
 		{
 			dependencies: ["1831BA1692DCA05C"]
-			description: ["With this machine you can automate brewing Potions"]
+			description: ["{ftbquests.chapter.industrial_foregoing.quest37079605B8805153.description1}"]
 			id: "37079605B8805153"
 			rewards: [{
 				id: "66D5453E0927215C"
@@ -453,9 +453,9 @@
 		{
 			dependencies: ["1831BA1692DCA05C"]
 			description: [
-				"With the Ore Laser you can drill for ores and with the Fluid Laser you can drill for fluids and drain mobs for a fluid"
+				"{ftbquests.chapter.industrial_foregoing.quest179C7CB4DECD8932.description1}"
 				""
-				"place Laser Drills around the Laser Base and supply it with Power "
+				"{ftbquests.chapter.industrial_foregoing.quest179C7CB4DECD8932.description2}"
 			]
 			id: "179C7CB4DECD8932"
 			rewards: [{
@@ -485,7 +485,7 @@
 		}
 		{
 			dependencies: ["1831BA1692DCA05C"]
-			description: ["With the Soul Laser Base you can drain a &1Warden&f for souls which are used to accelarate Machines"]
+			description: ["{ftbquests.chapter.industrial_foregoing.quest4A9E8F1171C60460.description1}"]
 			id: "4A9E8F1171C60460"
 			rewards: [{
 				id: "2EE2C9F23FDCA9B1"
@@ -502,7 +502,7 @@
 		}
 		{
 			dependencies: ["1831BA1692DCA05C"]
-			description: ["With the Stasis Chamber you can hold mobs in one place so they dont move (but they will slowly lose health)"]
+			description: ["{ftbquests.chapter.industrial_foregoing.quest5B6EC8BD14EAA0DF.description1}"]
 			id: "5B6EC8BD14EAA0DF"
 			require_sequential_tasks: false
 			rewards: [{
@@ -543,7 +543,7 @@
 		}
 		{
 			dependencies: ["1831BA1692DCA05C"]
-			description: ["You can duplicate Mobs with this "]
+			description: ["{ftbquests.chapter.industrial_foregoing.quest712E27E930E0B947.description1}"]
 			id: "712E27E930E0B947"
 			rewards: [{
 				id: "2D2241EFBBACE430"
@@ -561,10 +561,10 @@
 		{
 			dependencies: ["4A9E8F1171C60460"]
 			description: [
-				"The &9Soul Surge&f is used to accelarate the machines put it on a side of a machine (you can put multiple on one machine)"
+				"{ftbquests.chapter.industrial_foregoing.quest6DCC301C875E60AE.description1}"
 				""
 				""
-				"&1Soul Pipes&f are used to transport the Souls"
+				"{ftbquests.chapter.industrial_foregoing.quest6DCC301C875E60AE.description2}"
 			]
 			id: "6DCC301C875E60AE"
 			rewards: [{
@@ -590,9 +590,9 @@
 		{
 			dependencies: ["179C7CB4DECD8932"]
 			description: [
-				"For Ether Gas you need to drain a Wither with a Fluid Drill"
+				"{ftbquests.chapter.industrial_foregoing.quest4DE479CF689A5A65.description1}"
 				""
-				"Put a Stasis Chamber under the wither so its not moving and destroys your Base"
+				"{ftbquests.chapter.industrial_foregoing.quest4DE479CF689A5A65.description2}"
 			]
 			id: "4DE479CF689A5A65"
 			rewards: [{
@@ -626,7 +626,7 @@
 		}
 		{
 			dependencies: ["162330DDC5F31327"]
-			description: ["With this machine you can automate placing &0Withers&f but there are better ways to farm &0Withers"]
+			description: ["{ftbquests.chapter.industrial_foregoing.quest6BA8E70C6C81A16E.description1}"]
 			id: "6BA8E70C6C81A16E"
 			rewards: [{
 				id: "4AEDA8A40C39B034"
@@ -643,7 +643,7 @@
 		}
 		{
 			dependencies: ["162330DDC5F31327"]
-			description: ["This one can hold 2 Billion Items"]
+			description: ["{ftbquests.chapter.industrial_foregoing.quest5C56A7C7AD65B573.description1}"]
 			id: "5C56A7C7AD65B573"
 			require_sequential_tasks: false
 			rewards: [{
@@ -661,7 +661,7 @@
 		}
 		{
 			dependencies: ["162330DDC5F31327"]
-			description: ["This one can hold 2 millions buckets"]
+			description: ["{ftbquests.chapter.industrial_foregoing.quest3937D26E98270EB.description1}"]
 			id: "03937D26E98270EB"
 			rewards: [{
 				id: "4D240D196E986DCA"
@@ -678,7 +678,7 @@
 		}
 		{
 			dependencies: ["0C45879298C3753B"]
-			description: ["This Addon does that your Machine runs faster"]
+			description: ["{ftbquests.chapter.industrial_foregoing.quest52DB2F98E13DEBE1.description1}"]
 			id: "52DB2F98E13DEBE1"
 			require_sequential_tasks: true
 			rewards: [{
@@ -704,7 +704,7 @@
 		}
 		{
 			dependencies: ["0C45879298C3753B"]
-			description: ["This Addon does that your machine run with more efficency"]
+			description: ["{ftbquests.chapter.industrial_foregoing.quest6356A9AC7399BF9D.description1}"]
 			id: "6356A9AC7399BF9D"
 			rewards: [{
 				id: "31489A97748D6AFA"
@@ -729,7 +729,7 @@
 		}
 		{
 			dependencies: ["0C45879298C3753B"]
-			description: ["This Addon does that your machine process more "]
+			description: ["{ftbquests.chapter.industrial_foregoing.quest345CEE2E4230E8EE.description1}"]
 			id: "345CEE2E4230E8EE"
 			rewards: [{
 				id: "6A5E08E8DE0CC056"
@@ -832,8 +832,8 @@
 			]
 			dependency_requirement: "one_completed"
 			description: [
-				"They go up to &6Tier 6 "
-				"You can Install them if you put them in the right corner of a machine or with sneak right click on a machine"
+				"{ftbquests.chapter.industrial_foregoing.quest6B4467C6A0A2A553.description1}"
+				"{ftbquests.chapter.industrial_foregoing.quest6B4467C6A0A2A553.description2}"
 			]
 			id: "6B4467C6A0A2A553"
 			rewards: [{
@@ -843,7 +843,7 @@
 			}]
 			tasks: [{
 				id: "3410C0A6332FCB01"
-				title: "Addons"
+				title: "{ftbquests.chapter.industrial_foregoing.quest6B4467C6A0A2A553.task.3751710309655497473.title}"
 				type: "checkmark"
 			}]
 			x: 8.5d
@@ -851,7 +851,7 @@
 		}
 		{
 			dependencies: ["1831BA1692DCA05C"]
-			description: ["You can sort Enchantments with this"]
+			description: ["{ftbquests.chapter.industrial_foregoing.quest3B57E2C5F6BFBD53.description1}"]
 			id: "3B57E2C5F6BFBD53"
 			rewards: [{
 				id: "4CFCDEC5B40C367A"
@@ -868,7 +868,7 @@
 		}
 		{
 			dependencies: ["1831BA1692DCA05C"]
-			description: ["Add Enchatments on Armor and Tools"]
+			description: ["{ftbquests.chapter.industrial_foregoing.quest22F076317465C3B5.description1}"]
 			id: "22F076317465C3B5"
 			rewards: [{
 				id: "3DD58EA93418D43A"
@@ -885,7 +885,7 @@
 		}
 		{
 			dependencies: ["1831BA1692DCA05C"]
-			description: ["You can extract enchatments of armor and tools with this"]
+			description: ["{ftbquests.chapter.industrial_foregoing.quest2271256624E2B5BE.description1}"]
 			id: "2271256624E2B5BE"
 			rewards: [{
 				id: "7F0BDF7A82B0F65C"
@@ -922,7 +922,7 @@
 			size: 0.5d
 			tasks: [{
 				id: "49203294561E8476"
-				title: "Quest Made By Klaasy__"
+				title: "{ftbquests.chapter.industrial_foregoing.quest3AB7E151BE693F3E.task.5269267176704869494.title}"
 				type: "checkmark"
 			}]
 			x: 1.75d
@@ -930,7 +930,7 @@
 		}
 		{
 			dependencies: ["5B6EC8BD14EAA0DF"]
-			description: ["With this Addon you can Heal mobs with the Stasis Chamber so they dont die"]
+			description: ["{ftbquests.chapter.industrial_foregoing.quest59A3F536B6B19309.description1}"]
 			id: "59A3F536B6B19309"
 			rewards: [{
 				id: "45574CC0DB88A393"
@@ -962,5 +962,5 @@
 			y: -2.0d
 		}
 	]
-	title: "Industrial Foregoing"
+	title: "{ftbquests.chapter.industrial_foregoing.title}"
 }

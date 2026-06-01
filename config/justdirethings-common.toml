@@ -190,6 +190,10 @@
 	#mB of polymorphic fluid consumed per targeted polymorph
 	#Range: > 0
 	target_polymorph_cost = 1000
+	#Entities or mods that the Polymorphic Wand cannot create.
+	#Use full entity IDs (e.g. "somebossmod:big_boss") for specific entities,
+	#or just the mod ID (e.g. "somebossmod") to block all entities from that mod.
+	polymorph_blacklist = ["draconicevolution:draconic_guardian", "pneumaticcraft", "avaritia", "block_factorys_bosses", "twilightforest", "thermal", "occultism", "nuclearcraft:feral_ghoul_boss", "mutantmonsters", "justdirethings", "cyclic", "cataclysm", "botania", "born_in_chaos_v1:lord_pumpkinhead"]
 
 #Goo settings
 [goo]
@@ -198,4 +202,16 @@
 	#The chance (0.0 to 1.0) that a goo block deactivates after each block conversion. Default is 0.1 (10%)
 	#Range: 0.0 ~ 1.0
 	goo_death_chance = 0.1
+
+#Block Swapper
+[block_swapper]
+	#Entities or mods that the Block Swapper cannot teleport.
+	#Use full entity IDs (e.g. "draconicevolution:chaos_guardian") for specific entities,
+	#or just the mod ID (e.g. "draconicevolution") to block all entities from that mod.
+	swapper_entity_blacklist = ["draconicevolution"]
+	#Blocks or mods that the Block Swapper cannot move.
+	#Use full block IDs (e.g. "draconicevolution:chaos_crystal") for specific blocks,
+	#or just the mod ID (e.g. "draconicevolution") to block all blocks from that mod.
+	#Note: the swapper_deny block tag also controls this and is checked first.
+	swapper_block_blacklist = ["draconicevolution"]
 

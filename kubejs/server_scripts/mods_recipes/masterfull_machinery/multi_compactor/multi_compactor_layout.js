@@ -5,6 +5,7 @@ MMEvents.createStructures((event) => {
     .controllerId('mm:multi_compactor_controller')
     .name('Multi Compactor')
     .layout((a) => {
+      a.portsAnywhere(true);
       a.layer([
         '        ',
         '        ',

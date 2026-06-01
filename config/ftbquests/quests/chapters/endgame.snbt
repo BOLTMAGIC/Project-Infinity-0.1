@@ -453,5 +453,5 @@
 			y: 3.5d
 		}
 	]
-	title: "&cEndGame"
+	title: "{ftbquests.chapter.endgame.title}"
 }

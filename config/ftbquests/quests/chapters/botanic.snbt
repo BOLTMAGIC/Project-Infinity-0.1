@@ -18,7 +18,7 @@
 	quests: [
 		{
 			dependencies: ["39BDA119A3E1B4D5"]
-			description: ["Can't provide water via AE2 so provide it with water somehow and delete the water from the pattern."]
+			description: ["{ftbquests.chapter.botanic.quest1E6DA6D94BAE498E.description1}"]
 			id: "1E6DA6D94BAE498E"
 			rewards: [{
 				id: "523468FC72926F2B"
@@ -131,7 +131,7 @@
 		}
 		{
 			dependencies: ["39BDA119A3E1B4D5"]
-			description: ["It doesn't auto-output items so you'll need to collect them somehow. The next tier auto outputs."]
+			description: ["{ftbquests.chapter.botanic.quest62B78C5BE6475ED5.description1}"]
 			id: "62B78C5BE6475ED5"
 			rewards: [{
 				id: "3842622071532A57"
@@ -662,37 +662,37 @@
 		{
 			dependencies: ["39BDA119A3E1B4D5"]
 			description: [
-				"The &eGreenhouse&r is a high-tech machine capable of producing &amassive amounts of Mana&r when fully upgraded."
+				"{ftbquests.chapter.botanic.quest7BBE46FB237B252E.description1}"
 				""
-				"It consumes &eenergy&r and &efuel&r that is eaten by the inserted &aFlower&r."
+				"{ftbquests.chapter.botanic.quest7BBE46FB237B252E.description2}"
 				""
-				"At first, the fuel slots are &clocked&r."
+				"{ftbquests.chapter.botanic.quest7BBE46FB237B252E.description3}"
 				""
-				"• Fuel slots unlock only after placing a &aFlower&r in the top slot"
-				"• Only valid fuel items for that flower can be inserted"
+				"{ftbquests.chapter.botanic.quest7BBE46FB237B252E.description4}"
+				"{ftbquests.chapter.botanic.quest7BBE46FB237B252E.description5}"
 				""
-				"The Greenhouse can be enhanced using &eGreenhouse Upgrades&r."
+				"{ftbquests.chapter.botanic.quest7BBE46FB237B252E.description6}"
 				""
-				"• More upgrades = more Mana output"
-				"• Improvements scale efficiency and speed"
+				"{ftbquests.chapter.botanic.quest7BBE46FB237B252E.description7}"
+				"{ftbquests.chapter.botanic.quest7BBE46FB237B252E.description8}"
 				""
-				"With enough upgrades, the Greenhouse becomes the &abest Mana generators&r available, perfect for large-scale Botania automation."
+				"{ftbquests.chapter.botanic.quest7BBE46FB237B252E.description9}"
 				""
-				"&eAccepted Flowers and Mana Output:&r"
+				"{ftbquests.chapter.botanic.quest7BBE46FB237B252E.description10}"
 				""
-				"• &aEndoflame&r: Burnable items (e.g. &7Coal&r) – &b1600 Mana&r"
-				"• &dRosa Arcana&r: &bBottles of Experience&r – &b1350 Mana&r"
-				"• &aMunchdew&r: &2Leaves&r – &b160 Mana&r"
-				"• &cEntropinnyum&r: &4TNT&r – &b650 Mana&r"
-				"• &6Kekimurus&r: &eCakes&r – &b7200 Mana&r"
-				"• &6Gourmaryllis&r: &eFood&r – &aBetter food = more Mana&r"
-				"• &aNarslimmus&r: &2Slime Blocks&r or &2Slime Balls&r – &b3600 Mana&r / &b400 Mana&r"
-				"• &dRafflowsia&r: &dAny Mystical Flower&r – &b100 Mana&r"
-				"• &8Wither Aconite&r: &5Nether Stars&r – &51200000 Mana&r"
+				"{ftbquests.chapter.botanic.quest7BBE46FB237B252E.description11}"
+				"{ftbquests.chapter.botanic.quest7BBE46FB237B252E.description12}"
+				"{ftbquests.chapter.botanic.quest7BBE46FB237B252E.description13}"
+				"{ftbquests.chapter.botanic.quest7BBE46FB237B252E.description14}"
+				"{ftbquests.chapter.botanic.quest7BBE46FB237B252E.description15}"
+				"{ftbquests.chapter.botanic.quest7BBE46FB237B252E.description16}"
+				"{ftbquests.chapter.botanic.quest7BBE46FB237B252E.description17}"
+				"{ftbquests.chapter.botanic.quest7BBE46FB237B252E.description18}"
+				"{ftbquests.chapter.botanic.quest7BBE46FB237B252E.description19}"
 				""
-				"&4⚠ Important:&r  "
-				"To use the &8Wither Aconite&r you need at least"
-				"one &bMana Capacity Upgrade&r installed."
+				"{ftbquests.chapter.botanic.quest7BBE46FB237B252E.description20}"
+				"{ftbquests.chapter.botanic.quest7BBE46FB237B252E.description21}"
+				"{ftbquests.chapter.botanic.quest7BBE46FB237B252E.description22}"
 			]
 			id: "7BBE46FB237B252E"
 			min_width: 350
@@ -706,7 +706,7 @@
 				item: "botanicalextramachinery:greenhouse"
 				type: "item"
 			}]
-			title: "&2Greenhouse&r"
+			title: "{ftbquests.chapter.botanic.quest7BBE46FB237B252E.title}"
 			x: 5.0d
 			y: 2.5d
 		}
@@ -1010,5 +1010,5 @@
 			y: -3.5d
 		}
 	]
-	title: "Botanical Machinery + Extra"
+	title: "{ftbquests.chapter.botanic.title}"
 }

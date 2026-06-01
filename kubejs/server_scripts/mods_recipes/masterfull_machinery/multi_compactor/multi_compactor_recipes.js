@@ -272,4 +272,33 @@ MMEvents.createProcesses((event) => {
       },
       chance: 0.133,
     });
+
+      event
+    .create('mm:silentgem_to_hellforged_parts')
+    .structureId('mm:multi_compactor_structure')
+    .ticks(1200)
+    .input({
+      type: 'mm:input/consume',
+      ingredient: {
+        type: 'mm:item',
+        tag: 'silentgems:ores',
+        count: 344064,
+      },
+    })
+    .input({
+      type: 'mm:input/consume',
+      ingredient: {
+        type: 'mm:energy',
+        amount: 2147483647,
+      },
+    })
+    .output({
+      type: 'mm:output/simple',
+      ingredient: {
+        type: 'mm:item',
+        item: 'bloodmagic:hellforgedparts',
+        count: 1,
+      },
+      chance: 0.02,
+    })
 });

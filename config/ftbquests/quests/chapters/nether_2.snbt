@@ -22,17 +22,17 @@
 					advancement: "minecraft:nether/find_fortress"
 					criterion: ""
 					id: "2E0D15CFA9367D96"
-					title: "Find a &4Fortress"
+					title: "{ftbquests.chapter.nether_2.quest63797CC6D4459760.task.3318332482083257750.title}"
 					type: "advancement"
 				}
 				{
 					id: "4DCEFCF249EBFD28"
 					structure: "betterfortresses:fortress"
-					title: "Find a &4Fortress"
+					title: "{ftbquests.chapter.nether_2.quest63797CC6D4459760.task.5606696703675333928.title}"
 					type: "structure"
 				}
 			]
-			title: "Find a fortress"
+			title: "{ftbquests.chapter.nether_2.quest63797CC6D4459760.title}"
 			x: 1.0d
 			y: -1.5d
 		}
@@ -48,10 +48,10 @@
 				icon: "minecraft:wheat"
 				id: "4F726CFA70BD7891"
 				structure: "minecraft:bastion_remnant"
-				title: "Discover a Bastion Remenant"
+				title: "{ftbquests.chapter.nether_2.quest7C94371FDD9759B8.task.5724757899230410897.title}"
 				type: "structure"
 			}]
-			title: "Discover a Bastion Remnant"
+			title: "{ftbquests.chapter.nether_2.quest7C94371FDD9759B8.title}"
 			x: -1.0d
 			y: -1.5d
 		}
@@ -67,10 +67,10 @@
 				icon: "cataclysm:flame_eye"
 				id: "5F013C4AEA9703B1"
 				structure: "cataclysm:burning_arena"
-				title: "Find the Burning Arena"
+				title: "{ftbquests.chapter.nether_2.quest6128CB0FA162D322.task.6845819201040876465.title}"
 				type: "structure"
 			}]
-			title: "Find a Burning Arena"
+			title: "{ftbquests.chapter.nether_2.quest6128CB0FA162D322.title}"
 			x: -1.5d
 			y: -4.0d
 		}
@@ -86,11 +86,11 @@
 				entity: "cataclysm:ignited_revenant"
 				icon: "cataclysm:burning_ashes"
 				id: "648E867999AB2B3B"
-				title: "Defeat an Ignited Revenant"
+				title: "{ftbquests.chapter.nether_2.quest351D597D786C4254.task.7245876707313003323.title}"
 				type: "kill"
 				value: 1L
 			}]
-			title: "Defeat the Ignited Revenants"
+			title: "{ftbquests.chapter.nether_2.quest351D597D786C4254.title}"
 			x: -1.5d
 			y: -5.5d
 		}
@@ -120,7 +120,7 @@
 					}
 				}
 				id: "53C35ACB199AA198"
-				title: "Defeat Ignis"
+				title: "{ftbquests.chapter.nether_2.quest55DFCB4A5DF78B.task.6035767753961021848.title}"
 				type: "kill"
 				value: 1L
 			}]
@@ -141,7 +141,7 @@
 				structure: "cataclysm:soul_black_smith"
 				type: "structure"
 			}]
-			title: "Find a Soul Blacksmith"
+			title: "{ftbquests.chapter.nether_2.quest695888509D42926B.title}"
 			x: 3.0d
 			y: -6.5d
 		}
@@ -165,11 +165,11 @@
 				entity: "cataclysm:netherite_monstrosity"
 				icon: "cataclysm:monstrous_horn"
 				id: "3A710965D6B471DB"
-				title: "Defeat a Netherite Monstrosity"
+				title: "{ftbquests.chapter.nether_2.quest1BFFBDE6FB0F5476.task.4211157459566621147.title}"
 				type: "kill"
 				value: 1L
 			}]
-			title: "Defeat the Netherite Monstrosity"
+			title: "{ftbquests.chapter.nether_2.quest1BFFBDE6FB0F5476.title}"
 			x: 3.0d
 			y: -8.0d
 		}
@@ -1078,7 +1078,7 @@
 				"63797CC6D4459760"
 				"47C34A83CCD12EBE"
 			]
-			description: ["This shelf allows you to reach level 50 wich is needed to infuse them"]
+			description: ["{ftbquests.chapter.nether_2.quest5663541467928052.description1}"]
 			id: "5663541467928052"
 			rewards: [{
 				id: "103307B7284AE76B"
@@ -1095,7 +1095,7 @@
 		}
 		{
 			dependencies: ["5663541467928052"]
-			description: ["This is an upgraded version of the hellshelf but is mostly not meant to be used by itself but upgraded to a glowing or other alternative"]
+			description: ["{ftbquests.chapter.nether_2.quest34668598F76B18E2.description1}"]
 			id: "34668598F76B18E2"
 			rewards: [{
 				id: "76B63585E23F91EF"
@@ -1112,7 +1112,7 @@
 		}
 		{
 			dependencies: ["34668598F76B18E2"]
-			description: ["level 60 enchants yay"]
+			description: ["{ftbquests.chapter.nether_2.quest12E29F145A3B05D9.description1}"]
 			id: "12E29F145A3B05D9"
 			tasks: [{
 				id: "5493117CA058B038"
@@ -1124,7 +1124,7 @@
 		}
 		{
 			dependencies: ["34668598F76B18E2"]
-			description: ["Alternative to the glowing hellshelf with a different set of stats"]
+			description: ["{ftbquests.chapter.nether_2.quest8453B477ABFE22A.description1}"]
 			id: "08453B477ABFE22A"
 			tasks: [{
 				id: "2AC3F4DB67DA17ED"
@@ -1154,7 +1154,7 @@
 				"12E29F145A3B05D9"
 				"08453B477ABFE22A"
 			]
-			description: ["Like the infused hellshelves the dormant deepshelf is a transitional part that is meant to be infused / crafted with"]
+			description: ["{ftbquests.chapter.nether_2.quest326BEA2BC8F7A9C7.description1}"]
 			id: "326BEA2BC8F7A9C7"
 			min_required_dependencies: 1
 			rewards: [{
@@ -1173,9 +1173,9 @@
 		{
 			dependencies: ["326BEA2BC8F7A9C7"]
 			description: [
-				"This one requires to have 30 Eterna ( lvl 60 enchanting ) and 40 of each other stat to infuse."
+				"{ftbquests.chapter.nether_2.quest5B03F5C6822AF433.description1}"
 				""
-				"You can augment each of those with the items / blocks mentioned in the stat modulation quest."
+				"{ftbquests.chapter.nether_2.quest5B03F5C6822AF433.description2}"
 			]
 			id: "5B03F5C6822AF433"
 			rewards: [{
@@ -1196,7 +1196,7 @@
 				"34668598F76B18E2"
 				"5B03F5C6822AF433"
 			]
-			description: ["This is one hell of a QOL block allowing you to store enchanted books up to level 16."]
+			description: ["{ftbquests.chapter.nether_2.quest416970A2EEBACC88.description1}"]
 			id: "416970A2EEBACC88"
 			min_required_dependencies: 1
 			tasks: [{
@@ -1209,7 +1209,7 @@
 		}
 		{
 			dependencies: ["5B03F5C6822AF433"]
-			description: ["Avoid the warden ?"]
+			description: ["{ftbquests.chapter.nether_2.quest7CB91911F496F71E.description1}"]
 			id: "7CB91911F496F71E"
 			rewards: [{
 				id: "621064DE7C4A6366"
@@ -1226,7 +1226,7 @@
 		}
 		{
 			dependencies: ["5B03F5C6822AF433"]
-			description: ["Kill the warden ? "]
+			description: ["{ftbquests.chapter.nether_2.quest3BB9F82106BC0BA.description1}"]
 			id: "03BB9F82106BC0BA"
 			rewards: [{
 				id: "3AB1EF5EADEBB9B4"
@@ -1243,7 +1243,7 @@
 		}
 		{
 			dependencies: ["03BB9F82106BC0BA"]
-			description: ["Again ?"]
+			description: ["{ftbquests.chapter.nether_2.quest5DA785117148FC2D.description1}"]
 			id: "5DA785117148FC2D"
 			rewards: [{
 				id: "66A11FFC552ACFDD"
@@ -1260,7 +1260,7 @@
 		}
 		{
 			dependencies: ["7CB91911F496F71E"]
-			description: ["Kill the warden now."]
+			description: ["{ftbquests.chapter.nether_2.quest34888659B693C4D1.description1}"]
 			id: "34888659B693C4D1"
 			rewards: [{
 				id: "31C4F69873E1E99E"
@@ -1281,7 +1281,7 @@
 				"34888659B693C4D1"
 				"4A7E2F5B578123D8"
 			]
-			description: ["This shelf doesnt seem hard to craft but needs a dragon breath enchanted with level 80 "]
+			description: ["{ftbquests.chapter.nether_2.quest6BBA8C9E8E94C010.description1}"]
 			id: "6BBA8C9E8E94C010"
 			min_required_dependencies: 1
 			rewards: [{
@@ -1300,9 +1300,9 @@
 		{
 			dependencies: ["6BBA8C9E8E94C010"]
 			description: [
-				"This is the final shelf just requires the endshelf and to find a dragon head from exploring the end :)"
+				"{ftbquests.chapter.nether_2.quest78870AEBA12BEFEE.description1}"
 				""
-				"Just add one of this to your sculkshelf setup and you're good to go."
+				"{ftbquests.chapter.nether_2.quest78870AEBA12BEFEE.description2}"
 			]
 			id: "78870AEBA12BEFEE"
 			rewards: [{
@@ -1319,7 +1319,7 @@
 			y: 5.5d
 		}
 		{
-			description: ["This is one of of the tomes that permits to filter enchantements by what's on the tin."]
+			description: ["{ftbquests.chapter.nether_2.quest27B4617053DA28CA.description1}"]
 			id: "27B4617053DA28CA"
 			tasks: [{
 				id: "102DA34FFE5A7E31"
@@ -1330,7 +1330,7 @@
 			y: -2.5d
 		}
 		{
-			description: ["Spawners can now be buffed ;)"]
+			description: ["{ftbquests.chapter.nether_2.questFC4A9198C6A0A58.description1}"]
 			id: "0FC4A9198C6A0A58"
 			tasks: [{
 				id: "3174F53775DDCAEE"
@@ -1342,7 +1342,7 @@
 		}
 		{
 			dependencies: ["0FC4A9198C6A0A58"]
-			description: ["Reduces the max delta time between spawns"]
+			description: ["{ftbquests.chapter.nether_2.quest46C716335A2B01A.description1}"]
 			id: "046C716335A2B01A"
 			tasks: [{
 				id: "4F7C178024A69AD7"
@@ -1354,7 +1354,7 @@
 		}
 		{
 			dependencies: ["0FC4A9198C6A0A58"]
-			description: ["Reduces the lowest delta time between mob pack"]
+			description: ["{ftbquests.chapter.nether_2.quest6E86F9010BF0D0B.description1}"]
 			id: "06E86F9010BF0D0B"
 			tasks: [{
 				id: "0B4FD436A960C00B"
@@ -1366,7 +1366,7 @@
 		}
 		{
 			dependencies: ["0FC4A9198C6A0A58"]
-			description: ["Makes it so mobs spawn without IA ( no moovement / abilities )"]
+			description: ["{ftbquests.chapter.nether_2.questFFFD9EA73F63525.description1}"]
 			id: "0FFFD9EA73F63525"
 			tasks: [{
 				id: "1DD02E4B96B814D2"
@@ -1378,7 +1378,7 @@
 		}
 		{
 			dependencies: ["0FC4A9198C6A0A58"]
-			description: ["Toggles off the spawner and makes it activable with redstone."]
+			description: ["{ftbquests.chapter.nether_2.quest2B588AE3BF32790B.description1}"]
 			id: "2B588AE3BF32790B"
 			tasks: [{
 				id: "79E1163B6BDAE5FD"
@@ -1390,7 +1390,7 @@
 		}
 		{
 			dependencies: ["0FC4A9198C6A0A58"]
-			description: ["Removes the need for the player to be close for mobs to appear."]
+			description: ["{ftbquests.chapter.nether_2.quest2039559C25E35448.description1}"]
 			id: "2039559C25E35448"
 			tasks: [{
 				id: "4A084D80BBE43A82"
@@ -1402,7 +1402,7 @@
 		}
 		{
 			dependencies: ["0FC4A9198C6A0A58"]
-			description: ["Augments the local mob cap for this type."]
+			description: ["{ftbquests.chapter.nether_2.questB2596DC7BF92ED6.description1}"]
 			id: "0B2596DC7BF92ED6"
 			tasks: [{
 				id: "22B210682D648B78"
@@ -1414,7 +1414,7 @@
 		}
 		{
 			dependencies: ["0FC4A9198C6A0A58"]
-			description: ["Holding this item while applying one of the items on the left will have the opposite effect"]
+			description: ["{ftbquests.chapter.nether_2.questE934C5B516C03A5.description1}"]
 			id: "0E934C5B516C03A5"
 			tasks: [{
 				id: "1573EA15895FEB25"
@@ -1426,7 +1426,7 @@
 		}
 		{
 			dependencies: ["0FC4A9198C6A0A58"]
-			description: ["Ignores mob's spawn conditions ( height level, light, biome, dimention ect... )"]
+			description: ["{ftbquests.chapter.nether_2.quest1B7F729E578CE99A.description1}"]
 			id: "1B7F729E578CE99A"
 			tasks: [{
 				id: "38B4D2DBF682DADB"
@@ -1438,7 +1438,7 @@
 		}
 		{
 			dependencies: ["0FC4A9198C6A0A58"]
-			description: ["Makes the mobs silent"]
+			description: ["{ftbquests.chapter.nether_2.quest6AA964E77DE4D5B.description1}"]
 			id: "06AA964E77DE4D5B"
 			tasks: [{
 				id: "13C94E2FA8312EB6"
@@ -1450,7 +1450,7 @@
 		}
 		{
 			dependencies: ["0FC4A9198C6A0A58"]
-			description: ["Augments the range of the spawner ( often used inverted for compact stuff )"]
+			description: ["{ftbquests.chapter.nether_2.quest51CA52A40728481D.description1}"]
 			id: "51CA52A40728481D"
 			tasks: [{
 				id: "7DE02F64B33967DE"
@@ -1462,7 +1462,7 @@
 		}
 		{
 			dependencies: ["0FC4A9198C6A0A58"]
-			description: ["Worse version of the nether star allowing the spawner to work from farther"]
+			description: ["{ftbquests.chapter.nether_2.quest1E697291969A7847.description1}"]
 			id: "1E697291969A7847"
 			tasks: [{
 				id: "17E8F972A55F1988"
@@ -1474,7 +1474,7 @@
 		}
 		{
 			dependencies: ["0FC4A9198C6A0A58"]
-			description: ["Spawns more mobs per spawning tick"]
+			description: ["{ftbquests.chapter.nether_2.quest7C39674998FE934.description1}"]
 			id: "07C39674998FE934"
 			tasks: [{
 				id: "559DB2C4B610AB82"
@@ -1485,5 +1485,5 @@
 			y: -2.5d
 		}
 	]
-	title: "&4Nether"
+	title: "{ftbquests.chapter.nether_2.title}"
 }

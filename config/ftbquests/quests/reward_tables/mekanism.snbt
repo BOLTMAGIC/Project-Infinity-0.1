@@ -18,6 +18,6 @@
 		{ item: "mekanism:advanced_control_circuit", random_bonus: 1, weight: 2.0f }
 		{ count: 4, item: "mekanism:ingot_osmium", random_bonus: 2, weight: 4.0f }
 	]
-	title: "Mekanism: Basic Rewards"
+	title: "{ftbquests.loot_table.7197061527498167330.title}"
 	use_title: true
 }

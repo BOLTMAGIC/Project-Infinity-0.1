@@ -129,43 +129,43 @@
 	quests: [
 		{
 			description: [
-				"&fWelcome, Engineer!"
+				"{ftbquests.chapter.voidminer.quest10650AD3F8696D4C.description1}"
 				""
-				"&fThe &dVoidminer&f is a powerful multiblock machine capable of generating resources"
-				"&fseemingly &bout of nothing&f by tapping into the endless energy of the Void."
+				"{ftbquests.chapter.voidminer.quest10650AD3F8696D4C.description2}"
+				"{ftbquests.chapter.voidminer.quest10650AD3F8696D4C.description3}"
 				""
-				"&fInspired by mods like &aEnvironmental Tech&f, Voidminer Forked focuses on:"
+				"{ftbquests.chapter.voidminer.quest10650AD3F8696D4C.description4}"
 				""
-				"&a• &fLarge multiblock structures"
-				"&a• &fTier-based progression"
-				"&a• &fHeavy energy usage"
-				"&a• &fLong-term automation"
+				"{ftbquests.chapter.voidminer.quest10650AD3F8696D4C.description5}"
+				"{ftbquests.chapter.voidminer.quest10650AD3F8696D4C.description6}"
+				"{ftbquests.chapter.voidminer.quest10650AD3F8696D4C.description7}"
+				"{ftbquests.chapter.voidminer.quest10650AD3F8696D4C.description8}"
 				""
-				"&fThis quest will guide you through the basics and prepare you for"
-				"&flarge-scale resource generation."
+				"{ftbquests.chapter.voidminer.quest10650AD3F8696D4C.description9}"
+				"{ftbquests.chapter.voidminer.quest10650AD3F8696D4C.description10}"
 				""
-				"&fThe Voidminer:"
+				"{ftbquests.chapter.voidminer.quest10650AD3F8696D4C.description11}"
 				""
-				"&a• &fGenerates ores and materials without traditional mining"
-				"&a• &fRequires a clear line of sight to &eBedrock / Void"
-				"&a• &fConsumes large amounts of energy"
-				"&a• &fCan be upgraded with higher tiers and modifiers"
+				"{ftbquests.chapter.voidminer.quest10650AD3F8696D4C.description12}"
+				"{ftbquests.chapter.voidminer.quest10650AD3F8696D4C.description13}"
+				"{ftbquests.chapter.voidminer.quest10650AD3F8696D4C.description14}"
+				"{ftbquests.chapter.voidminer.quest10650AD3F8696D4C.description15}"
 				""
-				"&fHigher tiers produce &bbetter resources&f but"
-				"&falso &cincrease power demand&f."
+				"{ftbquests.chapter.voidminer.quest10650AD3F8696D4C.description16}"
+				"{ftbquests.chapter.voidminer.quest10650AD3F8696D4C.description17}"
 				"{@pagebreak}"
-				"&fSolar Panels are a &acost-efficient early-game power source&f for the Voidminer."
+				"{ftbquests.chapter.voidminer.quest10650AD3F8696D4C.description18}"
 				""
-				"&fThey generate energy passively during the day and"
-				"&fdo not require any fuel or maintenance."
+				"{ftbquests.chapter.voidminer.quest10650AD3F8696D4C.description19}"
+				"{ftbquests.chapter.voidminer.quest10650AD3F8696D4C.description20}"
 				""
-				"&a• &fHigher tier Solar Panels generate &bway more power&f"
-				"&a• &fMultiple panels can be combined to increase output"
-				"&a• &fSolar Panels work best in &eclear daylight&f"
+				"{ftbquests.chapter.voidminer.quest10650AD3F8696D4C.description21}"
+				"{ftbquests.chapter.voidminer.quest10650AD3F8696D4C.description22}"
+				"{ftbquests.chapter.voidminer.quest10650AD3F8696D4C.description23}"
 				""
-				"&fWhile Solar Panels are easy to set up,"
-				"&f&ahigh-tier Solar Panels&f provide &bmassive power output&f"
-				"&fand are among the &cstrongest energy sources&f available."
+				"{ftbquests.chapter.voidminer.quest10650AD3F8696D4C.description24}"
+				"{ftbquests.chapter.voidminer.quest10650AD3F8696D4C.description25}"
+				"{ftbquests.chapter.voidminer.quest10650AD3F8696D4C.description26}"
 			]
 			hide_dependent_lines: true
 			id: "10650AD3F8696D4C"
@@ -178,20 +178,20 @@
 			size: 2.0d
 			tasks: [{
 				id: "25FADFE2900B9911"
-				title: "Welcome to Voidminers"
+				title: "{ftbquests.chapter.voidminer.quest10650AD3F8696D4C.task.2736745887753279761.title}"
 				type: "checkmark"
 			}]
-			title: "&a&lHarnessing the Void"
+			title: "{ftbquests.chapter.voidminer.quest10650AD3F8696D4C.title}"
 			x: -11.0d
 			y: -8.0d
 		}
 		{
 			dependencies: ["613DA71A509DC39C"]
 			description: [
-				"You have to build the multiblock correctly. The Multibuilder tool helps you."
+				"{ftbquests.chapter.voidminer.quest6A5C0FD659ACF33A.description1}"
 				""
-				"And you need a lot of power. "
-				"If you want to extract the ores you need to connect the miner with a pipe to a chest or use AE2 importers. "
+				"{ftbquests.chapter.voidminer.quest6A5C0FD659ACF33A.description2}"
+				"{ftbquests.chapter.voidminer.quest6A5C0FD659ACF33A.description3}"
 			]
 			icon: "voidminers:rubetine_miner"
 			id: "6A5C0FD659ACF33A"
@@ -219,7 +219,7 @@
 					type: "item"
 				}
 			]
-			title: "Rubetine Miner Tier 1"
+			title: "{ftbquests.chapter.voidminer.quest6A5C0FD659ACF33A.title}"
 			x: -9.5d
 			y: -2.5d
 		}
@@ -554,25 +554,25 @@
 		{
 			dependencies: ["4447B5220839E9E6"]
 			description: [
-				"&fThe Voidminer is powerful on its own, but its true potential is unlocked through &dModifiers&f."
+				"{ftbquests.chapter.voidminer.quest7A53D218AE346717.description1}"
 				""
-				"&fModifiers allow you to customize your Voidminer by trading &cpower consumption&f for &aoutput efficiency&f."
-				"&fChoosing the right combination is key to &along-term automation&f and &bendgame setups&f."
+				"{ftbquests.chapter.voidminer.quest7A53D218AE346717.description2}"
+				"{ftbquests.chapter.voidminer.quest7A53D218AE346717.description3}"
 				""
-				"&fModifiers are special blocks inserted directly into the Voidminer structure."
-				"&fEach modifier improves a specific aspect of the miner."
+				"{ftbquests.chapter.voidminer.quest7A53D218AE346717.description4}"
+				"{ftbquests.chapter.voidminer.quest7A53D218AE346717.description5}"
 				""
-				"&a• &fMore modifiers &7= &bBetter performance"
-				"&a• &fMore modifiers &7= &cHigher energy cost"
-				"&a• &fHigher miner tiers &7= &aMore modifier slots"
+				"{ftbquests.chapter.voidminer.quest7A53D218AE346717.description6}"
+				"{ftbquests.chapter.voidminer.quest7A53D218AE346717.description7}"
+				"{ftbquests.chapter.voidminer.quest7A53D218AE346717.description8}"
 				""
-				"You can install the first modifier on Tier 2+. The first Tier &4Rubetine&r does not have a slot for a Modifier."
+				"{ftbquests.chapter.voidminer.quest7A53D218AE346717.description9}"
 				""
-				"&cPoor power management will shut the miner down."
+				"{ftbquests.chapter.voidminer.quest7A53D218AE346717.description10}"
 				""
-				"&fYou &ldo not&f need the same tier miner and the same tier modifiers."
-				"&aLower-tier modifiers&f can be used in &bhigher-tier miners&f."
-				"&fThis allows &aflexible setups&f and &esmoother progression&f."
+				"{ftbquests.chapter.voidminer.quest7A53D218AE346717.description11}"
+				"{ftbquests.chapter.voidminer.quest7A53D218AE346717.description12}"
+				"{ftbquests.chapter.voidminer.quest7A53D218AE346717.description13}"
 			]
 			hide_dependency_lines: true
 			id: "7A53D218AE346717"
@@ -584,10 +584,10 @@
 			}]
 			tasks: [{
 				id: "323BFA1B7512E1A5"
-				title: " "
+				title: "{ftbquests.chapter.voidminer.quest7A53D218AE346717.task.3619761721357558181.title}"
 				type: "checkmark"
 			}]
-			title: "&d&lOptimizing the Void"
+			title: "{ftbquests.chapter.voidminer.quest7A53D218AE346717.title}"
 			x: -6.0d
 			y: 1.0d
 		}
@@ -682,11 +682,11 @@
 		{
 			dependencies: ["6E34E7248F1B7E27"]
 			description: [
-				"This Multiblock is sometimes weird to build with the multibuilder tool."
+				"{ftbquests.chapter.voidminer.questBFF2A289A45C93.description1}"
 				""
-				"If its not forming then rotate the multiblock once with shift and mouse wheel. It will work!"
+				"{ftbquests.chapter.voidminer.questBFF2A289A45C93.description2}"
 				""
-				"Thank you :)"
+				"{ftbquests.chapter.voidminer.questBFF2A289A45C93.description3}"
 			]
 			id: "00BFF2A289A45C93"
 			rewards: [{
@@ -838,13 +838,13 @@
 		{
 			dependencies: ["7A53D218AE346717"]
 			description: [
-				"&fImproves the &aenergy efficiency&f of the Voidminer."
+				"{ftbquests.chapter.voidminer.questD2BC09A7E0549CE.description1}"
 				""
-				"&a• &fReduces &eFE/RF&f consumption per cycle"
-				"&a• &fDoes not increase item output directly"
-				"&a• &fStabilizes long-term operation"
+				"{ftbquests.chapter.voidminer.questD2BC09A7E0549CE.description2}"
+				"{ftbquests.chapter.voidminer.questD2BC09A7E0549CE.description3}"
+				"{ftbquests.chapter.voidminer.questD2BC09A7E0549CE.description4}"
 				""
-				"&fRecommended for: &bLarge setups&f and &along-term automation&f"
+				"{ftbquests.chapter.voidminer.questD2BC09A7E0549CE.description5}"
 			]
 			id: "0D2BC09A7E0549CE"
 			rewards: [{
@@ -857,20 +857,20 @@
 				item: "voidminers:rubetine_energy_modifier"
 				type: "item"
 			}]
-			title: "&c&lEnergy Modifier"
+			title: "{ftbquests.chapter.voidminer.questD2BC09A7E0549CE.title}"
 			x: -7.0d
 			y: 2.0d
 		}
 		{
 			dependencies: ["7A53D218AE346717"]
 			description: [
-				"&fReduces the &amining cycle time&f of the Voidminer."
+				"{ftbquests.chapter.voidminer.quest2A16003D6E868DAC.description1}"
 				""
-				"&a• &fMuch faster resource generation"
-				"&a• &cGreatly increases power usage"
-				"&a• &fCan overload weak energy systems"
+				"{ftbquests.chapter.voidminer.quest2A16003D6E868DAC.description2}"
+				"{ftbquests.chapter.voidminer.quest2A16003D6E868DAC.description3}"
+				"{ftbquests.chapter.voidminer.quest2A16003D6E868DAC.description4}"
 				""
-				"&fRecommended for: &bMid to late game&f with &astrong power production&f"
+				"{ftbquests.chapter.voidminer.quest2A16003D6E868DAC.description5}"
 			]
 			id: "2A16003D6E868DAC"
 			rewards: [{
@@ -883,20 +883,20 @@
 				item: "voidminers:rubetine_speed_modifier"
 				type: "item"
 			}]
-			title: "&b&lSpeed Modifier"
+			title: "{ftbquests.chapter.voidminer.quest2A16003D6E868DAC.title}"
 			x: -6.0d
 			y: 3.0d
 		}
 		{
 			dependencies: ["7A53D218AE346717"]
 			description: [
-				"&fIncreases the &bamount of items&f generated per mining cycle."
+				"{ftbquests.chapter.voidminer.quest38A172F647EEFD6.description1}"
 				""
-				"&a• &fHigher yield without faster cycles"
-				"&a• &fVery power efficient compared to speed"
-				"&a• &fBest choice for passive resource gain"
+				"{ftbquests.chapter.voidminer.quest38A172F647EEFD6.description2}"
+				"{ftbquests.chapter.voidminer.quest38A172F647EEFD6.description3}"
+				"{ftbquests.chapter.voidminer.quest38A172F647EEFD6.description4}"
 				""
-				"&fRecommended for: &bEarly, mid and end game scaling&f"
+				"{ftbquests.chapter.voidminer.quest38A172F647EEFD6.description5}"
 			]
 			id: "038A172F647EEFD6"
 			rewards: [{
@@ -909,13 +909,13 @@
 				item: "voidminers:rubetine_item_modifier"
 				type: "item"
 			}]
-			title: "&a&lItem Modifier"
+			title: "{ftbquests.chapter.voidminer.quest38A172F647EEFD6.title}"
 			x: -5.0d
 			y: 2.0d
 		}
 		{
 			dependencies: ["13D8005BEF796C17"]
-			description: ["&bAdds &a+3 item slots&b to the Voidminer internal storage."]
+			description: ["{ftbquests.chapter.voidminer.quest5A5749D17D78A93.description1}"]
 			id: "05A5749D17D78A93"
 			rewards: [{
 				id: "79C550B5BCFADC98"
@@ -927,13 +927,13 @@
 				item: "voidminers:upgrade_max_storage_t1"
 				type: "item"
 			}]
-			title: "&a&lStorage Upgrade T1"
+			title: "{ftbquests.chapter.voidminer.quest5A5749D17D78A93.title}"
 			x: -11.0d
 			y: -4.0d
 		}
 		{
 			dependencies: ["05A5749D17D78A93"]
-			description: ["&bAdds &a+9 item slots&b to the Voidminer internal storage."]
+			description: ["{ftbquests.chapter.voidminer.quest39308E4C2876748C.description1}"]
 			id: "39308E4C2876748C"
 			rewards: [{
 				id: "66D7FBB71A19B14A"
@@ -945,13 +945,13 @@
 				item: "voidminers:upgrade_max_storage_t2"
 				type: "item"
 			}]
-			title: "&b&lStorage Upgrade T2"
+			title: "{ftbquests.chapter.voidminer.quest39308E4C2876748C.title}"
 			x: -11.0d
 			y: -3.0d
 		}
 		{
 			dependencies: ["39308E4C2876748C"]
-			description: ["&bAdds &a+27 item slots&b to the Voidminer internal storage."]
+			description: ["{ftbquests.chapter.voidminer.quest722324B602B3832.description1}"]
 			id: "0722324B602B3832"
 			rewards: [{
 				id: "519E08F3173576E0"
@@ -963,22 +963,22 @@
 				item: "voidminers:upgrade_max_storage_t3"
 				type: "item"
 			}]
-			title: "&d&lStorage Upgrade T3"
+			title: "{ftbquests.chapter.voidminer.quest722324B602B3832.title}"
 			x: -11.0d
 			y: -2.0d
 		}
 		{
 			dependencies: ["10650AD3F8696D4C"]
 			description: [
-				"&fStorage Upgrades increase the &ainternal item storage&f of a Voidminer."
-				"&fThis allows the miner to run longer without external item extraction."
+				"{ftbquests.chapter.voidminer.quest13D8005BEF796C17.description1}"
+				"{ftbquests.chapter.voidminer.quest13D8005BEF796C17.description2}"
 				""
-				"&aImportant Rules&r"
+				"{ftbquests.chapter.voidminer.quest13D8005BEF796C17.description3}"
 				""
-				"&c• &fStorage Upgrades are &lNOT cumulative"
-				"&c• &fOnly &lONE&f Storage Upgrade can be installed per Voidminer"
-				"&c• &fInstalling a higher tier replaces the lower tier"
-				"&c• &fEach miner can only use &lone upgrade&f once"
+				"{ftbquests.chapter.voidminer.quest13D8005BEF796C17.description4}"
+				"{ftbquests.chapter.voidminer.quest13D8005BEF796C17.description5}"
+				"{ftbquests.chapter.voidminer.quest13D8005BEF796C17.description6}"
+				"{ftbquests.chapter.voidminer.quest13D8005BEF796C17.description7}"
 			]
 			id: "13D8005BEF796C17"
 			min_width: 300
@@ -989,7 +989,7 @@
 			}]
 			tasks: [{
 				id: "129C403BF76E0C7F"
-				title: "&6&lStorage Upgrades"
+				title: "{ftbquests.chapter.voidminer.quest13D8005BEF796C17.task.1341017415347997823.title}"
 				type: "checkmark"
 			}]
 			x: -11.0d
@@ -998,13 +998,13 @@
 		{
 			dependencies: ["00BFF2A289A45C93"]
 			description: [
-				"&fIncreases the &aenergy output&f of connected Solar Panels."
+				"{ftbquests.chapter.voidminer.quest457A6496FA02E39E.description1}"
 				""
-				"&a• &fGenerates &bmore energy&f per tick"
-				"&a• &fScales with higher-tier Solar Panels"
-				"&a• &fImproves overall power efficiency"
+				"{ftbquests.chapter.voidminer.quest457A6496FA02E39E.description2}"
+				"{ftbquests.chapter.voidminer.quest457A6496FA02E39E.description3}"
+				"{ftbquests.chapter.voidminer.quest457A6496FA02E39E.description4}"
 				""
-				"&fRecommended for: &bHigh-output solar setups&f"
+				"{ftbquests.chapter.voidminer.quest457A6496FA02E39E.description5}"
 			]
 			hide_dependency_lines: true
 			id: "457A6496FA02E39E"
@@ -1018,21 +1018,21 @@
 				item: "voidminers:solar_rubetine_efficiency_modifier"
 				type: "item"
 			}]
-			title: "&e&lSolar Efficiency Modifier"
+			title: "{ftbquests.chapter.voidminer.quest457A6496FA02E39E.title}"
 			x: -16.5d
 			y: 2.0d
 		}
 		{
 			dependencies: ["00BFF2A289A45C93"]
 			description: [
-				"&fAllows Solar Panels to &agenerate energy&f during"
-				"&brain, storms, and other bad weather."
+				"{ftbquests.chapter.voidminer.quest399AB99920896FE3.description1}"
+				"{ftbquests.chapter.voidminer.quest399AB99920896FE3.description2}"
 				""
-				"&a• &fPrevents power loss during weather changes"
-				"&a• &fImproves reliability of solar-based systems"
-				"&a• &fDoes not increase clear-sky output"
+				"{ftbquests.chapter.voidminer.quest399AB99920896FE3.description3}"
+				"{ftbquests.chapter.voidminer.quest399AB99920896FE3.description4}"
+				"{ftbquests.chapter.voidminer.quest399AB99920896FE3.description5}"
 				""
-				"&fRecommended for: &bStable and uninterrupted power generation&f"
+				"{ftbquests.chapter.voidminer.quest399AB99920896FE3.description6}"
 			]
 			hide_dependency_lines: true
 			id: "399AB99920896FE3"
@@ -1046,10 +1046,10 @@
 				item: "voidminers:solar_rubetine_weather_modifier"
 				type: "item"
 			}]
-			title: "&b&lSolar Weather Modifier"
+			title: "{ftbquests.chapter.voidminer.quest399AB99920896FE3.title}"
 			x: -15.5d
 			y: 2.0d
 		}
 	]
-	title: "&dVoidminer"
+	title: "{ftbquests.chapter.voidminer.title}"
 }

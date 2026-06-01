@@ -44,7 +44,7 @@
 	quest_links: [ ]
 	quests: [
 		{
-			description: ["&rThe Building Gadgets 2 mod speeds up building by letting players quickly place or remove large areas of blocks."]
+			description: ["{ftbquests.chapter.tips_and_tricks.questF75D7B9F4FF2459.description1}"]
 			id: "0F75D7B9F4FF2459"
 			rewards: [{
 				id: "4F4959C6CA30683B"
@@ -79,12 +79,12 @@
 					type: "item"
 				}
 			]
-			title: "Building Gadget"
+			title: "{ftbquests.chapter.tips_and_tricks.questF75D7B9F4FF2459.title}"
 			x: -7.0d
 			y: 2.0d
 		}
 		{
-			description: ["&4The Construction Wand&r mod allows players to place multiple blocks simultaneously, facilitating faster and more efficient building. Depending on the wand's material, up to 1,024 blocks can be placed at once."]
+			description: ["{ftbquests.chapter.tips_and_tricks.quest2A2E3D020B1F5126.description1}"]
 			id: "2A2E3D020B1F5126"
 			rewards: [{
 				id: "73E17D3567E3D6BD"
@@ -104,22 +104,22 @@
 				}
 				type: "item"
 			}]
-			title: "Construction Wand"
+			title: "{ftbquests.chapter.tips_and_tricks.quest2A2E3D020B1F5126.title}"
 			x: -5.0d
 			y: 4.0d
 		}
 		{
 			description: [
-				"The Simple Magnets mod introduces items that automatically attract nearby items and experience orbs to the player. "
+				"{ftbquests.chapter.tips_and_tricks.quest3FC002E5A6C08DCC.description1}"
 				""
-				"It features two main magnets:"
+				"{ftbquests.chapter.tips_and_tricks.quest3FC002E5A6C08DCC.description2}"
 				""
-				"&4Basic Magnet&f: Attracts items and experience within a 5-block radius."
+				"{ftbquests.chapter.tips_and_tricks.quest3FC002E5A6C08DCC.description3}"
 				""
-				"&2Advanced Magnet&f: Offers a configurable range and filtering options, allowing for more precise control over which items are attracted."
+				"{ftbquests.chapter.tips_and_tricks.quest3FC002E5A6C08DCC.description4}"
 				""
 				""
-				"Additionally, the mod includes &dDemagnetization Coils&f, which create areas where magnets are ineffective, preventing unwanted attraction of items in specific zones."
+				"{ftbquests.chapter.tips_and_tricks.quest3FC002E5A6C08DCC.description5}"
 			]
 			id: "3FC002E5A6C08DCC"
 			rewards: [{
@@ -137,16 +137,16 @@
 				}
 				type: "item"
 			}]
-			title: "Magnet"
+			title: "{ftbquests.chapter.tips_and_tricks.quest3FC002E5A6C08DCC.title}"
 			x: -3.0d
 			y: 10.0d
 		}
 		{
 			description: [
-				"You can change the ingots from one mod to another when you find a bad input."
+				"{ftbquests.chapter.tips_and_tricks.quest25E585C8AE7430DC.description1}"
 				""
-				"&4This Item is not craftable!"
-				"Cheats only&r"
+				"{ftbquests.chapter.tips_and_tricks.quest25E585C8AE7430DC.description2}"
+				"{ftbquests.chapter.tips_and_tricks.quest25E585C8AE7430DC.description3}"
 			]
 			icon: "mekanism:oredictionificator"
 			id: "25E585C8AE7430DC"
@@ -188,7 +188,7 @@
 			y: 9.0d
 		}
 		{
-			description: ["Gateways to Eternity adds wave-based combat events where you summon portals and fight through enemy waves for rewards."]
+			description: ["{ftbquests.chapter.tips_and_tricks.quest70E66957E98D944D.description1}"]
 			icon: {
 				Count: 1
 				id: "gateways:gate_pearl"
@@ -306,12 +306,12 @@
 				}
 				type: "item"
 			}]
-			title: "Gateway"
+			title: "{ftbquests.chapter.tips_and_tricks.quest70E66957E98D944D.title}"
 			x: -1.0d
 			y: -4.0d
 		}
 		{
-			description: ["&rThe Torchmaster mod adds special light sources like the Mega Torch that prevent hostile mobs from spawning within a certain radius."]
+			description: ["{ftbquests.chapter.tips_and_tricks.quest2874646A910EA889.description1}"]
 			icon: "torchmaster:megatorch"
 			id: "2874646A910EA889"
 			rewards: [{
@@ -342,12 +342,12 @@
 					type: "item"
 				}
 			]
-			title: "Torchmaster"
+			title: "{ftbquests.chapter.tips_and_tricks.quest2874646A910EA889.title}"
 			x: -2.0d
 			y: -1.0d
 		}
 		{
-			description: ["The Angel Block mod adds a special block that can be placed in mid-air without needing support, making it perfect for building floating structures or starting sky-based builds."]
+			description: ["{ftbquests.chapter.tips_and_tricks.questBD5C89908C16DDB.description1}"]
 			icon: "angelblockrenewed:angel_block"
 			id: "0BD5C89908C16DDB"
 			rewards: [{
@@ -361,12 +361,12 @@
 				item: "angelblockrenewed:angel_block"
 				type: "item"
 			}]
-			title: "Angel Block"
+			title: "{ftbquests.chapter.tips_and_tricks.questBD5C89908C16DDB.title}"
 			x: 0.0d
 			y: 9.0d
 		}
 		{
-			description: ["&rThe Baubley Heart Canisters mod adds heart canisters that increase your max health. They’re equipped via Curios slots and come in different tiers, with stronger hearts dropped from tougher mobs."]
+			description: ["{ftbquests.chapter.tips_and_tricks.quest550D14F2C1CB91DF.description1}"]
 			icon: "bhc:red_heart_canister"
 			id: "550D14F2C1CB91DF"
 			rewards: [{
@@ -392,12 +392,12 @@
 					type: "item"
 				}
 			]
-			title: "Heart Canister"
+			title: "{ftbquests.chapter.tips_and_tricks.quest550D14F2C1CB91DF.title}"
 			x: 1.0d
 			y: -4.0d
 		}
 		{
-			description: ["The Cobble for Days mod adds simple cobblestone generators that produce cobble automatically without needing water or lava setups. Higher-tier generators produce cobblestone faster."]
+			description: ["{ftbquests.chapter.tips_and_tricks.quest68B70D3C33B1A218.description1}"]
 			icon: "cobblefordays:tier_1"
 			id: "68B70D3C33B1A218"
 			rewards: [{
@@ -411,12 +411,12 @@
 				item: "cobblefordays:tier_1"
 				type: "item"
 			}]
-			title: "Cobblestone Generator"
+			title: "{ftbquests.chapter.tips_and_tricks.quest68B70D3C33B1A218.title}"
 			x: -1.0d
 			y: 10.0d
 		}
 		{
-			description: ["The Digital Miner from Mekanism is a high-tech, customizable mining machine that can automatically scan and mine specific blocks from a large area, even through obstacles."]
+			description: ["{ftbquests.chapter.tips_and_tricks.quest39F0944503669D86.description1}"]
 			id: "39F0944503669D86"
 			rewards: [{
 				id: "32B06B319FFB2BBE"
@@ -429,12 +429,12 @@
 				item: "mekanism:digital_miner"
 				type: "item"
 			}]
-			title: "Digital Miner"
+			title: "{ftbquests.chapter.tips_and_tricks.quest39F0944503669D86.title}"
 			x: 2.0d
 			y: 3.0d
 		}
 		{
-			description: ["The Compacter mod adds a simple machine that automatically crafts items into 2x2 or 3x3 compressed forms, like turning nuggets into ingots or ingots into blocks. It supports recursive compacting and runs on RF or EU power."]
+			description: ["{ftbquests.chapter.tips_and_tricks.quest3887F065A1B917DC.description1}"]
 			icon: "compacter:compacter"
 			id: "3887F065A1B917DC"
 			rewards: [{
@@ -443,18 +443,18 @@
 				xp: 3
 			}]
 			size: 2.0d
-			subtitle: "for the sieve?"
+			subtitle: "{ftbquests.chapter.tips_and_tricks.quest3887F065A1B917DC.subtitle}"
 			tasks: [{
 				id: "013061F4A17E61C8"
 				item: "compacter:compacter"
 				type: "item"
 			}]
-			title: "Compactor"
+			title: "{ftbquests.chapter.tips_and_tricks.quest3887F065A1B917DC.title}"
 			x: 3.0d
 			y: 4.0d
 		}
 		{
-			description: ["Find the settings in your Inventory in the top left corner"]
+			description: ["{ftbquests.chapter.tips_and_tricks.quest72026F51769FE691.description1}"]
 			id: "72026F51769FE691"
 			rewards: [{
 				id: "70E30476631BBF48"
@@ -464,15 +464,15 @@
 			size: 2.0d
 			tasks: [{
 				id: "25ECB4BE7185468F"
-				title: "muffler"
+				title: "{ftbquests.chapter.tips_and_tricks.quest72026F51769FE691.task.2732757803948394127.title}"
 				type: "checkmark"
 			}]
-			title: "Extreme Muffler"
+			title: "{ftbquests.chapter.tips_and_tricks.quest72026F51769FE691.title}"
 			x: 6.0d
 			y: 3.0d
 		}
 		{
-			description: ["Mine up to 128 of the same block for hunger. Change the hotkey in your keybinds. Search for \"FTB Ultimine\""]
+			description: ["{ftbquests.chapter.tips_and_tricks.quest5A2174711D9219BF.description1}"]
 			id: "5A2174711D9219BF"
 			rewards: [{
 				id: "00B47659A517F31E"
@@ -482,14 +482,14 @@
 			size: 2.0d
 			tasks: [{
 				id: "5F5B1B7F605C5997"
-				title: "FTB Ultimine"
+				title: "{ftbquests.chapter.tips_and_tricks.quest5A2174711D9219BF.task.6871115890375285143.title}"
 				type: "checkmark"
 			}]
 			x: 6.0d
 			y: 1.0d
 		}
 		{
-			description: ["&rThe LaserIO mod allows players to manage items, fluids, energy, and redstone signals using a single block face, offering flexible and efficient resource transportation."]
+			description: ["{ftbquests.chapter.tips_and_tricks.quest70CC7F36C90AFAD6.description1}"]
 			icon: "laserio:laser_node"
 			id: "70CC7F36C90AFAD6"
 			rewards: [{
@@ -520,15 +520,15 @@
 		}
 		{
 			description: [
-				"The Time in a Bottle mod introduces an item that passively accumulates time while in your inventory."
+				"{ftbquests.chapter.tips_and_tricks.quest3DC75B276FB694C9.description1}"
 				""
-				"You can use this stored time to accelerate block processes, such as speeding up furnaces or crop growth."
+				"{ftbquests.chapter.tips_and_tricks.quest3DC75B276FB694C9.description2}"
 				""
-				"Right-clicking a block with the bottle increases its tick rate, with each successive click doubling the speed but requiring more stored time."
+				"{ftbquests.chapter.tips_and_tricks.quest3DC75B276FB694C9.description3}"
 				""
-				"The acceleration effect lasts for 30 seconds."
+				"{ftbquests.chapter.tips_and_tricks.quest3DC75B276FB694C9.description4}"
 				""
-				"&4NEVER tick accelerate another tick acceleration!&r"
+				"{ftbquests.chapter.tips_and_tricks.quest3DC75B276FB694C9.description5}"
 			]
 			id: "3DC75B276FB694C9"
 			min_width: 400
@@ -562,7 +562,7 @@
 				xp: 3
 			}]
 			size: 2.0d
-			subtitle: "Here are some mining dimensions"
+			subtitle: "{ftbquests.chapter.tips_and_tricks.quest12D1983081A8D945.subtitle}"
 			tasks: [
 				{
 					id: "740AD0132B3CFCDD"
@@ -580,7 +580,7 @@
 					type: "item"
 				}
 			]
-			title: "Mining Dimension (JAMD)"
+			title: "{ftbquests.chapter.tips_and_tricks.quest12D1983081A8D945.title}"
 			x: -2.0d
 			y: 7.0d
 		}
@@ -592,28 +592,28 @@
 				xp: 3
 			}]
 			size: 2.0d
-			subtitle: "A void dimension without mob spawn"
+			subtitle: "{ftbquests.chapter.tips_and_tricks.quest44EB5188DD7FB011.subtitle}"
 			tasks: [{
 				id: "611D5361E401A76C"
 				item: "javd:portal_block"
 				type: "item"
 			}]
-			title: "Void Dimension"
+			title: "{ftbquests.chapter.tips_and_tricks.quest44EB5188DD7FB011.title}"
 			x: 0.0d
 			y: 7.0d
 		}
 		{
 			dependency_requirement: "all_started"
 			description: [
-				"&aCurvy Pipes&r lets you move &eitems&r, &bfluids&r, and &denergy&r through your base in a smooth and elegant way."
+				"{ftbquests.chapter.tips_and_tricks.quest4D3274AE190EEA88.description1}"
 				""
-				"Instead of relying on plain straight pipes, you can create clean transport lines that curve naturally around walls and corners."
+				"{ftbquests.chapter.tips_and_tricks.quest4D3274AE190EEA88.description2}"
 				""
-				"Its curved design keeps your logistics clean, organized, and &avery TPS-friendly&r, making it an excellent choice for larger worlds and busy factories."
+				"{ftbquests.chapter.tips_and_tricks.quest4D3274AE190EEA88.description3}"
 				""
-				"This makes your factory or storage network look much neater while still keeping everything efficient and easy to organize."
+				"{ftbquests.chapter.tips_and_tricks.quest4D3274AE190EEA88.description4}"
 				""
-				"&7Use filters and pipe settings to control what travels where, and build a logistics system that is both functional and stylish.&r"
+				"{ftbquests.chapter.tips_and_tricks.quest4D3274AE190EEA88.description5}"
 			]
 			id: "4D3274AE190EEA88"
 			min_width: 420
@@ -645,22 +645,22 @@
 					type: "item"
 				}
 			]
-			title: "Curvy Pipes"
+			title: "{ftbquests.chapter.tips_and_tricks.quest4D3274AE190EEA88.title}"
 			x: -8.0d
 			y: 3.0d
 		}
 		{
 			description: [
-				"&6Item Collectors&r adds collectors which collect items in a specified range! Item Collectors can be &bwhitelisted&r or &8blacklisted&r!"
+				"{ftbquests.chapter.tips_and_tricks.quest7F9F08CF09D81EB6.description1}"
 				""
-				"&aBasic Item Collector"
-				"• The &o&bBasic Item Collector&r has a range of up to &o&b5&r blocks!"
-				"• &eRight-Click&r a &o&bBasic Item Collector&r to open its &o&bGUI&r."
+				"{ftbquests.chapter.tips_and_tricks.quest7F9F08CF09D81EB6.description2}"
+				"{ftbquests.chapter.tips_and_tricks.quest7F9F08CF09D81EB6.description3}"
+				"{ftbquests.chapter.tips_and_tricks.quest7F9F08CF09D81EB6.description4}"
 				""
-				"&dAdvanced Item Collector"
-				"• The &o&bAdvanced Item Collector&r has a range of up to &o&b7&r blocks!"
-				"• &eRight-Click&r an &o&bAdvanced Item Collector&r to open its &o&bGUI&r."
-				"• The &o&bAdvanced Item Collector&r can &3filter&r items."
+				"{ftbquests.chapter.tips_and_tricks.quest7F9F08CF09D81EB6.description5}"
+				"{ftbquests.chapter.tips_and_tricks.quest7F9F08CF09D81EB6.description6}"
+				"{ftbquests.chapter.tips_and_tricks.quest7F9F08CF09D81EB6.description7}"
+				"{ftbquests.chapter.tips_and_tricks.quest7F9F08CF09D81EB6.description8}"
 			]
 			id: "7F9F08CF09D81EB6"
 			min_width: 300
@@ -688,18 +688,18 @@
 						]
 					}
 				}
-				title: "Item Collectors"
+				title: "{ftbquests.chapter.tips_and_tricks.quest7F9F08CF09D81EB6.task.4611133331452188310.title}"
 				type: "item"
 			}]
-			title: "Item Collectors"
+			title: "{ftbquests.chapter.tips_and_tricks.quest7F9F08CF09D81EB6.title}"
 			x: -8.0d
 			y: 1.0d
 		}
 		{
 			description: [
-				"This mod adds &6Trash Cans&r which can be used to &o&bvoid&r &eitems&r, &9fluids&r and &cenergy&r!"
+				"{ftbquests.chapter.tips_and_tricks.quest684F432B43D104A1.description1}"
 				""
-				"&eItems&r and &9Fluids&r can be &bwhitelisted&r or &8blacklisted&r and an &cenergy&r &ntransfer limit&r can be set!"
+				"{ftbquests.chapter.tips_and_tricks.quest684F432B43D104A1.description2}"
 			]
 			id: "684F432B43D104A1"
 			min_width: 300
@@ -735,20 +735,20 @@
 						]
 					}
 				}
-				title: "Trash Cans"
+				title: "{ftbquests.chapter.tips_and_tricks.quest684F432B43D104A1.task.4192200748300727101.title}"
 				type: "item"
 			}]
-			title: "The Trash Cans"
+			title: "{ftbquests.chapter.tips_and_tricks.quest684F432B43D104A1.title}"
 			x: -7.0d
 			y: 4.0d
 		}
 		{
 			description: [
-				"&6Cardboard Box&r is used for &o&bboxing up&r other blocks to move them, preserving the inventory while being &o&bmoved&r."
+				"{ftbquests.chapter.tips_and_tricks.quest2E20069AE6C51ADF.description1}"
 				""
-				"By &eRight-Clicking&r it on any &o&bblock&r, &o&btank&r, &o&bchest&r or &o&bmachine&r, you &nwrap&r it in this protective box that you can break while still preserving everything about that &o&bblock&r, &o&btank&r, &o&bchest&r or &o&bmachine&r. This includes its &o&binventory&r, &o&borientation&r, &o&binstalled upgrades&r, and &o&bmore&r. You can later place it safely into the world. &eSneak+Right-Click&r to &nunwrap&r a box, causing the &6Cardboard Box&r to drop as an item."
+				"{ftbquests.chapter.tips_and_tricks.quest2E20069AE6C51ADF.description2}"
 				""
-				"With &6Cardboard Boxes&r you can pick up &nspawners&r too."
+				"{ftbquests.chapter.tips_and_tricks.quest2E20069AE6C51ADF.description3}"
 			]
 			id: "2E20069AE6C51ADF"
 			min_width: 400
@@ -776,13 +776,13 @@
 		}
 		{
 			description: [
-				"&2Nature's Compass&r is a utility item that allows you to search for a biome's location anywhere in the world and view information about it."
+				"{ftbquests.chapter.tips_and_tricks.quest7D557A396FB12D0A.description1}"
 				""
-				"&3Explorers Compass&r is an item that allows you to locate structures anywhere in the world."
+				"{ftbquests.chapter.tips_and_tricks.quest7D557A396FB12D0A.description2}"
 				""
-				"&eRight-Clicking&r with &o&bCompass&r in hand will open the selection &o&bGUI&r, from which you can search for a biome/structure or view information about it."
+				"{ftbquests.chapter.tips_and_tricks.quest7D557A396FB12D0A.description3}"
 				""
-				"&eShift+Right-Clicking&r will &nreset&r the compass's state."
+				"{ftbquests.chapter.tips_and_tricks.quest7D557A396FB12D0A.description4}"
 			]
 			id: "7D557A396FB12D0A"
 			min_width: 300
@@ -811,7 +811,7 @@
 							]
 						}
 					}
-					title: "Compasses"
+					title: "{ftbquests.chapter.tips_and_tricks.quest7D557A396FB12D0A.task.7311569572673024648.title}"
 					type: "item"
 				}
 				{
@@ -824,12 +824,12 @@
 					type: "item"
 				}
 			]
-			title: "The Compasses"
+			title: "{ftbquests.chapter.tips_and_tricks.quest7D557A396FB12D0A.title}"
 			x: -1.0d
 			y: -2.0d
 		}
 		{
-			description: ["The &dTelePastries&r mod introduces dimension-specific cakes that, when consumed, teleport players to corresponding dimensions. This mod is particularly useful in Skyblock-style gameplay, offering an alternative to traditional portals."]
+			description: ["{ftbquests.chapter.tips_and_tricks.quest721FC1AE7D78A0D8.description1}"]
 			icon: "telepastries:overworld_cake"
 			id: "721FC1AE7D78A0D8"
 			rewards: [{
@@ -870,20 +870,20 @@
 					type: "item"
 				}
 			]
-			title: "Cakes"
+			title: "{ftbquests.chapter.tips_and_tricks.quest721FC1AE7D78A0D8.title}"
 			x: 4.0d
 			y: 3.0d
 		}
 		{
 			description: [
-				"&eTool Belt&r adds a wearable belt that stores &atools and weapons&r outside your inventory."
+				"{ftbquests.chapter.tips_and_tricks.quest20F4CBC52CD12260.description1}"
 				""
-				"• Frees up hotbar space"
-				"• Holds up to &a9 non-stackable items&r"
-				"• Quick item switching via keybind"
-				"• Supports Curios / extra slots"
+				"{ftbquests.chapter.tips_and_tricks.quest20F4CBC52CD12260.description2}"
+				"{ftbquests.chapter.tips_and_tricks.quest20F4CBC52CD12260.description3}"
+				"{ftbquests.chapter.tips_and_tricks.quest20F4CBC52CD12260.description4}"
+				"{ftbquests.chapter.tips_and_tricks.quest20F4CBC52CD12260.description5}"
 				""
-				"Perfect for building, exploring, and large modded playthroughs."
+				"{ftbquests.chapter.tips_and_tricks.quest20F4CBC52CD12260.description6}"
 			]
 			id: "20F4CBC52CD12260"
 			rewards: [{
@@ -904,12 +904,12 @@
 					type: "item"
 				}
 			]
-			title: "&eTool Belt&r"
+			title: "{ftbquests.chapter.tips_and_tricks.quest20F4CBC52CD12260.title}"
 			x: -1.0d
 			y: 8.0d
 		}
 		{
-			description: ["&rThe Flux Networks mod enables wireless energy networks, allowing customizable, cross-dimensional power transfer without the need for extensive cabling."]
+			description: ["{ftbquests.chapter.tips_and_tricks.quest6A7F7835B4FFED38.description1}"]
 			id: "6A7F7835B4FFED38"
 			rewards: [{
 				id: "196071A366681DEC"
@@ -929,19 +929,19 @@
 					type: "item"
 				}
 			]
-			title: "Flux Network"
+			title: "{ftbquests.chapter.tips_and_tricks.quest6A7F7835B4FFED38.title}"
 			x: -8.0d
 			y: 5.0d
 		}
 		{
 			description: [
-				"The &2DimStorage&r mod adds cross-dimensional storage for items and fluids:"
+				"{ftbquests.chapter.tips_and_tricks.quest5BAFDEC1D5F8FDFF.description1}"
 				""
-				"- &9DimStorage Chest&r: Share item storage across distances using frequencies."
+				"{ftbquests.chapter.tips_and_tricks.quest5BAFDEC1D5F8FDFF.description2}"
 				""
-				"- &2DimStorage Tank&r: Do the same for fluids, making it easy to transport liquids like lava or water between dimensions."
+				"{ftbquests.chapter.tips_and_tricks.quest5BAFDEC1D5F8FDFF.description3}"
 				""
-				"Both are great for automation and long-distance resource transfer."
+				"{ftbquests.chapter.tips_and_tricks.quest5BAFDEC1D5F8FDFF.description4}"
 			]
 			id: "5BAFDEC1D5F8FDFF"
 			rewards: [{
@@ -974,7 +974,7 @@
 				xp: 3
 			}]
 			size: 2.0d
-			subtitle: "A easy way to get infinite water"
+			subtitle: "{ftbquests.chapter.tips_and_tricks.quest209438A4F154203C.subtitle}"
 			tasks: [
 				{
 					id: "6DDB2A796B000ABC"
@@ -997,20 +997,20 @@
 					type: "item"
 				}
 			]
-			title: "Infinite Water"
+			title: "{ftbquests.chapter.tips_and_tricks.quest209438A4F154203C.title}"
 			x: -2.0d
 			y: -3.0d
 		}
 		{
 			description: [
-				"In Applied Energistics 2, presses are used with the Inscriber to create key components for the ME system. There are four types:"
+				"{ftbquests.chapter.tips_and_tricks.quest4A7299079141D52.description1}"
 				""
-				"- &eLogic Press&r – for logic processors (gold)"
-				"- &fCalculation Press&r – for calculation processors (pure Certus Quartz)"
-				"- &bEngineering Press&r – for engineering processors (diamond)"
-				"- &8Silicon Press&r – for printed silicon"
+				"{ftbquests.chapter.tips_and_tricks.quest4A7299079141D52.description2}"
+				"{ftbquests.chapter.tips_and_tricks.quest4A7299079141D52.description3}"
+				"{ftbquests.chapter.tips_and_tricks.quest4A7299079141D52.description4}"
+				"{ftbquests.chapter.tips_and_tricks.quest4A7299079141D52.description5}"
 				""
-				"These presses are typically found in meteorites scattered around the world (&2Lost Cities&r)."
+				"{ftbquests.chapter.tips_and_tricks.quest4A7299079141D52.description6}"
 			]
 			icon: "ae2:calculation_processor_press"
 			id: "04A7299079141D52"
@@ -1051,7 +1051,7 @@
 			y: -4.0d
 		}
 		{
-			description: ["The &1modular routers&r mod adds a block that can move items, place or break blocks, shoot projectiles, and more using upgradeable modules. It’s highly customizable and useful for automation in compact setups."]
+			description: ["{ftbquests.chapter.tips_and_tricks.quest5A2AF10773FA8B2D.description1}"]
 			icon: "modularrouters:modular_router"
 			id: "5A2AF10773FA8B2D"
 			rewards: [{
@@ -1081,7 +1081,7 @@
 			y: 2.0d
 		}
 		{
-			description: ["&rThe Entangled mod lets you link two blocks so that interacting with one affects the other, even from a distance."]
+			description: ["{ftbquests.chapter.tips_and_tricks.quest5DE6CDBDD36EC3CC.description1}"]
 			icon: {
 				Count: 1
 				id: "entangled:block"
@@ -1114,7 +1114,7 @@
 			y: -1.0d
 		}
 		{
-			description: ["The Compact Machines mod adds tiny personal dimensions inside special blocks, allowing players to build complex systems in a small space. It’s great for automation, redstone, and keeping your main base tidy."]
+			description: ["{ftbquests.chapter.tips_and_tricks.quest6D0D293C2771D49C.description1}"]
 			icon: "compactmachines:personal_shrinking_device"
 			id: "6D0D293C2771D49C"
 			rewards: [{
@@ -1135,17 +1135,17 @@
 					type: "item"
 				}
 			]
-			title: "Compact Machines"
+			title: "{ftbquests.chapter.tips_and_tricks.quest6D0D293C2771D49C.title}"
 			x: 5.0d
 			y: 2.0d
 		}
 		{
 			description: [
-				"Right click and config your height"
-				"shift right click to change your height"
-				"shift right click to change your height back to default"
-				"left click a entity to chage the height"
-				"left click the entity again to change height back to default"
+				"{ftbquests.chapter.tips_and_tricks.quest59EC5CDA14D238F.description1}"
+				"{ftbquests.chapter.tips_and_tricks.quest59EC5CDA14D238F.description2}"
+				"{ftbquests.chapter.tips_and_tricks.quest59EC5CDA14D238F.description3}"
+				"{ftbquests.chapter.tips_and_tricks.quest59EC5CDA14D238F.description4}"
+				"{ftbquests.chapter.tips_and_tricks.quest59EC5CDA14D238F.description5}"
 			]
 			id: "059EC5CDA14D238F"
 			rewards: [{
@@ -1163,28 +1163,28 @@
 				}
 				type: "item"
 			}]
-			title: "Shrinking Device"
+			title: "{ftbquests.chapter.tips_and_tricks.quest59EC5CDA14D238F.title}"
 			x: 0.0d
 			y: -3.0d
 		}
 		{
 			description: [
-				"The &eBlocks Booster&r is a powerful acceleration mod that increases the &atick rate&r of nearby machines."
+				"{ftbquests.chapter.tips_and_tricks.quest54D3F98DB1BC6BB2.description1}"
 				""
-				"By consuming large amounts of &cForge Energy (FE)&r, machines can run &amany times faster&r than normal."
+				"{ftbquests.chapter.tips_and_tricks.quest54D3F98DB1BC6BB2.description2}"
 				""
 				""
-				"Blocks Boosters include built-in &aTPS protection&r."
+				"{ftbquests.chapter.tips_and_tricks.quest54D3F98DB1BC6BB2.description3}"
 				""
-				"If server performance drops below a configured value, boosters will temporarily &cdisable themselves&r."
+				"{ftbquests.chapter.tips_and_tricks.quest54D3F98DB1BC6BB2.description4}"
 				""
-				"&4⚠ WARNING:&r"
-				"Accelerated ticking can be &cdangerous&r."
+				"{ftbquests.chapter.tips_and_tricks.quest54D3F98DB1BC6BB2.description5}"
+				"{ftbquests.chapter.tips_and_tricks.quest54D3F98DB1BC6BB2.description6}"
 				""
-				"Some machines or mods are &cNOT designed&r to be ticked at very high speeds and may:"
-				"• Break"
-				"• Desync"
-				"• Cause lag or crashes"
+				"{ftbquests.chapter.tips_and_tricks.quest54D3F98DB1BC6BB2.description7}"
+				"{ftbquests.chapter.tips_and_tricks.quest54D3F98DB1BC6BB2.description8}"
+				"{ftbquests.chapter.tips_and_tricks.quest54D3F98DB1BC6BB2.description9}"
+				"{ftbquests.chapter.tips_and_tricks.quest54D3F98DB1BC6BB2.description10}"
 			]
 			icon: "blockbooster:booster_t1"
 			id: "54D3F98DB1BC6BB2"
@@ -1221,7 +1221,7 @@
 			y: 2.0d
 		}
 		{
-			description: ["Use the Multibuilder Tool to build your multiblocks fast. Just place the items in the inventory from the tool and select the structure."]
+			description: ["{ftbquests.chapter.tips_and_tricks.quest518405876B7FEB5A.description1}"]
 			icon: {
 				Count: 1
 				id: "mbtool:mbtool"
@@ -1268,7 +1268,7 @@
 				xp: 3
 			}]
 			size: 2.0d
-			subtitle: "A way to teleport between dimensions"
+			subtitle: "{ftbquests.chapter.tips_and_tricks.quest74BA767367F2722B.subtitle}"
 			tasks: [{
 				id: "1637D01C6CB844C6"
 				item: "waystones:waystone"
@@ -1279,9 +1279,9 @@
 		}
 		{
 			description: [
-				"Disabled:"
-				"Villager Trades"
-				"Traveling Merchant"
+				"{ftbquests.chapter.tips_and_tricks.quest6CA3E88417FE311.description1}"
+				"{ftbquests.chapter.tips_and_tricks.quest6CA3E88417FE311.description2}"
+				"{ftbquests.chapter.tips_and_tricks.quest6CA3E88417FE311.description3}"
 			]
 			id: "06CA3E88417FE311"
 			min_width: 350
@@ -1293,13 +1293,13 @@
 			size: 2.0d
 			tasks: [{
 				id: "03A5B9F5C215C2A6"
-				title: "There are some disabled things"
+				title: "{ftbquests.chapter.tips_and_tricks.quest6CA3E88417FE311.task.262820618445374118.title}"
 				type: "checkmark"
 			}]
-			title: "Things that are disabled"
+			title: "{ftbquests.chapter.tips_and_tricks.quest6CA3E88417FE311.title}"
 			x: 6.0d
 			y: 5.0d
 		}
 	]
-	title: "&3Useful mods and Items"
+	title: "{ftbquests.chapter.tips_and_tricks.title}"
 }

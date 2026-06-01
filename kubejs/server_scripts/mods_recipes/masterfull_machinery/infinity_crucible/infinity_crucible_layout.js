@@ -5,6 +5,7 @@ MMEvents.createStructures((event) => {
     .controllerId('mm:infinity_crucible_controller')
     .name('Infinity Crucible')
     .layout((a) => {
+      a.portsAnywhere(true);
       a.layer(['   ', ' P ', '   '])
         .layer(['ABA', 'BOB', 'ANA'])
         .layer(['EFE', 'FGF', 'EFE'])
@@ -38,13 +39,17 @@ MMEvents.createStructures((event) => {
           block: 'mm:colossal_gas_port_input',
         })
         .key('K', {
-          block: 'mm:colossal_item_port_input',
+          portType: 'mm:item',
+          input: true,
+          minTier: 5,
         })
         .key('L', {
           block: 'kubejs:chaotic_essence_block',
         })
         .key('M', {
-          block: 'mm:colossal_item_port_output',
+          portType: 'mm:item',
+          input: false,
+          minTier: 5,
         })
         .key('N', {
           block: 'mm:gigantic_energy_port_input',

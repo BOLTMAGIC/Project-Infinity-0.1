@@ -14,6 +14,6 @@
 		{ item: "powah:niotic_crystal_block", weight: 2.0f }
 		{ item: "powah:spirited_crystal_block" }
 	]
-	title: "Powah: Spirited Loot Reward"
+	title: "{ftbquests.loot_table.5896103029501993867.title}"
 	use_title: true
 }

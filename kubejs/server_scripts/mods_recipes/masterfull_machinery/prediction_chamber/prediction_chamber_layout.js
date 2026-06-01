@@ -5,6 +5,7 @@ MMEvents.createStructures((event) => {
     .controllerId('mm:prediction_chamber_controller')
     .name('Prediction Chamber')
     .layout((a) => {
+      a.portsAnywhere(true);
       a.layer([
         '  AAA  ',
         ' ADDDA ',

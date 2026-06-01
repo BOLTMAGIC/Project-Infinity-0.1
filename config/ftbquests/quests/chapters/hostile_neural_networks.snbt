@@ -52,7 +52,7 @@
 	quest_links: [ ]
 	quests: [
 		{
-			description: ["&6Hostile Neural Networks&r (or HNN for short) is a mod based around simulating mob kills for loot! \\\\n \\\\n To do this, you will be collecting 'data' on mobs, then running simulations from the data to create their drops!"]
+			description: ["{ftbquests.chapter.hostile_neural_networks.quest37EBB8E0D6E5F821.description1}"]
 			icon: {
 				Count: 1
 				id: "hostilenetworks:data_model"
@@ -74,13 +74,13 @@
 				id: "463EB27ECC7E6509"
 				type: "checkmark"
 			}]
-			title: "Welcome to &9Hostile Neural Networks&r!"
+			title: "{ftbquests.chapter.hostile_neural_networks.quest37EBB8E0D6E5F821.title}"
 			x: -2.5d
 			y: -2.5d
 		}
 		{
 			dependencies: ["37EBB8E0D6E5F821"]
-			description: ["The &9Deep Learner&r is one of the core components of HNN. \\\\n \\\\n With this item, you can right click to open up a HUD and store &6Data Models&r to gather data while killing mobs. \\\\n \\\\n Each Learner can hold 4 Data Models, and as long as you have the Learner anywhere in your inventory, it will collect data for the models placed inside! \\\\n \\\\n Note: You can have multiple Deep Learners in your inventory, and it will count the kills for all Data Models inside all of the Learners."]
+			description: ["{ftbquests.chapter.hostile_neural_networks.quest3E3CBDCEAB0FF28F.description1}"]
 			hide_dependency_lines: false
 			hide_until_deps_visible: false
 			id: "3E3CBDCEAB0FF28F"
@@ -97,19 +97,19 @@
 				}
 			]
 			shape: "square"
-			subtitle: "The Learning HUD"
+			subtitle: "{ftbquests.chapter.hostile_neural_networks.quest3E3CBDCEAB0FF28F.subtitle}"
 			tasks: [{
 				id: "054BE385F6537CBA"
 				item: "hostilenetworks:deep_learner"
 				type: "item"
 			}]
-			title: "&aLearning Mobs&r"
+			title: "{ftbquests.chapter.hostile_neural_networks.quest3E3CBDCEAB0FF28F.title}"
 			x: -4.0d
 			y: -0.5d
 		}
 		{
 			dependencies: ["37EBB8E0D6E5F821"]
-			description: ["&9Model Frameworks&r are the starting point for creating Data Models. \\\\n \\\\n To start collecting data on a specific mob, you'll want to make one of these then &9right click&r the mob you'd like to gather data on. When done properly, the Model Framework will turn into the Data Model of the mob you clicked on. \\\\n \\\\n To 'gather data' for that mob, place the newly created Data Model inside of a &aDeep Learner&r, then start killing that specific mob with the Deep Learner in your inventory."]
+			description: ["{ftbquests.chapter.hostile_neural_networks.quest58C2ABED43B2EA61.description1}"]
 			hide_dependency_lines: false
 			hide_until_deps_visible: false
 			id: "58C2ABED43B2EA61"
@@ -126,13 +126,13 @@
 				}
 			]
 			shape: "square"
-			subtitle: "For 'Gathering Data'"
+			subtitle: "{ftbquests.chapter.hostile_neural_networks.quest58C2ABED43B2EA61.subtitle}"
 			tasks: [{
 				id: "1C090CE24508A2EC"
 				item: "hostilenetworks:blank_data_model"
 				type: "item"
 			}]
-			title: "&9Modeling Mobs&r"
+			title: "{ftbquests.chapter.hostile_neural_networks.quest58C2ABED43B2EA61.title}"
 			x: -1.0d
 			y: -0.5d
 		}
@@ -141,7 +141,7 @@
 				"3E3CBDCEAB0FF28F"
 				"58C2ABED43B2EA61"
 			]
-			description: ["The &dSimulation Chamber&r is the main machine within HNN. \\\\n \\\\n When given power, it will run simulations based on the &bData Model&r that is placed inside. The power required also depends on the Data Model placed inside, and can be seen within the Model's tooltip.  \\\\n \\\\n The machine also requires at least one &9Prediction Matrix&r to run a simulation. \\\\n \\\\n The result of the simulation will be output onto the Matrix. Simulations will always produce some kind of &eGeneralized Prediction&r, which can be used in various crafting recipes. They also vary depending on the origin of the mob in the Data Model. \\\\n \\\\n If the simulation succeeds, you will receive a &dMob Prediction&r based off of the model. The higher the tier of the Data Model used, the higher the success rate is for a simulation."]
+			description: ["{ftbquests.chapter.hostile_neural_networks.quest104EBBC08B4733F5.description1}"]
 			hide_dependency_lines: false
 			hide_until_deps_visible: false
 			id: "104EBBC08B4733F5"
@@ -164,7 +164,7 @@
 				item: "hostilenetworks:sim_chamber"
 				type: "item"
 			}]
-			title: "&aSimulating Deaths&r"
+			title: "{ftbquests.chapter.hostile_neural_networks.quest104EBBC08B4733F5.title}"
 			x: -2.5d
 			y: 1.0d
 		}
@@ -173,7 +173,7 @@
 				"58C2ABED43B2EA61"
 				"3E3CBDCEAB0FF28F"
 			]
-			description: ["Once you make your first Data Model, you'll need to level it up to be useful. \\\\n \\\\n Data Models start out at the first tier: &7Faulty&r. You'll need to at least level it to &aBasic&r if you'd like to run some simulations on it! \\\\n \\\\n Once placed inside of the Deep Learner, the HUD will tell you how many kills are required to level it up. You can also see this info in the tooltip of the Model itself, although you'll have to do math."]
+			description: ["{ftbquests.chapter.hostile_neural_networks.quest34CD54347E9821B5.description1}"]
 			hide_dependency_lines: false
 			hide_until_deps_visible: false
 			icon: {
@@ -201,16 +201,15 @@
 			shape: "diamond"
 			tasks: [{
 				id: "7CEA92391454DDD3"
-				title: "{atm9.quest.hostile.data}"
 				type: "checkmark"
 			}]
-			title: "Leveling Up Data Models"
+			title: "{ftbquests.chapter.hostile_neural_networks.quest34CD54347E9821B5.title}"
 			x: -2.5d
 			y: -0.5d
 		}
 		{
 			dependencies: ["104EBBC08B4733F5"]
-			description: ["Makes various Overworld materials."]
+			description: ["{ftbquests.chapter.hostile_neural_networks.quest2559201BCF5D497C.description1}"]
 			hide_dependency_lines: false
 			id: "2559201BCF5D497C"
 			rewards: [{
@@ -224,13 +223,13 @@
 				item: "hostilenetworks:overworld_prediction"
 				type: "item"
 			}]
-			title: "Generalized Overworld Prediction"
+			title: "{ftbquests.chapter.hostile_neural_networks.quest2559201BCF5D497C.title}"
 			x: -3.5d
 			y: 2.5d
 		}
 		{
 			dependencies: ["104EBBC08B4733F5"]
-			description: ["Makes various Nether materials."]
+			description: ["{ftbquests.chapter.hostile_neural_networks.quest10E8BC20D406D9FB.description1}"]
 			hide_dependency_lines: false
 			id: "10E8BC20D406D9FB"
 			rewards: [{
@@ -244,13 +243,13 @@
 				item: "hostilenetworks:nether_prediction"
 				type: "item"
 			}]
-			title: "Generalized Nether Prediction"
+			title: "{ftbquests.chapter.hostile_neural_networks.quest10E8BC20D406D9FB.title}"
 			x: -2.5d
 			y: 2.5d
 		}
 		{
 			dependencies: ["104EBBC08B4733F5"]
-			description: ["Makes various End materials."]
+			description: ["{ftbquests.chapter.hostile_neural_networks.quest5A23107C363A209E.description1}"]
 			hide_dependency_lines: false
 			id: "5A23107C363A209E"
 			rewards: [{
@@ -264,7 +263,7 @@
 				item: "hostilenetworks:end_prediction"
 				type: "item"
 			}]
-			title: "Generalized End Prediction"
+			title: "{ftbquests.chapter.hostile_neural_networks.quest5A23107C363A209E.title}"
 			x: -1.5d
 			y: 2.5d
 		}
@@ -842,8 +841,8 @@
 				match_nbt: true
 				type: "item"
 			}]
-			x: -5.5d
-			y: 18.5d
+			x: 1.5d
+			y: 13.5d
 		}
 		{
 			dependencies: ["14B3542ECB59869C"]
@@ -1283,8 +1282,8 @@
 				match_nbt: true
 				type: "item"
 			}]
-			x: -3.0d
-			y: 19.5d
+			x: -6.5d
+			y: 13.5d
 		}
 		{
 			dependencies: ["14B3542ECB59869C"]
@@ -1423,7 +1422,7 @@
 		}
 		{
 			dependencies: ["104EBBC08B4733F5"]
-			description: ["The &5Loot Fabricator&r is the machine that gets you that sweet, sweet loot from Mob Predictions. \\\\n \\\\n When given power and a successful Mob Prediction, you will be able to choose which item you'd like to get from that mob's Data Model. The machine will remember your choice, so it can be automated. \\\\n \\\\n Notable Mob Predictions: \\\\n \\\\n - &dEnder Dragons&r for &dDragon Eggs&r \\\\n - &2Zombies&r for Iron \\\\n - &0Withers&r for &5Nether Stars&r"]
+			description: ["{ftbquests.chapter.hostile_neural_networks.quest14B3542ECB59869C.description1}"]
 			hide_dependency_lines: false
 			id: "14B3542ECB59869C"
 			rewards: [{
@@ -1438,7 +1437,7 @@
 				item: "hostilenetworks:loot_fabricator"
 				type: "item"
 			}]
-			title: "Creating &dLoot&r"
+			title: "{ftbquests.chapter.hostile_neural_networks.quest14B3542ECB59869C.title}"
 			x: -2.5d
 			y: 4.0d
 		}
@@ -1633,200 +1632,8 @@
 				match_nbt: true
 				type: "item"
 			}]
-			x: -4.5d
-			y: 11.5d
-		}
-		{
-			dependencies: ["14B3542ECB59869C"]
-			id: "2C7EF914F747B810"
-			rewards: [
-				{
-					id: "01F88321726F0FF4"
-					type: "xp"
-					xp: 50
-				}
-				{
-					id: "72F8E5AC890EC1B2"
-					item: "kubejs:apotheotic_coin"
-					type: "item"
-				}
-			]
-			tasks: [{
-				id: "16988CF629015B36"
-				item: {
-					Count: 1
-					id: "hostilenetworks:prediction"
-					tag: {
-						data_model: {
-							id: "hostilenetworks:born_in_chaos/maggot"
-						}
-					}
-				}
-				match_nbt: true
-				type: "item"
-			}]
 			x: -2.5d
 			y: 11.5d
-		}
-		{
-			dependencies: ["14B3542ECB59869C"]
-			id: "67BC3E724984976D"
-			rewards: [
-				{
-					id: "7265E158D4B0A534"
-					type: "xp"
-					xp: 50
-				}
-				{
-					id: "11BB4B6A28CADD5E"
-					item: "kubejs:apotheotic_coin"
-					type: "item"
-				}
-			]
-			tasks: [{
-				id: "42C6840E70FE24CD"
-				item: {
-					Count: 1
-					id: "hostilenetworks:prediction"
-					tag: {
-						data_model: {
-							id: "hostilenetworks:born_in_chaos/restless_spirit"
-						}
-					}
-				}
-				match_nbt: true
-				type: "item"
-			}]
-			x: -0.5d
-			y: 11.5d
-		}
-		{
-			dependencies: ["14B3542ECB59869C"]
-			id: "6545AD4D21D250F4"
-			rewards: [
-				{
-					id: "259240008ABDE549"
-					type: "xp"
-					xp: 50
-				}
-				{
-					id: "6FEE85F0D88821FE"
-					item: "kubejs:apotheotic_coin"
-					type: "item"
-				}
-			]
-			tasks: [{
-				id: "12FC55227AC50362"
-				item: {
-					Count: 1
-					id: "hostilenetworks:prediction"
-					tag: {
-						data_model: {
-							id: "hostilenetworks:born_in_chaos/spirit_guide"
-						}
-					}
-				}
-				match_nbt: true
-				type: "item"
-			}]
-			x: -6.5d
-			y: 13.5d
-		}
-		{
-			dependencies: ["14B3542ECB59869C"]
-			id: "587DB6863B8E5BB8"
-			rewards: [
-				{
-					id: "4E9F59BBDED7D853"
-					type: "xp"
-					xp: 50
-				}
-				{
-					id: "4B17E1B1670EAFC3"
-					item: "kubejs:apotheotic_coin"
-					type: "item"
-				}
-			]
-			tasks: [{
-				id: "65ACDA726A1ED929"
-				item: {
-					Count: 1
-					id: "hostilenetworks:prediction"
-					tag: {
-						data_model: {
-							id: "hostilenetworks:the_outer_end/stalker"
-						}
-					}
-				}
-				match_nbt: true
-				type: "item"
-			}]
-			x: 1.5d
-			y: 13.5d
-		}
-		{
-			dependencies: ["14B3542ECB59869C"]
-			id: "24DB11BB73A1225F"
-			rewards: [
-				{
-					id: "50EF5E586BD0FEDB"
-					type: "xp"
-					xp: 50
-				}
-				{
-					id: "57127DD5C9EBF17E"
-					item: "kubejs:apotheotic_coin"
-					type: "item"
-				}
-			]
-			tasks: [{
-				id: "672CEFBD444CE79D"
-				item: {
-					Count: 1
-					id: "hostilenetworks:prediction"
-					tag: {
-						data_model: {
-							id: "hostilenetworks:twilightforest/wraith"
-						}
-					}
-				}
-				match_nbt: true
-				type: "item"
-			}]
-			x: -6.5d
-			y: 14.5d
-		}
-		{
-			dependencies: ["14B3542ECB59869C"]
-			id: "2004789A3762FAC0"
-			rewards: [
-				{
-					id: "5E5CD024EE7965D5"
-					type: "xp"
-					xp: 50
-				}
-				{
-					id: "7D2B3E4D10B08516"
-					item: "kubejs:apotheotic_coin"
-					type: "item"
-				}
-			]
-			tasks: [{
-				id: "01FAB0AA7EE8AA24"
-				item: {
-					Count: 1
-					id: "hostilenetworks:prediction"
-					tag: {
-						data_model: {
-							id: "hostilenetworks:twilightforest/yeti"
-						}
-					}
-				}
-				match_nbt: true
-				type: "item"
-			}]
-			x: -4.0d
-			y: 19.5d
 		}
 		{
 			dependencies: ["14B3542ECB59869C"]
@@ -1862,38 +1669,6 @@
 		}
 		{
 			dependencies: ["14B3542ECB59869C"]
-			id: "7FBAA705B4DD4657"
-			rewards: [
-				{
-					id: "5A5011033DD471B4"
-					type: "xp"
-					xp: 50
-				}
-				{
-					id: "0E2FA5AE56D4697C"
-					item: "kubejs:apotheotic_coin"
-					type: "item"
-				}
-			]
-			tasks: [{
-				id: "584F2F7B38F4353D"
-				item: {
-					Count: 1
-					id: "hostilenetworks:prediction"
-					tag: {
-						data_model: {
-							id: "hostilenetworks:twilightforest/carminite_golem"
-						}
-					}
-				}
-				match_nbt: true
-				type: "item"
-			}]
-			x: -3.5d
-			y: 14.5d
-		}
-		{
-			dependencies: ["14B3542ECB59869C"]
 			id: "18BF9D8037940815"
 			rewards: [
 				{
@@ -1921,8 +1696,8 @@
 				match_nbt: true
 				type: "item"
 			}]
-			x: -1.0d
-			y: 19.5d
+			x: 1.5d
+			y: 9.5d
 		}
 		{
 			dependencies: ["14B3542ECB59869C"]
@@ -1955,38 +1730,6 @@
 			}]
 			x: 1.5d
 			y: 14.5d
-		}
-		{
-			dependencies: ["14B3542ECB59869C"]
-			id: "1370F3BC66CFDF64"
-			rewards: [
-				{
-					id: "22F7C7811A7DD642"
-					type: "xp"
-					xp: 50
-				}
-				{
-					id: "256C8B74D4902084"
-					item: "kubejs:apotheotic_coin"
-					type: "item"
-				}
-			]
-			tasks: [{
-				id: "52B218893503FCD3"
-				item: {
-					Count: 1
-					id: "hostilenetworks:prediction"
-					tag: {
-						data_model: {
-							id: "hostilenetworks:twilightforest/fire_beetle"
-						}
-					}
-				}
-				match_nbt: true
-				type: "item"
-			}]
-			x: -6.5d
-			y: 15.5d
 		}
 		{
 			dependencies: ["14B3542ECB59869C"]
@@ -2049,40 +1792,8 @@
 				match_nbt: true
 				type: "item"
 			}]
-			x: 0.5d
-			y: 18.5d
-		}
-		{
-			dependencies: ["14B3542ECB59869C"]
-			id: "454CB1E7AA112318"
-			rewards: [
-				{
-					id: "74F4A4AB2E90D080"
-					type: "xp"
-					xp: 50
-				}
-				{
-					id: "13DEE89B0A0173B0"
-					item: "kubejs:apotheotic_coin"
-					type: "item"
-				}
-			]
-			tasks: [{
-				id: "655A674B502BA624"
-				item: {
-					Count: 1
-					id: "hostilenetworks:prediction"
-					tag: {
-						data_model: {
-							id: "hostilenetworks:twilightforest/helmet_crab"
-						}
-					}
-				}
-				match_nbt: true
-				type: "item"
-			}]
 			x: 0.0d
-			y: 19.5d
+			y: 17.5d
 		}
 		{
 			dependencies: ["14B3542ECB59869C"]
@@ -2113,40 +1824,8 @@
 				match_nbt: true
 				type: "item"
 			}]
-			x: -5.0d
-			y: 19.5d
-		}
-		{
-			dependencies: ["14B3542ECB59869C"]
-			id: "42D189C7C9C63610"
-			rewards: [
-				{
-					id: "65BD506999FE3E19"
-					type: "xp"
-					xp: 50
-				}
-				{
-					id: "4F5EF09D90AF24C6"
-					item: "kubejs:apotheotic_coin"
-					type: "item"
-				}
-			]
-			tasks: [{
-				id: "50A00914E0CEA2D3"
-				item: {
-					Count: 1
-					id: "hostilenetworks:prediction"
-					tag: {
-						data_model: {
-							id: "hostilenetworks:twilightforest/kobold"
-						}
-					}
-				}
-				match_nbt: true
-				type: "item"
-			}]
-			x: 0.5d
-			y: 15.5d
+			x: -6.5d
+			y: 14.5d
 		}
 		{
 			dependencies: ["14B3542ECB59869C"]
@@ -2278,38 +1957,6 @@
 		}
 		{
 			dependencies: ["14B3542ECB59869C"]
-			id: "28CBBD959F3D54C7"
-			rewards: [
-				{
-					id: "3A8E644800FBF771"
-					type: "xp"
-					xp: 50
-				}
-				{
-					id: "581F3AD9A4709AE4"
-					item: "kubejs:apotheotic_coin"
-					type: "item"
-				}
-			]
-			tasks: [{
-				id: "0CDD62E6628AD034"
-				item: {
-					Count: 1
-					id: "hostilenetworks:prediction"
-					tag: {
-						data_model: {
-							id: "hostilenetworks:twilightforest/raven"
-						}
-					}
-				}
-				match_nbt: true
-				type: "item"
-			}]
-			x: 1.5d
-			y: 9.5d
-		}
-		{
-			dependencies: ["14B3542ECB59869C"]
 			id: "0E2B224A5FF934DF"
 			rewards: [
 				{
@@ -2403,70 +2050,6 @@
 			}]
 			x: 0.5d
 			y: 8.5d
-		}
-		{
-			dependencies: ["14B3542ECB59869C"]
-			id: "35A5E014080F0BBF"
-			rewards: [
-				{
-					id: "591562ED12F42A16"
-					type: "xp"
-					xp: 50
-				}
-				{
-					id: "186C7C9F89167C3B"
-					item: "kubejs:apotheotic_coin"
-					type: "item"
-				}
-			]
-			tasks: [{
-				id: "1AC94195801C82F7"
-				item: {
-					Count: 1
-					id: "hostilenetworks:prediction"
-					tag: {
-						data_model: {
-							id: "hostilenetworks:twilightforest/stable_ice_core"
-						}
-					}
-				}
-				match_nbt: true
-				type: "item"
-			}]
-			x: -2.0d
-			y: 17.5d
-		}
-		{
-			dependencies: ["14B3542ECB59869C"]
-			id: "1830A1A15703CC3B"
-			rewards: [
-				{
-					id: "214C36E80B996FB4"
-					type: "xp"
-					xp: 50
-				}
-				{
-					id: "53C0C2960FBC9754"
-					item: "kubejs:apotheotic_coin"
-					type: "item"
-				}
-			]
-			tasks: [{
-				id: "493578FE89512E76"
-				item: {
-					Count: 1
-					id: "hostilenetworks:prediction"
-					tag: {
-						data_model: {
-							id: "hostilenetworks:twilightforest/towerwood_borer"
-						}
-					}
-				}
-				match_nbt: true
-				type: "item"
-			}]
-			x: -4.0d
-			y: 16.5d
 		}
 		{
 			dependencies: ["14B3542ECB59869C"]
@@ -2598,7 +2181,7 @@
 		}
 		{
 			dependencies: ["104EBBC08B4733F5"]
-			description: ["Makes various Twilight Forest materials."]
+			description: ["{ftbquests.chapter.hostile_neural_networks.quest3215DB3E694A5AE2.description1}"]
 			hide_dependency_lines: false
 			id: "3215DB3E694A5AE2"
 			rewards: [{
@@ -2612,41 +2195,9 @@
 				item: "hostilenetworks:twilight_prediction"
 				type: "item"
 			}]
-			title: "Generalized Twilight Prediction"
+			title: "{ftbquests.chapter.hostile_neural_networks.quest3215DB3E694A5AE2.title}"
 			x: -0.5d
 			y: 2.5d
-		}
-		{
-			dependencies: ["14B3542ECB59869C"]
-			id: "6BB718370BDA86EC"
-			rewards: [
-				{
-					id: "1F360882E97A32A9"
-					type: "xp"
-					xp: 50
-				}
-				{
-					id: "4B330C9A9671F3CB"
-					item: "kubejs:apotheotic_coin"
-					type: "item"
-				}
-			]
-			tasks: [{
-				id: "6A100DC493D7411A"
-				item: {
-					Count: 1
-					id: "hostilenetworks:prediction"
-					tag: {
-						data_model: {
-							id: "hostilenetworks:born_in_chaos/glutton_fish"
-						}
-					}
-				}
-				match_nbt: true
-				type: "item"
-			}]
-			x: -1.0d
-			y: 16.5d
 		}
 		{
 			dependencies: ["14B3542ECB59869C"]
@@ -2827,16 +2378,14 @@
 		{
 			dependencies: ["7B92C09E74D6ABB2"]
 			description: [
-				"You need to put them in this order inside the Merger Camera:"
-				"Wither Skeleton"
-				"Wither"
-				"Ender Dragon"
-				"Warden"
+				"{ftbquests.chapter.hostile_neural_networks.quest55C76FF9FC3B049A.description1}"
+				"{ftbquests.chapter.hostile_neural_networks.quest55C76FF9FC3B049A.description2}"
+				"{ftbquests.chapter.hostile_neural_networks.quest55C76FF9FC3B049A.description3}"
+				"{ftbquests.chapter.hostile_neural_networks.quest55C76FF9FC3B049A.description4}"
+				"{ftbquests.chapter.hostile_neural_networks.quest55C76FF9FC3B049A.description5}"
 				""
-				"&4DONT USE THE CHAOS GUARDIAN INSIDE THE MERGER OR THE SIMULATING MODELING.&r"
-				"&4IT WONT WORK!&r"
-				""
-				"Thx to GUTS for the Info!"
+				"{ftbquests.chapter.hostile_neural_networks.quest55C76FF9FC3B049A.description6}"
+				"{ftbquests.chapter.hostile_neural_networks.quest55C76FF9FC3B049A.description7}"
 			]
 			id: "55C76FF9FC3B049A"
 			rewards: [{
@@ -2863,13 +2412,13 @@
 				match_nbt: true
 				type: "item"
 			}]
-			title: "Wither Skeleton, Wither, Ender Dragon, Warden Data Model"
+			title: "{ftbquests.chapter.hostile_neural_networks.quest55C76FF9FC3B049A.title}"
 			x: 9.0d
 			y: 4.0d
 		}
 		{
 			dependencies: ["20879753F697BF83"]
-			description: ["Get more data"]
+			description: ["{ftbquests.chapter.hostile_neural_networks.quest5E88E4FB34428051.description1}"]
 			id: "5E88E4FB34428051"
 			rewards: [{
 				id: "244DDC9EB8FE944C"
@@ -2886,7 +2435,7 @@
 		}
 		{
 			dependencies: ["20879753F697BF83"]
-			description: ["Upgrade the tier of the Data model. Faulty Data models cant be upgraded"]
+			description: ["{ftbquests.chapter.hostile_neural_networks.quest17B6588BDE007D44.description1}"]
 			id: "17B6588BDE007D44"
 			rewards: [{
 				id: "0998BC2FE3A9F2C3"
@@ -2903,7 +2452,7 @@
 		}
 		{
 			dependencies: ["20879753F697BF83"]
-			description: ["Upgrade the speed of the machine"]
+			description: ["{ftbquests.chapter.hostile_neural_networks.quest53DAA838BC387E90.description1}"]
 			id: "53DAA838BC387E90"
 			rewards: [{
 				id: "4ABC13CC49C4D32E"
@@ -2921,7 +2470,6 @@
 		{
 			dependencies: [
 				"75D4BAABECD554AA"
-				"35A5E014080F0BBF"
 				"3F8E733CBA5DD26D"
 				"2E8326776D8FF47C"
 				"206462B703CA201E"
@@ -2935,34 +2483,22 @@
 				"35684CFF37366F34"
 				"1FD43610960E3450"
 				"05123E63B51561FF"
-				"24DB11BB73A1225F"
 				"245D83BA9D00AFF8"
 				"25486FC0ED7133D9"
-				"454CB1E7AA112318"
 				"1E985ADC4067A107"
-				"28CBBD959F3D54C7"
 				"1F0EF605CC6E5E40"
-				"67BC3E724984976D"
 				"2386E6CC8FF02A12"
 				"6BF7C7ADF1B80ACB"
-				"1830A1A15703CC3B"
 				"12172C1449296E06"
-				"6545AD4D21D250F4"
 				"7C009C2683E32C75"
 				"642FA846B5B89AE3"
 				"0E91D8CF933586DF"
-				"7FBAA705B4DD4657"
-				"6BB718370BDA86EC"
 				"201466DF9FBB2FCB"
-				"2004789A3762FAC0"
-				"2C7EF914F747B810"
 				"18BF9D8037940815"
-				"42D189C7C9C63610"
 				"4A26233C179D02C4"
 				"48E72AD15C4F78BC"
 				"40EE3BBCF238942D"
 				"0E2B224A5FF934DF"
-				"587DB6863B8E5BB8"
 				"354E0774523B374F"
 				"5905241071D1960A"
 				"6BCB799B580C8F12"
@@ -2979,7 +2515,6 @@
 				"430B0F434ECD2759"
 				"61F1ADF55C49872D"
 				"631C0CEE61CDF4DF"
-				"1370F3BC66CFDF64"
 				"6CCDF28A50BEA391"
 				"228AEC85F5348ED2"
 				"0D058D166646643E"
@@ -2995,8 +2530,6 @@
 				"2F6F888610373E21"
 				"32085D990E7C65F9"
 				"13C844310B488184"
-				"29E65CF364702B30"
-				"3E946E88F364454E"
 				"60DF1E309C61BAF8"
 				"77E99195D495A01F"
 				"1D35AF8EB12AC817"
@@ -3009,10 +2542,8 @@
 				"3079968FBAE16A13"
 				"53BD6FD6895D3332"
 				"557A735F03952B37"
-				"2397D034AEB9F013"
 				"11F89517B10284E7"
 				"0A3CD5FC93519E9A"
-				"445F38A1ACF68D05"
 				"6707FEF3D2EA068E"
 				"615DB6D0592415B9"
 				"56EF8F0FF05498A5"
@@ -3024,15 +2555,10 @@
 				"3C096B14474FDD49"
 				"0A55D28869FD1E3C"
 				"2A803A69722143D7"
-				"5E82506DF3DF54AF"
-				"142878A5E3E87345"
-				"0353D4A93B629039"
 				"3CB6355AD1AC2161"
-				"3C0810989A5FFAEE"
 				"2DB815F43FEC7284"
 				"568B3D8A3B4BF46E"
 				"6609826CA4A14763"
-				"5A60A36EEFEA6E4C"
 				"06DFF343185B196E"
 				"01D2B3095BE4E495"
 				"598A35419AE4D203"
@@ -3041,7 +2567,6 @@
 				"4BD42180CDAEF949"
 				"07D5CD2D4F6A1827"
 				"298DC28266064CBC"
-				"6A5C65C46CC880E6"
 				"015793FE7E94F20B"
 				"17E3F67BEB060129"
 				"4A697536C4C29CA5"
@@ -3054,22 +2579,17 @@
 				"2CD2608CBFB453A9"
 				"1E53D04042F4C023"
 				"4F92EE684C7AEE45"
-				"1974EA3D762063AC"
 				"7CE0A38B8FEDBBC3"
 				"5FE933C2ED6E9E02"
 				"55F0E6F7AD7FA3BF"
 				"17246ADADEDE9A6A"
-				"6F004CBA58F1DD9A"
 				"1524A18B83113DEB"
 				"7A4CF0E488CD6BBD"
 				"34C59FD5D49E2B54"
-				"7E086FF90BD144FB"
-				"34E39E69025F970E"
 				"19ED940BDF40F4FD"
 				"0E080336B6332051"
 				"6A27EC4293888E30"
 				"1E34F64F1835C611"
-				"65CA41CF21E4CA80"
 				"2C8E0067F9981D17"
 				"54A2719DAE6E1637"
 				"2A9456BF37F5A639"
@@ -3077,11 +2597,8 @@
 				"5B17B5DB8CA33685"
 				"7CE7F1D9F36BC0B9"
 				"613C4C492D54BD4C"
-				"23B768ED692A511D"
-				"0634E26DA7C0DCE8"
 				"6DC2EC13E0BE299E"
 				"4BB155335C63E495"
-				"4D17D5A200451704"
 				"4606559A9F944DFD"
 				"08F27B1F8C2BB530"
 				"687C7C69170EBBED"
@@ -3218,40 +2735,6 @@
 		{
 			dependencies: ["14B3542ECB59869C"]
 			hide_until_deps_visible: false
-			id: "3E946E88F364454E"
-			optional: true
-			rewards: [
-				{
-					id: "698C4ED59772EAD6"
-					type: "xp"
-					xp: 50
-				}
-				{
-					id: "3C60B9659FC57268"
-					item: "kubejs:apotheotic_coin"
-					type: "item"
-				}
-			]
-			tasks: [{
-				id: "535717DE8135DF54"
-				item: {
-					Count: 1
-					id: "hostilenetworks:prediction"
-					tag: {
-						data_model: {
-							id: "hostilenetworks:cataclysm/deepling_warlock"
-						}
-					}
-				}
-				match_nbt: true
-				type: "item"
-			}]
-			x: 0.0d
-			y: 17.5d
-		}
-		{
-			dependencies: ["14B3542ECB59869C"]
-			hide_until_deps_visible: false
 			id: "77E99195D495A01F"
 			optional: true
 			rewards: [
@@ -3280,8 +2763,8 @@
 				match_nbt: true
 				type: "item"
 			}]
-			x: -4.0d
-			y: 18.5d
+			x: -2.0d
+			y: 17.5d
 		}
 		{
 			dependencies: ["14B3542ECB59869C"]
@@ -3314,8 +2797,8 @@
 				match_nbt: true
 				type: "item"
 			}]
-			x: -1.0d
-			y: 18.5d
+			x: -3.5d
+			y: 14.5d
 		}
 		{
 			dependencies: ["14B3542ECB59869C"]
@@ -3348,8 +2831,8 @@
 				match_nbt: true
 				type: "item"
 			}]
-			x: -3.0d
-			y: 18.5d
+			x: -6.5d
+			y: 15.5d
 		}
 		{
 			dependencies: ["14B3542ECB59869C"]
@@ -3382,42 +2865,8 @@
 				match_nbt: true
 				type: "item"
 			}]
-			x: -2.0d
-			y: 18.5d
-		}
-		{
-			dependencies: ["14B3542ECB59869C"]
-			hide_until_deps_visible: false
-			id: "29E65CF364702B30"
-			optional: true
-			rewards: [
-				{
-					id: "3A20766D508BA70C"
-					type: "xp"
-					xp: 50
-				}
-				{
-					id: "2DCD09454F6ECA7E"
-					item: "kubejs:apotheotic_coin"
-					type: "item"
-				}
-			]
-			tasks: [{
-				id: "305F3511E41DBBEA"
-				item: {
-					Count: 1
-					id: "hostilenetworks:prediction"
-					tag: {
-						data_model: {
-							id: "hostilenetworks:twilightforest/winter_wolf"
-						}
-					}
-				}
-				match_nbt: true
-				type: "item"
-			}]
-			x: -2.0d
-			y: 19.5d
+			x: 0.5d
+			y: 15.5d
 		}
 		{
 			dependencies: ["14B3542ECB59869C"]
@@ -3653,7 +3102,7 @@
 		}
 		{
 			dependencies: ["14B3542ECB59869C"]
-			description: ["You cant put the Chaos Dragon Data Model inside the Simualting Modeling and you should not put it inside the Merger!"]
+			description: ["{ftbquests.chapter.hostile_neural_networks.quest2282DDBCAE7CA5AA.description1}"]
 			hide_until_deps_visible: false
 			id: "2282DDBCAE7CA5AA"
 			rewards: [
@@ -3887,31 +3336,6 @@
 		}
 		{
 			dependencies: ["14B3542ECB59869C"]
-			id: "7E086FF90BD144FB"
-			rewards: [{
-				id: "58D79000BA5E7F1B"
-				type: "xp"
-				xp: 50
-			}]
-			tasks: [{
-				id: "146F9306336134B4"
-				item: {
-					Count: 1
-					id: "hostilenetworks:data_model"
-					tag: {
-						data_model: {
-							id: "hostilenetworks:twilightforest/stable_ice_core"
-						}
-					}
-				}
-				match_nbt: true
-				type: "item"
-			}]
-			x: -15.5d
-			y: 17.5d
-		}
-		{
-			dependencies: ["14B3542ECB59869C"]
 			id: "08F27B1F8C2BB530"
 			rewards: [{
 				id: "66739D0D6BCBAFC6"
@@ -3983,31 +3407,6 @@
 				type: "item"
 			}]
 			x: -18.0d
-			y: 9.5d
-		}
-		{
-			dependencies: ["14B3542ECB59869C"]
-			id: "445F38A1ACF68D05"
-			rewards: [{
-				id: "7AC424C1223BBD40"
-				type: "xp"
-				xp: 50
-			}]
-			tasks: [{
-				id: "50D04142E51DAB3B"
-				item: {
-					Count: 1
-					id: "hostilenetworks:data_model"
-					tag: {
-						data_model: {
-							id: "hostilenetworks:twilightforest/raven"
-						}
-					}
-				}
-				match_nbt: true
-				type: "item"
-			}]
-			x: -12.0d
 			y: 9.5d
 		}
 		{
@@ -4296,31 +3695,6 @@
 		}
 		{
 			dependencies: ["14B3542ECB59869C"]
-			id: "0634E26DA7C0DCE8"
-			rewards: [{
-				id: "518FD5F2556C8A07"
-				type: "xp"
-				xp: 50
-			}]
-			tasks: [{
-				id: "3B3B604C35402EC2"
-				item: {
-					Count: 1
-					id: "hostilenetworks:data_model"
-					tag: {
-						data_model: {
-							id: "hostilenetworks:born_in_chaos/restless_spirit"
-						}
-					}
-				}
-				match_nbt: true
-				type: "item"
-			}]
-			x: -14.0d
-			y: 11.5d
-		}
-		{
-			dependencies: ["14B3542ECB59869C"]
 			id: "10279B06361A9684"
 			rewards: [{
 				id: "5F041554807DB0B9"
@@ -4342,31 +3716,6 @@
 				type: "item"
 			}]
 			x: -15.0d
-			y: 11.5d
-		}
-		{
-			dependencies: ["14B3542ECB59869C"]
-			id: "34E39E69025F970E"
-			rewards: [{
-				id: "1E197E943792F9D8"
-				type: "xp"
-				xp: 50
-			}]
-			tasks: [{
-				id: "119DB72FACCB794E"
-				item: {
-					Count: 1
-					id: "hostilenetworks:data_model"
-					tag: {
-						data_model: {
-							id: "hostilenetworks:born_in_chaos/maggot"
-						}
-					}
-				}
-				match_nbt: true
-				type: "item"
-			}]
-			x: -16.0d
 			y: 11.5d
 		}
 		{
@@ -4416,7 +3765,7 @@
 				match_nbt: true
 				type: "item"
 			}]
-			x: -18.0d
+			x: -16.0d
 			y: 11.5d
 		}
 		{
@@ -4646,31 +3995,6 @@
 		}
 		{
 			dependencies: ["14B3542ECB59869C"]
-			id: "6A5C65C46CC880E6"
-			rewards: [{
-				id: "15B2152450614F72"
-				type: "xp"
-				xp: 50
-			}]
-			tasks: [{
-				id: "177F923C758895B2"
-				item: {
-					Count: 1
-					id: "hostilenetworks:data_model"
-					tag: {
-						data_model: {
-							id: "hostilenetworks:born_in_chaos/spirit_guide"
-						}
-					}
-				}
-				match_nbt: true
-				type: "item"
-			}]
-			x: -20.0d
-			y: 13.5d
-		}
-		{
-			dependencies: ["14B3542ECB59869C"]
 			id: "6DC2EC13E0BE299E"
 			rewards: [{
 				id: "12D93D7A571D2C4D"
@@ -4846,56 +4170,6 @@
 		}
 		{
 			dependencies: ["14B3542ECB59869C"]
-			id: "23B768ED692A511D"
-			rewards: [{
-				id: "12DDA73FBC5CDF75"
-				type: "xp"
-				xp: 50
-			}]
-			tasks: [{
-				id: "64E02FF4E53328E4"
-				item: {
-					Count: 1
-					id: "hostilenetworks:data_model"
-					tag: {
-						data_model: {
-							id: "hostilenetworks:the_outer_end/stalker"
-						}
-					}
-				}
-				match_nbt: true
-				type: "item"
-			}]
-			x: -12.0d
-			y: 13.5d
-		}
-		{
-			dependencies: ["14B3542ECB59869C"]
-			id: "1974EA3D762063AC"
-			rewards: [{
-				id: "6E7F042774B315BD"
-				type: "xp"
-				xp: 50
-			}]
-			tasks: [{
-				id: "015D004425761527"
-				item: {
-					Count: 1
-					id: "hostilenetworks:data_model"
-					tag: {
-						data_model: {
-							id: "hostilenetworks:twilightforest/wraith"
-						}
-					}
-				}
-				match_nbt: true
-				type: "item"
-			}]
-			x: -20.0d
-			y: 14.5d
-		}
-		{
-			dependencies: ["14B3542ECB59869C"]
 			id: "34C59FD5D49E2B54"
 			rewards: [{
 				id: "0507952EF77BEFF4"
@@ -4917,31 +4191,6 @@
 				type: "item"
 			}]
 			x: -18.0d
-			y: 14.5d
-		}
-		{
-			dependencies: ["14B3542ECB59869C"]
-			id: "0353D4A93B629039"
-			rewards: [{
-				id: "0BDBBD0EB6DF984D"
-				type: "xp"
-				xp: 50
-			}]
-			tasks: [{
-				id: "065930A9852E38A4"
-				item: {
-					Count: 1
-					id: "hostilenetworks:data_model"
-					tag: {
-						data_model: {
-							id: "hostilenetworks:twilightforest/carminite_golem"
-						}
-					}
-				}
-				match_nbt: true
-				type: "item"
-			}]
-			x: -17.0d
 			y: 14.5d
 		}
 		{
@@ -5046,31 +4295,6 @@
 		}
 		{
 			dependencies: ["14B3542ECB59869C"]
-			id: "5A60A36EEFEA6E4C"
-			rewards: [{
-				id: "20227155ECB4F1F7"
-				type: "xp"
-				xp: 50
-			}]
-			tasks: [{
-				id: "1508E6A9D1594F47"
-				item: {
-					Count: 1
-					id: "hostilenetworks:data_model"
-					tag: {
-						data_model: {
-							id: "hostilenetworks:twilightforest/fire_beetle"
-						}
-					}
-				}
-				match_nbt: true
-				type: "item"
-			}]
-			x: -20.0d
-			y: 15.5d
-		}
-		{
-			dependencies: ["14B3542ECB59869C"]
 			id: "4BB155335C63E495"
 			rewards: [{
 				id: "027ED1B7F833D088"
@@ -5096,7 +4320,7 @@
 		}
 		{
 			dependencies: ["14B3542ECB59869C"]
-			description: ["You cant put the Chaos Dragon Data Model inside the Simualting Modeling and you should not put it inside the Merger!"]
+			description: ["{ftbquests.chapter.hostile_neural_networks.quest7D297E6E96ED222B.description1}"]
 			id: "7D297E6E96ED222B"
 			rewards: [{
 				id: "79FACD21C89B2108"
@@ -5118,31 +4342,6 @@
 				type: "item"
 			}]
 			x: -16.0d
-			y: 15.5d
-		}
-		{
-			dependencies: ["14B3542ECB59869C"]
-			id: "6F004CBA58F1DD9A"
-			rewards: [{
-				id: "3318489AB0393021"
-				type: "xp"
-				xp: 50
-			}]
-			tasks: [{
-				id: "26AA72F9D7471710"
-				item: {
-					Count: 1
-					id: "hostilenetworks:data_model"
-					tag: {
-						data_model: {
-							id: "hostilenetworks:twilightforest/kobold"
-						}
-					}
-				}
-				match_nbt: true
-				type: "item"
-			}]
-			x: -13.0d
 			y: 15.5d
 		}
 		{
@@ -5222,31 +4421,6 @@
 		}
 		{
 			dependencies: ["14B3542ECB59869C"]
-			id: "142878A5E3E87345"
-			rewards: [{
-				id: "0A0FF0236DFF889B"
-				type: "xp"
-				xp: 50
-			}]
-			tasks: [{
-				id: "1A6324D6AAB0E6F2"
-				item: {
-					Count: 1
-					id: "hostilenetworks:data_model"
-					tag: {
-						data_model: {
-							id: "hostilenetworks:twilightforest/towerwood_borer"
-						}
-					}
-				}
-				match_nbt: true
-				type: "item"
-			}]
-			x: -17.5d
-			y: 16.5d
-		}
-		{
-			dependencies: ["14B3542ECB59869C"]
 			id: "49CF7FACDEFE32EB"
 			rewards: [{
 				id: "46656DB47D5981C6"
@@ -5293,31 +4467,6 @@
 				type: "item"
 			}]
 			x: -15.5d
-			y: 16.5d
-		}
-		{
-			dependencies: ["14B3542ECB59869C"]
-			id: "4D17D5A200451704"
-			rewards: [{
-				id: "68534094AB220407"
-				type: "xp"
-				xp: 50
-			}]
-			tasks: [{
-				id: "62B31000D2DE971F"
-				item: {
-					Count: 1
-					id: "hostilenetworks:data_model"
-					tag: {
-						data_model: {
-							id: "hostilenetworks:born_in_chaos/glutton_fish"
-						}
-					}
-				}
-				match_nbt: true
-				type: "item"
-			}]
-			x: -14.5d
 			y: 16.5d
 		}
 		{
@@ -5472,31 +4621,6 @@
 		}
 		{
 			dependencies: ["14B3542ECB59869C"]
-			id: "65CA41CF21E4CA80"
-			rewards: [{
-				id: "3FF2285576F3DA6E"
-				type: "xp"
-				xp: 50
-			}]
-			tasks: [{
-				id: "193B7C34D4C8CC9F"
-				item: {
-					Count: 1
-					id: "hostilenetworks:data_model"
-					tag: {
-						data_model: {
-							id: "hostilenetworks:cataclysm/deepling_warlock"
-						}
-					}
-				}
-				match_nbt: true
-				type: "item"
-			}]
-			x: -13.5d
-			y: 17.5d
-		}
-		{
-			dependencies: ["14B3542ECB59869C"]
 			id: "3324EB394FE52A06"
 			rewards: [{
 				id: "30665F0433B92785"
@@ -5542,8 +4666,8 @@
 				match_nbt: true
 				type: "item"
 			}]
-			x: -19.0d
-			y: 18.5d
+			x: -12.0d
+			y: 13.5d
 		}
 		{
 			dependencies: ["14B3542ECB59869C"]
@@ -5567,8 +4691,8 @@
 				match_nbt: true
 				type: "item"
 			}]
-			x: -17.5d
-			y: 18.5d
+			x: -15.5d
+			y: 17.5d
 		}
 		{
 			dependencies: ["14B3542ECB59869C"]
@@ -5592,8 +4716,8 @@
 				match_nbt: true
 				type: "item"
 			}]
-			x: -16.5d
-			y: 18.5d
+			x: -20.0d
+			y: 15.5d
 		}
 		{
 			dependencies: ["14B3542ECB59869C"]
@@ -5617,8 +4741,8 @@
 				match_nbt: true
 				type: "item"
 			}]
-			x: -15.5d
-			y: 18.5d
+			x: -13.0d
+			y: 15.5d
 		}
 		{
 			dependencies: ["14B3542ECB59869C"]
@@ -5642,8 +4766,8 @@
 				match_nbt: true
 				type: "item"
 			}]
-			x: -14.5d
-			y: 18.5d
+			x: -17.0d
+			y: 14.5d
 		}
 		{
 			dependencies: ["14B3542ECB59869C"]
@@ -5667,8 +4791,8 @@
 				match_nbt: true
 				type: "item"
 			}]
-			x: -13.0d
-			y: 18.5d
+			x: -13.5d
+			y: 17.5d
 		}
 		{
 			dependencies: ["14B3542ECB59869C"]
@@ -5692,58 +4816,8 @@
 				match_nbt: true
 				type: "item"
 			}]
-			x: -18.5d
-			y: 19.5d
-		}
-		{
-			dependencies: ["14B3542ECB59869C"]
-			id: "2397D034AEB9F013"
-			rewards: [{
-				id: "79B9FD77062D7453"
-				type: "xp"
-				xp: 50
-			}]
-			tasks: [{
-				id: "3ADF1C2CB935B1B3"
-				item: {
-					Count: 1
-					id: "hostilenetworks:data_model"
-					tag: {
-						data_model: {
-							id: "hostilenetworks:twilightforest/yeti"
-						}
-					}
-				}
-				match_nbt: true
-				type: "item"
-			}]
-			x: -17.5d
-			y: 19.5d
-		}
-		{
-			dependencies: ["14B3542ECB59869C"]
-			id: "3C0810989A5FFAEE"
-			rewards: [{
-				id: "56D85562CCD8C9CA"
-				type: "xp"
-				xp: 50
-			}]
-			tasks: [{
-				id: "0449033F1654FF9D"
-				item: {
-					Count: 1
-					id: "hostilenetworks:data_model"
-					tag: {
-						data_model: {
-							id: "hostilenetworks:twilightforest/winter_wolf"
-						}
-					}
-				}
-				match_nbt: true
-				type: "item"
-			}]
-			x: -15.5d
-			y: 19.5d
+			x: -20.0d
+			y: 14.5d
 		}
 		{
 			dependencies: ["14B3542ECB59869C"]
@@ -5767,33 +4841,8 @@
 				match_nbt: true
 				type: "item"
 			}]
-			x: -14.5d
-			y: 19.5d
-		}
-		{
-			dependencies: ["14B3542ECB59869C"]
-			id: "5E82506DF3DF54AF"
-			rewards: [{
-				id: "0CAC566B1BF4426B"
-				type: "xp"
-				xp: 50
-			}]
-			tasks: [{
-				id: "11FDE67D07B20175"
-				item: {
-					Count: 1
-					id: "hostilenetworks:data_model"
-					tag: {
-						data_model: {
-							id: "hostilenetworks:twilightforest/helmet_crab"
-						}
-					}
-				}
-				match_nbt: true
-				type: "item"
-			}]
-			x: -13.5d
-			y: 19.5d
+			x: -12.0d
+			y: 9.5d
 		}
 		{
 			dependencies: ["14B3542ECB59869C"]
@@ -5817,9 +4866,9 @@
 				match_nbt: true
 				type: "item"
 			}]
-			x: -16.5d
-			y: 19.5d
+			x: -20.0d
+			y: 13.5d
 		}
 	]
-	title: "&aHostile Neural Networks"
+	title: "{ftbquests.chapter.hostile_neural_networks.title}"
 }

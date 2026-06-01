@@ -23,6 +23,6 @@
 		{ item: "botania:gaia_ingot" }
 		{ item: "botania:terrasteel_ingot", weight: 3.0f }
 	]
-	title: "&6Legendary Mana Loot Bag&r"
+	title: "{ftbquests.loot_table.402489266001286151.title}"
 	use_title: true
 }

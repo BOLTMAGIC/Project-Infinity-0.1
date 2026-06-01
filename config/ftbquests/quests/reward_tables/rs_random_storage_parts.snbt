@@ -8,6 +8,6 @@
 		{ item: "refinedstorage:16k_storage_part", weight: 10.0f }
 		{ item: "refinedstorage:64k_storage_part" }
 	]
-	title: "RS Random Storage Parts"
+	title: "{ftbquests.loot_table.407746579787184593.title}"
 	use_title: true
 }

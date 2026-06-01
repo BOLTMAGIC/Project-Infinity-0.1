@@ -5,6 +5,7 @@ MMEvents.createStructures((event) => {
     .controllerId('mm:mechanical_empowerer_controller')
     .name('Mechanical Empowerer')
     .layout((a) => {
+      a.portsAnywhere(true);
       a.layer([' 67776 ', ' 18881 ', ' 67776 '])
         .layer([' 11111 ', '2344435', ' 11C11 '])
         .layer([' 11111 ', '1111111', ' 11111 '])

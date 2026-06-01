@@ -93,6 +93,15 @@ MMEvents.createProcesses((event) => {
     })
     .output({
       type: 'mm:output/simple',
+      chance: 0.45,
+      ingredient: {
+        type: 'mm:item',
+        item: 'mekanism:fluorite_gem',
+        count: 1,
+      },
+    })
+    .output({
+      type: 'mm:output/simple',
       chance: 0.15,
       ingredient: {
         type: 'mm:item',
@@ -198,6 +207,15 @@ MMEvents.createProcesses((event) => {
       ingredient: {
         type: 'mm:item',
         item: 'minecraft:prismarine_crystals',
+        count: 4,
+      },
+    })
+    .output({
+      type: 'mm:output/simple',
+      chance: 0.45,
+      ingredient: {
+        type: 'mm:item',
+        item: 'mekanism:fluorite_gem',
         count: 4,
       },
     })
@@ -313,6 +331,15 @@ MMEvents.createProcesses((event) => {
     })
     .output({
       type: 'mm:output/simple',
+      chance: 0.45,
+      ingredient: {
+        type: 'mm:item',
+        item: 'mekanism:fluorite_gem',
+        count: 16,
+      },
+    })
+    .output({
+      type: 'mm:output/simple',
       chance: 0.15,
       ingredient: {
         type: 'mm:item',
@@ -418,6 +445,15 @@ MMEvents.createProcesses((event) => {
       ingredient: {
         type: 'mm:item',
         item: 'minecraft:prismarine_crystals',
+        count: 64,
+      },
+    })
+    .output({
+      type: 'mm:output/simple',
+      chance: 0.45,
+      ingredient: {
+        type: 'mm:item',
+        item: 'mekanism:fluorite_gem',
         count: 64,
       },
     })

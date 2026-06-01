@@ -5,6 +5,7 @@ MMEvents.createStructures((event) => {
     .controllerId('mm:auto_sieve_controller')
     .name('Auto Sieve Tier 1')
     .layout((a) => {
+      a.portsAnywhere(true);
       a.layer(['51115', '12221', '12921', '12221', '51115'])
         .layer(['12221', '2   2', '2 A 2', '2   2', '12721'])
         .layer(['14231', '28882', '68886', '28882', '13C41'])
@@ -49,6 +50,7 @@ MMEvents.createStructures((event) => {
     .controllerId('mm:auto_sieve_controller')
     .name('Auto Sieve Tier 2')
     .layout((a) => {
+      a.portsAnywhere(true);
       a.layer(['51115', '12221', '12921', '12221', '51115'])
         .layer(['12221', '2   2', '2 A 2', '2   2', '12721'])
         .layer(['14231', '28882', '68886', '28882', '13C41'])
@@ -93,6 +95,7 @@ MMEvents.createStructures((event) => {
     .controllerId('mm:auto_sieve_controller')
     .name('Auto Sieve Tier 3')
     .layout((a) => {
+      a.portsAnywhere(true);
       a.layer(['51115', '12221', '12921', '12221', '51115'])
         .layer(['12221', '2   2', '2 A 2', '2   2', '12721'])
         .layer(['14231', '28882', '68886', '28882', '13C41'])
@@ -137,6 +140,7 @@ MMEvents.createStructures((event) => {
     .controllerId('mm:auto_sieve_controller')
     .name('Auto Sieve Tier 4')
     .layout((a) => {
+      a.portsAnywhere(true);
       a.layer(['51115', '12221', '12921', '12221', '51115'])
         .layer(['12221', '2   2', '2 A 2', '2   2', '12721'])
         .layer(['14231', '28882', '68886', '28882', '13C41'])

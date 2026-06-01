@@ -284,5 +284,6 @@
 
   "tooltip.kubejs.universal_wireless_terminal_uncrafter_1": "If you right click this item while looking at a Grindstone,",
   "tooltip.kubejs.universal_wireless_terminal_uncrafter_2": "you will get back every Wireless Terminal that was in the Universal Wireless Terminal.",
-  "tooltip.kubejs.universal_wireless_terminal_uncrafter_3": "Crafting this item will delete every Card / View Cell / Singularity in the Universal Wireless Terminal"
+  "tooltip.kubejs.universal_wireless_terminal_uncrafter_3": "Crafting this item will delete every Card / View Cell / Singularity in the Universal Wireless Terminal",
+  "tooltip.thermal.compost": "Get me by putting plants in a Batch Composter."
 }

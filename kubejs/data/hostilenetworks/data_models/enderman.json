@@ -1,7 +1,7 @@
 {
     "entity": "minecraft:enderman",
     "name": "entity.minecraft.enderman",
-    "name_color": "#161616",
+    "name_color": "#ff1100",
     "gui_scale": 0.75,
     "gui_x_offset": 0,
     "gui_y_offset": 0,
@@ -30,6 +30,10 @@
         {
             "item": "tconstruct:enderman_head",
             "count": 1
+        },
+        {
+            "item": "outer_end:stalker_meat",
+            "count": 32
         }
     ]
 }

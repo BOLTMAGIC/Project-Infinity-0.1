@@ -7,6 +7,6 @@
 		{ count: 5, item: "refinedstorage:quartz_enriched_iron", weight: 2.0f }
 		{ item: "refinedstorage:machine_casing" }
 	]
-	title: "Refined Storage Base Materials"
+	title: "{ftbquests.loot_table.4001436279668650237.title}"
 	use_title: true
 }

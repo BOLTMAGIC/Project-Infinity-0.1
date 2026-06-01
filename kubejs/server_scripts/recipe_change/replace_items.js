@@ -3,7 +3,7 @@ ServerEvents.recipes((event) => {
   event.replaceInput(
     { output: 'extrahnn:upgrade_module_stack' },
     'minecraft:comparator',
-    'kubejs:infinity_12'
+    'kubejs:infinity_7'
   );
   event.replaceInput(
     { input: 'bigreactors:yellorium_ingot' },
@@ -136,6 +136,11 @@ ServerEvents.recipes((event) => {
     'kubejs:infinity_5'
   );
   event.replaceInput(
+    { output: 'buildinggadgets2:gadget_destruction' },
+    'minecraft:iron_ingot',
+    'kubejs:infinity_5'
+  );
+  event.replaceInput(
     { output: 'advanced_ae:reaction_chamber' },
     'minecraft:bucket',
     'ae2omnicells:omni_link_processor'
@@ -252,11 +257,6 @@ ServerEvents.recipes((event) => {
     'allthemodium:vibranium_ingot'
   );
   event.replaceInput(
-    { output: 'buildinggadgets2:gadget_destruction' },
-    'minecraft:lapis_lazuli',
-    'allthemodium:unobtainium_ingot'
-  );
-  event.replaceInput(
     { output: 'rftoolsbuilder:shape_card_void' },
     'minecraft:obsidian',
     'allthemodium:allthemodium_ingot'
@@ -331,6 +331,31 @@ ServerEvents.recipes((event) => {
     { output: 'logisticsnetworks:dimensional_upgrade' },
     'minecraft:smooth_stone',
     'logisticsnetworks:netherite_upgrade'
+  );
+  event.replaceInput(
+    { output: 'justdirethings:blazejet_wand' },
+    'justdirethings:blazegold_ingot',
+    'kubejs:infinity_1'
+  );
+  event.replaceInput(
+    { output: 'justdirethings:voidshift_wand' },
+    'justdirethings:blazegold_ingot',
+    'kubejs:infinity_6'
+  );
+  event.replaceInput(
+    { output: 'justdirethings:eclipsegate_wand' },
+    'justdirethings:eclipsealloy_ingot',
+    'kubejs:infinity_9'
+  );
+  event.replaceInput(
+    { output: 'justdirethings:polymorphic_wand' },
+    'justdirethings:blazegold_ingot',
+    'kubejs:infinity_1'
+  );
+  event.replaceInput(
+    { output: 'justdirethings:polymorphic_wand_v2' },
+    'justdirethings:blazegold_ingot',
+    'kubejs:infinity_9'
   );
   //Ender IO Filled Soul Vials
   event.replaceInput(

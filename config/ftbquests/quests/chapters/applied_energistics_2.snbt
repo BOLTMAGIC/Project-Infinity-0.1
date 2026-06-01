@@ -46,18 +46,18 @@
 	quests: [
 		{
 			description: [
-				"Welcome to &3Applied Energistics 2&r !"
+				"{ftbquests.chapter.applied_energistics_2.quest8B3905C53BC441D.description1}"
 				""
-				"Here, you'll discover the joys of automation !"
+				"{ftbquests.chapter.applied_energistics_2.quest8B3905C53BC441D.description2}"
 				""
-				"The quests in this quest line should be enough but you can always consult the GuideMe mod. Just put your mouse over an &3AE2&r item and press G to open a comphrensive guide. The default keybind is G but you can change it in the settings."
+				"{ftbquests.chapter.applied_energistics_2.quest8B3905C53BC441D.description3}"
 				""
-				"First you'll need the &7Meteor Compass&r to find the meteors. Craft a charger, plug it to your energy generation solution and put a normal compass in it !"
+				"{ftbquests.chapter.applied_energistics_2.quest8B3905C53BC441D.description4}"
 				""
-				"&7You need to enter the &bHunting Dimension &7or the &dLost Cities Dimension &7to find the &6Meteors&7.&r"
+				"{ftbquests.chapter.applied_energistics_2.quest8B3905C53BC441D.description5}"
 				""
-				"&2This quest was made by MiniMaxi!&r"
-				"&1Thank you a lot!&r"
+				"{ftbquests.chapter.applied_energistics_2.quest8B3905C53BC441D.description6}"
+				"{ftbquests.chapter.applied_energistics_2.quest8B3905C53BC441D.description7}"
 			]
 			icon: "ae2:meteorite_compass"
 			id: "08B3905C53BC441D"
@@ -69,7 +69,7 @@
 			}]
 			shape: "octagon"
 			size: 1.5d
-			subtitle: "Start of the Applied Energistics 2 Quest Line"
+			subtitle: "{ftbquests.chapter.applied_energistics_2.quest8B3905C53BC441D.subtitle}"
 			tasks: [
 				{
 					id: "3B0555C8A22037E9"
@@ -82,14 +82,14 @@
 					type: "item"
 				}
 			]
-			title: "Welcome to &3Applied Energistics 2&r !"
+			title: "{ftbquests.chapter.applied_energistics_2.quest8B3905C53BC441D.title}"
 			x: 0.0d
 			y: 0.0d
 		}
 		{
 			can_repeat: true
 			dependencies: ["7F3123DDC2948BC4"]
-			description: ["Clicking this quest will disable the channel mechanic of &3AE2&r."]
+			description: ["{ftbquests.chapter.applied_energistics_2.quest2C2FBE8DA1366686.description1}"]
 			id: "2C2FBE8DA1366686"
 			ignore_reward_blocking: true
 			optional: true
@@ -97,22 +97,22 @@
 				auto: "enabled"
 				command: "execute as @p run ae2 channelmode infinite"
 				id: "7B206E0B7AB06AB8"
-				title: "Disable Channels"
+				title: "{ftbquests.chapter.applied_energistics_2.quest2C2FBE8DA1366686.reward.8872212261501954744.title}"
 				type: "command"
 			}]
 			tasks: [{
 				id: "60A5BD43C83622B4"
-				title: "Disable Channels"
+				title: "{ftbquests.chapter.applied_energistics_2.quest2C2FBE8DA1366686.task.6964180497617789620.title}"
 				type: "checkmark"
 			}]
-			title: "Disable Channels"
+			title: "{ftbquests.chapter.applied_energistics_2.quest2C2FBE8DA1366686.title}"
 			x: -2.0d
 			y: -2.5d
 		}
 		{
 			can_repeat: true
 			dependencies: ["7F3123DDC2948BC4"]
-			description: ["Clicking this quest will enable the channel mechanic of &3AE2&r."]
+			description: ["{ftbquests.chapter.applied_energistics_2.quest4E2BF4E1F1EDC591.description1}"]
 			id: "4E2BF4E1F1EDC591"
 			ignore_reward_blocking: true
 			optional: true
@@ -120,22 +120,22 @@
 				auto: "enabled"
 				command: "execute as @p run ae2 channelmode default"
 				id: "3B740F65F7E40FC0"
-				title: "Enable Channels"
+				title: "{ftbquests.chapter.applied_energistics_2.quest4E2BF4E1F1EDC591.reward.4284066076161216448.title}"
 				type: "command"
 			}]
 			tasks: [{
 				id: "0426D663CE2F256E"
-				title: "Enable Channels"
+				title: "{ftbquests.chapter.applied_energistics_2.quest4E2BF4E1F1EDC591.task.299162149416019310.title}"
 				type: "checkmark"
 			}]
-			title: "Enable Channels"
+			title: "{ftbquests.chapter.applied_energistics_2.quest4E2BF4E1F1EDC591.title}"
 			x: -1.0d
 			y: -2.5d
 		}
 		{
 			can_repeat: true
 			dependencies: ["7F3123DDC2948BC4"]
-			description: ["Clicking this quest will enable the channel mechanic of &3AE2&r and make it so that every cable can have 2 times more channels."]
+			description: ["{ftbquests.chapter.applied_energistics_2.quest551BE8A0CBF45086.description1}"]
 			id: "551BE8A0CBF45086"
 			ignore_reward_blocking: true
 			optional: true
@@ -143,22 +143,22 @@
 				auto: "enabled"
 				command: "execute as @p run ae2 channelmode x2"
 				id: "040706800B04F2EA"
-				title: "Enable 2x Channels"
+				title: "{ftbquests.chapter.applied_energistics_2.quest551BE8A0CBF45086.reward.290207847999140586.title}"
 				type: "command"
 			}]
 			tasks: [{
 				id: "06C9F3F0AD5C9246"
-				title: "Enable 2x Channels"
+				title: "{ftbquests.chapter.applied_energistics_2.quest551BE8A0CBF45086.task.489190249572635206.title}"
 				type: "checkmark"
 			}]
-			title: "Enable 2x Channels"
+			title: "{ftbquests.chapter.applied_energistics_2.quest551BE8A0CBF45086.title}"
 			x: 0.0d
 			y: -2.5d
 		}
 		{
 			can_repeat: true
 			dependencies: ["7F3123DDC2948BC4"]
-			description: ["Clicking this quest will enable the channel mechanic of &3AE2&r and make it so that every cable can have 3 times more channels."]
+			description: ["{ftbquests.chapter.applied_energistics_2.quest45745822D14AEC1C.description1}"]
 			id: "45745822D14AEC1C"
 			ignore_reward_blocking: true
 			optional: true
@@ -166,22 +166,22 @@
 				auto: "enabled"
 				command: "execute as @p run ae2 channelmode x3"
 				id: "6D57D9ADADB6DF5A"
-				title: "Enable 3x Channels"
+				title: "{ftbquests.chapter.applied_energistics_2.quest45745822D14AEC1C.reward.7879005413074984794.title}"
 				type: "command"
 			}]
 			tasks: [{
 				id: "0B33EF9455303F0D"
-				title: "Enable 3x Channels"
+				title: "{ftbquests.chapter.applied_energistics_2.quest45745822D14AEC1C.task.807252178592874253.title}"
 				type: "checkmark"
 			}]
-			title: "Enable 3x Channels"
+			title: "{ftbquests.chapter.applied_energistics_2.quest45745822D14AEC1C.title}"
 			x: 1.0d
 			y: -2.5d
 		}
 		{
 			can_repeat: true
 			dependencies: ["7F3123DDC2948BC4"]
-			description: ["Clicking this quest will enable the channel mechanic of &3AE2&r and make it so that every cable can have 4 times more channels."]
+			description: ["{ftbquests.chapter.applied_energistics_2.quest1B7EA9EF978033D8.description1}"]
 			id: "1B7EA9EF978033D8"
 			ignore_reward_blocking: true
 			optional: true
@@ -189,24 +189,24 @@
 				auto: "enabled"
 				command: "execute as @p run ae2 channelmode x4"
 				id: "67DFCBAF34C8AFCF"
-				title: "Enable 4x Channels"
+				title: "{ftbquests.chapter.applied_energistics_2.quest1B7EA9EF978033D8.reward.7484925059078336463.title}"
 				type: "command"
 			}]
 			tasks: [{
 				id: "67359A9B5559E26E"
-				title: "Enable 4x Channels"
+				title: "{ftbquests.chapter.applied_energistics_2.quest1B7EA9EF978033D8.task.7437020351614804590.title}"
 				type: "checkmark"
 			}]
-			title: "Enable 4x Channels"
+			title: "{ftbquests.chapter.applied_energistics_2.quest1B7EA9EF978033D8.title}"
 			x: 2.0d
 			y: -2.5d
 		}
 		{
 			dependencies: ["08B3905C53BC441D"]
 			description: [
-				"Break the &5Mysterious Cube&r inside a Meteor to find the &8Inscriber Preses&r. (One &5Mysterious Cube&r will drop all of the Presses)"
+				"{ftbquests.chapter.applied_energistics_2.quest594FF6D489C9989A.description1}"
 				""
-				"The Meteors can be buried so you'll have to dig to find them !"
+				"{ftbquests.chapter.applied_energistics_2.quest594FF6D489C9989A.description2}"
 			]
 			id: "594FF6D489C9989A"
 			rewards: [
@@ -244,18 +244,18 @@
 					type: "item"
 				}
 			]
-			title: "&8Inscriber Preses&r"
+			title: "{ftbquests.chapter.applied_energistics_2.quest594FF6D489C9989A.title}"
 			x: 0.0d
 			y: 2.5d
 		}
 		{
 			dependencies: ["08B3905C53BC441D"]
 			description: [
-				"One of the main ressources of &3AE2&r."
+				"{ftbquests.chapter.applied_energistics_2.quest60C3D122117080C3.description1}"
 				""
-				"The &5Fluix Crystal&r can be crafted by throwing 1 &7Charged Certus Quartz Crystal&r, 1 &4redstone&r and 1 &8Nether Quartz&r in Water."
+				"{ftbquests.chapter.applied_energistics_2.quest60C3D122117080C3.description2}"
 				""
-				"There are also other recipies that you should look at."
+				"{ftbquests.chapter.applied_energistics_2.quest60C3D122117080C3.description3}"
 			]
 			id: "60C3D122117080C3"
 			rewards: [
@@ -281,13 +281,13 @@
 		{
 			dependencies: ["60C3D122117080C3"]
 			description: [
-				"The first cable you'll craft, but not the last !"
+				"{ftbquests.chapter.applied_energistics_2.quest69FA3A1232E77B94.description1}"
 				""
-				"The &bME Glass Cable&r can carry 8 channels which for a small setup is enough but you will need more than that down the line."
+				"{ftbquests.chapter.applied_energistics_2.quest69FA3A1232E77B94.description2}"
 				""
-				"Go take a look at the quest above this one to understand channels."
+				"{ftbquests.chapter.applied_energistics_2.quest69FA3A1232E77B94.description3}"
 				""
-				"They are available in many colors, which will stop them from connecting to other colors."
+				"{ftbquests.chapter.applied_energistics_2.quest69FA3A1232E77B94.description4}"
 			]
 			id: "69FA3A1232E77B94"
 			rewards: [{
@@ -307,11 +307,11 @@
 		{
 			dependencies: ["69FA3A1232E77B94"]
 			description: [
-				"Same as the &bME Glass Cable&r with another look."
+				"{ftbquests.chapter.applied_energistics_2.quest1E4D58B118DD78F9.description1}"
 				""
-				"Can be used to craft better cables."
+				"{ftbquests.chapter.applied_energistics_2.quest1E4D58B118DD78F9.description2}"
 				""
-				"They are available in many colors which will stop them from connecting to other colors."
+				"{ftbquests.chapter.applied_energistics_2.quest1E4D58B118DD78F9.description3}"
 			]
 			id: "1E4D58B118DD78F9"
 			rewards: [
@@ -337,13 +337,13 @@
 		{
 			dependencies: ["1E4D58B118DD78F9"]
 			description: [
-				"Now we get better cables !"
+				"{ftbquests.chapter.applied_energistics_2.quest7AD0FDBAA82ED3A4.description1}"
 				""
-				"The &bFluix ME Dense Covered Cable&r will transmit 32 channels. They should be used to connect the &dME Controller&r (more on that in it's dedicated quest)"
+				"{ftbquests.chapter.applied_energistics_2.quest7AD0FDBAA82ED3A4.description2}"
 				""
-				"The only drawback is that it won't connect to subparts but they do connect to the smaller cables so use those together."
+				"{ftbquests.chapter.applied_energistics_2.quest7AD0FDBAA82ED3A4.description3}"
 				""
-				"They are available in many colors which will stop them from connecting to other colors."
+				"{ftbquests.chapter.applied_energistics_2.quest7AD0FDBAA82ED3A4.description4}"
 			]
 			id: "7AD0FDBAA82ED3A4"
 			rewards: [
@@ -369,9 +369,9 @@
 		{
 			dependencies: ["1E4D58B118DD78F9"]
 			description: [
-				"Same as the &bFluix ME Covered Cable&r but will display the number of channels used on it's texture with colored lines."
+				"{ftbquests.chapter.applied_energistics_2.quest20DD29DD5FD691A9.description1}"
 				""
-				"They are available in many colors which will stop them from connecting to other colors."
+				"{ftbquests.chapter.applied_energistics_2.quest20DD29DD5FD691A9.description2}"
 			]
 			id: "20DD29DD5FD691A9"
 			optional: true
@@ -398,9 +398,9 @@
 		{
 			dependencies: ["7AD0FDBAA82ED3A4"]
 			description: [
-				"Same as the &bFluix ME Dense Covered Cable&r but will display the number of channels used on it's texture with colored lines."
+				"{ftbquests.chapter.applied_energistics_2.quest6774A29BFBB3913B.description1}"
 				""
-				"They are available in many colors which will stop them from connecting to other colors."
+				"{ftbquests.chapter.applied_energistics_2.quest6774A29BFBB3913B.description2}"
 			]
 			id: "6774A29BFBB3913B"
 			optional: true
@@ -427,17 +427,17 @@
 		{
 			dependencies: ["69FA3A1232E77B94"]
 			description: [
-				"The &3AE2&r mod uses channels."
+				"{ftbquests.chapter.applied_energistics_2.quest5DA2DAE6450BB3F5.description1}"
 				""
-				"Each connected &3AE2&r device will use 1 channel on the connected cable (some devices don't take a channel. It will be written in their corresponding quest)."
+				"{ftbquests.chapter.applied_energistics_2.quest5DA2DAE6450BB3F5.description2}"
 				""
-				"Once a cable has reached it's max channels used, no more parts can be added to this cable."
+				"{ftbquests.chapter.applied_energistics_2.quest5DA2DAE6450BB3F5.description3}"
 				""
-				"An &3ME&r network without an &dME Controller&r&r can only have 8 channels, even if the cable used is better."
+				"{ftbquests.chapter.applied_energistics_2.quest5DA2DAE6450BB3F5.description4}"
 				""
-				"A &7Cable Anchor&r can be used to separate 2 networks where they otherwise would because the cables are the same color."
+				"{ftbquests.chapter.applied_energistics_2.quest5DA2DAE6450BB3F5.description5}"
 				""
-				"A &7Quartz Fiber&r can be used to transmit power between networks without connecting them."
+				"{ftbquests.chapter.applied_energistics_2.quest5DA2DAE6450BB3F5.description6}"
 			]
 			id: "5DA2DAE6450BB3F5"
 			optional: true
@@ -448,19 +448,19 @@
 			}]
 			tasks: [{
 				id: "72C4BAB5265D196B"
-				title: "Understanding channels"
+				title: "{ftbquests.chapter.applied_energistics_2.quest5DA2DAE6450BB3F5.task.8269940102954555755.title}"
 				type: "checkmark"
 			}]
-			title: "&bUnderstanding channels&r"
+			title: "{ftbquests.chapter.applied_energistics_2.quest5DA2DAE6450BB3F5.title}"
 			x: -4.5d
 			y: -2.0d
 		}
 		{
 			dependencies: ["594FF6D489C9989A"]
 			description: [
-				"Now that you have all of the &8Inscriber Preses&r, it's time to use them !"
+				"{ftbquests.chapter.applied_energistics_2.quest1001685A187EFB1C.description1}"
 				""
-				"Those &6Processors&r are one of the main ressources of &3AE2&r, you will always be crafting more."
+				"{ftbquests.chapter.applied_energistics_2.quest1001685A187EFB1C.description2}"
 			]
 			id: "1001685A187EFB1C"
 			rewards: [
@@ -497,18 +497,18 @@
 					type: "item"
 				}
 			]
-			title: "&6Processors&r"
+			title: "{ftbquests.chapter.applied_energistics_2.quest1001685A187EFB1C.title}"
 			x: 0.0d
 			y: 5.0d
 		}
 		{
 			dependencies: ["1001685A187EFB1C"]
 			description: [
-				"The &eEnergy Acceptor&r is an important block of an &3ME&r network."
+				"{ftbquests.chapter.applied_energistics_2.quest115A169A32BA81FF.description1}"
 				""
-				"It is one of 2 blocks that can accept power (the other one being the &dME Controller&r)."
+				"{ftbquests.chapter.applied_energistics_2.quest115A169A32BA81FF.description2}"
 				""
-				"The network will not work without a source of power."
+				"{ftbquests.chapter.applied_energistics_2.quest115A169A32BA81FF.description3}"
 			]
 			id: "115A169A32BA81FF"
 			rewards: [{
@@ -521,22 +521,22 @@
 				item: "ae2:energy_acceptor"
 				type: "item"
 			}]
-			title: "&eEnergy Acceptor&r"
+			title: "{ftbquests.chapter.applied_energistics_2.quest115A169A32BA81FF.title}"
 			x: -2.0d
 			y: 5.0d
 		}
 		{
 			dependencies: ["1001685A187EFB1C"]
 			description: [
-				"Very useful tool which has multiple uses :"
+				"{ftbquests.chapter.applied_energistics_2.quest674057FBFADF5EBB.description1}"
 				""
-				"-Store 9 stack of upgrade cards which will be displayed when opening a device."
+				"{ftbquests.chapter.applied_energistics_2.quest674057FBFADF5EBB.description2}"
 				""
-				"-Disassemble with one shift right-click any &3AE2&r device and pull subparts off of cables."
+				"{ftbquests.chapter.applied_energistics_2.quest674057FBFADF5EBB.description3}"
 				""
-				"-Right clicking any part of a network will show a window similar to right-clicking a &dME Controller&r."
+				"{ftbquests.chapter.applied_energistics_2.quest674057FBFADF5EBB.description4}"
 				""
-				"-While holding the Network Tool, Facades will be hidden."
+				"{ftbquests.chapter.applied_energistics_2.quest674057FBFADF5EBB.description5}"
 			]
 			id: "674057FBFADF5EBB"
 			rewards: [{
@@ -555,11 +555,11 @@
 		{
 			dependencies: ["1001685A187EFB1C"]
 			description: [
-				"The &9ME Terminal&r is the first &9Terminal&r that you will craft."
+				"{ftbquests.chapter.applied_energistics_2.questFFC3FED6F875232.description1}"
 				""
-				"It will allow you to see everything stored on the network at once."
+				"{ftbquests.chapter.applied_energistics_2.questFFC3FED6F875232.description2}"
 				""
-				"Go look at the quest on the right of this one to see the other &9Terminals&r."
+				"{ftbquests.chapter.applied_energistics_2.questFFC3FED6F875232.description3}"
 			]
 			id: "0FFC3FED6F875232"
 			rewards: [
@@ -580,20 +580,20 @@
 				item: "ae2:terminal"
 				type: "item"
 			}]
-			title: "&9ME Terminal&r"
+			title: "{ftbquests.chapter.applied_energistics_2.questFFC3FED6F875232.title}"
 			x: 0.0d
 			y: 8.0d
 		}
 		{
 			dependencies: ["0FFC3FED6F875232"]
 			description: [
-				"There are a lot of different &9Terminals&r and all of them are useful :"
+				"{ftbquests.chapter.applied_energistics_2.quest5476A0F1E8DAF72B.description1}"
 				""
-				"&9Crafting Terminal&r : upgraded &9ME Terminal&r with a Crafting table. it will automatically pull items from the &3ME&r network when doing crafts."
+				"{ftbquests.chapter.applied_energistics_2.quest5476A0F1E8DAF72B.description2}"
 				""
-				"&9Pattern Encoding Terminal&r : allows the creation of patterns used for autocrafting."
+				"{ftbquests.chapter.applied_energistics_2.quest5476A0F1E8DAF72B.description3}"
 				""
-				"&9Pattern Access Terminal&r : can access the inventory of all Pattern Providers connected to the network and you can even take or insert patterns."
+				"{ftbquests.chapter.applied_energistics_2.quest5476A0F1E8DAF72B.description4}"
 			]
 			id: "5476A0F1E8DAF72B"
 			optional: true
@@ -619,22 +619,22 @@
 					type: "item"
 				}
 			]
-			title: "Other &9Terminals&r"
+			title: "{ftbquests.chapter.applied_energistics_2.quest5476A0F1E8DAF72B.title}"
 			x: 1.5d
 			y: 8.0d
 		}
 		{
 			dependencies: ["69FA3A1232E77B94"]
 			description: [
-				"&7Cable Facades&r can be used to hide cables."
+				"{ftbquests.chapter.applied_energistics_2.quest1FB072E8996E8ACF.description1}"
 				""
-				"Like other subparts they can be placed on all faces of any cable."
+				"{ftbquests.chapter.applied_energistics_2.quest1FB072E8996E8ACF.description2}"
 				""
-				"They are hidden in JEI so to craft them, place the block to imitate at the center of a crafting table and 4 &7Cable Anchors&r around it."
+				"{ftbquests.chapter.applied_energistics_2.quest1FB072E8996E8ACF.description3}"
 				""
-				"Unlike &7Cable Anchors&r, &7Cable Facades&r will not stop networks from connecting."
+				"{ftbquests.chapter.applied_energistics_2.quest1FB072E8996E8ACF.description4}"
 				""
-				"Also, they can be placed on top of the other subparts like a &9Terminal&r or an &cExporter&r. The other subpart will show through and will work like normal."
+				"{ftbquests.chapter.applied_energistics_2.quest1FB072E8996E8ACF.description5}"
 			]
 			id: "1FB072E8996E8ACF"
 			optional: true
@@ -667,29 +667,29 @@
 						]
 					}
 				}
-				title: "Cutting Knife"
+				title: "{ftbquests.chapter.applied_energistics_2.quest1FB072E8996E8ACF.task.2809305620645875375.title}"
 				type: "item"
 			}]
-			title: "Facades"
+			title: "{ftbquests.chapter.applied_energistics_2.quest1FB072E8996E8ACF.title}"
 			x: -6.0d
 			y: -1.5d
 		}
 		{
 			dependencies: ["0FFC3FED6F875232"]
 			description: [
-				"The heart of the &3ME&r network."
+				"{ftbquests.chapter.applied_energistics_2.quest47A2266666468E4D.description1}"
 				""
-				"The &dME Controller&r can be used to get more channels for your network, up to 32 per sides when using the &bFluix ME Dense Covered Cables&r !"
+				"{ftbquests.chapter.applied_energistics_2.quest47A2266666468E4D.description2}"
 				""
-				"It also acts as an &eEnergy Acceptor&r, giving power to the network."
+				"{ftbquests.chapter.applied_energistics_2.quest47A2266666468E4D.description3}"
 				""
-				"It can be made into a multiblock to get even more channels but there are some rules:"
+				"{ftbquests.chapter.applied_energistics_2.quest47A2266666468E4D.description4}"
 				""
-				"-There cannot be 2 different &dME Controllers&r / &dME Controllers Multiblock&r in the same network."
+				"{ftbquests.chapter.applied_energistics_2.quest47A2266666468E4D.description5}"
 				""
-				"-All the blocks of the multiblock must be inside a 7x7x7 area."
+				"{ftbquests.chapter.applied_energistics_2.quest47A2266666468E4D.description6}"
 				""
-				"-A &dME Controller&r can have a maximum of 4 others touching it but not in a cross pattern. (Look at GuideMe for detailed examples)"
+				"{ftbquests.chapter.applied_energistics_2.quest47A2266666468E4D.description7}"
 			]
 			id: "47A2266666468E4D"
 			rewards: [{
@@ -708,9 +708,9 @@
 		{
 			dependencies: ["0FFC3FED6F875232"]
 			description: [
-				"One of the main way to store items."
+				"{ftbquests.chapter.applied_energistics_2.quest44972673B4196F1F.description1}"
 				""
-				"The &bME Drive&r can hold up to 10 different disks of any size !"
+				"{ftbquests.chapter.applied_energistics_2.quest44972673B4196F1F.description2}"
 			]
 			id: "44972673B4196F1F"
 			rewards: [{
@@ -723,20 +723,20 @@
 				item: "ae2:drive"
 				type: "item"
 			}]
-			title: "&bME Drive&r"
+			title: "{ftbquests.chapter.applied_energistics_2.quest44972673B4196F1F.title}"
 			x: 0.0d
 			y: 10.0d
 		}
 		{
 			dependencies: ["44972673B4196F1F"]
-			description: ["The &bME IO Port&r can be used to empty &3ME Item Storage Cells&r"]
+			description: ["{ftbquests.chapter.applied_energistics_2.quest1A872FFE286F2CB9.description1}"]
 			id: "1A872FFE286F2CB9"
 			tasks: [{
 				id: "6046EB09B9561E47"
 				item: "ae2:io_port"
 				type: "item"
 			}]
-			title: "&bME IO Port&r"
+			title: "{ftbquests.chapter.applied_energistics_2.quest1A872FFE286F2CB9.title}"
 			x: 1.5d
 			y: 10.0d
 		}
@@ -747,11 +747,11 @@
 			]
 			dependency_requirement: "one_completed"
 			description: [
-				"The &6Cell Workbench&r is a very useful block which allows for the partition of &3storage cells&r."
+				"{ftbquests.chapter.applied_energistics_2.quest63E9204E0C9BB3D3.description1}"
 				""
-				"This means that the &3storage cell&r won't accept any block to be stored, only the specified blocks."
+				"{ftbquests.chapter.applied_energistics_2.quest63E9204E0C9BB3D3.description2}"
 				""
-				"You can also change the priority of a cell to make it so items will go in it first or last."
+				"{ftbquests.chapter.applied_energistics_2.quest63E9204E0C9BB3D3.description3}"
 			]
 			id: "63E9204E0C9BB3D3"
 			rewards: [{
@@ -764,13 +764,13 @@
 				item: "ae2:cell_workbench"
 				type: "item"
 			}]
-			title: "&6Cell Workbench&r"
+			title: "{ftbquests.chapter.applied_energistics_2.quest63E9204E0C9BB3D3.title}"
 			x: 0.0d
 			y: 16.5d
 		}
 		{
 			dependencies: ["63E9204E0C9BB3D3"]
-			description: ["When added to a &3Storage Cell&r, will delete all items entering the cell if it's full (will only delete item which are alredy stored in the cell, if an item is not stored in the cell it will be stored in another cell)."]
+			description: ["{ftbquests.chapter.applied_energistics_2.quest4BAB0FBAD1ABD253.description1}"]
 			id: "4BAB0FBAD1ABD253"
 			rewards: [{
 				id: "192E574CB7546BAD"
@@ -787,7 +787,7 @@
 		}
 		{
 			dependencies: ["63E9204E0C9BB3D3"]
-			description: ["Make it so that every item types has the same amount of bytes allocated so that the &3Storage Cells&r will never become full of only one type."]
+			description: ["{ftbquests.chapter.applied_energistics_2.quest65033CE853E48C5E.description1}"]
 			id: "65033CE853E48C5E"
 			rewards: [{
 				id: "4983849273326237"
@@ -805,13 +805,13 @@
 		{
 			dependencies: ["0FFC3FED6F875232"]
 			description: [
-				"Tired of having to always go to your &9Terminals&r to use your &3ME&r Network ?"
+				"{ftbquests.chapter.applied_energistics_2.quest1FADBF003F478AAD.description1}"
 				""
-				"Look no further, with the ME Wireless Access Point and the &9Wireless Terminal&r you can access your &3ME&r Network wirelessly !"
+				"{ftbquests.chapter.applied_energistics_2.quest1FADBF003F478AAD.description2}"
 				""
-				"Connect the ME Wireless Access Point to your &3ME&r Network, put some Boosters in it for better range and link the &9Wireless Terminal&r inside it's GUI."
+				"{ftbquests.chapter.applied_energistics_2.quest1FADBF003F478AAD.description3}"
 				""
-				"Combining different &9Wireless Terminals&r together will allow you to access all of their features in 1 item."
+				"{ftbquests.chapter.applied_energistics_2.quest1FADBF003F478AAD.description4}"
 			]
 			id: "1FADBF003F478AAD"
 			rewards: [{
@@ -842,9 +842,9 @@
 		{
 			dependencies: ["54E85849C2272076"]
 			description: [
-				"Infinite isn't good enough ?"
+				"{ftbquests.chapter.applied_energistics_2.quest7FEDAD2FD9DB6EB4.description1}"
 				""
-				"What about other dimensions !"
+				"{ftbquests.chapter.applied_energistics_2.quest7FEDAD2FD9DB6EB4.description2}"
 			]
 			id: "7FEDAD2FD9DB6EB4"
 			rewards: [{
@@ -863,9 +863,9 @@
 		{
 			dependencies: ["1FADBF003F478AAD"]
 			description: [
-				"Not enough wireless range ?"
+				"{ftbquests.chapter.applied_energistics_2.quest54E85849C2272076.description1}"
 				""
-				"This upgrade makes it infinite !"
+				"{ftbquests.chapter.applied_energistics_2.quest54E85849C2272076.description2}"
 			]
 			id: "54E85849C2272076"
 			rewards: [{
@@ -884,9 +884,9 @@
 		{
 			dependencies: ["69FA3A1232E77B94"]
 			description: [
-				"Can change the orientation of certain devices."
+				"{ftbquests.chapter.applied_energistics_2.quest5B7B701F3E6A435E.description1}"
 				""
-				"Can disassemble with one shift right-click any &3AE2&r part and pull subparts off of cables."
+				"{ftbquests.chapter.applied_energistics_2.quest5B7B701F3E6A435E.description2}"
 			]
 			id: "5B7B701F3E6A435E"
 			rewards: [{
@@ -912,25 +912,25 @@
 						]
 					}
 				}
-				title: "Wrenches"
+				title: "{ftbquests.chapter.applied_energistics_2.quest5B7B701F3E6A435E.task.3457549355950265173.title}"
 				type: "item"
 			}]
-			title: "Wrenches"
+			title: "{ftbquests.chapter.applied_energistics_2.quest5B7B701F3E6A435E.title}"
 			x: -6.5d
 			y: 0.0d
 		}
 		{
 			dependencies: ["048ACF54F38C203A"]
 			description: [
-				"One of the most important block for automation !"
+				"{ftbquests.chapter.applied_energistics_2.quest76E723B0BE3DFC5B.description1}"
 				""
-				"The &ePattern Provider&r can recieve up to 9 patterns for autocrafting with machines from other mods."
+				"{ftbquests.chapter.applied_energistics_2.quest76E723B0BE3DFC5B.description2}"
 				""
-				"When you or the &3ME&r Network requests a craft, the Pattern Provider will put all the ingredients in the connected machine / machines."
+				"{ftbquests.chapter.applied_energistics_2.quest76E723B0BE3DFC5B.description3}"
 				""
-				"The full block can be right-clicked with a wrench to tell it which machine to use, otherwise it will use all connected machines."
+				"{ftbquests.chapter.applied_energistics_2.quest76E723B0BE3DFC5B.description4}"
 				""
-				"The subpart will only use the machine it is facing."
+				"{ftbquests.chapter.applied_energistics_2.quest76E723B0BE3DFC5B.description5}"
 			]
 			id: "76E723B0BE3DFC5B"
 			rewards: [{
@@ -956,16 +956,16 @@
 						]
 					}
 				}
-				title: "Pattern Providers"
+				title: "{ftbquests.chapter.applied_energistics_2.quest76E723B0BE3DFC5B.task.6569828737847263322.title}"
 				type: "item"
 			}]
-			title: "&ePattern Providers&r"
+			title: "{ftbquests.chapter.applied_energistics_2.quest76E723B0BE3DFC5B.title}"
 			x: 3.5d
 			y: 1.0d
 		}
 		{
 			dependencies: ["1001685A187EFB1C"]
-			description: ["All of the blocks that can be used to interact with other blocks in the world."]
+			description: ["{ftbquests.chapter.applied_energistics_2.quest1D8EC31C843D4F0C.description1}"]
 			id: "1D8EC31C843D4F0C"
 			rewards: [{
 				id: "6986CE688387E329"
@@ -984,23 +984,23 @@
 					type: "item"
 				}
 			]
-			title: "Interacting with the world"
+			title: "{ftbquests.chapter.applied_energistics_2.quest1D8EC31C843D4F0C.title}"
 			x: 3.5d
 			y: 7.0d
 		}
 		{
 			dependencies: ["1D8EC31C843D4F0C"]
 			description: [
-				"The &aME interface&r can import and export any item / fluid from and to an &3ME&r Network but won't do it on it's own."
+				"{ftbquests.chapter.applied_energistics_2.quest76DEFA612FFCD0E.description1}"
 				""
-				"To import items, they need to be piped into it."
+				"{ftbquests.chapter.applied_energistics_2.quest76DEFA612FFCD0E.description2}"
 				""
-				"To export Items, you need to tell it what to export and what ammount to keep in it's inventory, then you need to pipe it out."
+				"{ftbquests.chapter.applied_energistics_2.quest76DEFA612FFCD0E.description3}"
 				""
-				"It has 3 card slots which can accept a combination those cards:"
-				"1 Fuzzy Card, 1 Crafting Card, 1 Induction Card."
+				"{ftbquests.chapter.applied_energistics_2.quest76DEFA612FFCD0E.description4}"
+				"{ftbquests.chapter.applied_energistics_2.quest76DEFA612FFCD0E.description5}"
 				""
-				"It can be both a part and subpart."
+				"{ftbquests.chapter.applied_energistics_2.quest76DEFA612FFCD0E.description6}"
 			]
 			id: "076DEFA612FFCD0E"
 			rewards: [{
@@ -1026,21 +1026,21 @@
 						]
 					}
 				}
-				title: "ME Interfaces"
+				title: "{ftbquests.chapter.applied_energistics_2.quest76DEFA612FFCD0E.task.1747470766372388578.title}"
 				type: "item"
 			}]
-			title: "&aME interfaces&r"
+			title: "{ftbquests.chapter.applied_energistics_2.quest76DEFA612FFCD0E.title}"
 			x: 5.5d
 			y: 9.0d
 		}
 		{
 			dependencies: ["1D8EC31C843D4F0C"]
 			description: [
-				"The Formation Plane can be used to place or drop blocks in front of it. It needs to be filtered to do so."
+				"{ftbquests.chapter.applied_energistics_2.quest1ADC8D54D3C886C8.description1}"
 				""
-				"The Annihilation Plane can be used to break blocks in front of it. It can be enchanted with fortune to drop mor items when breaking ores for example. It cannot be filtered so it will break anything (it can be filtered but you need a subnet for that which a little bit complicated, go take a look at GuideMe)."
+				"{ftbquests.chapter.applied_energistics_2.quest1ADC8D54D3C886C8.description2}"
 				""
-				"Both are subparts."
+				"{ftbquests.chapter.applied_energistics_2.quest1ADC8D54D3C886C8.description3}"
 			]
 			id: "1ADC8D54D3C886C8"
 			rewards: [{
@@ -1060,25 +1060,25 @@
 					type: "item"
 				}
 			]
-			title: "ME Planes"
+			title: "{ftbquests.chapter.applied_energistics_2.quest1ADC8D54D3C886C8.title}"
 			x: 3.5d
 			y: 9.0d
 		}
 		{
 			dependencies: ["1D8EC31C843D4F0C"]
 			description: [
-				"The &bME Drive&r is not the only block that can be use to store items for an &3ME&r Network."
+				"{ftbquests.chapter.applied_energistics_2.quest574ECD80D17B7217.description1}"
 				""
-				"The Storage Bus can be used to connect any other inventory to an &3ME&r Network !"
+				"{ftbquests.chapter.applied_energistics_2.quest574ECD80D17B7217.description2}"
 				""
-				"That means any chest, drawer, even the drawer controller itself !"
+				"{ftbquests.chapter.applied_energistics_2.quest574ECD80D17B7217.description3}"
 				""
-				"Very useful when you are passively producing items but don't want to put them in your &bME Drive&r as it would clog it. Just put them in a drawer and slap a Storage Bus on it."
+				"{ftbquests.chapter.applied_energistics_2.quest574ECD80D17B7217.description4}"
 				""
-				"It has 5 card slots which can accept a combination those cards:"
-				"1 Overflow Destruction Card, 5 Capacity Cards, 1 Fuzzy Card, 1 Inverter Card."
+				"{ftbquests.chapter.applied_energistics_2.quest574ECD80D17B7217.description5}"
+				"{ftbquests.chapter.applied_energistics_2.quest574ECD80D17B7217.description6}"
 				""
-				"It is a subpart."
+				"{ftbquests.chapter.applied_energistics_2.quest574ECD80D17B7217.description7}"
 			]
 			id: "574ECD80D17B7217"
 			rewards: [{
@@ -1097,14 +1097,14 @@
 		{
 			dependencies: ["1D8EC31C843D4F0C"]
 			description: [
-				"Can import any item / fluid from the connected block and put them in an &3ME&r Network."
+				"{ftbquests.chapter.applied_energistics_2.quest25323570A28E0C73.description1}"
 				""
-				"It can be filtered to only import the desired things."
+				"{ftbquests.chapter.applied_energistics_2.quest25323570A28E0C73.description2}"
 				""
-				"It has 5 card slots which can accept a combination those cards:"
-				"5 Capacity Cards, 1 Fuzzy Card, 4 Acceleration Card, 1 Crafting Card, 1 Redstone Card."
+				"{ftbquests.chapter.applied_energistics_2.quest25323570A28E0C73.description3}"
+				"{ftbquests.chapter.applied_energistics_2.quest25323570A28E0C73.description4}"
 				""
-				"It is a subpart."
+				"{ftbquests.chapter.applied_energistics_2.quest25323570A28E0C73.description5}"
 			]
 			id: "25323570A28E0C73"
 			rewards: [{
@@ -1123,14 +1123,14 @@
 		{
 			dependencies: ["1D8EC31C843D4F0C"]
 			description: [
-				"Can export any item / fluid from an &3ME&r Network and put them in the connected block."
+				"{ftbquests.chapter.applied_energistics_2.quest4D2904009A968924.description1}"
 				""
-				"It needs to be filtered to export the desired things."
+				"{ftbquests.chapter.applied_energistics_2.quest4D2904009A968924.description2}"
 				""
-				"It has 5 card slots which can accept a combination those cards:"
-				"5 Capacity Cards, 1 Fuzzy Card, 4 Acceleration Card, 1 Crafting Card, 1 Redstone Card."
+				"{ftbquests.chapter.applied_energistics_2.quest4D2904009A968924.description3}"
+				"{ftbquests.chapter.applied_energistics_2.quest4D2904009A968924.description4}"
 				""
-				"It is a subpart."
+				"{ftbquests.chapter.applied_energistics_2.quest4D2904009A968924.description5}"
 			]
 			id: "4D2904009A968924"
 			rewards: [{
@@ -1149,9 +1149,9 @@
 		{
 			dependencies: ["115A169A32BA81FF"]
 			description: [
-				"If you are using the &3ME&r Network a lot or have a lot of automation, you might see that the Network doesn't have enough power to deliver at once."
+				"{ftbquests.chapter.applied_energistics_2.quest609441BB95F9C34E.description1}"
 				""
-				"For that, simply add &9Energy Cells&r, they don't take any channels."
+				"{ftbquests.chapter.applied_energistics_2.quest609441BB95F9C34E.description2}"
 			]
 			id: "609441BB95F9C34E"
 			rewards: [{
@@ -1173,7 +1173,7 @@
 		}
 		{
 			dependencies: ["609441BB95F9C34E"]
-			description: ["&9Energy Cells&r x8 for more power in the same space !"]
+			description: ["{ftbquests.chapter.applied_energistics_2.quest318FB71B7C97BB55.description1}"]
 			id: "318FB71B7C97BB55"
 			rewards: [{
 				id: "3681BE7B15430D4B"
@@ -1195,9 +1195,9 @@
 		{
 			dependencies: ["1001685A187EFB1C"]
 			description: [
-				"The start of your autocrafting journey !"
+				"{ftbquests.chapter.applied_energistics_2.quest48ACF54F38C203A.description1}"
 				""
-				"The Crafting Unit will allow you to craft the different blocks for the &3CPU Multiblock&r."
+				"{ftbquests.chapter.applied_energistics_2.quest48ACF54F38C203A.description2}"
 			]
 			id: "048ACF54F38C203A"
 			rewards: [{
@@ -1215,15 +1215,15 @@
 		}
 		{
 			description: [
-				"The 5 checkmark quests below are for changing the channel mechanic of AE2."
+				"{ftbquests.chapter.applied_energistics_2.quest7F3123DDC2948BC4.description1}"
 				""
-				"&4Those settings are server-wide, use with caution !&r"
+				"{ftbquests.chapter.applied_energistics_2.quest7F3123DDC2948BC4.description2}"
 			]
 			id: "7F3123DDC2948BC4"
 			optional: true
 			tasks: [{
 				id: "00DD0AD43AF4F1D9"
-				title: "Channel Settings"
+				title: "{ftbquests.chapter.applied_energistics_2.quest7F3123DDC2948BC4.task.62217876491530713.title}"
 				type: "checkmark"
 			}]
 			x: 0.0d
@@ -1232,9 +1232,9 @@
 		{
 			dependencies: ["44972673B4196F1F"]
 			description: [
-				"The &31k ME Storage Componant&r is your first step to storing Items in Drives."
+				"{ftbquests.chapter.applied_energistics_2.quest794E40A7B810D043.description1}"
 				""
-				"It can be used to craft the &31k ME Item Storage Cell&r but also better Storage Componants."
+				"{ftbquests.chapter.applied_energistics_2.quest794E40A7B810D043.description2}"
 			]
 			id: "794E40A7B810D043"
 			rewards: [{
@@ -1252,7 +1252,7 @@
 		}
 		{
 			dependencies: ["794E40A7B810D043"]
-			description: ["Each &3Storage Component&r takes 3x of the previous one to craft but offers 4x the storage."]
+			description: ["{ftbquests.chapter.applied_energistics_2.quest4BA07FF50AA59AB.description1}"]
 			id: "04BA07FF50AA59AB"
 			rewards: [
 				{
@@ -1347,16 +1347,16 @@
 		{
 			dependencies: ["6C0DDC638326D231"]
 			description: [
-				"Ok, now we can store items !"
+				"{ftbquests.chapter.applied_energistics_2.quest54954E5D9DC45BD6.description1}"
 				""
-				"Better &3ME Item Storage Cells&r have more capacity for items (bytes), but it's not that easy, 1 &3ME Item Storage Cell&r can only store up to 63 different item types."
+				"{ftbquests.chapter.applied_energistics_2.quest54954E5D9DC45BD6.description2}"
 				""
-				"Each 8 items of 1 type will take 1 byte."
+				"{ftbquests.chapter.applied_energistics_2.quest54954E5D9DC45BD6.description3}"
 				""
-				"For example, the &31k ME Item Storage Cell&r has 1024 bytes so you could store 8*1024 = 8,128 dirt blocks or about 16 times 63 different items (63*16 = 1008)."
+				"{ftbquests.chapter.applied_energistics_2.quest54954E5D9DC45BD6.description4}"
 				""
 				""
-				"Sneak right-click in the air with an empty cell to separate the component and housing."
+				"{ftbquests.chapter.applied_energistics_2.quest54954E5D9DC45BD6.description5}"
 			]
 			id: "54954E5D9DC45BD6"
 			rewards: [{
@@ -1399,16 +1399,16 @@
 						]
 					}
 				}
-				title: "ME Item Storage Cells"
+				title: "{ftbquests.chapter.applied_energistics_2.quest54954E5D9DC45BD6.task.3954093454567554570.title}"
 				type: "item"
 			}]
-			title: "&3ME Item Storage Cells&r"
+			title: "{ftbquests.chapter.applied_energistics_2.quest54954E5D9DC45BD6.title}"
 			x: -0.5d
 			y: 15.0d
 		}
 		{
 			dependencies: ["63E9204E0C9BB3D3"]
-			description: ["Make it so the whitelist of items that can be stored in a cell becomes a blacklist."]
+			description: ["{ftbquests.chapter.applied_energistics_2.quest153BFF88705AFC8C.description1}"]
 			id: "153BFF88705AFC8C"
 			rewards: [{
 				id: "3EEE7579B5CF112E"
@@ -1430,13 +1430,13 @@
 			]
 			dependency_requirement: "one_completed"
 			description: [
-				"Parts are full blocks while subparts can be in the same block as a cable as it is placed on it."
+				"{ftbquests.chapter.applied_energistics_2.quest2CD963618CF02F10.description1}"
 				""
-				"Some parts can be both. For exemple, the ME Pattern Provider can be a part or a subpart, both versions exist and you can go from one to another by just placing i in the crafting table."
+				"{ftbquests.chapter.applied_energistics_2.quest2CD963618CF02F10.description2}"
 				""
-				"Other subparts like the ME Export Bus do not have a full block counterpart."
+				"{ftbquests.chapter.applied_energistics_2.quest2CD963618CF02F10.description3}"
 				""
-				"Parts can connect to both small cables and dense cables but subparts can only connect to small cables"
+				"{ftbquests.chapter.applied_energistics_2.quest2CD963618CF02F10.description4}"
 			]
 			hide_dependency_lines: true
 			id: "2CD963618CF02F10"
@@ -1448,7 +1448,7 @@
 			}]
 			tasks: [{
 				id: "2BC0E71127DCF8A6"
-				title: "Parts and Subparts"
+				title: "{ftbquests.chapter.applied_energistics_2.quest2CD963618CF02F10.task.3152773800028600486.title}"
 				type: "checkmark"
 			}]
 			x: 3.5d
@@ -1457,13 +1457,13 @@
 		{
 			dependencies: ["048ACF54F38C203A"]
 			description: [
-				"Heart of the autocrafting setup, the Crafting Storages store all ingredients of a craft."
+				"{ftbquests.chapter.applied_energistics_2.quest46844D4E57821B05.description1}"
 				""
-				"When you request a craft, all ingredients go into it and stay there until the craft is finished."
+				"{ftbquests.chapter.applied_energistics_2.quest46844D4E57821B05.description2}"
 				""
-				"You will need more storage for bigger crafts."
+				"{ftbquests.chapter.applied_energistics_2.quest46844D4E57821B05.description3}"
 				""
-				"It is a part of the &3CPU Multiblock&r, see the quest on the right of this one which explains them."
+				"{ftbquests.chapter.applied_energistics_2.quest46844D4E57821B05.description4}"
 			]
 			id: "46844D4E57821B05"
 			rewards: [{
@@ -1501,21 +1501,21 @@
 						]
 					}
 				}
-				title: "Crafting Storages"
+				title: "{ftbquests.chapter.applied_energistics_2.quest46844D4E57821B05.task.7336381381024065352.title}"
 				type: "item"
 			}]
-			title: "Crafting Storages"
+			title: "{ftbquests.chapter.applied_energistics_2.quest46844D4E57821B05.title}"
 			x: 5.5d
 			y: 2.0d
 		}
 		{
 			dependencies: ["048ACF54F38C203A"]
 			description: [
-				"Autocrafting feels slow ?"
+				"{ftbquests.chapter.applied_energistics_2.quest21F6DAE21CB20EF6.description1}"
 				""
-				"Try adding some Co-Processing Units, each one can do one more craft at the same time."
+				"{ftbquests.chapter.applied_energistics_2.quest21F6DAE21CB20EF6.description2}"
 				""
-				"It is a part of the &3CPU Multiblock&r, see the quest on the right of this one which explains them."
+				"{ftbquests.chapter.applied_energistics_2.quest21F6DAE21CB20EF6.description3}"
 			]
 			id: "21F6DAE21CB20EF6"
 			rewards: [{
@@ -1533,7 +1533,7 @@
 		}
 		{
 			dependencies: ["60C3D122117080C3"]
-			description: ["When powered via the &3ME&r Network, the &aGrowth Accelerator&r will speed up the growth of plants next to it."]
+			description: ["{ftbquests.chapter.applied_energistics_2.quest4ED59FCB7C8CF4B8.description1}"]
 			id: "4ED59FCB7C8CF4B8"
 			rewards: [{
 				id: "78BEA1BE16916DD3"
@@ -1545,7 +1545,7 @@
 				item: "ae2:growth_accelerator"
 				type: "item"
 			}]
-			title: "&aGrowth Accelerator&r"
+			title: "{ftbquests.chapter.applied_energistics_2.quest4ED59FCB7C8CF4B8.title}"
 			x: -2.5d
 			y: 2.0d
 		}
@@ -1555,7 +1555,7 @@
 				"25323570A28E0C73"
 			]
 			dependency_requirement: "one_completed"
-			description: ["&2Acceleration Cards&r make stuff go faster, making import and export busses move more items per operation, and making inscribers and assemblers work faster."]
+			description: ["{ftbquests.chapter.applied_energistics_2.quest22A3D93079CE924A.description1}"]
 			hide_dependency_lines: true
 			id: "22A3D93079CE924A"
 			rewards: [{
@@ -1568,7 +1568,7 @@
 				item: "ae2:speed_card"
 				type: "item"
 			}]
-			title: "&2Acceleration Cards&r"
+			title: "{ftbquests.chapter.applied_energistics_2.quest22A3D93079CE924A.title}"
 			x: 7.5d
 			y: 7.0d
 		}
@@ -1578,7 +1578,7 @@
 				"076DEFA612FFCD0E"
 			]
 			dependency_requirement: "one_completed"
-			description: ["&2Crafting Cards&r let the device send crafting requests to your autocrafting system to get the items it desires."]
+			description: ["{ftbquests.chapter.applied_energistics_2.quest42B231CCDED208B.description1}"]
 			hide_dependency_lines: true
 			id: "042B231CCDED208B"
 			rewards: [{
@@ -1591,7 +1591,7 @@
 				item: "ae2:crafting_card"
 				type: "item"
 			}]
-			title: "&2Crafting Cards&r"
+			title: "{ftbquests.chapter.applied_energistics_2.quest42B231CCDED208B.title}"
 			x: 8.5d
 			y: 8.0d
 		}
@@ -1604,9 +1604,9 @@
 			]
 			dependency_requirement: "one_completed"
 			description: [
-				"&2Fuzzy Cards&r let devices and tools with filters filter by damage level and/or ignore item NBT."
+				"{ftbquests.chapter.applied_energistics_2.quest5A10F47AF1B11EDA.description1}"
 				""
-				"For example, it can allow you to export all iron axes no matter the damage level and enchantments, or only export damaged diamond swords, not fully repaired ones."
+				"{ftbquests.chapter.applied_energistics_2.quest5A10F47AF1B11EDA.description2}"
 			]
 			hide_dependency_lines: true
 			id: "5A10F47AF1B11EDA"
@@ -1620,7 +1620,7 @@
 				item: "ae2:fuzzy_card"
 				type: "item"
 			}]
-			title: "&2Fuzzy Cards&r"
+			title: "{ftbquests.chapter.applied_energistics_2.quest5A10F47AF1B11EDA.title}"
 			x: 7.5d
 			y: 9.0d
 		}
@@ -1630,7 +1630,7 @@
 				"25323570A28E0C73"
 			]
 			dependency_requirement: "one_completed"
-			description: ["&2Redstone Cards&r add redstone control, adding a toggle button in the device's GUI to swap between various redstone conditions."]
+			description: ["{ftbquests.chapter.applied_energistics_2.quest1A2138E9995A7BD2.description1}"]
 			hide_dependency_lines: true
 			id: "1A2138E9995A7BD2"
 			rewards: [{
@@ -1643,7 +1643,7 @@
 				item: "ae2:redstone_card"
 				type: "item"
 			}]
-			title: "&2Redstone Cards&r"
+			title: "{ftbquests.chapter.applied_energistics_2.quest1A2138E9995A7BD2.title}"
 			x: 8.5d
 			y: 7.0d
 		}
@@ -1656,7 +1656,7 @@
 				"1ADC8D54D3C886C8"
 			]
 			dependency_requirement: "one_completed"
-			description: ["&2Capacity Cards&r increase the amount of filter slots in import, export, and storage busses, and formation planes."]
+			description: ["{ftbquests.chapter.applied_energistics_2.quest495F1E67F284076C.description1}"]
 			hide_dependency_lines: true
 			id: "495F1E67F284076C"
 			rewards: [{
@@ -1669,14 +1669,14 @@
 				item: "ae2:capacity_card"
 				type: "item"
 			}]
-			title: "&2Capacity Cards&r"
+			title: "{ftbquests.chapter.applied_energistics_2.quest495F1E67F284076C.title}"
 			x: 7.5d
 			y: 8.0d
 		}
 		{
 			dependencies: ["574ECD80D17B7217"]
 			dependency_requirement: "one_completed"
-			description: ["&2Inverter Cards&r swap filters in devices from whitelist to blacklist."]
+			description: ["{ftbquests.chapter.applied_energistics_2.quest3F2613BDA0554944.description1}"]
 			hide_dependency_lines: true
 			id: "3F2613BDA0554944"
 			rewards: [{
@@ -1689,18 +1689,18 @@
 				item: "ae2:inverter_card"
 				type: "item"
 			}]
-			title: "&2Inverter Cards&r"
+			title: "{ftbquests.chapter.applied_energistics_2.quest3F2613BDA0554944.title}"
 			x: 8.5d
 			y: 9.0d
 		}
 		{
 			dependencies: ["76E723B0BE3DFC5B"]
 			description: [
-				"Blank Patterns are used to store crafting recipes."
+				"{ftbquests.chapter.applied_energistics_2.quest5DEBCC9B6FA60670.description1}"
 				""
-				"Put them in a Pattern Encoding Terminal to set their recipe."
+				"{ftbquests.chapter.applied_energistics_2.quest5DEBCC9B6FA60670.description2}"
 				""
-				"You can then put them in &ePattern Providers&r."
+				"{ftbquests.chapter.applied_energistics_2.quest5DEBCC9B6FA60670.description3}"
 			]
 			id: "5DEBCC9B6FA60670"
 			rewards: [{
@@ -1726,15 +1726,15 @@
 		{
 			dependencies: ["76E723B0BE3DFC5B"]
 			description: [
-				"Automating Machines is nice but what about normal Crafting Table Crafts ?"
+				"{ftbquests.chapter.applied_energistics_2.quest3AF42690AA9B7CD3.description1}"
 				""
-				"The &5Molecular Assembler&r is made for you !"
+				"{ftbquests.chapter.applied_energistics_2.quest3AF42690AA9B7CD3.description2}"
 				""
-				"Place them next to Pattern Providers with Crafting Patterns in them and the will act as a Crafting Table."
+				"{ftbquests.chapter.applied_energistics_2.quest3AF42690AA9B7CD3.description3}"
 				""
-				"Multiple &5Molecular Assemblers&r can be put next to a Pattern Provider for faster crafting."
+				"{ftbquests.chapter.applied_energistics_2.quest3AF42690AA9B7CD3.description4}"
 				""
-				"Don't forget to put Acceleration Cards in them !"
+				"{ftbquests.chapter.applied_energistics_2.quest3AF42690AA9B7CD3.description5}"
 			]
 			id: "3AF42690AA9B7CD3"
 			rewards: [{
@@ -1747,7 +1747,7 @@
 				item: "ae2:molecular_assembler"
 				type: "item"
 			}]
-			title: "&5Molecular Assembler&r"
+			title: "{ftbquests.chapter.applied_energistics_2.quest3AF42690AA9B7CD3.title}"
 			x: 4.5d
 			y: 0.0d
 		}
@@ -1757,13 +1757,13 @@
 				"21F6DAE21CB20EF6"
 			]
 			description: [
-				"&bAdvancedAE &7– &dQuantum Computer&r  "
-				"&7A powerful multiblock for &badvanced calculations&7 and &bautomation logic&7.  "
-				"&7Used for &dcomplex processing&7 beyond normal AE2 systems."
+				"{ftbquests.chapter.applied_energistics_2.quest6EE4B174356FB915.description1}"
+				"{ftbquests.chapter.applied_energistics_2.quest6EE4B174356FB915.description2}"
+				"{ftbquests.chapter.applied_energistics_2.quest6EE4B174356FB915.description3}"
 				""
-				"&bExtendedAE &7– &dAssembler Matrix&r  "
-				"&7An upgraded &bautocrafting system&7 with &dfaster performance&7.  "
-				"&7Allows &bparallel crafting&7 and &dcompact, efficient setups&7."
+				"{ftbquests.chapter.applied_energistics_2.quest6EE4B174356FB915.description4}"
+				"{ftbquests.chapter.applied_energistics_2.quest6EE4B174356FB915.description5}"
+				"{ftbquests.chapter.applied_energistics_2.quest6EE4B174356FB915.description6}"
 			]
 			id: "6EE4B174356FB915"
 			optional: true
@@ -1774,23 +1774,23 @@
 			}]
 			tasks: [{
 				id: "40FDC0A339B993D4"
-				title: "CPU Multiblock"
+				title: "{ftbquests.chapter.applied_energistics_2.quest6EE4B174356FB915.task.4683110994815849428.title}"
 				type: "checkmark"
 			}]
-			title: "&6AE2 Addons &7– &bAdvanced Systems&r"
+			title: "{ftbquests.chapter.applied_energistics_2.quest6EE4B174356FB915.title}"
 			x: 7.5d
 			y: 3.0d
 		}
 		{
 			dependencies: ["048ACF54F38C203A"]
 			description: [
-				"ME Level Emitters can send redstone signals depending on their configuration."
+				"{ftbquests.chapter.applied_energistics_2.quest70F972871383E1A0.description1}"
 				""
-				"With no cards, it will send a redstone signal when the filtered item's quantity is greater than / equal to / less than the amount configured."
+				"{ftbquests.chapter.applied_energistics_2.quest70F972871383E1A0.description2}"
 				""
-				"With a &2Crafting Card&r, it can be set to \"emit redstone while item is crafting\" or \"emit redstone to craft item\"."
+				"{ftbquests.chapter.applied_energistics_2.quest70F972871383E1A0.description3}"
 				""
-				"Can be used to toggle devices that have a &2Redstone Cards&r."
+				"{ftbquests.chapter.applied_energistics_2.quest70F972871383E1A0.description4}"
 			]
 			id: "70F972871383E1A0"
 			rewards: [{
@@ -1809,16 +1809,16 @@
 		{
 			dependencies: ["1FADBF003F478AAD"]
 			description: [
-				"Want to connect machines to your &3ME&r Network far from your base or in other dimensions ?"
+				"{ftbquests.chapter.applied_energistics_2.quest7A514FC484535387.description1}"
 				""
-				"You'll need to create the Quantum Ring Multiblock."
+				"{ftbquests.chapter.applied_energistics_2.quest7A514FC484535387.description2}"
 				""
-				"First, you will need a lot Matter Balls. Those can be obtained in a Matter Condenser, just put a &31k ME Storage Componant&r in it and set it to Matter Ball mode."
+				"{ftbquests.chapter.applied_energistics_2.quest7A514FC484535387.description3}"
 				""
-				"Next, insert 256 units of any item to get 1 Matter Ball."
-				"The prefered method though is to use water as 32 Buckets will make 1 Matter Ball and the Mekanism Pump will give you all the water you'll need."
+				"{ftbquests.chapter.applied_energistics_2.quest7A514FC484535387.description4}"
+				"{ftbquests.chapter.applied_energistics_2.quest7A514FC484535387.description5}"
 				""
-				"You can also create &1Singularitys&r directly in the Matter Condenser with a &364k ME Storage Componant&r but the number of items / fluid needed is way higher then the craft used in the next quest."
+				"{ftbquests.chapter.applied_energistics_2.quest7A514FC484535387.description6}"
 			]
 			id: "7A514FC484535387"
 			rewards: [{
@@ -1844,11 +1844,11 @@
 		{
 			dependencies: ["7A514FC484535387"]
 			description: [
-				"Now that you have Matter Balls, you can make a &1Singularity&r."
+				"{ftbquests.chapter.applied_energistics_2.quest28D52D3DAC0750BA.description1}"
 				""
-				"You should use the crafting recipe in the Reaction Chamber, it will cost you way less items and time."
+				"{ftbquests.chapter.applied_energistics_2.quest28D52D3DAC0750BA.description2}"
 				""
-				"Drop a &1Singularity&r with Ender Dust on the ground and light a TNT next to it, it will create 2 &1Quantum Entangled Singularitys&r."
+				"{ftbquests.chapter.applied_energistics_2.quest28D52D3DAC0750BA.description3}"
 			]
 			id: "28D52D3DAC0750BA"
 			rewards: [{
@@ -1885,24 +1885,24 @@
 							]
 						}
 					}
-					title: "TNT"
+					title: "{ftbquests.chapter.applied_energistics_2.quest28D52D3DAC0750BA.task.3988266505868436777.title}"
 					type: "item"
 				}
 			]
-			title: "&1Singularity&r"
+			title: "{ftbquests.chapter.applied_energistics_2.quest28D52D3DAC0750BA.title}"
 			x: -4.0d
 			y: 11.5d
 		}
 		{
 			dependencies: ["28D52D3DAC0750BA"]
 			description: [
-				"It is actually 2 multiblocks, one connected to your main network and the other one far away or in another dimension."
+				"{ftbquests.chapter.applied_energistics_2.quest6D899457C59B4562.description1}"
 				""
-				"Place 8 Quantum Rings in a square shape with a Quantum Link Chamber in the center and place one of the 2 &1Quantum Entangled Singularitys&r in it."
+				"{ftbquests.chapter.applied_energistics_2.quest6D899457C59B4562.description2}"
 				""
-				"Make the same Multiblock somewhere else and both will be connected to the same &3ME&r Network."
+				"{ftbquests.chapter.applied_energistics_2.quest6D899457C59B4562.description3}"
 				""
-				"* you can only connect cables to the 4 full Quantum Ring blocks, the blocks in the diagonals won't connect."
+				"{ftbquests.chapter.applied_energistics_2.quest6D899457C59B4562.description4}"
 			]
 			id: "6D899457C59B4562"
 			rewards: [{
@@ -1930,7 +1930,7 @@
 					type: "item"
 				}
 			]
-			title: "Quantum Ring Multiblock"
+			title: "{ftbquests.chapter.applied_energistics_2.quest6D899457C59B4562.title}"
 			x: -5.5d
 			y: 11.5d
 		}
@@ -1953,16 +1953,16 @@
 		{
 			dependencies: ["2D0807B323940745"]
 			description: [
-				"Ok, now we can store Fluids !"
+				"{ftbquests.chapter.applied_energistics_2.quest4295EC2020E4146C.description1}"
 				""
-				"Better &3ME Fluid Storage Cells&r have more capacity for fluids (bytes), but it's not that easy, 1 &3ME Fluid Storage Cell&r can only store up to 18 different fluid types."
+				"{ftbquests.chapter.applied_energistics_2.quest4295EC2020E4146C.description2}"
 				""
-				"Each 8 buckets of fluid of 1 type will take 1 byte."
+				"{ftbquests.chapter.applied_energistics_2.quest4295EC2020E4146C.description3}"
 				""
-				"For example, the &31k ME Fluid Storage Cell&r has 1024 bytes so you could store 8*1024 = 8,128 Water Buckets or about 56 times 18 different fluid buckets (56*18 = 1008)."
+				"{ftbquests.chapter.applied_energistics_2.quest4295EC2020E4146C.description4}"
 				""
 				""
-				"Sneak right-click in the air with an empty cell to separate the component and housing."
+				"{ftbquests.chapter.applied_energistics_2.quest4295EC2020E4146C.description5}"
 			]
 			id: "4295EC2020E4146C"
 			rewards: [{
@@ -2005,10 +2005,10 @@
 						]
 					}
 				}
-				title: "ME Fluid Storage Cells"
+				title: "{ftbquests.chapter.applied_energistics_2.quest4295EC2020E4146C.task.1920969978318795557.title}"
 				type: "item"
 			}]
-			title: "&3ME Fluid Storage Cells&r"
+			title: "{ftbquests.chapter.applied_energistics_2.quest4295EC2020E4146C.title}"
 			x: 0.5d
 			y: 15.0d
 		}
@@ -2030,8 +2030,8 @@
 		}
 		{
 			description: [
-				"&2This quest was made by MiniMaxi!&r"
-				"&1Thank you a lot!&r"
+				"{ftbquests.chapter.applied_energistics_2.quest9B1FD2981B34B12.description1}"
+				"{ftbquests.chapter.applied_energistics_2.quest9B1FD2981B34B12.description2}"
 			]
 			id: "09B1FD2981B34B12"
 			invisible: true
@@ -2043,7 +2043,7 @@
 			}]
 			tasks: [{
 				id: "18CC3714384DB289"
-				title: "&2This quest was made by MiniMaxi!&r&1 Thank you a lot!&r"
+				title: "{ftbquests.chapter.applied_energistics_2.quest9B1FD2981B34B12.task.1786863712142733961.title}"
 				type: "checkmark"
 			}]
 			x: 0.0d
@@ -2102,29 +2102,29 @@
 		{
 			dependencies: ["6EE4B174356FB915"]
 			description: [
-				"&7The &bQuantum Computer&7 is a special type of crafting computer designed to handle an &eunlimited number of crafting requests&7—as long as it has enough &bcrafting storage&7 available."
-				" "
-				"&6Quantum Core&r  "
-				"&7The &bQuantum Core&7 is the heart of the system: it works standalone and provides &b256M crafting storage&7 plus &b8 co-processors&7 on its own."
-				"&7When used standalone, power must be provided through the &eUp or Down&7 sides (where the connectors are). "
+				"{ftbquests.chapter.applied_energistics_2.quest32A2624C78A14A38.description1}"
 				""
-				"&6Storage expansion&r  "
-				"&7Use &bQuantum Storage&7 blocks to increase the available crafting storage and therefore improve how many concurrent tasks the computer can handle. "
-				"&7Two variants exist: &b128M&7 and &b256M&7 capacity."
+				"{ftbquests.chapter.applied_energistics_2.quest32A2624C78A14A38.description2}"
+				"{ftbquests.chapter.applied_energistics_2.quest32A2624C78A14A38.description3}"
+				"{ftbquests.chapter.applied_energistics_2.quest32A2624C78A14A38.description4}"
 				""
-				"&6Performance blocks&r  "
-				"&bQuantum Accelerator&7: Adds &b8 co-processors&7 to the multiblock, and all crafting tasks can share the available co-processors—so stacking accelerators is very effective. "
-				"&bQuantum Data Entangler&7: Multiplies the storage of all storage blocks in the multiblock by &b4x&7, and only &eone&7 can be placed. "
-				"&bQuantum Multi-threader&7: Multiplies total co-processing power by &b4x&7, and only &eone&7 can be placed. "
+				"{ftbquests.chapter.applied_energistics_2.quest32A2624C78A14A38.description5}"
+				"{ftbquests.chapter.applied_energistics_2.quest32A2624C78A14A38.description6}"
+				"{ftbquests.chapter.applied_energistics_2.quest32A2624C78A14A38.description7}"
 				""
-				"&6Multiblock rules&r  "
-				"&7The Quantum Computer multiblock can scale up to &b7x7x7&7 (external dimensions). "
+				"{ftbquests.chapter.applied_energistics_2.quest32A2624C78A14A38.description8}"
+				"{ftbquests.chapter.applied_energistics_2.quest32A2624C78A14A38.description9}"
+				"{ftbquests.chapter.applied_energistics_2.quest32A2624C78A14A38.description10}"
+				"{ftbquests.chapter.applied_energistics_2.quest32A2624C78A14A38.description11}"
 				""
-				"&7The outside layer must be &bQuantum Structure&7 blocks, and &eQuantum Structure cannot be placed inside&7 the multiblock. "
+				"{ftbquests.chapter.applied_energistics_2.quest32A2624C78A14A38.description12}"
+				"{ftbquests.chapter.applied_energistics_2.quest32A2624C78A14A38.description13}"
 				""
-				"&7The interior must contain &eno empty spaces&7 (you can fill extra space with &bQuantum Unit&7 blocks for no additional benefit). "
+				"{ftbquests.chapter.applied_energistics_2.quest32A2624C78A14A38.description14}"
 				""
-				"&7Place &eexactly one&7 &bQuantum Core&7, and at most &eone&7 &bData Entangler&7 and at most &eone&7 &bMulti-threader&7. "
+				"{ftbquests.chapter.applied_energistics_2.quest32A2624C78A14A38.description15}"
+				""
+				"{ftbquests.chapter.applied_energistics_2.quest32A2624C78A14A38.description16}"
 			]
 			icon: "advanced_ae:quantum_core"
 			id: "32A2624C78A14A38"
@@ -2181,48 +2181,48 @@
 					type: "item"
 				}
 			]
-			title: "&9&lQuantum Computer&r"
+			title: "{ftbquests.chapter.applied_energistics_2.quest32A2624C78A14A38.title}"
 			x: 8.5d
 			y: 5.0d
 		}
 		{
 			dependencies: ["6EE4B174356FB915"]
 			description: [
-				"&7A powerful multiblock that merges the functionality of a &bMolecular Assembler&7 and a &bPattern Provider&7. It helps you process &emultiple crafting tasks in parallel&7 (especially with enough &bCrafting Accelerators&7 in your ME network) and can save you &achannels&7 compared to large arrays."
+				"{ftbquests.chapter.applied_energistics_2.quest4D529BF135A82201.description1}"
 				""
-				"&6How to build&r"
-				"&7The Matrix is a solid &erectangular prism&7 with edge lengths from &b3 to 7&7 blocks."
+				"{ftbquests.chapter.applied_energistics_2.quest4D529BF135A82201.description2}"
+				"{ftbquests.chapter.applied_energistics_2.quest4D529BF135A82201.description3}"
 				""
-				"&bEdges:&7 Use &9Assembler Matrix Frame&7"
+				"{ftbquests.chapter.applied_energistics_2.quest4D529BF135A82201.description4}"
 				""
-				"&bOuter faces:&7 Use &9Assembler Matrix Wall&7 and/or &9Assembler Matrix Glass&7"
+				"{ftbquests.chapter.applied_energistics_2.quest4D529BF135A82201.description5}"
 				""
-				"&bInside (must be fully filled):&7 Use any mix of &9Pattern Core&7, &9Craft Core&7, and &9Speed Core&7"
+				"{ftbquests.chapter.applied_energistics_2.quest4D529BF135A82201.description6}"
 				""
-				"&cRules:&7 The structure &cmust not be hollow&7 and must be completely filled."
-				"&cRequired:&7 At least &e1x Pattern Core&7 and &e1x Craft Core&7 must be inside."
+				"{ftbquests.chapter.applied_energistics_2.quest4D529BF135A82201.description7}"
+				"{ftbquests.chapter.applied_energistics_2.quest4D529BF135A82201.description8}"
 				""
-				"&6&lFormed state&r"
-				"&7Once the structure is correct and receiving power, the lines on the &9Frame&7 glow &bblue&7. That indicates the Matrix is &aonline&7."
+				"{ftbquests.chapter.applied_energistics_2.quest4D529BF135A82201.description9}"
+				"{ftbquests.chapter.applied_energistics_2.quest4D529BF135A82201.description10}"
 				""
-				"&6&lCore functions&r"
-				"&9&lPattern Core&r"
-				"&7The Matrix only reads crafting patterns from its Pattern Cores."
-				"&7Each Pattern Core provides &b36 pattern slots&7."
+				"{ftbquests.chapter.applied_energistics_2.quest4D529BF135A82201.description11}"
+				"{ftbquests.chapter.applied_energistics_2.quest4D529BF135A82201.description12}"
+				"{ftbquests.chapter.applied_energistics_2.quest4D529BF135A82201.description13}"
+				"{ftbquests.chapter.applied_energistics_2.quest4D529BF135A82201.description14}"
 				""
-				"&9&lCraft Core&r"
-				"&7Crafting jobs get distributed across Craft Cores."
-				"&7Each Craft Core can run &b8 jobs simultaneously&7."
+				"{ftbquests.chapter.applied_energistics_2.quest4D529BF135A82201.description15}"
+				"{ftbquests.chapter.applied_energistics_2.quest4D529BF135A82201.description16}"
+				"{ftbquests.chapter.applied_energistics_2.quest4D529BF135A82201.description17}"
 				""
-				"&9&lSpeed Core&r"
-				"&7Speed Cores act like a built-in &bSpeed Card&7 upgrade."
-				"&7With &b5 Speed Cores&7, the Matrix reaches &afull speed&7; more than 5 gives no further benefit."
+				"{ftbquests.chapter.applied_energistics_2.quest4D529BF135A82201.description18}"
+				"{ftbquests.chapter.applied_energistics_2.quest4D529BF135A82201.description19}"
+				"{ftbquests.chapter.applied_energistics_2.quest4D529BF135A82201.description20}"
 				""
-				"&6&lAssembler Matrix Plus Cores&r"
-				"&7The Assembler Matrix can be upgraded with three &bPlus Cores&7. They work like the original cores, but with &egreatly increased stats&7."
-				"&bAssembler Matrix Pattern Core+&7: Provides &e72 pattern slots&7 per core"
-				"&bAssembler Matrix Craft Core+&7: Runs &e32 crafting jobs in parallel&7 per core"
-				"&bAssembler Matrix Speed Core+&7: Gives &e5x the effect&7 of a regular Speed Core for the Matrix. You only need 1."
+				"{ftbquests.chapter.applied_energistics_2.quest4D529BF135A82201.description21}"
+				"{ftbquests.chapter.applied_energistics_2.quest4D529BF135A82201.description22}"
+				"{ftbquests.chapter.applied_energistics_2.quest4D529BF135A82201.description23}"
+				"{ftbquests.chapter.applied_energistics_2.quest4D529BF135A82201.description24}"
+				"{ftbquests.chapter.applied_energistics_2.quest4D529BF135A82201.description25}"
 			]
 			id: "4D529BF135A82201"
 			min_width: 400
@@ -2255,7 +2255,7 @@
 							]
 						}
 					}
-					title: "Assembler Matrix Glass/ Wall"
+					title: "{ftbquests.chapter.applied_energistics_2.quest4D529BF135A82201.task.323231805323170957.title}"
 					type: "item"
 				}
 				{
@@ -2276,7 +2276,7 @@
 							]
 						}
 					}
-					title: "Pattern Core"
+					title: "{ftbquests.chapter.applied_energistics_2.quest4D529BF135A82201.task.1946419708754787241.title}"
 					type: "item"
 				}
 				{
@@ -2297,7 +2297,7 @@
 							]
 						}
 					}
-					title: "Craft Core"
+					title: "{ftbquests.chapter.applied_energistics_2.quest4D529BF135A82201.task.2071717347688163457.title}"
 					type: "item"
 				}
 				{
@@ -2318,29 +2318,29 @@
 							]
 						}
 					}
-					title: "Speed Core"
+					title: "{ftbquests.chapter.applied_energistics_2.quest4D529BF135A82201.task.8175533383354653458.title}"
 					type: "item"
 				}
 			]
-			title: "&9&lAssembler Matrix&r"
+			title: "{ftbquests.chapter.applied_energistics_2.quest4D529BF135A82201.title}"
 			x: 8.5d
 			y: 1.0d
 		}
 		{
 			dependencies: ["4D529BF135A82201"]
 			description: [
-				"&7The &bAssembler Matrix Upload Core&7 is a special module for your Assembler Matrix that enables &aautomatic pattern upload&7 directly from the &bPattern Encoding Terminal&7."
+				"{ftbquests.chapter.applied_energistics_2.quest62226CF7455EC7E8.description1}"
 				""
-				"&6&lWhat it does&r"
-				"&7When this core is installed, patterns created in the Pattern Encoding Terminal are sent to the Assembler Matrix storage &ewithout manual transfer&7, including:"
+				"{ftbquests.chapter.applied_energistics_2.quest62226CF7455EC7E8.description2}"
+				"{ftbquests.chapter.applied_energistics_2.quest62226CF7455EC7E8.description3}"
 				""
-				"&bCrafting patterns&7"
+				"{ftbquests.chapter.applied_energistics_2.quest62226CF7455EC7E8.description4}"
 				""
-				"&bSmelter patterns&7"
+				"{ftbquests.chapter.applied_energistics_2.quest62226CF7455EC7E8.description5}"
 				""
-				"&bStonecutter patterns&7"
+				"{ftbquests.chapter.applied_energistics_2.quest62226CF7455EC7E8.description6}"
 				""
-				"&8Note:&7 This core only affects &eautomatic uploads from the Pattern Encoding Terminal to the Assembler Matrix&7. It does &cnot&7 change how processing patterns upload to &bPattern Providers&7."
+				"{ftbquests.chapter.applied_energistics_2.quest62226CF7455EC7E8.description7}"
 			]
 			id: "62226CF7455EC7E8"
 			rewards: [{
@@ -2353,40 +2353,40 @@
 				item: "extendedae_plus:assembler_matrix_upload_core"
 				type: "item"
 			}]
-			title: "&9&lAssembler Matrix Upload Core&r"
+			title: "{ftbquests.chapter.applied_energistics_2.quest62226CF7455EC7E8.title}"
 			x: 10.0d
 			y: 1.0d
 		}
 		{
 			dependencies: ["6D899457C59B4562"]
 			description: [
-				"&7The &bWireless Transceiver&7 is an advanced AE wireless device that sends &eME channels&7 over the air—like wireless connectors, but with &across-dimensional&7 reach similar to Quantum Rings. One setup can feed channels to &emultiple locations&7."
+				"{ftbquests.chapter.applied_energistics_2.quest427048DE91F255C6.description1}"
 				""
-				"&6&lHow it works&r"
-				"&7The system uses a &emaster-slave&7 design:"
+				"{ftbquests.chapter.applied_energistics_2.quest427048DE91F255C6.description2}"
+				"{ftbquests.chapter.applied_energistics_2.quest427048DE91F255C6.description3}"
 				""
-				"&bMaster:&7 Connects to the source ME network and provides the channel"
+				"{ftbquests.chapter.applied_energistics_2.quest427048DE91F255C6.description4}"
 				""
-				"&bSlave:&7 Placed where you need the channel; receives it from a Master"
-				"&7A single &bMaster&7 can serve &emany Slaves&7."
+				"{ftbquests.chapter.applied_energistics_2.quest427048DE91F255C6.description5}"
+				"{ftbquests.chapter.applied_energistics_2.quest427048DE91F255C6.description6}"
 				""
-				"&6&lCross-dimensional link&r"
-				"&7Wireless Transceivers can transmit channels &eacross dimensions&7."
-				"&cRequirement:&7 The chunks containing both the Master and the Slave must stay &cloaded&7, or the connection will drop."
-				"&6&lControls (mode and frequency)&r"
-				"&7Use these actions to configure and protect your setup:"
+				"{ftbquests.chapter.applied_energistics_2.quest427048DE91F255C6.description7}"
+				"{ftbquests.chapter.applied_energistics_2.quest427048DE91F255C6.description8}"
+				"{ftbquests.chapter.applied_energistics_2.quest427048DE91F255C6.description9}"
+				"{ftbquests.chapter.applied_energistics_2.quest427048DE91F255C6.description10}"
+				"{ftbquests.chapter.applied_energistics_2.quest427048DE91F255C6.description11}"
 				""
-				"&eRight-click (empty hand):&7 Toggle &bMaster/Slave&7 mode"
+				"{ftbquests.chapter.applied_energistics_2.quest427048DE91F255C6.description12}"
 				""
-				"&eShift + Right-click:&7 Increase frequency"
+				"{ftbquests.chapter.applied_energistics_2.quest427048DE91F255C6.description13}"
 				""
-				"&eShift + Left-click:&7 Decrease frequency"
+				"{ftbquests.chapter.applied_energistics_2.quest427048DE91F255C6.description14}"
 				""
-				"&eHold Wrench + Left-click:&7 Quickly adjust frequency"
+				"{ftbquests.chapter.applied_energistics_2.quest427048DE91F255C6.description15}"
 				""
-				"&eWrench + Right-click:&7 Lock mode and frequency (prevents accidents)"
+				"{ftbquests.chapter.applied_energistics_2.quest427048DE91F255C6.description16}"
 				""
-				"&eQuartz Cutter:&7 Rename the transceiver; a Slave’s UI shows the connected Master’s name for easier management"
+				"{ftbquests.chapter.applied_energistics_2.quest427048DE91F255C6.description17}"
 			]
 			id: "427048DE91F255C6"
 			min_width: 400
@@ -2400,17 +2400,17 @@
 				item: "extendedae_plus:wireless_transceiver"
 				type: "item"
 			}]
-			title: "&9&lWireless Transceiver&r"
+			title: "{ftbquests.chapter.applied_energistics_2.quest427048DE91F255C6.title}"
 			x: -7.0d
 			y: 11.5d
 		}
 		{
 			dependencies: ["47A2266666468E4D"]
 			description: [
-				"While having Blank Pattern in your Inventory and pressing Q on a Item in JEI it will generate a Pattern for you."
+				"{ftbquests.chapter.applied_energistics_2.quest760CBB459BBF2621.description1}"
 				""
-				"Pressing Shift + LMB on a Item in JEI gives you a stack of this item in your inventory (needs wireless terminal)."
-				"if you dont have the items and have patterns you go into the request window"
+				"{ftbquests.chapter.applied_energistics_2.quest760CBB459BBF2621.description2}"
+				"{ftbquests.chapter.applied_energistics_2.quest760CBB459BBF2621.description3}"
 			]
 			id: "760CBB459BBF2621"
 			optional: true
@@ -2421,12 +2421,12 @@
 			}]
 			tasks: [{
 				id: "7A5BB7D6E45CBC56"
-				title: "Tips"
+				title: "{ftbquests.chapter.applied_energistics_2.quest760CBB459BBF2621.task.8816842829090045014.title}"
 				type: "checkmark"
 			}]
 			x: -3.0d
 			y: 8.0d
 		}
 	]
-	title: "&3Applied Energistics 2&r"
+	title: "{ftbquests.chapter.applied_energistics_2.title}"
 }

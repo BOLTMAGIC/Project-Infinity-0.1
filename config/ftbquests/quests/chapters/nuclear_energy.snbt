@@ -27,7 +27,7 @@
 				type: "item"
 			}]
 			shape: "square"
-			subtitle: "Outerrior"
+			subtitle: "{ftbquests.chapter.nuclear_energy.quest547037A1C1BBB81F.subtitle}"
 			tasks: [
 				{
 					count: 2L
@@ -62,19 +62,19 @@
 					type: "item"
 				}
 			]
-			title: "Fission Reactor"
+			title: "{ftbquests.chapter.nuclear_energy.quest547037A1C1BBB81F.title}"
 			x: -10.0d
 			y: -1.0d
 		}
 		{
 			dependencies: ["2F1993EABEC6CC19"]
 			description: [
-				"Fission fuel generates heat, if reactor overheats, it will meltdown."
-				"To prevent this we need to place heat sinks inside the reactor."
-				"Each heat sink has placement rules, you decide how to combine them together."
-				"Reactor design is more like a minigame, where you need to solve all conditions to build very effective reactor."
+				"{ftbquests.chapter.nuclear_energy.quest81C50637C6FF2ED.description1}"
+				"{ftbquests.chapter.nuclear_energy.quest81C50637C6FF2ED.description2}"
+				"{ftbquests.chapter.nuclear_energy.quest81C50637C6FF2ED.description3}"
+				"{ftbquests.chapter.nuclear_energy.quest81C50637C6FF2ED.description4}"
 				""
-				"TIP: When you building your reactor, try to right click with empty hand on a heat sink block."
+				"{ftbquests.chapter.nuclear_energy.quest81C50637C6FF2ED.description5}"
 			]
 			id: "081C50637C6FF2ED"
 			rewards: [{
@@ -82,7 +82,7 @@
 				item: "kubejs:apotheotic_coin"
 				type: "item"
 			}]
-			subtitle: "Cooling down the reactor"
+			subtitle: "{ftbquests.chapter.nuclear_energy.quest81C50637C6FF2ED.subtitle}"
 			tasks: [{
 				id: "626E6DB260B9435F"
 				item: {
@@ -187,7 +187,7 @@
 				}
 				type: "item"
 			}]
-			title: "Heat Sinks"
+			title: "{ftbquests.chapter.nuclear_energy.quest81C50637C6FF2ED.title}"
 			x: -7.0d
 			y: -1.0d
 		}
@@ -197,9 +197,9 @@
 				"2F1993EABEC6CC19"
 			]
 			description: [
-				"Irradiation line is made of set of 3 blocks in one line: Fission Fuel Cell -> Moderator -> Irradiation Chamber"
+				"{ftbquests.chapter.nuclear_energy.quest42BEC6A82910E9A7.description1}"
 				""
-				"As Fuel Cell has 6 faces, you can make up to 6 irradiation lines with one Fuel Cell."
+				"{ftbquests.chapter.nuclear_energy.quest42BEC6A82910E9A7.description2}"
 			]
 			icon: "nuclearcraft:fission_reactor_irradiation_chamber"
 			id: "42BEC6A82910E9A7"
@@ -208,13 +208,13 @@
 				item: "kubejs:apotheotic_coin"
 				type: "item"
 			}]
-			subtitle: "Irradiation Lines"
+			subtitle: "{ftbquests.chapter.nuclear_energy.quest42BEC6A82910E9A7.subtitle}"
 			tasks: [{
 				id: "0B6262460130ADA6"
 				item: "nuclearcraft:fission_reactor_irradiation_chamber"
 				type: "item"
 			}]
-			title: "Irradiation Chamber"
+			title: "{ftbquests.chapter.nuclear_energy.quest42BEC6A82910E9A7.title}"
 			x: -8.5d
 			y: -2.5d
 		}
@@ -224,9 +224,9 @@
 				"5E016F2B357B859F"
 			]
 			description: [
-				"Same as regular heat sinks, but much more effective."
-				"Requires correspondent liquids in order to operate."
-				"Just pump needed liquids into reactor port."
+				"{ftbquests.chapter.nuclear_energy.quest4E513F38CFF495CD.description1}"
+				"{ftbquests.chapter.nuclear_energy.quest4E513F38CFF495CD.description2}"
+				"{ftbquests.chapter.nuclear_energy.quest4E513F38CFF495CD.description3}"
 			]
 			id: "4E513F38CFF495CD"
 			rewards: [{
@@ -234,7 +234,7 @@
 				item: "kubejs:apotheotic_coin"
 				type: "item"
 			}]
-			subtitle: "Pump some coolants"
+			subtitle: "{ftbquests.chapter.nuclear_energy.quest4E513F38CFF495CD.subtitle}"
 			tasks: [{
 				id: "26D9C96ADDB5F86A"
 				item: {
@@ -275,13 +275,13 @@
 				}
 				type: "item"
 			}]
-			title: "Active Heat Sinks"
+			title: "{ftbquests.chapter.nuclear_energy.quest4E513F38CFF495CD.title}"
 			x: -7.0d
 			y: 1.5d
 		}
 		{
 			dependencies: ["59C9E81E917EEBFD"]
-			description: ["This is where you start. You can aquire basic materials like Uranium and Thorium in your world and craft your first fission fuel."]
+			description: ["{ftbquests.chapter.nuclear_energy.questB204EBE35852FA7.description1}"]
 			id: "0B204EBE35852FA7"
 			rewards: [{
 				id: "1319B036EF38E1A7"
@@ -313,20 +313,20 @@
 				}
 				type: "item"
 			}]
-			title: "Fission Fuel"
+			title: "{ftbquests.chapter.nuclear_energy.questB204EBE35852FA7.title}"
 			x: -11.5d
 			y: -1.0d
 		}
 		{
 			dependencies: ["32759CFEBBA542EA"]
-			description: ["Separates some materials like uranium into isotopes"]
+			description: ["{ftbquests.chapter.nuclear_energy.quest59C9E81E917EEBFD.description1}"]
 			id: "59C9E81E917EEBFD"
 			rewards: [{
 				id: "2A4190CED1DBAE1A"
 				item: "kubejs:apotheotic_coin"
 				type: "item"
 			}]
-			subtitle: "Name speaks for him self"
+			subtitle: "{ftbquests.chapter.nuclear_energy.quest59C9E81E917EEBFD.subtitle}"
 			tasks: [{
 				id: "41FB30AB7E1E892B"
 				item: "nuclearcraft:isotope_separator"
@@ -343,7 +343,7 @@
 				item: "kubejs:apotheotic_coin"
 				type: "item"
 			}]
-			subtitle: "Nuclear wastes are not wastes"
+			subtitle: "{ftbquests.chapter.nuclear_energy.quest7BF786E0EEE4860D.subtitle}"
 			tasks: [
 				{
 					id: "5CE3E65D85A5CC15"
@@ -396,14 +396,14 @@
 		{
 			dependencies: ["015E2E9D8B678087"]
 			description: [
-				"Well, this is not actually a round ring, a cubic ring surrounding Fusion Core."
-				"Slice of the ring must be in the \"O\" shape made out of 4 casing blocks. "
-				"Meaning it would be look like this:"
-				"&8&l   #"
-				"&8&l  # #"
-				"&8&l   #&r"
-				"You can combine casing or casing glass as you like."
-				"Center blocks of the chamber has to be empty. This is the space for plasma."
+				"{ftbquests.chapter.nuclear_energy.quest77CF3DCEA4A31EFD.description1}"
+				"{ftbquests.chapter.nuclear_energy.quest77CF3DCEA4A31EFD.description2}"
+				"{ftbquests.chapter.nuclear_energy.quest77CF3DCEA4A31EFD.description3}"
+				"{ftbquests.chapter.nuclear_energy.quest77CF3DCEA4A31EFD.description4}"
+				"{ftbquests.chapter.nuclear_energy.quest77CF3DCEA4A31EFD.description5}"
+				"{ftbquests.chapter.nuclear_energy.quest77CF3DCEA4A31EFD.description6}"
+				"{ftbquests.chapter.nuclear_energy.quest77CF3DCEA4A31EFD.description7}"
+				"{ftbquests.chapter.nuclear_energy.quest77CF3DCEA4A31EFD.description8}"
 			]
 			id: "77CF3DCEA4A31EFD"
 			rewards: [{
@@ -411,7 +411,7 @@
 				item: "kubejs:apotheotic_coin"
 				type: "item"
 			}]
-			subtitle: "The ring"
+			subtitle: "{ftbquests.chapter.nuclear_energy.quest77CF3DCEA4A31EFD.subtitle}"
 			tasks: [{
 				count: 64L
 				id: "11645C64AB595E4E"
@@ -424,7 +424,7 @@
 				}
 				type: "item"
 			}]
-			title: "Fusion Reactor Chamber"
+			title: "{ftbquests.chapter.nuclear_energy.quest77CF3DCEA4A31EFD.title}"
 			x: -7.0d
 			y: 4.5d
 		}
@@ -433,7 +433,7 @@
 				"31DAC3957CC14D84"
 				"3C2C6CF2C5D901D1"
 			]
-			description: ["{image:kubejs:block/screen/nc_fusion_reactor width:100 height:80 align:center fit:true}"]
+			description: ["{ftbquests.chapter.nuclear_energy.quest285863F49493AF62.image0}"]
 			id: "285863F49493AF62"
 			rewards: [{
 				id: "74385523AD5B5609"
@@ -441,21 +441,21 @@
 				type: "item"
 			}]
 			shape: "square"
-			subtitle: "Brain of the Fusion Reactor"
+			subtitle: "{ftbquests.chapter.nuclear_energy.quest285863F49493AF62.subtitle}"
 			tasks: [{
 				id: "4F649B50ADE5DCCC"
 				item: "nuclearcraft:fusion_core"
 				type: "item"
 			}]
-			title: "Fusion Core"
+			title: "{ftbquests.chapter.nuclear_energy.quest285863F49493AF62.title}"
 			x: -10.0d
 			y: 4.5d
 		}
 		{
 			dependencies: ["285863F49493AF62"]
 			description: [
-				"These blocks are connecting Fusion Core with reactor chamber ring around the Core."
-				"Place 4 connector lines for each horizontal direction, starting from the middle of the Fusion Core. Bigger reactor rings are more efficient."
+				"{ftbquests.chapter.nuclear_energy.quest15E2E9D8B678087.description1}"
+				"{ftbquests.chapter.nuclear_energy.quest15E2E9D8B678087.description2}"
 			]
 			id: "015E2E9D8B678087"
 			rewards: [{
@@ -463,22 +463,22 @@
 				item: "kubejs:apotheotic_coin"
 				type: "item"
 			}]
-			subtitle: "Connecting brain with the chamber"
+			subtitle: "{ftbquests.chapter.nuclear_energy.quest15E2E9D8B678087.subtitle}"
 			tasks: [{
 				count: 8L
 				id: "28FE0374088418BF"
 				item: "nuclearcraft:fusion_reactor_connector"
 				type: "item"
 			}]
-			title: "Fusion Reactor Connector"
+			title: "{ftbquests.chapter.nuclear_energy.quest15E2E9D8B678087.title}"
 			x: -8.5d
 			y: 4.5d
 		}
 		{
 			dependencies: ["2F002C9A0092C10C"]
 			description: [
-				"Strong electromagnetic field keeps plasma inside the chamber."
-				"Placement rule is the same as for RF Amplifier: it has to touch at least 2 Fusion Casing/Glass blocks."
+				"{ftbquests.chapter.nuclear_energy.quest77C9259E0B0FE5BB.description1}"
+				"{ftbquests.chapter.nuclear_energy.quest77C9259E0B0FE5BB.description2}"
 			]
 			id: "77C9259E0B0FE5BB"
 			rewards: [{
@@ -486,7 +486,7 @@
 				item: "kubejs:apotheotic_coin"
 				type: "item"
 			}]
-			subtitle: "Keeping the plasma"
+			subtitle: "{ftbquests.chapter.nuclear_energy.quest77C9259E0B0FE5BB.subtitle}"
 			tasks: [{
 				count: 64L
 				id: "5ABBF4E0CD24B02D"
@@ -499,17 +499,17 @@
 				}
 				type: "item"
 			}]
-			title: "Electromagnets"
+			title: "{ftbquests.chapter.nuclear_energy.quest77C9259E0B0FE5BB.title}"
 			x: -4.0d
 			y: 4.5d
 		}
 		{
 			dependencies: ["77CF3DCEA4A31EFD"]
 			description: [
-				"RF Amplifiers are increasing plasma energy with RF Microwaves. Otherwords they just heating the plasma."
-				"Different types of plasma has different reaction temperatures. You can start with copper ones."
-				"Amplifiers must be placed around the ring. As many as you need, anywhere you like."
-				"The main rule - amplifier has to touch 2 blocks of Fusion Casing/Glass"
+				"{ftbquests.chapter.nuclear_energy.quest2F002C9A0092C10C.description1}"
+				"{ftbquests.chapter.nuclear_energy.quest2F002C9A0092C10C.description2}"
+				"{ftbquests.chapter.nuclear_energy.quest2F002C9A0092C10C.description3}"
+				"{ftbquests.chapter.nuclear_energy.quest2F002C9A0092C10C.description4}"
 			]
 			id: "2F002C9A0092C10C"
 			rewards: [{
@@ -517,7 +517,7 @@
 				item: "kubejs:apotheotic_coin"
 				type: "item"
 			}]
-			subtitle: "Heating up the plasma"
+			subtitle: "{ftbquests.chapter.nuclear_energy.quest2F002C9A0092C10C.subtitle}"
 			tasks: [{
 				id: "51B269FBE6FACD45"
 				item: {
@@ -529,18 +529,18 @@
 				}
 				type: "item"
 			}]
-			title: "Radio Frequency Amplifiers"
+			title: "{ftbquests.chapter.nuclear_energy.quest2F002C9A0092C10C.title}"
 			x: -5.5d
 			y: 4.5d
 		}
 		{
 			dependencies: ["42BEC6A82910E9A7"]
 			description: [
-				"This block is the part of reactor walls. So it can be placed anywhere: in the corner or in the wall."
-				"Irradiator uses irradiation lines of your reactor to irradiate items and liquids."
-				"More irradiation lines - faster the progress."
-				"It also depends on fuel radioactivity."
-				"And only works if reactor is running."
+				"{ftbquests.chapter.nuclear_energy.quest31C6C9EB8AD4F3BE.description1}"
+				"{ftbquests.chapter.nuclear_energy.quest31C6C9EB8AD4F3BE.description2}"
+				"{ftbquests.chapter.nuclear_energy.quest31C6C9EB8AD4F3BE.description3}"
+				"{ftbquests.chapter.nuclear_energy.quest31C6C9EB8AD4F3BE.description4}"
+				"{ftbquests.chapter.nuclear_energy.quest31C6C9EB8AD4F3BE.description5}"
 			]
 			id: "31C6C9EB8AD4F3BE"
 			rewards: [{
@@ -548,7 +548,7 @@
 				item: "kubejs:apotheotic_coin"
 				type: "item"
 			}]
-			subtitle: "Crafting with Nuclear Radiation"
+			subtitle: "{ftbquests.chapter.nuclear_energy.quest31C6C9EB8AD4F3BE.subtitle}"
 			tasks: [{
 				id: "174ECFCD6BDC386F"
 				item: "nuclearcraft:irradiator"
@@ -560,16 +560,16 @@
 		{
 			dependencies: ["7DEDA65F61652C9B"]
 			description: [
-				"We need to concentrate all light beams into one spot in the center of chamber structure."
-				"Place EXPLs around structure faces pointing into center."
-				"Charge them and activate."
+				"{ftbquests.chapter.nuclear_energy.quest42E07CC516A52519.description1}"
+				"{ftbquests.chapter.nuclear_energy.quest42E07CC516A52519.description2}"
+				"{ftbquests.chapter.nuclear_energy.quest42E07CC516A52519.description3}"
 				""
 				"{@pagebreak}"
-				"{image:kubejs:block/screen/nuclearcraft_kugelblitz_chamber width:100 height:80 align:center fit:true}"
+				"{ftbquests.chapter.nuclear_energy.quest42E07CC516A52519.image0}"
 				"{@pagebreak}"
-				"{image:kubejs:block/screen/nuclearcraft_blackhole2 width:100 height:60 align:center fit:true}"
+				"{ftbquests.chapter.nuclear_energy.quest42E07CC516A52519.image2}"
 				"{@pagebreak}"
-				"{image:kubejs:block/screen/nuclearcraft_black_hole width:100 height:60 align:center fit:true}"
+				"{ftbquests.chapter.nuclear_energy.quest42E07CC516A52519.image4}"
 			]
 			id: "42E07CC516A52519"
 			rewards: [
@@ -591,16 +591,16 @@
 				item: "nuclearcraft:expl"
 				type: "item"
 			}]
-			title: "Producing a blackhole"
+			title: "{ftbquests.chapter.nuclear_energy.quest42E07CC516A52519.title}"
 			x: 0.5d
 			y: -6.0d
 		}
 		{
 			dependencies: ["25EC23AB0C991018"]
 			description: [
-				"This structure has fixed shape. Checkout JEI/REI or patchouli guide for shape."
-				"But outerrior blocks combinations may vary. Depending on what you need more: quantum transformation, FE generation..."
-				"The main rule, chamber faces must be symmetric."
+				"{ftbquests.chapter.nuclear_energy.quest6B7D49391464B4AB.description1}"
+				"{ftbquests.chapter.nuclear_energy.quest6B7D49391464B4AB.description2}"
+				"{ftbquests.chapter.nuclear_energy.quest6B7D49391464B4AB.description3}"
 			]
 			id: "6B7D49391464B4AB"
 			rewards: [{
@@ -609,7 +609,7 @@
 				type: "item"
 			}]
 			shape: "square"
-			subtitle: "Almost sphere"
+			subtitle: "{ftbquests.chapter.nuclear_energy.quest6B7D49391464B4AB.subtitle}"
 			tasks: [
 				{
 					id: "2FAA08E04CE82A15"
@@ -634,14 +634,14 @@
 		}
 		{
 			dependencies: ["6B7D49391464B4AB"]
-			description: ["These blocks affects the speed of quantum transformation recipes."]
+			description: ["{ftbquests.chapter.nuclear_energy.quest1FA85991DDFCC1BE.description1}"]
 			id: "1FA85991DDFCC1BE"
 			rewards: [{
 				id: "3B2D97D99733088E"
 				item: "kubejs:apotheotic_coin"
 				type: "item"
 			}]
-			subtitle: "For quantum crafting"
+			subtitle: "{ftbquests.chapter.nuclear_energy.quest1FA85991DDFCC1BE.subtitle}"
 			tasks: [{
 				count: 48L
 				id: "25FC4F3E61946176"
@@ -654,8 +654,8 @@
 		{
 			dependencies: ["1FA85991DDFCC1BE"]
 			description: [
-				"Blackhole can be unstable, what a surprize."
-				"This block helps to maintain stability."
+				"{ftbquests.chapter.nuclear_energy.quest487B2E28017843E5.description1}"
+				"{ftbquests.chapter.nuclear_energy.quest487B2E28017843E5.description2}"
 			]
 			id: "487B2E28017843E5"
 			rewards: [{
@@ -663,7 +663,7 @@
 				item: "kubejs:apotheotic_coin"
 				type: "item"
 			}]
-			subtitle: "Stabilizing the blackhole"
+			subtitle: "{ftbquests.chapter.nuclear_energy.quest487B2E28017843E5.subtitle}"
 			tasks: [{
 				count: 72L
 				id: "4C30E4F2EE30F2FE"
@@ -681,7 +681,7 @@
 				item: "kubejs:apotheotic_coin"
 				type: "item"
 			}]
-			subtitle: "FE generation rates"
+			subtitle: "{ftbquests.chapter.nuclear_energy.quest4B5458B5D29B8CA1.subtitle}"
 			tasks: [{
 				count: 26L
 				id: "715A933D599EF3AF"
@@ -694,8 +694,8 @@
 		{
 			dependencies: ["4B5458B5D29B8CA1"]
 			description: [
-				"6 blocks, 6 structure faces."
-				"Position of Photon Concentrator is strictly in the center of the wall."
+				"{ftbquests.chapter.nuclear_energy.quest7DEDA65F61652C9B.description1}"
+				"{ftbquests.chapter.nuclear_energy.quest7DEDA65F61652C9B.description2}"
 			]
 			id: "7DEDA65F61652C9B"
 			rewards: [{
@@ -703,7 +703,7 @@
 				item: "kubejs:apotheotic_coin"
 				type: "item"
 			}]
-			subtitle: "In gate for the light"
+			subtitle: "{ftbquests.chapter.nuclear_energy.quest7DEDA65F61652C9B.subtitle}"
 			tasks: [{
 				count: 6L
 				id: "352FB5293626946C"
@@ -734,7 +734,7 @@
 					type: "fluid"
 				}
 			]
-			title: "Deuterium"
+			title: "{ftbquests.chapter.nuclear_energy.quest6286A200E1CDB1EE.title}"
 			x: -13.0d
 			y: 5.0d
 		}
@@ -759,13 +759,13 @@
 					type: "fluid"
 				}
 			]
-			title: "Tritium"
+			title: "{ftbquests.chapter.nuclear_energy.quest5B7AFD8961BFC00F.title}"
 			x: -13.0d
 			y: 4.0d
 		}
 		{
 			dependencies: ["5E016F2B357B859F"]
-			description: ["Fusion Reactor is a very hot structure, you need to constantly cool it down, otherwise it will meltdown."]
+			description: ["{ftbquests.chapter.nuclear_energy.quest31DAC3957CC14D84.description1}"]
 			id: "31DAC3957CC14D84"
 			rewards: [{
 				id: "1EE03D702AA0925B"
@@ -792,7 +792,7 @@
 					type: "fluid"
 				}
 			]
-			title: "Fusion Reactor Coolant"
+			title: "{ftbquests.chapter.nuclear_energy.quest31DAC3957CC14D84.title}"
 			x: -10.0d
 			y: 3.0d
 		}
@@ -807,7 +807,7 @@
 				item: "kubejs:apotheotic_coin"
 				type: "item"
 			}]
-			subtitle: "Base component of Kugelblitz chamber"
+			subtitle: "{ftbquests.chapter.nuclear_energy.quest25EC23AB0C991018.subtitle}"
 			tasks: [{
 				count: 64L
 				id: "002442110A337938"
@@ -820,22 +820,22 @@
 				}
 				type: "item"
 			}]
-			title: "Neutronium"
+			title: "{ftbquests.chapter.nuclear_energy.quest25EC23AB0C991018.title}"
 			x: -8.5d
 			y: -6.0d
 		}
 		{
 			dependencies: ["77C9259E0B0FE5BB"]
 			description: [
-				"Reactor GUI has sort of checklist, but let's repeat:"
+				"{ftbquests.chapter.nuclear_energy.quest187684A795EFACD.description1}"
 				""
-				"1. Make sure you have constant supply of fuel and coolant (pipes are connecting on the top/bottom of Fusion Core)"
+				"{ftbquests.chapter.nuclear_energy.quest187684A795EFACD.description2}"
 				""
-				"2. Do not forget to charge the reactor, as it needs energy for electromagnets and amplifiers"
+				"{ftbquests.chapter.nuclear_energy.quest187684A795EFACD.description3}"
 				""
-				"3. Redstone signal to start. Consider the amplification rate depends on redstone signal strength."
+				"{ftbquests.chapter.nuclear_energy.quest187684A795EFACD.description4}"
 				""
-				"4. Amplification slider, you can adjust amplification rate in reactor GUI, but max rate is capped by redstone signal."
+				"{ftbquests.chapter.nuclear_energy.quest187684A795EFACD.description5}"
 			]
 			id: "0187684A795EFACD"
 			rewards: [{
@@ -843,30 +843,30 @@
 				item: "kubejs:apotheotic_coin"
 				type: "item"
 			}]
-			subtitle: "Fusion Checklist"
+			subtitle: "{ftbquests.chapter.nuclear_energy.quest187684A795EFACD.subtitle}"
 			tasks: [
 				{
 					id: "039915D140DA7F85"
-					title: "Fuel and coolant supply"
+					title: "{ftbquests.chapter.nuclear_energy.quest187684A795EFACD.task.259262442030923653.title}"
 					type: "checkmark"
 				}
 				{
 					id: "031804C8DF48AD16"
-					title: "Initial startup energy"
+					title: "{ftbquests.chapter.nuclear_energy.quest187684A795EFACD.task.222933442340891926.title}"
 					type: "checkmark"
 				}
 				{
 					id: "163073AE066C6C97"
-					title: "Redstone signal"
+					title: "{ftbquests.chapter.nuclear_energy.quest187684A795EFACD.task.1598905058985798807.title}"
 					type: "checkmark"
 				}
 				{
 					id: "22EDAECA5C842888"
-					title: "Amplification slider"
+					title: "{ftbquests.chapter.nuclear_energy.quest187684A795EFACD.task.2516859950928767112.title}"
 					type: "checkmark"
 				}
 			]
-			title: "Getting ready"
+			title: "{ftbquests.chapter.nuclear_energy.quest187684A795EFACD.title}"
 			x: -2.5d
 			y: 4.5d
 		}
@@ -876,9 +876,9 @@
 				"5B7AFD8961BFC00F"
 			]
 			description: [
-				"There are different pairs of fusion fuel available."
-				"The most important is what temperature is required for fusion reaction."
-				"Deuterium+Tritium is the easiest way to start your fusion as it does not require large Hi-End fusion reactor."
+				"{ftbquests.chapter.nuclear_energy.quest3C2C6CF2C5D901D1.description1}"
+				"{ftbquests.chapter.nuclear_energy.quest3C2C6CF2C5D901D1.description2}"
+				"{ftbquests.chapter.nuclear_energy.quest3C2C6CF2C5D901D1.description3}"
 			]
 			id: "3C2C6CF2C5D901D1"
 			rewards: [{
@@ -888,23 +888,23 @@
 			}]
 			tasks: [{
 				id: "6C16410649A4DA26"
-				title: "Ok. I understand"
+				title: "{ftbquests.chapter.nuclear_energy.quest3C2C6CF2C5D901D1.task.7788484100845001254.title}"
 				type: "checkmark"
 			}]
-			title: "Fusion Fuel"
+			title: "{ftbquests.chapter.nuclear_energy.quest3C2C6CF2C5D901D1.title}"
 			x: -11.5d
 			y: 4.5d
 		}
 		{
 			dependencies: ["547037A1C1BBB81F"]
-			description: ["Moderators attached to fission fuel cells increases energy generation by almost 17%, but also increases heat generation by 33% for each attachment."]
+			description: ["{ftbquests.chapter.nuclear_energy.quest31F5766E63603754.description1}"]
 			id: "31F5766E63603754"
 			rewards: [{
 				id: "2C9237A13FC7C508"
 				item: "kubejs:apotheotic_coin"
 				type: "item"
 			}]
-			subtitle: "Rising efficiency"
+			subtitle: "{ftbquests.chapter.nuclear_energy.quest31F5766E63603754.subtitle}"
 			tasks: [{
 				id: "2EE9E13000F05353"
 				item: {
@@ -916,7 +916,7 @@
 				}
 				type: "item"
 			}]
-			title: "Moderators"
+			title: "{ftbquests.chapter.nuclear_energy.quest31F5766E63603754.title}"
 			x: -10.0d
 			y: -2.5d
 		}
@@ -939,13 +939,13 @@
 		}
 		{
 			description: [
-				"As we know: mass is energy and energy is mass, we can concentrate insane amount of light in one spot to create a Kugelblitz - Blackhole made out of light."
+				"{ftbquests.chapter.nuclear_energy.questA74B8AAA5A76C67.description1}"
 				""
-				"What's the application?"
+				"{ftbquests.chapter.nuclear_energy.questA74B8AAA5A76C67.description2}"
 				""
-				"1. Converting Hawking radiation into energy"
+				"{ftbquests.chapter.nuclear_energy.questA74B8AAA5A76C67.description3}"
 				""
-				"2. Quantum transformation of items with blackhole quantum fields "
+				"{ftbquests.chapter.nuclear_energy.questA74B8AAA5A76C67.description4}"
 			]
 			id: "0A74B8AAA5A76C67"
 			rewards: [{
@@ -954,26 +954,26 @@
 				type: "item"
 			}]
 			shape: "gear"
-			subtitle: "Blackhole made out of light"
+			subtitle: "{ftbquests.chapter.nuclear_energy.questA74B8AAA5A76C67.subtitle}"
 			tasks: [{
 				id: "1151D40DE60B1ED5"
-				title: "How interesting"
+				title: "{ftbquests.chapter.nuclear_energy.questA74B8AAA5A76C67.task.1248011727917489877.title}"
 				type: "checkmark"
 			}]
-			title: "Kugelblitz"
+			title: "{ftbquests.chapter.nuclear_energy.questA74B8AAA5A76C67.title}"
 			x: -9.5d
 			y: -6.0d
 		}
 		{
 			dependencies: ["28BB27A54B194C8B"]
-			description: ["This is really great fuel for fusion and fission reactors"]
+			description: ["{ftbquests.chapter.nuclear_energy.quest3D3D5F0FC190FA04.description1}"]
 			id: "3D3D5F0FC190FA04"
 			rewards: [{
 				id: "7BBBD3E04608B236"
 				item: "kubejs:infused_coin"
 				type: "item"
 			}]
-			subtitle: "Very effective fuel"
+			subtitle: "{ftbquests.chapter.nuclear_energy.quest3D3D5F0FC190FA04.subtitle}"
 			tasks: [
 				{
 					id: "165AE5120612A35D"
@@ -986,24 +986,24 @@
 					type: "item"
 				}
 			]
-			title: "Extreme isotopes"
+			title: "{ftbquests.chapter.nuclear_energy.quest3D3D5F0FC190FA04.title}"
 			x: -5.5d
 			y: -8.0d
 		}
 		{
 			dependencies: ["1FA85991DDFCC1BE"]
 			description: [
-				"Blackhole quantum fields allows you to use chamber for quantum transformations of one item into another."
-				"But there's a trick, recipes are not determined. And bond to world seed."
-				"Meaning every new game or server, you have to research."
+				"{ftbquests.chapter.nuclear_energy.quest28BB27A54B194C8B.description1}"
+				"{ftbquests.chapter.nuclear_energy.quest28BB27A54B194C8B.description2}"
+				"{ftbquests.chapter.nuclear_energy.quest28BB27A54B194C8B.description3}"
 				""
-				"Algorithm is simple:"
+				"{ftbquests.chapter.nuclear_energy.quest28BB27A54B194C8B.description4}"
 				""
-				"1. Put an item into slot, and scroll the frequency slider to find when transformation starts."
+				"{ftbquests.chapter.nuclear_energy.quest28BB27A54B194C8B.description5}"
 				""
-				"2. Transformation speed depends on the ratio slider (FE gen / Transformation) above."
+				"{ftbquests.chapter.nuclear_energy.quest28BB27A54B194C8B.description6}"
 				""
-				"3. The frequency can be defined with redstone signal sent into the port. Signal strength is the frequency."
+				"{ftbquests.chapter.nuclear_energy.quest28BB27A54B194C8B.description7}"
 			]
 			id: "28BB27A54B194C8B"
 			rewards: [{
@@ -1013,10 +1013,10 @@
 			}]
 			tasks: [{
 				id: "39E570C65BEFC539"
-				title: "Understood"
+				title: "{ftbquests.chapter.nuclear_energy.quest28BB27A54B194C8B.task.4171864627076908345.title}"
 				type: "checkmark"
 			}]
-			title: "Quantum Transformations"
+			title: "{ftbquests.chapter.nuclear_energy.quest28BB27A54B194C8B.title}"
 			x: -5.5d
 			y: -7.0d
 		}
@@ -1055,7 +1055,7 @@
 					type: "item"
 				}
 			]
-			title: "Uranium and Thorium"
+			title: "{ftbquests.chapter.nuclear_energy.quest32759CFEBBA542EA.title}"
 			x: -14.5d
 			y: -1.0d
 		}
@@ -1142,7 +1142,7 @@
 				item: "kubejs:apotheotic_coin"
 				type: "item"
 			}]
-			subtitle: "Feeding the Blackhole"
+			subtitle: "{ftbquests.chapter.nuclear_energy.quest620676DE8D9C27B7.subtitle}"
 			tasks: [{
 				amount: 1000L
 				fluid: "nuclearcraft:subliquid_matter"
@@ -1292,8 +1292,8 @@
 		{
 			dependencies: ["1CC02FC59DDC8045"]
 			description: [
-				"With Accelerators combined with Target Chambers you can produce new stuff by smashing particles into items/liquids."
-				"{image:kubejs:block/screen/accelerator_chamber width:100 height:50 align:center fit:true}"
+				"{ftbquests.chapter.nuclear_energy.quest5AA72D06752A6DFE.description1}"
+				"{ftbquests.chapter.nuclear_energy.quest5AA72D06752A6DFE.image0}"
 			]
 			id: "5AA72D06752A6DFE"
 			rewards: [{
@@ -1341,7 +1341,7 @@
 		}
 		{
 			dependencies: ["5AA72D06752A6DFE"]
-			description: ["Ion Source is the place where you insert particle source item or liquid."]
+			description: ["{ftbquests.chapter.nuclear_energy.quest411669CC4DF809D5.description1}"]
 			id: "411669CC4DF809D5"
 			rewards: [{
 				id: "510FFEF88845442A"
@@ -1359,9 +1359,9 @@
 		{
 			dependencies: ["411669CC4DF809D5"]
 			description: [
-				"Make a beam lines in the center of Accelerator and Target Chamber."
-				"It also used to connect accelerator with Target Chamber."
-				"Each beam block focus loss = 0.02"
+				"{ftbquests.chapter.nuclear_energy.quest1368D3A68133F64D.description1}"
+				"{ftbquests.chapter.nuclear_energy.quest1368D3A68133F64D.description2}"
+				"{ftbquests.chapter.nuclear_energy.quest1368D3A68133F64D.description3}"
 			]
 			id: "1368D3A68133F64D"
 			rewards: [{
@@ -1381,8 +1381,8 @@
 		{
 			dependencies: ["1368D3A68133F64D"]
 			description: [
-				"Beam Port used to transfer particle outside or inside accelerator."
-				"Use Multitool to configure Beam Port modes."
+				"{ftbquests.chapter.nuclear_energy.quest3449640180DA7A00.description1}"
+				"{ftbquests.chapter.nuclear_energy.quest3449640180DA7A00.description2}"
 			]
 			id: "3449640180DA7A00"
 			rewards: [{
@@ -1414,8 +1414,8 @@
 		{
 			dependencies: ["3449640180DA7A00"]
 			description: [
-				"Amplifiers need to be placed around beam block, forming \"O\" shape out of 8 blocks."
-				"Pay attention to Voltage. 200keV means 1 ring of amplifiers will give 200keV, not each amplifier block"
+				"{ftbquests.chapter.nuclear_energy.quest28FE6F1865D3CA24.description1}"
+				"{ftbquests.chapter.nuclear_energy.quest28FE6F1865D3CA24.description2}"
 			]
 			id: "28FE6F1865D3CA24"
 			rewards: [{
@@ -1423,7 +1423,7 @@
 				item: "kubejs:apotheotic_coin"
 				type: "item"
 			}]
-			subtitle: "Increasing particle energy"
+			subtitle: "{ftbquests.chapter.nuclear_energy.quest28FE6F1865D3CA24.subtitle}"
 			tasks: [{
 				count: 8L
 				id: "481096CE9E7F1C23"
@@ -1436,20 +1436,20 @@
 				}
 				type: "item"
 			}]
-			title: "Amplifiers"
+			title: "{ftbquests.chapter.nuclear_energy.quest28FE6F1865D3CA24.title}"
 			x: 0.5d
 			y: -4.0d
 		}
 		{
 			dependencies: ["28FE6F1865D3CA24"]
-			description: ["To keep particles beam tight, you need to place electromagnes around beam block. Forming \"O\" shape made out of 4 blocks."]
+			description: ["{ftbquests.chapter.nuclear_energy.quest3C19702E2101B710.description1}"]
 			id: "3C19702E2101B710"
 			rewards: [{
 				id: "67923F9E736F53CE"
 				item: "kubejs:apotheotic_coin"
 				type: "item"
 			}]
-			subtitle: "Electromagnetic field"
+			subtitle: "{ftbquests.chapter.nuclear_energy.quest3C19702E2101B710.subtitle}"
 			tasks: [{
 				count: 4L
 				id: "51951997597EBFB7"
@@ -1462,7 +1462,7 @@
 				}
 				type: "item"
 			}]
-			title: "Beam Focus"
+			title: "{ftbquests.chapter.nuclear_energy.quest3C19702E2101B710.title}"
 			x: 2.0d
 			y: -4.0d
 		}
@@ -1471,7 +1471,7 @@
 				"3C19702E2101B710"
 				"4A015506040E6C3D"
 			]
-			description: ["Like in fission reactor, accelerator need to be cooled. It has wide set of coolers with different placement requirements."]
+			description: ["{ftbquests.chapter.nuclear_energy.quest7139A8D15E99D767.description1}"]
 			id: "7139A8D15E99D767"
 			rewards: [{
 				id: "1242D83F21A3260A"
@@ -1598,16 +1598,16 @@
 				}
 				type: "item"
 			}]
-			title: "Accelerator cooling"
+			title: "{ftbquests.chapter.nuclear_energy.quest7139A8D15E99D767.title}"
 			x: 2.0d
 			y: -2.5d
 		}
 		{
-			description: ["In order to cooldown you need constant supply of coolant liquid"]
+			description: ["{ftbquests.chapter.nuclear_energy.quest4A015506040E6C3D.description1}"]
 			id: "4A015506040E6C3D"
 			tasks: [{
 				id: "1E8FBCE1B068A864"
-				title: "Liquid coolant"
+				title: "{ftbquests.chapter.nuclear_energy.quest4A015506040E6C3D.task.2202186420320774244.title}"
 				type: "checkmark"
 			}]
 			x: 2.0d
@@ -1615,7 +1615,7 @@
 		}
 		{
 			dependencies: ["7139A8D15E99D767"]
-			description: ["Diborane is the first particle source you will need. Pump it into accelerator with Ion Source Port or Accelerator Port"]
+			description: ["{ftbquests.chapter.nuclear_energy.quest536FDAC7EF3BE8E8.description1}"]
 			id: "536FDAC7EF3BE8E8"
 			rewards: [{
 				id: "370A0DF9FDB701A4"
@@ -1628,13 +1628,13 @@
 				id: "677934E58EAEE58C"
 				type: "fluid"
 			}]
-			title: "Particle source"
+			title: "{ftbquests.chapter.nuclear_energy.quest536FDAC7EF3BE8E8.title}"
 			x: 3.5d
 			y: -2.5d
 		}
 		{
 			dependencies: ["536FDAC7EF3BE8E8"]
-			description: ["Target Chamber is the place where high energy particles smashes into stuff to produce new stuff."]
+			description: ["{ftbquests.chapter.nuclear_energy.quest3CCB79E81DC98BD0.description1}"]
 			id: "3CCB79E81DC98BD0"
 			rewards: [{
 				id: "0759B46AC29429D5"
@@ -1661,9 +1661,9 @@
 		{
 			dependencies: ["3CCB79E81DC98BD0"]
 			description: [
-				"You need 4 beam ports for each wall."
-				"Some should be used as particles input, others as particles outputs."
-				"Multitool for configuration."
+				"{ftbquests.chapter.nuclear_energy.quest52AB2E6CC4C6A93.description1}"
+				"{ftbquests.chapter.nuclear_energy.quest52AB2E6CC4C6A93.description2}"
+				"{ftbquests.chapter.nuclear_energy.quest52AB2E6CC4C6A93.description3}"
 			]
 			id: "052AB2E6CC4C6A93"
 			rewards: [{
@@ -1677,20 +1677,20 @@
 				item: { Count: 4, id: "nuclearcraft:target_chamber_beam_port" }
 				type: "item"
 			}]
-			title: "In/Out particles"
+			title: "{ftbquests.chapter.nuclear_energy.quest52AB2E6CC4C6A93.title}"
 			x: 5.0d
 			y: -4.0d
 		}
 		{
 			dependencies: ["052AB2E6CC4C6A93"]
-			description: ["Need to be placed in the center of target chamber, and connected to all 4 beam ports with beam blocks"]
+			description: ["{ftbquests.chapter.nuclear_energy.quest7B1B6754652C8299.description1}"]
 			id: "7B1B6754652C8299"
 			rewards: [{
 				id: "6C6DAB38681E3D97"
 				item: "kubejs:apotheotic_coin"
 				type: "item"
 			}]
-			subtitle: "Heart of Target Chamber"
+			subtitle: "{ftbquests.chapter.nuclear_energy.quest7B1B6754652C8299.subtitle}"
 			tasks: [{
 				id: "70FA393D820854C4"
 				item: "nuclearcraft:target_chamber_camera"
@@ -1702,8 +1702,8 @@
 		{
 			dependencies: ["7B1B6754652C8299"]
 			description: [
-				"Detectors affects recipe progression speed. "
-				"And they have very simple placement rules."
+				"{ftbquests.chapter.nuclear_energy.quest7E3209CB27E9AAB0.description1}"
+				"{ftbquests.chapter.nuclear_energy.quest7E3209CB27E9AAB0.description2}"
 			]
 			id: "7E3209CB27E9AAB0"
 			rewards: [{
@@ -1743,24 +1743,24 @@
 				}
 				type: "item"
 			}]
-			title: "Detectors"
+			title: "{ftbquests.chapter.nuclear_energy.quest7E3209CB27E9AAB0.title}"
 			x: 6.5d
 			y: -2.5d
 		}
 		{
 			dependencies: ["7E3209CB27E9AAB0"]
 			description: [
-				"Quick checklist:"
-				"1. Energy for Accelerator and Target chamber"
-				"2. Coolant for Accelerator"
-				"3. Ion Source "
-				"4. Beam ports in correct modes"
-				"5. Redstone to activate accelerator controller and target chamber controller"
+				"{ftbquests.chapter.nuclear_energy.quest6F1FC9E4A28480C6.description1}"
+				"{ftbquests.chapter.nuclear_energy.quest6F1FC9E4A28480C6.description2}"
+				"{ftbquests.chapter.nuclear_energy.quest6F1FC9E4A28480C6.description3}"
+				"{ftbquests.chapter.nuclear_energy.quest6F1FC9E4A28480C6.description4}"
+				"{ftbquests.chapter.nuclear_energy.quest6F1FC9E4A28480C6.description5}"
+				"{ftbquests.chapter.nuclear_energy.quest6F1FC9E4A28480C6.description6}"
 			]
 			id: "6F1FC9E4A28480C6"
 			tasks: [{
 				id: "2644F99795B4E082"
-				title: "Ready to go"
+				title: "{ftbquests.chapter.nuclear_energy.quest6F1FC9E4A28480C6.task.2757603301304623234.title}"
 				type: "checkmark"
 			}]
 			x: 6.5d
@@ -1768,7 +1768,7 @@
 		}
 		{
 			dependencies: ["6F1FC9E4A28480C6"]
-			description: ["In order to get this Boron ION must have exactly 600keV and minimal focus of 2."]
+			description: ["{ftbquests.chapter.nuclear_energy.quest28F7D3471591659B.description1}"]
 			id: "28F7D3471591659B"
 			rewards: [{
 				id: "0B4DCCB496407076"
@@ -1784,5 +1784,5 @@
 			y: -4.0d
 		}
 	]
-	title: "Nuclear Energy"
+	title: "{ftbquests.chapter.nuclear_energy.title}"
 }

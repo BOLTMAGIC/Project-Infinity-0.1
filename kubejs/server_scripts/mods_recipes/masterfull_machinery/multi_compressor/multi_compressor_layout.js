@@ -5,6 +5,7 @@ MMEvents.createStructures((event) => {
     .controllerId('mm:multi_compressor_controller')
     .name('Multi Compressor')
     .layout((a) => {
+      a.portsAnywhere(true);
       a.layer([
         '        ',
         '        ',

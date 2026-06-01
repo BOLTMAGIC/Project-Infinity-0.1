@@ -12,6 +12,6 @@
 		{ item: "powah:energy_cable_hardened", random_bonus: 2, weight: 5.0f }
 		{ item: "powah:energy_cable_blazing", random_bonus: 2 }
 	]
-	title: "Energizing Orb Loot"
+	title: "{ftbquests.loot_table.299590067093682297.title}"
 	use_title: true
 }

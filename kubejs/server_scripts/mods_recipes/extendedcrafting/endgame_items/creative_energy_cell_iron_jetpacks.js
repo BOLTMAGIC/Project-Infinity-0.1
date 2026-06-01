@@ -26,7 +26,7 @@ ServerEvents.recipes((event) => {
           item: 'avaritia:crystal_matrix_ingot',
         },
         E: {
-          type: 'forge:nbt',
+          type: 'forge:partial_nbt',
           item: 'ironjetpacks:cell',
           count: 1,
           nbt: '{Id:\"ironjetpacks:platinum\"}',
@@ -44,7 +44,7 @@ ServerEvents.recipes((event) => {
           item: 'botanicalextramachinery:malachite_ingot_block',
         },
         J: {
-          type: 'forge:nbt',
+          type: 'forge:partial_nbt',
           item: 'ironjetpacks:cell',
           count: 1,
           nbt: '{Id:\"ironjetpacks:emerald\"}',

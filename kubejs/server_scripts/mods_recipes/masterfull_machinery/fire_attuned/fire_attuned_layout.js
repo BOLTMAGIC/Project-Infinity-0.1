@@ -5,6 +5,7 @@ MMEvents.createStructures((event) => {
     .controllerId('mm:fire_attuned_controller')
     .name('Fire Attuned Tier 1')
     .layout((a) => {
+      a.portsAnywhere(true);
       a.layer(['34', '2C'])
         .layer(['11', '56'])
         .key('1', {
@@ -37,6 +38,7 @@ MMEvents.createStructures((event) => {
     .controllerId('mm:fire_attuned_controller')
     .name('Fire Attuned Tier 2')
     .layout((a) => {
+      a.portsAnywhere(true);
       a.layer(['34', '2C'])
         .layer(['71', '56'])
         .key('1', {

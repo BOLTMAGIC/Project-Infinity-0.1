@@ -45,6 +45,6 @@
 		{ item: "thermal:signalum_ingot", random_bonus: 3, weight: 50.0f }
 		{ item: "thermal:constantan_ingot", random_bonus: 3, weight: 50.0f }
 	]
-	title: "&9Thermal Loot Bag"
+	title: "{ftbquests.loot_table.7377440633892994587.title}"
 	use_title: true
 }

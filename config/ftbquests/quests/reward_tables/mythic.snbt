@@ -24,6 +24,6 @@
 		{ item: "botania:dice", weight: 2.0f }
 		{ count: 36, item: "powah:reactor_nitro", weight: 5.0f }
 	]
-	title: "&5Mythic Reward"
+	title: "{ftbquests.loot_table.5196609362437981520.title}"
 	use_title: true
 }

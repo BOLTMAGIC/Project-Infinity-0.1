@@ -12,9 +12,9 @@
 		{
 			dependencies: ["37EC8847643485B3"]
 			description: [
-				"Made with iron and gold, Energized Steel is the first step to upgraded machines."
+				"{ftbquests.chapter.powah_2.quest7D63CEF4A5A2928D.description1}"
 				""
-				"A block of Energized Steel can also be made with a Gold Block and Iron Block."
+				"{ftbquests.chapter.powah_2.quest7D63CEF4A5A2928D.description2}"
 			]
 			id: "7D63CEF4A5A2928D"
 			rewards: [{
@@ -22,7 +22,7 @@
 				item: "kubejs:apotheotic_coin"
 				type: "item"
 			}]
-			subtitle: "Tier 2"
+			subtitle: "{ftbquests.chapter.powah_2.quest7D63CEF4A5A2928D.subtitle}"
 			tasks: [{
 				id: "173C29091DCEBF75"
 				item: "powah:steel_energized"
@@ -34,9 +34,9 @@
 		{
 			dependencies: ["7D63CEF4A5A2928D"]
 			description: [
-				"Blazing Crystals are the third stage, made with either 1 Blaze Rod or 4 Blaze Powder."
+				"{ftbquests.chapter.powah_2.quest425768712B4346A7.description1}"
 				""
-				"This also has a block craft with 4 Blaze Meshes. "
+				"{ftbquests.chapter.powah_2.quest425768712B4346A7.description2}"
 			]
 			hide_dependency_lines: false
 			id: "425768712B4346A7"
@@ -45,7 +45,7 @@
 				item: "kubejs:apotheotic_coin"
 				type: "item"
 			}]
-			subtitle: "Tier 3"
+			subtitle: "{ftbquests.chapter.powah_2.quest425768712B4346A7.subtitle}"
 			tasks: [{
 				id: "661C87C805E3966C"
 				item: "powah:crystal_blazing"
@@ -57,9 +57,9 @@
 		{
 			dependencies: ["425768712B4346A7"]
 			description: [
-				"Next up are Niotic Crystals, made with 1 Diamond."
+				"{ftbquests.chapter.powah_2.quest2CB4A101005B075E.description1}"
 				""
-				"This block craft costs 1 Block of Diamond."
+				"{ftbquests.chapter.powah_2.quest2CB4A101005B075E.description2}"
 			]
 			id: "2CB4A101005B075E"
 			rewards: [{
@@ -67,7 +67,7 @@
 				item: "kubejs:infused_coin"
 				type: "item"
 			}]
-			subtitle: "Tier 4"
+			subtitle: "{ftbquests.chapter.powah_2.quest2CB4A101005B075E.subtitle}"
 			tasks: [{
 				id: "0AC2A5272578EF08"
 				item: "powah:crystal_niotic"
@@ -79,9 +79,9 @@
 		{
 			dependencies: ["2CB4A101005B075E"]
 			description: [
-				"Your almost there! Spirited crystals are tier 4, made with 1 Emerald."
+				"{ftbquests.chapter.powah_2.quest3037A7B311DA0740.description1}"
 				""
-				"As you may have guessed, it can also be made in block form with one Emerald Block."
+				"{ftbquests.chapter.powah_2.quest3037A7B311DA0740.description2}"
 			]
 			id: "3037A7B311DA0740"
 			rewards: [{
@@ -89,7 +89,7 @@
 				item: "kubejs:infused_coin"
 				type: "item"
 			}]
-			subtitle: "Tier 5"
+			subtitle: "{ftbquests.chapter.powah_2.quest3037A7B311DA0740.subtitle}"
 			tasks: [{
 				id: "063980C5BD06E7A2"
 				item: "powah:crystal_spirited"
@@ -101,11 +101,11 @@
 		{
 			dependencies: ["3037A7B311DA0740"]
 			description: [
-				"The final and best tier of material, Nitro Crystals are also the hardest to make."
+				"{ftbquests.chapter.powah_2.quest576ACB07185AA060.description1}"
 				""
-				"To make them you need a block of blazing cystal, 2 redstone blocks, and a nether star."
+				"{ftbquests.chapter.powah_2.quest576ACB07185AA060.description2}"
 				""
-				"The craft makes 16 but there is also a block recipe that takes a nether star block, 1 1x compressed block of redstone, and 4 blocks of blazing crystal to makes 8 Blocks of Nitro Crystal."
+				"{ftbquests.chapter.powah_2.quest576ACB07185AA060.description3}"
 			]
 			hide_dependent_lines: true
 			id: "576ACB07185AA060"
@@ -114,7 +114,7 @@
 				item: "kubejs:ascended_coin"
 				type: "item"
 			}]
-			subtitle: "Tier 6"
+			subtitle: "{ftbquests.chapter.powah_2.quest576ACB07185AA060.subtitle}"
 			tasks: [{
 				id: "74BAFC0E08D44C89"
 				item: "powah:crystal_nitro"
@@ -974,11 +974,11 @@
 		{
 			dependencies: ["7E6AEBDD984080AD"]
 			description: [
-				"To use Powah's unique crafting system you need a Energizing Orb and at least one Energizing Rod (although it is recommended to make more)."
+				"{ftbquests.chapter.powah_2.quest37EC8847643485B3.description1}"
 				""
-				"Start with Basic Energizing Rods and place it/them on any power cable, then place your energizing orb nearby. "
+				"{ftbquests.chapter.powah_2.quest37EC8847643485B3.description2}"
 				""
-				"Right click the orb with your items and wait for it to craft. "
+				"{ftbquests.chapter.powah_2.quest37EC8847643485B3.description3}"
 			]
 			id: "37EC8847643485B3"
 			rewards: [{
@@ -986,7 +986,7 @@
 				item: "kubejs:apotheotic_coin"
 				type: "item"
 			}]
-			subtitle: "Energizing!"
+			subtitle: "{ftbquests.chapter.powah_2.quest37EC8847643485B3.subtitle}"
 			tasks: [{
 				id: "5332938B784E8761"
 				item: "powah:energizing_orb"
@@ -1186,19 +1186,19 @@
 		{
 			dependencies: ["37EC8847643485B3"]
 			description: [
-				"Eventually you will probably want to set up autocrafting for the energizing orb."
+				"{ftbquests.chapter.powah_2.quest44AE4403A7AD3A2D.description1}"
 				""
-				"The easiest way is with ae2 pattern providers."
+				"{ftbquests.chapter.powah_2.quest44AE4403A7AD3A2D.description2}"
 				""
-				"Since the orb requires exact input and will still accept items after it is filled, you can only input one craft at a time."
+				"{ftbquests.chapter.powah_2.quest44AE4403A7AD3A2D.description3}"
 				""
-				"To do so with ae2, simply set the pattern provider to blocking mode using the button in the upper left hand corner."
+				"{ftbquests.chapter.powah_2.quest44AE4403A7AD3A2D.description4}"
 			]
 			id: "44AE4403A7AD3A2D"
-			subtitle: "Easiest with AE2"
+			subtitle: "{ftbquests.chapter.powah_2.quest44AE4403A7AD3A2D.subtitle}"
 			tasks: [{
 				id: "120EE28EB73882FF"
-				title: "Automation"
+				title: "{ftbquests.chapter.powah_2.quest44AE4403A7AD3A2D.task.1301226444943819519.title}"
 				type: "checkmark"
 			}]
 			x: 8.0d
@@ -1206,14 +1206,14 @@
 		}
 		{
 			dependencies: ["5A8A261986DC8B28"]
-			description: ["Basic is the first truly usable tier of Powah. "]
+			description: ["{ftbquests.chapter.powah_2.quest7E6AEBDD984080AD.description1}"]
 			id: "7E6AEBDD984080AD"
 			rewards: [{
 				id: "02D373A946F811FF"
 				item: "kubejs:apotheotic_coin"
 				type: "item"
 			}]
-			subtitle: "Tier 1"
+			subtitle: "{ftbquests.chapter.powah_2.quest7E6AEBDD984080AD.subtitle}"
 			tasks: [{
 				id: "6201E1D7D23D804F"
 				item: "powah:capacitor_basic"
@@ -1225,9 +1225,9 @@
 		{
 			dependencies: ["1BEE6A25B4AEE069"]
 			description: [
-				"Starter tier machines are, as they are called, starter."
+				"{ftbquests.chapter.powah_2.quest5A8A261986DC8B28.description1}"
 				""
-				"They arent very good and mostly serve as a stepping stone to Basic tier."
+				"{ftbquests.chapter.powah_2.quest5A8A261986DC8B28.description2}"
 			]
 			id: "5A8A261986DC8B28"
 			rewards: [{
@@ -1235,7 +1235,7 @@
 				item: "kubejs:apotheotic_coin"
 				type: "item"
 			}]
-			subtitle: "Tier 0"
+			subtitle: "{ftbquests.chapter.powah_2.quest5A8A261986DC8B28.subtitle}"
 			tasks: [{
 				id: "4FF12746015260B4"
 				item: "powah:capacitor_basic_tiny"
@@ -1246,13 +1246,13 @@
 		}
 		{
 			description: [
-				"Powah is a very powerful mod for early-to-midgame power generation."
+				"{ftbquests.chapter.powah_2.quest1BEE6A25B4AEE069.description1}"
 				""
-				"You are going to need alot of Dielectric Paste."
+				"{ftbquests.chapter.powah_2.quest1BEE6A25B4AEE069.description2}"
 				""
-				"&2This quest is from Gahooner&r"
+				"{ftbquests.chapter.powah_2.quest1BEE6A25B4AEE069.description3}"
 				""
-				"Thank you a lot"
+				"{ftbquests.chapter.powah_2.quest1BEE6A25B4AEE069.description4}"
 			]
 			id: "1BEE6A25B4AEE069"
 			rewards: [{
@@ -1267,7 +1267,7 @@
 				item: "powah:dielectric_paste"
 				type: "item"
 			}]
-			title: "Start of the Powah Quest Line !"
+			title: "{ftbquests.chapter.powah_2.quest1BEE6A25B4AEE069.title}"
 			x: -1.0d
 			y: 0.0d
 		}
@@ -1483,9 +1483,9 @@
 		{
 			dependencies: ["5A8A261986DC8B28"]
 			description: [
-				"The furnator is the most simple generator."
+				"{ftbquests.chapter.powah_2.quest644CCFF892037163.description1}"
 				""
-				"It takes any burnable item and turns it into power."
+				"{ftbquests.chapter.powah_2.quest644CCFF892037163.description2}"
 			]
 			hide_dependency_lines: true
 			id: "644CCFF892037163"
@@ -1494,7 +1494,7 @@
 				item: "kubejs:apotheotic_coin"
 				type: "item"
 			}]
-			subtitle: "Active Power"
+			subtitle: "{ftbquests.chapter.powah_2.quest644CCFF892037163.subtitle}"
 			tasks: [{
 				id: "0B2233D6AA8CA343"
 				item: "powah:furnator_starter"
@@ -1506,11 +1506,11 @@
 		{
 			dependencies: ["5A8A261986DC8B28"]
 			description: [
-				"The Reactor is the best power generator in Powah."
+				"{ftbquests.chapter.powah_2.quest35179C553FED0B87.description1}"
 				""
-				"It runs on uraninite, which is most easily made in the energizing orb using."
+				"{ftbquests.chapter.powah_2.quest35179C553FED0B87.description2}"
 				""
-				"For the best results you can feed it Redstone, Coal, Water, and a solid coolant. The water is not consumed."
+				"{ftbquests.chapter.powah_2.quest35179C553FED0B87.description3}"
 			]
 			hide_dependency_lines: true
 			id: "35179C553FED0B87"
@@ -1519,7 +1519,7 @@
 				item: "kubejs:apotheotic_coin"
 				type: "item"
 			}]
-			subtitle: "Active Power"
+			subtitle: "{ftbquests.chapter.powah_2.quest35179C553FED0B87.subtitle}"
 			tasks: [{
 				count: 36L
 				id: "18722B0CFA851CC5"
@@ -1531,7 +1531,7 @@
 		}
 		{
 			dependencies: ["5A8A261986DC8B28"]
-			description: ["The Magmator turns lava into power, simple as that."]
+			description: ["{ftbquests.chapter.powah_2.quest7DAD3538EC18EBF2.description1}"]
 			hide_dependency_lines: true
 			id: "7DAD3538EC18EBF2"
 			rewards: [{
@@ -1539,7 +1539,7 @@
 				item: "kubejs:apotheotic_coin"
 				type: "item"
 			}]
-			subtitle: "Active Powah"
+			subtitle: "{ftbquests.chapter.powah_2.quest7DAD3538EC18EBF2.subtitle}"
 			tasks: [{
 				id: "00B649DCE33AD460"
 				item: "powah:magmator_starter"
@@ -1551,14 +1551,14 @@
 		{
 			dependencies: ["5A8A261986DC8B28"]
 			description: [
-				"The Thermo generator is great for early game power."
+				"{ftbquests.chapter.powah_2.quest59B3E88794222B2.description1}"
 				""
-				"To run it, place a heat source underneath and pipe in water."
+				"{ftbquests.chapter.powah_2.quest59B3E88794222B2.description2}"
 				""
-				"Heat sources are :"
-				"Magma blocks 800°C = x0.8"
-				"Lava 1000°C = x1.0"
-				"Block of Blazing Crystal 2800°C = x2.8"
+				"{ftbquests.chapter.powah_2.quest59B3E88794222B2.description3}"
+				"{ftbquests.chapter.powah_2.quest59B3E88794222B2.description4}"
+				"{ftbquests.chapter.powah_2.quest59B3E88794222B2.description5}"
+				"{ftbquests.chapter.powah_2.quest59B3E88794222B2.description6}"
 			]
 			hide_dependency_lines: true
 			id: "059B3E88794222B2"
@@ -1567,7 +1567,7 @@
 				item: "kubejs:apotheotic_coin"
 				type: "item"
 			}]
-			subtitle: "Passive Powah"
+			subtitle: "{ftbquests.chapter.powah_2.quest59B3E88794222B2.subtitle}"
 			tasks: [{
 				id: "74A3DA335D19204E"
 				item: "powah:thermo_generator_starter"
@@ -1579,8 +1579,8 @@
 		{
 			dependencies: ["5A8A261986DC8B28"]
 			description: [
-				"Do I even need to explain this one?"
-				"Its a solar panel."
+				"{ftbquests.chapter.powah_2.quest4F41E02BBB8D4123.description1}"
+				"{ftbquests.chapter.powah_2.quest4F41E02BBB8D4123.description2}"
 			]
 			hide_dependency_lines: true
 			id: "4F41E02BBB8D4123"
@@ -1589,7 +1589,7 @@
 				item: "kubejs:apotheotic_coin"
 				type: "item"
 			}]
-			subtitle: "Passive Powah!"
+			subtitle: "{ftbquests.chapter.powah_2.quest4F41E02BBB8D4123.subtitle}"
 			tasks: [{
 				id: "7FA9CE874446B961"
 				item: "powah:solar_panel_starter"
@@ -1600,7 +1600,7 @@
 		}
 		{
 			dependencies: ["5A8A261986DC8B28"]
-			description: ["Energizing rods are the basis for Crafting in this mod."]
+			description: ["{ftbquests.chapter.powah_2.quest3A1C936F19145E5F.description1}"]
 			hide_dependency_lines: true
 			id: "3A1C936F19145E5F"
 			rewards: [{
@@ -1608,7 +1608,7 @@
 				item: "kubejs:apotheotic_coin"
 				type: "item"
 			}]
-			subtitle: "Charging!"
+			subtitle: "{ftbquests.chapter.powah_2.quest3A1C936F19145E5F.subtitle}"
 			tasks: [{
 				id: "60AD4C96DDDC3C65"
 				item: "powah:energizing_rod_starter"
@@ -1620,9 +1620,9 @@
 		{
 			dependencies: ["5A8A261986DC8B28"]
 			description: [
-				"Energy cables do exactly as they sound, they transfer power."
+				"{ftbquests.chapter.powah_2.quest2BEE61D5EA111F5B.description1}"
 				""
-				"At nitro they are one of the best, and they are also great for tps."
+				"{ftbquests.chapter.powah_2.quest2BEE61D5EA111F5B.description2}"
 			]
 			hide_dependency_lines: true
 			id: "2BEE61D5EA111F5B"
@@ -1631,7 +1631,7 @@
 				item: "kubejs:apotheotic_coin"
 				type: "item"
 			}]
-			subtitle: "Wired Powah!"
+			subtitle: "{ftbquests.chapter.powah_2.quest2BEE61D5EA111F5B.subtitle}"
 			tasks: [{
 				id: "5AA5B079FD25CDB0"
 				item: "powah:energy_cable_starter"
@@ -1643,11 +1643,11 @@
 		{
 			dependencies: ["5A8A261986DC8B28"]
 			description: [
-				"The ender gate, when paired with the Ender Cell, allows you acess to wireless power."
+				"{ftbquests.chapter.powah_2.quest50ED5BE6490F83F0.description1}"
 				""
-				"Simply place it on your machine and it will start to transfer power!"
+				"{ftbquests.chapter.powah_2.quest50ED5BE6490F83F0.description2}"
 				""
-				"If needed you can right click it to acess the gui."
+				"{ftbquests.chapter.powah_2.quest50ED5BE6490F83F0.description3}"
 			]
 			hide_dependency_lines: true
 			id: "50ED5BE6490F83F0"
@@ -1656,7 +1656,7 @@
 				item: "kubejs:apotheotic_coin"
 				type: "item"
 			}]
-			subtitle: "Wireless Powah!"
+			subtitle: "{ftbquests.chapter.powah_2.quest50ED5BE6490F83F0.subtitle}"
 			tasks: [{
 				id: "0A38B732F74225BB"
 				item: "powah:ender_gate_starter"
@@ -1668,11 +1668,11 @@
 		{
 			dependencies: ["5A8A261986DC8B28"]
 			description: [
-				"The Battery is exactly what it sounds like, a battery."
+				"{ftbquests.chapter.powah_2.quest4DC6CB201C92587C.description1}"
 				""
-				"It provides power to any item in your inventory that requires it until the battery is empty."
+				"{ftbquests.chapter.powah_2.quest4DC6CB201C92587C.description2}"
 				""
-				"Shift right click with it to activate."
+				"{ftbquests.chapter.powah_2.quest4DC6CB201C92587C.description3}"
 			]
 			hide_dependency_lines: true
 			id: "4DC6CB201C92587C"
@@ -1681,7 +1681,7 @@
 				item: "kubejs:apotheotic_coin"
 				type: "item"
 			}]
-			subtitle: "Powah Storage!"
+			subtitle: "{ftbquests.chapter.powah_2.quest4DC6CB201C92587C.subtitle}"
 			tasks: [{
 				id: "2524E6958B14E7AA"
 				item: {
@@ -1697,11 +1697,11 @@
 		{
 			dependencies: ["5A8A261986DC8B28"]
 			description: [
-				"The Ender Cell, when used with the Ender Gates, allows cross-dimensional wireless power."
+				"{ftbquests.chapter.powah_2.quest1725FE520BE6765E.description1}"
 				""
-				"They have 12 different channels that can be used."
+				"{ftbquests.chapter.powah_2.quest1725FE520BE6765E.description2}"
 				""
-				"Channels initially have no power storage, simply shift-click any Powah Battery / Energy Cell from your inventory and your good to go!"
+				"{ftbquests.chapter.powah_2.quest1725FE520BE6765E.description3}"
 			]
 			hide_dependency_lines: true
 			id: "1725FE520BE6765E"
@@ -1710,7 +1710,7 @@
 				item: "kubejs:apotheotic_coin"
 				type: "item"
 			}]
-			subtitle: "Wireless Powah!"
+			subtitle: "{ftbquests.chapter.powah_2.quest1725FE520BE6765E.subtitle}"
 			tasks: [{
 				id: "3C114F7D28CFE3B5"
 				item: "powah:ender_cell_starter"
@@ -1721,7 +1721,7 @@
 		}
 		{
 			dependencies: ["5A8A261986DC8B28"]
-			description: ["The energy call is a battery that you can place down in-world, simple as that."]
+			description: ["{ftbquests.chapter.powah_2.quest16C399E4B72D39F7.description1}"]
 			hide_dependency_lines: true
 			id: "16C399E4B72D39F7"
 			rewards: [{
@@ -1729,7 +1729,7 @@
 				item: "kubejs:apotheotic_coin"
 				type: "item"
 			}]
-			subtitle: "Powah Storage!"
+			subtitle: "{ftbquests.chapter.powah_2.quest16C399E4B72D39F7.subtitle}"
 			tasks: [{
 				id: "365B6A8DA7CF4926"
 				item: "powah:energy_cell_starter"
@@ -1741,11 +1741,11 @@
 		{
 			dependencies: ["5A8A261986DC8B28"]
 			description: [
-				"The player transmitter charges items in a players inventory, including armor and curio slots."
+				"{ftbquests.chapter.powah_2.quest799F27D09677B1E2.description1}"
 				""
-				"To do so you need to make a binding card, then right click it to bind it to the player."
+				"{ftbquests.chapter.powah_2.quest799F27D09677B1E2.description2}"
 				""
-				"For it to work across dimensions you need a dimensional card, which you get by right clicking a enderman or endermite with the binding card."
+				"{ftbquests.chapter.powah_2.quest799F27D09677B1E2.description3}"
 			]
 			hide_dependency_lines: true
 			id: "799F27D09677B1E2"
@@ -1754,7 +1754,7 @@
 				item: "kubejs:apotheotic_coin"
 				type: "item"
 			}]
-			subtitle: "Wireless Powah!"
+			subtitle: "{ftbquests.chapter.powah_2.quest799F27D09677B1E2.subtitle}"
 			tasks: [
 				{
 					id: "39AFE1B7DB9D2CD2"
@@ -1771,14 +1771,14 @@
 			y: 2.0d
 		}
 		{
-			description: ["This is for focus"]
+			description: ["{ftbquests.chapter.powah_2.quest50402B3043E98F05.description1}"]
 			id: "50402B3043E98F05"
 			optional: true
 			secret: true
-			subtitle: "Hi."
+			subtitle: "{ftbquests.chapter.powah_2.quest50402B3043E98F05.subtitle}"
 			tasks: [{
 				id: "09FBD00B89115F3B"
-				title: "Gahooner was here"
+				title: "{ftbquests.chapter.powah_2.quest50402B3043E98F05.task.719397313458560827.title}"
 				type: "checkmark"
 			}]
 			x: 11.75d
@@ -1787,17 +1787,17 @@
 		{
 			dependencies: ["1BEE6A25B4AEE069"]
 			description: [
-				"Many mods come with their own wrench, and this one too!"
+				"{ftbquests.chapter.powah_2.quest4D33D9FAAE828603.description1}"
 				""
-				"The Wrench has 3 modes:"
+				"{ftbquests.chapter.powah_2.quest4D33D9FAAE828603.description2}"
 				""
-				"Config Mode: used to change Cables I/0 configuration."
+				"{ftbquests.chapter.powah_2.quest4D33D9FAAE828603.description3}"
 				""
-				"Link Mode: used to link linkable blocks like Energizing Orbs and Rods."
+				"{ftbquests.chapter.powah_2.quest4D33D9FAAE828603.description4}"
 				""
-				"Rotate Mode: used to rotate blocks horizontally."
+				"{ftbquests.chapter.powah_2.quest4D33D9FAAE828603.description5}"
 				""
-				"Change mode with shift + right-click."
+				"{ftbquests.chapter.powah_2.quest4D33D9FAAE828603.description6}"
 			]
 			id: "4D33D9FAAE828603"
 			rewards: [{
@@ -1820,5 +1820,5 @@
 			y: 1.0d
 		}
 	]
-	title: "Powah"
+	title: "{ftbquests.chapter.powah_2.title}"
 }

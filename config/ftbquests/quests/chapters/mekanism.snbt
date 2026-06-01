@@ -102,9 +102,9 @@
 		{
 			dependencies: ["1F4B432C7EA765EE"]
 			description: [
-				"The Pressurized Reaction Chamber (PRC) in Mekanism is an advanced multi-input machine that performs complex chemical reactions by combining gases, fluids, and solids under pressure to produce high-tier materials like alloys, polonium pellets, or sulfuric acid."
+				"{ftbquests.chapter.mekanism.quest587A19FC348387C5.description1}"
 				""
-				"(Short: A high-tech reactor for precise gas-based crafting processes.)"
+				"{ftbquests.chapter.mekanism.quest587A19FC348387C5.description2}"
 			]
 			id: "587A19FC348387C5"
 			rewards: [{
@@ -270,8 +270,8 @@
 		}
 		{
 			description: [
-				"&2This quest was made by whothehellisnico!&r"
-				"&1Thank you a lot!&r"
+				"{ftbquests.chapter.mekanism.quest66D40619BDB8DC60.description1}"
+				"{ftbquests.chapter.mekanism.quest66D40619BDB8DC60.description2}"
 			]
 			icon: "mekanismgenerators:heat_generator"
 			id: "66D40619BDB8DC60"
@@ -287,7 +287,7 @@
 				item: "mekanismgenerators:heat_generator"
 				type: "item"
 			}]
-			title: "Mekanism"
+			title: "{ftbquests.chapter.mekanism.quest66D40619BDB8DC60.title}"
 			x: 0.0d
 			y: 0.0d
 		}
@@ -490,7 +490,7 @@
 		}
 		{
 			dependencies: ["66D40619BDB8DC60"]
-			description: ["There are plenty of different &6upgrades&r available to turn simple machines into &6factories&r with up to more than 10 slots of parallel processing power. Either craft your machine into a factory and upgrade it, or use a &6Tier Installer&r."]
+			description: ["{ftbquests.chapter.mekanism.quest1F4B432C7EA765EE.description1}"]
 			id: "1F4B432C7EA765EE"
 			rewards: [{
 				id: "7BC4D3D2BF4A435A"
@@ -501,7 +501,7 @@
 			size: 2.0d
 			tasks: [{
 				id: "31009B6F208F05A1"
-				title: "Mekanism Machinery"
+				title: "{ftbquests.chapter.mekanism.quest1F4B432C7EA765EE.task.3530993009448388001.title}"
 				type: "checkmark"
 			}]
 			x: 7.0d
@@ -590,8 +590,8 @@
 		{
 			dependencies: ["1F4B432C7EA765EE"]
 			description: [
-				"The Thermal Evaporation Tower is a mulitblock that turns &6Water into Brine&r and &6Brine into Lithium&r."
-				"It needs &6heat&r to operate. The more heat is supplied, the quicker the Evaporation Tower converts the fluids. Heat can be supplied through &6Resistive Heaters&r or &6Fuelwood Heaters&r and need to be inserted into &6Valves&r."
+				"{ftbquests.chapter.mekanism.quest6122482F67B6FD72.description1}"
+				"{ftbquests.chapter.mekanism.quest6122482F67B6FD72.description2}"
 			]
 			id: "6122482F67B6FD72"
 			rewards: [{
@@ -767,7 +767,7 @@
 		}
 		{
 			dependencies: ["66D40619BDB8DC60"]
-			description: ["There are many different tiers of upgrades and factories available. See the &6alloys and circuits quest line&r in this chapter to see all the available alloys and compounds."]
+			description: ["{ftbquests.chapter.mekanism.quest5012E356410BDF1B.description1}"]
 			id: "5012E356410BDF1B"
 			rewards: [{
 				id: "321BBD79D058C1A4"
@@ -778,7 +778,7 @@
 			size: 2.0d
 			tasks: [{
 				id: "38E44D8B815CE312"
-				title: "About Tiers"
+				title: "{ftbquests.chapter.mekanism.quest5012E356410BDF1B.task.4099486822380135186.title}"
 				type: "checkmark"
 			}]
 			x: -5.5d
@@ -866,7 +866,7 @@
 		}
 		{
 			dependencies: ["609D080C33BE0F54"]
-			description: ["The Atomic Disassembler is a very powerful multitool that uses power instead of durability."]
+			description: ["{ftbquests.chapter.mekanism.quest3F75ACB40C84F0C.description1}"]
 			id: "03F75ACB40C84F0C"
 			rewards: [{
 				id: "73BCA1E3C50E8D0E"
@@ -973,7 +973,7 @@
 			}]
 			tasks: [{
 				id: "3B891456F317F6FE"
-				title: "Generators"
+				title: "{ftbquests.chapter.mekanism.quest334F8AFC8CFFA73.task.4289982483725285118.title}"
 				type: "checkmark"
 			}]
 			x: -9.5d
@@ -1071,7 +1071,7 @@
 			size: 2.0d
 			tasks: [{
 				id: "6234D712972E35A3"
-				title: "Utility"
+				title: "{ftbquests.chapter.mekanism.quest609D080C33BE0F54.task.7076517389351663011.title}"
 				type: "checkmark"
 			}]
 			x: -5.5d
@@ -1216,7 +1216,7 @@
 				}
 				type: "item"
 			}]
-			title: "Universal Cable"
+			title: "{ftbquests.chapter.mekanism.questA4D6CA125D56AD1.title}"
 			x: -1.0d
 			y: 5.5d
 		}
@@ -1290,7 +1290,7 @@
 				}
 				type: "item"
 			}]
-			title: "Energy Cube"
+			title: "{ftbquests.chapter.mekanism.questF5F10E4E81F6D6F.title}"
 			x: 0.0d
 			y: 5.5d
 		}
@@ -1378,7 +1378,7 @@
 				}
 				type: "item"
 			}]
-			title: "Induction"
+			title: "{ftbquests.chapter.mekanism.quest447778EE955BA925.title}"
 			x: 0.0d
 			y: 6.5d
 		}
@@ -1394,7 +1394,7 @@
 			size: 2.0d
 			tasks: [{
 				id: "3CB58666D8D72450"
-				title: "Storage and Transfer"
+				title: "{ftbquests.chapter.mekanism.quest3A27A0E7BBE8F984.task.4374550389343069264.title}"
 				type: "checkmark"
 			}]
 			x: 0.0d
@@ -1452,7 +1452,7 @@
 				}
 				type: "item"
 			}]
-			title: "Mechanical Pipe"
+			title: "{ftbquests.chapter.mekanism.questC94E6BBACD8AFEB.title}"
 			x: -1.0d
 			y: 6.5d
 		}
@@ -1508,7 +1508,7 @@
 				}
 				type: "item"
 			}]
-			title: "Logistical Transporter"
+			title: "{ftbquests.chapter.mekanism.quest4C3F35EFD49CBB8D.title}"
 			x: -1.0d
 			y: 9.5d
 		}
@@ -1564,7 +1564,7 @@
 				}
 				type: "item"
 			}]
-			title: "Pressurized Tube"
+			title: "{ftbquests.chapter.mekanism.quest399EDE7E4471027B.title}"
 			x: -1.0d
 			y: 8.5d
 		}
@@ -1620,7 +1620,7 @@
 				}
 				type: "item"
 			}]
-			title: "Thermodynamic Conductor"
+			title: "{ftbquests.chapter.mekanism.quest3D8474987A711499.title}"
 			x: -1.0d
 			y: 7.5d
 		}
@@ -1680,7 +1680,7 @@
 				}
 				type: "item"
 			}]
-			title: "Chemical Tank"
+			title: "{ftbquests.chapter.mekanism.quest98EAF6AF1D0AF7D.title}"
 			x: 1.0d
 			y: 6.5d
 		}
@@ -1740,7 +1740,7 @@
 				}
 				type: "item"
 			}]
-			title: "Bin"
+			title: "{ftbquests.chapter.mekanism.questFEAEB2D26B00466.title}"
 			x: 1.0d
 			y: 7.5d
 		}
@@ -1800,7 +1800,7 @@
 				}
 				type: "item"
 			}]
-			title: "Fluid Tank"
+			title: "{ftbquests.chapter.mekanism.quest7CAC91FB5F268084.title}"
 			x: 1.0d
 			y: 5.5d
 		}
@@ -1913,8 +1913,8 @@
 		}
 		{
 			description: [
-				"&2This quest was made by whothehellisnico!&r"
-				"&1Thank you a lot!&r"
+				"{ftbquests.chapter.mekanism.questFA17A520EB6F1D7.description1}"
+				"{ftbquests.chapter.mekanism.questFA17A520EB6F1D7.description2}"
 			]
 			id: "0FA17A520EB6F1D7"
 			invisible: true
@@ -1926,12 +1926,12 @@
 			}]
 			tasks: [{
 				id: "497160B02CBA34C8"
-				title: "&2This quest was made by whothehellisnico!&r&1 Thank you a lot!&r"
+				title: "{ftbquests.chapter.mekanism.questFA17A520EB6F1D7.task.5292117346917954760.title}"
 				type: "checkmark"
 			}]
 			x: -2.0d
 			y: -1.0d
 		}
 	]
-	title: "Mekanism"
+	title: "{ftbquests.chapter.mekanism.title}"
 }

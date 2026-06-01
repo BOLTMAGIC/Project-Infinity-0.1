@@ -5,6 +5,7 @@ MMEvents.createStructures((event) => {
     .controllerId('mm:water_condenser_controller')
     .name('Water Condenser Tier 1')
     .layout((a) => {
+      a.portsAnywhere(true);
       a.layer(['111', '121', '111'])
         .layer(['343', '454', '3C3'])
         .layer(['111', '121', '111'])
@@ -32,6 +33,7 @@ MMEvents.createStructures((event) => {
     .controllerId('mm:water_condenser_controller')
     .name('Water Condenser Tier 2')
     .layout((a) => {
+      a.portsAnywhere(true);
       a.layer(['111', '121', '111'])
         .layer(['343', '454', '3C3'])
         .layer(['111', '121', '111'])
@@ -59,6 +61,7 @@ MMEvents.createStructures((event) => {
     .controllerId('mm:water_condenser_controller')
     .name('Water Condenser Tier 3')
     .layout((a) => {
+      a.portsAnywhere(true);
       a.layer(['111', '121', '111'])
         .layer(['343', '454', '3C3'])
         .layer(['111', '121', '111'])

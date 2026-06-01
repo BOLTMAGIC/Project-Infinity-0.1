@@ -20,5 +20,5 @@
 		{ count: 5, item: "botania:gray_mystical_flower" }
 		{ count: 5, item: "botania:black_mystical_flower" }
 	]
-	title: "Botania Flowers"
+	title: "{ftbquests.loot_table.1340875193044128734.title}"
 }

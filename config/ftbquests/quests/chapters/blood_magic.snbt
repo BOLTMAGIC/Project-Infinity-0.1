@@ -44,38 +44,38 @@
 	quests: [
 		{
 			description: [
-				"&4Blood Magic&r is a powerful and dangerous magic mod centered around the use of life force — your own blood — to fuel powerful rituals, alchemy, tools, and effects."
+				"{ftbquests.chapter.blood_magic.quest7738BD62E1D27997.description1}"
 				""
-				"It is an arcane art practiced by mages seeking forbidden power, but every action has a cost. Be warned: blood magic can be deadly if used carelessly."
+				"{ftbquests.chapter.blood_magic.quest7738BD62E1D27997.description2}"
 				""
-				"Blood Magic revolves around collecting &cLife Essence&r (by harming yourself or mobs) and using it to power:"
+				"{ftbquests.chapter.blood_magic.quest7738BD62E1D27997.description3}"
 				""
-				"• Blood Altars  "
-				"• Rituals  "
-				"• Magical tools and sigils  "
-				"• Powerful armor and effects  "
+				"{ftbquests.chapter.blood_magic.quest7738BD62E1D27997.description4}"
+				"{ftbquests.chapter.blood_magic.quest7738BD62E1D27997.description5}"
+				"{ftbquests.chapter.blood_magic.quest7738BD62E1D27997.description6}"
+				"{ftbquests.chapter.blood_magic.quest7738BD62E1D27997.description7}"
 				""
-				"• You generate Life Essence (LP) by sacrificing health"
-				"  or killing mobs with special tools."
-				"• LP powers your rituals and creations via the Blood Altar."
-				"• More advanced altars unlock greater magical power."
+				"{ftbquests.chapter.blood_magic.quest7738BD62E1D27997.description8}"
+				"{ftbquests.chapter.blood_magic.quest7738BD62E1D27997.description9}"
+				"{ftbquests.chapter.blood_magic.quest7738BD62E1D27997.description10}"
+				"{ftbquests.chapter.blood_magic.quest7738BD62E1D27997.description11}"
 				"{@pagebreak}"
-				"Blood Magic adds:"
-				"• Daggers and sacrificial tools"
-				"• Magical sigils with special abilities"
-				"• Alchemical items"
-				"• Unique progression items like Tartaric Gems"
+				"{ftbquests.chapter.blood_magic.quest7738BD62E1D27997.description12}"
+				"{ftbquests.chapter.blood_magic.quest7738BD62E1D27997.description13}"
+				"{ftbquests.chapter.blood_magic.quest7738BD62E1D27997.description14}"
+				"{ftbquests.chapter.blood_magic.quest7738BD62E1D27997.description15}"
+				"{ftbquests.chapter.blood_magic.quest7738BD62E1D27997.description16}"
 				""
-				"• Blood Magic offers &apowerful&r effects unavailable"
-				"  through normal means."
-				"• Many systems are driven by &cLife Essence&r, which"
-				"  can cost your health if mismanaged."
-				"• Using Rituals and altars incorrectly can be &cdeadly&r."
+				"{ftbquests.chapter.blood_magic.quest7738BD62E1D27997.description17}"
+				"{ftbquests.chapter.blood_magic.quest7738BD62E1D27997.description18}"
+				"{ftbquests.chapter.blood_magic.quest7738BD62E1D27997.description19}"
+				"{ftbquests.chapter.blood_magic.quest7738BD62E1D27997.description20}"
+				"{ftbquests.chapter.blood_magic.quest7738BD62E1D27997.description21}"
 				""
-				"Blood Magic includes an in-game guidebook (Sanguine Scientum) that explains progression, rituals, altars, and tools."
-				"Craft it with a &abook&r and &aglass&r to get started."
+				"{ftbquests.chapter.blood_magic.quest7738BD62E1D27997.description22}"
+				"{ftbquests.chapter.blood_magic.quest7738BD62E1D27997.description23}"
 				""
-				"Blood Magic works great with tech and automation mods. You can automate your Life Essence production or use it with machinery and other magical mods to deepen your gameplay."
+				"{ftbquests.chapter.blood_magic.quest7738BD62E1D27997.description24}"
 			]
 			id: "7738BD62E1D27997"
 			min_width: 350
@@ -86,21 +86,21 @@
 			}]
 			tasks: [{
 				id: "643DFC061B12BE38"
-				title: "Welcome to Bloodmagic"
+				title: "{ftbquests.chapter.blood_magic.quest7738BD62E1D27997.task.7223206480526360120.title}"
 				type: "checkmark"
 			}]
-			title: "Welcome to &4Blood Magic&r"
+			title: "{ftbquests.chapter.blood_magic.quest7738BD62E1D27997.title}"
 			x: -3.0d
 			y: -12.0d
 		}
 		{
 			dependencies: ["7738BD62E1D27997"]
 			description: [
-				"The very first thing we'll be needing to craft to start is the &4Blood Altar&r."
+				"{ftbquests.chapter.blood_magic.quest2C9DCF44DF0C695C.description1}"
 				""
-				"In order to use this for now we'll be using a &4Sacrificial Knife&r to gather blood from ourselfs."
+				"{ftbquests.chapter.blood_magic.quest2C9DCF44DF0C695C.description2}"
 				""
-				"Later on we'll have options to improve the amount of blood gained from this, or the ability to gather blood in other ways."
+				"{ftbquests.chapter.blood_magic.quest2C9DCF44DF0C695C.description3}"
 			]
 			id: "2C9DCF44DF0C695C"
 			rewards: [{
@@ -108,7 +108,7 @@
 				item: "kubejs:apotheotic_coin"
 				type: "item"
 			}]
-			subtitle: "This is where it all begins"
+			subtitle: "{ftbquests.chapter.blood_magic.quest2C9DCF44DF0C695C.subtitle}"
 			tasks: [
 				{
 					id: "2BA58E45564991C8"
@@ -133,9 +133,9 @@
 		{
 			dependencies: ["2C9DCF44DF0C695C"]
 			description: [
-				"Every tier of the altar allows you to create a new tier of &8Slate&r"
+				"{ftbquests.chapter.blood_magic.quest26ED1375B742CE73.description1}"
 				""
-				"These slates are used to create runes that improve the altar, and many more things in blood magic"
+				"{ftbquests.chapter.blood_magic.quest26ED1375B742CE73.description2}"
 			]
 			id: "26ED1375B742CE73"
 			rewards: [{
@@ -148,16 +148,16 @@
 				item: "bloodmagic:blankslate"
 				type: "item"
 			}]
-			title: "Slates"
+			title: "{ftbquests.chapter.blood_magic.quest26ED1375B742CE73.title}"
 			x: -5.0d
 			y: -9.5d
 		}
 		{
 			dependencies: ["2C9DCF44DF0C695C"]
 			description: [
-				"The &3Hellfire Forge&r is another one of the different crafting methods available within blood magic."
+				"{ftbquests.chapter.blood_magic.quest60A0B82B80FF9831.description1}"
 				""
-				"This uses souls instead of blood to craft."
+				"{ftbquests.chapter.blood_magic.quest60A0B82B80FF9831.description2}"
 			]
 			id: "60A0B82B80FF9831"
 			rewards: [{
@@ -176,9 +176,9 @@
 		{
 			dependencies: ["2C9DCF44DF0C695C"]
 			description: [
-				"The &3Soul Snare&r allows you to gather souls from mobs you killed."
+				"{ftbquests.chapter.blood_magic.quest15AB701D6D324B29.description1}"
 				""
-				"Simply throw it at a mob, once you see white particles surrounding the mob you'll know it worked."
+				"{ftbquests.chapter.blood_magic.quest15AB701D6D324B29.description2}"
 			]
 			id: "15AB701D6D324B29"
 			rewards: [{
@@ -200,9 +200,9 @@
 				"15AB701D6D324B29"
 			]
 			description: [
-				"These &3Tartaric Gems&r allow you to store souls in them, thereby allowing you to craft with more souls."
+				"{ftbquests.chapter.blood_magic.quest1CD1610FD2C009CD.description1}"
 				""
-				"Theres also can be used to craft the &3Sentient Sword&r, which will allow you to obtain souls without needing soul snares."
+				"{ftbquests.chapter.blood_magic.quest1CD1610FD2C009CD.description2}"
 			]
 			id: "1CD1610FD2C009CD"
 			rewards: [{
@@ -228,7 +228,7 @@
 		}
 		{
 			dependencies: ["1CD1610FD2C009CD"]
-			description: ["As mentioned in the previous chapter, mobs killed by the &3Sentient Sword&r drops souls without the need of soul snares"]
+			description: ["{ftbquests.chapter.blood_magic.quest2E12E30CA07F180A.description1}"]
 			id: "2E12E30CA07F180A"
 			rewards: [{
 				id: "452578E72D9C16A5"
@@ -378,10 +378,10 @@
 						]
 					}
 				}
-				title: "Runes"
+				title: "{ftbquests.chapter.blood_magic.quest143A7BF0B54CED1B.task.7802715776255701558.title}"
 				type: "item"
 			}]
-			title: "Blood Altar II"
+			title: "{ftbquests.chapter.blood_magic.quest143A7BF0B54CED1B.title}"
 			x: -3.0d
 			y: -8.0d
 		}
@@ -468,11 +468,11 @@
 							]
 						}
 					}
-					title: "Runes"
+					title: "{ftbquests.chapter.blood_magic.quest22899D5B9A1D407E.task.6890309383017216573.title}"
 					type: "item"
 				}
 			]
-			title: "Blood Altar III"
+			title: "{ftbquests.chapter.blood_magic.quest22899D5B9A1D407E.title}"
 			x: -3.0d
 			y: -6.0d
 		}
@@ -546,24 +546,24 @@
 							]
 						}
 					}
-					title: "Runes"
+					title: "{ftbquests.chapter.blood_magic.quest22657461D5EC7233.task.6691591085340758708.title}"
 					type: "item"
 				}
 			]
-			title: "Blood Altar IV"
+			title: "{ftbquests.chapter.blood_magic.quest22657461D5EC7233.title}"
 			x: -3.0d
 			y: -3.0d
 		}
 		{
 			dependencies: ["2C9DCF44DF0C695C"]
 			description: [
-				"The &4Blood Orb&r Allows you to use blood in rituals, and is used in certain crafts"
+				"{ftbquests.chapter.blood_magic.quest7C9BBAD8BFEAB152.description1}"
 				""
-				"Each higher tier of blood orb will require a new material, and a higher tier of blood altar"
+				"{ftbquests.chapter.blood_magic.quest7C9BBAD8BFEAB152.description2}"
 				""
-				"Each orb also allows you to absorb a certain amount of blood in your own personal blood store. This store can be filled by placing the blood orb in a filled blood altar."
+				"{ftbquests.chapter.blood_magic.quest7C9BBAD8BFEAB152.description3}"
 				""
-				"While your own store has a high limit, every blood orb can only fill it to a certain level (higher tiers allowing more to be stored)"
+				"{ftbquests.chapter.blood_magic.quest7C9BBAD8BFEAB152.description4}"
 			]
 			id: "7C9BBAD8BFEAB152"
 			rewards: [{
@@ -694,9 +694,9 @@
 		{
 			dependencies: ["22899D5B9A1D407E"]
 			description: [
-				"Blood magic contains numerous rituals that can do many different things."
+				"{ftbquests.chapter.blood_magic.quest363464DDE5932DDA.description1}"
 				""
-				"The questbook will only explain the rituals that are needed for progression, if you want to know more, the blood magic book contains information on all these rituals"
+				"{ftbquests.chapter.blood_magic.quest363464DDE5932DDA.description2}"
 			]
 			id: "363464DDE5932DDA"
 			rewards: [{
@@ -706,7 +706,7 @@
 			}]
 			tasks: [{
 				id: "013F21490A4DA1F7"
-				title: "Rituals and You"
+				title: "{ftbquests.chapter.blood_magic.quest363464DDE5932DDA.task.89827115159888375.title}"
 				type: "checkmark"
 			}]
 			x: -13.0d
@@ -715,11 +715,11 @@
 		{
 			dependencies: ["363464DDE5932DDA"]
 			description: [
-				"In order to easily make the most rituals, you'll need a ritual diviner."
+				"{ftbquests.chapter.blood_magic.quest6478D601B3D62C97.description1}"
 				""
-				"Technically this is not a required tool, as you can color the runes yourself, but the diviner also allows you to autobuild the ritual and color them."
+				"{ftbquests.chapter.blood_magic.quest6478D601B3D62C97.description2}"
 				""
-				"Theres really no reason not to make it."
+				"{ftbquests.chapter.blood_magic.quest6478D601B3D62C97.description3}"
 			]
 			id: "6478D601B3D62C97"
 			rewards: [{
@@ -782,18 +782,18 @@
 					type: "item"
 				}
 			]
-			title: "Ritual Diviner"
+			title: "{ftbquests.chapter.blood_magic.quest6478D601B3D62C97.title}"
 			x: -15.0d
 			y: -5.0d
 		}
 		{
 			dependencies: ["363464DDE5932DDA"]
 			description: [
-				"The &8Master Ritual Stone&r is the center of every ritual"
+				"{ftbquests.chapter.blood_magic.quest150B13435CABB864.description1}"
 				""
-				"The &4Weak Activation Crystals&r is what we'll use after we've assembled the multiblock to actually start the ritual."
+				"{ftbquests.chapter.blood_magic.quest150B13435CABB864.description2}"
 				""
-				"In order for the ritual to activate, you'll need a certain amount of blood in your own network. (obtained by placing your blood orb in the altar)"
+				"{ftbquests.chapter.blood_magic.quest150B13435CABB864.description3}"
 			]
 			id: "150B13435CABB864"
 			rewards: [{
@@ -819,9 +819,9 @@
 		{
 			dependencies: ["150B13435CABB864"]
 			description: [
-				"The &5Edge of the Hidden Realm&r ritual takes you to a dungeon consisting of 4 doors that you can open."
+				"{ftbquests.chapter.blood_magic.quest7D5EBD274B282AF8.description1}"
 				""
-				"In this dungeon you can find &6Saturated Tau&r which is what we'll be using to make the blood stones for the next tier of the blood altar"
+				"{ftbquests.chapter.blood_magic.quest7D5EBD274B282AF8.description2}"
 			]
 			id: "7D5EBD274B282AF8"
 			rewards: [{
@@ -834,13 +834,13 @@
 				item: "bloodmagic:strong_tau"
 				type: "item"
 			}]
-			title: "Edge of the Forbidden Realm"
+			title: "{ftbquests.chapter.blood_magic.quest7D5EBD274B282AF8.title}"
 			x: -11.5d
 			y: -3.0d
 		}
 		{
 			dependencies: ["7D5EBD274B282AF8"]
-			description: ["Next we'll be turning the &6Saturated Tau&r into &4Blood Shards&r"]
+			description: ["{ftbquests.chapter.blood_magic.quest46ABB6AD85644E7C.description1}"]
 			id: "46ABB6AD85644E7C"
 			rewards: [{
 				id: "6D35CB9B27A45FE5"
@@ -871,9 +871,9 @@
 		{
 			dependencies: ["6478D601B3D62C97"]
 			description: [
-				"Once we have done our first rituals, and upgraded our blood altar to tier 4, we get access to the next tier of &5Ritual Diviner&r"
+				"{ftbquests.chapter.blood_magic.quest12ECEAB582BC3CAF.description1}"
 				""
-				"This tier gives us access to all rituals that bloodmagic has to offer"
+				"{ftbquests.chapter.blood_magic.quest12ECEAB582BC3CAF.description2}"
 			]
 			id: "12ECEAB582BC3CAF"
 			rewards: [{
@@ -912,19 +912,19 @@
 				"12ECEAB582BC3CAF"
 			]
 			description: [
-				"The next ritual in the line of dungeons. "
+				"{ftbquests.chapter.blood_magic.quest16A6411529017F31.description1}"
 				""
-				"The Gateway allows us full access to the forbidden realm. "
+				"{ftbquests.chapter.blood_magic.quest16A6411529017F31.description2}"
 				""
-				"Instead of only 4 rooms, we now have access to an infinite generating dungeon."
+				"{ftbquests.chapter.blood_magic.quest16A6411529017F31.description3}"
 				""
-				"This dungeon can contain 2 important things for us."
+				"{ftbquests.chapter.blood_magic.quest16A6411529017F31.description4}"
 				""
-				"&b- The Foremans Key&r"
-				"This will give us access to the mines when used on a door with a special (blue colored instead of red) lock."
+				"{ftbquests.chapter.blood_magic.quest16A6411529017F31.description5}"
+				"{ftbquests.chapter.blood_magic.quest16A6411529017F31.description6}"
 				""
-				"&b- Demonite (ore)"
-				"This has a rare chance to spawn in a few rooms in the regular forbidden realm, and is found more consistenly in the mines."
+				"{ftbquests.chapter.blood_magic.quest16A6411529017F31.description7}"
+				"{ftbquests.chapter.blood_magic.quest16A6411529017F31.description8}"
 			]
 			id: "16A6411529017F31"
 			rewards: [{
@@ -934,7 +934,7 @@
 			}]
 			tasks: [{
 				id: "020A43A3BCB23058"
-				title: "Gateway to the Forbidden Realm"
+				title: "{ftbquests.chapter.blood_magic.quest16A6411529017F31.task.147004308367487064.title}"
 				type: "checkmark"
 			}]
 			x: -11.5d
@@ -943,9 +943,9 @@
 		{
 			dependencies: ["16A6411529017F31"]
 			description: [
-				"Congratulations, You found the Key."
+				"{ftbquests.chapter.blood_magic.quest221CABE0279BF12.description1}"
 				""
-				"Now find a special door, and get access to the mines."
+				"{ftbquests.chapter.blood_magic.quest221CABE0279BF12.description2}"
 			]
 			id: "0221CABE0279BF12"
 			rewards: [{
@@ -964,11 +964,11 @@
 		{
 			dependencies: ["0221CABE0279BF12"]
 			description: [
-				"These keys are dropped by some mobs in the mines, and allow you to explore it further."
+				"{ftbquests.chapter.blood_magic.quest4F2B18FF16680E08.description1}"
 				""
-				"They can also be crafted, however they require something called crystalized will."
+				"{ftbquests.chapter.blood_magic.quest4F2B18FF16680E08.description2}"
 				""
-				"The blood magic book has more information on how to obtain this."
+				"{ftbquests.chapter.blood_magic.quest4F2B18FF16680E08.description3}"
 			]
 			id: "4F2B18FF16680E08"
 			rewards: [{
@@ -987,9 +987,9 @@
 		{
 			dependencies: ["16A6411529017F31"]
 			description: [
-				"Demonite is the last thing we'll need to upgrade our blood altar to tier 5."
+				"{ftbquests.chapter.blood_magic.quest4DCC1687AE0B6815.description1}"
 				""
-				"You'll need a total of 36 ingots"
+				"{ftbquests.chapter.blood_magic.quest4DCC1687AE0B6815.description2}"
 			]
 			id: "4DCC1687AE0B6815"
 			rewards: [{
@@ -1076,27 +1076,27 @@
 							]
 						}
 					}
-					title: "Runes"
+					title: "{ftbquests.chapter.blood_magic.quest53E7A09F3F3B6272.task.1584693650998761559.title}"
 					type: "item"
 				}
 			]
-			title: "Blood Altar V"
+			title: "{ftbquests.chapter.blood_magic.quest53E7A09F3F3B6272.title}"
 			x: -3.0d
 			y: 0.5d
 		}
 		{
 			dependencies: ["143A7BF0B54CED1B"]
 			description: [
-				"At the start, self sacrifice is going to be your main way of obtaining blood."
+				"{ftbquests.chapter.blood_magic.quest740D7627902669E.description1}"
 				""
-				"There is 2 ways to improve this."
+				"{ftbquests.chapter.blood_magic.quest740D7627902669E.description2}"
 				""
-				"&6- Rune of self sacrifice&r"
-				"You can replace the blank runes in your altar with runes of self sacrifice, these increase the amount of blood gained from self sacrifise"
+				"{ftbquests.chapter.blood_magic.quest740D7627902669E.description3}"
+				"{ftbquests.chapter.blood_magic.quest740D7627902669E.description4}"
 				""
-				"&6- Incense Altar&r"
-				"This makes it so that the dagger does not take half a heart, but all the health it can take from you without killing you."
-				"Just place it close to the blood altar"
+				"{ftbquests.chapter.blood_magic.quest740D7627902669E.description5}"
+				"{ftbquests.chapter.blood_magic.quest740D7627902669E.description6}"
+				"{ftbquests.chapter.blood_magic.quest740D7627902669E.description7}"
 			]
 			id: "0740D7627902669E"
 			rewards: [{
@@ -1116,24 +1116,24 @@
 					type: "item"
 				}
 			]
-			title: "Improving Self Sacrifice"
+			title: "{ftbquests.chapter.blood_magic.quest740D7627902669E.title}"
 			x: -5.0d
 			y: -8.0d
 		}
 		{
 			dependencies: ["0740D7627902669E"]
 			description: [
-				"This is only the start of the blood magic quest line."
+				"{ftbquests.chapter.blood_magic.quest20F9EDA876F35FC1.description1}"
 				""
-				"At the moment, this book only contains the self sacrifice way of getting blood. While this is fine to start with, its not going to last you long into the pack"
+				"{ftbquests.chapter.blood_magic.quest20F9EDA876F35FC1.description2}"
 				""
-				"Without going into details (Future versions will have this explained more) your main 2 options for blood are"
+				"{ftbquests.chapter.blood_magic.quest20F9EDA876F35FC1.description3}"
 				""
-				"&4- Sanguine Neural Networks"
-				"Combining Hostile Neural Networks with bloodmagic to automate blood gathering."
+				"{ftbquests.chapter.blood_magic.quest20F9EDA876F35FC1.description4}"
+				"{ftbquests.chapter.blood_magic.quest20F9EDA876F35FC1.description5}"
 				""
-				"&4- Well of Suffering"
-				"A ritual that damages mobs in a range, and adds blood to the altar based on that."
+				"{ftbquests.chapter.blood_magic.quest20F9EDA876F35FC1.description6}"
+				"{ftbquests.chapter.blood_magic.quest20F9EDA876F35FC1.description7}"
 			]
 			id: "20F9EDA876F35FC1"
 			rewards: [{
@@ -1144,7 +1144,7 @@
 			tasks: [
 				{
 					id: "6CE189907E825929"
-					title: "Other ways of blood"
+					title: "{ftbquests.chapter.blood_magic.quest20F9EDA876F35FC1.task.7845703279546882345.title}"
 					type: "checkmark"
 				}
 				{
@@ -1158,8 +1158,8 @@
 		}
 		{
 			description: [
-				"&2This quest was made by MiniMaxi!&r"
-				"&1Thank you a lot!&r"
+				"{ftbquests.chapter.blood_magic.quest6C16349EFFD65587.description1}"
+				"{ftbquests.chapter.blood_magic.quest6C16349EFFD65587.description2}"
 			]
 			id: "6C16349EFFD65587"
 			invisible: true
@@ -1171,7 +1171,7 @@
 			}]
 			tasks: [{
 				id: "486161E7DDCDD476"
-				title: "&2This quest was made by MiniMaxi!&r&1 Thank you a lot!&r"
+				title: "{ftbquests.chapter.blood_magic.quest6C16349EFFD65587.task.5215557491958338678.title}"
 				type: "checkmark"
 			}]
 			x: -3.0d
@@ -1180,44 +1180,44 @@
 		{
 			dependencies: ["16A6411529017F31"]
 			description: [
-				"There are &b2 custom Mark of the Falling Tower Rituals&r available:"
+				"{ftbquests.chapter.blood_magic.questDAFD6CCA0F30DE1.description1}"
 				""
-				"&6Ritual 1&r"
-				"• &eUsed Item&r: &cDemonite Ore&r"
-				"• &6Blood Required&r: &41,000,000 LP&r"
+				"{ftbquests.chapter.blood_magic.questDAFD6CCA0F30DE1.description2}"
+				"{ftbquests.chapter.blood_magic.questDAFD6CCA0F30DE1.description3}"
+				"{ftbquests.chapter.blood_magic.questDAFD6CCA0F30DE1.description4}"
 				""
-				"&7Rewards:&r"
-				"• &aDemonite Ore&r"
-				"• &aRaw Demonite Block&r"
-				"• &eSpeed Runes&r"
-				"• &eCapacity Runes&r"
+				"{ftbquests.chapter.blood_magic.questDAFD6CCA0F30DE1.description5}"
+				"{ftbquests.chapter.blood_magic.questDAFD6CCA0F30DE1.description6}"
+				"{ftbquests.chapter.blood_magic.questDAFD6CCA0F30DE1.description7}"
+				"{ftbquests.chapter.blood_magic.questDAFD6CCA0F30DE1.description8}"
+				"{ftbquests.chapter.blood_magic.questDAFD6CCA0F30DE1.description9}"
 				""
-				"&6Ritual 2&r"
-				"• &eUsed Item&r: &cCompressed Hellforged Parts&r"
-				"• &6Blood Required&r: &410,000,000 LP&r"
+				"{ftbquests.chapter.blood_magic.questDAFD6CCA0F30DE1.description10}"
+				"{ftbquests.chapter.blood_magic.questDAFD6CCA0F30DE1.description11}"
+				"{ftbquests.chapter.blood_magic.questDAFD6CCA0F30DE1.description12}"
 				""
-				"&7Rewards:&r"
-				"• &aDemonite Ore&r"
-				"• &aRaw Demonite Block&r"
-				"• &9Reinforced Speed Runes&r"
-				"• &9Reinforced Capacity Runes&r"
+				"{ftbquests.chapter.blood_magic.questDAFD6CCA0F30DE1.description13}"
+				"{ftbquests.chapter.blood_magic.questDAFD6CCA0F30DE1.description14}"
+				"{ftbquests.chapter.blood_magic.questDAFD6CCA0F30DE1.description15}"
+				"{ftbquests.chapter.blood_magic.questDAFD6CCA0F30DE1.description16}"
+				"{ftbquests.chapter.blood_magic.questDAFD6CCA0F30DE1.description17}"
 			]
 			id: "0DAFD6CCA0F30DE1"
 			min_width: 300
 			tasks: [{
 				id: "2F8A4467B09FE08E"
-				title: "&eCustom Meteor Rituals&r"
+				title: "{ftbquests.chapter.blood_magic.questDAFD6CCA0F30DE1.task.3425625678704271502.title}"
 				type: "checkmark"
 			}]
-			title: "&eCustom Meteor Rituals&r"
+			title: "{ftbquests.chapter.blood_magic.questDAFD6CCA0F30DE1.title}"
 			x: -11.5d
 			y: 0.5d
 		}
 		{
 			dependencies: ["53E7A09F3F3B6272"]
 			description: [
-				"Endgame Blood Generation. "
-				"Good Luck crafting it. Dont hate me."
+				"{ftbquests.chapter.blood_magic.quest47A2D3F9F4B9DFE7.description1}"
+				"{ftbquests.chapter.blood_magic.quest47A2D3F9F4B9DFE7.description2}"
 			]
 			id: "47A2D3F9F4B9DFE7"
 			rewards: [{
@@ -1235,5 +1235,5 @@
 			y: 4.5d
 		}
 	]
-	title: "Blood Magic"
+	title: "{ftbquests.chapter.blood_magic.title}"
 }

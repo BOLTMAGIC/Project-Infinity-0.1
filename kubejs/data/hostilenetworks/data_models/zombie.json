@@ -39,6 +39,10 @@
         {
             "item": "bhc:red_heart",
             "count": 1
+        },
+        {
+            "item": "born_in_chaos_v1:corpse_maggot",
+            "count": 16
         }
     ]
 }

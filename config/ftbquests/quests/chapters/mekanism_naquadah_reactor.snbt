@@ -10,15 +10,15 @@
 	quests: [
 		{
 			description: [
-				"Hey o7,"
-				"here I will show you how to get the Naquadah Reactor from Mekanism Extra working."
+				"{ftbquests.chapter.mekanism_naquadah_reactor.questE5CD46C5A26BEC0.description1}"
+				"{ftbquests.chapter.mekanism_naquadah_reactor.questE5CD46C5A26BEC0.description2}"
 				""
-				"Now you can ask yourself why we need or want this?"
-				"Easy its giving us Polonium containing steam which we can turn into a lot of polonium which turns into a lot of antimatter we need for the endgame"
+				"{ftbquests.chapter.mekanism_naquadah_reactor.questE5CD46C5A26BEC0.description3}"
+				"{ftbquests.chapter.mekanism_naquadah_reactor.questE5CD46C5A26BEC0.description4}"
 				""
-				"Please follow the steps."
-				"&2And a huge thanks to&r &6BabyMudkip&r &2for the Guide!&r"
-				"{image:kubejs:block/screen/naquadah_reactor_multiblock width:100 height:100 align:center fit:true}"
+				"{ftbquests.chapter.mekanism_naquadah_reactor.questE5CD46C5A26BEC0.description5}"
+				"{ftbquests.chapter.mekanism_naquadah_reactor.questE5CD46C5A26BEC0.description6}"
+				"{ftbquests.chapter.mekanism_naquadah_reactor.questE5CD46C5A26BEC0.image0}"
 			]
 			id: "0E5CD46C5A26BEC0"
 			rewards: [{
@@ -28,7 +28,7 @@
 			}]
 			tasks: [{
 				id: "53E6782510C4C944"
-				title: "Naquadah Reactor"
+				title: "{ftbquests.chapter.mekanism_naquadah_reactor.questE5CD46C5A26BEC0.task.6045651650381924676.title}"
 				type: "checkmark"
 			}]
 			x: -1.5d
@@ -37,9 +37,9 @@
 		{
 			dependencies: ["0E5CD46C5A26BEC0"]
 			description: [
-				"You will need to build the Reactor (I recomend the multiblock building tool)"
-				"you need the osmium gas for one of the fuel lines"
-				"{image:kubejs:block/screen/naquadah_order width:100 height:100 align:center fit:true}"
+				"{ftbquests.chapter.mekanism_naquadah_reactor.quest7A822E0A7F810F44.description1}"
+				"{ftbquests.chapter.mekanism_naquadah_reactor.quest7A822E0A7F810F44.description2}"
+				"{ftbquests.chapter.mekanism_naquadah_reactor.quest7A822E0A7F810F44.image0}"
 			]
 			id: "7A822E0A7F810F44"
 			rewards: [
@@ -110,10 +110,10 @@
 		{
 			dependencies: ["7A822E0A7F810F44"]
 			description: [
-				"We need Rich Uranium Fuel and Rich Naquadah Fuel. And Water as coolant."
+				"{ftbquests.chapter.mekanism_naquadah_reactor.quest2BD5A053D512F22C.description1}"
 				""
-				"To inject water right click the multiblock and change the Injection Rate to 6"
-				"{image:kubejs:block/screen/naq_water_change_to_6 width:100 height:100 align:center fit:true}"
+				"{ftbquests.chapter.mekanism_naquadah_reactor.quest2BD5A053D512F22C.description2}"
+				"{ftbquests.chapter.mekanism_naquadah_reactor.quest2BD5A053D512F22C.image0}"
 			]
 			id: "2BD5A053D512F22C"
 			rewards: [{
@@ -154,10 +154,10 @@
 		{
 			dependencies: ["2BD5A053D512F22C"]
 			description: [
-				"You need the Naqadah Hohlraum."
-				"Put it into the reactor."
+				"{ftbquests.chapter.mekanism_naquadah_reactor.quest4720028D12723450.description1}"
+				"{ftbquests.chapter.mekanism_naquadah_reactor.quest4720028D12723450.description2}"
 				""
-				"Put the Hohlraum inside a Chemical Tank containing Naquadah Uranium Fuel and let it be filled."
+				"{ftbquests.chapter.mekanism_naquadah_reactor.quest4720028D12723450.description3}"
 			]
 			id: "4720028D12723450"
 			rewards: [{
@@ -191,10 +191,10 @@
 		{
 			dependencies: ["4720028D12723450"]
 			description: [
-				"the last laser amp that is placed, i recomment changing its redstone mode to pulse)"
-				"and it needs 2GFE."
-				"The laser needs to be aimed at the lead coated laser focus matrix"
-				"{image:kubejs:block/screen/naq_laser_amplifiers width:100 height:100 align:center fit:true}"
+				"{ftbquests.chapter.mekanism_naquadah_reactor.quest32F36187798AB590.description1}"
+				"{ftbquests.chapter.mekanism_naquadah_reactor.quest32F36187798AB590.description2}"
+				"{ftbquests.chapter.mekanism_naquadah_reactor.quest32F36187798AB590.description3}"
+				"{ftbquests.chapter.mekanism_naquadah_reactor.quest32F36187798AB590.image0}"
 			]
 			id: "32F36187798AB590"
 			rewards: [{
@@ -219,7 +219,7 @@
 		}
 		{
 			dependencies: ["32F36187798AB590"]
-			description: ["{image:kubejs:block/screen/polonium_containing_steam_naq width:450 height:120 align:center fit:true}"]
+			description: ["{ftbquests.chapter.mekanism_naquadah_reactor.quest2DD0D68709655E3B.image0}"]
 			id: "2DD0D68709655E3B"
 			rewards: [{
 				id: "4A1C126FE071FB46"
@@ -237,8 +237,8 @@
 		{
 			dependencies: ["2DD0D68709655E3B"]
 			description: [
-				"Pipe that into a rotary condensentrator set to condensentrating mode to create Polonium Containing Solution"
-				"{image:kubejs:block/screen/naq_rotary width:200 height:100 align:center fit:true}"
+				"{ftbquests.chapter.mekanism_naquadah_reactor.quest62CC0735905641A4.description1}"
+				"{ftbquests.chapter.mekanism_naquadah_reactor.quest62CC0735905641A4.image0}"
 			]
 			id: "62CC0735905641A4"
 			rewards: [{
@@ -257,8 +257,8 @@
 		{
 			dependencies: ["62CC0735905641A4"]
 			description: [
-				"Pipe that into a thermal evap plant - normal or compact (compact is cleaner and easier to imo), give it some heat, and that will create Polonium-208"
-				"{image:kubejs:block/screen/naq_thermal_evap_plant width:200 height:100 align:center fit:true}"
+				"{ftbquests.chapter.mekanism_naquadah_reactor.quest5BD9B76E0EE563B2.description1}"
+				"{ftbquests.chapter.mekanism_naquadah_reactor.quest5BD9B76E0EE563B2.image0}"
 			]
 			id: "5BD9B76E0EE563B2"
 			rewards: [{
@@ -277,9 +277,9 @@
 		{
 			dependencies: ["5BD9B76E0EE563B2"]
 			description: [
-				"Pipe that into another rotary condensentrator set to Decondensentrating mode, and this will create Polonium 208 gas"
+				"{ftbquests.chapter.mekanism_naquadah_reactor.quest2EA93C8B1D7CC617.description1}"
 				""
-				"{image:kubejs:block/screen/naq_rotary2 width:200 height:100 align:center}"
+				"{ftbquests.chapter.mekanism_naquadah_reactor.quest2EA93C8B1D7CC617.image0}"
 			]
 			id: "2EA93C8B1D7CC617"
 			rewards: [
@@ -305,9 +305,9 @@
 		{
 			dependencies: ["2EA93C8B1D7CC617"]
 			description: [
-				"Pipe the gas into a solar neutron activator and it will create Polonium (ensure it can see the sun, or else it wont work)"
+				"{ftbquests.chapter.mekanism_naquadah_reactor.quest781EC762FE076D96.description1}"
 				""
-				"{image:kubejs:block/screen/naq_solar_neutron_activator width:200 height:100 align:center}"
+				"{ftbquests.chapter.mekanism_naquadah_reactor.quest781EC762FE076D96.image0}"
 			]
 			id: "781EC762FE076D96"
 			rewards: [{
@@ -326,11 +326,11 @@
 		{
 			dependencies: ["781EC762FE076D96"]
 			description: [
-				"You can then use the Polonium to create your antimatter - either in an SPS or Event Horizon Antimatter Synthesizer."
+				"{ftbquests.chapter.mekanism_naquadah_reactor.quest4A4FCFBF80E6508F.description1}"
 				""
-				"Note: As long as you can supply enough water, and the two fuels, the temp will not drop, so you only need to activate it once"
+				"{ftbquests.chapter.mekanism_naquadah_reactor.quest4A4FCFBF80E6508F.description2}"
 				""
-				"If you need the energy output from this reactor, make sure to handle that accordingly, otherwise put an energy trash can on one of the ports set to output mode (red) - shift right click with configurator to change"
+				"{ftbquests.chapter.mekanism_naquadah_reactor.quest4A4FCFBF80E6508F.description3}"
 			]
 			id: "4A4FCFBF80E6508F"
 			rewards: [{
@@ -340,12 +340,12 @@
 			}]
 			tasks: [{
 				id: "1804AD7BB3CDFC02"
-				title: "Info"
+				title: "{ftbquests.chapter.mekanism_naquadah_reactor.quest4A4FCFBF80E6508F.task.1730698903626316802.title}"
 				type: "checkmark"
 			}]
 			x: 13.5d
 			y: 0.0d
 		}
 	]
-	title: "Mekanism Naquadah Reactor"
+	title: "{ftbquests.chapter.mekanism_naquadah_reactor.title}"
 }

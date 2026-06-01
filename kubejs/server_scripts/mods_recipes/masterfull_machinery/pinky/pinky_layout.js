@@ -5,6 +5,7 @@ MMEvents.createStructures((event) => {
     .controllerId('mm:pinky_controller')
     .name('Pinky Tier 1')
     .layout((a) => {
+      a.portsAnywhere(true);
       a.layer(['11', '61', '11'])
         .layer(['32', '65', '4C'])
         .layer(['11', '61', '11'])
@@ -37,6 +38,7 @@ MMEvents.createStructures((event) => {
     .controllerId('mm:pinky_controller')
     .name('Pinky Tier 2')
     .layout((a) => {
+      a.portsAnywhere(true);
       a.layer(['11', '61', '11'])
         .layer(['32', '65', '4C'])
         .layer(['11', '61', '17'])

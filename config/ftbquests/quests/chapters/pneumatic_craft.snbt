@@ -12,11 +12,11 @@
 		{
 			dependencies: ["3FD955D36E5583A0"]
 			description: [
-				"The materials required for a &65x5x5 pressure chamber&r with &b1 glass wall&r are listed above."
+				"{ftbquests.chapter.pneumatic_craft.quest3F1219F73AD46246.description1}"
 				""
-				"Make sure to place one &aInterface&r facing inward and one &aInterface&r facing outward for input and output."
+				"{ftbquests.chapter.pneumatic_craft.quest3F1219F73AD46246.description2}"
 				""
-				"You may add more than &a2 Interfaces&r if you wish; Interfaces can be upgraded with &bSpeed Upgrades&r for faster operation, and they move up to an entire &estack&r at once."
+				"{ftbquests.chapter.pneumatic_craft.quest3F1219F73AD46246.description3}"
 			]
 			icon: "pneumaticcraft:pressure_chamber_wall"
 			id: "3F1219F73AD46246"
@@ -50,7 +50,7 @@
 					type: "item"
 				}
 			]
-			title: "5x5x5 Pressure Chamber"
+			title: "{ftbquests.chapter.pneumatic_craft.quest3F1219F73AD46246.title}"
 			x: 0.0d
 			y: 0.0d
 		}
@@ -76,12 +76,12 @@
 					type: "item"
 				}
 			]
-			title: "Basic Compressors"
+			title: "{ftbquests.chapter.pneumatic_craft.quest4CABEF8D25B3DFAF.title}"
 			x: 0.0d
 			y: -2.0d
 		}
 		{
-			description: ["Expose Iron Ingots or Iron Blocks to explosions (TNT, creepers). &7(This may create compressed iron but is lossy and unreliable.)"]
+			description: ["{ftbquests.chapter.pneumatic_craft.questCDCE6A3AA2B26D4.description1}"]
 			id: "0CDCE6A3AA2B26D4"
 			rewards: [{
 				id: "66ABB8B4082BBB57"
@@ -93,13 +93,13 @@
 				item: "pneumaticcraft:ingot_iron_compressed"
 				type: "item"
 			}]
-			title: "&bCompressed Iron"
+			title: "{ftbquests.chapter.pneumatic_craft.questCDCE6A3AA2B26D4.title}"
 			x: -4.0d
 			y: -1.0d
 		}
 		{
 			dependencies: ["0CDCE6A3AA2B26D4"]
-			description: ["&7Use an &aPressure Tube &7to connect compressors, tanks and machines into an air network; attach gauge, safety or regulator modules to control pressure."]
+			description: ["{ftbquests.chapter.pneumatic_craft.quest3FD955D36E5583A0.description1}"]
 			id: "3FD955D36E5583A0"
 			rewards: [{
 				id: "7B5296E6964DFA9B"
@@ -111,18 +111,18 @@
 				item: "pneumaticcraft:pressure_tube"
 				type: "item"
 			}]
-			title: "&aPressure Tube"
+			title: "{ftbquests.chapter.pneumatic_craft.quest3FD955D36E5583A0.title}"
 			x: -2.0d
 			y: -1.0d
 		}
 		{
 			dependencies: ["5ED6F6F711E62591"]
 			description: [
-				"Place the laser, drill and both IO units in a cross around the platform"
+				"{ftbquests.chapter.pneumatic_craft.quest79D89CA01ACE05B6.description1}"
 				""
-				"Place the controller next to any of the other blocks - this is where you insert upgrades and the program as well as apply pressure (from the bottom)"
+				"{ftbquests.chapter.pneumatic_craft.quest79D89CA01ACE05B6.description2}"
 				""
-				"Place chests (or any other containers) next to each of the IO units - they are used as item input and output for the assembly line"
+				"{ftbquests.chapter.pneumatic_craft.quest79D89CA01ACE05B6.description3}"
 			]
 			icon: "pneumaticcraft:assembly_controller"
 			id: "79D89CA01ACE05B6"
@@ -163,7 +163,7 @@
 					type: "item"
 				}
 			]
-			title: "Assembly Line"
+			title: "{ftbquests.chapter.pneumatic_craft.quest79D89CA01ACE05B6.title}"
 			x: 8.0d
 			y: 0.0d
 		}
@@ -173,7 +173,7 @@
 				"4CABEF8D25B3DFAF"
 				"6592A5AC32261260"
 			]
-			description: ["You need to craft the Bucket in a Pressure Chamber"]
+			description: ["{ftbquests.chapter.pneumatic_craft.quest1A76236620EAD628.description1}"]
 			id: "1A76236620EAD628"
 			rewards: [{
 				id: "1E9312C76F7A9BE0"
@@ -211,9 +211,9 @@
 				"27FB06E6707B172A"
 			]
 			description: [
-				"Make sure to fully irradiate the PCB in the UV light box before etching"
+				"{ftbquests.chapter.pneumatic_craft.quest68BB24E0782140ED.description1}"
 				""
-				"Etching acid is NOT consumed unless you heat the tank"
+				"{ftbquests.chapter.pneumatic_craft.quest68BB24E0782140ED.description2}"
 			]
 			id: "68BB24E0782140ED"
 			rewards: [{
@@ -339,13 +339,13 @@
 		}
 		{
 			description: [
-				"Right click on a chest/tank to bind it"
+				"{ftbquests.chapter.pneumatic_craft.quest6743ADE46B9DB9AF.description1}"
 				""
-				"Summons a drone that exchanges, for example, emeralds for the PCB blueprint needed for the UV Light Box"
+				"{ftbquests.chapter.pneumatic_craft.quest6743ADE46B9DB9AF.description2}"
 				""
-				"Later, you'll also use it to purchase a program for the assembly line"
+				"{ftbquests.chapter.pneumatic_craft.quest6743ADE46B9DB9AF.description3}"
 				""
-				"Needs to be charged with pressure to be used"
+				"{ftbquests.chapter.pneumatic_craft.quest6743ADE46B9DB9AF.description4}"
 			]
 			hide_dependency_lines: true
 			id: "6743ADE46B9DB9AF"
@@ -363,7 +363,7 @@
 			y: 3.0d
 		}
 		{
-			description: ["Charges the Amadron Tablet"]
+			description: ["{ftbquests.chapter.pneumatic_craft.quest347669A57E6EFB25.description1}"]
 			hide_dependency_lines: true
 			id: "347669A57E6EFB25"
 			rewards: [{
@@ -430,15 +430,15 @@
 		{
 			dependencies: ["02374F07E02F5802"]
 			description: [
-				"Advanced Air Compressor uses solid fuels"
+				"{ftbquests.chapter.pneumatic_craft.quest29630DE4AE5331E9.description1}"
 				""
-				"Advanced Liquid Compressor uses liquid fuels and hot liquids"
+				"{ftbquests.chapter.pneumatic_craft.quest29630DE4AE5331E9.description2}"
 				""
-				"Flux Compressor uses FE"
+				"{ftbquests.chapter.pneumatic_craft.quest29630DE4AE5331E9.description3}"
 				""
-				"Solar Compressor uses... the sun."
+				"{ftbquests.chapter.pneumatic_craft.quest29630DE4AE5331E9.description4}"
 				"{@pagebreak}"
-				"All advanced compressors require heat management (see quest above). The first 3 get slower the hotter they are, the solar compressor gets faster the hotter it is, and gets more heat the faster it is. However, a too high temperature causes damage."
+				"{ftbquests.chapter.pneumatic_craft.quest29630DE4AE5331E9.description5}"
 			]
 			icon: "pneumaticcraft:advanced_air_compressor"
 			id: "29630DE4AE5331E9"
@@ -473,21 +473,21 @@
 						]
 					}
 				}
-				title: "Compressor"
+				title: "{ftbquests.chapter.pneumatic_craft.quest29630DE4AE5331E9.task.891908531615266.title}"
 				type: "item"
 			}]
-			title: "Advanced Compressors"
+			title: "{ftbquests.chapter.pneumatic_craft.quest29630DE4AE5331E9.title}"
 			x: 12.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["29630DE4AE5331E9"]
 			description: [
-				"Advanced &cCompressors&r (like the &cFlux Compressor&r) generate &ereduced efficiency&r if heat isn’t removed; they produce heat that must be dissipated to prevent slowdown."
+				"{ftbquests.chapter.pneumatic_craft.quest62975CBE1B6022DD.description1}"
 				""
-				"The most basic method is attaching &aHeat Sinks&r; &a3–4 Heat Sinks&r will keep a fully upgraded compressor usable if it’s not running constantly."
+				"{ftbquests.chapter.pneumatic_craft.quest62975CBE1B6022DD.description2}"
 				""
-				"To run a compressor continuously with maximum &bSpeed Upgrades&r, use &dAir Grates&r to cool the heat sinks more efficiently."
+				"{ftbquests.chapter.pneumatic_craft.quest62975CBE1B6022DD.description3}"
 			]
 			id: "62975CBE1B6022DD"
 			min_required_tasks: 1
@@ -514,7 +514,7 @@
 		}
 		{
 			dependencies: ["29630DE4AE5331E9"]
-			description: ["Despite allowing you to set it higher than 20 bar, it'll explode if you do (:"]
+			description: ["{ftbquests.chapter.pneumatic_craft.quest3CC54D71B03FA025.description1}"]
 			id: "3CC54D71B03FA025"
 			rewards: [{
 				id: "7F80975368332574"
@@ -532,11 +532,11 @@
 		{
 			dependencies: ["3FD955D36E5583A0"]
 			description: [
-				"&bPressure Gauge Tube module: &7Emits a &4redstone&r signal proportional to the pressure in the tube it's attached to."
+				"{ftbquests.chapter.pneumatic_craft.quest3F9373946DFFFA08.description1}"
 				""
-				"&7Can be used to automatically turn the compressor on and off on demand."
+				"{ftbquests.chapter.pneumatic_craft.quest3F9373946DFFFA08.description2}"
 				""
-				"&7Applying a Module Expansion Card gives more precise control over the redstone level emitted."
+				"{ftbquests.chapter.pneumatic_craft.quest3F9373946DFFFA08.description3}"
 			]
 			id: "3F9373946DFFFA08"
 			optional: true
@@ -550,16 +550,16 @@
 				item: "pneumaticcraft:pressure_gauge_module"
 				type: "item"
 			}]
-			title: "&aPressure Gauge Tube Module"
+			title: "{ftbquests.chapter.pneumatic_craft.quest3F9373946DFFFA08.title}"
 			x: -3.0d
 			y: -3.0d
 		}
 		{
 			dependencies: ["5ED6F6F711E62591"]
 			description: [
-				"Adding it to the pressure gauge allows for better redstone level control"
+				"{ftbquests.chapter.pneumatic_craft.quest61CDCBB50B5D90BE.description1}"
 				""
-				"Adding it to the regulator allows you to set the output pressure higher than 5 bar"
+				"{ftbquests.chapter.pneumatic_craft.quest61CDCBB50B5D90BE.description2}"
 			]
 			id: "61CDCBB50B5D90BE"
 			optional: true
@@ -578,11 +578,11 @@
 		}
 		{
 			description: [
-				"Automatically vents pressure from machine when safe pressure is exceeded"
+				"{ftbquests.chapter.pneumatic_craft.quest5D95C949E4C2A004.description1}"
 				""
-				"It is not recommended to rely on it as pressure control, but only as safety net in case of a mistake"
+				"{ftbquests.chapter.pneumatic_craft.quest5D95C949E4C2A004.description2}"
 				""
-				"It is NOT capable of venting pressure from a fully upgraded advanced compressor fast enough to prevent the tubes attached to it from exploding"
+				"{ftbquests.chapter.pneumatic_craft.quest5D95C949E4C2A004.description3}"
 			]
 			id: "5D95C949E4C2A004"
 			rewards: [{
@@ -600,9 +600,9 @@
 		}
 		{
 			description: [
-				"Increases the volume of the machine"
-				"Air volume changes will result in lower pressure changes"
-				"Smooths out pressure spikes"
+				"{ftbquests.chapter.pneumatic_craft.quest10A026A0B5232B48.description1}"
+				"{ftbquests.chapter.pneumatic_craft.quest10A026A0B5232B48.description2}"
+				"{ftbquests.chapter.pneumatic_craft.quest10A026A0B5232B48.description3}"
 			]
 			id: "10A026A0B5232B48"
 			rewards: [{
@@ -619,7 +619,7 @@
 			y: 4.0d
 		}
 		{
-			description: ["Increases the operation speed of a machine. Duh."]
+			description: ["{ftbquests.chapter.pneumatic_craft.quest9AD8B3634F1DDC.description1}"]
 			id: "009AD8B3634F1DDC"
 			rewards: [{
 				id: "397D0E0EB2F8B884"
@@ -637,9 +637,9 @@
 		{
 			dependencies: ["3FD955D36E5583A0"]
 			description: [
-				"The &aRegulator&r controls pressure downstream when placed inline with a Pressure Tube."
-				"By default it limits pressure to &65 bar&r; applying a &credstone signal&r lowers that limit."
-				"Applying a &bModule Expansion Card&r lets you set the no-redstone limit both &6above&r and &6below&r 5 bar."
+				"{ftbquests.chapter.pneumatic_craft.quest75A8055A5589108E.description1}"
+				"{ftbquests.chapter.pneumatic_craft.quest75A8055A5589108E.description2}"
+				"{ftbquests.chapter.pneumatic_craft.quest75A8055A5589108E.description3}"
 			]
 			id: "75A8055A5589108E"
 			rewards: [{
@@ -658,8 +658,8 @@
 		{
 			dependencies: ["3FD955D36E5583A0"]
 			description: [
-				"The &cSafety Tube&r module vents excess air from a connected &cPressure Tube&r network when &epressure&r exceeds its set &6threshold&r, preventing &4overpressure&r."
-				"Its &6threshold&r can be adjusted by applying a &bModule Expansion Card&r for finer control of the venting level."
+				"{ftbquests.chapter.pneumatic_craft.quest308E0DD520021464.description1}"
+				"{ftbquests.chapter.pneumatic_craft.quest308E0DD520021464.description2}"
 			]
 			id: "308E0DD520021464"
 			rewards: [{
@@ -696,10 +696,10 @@
 					type: "item"
 				}
 			]
-			title: "&aThe Refinery"
+			title: "{ftbquests.chapter.pneumatic_craft.quest5C4CE56A09E333B.title}"
 			x: -2.0d
 			y: -5.0d
 		}
 	]
-	title: "PneumaticCraft"
+	title: "{ftbquests.chapter.pneumatic_craft.title}"
 }

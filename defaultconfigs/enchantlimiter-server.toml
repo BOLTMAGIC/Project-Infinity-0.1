@@ -1,42 +1,41 @@
 
 [enchantability]
-	#how much each point of enchantability in the item will add to its enchantment point pool
+	#how much each point of enchantability in the item will add to its enchantment point pool. Default: 0.5
 	#Range: 0.0 ~ 1.7976931348623157E308
 	"points per enchantability" = 0.0
 	#if the number of enchantment points falls within this distance to a whole number, it will be rounded to the whole number instead. This allows you to have clean 1/3 or 1/7 for the incremental cost of enchantments.
 	#Range: 0.0 ~ 1.0
 	granularity = 0.1
-	#how many enchantment points an item starts with
+	#how many enchantment points an item starts with. Default: 20
 	#Range: 0.0 ~ 1.7976931348623157E308
 	"base points" = 20.0
-	#the default cost to add a new enchantment onto an item.
+	#the default cost to add a new enchantment onto an item. Default: 0
 	#Range: 0.0 ~ 1.7976931348623157E308
 	"base cost" = 0.0
 	#the default cost to add one level to any existing enchantment on the item. An enchantment with level 1 will apply both the base cost and the incremental cost, once each.
 	#Range: 0.0 ~ 1.7976931348623157E308
 	"incremental cost" = 1.0
 	#Items that have their own enchantment point cap. Format is name, base enchantability, increment per extra point of enchantability.
-	"custom items" = ["matc:inferium_crystal, 2, 0", "matc:prudentium_crystal, 2, 0", "matc:tertium_crystal, 2, 0", "matc:imperium_crystal, 2, 0", "matc:supremium_crystal, 2, 0", "exdeorum:string_mesh, 2, 0", "exdeorum:flint_mesh, 2, 0", "exdeorum:iron_mesh, 2, 0", "exdeorum:golden_mesh, 2, 0", "exdeorum:diamond_mesh, 2, 0", "exdeorum:netherite_mesh, 2, 0", "kubejs:allthemodium_mesh, 2, 0", "kubejs:vibranium_mesh, 2, 0"]
+	"custom items" = ["matc:inferium_crystal, 2, 0", "matc:prudentium_crystal, 2, 0", "matc:tertium_crystal, 2, 0", "matc:imperium_crystal, 2, 0", "matc:supremium_crystal, 2, 0", "exdeorum:string_mesh, 2, 0", "exdeorum:flint_mesh, 2, 0", "exdeorum:iron_mesh, 2, 0", "exdeorum:golden_mesh, 2, 0", "exdeorum:diamond_mesh, 2, 0", "exdeorum:netherite_mesh, 2, 0", "kubejs:allthemodium_mesh, 2, 0", "kubejs:vibranium_mesh, 2, 0", "cyclic:soulstone, 1, 0"]
 	#Define enchantments here. Format is name, base cost, incremental cost.
 	enchantments = ["minecraft:mending, 8, 0", "minecraft:sharpness, 1, 1"]
 	#Enchantments that should be blacklisted. Format is name. Examples: ["minecraft:mending", "minecraft:sharpness"]
 	"blacklisted enchantments" = []
 
 [crystals]
-	#Enable or disable crystal items entirely
+	#Enable or disable crystal items entirely. Default: true
 	"enable crystals" = true
-	#Blacklist for crystals. Entries can be exact item (modid:item), tag (tag:namespace:path), or wildcard namespace (modid:*)
-	"crystal blacklist" = ["exdeorum:*", "kubejs:allthemodium_mesh", "kubejs:vibranium_mesh", "matc:*"]
-	#Value for common crystal
+	#Blacklist for crystals. Entries can be exact item (modid:item), tag (tag:namespace:path), or wildcard namespace (modid:*). Examples: ["minecraft:diamond_sword", "YOUR_MOD_ID:custom_item"]
+	"crystal blacklist" = ["exdeorum:*", "kubejs:allthemodium_mesh", "kubejs:vibranium_mesh", "matc:*", "cyclic:soulstone"]
+	#Value for common crystal. Default: 1
 	#Range: 0.0 ~ 1.7976931348623157E308
 	common_crystal_value = 1.0
-	#Value for uncommon crystal
+	#Value for uncommon crystal. Default: 3
 	#Range: 0.0 ~ 1.7976931348623157E308
 	uncommon_crystal_value = 3.0
-	#Value for rare crystal
+	#Value for rare crystal. Default: 5
 	#Range: 0.0 ~ 1.7976931348623157E308
 	rare_crystal_value = 5.0
-	#Value for legendary crystal
+	#Value for legendary crystal. Default: 10
 	#Range: 0.0 ~ 1.7976931348623157E308
 	legendary_crystal_value = 10.0
-

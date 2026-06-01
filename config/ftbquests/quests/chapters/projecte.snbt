@@ -1492,5 +1492,5 @@
 			y: -8.0d
 		}
 	]
-	title: "ProjectE Philo Stone"
+	title: "{ftbquests.chapter.projecte.title}"
 }

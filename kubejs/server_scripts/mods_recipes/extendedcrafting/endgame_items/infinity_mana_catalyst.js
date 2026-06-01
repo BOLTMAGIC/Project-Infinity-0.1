@@ -14,13 +14,13 @@ ServerEvents.recipes((event) => {
       ],
       key: {
         A: {
-          item: 'botanicalextramachinery:crimson_spark',
+          item: 'botanicalextramachinery:mazarine_spark',
         },
         B: {
-          item: 'botanicalextramachinery:crimson_dragonstone_block',
+          item: 'botanicalextramachinery:mazarine_dragonstone_block',
         },
         C: {
-          item: 'botanicalextramachinery:crimson_ingot_block',
+          item: 'botanicalextramachinery:mazarine_ingot_block',
         },
         D: {
           item: 'botanicalextramachinery:upgrade_tick_gen_mana_2',

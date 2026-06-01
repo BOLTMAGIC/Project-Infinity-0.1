@@ -6,6 +6,7 @@ MMEvents.createStructures((event) => {
     .controllerId('mm:mega_dissolver_controller')
     .name('Mega Dissolver Tier 1')
     .layout((a) => {
+      a.portsAnywhere(true);
       a.layer([
         '11111', 
         '11111', 
@@ -67,6 +68,7 @@ MMEvents.createStructures((event) => {
     .controllerId('mm:mega_dissolver_controller')
     .name('Mega Dissolver Tier 2')
     .layout((a) => {
+      a.portsAnywhere(true);
       a.layer([
         '11111', 
         '11111', 

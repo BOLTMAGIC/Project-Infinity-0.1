@@ -216,7 +216,7 @@ StartupEvents.registry('item', (e) => {
   createingot(e, 'sculk_alloy_ingot');
   createingot(e, 'crimson_iron_ingot');
   createingot(e, 'crimson_steel_ingot');
-  createingot(e, 'crystalline_alloy');  
+  createingot(e, 'crystalline_alloy');
   createingot(e, 'tyrian_steel_ingot');
 
   function createdust(e, input) {
@@ -451,22 +451,28 @@ StartupEvents.registry('item', (e) => {
   e.create('tank_nbt_remover')
     .displayName('Tank NBT Remover')
     .texture('kubejs:item/tank_nbt_remover');
-  
+
   e.create('nuclearcraft_copy_paste_tool')
     .displayName('Nuclearcraft Copy Paste Tool')
     .texture('kubejs:item/nuclearcraft_copy_paste_tool');
-    
+
   e.create('universal_wireless_terminal_uncrafter')
     .displayName('Universal Wireless Terminal Uncrafter')
     .texture('kubejs:item/universal_wireless_terminal_uncrafter');
-  
-  function createMekanismCompressed (e, item) {
+
+  function createMekanismCompressed(e, item) {
     e.create('compressed_enriched_' + item)
-      .displayName('Compressed Enriched ' + item.charAt(0).toUpperCase() + item.slice(1))
+      .displayName(
+        'Compressed Enriched ' + item.charAt(0).toUpperCase() + item.slice(1)
+      )
       .texture('kubejs:item/mekanism/compressed_enriched_' + item);
 
     e.create('double_compressed_enriched_' + item)
-      .displayName('Double Compressed Enriched ' + item.charAt(0).toUpperCase() + item.slice(1))
+      .displayName(
+        'Double Compressed Enriched ' +
+          item.charAt(0).toUpperCase() +
+          item.slice(1)
+      )
       .texture('kubejs:item/mekanism/double_compressed_enriched_' + item);
   }
 
@@ -487,5 +493,4 @@ StartupEvents.registry('item', (e) => {
   mekanismEnrichedMaterialsToCompress.forEach((material) => {
     createMekanismCompressed(e, material);
   });
-
 });

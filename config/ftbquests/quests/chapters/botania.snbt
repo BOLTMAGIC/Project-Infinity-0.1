@@ -282,14 +282,14 @@
 	quests: [
 		{
 			description: [
-				"Welcome to &aBotania&r !"
+				"{ftbquests.chapter.botania.quest68F417391B189AF5.description1}"
 				""
-				"Here, you'll discover the famous flowery magi-tech mod !"
+				"{ftbquests.chapter.botania.quest68F417391B189AF5.description2}"
 				""
-				"The quests in this quest line should be enough but you can always consult the &aLexica Botania&r."
+				"{ftbquests.chapter.botania.quest68F417391B189AF5.description3}"
 				""
-				"&2This quest was made by MiniMaxi!&r"
-				"&1Thank you a lot!&r"
+				"{ftbquests.chapter.botania.quest68F417391B189AF5.description4}"
+				"{ftbquests.chapter.botania.quest68F417391B189AF5.description5}"
 			]
 			icon: "botania:lexicon"
 			id: "68F417391B189AF5"
@@ -300,24 +300,24 @@
 			}]
 			shape: "octagon"
 			size: 1.5d
-			subtitle: "Start of the Botania Quest Line"
+			subtitle: "{ftbquests.chapter.botania.quest68F417391B189AF5.subtitle}"
 			tasks: [{
 				id: "0315AE155F01871C"
-				title: "Welcome to Botania"
+				title: "{ftbquests.chapter.botania.quest68F417391B189AF5.task.222275163436189468.title}"
 				type: "checkmark"
 			}]
-			title: "Welcome to &aBotania&r !"
+			title: "{ftbquests.chapter.botania.quest68F417391B189AF5.title}"
 			x: 0.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["68F417391B189AF5"]
 			description: [
-				"To start &aBotania&r, you will need to gather all the colors of &9Mystical Flowers&r."
+				"{ftbquests.chapter.botania.quest47F3BFD70E52C2D6.description1}"
 				""
-				"Use the &2Floral Fertilizer&r like normal Bone Meal but instead of growing Grass, it will make &9Mystical Flowers&r appear !"
+				"{ftbquests.chapter.botania.quest47F3BFD70E52C2D6.description2}"
 				""
-				"The &dFlower Pouch&r can be used to store &9Mystical Flowers&r."
+				"{ftbquests.chapter.botania.quest47F3BFD70E52C2D6.description3}"
 			]
 			hide_dependent_lines: true
 			id: "47F3BFD70E52C2D6"
@@ -626,19 +626,19 @@
 			]
 			dependency_requirement: "one_completed"
 			description: [
-				"The &3Petal Apothecary&r is the first crafting apparatus of &aBotania&r."
+				"{ftbquests.chapter.botania.quest52ED0C77D7F32B5A.description1}"
 				""
-				"It will allow you to create &eFunctional&r Flowers but more importantly, create &6Generating&r Flowers."
+				"{ftbquests.chapter.botania.quest52ED0C77D7F32B5A.description2}"
 				""
-				"&eFunctional&r Flowers are flowers that each have a specific function. They aren't really useful as other mods are better at what they do. If you want to use them, you can see all of them in the &aLexica Botania&r, chapter \"Functional flora\""
+				"{ftbquests.chapter.botania.quest52ED0C77D7F32B5A.description3}"
 				""
-				"&6Generating&r Flowers are flowers that produce &bmana&r. Each flower generate mana in a different way which will be described in their respective quests."
+				"{ftbquests.chapter.botania.quest52ED0C77D7F32B5A.description4}"
 				""
-				"To use the &3Petal Apothecary&r, fill it with water and throw all the ingredients into it then throw a seed."
+				"{ftbquests.chapter.botania.quest52ED0C77D7F32B5A.description5}"
 				""
 				""
-				"* Recipes that uses &5Runes&r won't consume them, once the craft is done you will get them back"
-				"* Once you have completed a recipe, right click on the &3Petal Apothecary&r with an empty hand to repeat the craft."
+				"{ftbquests.chapter.botania.quest52ED0C77D7F32B5A.description6}"
+				"{ftbquests.chapter.botania.quest52ED0C77D7F32B5A.description7}"
 			]
 			hide_dependency_lines: true
 			id: "52ED0C77D7F32B5A"
@@ -683,21 +683,21 @@
 						]
 					}
 				}
-				title: "Petal Apothecary"
+				title: "{ftbquests.chapter.botania.quest52ED0C77D7F32B5A.task.6384958466096206801.title}"
 				type: "item"
 			}]
-			title: "Creating flowers"
+			title: "{ftbquests.chapter.botania.quest52ED0C77D7F32B5A.title}"
 			x: 0.0d
 			y: 5.5d
 		}
 		{
 			dependencies: ["52ED0C77D7F32B5A"]
 			description: [
-				"The &ePure Daisy&r is the first and the most important &eFunctional&r flower."
+				"{ftbquests.chapter.botania.questFBB805BCAF6F082.description1}"
 				""
-				"It will allow you to create &2Livingwood&r and &7Livingrock&r by converting respectively Logs and Stone."
+				"{ftbquests.chapter.botania.questFBB805BCAF6F082.description2}"
 				""
-				"Simply place the blocks you want to convert next to it (the max radius is 1 so you can only convert 8 blocks at a time) and wait 60 seconds."
+				"{ftbquests.chapter.botania.questFBB805BCAF6F082.description3}"
 			]
 			id: "0FBB805BCAF6F082"
 			rewards: [
@@ -717,22 +717,22 @@
 				item: "botania:pure_daisy"
 				type: "item"
 			}]
-			title: "The most important &eFunctional&r flower"
+			title: "{ftbquests.chapter.botania.questFBB805BCAF6F082.title}"
 			x: -1.0d
 			y: 7.5d
 		}
 		{
 			dependencies: ["52ED0C77D7F32B5A"]
 			description: [
-				"The &6Endoflame&r is the first &6Generating&r flower you will craft."
+				"{ftbquests.chapter.botania.quest3FE28C9E227019CB.description1}"
 				""
-				"It produces &bmana&r by burning any fuel dropped in a 7×7×7 area around it."
+				"{ftbquests.chapter.botania.quest3FE28C9E227019CB.description2}"
 				""
-				"It will always produce 30 &bmana&r per seconds but fuels that burn longer will produce &bmana&r longer"
+				"{ftbquests.chapter.botania.quest3FE28C9E227019CB.description3}"
 				""
-				"Fuels that burn longer then 1600 seconds will burn for 1600 seconds"
+				"{ftbquests.chapter.botania.quest3FE28C9E227019CB.description4}"
 				""
-				"Also, it will only burn one fuel at a time, dropping 2 coal will consume one and leave the second."
+				"{ftbquests.chapter.botania.quest3FE28C9E227019CB.description5}"
 			]
 			id: "3FE28C9E227019CB"
 			rewards: [
@@ -758,7 +758,7 @@
 				item: "botania:endoflame"
 				type: "item"
 			}]
-			title: "The first &6Generating&r flower"
+			title: "{ftbquests.chapter.botania.quest3FE28C9E227019CB.title}"
 			x: 1.0d
 			y: 7.5d
 		}
@@ -769,9 +769,9 @@
 				"70C75B3D37CBFC99"
 			]
 			description: [
-				"The &bMana pool&r allows you to store &bmana&r."
+				"{ftbquests.chapter.botania.quest179DE16266875872.description1}"
 				""
-				"To use it, connect a &2Mana Spreader&r to it using the &2Wand of the Forest&r."
+				"{ftbquests.chapter.botania.quest179DE16266875872.description2}"
 			]
 			id: "179DE16266875872"
 			rewards: [
@@ -792,22 +792,22 @@
 				item: "botania:mana_pool"
 				type: "item"
 			}]
-			title: "&bMana&r storage"
+			title: "{ftbquests.chapter.botania.quest179DE16266875872.title}"
 			x: 2.0d
 			y: 9.5d
 		}
 		{
 			dependencies: ["5AA2A36DE532BA06"]
 			description: [
-				"The &2Wand of the Forest&r is &aBotania's&r wrench."
+				"{ftbquests.chapter.botania.quest5D0D8720104C49DA.description1}"
 				""
-				"Holding it will allow you to see specific information about &aBotania's&r blocks like the amount of &bmana&r currently in them."
+				"{ftbquests.chapter.botania.quest5D0D8720104C49DA.description2}"
 				""
-				"It has two modes, &5Bind&r and &3Function&r. Shift right-click with it in the air to change the mode."
+				"{ftbquests.chapter.botania.quest5D0D8720104C49DA.description3}"
 				""
-				"&5Bind mode&r is used to bind blocks together by sneak right-clicking. The bind order is always first the \"generator\" then the \"consumer\". Specific uses will be described in the quests using it."
+				"{ftbquests.chapter.botania.quest5D0D8720104C49DA.description4}"
 				""
-				"&3Function mode&r acts like a normal wrench from other mods, it can rotate blocks. Specific uses will be described in the quests using it."
+				"{ftbquests.chapter.botania.quest5D0D8720104C49DA.description5}"
 			]
 			id: "5D0D8720104C49DA"
 			rewards: [
@@ -835,7 +835,7 @@
 				}
 				type: "item"
 			}]
-			title: "&2Wand of the Forest&r"
+			title: "{ftbquests.chapter.botania.quest5D0D8720104C49DA.title}"
 			x: -1.0d
 			y: 11.5d
 		}
@@ -861,7 +861,7 @@
 				item: "botania:livingwood_log"
 				type: "item"
 			}]
-			title: "&2Livingwood&r"
+			title: "{ftbquests.chapter.botania.quest5AA2A36DE532BA06.title}"
 			x: -2.0d
 			y: 9.5d
 		}
@@ -880,20 +880,20 @@
 				item: { Count: 8, id: "botania:livingrock" }
 				type: "item"
 			}]
-			title: "&7Livingrock&r"
+			title: "{ftbquests.chapter.botania.quest6DA2ED7E58906226.title}"
 			x: 0.0d
 			y: 9.5d
 		}
 		{
 			dependencies: ["5D0D8720104C49DA"]
 			description: [
-				"The &2Mana Spreader&r is used to move &bmana&r around."
+				"{ftbquests.chapter.botania.quest70C75B3D37CBFC99.description1}"
 				""
-				"Using the &2Wand of the Forest&r bind &6Generating&r flowers to it and bind it to a &bMana Pool&r."
+				"{ftbquests.chapter.botania.quest70C75B3D37CBFC99.description2}"
 				""
-				"While holding the &2Wand of the Forest&r, you will see the path that the &bmana&r will take."
+				"{ftbquests.chapter.botania.quest70C75B3D37CBFC99.description3}"
 				""
-				"Take into consideration the distance between the &2Mana Spreader&r and the &bMana Pool&r as the &2Mana Spreader&r will only shoot a burst of &bmana&r if the current burst is finished and some &bmana&r is lost the further it has to go."
+				"{ftbquests.chapter.botania.quest70C75B3D37CBFC99.description4}"
 			]
 			id: "70C75B3D37CBFC99"
 			rewards: [
@@ -914,18 +914,18 @@
 				item: "botania:mana_spreader"
 				type: "item"
 			}]
-			title: "&2Mana Spreader&r"
+			title: "{ftbquests.chapter.botania.quest70C75B3D37CBFC99.title}"
 			x: 1.0d
 			y: 11.5d
 		}
 		{
 			dependencies: ["4D6F2BCF205B2C70"]
 			description: [
-				"The &bMana Tablet&r can be used ta transfer &bmana&r from one pool to another."
+				"{ftbquests.chapter.botania.quest87BE0F5A5B1752F.description1}"
 				""
-				"Simply toss the tablet into a pool and choose the right mode for the pool using the &2Wand of the Forest&r. Either fill the tablet or empty the tablet."
+				"{ftbquests.chapter.botania.quest87BE0F5A5B1752F.description2}"
 				""
-				"&bMana Tablets&r can store half a &bMana Pool&r"
+				"{ftbquests.chapter.botania.quest87BE0F5A5B1752F.description3}"
 			]
 			id: "087BE0F5A5B1752F"
 			rewards: [
@@ -946,16 +946,16 @@
 				item: "botania:mana_tablet"
 				type: "item"
 			}]
-			title: "&bMana&r transfer between pools"
+			title: "{ftbquests.chapter.botania.quest87BE0F5A5B1752F.title}"
 			x: 4.5d
 			y: 7.5d
 		}
 		{
 			dependencies: ["4D6F2BCF205B2C70"]
 			description: [
-				"The &bMana Splitter&r is used to split a burst of &bmana&r to 4 different pools."
+				"{ftbquests.chapter.botania.quest6161D04D870A52A6.description1}"
 				""
-				"Bind the &2Mana Spreader&r to the &bMana Splitter&r and place 4 pools around it."
+				"{ftbquests.chapter.botania.quest6161D04D870A52A6.description2}"
 			]
 			id: "6161D04D870A52A6"
 			rewards: [{
@@ -968,16 +968,16 @@
 				item: "botania:mana_distributor"
 				type: "item"
 			}]
-			title: "&bMana Splitter&r"
+			title: "{ftbquests.chapter.botania.quest6161D04D870A52A6.title}"
 			x: 3.0d
 			y: 11.0d
 		}
 		{
 			dependencies: ["087BE0F5A5B1752F"]
 			description: [
-				"The &bBand of Mana&r is a portable &bMana Tablet&r."
+				"{ftbquests.chapter.botania.quest46F2561F4FDAA1A.description1}"
 				""
-				"Certain items will need the &bmana&r stored in this to work."
+				"{ftbquests.chapter.botania.quest46F2561F4FDAA1A.description2}"
 			]
 			id: "046F2561F4FDAA1A"
 			rewards: [
@@ -1006,7 +1006,7 @@
 				"046F2561F4FDAA1A"
 				"58075F794EB7CF8E"
 			]
-			description: ["Same as the &bBand of Mana&r but will store 2 &bMana Pools&r"]
+			description: ["{ftbquests.chapter.botania.quest493F08ED3A17B6B4.description1}"]
 			id: "493F08ED3A17B6B4"
 			rewards: [
 				{
@@ -1030,7 +1030,7 @@
 		}
 		{
 			dependencies: ["179DE16266875872"]
-			description: ["By throwing certain items in a &bMana pool&r, they will transform in their &bmana-infused&r conterparts."]
+			description: ["{ftbquests.chapter.botania.quest4D6F2BCF205B2C70.description1}"]
 			id: "4D6F2BCF205B2C70"
 			rewards: [{
 				id: "580650353B14A22D"
@@ -1075,19 +1075,19 @@
 						]
 					}
 				}
-				title: "&bMana-infused&r items"
+				title: "{ftbquests.chapter.botania.quest4D6F2BCF205B2C70.task.99143465788410065.title}"
 				type: "item"
 			}]
-			title: "&bMana-infused&r items"
+			title: "{ftbquests.chapter.botania.quest4D6F2BCF205B2C70.title}"
 			x: 4.5d
 			y: 9.5d
 		}
 		{
 			dependencies: ["179DE16266875872"]
 			description: [
-				"Throw a Black Lotus in a non-empty &bMana Pool&r and it will fill it with some &bmana&r."
+				"{ftbquests.chapter.botania.quest5C0E5BE2A48B5BFF.description1}"
 				""
-				"Can be found in chests in structures but can also be crafted."
+				"{ftbquests.chapter.botania.quest5C0E5BE2A48B5BFF.description2}"
 			]
 			id: "5C0E5BE2A48B5BFF"
 			optional: true
@@ -1121,19 +1121,19 @@
 						]
 					}
 				}
-				title: "Black Lotus"
+				title: "{ftbquests.chapter.botania.quest5C0E5BE2A48B5BFF.task.4319790877380759082.title}"
 				type: "item"
 			}]
-			title: "\"Free\" &bmana&r"
+			title: "{ftbquests.chapter.botania.quest5C0E5BE2A48B5BFF.title}"
 			x: 3.0d
 			y: 8.0d
 		}
 		{
 			dependencies: ["4D6F2BCF205B2C70"]
 			description: [
-				"This armor offers the same protection as an iron armor but with better enchantability and durability."
+				"{ftbquests.chapter.botania.quest376298788AA44A74.description1}"
 				""
-				"It is able to repair itself using &bmana&r from the player's inventory."
+				"{ftbquests.chapter.botania.quest376298788AA44A74.description2}"
 			]
 			hide_dependent_lines: true
 			id: "376298788AA44A74"
@@ -1197,16 +1197,16 @@
 					type: "item"
 				}
 			]
-			title: "Manasteel Armor"
+			title: "{ftbquests.chapter.botania.quest376298788AA44A74.title}"
 			x: 6.0d
 			y: 8.0d
 		}
 		{
 			dependencies: ["4D6F2BCF205B2C70"]
 			description: [
-				"Comparable to iron tools but with better enchantability and durability."
+				"{ftbquests.chapter.botania.quest20251947A216F87C.description1}"
 				""
-				"They are able to repair themselves using &bmana&r from the player's inventory."
+				"{ftbquests.chapter.botania.quest20251947A216F87C.description2}"
 			]
 			hide_dependent_lines: true
 			id: "20251947A216F87C"
@@ -1292,7 +1292,7 @@
 					type: "item"
 				}
 			]
-			title: "Manasteel Tools"
+			title: "{ftbquests.chapter.botania.quest20251947A216F87C.title}"
 			x: 6.0d
 			y: 11.0d
 		}
@@ -1306,15 +1306,15 @@
 			]
 			dependency_requirement: "one_completed"
 			description: [
-				"&aBotania's&r &bMana Lenses&r can be given to &2Mana Spreader&r to make hem more effective."
+				"{ftbquests.chapter.botania.quest630E72809CB9525B.description1}"
 				""
-				"The basic &bMana Lense&r does nothing but by upgrading it you can make the &bmana&r bursts do lots of things."
+				"{ftbquests.chapter.botania.quest630E72809CB9525B.description2}"
 				""
-				"There are a lot of different Lenses and you can read all about them in the &aLexica Botania&r, chapter \"Mana Manipulation\" → \"Mana Lenses\""
+				"{ftbquests.chapter.botania.quest630E72809CB9525B.description3}"
 				""
-				"You can also combine 2 different Lenses to combine their powers."
+				"{ftbquests.chapter.botania.quest630E72809CB9525B.description4}"
 				""
-				"I won't tell you which are the best but you can deduce it by looking at the &2Mana Spreader&r quest."
+				"{ftbquests.chapter.botania.quest630E72809CB9525B.description5}"
 			]
 			id: "630E72809CB9525B"
 			rewards: [
@@ -1334,26 +1334,26 @@
 				item: "botania:lens_normal"
 				type: "item"
 			}]
-			title: "&2Mana Spreader&r upgrades"
+			title: "{ftbquests.chapter.botania.quest630E72809CB9525B.title}"
 			x: 4.500000000000007d
 			y: 15.357142857142861d
 		}
 		{
 			dependencies: ["4D6F2BCF205B2C70"]
 			description: [
-				"The &7Runic Altar&r is the second crafting apparatus you'll create."
+				"{ftbquests.chapter.botania.quest130A9DE38F9537C7.description1}"
 				""
-				"It's main use is to craft &5Runes&r."
+				"{ftbquests.chapter.botania.quest130A9DE38F9537C7.description2}"
 				""
-				"It uses &bmana&r to craft items, the only way to give it &bmana&r is by one or multiple &2Mana Spreaders&r to it."
+				"{ftbquests.chapter.botania.quest130A9DE38F9537C7.description3}"
 				""
-				"Right click the ingredients on it and use the &2Wand of the Forest&r to see the crafting progress."
+				"{ftbquests.chapter.botania.quest130A9DE38F9537C7.description4}"
 				""
-				"Once done, toss a &7Livingrock&r on top of the &7Runic Altar&r and right click it with the &2Wand of the Forest&r."
+				"{ftbquests.chapter.botania.quest130A9DE38F9537C7.description5}"
 				""
 				""
-				"* Recipes that uses &5Runes&r won't consume them, once the craft is done you will get them back"
-				"* Once you have completed a recipe, right click on the &7Runic Altar&r with an empty hand to repeat the craft."
+				"{ftbquests.chapter.botania.quest130A9DE38F9537C7.description6}"
+				"{ftbquests.chapter.botania.quest130A9DE38F9537C7.description7}"
 			]
 			id: "130A9DE38F9537C7"
 			tasks: [{
@@ -1361,7 +1361,7 @@
 				item: "botania:runic_altar"
 				type: "item"
 			}]
-			title: "&7Runic Altar&r"
+			title: "{ftbquests.chapter.botania.quest130A9DE38F9537C7.title}"
 			x: 4.5d
 			y: 11.5d
 		}
@@ -1428,12 +1428,12 @@
 		{
 			dependencies: ["4D6F2BCF205B2C70"]
 			description: [
-				"Though the &9Terrestrial Agglomeration Plate&r in the next quest can be provided &bmana&r using &2Mana Spreaders&r, it is recommended to use &eSparks&r as their &bmana&r transfer rate is much higher."
+				"{ftbquests.chapter.botania.quest46DBD1A6292CFEDC.description1}"
 				""
 				""
-				"* &eSparks's&r &bmana&r transfer rate is 1,000 &bmana&r per tick (20,000/s)"
+				"{ftbquests.chapter.botania.quest46DBD1A6292CFEDC.description2}"
 				""
-				"* A &eSparks's&r max radius is 12"
+				"{ftbquests.chapter.botania.quest46DBD1A6292CFEDC.description3}"
 			]
 			id: "46DBD1A6292CFEDC"
 			rewards: [
@@ -1454,7 +1454,7 @@
 				item: "botania:spark"
 				type: "item"
 			}]
-			title: "&eSparks&r"
+			title: "{ftbquests.chapter.botania.quest46DBD1A6292CFEDC.title}"
 			x: 7.5d
 			y: 10.5d
 		}
@@ -1468,13 +1468,13 @@
 				"1E6DD710F4869937"
 			]
 			description: [
-				"The &9Terrestrial Agglomeration Plate&r is used to craft better ingots by combining multiple ingredients."
+				"{ftbquests.chapter.botania.quest4235FDAC8F6F8414.description1}"
 				""
-				"It is a multiblock so it needs a little structure made of 5 &7Livingrocks&r and 4 blocks of Lapis Lazuli in a checkerboard pattern with the &9Terrestrial Agglomeration Plate&r on top of the center &7Livingrock&r."
+				"{ftbquests.chapter.botania.quest4235FDAC8F6F8414.description2}"
 				""
-				"To send it &bmana&r, place a &eSpark&r on a &bMana Pool&r and another on the &9Terrestrial Agglomeration Plate&r. You can place more &eSparks&r on top of &bMana Pools&r and the craft will be faster."
+				"{ftbquests.chapter.botania.quest4235FDAC8F6F8414.description3}"
 				""
-				"To craft, toss all items on top of it."
+				"{ftbquests.chapter.botania.quest4235FDAC8F6F8414.description4}"
 			]
 			id: "4235FDAC8F6F8414"
 			rewards: [
@@ -1508,16 +1508,16 @@
 					type: "item"
 				}
 			]
-			title: "&9Terrestrial Agglomeration Plate&r"
+			title: "{ftbquests.chapter.botania.quest4235FDAC8F6F8414.title}"
 			x: 9.5d
 			y: 10.5d
 		}
 		{
 			dependencies: ["4D6F2BCF205B2C70"]
 			description: [
-				"When placed under a &bMana Pool&r, the &7Alchemy Catalyst&r allows form items to transformed in other items."
+				"{ftbquests.chapter.botania.quest1F119420D1ED2973.description1}"
 				""
-				"Look at the uses of the &7Alchemy Catalyst&r in JEI to see all the transformations."
+				"{ftbquests.chapter.botania.quest1F119420D1ED2973.description2}"
 			]
 			id: "1F119420D1ED2973"
 			tasks: [{
@@ -1525,16 +1525,16 @@
 				item: "botania:alchemy_catalyst"
 				type: "item"
 			}]
-			title: "&7Alchemy Catalyst&r"
+			title: "{ftbquests.chapter.botania.quest1F119420D1ED2973.title}"
 			x: 7.0d
 			y: 9.0d
 		}
 		{
 			dependencies: ["1E6DD710F4869937"]
 			description: [
-				"The &bBand of Aura&r is a portable &bmana&r generator."
+				"{ftbquests.chapter.botania.quest55795F601DE8A130.description1}"
 				""
-				"It will passively create 1 &bmana&r per 50 seconds and store it in the player's &bMana Tablet&r or &bBand of Mana&r."
+				"{ftbquests.chapter.botania.quest55795F601DE8A130.description2}"
 			]
 			id: "55795F601DE8A130"
 			rewards: [
@@ -1562,7 +1562,7 @@
 				"55795F601DE8A130"
 				"58075F794EB7CF8E"
 			]
-			description: ["Same as the &bBand of Aura&r but will create &bmana&r at a way faster rate of 10 &bmana&r per seconds."]
+			description: ["{ftbquests.chapter.botania.quest77997EB944060F4D.description1}"]
 			id: "77997EB944060F4D"
 			rewards: [
 				{
@@ -1587,9 +1587,9 @@
 		{
 			dependencies: ["4235FDAC8F6F8414"]
 			description: [
-				"The first ingot you will make with the &9Terrestrial Agglomeration Plate&r is the &aTerrasteel Ingot&r."
+				"{ftbquests.chapter.botania.quest7571FD6C9C46926F.description1}"
 				""
-				"It is crafted with 1 Manasteel Ingot, one Mana Pearl and one Mana Diamond."
+				"{ftbquests.chapter.botania.quest7571FD6C9C46926F.description2}"
 			]
 			id: "7571FD6C9C46926F"
 			rewards: [
@@ -1609,7 +1609,7 @@
 				item: "botania:terrasteel_ingot"
 				type: "item"
 			}]
-			title: "&aTerrasteel Ingot&r"
+			title: "{ftbquests.chapter.botania.quest7571FD6C9C46926F.title}"
 			x: 12.0d
 			y: 10.5d
 		}
@@ -1619,11 +1619,11 @@
 				"7571FD6C9C46926F"
 			]
 			description: [
-				"The &aTerrasteel&r Armor is a Diamond Armor."
+				"{ftbquests.chapter.botania.quest7006DD713B305FD6.description1}"
 				""
-				"It has more Armor Toughness and even has Knockback Resistance."
+				"{ftbquests.chapter.botania.quest7006DD713B305FD6.description2}"
 				""
-				"Just like the Manasteel Armor, it will repair itself with &bmana&r."
+				"{ftbquests.chapter.botania.quest7006DD713B305FD6.description3}"
 			]
 			id: "7006DD713B305FD6"
 			optional: true
@@ -1698,20 +1698,20 @@
 					type: "item"
 				}
 			]
-			title: "Terresteel Armor"
+			title: "{ftbquests.chapter.botania.quest7006DD713B305FD6.title}"
 			x: 12.0d
 			y: 8.5d
 		}
 		{
 			dependencies: ["7571FD6C9C46926F"]
 			description: [
-				"Similar to Diamond Tools but with abilities !"
+				"{ftbquests.chapter.botania.quest6989D4891C2ABDE3.description1}"
 				""
-				"The &aTerra Blade&r will sometimes shoot a beam of green particles dealing the same damage as the Terra Blade would with a melee hit."
+				"{ftbquests.chapter.botania.quest6989D4891C2ABDE3.description2}"
 				""
-				"The &aTerra Shatterer&r will use &bmana&r imbued inside it by throwing it in a &bMana Pool&r to upgrade it's rank. The better the rank, the more blocks it will mine in width and height when it's ability is on (sneak right-click to toggle). The SS rank which is the best will mine in an 9x9 area."
+				"{ftbquests.chapter.botania.quest6989D4891C2ABDE3.description3}"
 				""
-				"The &aTerra Truncator&r will chop entire trees down."
+				"{ftbquests.chapter.botania.quest6989D4891C2ABDE3.description4}"
 			]
 			id: "6989D4891C2ABDE3"
 			optional: true
@@ -1775,26 +1775,26 @@
 					type: "item"
 				}
 			]
-			title: "Terrasteel Tools"
+			title: "{ftbquests.chapter.botania.quest6989D4891C2ABDE3.title}"
 			x: 12.0d
 			y: 12.5d
 		}
 		{
 			dependencies: ["7571FD6C9C46926F"]
 			description: [
-				"The &dPortal to Alfheim&r is the third and last crafting apparatus of &aBotania&r."
+				"{ftbquests.chapter.botania.quest1BA3B78781BB2C22.description1}"
 				""
-				"It will allow you to trade ressources with &dAlfheim's&r residents for better ones."
+				"{ftbquests.chapter.botania.quest1BA3B78781BB2C22.description2}"
 				""
-				"To make it, look at the quest \"Portal Structure\" above this one."
+				"{ftbquests.chapter.botania.quest1BA3B78781BB2C22.description3}"
 				""
-				"To open It, right click on the Elven Gateway Core with a &2Wand of the Forest&r."
+				"{ftbquests.chapter.botania.quest1BA3B78781BB2C22.description4}"
 				""
-				"Make sure that there are at least 2 &bMana Pools&r with Natura Pylons on top with at least 100,000 &bmana&r in each of them in an 11x11x11 area around the core."
+				"{ftbquests.chapter.botania.quest1BA3B78781BB2C22.description5}"
 				""
-				"The activation doesn't consume the &bmana&r but throwing items into the portal will. Make sure you don't run out of &bmana&r as it will close the portal and everything thrown into it will be deleted."
+				"{ftbquests.chapter.botania.quest1BA3B78781BB2C22.description6}"
 				""
-				"Also, throwing anything into the portal other then items that can be exchanged will delete the item, be careful !"
+				"{ftbquests.chapter.botania.quest1BA3B78781BB2C22.description7}"
 			]
 			id: "1BA3B78781BB2C22"
 			min_width: 300
@@ -1848,13 +1848,13 @@
 					type: "item"
 				}
 			]
-			title: "&dPortal to Alfheim&r"
+			title: "{ftbquests.chapter.botania.quest1BA3B78781BB2C22.title}"
 			x: 14.5d
 			y: 10.5d
 		}
 		{
 			dependencies: ["1BA3B78781BB2C22"]
-			description: ["{image:kubejs:block/screen/botania_portaltoalfheim width:320 height:180 align:center}"]
+			description: ["{ftbquests.chapter.botania.quest68D4B660E7F35ADB.image0}"]
 			id: "68D4B660E7F35ADB"
 			min_width: 320
 			rewards: [{
@@ -1864,7 +1864,7 @@
 			}]
 			tasks: [{
 				id: "240196294AC8ABB2"
-				title: "Portal Structure"
+				title: "{ftbquests.chapter.botania.quest68D4B660E7F35ADB.task.2594519964434607026.title}"
 				type: "checkmark"
 			}]
 			x: 14.5d
@@ -1872,7 +1872,7 @@
 		}
 		{
 			dependencies: ["1BA3B78781BB2C22"]
-			description: ["Throw your &aLexica Botania&r in the &dAlfheim Portal&r to get a better one upgraded with Elven knowledge."]
+			description: ["{ftbquests.chapter.botania.quest2AD7EADE571198E1.description1}"]
 			id: "2AD7EADE571198E1"
 			rewards: [{
 				id: "2DA701CDAA8466D1"
@@ -1890,16 +1890,16 @@
 				}
 				type: "item"
 			}]
-			title: "Better &aLexica Botania&r"
+			title: "{ftbquests.chapter.botania.quest2AD7EADE571198E1.title}"
 			x: 16.0d
 			y: 9.0d
 		}
 		{
 			dependencies: ["1BA3B78781BB2C22"]
 			description: [
-				"The Elves will trade your &bMana-infused&r resources for &dAlfheim&r resources."
+				"{ftbquests.chapter.botania.questC2063795FE160A8.description1}"
 				""
-				"Just throw them in the portal !"
+				"{ftbquests.chapter.botania.questC2063795FE160A8.description2}"
 			]
 			id: "0C2063795FE160A8"
 			rewards: [
@@ -1961,16 +1961,16 @@
 						]
 					}
 				}
-				title: "&dAlfheim&r resources"
+				title: "{ftbquests.chapter.botania.questC2063795FE160A8.task.2712867337988763491.title}"
 				type: "item"
 			}]
-			title: "&dAlfheim&r resources"
+			title: "{ftbquests.chapter.botania.questC2063795FE160A8.title}"
 			x: 17.0d
 			y: 13.0d
 		}
 		{
 			dependencies: ["0C2063795FE160A8"]
-			description: ["Just like the &7Alchemy Catalyst&r but will duplicate some resources at the cost of &bmana&r."]
+			description: ["{ftbquests.chapter.botania.questD1BBC52F3FC53B4.description1}"]
 			id: "0D1BBC52F3FC53B4"
 			rewards: [
 				{
@@ -1990,24 +1990,24 @@
 				item: "botania:conjuration_catalyst"
 				type: "item"
 			}]
-			title: "&7Conjuration Catalyst&r"
+			title: "{ftbquests.chapter.botania.questD1BBC52F3FC53B4.title}"
 			x: 15.0d
 			y: 15.0d
 		}
 		{
 			dependencies: ["0C2063795FE160A8"]
 			description: [
-				"Like their name implies, the &eSpark Augments&r will allow you to upgrade / control your &eSparks&r like you want."
+				"{ftbquests.chapter.botania.quest6292C7B74E6E57DE.description1}"
 				""
 				""
-				"Dispersive Augment: The &eSpark&r will try to drain the &bmana&r in its pool to charge nearby player's &bMana Tablet&r or &bBand of Mana&r."
+				"{ftbquests.chapter.botania.quest6292C7B74E6E57DE.description2}"
 				""
 				""
-				"Dominant Augment: The &eSpark&r will try to take the &bmana&r from other Sparks pools to their own pool."
+				"{ftbquests.chapter.botania.quest6292C7B74E6E57DE.description3}"
 				""
-				"Recessive Augment: The &eSpark&r will try to empty it's pool to other Sparks pools."
+				"{ftbquests.chapter.botania.quest6292C7B74E6E57DE.description4}"
 				""
-				"Isolated Augment: Will stop all interactions with Dominant or Recessive &eSparks&r"
+				"{ftbquests.chapter.botania.quest6292C7B74E6E57DE.description5}"
 			]
 			id: "6292C7B74E6E57DE"
 			rewards: [
@@ -2048,19 +2048,19 @@
 						]
 					}
 				}
-				title: "Augments"
+				title: "{ftbquests.chapter.botania.quest6292C7B74E6E57DE.task.7857269542773648462.title}"
 				type: "item"
 			}]
-			title: "&eSpark Augments&r"
+			title: "{ftbquests.chapter.botania.quest6292C7B74E6E57DE.title}"
 			x: 17.0d
 			y: 15.5d
 		}
 		{
 			dependencies: ["0C2063795FE160A8"]
 			description: [
-				"Identical to the Manasteel Armor but has a chance to spawn Pixies when the player is hurt."
+				"{ftbquests.chapter.botania.quest3D9753C5F792B3D1.description1}"
 				""
-				"Just like the Manasteel Armor, it will repair itself with &bmana&r."
+				"{ftbquests.chapter.botania.quest3D9753C5F792B3D1.description2}"
 			]
 			id: "3D9753C5F792B3D1"
 			optional: true
@@ -2110,27 +2110,27 @@
 					type: "item"
 				}
 			]
-			title: "Elementium Armor"
+			title: "{ftbquests.chapter.botania.quest3D9753C5F792B3D1.title}"
 			x: 17.0d
 			y: 10.5d
 		}
 		{
 			dependencies: ["0C2063795FE160A8"]
 			description: [
-				"Similar to Manasteel Tools but special abilities."
+				"{ftbquests.chapter.botania.quest2FD61062F6FDE75C.description1}"
 				""
-				"Sword : will spawn pixies."
+				"{ftbquests.chapter.botania.quest2FD61062F6FDE75C.description2}"
 				""
-				"Pickaxe : will delete \"mundane blocks\" like Cobblestone or Dirt\" can be combined with a Terra Shatterer to get it's effect."
-				"Be careful, this process cannot be undone."
+				"{ftbquests.chapter.botania.quest2FD61062F6FDE75C.description3}"
+				"{ftbquests.chapter.botania.quest2FD61062F6FDE75C.description4}"
 				""
-				"Axe : has a chance to drop mob skulls."
+				"{ftbquests.chapter.botania.quest2FD61062F6FDE75C.description5}"
 				""
-				"Shovel : if it breaks a gravity-affected block, it will also break the block above it."
+				"{ftbquests.chapter.botania.quest2FD61062F6FDE75C.description6}"
 				""
-				"Hoe : when creating Farmland, il will be watered."
+				"{ftbquests.chapter.botania.quest2FD61062F6FDE75C.description7}"
 				""
-				"Shears : will shear every sheep in an 11 block radius."
+				"{ftbquests.chapter.botania.quest2FD61062F6FDE75C.description8}"
 			]
 			id: "2FD61062F6FDE75C"
 			min_width: 300
@@ -2202,20 +2202,20 @@
 					type: "item"
 				}
 			]
-			title: "Elementium Tools"
+			title: "{ftbquests.chapter.botania.quest2FD61062F6FDE75C.title}"
 			x: 19.0d
 			y: 11.0d
 		}
 		{
 			dependencies: ["6E157656CECF1B5A"]
 			description: [
-				"Your next objective is to fight the &5Guardian of Gaia&r to obtain &dGaia Spirits&r."
+				"{ftbquests.chapter.botania.quest8BCCDEF986D39AB.description1}"
 				""
-				"To do so, you will need to sumon him using 4 Gaia Pylons and an active Beacon."
+				"{ftbquests.chapter.botania.quest8BCCDEF986D39AB.description2}"
 				""
-				"To make the structure, look at the quest \"Gaia Structure\" above this one."
+				"{ftbquests.chapter.botania.quest8BCCDEF986D39AB.description3}"
 				""
-				"When you are prepared, use a &aTerrasteel Ingot&r on the Beacon by shift right-clicking to summon the &5Guardian of Gaia&r"
+				"{ftbquests.chapter.botania.quest8BCCDEF986D39AB.description4}"
 			]
 			id: "08BCCDEF986D39AB"
 			rewards: [
@@ -2243,16 +2243,16 @@
 					type: "item"
 				}
 			]
-			title: "Fighting the &5Guardian of Gaia&r"
+			title: "{ftbquests.chapter.botania.quest8BCCDEF986D39AB.title}"
 			x: 21.5d
 			y: 13.0d
 		}
 		{
 			dependencies: ["08BCCDEF986D39AB"]
 			description: [
-				"{image:kubejs:block/screen/botania_gaiaritual1 width:320 height:180 align:center}"
+				"{ftbquests.chapter.botania.quest50A030852881D71.image0}"
 				"{@pagebreak}"
-				"{image:kubejs:block/screen/botania_gaiaritual2 width:320 height:180 align:center}"
+				"{ftbquests.chapter.botania.quest50A030852881D71.image2}"
 			]
 			id: "050A030852881D71"
 			min_width: 320
@@ -2263,7 +2263,7 @@
 			}]
 			tasks: [{
 				id: "72A741A4FE1C1F86"
-				title: "Gaia Structure"
+				title: "{ftbquests.chapter.botania.quest50A030852881D71.task.8261644218328162182.title}"
 				type: "checkmark"
 			}]
 			x: 21.5d
@@ -2271,7 +2271,7 @@
 		}
 		{
 			dependencies: ["0C2063795FE160A8"]
-			description: ["Upgraded &2Mana Spreader&r, will send 1.5 times more &bmana&r."]
+			description: ["{ftbquests.chapter.botania.quest36889006941554E8.description1}"]
 			id: "36889006941554E8"
 			rewards: [
 				{
@@ -2300,9 +2300,9 @@
 				"148ACEF973512B49"
 			]
 			description: [
-				"Upgraded Elven Mana Spreader, will send 4 times more &bmana&r then the normal &2Mana Spreader&r."
+				"{ftbquests.chapter.botania.quest3322EC6E6CA8BAC3.description1}"
 				""
-				"The best Mana Spreader you can get. If you are producing more &bmana&r then it can handle you should look at the Botanical Machinery + Extra Quest Line."
+				"{ftbquests.chapter.botania.quest3322EC6E6CA8BAC3.description2}"
 			]
 			id: "3322EC6E6CA8BAC3"
 			rewards: [
@@ -2338,18 +2338,18 @@
 				item: "botania:life_essence"
 				type: "item"
 			}]
-			title: "&dGaia Spirits&r"
+			title: "{ftbquests.chapter.botania.quest148ACEF973512B49.title}"
 			x: 24.0d
 			y: 13.0d
 		}
 		{
 			dependencies: ["148ACEF973512B49"]
 			description: [
-				"Need more &dGaia Spirits&r ?"
+				"{ftbquests.chapter.botania.quest45A92631C91077E2.description1}"
 				""
-				"Craft a Gaia Spirit Ingot and use it on the Beacon to summon the &5Guardian of Gaia 2.0&r."
+				"{ftbquests.chapter.botania.quest45A92631C91077E2.description2}"
 				""
-				"It is a bit more powerful but drops way more &dGaia Spirits&r !"
+				"{ftbquests.chapter.botania.quest45A92631C91077E2.description3}"
 			]
 			id: "45A92631C91077E2"
 			rewards: [
@@ -2369,18 +2369,18 @@
 				item: "botania:gaia_ingot"
 				type: "item"
 			}]
-			title: "Fighting the &5Guardian of Gaia 2.0&r"
+			title: "{ftbquests.chapter.botania.quest45A92631C91077E2.title}"
 			x: 27.0d
 			y: 13.0d
 		}
 		{
 			dependencies: ["45A92631C91077E2"]
 			description: [
-				"Can move monster spawners."
+				"{ftbquests.chapter.botania.quest1BFBC65DE42BE280.description1}"
 				""
-				"Right-click to pickup the spawner, right-click to place the spawner."
+				"{ftbquests.chapter.botania.quest1BFBC65DE42BE280.description2}"
 				""
-				"* Will break after moving 1 spawner"
+				"{ftbquests.chapter.botania.quest1BFBC65DE42BE280.description3}"
 			]
 			id: "1BFBC65DE42BE280"
 			rewards: [{
@@ -2399,9 +2399,9 @@
 		{
 			dependencies: ["45A92631C91077E2"]
 			description: [
-				"Allows the wearer to fly like in creative, consuming 1400 &bmana&r per second to do so."
+				"{ftbquests.chapter.botania.quest1EA7D6B6A8CF942.description1}"
 				""
-				"You should definetly use a &bMana mirror&r with this."
+				"{ftbquests.chapter.botania.quest1EA7D6B6A8CF942.description2}"
 			]
 			id: "01EA7D6B6A8CF942"
 			rewards: [{
@@ -2426,13 +2426,13 @@
 		{
 			dependencies: ["45A92631C91077E2"]
 			description: [
-				"Can store up to 2,147,483,647 of a single block type if more blocks is inputed, they will be voided."
+				"{ftbquests.chapter.botania.questA68C3FAFCE7DCC4.description1}"
 				""
-				"When the talisman is empty, right-click to set the block it should store. Otherwise, the blocks stored in it will be placed."
+				"{ftbquests.chapter.botania.questA68C3FAFCE7DCC4.description2}"
 				""
-				"Shift right-clicking it in the air will toggle between enabled and disabled. When enabled, it will absorb all of the selected block from the player's inventory."
+				"{ftbquests.chapter.botania.questA68C3FAFCE7DCC4.description3}"
 				""
-				"Placing the Talisman in the crafting grid will allow to extract stacks of the contained item and disable the Talisman at the same time."
+				"{ftbquests.chapter.botania.questA68C3FAFCE7DCC4.description4}"
 			]
 			id: "0A68C3FAFCE7DCC4"
 			rewards: [{
@@ -2451,9 +2451,9 @@
 		{
 			dependencies: ["7571FD6C9C46926F"]
 			description: [
-				"The &bMana Mirror&r is an extremely useful item capable of linking itself to a &bMana Pool&r to provide wireless &bmana&r to it's user."
+				"{ftbquests.chapter.botania.questBEF53EE86E33D16.description1}"
 				""
-				"Shift right-click a &bMana Pool&r to link."
+				"{ftbquests.chapter.botania.questBEF53EE86E33D16.description2}"
 			]
 			id: "0BEF53EE86E33D16"
 			rewards: [{
@@ -2466,16 +2466,16 @@
 				item: "botania:mana_mirror"
 				type: "item"
 			}]
-			title: "&bMana Mirror&r"
+			title: "{ftbquests.chapter.botania.questBEF53EE86E33D16.title}"
 			x: 10.5d
 			y: 12.0d
 		}
 		{
 			dependencies: ["45A92631C91077E2"]
 			description: [
-				"The &5Guardian of Gaia 2.0&r will drop a &2Dice of Fate&r."
+				"{ftbquests.chapter.botania.quest4CA282992F2FB2A2.description1}"
 				""
-				"The &2Dice of Fate&r can be right-clicked to roll one of 6 relics."
+				"{ftbquests.chapter.botania.quest4CA282992F2FB2A2.description2}"
 			]
 			id: "4CA282992F2FB2A2"
 			rewards: [{
@@ -2494,11 +2494,11 @@
 		{
 			dependencies: ["4CA282992F2FB2A2"]
 			description: [
-				"Allows teleportation to a specific block."
+				"{ftbquests.chapter.botania.quest50FD2AE7A062E930.description1}"
 				""
-				"Shift right-clicking a block will set the target location."
+				"{ftbquests.chapter.botania.quest50FD2AE7A062E930.description2}"
 				""
-				"Holding the right-click for 2 seconds will teleport the player to the target location using 10 &bmana&r per block of distance from the target location."
+				"{ftbquests.chapter.botania.quest50FD2AE7A062E930.description3}"
 			]
 			id: "50FD2AE7A062E930"
 			rewards: [{
@@ -2517,11 +2517,11 @@
 		{
 			dependencies: ["4CA282992F2FB2A2"]
 			description: [
-				"Powerful weapon launching exploding projectiles (won't break blocks)."
+				"{ftbquests.chapter.botania.quest130C7CD7278EB8CF.description1}"
 				""
-				"Hold right-click to charge and release right-click to launch."
+				"{ftbquests.chapter.botania.quest130C7CD7278EB8CF.description2}"
 				""
-				"Will use 150 &bmana&r per projectile (max 20 projectiles)."
+				"{ftbquests.chapter.botania.quest130C7CD7278EB8CF.description3}"
 			]
 			id: "130C7CD7278EB8CF"
 			rewards: [{
@@ -2539,7 +2539,7 @@
 		}
 		{
 			dependencies: ["4CA282992F2FB2A2"]
-			description: ["Infinite food using &bmana&r."]
+			description: ["{ftbquests.chapter.botania.quest2A68F095D0E6BB5A.description1}"]
 			id: "2A68F095D0E6BB5A"
 			rewards: [{
 				id: "16715459B29D23D6"
@@ -2557,15 +2557,15 @@
 		{
 			dependencies: ["4CA282992F2FB2A2"]
 			description: [
-				"Very useful building tool."
+				"{ftbquests.chapter.botania.quest2F6C827E4D4D1E20.description1}"
 				""
-				"When equiped in a Bauble slot, shift right-clicking with an empty hand will select a location that will be the source block."
+				"{ftbquests.chapter.botania.quest2F6C827E4D4D1E20.description2}"
 				""
-				"Continue selecting other blocks to copy their relative position to the first block."
+				"{ftbquests.chapter.botania.quest2F6C827E4D4D1E20.description3}"
 				""
-				"After that, shift right-clicking while placing a block will also place the same block to the relative position of the first block placed using the position of the selected blocks."
+				"{ftbquests.chapter.botania.quest2F6C827E4D4D1E20.description4}"
 				""
-				"Shift right-clicking with an empty hand on the source block 3 times will delete all selections."
+				"{ftbquests.chapter.botania.quest2F6C827E4D4D1E20.description5}"
 			]
 			id: "2F6C827E4D4D1E20"
 			rewards: [{
@@ -2583,7 +2583,7 @@
 		}
 		{
 			dependencies: ["4CA282992F2FB2A2"]
-			description: ["With it equiped in a Bauble slot, the &aTerra Shatterer&r will mine 1 more block in every direction (including depth)."]
+			description: ["{ftbquests.chapter.botania.quest2B45AC77230925D4.description1}"]
 			id: "2B45AC77230925D4"
 			rewards: [{
 				id: "2B462E24564268E4"
@@ -2600,7 +2600,7 @@
 		}
 		{
 			dependencies: ["4CA282992F2FB2A2"]
-			description: ["With it equiped in a Bauble slot, the player will gain an additional 20 health points (10 Hearts) and become immune to suffocation, drowning, fire, lava, starvation and fall damage."]
+			description: ["{ftbquests.chapter.botania.quest3E2716B23268EE04.description1}"]
 			id: "3E2716B23268EE04"
 			rewards: [{
 				id: "694E2A076F6362F4"
@@ -2629,12 +2629,12 @@
 		{
 			dependencies: ["148ACEF973512B49"]
 			description: [
-				"Just like items, you can store your &bmana&r in the AE2 system."
+				"{ftbquests.chapter.botania.quest4C60FCDAD393F563.description1}"
 				""
-				"To use the &bmana&r in a pattern importer / exporter or any other thing that can be filtered, right click with a &bMana Tablet&r to set the filter to &bmana&r."
+				"{ftbquests.chapter.botania.quest4C60FCDAD393F563.description2}"
 				""
-				"You can put &bmana&r into your patterns. The image below is the conversion."
-				"You can place &bmana&r with right clicking a mana tablet inside a pattern."
+				"{ftbquests.chapter.botania.quest4C60FCDAD393F563.description3}"
+				"{ftbquests.chapter.botania.quest4C60FCDAD393F563.description4}"
 			]
 			id: "4C60FCDAD393F563"
 			rewards: [{
@@ -2683,16 +2683,16 @@
 				}
 				type: "item"
 			}]
-			title: "Applied Energistics Integration"
+			title: "{ftbquests.chapter.botania.quest4C60FCDAD393F563.title}"
 			x: 26.0d
 			y: 15.0d
 		}
 		{
 			dependencies: ["0C2063795FE160A8"]
 			description: [
-				"{\"extra\":[{\"underlined\":true,\"clickEvent\":{\"action\":\"change_page\",\"value\":\"39BDA119A3E1B4D5\"},\"text\":\"Botanical Machinery + Extra Quest Line\"},{\"text\":\".\"}],\"text\":\"Go take a look at the \"}"
-				"{\"text\":\"\"}"
-				"{\"extra\":[{\"text\":\"Though not necessary for progression, they are way faster, produce more \"},{\"color\":\"aqua\",\"text\":\"mana\"},{\"text\":\" and can be automated using AE2 or RS2.\"}],\"text\":\"\"}"
+				"[\"\",{\"translate\":\"ftbquests.chapter.botania.quest29290AE9FBE8013C.rich_description1\"},{\"underlined\":true,\"translate\":\"ftbquests.chapter.botania.quest29290AE9FBE8013C.rich_description2\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"39BDA119A3E1B4D5\"}},{\"translate\":\"ftbquests.chapter.botania.quest29290AE9FBE8013C.rich_description3\"}]"
+				"[\"\"]"
+				"[\"\",{\"translate\":\"ftbquests.chapter.botania.quest29290AE9FBE8013C.rich_description4\"},{\"color\":\"aqua\",\"translate\":\"ftbquests.chapter.botania.quest29290AE9FBE8013C.rich_description5\"},{\"translate\":\"ftbquests.chapter.botania.quest29290AE9FBE8013C.rich_description6\"}]"
 			]
 			icon_scale: 1.5d
 			id: "29290AE9FBE8013C"
@@ -2704,21 +2704,21 @@
 			size: 1.5d
 			tasks: [{
 				id: "55642C000649165F"
-				title: "Botanical Machinery + Extra"
+				title: "{ftbquests.chapter.botania.quest29290AE9FBE8013C.task.6153091369512015455.title}"
 				type: "checkmark"
 			}]
-			title: "There is machines ???"
+			title: "{ftbquests.chapter.botania.quest29290AE9FBE8013C.title}"
 			x: 14.5d
 			y: 13.0d
 		}
 		{
 			dependencies: ["0C2063795FE160A8"]
 			description: [
-				"Now that you have &dAlfheim&r resources, the next step is the &5Guardian of Gaia&r fight."
+				"{ftbquests.chapter.botania.quest6E157656CECF1B5A.description1}"
 				""
-				"You'll need Alfsteel to create the Gaia Pylons."
+				"{ftbquests.chapter.botania.quest6E157656CECF1B5A.description2}"
 				""
-				"Make Alfsteel in the &9Terrestrial Agglomeration Plate&r !"
+				"{ftbquests.chapter.botania.quest6E157656CECF1B5A.description3}"
 			]
 			id: "6E157656CECF1B5A"
 			rewards: [
@@ -2754,8 +2754,8 @@
 		}
 		{
 			description: [
-				"&2This quest was made by MiniMaxi!&r"
-				"&1Thank you a lot!&r"
+				"{ftbquests.chapter.botania.quest24087345074D5728.description1}"
+				"{ftbquests.chapter.botania.quest24087345074D5728.description2}"
 			]
 			id: "24087345074D5728"
 			invisible: true
@@ -2767,7 +2767,7 @@
 			}]
 			tasks: [{
 				id: "116A4D1D3314BCCA"
-				title: "&2This quest was made by MiniMaxi!&r&1 Thank you a lot!&r"
+				title: "{ftbquests.chapter.botania.quest24087345074D5728.task.1254900233982491850.title}"
 				type: "checkmark"
 			}]
 			x: 0.0d
@@ -2782,8 +2782,8 @@
 				"646148DD269720B7"
 			]
 			description: [
-				"Best flower in the Pack (need Greenhouse to use it to 100%)"
-				"Generating 1.2 M mana every 100 sec"
+				"{ftbquests.chapter.botania.quest3F41FFD99F5748EE.description1}"
+				"{ftbquests.chapter.botania.quest3F41FFD99F5748EE.description2}"
 			]
 			id: "3F41FFD99F5748EE"
 			rewards: [{
@@ -2800,5 +2800,5 @@
 			y: 15.0d
 		}
 	]
-	title: "&aBotania&r"
+	title: "{ftbquests.chapter.botania.title}"
 }

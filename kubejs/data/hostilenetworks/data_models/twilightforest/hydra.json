@@ -35,6 +35,10 @@
         {
             "item": "twilightforest:fiery_blood",
             "count": 16
+        },
+        {
+            "item": "kubejs:solarmetal_ingot",
+            "count": 2
         }
     ],
     "tier_data": [2, 54, 354, 1254],

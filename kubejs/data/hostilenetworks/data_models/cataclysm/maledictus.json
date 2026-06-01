@@ -19,6 +19,10 @@
         {
             "item": "cataclysm:cursium_ingot",
             "count": 4
+        },
+        {
+            "item": "cataclysm:athame",
+            "count": 1
         }
     ],
     "tier_data": [3, 54, 354, 1254]

@@ -5,6 +5,7 @@ MMEvents.createStructures((event) => {
     .controllerId('mm:event_horizon_antimatter_synthesizer_controller')
     .name('Event Horizon Antimatter Synthesizer')
     .layout((a) => {
+      a.portsAnywhere(true);
       a.layer([
         '  AAA  ',
         ' BDDDB ',

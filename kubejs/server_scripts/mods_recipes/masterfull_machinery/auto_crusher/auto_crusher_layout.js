@@ -5,6 +5,7 @@ MMEvents.createStructures((event) => {
     .controllerId('mm:auto_crusher_controller')
     .name('Auto Crusher Tier 1')
     .layout((a) => {
+      a.portsAnywhere(true);
       a.layer(['1A1', 'ABA', '1A1'])
         .layer(['171', '797', '171'])
         .layer(['171', '565', '171'])
@@ -54,6 +55,7 @@ MMEvents.createStructures((event) => {
     .controllerId('mm:auto_crusher_controller')
     .name('Auto Crusher Tier 1.5')
     .layout((a) => {
+      a.portsAnywhere(true);
       a.layer([
         'FFFFFFF',
         'FFFFFFF',
@@ -188,6 +190,7 @@ MMEvents.createStructures((event) => {
     .controllerId('mm:auto_crusher_controller')
     .name('Auto Crusher Tier 2')
     .layout((a) => {
+      a.portsAnywhere(true);
       a.layer(['1A1', 'ABA', '1A1'])
         .layer(['171', '797', '171'])
         .layer(['171', '565', '171'])
@@ -240,6 +243,7 @@ MMEvents.createStructures((event) => {
     .controllerId('mm:auto_crusher_controller')
     .name('Auto Crusher Tier 3')
     .layout((a) => {
+      a.portsAnywhere(true);
       a.layer(['1A1', 'ABA', '1A1'])
         .layer(['171', '797', '171'])
         .layer(['171', '565', '171'])

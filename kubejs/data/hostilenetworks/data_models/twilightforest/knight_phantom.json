@@ -25,6 +25,10 @@
         {
             "item": "twilightforest:knight_phantom_trophy",
             "count": 4
+        },
+        {
+            "item": "twilightforest:armor_shard",
+            "count": 8
         }
     ],
     "tier_data": [2, 54, 354, 1254],

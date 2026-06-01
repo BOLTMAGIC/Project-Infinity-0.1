@@ -789,10 +789,10 @@
 			size: 2.0d
 			tasks: [{
 				id: "4B19D871A79C34DF"
-				title: "Welcome to Solarpower"
+				title: "{ftbquests.chapter.beta.quest2B001C76CB519664.task.5411594409917297887.title}"
 				type: "checkmark"
 			}]
-			title: "Solar"
+			title: "{ftbquests.chapter.beta.quest2B001C76CB519664.title}"
 			x: 4.5d
 			y: -11.0d
 		}
@@ -940,5 +940,5 @@
 			y: 12.0d
 		}
 	]
-	title: "SolarFlux"
+	title: "{ftbquests.chapter.beta.title}"
 }

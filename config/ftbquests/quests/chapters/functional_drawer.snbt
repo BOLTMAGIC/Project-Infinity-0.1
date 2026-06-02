@@ -12,7 +12,7 @@
 		{
 			dependencies: ["4F8E689471F23E65"]
 			description: [
-				"Stores 2048 (32 x 64) Items of 1 type. Unstackable Items will take up one stack each."
+				"Stores 2048 (32 x 64) items of 1 type. Unstackable items will take up one stack each."
 				""
 				"How to interact:"
 				"Left-Click: Extract a single item"
@@ -217,7 +217,7 @@
 		{
 			dependencies: ["5C6B61FEC98181FF"]
 			description: [
-				"Makes the drawer output a comparator signal proportional to amount of items stored."
+				"Makes the drawer output a comparator signal proportional to the amount of items stored."
 				""
 				"To change the targeted slot Right-Click the upgrade while it is your inventory or in the drawer GUI."
 			]
@@ -299,7 +299,7 @@
 				"To cycle through the setting Right-Click in air."
 				"{@pagebreak}"
 				"Settings:"
-				"&1Locking&r: When locked the drawer will remember the last item/fluid in its inventory when empty and prevent new items/fluids from being inserted."
+				"&1Locking&r: When locked the drawer will remember the last item/fluid in its inventory when empty and prevent other items/fluids from being inserted."
 				"&6Hide/Show Amounts&r: Hides/Shows the amount contained in the drawer."
 				"&aHide/Show Item/Fluid Renders: &rHides/Shows the content of a drawer on its face."
 				"&9Hide/Show Upgrade Renders:&r Hides/Shows the icons on the bottom left and right of the drawer when upgrades are installed."
@@ -437,7 +437,7 @@
 		{
 			dependencies: ["4F8E689471F23E65"]
 			description: [
-				"The Compacting Drawer allows automatic conversion between a base item and two compacted forms. If there is no compacted form the drawer will act like a normal drawer. "
+				"The Compacting Drawer allows automatic conversion between a base item and two compacted forms. If there is no compacted form the Compacting Drawer will act like a normal drawer. "
 				"(e.g. Iron Nugget <-> Iron Ingot <-> Block of Iron)"
 				""
 				"Note: The base item needs to be stored in the bottom right slot. Accepts a maximum of 3 storage upgrades while reaching the same capacity as normal drawers."
@@ -459,7 +459,7 @@
 		{
 			dependencies: ["4F8E689471F23E65"]
 			description: [
-				"The Simple Compacting Drawer allows automatic conversion between a base item and its compacted form. If there is no compacted form the drawer will act like a normal drawer."
+				"The Simple Compacting Drawer allows automatic conversion between a base item and its compacted form. If there is no compacted form the Simple Compacting Drawer will act like a normal drawer."
 				"(e.g. Redstone Dust <-> Block of Redstone)"
 				"Note: The base item needs to be stored in the bottom slot. Accepts a maximum of 3 storage upgrades while reaching the same capacity as normal drawers."
 			]
@@ -541,7 +541,7 @@
 			description: [
 				"Storage Upgrades increase the amount of items and fluids that can be stored per drawer or increase the range of the Storage Controller."
 				""
-				"To install an upgrade Right-Click the drawer with an upgrade or open the drawer GUI by Right-Clicking the border or any other side than the front. "
+				"To install an upgrade Right-Click the drawer with an upgrade or open the drawer GUI by Right-Clicking the border or any other side than the front."
 				"To remove an upgrade open the GUI by Right-Clicking the edge of the drawer or any side but the front and take the upgrade out."
 			]
 			id: "542EF79E79162E90"
@@ -556,8 +556,9 @@
 		{
 			dependencies: ["1FE05B6BA860BE2C"]
 			description: [
-			"These upgrades add extra functions to your drawers. A maximum of 3 functional upgrades can be installed."
-			"To remove an upgrade open the GUI by Right-Clicking the edge of the drawer or any side but the front and take the upgrade out."
+				"These upgrades add extra functions to your drawers. A maximum of 3 functional upgrades can be installed."
+				"To install an upgrade Right-Click the drawer with an upgrade or open the drawer GUI by Right-Clicking the border or any other side than the front."
+				"To remove an upgrade open the GUI by Right-Clicking the edge of the drawer or any side but the front and take the upgrade out."
 			]
 			id: "5C6B61FEC98181FF"
 			tasks: [{
@@ -576,6 +577,11 @@
 				"The items can only be accessed via external storage tools like Applied Energistics, Refined Storage or Integrated Dynamics."
 			]
 			id: "357DD719E1910C43"
+			rewards: [{
+				id: "51DE0576E6B78504"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
 			tasks: [{
 				id: "368DE486EEED8756"
 				item: "functionalstorage:armory_cabinet"
@@ -596,6 +602,11 @@
 				"To clear your Linking Tool from a frequency Sneak-Right-Click air."
 			]
 			id: "155DAA57E54BD717"
+			rewards: [{
+				id: "606B4C35F2C2EF3C"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
 			tasks: [{
 				id: "6367A2D65F4B2FD0"
 				item: "functionalstorage:ender_drawer"

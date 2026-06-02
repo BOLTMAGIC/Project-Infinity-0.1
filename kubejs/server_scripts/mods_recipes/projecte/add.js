@@ -38,4 +38,16 @@ ServerEvents.recipes((event) => {
     'kubejs:infinity_8',
     'projecte:body_stone',
   ]);
+
+  create3x3(event, Item.of('projecte:medium_covalence_dust', 40), [
+    'minecraft:air',
+    'minecraft:air',
+    'minecraft:air',
+    'minecraft:redstone',
+    'minecraft:air',
+    'minecraft:iron_ingot',
+    'minecraft:air',
+    'minecraft:air',
+    'minecraft:air',
+  ]);
 });

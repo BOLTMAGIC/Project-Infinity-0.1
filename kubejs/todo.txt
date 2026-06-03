@@ -3,9 +3,8 @@
 finish quests high prio
 fix shop prices high prio
 rf tools recipes
-add tooltips for the multiblocks. what they do and how to use them. maybe in the book?
 gateway change. players need to kill not masher
-LUMINOUS (there are 8 mods) or Blight Mob Ultimate or Mekanism FuryBorn in the Artifacts or Lycanites Mobs (+Kin) or Spooki's Unique Mobs
+LUMINOUS (Overworld/ Nether/ Beasts) and Mekanism FuryBorn in the Artifacts
 ----------
 changelog v. 0.0.50.0
 -updated some mods
@@ -66,9 +65,17 @@ Recipe changes and fixes:
     -stalker
     -fire beetle
     -helmet crab
-                    -use all your predictions!!!!!!
+        -use all your predictions!!!!!!
+-fixed prediciton recipes
 -changed config for soulstone. max 1 enchant. no upgrade
 -added a recipe for hellforged parts (any silentgems ore 344064 for 2%)
+-charcoal and covalence dust got EMC (thx to Jason)
+-reorganized and added descriptions to functional storage quests (thx to Aquadin)
+-fix and improve Woot Quests (thx to SoyWater)
+-philosophers_stone got EMC value
+-changed some values for fire attuned T1 recipes
+-added new recipe for liquid_sculk_matter (thx to Jason)
+-added recipe for compact_industrial_turbine (generating 83MFE/t at max)
 -
 ----------
 Mod changes and fixes:

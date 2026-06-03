@@ -224,6 +224,51 @@ MMEvents.createProcesses((event) => {
       },
     });
 
+  //liquid sculk matter
+  event
+    .create('mm:liquid_sculk_matter_recipe21')
+    .structureId('mm:fire_attuned_structure2')
+    .ticks(2)
+    .input({
+      type: 'mm:input/consume',
+      ingredient: {
+        type: 'mm:item',
+        item: 'kubejs:warden_heart',
+        count: 64,
+      },
+    })
+    .input({
+      type: 'mm:input/consume',
+      ingredient: {
+        type: 'mm:item',
+        item: 'projecte:dark_matter',
+        count: 1,
+      },
+    })
+    .input({
+      type: 'mm:input/consume',
+      ingredient: {
+        type: 'mm:item',
+        item: 'apotheosis:warden_tendril',
+        count: 64,
+      },
+    })
+    .input({
+      type: 'mm:input/consume',
+      ingredient: {
+        type: 'mm:energy',
+        amount: 2000000000,
+      },
+    })
+    .output({
+      type: 'mm:output/simple',
+      ingredient: {
+        type: 'mm:fluid',
+        fluid: 'ifeu:liquid_sculk_matter',
+        amount: 128000,
+      },
+    });
+
   //liquid dragon breath
   event
     .create('mm:liquid_dragon_breath_recipe2')

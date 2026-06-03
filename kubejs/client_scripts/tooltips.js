@@ -171,6 +171,15 @@ ItemEvents.tooltip((event) => {
     Text.translate('tooltip.compactmachines.warning')
   );
 
+  // Compact Machines
+  event.add(
+    [
+      'compactmekanismmachines:compact_industrial_turbine'
+    ],
+    Text.translate('tooltip.compactmachines.info')
+  );
+  
+
   // --- Advanced Tooltips ---
 
   const holdShiftText = () => [

@@ -34,22 +34,22 @@
 	fluidtankcapacity = 2147483647
 	#amount of virtual turbine condenser block
 	#Range: > 0
-	virtualcondenser = 500
+	virtualcondenser = 350
 	#amount of virtual turbine disperser block
 	#Range: > 0
-	virtualvent = 500
+	virtualvent = 350
 	#amount of virtual turbine vent block
 	#Range: > 0
-	upvolume = 800
+	upvolume = 650
 	#amount of virtual blade
 	#Range: > 0
-	blades = 200
+	blades = 150
 	#vertual volume of lower section
 	#Range: > 0
-	lowervolume = 500
+	lowervolume = 350
 	#virtual height of compact thermal evaporation block
 	#Range: > 1
-	virtual_height = 24
+	virtual_height = 20
 	#Energy Capacity of Compact Industrial Turbine
 	#Range: 0 ~ 9223372036854775807
 	energycapacity = 2000000000000

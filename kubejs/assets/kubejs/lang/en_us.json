@@ -232,6 +232,7 @@
   "tooltip.mm.controller_refund": "You will get the Philosopher Stone and the Master Infusion Crystal back. They dont get consumed.",
   
   "tooltip.compactmachines.warning": "The Compact Machine Blocks are huge! They can crash your game when entering them. Be careful! You can hold shift and see the internal size.",
+  "tooltip.compactmachines.info": "Input steam from mekanism to generate RF. Up to 83M RF/t.",
   
   "tooltip.general.hold": "Hold ",
   "tooltip.general.shift": "Shift ",

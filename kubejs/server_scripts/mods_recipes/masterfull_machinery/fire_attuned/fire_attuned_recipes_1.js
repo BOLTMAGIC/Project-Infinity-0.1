@@ -84,14 +84,14 @@ MMEvents.createProcesses((event) => {
       ingredient: {
         type: 'mm:item',
         item: 'botania:terrasteel_ingot',
-        count: 4,
+        count: 6,
       },
     })
     .input({
       type: 'mm:input/consume',
       ingredient: {
         type: 'mm:energy',
-        amount: 100000,
+        amount: 150000,
       },
     })
     .output({
@@ -99,7 +99,7 @@ MMEvents.createProcesses((event) => {
       ingredient: {
         type: 'mm:fluid',
         fluid: 'bloodmagic:life_essence_fluid',
-        amount: 20000,
+        amount: 30000,
       },
     });
 
@@ -113,14 +113,14 @@ MMEvents.createProcesses((event) => {
       ingredient: {
         type: 'mm:item',
         item: 'minecraft:cobblestone',
-        count: 64,
+        count: 128,
       },
     })
     .input({
       type: 'mm:input/consume',
       ingredient: {
         type: 'mm:energy',
-        amount: 10000,
+        amount: 20000,
       },
     })
     .output({
@@ -128,7 +128,7 @@ MMEvents.createProcesses((event) => {
       ingredient: {
         type: 'mm:fluid',
         fluid: 'minecraft:lava',
-        amount: 16000,
+        amount: 32000,
       },
     });
 
@@ -142,7 +142,7 @@ MMEvents.createProcesses((event) => {
       ingredient: {
         type: 'mm:item',
         item: 'minecraft:nether_star',
-        count: 16,
+        count: 32,
       },
     })
     .input({
@@ -150,7 +150,7 @@ MMEvents.createProcesses((event) => {
       ingredient: {
         type: 'mm:item',
         item: 'allthemodium:piglich_heart',
-        count: 4,
+        count: 8,
       },
     })
     .input({
@@ -166,7 +166,7 @@ MMEvents.createProcesses((event) => {
       type: 'mm:input/consume',
       ingredient: {
         type: 'mm:energy',
-        amount: 1000000,
+        amount: 2000000,
       },
     })
     .output({
@@ -174,7 +174,7 @@ MMEvents.createProcesses((event) => {
       ingredient: {
         type: 'mm:fluid',
         fluid: 'industrialforegoing:ether_gas',
-        amount: 1000,
+        amount: 2000,
       },
     });
 
@@ -188,7 +188,7 @@ MMEvents.createProcesses((event) => {
       ingredient: {
         type: 'mm:item',
         item: 'kubejs:warden_heart',
-        count: 16,
+        count: 24,
       },
     })
     .input({
@@ -196,7 +196,7 @@ MMEvents.createProcesses((event) => {
       ingredient: {
         type: 'mm:item',
         item: 'minecraft:echo_shard',
-        count: 16,
+        count: 24,
       },
     })
     .input({
@@ -212,7 +212,7 @@ MMEvents.createProcesses((event) => {
       type: 'mm:input/consume',
       ingredient: {
         type: 'mm:energy',
-        amount: 1000000,
+        amount: 1500000,
       },
     })
     .output({
@@ -220,7 +220,7 @@ MMEvents.createProcesses((event) => {
       ingredient: {
         type: 'mm:fluid',
         fluid: 'ifeu:liquid_sculk_matter',
-        amount: 1000,
+        amount: 1500,
       },
     });
 
@@ -234,7 +234,7 @@ MMEvents.createProcesses((event) => {
       ingredient: {
         type: 'mm:item',
         item: 'minecraft:dragon_breath',
-        count: 16,
+        count: 20,
       },
     })
     .input({
@@ -242,7 +242,7 @@ MMEvents.createProcesses((event) => {
       ingredient: {
         type: 'mm:item',
         item: 'draconicevolution:dragon_heart',
-        count: 16,
+        count: 20,
       },
     })
     .input({
@@ -258,7 +258,7 @@ MMEvents.createProcesses((event) => {
       type: 'mm:input/consume',
       ingredient: {
         type: 'mm:energy',
-        amount: 1000000,
+        amount: 1200000,
       },
     })
     .output({
@@ -266,7 +266,7 @@ MMEvents.createProcesses((event) => {
       ingredient: {
         type: 'mm:fluid',
         fluid: 'ifeu:liquid_dragon_breath',
-        amount: 1000,
+        amount: 1200,
       },
     });
 

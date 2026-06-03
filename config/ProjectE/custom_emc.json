@@ -603,6 +603,14 @@
     {
       "item": "hostilenetworks:deep_learner",
       "emc": 0
+    },
+    {
+      "item": "minecraft:charcoal",
+      "emc": 64
+    },
+    {
+      "item": "projecte:low_covalence_dust",
+      "emc": 72
     }
   ]
 }

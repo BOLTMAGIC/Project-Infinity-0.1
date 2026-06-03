@@ -11,6 +11,15 @@
 	quests: [
 		{
 			dependencies: ["4F8E689471F23E65"]
+			description: [
+				"Stores 2048 (32 x 64) items of 1 type. Unstackable items will take up one stack each."
+				""
+				"How to interact:"
+				"Left-Click: Extract a single item"
+				"Sneak-Left-Click: Extract a stack of items"
+				"Right-Click: Store held item in the drawer"
+				"Double Right-Click: Store all matching items in the drawer"
+			]
 			hide_dependent_lines: true
 			id: "1FE05B6BA860BE2C"
 			rewards: [{
@@ -18,16 +27,17 @@
 				item: "kubejs:apotheotic_coin"
 				type: "item"
 			}]
+			subtitle: "The basic Storage Drawer"
 			tasks: [{
 				id: "5986BB42100DBF6D"
 				item: "functionalstorage:oak_1"
 				type: "item"
 			}]
-			x: 3.0d
-			y: 0.0d
+			x: 2.0d
+			y: -1.0d
 		}
 		{
-			dependencies: ["1FE05B6BA860BE2C"]
+			dependencies: ["542EF79E79162E90"]
 			id: "3116C23A17CBBF40"
 			rewards: [{
 				id: "5B9E26667D972CB4"
@@ -39,14 +49,11 @@
 				item: "functionalstorage:copper_upgrade"
 				type: "item"
 			}]
-			x: 4.5d
-			y: -1.0d
+			x: 8.5d
+			y: -0.5d
 		}
 		{
-			dependencies: [
-				"3116C23A17CBBF40"
-				"1FE05B6BA860BE2C"
-			]
+			dependencies: ["3116C23A17CBBF40"]
 			id: "1927E90CE9144006"
 			rewards: [{
 				id: "11580CBCB78E1A31"
@@ -58,14 +65,11 @@
 				item: "functionalstorage:gold_upgrade"
 				type: "item"
 			}]
-			x: 5.5d
-			y: -1.0d
+			x: 9.5d
+			y: -0.5d
 		}
 		{
-			dependencies: [
-				"1927E90CE9144006"
-				"1FE05B6BA860BE2C"
-			]
+			dependencies: ["1927E90CE9144006"]
 			id: "29DCAF8EDE2D5B58"
 			rewards: [{
 				id: "1DD7314CEBE3F794"
@@ -77,14 +81,11 @@
 				item: "functionalstorage:diamond_upgrade"
 				type: "item"
 			}]
-			x: 6.5d
-			y: -1.0d
+			x: 10.5d
+			y: -0.5d
 		}
 		{
-			dependencies: [
-				"29DCAF8EDE2D5B58"
-				"1FE05B6BA860BE2C"
-			]
+			dependencies: ["29DCAF8EDE2D5B58"]
 			id: "2B1485CF3A8FA096"
 			rewards: [{
 				id: "1B8F2BC6CC9B9CEB"
@@ -96,11 +97,16 @@
 				item: "functionalstorage:netherite_upgrade"
 				type: "item"
 			}]
-			x: 7.5d
-			y: -1.0d
+			x: 11.5d
+			y: -0.5d
 		}
 		{
-			dependencies: ["1FE05B6BA860BE2C"]
+			dependencies: ["542EF79E79162E90"]
+			description: [
+				"Item exclusive upgrade"
+				""
+				"Reduces the capacity of a drawer to 64 items."
+			]
 			id: "30A9A6B2F1B8D5C9"
 			rewards: [{
 				id: "78DA7EB10927F263"
@@ -112,14 +118,12 @@
 				item: "functionalstorage:iron_downgrade"
 				type: "item"
 			}]
-			x: 8.5d
-			y: 0.0d
+			x: 7.5d
+			y: -0.5d
 		}
 		{
-			dependencies: [
-				"2B1485CF3A8FA096"
-				"1FE05B6BA860BE2C"
-			]
+			dependencies: ["2B1485CF3A8FA096"]
+			description: ["Only one Max Storage Upgrade is needed to increase the storage capacity and range to the maximum available."]
 			id: "7D8296989F5B8686"
 			rewards: [{
 				id: "33C9C96A1CC1C729"
@@ -131,11 +135,12 @@
 				item: "functionalstorage:max_storage_upgrade"
 				type: "item"
 			}]
-			x: 8.5d
-			y: -1.0d
+			x: 12.5d
+			y: -0.5d
 		}
 		{
-			dependencies: ["1FE05B6BA860BE2C"]
+			dependencies: ["5C6B61FEC98181FF"]
+			description: ["Collects matching items within 1 Block of the specified direction. To change the direction Right-Click the upgrade while it is your inventory or in the drawer GUI."]
 			id: "3E252FE731E655F9"
 			rewards: [{
 				id: "65D648D73701FBA9"
@@ -147,11 +152,16 @@
 				item: "functionalstorage:collector_upgrade"
 				type: "item"
 			}]
-			x: 4.5d
-			y: 0.0d
+			x: 7.5d
+			y: 0.5d
 		}
 		{
-			dependencies: ["1FE05B6BA860BE2C"]
+			dependencies: ["5C6B61FEC98181FF"]
+			description: [
+				"Pulls items from an adjacent inventory. "
+				""
+				"To change the direction Right-Click the upgrade while it is your inventory or in the drawer GUI."
+			]
 			id: "4E35C324AA3B6BDB"
 			rewards: [{
 				id: "36CDC2BC83719E9F"
@@ -163,11 +173,16 @@
 				item: "functionalstorage:puller_upgrade"
 				type: "item"
 			}]
-			x: 5.5d
-			y: 0.0d
+			x: 8.5d
+			y: 0.5d
 		}
 		{
-			dependencies: ["1FE05B6BA860BE2C"]
+			dependencies: ["5C6B61FEC98181FF"]
+			description: [
+				"Pushes items to an adjacent inventory. "
+				""
+				"To change the direction Right-Click the upgrade while it is your inventory or in the drawer GUI."
+			]
 			id: "06154CB1F6EBB28D"
 			rewards: [{
 				id: "6DD20EC56485C840"
@@ -179,11 +194,12 @@
 				item: "functionalstorage:pusher_upgrade"
 				type: "item"
 			}]
-			x: 6.5d
-			y: 0.0d
+			x: 9.5d
+			y: 0.5d
 		}
 		{
-			dependencies: ["1FE05B6BA860BE2C"]
+			dependencies: ["5C6B61FEC98181FF"]
+			description: ["Voids any items inserted that overflow the capacity of the drawer."]
 			id: "5FB733C7F411D5DF"
 			rewards: [{
 				id: "611D6705A18C956F"
@@ -195,11 +211,16 @@
 				item: "functionalstorage:void_upgrade"
 				type: "item"
 			}]
-			x: 7.5d
-			y: 0.0d
+			x: 10.5d
+			y: 0.5d
 		}
 		{
-			dependencies: ["1FE05B6BA860BE2C"]
+			dependencies: ["5C6B61FEC98181FF"]
+			description: [
+				"Makes the drawer output a comparator signal proportional to the amount of items stored."
+				""
+				"To change the targeted slot Right-Click the upgrade while it is your inventory or in the drawer GUI."
+			]
 			id: "4F381489DFFE4691"
 			rewards: [{
 				id: "4C7BA3FD937833E6"
@@ -215,11 +236,16 @@
 				}
 				type: "item"
 			}]
-			x: 6.5d
-			y: 1.0d
+			x: 11.5d
+			y: 0.5d
 		}
 		{
-			dependencies: ["1FE05B6BA860BE2C"]
+			dependencies: ["5C6B61FEC98181FF"]
+			description: [
+				"The Creative Vending Upgrade, while technically a storage upgrade, allows you to extract infinite items from the drawer."
+				""
+				"Important: The available amount of items shown will be 0 unless the Creative Vending Upgrade is inserted while at least 1 item is stored."
+			]
 			id: "6CE754E1FB0FC414"
 			rewards: [{
 				id: "67E65FA6AD66A762"
@@ -231,11 +257,23 @@
 				item: "functionalstorage:creative_vending_upgrade"
 				type: "item"
 			}]
-			x: 7.5d
-			y: 1.0d
+			x: 12.5d
+			y: 0.5d
 		}
 		{
-			dependencies: ["1FE05B6BA860BE2C"]
+			dependencies: ["31C16CD79583760D"]
+			description: [
+				"The Linking Tool is used to manage the connection of drawers to the controller. Right-Click on drawers to add or remove them."
+				""
+				"Modes: "
+				"&2Add&r a single drawer"
+				"&2Add&r multiple drawers"
+				"&5Remove&r a single drawer"
+				"&5Remove&r multiple drawers"
+				""
+				"To switch between adding and removing Right-Click while targeting air."
+				"To switch between single and multiple mode Sneak-Right-Click while targeting air."
+			]
 			id: "6B4992AAC89DD234"
 			rewards: [{
 				id: "5AE5F10C3490BE8C"
@@ -251,11 +289,22 @@
 				}
 				type: "item"
 			}]
-			x: 4.5d
-			y: 1.0d
+			x: -1.0d
+			y: 3.0d
 		}
 		{
-			dependencies: ["1FE05B6BA860BE2C"]
+			dependencies: ["31C16CD79583760D"]
+			description: [
+				"The Configuration Tools changes various settings on your drawers. When used on a Storage Controller ALL connected drawers will be affected by the settings changed."
+				"To cycle through the setting Right-Click in air."
+				"{@pagebreak}"
+				"Settings:"
+				"&1Locking&r: When locked the drawer will remember the last item/fluid in its inventory when empty and prevent other items/fluids from being inserted."
+				"&6Hide/Show Amounts&r: Hides/Shows the amount contained in the drawer."
+				"&aHide/Show Item/Fluid Renders: &rHides/Shows the content of a drawer on its face."
+				"&9Hide/Show Upgrade Renders:&r Hides/Shows the icons on the bottom left and right of the drawer when upgrades are installed."
+				"&4Swap Indicator Modes:&r  (Default = Hidden) Swaps between different visualizations of the stored amount."
+			]
 			id: "0E0CEB60DF56F8C4"
 			rewards: [{
 				id: "6FAC0CF5E6411B1C"
@@ -267,11 +316,18 @@
 				item: "functionalstorage:configuration_tool"
 				type: "item"
 			}]
-			x: 5.5d
-			y: 1.0d
+			x: 1.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["4F8E689471F23E65"]
+			description: [
+				"Similar to the 1x1 drawer"
+				""
+				"Stores 1024 items in each slot (total: 2x 16x64)"
+				""
+				"Note: When locking the drawer all slots will be locked."
+			]
 			id: "35CD8B17E550D979"
 			rewards: [{
 				id: "2ED19A081C100550"
@@ -284,10 +340,17 @@
 				type: "item"
 			}]
 			x: 2.0d
-			y: 0.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["4F8E689471F23E65"]
+			description: [
+				"Similar to the 1x1 drawer"
+				""
+				"Stores 512 items in each slot. (total 4x 8x64)"
+				""
+				"Note: When locking the drawer all slots will be locked."
+			]
 			id: "68E04950FB96BFEA"
 			rewards: [{
 				id: "011E4AC99CA1CA56"
@@ -300,10 +363,17 @@
 				type: "item"
 			}]
 			x: 2.0d
-			y: -0.5d
+			y: 1.0d
 		}
 		{
 			dependencies: ["4F8E689471F23E65"]
+			description: [
+				"Stores 32 Buckets of one fluid."
+				""
+				"How to interact:"
+				"Left-Click with a bucket: Extract fluid"
+				"Right-Click with a bucket: Store fluid"
+			]
 			id: "770C3ABAD41A6F37"
 			rewards: [{
 				id: "28370B5480BF1435"
@@ -320,6 +390,13 @@
 		}
 		{
 			dependencies: ["4F8E689471F23E65"]
+			description: [
+				"Similar to the 1x1 Fluid Drawer."
+				""
+				"Stores 16 Buckets in each slot (total: 2x 16B)"
+				""
+				"Note: When locking the drawer all slots will be locked. "
+			]
 			id: "61444315F4CFC72B"
 			rewards: [{
 				id: "6A163C9FA9430FAA"
@@ -336,6 +413,13 @@
 		}
 		{
 			dependencies: ["4F8E689471F23E65"]
+			description: [
+				"Similar to the 1x1 Fluid Drawer."
+				""
+				"Stores 8 Buckets in each slot (total: 4x 8B)"
+				""
+				"Note: When locking the drawer all slots will be locked. "
+			]
 			id: "750186989D6A0570"
 			rewards: [{
 				id: "0B76DBE26C430E63"
@@ -352,6 +436,12 @@
 		}
 		{
 			dependencies: ["4F8E689471F23E65"]
+			description: [
+				"The Compacting Drawer allows automatic conversion between a base item and two compacted forms. If there is no compacted form the Compacting Drawer will act like a normal drawer. "
+				"(e.g. Iron Nugget <-> Iron Ingot <-> Block of Iron)"
+				""
+				"Note: The base item needs to be stored in the bottom right slot. Accepts a maximum of 3 storage upgrades while reaching the same capacity as normal drawers."
+			]
 			id: "5E97ED66487F84ED"
 			rewards: [{
 				id: "03395D9A882AF7A5"
@@ -363,11 +453,16 @@
 				item: "functionalstorage:compacting_drawer"
 				type: "item"
 			}]
-			x: -0.5d
-			y: 1.5d
+			x: 3.0d
+			y: 0.5d
 		}
 		{
 			dependencies: ["4F8E689471F23E65"]
+			description: [
+				"The Simple Compacting Drawer allows automatic conversion between a base item and its compacted form. If there is no compacted form the Simple Compacting Drawer will act like a normal drawer."
+				"(e.g. Redstone Dust <-> Block of Redstone)"
+				"Note: The base item needs to be stored in the bottom slot. Accepts a maximum of 3 storage upgrades while reaching the same capacity as normal drawers."
+			]
 			id: "1C7FDCF34AD0D61E"
 			rewards: [{
 				id: "3F4C35E7DEBC2262"
@@ -379,11 +474,18 @@
 				item: "functionalstorage:simple_compacting_drawer"
 				type: "item"
 			}]
-			x: 0.5d
-			y: 1.5d
+			x: 3.0d
+			y: -0.5d
 		}
 		{
 			dependencies: ["4F8E689471F23E65"]
+			description: [
+				"The Storage Controller can be linked to drawers in an area around it without direct contact. It can be used to interact with any connected drawer. Each Storage Controller creates an exclusive group of connected drawers. Therefore only one Storage Controller is allowed per \"group\". "
+				""
+				"Basic range: 8 Blocks centered on the Storage Controller"
+				""
+				"Upgrades: Storage Upgrades increase the range of the Storage Controller"
+			]
 			id: "31C16CD79583760D"
 			rewards: [{
 				id: "45E6A733FA6BBA3F"
@@ -395,11 +497,13 @@
 				item: "functionalstorage:storage_controller"
 				type: "item"
 			}]
-			x: -0.5d
-			y: 2.5d
+			x: 0.0d
+			y: 2.0d
 		}
 		{
-			dependencies: ["4F8E689471F23E65"]
+			dependencies: ["31C16CD79583760D"]
+			description: ["The Controller Access Point acts like the Storage Controller in terms of logistic interactions. (Input / Output/ Read Stored Items/Fluids)"]
+			hide_dependent_lines: true
 			id: "1AF8B92267447B66"
 			rewards: [{
 				id: "783536D96A8C5431"
@@ -411,11 +515,11 @@
 				item: "functionalstorage:controller_extension"
 				type: "item"
 			}]
-			x: 0.5d
-			y: 2.5d
+			x: 0.0d
+			y: 3.0d
 		}
 		{
-			description: ["{ftbquests.chapter.functional_drawer.quest4F8E689471F23E65.description1}"]
+			description: ["&1Functional Storage&r adds compact and expandable storage solutions to Minecraft, such as drawers, cabinets, and controller blocks for efficient item organization and automation."]
 			hide_dependent_lines: true
 			id: "4F8E689471F23E65"
 			rewards: [{
@@ -428,9 +532,89 @@
 				id: "26FBA05237D02983"
 				type: "checkmark"
 			}]
+			title: "Functional Storage"
 			x: 0.0d
 			y: 0.0d
 		}
+		{
+			dependencies: ["1FE05B6BA860BE2C"]
+			description: [
+				"Storage Upgrades increase the amount of items and fluids that can be stored per drawer or increase the range of the Storage Controller."
+				""
+				"To install an upgrade Right-Click the drawer with an upgrade or open the drawer GUI by Right-Clicking the border or any other side than the front."
+				"To remove an upgrade open the GUI by Right-Clicking the edge of the drawer or any side but the front and take the upgrade out."
+			]
+			id: "542EF79E79162E90"
+			tasks: [{
+				id: "313A83AAF5AE2EF0"
+				title: "Storage Upgrades"
+				type: "checkmark"
+			}]
+			x: 6.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["1FE05B6BA860BE2C"]
+			description: [
+				"These upgrades add extra functions to your drawers. A maximum of 3 functional upgrades can be installed."
+				"To install an upgrade Right-Click the drawer with an upgrade or open the drawer GUI by Right-Clicking the border or any other side than the front."
+				"To remove an upgrade open the GUI by Right-Clicking the edge of the drawer or any side but the front and take the upgrade out."
+			]
+			id: "5C6B61FEC98181FF"
+			tasks: [{
+				id: "4FCA1CDEF41FF5BE"
+				title: "Functional Upgrades"
+				type: "checkmark"
+			}]
+			x: 6.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["4F8E689471F23E65"]
+			description: [
+				"The Armory Cabinet stores up to 4096 unstackable items. "
+				""
+				"The items can only be accessed via external storage tools like Applied Energistics, Refined Storage or Integrated Dynamics."
+			]
+			id: "357DD719E1910C43"
+			rewards: [{
+				id: "51DE0576E6B78504"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "368DE486EEED8756"
+				item: "functionalstorage:armory_cabinet"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4F8E689471F23E65"]
+			description: [
+				"Ender Drawers can sync their inventory on a drawer frequency. This works across dimensions."
+				""
+				"To &aget&r a frequency Sneak-Left-Click an Ender Drawer with a Linking Tool. "
+				""
+				"To &bset&r a frequency Sneak-Right-Click an Ender Drawer with a Linking Tool."
+				""
+				"To clear your Linking Tool from a frequency Sneak-Right-Click air."
+			]
+			id: "155DAA57E54BD717"
+			rewards: [{
+				id: "606B4C35F2C2EF3C"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6367A2D65F4B2FD0"
+				item: "functionalstorage:ender_drawer"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 0.0d
+		}
 	]
-	title: "{ftbquests.chapter.functional_drawer.title}"
+	title: "Functional Storage"
 }

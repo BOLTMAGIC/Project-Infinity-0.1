@@ -609,7 +609,7 @@
       "emc": 64
     },
     {
-      "item" "projecte:low_covalence_dust",
+      "item": "projecte:low_covalence_dust",
       "emc": 72
     }
   ]

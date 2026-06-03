@@ -614,7 +614,7 @@
     },
     {
       "item": "projecte:philosophers_stone",
-      "emc": 1
+      "emc": 1000000001
     }
   ]
 }

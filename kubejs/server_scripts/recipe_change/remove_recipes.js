@@ -590,7 +590,7 @@ const removeItemsbyID = [
   'justdirethings:eclipsealloy_sword-templateupgrade',
   'justdirethings:bow_eclipsealloy-templateupgrade',
   'justdirethings:eclipsealloy_paxel-templateupgrade',
-  '',
+ 'projecte:medium_covalence_dust',
   '',
   '',
   '',

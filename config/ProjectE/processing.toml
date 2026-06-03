@@ -19,7 +19,6 @@
 		persistent = false
 
 	#Takes the different sherds into account for each decorated pot.
-	# Doesnt need to be false but can help if the user stores every variation of decorated pot 
 	[processors.DecoratedPotProcessor]
 		enabled = false
 		persistent = false

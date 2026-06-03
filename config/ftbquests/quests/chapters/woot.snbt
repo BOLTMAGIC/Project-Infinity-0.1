@@ -62,7 +62,7 @@
 							value: "forge:dyes/yellow"
 						}
 					}
-					title: "Any #forge:dyes/yellow"
+					title: "Any yellow dye"
 					type: "item"
 				}
 				{
@@ -74,7 +74,7 @@
 							value: "forge:dyes/red"
 						}
 					}
-					title: "Any #forge:dyes/red"
+					title: "Any red dye"
 					type: "item"
 				}
 				{
@@ -86,7 +86,7 @@
 							value: "forge:dyes/blue"
 						}
 					}
-					title: "Any #forge:dyes/blue"
+					title: "Any blue dye"
 					type: "item"
 				}
 				{
@@ -98,10 +98,11 @@
 							value: "forge:dyes/white"
 						}
 					}
-					title: "Any #forge:dyes/white"
+					title: "Any white dye"
 					type: "item"
 				}
 			]
+			title: "Dyes"
 			x: 5.0d
 			y: -2.0d
 		}

@@ -44,18 +44,10 @@ const lootByMob = {
     { item: 'born_in_chaos_v1:fangofthe_hound_leader', outCount: 8 },
   ],
 
-  'born_in_chaos/glutton_fish': [
-    { item: 'born_in_chaos_v1:rotten_fish', outCount: 4 },
-  ],
-
   'born_in_chaos/lord_pumpkinhead': [
     { item: 'born_in_chaos_v1:lord_pumpkinheads_lamp', outCount: 1 },
     { item: 'minecraft:pumpkin_seeds', outCount: 64 },
     { item: 'born_in_chaos_v1:holiday_candy', outCount: 16 },
-  ],
-
-  'born_in_chaos/maggot': [
-    { item: 'born_in_chaos_v1:corpse_maggot', outCount: 16 },
   ],
 
   'born_in_chaos/missioner': [
@@ -64,25 +56,12 @@ const lootByMob = {
     { item: 'bhc:red_heart', outCount: 1 },
   ],
 
-  'born_in_chaos/restless_spirit': [
-    { item: 'born_in_chaos_v1:ethereal_spirit', outCount: 1 },
-  ],
-
-  'born_in_chaos/spirit_guide': [
-    { item: 'born_in_chaos_v1:ethereal_spirit', outCount: 1 },
-    { item: 'born_in_chaos_v1:shattered_skull', outCount: 1 },
-    { item: 'born_in_chaos_v1:marigolds', outCount: 1 },
-    { item: 'born_in_chaos_v1:fused_bone', outCount: 1 },
-  ],
-
   'botania/gaia_spirit': [{ item: 'botania:life_essence', outCount: 1 }],
 
   'cataclysm/ancient_remnant': [
     { item: 'cataclysm:ancient_metal_ingot', outCount: 4 },
     { item: 'cataclysm:necklace_of_the_desert', outCount: 1 },
   ],
-
-  'cataclysm/deepling_warlock': [{ item: 'cataclysm:athame', outCount: 1 }],
 
   'cataclysm/ender_golem': [
     { item: 'cataclysm:enderite_ingot', outCount: 4 },
@@ -93,7 +72,10 @@ const lootByMob = {
 
   'cataclysm/harbinger': [{ item: 'cataclysm:witherite_ingot', outCount: 4 }],
 
-  'cataclysm/maledictus': [{ item: 'cataclysm:cursium_ingot', outCount: 4 }],
+  'cataclysm/maledictus': [
+    { item: 'cataclysm:cursium_ingot', outCount: 4 },
+    { item: 'cataclysm:athame', outCount: 1 },
+  ],
 
   chicken: [
     { item: 'minecraft:chicken', outCount: 32 },
@@ -103,6 +85,7 @@ const lootByMob = {
   cod: [
     { item: 'minecraft:cod', outCount: 32 },
     { item: 'minecraft:bone_meal', outCount: 2 },
+    { item: 'born_in_chaos_v1:rotten_fish', outCount: 4 },
   ],
 
   cow: [
@@ -144,6 +127,7 @@ const lootByMob = {
     { item: 'minecraft:end_crystal', outCount: 1 },
     { item: 'enderio:enderman_head', outCount: 1 },
     { item: 'tconstruct:enderman_head', outCount: 1 },
+    { item: 'outer_end:stalker_meat', outCount: 32 },
   ],
 
   evoker: [
@@ -245,8 +229,6 @@ const lootByMob = {
 
   squid: [{ item: 'minecraft:ink_sac', outCount: 32 }],
 
-  'the_outer_end/stalker': [{ item: 'outer_end:stalker_meat', outCount: 32 }],
-
   'thermal/basalz': [{ item: 'thermal:basalz_rod', outCount: 16 }],
 
   'thermal/blizz': [{ item: 'thermal:blizz_rod', outCount: 16 }],
@@ -256,11 +238,6 @@ const lootByMob = {
     { item: 'twilightforest:alpha_yeti_trophy', outCount: 4 },
     { item: 'twilightforest:alpha_yeti_fur', outCount: 16 },
     { item: 'kubejs:arcmetal_ingot', outCount: 4 },
-  ],
-
-  'twilightforest/carminite_golem': [
-    { item: 'twilightforest:towerwood', outCount: 32 },
-    { item: 'minecraft:iron_ingot', outCount: 32 },
   ],
 
   'twilightforest/death_tome': [
@@ -273,11 +250,6 @@ const lootByMob = {
   'twilightforest/deer': [
     { item: 'twilightforest:raw_venison', outCount: 32 },
     { item: 'minecraft:leather', outCount: 24 },
-  ],
-
-  'twilightforest/fire_beetle': [
-    { item: 'minecraft:gunpowder', outCount: 32 },
-    { item: 'kubejs:solarmetal_ingot', outCount: 2 },
   ],
 
   'twilightforest/giant': [
@@ -293,26 +265,16 @@ const lootByMob = {
     { item: 'twilightforest:armor_shard', outCount: 16 },
   ],
 
-  'twilightforest/helmet_crab': [
-    { item: 'twilightforest:giant_obsidian', outCount: 8 },
-    { item: 'minecraft:cod', outCount: 24 },
-  ],
-
   'twilightforest/hydra': [
     { item: 'twilightforest:hydra_trophy', outCount: 4 },
     { item: 'twilightforest:hydra_chop', outCount: 24 },
     { item: 'twilightforest:fiery_blood', outCount: 16 },
+    { item: 'kubejs:solarmetal_ingot', outCount: 2 },
   ],
 
   'twilightforest/knight_phantom': [
     { item: 'twilightforest:knightmetal_ingot', outCount: 16 },
     { item: 'twilightforest:knight_phantom_trophy', outCount: 4 },
-  ],
-
-  'twilightforest/kobold': [
-    { item: 'minecraft:wheat', outCount: 32 },
-    { item: 'minecraft:gold_nugget', outCount: 16 },
-    { item: 'minecraft:candle', outCount: 8 },
   ],
 
   'twilightforest/lich': [
@@ -329,6 +291,7 @@ const lootByMob = {
     { item: 'twilightforest:meef_stroganoff', outCount: 16 },
     { item: 'twilightforest:minoshroom_trophy', outCount: 4 },
     { item: 'twilightforest:diamond_minotaur_axe', outCount: 1 },
+    { item: 'twilightforest:borer_essence', outCount: 8 },
   ],
 
   'twilightforest/minotaur': [
@@ -339,10 +302,6 @@ const lootByMob = {
   'twilightforest/naga': [
     { item: 'twilightforest:naga_trophy', outCount: 4 },
     { item: 'twilightforest:naga_scale', outCount: 16 },
-  ],
-
-  'twilightforest/raven': [
-    { item: 'twilightforest:raven_feather', outCount: 4 },
   ],
 
   'twilightforest/skeleton_druid': [
@@ -358,32 +317,12 @@ const lootByMob = {
     { item: 'twilightforest:triple_bow', outCount: 1 },
   ],
 
-  'twilightforest/stable_ice_core': [
-    { item: 'minecraft:snowball', outCount: 32 },
-    { item: 'minecraft:ice', outCount: 8 },
-  ],
-
-  'twilightforest/towerwood_borer': [
-    { item: 'twilightforest:borer_essence', outCount: 8 },
-  ],
-
   'twilightforest/troll': [{ item: 'twilightforest:magic_beans', outCount: 4 }],
 
   'twilightforest/ur_ghast': [
     { item: 'twilightforest:carminite', outCount: 32 },
     { item: 'twilightforest:fiery_tears', outCount: 16 },
     { item: 'twilightforest:ur_ghast_trophy', outCount: 4 },
-  ],
-
-  'twilightforest/winter_wolf': [
-    { item: 'twilightforest:arctic_fur', outCount: 16 },
-  ],
-
-  'twilightforest/wraith': [{ item: 'minecraft:glowstone', outCount: 32 }],
-
-  'twilightforest/yeti': [
-    { item: 'twilightforest:arctic_fur', outCount: 32 },
-    { item: 'kubejs:arcmetal_ingot', outCount: 1 },
   ],
 
   vindicator: [
@@ -427,6 +366,7 @@ const lootByMob = {
     { item: 'minecraft:carrot', outCount: 16 },
     { item: 'minecraft:potato', outCount: 16 },
     { item: 'bhc:red_heart', outCount: 1 },
+    { item: 'born_in_chaos_v1:rotten_fish', outCount: 16 },
   ],
 
   zombified_piglin: [

@@ -1,58 +1,104 @@
 
 [general]
-	#Want to take a look at the internals of EMC Calculation? Enable this to write all the conversions and setValue-Commands to config/ProjectE/mappingdump.json
-	dumpEverythingToFile = false
 	#When the next EMC mapping occurs write the results to config/ProjectE/pregenerated_emc.json and only ever run the mapping again when that file does not exist, this setting is set to false, or an error occurred parsing that file.
 	pregenerate = true
+	#Want to take a look at the internals of EMC Calculation? Enable this to write all the conversions and setValue-Commands to config/ProjectE/mappingdump.json
+	dumpEverythingToFile = false
 	#Log known EMC Exploits. This can not and will not find all possible exploits. This will only find exploits that result in fixed/custom emc values that the algorithm did not overwrite. Exploits that derive from conversions that are unknown to ProjectE will not be found.
 	logEMCExploits = false
 
-[enabledMappers]
-	#Allows KubeJS ProjectE to function
-	KubeJSProjectE = true
-	#Add Conversions for Crafting Recipes gathered from net.minecraft.item.crafting.RecipeManager
-	CraftingMapper = true
-	#Loads json files within datapacks (data/<domain>/pe_custom_conversions/*.json) to add values and conversions
-	CustomConversionMapper = true
-	#Add Conversions for all weathered copper variants
-	WeatheredCopperMapper = false
-	#Add Conversions for all lingering potions to arrow recipes
-	TippedArrowMapper = true
-	#Set EMC=0 for everything in the forge:raw_materials tag
-	RawOresBlacklistMapper = true
-	#Set EMC=0 for everything in the forge:ores tag
-	OresBlacklistMapper = true
-	#Uses the `custom_emc.json` File to add EMC values.
-	CustomEMCMapper = true
-	#Add Conversions for Brewing Recipes
-	BrewingMapper = true
-	#Allows other mods to easily set EMC values using the ProjectEAPI
-	APICustomEMCMapper = true
-	#Adds back and forth conversions of objects and their Tag variant. (EMC values assigned to tags will not behave properly if this mapper is disabled)
-	TagMapper = true
-	#(AppliedE) Maps Applied Energistics 2 P2P tunnels.
-	AE2P2PTunnels = true
-	#(AppliedE) Maps Applied Energistics 2 cable facades.
-	AE2FacadeMapper = false
-	#(AppliedE) Maps Applied Energistics 2 matter condenser results.
-	AE2MatterCondenser = true
-
 [CraftingMapper]
 
-	[CraftingMapper.VanillaRecipeTypes]
-		#Maps the different vanilla recipe types.
+	[CraftingMapper.MekElectrolysis]
+		#Maps Mekanism electrolytic separator recipes.
 		enabled = true
 
-	[CraftingMapper.Smithing]
-		#Maps smithing recipes.
+	[CraftingMapper.MekPaintingMachine]
+		#Maps Mekanism painting machine recipes.
+		enabled = false
+
+	[CraftingMapper.AE2Inscriber]
+		#(AppliedE) Maps Applied Energistics 2 inscriber recipes.
+		enabled = true
+
+	[CraftingMapper.MekGasToGas]
+		#Maps Mekanism activating and centrifuging recipes.
+		enabled = true
+
+	[CraftingMapper.MekItemStackToItemStack]
+		#Maps Mekanism Machine recipes that go from item to item. (Crushing, Enriching, Smelting)
+		enabled = true
+
+	[CraftingMapper.AE2Charger]
+		#(AppliedE) Maps Applied Energistics 2 charger recipes.
 		enabled = true
 
 	[CraftingMapper.MekSawmill]
 		#Maps Mekanism sawmill recipes. (Disabled by default, due to causing various EMC values to be removed pertaining to charcoal/wood)
 		enabled = true
 
+	[CraftingMapper.MekChemicalInfuser]
+		#Maps Mekanism chemical infuser recipes.
+		enabled = true
+
+	[CraftingMapper.MekCombiner]
+		#Maps Mekanism combiner recipes.
+		enabled = true
+
+	[CraftingMapper.MekFluidToFluid]
+		#Maps Mekanism evaporating recipes.
+		enabled = true
+
+	[CraftingMapper.MekChemicalCrystallizer]
+		#Maps Mekanism crystallizing recipes.
+		enabled = true
+
+	[CraftingMapper.Smithing]
+		#Maps smithing recipes.
+		enabled = true
+
+	[CraftingMapper.MekMetallurgicInfuser]
+		#Maps Mekanism metallurgic infuser recipes.
+		enabled = true
+
+	[CraftingMapper.FallbackRecipeType]
+		#Fallback for default handling of recipes that extend ICraftingRecipe, AbstractCookingRecipe, SingleItemRecipe, or SmithingRecipe. This will catch modded extensions of the vanilla recipe classes, and if the VanillaRecipeTypes mapper is disabled, this mapper will still catch the vanilla recipes.
+		enabled = true
+
+	[CraftingMapper.VanillaRecipeTypes]
+		#Maps the different vanilla recipe types.
+		enabled = true
+
+	[CraftingMapper.MekItemStackToInfuseType]
+		#Maps Mekanism item stack to infuse type conversion recipes.
+		enabled = true
+
+	[CraftingMapper."Avaritia Compressor"]
+		#Maps avaritia recipes.
+		enabled = true
+
+	[CraftingMapper."Avaritia Extreme"]
+		#Maps avaritia recipes.
+		enabled = true
+
 	[CraftingMapper.MekRotary]
 		#Maps Mekanism rotary condensentrator recipes.
+		enabled = true
+
+	[CraftingMapper.MekItemStackToPigment]
+		#Maps Mekanism item stack to pigment recipes. (Pigment Extracting)
+		enabled = false
+
+	[CraftingMapper.MekItemStackGasToItemStack]
+		#Maps Mekanism Machine recipes that go from item, gas to item. (Compressing, Purifying, Injecting)
+		enabled = true
+
+	[CraftingMapper.MekDissolution]
+		#Maps Mekanism dissolution recipes.
+		enabled = true
+
+	[CraftingMapper.MekFluidSlurryToSlurry]
+		#Maps Mekanism washing recipes.
 		enabled = true
 
 	[CraftingMapper.MekPressurizedReaction]
@@ -63,89 +109,21 @@
 		#Maps Mekanism pigment mixer recipes.
 		enabled = false
 
-	[CraftingMapper.MekPaintingMachine]
-		#Maps Mekanism painting machine recipes.
-		enabled = false
-
-	[CraftingMapper.MekMetallurgicInfuser]
-		#Maps Mekanism metallurgic infuser recipes.
-		enabled = true
-
-	[CraftingMapper.MekItemStackToPigment]
-		#Maps Mekanism item stack to pigment recipes. (Pigment Extracting)
-		enabled = false
-
-	[CraftingMapper.MekItemStackToItemStack]
-		#Maps Mekanism Machine recipes that go from item to item. (Crushing, Enriching, Smelting)
-		enabled = true
-
-	[CraftingMapper.MekItemStackToInfuseType]
-		#Maps Mekanism item stack to infuse type conversion recipes.
-		enabled = true
-
 	[CraftingMapper.MekItemStackToGas]
 		#Maps Mekanism item stack to gas recipes. (Gas conversion, Oxidizing)
-		enabled = true
-
-	[CraftingMapper.MekItemStackGasToItemStack]
-		#Maps Mekanism Machine recipes that go from item, gas to item. (Compressing, Purifying, Injecting)
-		enabled = true
-
-	[CraftingMapper.MekGasToGas]
-		#Maps Mekanism activating and centrifuging recipes.
-		enabled = true
-
-	[CraftingMapper.MekFluidToFluid]
-		#Maps Mekanism evaporating recipes.
-		enabled = true
-
-	[CraftingMapper.MekFluidSlurryToSlurry]
-		#Maps Mekanism washing recipes.
-		enabled = true
-
-	[CraftingMapper.MekElectrolysis]
-		#Maps Mekanism electrolytic separator recipes.
-		enabled = true
-
-	[CraftingMapper.MekCombiner]
-		#Maps Mekanism combiner recipes.
-		enabled = true
-
-	[CraftingMapper.MekChemicalInfuser]
-		#Maps Mekanism chemical infuser recipes.
-		enabled = true
-
-	[CraftingMapper.MekDissolution]
-		#Maps Mekanism dissolution recipes.
-		enabled = true
-
-	[CraftingMapper.MekChemicalCrystallizer]
-		#Maps Mekanism crystallizing recipes.
-		enabled = true
-
-	[CraftingMapper.FallbackRecipeType]
-		#Fallback for default handling of recipes that extend ICraftingRecipe, AbstractCookingRecipe, SingleItemRecipe, or SmithingRecipe. This will catch modded extensions of the vanilla recipe classes, and if the VanillaRecipeTypes mapper is disabled, this mapper will still catch the vanilla recipes.
 		enabled = true
 
 	[CraftingMapper.AE2Transform]
 		#(AppliedE) Maps Applied Energistics 2 in-world transformation recipes.
 		enabled = true
 
-	[CraftingMapper.AE2Inscriber]
-		#(AppliedE) Maps Applied Energistics 2 inscriber recipes.
-		enabled = true
+[permissions]
 
-	[CraftingMapper.AE2Charger]
-		#(AppliedE) Maps Applied Energistics 2 charger recipes.
-		enabled = true
-
-	[CraftingMapper."Avaritia Extreme"]
-		#Maps avaritia recipes.
-		enabled = true
-
-	[CraftingMapper."Avaritia Compressor"]
-		#Maps avaritia recipes.
-		enabled = true
+	[permissions.avaritia]
+		#Allow mod 'avaritia' to set and or remove values for mod 'minecraft'. Options: [both, set, remove, none]
+		minecraft = "both"
+		#Allow mod 'avaritia' to set and or remove values for mod 'avaritia'. Options: [both, set, remove, none]
+		avaritia = "both"
 
 [APICustomEMCMapper]
 
@@ -153,11 +131,33 @@
 		#Priority for this mod
 		avaritia = 1
 
-[permissions]
-
-	[permissions.avaritia]
-		#Allow mod 'avaritia' to set and or remove values for mod 'avaritia'. Options: [both, set, remove, none]
-		avaritia = "both"
-		#Allow mod 'avaritia' to set and or remove values for mod 'minecraft'. Options: [both, set, remove, none]
-		minecraft = "both"
+[enabledMappers]
+	#Set EMC=0 for everything in the forge:raw_materials tag
+	RawOresBlacklistMapper = true
+	#(AppliedE) Maps Applied Energistics 2 matter condenser results.
+	AE2MatterCondenser = true
+	#Add Conversions for Crafting Recipes gathered from net.minecraft.item.crafting.RecipeManager
+	CraftingMapper = true
+	#Adds back and forth conversions of objects and their Tag variant. (EMC values assigned to tags will not behave properly if this mapper is disabled)
+	TagMapper = true
+	#Add Conversions for Brewing Recipes
+	BrewingMapper = true
+	#Loads json files within datapacks (data/<domain>/pe_custom_conversions/*.json) to add values and conversions
+	CustomConversionMapper = true
+	#Set EMC=0 for everything in the forge:ores tag
+	OresBlacklistMapper = true
+	#Add Conversions for all lingering potions to arrow recipes
+	TippedArrowMapper = true
+	#Allows KubeJS ProjectE to function
+	KubeJSProjectE = true
+	#Add Conversions for all weathered copper variants
+	WeatheredCopperMapper = false
+	#(AppliedE) Maps Applied Energistics 2 cable facades.
+	AE2FacadeMapper = false
+	#Uses the `custom_emc.json` File to add EMC values.
+	CustomEMCMapper = true
+	#Allows other mods to easily set EMC values using the ProjectEAPI
+	APICustomEMCMapper = true
+	#(AppliedE) Maps Applied Energistics 2 P2P tunnels.
+	AE2P2PTunnels = true
 

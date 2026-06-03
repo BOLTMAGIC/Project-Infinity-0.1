@@ -12,13 +12,13 @@
 		{
 			dependencies: ["4F8E689471F23E65"]
 			description: [
-				"Stores 2048 (32 x 64) items of 1 type. Unstackable items will take up one stack each."
+				"{ftbquests.chapter.functional_drawer.quest1FE05B6BA860BE2C.description1}"
 				""
-				"How to interact:"
-				"Left-Click: Extract a single item"
-				"Sneak-Left-Click: Extract a stack of items"
-				"Right-Click: Store held item in the drawer"
-				"Double Right-Click: Store all matching items in the drawer"
+				"{ftbquests.chapter.functional_drawer.quest1FE05B6BA860BE2C.description2}"
+				"{ftbquests.chapter.functional_drawer.quest1FE05B6BA860BE2C.description3}"
+				"{ftbquests.chapter.functional_drawer.quest1FE05B6BA860BE2C.description4}"
+				"{ftbquests.chapter.functional_drawer.quest1FE05B6BA860BE2C.description5}"
+				"{ftbquests.chapter.functional_drawer.quest1FE05B6BA860BE2C.description6}"
 			]
 			hide_dependent_lines: true
 			id: "1FE05B6BA860BE2C"
@@ -27,7 +27,7 @@
 				item: "kubejs:apotheotic_coin"
 				type: "item"
 			}]
-			subtitle: "The basic Storage Drawer"
+			subtitle: "{ftbquests.chapter.functional_drawer.quest1FE05B6BA860BE2C.subtitle}"
 			tasks: [{
 				id: "5986BB42100DBF6D"
 				item: "functionalstorage:oak_1"
@@ -103,9 +103,9 @@
 		{
 			dependencies: ["542EF79E79162E90"]
 			description: [
-				"Item exclusive upgrade"
+				"{ftbquests.chapter.functional_drawer.quest30A9A6B2F1B8D5C9.description1}"
 				""
-				"Reduces the capacity of a drawer to 64 items."
+				"{ftbquests.chapter.functional_drawer.quest30A9A6B2F1B8D5C9.description2}"
 			]
 			id: "30A9A6B2F1B8D5C9"
 			rewards: [{
@@ -123,7 +123,7 @@
 		}
 		{
 			dependencies: ["2B1485CF3A8FA096"]
-			description: ["Only one Max Storage Upgrade is needed to increase the storage capacity and range to the maximum available."]
+			description: ["{ftbquests.chapter.functional_drawer.quest7D8296989F5B8686.description1}"]
 			id: "7D8296989F5B8686"
 			rewards: [{
 				id: "33C9C96A1CC1C729"
@@ -140,7 +140,7 @@
 		}
 		{
 			dependencies: ["5C6B61FEC98181FF"]
-			description: ["Collects matching items within 1 Block of the specified direction. To change the direction Right-Click the upgrade while it is your inventory or in the drawer GUI."]
+			description: ["{ftbquests.chapter.functional_drawer.quest3E252FE731E655F9.description1}"]
 			id: "3E252FE731E655F9"
 			rewards: [{
 				id: "65D648D73701FBA9"
@@ -158,9 +158,9 @@
 		{
 			dependencies: ["5C6B61FEC98181FF"]
 			description: [
-				"Pulls items from an adjacent inventory. "
+				"{ftbquests.chapter.functional_drawer.quest4E35C324AA3B6BDB.description1}"
 				""
-				"To change the direction Right-Click the upgrade while it is your inventory or in the drawer GUI."
+				"{ftbquests.chapter.functional_drawer.quest4E35C324AA3B6BDB.description2}"
 			]
 			id: "4E35C324AA3B6BDB"
 			rewards: [{
@@ -179,9 +179,9 @@
 		{
 			dependencies: ["5C6B61FEC98181FF"]
 			description: [
-				"Pushes items to an adjacent inventory. "
+				"{ftbquests.chapter.functional_drawer.quest6154CB1F6EBB28D.description1}"
 				""
-				"To change the direction Right-Click the upgrade while it is your inventory or in the drawer GUI."
+				"{ftbquests.chapter.functional_drawer.quest6154CB1F6EBB28D.description2}"
 			]
 			id: "06154CB1F6EBB28D"
 			rewards: [{
@@ -199,7 +199,7 @@
 		}
 		{
 			dependencies: ["5C6B61FEC98181FF"]
-			description: ["Voids any items inserted that overflow the capacity of the drawer."]
+			description: ["{ftbquests.chapter.functional_drawer.quest5FB733C7F411D5DF.description1}"]
 			id: "5FB733C7F411D5DF"
 			rewards: [{
 				id: "611D6705A18C956F"
@@ -217,9 +217,9 @@
 		{
 			dependencies: ["5C6B61FEC98181FF"]
 			description: [
-				"Makes the drawer output a comparator signal proportional to the amount of items stored."
+				"{ftbquests.chapter.functional_drawer.quest4F381489DFFE4691.description1}"
 				""
-				"To change the targeted slot Right-Click the upgrade while it is your inventory or in the drawer GUI."
+				"{ftbquests.chapter.functional_drawer.quest4F381489DFFE4691.description2}"
 			]
 			id: "4F381489DFFE4691"
 			rewards: [{
@@ -242,9 +242,9 @@
 		{
 			dependencies: ["5C6B61FEC98181FF"]
 			description: [
-				"The Creative Vending Upgrade, while technically a storage upgrade, allows you to extract infinite items from the drawer."
+				"{ftbquests.chapter.functional_drawer.quest6CE754E1FB0FC414.description1}"
 				""
-				"Important: The available amount of items shown will be 0 unless the Creative Vending Upgrade is inserted while at least 1 item is stored."
+				"{ftbquests.chapter.functional_drawer.quest6CE754E1FB0FC414.description2}"
 			]
 			id: "6CE754E1FB0FC414"
 			rewards: [{
@@ -263,16 +263,16 @@
 		{
 			dependencies: ["31C16CD79583760D"]
 			description: [
-				"The Linking Tool is used to manage the connection of drawers to the controller. Right-Click on drawers to add or remove them."
+				"{ftbquests.chapter.functional_drawer.quest6B4992AAC89DD234.description1}"
 				""
-				"Modes: "
-				"&2Add&r a single drawer"
-				"&2Add&r multiple drawers"
-				"&5Remove&r a single drawer"
-				"&5Remove&r multiple drawers"
+				"{ftbquests.chapter.functional_drawer.quest6B4992AAC89DD234.description2}"
+				"{ftbquests.chapter.functional_drawer.quest6B4992AAC89DD234.description3}"
+				"{ftbquests.chapter.functional_drawer.quest6B4992AAC89DD234.description4}"
+				"{ftbquests.chapter.functional_drawer.quest6B4992AAC89DD234.description5}"
+				"{ftbquests.chapter.functional_drawer.quest6B4992AAC89DD234.description6}"
 				""
-				"To switch between adding and removing Right-Click while targeting air."
-				"To switch between single and multiple mode Sneak-Right-Click while targeting air."
+				"{ftbquests.chapter.functional_drawer.quest6B4992AAC89DD234.description7}"
+				"{ftbquests.chapter.functional_drawer.quest6B4992AAC89DD234.description8}"
 			]
 			id: "6B4992AAC89DD234"
 			rewards: [{
@@ -295,15 +295,15 @@
 		{
 			dependencies: ["31C16CD79583760D"]
 			description: [
-				"The Configuration Tools changes various settings on your drawers. When used on a Storage Controller ALL connected drawers will be affected by the settings changed."
-				"To cycle through the setting Right-Click in air."
+				"{ftbquests.chapter.functional_drawer.questE0CEB60DF56F8C4.description1}"
+				"{ftbquests.chapter.functional_drawer.questE0CEB60DF56F8C4.description2}"
 				"{@pagebreak}"
-				"Settings:"
-				"&1Locking&r: When locked the drawer will remember the last item/fluid in its inventory when empty and prevent other items/fluids from being inserted."
-				"&6Hide/Show Amounts&r: Hides/Shows the amount contained in the drawer."
-				"&aHide/Show Item/Fluid Renders: &rHides/Shows the content of a drawer on its face."
-				"&9Hide/Show Upgrade Renders:&r Hides/Shows the icons on the bottom left and right of the drawer when upgrades are installed."
-				"&4Swap Indicator Modes:&r  (Default = Hidden) Swaps between different visualizations of the stored amount."
+				"{ftbquests.chapter.functional_drawer.questE0CEB60DF56F8C4.description3}"
+				"{ftbquests.chapter.functional_drawer.questE0CEB60DF56F8C4.description4}"
+				"{ftbquests.chapter.functional_drawer.questE0CEB60DF56F8C4.description5}"
+				"{ftbquests.chapter.functional_drawer.questE0CEB60DF56F8C4.description6}"
+				"{ftbquests.chapter.functional_drawer.questE0CEB60DF56F8C4.description7}"
+				"{ftbquests.chapter.functional_drawer.questE0CEB60DF56F8C4.description8}"
 			]
 			id: "0E0CEB60DF56F8C4"
 			rewards: [{
@@ -322,11 +322,11 @@
 		{
 			dependencies: ["4F8E689471F23E65"]
 			description: [
-				"Similar to the 1x1 drawer"
+				"{ftbquests.chapter.functional_drawer.quest35CD8B17E550D979.description1}"
 				""
-				"Stores 1024 items in each slot (total: 2x 16x64)"
+				"{ftbquests.chapter.functional_drawer.quest35CD8B17E550D979.description2}"
 				""
-				"Note: When locking the drawer all slots will be locked."
+				"{ftbquests.chapter.functional_drawer.quest35CD8B17E550D979.description3}"
 			]
 			id: "35CD8B17E550D979"
 			rewards: [{
@@ -345,11 +345,11 @@
 		{
 			dependencies: ["4F8E689471F23E65"]
 			description: [
-				"Similar to the 1x1 drawer"
+				"{ftbquests.chapter.functional_drawer.quest68E04950FB96BFEA.description1}"
 				""
-				"Stores 512 items in each slot. (total 4x 8x64)"
+				"{ftbquests.chapter.functional_drawer.quest68E04950FB96BFEA.description2}"
 				""
-				"Note: When locking the drawer all slots will be locked."
+				"{ftbquests.chapter.functional_drawer.quest68E04950FB96BFEA.description3}"
 			]
 			id: "68E04950FB96BFEA"
 			rewards: [{
@@ -368,11 +368,11 @@
 		{
 			dependencies: ["4F8E689471F23E65"]
 			description: [
-				"Stores 32 Buckets of one fluid."
+				"{ftbquests.chapter.functional_drawer.quest770C3ABAD41A6F37.description1}"
 				""
-				"How to interact:"
-				"Left-Click with a bucket: Extract fluid"
-				"Right-Click with a bucket: Store fluid"
+				"{ftbquests.chapter.functional_drawer.quest770C3ABAD41A6F37.description2}"
+				"{ftbquests.chapter.functional_drawer.quest770C3ABAD41A6F37.description3}"
+				"{ftbquests.chapter.functional_drawer.quest770C3ABAD41A6F37.description4}"
 			]
 			id: "770C3ABAD41A6F37"
 			rewards: [{
@@ -391,11 +391,11 @@
 		{
 			dependencies: ["4F8E689471F23E65"]
 			description: [
-				"Similar to the 1x1 Fluid Drawer."
+				"{ftbquests.chapter.functional_drawer.quest61444315F4CFC72B.description1}"
 				""
-				"Stores 16 Buckets in each slot (total: 2x 16B)"
+				"{ftbquests.chapter.functional_drawer.quest61444315F4CFC72B.description2}"
 				""
-				"Note: When locking the drawer all slots will be locked. "
+				"{ftbquests.chapter.functional_drawer.quest61444315F4CFC72B.description3}"
 			]
 			id: "61444315F4CFC72B"
 			rewards: [{
@@ -414,11 +414,11 @@
 		{
 			dependencies: ["4F8E689471F23E65"]
 			description: [
-				"Similar to the 1x1 Fluid Drawer."
+				"{ftbquests.chapter.functional_drawer.quest750186989D6A0570.description1}"
 				""
-				"Stores 8 Buckets in each slot (total: 4x 8B)"
+				"{ftbquests.chapter.functional_drawer.quest750186989D6A0570.description2}"
 				""
-				"Note: When locking the drawer all slots will be locked. "
+				"{ftbquests.chapter.functional_drawer.quest750186989D6A0570.description3}"
 			]
 			id: "750186989D6A0570"
 			rewards: [{
@@ -437,10 +437,10 @@
 		{
 			dependencies: ["4F8E689471F23E65"]
 			description: [
-				"The Compacting Drawer allows automatic conversion between a base item and two compacted forms. If there is no compacted form the Compacting Drawer will act like a normal drawer. "
-				"(e.g. Iron Nugget <-> Iron Ingot <-> Block of Iron)"
+				"{ftbquests.chapter.functional_drawer.quest5E97ED66487F84ED.description1}"
+				"{ftbquests.chapter.functional_drawer.quest5E97ED66487F84ED.description2}"
 				""
-				"Note: The base item needs to be stored in the bottom right slot. Accepts a maximum of 3 storage upgrades while reaching the same capacity as normal drawers."
+				"{ftbquests.chapter.functional_drawer.quest5E97ED66487F84ED.description3}"
 			]
 			id: "5E97ED66487F84ED"
 			rewards: [{
@@ -459,9 +459,9 @@
 		{
 			dependencies: ["4F8E689471F23E65"]
 			description: [
-				"The Simple Compacting Drawer allows automatic conversion between a base item and its compacted form. If there is no compacted form the Simple Compacting Drawer will act like a normal drawer."
-				"(e.g. Redstone Dust <-> Block of Redstone)"
-				"Note: The base item needs to be stored in the bottom slot. Accepts a maximum of 3 storage upgrades while reaching the same capacity as normal drawers."
+				"{ftbquests.chapter.functional_drawer.quest1C7FDCF34AD0D61E.description1}"
+				"{ftbquests.chapter.functional_drawer.quest1C7FDCF34AD0D61E.description2}"
+				"{ftbquests.chapter.functional_drawer.quest1C7FDCF34AD0D61E.description3}"
 			]
 			id: "1C7FDCF34AD0D61E"
 			rewards: [{
@@ -480,11 +480,11 @@
 		{
 			dependencies: ["4F8E689471F23E65"]
 			description: [
-				"The Storage Controller can be linked to drawers in an area around it without direct contact. It can be used to interact with any connected drawer. Each Storage Controller creates an exclusive group of connected drawers. Therefore only one Storage Controller is allowed per \"group\". "
+				"{ftbquests.chapter.functional_drawer.quest31C16CD79583760D.description1}"
 				""
-				"Basic range: 8 Blocks centered on the Storage Controller"
+				"{ftbquests.chapter.functional_drawer.quest31C16CD79583760D.description2}"
 				""
-				"Upgrades: Storage Upgrades increase the range of the Storage Controller"
+				"{ftbquests.chapter.functional_drawer.quest31C16CD79583760D.description3}"
 			]
 			id: "31C16CD79583760D"
 			rewards: [{
@@ -502,7 +502,7 @@
 		}
 		{
 			dependencies: ["31C16CD79583760D"]
-			description: ["The Controller Access Point acts like the Storage Controller in terms of logistic interactions. (Input / Output/ Read Stored Items/Fluids)"]
+			description: ["{ftbquests.chapter.functional_drawer.quest1AF8B92267447B66.description1}"]
 			hide_dependent_lines: true
 			id: "1AF8B92267447B66"
 			rewards: [{
@@ -519,7 +519,7 @@
 			y: 3.0d
 		}
 		{
-			description: ["&1Functional Storage&r adds compact and expandable storage solutions to Minecraft, such as drawers, cabinets, and controller blocks for efficient item organization and automation."]
+			description: ["{ftbquests.chapter.functional_drawer.quest4F8E689471F23E65.description1}"]
 			hide_dependent_lines: true
 			id: "4F8E689471F23E65"
 			rewards: [{
@@ -532,22 +532,22 @@
 				id: "26FBA05237D02983"
 				type: "checkmark"
 			}]
-			title: "Functional Storage"
+			title: "{ftbquests.chapter.functional_drawer.quest4F8E689471F23E65.title}"
 			x: 0.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["1FE05B6BA860BE2C"]
 			description: [
-				"Storage Upgrades increase the amount of items and fluids that can be stored per drawer or increase the range of the Storage Controller."
+				"{ftbquests.chapter.functional_drawer.quest542EF79E79162E90.description1}"
 				""
-				"To install an upgrade Right-Click the drawer with an upgrade or open the drawer GUI by Right-Clicking the border or any other side than the front."
-				"To remove an upgrade open the GUI by Right-Clicking the edge of the drawer or any side but the front and take the upgrade out."
+				"{ftbquests.chapter.functional_drawer.quest542EF79E79162E90.description2}"
+				"{ftbquests.chapter.functional_drawer.quest542EF79E79162E90.description3}"
 			]
 			id: "542EF79E79162E90"
 			tasks: [{
 				id: "313A83AAF5AE2EF0"
-				title: "Storage Upgrades"
+				title: "{ftbquests.chapter.functional_drawer.quest542EF79E79162E90.task.3547292426797199088.title}"
 				type: "checkmark"
 			}]
 			x: 6.5d
@@ -556,14 +556,14 @@
 		{
 			dependencies: ["1FE05B6BA860BE2C"]
 			description: [
-				"These upgrades add extra functions to your drawers. A maximum of 3 functional upgrades can be installed."
-				"To install an upgrade Right-Click the drawer with an upgrade or open the drawer GUI by Right-Clicking the border or any other side than the front."
-				"To remove an upgrade open the GUI by Right-Clicking the edge of the drawer or any side but the front and take the upgrade out."
+				"{ftbquests.chapter.functional_drawer.quest5C6B61FEC98181FF.description1}"
+				"{ftbquests.chapter.functional_drawer.quest5C6B61FEC98181FF.description2}"
+				"{ftbquests.chapter.functional_drawer.quest5C6B61FEC98181FF.description3}"
 			]
 			id: "5C6B61FEC98181FF"
 			tasks: [{
 				id: "4FCA1CDEF41FF5BE"
-				title: "Functional Upgrades"
+				title: "{ftbquests.chapter.functional_drawer.quest5C6B61FEC98181FF.task.5749439618195912126.title}"
 				type: "checkmark"
 			}]
 			x: 6.5d
@@ -572,9 +572,9 @@
 		{
 			dependencies: ["4F8E689471F23E65"]
 			description: [
-				"The Armory Cabinet stores up to 4096 unstackable items. "
+				"{ftbquests.chapter.functional_drawer.quest357DD719E1910C43.description1}"
 				""
-				"The items can only be accessed via external storage tools like Applied Energistics, Refined Storage or Integrated Dynamics."
+				"{ftbquests.chapter.functional_drawer.quest357DD719E1910C43.description2}"
 			]
 			id: "357DD719E1910C43"
 			rewards: [{
@@ -593,13 +593,13 @@
 		{
 			dependencies: ["4F8E689471F23E65"]
 			description: [
-				"Ender Drawers can sync their inventory on a drawer frequency. This works across dimensions."
+				"{ftbquests.chapter.functional_drawer.quest155DAA57E54BD717.description1}"
 				""
-				"To &aget&r a frequency Sneak-Left-Click an Ender Drawer with a Linking Tool. "
+				"{ftbquests.chapter.functional_drawer.quest155DAA57E54BD717.description2}"
 				""
-				"To &bset&r a frequency Sneak-Right-Click an Ender Drawer with a Linking Tool."
+				"{ftbquests.chapter.functional_drawer.quest155DAA57E54BD717.description3}"
 				""
-				"To clear your Linking Tool from a frequency Sneak-Right-Click air."
+				"{ftbquests.chapter.functional_drawer.quest155DAA57E54BD717.description4}"
 			]
 			id: "155DAA57E54BD717"
 			rewards: [{
@@ -616,5 +616,5 @@
 			y: 0.0d
 		}
 	]
-	title: "Functional Storage"
+	title: "{ftbquests.chapter.functional_drawer.title}"
 }

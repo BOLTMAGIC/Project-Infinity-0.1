@@ -611,6 +611,10 @@
     {
       "item": "projecte:low_covalence_dust",
       "emc": 72
+    },
+    {
+      "item": "projecte:philosophers_stone",
+      "emc": 1000000001
     }
   ]
 }

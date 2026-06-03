@@ -49,7 +49,7 @@
 	lowervolume = 500
 	#virtual height of compact thermal evaporation block
 	#Range: > 1
-	virtual_height = 36
+	virtual_height = 24
 	#Energy Capacity of Compact Industrial Turbine
 	#Range: 0 ~ 9223372036854775807
 	energycapacity = 2000000000000

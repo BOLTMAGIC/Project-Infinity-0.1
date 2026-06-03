@@ -26,18 +26,6 @@ ServerEvents.recipes((event) => {
           type: 'forge:nbt',
           item: 'hostilenetworks:prediction',
           count: 1,
-          nbt: '{data_model:{id:"hostilenetworks:twilightforest/carminite_golem"}}',
-        },
-        {
-          type: 'forge:nbt',
-          item: 'hostilenetworks:prediction',
-          count: 1,
-          nbt: '{data_model:{id:"hostilenetworks:born_in_chaos/maggot"}}',
-        },
-        {
-          type: 'forge:nbt',
-          item: 'hostilenetworks:prediction',
-          count: 1,
           nbt: '{data_model:{id:"hostilenetworks:born_in_chaos/dark_vortex"}}',
         },
         {
@@ -45,12 +33,6 @@ ServerEvents.recipes((event) => {
           item: 'hostilenetworks:prediction',
           count: 1,
           nbt: '{data_model:{id:"hostilenetworks:twilightforest/death_tome"}}',
-        },
-        {
-          type: 'forge:nbt',
-          item: 'hostilenetworks:prediction',
-          count: 1,
-          nbt: '{data_model:{id:"hostilenetworks:cataclysm/deepling_warlock"}}',
         },
         {
           type: 'forge:nbt',
@@ -68,30 +50,6 @@ ServerEvents.recipes((event) => {
           type: 'forge:nbt',
           item: 'hostilenetworks:prediction',
           count: 1,
-          nbt: '{data_model:{id:"hostilenetworks:twilightforest/fire_beetle"}}',
-        },
-        {
-          type: 'forge:nbt',
-          item: 'hostilenetworks:prediction',
-          count: 1,
-          nbt: '{data_model:{id:"hostilenetworks:born_in_chaos/glutton_fish"}}',
-        },
-        {
-          type: 'forge:nbt',
-          item: 'hostilenetworks:prediction',
-          count: 1,
-          nbt: '{data_model:{id:"hostilenetworks:twilightforest/helmet_crab"}}',
-        },
-        {
-          type: 'forge:nbt',
-          item: 'hostilenetworks:prediction',
-          count: 1,
-          nbt: '{data_model:{id:"hostilenetworks:twilightforest/kobold"}}',
-        },
-        {
-          type: 'forge:nbt',
-          item: 'hostilenetworks:prediction',
-          count: 1,
           nbt: '{data_model:{id:"hostilenetworks:twilightforest/minotaur"}}',
         },
         {
@@ -104,43 +62,13 @@ ServerEvents.recipes((event) => {
           type: 'forge:nbt',
           item: 'hostilenetworks:prediction',
           count: 1,
-          nbt: '{data_model:{id:"hostilenetworks:twilightforest/raven"}}',
-        },
-        {
-          type: 'forge:nbt',
-          item: 'hostilenetworks:prediction',
-          count: 1,
           nbt: '{data_model:{id:"hostilenetworks:twilightforest/redcap"}}',
         },
         {
           type: 'forge:nbt',
           item: 'hostilenetworks:prediction',
           count: 1,
-          nbt: '{data_model:{id:"hostilenetworks:born_in_chaos/restless_spirit"}}',
-        },
-        {
-          type: 'forge:nbt',
-          item: 'hostilenetworks:prediction',
-          count: 1,
           nbt: '{data_model:{id:"hostilenetworks:twilightforest/skeleton_druid"}}',
-        },
-        {
-          type: 'forge:nbt',
-          item: 'hostilenetworks:prediction',
-          count: 1,
-          nbt: '{data_model:{id:"hostilenetworks:born_in_chaos/spirit_guide"}}',
-        },
-        {
-          type: 'forge:nbt',
-          item: 'hostilenetworks:prediction',
-          count: 1,
-          nbt: '{data_model:{id:"hostilenetworks:the_outer_end/stalker"}}',
-        },
-        {
-          type: 'forge:nbt',
-          item: 'hostilenetworks:prediction',
-          count: 1,
-          nbt: '{data_model:{id:"hostilenetworks:twilightforest/towerwood_borer"}}',
         },
         {
           type: 'forge:nbt',
@@ -159,30 +87,6 @@ ServerEvents.recipes((event) => {
           item: 'hostilenetworks:prediction',
           count: 1,
           nbt: '{data_model:{id:"hostilenetworks:twilightforest/goblin"}}',
-        },
-        {
-          type: 'forge:nbt',
-          item: 'hostilenetworks:prediction',
-          count: 1,
-          nbt: '{data_model:{id:"hostilenetworks:twilightforest/stable_ice_core"}}',
-        },
-        {
-          type: 'forge:nbt',
-          item: 'hostilenetworks:prediction',
-          count: 1,
-          nbt: '{data_model:{id:"hostilenetworks:twilightforest/winter_wolf"}}',
-        },
-        {
-          type: 'forge:nbt',
-          item: 'hostilenetworks:prediction',
-          count: 1,
-          nbt: '{data_model:{id:"hostilenetworks:twilightforest/wraith"}}',
-        },
-        {
-          type: 'forge:nbt',
-          item: 'hostilenetworks:prediction',
-          count: 1,
-          nbt: '{data_model:{id:"hostilenetworks:twilightforest/yeti"}}',
         },
       ],
       result: {

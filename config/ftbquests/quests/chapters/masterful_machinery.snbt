@@ -1,0 +1,616 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "masterful_machinery"
+	group: "29543B666C58207C"
+	icon: "mm:essenceforge_controller"
+	id: "53A9A5F61BF1DBC8"
+	images: [
+		{
+			height: 1.0d
+			image: "industrialforegoing:item/pink_slime_ingot"
+			rotation: 0.0d
+			width: 1.0d
+			x: 5.0d
+			y: 5.0d
+		}
+		{
+			height: 1.0d
+			image: "draconicevolution:item/components/awakened_core"
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.0d
+			y: -6.0d
+		}
+		{
+			height: 1.0d
+			image: "draconicadditions:textures/gui/chaos.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -2.5d
+			y: -6.0d
+		}
+		{
+			height: 1.0d
+			image: "kubejs:block/silent/empowered_super_block"
+			rotation: 0.0d
+			width: 1.0d
+			x: 2.5d
+			y: -6.0d
+		}
+		{
+			height: 1.0d
+			image: "kubejs:item/ultimate_prediction"
+			rotation: 0.0d
+			width: 1.0d
+			x: -5.0d
+			y: -5.0d
+		}
+		{
+			height: 1.0d
+			image: "draconicevolution:item/components/dragon_heart"
+			rotation: 0.0d
+			width: 1.0d
+			x: -6.0d
+			y: -2.5d
+		}
+		{
+			height: 1.0d
+			image: "exdeorum:item/iron_ore_chunk"
+			rotation: 0.0d
+			width: 1.0d
+			x: -6.0d
+			y: 2.5d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/gravel"
+			rotation: 0.0d
+			width: 1.0d
+			x: -5.0d
+			y: 5.0d
+		}
+		{
+			height: 1.0d
+			image: "kubejs:item/mysticalagriculture/infinity_essence"
+			rotation: 0.0d
+			width: 1.0d
+			x: -2.5d
+			y: 6.0d
+		}
+		{
+			height: 1.0d
+			image: "rftoolsutility:item/envmodules/waterbreathingmoduleitem"
+			rotation: 0.0d
+			width: 1.0d
+			x: 2.5d
+			y: 6.0d
+		}
+		{
+			height: 1.0d
+			image: "armorplus:item/infused_lava_crystal"
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.0d
+			y: 6.0d
+		}
+		{
+			height: 1.0d
+			image: "mekanism:item/pellet_antimatter"
+			rotation: 0.0d
+			width: 1.0d
+			x: 6.0d
+			y: 2.5d
+		}
+		{
+			height: 1.0d
+			image: "mysticalagriculture:item/master_infusion_crystal"
+			rotation: 0.0d
+			width: 1.0d
+			x: 5.0d
+			y: -5.0d
+		}
+		{
+			height: 1.0d
+			image: "avaritia:item/resource/singularity/eternal_singularity2"
+			rotation: 0.0d
+			width: 1.0d
+			x: 6.0d
+			y: -2.5d
+		}
+	]
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"The Masterful Machinery Multiblock machines are custom made to streamline automation. From early on to the end of progression there will be a use for these machines."
+				""
+				"Use the Priority Setter to set the priority of output ports if your machine has multiple."
+				"Instructions on how to use it are in the tooltip."
+				""
+				"Higher priority = output first"
+				""
+				"Tip: Make a Multibuilder Tool!"
+			]
+			hide_dependent_lines: true
+			id: "4402587B0EAC4EEC"
+			rewards: [{
+				count: 1
+				id: "6C365C0EE26DF877"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			shape: "gear"
+			size: 2.0d
+			tasks: [
+				{
+					id: "141F2705D423F3AF"
+					title: "Masterful Machinery"
+					type: "checkmark"
+				}
+				{
+					id: "7BAD11FD37C30A85"
+					item: "mm:priority_setter"
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4402587B0EAC4EEC"]
+			description: [
+				"The Event Horizon Antimatter Synthesizer is a powerful alternative to produce Mekanism Antimatter. It is recommended to use multiple Synthesizers in conjunction with a Mekanism Naquadah Reactor. "
+				""
+				"You can refer to the Mekanism Naquadah Reactor quest line for every production step in their regular machines. JEI will show all available replacement recipes using the Event Horizon Antimatter Synthesizer Controller."
+			]
+			id: "363152D3E6DCCBA7"
+			rewards: [{
+				id: "173002EC4F14C6FE"
+				item: "mekanism:pellet_antimatter"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "688F2272C9F5053E"
+					item: "mm:event_horizon_antimatter_synthesizer_controller"
+					type: "item"
+				}
+				{
+					id: "7B221F7449BFB220"
+					item: "mekanism_extras:naquadah_reactor_controller"
+					type: "item"
+				}
+				{
+					id: "401AD894FC74F1F5"
+					item: "mekanism:solar_neutron_activator"
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["4402587B0EAC4EEC"]
+			description: [
+				"The Fire Attuned Machine offers a few high temperature recipes."
+				""
+				"Example uses:"
+				"- Early Lava"
+				"- Life Essence"
+				"- Ether Gas"
+				""
+				"For all available recipes look up the uses of the Fire Attuned Machine Controller."
+			]
+			id: "3F6F01364D47157D"
+			rewards: [{
+				id: "6C1CB9A679130F97"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "77F0F594626E2671"
+					item: "mm:fire_attuned_controller"
+					type: "item"
+				}
+				{
+					id: "7BD0030093AB34F0"
+					item: "minecraft:lava_bucket"
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"4402587B0EAC4EEC"
+				"45FD2226287B545E"
+			]
+			description: [
+				"The Loot Fabrication Plant produces loot from mob predictions. "
+				"Unlike the Loot Fabricator you don't choose an item in the GUI but place the desired item in the input port along the predictions. The \"blueprint\" item will not get consumed."
+				""
+				"For all available loot fabrications look up the uses of the Loot Fabrication Plant Controller."
+			]
+			id: "74D33264B4291BCB"
+			rewards: [{
+				id: "3851F38532197F69"
+				item: "kubejs:infused_coin"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "7BEB2909E1F788B6"
+					item: "mm:loot_fabrication_plant_controller"
+					type: "item"
+				}
+				{
+					id: "28255F342524AC35"
+					item: "allthemodium:piglich_heart"
+					type: "item"
+				}
+			]
+			x: -4.0d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"4402587B0EAC4EEC"
+				"33B09B78983BA676"
+			]
+			description: [
+				"The Prediction Chamber Machine is the big brother to the (Extra) Hostile Neural Networks' Simulation Chambers. "
+				""
+				"To function the Prediction Chamber requires Prediction Matrices and an Extra Data Model (Tier: Omnipotent) comprised of a single mob. "
+				""
+				"For all usable Data Models look up the uses of the Prediction Chamber Controller."
+			]
+			id: "59290400D20A1EB2"
+			rewards: [
+				{
+					count: 64
+					id: "1C9F85FDAEB44DCD"
+					item: "hostilenetworks:prediction_matrix"
+					type: "item"
+				}
+				{
+					id: "225863AB67996DC9"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "42BD00B590113EC2"
+					item: "mm:prediction_chamber_controller"
+					type: "item"
+				}
+				{
+					id: "7364569F1C38C6FC"
+					item: "hostilenetworks:prediction_matrix"
+					type: "item"
+				}
+			]
+			x: -3.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["4402587B0EAC4EEC"]
+			description: ["The Infinity Crucible is the way to automate renewable Draconic Evolution Chaos Shards."]
+			id: "1E051F9FF87E7F6C"
+			rewards: [{
+				id: "43682DFFBC244C56"
+				item: "draconicevolution:large_chaos_frag"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "265C129FF4B197DF"
+					item: "mm:infinity_crucible_controller"
+					type: "item"
+				}
+				{
+					id: "38A0CB03FA2C32EE"
+					item: "draconicevolution:chaos_shard"
+					type: "item"
+				}
+				{
+					id: "7E362E1110CB701A"
+					item: {
+						Count: 1
+						id: "hostilenetworks:prediction"
+						tag: {
+							data_model: {
+								id: "hostilenetworks:draconicevolution/draconic_guardian"
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			x: -1.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["4402587B0EAC4EEC"]
+			description: ["The Pinky Machine accelerates the production of two pink-ish ingots."]
+			id: "76B341B45BB5DBB0"
+			rewards: [{
+				id: "7433E993F86550E8"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "08FCC0CFA5F1B6F9"
+					item: "mm:pinky_controller"
+					type: "item"
+				}
+				{
+					id: "73D3B2BED624820B"
+					item: "minecraft:pink_dye"
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"4402587B0EAC4EEC"
+				"07CB0C4388DEBCA3"
+			]
+			description: [
+				"The Auto Crusher Machine provides selected hammering and crushing related recipes. "
+				"Recommended as part of basic resource generation in conjunction with the Auto Sieve Machine."
+				""
+				"Note: Not all recipes are available for all Machine Tiers."
+				"For all available recipes look up the uses of the Auto Crusher Machine Controller."
+			]
+			id: "50F61B9BCC25618F"
+			rewards: [{
+				id: "63125DABE0327203"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "2C6590F00728481F"
+					item: "mm:auto_crusher_controller"
+					type: "item"
+				}
+				{
+					id: "17990D547EFB3648"
+					item: "exdeorum:mechanical_hammer"
+					type: "item"
+				}
+			]
+			x: -3.0d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"4402587B0EAC4EEC"
+				"07CB0C4388DEBCA3"
+			]
+			description: [
+				"The Auto Sieve will provide the basic resources you need in your daily skyblock adventures."
+				"Processing speed and amounts increase with Multiblock Tier."
+				""
+				"For all available recipes look up the uses of the Auto Sieve Machine Controller."
+			]
+			id: "3174B21A62F4B32C"
+			rewards: [{
+				id: "3FBB1DD3929DA0A3"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "0B855A09C17A5D32"
+					item: "mm:auto_sieve_controller"
+					type: "item"
+				}
+				{
+					id: "5DF2120FEAF830E0"
+					item: "exdeorum:mechanical_sieve"
+					type: "item"
+				}
+			]
+			x: -4.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["4402587B0EAC4EEC"]
+			description: [
+				"The Mechanical Empowerer removes the fiddly automation from the Actually Additions' Empowerer and a few other recipes. Notably, the automation of EnderIO recipes including Soul Vials. "
+				""
+				"For all available recipes look up the uses of the Mechanical Empowerer Controller. "
+			]
+			id: "30DE5CFF66D40BB8"
+			rewards: [{
+				id: "23ED6F071697C7B6"
+				item: "enderio:sentient_ender"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "6D9CC2467864ABF5"
+					item: "mm:mechanical_empowerer_controller"
+					type: "item"
+				}
+				{
+					id: "75821A6DCD66DC11"
+					item: "actuallyadditions:empowerer"
+					type: "item"
+				}
+			]
+			x: 1.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["4402587B0EAC4EEC"]
+			description: ["A basic water generator. Higher Tiers provide more water per operation."]
+			id: "38B38D416DA41D43"
+			rewards: [{
+				id: "4D59DA5421A33BCE"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "5115252847C04D9E"
+					item: "mm:water_condenser_controller"
+					type: "item"
+				}
+				{
+					id: "3F50B8CDC9A153B1"
+					item: "minecraft:water_bucket"
+					type: "item"
+				}
+			]
+			x: 1.5d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"4402587B0EAC4EEC"
+				"586C269FAAC6D0AB"
+			]
+			description: ["The Advanced Awakening Altar combines a few of the most used recipes from Draconic Evolution's Infusion crafting and Mystical Agriculture's Awakening Altar into one Block. This makes automation of Awakened Draconium and Awakened Supremium a breeze."]
+			id: "537E288F211B3167"
+			rewards: [
+				{
+					id: "77E7E0EE8B0C3F46"
+					item: "draconicevolution:awakened_core"
+					type: "item"
+				}
+				{
+					id: "7CDCE83CC8A9EABF"
+					item: "mysticalagriculture:awakened_supremium_block"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "3ADF1869D67F6047"
+					item: "mm:advanced_awakening_altar_controller"
+					type: "item"
+				}
+				{
+					id: "267F400DF26E62AF"
+					item: "draconicevolution:awakened_draconium_block"
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: -4.0d
+		}
+		{
+			dependencies: [
+				"4402587B0EAC4EEC"
+				"7A822E0A7F810F44"
+			]
+			description: [
+				"The Multi Compressor Machine has the single purpose in helping you make singularities faster. Producing the required resources fast enough is for you to figure out."
+				""
+				"The recipes for each singularity may differ from the ones in the Quantum Compressor so make sure to check JEI! "
+			]
+			id: "75229C9000F5B3AB"
+			rewards: [{
+				id: "1475325FB3F96A7A"
+				item: {
+					Count: 1
+					id: "extendedcrafting:singularity"
+					tag: {
+						Id: "extendedcrafting:abyssal_ingot"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "66957C4249E5D3C5"
+					item: "mm:multi_compressor_controller"
+					type: "item"
+				}
+				{
+					id: "7D16CD214D39C6E4"
+					item: "extendedcrafting:compressor"
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["4402587B0EAC4EEC"]
+			description: [
+				"The EssenceForge is your mid- to endgame resource production using Mystical Agriculture. "
+				"Using some Ether Gas the EssenceForge processes Mystical Agriculture seeds to produce the corresponding essences. The seeds and cruxes are NOT consumed, as is indicated by the small &4x&r in the recipe."
+				"Higher Tier EssenceForges require multiple seeds to be present in the input port at once. For all requirements see the uses of the EssenceForge in JEI."
+				""
+				"It is recommended to use the Fire Attuned Machine to produce the necessary Ether Gas in later gamestages."
+			]
+			id: "244180B3CF50DBD7"
+			rewards: [{
+				id: "1E7A614B4A557F38"
+				item: "mysticalagradditions:insanium_farmland"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "054DEF364AE77ED7"
+					item: "mm:essenceforge_controller"
+					type: "item"
+				}
+				{
+					id: "2DA3545CD5C81A3E"
+					item: "mysticalagriculture:inferium_seeds"
+					type: "item"
+				}
+			]
+			x: -1.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["4402587B0EAC4EEC"]
+			description: [
+				"The Multi Compactor Machine compacts (who would have thought?!) Mystical Agriculture Essences and ProjectE Alchemical Fuels. As a bonus you can try to produce the elusive Intricate Hellforged Parts with huge amounts of Coal and Gems (WIP)."
+				""
+				"For all available recipes look up the uses of the Multi Compactor Machine Controller."
+			]
+			id: "49F7A2C0AB76A359"
+			rewards: [{
+				id: "04B580A8ABABB403"
+				item: "kubejs:infused_coin"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "59BFBF63B8757B90"
+					item: "mm:multi_compactor_controller"
+					type: "item"
+				}
+				{
+					id: "25ABF7BBA5366C8A"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							Parent: { }
+						}
+						id: "projecte:philosophers_stone"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: -3.0d
+		}
+	]
+	title: "Masterful Machinery"
+}

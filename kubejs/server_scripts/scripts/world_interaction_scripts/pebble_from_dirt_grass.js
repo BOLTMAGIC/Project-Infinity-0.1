@@ -1,13 +1,16 @@
-BlockEvents.rightClicked((event) => {
+BlockEvents.rightClicked(
+  [
+    'minecraft:grass_block',
+    'minecraft:dirt'
+  ],
+  (event) => {
   const {block, player, level, server} = event;
   const COOLDOWN_TICKS = 1;
 
   if (level.dimension !== 'minecraft:overworld' && level.dimension !== 'compactmachines:compact_world') return;
 
-  if (block.id !== 'minecraft:grass_block' && block.id !== 'minecraft:dirt') return;
-
   if (!player.isCrouching()) return;
-  if (!player.mainHandItem.isEmpty()) return;
+  if (player.mainHandItem.isBlock()) return;
 
   if (player.cooldowns.isOnCooldown('botania:pebble')) return;
 

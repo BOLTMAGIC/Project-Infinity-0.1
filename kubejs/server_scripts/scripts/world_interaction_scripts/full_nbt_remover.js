@@ -1,13 +1,11 @@
-BlockEvents.rightClicked((event) => {
+BlockEvents.rightClicked('minecraft:grindstone', (event) => {
   const {block, item, player, hand} = event;
 
   if (hand !== 'MAIN_HAND') event.cancel();
 
   if(
     !item
-    || !block
     || item.id != 'kubejs:full_nbt_remover'
-    || block.id != 'minecraft:grindstone'
   )
   return;
 

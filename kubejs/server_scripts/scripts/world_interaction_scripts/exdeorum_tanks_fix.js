@@ -1,11 +1,22 @@
-BlockEvents.rightClicked((event) => {
+BlockEvents.rightClicked(
+  [
+    'exdeorum:oak_barrel',
+    'exdeorum:spruce_barrel',
+    'exdeorum:birch_barrel',
+    'exdeorum:jungle_barrel',
+    'exdeorum:acacia_barrel',
+    'exdeorum:dark_oak_barrel',
+    'exdeorum:mangrove_barrel',
+    'exdeorum:cherry_barrel',
+    'exdeorum:bamboo_barrel',
+    'exdeorum:crimson_barrel',
+    'exdeorum:warped_barrel',
+    'exdeorum:stone_barrel',
+  ],
+  (event) => {
   const { item, block, player, hand, level } = event;
 
   if (hand !== 'MAIN_HAND') return;
-
-  const blockRegex = /^exdeorum:.*barrel.*/;
-
-  if (!blockRegex.test(block.id)) return;
 
   const itemRegex = /^.*mekanism.*:.*fluid_tank/;
 

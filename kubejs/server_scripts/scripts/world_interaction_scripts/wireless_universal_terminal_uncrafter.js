@@ -1,4 +1,4 @@
-BlockEvents.rightClicked((event) => {
+BlockEvents.rightClicked('minecraft:grindstone', (event) => {
   const {block, item, player, hand} = event;
 
   if (hand !== 'MAIN_HAND') event.cancel();
@@ -7,7 +7,6 @@ BlockEvents.rightClicked((event) => {
     !item
     || !block
     || item.id != 'kubejs:universal_wireless_terminal_uncrafter'
-    || block.id != 'minecraft:grindstone'
   )
   return;
 

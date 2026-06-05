@@ -536,4 +536,10 @@ ItemEvents.tooltip((event) => {
     ['thermal:compost'],
     Text.translate('tooltip.thermal.compost').green()
   );
+
+  event.addAdvanced(['kubejs:extra_data_model_uncrafter'], (item, advanced, text) => {
+    text.add(1, Text.translate('tooltip.kubejs.extra_data_model_uncrafter_1'));
+    text.add(2, Text.translate('tooltip.kubejs.extra_data_model_uncrafter_2'));
+    text.add(3, Text.translate('tooltip.kubejs.extra_data_model_uncrafter_3').red());
+  });
 });

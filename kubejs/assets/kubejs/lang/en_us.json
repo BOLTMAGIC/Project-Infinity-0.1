@@ -284,10 +284,14 @@
   "tooltip.bmaddon.blood_generator_2": "Holds 2.14G mb Blood.",
 
   "tooltip.kubejs.universal_wireless_terminal_uncrafter_1": "If you right click this item while looking at a Grindstone,",
-  "tooltip.kubejs.universal_wireless_terminal_uncrafter_2": "you will get back every Wireless Terminal that was in the Universal Wireless Terminal.",
+  "tooltip.kubejs.universal_wireless_terminal_uncrafter_2": "you will get back every Wireless Terminal that were in the Universal Wireless Terminal.",
   "tooltip.kubejs.universal_wireless_terminal_uncrafter_3": "Crafting this item will delete every Card / View Cell / Singularity in the Universal Wireless Terminal",
   
   "tooltip.thermal.compost": "Get me by putting plants in a Batch Composter.",
+
+  "tooltip.kubejs.extra_data_model_uncrafter_1": "If you right click this item while looking at a Grindstone,",
+  "tooltip.kubejs.extra_data_model_uncrafter_2": "you will get back every Self Aware Data Models that were in the Extra Data Model.",
+  "tooltip.kubejs.extra_data_model_uncrafter_3": "Crafting recipes shows Extra Data Models with errors, don't worry, it will work as expected.",
   
   "tooltip.outer_end.ancient_ice": "Find me in the Primordial Pools biome"
 }

@@ -294,9 +294,9 @@ ItemEvents.tooltip((event) => {
 
 
   // TODO FINISHME: Tell them the biome it spawns in - used in supercooled ice
-  event.addAdvanced(['outer_end:ancient_ice']), (item, advanced, text) => {
+  event.addAdvanced(['outer_end:ancient_ice'], (item, advanced, text) => {
     text.add(1, Text.translate('tooltip.outer_end.ancient_ice').green());
-  }
+  });
 
   // Credit Recipes
   const kemCredits = [

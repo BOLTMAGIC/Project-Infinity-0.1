@@ -1,0 +1,7 @@
+
+[tooltip]
+	#Show only a single numeric amount in the tooltip for books instead of used/total. Default: false
+	show_only_number = true
+	#When true, positive point values are colored red; otherwise they are white. Negative values are colored green. Default: true
+	positive_color_red = true
+

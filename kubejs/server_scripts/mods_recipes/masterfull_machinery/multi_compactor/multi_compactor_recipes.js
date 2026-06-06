@@ -146,54 +146,6 @@ MMEvents.createProcesses((event) => {
   );
   createCompactorRecipe(
     event,
-    'mysticalagriculture:supremium_essence',
-    'mysticalagriculture:awakened_supremium_essence',
-    256,
-    [
-      {
-        type: 'mm:input/consume',
-        ingredient: {
-          type: 'mm:item',
-          item: 'mysticalagriculture:air_essence',
-          count: 10,
-        },
-      },
-      {
-        type: 'mm:input/consume',
-        ingredient: {
-          type: 'mm:item',
-          item: 'mysticalagriculture:earth_essence',
-          count: 10,
-        },
-      },
-      {
-        type: 'mm:input/consume',
-        ingredient: {
-          type: 'mm:item',
-          item: 'mysticalagriculture:water_essence',
-          count: 10,
-        },
-      },
-      {
-        type: 'mm:input/consume',
-        ingredient: {
-          type: 'mm:item',
-          item: 'mysticalagriculture:fire_essence',
-          count: 10,
-        },
-      },
-      {
-        type: 'mm:input/consume',
-        ingredient: {
-          type: 'mm:item',
-          item: 'mysticalagriculture:cognizant_dust',
-          count: 4,
-        },
-      },
-    ]
-  );
-  createCompactorRecipe(
-    event,
     'mysticalagriculture:awakened_supremium_essence',
     'mysticalagradditions:insanium_essence',
     128

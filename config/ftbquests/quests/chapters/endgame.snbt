@@ -28,7 +28,7 @@
 				type: "item"
 			}]
 			x: 0.5d
-			y: 0.0d
+			y: -3.0d
 		}
 		{
 			id: "13C237C092587F6A"
@@ -53,7 +53,7 @@
 				type: "item"
 			}]
 			x: 3.5d
-			y: 0.0d
+			y: -3.0d
 		}
 		{
 			id: "2971295789B17FB9"
@@ -80,13 +80,14 @@
 					type: "item"
 				}
 			]
+			size: 2.0d
 			tasks: [{
 				id: "35573648C49B566A"
 				item: "ae2:creative_item_cell"
 				type: "item"
 			}]
 			x: 2.0d
-			y: 2.0d
+			y: -1.0d
 		}
 		{
 			id: "3F546D112F96CB64"
@@ -147,7 +148,10 @@
 			y: 5.0d
 		}
 		{
-			dependencies: ["3C7ABEC92AFECACE"]
+			dependencies: [
+				"3C7ABEC92AFECACE"
+				"74E70B6AFFAF3F9F"
+			]
 			id: "09E417572962783A"
 			rewards: [{
 				id: "1602848DDCE2914B"
@@ -174,7 +178,10 @@
 			y: 5.0d
 		}
 		{
-			dependencies: ["09E417572962783A"]
+			dependencies: [
+				"09E417572962783A"
+				"74D98B0C85B0A6D9"
+			]
 			id: "1CCDE53F4A707C91"
 			rewards: [{
 				id: "67D1924670C89BBA"
@@ -201,7 +208,10 @@
 			y: 5.0d
 		}
 		{
-			dependencies: ["1CCDE53F4A707C91"]
+			dependencies: [
+				"1CCDE53F4A707C91"
+				"60340E1C5D797B8B"
+			]
 			id: "65F732CD15E10BBD"
 			rewards: [{
 				id: "5F45C24706F2DCF6"
@@ -228,7 +238,10 @@
 			y: 5.0d
 		}
 		{
-			dependencies: ["65F732CD15E10BBD"]
+			dependencies: [
+				"65F732CD15E10BBD"
+				"2FDE02E1D08FACF0"
+			]
 			id: "06F8F31942E7741C"
 			rewards: [{
 				id: "496A445229D59CD0"
@@ -255,7 +268,10 @@
 			y: 5.0d
 		}
 		{
-			dependencies: ["06F8F31942E7741C"]
+			dependencies: [
+				"06F8F31942E7741C"
+				"6B5FA0A7B13FB222"
+			]
 			id: "7B5143F86F4FAC74"
 			rewards: [{
 				id: "32AC6EC6ECA18057"
@@ -282,7 +298,10 @@
 			y: 5.0d
 		}
 		{
-			dependencies: ["7B5143F86F4FAC74"]
+			dependencies: [
+				"7B5143F86F4FAC74"
+				"1C55B400F87F2E30"
+			]
 			id: "3B7AEEE67CA9D3BC"
 			rewards: [{
 				id: "7978AB8FAF670CF9"
@@ -309,7 +328,10 @@
 			y: 5.0d
 		}
 		{
-			dependencies: ["3B7AEEE67CA9D3BC"]
+			dependencies: [
+				"3B7AEEE67CA9D3BC"
+				"4E15BCE4E4C16522"
+			]
 			id: "21F3CB7EEAAFDFBB"
 			rewards: [{
 				id: "79DAF473FB02C7FB"
@@ -336,7 +358,10 @@
 			y: 5.0d
 		}
 		{
-			dependencies: ["21F3CB7EEAAFDFBB"]
+			dependencies: [
+				"21F3CB7EEAAFDFBB"
+				"0455DC33402F62ED"
+			]
 			id: "08FC6B05DAE0AE82"
 			rewards: [{
 				id: "6DEADB574944F83D"
@@ -363,7 +388,10 @@
 			y: 5.0d
 		}
 		{
-			dependencies: ["08FC6B05DAE0AE82"]
+			dependencies: [
+				"08FC6B05DAE0AE82"
+				"19F5F1A98758644F"
+			]
 			id: "263CF5984CE06F89"
 			rewards: [{
 				id: "714E855055DAD7A7"
@@ -390,7 +418,10 @@
 			y: 5.0d
 		}
 		{
-			dependencies: ["263CF5984CE06F89"]
+			dependencies: [
+				"263CF5984CE06F89"
+				"6A5EA1F9F5A29562"
+			]
 			id: "39F206873B1761EC"
 			rewards: [{
 				id: "43F2912FBEC8D331"
@@ -450,6 +481,106 @@
 				type: "item"
 			}]
 			x: -1.5d
+			y: 3.5d
+		}
+		{
+			id: "74E70B6AFFAF3F9F"
+			tasks: [{
+				id: "2656C183D14DE199"
+				item: "botania:elementium_ingot"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 6.5d
+		}
+		{
+			id: "74D98B0C85B0A6D9"
+			tasks: [{
+				id: "2C9A8FA11F0DBE8D"
+				item: "bloodmagic:dungeon_metal"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 3.5d
+		}
+		{
+			id: "60340E1C5D797B8B"
+			tasks: [{
+				id: "20A3269A481D47BA"
+				item: "pneumaticcraft:pressure_chamber_wall"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 6.5d
+		}
+		{
+			id: "2FDE02E1D08FACF0"
+			tasks: [{
+				id: "375B8D43DAF3B812"
+				item: "enderio:soul_binder"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 3.5d
+		}
+		{
+			id: "6B5FA0A7B13FB222"
+			tasks: [{
+				id: "18477D920D568DC6"
+				item: "pneumaticcraft:assembly_controller"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 6.5d
+		}
+		{
+			id: "4E15BCE4E4C16522"
+			tasks: [{
+				id: "15D810B24CE24719"
+				item: "avaritia:infinity"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 6.5d
+		}
+		{
+			id: "19F5F1A98758644F"
+			tasks: [{
+				id: "2558B08F7300D7D2"
+				item: "exdeorum:oak_sieve"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 6.5d
+		}
+		{
+			id: "6A5EA1F9F5A29562"
+			tasks: [{
+				id: "64AA0A4D4CDAE68E"
+				item: "extendedcrafting:ultimate_table"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 3.5d
+		}
+		{
+			id: "1C55B400F87F2E30"
+			tasks: [{
+				id: "364D694EB2729EA8"
+				item: "draconicevolution:crafting_core"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 3.5d
+		}
+		{
+			id: "0455DC33402F62ED"
+			tasks: [{
+				id: "4A9044C8D62C54BF"
+				item: "mysticalagriculture:awakening_altar"
+				type: "item"
+			}]
+			x: 6.0d
 			y: 3.5d
 		}
 	]

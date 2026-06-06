@@ -40,7 +40,7 @@ ServerEvents.tags('item', (event) => {
   event.add('forge:fruits/chorus', 'minecraft:chorus_fruit');
   event.add('forge:vegetables/beetroot', 'minecraft:beetroot');
   event.add('forge:rubber', 'thermal:cured_rubber');
-  
+
   event.add('exdeorum:hammers', [
     'thermal_extra:signalum_hammer',
     'thermal_extra:lumium_hammer',
@@ -72,10 +72,12 @@ ServerEvents.tags('item', (event) => {
   event.add('curios:curio', 'compactmachines:personal_shrinking_device');
 });
 
-
 //remove Tags from Items
 ServerEvents.tags('item', (event) => {
-  event.remove('mysticalagriculture:infusion_crystals', 'mysticalagriculture:infusion_crystal');
+  event.remove(
+    'mysticalagriculture:infusion_crystals',
+    'mysticalagriculture:infusion_crystal'
+  );
 });
 
 //add Tags to Fluids
@@ -98,10 +100,16 @@ ServerEvents.tags('fluid', (event) => {
   event.add('minecraft:water', 'minecraft:water');
   event.add('bloodmagic:life_essence_fluid', 'bloodmagic:life_essence_fluid');
   event.add('forge:steam', ['bigreactors:steam', 'bigreactors:steam_vapor']);
+
+  event.add('getittogetherdrops:ignored', [
+    'minecraft:coal',
+    'minecraft:coal_block',
+    'minecraft:nether_star',
+  ]);
 });
 
 //add Tags to Blocks
-ServerEvents.tags('block', event => {
+ServerEvents.tags('block', (event) => {
   event.add('mysticalagriculture:crops', [
     'mysticalagriculture:boron_crop',
     'mysticalagriculture:cognizant_dust_crop',
@@ -169,4 +177,4 @@ ServerEvents.tags('block', event => {
     'mekanism:creative_chemical_tank',
     'mekanism:creative_energy_cube',
   ]);
-})
+});

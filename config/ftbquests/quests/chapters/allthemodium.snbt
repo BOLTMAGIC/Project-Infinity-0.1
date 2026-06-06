@@ -5,7 +5,7 @@
 	group: "29543B666C58207C"
 	icon: "allthemodium:allthemodium_ingot"
 	id: "45266BB4B938FF39"
-	order_index: 10
+	order_index: 11
 	progression_mode: "flexible"
 	quest_links: [ ]
 	quests: [

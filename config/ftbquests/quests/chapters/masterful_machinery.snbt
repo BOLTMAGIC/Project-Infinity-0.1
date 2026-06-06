@@ -124,19 +124,18 @@
 	quests: [
 		{
 			description: [
-				"The Masterful Machinery Multiblock machines are custom made to streamline automation. From early on to the end of progression there will be a use for these machines."
+				"{ftbquests.chapter.masterful_machinery.quest4402587B0EAC4EEC.description1}"
 				""
-				"Use the Priority Setter to set the priority of output ports if your machine has multiple."
-				"Instructions on how to use it are in the tooltip."
+				"{ftbquests.chapter.masterful_machinery.quest4402587B0EAC4EEC.description2}"
+				"{ftbquests.chapter.masterful_machinery.quest4402587B0EAC4EEC.description3}"
 				""
-				"Higher priority = output first"
+				"{ftbquests.chapter.masterful_machinery.quest4402587B0EAC4EEC.description4}"
 				""
-				"Tip: Make a Multibuilder Tool!"
+				"{ftbquests.chapter.masterful_machinery.quest4402587B0EAC4EEC.description5}"
 			]
 			hide_dependent_lines: true
 			id: "4402587B0EAC4EEC"
 			rewards: [{
-				count: 1
 				id: "6C365C0EE26DF877"
 				item: "kubejs:apotheotic_coin"
 				type: "item"
@@ -146,7 +145,7 @@
 			tasks: [
 				{
 					id: "141F2705D423F3AF"
-					title: "Masterful Machinery"
+					title: "{ftbquests.chapter.masterful_machinery.quest4402587B0EAC4EEC.task.1449920511024034735.title}"
 					type: "checkmark"
 				}
 				{
@@ -161,9 +160,9 @@
 		{
 			dependencies: ["4402587B0EAC4EEC"]
 			description: [
-				"The Event Horizon Antimatter Synthesizer is a powerful alternative to produce Mekanism Antimatter. It is recommended to use multiple Synthesizers in conjunction with a Mekanism Naquadah Reactor. "
+				"{ftbquests.chapter.masterful_machinery.quest363152D3E6DCCBA7.description1}"
 				""
-				"You can refer to the Mekanism Naquadah Reactor quest line for every production step in their regular machines. JEI will show all available replacement recipes using the Event Horizon Antimatter Synthesizer Controller."
+				"{ftbquests.chapter.masterful_machinery.quest363152D3E6DCCBA7.description2}"
 			]
 			id: "363152D3E6DCCBA7"
 			rewards: [{
@@ -182,11 +181,6 @@
 					item: "mekanism_extras:naquadah_reactor_controller"
 					type: "item"
 				}
-				{
-					id: "401AD894FC74F1F5"
-					item: "mekanism:solar_neutron_activator"
-					type: "item"
-				}
 			]
 			x: 4.0d
 			y: 1.5d
@@ -194,14 +188,14 @@
 		{
 			dependencies: ["4402587B0EAC4EEC"]
 			description: [
-				"The Fire Attuned Machine offers a few high temperature recipes."
+				"{ftbquests.chapter.masterful_machinery.quest3F6F01364D47157D.description1}"
 				""
-				"Example uses:"
-				"- Early Lava"
-				"- Life Essence"
-				"- Ether Gas"
+				"{ftbquests.chapter.masterful_machinery.quest3F6F01364D47157D.description2}"
+				"{ftbquests.chapter.masterful_machinery.quest3F6F01364D47157D.description3}"
+				"{ftbquests.chapter.masterful_machinery.quest3F6F01364D47157D.description4}"
+				"{ftbquests.chapter.masterful_machinery.quest3F6F01364D47157D.description5}"
 				""
-				"For all available recipes look up the uses of the Fire Attuned Machine Controller."
+				"{ftbquests.chapter.masterful_machinery.quest3F6F01364D47157D.description6}"
 			]
 			id: "3F6F01364D47157D"
 			rewards: [{
@@ -230,10 +224,10 @@
 				"45FD2226287B545E"
 			]
 			description: [
-				"The Loot Fabrication Plant produces loot from mob predictions. "
-				"Unlike the Loot Fabricator you don't choose an item in the GUI but place the desired item in the input port along the predictions. The \"blueprint\" item will not get consumed."
+				"{ftbquests.chapter.masterful_machinery.quest74D33264B4291BCB.description1}"
+				"{ftbquests.chapter.masterful_machinery.quest74D33264B4291BCB.description2}"
 				""
-				"For all available loot fabrications look up the uses of the Loot Fabrication Plant Controller."
+				"{ftbquests.chapter.masterful_machinery.quest74D33264B4291BCB.description3}"
 			]
 			id: "74D33264B4291BCB"
 			rewards: [{
@@ -262,11 +256,11 @@
 				"33B09B78983BA676"
 			]
 			description: [
-				"The Prediction Chamber Machine is the big brother to the (Extra) Hostile Neural Networks' Simulation Chambers. "
+				"{ftbquests.chapter.masterful_machinery.quest59290400D20A1EB2.description1}"
 				""
-				"To function the Prediction Chamber requires Prediction Matrices and an Extra Data Model (Tier: Omnipotent) comprised of a single mob. "
+				"{ftbquests.chapter.masterful_machinery.quest59290400D20A1EB2.description2}"
 				""
-				"For all usable Data Models look up the uses of the Prediction Chamber Controller."
+				"{ftbquests.chapter.masterful_machinery.quest59290400D20A1EB2.description3}"
 			]
 			id: "59290400D20A1EB2"
 			rewards: [
@@ -299,7 +293,7 @@
 		}
 		{
 			dependencies: ["4402587B0EAC4EEC"]
-			description: ["The Infinity Crucible is the way to automate renewable Draconic Evolution Chaos Shards."]
+			description: ["{ftbquests.chapter.masterful_machinery.quest1E051F9FF87E7F6C.description1}"]
 			id: "1E051F9FF87E7F6C"
 			rewards: [{
 				id: "43682DFFBC244C56"
@@ -317,26 +311,13 @@
 					item: "draconicevolution:chaos_shard"
 					type: "item"
 				}
-				{
-					id: "7E362E1110CB701A"
-					item: {
-						Count: 1
-						id: "hostilenetworks:prediction"
-						tag: {
-							data_model: {
-								id: "hostilenetworks:draconicevolution/draconic_guardian"
-							}
-						}
-					}
-					type: "item"
-				}
 			]
 			x: -1.5d
 			y: -4.0d
 		}
 		{
 			dependencies: ["4402587B0EAC4EEC"]
-			description: ["The Pinky Machine accelerates the production of two pink-ish ingots."]
+			description: ["{ftbquests.chapter.masterful_machinery.quest76B341B45BB5DBB0.description1}"]
 			id: "76B341B45BB5DBB0"
 			rewards: [{
 				id: "7433E993F86550E8"
@@ -364,11 +345,11 @@
 				"07CB0C4388DEBCA3"
 			]
 			description: [
-				"The Auto Crusher Machine provides selected hammering and crushing related recipes. "
-				"Recommended as part of basic resource generation in conjunction with the Auto Sieve Machine."
+				"{ftbquests.chapter.masterful_machinery.quest50F61B9BCC25618F.description1}"
+				"{ftbquests.chapter.masterful_machinery.quest50F61B9BCC25618F.description2}"
 				""
-				"Note: Not all recipes are available for all Machine Tiers."
-				"For all available recipes look up the uses of the Auto Crusher Machine Controller."
+				"{ftbquests.chapter.masterful_machinery.quest50F61B9BCC25618F.description3}"
+				"{ftbquests.chapter.masterful_machinery.quest50F61B9BCC25618F.description4}"
 			]
 			id: "50F61B9BCC25618F"
 			rewards: [{
@@ -397,10 +378,10 @@
 				"07CB0C4388DEBCA3"
 			]
 			description: [
-				"The Auto Sieve will provide the basic resources you need in your daily skyblock adventures."
-				"Processing speed and amounts increase with Multiblock Tier."
+				"{ftbquests.chapter.masterful_machinery.quest3174B21A62F4B32C.description1}"
+				"{ftbquests.chapter.masterful_machinery.quest3174B21A62F4B32C.description2}"
 				""
-				"For all available recipes look up the uses of the Auto Sieve Machine Controller."
+				"{ftbquests.chapter.masterful_machinery.quest3174B21A62F4B32C.description3}"
 			]
 			id: "3174B21A62F4B32C"
 			rewards: [{
@@ -426,9 +407,9 @@
 		{
 			dependencies: ["4402587B0EAC4EEC"]
 			description: [
-				"The Mechanical Empowerer removes the fiddly automation from the Actually Additions' Empowerer and a few other recipes. Notably, the automation of EnderIO recipes including Soul Vials. "
+				"{ftbquests.chapter.masterful_machinery.quest30DE5CFF66D40BB8.description1}"
 				""
-				"For all available recipes look up the uses of the Mechanical Empowerer Controller. "
+				"{ftbquests.chapter.masterful_machinery.quest30DE5CFF66D40BB8.description2}"
 			]
 			id: "30DE5CFF66D40BB8"
 			rewards: [{
@@ -453,7 +434,7 @@
 		}
 		{
 			dependencies: ["4402587B0EAC4EEC"]
-			description: ["A basic water generator. Higher Tiers provide more water per operation."]
+			description: ["{ftbquests.chapter.masterful_machinery.quest38B38D416DA41D43.description1}"]
 			id: "38B38D416DA41D43"
 			rewards: [{
 				id: "4D59DA5421A33BCE"
@@ -480,7 +461,7 @@
 				"4402587B0EAC4EEC"
 				"586C269FAAC6D0AB"
 			]
-			description: ["The Advanced Awakening Altar combines a few of the most used recipes from Draconic Evolution's Infusion crafting and Mystical Agriculture's Awakening Altar into one Block. This makes automation of Awakened Draconium and Awakened Supremium a breeze."]
+			description: ["{ftbquests.chapter.masterful_machinery.quest537E288F211B3167.description1}"]
 			id: "537E288F211B3167"
 			rewards: [
 				{
@@ -515,9 +496,9 @@
 				"7A822E0A7F810F44"
 			]
 			description: [
-				"The Multi Compressor Machine has the single purpose in helping you make singularities faster. Producing the required resources fast enough is for you to figure out."
+				"{ftbquests.chapter.masterful_machinery.quest75229C9000F5B3AB.description1}"
 				""
-				"The recipes for each singularity may differ from the ones in the Quantum Compressor so make sure to check JEI! "
+				"{ftbquests.chapter.masterful_machinery.quest75229C9000F5B3AB.description2}"
 			]
 			id: "75229C9000F5B3AB"
 			rewards: [{
@@ -549,11 +530,11 @@
 		{
 			dependencies: ["4402587B0EAC4EEC"]
 			description: [
-				"The EssenceForge is your mid- to endgame resource production using Mystical Agriculture. "
-				"Using some Ether Gas the EssenceForge processes Mystical Agriculture seeds to produce the corresponding essences. The seeds and cruxes are NOT consumed, as is indicated by the small &4x&r in the recipe."
-				"Higher Tier EssenceForges require multiple seeds to be present in the input port at once. For all requirements see the uses of the EssenceForge in JEI."
+				"{ftbquests.chapter.masterful_machinery.quest244180B3CF50DBD7.description1}"
+				"{ftbquests.chapter.masterful_machinery.quest244180B3CF50DBD7.description2}"
+				"{ftbquests.chapter.masterful_machinery.quest244180B3CF50DBD7.description3}"
 				""
-				"It is recommended to use the Fire Attuned Machine to produce the necessary Ether Gas in later gamestages."
+				"{ftbquests.chapter.masterful_machinery.quest244180B3CF50DBD7.description4}"
 			]
 			id: "244180B3CF50DBD7"
 			rewards: [{
@@ -579,9 +560,9 @@
 		{
 			dependencies: ["4402587B0EAC4EEC"]
 			description: [
-				"The Multi Compactor Machine compacts (who would have thought?!) Mystical Agriculture Essences and ProjectE Alchemical Fuels. As a bonus you can try to produce the elusive Intricate Hellforged Parts with huge amounts of Coal and Gems (WIP)."
+				"{ftbquests.chapter.masterful_machinery.quest49F7A2C0AB76A359.description1}"
 				""
-				"For all available recipes look up the uses of the Multi Compactor Machine Controller."
+				"{ftbquests.chapter.masterful_machinery.quest49F7A2C0AB76A359.description2}"
 			]
 			id: "49F7A2C0AB76A359"
 			rewards: [{
@@ -612,5 +593,5 @@
 			y: -3.0d
 		}
 	]
-	title: "Masterful Machinery"
+	title: "{ftbquests.chapter.masterful_machinery.title}"
 }

@@ -14,7 +14,6 @@
 		{ item: "mysticalagriculture:enderman_seeds", weight: 2.0f }
 		{ item: "mysticalagriculture:steel_seeds", weight: 2.0f }
 		{ item: "mysticalagriculture:nickel_seeds", weight: 3.0f }
-		{ item: "mysticalagriculture:uranium_seeds", weight: 2.0f }
 		{ item: "mysticalagriculture:ruby_seeds", weight: 3.0f }
 		{ item: "mysticalagriculture:sapphire_seeds", weight: 3.0f }
 		{ item: "mysticalagriculture:osmium_seeds", weight: 3.0f }

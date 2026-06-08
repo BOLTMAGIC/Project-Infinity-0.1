@@ -1,10 +1,19 @@
-BlockEvents.rightClicked((event) => {
+BlockEvents.rightClicked(
+  [
+    'botanypots:terracotta_botany_pot',
+    'botanypots:terracotta_hopper_botany_pot',
+    'botanypotstiers:elite_terracotta_botany_pot',
+    'botanypotstiers:elite_terracotta_hopper_botany_pot',
+    'botanypotstiers:ultra_terracotta_botany_pot',
+    'botanypotstiers:ultra_terracotta_hopper_botany_pot',
+    'botanypotstiers:creative_terracotta_botany_pot',
+    'botanypotstiers:creative_terracotta_hopper_botany_pot',
+  ],
+  (event) => {
   const { item, block, player, hand, level} = event;
 
   if (
     item.isEmpty()
-    || !block
-    || !block.id.startsWith('botanypots')
     || player.isCrouching()
   )
   return;

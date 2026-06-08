@@ -1,7 +1,7 @@
-BlockEvents.rightClicked((event) => {
+BlockEvents.rightClicked('mekanism:creative_bin',(event) => {
   const { player, item, block, facing } = event;
 
-  if (item.isEmpty() || !block || block.id !== 'mekanism:creative_bin') return;
+  if (item.isEmpty()) return;
 
   if (item.isBlock() && player.isCrouching()) return;
 

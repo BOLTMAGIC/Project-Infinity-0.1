@@ -460,6 +460,10 @@ StartupEvents.registry('item', (e) => {
     .displayName('Universal Wireless Terminal Uncrafter')
     .texture('kubejs:item/universal_wireless_terminal_uncrafter');
 
+  e.create('extra_data_model_uncrafter')
+    .displayName('Extra Data Model Uncrafter')
+    .texture('kubejs:item/extra_data_model_uncrafter');
+
   function createMekanismCompressed(e, item) {
     e.create('compressed_enriched_' + item)
       .displayName(

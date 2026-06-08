@@ -1,13 +1,12 @@
-BlockEvents.rightClicked((event) => {
+BlockEvents.rightClicked(
+  [
+    'cataclysm:boss_respawner',
+    'cataclysm:cursed_tombstone'
+  ],
+  (event) => {
   const { item, block, server, player, hand } = event;
 
   if (hand !== 'MAIN_HAND') return;
-
-  if (
-    block.id !== 'cataclysm:boss_respawner' &&
-    block.id !== 'cataclysm:cursed_tombstone'
-  )
-    return;
 
   if (item.id !== 'minecraft:stick') {
     player.tell(

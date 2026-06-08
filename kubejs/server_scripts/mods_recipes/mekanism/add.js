@@ -1,9 +1,8 @@
 ServerEvents.recipes((event) => {
-  function crush(input, output_count, output, input_count) {
+  function crush(event, input, output_count, output, input_count) {
     if (input_count == null) input_count = 1;
 
     input = String(input);
-    output = String(output);
 
     const ingredientData =
       input.charAt(0) == '#' ? { tag: input.substring(1) } : { item: input };
@@ -33,7 +32,7 @@ ServerEvents.recipes((event) => {
   crush(event, 'kubejs:azure_silver_ingot', 1, 'kubejs:azure_silver_dust');
   crush(event, 'kubejs:azure_electrum_ingot', 1, 'kubejs:azure_electrum_dust');
   crush(event, 'kubejs:crimson_iron_ingot', 1, 'kubejs:crimson_iron_dust');
-  crush('minecraft:sand', 1, 'exdeorum:dust', 2);
+  crush(event, 'minecraft:sand', 1, 'exdeorum:dust', 2);
   crush(event, 'kubejs:arcmetal_ore', 2, 'kubejs:raw_arcmetal');
   crush(event, 'kubejs:solarmetal_ore', 2, 'kubejs:raw_solarmetal');
   crush(event, 'kubejs:plasteel_ore', 2, 'kubejs:raw_plasteel');

@@ -177,7 +177,7 @@ MMEvents.createProcesses((event) => {
       type: 'mm:input/consume',
       ingredient: {
         type: 'mm:item',
-        item: 'compressium:coal_2',
+        item: 'compressium:coal_3',
         count: 344064,
       },
     })
@@ -193,38 +193,11 @@ MMEvents.createProcesses((event) => {
       ingredient: {
         type: 'mm:item',
         item: 'bloodmagic:hellforgedparts',
-        count: 1,
-      },
-      chance: 0.133,
-    })
-    .output({
-      type: 'mm:output/simple',
-      ingredient: {
-        type: 'mm:item',
-        item: 'bloodmagic:hellforgedparts',
-        count: 1,
-      },
-      chance: 0.133,
-    })
-    .output({
-      type: 'mm:output/simple',
-      ingredient: {
-        type: 'mm:item',
-        item: 'bloodmagic:hellforgedparts',
-        count: 1,
-      },
-      chance: 0.133,
-    })
-    .output({
-      type: 'mm:output/simple',
-      ingredient: {
-        type: 'mm:item',
-        item: 'bloodmagic:hellforgedparts',
-        count: 1,
-      },
-      chance: 0.133,
+        count: 2,
+      }
     });
 
+    // This recipe is useless coal has emc using these ores is not worth it
       event
     .create('mm:silentgem_to_hellforged_parts')
     .structureId('mm:multi_compactor_structure')

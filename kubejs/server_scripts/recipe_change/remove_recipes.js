@@ -573,7 +573,7 @@ const removeItemsbyID = [
   'projecte:medium_covalence_dust',
   'nuclearcraft:manufactory/ender_pearl',
   'nuclearcraft:manufactory/netherite_scrap',
-  '',
+  'nuclearcraft:pu_239_bomb',
   '',
   '',
   '',

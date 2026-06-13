@@ -54,6 +54,8 @@ ItemEvents.tooltip((event) => {
     'kubejs:infinity_9',
     Text.translate('tooltip.kubejs.texture_credit', 'Elpximso')
   );
+  event.add('kubejs:infinity_9', Text.translate('tooltip.kubejs.infinity_9_1'));
+  event.add('kubejs:infinity_9', Text.translate('tooltip.kubejs.infinity_9_2'));
 
   // --- Master Machinery Ports Tooltips ---
 
@@ -173,12 +175,9 @@ ItemEvents.tooltip((event) => {
 
   // Compact Machines
   event.add(
-    [
-      'compactmekanismmachines:compact_industrial_turbine'
-    ],
+    ['compactmekanismmachines:compact_industrial_turbine'],
     Text.translate('tooltip.compactmachines.info')
   );
-  
 
   // --- Advanced Tooltips ---
 
@@ -291,7 +290,6 @@ ItemEvents.tooltip((event) => {
       text.add(1, Text.translate('tooltip.occultism.iesnium').green());
     }
   });
-
 
   // TODO FINISHME: Tell them the biome it spawns in - used in supercooled ice
   event.addAdvanced(['outer_end:ancient_ice'], (item, advanced, text) => {
@@ -526,20 +524,46 @@ ItemEvents.tooltip((event) => {
     text.add(2, Text.translate('tooltip.bmaddon.blood_generator_2').yellow());
   });
 
-  event.addAdvanced(['kubejs:universal_wireless_terminal_uncrafter'], (item, advanced, text) => {
-    text.add(1, Text.translate('tooltip.kubejs.universal_wireless_terminal_uncrafter_1'));
-    text.add(2, Text.translate('tooltip.kubejs.universal_wireless_terminal_uncrafter_2'));
-    text.add(3, Text.translate('tooltip.kubejs.universal_wireless_terminal_uncrafter_3').red());
-  });
+  event.addAdvanced(
+    ['kubejs:universal_wireless_terminal_uncrafter'],
+    (item, advanced, text) => {
+      text.add(
+        1,
+        Text.translate('tooltip.kubejs.universal_wireless_terminal_uncrafter_1')
+      );
+      text.add(
+        2,
+        Text.translate('tooltip.kubejs.universal_wireless_terminal_uncrafter_2')
+      );
+      text.add(
+        3,
+        Text.translate(
+          'tooltip.kubejs.universal_wireless_terminal_uncrafter_3'
+        ).red()
+      );
+    }
+  );
 
   event.add(
     ['thermal:compost'],
     Text.translate('tooltip.thermal.compost').green()
   );
 
-  event.addAdvanced(['kubejs:extra_data_model_uncrafter'], (item, advanced, text) => {
-    text.add(1, Text.translate('tooltip.kubejs.extra_data_model_uncrafter_1'));
-    text.add(2, Text.translate('tooltip.kubejs.extra_data_model_uncrafter_2'));
-    text.add(3, Text.translate('tooltip.kubejs.extra_data_model_uncrafter_3').red());
-  });
+  event.addAdvanced(
+    ['kubejs:extra_data_model_uncrafter'],
+    (item, advanced, text) => {
+      text.add(
+        1,
+        Text.translate('tooltip.kubejs.extra_data_model_uncrafter_1')
+      );
+      text.add(
+        2,
+        Text.translate('tooltip.kubejs.extra_data_model_uncrafter_2')
+      );
+      text.add(
+        3,
+        Text.translate('tooltip.kubejs.extra_data_model_uncrafter_3').red()
+      );
+    }
+  );
 });

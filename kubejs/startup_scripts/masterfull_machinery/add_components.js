@@ -94,4 +94,12 @@ MMEvents.registerPorts((event) => {
     .config('mm:item', (c) => {
       c.rows(8).columns(12).slotCapacity(512).tierRank(9);
     });
+
+      event
+    .create('super_compressed_titanic_item_port')
+    .name('Super Compressed Titanic Item Port')
+    .controllerId('mm:controller')
+    .config('mm:item', (c) => {
+      c.rows(8).columns(12).slotCapacity(16384).tierRank(10);
+    });
 });

@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "mm:super_compressed_titanic_item_port_input"
+        }
+      ],
+      "rolls": 1.0
+    }
+  ],
+  "random_sequence": "mm:blocks/super_compressed_titanic_item_port_input"
+}

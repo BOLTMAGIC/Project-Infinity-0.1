@@ -65,7 +65,9 @@
                     "count": 5
                 },
                 {
+                    "type": "forge:nbt",
                     "entity": "cataclysm:the_harbinger",
+                    "nbt": "{Is_Act: 1b}",
                     "count": 1
                 }
             ],

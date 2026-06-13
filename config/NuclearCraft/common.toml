@@ -73,3 +73,60 @@
 	#Range: 8 ~ 64
 	energy_upgrades_for_next_tier = 16
 
+[q36_quantite_disruptor]
+	#Cooldown between pulse shots, in ticks
+	#Range: 1 ~ 1200
+	pulse_cooldown_ticks = 10
+	#Quantite charge cost per pulse shot
+	#Range: > 0
+	pulse_qc_cost = 200
+	#Pulse projectile damage on direct hit
+	#Range: 0.0 ~ 100000.0
+	pulse_damage = 50.0
+	#Pulse radiation dose applied on direct hit
+	#Range: 0 ~ 9223372036854775807
+	pulse_radiation = 200000
+	#Cooldown between beam shots, in ticks
+	#Range: 1 ~ 1200
+	beam_cooldown_ticks = 60
+	#Quantite charge cost per beam shot
+	#Range: > 0
+	beam_qc_cost = 2000
+	#Beam direct hit damage
+	#Range: 0.0 ~ 100000.0
+	beam_damage = 200.0
+	#Beam radiation dose applied on direct hit
+	#Range: 0 ~ 9223372036854775807
+	beam_radiation = 2000000
+	#Beam maximum range in blocks
+	#Range: 1.0 ~ 512.0
+	beam_range = 64.0
+	#Beam impact block break radius (0 disables block breaking)
+	#Range: 0 ~ 16
+	beam_block_break_radius = 3
+	#Muzzle flash FX duration after a pulse shot, in ticks
+	#Range: 0 ~ 200
+	pulse_fx_ticks = 10
+	#Muzzle flash FX duration after a beam shot, in ticks
+	#Range: 0 ~ 200
+	beam_fx_ticks = 20
+
+[pu_239_bomb]
+	#Horizontal blast radius in blocks (default 128 = 8 chunks)
+	#Range: 16 ~ 384
+	radius_horizontal = 196
+	#Vertical blast radius in blocks (default 64)
+	#Range: 8 ~ 256
+	radius_vertical = 64
+	#Ticks between redstone arming and detonation (default 60 = 3 s)
+	#Range: 1 ~ 12000
+	fuse_ticks = 60
+	#Block ops applied per server tick during detonation (default 2048)
+	#Range: 64 ~ 65536
+	ops_per_tick = 32768
+	#Whole-chunk packets resent to clients per server tick during detonation. Raise to make blast visible to players faster; bandwidth cost scales with player count.
+	#Range: 1 ~ 1024
+	chunk_resends_per_tick = 32
+	#If true, bombs mutate chunk sections directly and resend whole chunks instead of using server.setBlock per op. ~50-100x faster but skips neighbor updates, fluid flow, falling-block triggers, and Forge block events inside the blast. Set false to roll back to vanilla setBlock path.
+	fast_block_writes = true
+

@@ -528,8 +528,8 @@
 			}]
 			shape: "rsquare"
 			tasks: [{
-				id: "2EA9CDF7A9BE6839"
-				item: "extendedcrafting:advanced_auto_table"
+				id: "786FDE4F5F813304"
+				item: "packagedexcrafting:advanced_crafter"
 				type: "item"
 			}]
 			x: 1.5d
@@ -545,8 +545,8 @@
 			}]
 			shape: "rsquare"
 			tasks: [{
-				id: "76E2264331A94361"
-				item: "extendedcrafting:elite_auto_table"
+				id: "0A9E65E17EAD43F1"
+				item: "packagedexcrafting:elite_crafter"
 				type: "item"
 			}]
 			x: 2.5d
@@ -562,8 +562,8 @@
 			}]
 			shape: "rsquare"
 			tasks: [{
-				id: "54A37B5DF233FB38"
-				item: "extendedcrafting:ultimate_auto_table"
+				id: "4DA25965C24F2915"
+				item: "packagedexcrafting:ultimate_crafter"
 				type: "item"
 			}]
 			x: 3.5d
@@ -1078,8 +1078,8 @@
 			}]
 			shape: "rsquare"
 			tasks: [{
-				id: "47FABA7EE2E6CCD8"
-				item: "extendedcrafting:epic_auto_table"
+				id: "6A6A820C6C5E86D1"
+				item: "packagedexexcrafting:epic_crafter"
 				type: "item"
 			}]
 			x: 5.0d
@@ -4847,8 +4847,8 @@
 			}]
 			shape: "rsquare"
 			tasks: [{
-				id: "41F3A8182AA7E67A"
-				item: "extendedcrafting:legendary_auto_table"
+				id: "5B1748E25B4C0CAE"
+				item: "packagedexexexcrafting:legendary_crafter"
 				type: "item"
 			}]
 			x: 6.5d

@@ -1,4 +1,4 @@
-// 1.20.1	2026-02-16T20:36:30.0687402	Item Models: mm
+// 1.20.1	2026-06-12T14:25:29.967427	Item Models: mm
 d8eb5d6e71c6bf630dbcd9920f532ebdab3efa96 assets/mm/models/item/advanced_awakening_altar_controller.json
 d87054b6666b46f940f6564b9e690728b75e8ae3 assets/mm/models/item/auto_crusher_controller.json
 775a48cc6d7b85e3e79d42351aa77f867e69db40 assets/mm/models/item/auto_sieve_controller.json
@@ -43,12 +43,15 @@ f8a985c3bafe77ac62865e18ceffa4b50c0e3c4d assets/mm/models/item/normal_fluid_port
 b6bef93244e6146a1fbbb0be6c488ca79f8d3efb assets/mm/models/item/normal_item_port_output.json
 c9912e95f4f92fc99cc65a1fa07e007ebfe7759b assets/mm/models/item/pinky_controller.json
 d741c80c0b44711dbaf656ea89162d7518351c65 assets/mm/models/item/prediction_chamber_controller.json
+7e78229d560bf2ba9a541c5835a7ff220812003c assets/mm/models/item/resource_foundry_controller.json
 ab64c037f96576ba95cd5831b288d10453d23796 assets/mm/models/item/small_energy_port_input.json
 11634c2dc2d3063a0ec370b54f1201ef773a3b40 assets/mm/models/item/small_energy_port_output.json
 6d662024a5c3c440b0c18546f9412dc597ec9f77 assets/mm/models/item/small_fluid_port_input.json
 3484839a5772db6dacd38101d5003465e7f78775 assets/mm/models/item/small_fluid_port_output.json
 32d7f17516014f21f1f59ace90c349687da936a6 assets/mm/models/item/small_item_port_input.json
 3f56103788b0d70b3e8f20d1ea18ac6e4395316b assets/mm/models/item/small_item_port_output.json
+42ef18ba13c91da7c1b2e98af1afeeb87a01a517 assets/mm/models/item/super_compressed_titanic_item_port_input.json
+5b797a17a90dcbacd2e3a203cb47399613818347 assets/mm/models/item/super_compressed_titanic_item_port_output.json
 f68e0883c9b7740f88f7fc83ff4fda135e442931 assets/mm/models/item/tiny_energy_port_input.json
 60a6a53d566a73dd3cb1b56a11bca83127e562ae assets/mm/models/item/tiny_energy_port_output.json
 62cc4091349df10ee076039d2f02b7b05dab5edc assets/mm/models/item/tiny_item_port_input.json

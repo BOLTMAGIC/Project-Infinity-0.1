@@ -8,8 +8,8 @@ MMEvents.createProcesses((event) => {
       type: 'mm:input/consume',
       ingredient: {
         type: 'mm:item',
-        item: 'kubejs:infinity_10',
-        count: 3,
+        item: 'kubejs:unfiltered_infinity_11_block',
+        count: 4,
       },
     })
     .input({
@@ -21,11 +21,10 @@ MMEvents.createProcesses((event) => {
     })
     .output({
       type: 'mm:output/simple',
-      chance: 1.0,
       ingredient: {
         type: 'mm:item',
         item: 'kubejs:infinity_11',
-        count: 1,
+        count: 4,
       },
     });
 
@@ -37,8 +36,8 @@ MMEvents.createProcesses((event) => {
       type: 'mm:input/consume',
       ingredient: {
         type: 'mm:item',
-        item: 'kubejs:infinity_10',
-        count: 10,
+        item: 'kubejs:unfiltered_infinity_11_block',
+        count: 16,
       },
     })
     .input({
@@ -50,11 +49,10 @@ MMEvents.createProcesses((event) => {
     })
     .output({
       type: 'mm:output/simple',
-      chance: 1.0,
       ingredient: {
         type: 'mm:item',
         item: 'kubejs:infinity_11',
-        count: 4,
+        count: 16,
       },
     });
 
@@ -66,8 +64,8 @@ MMEvents.createProcesses((event) => {
       type: 'mm:input/consume',
       ingredient: {
         type: 'mm:item',
-        item: 'kubejs:infinity_10',
-        count: 15,
+        item: 'kubejs:unfiltered_infinity_11_block',
+        count: 64,
       },
     })
     .input({
@@ -79,11 +77,10 @@ MMEvents.createProcesses((event) => {
     })
     .output({
       type: 'mm:output/simple',
-      chance: 1.0,
       ingredient: {
         type: 'mm:item',
         item: 'kubejs:infinity_11',
-        count: 6,
+        count: 64,
       },
     });
 
@@ -95,8 +92,8 @@ MMEvents.createProcesses((event) => {
       type: 'mm:input/consume',
       ingredient: {
         type: 'mm:item',
-        item: 'kubejs:infinity_10',
-        count: 63,
+        item: 'kubejs:unfiltered_infinity_11_block',
+        count: 128,
       },
     })
     .input({
@@ -108,11 +105,10 @@ MMEvents.createProcesses((event) => {
     })
     .output({
       type: 'mm:output/simple',
-      chance: 1.0,
       ingredient: {
         type: 'mm:item',
         item: 'kubejs:infinity_11',
-        count: 25,
+        count: 128,
       },
     });
 });

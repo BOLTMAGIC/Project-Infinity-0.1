@@ -222,6 +222,8 @@
   "tooltip.enderio.conduit_transfer": "Energy Transfer Value: %s RF/t",
   
   "tooltip.kubejs.texture_credit": "Texture is from %s. Thank you a lot!",
+  "tooltip.kubejs.infinity_9_1": "You need 14 Infinity Blocks to Research me!",
+  "tooltip.kubejs.infinity_9_2": "Hold G on the research station to check Computation values!",
   
   "tooltip.mm.item_port": "Inventory Size: %s = %s Slots",
   "tooltip.mm.item_port_1": "Inventory Size: 1x1 = 1 Slot",

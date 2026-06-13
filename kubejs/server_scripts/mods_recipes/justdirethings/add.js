@@ -1,4 +1,12 @@
 ServerEvents.recipes((event) => {
+  shapeless(
+    event,
+    Item.of(
+      'patchouli:guide_book',
+      '{"patchouli:book":"justdirethings:justdirethingsbook"}'
+    ),
+    ['justdirethings:ferricore_ingot', 'minecraft:book']
+  );
   create3x3(event, 'justdirethings:totem_of_death_recall', [
     'justdirethings:blazegold_ingot',
     'minecraft:nether_star',
@@ -196,7 +204,7 @@ ServerEvents.recipes((event) => {
     'minecraft:string',
     'justdirethings:eclipsealloy_ingot',
     'minecraft:air',
-  ])
+  ]);
   create3x3(event, 'justdirethings:eclipsealloy_sword', [
     'minecraft:air',
     'justdirethings:eclipsealloy_ingot',
@@ -207,7 +215,7 @@ ServerEvents.recipes((event) => {
     'minecraft:air',
     'minecraft:stick',
     'minecraft:air',
-  ])
+  ]);
   create3x3(event, 'justdirethings:eclipsealloy_pickaxe', [
     'justdirethings:eclipsealloy_ingot',
     'justdirethings:eclipsealloy_ingot',
@@ -218,7 +226,7 @@ ServerEvents.recipes((event) => {
     'minecraft:air',
     'minecraft:stick',
     'minecraft:air',
-  ])
+  ]);
   create3x3(event, 'justdirethings:eclipsealloy_shovel', [
     'kubejs:infinity_1',
     'justdirethings:eclipsealloy_ingot',
@@ -229,7 +237,7 @@ ServerEvents.recipes((event) => {
     'minecraft:air',
     'minecraft:stick',
     'minecraft:air',
-  ])
+  ]);
   create3x3(event, 'justdirethings:eclipsealloy_axe', [
     'justdirethings:eclipsealloy_ingot',
     'justdirethings:eclipsealloy_ingot',
@@ -240,7 +248,7 @@ ServerEvents.recipes((event) => {
     'minecraft:air',
     'minecraft:stick',
     'minecraft:air',
-  ])
+  ]);
   create3x3(event, 'justdirethings:eclipsealloy_hoe', [
     'justdirethings:eclipsealloy_ingot',
     'justdirethings:eclipsealloy_ingot',
@@ -251,5 +259,44 @@ ServerEvents.recipes((event) => {
     'minecraft:air',
     'minecraft:stick',
     'minecraft:air',
-  ])
+  ]);
+});
+
+ServerEvents.recipes((event) => {
+  event
+    .custom({
+      type: 'justdirethings:goospread',
+      craftingDuration: 4800,
+      id: 'justdirethings:kubejs_10_to_10_1',
+      input: { Name: 'kubejs:infinity_10_block' },
+      output: { Name: 'kubejs:infinity_10_1_block' },
+      tierRequirement: 2,
+    })
+    .id('justdirethings:kubejs_10_to_10_1');
+});
+
+ServerEvents.recipes((event) => {
+  event
+    .custom({
+      type: 'justdirethings:goospread',
+      craftingDuration: 3600,
+      id: 'justdirethings:kubejs_10_1_to_10_2',
+      input: { Name: 'kubejs:infinity_10_1_block' },
+      output: { Name: 'kubejs:infinity_10_2_block' },
+      tierRequirement: 3,
+    })
+    .id('justdirethings:kubejs_10_1_to_10_2');
+});
+
+ServerEvents.recipes((event) => {
+  event
+    .custom({
+      type: 'justdirethings:goospread',
+      craftingDuration: 2400,
+      id: 'justdirethings:kubejs_10_2_to_11',
+      input: { Name: 'kubejs:infinity_10_2_block' },
+      output: { Name: 'kubejs:unfiltered_infinity_11_block' },
+      tierRequirement: 4,
+    })
+    .id('justdirethings:kubejs_10_2_to_11');
 });

@@ -61,18 +61,6 @@ ServerEvents.recipes((event) => {
     'cyclic:flint_block',
   ]);
 
-  create3x3(event, 'cyclic:anvil_magma', [
-    'minecraft:magma_block',
-    'minecraft:magma_block',
-    'minecraft:magma_block',
-    'minecraft:air',
-    'compressium:cobblestone_1',
-    'minecraft:air',
-    'minecraft:obsidian',
-    'cyclic:fireball',
-    'minecraft:obsidian',
-  ]);
-
   create3x3(event, 'cyclic:harvester', [
     'minecraft:emerald',
     'cyclic:obsidian_pressure_plate',

@@ -4426,7 +4426,10 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["4970CC2851818A02"]
+			dependencies: [
+				"4970CC2851818A02"
+				"76729738389C5C5F"
+			]
 			id: "5B8086BB10A760E9"
 			rewards: [{
 				id: "4EE996844BE1D324"
@@ -4797,6 +4800,35 @@
 			}]
 			x: -17.0d
 			y: 6.0d
+		}
+		{
+			description: [
+				"&7While the mutant enderman is dying, you can actually collect &dendersoul fragments&7 by right-clicking them before they explode."
+				""
+				"&7Now with some &dendersoul fragments&7 following you, all you have to do is drop (&enot right-click&7) an &5eye of ender&7."
+				""
+				"&7Also, if your &dendersoul hand&7 is running out of uses and you have some spare &dendersoul fragments&7, just toss out your &dendersoul hand&7 while the fragments are following you and it'll recharge the hand again (&fwith 60 uses each fragment&7)."
+			]
+			id: "76729738389C5C5F"
+			min_width: 350
+			rewards: [{
+				id: "3DE1FC83352ECD81"
+				type: "xp"
+				xp: 1
+			}]
+			tasks: [{
+				id: "141D4B0E94776C8A"
+				item: {
+					Count: 1
+					id: "mutantmonsters:endersoul_hand"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 10.5d
+			y: 0.0d
 		}
 	]
 	title: "{ftbquests.chapter.mystical_agriculture.title}"

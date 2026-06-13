@@ -16,4 +16,19 @@ terminalExtractFromOwnEmcOnly = false
 #How many ticks to wait before the next player EMC sync when manipulating stored EMC.
 #Range: 1 ~ 200
 syncThrottleInterval = 20
+#Maximum number of serialized AEKey entries to keep in the in-memory LRU KEY_CACHE (GridInventory)
+#Range: > 1
+keyCacheMax = 2048
+#How many keys to finalize (warm) per server tick from the background warm queue to avoid single-tick spikes
+#Range: > 0
+warmKeysPerTick = 16
+#Debounce interval in milliseconds for coalesced async saves of the persisted EMC cache to disk
+#Range: > 0
+saveDebounceMillis = 1000
+
+#Minimum number of server ticks to wait between pattern update requests per node
+[patterns]
+	#Minimum ticks between ICraftingProvider.requestUpdate() calls for the same node
+	#Range: > 0
+	patternMinUpdateInterval = 20
 

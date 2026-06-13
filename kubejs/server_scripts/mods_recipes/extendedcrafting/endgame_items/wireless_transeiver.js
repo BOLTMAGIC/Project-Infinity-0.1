@@ -26,7 +26,7 @@ ServerEvents.recipes((event) => {
           item: 'ae2omnicells:spent_nuclear_waste_singularity',
         },
         F: {
-          item: 'botanicalextramachinery:malachite_dragonstone',
+          item: 'extendedcrafting:the_ultimate_ingot',
         },
         G: {
           item: 'ae2:singularity',

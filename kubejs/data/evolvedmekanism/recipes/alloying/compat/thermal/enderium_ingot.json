@@ -1,0 +1,30 @@
+{
+    "type": "evolvedmekanism:alloying",
+    "extraInput": {
+        "amount": 3,
+        "ingredient": {
+            "tag": "forge:ingots/lead"
+        }
+    },
+    "secondExtraInput": {
+        "amount": 2,
+        "ingredient": {
+            "tag": "forge:ender_pearls"
+        }
+    },
+    "mainInput": {
+        "ingredient": {
+            "tag": "forge:gems/diamond"
+        }
+    },
+    "output": {
+        "item": "thermal:enderium_ingot",
+        "count": 2
+    },
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "thermal"
+        }
+    ]
+}

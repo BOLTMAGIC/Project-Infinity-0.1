@@ -15,6 +15,8 @@ ServerEvents.recipes((event) => {
     'kubejs:infinity_1_999999',
   ]);
 
+  shapeless(event, 'kubejs:infinity_10_block', ['kubejs:infinity_10']);
+
   shapeless(event, 'kubejs:chaos_guardian_prediction', [
     Item.of(
       'hostilenetworks:prediction',

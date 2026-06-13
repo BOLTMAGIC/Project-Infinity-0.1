@@ -82,6 +82,5 @@ MMEvents.createStructures((event) => {
         .key('3', {
           block: 'mm:gigantic_energy_port_input',
         })
-
     });
 });

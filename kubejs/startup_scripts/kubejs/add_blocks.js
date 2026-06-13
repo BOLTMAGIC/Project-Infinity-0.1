@@ -24,6 +24,38 @@ StartupEvents.registry('block', (event) => {
     .textureAll('kubejs:block/silent/infinity_9_block');
 
   event
+    .create('infinity_10_block')
+    .displayName('Infinity 10 Block')
+    .soundType('metal')
+    .hardness(1.2)
+    .resistance(2.0)
+    .textureAll('kubejs:block/silent/infinity_10_block');
+
+  event
+    .create('infinity_10_1_block')
+    .displayName('Infinity 10.1 Block')
+    .soundType('metal')
+    .hardness(1.2)
+    .resistance(2.0)
+    .textureAll('kubejs:block/silent/infinity_10_1_block');
+
+  event
+    .create('infinity_10_2_block')
+    .displayName('Infinity 10.2 Block')
+    .soundType('metal')
+    .hardness(1.2)
+    .resistance(2.0)
+    .textureAll('kubejs:block/silent/infinity_10_2_block');
+
+  event
+    .create('unfiltered_infinity_11_block')
+    .displayName('Infinity 11 Block')
+    .soundType('metal')
+    .hardness(1.2)
+    .resistance(2.0)
+    .textureAll('kubejs:block/silent/unfiltered_infinity_11_block');
+
+  event
     .create('compressed_slate')
     .displayName('Compressed Slate')
     .soundType('metal')
@@ -186,7 +218,7 @@ StartupEvents.registry('block', (event) => {
 });
 
 StartupEvents.registry('block', (e) => {
-  function createblock(e, input1, input2) {
+  function createblock (e, input1, input2) {
     e.create(input1)
       .displayName(input2)
       .tag('forge:storage_blocks/' + input1)
@@ -211,7 +243,7 @@ StartupEvents.registry('block', (e) => {
   createblock(e, 'midnight_iron_block', 'Midnight Iron Block');
   createblock(e, 'sculk_alloy_block', 'Sculk Alloy Block');
 
-  function createore(e, input1, input2) {
+  function createore (e, input1, input2) {
     e.create(input1)
       .displayName(input2)
       .tagBlock('mineable/pickaxe')
@@ -231,7 +263,7 @@ StartupEvents.registry('block', (e) => {
 
 // Nuclearcraft
 StartupEvents.registry('block', (e) => {
-  function createblock(e, input1, input2) {
+  function createblock (e, input1, input2) {
     e.create(input1)
       .displayName(input2)
       .tag('forge:storage_blocks/' + input1)

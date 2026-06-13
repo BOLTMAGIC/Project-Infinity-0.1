@@ -118,5 +118,6 @@ ServerEvents.recipes((event) => {
   endgame.forEach((item) => {
     voidminerBatch2(3, 9, [item], 0.00000001);
   });
-  voidminerBatch(3, 7, ['mekanism_extras:end_naquadah_ore'], 1.0);
+  voidminerBatch(3, 7, ['mekanism_extras:end_naquadah_ore'], 2.0);
+  voidminerBatch(3, 9, ['draconicevolution:overworld_draconium_ore'], 1.0);
 });

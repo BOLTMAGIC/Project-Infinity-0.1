@@ -146,7 +146,7 @@
 	#Can fake players (e.g. Clickers) use the Time Wand?
 	time_wand_fake_player_allowed = true
 
-#Portal Gun
+#Advanced Portal Gun
 [portal_gun]
 	#Max FE capacity of the Portal Gun
 	#Range: > 1
@@ -160,11 +160,11 @@
 	#mB of portal fluid consumed per shot
 	#Range: > 0
 	portal_gun_fluid_cost = 500
-	#How many ticks a portal remains open (6000 = 5 minutes, -1 for infinite)
+	#How many ticks a portal remains open (200 = 10 seconds, -1 for infinite)
 	#Range: > -1
 	portal_gun_lifespan = 6000
 
-#Portal Gun (Original)
+#Portal Gun
 [portal_gun_original]
 	#Max mB of unstable portal fluid the original Portal Gun can hold
 	#Range: > 1
@@ -202,6 +202,11 @@
 	#The chance (0.0 to 1.0) that a goo block deactivates after each block conversion. Default is 0.1 (10%)
 	#Range: 0.0 ~ 1.0
 	goo_death_chance = 0.1
+	#Restricts goo spreading for specific input blocks to only work in certain dimensions.
+	#Each entry is a pair ["block_id", "dimension_id"].
+	#A block listed here will ONLY be converted by goo while the goo is in the specified dimension.
+	#Blocks not listed here are unrestricted and spread in any dimension.
+	gooSpreadingSpecificDimensions = [["kubejs:infinity_10_block", "minecraft:overworld"], ["kubejs:infinity_10_1_block", "minecraft:the_nether"], ["kubejs:infinity_10_2_block", "minecraft:the_end"]]
 
 #Block Swapper
 [block_swapper]

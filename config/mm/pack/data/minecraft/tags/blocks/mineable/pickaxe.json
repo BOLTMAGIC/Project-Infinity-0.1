@@ -14,6 +14,7 @@
     "mm:multi_compactor_controller",
     "mm:pinky_controller",
     "mm:prediction_chamber_controller",
+    "mm:resource_foundry_controller",
     "mm:water_condenser_controller",
     "mm:tiny_item_port_input",
     "mm:tiny_item_port_output",
@@ -56,6 +57,8 @@
     "mm:colossal_gas_port_input",
     "mm:colossal_gas_port_output",
     "mm:compressed_titanic_item_port_input",
-    "mm:compressed_titanic_item_port_output"
+    "mm:compressed_titanic_item_port_output",
+    "mm:super_compressed_titanic_item_port_input",
+    "mm:super_compressed_titanic_item_port_output"
   ]
 }

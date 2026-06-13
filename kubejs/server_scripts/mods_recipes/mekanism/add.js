@@ -191,7 +191,7 @@ ServerEvents.recipes((event) => {
     1,
     'thermal_extra:ancient_dust',
     1,
-    'minecraft:netherite_scrap',
+    'common_ore_library:scrap_dust',
     'thermal_extra:dragonsteel_ingot',
     1
   );

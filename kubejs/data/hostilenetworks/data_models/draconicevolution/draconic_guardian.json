@@ -20,6 +20,6 @@
             "item": "minecraft:air"
         }
     ],
-    "tier_data": [1, 32765, 32766, 32767],                      
+    "tier_data": [1, 25000, 30000, 32767],                      
     "data_per_kill": [1, 500, 500, 500]
 }

@@ -1,4 +1,0 @@
-#ExtraSpecialCore library settings.
-#When true, ESC may log extra diagnostics for troubleshooting.
-debugLogging = false
-

@@ -121,10 +121,10 @@ ServerEvents.recipes((event) => {
     E: 'mysticalagriculture:silicon_essence',
   });
   
-  event.shaped(Item.of('mysticalagriculture:soulstone', 4), ['ABA', 'CDC', 'ABA'], {
+  event.shaped(Item.of('mysticalagriculture:soulstone_cobble', 4), ['ABA', 'CDC', 'ABA'], {
     A: 'mysticalagriculture:nether_essence',
     B: 'mysticalagriculture:soulium_essence',
     C: 'mysticalagriculture:stone_essence',
-    D: 'mysticalagriculture:fire_essence',
+    D: 'mysticalagriculture:creeper_essence',
   });
 });

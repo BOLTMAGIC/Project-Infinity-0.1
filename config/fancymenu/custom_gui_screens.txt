@@ -3,3 +3,14 @@ type = custom_gui_screens
 overridden_screens {
 }
 
+custom_gui {
+  identifier = changelog_gui
+  title = 
+  allow_esc = true
+  transparent_world_background = true
+  transparent_world_background_overlay = true
+  pause_game = false
+  popup_mode = true
+  popup_mode_background_overlay = true
+}
+

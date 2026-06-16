@@ -950,8 +950,8 @@ element {
   advanced_horizontal_tilt_mode = false
   should_be_affected_by_decoration_overlays = false
   in_editor_color = #FFC800FF
-  advanced_posx = {"placeholder":"calc","values":{"expression":"%!n!%{"placeholder":"elementposx","values":{"id":"2378e052-42c2-44a2-8acc-0831ffad13f6-1781546588481"}}%!n!%+%!n!%{"placeholder":"elementwidth","values":{"id":"2378e052-42c2-44a2-8acc-0831ffad13f6-1781546588481"}}%!n!%-%!n!%{"placeholder":"elementwidth","values":{"id":"aec69acc-fd9a-4c46-9d21-a3bde50c752d-1781472531385"}}%!n!%-%!n!%20%!n!%","decimal":"true"}}
-  advanced_posy = {"placeholder":"calc","values":{"expression":"%!n!%{"placeholder":"elementposy","values":{"id":"2378e052-42c2-44a2-8acc-0831ffad13f6-1781546588481"}}%!n!%+%!n!%{"placeholder":"elementheight","values":{"id":"2378e052-42c2-44a2-8acc-0831ffad13f6-1781546588481"}}%!n!%-%!n!%{"placeholder":"elementheight","values":{"id":"aec69acc-fd9a-4c46-9d21-a3bde50c752d-1781472531385"}}%!n!%-%!n!%10%!n!%","decimal":"true"}}
+  advanced_posx = {"placeholder":"calc","values":{"expression":"%!n!%{"placeholder":"elementposx","values":{"id":"2378e052-42c2-44a2-8acc-0831ffad13f6-1781546588481"}}%!n!%+%!n!%{"placeholder":"elementwidth","values":{"id":"2378e052-42c2-44a2-8acc-0831ffad13f6-1781546588481"}}%!n!%-%!n!%{"placeholder":"elementwidth","values":{"id":"827db4c9-2c12-458e-94c3-81482502f7bf-1781546703963"}}%!n!%-%!n!%20%!n!%","decimal":"true"}}
+  advanced_posy = {"placeholder":"calc","values":{"expression":"%!n!%{"placeholder":"elementposy","values":{"id":"2378e052-42c2-44a2-8acc-0831ffad13f6-1781546588481"}}%!n!%+%!n!%{"placeholder":"elementheight","values":{"id":"2378e052-42c2-44a2-8acc-0831ffad13f6-1781546588481"}}%!n!%-%!n!%{"placeholder":"elementheight","values":{"id":"827db4c9-2c12-458e-94c3-81482502f7bf-1781546703963"}}%!n!%-%!n!%10%!n!%","decimal":"true"}}
   advanced_width = -2147483648
   advanced_height = -2147483648
   stretch_x = false

@@ -166,7 +166,7 @@ MMEvents.createProcesses((event) => {
       ingredient: {
         type: 'mm:item',
         item: 'botanicalextramachinery:mazarine_dragonstone',
-        count: 256,
+        count: 32,
       },
     })
     .input({

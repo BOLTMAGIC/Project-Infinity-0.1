@@ -1,0 +1,127 @@
+%#red%**Version 0.0.49.3**%#%
+---
+Mod Info:
+- Updated some mods
+---
+- Mods added:
+  - Just Dire Things
+---
+- Mods removed:
+  - BandWidth Mod
+  - Calm the Leaks and the Lib
+  - Immersive Optimization
+---
+ - Mods maybe getting removed:
+  - Occultism
+  - Chemlib and Alchemistry
+  - Extreme/ Big Reactors
+---
+- Mods getting removed in 0.0.50.0:
+  - Incendium
+    - %#yellow%This will make the Nether inaccesible the first time you load your world, just exit it and load it again%#%
+  - Compact Expansion
+---
+- Mods getting removed in 0.0.51.0:
+  - YTones (its discontinued, replaced with BetterBlockZ)
+---
+- Recipe changes and fixes:
+  - Fixed nitro batteries recipe
+  - Removed unused Knightmetal Block and Ingot from Tinkers
+  - Fixed steel ingot and block
+  - Disabled all time crystal recipe for now. 
+  - Remove cyclic:crusher
+  - Lower Alloyer Singularity prices
+---
+---
+---
+%#red%**Version 0.0.49.2**%#%
+---
+Mod Info:
+- Updated some mods
+---
+- Mods added:
+  - Calm the Leaks (and the lib Extra Special Core)
+  - Xenon (thx to Hocok-of-Chaos)
+  - PackagedExExExCrafting (my mod)
+  - ImmediatelyFast (thx to Hocok-of-Chaos)
+  - Radium Reforged (thx to Hocok-of-Chaos)
+---
+- Mods removed:
+  - MemGuard
+  - Canary (thx to Hocok-of-Chaos)
+  - MixinTrace Reborn
+  - Cobweb (not used Lib)
+  - Embeddium (thx to Hocok-of-Chaos)
+  - Chloride (thx to Hocok-of-Chaos)
+---
+- Mods getting in 0.0.50.0:
+  - Just Dire Things
+---
+- Mods maybe getting removed:
+  - Occultism
+  - Chemlib and Alchemistry
+  - Extreme/ Big Reactors
+---
+- Mods getting removed in 0.0.50.0:
+  - Incendium
+    - %#yellow%This will make the Nether inaccesible the first time you load your world, just exit it and load it again%#%
+  - Compact Expansion
+---
+- Mods getting removed in 0.0.51.0:
+  - YTones (its discontinued, replaced with BetterBlockZ)
+---
+- Recipe changes and fixes:
+  - Re-enabled Mana Enchanter from Botania
+  - Fixed ATM ores not dropping anything
+  - Fixed creative item cell again
+  - Re-added gateway recipes (sorry for this)
+  - Re-added chisel blocks smelting recipes
+  - Added PneumaticCraft Questline (thx to KYO297 for creating this one. Thank you!)
+  - Changed plastic seed recipe
+  - Changed T3 recipes (thx to codename_cat)
+  - Added new NuclearCraft Fission Reactor Multiblock to the MBtool (thx to pls)
+---
+- Mod changes and fixes:
+  - Fixed dupe in Extended Crafting
+---
+---
+---
+%#red%**Version 0.0.49.1**%#%
+---
+Mod Info:
+- Updated some mods
+---
+- Mods removed:
+  - Fast Loading (not working)
+  - TT20 (TPS Fixer) (not working)
+  - MCreator Memory Fix (not working)
+---
+- Mods getting added after some more time:
+  - Just Dire Things
+---
+- Mods maybe getting removed:
+  - Occultism
+  - Chemlib and Alchemistry
+  - Extreme/ Big Reactors
+---
+- Mods getting removed in 0.0.50.0:
+  - Incendium
+    - %#yellow%This will make the Nether inaccesible the first time you load your world, just exit it and load it again%#%
+  - Compact Expansion
+---
+- Mods getting removed in 0.0.51.0:
+  - YTones (its discontinued, replaced with BetterBlockZ)
+---
+- Recipe changes and fixes:
+  - Set biome for world creation to Plains
+  - Fixed sand to dust in Mekanism machines
+  - Fixed Creative ME Item Cell
+  - Fixed FancyMenu screen
+  - Changed Omega Tier Upgrade from Inf 1 to Inf 2 (thx to codename_cat)
+  - Changed recipe for Gaia Spirit Seed from Inf 4 to Inf 3 (thx to codename_cat)
+---
+- Mod changes and fixes:
+  - Fixed Uranium into Enriched Uranium recipe (thx to arman258)
+---
+- Known bugs:
+  - Polymorph (changing the output for mod conflicts) is not possible with Tinkers Crafting Station

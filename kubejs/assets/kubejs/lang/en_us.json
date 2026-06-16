@@ -227,6 +227,10 @@
   
   "tooltip.mm.item_port": "Inventory Size: %s = %s Slots",
   "tooltip.mm.item_port_1": "Inventory Size: 1x1 = 1 Slot",
+  "tooltip.mm.item_port2": "Items per Slot: %s",
+  "tooltip.mm.item_port3": "Items per Slot: %s",
+  "tooltip.mm.item_port4": "Items per Slot: %s",
+  "tooltip.mm.item_port5": "NEVER break this block if it is full. It will crash your game because it contains 1.5 million items.",
   "tooltip.mm.fluid_port": "Tank Capacity: %s mB",
   "tooltip.mm.energy_port": "Energy Capacity: %s FE, Max Input: %s FE/t, Max Output: %s FE/t",
   "tooltip.mm.energy_port_gigantic": "Energy Capacity/ Max In- and Output: %s FE",

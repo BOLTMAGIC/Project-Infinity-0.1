@@ -20,6 +20,8 @@
 		#How often a random tick block will be accelerated, by default 3% of the ticks (random)
 		#Range: 0.0 ~ 1.0
 		RANDOM_TICK_ACCELERATION_CHANCE = 0.03
+		#Register a list of blocks that will not be affected by Soul Surge.
+		SOUL_SURGE_IGNORE_BLOCKS = ["projectexpansion:basic_power_flower", "projectexpansion:dark_power_flower", "projectexpansion:red_power_flower", "projectexpansion:magenta_power_flower", "projectexpansion:pink_power_flower", "projectexpansion:purple_power_flower", "projectexpansion:violet_power_flower", "projectexpansion:blue_power_flower", "projectexpansion:cyan_power_flower", "projectexpansion:green_power_flower", "projectexpansion:lime_power_flower", "projectexpansion:yellow_power_flower", "projectexpansion:orange_power_flower", "projectexpansion:white_power_flower", "projectexpansion:fading_power_flower", "projectexpansion:final_power_flower", "solarflux:sp_1", "solarflux:sp_2", "solarflux:sp_3", "solarflux:sp_4", "solarflux:sp_5", "solarflux:sp_6", "solarflux:sp_7", "solarflux:sp_8", "solarflux:sp_de.wyvern", "solarflux:sp_de.draconic", "solarflux:sp_de.chaotic", "solarflux:sp_avaritia.neutronium", "solarflux:sp_avaritia.infinity"]
 
 	[IFSoulsMachines.ConfigSoulLaserBase]
 		#Max soul storage tank amount

@@ -33,7 +33,7 @@
 		# How much RF to generate per tick
 		# Default: 40
 		#Range: 1 ~ 100000
-		generation = 40
+		generation = 4
 
 	[furnaces.copper_furnace]
 		# What tier this furnace should be.
@@ -48,7 +48,7 @@
 		# How much RF to generate per tick
 		# Default: 40
 		#Range: 1 ~ 100000
-		generation = 40
+		generation = 4
 
 	[furnaces.gold_furnace]
 		# What tier this furnace should be.
@@ -63,7 +63,7 @@
 		# How much RF to generate per tick
 		# Default: 160
 		#Range: 1 ~ 100000
-		generation = 160
+		generation = 16
 
 	[furnaces.diamond_furnace]
 		# What tier this furnace should be.
@@ -78,7 +78,7 @@
 		# How much RF to generate per tick
 		# Default: 240
 		#Range: 1 ~ 100000
-		generation = 240
+		generation = 24
 
 	[furnaces.emerald_furnace]
 		# What tier this furnace should be.
@@ -93,7 +93,7 @@
 		# How much RF to generate per tick
 		# Default: 320
 		#Range: 1 ~ 100000
-		generation = 320
+		generation = 32
 
 	[furnaces.silver_furnace]
 		# What tier this furnace should be.
@@ -108,7 +108,7 @@
 		# How much RF to generate per tick
 		# Default: 100
 		#Range: 1 ~ 100000
-		generation = 100
+		generation = 10
 
 	[furnaces.crystal_furnace]
 		# What tier this furnace should be.
@@ -123,7 +123,7 @@
 		# How much RF to generate per tick
 		# Default: 360
 		#Range: 1 ~ 100000
-		generation = 360
+		generation = 36
 
 	[furnaces.obsidian_furnace]
 		# What tier this furnace should be.
@@ -138,7 +138,7 @@
 		# How much RF to generate per tick
 		# Default: 500
 		#Range: 1 ~ 100000
-		generation = 500
+		generation = 50
 
 	[furnaces.netherite_furnace]
 		# What tier this furnace should be.
@@ -153,7 +153,7 @@
 		# How much RF to generate per tick
 		# Default: 1000
 		#Range: 1 ~ 100000
-		generation = 1000
+		generation = 100
 
 	[furnaces.million_furnace]
 		# What tier this furnace should be.
@@ -174,7 +174,7 @@
 		# How much RF to generate per tick
 		# Default: 2000
 		#Range: 1 ~ 100000
-		generation = 2000
+		generation = 200
 
 	[furnaces.recipeMaxXPLevel]
 		# How many levels of experience that can be stored in recipes stored in the furnace, after the experience stored in the recipe reaches this value (in levels) it will be voided.
@@ -199,7 +199,7 @@
 		# How much RF to generate per tick
 		# Default: 2000
 		#Range: 1 ~ 100000
-		generation = 2000
+		generation = 200
 		# What tier this furnace should be.
 		# Default: 2
 		#Range: 0 ~ 2
@@ -218,7 +218,7 @@
 		# How much RF to generate per tick
 		# Default: 3000
 		#Range: 1 ~ 100000
-		generation = 3000
+		generation = 300
 		# What tier this furnace should be.
 		# Default: 2
 		#Range: 0 ~ 2
@@ -237,7 +237,7 @@
 		# How much RF to generate per tick
 		# Default: 5000
 		#Range: 1 ~ 100000
-		generation = 5000
+		generation = 500
 		# What tier this furnace should be.
 		# Default: 2
 		#Range: 0 ~ 2

@@ -94,8 +94,39 @@ ItemEvents.tooltip((event) => {
       'mm:titanic_item_port_output',
       'mm:compressed_titanic_item_port_input',
       'mm:compressed_titanic_item_port_output',
+      'mm:super_compressed_titanic_item_port_input',
+      'mm:super_compressed_titanic_item_port_output',
     ],
     Text.translate('tooltip.mm.item_port', ['8x12', '96'])
+  );
+
+  event.add(
+    [
+      'mm:titanic_item_port_input',
+      'mm:titanic_item_port_output',
+    ],
+    Text.translate('tooltip.mm.item_port2', ['64'])
+  );
+   event.add(
+    [
+      'mm:compressed_titanic_item_port_input',
+      'mm:compressed_titanic_item_port_output',
+    ],
+    Text.translate('tooltip.mm.item_port3', ['512'])
+  );
+   event.add(
+    [
+      'mm:super_compressed_titanic_item_port_input',
+      'mm:super_compressed_titanic_item_port_output',
+    ],
+    Text.translate('tooltip.mm.item_port4', ['16384'])
+  );
+  event.add(
+    [
+      'mm:super_compressed_titanic_item_port_input',
+      'mm:super_compressed_titanic_item_port_output',
+    ],
+    Text.translate('tooltip.mm.item_port5')
   );
 
   event.add(

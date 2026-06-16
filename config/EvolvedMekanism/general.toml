@@ -14,4 +14,10 @@
 		energyStorage = "10000000"
 		#Energy needed (in Joules) per tick to process the recipe.
 		energyPerInput = "100000"
+		#MK1 contribution in percent (e.g. 25 equals 25% per MK1 element).
+		#Range: 0 ~ 100000
+		mk1Percent = 25
+		#MK2 contribution in percent (e.g. 250 equals 250% per MK2 element).
+		#Range: 0 ~ 100000
+		mk2Percent = 250
 

@@ -171,16 +171,23 @@ MMEvents.createProcesses((event) => {
   ];
   const seedToCrux = {
     'mysticalagriculture:allthemodium_seeds': 'allthemodium:allthemodium_block',
-    'mysticalagriculture:dark_metal_ingot_seeds': 'born_in_chaos_v1:dark_metal_block',
+    'mysticalagriculture:dark_metal_ingot_seeds':
+      'born_in_chaos_v1:dark_metal_block',
     'mysticalagriculture:plutonium_seeds': 'evolvedmekanism:block_better_gold',
     'mysticalagriculture:unobtainium_seeds': 'allthemodium:unobtainium_block',
     'mysticalagriculture:vibranium_seeds': 'allthemodium:vibranium_block',
-    'mysticalagriculture:nether_star_seeds': 'mysticalagradditions:nether_star_crux',
-    'mysticalagriculture:dragon_egg_seeds': 'mysticalagradditions:dragon_egg_crux',
-    'mysticalagriculture:gaia_spirit_seeds': 'mysticalagradditions:gaia_spirit_crux',
-    'mysticalagriculture:awakened_draconium_seeds': 'mysticalagradditions:awakened_draconium_crux',
-    'mysticalagriculture:neutronium_seeds': 'mysticalagradditions:neutronium_crux',
-    'mysticalagriculture:nitro_crystal_seeds': 'mysticalagradditions:nitro_crystal_crux',
+    'mysticalagriculture:nether_star_seeds':
+      'mysticalagradditions:nether_star_crux',
+    'mysticalagriculture:dragon_egg_seeds':
+      'mysticalagradditions:dragon_egg_crux',
+    'mysticalagriculture:gaia_spirit_seeds':
+      'mysticalagradditions:gaia_spirit_crux',
+    'mysticalagriculture:awakened_draconium_seeds':
+      'mysticalagradditions:awakened_draconium_crux',
+    'mysticalagriculture:neutronium_seeds':
+      'mysticalagradditions:neutronium_crux',
+    'mysticalagriculture:nitro_crystal_seeds':
+      'mysticalagradditions:nitro_crystal_crux',
   };
 
   const tiers = [
@@ -190,47 +197,46 @@ MMEvents.createProcesses((event) => {
     tier4Seeds,
     tier5Seeds,
     tier6Seeds,
-  ]
+  ];
 
-  for (var i = 0; i < 6; i++){
-
-    var recipeId = `mm:essenceforge_tier4_tier${i+1}_seeds`;
+  for (var i = 0; i < 6; i++) {
+    var recipeId = `mm:essenceforge_tier4_tier${i + 1}_seeds`;
     var seeds = tiers[i];
 
     var recipe = event
-    .create(recipeId)
-    .structureId('mm:essenceforge_tier4_structure')
-    .ticks(20)
-    .parallelProcessing(false)
-    .input({
-      type: 'mm:input/consume',
-      ingredient: { type: 'mm:energy', amount: 2147483647 },
-    })
-    .input({
-      type: 'mm:input/consume',
-      ingredient: {
-        type: 'mm:fluid',
-        fluid: 'industrialforegoing:ether_gas',
-        amount: 500 * seeds.length,
-      },
-    });
+      .create(recipeId)
+      .structureId('mm:essenceforge_tier4_structure')
+      .ticks(20)
+      .parallelProcessing(false)
+      .input({
+        type: 'mm:input/consume',
+        ingredient: { type: 'mm:energy', amount: 2147483647 },
+      })
+      .input({
+        type: 'mm:input/consume',
+        ingredient: {
+          type: 'mm:fluid',
+          fluid: 'industrialforegoing:ether_gas',
+          amount: 500 * seeds.length,
+        },
+      });
 
     seeds.forEach((seed) => {
       recipe
-      .input({
-        type: 'mm:input/consume',
-        chance: 0.0,
-        ingredient: { type: 'mm:item', item: seed, count: 1 },
-      })
-      .output({
-        type: 'mm:output/simple',
-        ingredient: {
-          type: 'mm:item',
-          item: seed.replace('_seeds', '_essence'),
-          count: 1024,
-        },
-      });
-      if (i == 5){
+        .input({
+          type: 'mm:input/consume',
+          chance: 0.0,
+          ingredient: { type: 'mm:item', item: seed, count: 1 },
+        })
+        .output({
+          type: 'mm:output/simple',
+          ingredient: {
+            type: 'mm:item',
+            item: seed.replace('_seeds', '_essence'),
+            count: 1024,
+          },
+        });
+      if (i == 5) {
         const crux = seedToCrux[seed];
         if (!crux) {
           console.error(`No Crux found for: ${seed}`);
@@ -241,8 +247,8 @@ MMEvents.createProcesses((event) => {
           chance: 0.0,
           ingredient: { type: 'mm:item', item: crux, count: 1 },
         });
-      };
+      }
     });
-  };
+  }
 });
 

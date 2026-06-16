@@ -1,4 +1,4 @@
-126 possible biomes found:
+118 possible biomes found:
 - "mythicbotany:alfheim_hills"
 - "mythicbotany:alfheim_lakes"
 - "mythicbotany:alfheim_plains"

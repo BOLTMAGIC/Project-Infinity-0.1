@@ -99,106 +99,90 @@ StartupEvents.registry('item', (e) => {
     .maxStackSize(64)
     .texture('kubejs:item/blaze_heart');
 
-  //infinity 1-12 items
+  //#region infinity 1-12 items
   e.create('infinity_1')
     .tag('forge:ingots/infinity_1')
-    .tag('ae2:metal_ingots')
     .tag('forge:ingots')
     .tag('balm:ingots')
     .texture('kubejs:item/infinityingot/infinity_1');
   e.create('infinity_1_333333')
     .displayName('Infinity 1.333333')
     .tag('forge:ingots/infinity_1_333333')
-    .tag('ae2:metal_ingots')
     .tag('forge:ingots')
     .tag('balm:ingots')
     .texture('kubejs:item/infinityingot/infinity_1_333333');
   e.create('infinity_1_666666')
     .displayName('Infinity 1.666666')
     .tag('forge:ingots/infinity_1_666666')
-    .tag('ae2:metal_ingots')
     .tag('forge:ingots')
     .tag('balm:ingots')
     .texture('kubejs:item/infinityingot/infinity_1_666666');
   e.create('infinity_1_999999')
     .displayName('Infinity 1.999999')
     .tag('forge:ingots/infinity_1_999999')
-    .tag('ae2:metal_ingots')
     .tag('forge:ingots')
     .tag('balm:ingots')
     .texture('kubejs:item/infinityingot/infinity_1_999999');
   e.create('infinity_2')
     .tag('forge:ingots/infinity_2')
-    .tag('ae2:metal_ingots')
     .tag('forge:ingots')
     .tag('balm:ingots')
     .texture('kubejs:item/infinityingot/infinity_2');
   e.create('infinity_3')
     .tag('forge:ingots/infinity_3')
-    .tag('ae2:metal_ingots')
     .tag('forge:ingots')
     .tag('balm:ingots')
     .texture('kubejs:item/infinityingot/infinity_3');
   e.create('infinity_4')
     .tag('forge:ingots/infinity_4')
-    .tag('ae2:metal_ingots')
     .tag('forge:ingots')
     .tag('balm:ingots')
     .texture('kubejs:item/infinityingot/infinity_4');
   e.create('infinity_5')
     .tag('forge:ingots/infinity_5')
-    .tag('ae2:metal_ingots')
     .tag('forge:ingots')
     .tag('balm:ingots')
     .texture('kubejs:item/infinityingot/infinity_5');
   e.create('infinity_6')
     .tag('forge:ingots/infinity_6')
-    .tag('ae2:metal_ingots')
     .tag('forge:ingots')
     .tag('balm:ingots')
     .texture('kubejs:item/infinityingot/infinity_6');
   e.create('infinity_7')
     .tag('forge:ingots/infinity_7')
-    .tag('ae2:metal_ingots')
     .tag('forge:ingots')
     .tag('balm:ingots')
     .texture('kubejs:item/infinityingot/infinity_7');
   e.create('infinity_8')
     .tag('forge:ingots/infinity_8')
-    .tag('ae2:metal_ingots')
     .tag('forge:ingots')
     .tag('balm:ingots')
     .texture('kubejs:item/infinityingot/infinity_8');
   e.create('infinity_9')
     .tag('forge:ingots/infinity_9')
-    .tag('ae2:metal_ingots')
     .tag('forge:ingots')
     .tag('balm:ingots')
     .texture('kubejs:item/infinityingot/infinity_9');
   e.create('infinity_10')
     .tag('forge:ingots/infinity_10')
-    .tag('ae2:metal_ingots')
     .tag('forge:ingots')
     .tag('balm:ingots')
     .texture('kubejs:item/infinityingot/infinity_10');
   e.create('infinity_11')
     .tag('forge:ingots/infinity_11')
-    .tag('ae2:metal_ingots')
     .tag('forge:ingots')
     .tag('balm:ingots')
     .texture('kubejs:item/infinityingot/infinity_11');
   e.create('infinity_12')
     .tag('forge:ingots/infinity_12')
-    .tag('ae2:metal_ingots')
     .tag('forge:ingots')
     .tag('balm:ingots')
     .texture('kubejs:item/infinityingot/infinity_12');
 
-  //silent items
-  function createingot(e, input) {
+  //#region silent items
+  function createingot (e, input) {
     e.create(input)
       .tag('forge:ingots/' + input)
-      .tag('ae2:metal_ingots')
       .tag('forge:ingots')
       .tag('balm:ingots')
       .texture('kubejs:item/silent/' + input);
@@ -219,7 +203,7 @@ StartupEvents.registry('item', (e) => {
   createingot(e, 'crystalline_alloy');
   createingot(e, 'tyrian_steel_ingot');
 
-  function createdust(e, input) {
+  function createdust (e, input) {
     e.create(input)
       .tag('forge:dusts/' + input)
       .tag('forge:dusts')
@@ -235,7 +219,7 @@ StartupEvents.registry('item', (e) => {
   createdust(e, 'tyrian_steel_dust');
   createdust(e, 'starmetal_dust');
 
-  function createraw(e, input) {
+  function createraw (e, input) {
     e.create(input)
       .tag('c:raw_materials/' + input)
       .tag('forge:raw_materials/' + input)
@@ -248,14 +232,46 @@ StartupEvents.registry('item', (e) => {
   createraw(e, 'raw_voidmetal');
   createraw(e, 'raw_plasteel');
 
-  //starmetal ingot
+  //#region starmetal ingot
   e.create('starmetal_ingot')
     .tag('forge:ingots/starmetal_ingot')
-    .tag('ae2:metal_ingots')
+    .tag('forge:ingots')
+    .tag('balm:ingots')
+    .maxStackSize(64);
+
+  //#region Element Ingots
+  e.create('fire_ingot')
+    .maxStackSize(64)
+    .displayName('Fire Ingot')
+    .tag('forge:ingots/fire_ingot')
+    .tag('forge:ingots')
+    .tag('balm:ingots');
+  e.create('air_ingot')
+    .maxStackSize(64)
+    .displayName('Air Ingot')
+    .tag('forge:ingots/air_ingot')
+    .tag('forge:ingots')
+    .tag('balm:ingots');
+  e.create('water_ingot')
+    .displayName('Water Ingot')
+    .maxStackSize(64)
+    .tag('forge:ingots/water_ingot')
+    .tag('forge:ingots')
+    .tag('balm:ingots');
+  e.create('earth_ingot')
+    .displayName('Earth Ingot')
+    .maxStackSize(64)
+    .tag('forge:ingots/earth_ingot')
+    .tag('forge:ingots')
+    .tag('balm:ingots');
+  e.create('element_ingot')
+    .displayName('Element Ingot')
+    .maxStackSize(64)
+    .tag('forge:ingots/element_ingot')
     .tag('forge:ingots')
     .tag('balm:ingots');
 
-  //coins
+  //#region coins
   e.create('apotheotic_coin').tag('minecraft:beacon_payment_items');
   e.create('infused_coin').tag('minecraft:beacon_payment_items');
   e.create('ascended_coin').tag('minecraft:beacon_payment_items');
@@ -318,7 +334,7 @@ StartupEvents.registry('item', (e) => {
     .texture('kubejs:item/mysticalagriculture/infinity_essence')
     .displayName('§dInfinity Essence');
 
-  //Chaotic Essence
+  //#region Chaotic Essence
   e.create('chaotic_essence')
     .maxStackSize(64)
     .displayName('§5Chaotic Essence')
@@ -326,7 +342,7 @@ StartupEvents.registry('item', (e) => {
     .glow(true)
     .tag('kubejs:chaotic_essence');
 
-  //Chaotic Essence
+  //#region Chaos Guardian Prediction
   e.create('chaos_guardian_prediction')
     .maxStackSize(64)
     .displayName('§5Chaos Guardian Prediction')
@@ -334,8 +350,8 @@ StartupEvents.registry('item', (e) => {
     .glow(true)
     .tag('kubejs:chaos_guardian_prediction');
 
-  //Industrial Foregoing Addons
-  function createAddon(e, input) {
+  //#region Industrial Foregoing Addons
+  function createAddon (e, input) {
     e.create(input)
       .texture('kubejs:item/industrial_forgegoing/' + input)
       .tag('industrialforegoing:addon')
@@ -364,8 +380,8 @@ StartupEvents.registry('item', (e) => {
   createAddon(e, 'speed_addon_4');
   createAddon(e, 'speed_addon_5');
 
-  //Draconic Evolution
-  function createDraconic(e, input) {
+  //#region Draconic Evolution
+  function createDraconic (e, input) {
     e.create(input)
       .texture('kubejs:item/draconic/' + input)
       .displayName(
@@ -408,8 +424,8 @@ StartupEvents.registry('item', (e) => {
   createDraconic(e, 'draconic_necklace');
   createDraconic(e, 'chaotic_necklace');
 
-  //Powah
-  function createPowah(e, input) {
+  //#region Powah
+  function createPowah (e, input) {
     e.create(input)
       .texture('kubejs:item/powah/' + input)
       .displayName(
@@ -425,8 +441,8 @@ StartupEvents.registry('item', (e) => {
   createPowah(e, 'full_battery_nitro');
   createPowah(e, 'empty_battery_nitro');
 
-  //EnderIO Items
-  function createEnderIO(e, input) {
+  //#region EnderIO Items
+  function createEnderIO (e, input) {
     e.create(input)
       .texture('kubejs:item/enderio/' + input)
       .displayName(
@@ -464,7 +480,7 @@ StartupEvents.registry('item', (e) => {
     .displayName('Extra Data Model Uncrafter')
     .texture('kubejs:item/extra_data_model_uncrafter');
 
-  function createMekanismCompressed(e, item) {
+  function createMekanismCompressed (e, item) {
     e.create('compressed_enriched_' + item)
       .displayName(
         'Compressed Enriched ' + item.charAt(0).toUpperCase() + item.slice(1)

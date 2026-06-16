@@ -1,5 +1,4 @@
 ServerEvents.recipes((event) => {
-
   event.blasting('kubejs:azure_silver_ingot', ['kubejs:azure_silver_ore']);
 
   event.smelting('kubejs:compressed_glass', 'compressium:sand_1');
@@ -205,9 +204,20 @@ ServerEvents.recipes((event) => {
 
   shapeless(event, '9x kubejs:voidmetal_ingot', ['kubejs:voidmetal_block']);
 
-  create3x3same(event, 'kubejs:compressed_hellforgedparts', ['bloodmagic:hellforgedparts']);
+  create3x3same(event, 'kubejs:compressed_hellforgedparts', [
+    'bloodmagic:hellforgedparts',
+  ]);
 
-  shapeless(event, '9x bloodmagic:hellforgedparts', ['kubejs:compressed_hellforgedparts']);
+  shapeless(event, '9x bloodmagic:hellforgedparts', [
+    'kubejs:compressed_hellforgedparts',
+  ]);
+
+  shapeless(event, 'kubejs:element_ingot', [
+    'kubejs:fire_ingot',
+    'kubejs:air_ingot',
+    'kubejs:water_ingot',
+    'kubejs:earth_ingot',
+  ]);
 
   create3x3(event, 'kubejs:bunny_steel_ingot', [
     'minecraft:air',
@@ -336,9 +346,13 @@ ServerEvents.recipes((event) => {
     'kubejs:double_compressed_iron_block',
   ]);
 
-  shapeless(event, '9x pneumaticcraft:compressed_iron_block', ['kubejs:double_compressed_iron_block']);
+  shapeless(event, '9x pneumaticcraft:compressed_iron_block', [
+    'kubejs:double_compressed_iron_block',
+  ]);
 
-  shapeless(event, '9x kubejs:double_compressed_iron_block', ['kubejs:triple_compressed_iron_block']);
+  shapeless(event, '9x kubejs:double_compressed_iron_block', [
+    'kubejs:triple_compressed_iron_block',
+  ]);
 
   create3x3same(event, 'kubejs:double_compressed_slate', [
     'kubejs:compressed_slate',
@@ -413,7 +427,7 @@ ServerEvents.recipes((event) => {
 
   shapeless(event, 'kubejs:nuclearcraft_copy_paste_tool', [
     'minecraft:stick',
-    'nuclearcraft:plate_basic'
+    'nuclearcraft:plate_basic',
   ]);
 
   const mekanismEnrichedMaterialsToCompress = [
@@ -430,11 +444,19 @@ ServerEvents.recipes((event) => {
     { id: 'spectrum', mod: 'mekanism_extras' },
   ];
 
-  mekanismEnrichedMaterialsToCompress.forEach(material => {
-    create3x3same(event, 'kubejs:compressed_enriched_' + material.id, [material.mod + ':enriched_' + material.id,]);
-    shapeless(event, '9x ' + material.mod + ':enriched_' + material.id, ['kubejs:compressed_enriched_' + material.id,]);
+  mekanismEnrichedMaterialsToCompress.forEach((material) => {
+    create3x3same(event, 'kubejs:compressed_enriched_' + material.id, [
+      material.mod + ':enriched_' + material.id,
+    ]);
+    shapeless(event, '9x ' + material.mod + ':enriched_' + material.id, [
+      'kubejs:compressed_enriched_' + material.id,
+    ]);
 
-    create3x3same(event, 'kubejs:double_compressed_enriched_' + material.id, ['kubejs:compressed_enriched_' + material.id,]);    
-    shapeless(event, '9x kubejs:compressed_enriched_' + material.id, ['kubejs:double_compressed_enriched_' + material.id,]);
+    create3x3same(event, 'kubejs:double_compressed_enriched_' + material.id, [
+      'kubejs:compressed_enriched_' + material.id,
+    ]);
+    shapeless(event, '9x kubejs:compressed_enriched_' + material.id, [
+      'kubejs:double_compressed_enriched_' + material.id,
+    ]);
   });
 });

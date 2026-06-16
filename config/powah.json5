@@ -309,7 +309,7 @@
 				"blazing": 400000,
 				"niotic": 1000000,
 				"spirited": 4000000,
-				"nitro": 20000000
+				"nitro": 2000000000
 			},
 			"transfer_rates": {
 				"starter": 100,
@@ -318,7 +318,7 @@
 				"blazing": 4000,
 				"niotic": 10000,
 				"spirited": 40000,
-				"nitro": 200000
+				"nitro": 1000000000
 			}
 		},
 		"hoppers": {

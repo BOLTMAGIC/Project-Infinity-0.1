@@ -1,6 +1,8 @@
 
-#Machine Energy Storage Config. This config is synced from server to client.
+#Machine Storage Config. This config is synced from server to client.
 [storage]
 	#Base energy storage (Joules).
 	electricPump = "400000"
+	#Whether radioactive chemicals are allowed to be stored in Chemical Tanks with a tier of at least Absolute. Spent Nuclear Waste cannot be stored, regardless of this config.
+	allowRadioactiveChemicalInChemicalTanks = true
 

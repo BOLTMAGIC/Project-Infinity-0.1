@@ -192,6 +192,31 @@ MMEvents.createProcesses((event) => {
     64
   );
 
+  createRecipe2(
+    event,
+    [{ item: 'mysticalagriculture:fire_essence', count: 40 }],
+    'kubejs:fire_ingot',
+    1
+  );
+  createRecipe2(
+    event,
+    [{ item: 'mysticalagriculture:air_essence', count: 40 }],
+    'kubejs:air_ingot',
+    1
+  );
+  createRecipe2(
+    event,
+    [{ item: 'mysticalagriculture:water_essence', count: 40 }],
+    'kubejs:water_ingot',
+    1
+  );
+  createRecipe2(
+    event,
+    [{ item: 'mysticalagriculture:earth_essence', count: 40 }],
+    'kubejs:earth_ingot',
+    1
+  );
+
   // Black Lotus Botania
   createRecipe(
     event,
@@ -243,7 +268,7 @@ MMEvents.createProcesses((event) => {
   );
 });
 
-function createSimple1(event, input, output) {
+function createSimple1 (event, input, output) {
   const sanitizedOutput = output.replace(':', '_');
   event
     .create(`mm:mechanical_empowerer_${sanitizedOutput}`)
@@ -274,7 +299,7 @@ function createSimple1(event, input, output) {
     });
 }
 
-function createSimple2(event, input1, input2, output) {
+function createSimple2 (event, input1, input2, output) {
   const sanitizedOutput = output.replace(':', '_');
   event
     .create(`mm:mechanical_empowerer_${sanitizedOutput}`)
@@ -313,7 +338,7 @@ function createSimple2(event, input1, input2, output) {
     });
 }
 
-function createEmpowered(event, inputs, output) {
+function createEmpowered (event, inputs, output) {
   const sanitizedOutput = output.replace(':', '_');
   const recipe = event
     .create(`mm:mechanical_empowerer_empowered_${sanitizedOutput}`)
@@ -349,7 +374,7 @@ function createEmpowered(event, inputs, output) {
   });
 }
 
-function createRecipe(event, inputs, output, outputCount) {
+function createRecipe (event, inputs, output, outputCount) {
   const sanitizedOutput = output.replace(':', '_');
   const recipe = event
     .create(`mm:mechanical_empowerer_empowered_${sanitizedOutput}`)
@@ -385,12 +410,12 @@ function createRecipe(event, inputs, output, outputCount) {
   });
 }
 
-function createRecipe2(event, inputs, output, outputCount) {
+function createRecipe2 (event, inputs, output, outputCount) {
   const sanitizedOutput = output.replace(':', '_');
   const recipe = event
     .create(`mm:mechanical_empowerer_empowered_${sanitizedOutput}`)
     .structureId('mm:mechanical_empowerer_structure')
-    .ticks(TICKS);
+    .ticks(1);
 
   inputs.forEach((input) => {
     recipe.input({
@@ -421,7 +446,7 @@ function createRecipe2(event, inputs, output, outputCount) {
   });
 }
 
-function enderio_recipe1(event, input, output) {
+function enderio_recipe1 (event, input, output) {
   const sanitizedOutput = output.replace(':', '_');
   event
     .create(`mm:mechanical_empowerer_${sanitizedOutput}`)
@@ -453,7 +478,7 @@ function enderio_recipe1(event, input, output) {
     });
 }
 
-function enderio_recipe2(event, input1, input2, output) {
+function enderio_recipe2 (event, input1, input2, output) {
   const sanitizedOutput = output.replace(':', '_');
   event
     .create(`mm:mechanical_empowerer_${sanitizedOutput}`)

@@ -3,7 +3,6 @@
 rhino.local.properties
 README.md
 patchouli_data.json
-options.txt
 minecraftinstance.json
 .curseclient
 saves/
@@ -39,3 +38,4 @@ kubejs/config/probejs.json
 kubejs/jsconfig.json
 .idea/
 config/fancymenu/user_variables.db
+/options.txt

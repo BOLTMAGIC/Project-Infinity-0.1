@@ -7,6 +7,7 @@
 - Mods added:
   - Blood Magic AE2 Addition
   - CC:Tweaked (+ Advanced Peripherals)
+  - Reliable Replacer (so you dont have to change all clear glass blocks)
 ---
 - Mods Changed:
   - AppliedE removed and added a fork from me to fix TPS lag
@@ -107,6 +108,15 @@
   - changed NCN 5x5 reactor in the MBTool
   - added recipe for soulstone_cobble (thx to Jason)
   - reshuffled the FancyMenu Homescreen (big thanks to MiniMaxi!!!)
+  - changed infinity block computation power from 40 to 52
+    - means you need 8 infinity blocks for the infinity 9 research
+  - changed all multiblocks to use ae2:quartz_glass and not tconstruct:clear_glass
+  - disabled YTones recipes!
+  - /eap give_infinity_disks is disabled because buggy!
+  - re-added compact machines large, giant, maximum (thx to grinchfan22)
+  - changed recipe for Long-tier creative storage cell
+    - removed recipe for devourer of cosmic silence
+  - changed recipes for Packaged Crafter Tables to use the normal tables and not the Auto tables
 ---
 - Mod changes and fixes:
   - Void Miner Rubetine will tell you that it does not accept any modifiers

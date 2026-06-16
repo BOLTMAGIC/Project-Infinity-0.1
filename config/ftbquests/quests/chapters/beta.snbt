@@ -1,4 +1,5 @@
 {
+	autofocus_id: "11FDDFEC0E4DB0F6"
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "beta"
@@ -11,8 +12,8 @@
 			image: "enderio:textures/gui/icons/weather_sun.png"
 			rotation: 0.0d
 			width: 5.0d
-			x: -6.5d
-			y: 2.0d
+			x: 5.0d
+			y: 3.0d
 		}
 		{
 			height: 5.0d
@@ -55,7 +56,7 @@
 					type: "item"
 				}
 			]
-			x: -4.0d
+			x: 0.5d
 			y: -6.0d
 		}
 		{
@@ -87,7 +88,7 @@
 					type: "item"
 				}
 			]
-			x: -4.0d
+			x: 0.5d
 			y: -4.0d
 		}
 		{
@@ -119,8 +120,8 @@
 					type: "item"
 				}
 			]
-			x: -2.0d
-			y: -4.0d
+			x: -0.5d
+			y: -5.0d
 		}
 		{
 			dependencies: ["29B18B5F40650493"]
@@ -151,7 +152,7 @@
 					type: "item"
 				}
 			]
-			x: 0.0d
+			x: -0.5d
 			y: -4.0d
 		}
 		{
@@ -183,8 +184,8 @@
 					type: "item"
 				}
 			]
-			x: 2.0d
-			y: -4.0d
+			x: -1.5d
+			y: -5.0d
 		}
 		{
 			dependencies: ["508F4475B3CE7095"]
@@ -207,7 +208,7 @@
 				item: "solarflux:sp_6"
 				type: "item"
 			}]
-			x: 4.0d
+			x: -1.5d
 			y: -4.0d
 		}
 		{
@@ -231,8 +232,8 @@
 				item: "solarflux:sp_7"
 				type: "item"
 			}]
-			x: 4.0d
-			y: -2.0d
+			x: -2.5d
+			y: -5.0d
 		}
 		{
 			dependencies: ["77C7D7CB9A44608C"]
@@ -263,8 +264,8 @@
 					type: "item"
 				}
 			]
-			x: 2.0d
-			y: -2.0d
+			x: -2.5d
+			y: -4.0d
 		}
 		{
 			dependencies: ["00840D0F83722C0F"]
@@ -300,8 +301,8 @@
 					type: "item"
 				}
 			]
-			x: 0.0d
-			y: -2.0d
+			x: -3.5d
+			y: -5.0d
 		}
 		{
 			dependencies: ["59654A0906E34E66"]
@@ -337,8 +338,8 @@
 					type: "item"
 				}
 			]
-			x: -2.0d
-			y: -2.0d
+			x: -3.5d
+			y: -4.0d
 		}
 		{
 			dependencies: ["4D409227D56C6274"]
@@ -380,8 +381,8 @@
 					type: "item"
 				}
 			]
-			x: -4.0d
-			y: -2.0d
+			x: -4.5d
+			y: -5.0d
 		}
 		{
 			dependencies: ["146BE3D3E96C57AD"]
@@ -414,14 +415,14 @@
 				}
 			]
 			shape: "octagon"
-			size: 5.0d
+			size: 2.0d
 			tasks: [{
 				id: "52E5E1952D274EA8"
 				item: "solarflux:sp_avaritia.infinity"
 				type: "item"
 			}]
-			x: 0.0d
-			y: 7.5d
+			x: -4.5d
+			y: -1.0d
 		}
 		{
 			dependencies: ["6679A723A019502D"]
@@ -438,14 +439,14 @@
 					xp: 100
 				}
 			]
-			size: 3.0d
+			size: 1.0d
 			tasks: [{
 				id: "64B2F9DE45E2E077"
 				item: "solarflux:sp_avaritia.neutronium"
 				type: "item"
 			}]
-			x: 0.0d
-			y: 1.5d
+			x: -4.5d
+			y: -3.0d
 		}
 		{
 			dependencies: ["2B001C76CB519664"]
@@ -476,7 +477,7 @@
 					type: "item"
 				}
 			]
-			x: 11.0d
+			x: 2.5d
 			y: -6.0d
 		}
 		{
@@ -508,7 +509,7 @@
 					type: "item"
 				}
 			]
-			x: 11.0d
+			x: 2.5d
 			y: -4.0d
 		}
 		{
@@ -539,8 +540,8 @@
 					type: "item"
 				}
 			]
-			x: 13.0d
-			y: -4.0d
+			x: 3.5d
+			y: -5.0d
 		}
 		{
 			dependencies: ["4655CF4DF5FDE312"]
@@ -571,7 +572,7 @@
 					type: "item"
 				}
 			]
-			x: 15.0d
+			x: 3.5d
 			y: -4.0d
 		}
 		{
@@ -603,8 +604,8 @@
 					type: "item"
 				}
 			]
-			x: 17.0d
-			y: -4.0d
+			x: 4.5d
+			y: -5.0d
 		}
 		{
 			dependencies: ["2B74BF1A99070155"]
@@ -635,8 +636,8 @@
 					type: "item"
 				}
 			]
-			x: 17.0d
-			y: -2.0d
+			x: 4.5d
+			y: -4.0d
 		}
 		{
 			dependencies: ["252BFC4EC4B3E5CA"]
@@ -667,8 +668,8 @@
 					type: "item"
 				}
 			]
-			x: 14.0d
-			y: -2.0d
+			x: 5.5d
+			y: -5.0d
 		}
 		{
 			dependencies: ["357B6B88A99DB33F"]
@@ -699,8 +700,8 @@
 					type: "item"
 				}
 			]
-			x: 11.0d
-			y: -2.0d
+			x: 5.5d
+			y: -4.0d
 		}
 		{
 			dependencies: ["5C42855046AEB9B3"]
@@ -718,7 +719,7 @@
 					type: "item"
 				}
 			]
-			size: 3.0d
+			size: 1.0d
 			tasks: [
 				{
 					id: "33B8003BB449790E"
@@ -732,8 +733,8 @@
 					type: "item"
 				}
 			]
-			x: 15.0d
-			y: 1.5d
+			x: 5.5d
+			y: -3.0d
 		}
 		{
 			dependencies: ["0970AA083005A641"]
@@ -767,7 +768,7 @@
 				}
 			]
 			shape: "octagon"
-			size: 5.0d
+			size: 2.0d
 			tasks: [
 				{
 					id: "3556600267260F2B"
@@ -781,20 +782,20 @@
 					type: "item"
 				}
 			]
-			x: 15.0d
-			y: 7.5d
+			x: 5.5d
+			y: -1.0d
 		}
 		{
 			id: "2B001C76CB519664"
-			size: 2.0d
+			size: 1.0d
 			tasks: [{
 				id: "4B19D871A79C34DF"
 				title: "{ftbquests.chapter.beta.quest2B001C76CB519664.task.5411594409917297887.title}"
 				type: "checkmark"
 			}]
 			title: "{ftbquests.chapter.beta.quest2B001C76CB519664.title}"
-			x: 4.5d
-			y: -11.0d
+			x: 1.5d
+			y: -7.0d
 		}
 		{
 			id: "2BF6F37D2B7D4696"
@@ -808,8 +809,8 @@
 				item: "solarflux:blank_upgrade"
 				type: "item"
 			}]
-			x: 0.0d
-			y: 12.0d
+			x: -4.5d
+			y: 1.0d
 		}
 		{
 			dependencies: ["2BF6F37D2B7D4696"]
@@ -824,8 +825,8 @@
 				item: "solarflux:efficiency_upgrade"
 				type: "item"
 			}]
-			x: 1.5d
-			y: 12.0d
+			x: -3.0d
+			y: 1.0d
 		}
 		{
 			dependencies: ["2BF6F37D2B7D4696"]
@@ -840,8 +841,8 @@
 				item: "solarflux:transfer_rate_upgrade"
 				type: "item"
 			}]
-			x: 1.5d
-			y: 13.0d
+			x: -3.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["2BF6F37D2B7D4696"]
@@ -856,8 +857,8 @@
 				item: "solarflux:capacity_upgrade"
 				type: "item"
 			}]
-			x: 1.5d
-			y: 14.0d
+			x: -3.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["2BF6F37D2B7D4696"]
@@ -872,8 +873,8 @@
 				item: "solarflux:traversal_upgrade"
 				type: "item"
 			}]
-			x: 0.5d
-			y: 14.0d
+			x: -4.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["2BF6F37D2B7D4696"]
@@ -888,8 +889,8 @@
 				item: "solarflux:dispersive_upgrade"
 				type: "item"
 			}]
-			x: -0.5d
-			y: 14.0d
+			x: -5.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["2BF6F37D2B7D4696"]
@@ -904,8 +905,8 @@
 				item: "solarflux:block_charging_upgrade"
 				type: "item"
 			}]
-			x: -1.5d
-			y: 14.0d
+			x: -6.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["2BF6F37D2B7D4696"]
@@ -920,8 +921,8 @@
 				item: "solarflux:furnace_upgrade"
 				type: "item"
 			}]
-			x: -1.5d
-			y: 13.0d
+			x: -6.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["2BF6F37D2B7D4696"]
@@ -936,8 +937,8 @@
 				item: "solarflux:ae2/energy_upgrade"
 				type: "item"
 			}]
-			x: -1.5d
-			y: 12.0d
+			x: -6.0d
+			y: 1.0d
 		}
 	]
 	title: "{ftbquests.chapter.beta.title}"

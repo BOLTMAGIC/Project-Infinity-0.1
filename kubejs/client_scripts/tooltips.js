@@ -196,16 +196,6 @@ ItemEvents.tooltip((event) => {
 
   // Compact Machines
   event.add(
-    [
-      'compactmachines:machine_maximum',
-      'compactmachines:machine_giant',
-      'compactmachines:machine_large',
-    ],
-    Text.translate('tooltip.compactmachines.warning')
-  );
-
-  // Compact Machines
-  event.add(
     ['compactmekanismmachines:compact_industrial_turbine'],
     Text.translate('tooltip.compactmachines.info')
   );

@@ -116,7 +116,13 @@ Recipe changes and fixes:
 - changed infinity block computation power from 40 to 52
     - means you need 8 infinity blocks for the infinity 9 research
 - changed all multiblocks to use ae2:quartz_glass and not tconstruct:clear_glass
-- 
+- disabled YTones recipes!
+- /eap give_infinity_disks is disabled because buggy! (thx to MiniMaxi)
+- re-added compact machines large, giant, maximum (thx to grinchfan22)
+- changed recipe for Long-tier creative storage cell
+    - removed recipe for devourer of cosmic silence
+- changed recipes for Packaged Crafter Tables to use the normal tables and not the Auto tables
+-added Antimatter Protomolecular Transmutator Mekanism Tier 3 (APT)
 ----------
 Mod changes and fixes:
 -Void Miner Rubetine will tell you that it does not accept any modifiers

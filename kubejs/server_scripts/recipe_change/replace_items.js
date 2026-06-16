@@ -176,6 +176,31 @@ ServerEvents.recipes((event) => {
     'ae2omnicells:quantum_omni_cell_component_256m'
   );
   event.replaceInput(
+    { output: 'packagedexcrafting:advanced_crafter' },
+    'extendedcrafting:advanced_auto_table',
+    'extendedcrafting:advanced_table'
+  );
+  event.replaceInput(
+    { output: 'packagedexcrafting:elite_crafter' },
+    'extendedcrafting:elite_auto_table',
+    'extendedcrafting:elite_table'
+  );
+  event.replaceInput(
+    { output: 'packagedexcrafting:ultimate_crafter' },
+    'extendedcrafting:ultimate_auto_table',
+    'extendedcrafting:ultimate_table'
+  );
+  event.replaceInput(
+    { output: 'packagedexexcrafting:epic_crafter' },
+    'extendedcrafting:epic_auto_table',
+    'extendedcrafting:epic_table'
+  );
+  event.replaceInput(
+    { output: 'packagedexexexcrafting:legendary_crafter' },
+    'extendedcrafting:legendary_auto_table',
+    'extendedcrafting:legendary_table'
+  );
+  event.replaceInput(
     { output: 'industrialforegoing:supreme_black_hole_tank' },
     'minecraft:bucket',
     'industrialforegoing:advanced_black_hole_tank'

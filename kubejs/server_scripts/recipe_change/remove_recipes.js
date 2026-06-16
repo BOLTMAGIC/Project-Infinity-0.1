@@ -191,7 +191,7 @@ const removeItemsbyOutput = [
   'industrialforegoing:conveyor_detection_upgrade',
   'industrialforegoing:conveyor_extraction_upgrade',
   'industrialforegoing:conveyor_splitting_upgrade',
-  'thermal:florb'
+  'thermal:florb',
 ];
 
 //#region ID removal
@@ -445,9 +445,6 @@ const removeItemsbyID = [
   'avaritia:eternal_singularity',
   'botania:petal_apothecary/hydroangeas',
   'botania:petal_apothecary/pure_daisy',
-  'compactmachines:machine_large',
-  'compactmachines:machine_giant',
-  'compactmachines:machine_maximum',
   'logisticsnetworks:mekanism_chemical_upgrade',
   'enderio:soulbinding/enticing_crystal',
   'ifwootaddon:dissolution_chamber/laser_drill_upgrade',
@@ -574,7 +571,7 @@ const removeItemsbyID = [
   'nuclearcraft:manufactory/ender_pearl',
   'nuclearcraft:manufactory/netherite_scrap',
   'nuclearcraft:pu_239_bomb',
-  '',
+  'tconstruct:smeltery/casting/glass/block',
   '',
   '',
   '',
@@ -628,6 +625,9 @@ ServerEvents.recipes((event) => {
   });
   event.remove({
     mod: 'libraryferret',
+  });
+  event.remove({
+    mod: 'ytones',
   });
   event.remove({
     input: 'mysticalagriculture:saltpeter_essence',

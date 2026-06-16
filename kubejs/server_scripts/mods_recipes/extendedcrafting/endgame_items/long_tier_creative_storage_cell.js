@@ -1,96 +1,134 @@
 ServerEvents.recipes((event) => {
-  //creative_ae_cell_long
+  // ae2omnicells:creative_ae_cell_long
   event
     .custom({
       type: 'extendedcrafting:shaped_table',
       pattern: [
-        'AABCCCBAA',
-        'ADEFFFEDA',
-        'BGHIJIKLB',
-        'MNIOPOIQM',
-        'MRJPSPJTM',
-        'MUIOPOIVM',
-        'BWXIJIYZB',
-        'ADEFFFEDA',
-        'AABCCCBAA',
+        'ABCDEFGHCBA',
+        'BIIJKKKJIIB',
+        'CILMNNNMLIC',
+        'OJPQRSRTUJV',
+        'WXYRZaZRbXc',
+        'FXdSaeaSfXF',
+        'cXgRZaZRhXW',
+        'VJijRSRklJO',
+        'CILMNNNMLIC',
+        'BIIJKKKJIIB',
+        'ABCHGFEDCBA',
       ],
       key: {
         A: {
-          item: 'ae2omnicells:quantum_omni_cell_component_256m',
+          item: 'kubejs:zahraanite',
         },
         B: {
-          item: 'megacells:cell_component_256m',
+          item: 'mekanism_extras:alloy_spectrum',
         },
         C: {
-          item: 'ae2omnicells:omni_cell_component_256m',
+          item: 'evolvedmekanism:alloy_exoversal',
         },
         D: {
-          item: 'crazyae2addons:energy_storage_256m',
+          item: 'mekanism_extras:alloy_shining',
         },
         E: {
-          item: 'megacells:bulk_cell_component',
+          item: 'evolvedmekanism:alloy_subatomic',
         },
         F: {
-          item: 'appflux:core_256m',
+          item: 'draconicevolution:chaotic_core',
         },
         G: {
-          item: 'ae2omnicells:omni_cell_housing',
+          item: 'evolvedmekanism:alloy_singular',
         },
         H: {
-          item: 'ae2omnicells:complex_omni_cell_housing',
+          item: 'mekanism_extras:alloy_thermonuclear',
         },
         I: {
-          item: 'kubejs:infinity_8',
+          item: 'ae2omnicells:quantum_omni_cell_component_256m',
         },
         J: {
-          item: 'mekanism_extras:qio_drive_singularity',
+          item: 'megacells:cell_component_256m',
         },
         K: {
-          item: 'ae2omnicells:quantum_omni_cell_housing',
+          item: 'ae2omnicells:omni_cell_component_256m',
         },
         L: {
-          item: 'appbot:mana_cell_housing',
+          item: 'crazyae2addons:energy_storage_256m',
         },
         M: {
-          item: 'ae2omnicells:complex_omni_cell_component_256m',
+          item: 'megacells:bulk_cell_component',
         },
         N: {
-          item: 'crazyae2addons:mob_cell_housing',
+          item: 'appflux:core_256m',
         },
         O: {
-          item: 'ae2omnicells:spent_nuclear_waste_singularity',
+          item: 'allthemodium:vibranium_allthemodium_alloy_ingot',
         },
         P: {
-          item: 'crazyae2addons:super_singularity_block',
+          item: 'ae2omnicells:omni_cell_housing',
         },
         Q: {
-          item: 'ae2:item_cell_housing',
+          item: 'ae2omnicells:complex_omni_cell_housing',
         },
         R: {
-          item: 'ifsoulsdisks:souls_cell_housing',
+          item: 'kubejs:infinity_8',
         },
         S: {
-          item: 'extendedae_plus:infinity_core',
+          item: 'mekanism_extras:qio_drive_singularity',
         },
         T: {
-          item: 'ae2:fluid_cell_housing',
+          item: 'ae2omnicells:quantum_omni_cell_housing',
         },
         U: {
-          item: 'megacells:mega_item_cell_housing',
+          item: 'appbot:mana_cell_housing',
         },
         V: {
-          item: 'appmek:chemical_cell_housing',
+          item: 'mekanism_extras:alloy_radiance',
         },
         W: {
-          item: 'megacells:mega_fluid_cell_housing',
+          item: 'kubejs:sculk_alloy_ingot',
         },
         X: {
-          item: 'megacells:mega_mana_cell_housing',
+          item: 'ae2omnicells:complex_omni_cell_component_256m',
         },
         Y: {
-          item: 'megacells:mega_chemical_cell_housing',
+          item: 'crazyae2addons:mob_cell_housing',
         },
         Z: {
+          item: 'ae2omnicells:spent_nuclear_waste_singularity',
+        },
+        a: {
+          item: 'crazyae2addons:super_singularity_block',
+        },
+        b: {
+          item: 'ae2:item_cell_housing',
+        },
+        c: {
+          item: 'evolvedmekanism:alloy_hypercharged',
+        },
+        d: {
+          item: 'ifsoulsdisks:souls_cell_housing',
+        },
+        e: {
+          item: 'extendedae_plus:infinity_core',
+        },
+        f: {
+          item: 'ae2:fluid_cell_housing',
+        },
+        g: {
+          item: 'megacells:mega_item_cell_housing',
+        },
+        h: {
+          item: 'appmek:chemical_cell_housing',
+        },
+        i: {
+          item: 'megacells:mega_fluid_cell_housing',
+        },
+        j: {
+          item: 'megacells:mega_mana_cell_housing',
+        },
+        k: {
+          item: 'megacells:mega_chemical_cell_housing',
+        },
+        l: {
           item: 'appflux:fe_cell_housing',
         },
       },

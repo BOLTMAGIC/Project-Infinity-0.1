@@ -27,7 +27,7 @@ MMEvents.createStructures((event) => {
           block: 'kubejs:starmetal_block',
         })
         .key('F', {
-          block: 'tconstruct:clear_glass',
+          block: 'ae2:quartz_glass',
         })
         .key('G', {
           block: 'igleelib:derium_block',

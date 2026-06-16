@@ -90,9 +90,9 @@ Custom blocks adding Computation just for this Modpack:
 * Empowered Super Block = 20
 * Crystal Matrix Block = 22
 * Neutronium Block = 25
-* Infinity Block (avaritia) = 40
+* Infinity Block (avaritia) = 52
 
-You need 14 Infinity Blocks to research Infinity 9 ingot.
+You need 8 Infinity Blocks to research Infinity 9 ingot.
 
 ### Operating costs (per tick)
 

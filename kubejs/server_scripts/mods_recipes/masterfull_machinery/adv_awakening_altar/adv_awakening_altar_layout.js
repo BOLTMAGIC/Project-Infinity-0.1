@@ -125,7 +125,7 @@ MMEvents.createStructures((event) => {
           input: false,
         })
         .key('F', {
-          block: 'tconstruct:clear_glass',
+          block: 'ae2:quartz_glass',
         })
         .key('G', {
           block: 'minecraft:end_rod',
@@ -266,7 +266,7 @@ MMEvents.createStructures((event) => {
           input: false,
         })
         .key('F', {
-          block: 'tconstruct:clear_glass',
+          block: 'ae2:quartz_glass',
         })
         .key('G', {
           block: 'minecraft:end_rod',

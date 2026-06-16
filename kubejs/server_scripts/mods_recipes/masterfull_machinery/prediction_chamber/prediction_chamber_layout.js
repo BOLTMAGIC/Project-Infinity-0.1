@@ -67,7 +67,7 @@ MMEvents.createStructures((event) => {
           block: 'mekanism:supercharged_coil',
         })
         .key('G', {
-          block: 'tconstruct:clear_glass',
+          block: 'ae2:quartz_glass',
         })
         .key('H', {
           block: 'chisel_chipped_integration:factory_blue_framed_circuit',

@@ -1,3 +1,125 @@
+%#red%**Version 0.0.50.0**%#%
+---
+- Mod Info:
+  - Updated some mods
+  - JustDireThings got updated a lot and fixed a lot of bugs and crashes
+---
+- Mods added:
+  - Blood Magic AE2 Addition
+  - CC:Tweaked (+ Advanced Peripherals)
+---
+- Mods Changed:
+  - AppliedE removed and added a fork from me to fix TPS lag
+---
+- Mods removed:
+  - Incendium
+    -%#yellow%This will make the nether unable to be loaded the first you enter the world, follow the instructions in chat.%#%
+  - Compact Expansion
+---
+- Mod INFO:
+  - mods getting removed in 0.0.51.0:
+    - YTones (its discontinued, replaced with BetterBlockZ)
+    - Tinkers Construct and all addons
+    - Extreme/ Big Reactors
+    - Chemlib and Alchemistry
+    - Occultism
+    - Mekanism Advanced Generators
+---
+- Recipe changes and fixes:
+  - changed ATM seed to use any ATM ore
+  - changed Inf 5 recipe so you can generate more at once
+  - added new Nuclearcraft Fission Reactor to the Multibuilder Tool (thx to pls! you are crazy)
+  - small change to hellforged recipe in multi compactor
+  - fixed knight metal block not craftable
+  - added new recipe for some JDT items and upgrades
+  - added a JustDireThings Questline
+  - added recipe for Blood Generator (Tier 6 Table. Dont hate me)
+  - added recipe for BMAddon items
+  - changed recipe for logisticsnetworks:mekanism_chemical_upgrade
+  - changed creative_chemical_tank recipe to use a full tank and not the half
+  - added ATM ores to the ultimate miner (void miner) with a 0.025%
+  - small Botanical Machinery quest tooltip change (thx to ratnu)
+  - changed some energy values for mekanism machines
+  - changed upgrade_module_stack recipe to use infinity 7 and not 12
+  - TigerChin said the Gas Burning Generator is unnerfed. I changed it and nerfed it all the way (hate him not me)
+  - added mekanism 18x18 boiler to MBTool
+  - changed recipe for catalyst_mana_infinity
+  - added slimeball into earthslime in a Nuclearcraft melter
+  - added mekanism fluorite gem to sieve and auto sieve
+  - removed data models:
+    - spirit guide
+    - restless spirit
+    - corpse maggot
+    - glutton fish
+    - wraith
+    - kobold
+    - stable ice core
+    - winter wolf
+    - yeti
+    - carminite golem
+    - raven
+    - towerwood borer
+    - deepling warlock
+    - stalker
+    - fire beetle
+    - helmet crab
+        - use all your predictions!!!!!!
+  - fixed prediciton recipes
+  - changed config for soulstone. max 1 enchant. no upgrade
+  - added a recipe for hellforged parts (any silentgems ore 344064 for 2%)
+  - charcoal and covalence dust got EMC (thx to Jason)
+  - reorganized and added descriptions to functional storage quests (thx to Aquadin)
+  - fix and improve Woot Quests (thx to SoyWater)
+  - philosophers_stone got EMC value (thx to Jason)
+  - changed some values for fire attuned T1 recipes (thx to ratnu)
+  - added new recipe for liquid_sculk_matter (thx to Jason)
+  - added recipe for compact_industrial_turbine (generating 83MFE/t at max)
+  - added Masterful Machinery quests (thx to Aquadin)
+  - Coal, Coal Blocks and Nether starts are not getting
+  - removed awakened_supremium_essence recipe from the multi compactor (thx to RxDnz)
+  - changed dragonsteel recipe netherite scrap to 'common_ore_library:scrap_dust'
+  - changed enderium ingot recipe from diamond dust to diamond gem
+  - removed magma anvil recipe
+  - fixed abyssal ingot not working in the alloyer (thx to Reninsane)
+  - changed chaos guradian data model to need 1; 25000; 30000 and 32767 data for level up.
+  - changed wireless_transceiver recipe
+  - add projecte:rm_morning_star AOE blacklist, also add a command to disable AOE completely per player (thx to MiniMaxi)
+  - added a extra data model uncrafter (thx to MiniMaxi) (use the model on a grindstone)
+  - added tooltip for ancient ice (thx to MiniMaxi)
+  - changed naquadah ore weight from 1 to 2
+  - fixed harbinger gateway
+  - added a tooltip for Inf 9 research in GuideMe (thx to grinchfan22)
+  - added draconium_ore to the ultimate miner with 1.0 weight
+  - changed spawnchace for ATM ores. use crafting recipes
+  - changed recipe for repair_talisman and soulstone
+  - cant enchant ae2:annihilation_plane anymore
+  - added pressure chamber to Multibuilder tool
+  - added a new multiblock 
+    - resource foundry
+  - added a Super Compressed Titanic Item Port (16384 items each slot)
+  - added a recipe for JustDireThings guide book
+  - changed Inf 10 recipe
+    - added Fire, Water, Earth and Air Ingot to create the new Element Ingot for the Powah Recipe
+  - changed Inf 11 Recipes!
+    - you need to BlockSwap Inf 10 Block to Overworld, Nether and End. And dont forget to sieve (Auto Sieve ONLY!) the Unfiltered Infinity 11 Block to get Inf 11 ingot
+  - Masterful Machinery Controller recipes dont need elementium anymore. they need manasteel
+  - added a endgame item to get 300k draconium ingots inside the infinity crucible
+  - changed NCN 5x5 reactor in the MBTool
+  - added recipe for soulstone_cobble (thx to Jason)
+  - reshuffled the FancyMenu Homescreen (big thanks to MiniMaxi!!!)
+---
+- Mod changes and fixes:
+  - Void Miner Rubetine will tell you that it does not accept any modifiers
+  - Changed Voidminer JEI Tab (if you are colorblind enable the config in void-miner.json5 "COLOR_BLIND_PERCENT")
+  - for Masterful Machinery multiblocks you can place any port on any other port place
+  - Masterful Machinery dynamiclly changes the height for the MM Structure JEI Tab
+  - EvolvedMekanism tier installer works for alloyer machines
+  - EvolvedMekanism APT Multiblock got a new "Tier"
+    - Superheated Element Mk1 got a recipe change. its way easier. It gives you 25% speed
+    - Superheated Element Mk2 is giving you 250% speed! But got a hard recipe
+---
+---
+---
 %#red%**Version 0.0.49.3**%#%
 ---
 Mod Info:
@@ -83,45 +205,3 @@ Mod Info:
 ---
 - Mod changes and fixes:
   - Fixed dupe in Extended Crafting
----
----
----
-%#red%**Version 0.0.49.1**%#%
----
-Mod Info:
-- Updated some mods
----
-- Mods removed:
-  - Fast Loading (not working)
-  - TT20 (TPS Fixer) (not working)
-  - MCreator Memory Fix (not working)
----
-- Mods getting added after some more time:
-  - Just Dire Things
----
-- Mods maybe getting removed:
-  - Occultism
-  - Chemlib and Alchemistry
-  - Extreme/ Big Reactors
----
-- Mods getting removed in 0.0.50.0:
-  - Incendium
-    - %#yellow%This will make the Nether inaccesible the first time you load your world, just exit it and load it again%#%
-  - Compact Expansion
----
-- Mods getting removed in 0.0.51.0:
-  - YTones (its discontinued, replaced with BetterBlockZ)
----
-- Recipe changes and fixes:
-  - Set biome for world creation to Plains
-  - Fixed sand to dust in Mekanism machines
-  - Fixed Creative ME Item Cell
-  - Fixed FancyMenu screen
-  - Changed Omega Tier Upgrade from Inf 1 to Inf 2 (thx to codename_cat)
-  - Changed recipe for Gaia Spirit Seed from Inf 4 to Inf 3 (thx to codename_cat)
----
-- Mod changes and fixes:
-  - Fixed Uranium into Enriched Uranium recipe (thx to arman258)
----
-- Known bugs:
-  - Polymorph (changing the output for mod conflicts) is not possible with Tinkers Crafting Station

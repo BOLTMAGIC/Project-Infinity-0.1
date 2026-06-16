@@ -58,7 +58,7 @@ ServerEvents.recipes((event) => {
           item: 'expatternprovider:ex_molecular_assembler',
         },
         O: {
-          item: 'tconstruct:clear_glass',
+          item: 'ae2:quartz_glass',
         },
         P: {
           item: 'bloodmagic:seersigil',

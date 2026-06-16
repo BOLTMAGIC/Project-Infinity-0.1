@@ -76,7 +76,7 @@ MMEvents.createStructures((event) => {
           block: 'chisel_chipped_integration:factory_blue_framed_circuit',
         })
         .key('D', {
-          block: 'tconstruct:clear_glass',
+          block: 'ae2:quartz_glass',
         })
         .key('E', {
           block: 'mm:gigantic_energy_port_input',

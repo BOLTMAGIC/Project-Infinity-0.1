@@ -21,7 +21,7 @@ MMEvents.createStructures((event) => {
           block: 'chisel_chipped_integration:factory_blue_framed_circuit',
         })
         .key('E', {
-          block: 'tconstruct:clear_glass',
+          block: 'ae2:quartz_glass',
         })
         .key('F', {
           block: 'extrahnn:ultimate_loot_fabricator_v4',

@@ -33,7 +33,7 @@ MMEvents.createStructures((event) => {
           block: 'mekanism:ultimate_purifying_factory',
         })
         .key('7', {
-          block: 'tconstruct:clear_glass',
+          block: 'ae2:quartz_glass',
         })
         .key('8', {
           portType: 'mm:energy',
@@ -159,7 +159,7 @@ MMEvents.createStructures((event) => {
           block: 'mekanism:ultimate_purifying_factory',
         })
         .key('7', {
-          block: 'tconstruct:clear_glass',
+          block: 'ae2:quartz_glass',
         })
         .key('8', {
           portType: 'mm:energy',
@@ -218,7 +218,7 @@ MMEvents.createStructures((event) => {
           block: 'mekanism_extras:absolute_purifying_factory',
         })
         .key('7', {
-          block: 'tconstruct:clear_glass',
+          block: 'ae2:quartz_glass',
         })
         .key('8', {
           portType: 'mm:energy',
@@ -270,7 +270,7 @@ MMEvents.createStructures((event) => {
           block: 'mekanism_extras:infinite_purifying_factory',
         })
         .key('7', {
-          block: 'tconstruct:clear_glass',
+          block: 'ae2:quartz_glass',
         })
         .key('8', {
           portType: 'mm:energy',

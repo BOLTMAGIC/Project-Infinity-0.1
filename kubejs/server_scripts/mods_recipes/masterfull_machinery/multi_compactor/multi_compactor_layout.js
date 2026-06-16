@@ -109,7 +109,7 @@ MMEvents.createStructures((event) => {
           block: 'extendedcrafting:compressor',
         })
         .key('I', {
-          block: 'tconstruct:clear_glass',
+          block: 'ae2:quartz_glass',
         });
     });
 });

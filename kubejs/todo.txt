@@ -103,10 +103,15 @@ Recipe changes and fixes:
     -resource foundry
 -added a Super Compressed Titanic Item Port (16384 items each slot)
 -added a recipe for JustDireThings guide book
+-changed Inf 10 recipe
+    -added Fire, Water, Earth and Air Ingot to create the new Element Ingot for the Powah Recipe
 -changed Inf 11 Recipes!
     -you need to BlockSwap Inf 10 Block to Overworld, Nether and End. And dont forget to sieve (Auto Sieve ONLY!) the Unfiltered Infinity 11 Block to get Inf 11 ingot
 -Masterful Machinery Controller recipes dont need elementium anymore. they need manasteel
--
+-added a endgame item to get 300k draconium ingots inside the infinity crucible
+-changed NCN 5x5 reactor in the MBTool
+-added recipe for soulstone_cobble (thx to Jason)
+-reshuffled the FancyMenu Homescreen (big thanks to MiniMaxi!!!)
 ----------
 Mod changes and fixes:
 -Void Miner Rubetine will tell you that it does not accept any modifiers
@@ -114,6 +119,9 @@ Mod changes and fixes:
 -for Masterful Machinery multiblocks you can place any port on any other port place
 -Masterful Machinery dynamiclly changes the height for the MM Structure JEI Tab
 -EvolvedMekanism tier installer works for alloyer machines
+-EvolvedMekanism APT Multiblock got a new "Tier"
+    -Superheated Element Mk1 got a recipe change. its way easier. It gives you 25% speed
+    -Superheated Element Mk2 is giving you 250% speed! But got a hard recipe
 ----------
 known bugs:
 -polymorph (changing the output for mod conflicts) is not possible with tinkers crafting station

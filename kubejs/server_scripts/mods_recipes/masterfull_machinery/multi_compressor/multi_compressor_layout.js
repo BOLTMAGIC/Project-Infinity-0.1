@@ -86,20 +86,20 @@ MMEvents.createStructures((event) => {
           '        ',
           '        ',
         ])
-        .key('A', {
-          block: 'mm:gigantic_fluid_port_input',
-        })
-        .key('B', {
-          block: 'mm:gigantic_energy_port_input',
-        })
+        .key('A', { portType: 'mm:fluid', input: true, minTier: 5 })
+        .key('B', { portType: 'mm:energy', input: true, minTier: 6 })
         .key('D', {
-          block: 'mm:titanic_item_port_output',
+          portType: 'mm:item',
+          input: false,
+          minTier: 8,
         })
         .key('E', {
           block: 'chisel_chipped_integration:factory_blue_framed_circuit',
         })
         .key('F', {
-          block: 'mm:compressed_titanic_item_port_input',
+          portType: 'mm:item',
+          input: true,
+          minTier: 8,
         })
         .key('G', {
           block: 'compressium:cobblestone_7',

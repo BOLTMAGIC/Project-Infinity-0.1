@@ -194,25 +194,37 @@ MMEvents.createProcesses((event) => {
 
   createRecipe2(
     event,
-    [{ item: 'mysticalagriculture:fire_essence', count: 40 }],
+    [
+      { item: 'mysticalagriculture:fire_essence', count: 40 },
+      { item: 'minecraft:iron_ingot', count: 1 },
+    ],
     'kubejs:fire_ingot',
     1
   );
   createRecipe2(
     event,
-    [{ item: 'mysticalagriculture:air_essence', count: 40 }],
+    [
+      { item: 'mysticalagriculture:air_essence', count: 40 },
+      { item: 'minecraft:iron_ingot', count: 1 },
+    ],
     'kubejs:air_ingot',
     1
   );
   createRecipe2(
     event,
-    [{ item: 'mysticalagriculture:water_essence', count: 40 }],
+    [
+      { item: 'mysticalagriculture:water_essence', count: 40 },
+      { item: 'minecraft:iron_ingot', count: 1 },
+    ],
     'kubejs:water_ingot',
     1
   );
   createRecipe2(
     event,
-    [{ item: 'mysticalagriculture:earth_essence', count: 40 }],
+    [
+      { item: 'mysticalagriculture:earth_essence', count: 40 },
+      { item: 'minecraft:iron_ingot', count: 1 },
+    ],
     'kubejs:earth_ingot',
     1
   );

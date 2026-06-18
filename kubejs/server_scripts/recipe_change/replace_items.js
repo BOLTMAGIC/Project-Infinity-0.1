@@ -201,6 +201,11 @@ ServerEvents.recipes((event) => {
     'extendedcrafting:legendary_table'
   );
   event.replaceInput(
+    { input: 'armorplus:compressed_obsidian' },
+    'armorplus:compressed_obsidian',
+    'compressium:obsidian_1'
+  );
+  event.replaceInput(
     { output: 'industrialforegoing:supreme_black_hole_tank' },
     'minecraft:bucket',
     'industrialforegoing:advanced_black_hole_tank'

@@ -1,3 +1,34 @@
+%#red%**Version 0.0.50.1**%#%
+- Mod INFO:
+  - mods getting removed in 0.0.51.0:
+    - YTones (its discontinued, replaced with BetterBlockZ)
+    - Tinkers Construct and all addons
+    - Extreme/ Big Reactors
+    - Chemlib and Alchemistry
+    - Occultism
+    - Mekanism Advanced Generators
+---
+- Recipe changes and fixes:
+  - fixed Creative ME Cell and Creative Vending Upgrade recipes (thx to iceanfire)
+  - added tooltips for Inf 10, 10.1 and 10.2
+  - changed values for inf 11 block to inf 11 ingot
+  - fixed FancyMenu start (thx to MiniMaxi)
+  - fixed "Just a Tree starter island" (thx to MiniMaxi)
+  - fixed Inf 5 recipe. replaced iron ingot with copper and copper with silver (thx to RafaTimTim)
+  - added a new compressed warden_tendril item. and a new recipe to craft a block of sculk
+  - removed unused recipes from obsidian ArmorPlus mod
+  - fixed blood assembler block haveing 2 recipes
+  - fixed fire ingot recipe
+  - Add tooltip to sanguine_networks:virtual_sacrificer (thx to MiniMaxi)
+---
+- Mod changes and fixes:
+  - fixed a crash in AppliedE TPS Fork
+  - fixed EMC overflow
+  - Botanical Machinery Extra Mana Infuser fix
+  - MM removed the background. its the default JEI number again
+---
+---
+---
 %#red%**Version 0.0.50.0**%#%
 ---
 - Mod Info:
@@ -117,6 +148,7 @@
   - changed recipe for Long-tier creative storage cell
     - removed recipe for devourer of cosmic silence
   - changed recipes for Packaged Crafter Tables to use the normal tables and not the Auto tables
+  - added Antimatter Protomolecular Transmutator Mekanism Tier 3 (APT) in MBTool
 ---
 - Mod changes and fixes:
   - Void Miner Rubetine will tell you that it does not accept any modifiers
@@ -163,55 +195,3 @@ Mod Info:
   - Disabled all time crystal recipe for now. 
   - Remove cyclic:crusher
   - Lower Alloyer Singularity prices
----
----
----
-%#red%**Version 0.0.49.2**%#%
----
-Mod Info:
-- Updated some mods
----
-- Mods added:
-  - Calm the Leaks (and the lib Extra Special Core)
-  - Xenon (thx to Hocok-of-Chaos)
-  - PackagedExExExCrafting (my mod)
-  - ImmediatelyFast (thx to Hocok-of-Chaos)
-  - Radium Reforged (thx to Hocok-of-Chaos)
----
-- Mods removed:
-  - MemGuard
-  - Canary (thx to Hocok-of-Chaos)
-  - MixinTrace Reborn
-  - Cobweb (not used Lib)
-  - Embeddium (thx to Hocok-of-Chaos)
-  - Chloride (thx to Hocok-of-Chaos)
----
-- Mods getting in 0.0.50.0:
-  - Just Dire Things
----
-- Mods maybe getting removed:
-  - Occultism
-  - Chemlib and Alchemistry
-  - Extreme/ Big Reactors
----
-- Mods getting removed in 0.0.50.0:
-  - Incendium
-    - %#yellow%This will make the Nether inaccesible the first time you load your world, just exit it and load it again%#%
-  - Compact Expansion
----
-- Mods getting removed in 0.0.51.0:
-  - YTones (its discontinued, replaced with BetterBlockZ)
----
-- Recipe changes and fixes:
-  - Re-enabled Mana Enchanter from Botania
-  - Fixed ATM ores not dropping anything
-  - Fixed creative item cell again
-  - Re-added gateway recipes (sorry for this)
-  - Re-added chisel blocks smelting recipes
-  - Added PneumaticCraft Questline (thx to KYO297 for creating this one. Thank you!)
-  - Changed plastic seed recipe
-  - Changed T3 recipes (thx to codename_cat)
-  - Added new NuclearCraft Fission Reactor Multiblock to the MBtool (thx to pls)
----
-- Mod changes and fixes:
-  - Fixed dupe in Extended Crafting

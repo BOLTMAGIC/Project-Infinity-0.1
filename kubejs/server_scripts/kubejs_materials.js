@@ -219,6 +219,14 @@ ServerEvents.recipes((event) => {
     'kubejs:earth_ingot',
   ]);
 
+  create3x3same(event, 'kubejs:compressed_warden_tendril', [
+    'apotheosis:warden_tendril',
+  ]);
+
+  shapeless(event, '9x apotheosis:warden_tendril', [
+    'kubejs:compressed_warden_tendril',
+  ]);
+
   create3x3(event, 'kubejs:bunny_steel_ingot', [
     'minecraft:air',
     'minecraft:rabbit_hide',

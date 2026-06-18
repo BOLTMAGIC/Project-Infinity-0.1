@@ -57,6 +57,10 @@ ItemEvents.tooltip((event) => {
   event.add('kubejs:infinity_9', Text.translate('tooltip.kubejs.infinity_9_1'));
   event.add('kubejs:infinity_9', Text.translate('tooltip.kubejs.infinity_9_2'));
 
+  event.add('kubejs:infinity_10_block', Text.translate('tooltip.kubejs.infinity_10'));
+  event.add('kubejs:infinity_10_1_block', Text.translate('tooltip.kubejs.infinity_10_1'));
+  event.add('kubejs:infinity_10_2_block', Text.translate('tooltip.kubejs.infinity_10_2'));
+
   // --- Master Machinery Ports Tooltips ---
 
   // Item Ports

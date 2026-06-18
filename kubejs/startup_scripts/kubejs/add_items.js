@@ -99,6 +99,12 @@ StartupEvents.registry('item', (e) => {
     .maxStackSize(64)
     .texture('kubejs:item/blaze_heart');
 
+  e.create('compressed_warden_tendril')
+    .tag('kubejs:compressed_warden_tendril')
+    .displayName('Compressed Warden Tendril')
+    .maxStackSize(64)
+    .texture('kubejs:item/compressed_warden_tendril');
+
   //#region infinity 1-12 items
   e.create('infinity_1')
     .tag('forge:ingots/infinity_1')

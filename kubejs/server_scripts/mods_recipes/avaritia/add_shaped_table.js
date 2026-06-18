@@ -27,6 +27,34 @@ ServerEvents.recipes((event) => {
     })
     .id('kubejs:sculk_alloy_ingot');
 
+  //sculk_alloy_block
+  event
+    .custom({
+      type: 'avaritia:shaped_table',
+      category: 'misc',
+      key: {
+        A: {
+          item: 'compressium:obsidian_1',
+        },
+        B: {
+          item: 'minecraft:sculk',
+        },
+        C: {
+          item: 'minecraft:iron_block',
+        },
+        D: {
+          item: 'kubejs:compressed_warden_tendril',
+        },
+      },
+      pattern: [' A ', 'BCB', ' D '],
+      result: {
+        item: 'kubejs:sculk_alloy_block',
+      },
+      show_notification: true,
+      tier: 1,
+    })
+    .id('kubejs:sculk_alloy_block');
+
   //densest_neutron_collector
   event.custom({
     type: 'avaritia:shaped_table',

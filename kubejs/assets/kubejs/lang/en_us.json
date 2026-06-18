@@ -1,5 +1,5 @@
 {
-  "project_infinity_01.version": "0.0.50.0",
+  "project_infinity_01.version": "0.0.50.1",
   "item.kubejs.zahraanite": "Zahraanite",
   "item.kubejs.ultimate_gem": "§dUltimate Gem",
   "item.kubejs.ultimate_prediction": "§dUltimate Prediction",
@@ -224,7 +224,11 @@
   "tooltip.kubejs.texture_credit": "Texture is from %s. Thank you a lot!",
   "tooltip.kubejs.infinity_9_1": "You need 8 Infinity Blocks to Research me!",
   "tooltip.kubejs.infinity_9_2": "Hold G on the research station to check Computation values!",
-  
+
+  "tooltip.kubejs.infinity_10": "Place me in the Overworld next to a Tier 2 (or better) Goo and wait.",
+  "tooltip.kubejs.infinity_10_1": "Place me in the Nether next to a Tier 3 (or better) Goo and wait.",
+  "tooltip.kubejs.infinity_10_2": "Place me in the End next to a Tier 4 Goo and wait.",
+    
   "tooltip.mm.item_port": "Inventory Size: %s = %s Slots",
   "tooltip.mm.item_port_1": "Inventory Size: 1x1 = 1 Slot",
   "tooltip.mm.item_port2": "Items per Slot: %s",

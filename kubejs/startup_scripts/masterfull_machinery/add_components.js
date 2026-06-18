@@ -60,7 +60,7 @@ MMEvents.registerPorts((event) => {
   port('Colossal Item Port', 'mm:controller', 1, [6, 8], 7);
   port('Titanic Item Port', 'mm:controller', 1, [8, 12], 8);
 
-  // Fluid Ports (NORMAL line fixed)
+  // Fluid Ports
   port('Small Fluid Port', 'mm:controller', 2, [1, 1, 640000], 1);
   port('Normal Fluid Port', 'mm:controller', 2, [1, 1, 2560000], 2);
   port('Big Fluid Port', 'mm:controller', 2, [1, 1, 10240000], 3);

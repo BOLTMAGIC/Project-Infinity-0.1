@@ -137,7 +137,7 @@ ServerEvents.recipes((event) => {
           nbt: "{mekData:{EnergyContainers:[{Container:0b,stored:'18446744073709551615.9999'}]}}",
         },
         l: {
-          item: 'extendedae_plus:infinity_biginteger_cell',
+          item: 'ae2omnicells:creative_ae_cell_long',
         },
         o: {
           item: 'voidminers:solar_ultimate_block',

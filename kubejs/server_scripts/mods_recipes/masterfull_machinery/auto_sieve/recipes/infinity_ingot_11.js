@@ -9,7 +9,7 @@ MMEvents.createProcesses((event) => {
       ingredient: {
         type: 'mm:item',
         item: 'kubejs:unfiltered_infinity_11_block',
-        count: 4,
+        count: 1,
       },
     })
     .input({
@@ -24,7 +24,7 @@ MMEvents.createProcesses((event) => {
       ingredient: {
         type: 'mm:item',
         item: 'kubejs:infinity_11',
-        count: 4,
+        count: 1,
       },
     });
 
@@ -37,7 +37,7 @@ MMEvents.createProcesses((event) => {
       ingredient: {
         type: 'mm:item',
         item: 'kubejs:unfiltered_infinity_11_block',
-        count: 16,
+        count: 4,
       },
     })
     .input({
@@ -52,7 +52,7 @@ MMEvents.createProcesses((event) => {
       ingredient: {
         type: 'mm:item',
         item: 'kubejs:infinity_11',
-        count: 16,
+        count: 4,
       },
     });
 
@@ -65,7 +65,7 @@ MMEvents.createProcesses((event) => {
       ingredient: {
         type: 'mm:item',
         item: 'kubejs:unfiltered_infinity_11_block',
-        count: 64,
+        count: 32,
       },
     })
     .input({
@@ -80,7 +80,7 @@ MMEvents.createProcesses((event) => {
       ingredient: {
         type: 'mm:item',
         item: 'kubejs:infinity_11',
-        count: 64,
+        count: 32,
       },
     });
 

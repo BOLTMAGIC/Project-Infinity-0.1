@@ -52,7 +52,7 @@ ServerEvents.recipes((event) => {
           item: 'custom_capacitors:ultimate_capacitor',
         },
         M: {
-          item: 'extendedae_plus:infinity_biginteger_cell',
+          item: 'ae2omnicells:creative_ae_cell_long',
         },
         N: {
           item: 'botanicalextramachinery:crimson_spark',

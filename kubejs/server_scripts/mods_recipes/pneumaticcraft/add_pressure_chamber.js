@@ -3,7 +3,7 @@ ServerEvents.recipes((event) => {
   let recipeCounter = new Map();
 
   // Make unique IDs for recipes by appending a counter if the base ID has already been used
-  function getUniqueId(baseId) {
+  function getUniqueId (baseId) {
     if (!recipeCounter.has(baseId)) {
       recipeCounter.set(baseId, 0);
       return baseId;
@@ -14,7 +14,7 @@ ServerEvents.recipes((event) => {
   }
 
   // For recipes with only one type of ingredient up to 64
-  function pressureChamberSimple(
+  function pressureChamberSimple (
     event,
     input_item,
     input_count,
@@ -51,7 +51,7 @@ ServerEvents.recipes((event) => {
   }
 
   // For recipes that require multiple ingredients / multiple stacks of the same ingredient
-  function pressureChamberMultiple(
+  function pressureChamberMultiple (
     event,
     inputs,
     output_item,
@@ -89,7 +89,7 @@ ServerEvents.recipes((event) => {
   pressureChamberMultiple(
     event,
     [
-      { count: 1, item: 'minecraft:iron_ingot' },
+      { count: 1, item: 'minecraft:copper_ingot' },
       { count: 3, item: 'kubejs:infinity_4' },
     ],
     'kubejs:infinity_5',
@@ -98,7 +98,7 @@ ServerEvents.recipes((event) => {
   pressureChamberMultiple(
     event,
     [
-      { count: 1, item: 'minecraft:copper_ingot' },
+      { count: 1, item: 'thermal:silver_ingot' },
       { count: 15, item: 'kubejs:infinity_4' },
     ],
     'kubejs:infinity_5',

@@ -39,3 +39,4 @@ kubejs/jsconfig.json
 .idea/
 config/fancymenu/user_variables.db
 /options.txt
+config/AppliedeE/emc_cache.tsv

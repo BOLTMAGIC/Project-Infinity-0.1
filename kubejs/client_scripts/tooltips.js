@@ -591,4 +591,9 @@ ItemEvents.tooltip((event) => {
       );
     }
   );
+
+  event.add(
+    ['sanguine_networks:virtual_sacrificer'],
+    Text.translate('tooltip.sanguine_networks.virtual_sacrificer').green()
+  );
 });

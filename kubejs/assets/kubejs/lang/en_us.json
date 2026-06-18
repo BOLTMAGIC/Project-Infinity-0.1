@@ -302,5 +302,6 @@
   "tooltip.kubejs.extra_data_model_uncrafter_2": "you will get back every Self Aware Data Models that were in the Extra Data Model.",
   "tooltip.kubejs.extra_data_model_uncrafter_3": "Crafting recipes shows Extra Data Models with errors, don't worry, it will work as expected.",
   
-  "tooltip.outer_end.ancient_ice": "Find me in the Primordial Pools biome"
+  "tooltip.outer_end.ancient_ice": "Find me in the Primordial Pools biome",
+  "tooltip.sanguine_networks.virtual_sacrificer": "Link me to a Blood Altar using the Wrench from the same Mod."
 }

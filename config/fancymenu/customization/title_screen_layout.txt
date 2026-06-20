@@ -916,7 +916,8 @@ element {
 }
 
 element {
-  source_mode = vanilla
+  source = Your pain is our business !
+  source_mode = direct
   shadow = true
   refresh = false
   bouncing = true

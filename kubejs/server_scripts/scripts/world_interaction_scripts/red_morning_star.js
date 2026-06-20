@@ -37,7 +37,7 @@ BlockEvents.broken(
 BlockEvents.rightClicked('projecte:rm_morning_star', event => {
   const { player, item } = event;
 
-  if (player.persistentData['red_morningstar_aoe_disabled'] == false) return;
+  if (player.persistentData['project_e_aoe_disabled'] == false) return;
 
   if (
     item.nbt && item.nbt.Charge &&
@@ -45,7 +45,7 @@ BlockEvents.rightClicked('projecte:rm_morning_star', event => {
     {
     player.tell(
       Text.red(
-        'Red Morningstar AOE is disabled, do /red_morningstar_aoe to enable'
+        'Red Morningstar AOE is disabled, do /project_e_aoe to enable'
       )
     );
     event.cancel();

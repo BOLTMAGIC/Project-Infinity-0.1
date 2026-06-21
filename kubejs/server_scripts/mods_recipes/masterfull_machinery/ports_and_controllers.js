@@ -660,6 +660,18 @@ ServerEvents.recipes((event) => {
     'thermal:redstone_servo',
   ]);
 
+  create3x3(event, 'mm:fire_attuned_controller', [
+    'thermal:redstone_servo',
+    'justdirethings:celestigem',
+    'thermal:rf_coil',
+    'common_ore_library:cobalt_block',
+    'botania:manasteel_ingot',
+    'common_ore_library:cobalt_block',
+    'thermal:rf_coil',
+    'powah:crystal_nitro',
+    'thermal:redstone_servo',
+  ]);
+
   create3x3(event, 'mm:mechanical_empowerer_controller', [
     'thermal:redstone_servo',
     'actuallyadditions:empowered_emeradic_crystal_block',

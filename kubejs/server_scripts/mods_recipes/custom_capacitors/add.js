@@ -23,6 +23,18 @@ ServerEvents.recipes((event) => {
     'tconstruct:manyullyn_ingot',
   ]);
 
+  create3x3(event, 'custom_capacitors:cobalt_capacitor', [
+    'common_ore_library:manyullyn_ingot',
+    'industrialforegoing:pink_slime_ingot',
+    'ae2omnicells:charged_ender_ingot',
+    'justdirethings:blazegold_ingot',
+    'custom_capacitors:ender_capacitor',
+    'justdirethings:blazegold_ingot',
+    'common_ore_library:manyullyn_ingot',
+    'industrialforegoing:pink_slime_ingot',
+    'ae2omnicells:charged_ender_ingot',
+  ]);
+
   create3x3(event, 'custom_capacitors:precision_capacitor', [
     'mekanism_extras:alloy_shining',
     'bigreactors:ludicrite_ingot',
@@ -32,6 +44,18 @@ ServerEvents.recipes((event) => {
     'bigreactors:ludicrite_ingot',
     'custom_capacitors:cobalt_capacitor',
     'bigreactors:ludicrite_ingot',
+    'custom_capacitors:cobalt_capacitor',
+  ]);
+
+  create3x3(event, 'custom_capacitors:precision_capacitor', [
+    'mekanism_extras:alloy_shining',
+    'ifeu:empty_nether_star',
+    'evolvedmekanism:alloy_singular',
+    'ifeu:empty_nether_star',
+    'nuclearcraft:tough_alloy_ingot',
+    'ifeu:empty_nether_star',
+    'custom_capacitors:cobalt_capacitor',
+    'ifeu:empty_nether_star',
     'custom_capacitors:cobalt_capacitor',
   ]);
 

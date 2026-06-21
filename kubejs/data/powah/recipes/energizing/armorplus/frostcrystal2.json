@@ -1,0 +1,15 @@
+{
+    "type": "powah:energizing",
+    "ingredients": [
+        { "item": "armorplus:en_diamond" },
+        { "item": "minecraft:lapis_lazuli" },
+        { "item": "ae2omnicells:charged_ender_ingot" },
+        { "item": "common_ore_library:platinum_ingot" },
+        { "item": "minecraft:water_bucket" }
+    ],
+    "energy": 50000,
+    "result": {
+        "item": "armorplus:frost_crystal",
+        "count": 1
+    }
+}

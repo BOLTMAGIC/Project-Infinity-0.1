@@ -72,6 +72,8 @@ ServerEvents.recipes((event) => {
     'rose_quartz',
     'black_diamond',
     'white_diamond',
+    'ruby',
+    'sapphire'
   ];
 
   const endgame = [
@@ -110,9 +112,9 @@ ServerEvents.recipes((event) => {
   for (let tier = 7; tier <= 8; tier++) {
     voidminerBatch2(3, tier, endOres, 2.5);
   }
-  voidminerBatch2(1, 9, ['allthemodium:allthemodium_ore'], 0.02);
-  voidminerBatch2(2, 9, ['allthemodium:vibranium_ore'], 0.011);
-  voidminerBatch2(3, 9, ['allthemodium:unobtainium_ore'], 0.25);
+  voidminerBatch2(1, 9, ['allthemodium:allthemodium_ore'], 0.005);
+  voidminerBatch2(2, 9, ['allthemodium:vibranium_ore'], 0.00325);
+  voidminerBatch2(3, 9, ['allthemodium:unobtainium_ore'], 0.0625);
   voidminerBatch2(3, 9, ['minecraft:coal'], 999.0);
   voidminerBatch2(3, 8, ['voidminers:ultimate_stellar_core'], 0.5);
   endgame.forEach((item) => {

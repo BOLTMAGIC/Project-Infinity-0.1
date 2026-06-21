@@ -7,6 +7,15 @@ gateway change. players need to kill not masher
 LUMINOUS (Overworld/ Nether/ Beasts) and Mekanism FuryBorn in the Artifacts
 ----------
 changelog v. 0.0.50.1
+Mod Info:
+- Updated some mods
+----------
+Mods added:
+- 
+----------
+Mods removed:
+- 
+----------
 Mod INFO:
 -mods getting removed in 0.0.51.0:
     -YTones (its discontinued, replaced with BetterBlockZ)
@@ -17,23 +26,15 @@ Mod INFO:
     -Mekanism Advanced Generators
 ----------
 Recipe changes and fixes:
-- fixed Creative ME Cell and Creative Vending Upgrade recipes (thx to iceanfire)
-- added tooltips for Inf 10, 10.1 and 10.2
-- changed values for inf 11 block to inf 11 ingot
-- fixed FancyMenu start (thx to MiniMaxi)
-- fixed "Just a Tree starter island" (thx to MiniMaxi)
-- fixed Inf 5 recipe. replaced iron ingot with copper and copper with silver (thx to RafaTimTim)
-- added a new compressed warden_tendril item. and a new recipe to craft a block of sculk
-- removed unused recipes from obsidian ArmorPlus mod
-- fixed blood assembler block haveing 2 recipes
-- fixed fire ingot recipe
-- Add tooltip to sanguine_networks:virtual_sacrificer (thx to MiniMaxi)
+- changed ATM ores in Void miners from 0.025 --> 0.00625% (thx to nodont)
+- fixed resource foundry netherite ingot recipe
+- fixed ATM ore spawning again
+- grouped the Structures in the MultiBuilder Tool
+- added some alternative recipes for Occultism, Tinkers and Big Reactors
 ----------
 Mod changes and fixes:
-- fixed a crash in AppliedE TPS Fork
-- fixed EMC overflow
-- Botanical Machinery Extra Mana Infuser fix
-- MM removed the background. its the default JEI number again
+- VoidMiners fix for TPS
+- added Project Infinity Chinese Translation Resource pack (thx to cat813)
 ----------
 known bugs:
 -polymorph (changing the output for mod conflicts) is not possible with tinkers crafting station

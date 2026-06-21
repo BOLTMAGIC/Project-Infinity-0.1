@@ -132,6 +132,51 @@ MMEvents.createProcesses((event) => {
       },
     });
 
+  //chaos_shard2 NEW RECIPE
+  event
+    .create('mm:infinity_crucible_recipe2_new')
+    .structureId('mm:infinity_crucible_structure')
+    .ticks(1)
+    .input({
+      type: 'mm:input/consume',
+      ingredient: {
+        type: 'mm:mekanism/gas',
+        gas: 'mekanism:antimatter',
+        amount: 25,
+      },
+    })
+    .input({
+      type: 'mm:input/consume',
+      ingredient: {
+        type: 'mm:item',
+        item: 'kubejs:chaos_guardian_prediction',
+        count: 16,
+      },
+    })
+    .input({
+      type: 'mm:input/consume',
+      ingredient: {
+        type: 'mm:item',
+        item: 'nuclearcraft:thermoconducting_ingot',
+        count: 1,
+      },
+    })
+    .input({
+      type: 'mm:input/consume',
+      ingredient: {
+        type: 'mm:energy',
+        amount: 20000000,
+      },
+    })
+    .output({
+      type: 'mm:output/simple',
+      ingredient: {
+        type: 'mm:item',
+        item: 'draconicevolution:small_chaos_frag',
+        count: 24,
+      },
+    });
+
   //draconium_ingot
   event
     .create('mm:infinity_crucible_recipe3')

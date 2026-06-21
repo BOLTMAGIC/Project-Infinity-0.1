@@ -140,6 +140,18 @@ ServerEvents.recipes((event) => {
     'pneumaticcraft:plastic',
   ]);
 
+  shapeless(event, 'kubejs:infinity_1', [
+    'botania:terrasteel_ingot',
+    'extendedcrafting:black_iron_ingot',
+    'nuclearcraft:neutronium_ingot',
+    'draconicevolution:awakened_core',
+    'enderio:end_steel_ingot',
+    'mysticalagriculture:awakened_supremium_ingot',
+    'justdirethings:eclipsealloy_ingot',
+    'cataclysm:ignitium_ingot',
+    'pneumaticcraft:plastic',
+  ]);
+
   shapeless(
     event,
     'compactmekanismmachines:compressed_wind_generator_x532480',

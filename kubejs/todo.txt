@@ -30,7 +30,7 @@ Recipe changes and fixes:
 - fixed resource foundry netherite ingot recipe
 - fixed ATM ore spawning again
 - grouped the Structures in the MultiBuilder Tool
- -
+- added some alternative recipes for Occultism, Tinkers and Big Reactors
 ----------
 Mod changes and fixes:
 - VoidMiners fix for TPS

@@ -15,11 +15,11 @@
   - fixed FancyMenu start (thx to MiniMaxi)
   - fixed "Just a Tree starter island" (thx to MiniMaxi)
   - fixed Inf 5 recipe. replaced iron ingot with copper and copper with silver (thx to RafaTimTim)
-  - added a new compressed warden_tendril item. and a new recipe to craft a block of sculk
+  - added a new compressed warden tendril item. and a new recipe to craft a block of sculk
   - removed unused recipes from obsidian ArmorPlus mod
   - fixed blood assembler block haveing 2 recipes
   - fixed fire ingot recipe
-  - Add tooltip to sanguine_networks:virtual_sacrificer (thx to MiniMaxi)
+  - Add tooltip to sanguine networks:virtual sacrificer (thx to MiniMaxi)
 ---
 - Mod changes and fixes:
   - fixed a crash in AppliedE TPS Fork
@@ -67,15 +67,15 @@
   - added a JustDireThings Questline
   - added recipe for Blood Generator (Tier 6 Table. Dont hate me)
   - added recipe for BMAddon items
-  - changed recipe for logisticsnetworks:mekanism_chemical_upgrade
-  - changed creative_chemical_tank recipe to use a full tank and not the half
+  - changed recipe for logisticsnetworks:mekanism chemical upgrade
+  - changed creative chemical tank recipe to use a full tank and not the half
   - added ATM ores to the ultimate miner (void miner) with a 0.025%
   - small Botanical Machinery quest tooltip change (thx to ratnu)
   - changed some energy values for mekanism machines
-  - changed upgrade_module_stack recipe to use infinity 7 and not 12
+  - changed upgrade module stack recipe to use infinity 7 and not 12
   - TigerChin said the Gas Burning Generator is unnerfed. I changed it and nerfed it all the way (hate him not me)
   - added mekanism 18x18 boiler to MBTool
-  - changed recipe for catalyst_mana_infinity
+  - changed recipe for catalyst mana infinity
   - added slimeball into earthslime in a Nuclearcraft melter
   - added mekanism fluorite gem to sieve and auto sieve
   - removed data models:
@@ -102,29 +102,29 @@
   - charcoal and covalence dust got EMC (thx to Jason)
   - reorganized and added descriptions to functional storage quests (thx to Aquadin)
   - fix and improve Woot Quests (thx to SoyWater)
-  - philosophers_stone got EMC value (thx to Jason)
+  - philosophers stone got EMC value (thx to Jason)
   - changed some values for fire attuned T1 recipes (thx to ratnu)
-  - added new recipe for liquid_sculk_matter (thx to Jason)
-  - added recipe for compact_industrial_turbine (generating 83MFE/t at max)
+  - added new recipe for liquid sculk matter (thx to Jason)
+  - added recipe for compact industrial turbine (generating 83MFE/t at max)
   - added Masterful Machinery quests (thx to Aquadin)
   - Coal, Coal Blocks and Nether starts are not getting
-  - removed awakened_supremium_essence recipe from the multi compactor (thx to RxDnz)
-  - changed dragonsteel recipe netherite scrap to 'common_ore_library:scrap_dust'
+  - removed awakened supremium essence recipe from the multi compactor (thx to RxDnz)
+  - changed dragonsteel recipe netherite scrap to 'common ore library:scrap dust'
   - changed enderium ingot recipe from diamond dust to diamond gem
   - removed magma anvil recipe
   - fixed abyssal ingot not working in the alloyer (thx to Reninsane)
   - changed chaos guradian data model to need 1; 25000; 30000 and 32767 data for level up.
-  - changed wireless_transceiver recipe
-  - add projecte:rm_morning_star AOE blacklist, also add a command to disable AOE completely per player (thx to MiniMaxi)
+  - changed wireless transceiver recipe
+  - add projecte:rm morning star AOE blacklist, also add a command to disable AOE completely per player (thx to MiniMaxi)
   - added a extra data model uncrafter (thx to MiniMaxi) (use the model on a grindstone)
   - added tooltip for ancient ice (thx to MiniMaxi)
   - changed naquadah ore weight from 1 to 2
   - fixed harbinger gateway
   - added a tooltip for Inf 9 research in GuideMe (thx to grinchfan22)
-  - added draconium_ore to the ultimate miner with 1.0 weight
+  - added draconium ore to the ultimate miner with 1.0 weight
   - changed spawnchace for ATM ores. use crafting recipes
-  - changed recipe for repair_talisman and soulstone
-  - cant enchant ae2:annihilation_plane anymore
+  - changed recipe for repair talisman and soulstone
+  - cant enchant ae2:annihilation plane anymore
   - added pressure chamber to Multibuilder tool
   - added a new multiblock 
     - resource foundry
@@ -137,13 +137,13 @@
   - Masterful Machinery Controller recipes dont need elementium anymore. they need manasteel
   - added a endgame item to get 300k draconium ingots inside the infinity crucible
   - changed NCN 5x5 reactor in the MBTool
-  - added recipe for soulstone_cobble (thx to Jason)
+  - added recipe for soulstone cobble (thx to Jason)
   - reshuffled the FancyMenu Homescreen (big thanks to MiniMaxi!!!)
   - changed infinity block computation power from 40 to 52
     - means you need 8 infinity blocks for the infinity 9 research
-  - changed all multiblocks to use ae2:quartz_glass and not tconstruct:clear_glass
+  - changed all multiblocks to use ae2:quartz glass and not tconstruct:clear glass
   - disabled YTones recipes!
-  - /eap give_infinity_disks is disabled because buggy!
+  - /eap give infinity disks is disabled because buggy!
   - re-added compact machines large, giant, maximum (thx to grinchfan22)
   - changed recipe for Long-tier creative storage cell
     - removed recipe for devourer of cosmic silence
@@ -152,7 +152,7 @@
 ---
 - Mod changes and fixes:
   - Void Miner Rubetine will tell you that it does not accept any modifiers
-  - Changed Voidminer JEI Tab (if you are colorblind enable the config in void-miner.json5 "COLOR_BLIND_PERCENT")
+  - Changed Voidminer JEI Tab (if you are colorblind enable the config in void-miner.json5 "COLOR BLIND PERCENT")
   - for Masterful Machinery multiblocks you can place any port on any other port place
   - Masterful Machinery dynamiclly changes the height for the MM Structure JEI Tab
   - EvolvedMekanism tier installer works for alloyer machines

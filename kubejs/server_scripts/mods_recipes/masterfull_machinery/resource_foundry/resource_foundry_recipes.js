@@ -2012,7 +2012,7 @@ MMEvents.createProcesses(function (event) {
   // Large gem/metal conversions (9 -> 1)
   createRFProcess({ outputId: 'mm:diamond_from_diamond_essence', outputItem: 'minecraft:diamond', outputCount: 1, inputs: [ { type: 'mm:item', item: 'mysticalagriculture:diamond_essence', count: 9 } ] });
   createRFProcess({ outputId: 'mm:emerald_from_emerald_essence', outputItem: 'minecraft:emerald', outputCount: 1, inputs: [ { type: 'mm:item', item: 'mysticalagriculture:emerald_essence', count: 9 } ] });
-  createRFProcess({ outputId: 'mm:netherite_from_netherite_essence', outputItem: 'minecraft:netherite_scrap', outputCount: 1, inputs: [ { type: 'mm:item', item: 'mysticalagriculture:netherite_essence', count: 8 } ] });
+  createRFProcess({ outputId: 'mm:netherite_from_netherite_essence', outputItem: 'minecraft:netherite_ingot', outputCount: 1, inputs: [ { type: 'mm:item', item: 'mysticalagriculture:netherite_essence', count: 8 } ] });
 
   // Wither skull
   createRFProcess({

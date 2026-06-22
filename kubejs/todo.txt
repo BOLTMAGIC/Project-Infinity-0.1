@@ -6,24 +6,18 @@ rf tools recipes
 gateway change. players need to kill not masher
 LUMINOUS (Overworld/ Nether/ Beasts) and Mekanism FuryBorn in the Artifacts
 ----------
-changelog v. 0.0.50.1
+changelog v. 0.0.50.2
 Mod Info:
 - Updated some mods
 ----------
-Mods added:
-- 
-----------
-Mods removed:
-- 
-----------
 Mod INFO:
--mods getting removed in 0.0.51.0:
-    -YTones (its discontinued, replaced with BetterBlockZ)
-    -Tinkers Construct and all addons
-    -Extreme/ Big Reactors
-    -Chemlib and Alchemistry
-    -Occultism
-    -Mekanism Advanced Generators
+- mods getting removed in 0.0.51.0:
+    - YTones (its discontinued, replaced with BetterBlockZ)
+    - Tinkers Construct and all addons
+    - Extreme/ Big Reactors
+    - Chemlib and Alchemistry
+    - Occultism
+    - Mekanism Advanced Generators
 ----------
 Recipe changes and fixes:
 - changed ATM ores in Void miners from 0.025 --> 0.00625% (thx to nodont)

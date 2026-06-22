@@ -1,3 +1,28 @@
+%#red%**Version 0.0.50.2**%#%
+- Mod Info:
+  - Updated some mods
+---
+- mods getting removed in 0.0.51.0:
+  - YTones (its discontinued, replaced with BetterBlockZ)
+  - Tinkers Construct and all addons
+  - Extreme/ Big Reactors
+  - Chemlib and Alchemistry
+  - Occultism
+  - Mekanism Advanced Generators
+---
+- Recipe changes and fixes:
+  - changed ATM ores in Void miners from 0.025 --> 0.00625% (thx to nodont)
+  - fixed resource foundry netherite ingot recipe
+  - fixed ATM ore spawning again
+  - grouped the Structures in the MultiBuilder Tool
+  - added some alternative recipes for Occultism, Tinkers and Big Reactors
+---
+- Mod changes and fixes:
+  - VoidMiners fix for TPS
+  - added Project Infinity Chinese Translation Resource pack (thx to cat813)
+---
+---
+---
 %#red%**Version 0.0.50.1**%#%
 - Mod INFO:
   - mods getting removed in 0.0.51.0:

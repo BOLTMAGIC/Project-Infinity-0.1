@@ -149,8 +149,10 @@ mns:bridge_6
 mns:circle_blackstone
 mns:circle_nether_brick
 mns:copper_tower
+mns:dragon_arena
 mns:giant_skull
 mns:grave_yard
+mns:large_arena
 mns:large_blackstone_pillars
 mns:large_blackstone_walls
 mns:large_nether_brick
@@ -165,11 +167,13 @@ mns:medium_house_2
 mns:medium_warped_fungus
 mns:medium_warped_fungus_2
 mns:medium_warped_well
+mns:mega_fortress
 mns:nether_tower
 mns:nether_wart_farm
 mns:ruined_portal
 mns:sandy_skull
 mns:shrine
+mns:small_arena
 mns:small_nether_brick
 mns:smoking_shrine
 mns:soul_fire

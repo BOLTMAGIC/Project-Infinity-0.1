@@ -192,7 +192,7 @@ ServerEvents.recipes((event) => {
 });
 
 ServerEvents.recipes((event) => {
-  //Creative Fluid Tank
+  //Creative Fluid Tank NEW RECIPE
   event
     .custom({
       type: 'extendedcrafting:shaped_table',
@@ -382,5 +382,5 @@ ServerEvents.recipes((event) => {
         item: 'mekanism:creative_fluid_tank',
       },
     })
-    .id('mekanism:creative_fluid_tank2');
+    .id('mekanism:creative_fluid_tank_new');
 });

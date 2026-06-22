@@ -6,12 +6,11 @@ rf tools recipes
 gateway change. players need to kill not masher
 LUMINOUS (Overworld/ Nether/ Beasts) and Mekanism FuryBorn in the Artifacts
 ----------
-changelog v. 0.0.50.2
+changelog v. 0.0.51.0
 Mod Info:
-- Updated some mods
+- 
 ----------
-Mod INFO:
-- mods getting removed in 0.0.51.0:
+- MODS REMOVED:
     - YTones (its discontinued, replaced with BetterBlockZ)
     - Tinkers Construct and all addons
     - Extreme/ Big Reactors
@@ -20,15 +19,11 @@ Mod INFO:
     - Mekanism Advanced Generators
 ----------
 Recipe changes and fixes:
-- changed ATM ores in Void miners from 0.025 --> 0.00625% (thx to nodont)
-- fixed resource foundry netherite ingot recipe
-- fixed ATM ore spawning again
-- grouped the Structures in the MultiBuilder Tool
-- added some alternative recipes for Occultism, Tinkers and Big Reactors
+- changed the drop rate of insanium essence from the wither (Thx to cervantes666)
+- 
 ----------
 Mod changes and fixes:
-- VoidMiners fix for TPS
-- added Project Infinity Chinese Translation Resource pack (thx to cat813)
+- 
 ----------
 known bugs:
 -polymorph (changing the output for mod conflicts) is not possible with tinkers crafting station

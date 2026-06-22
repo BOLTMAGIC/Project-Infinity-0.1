@@ -1,10 +1,10 @@
-let bronze_coin = LootEntry.of("kubejs:apotheotic_coin").when((c) =>
+let bronze_coin = LootEntry.of('kubejs:apotheotic_coin').when((c) =>
   c.randomChance(0.0025)
 );
 let silver_coin = LootEntry.of('kubejs:infused_coin').when((c) =>
   c.randomChance(0.00025)
 );
-let gold_coin = LootEntry.of("kubejs:ascended_coin").when((c) =>
+let gold_coin = LootEntry.of('kubejs:ascended_coin').when((c) =>
   c.randomChance(0.000001)
 );
 
@@ -14,8 +14,18 @@ LootJS.modifiers((event) => {
     .matchEntity((entity) => {
       entity.isMonster(true);
     })
-    .killedByPlayer() 
+    .killedByPlayer()
     .addLoot([bronze_coin, silver_coin, gold_coin]);
+});
+
+LootJS.modifiers((event) => {
+  event
+    .addEntityLootModifier('minecraft:wither')
+    .removeLoot('mysticalagradditions:insanium_essence')
+    .addWeightedLoot(
+      [0, 1],
+      [Item.of('mysticalagradditions:insanium_essence').withChance(10)]
+    );
 });
 
 LootJS.modifiers((event) => {
@@ -48,7 +58,7 @@ LootJS.modifiers((event) => {
 LootJS.modifiers((event) => {
   event
     .addLootTypeModifier(LootType.ENTITY)
-    .anyDimension("minecraft:overworld")
+    .anyDimension('minecraft:overworld')
     .randomChance(0.01)
     .addLoot('bosses_of_mass_destruction:soul_star');
 });
@@ -60,8 +70,8 @@ LootJS.modifiers((event) => {
     .when((c) =>
       c.matchMainHand(ItemFilter.hasEnchantment('minecraft:fortune'))
     );
-  const appleWhenSilkTouch = LootEntry.of("kubejs:arcmetal_ore").when((c) =>
-    c.matchMainHand(ItemFilter.hasEnchantment("minecraft:silk_touch"))
+  const appleWhenSilkTouch = LootEntry.of('kubejs:arcmetal_ore').when((c) =>
+    c.matchMainHand(ItemFilter.hasEnchantment('minecraft:silk_touch'))
   );
   const metal = 'kubejs:raw_arcmetal';
 
@@ -77,8 +87,8 @@ LootJS.modifiers((event) => {
     .when((c) =>
       c.matchMainHand(ItemFilter.hasEnchantment('minecraft:fortune'))
     );
-  const appleWhenSilkTouch = LootEntry.of("kubejs:plasteel_ore").when((c) =>
-    c.matchMainHand(ItemFilter.hasEnchantment("minecraft:silk_touch"))
+  const appleWhenSilkTouch = LootEntry.of('kubejs:plasteel_ore').when((c) =>
+    c.matchMainHand(ItemFilter.hasEnchantment('minecraft:silk_touch'))
   );
   const metal = 'kubejs:raw_plasteel';
 
@@ -94,8 +104,8 @@ LootJS.modifiers((event) => {
     .when((c) =>
       c.matchMainHand(ItemFilter.hasEnchantment('minecraft:fortune'))
     );
-  const appleWhenSilkTouch = LootEntry.of("kubejs:solarmetal_ore").when((c) =>
-    c.matchMainHand(ItemFilter.hasEnchantment("minecraft:silk_touch"))
+  const appleWhenSilkTouch = LootEntry.of('kubejs:solarmetal_ore').when((c) =>
+    c.matchMainHand(ItemFilter.hasEnchantment('minecraft:silk_touch'))
   );
   const metal = 'kubejs:raw_solarmetal';
 
@@ -111,8 +121,8 @@ LootJS.modifiers((event) => {
     .when((c) =>
       c.matchMainHand(ItemFilter.hasEnchantment('minecraft:fortune'))
     );
-  const appleWhenSilkTouch = LootEntry.of("kubejs:voidmetal_ore").when((c) =>
-    c.matchMainHand(ItemFilter.hasEnchantment("minecraft:silk_touch"))
+  const appleWhenSilkTouch = LootEntry.of('kubejs:voidmetal_ore').when((c) =>
+    c.matchMainHand(ItemFilter.hasEnchantment('minecraft:silk_touch'))
   );
   const metal = 'kubejs:raw_voidmetal';
 
@@ -129,16 +139,16 @@ LootJS.modifiers((event) => {
     .when((c) =>
       c.matchMainHand(ItemFilter.hasEnchantment('minecraft:fortune'))
     );
-  const applyWhenSilkTouch = LootEntry.of("kubejs:azure_silver_ore").when((c) =>
-    c.matchMainHand(ItemFilter.hasEnchantment("minecraft:silk_touch"))
+  const applyWhenSilkTouch = LootEntry.of('kubejs:azure_silver_ore').when((c) =>
+    c.matchMainHand(ItemFilter.hasEnchantment('minecraft:silk_touch'))
   );
   // Currently lacks a raw ore
-  const metal = "kubejs:azure_silver_ingot";
+  const metal = 'kubejs:azure_silver_ingot';
 
   event
     .addBlockLootModifier('kubejs:azure_silver_ore')
     .removeLoot(Ingredient.all)
-    .addAlternativesLoot(stickWhenFortune, applyWhenSilkTouch ,metal);
+    .addAlternativesLoot(stickWhenFortune, applyWhenSilkTouch, metal);
 });
 
 //'allthemodium:allthemodium_upgrade_smithing_template'

@@ -28,10 +28,10 @@ ServerEvents.recipes((event) => {
           item: 'integratedtunnels:part_player_simulator',
         },
         E: {
-          type: 'forge:partial_nbt',
-          item: 'solarpanels:creative_energy_tablet',
+          type: 'forge:nbt',
+          item: 'appflux:fe_256k_portable_cell',
           count: 1,
-          nbt: '{mekData:{EnergyContainers:[{Container:0b,stored:\"2000000000\"}]}}',
+          nbt: '{power:274877906944L}',
         },
         F: {
           item: 'botanicalextramachinery:shadow_ingot_block',
@@ -64,10 +64,7 @@ ServerEvents.recipes((event) => {
           item: 'integratedtunnels:part_importer_world_fluid',
         },
         P: {
-          type: 'forge:partial_nbt',
-          item: 'solarpanels:improved_energy_tablet',
-          count: 1,
-          nbt: '{mekData:{EnergyContainers:[{Container:0b,stored:\"3000000\"}]}}',
+          item: 'mekanism_extras:alloy_spectrum'
         },
         Q: {
           type: 'forge:partial_nbt',
@@ -88,10 +85,7 @@ ServerEvents.recipes((event) => {
           nbt: '{mekData:{FluidTanks:[{Tank:0b,stored:{Amount:1024000,FluidName:\"integrateddynamics:liquid_chorus\"}}]}}',
         },
         U: {
-          type: 'forge:partial_nbt',
-          item: 'solarpanels:quantum_energy_tablet',
-          count: 1,
-          nbt: '{mekData:{EnergyContainers:[{Container:0b,stored:\"9000000\"}]}}',
+          item: 'mekanism_extras:alloy_spectrum'
         },
         V: {
           item: 'botanicalextramachinery:crystal_ingot_block',

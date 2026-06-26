@@ -25,5 +25,5 @@
 
     # Which mods should be blacklisted? Items from blacklisted mods won't show the durability tooltip.
     # Allowed length: 0 ~ 100 - Default: 'tconstruct,supplementaries'
-    blackListedMods = "tconstruct,supplementaries"
+    blackListedMods = ""
 

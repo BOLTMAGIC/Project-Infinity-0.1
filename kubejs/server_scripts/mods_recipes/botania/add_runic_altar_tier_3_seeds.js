@@ -177,18 +177,6 @@ ServerEvents.recipes(function (event) {
       out: 'mysticalagriculture:ironwood_seeds',
       mats: ['twilightforest:ironwood_ingot*4'],
     },
-    {
-      out: 'mysticalagriculture:pig_iron_seeds',
-      mats: ['tconstruct:pig_iron_ingot*4'],
-    },
-    {
-      out: 'mysticalagriculture:slimesteel_seeds',
-      mats: ['tconstruct:slimesteel_ingot*4'],
-    },
-    {
-      out: 'mysticalagriculture:amethyst_bronze_seeds',
-      mats: ['tconstruct:amethyst_bronze_ingot*4'],
-    },
   ];
 
   for (var i = 0; i < seeds.length; i++) {

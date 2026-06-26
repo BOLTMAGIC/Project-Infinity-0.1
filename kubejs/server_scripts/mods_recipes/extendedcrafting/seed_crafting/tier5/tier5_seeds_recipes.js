@@ -475,14 +475,6 @@ ServerEvents.recipes((event) => {
     'mysticalagriculture:iridium_seeds',
     'common_ore_library:iridium_block',
   ]);
-  seedcraftingtier5(event, [
-    'mysticalagriculture:hepatizon_seeds',
-    'tconstruct:hepatizon_block',
-  ]);
-  seedcraftingtier5(event, [
-    'mysticalagriculture:queens_slime_seeds',
-    'tconstruct:queens_slime_block',
-  ]);
 });
 
 function seedcraftingtier5(event, input) {

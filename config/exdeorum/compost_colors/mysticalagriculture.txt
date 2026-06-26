@@ -4,8 +4,6 @@ air_essence, #f8f8f8
 air_seeds, #ffffff
 aluminum_essence, #ffffff
 aluminum_seeds, #ffffff
-amethyst_bronze_essence, #cc90c6
-amethyst_bronze_seeds, #c587bf
 amethyst_essence, #c694ff
 amethyst_seeds, #b182f7
 apatite_essence, #34a0de
@@ -149,8 +147,6 @@ grains_of_infinity_essence, #7f7f7f
 grains_of_infinity_seeds, #eaeaea
 graphite_essence, #afafb2
 graphite_seeds, #f5f5f7
-hepatizon_essence, #3c254a
-hepatizon_seeds, #341f43
 honey_agglomeratio, #ffd732
 honey_essence, #fffff2
 honey_seeds, #ffc533
@@ -258,8 +254,6 @@ passive_soulium_dagger, #2f6e30
 peridot_essence, #ddfa5c
 peridot_seeds, #ffffdc
 pig_essence, #ff9191
-pig_iron_essence, #da8489
-pig_iron_seeds, #d47f83
 pig_seeds, #ff8a8d
 platinum_essence, #89ffff
 platinum_seeds, #75f2ff
@@ -334,8 +328,6 @@ sky_stone_essence, #e0e0e0
 sky_stone_seeds, #262626
 slime_essence, #84cc79
 slime_seeds, #acf09b
-slimesteel_essence, #9be4e1
-slimesteel_seeds, #9bd7d6
 soul_dust, #6e5241
 soul_jar, #5c3e30
 soularium_essence, #ae9e91

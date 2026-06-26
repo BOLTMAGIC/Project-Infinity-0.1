@@ -23,7 +23,10 @@ ServerEvents.recipes((event) => {
           item: 'mekanism:creative_energy_cube',
         },
         D: {
-          item: 'solarpanels:creative_energy_tablet',
+          type: 'forge:nbt',
+          item: 'appflux:fe_256k_portable_cell',
+          count: 1,
+          nbt: '{power:274877906944L}',
         },
         E: {
           item: 'kubejs:tyrian_steel_ingot',

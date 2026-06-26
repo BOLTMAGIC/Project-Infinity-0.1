@@ -65,9 +65,9 @@ ServerEvents.recipes((event) => {
         },
         P: {
           type: 'forge:nbt',
-          item: 'solarpanels:creative_energy_tablet',
+          item: 'appflux:fe_256k_portable_cell',
           count: 1,
-          nbt: '{mekData:{EnergyContainers:[{Container:0b,stored:\"2000000000\"}]}}',
+          nbt: '{power:274877906944L}',
         },
         Q: {
           item: 'powah:reactor_nitro',

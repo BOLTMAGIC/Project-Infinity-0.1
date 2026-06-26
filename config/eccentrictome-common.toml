@@ -6,7 +6,7 @@
 	#Disable overlay previewing tome conversion
 	disable_overlay = false
 	#Whitelisted items
-	items = ["tconstruct:materials_and_you", "tconstruct:puny_smelting", "tconstruct:mighty_smelting", "tconstruct:fantastic_foundry", "tconstruct:tinkers_gadgetry", "integrateddynamics:on_the_dynamics_of_integration", "evilcraft:origins_of_darkness", "cookingforblockheads:no_filter_edition", "alexsmobs:animal_dictionary", "occultism:dictionary_of_spirits", "theoneprobe:probenote", "compactmachines:personal_shrinking_device", "draconicevolution:info_tablet", "iceandfire:bestiary", "rootsclassic:runic_tablet", "enigmaticlegacy:the_acknowledgment", "ad_astra:astrodux", "wizards_reborn:arcanemicon"]
+	items = ["integrateddynamics:on_the_dynamics_of_integration", "evilcraft:origins_of_darkness", "cookingforblockheads:no_filter_edition", "alexsmobs:animal_dictionary", "occultism:dictionary_of_spirits", "theoneprobe:probenote", "compactmachines:personal_shrinking_device", "draconicevolution:info_tablet", "iceandfire:bestiary", "rootsclassic:runic_tablet", "enigmaticlegacy:the_acknowledgment", "ad_astra:astrodux", "wizards_reborn:arcanemicon"]
 	#Whitelisted names
 	names = ["book", "tome", "lexicon", "nomicon", "manual", "knowledge", "pedia", "compendium", "guide", "codex", "journal", "enchiridion", "grimoire"]
 	#Mod aliases

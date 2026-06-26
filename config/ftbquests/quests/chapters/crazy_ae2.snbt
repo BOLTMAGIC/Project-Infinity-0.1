@@ -82,38 +82,6 @@
 			y: -7.0d
 		}
 		{
-			height: 1.0d
-			image: "tconstruct:item/tool/ammo/arrow_head_tconstruct_enderslime"
-			rotation: 0.0d
-			width: 1.0d
-			x: -3.732142857142861d
-			y: 0.2142857142857082d
-		}
-		{
-			height: 1.0d
-			image: "tconstruct:item/tool/ammo/arrow_head_tconstruct_enderslime"
-			rotation: 90.0d
-			width: 1.0d
-			x: -3.6964285714285765d
-			y: -1.142857142857153d
-		}
-		{
-			height: 1.0d
-			image: "tconstruct:item/tool/ammo/arrow_head_tconstruct_enderslime"
-			rotation: -90.0d
-			width: 1.0d
-			x: -2.3035714285714377d
-			y: 0.2142857142857082d
-		}
-		{
-			height: 1.0d
-			image: "tconstruct:item/tool/ammo/arrow_head_tconstruct_enderslime"
-			rotation: 180.0d
-			width: 1.0d
-			x: -2.3035714285714377d
-			y: -1.1071428571428612d
-		}
-		{
 			click: "https://www.youtube.com/watch?v=VvgBHT97HtM"
 			height: 0.5d
 			hover: ["ftbquests.chapter.crazy_ae2.image.hovertext2"]

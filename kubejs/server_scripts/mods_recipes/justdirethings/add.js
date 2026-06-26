@@ -29,17 +29,6 @@ ServerEvents.recipes((event) => {
     'mekanism_extras:alloy_spectrum',
     'justdirethings:time_crystal',
   ]);
-  create3x3(event, 'justdirethings:paradoxmachine', [
-    'justdirethings:eclipsealloy_block',
-    'allthemodium:unobtainium_vibranium_alloy_block',
-    'justdirethings:eclipsealloy_block',
-    'mekanism_extras:alloy_spectrum',
-    'justdirethings:time_crystal_block',
-    'evolvedmekanism:alloy_exoversal',
-    'justdirethings:eclipsealloy_block',
-    'justdirethings:time_fluid_bucket',
-    'justdirethings:eclipsealloy_block',
-  ]);
   create3x3(event, 'justdirethings:upgrade_deathprotection', [
     'justdirethings:time_crystal',
     'minecraft:emerald',

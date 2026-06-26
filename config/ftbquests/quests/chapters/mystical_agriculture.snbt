@@ -4071,7 +4071,7 @@
 				type: "item"
 			}]
 			x: -11.0d
-			y: 9.0d
+			y: 8.0d
 		}
 		{
 			dependencies: ["6C52741D22052A14"]
@@ -4573,86 +4573,6 @@
 			y: 5.0d
 		}
 		{
-			dependencies: ["0EE7C12766C3CA1B"]
-			id: "57F6D2E1C15FA820"
-			rewards: [{
-				id: "407C61E7D5C3FEB4"
-				item: "kubejs:apotheotic_coin"
-				type: "item"
-			}]
-			tasks: [{
-				id: "43A95F537335ABED"
-				item: "mysticalagriculture:pig_iron_seeds"
-				type: "item"
-			}]
-			x: -9.0d
-			y: 7.0d
-		}
-		{
-			dependencies: ["0EE7C12766C3CA1B"]
-			id: "07B276A20859C05D"
-			rewards: [{
-				id: "329E00800132168C"
-				item: "kubejs:apotheotic_coin"
-				type: "item"
-			}]
-			tasks: [{
-				id: "7E6F73789BC687DB"
-				item: "mysticalagriculture:amethyst_bronze_seeds"
-				type: "item"
-			}]
-			x: -11.0d
-			y: 8.0d
-		}
-		{
-			dependencies: ["0EE7C12766C3CA1B"]
-			id: "686EC8E8D7C01B83"
-			rewards: [{
-				id: "2C240A4EC136E30C"
-				item: "kubejs:apotheotic_coin"
-				type: "item"
-			}]
-			tasks: [{
-				id: "6E706F112A415654"
-				item: "mysticalagriculture:slimesteel_seeds"
-				type: "item"
-			}]
-			x: -10.0d
-			y: 8.0d
-		}
-		{
-			dependencies: ["6C52741D22052A14"]
-			id: "71B9818825334BF1"
-			rewards: [{
-				id: "2F2134657F5C0309"
-				item: "kubejs:infused_coin"
-				type: "item"
-			}]
-			tasks: [{
-				id: "616686B688D5D701"
-				item: "mysticalagriculture:hepatizon_seeds"
-				type: "item"
-			}]
-			x: 1.0d
-			y: 7.0d
-		}
-		{
-			dependencies: ["6C52741D22052A14"]
-			id: "220303D300C94F70"
-			rewards: [{
-				id: "0114E265006218D4"
-				item: "kubejs:infused_coin"
-				type: "item"
-			}]
-			tasks: [{
-				id: "07C45B28B29EF2E9"
-				item: "mysticalagriculture:queens_slime_seeds"
-				type: "item"
-			}]
-			x: 3.0d
-			y: 6.0d
-		}
-		{
 			dependencies: ["4970CC2851818A02"]
 			id: "7099B98C19D11BCA"
 			rewards: [{
@@ -4681,7 +4601,7 @@
 				item: "mysticalagriculture:lithium_seeds"
 				type: "item"
 			}]
-			x: -9.0d
+			x: -10.0d
 			y: 8.0d
 		}
 		{
@@ -4782,8 +4702,8 @@
 				item: "mysticalagriculture:iron_seeds"
 				type: "item"
 			}]
-			x: -10.0d
-			y: 9.0d
+			x: -9.0d
+			y: 7.0d
 		}
 		{
 			dependencies: ["41E5E6BF7CB5063F"]

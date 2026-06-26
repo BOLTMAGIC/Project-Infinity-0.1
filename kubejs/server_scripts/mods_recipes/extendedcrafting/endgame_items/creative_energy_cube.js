@@ -28,28 +28,28 @@ ServerEvents.recipes((event) => {
           item: 'evolvedmekanism:alloy_creative',
         },
         E: {
-          item: 'solarpanels:light_absorbing_energy_tablet',
+          item: 'mekanism_extras:alloy_spectrum',
         },
         F: {
-          item: 'solarpanels:spectral_energy_tablet',
+          item: 'mekanism_extras:alloy_spectrum',
         },
         G: {
           item: 'avaritia:infinity_ingot',
         },
         H: {
-          item: 'solarpanels:photonic_energy_tablet',
+          item: 'mekanism_extras:alloy_spectrum',
         },
         I: {
-          item: 'solarpanels:improved_energy_tablet',
+          item: 'mekanism_extras:alloy_spectrum',
         },
         J: {
-          item: 'solarpanels:singular_energy_tablet',
+          item: 'mekanism_extras:alloy_spectrum',
         },
         K: {
           item: 'mekanism:creative_energy_cube',
         },
         L: {
-          item: 'solarpanels:quantum_energy_tablet',
+          item: 'mekanism_extras:alloy_spectrum',
         },
         M: {
           item: 'mekanism_extras:infinite_induction_cell',
@@ -58,7 +58,10 @@ ServerEvents.recipes((event) => {
           item: 'mekanism_extras:infinite_induction_provider',
         },
         O: {
-          item: 'solarpanels:creative_energy_tablet',
+          type: 'forge:nbt',
+          item: 'appflux:fe_256k_portable_cell',
+          count: 1,
+          nbt: '{power:274877906944L}',
         },
       },
       result: {

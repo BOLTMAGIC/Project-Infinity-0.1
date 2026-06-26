@@ -13,7 +13,7 @@
 		x: 0.0d
 		y: -8.0d
 	}]
-	order_index: 17
+	order_index: 16
 	quest_links: [ ]
 	quests: [
 		{
@@ -1898,7 +1898,7 @@
 				item: "justdirethings:itemcollector"
 				type: "item"
 			}]
-			x: -6.0d
+			x: -5.5d
 			y: -1.0d
 		}
 		{
@@ -2028,7 +2028,7 @@
 				item: "justdirethings:playeraccessor"
 				type: "item"
 			}]
-			x: -4.0d
+			x: -3.5d
 			y: -1.0d
 		}
 		{
@@ -2038,7 +2038,7 @@
 				item: "justdirethings:energytransmitter"
 				type: "item"
 			}]
-			x: -5.0d
+			x: -4.5d
 			y: -1.0d
 		}
 		{
@@ -2050,20 +2050,6 @@
 			}]
 			x: -5.0d
 			y: 1.0d
-		}
-		{
-			id: "4D315FA10D9CC0FC"
-			tasks: [{
-				id: "53D9B7A586DA19B1"
-				item: {
-					Count: 1
-					id: "justdirethings:creaturecatcher"
-					tag: { }
-				}
-				type: "item"
-			}]
-			x: -4.5d
-			y: 0.0d
 		}
 		{
 			id: "64A20DF9BC03C1F4"
@@ -2120,21 +2106,6 @@
 			tasks: [{
 				id: "20104B6A7DC7F307"
 				item: "justdirethings:inventoryholder"
-				type: "item"
-			}]
-			x: -3.0d
-			y: -1.0d
-		}
-		{
-			id: "1ED6C1FDCAE160EF"
-			rewards: [{
-				id: "147B8EBEB9AE298E"
-				item: "kubejs:ascended_coin"
-				type: "item"
-			}]
-			tasks: [{
-				id: "3DD8EEB5D39192E6"
-				item: "justdirethings:paradoxmachine"
 				type: "item"
 			}]
 			x: -3.5d

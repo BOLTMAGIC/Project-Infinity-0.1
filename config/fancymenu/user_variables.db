@@ -2,19 +2,19 @@ type = user_variables
 
 variable {
   name = first_time_loading
-  value = true
+  value = false
   reset_on_launch = false
 }
 
 variable {
   name = buddy_enabled
-  value = true
+  value = false
   reset_on_launch = false
 }
 
 variable {
   name = buddy_state
-  value = Disable Buddy
+  value = Enable Buddy
   reset_on_launch = false
 }
 

@@ -353,7 +353,6 @@ ServerEvents.recipes((event) => {
       "chisel_chipped_integration:metal_steel_scaffold",
       "chisel_chipped_integration:metal_steel_shipping_crate",
       "chisel_chipped_integration:metal_steel_thermal",
-      "tconstruct:steel_block",
       "alltheores:steel_block",
       "mekanism:block_steel",
       "common_ore_library:steel_block",
@@ -390,7 +389,6 @@ ServerEvents.recipes((event) => {
       "chisel_chipped_integration:metal_bronze_scaffold",
       "chisel_chipped_integration:metal_bronze_shipping_crate",
       "chisel_chipped_integration:metal_bronze_thermal",
-      "tcintegrations:bronze_block",
       "alltheores:bronze_block",
       "mekanism:block_bronze",
       "common_ore_library:bronze_block",
@@ -644,7 +642,6 @@ ServerEvents.recipes((event) => {
       "chisel_chipped_integration:metal_cobalt_scaffold",
       "chisel_chipped_integration:metal_cobalt_shipping_crate",
       "chisel_chipped_integration:metal_cobalt_thermal",
-      "tconstruct:cobalt_block",
       "nuclearcraft:cobalt_block",
       "chemlib:cobalt_metal_block"
     ]

@@ -22,10 +22,8 @@ LootJS.modifiers((event) => {
   event
     .addEntityLootModifier('minecraft:wither')
     .removeLoot('mysticalagradditions:insanium_essence')
-    .addWeightedLoot(
-      [0, 1],
-      [Item.of('mysticalagradditions:insanium_essence').withChance(10)]
-    );
+    .randomChance(0.02)
+    .addLoot('mysticalagradditions:insanium_essence');
 });
 
 LootJS.modifiers((event) => {

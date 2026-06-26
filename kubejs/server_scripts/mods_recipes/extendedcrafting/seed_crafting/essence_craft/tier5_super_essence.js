@@ -44,12 +44,6 @@ ServerEvents.recipes((event) => {
           item: 'mysticalagriculture:manyullyn_essence',
         },
         {
-          item: 'mysticalagriculture:queens_slime_essence',
-        },
-        {
-          item: 'mysticalagriculture:hepatizon_essence',
-        },
-        {
           item: 'mysticalagriculture:vibrant_alloy_essence',
         },
         {

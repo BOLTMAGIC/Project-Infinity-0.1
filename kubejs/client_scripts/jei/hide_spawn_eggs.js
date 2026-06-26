@@ -309,9 +309,6 @@ JEIEvents.hideItems((event) => {
     'thermal:basalz_spawn_egg',
     'thermal:blizz_spawn_egg',
     'thermal:blitz_spawn_egg',
-    'tconstruct:terracube_spawn_egg',
-    'tconstruct:sky_slime_spawn_egg',
-    'tconstruct:ender_slime_spawn_egg',
   ];
   
   eggs.forEach(itemId => {

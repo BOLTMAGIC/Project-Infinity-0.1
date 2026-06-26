@@ -41,7 +41,6 @@ ServerEvents.recipes((event) => {
         'mysticalagradditions:supremium_apple',
         'mysticalagradditions:insanium_apple',
         'allthemodium:allthemodium_apple',
-        'tconstruct:jeweled_apple',
         'ifeu:apple_core',
       ],
 

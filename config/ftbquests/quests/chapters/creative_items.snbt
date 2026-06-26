@@ -94,50 +94,6 @@
 			y: -2.5d
 		}
 		{
-			dependencies: ["0D853A59A6946639"]
-			id: "785460A567666B2D"
-			rewards: [{
-				id: "0450DE1B19734BD3"
-				item: "kubejs:ascended_coin"
-				type: "item"
-			}]
-			tasks: [{
-				id: "12B8673457DA4BE7"
-				item: {
-					Count: 1
-					id: "tconstruct:creative_slot"
-					tag: {
-						slot: "defense"
-					}
-				}
-				type: "item"
-			}]
-			x: 7.0d
-			y: -2.5d
-		}
-		{
-			dependencies: ["0D853A59A6946639"]
-			id: "1BEEB1B3081EA395"
-			rewards: [{
-				id: "0366FF012AC7131B"
-				item: "kubejs:ascended_coin"
-				type: "item"
-			}]
-			tasks: [{
-				id: "5C9328CFE877C2E3"
-				item: {
-					Count: 1
-					id: "tconstruct:creative_slot"
-					tag: {
-						slot: "abilities"
-					}
-				}
-				type: "item"
-			}]
-			x: 6.0d
-			y: -2.5d
-		}
-		{
 			dependencies: ["442BB17AE7AC4936"]
 			id: "6518A54F5163C106"
 			rewards: [{
@@ -262,7 +218,7 @@
 			y: 0.5d
 		}
 		{
-			dependencies: ["0D853A59A6946639"]
+			dependencies: ["442BB17AE7AC4936"]
 			id: "31C8CD0D2B411E94"
 			rewards: [{
 				id: "7263CDA58059D2A5"
@@ -274,52 +230,8 @@
 				item: "botania:creative_pool"
 				type: "item"
 			}]
-			x: 6.0d
-			y: -1.5d
-		}
-		{
-			dependencies: ["0D853A59A6946639"]
-			id: "087144F5252E5FF5"
-			rewards: [{
-				id: "20B1BB6106733F69"
-				item: "kubejs:ascended_coin"
-				type: "item"
-			}]
-			tasks: [{
-				id: "39357E4166F6D9CA"
-				item: {
-					Count: 1
-					id: "tconstruct:creative_slot"
-					tag: {
-						slot: "souls"
-					}
-				}
-				type: "item"
-			}]
-			x: 8.0d
-			y: -2.5d
-		}
-		{
-			dependencies: ["0D853A59A6946639"]
-			id: "4F1C6F377924BE88"
-			rewards: [{
-				id: "5E2124A56D2B9404"
-				item: "kubejs:ascended_coin"
-				type: "item"
-			}]
-			tasks: [{
-				id: "24AB37E126E9D99D"
-				item: {
-					Count: 1
-					id: "tconstruct:creative_slot"
-					tag: {
-						slot: "upgrades"
-					}
-				}
-				type: "item"
-			}]
-			x: 8.0d
-			y: -1.5d
+			x: 2.0d
+			y: 0.5d
 		}
 		{
 			dependencies: ["442BB17AE7AC4936"]
@@ -354,7 +266,6 @@
 			y: -1.5d
 		}
 		{
-			dependencies: ["71CD58F48960B657"]
 			id: "442BB17AE7AC4936"
 			rewards: [{
 				id: "40EE1D761278B0FF"
@@ -368,38 +279,6 @@
 			}]
 			x: 3.0d
 			y: -4.0d
-		}
-		{
-			dependencies: ["71CD58F48960B657"]
-			id: "0D853A59A6946639"
-			rewards: [{
-				id: "54E8BB9173673499"
-				item: "kubejs:ascended_coin"
-				type: "item"
-			}]
-			tasks: [{
-				id: "297F98B966D1512A"
-				item: "avaritia:infinity_catalyst"
-				type: "item"
-			}]
-			x: 7.0d
-			y: -4.0d
-		}
-		{
-			dependencies: ["348E851939EFF3EB"]
-			icon: "botania:corporea_spark_creative"
-			id: "71CD58F48960B657"
-			rewards: [{
-				id: "74FB22394BC9FE6A"
-				type: "xp"
-				xp: 3
-			}]
-			tasks: [{
-				id: "16BD3432CB0B2760"
-				type: "checkmark"
-			}]
-			x: 5.0d
-			y: -5.5d
 		}
 	]
 	title: "{ftbquests.chapter.creative_items.title}"

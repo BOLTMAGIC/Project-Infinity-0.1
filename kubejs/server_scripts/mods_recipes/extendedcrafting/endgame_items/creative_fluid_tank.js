@@ -169,7 +169,7 @@ ServerEvents.recipes((event) => {
           type: 'forge:partial_nbt',
           item: 'mekanism:basic_fluid_tank',
           count: 1,
-          nbt: '{mekData:{FluidTanks:[{stored:{Amount:32000,FluidName:"tconstruct:magma"}}]}}',
+          nbt: '{mekData:{FluidTanks:[{stored:{Amount:32000,FluidName:"cyclic:magma"}}]}}',
         },
         k: {
           type: 'forge:partial_nbt',

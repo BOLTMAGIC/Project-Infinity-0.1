@@ -126,7 +126,6 @@ const lootByMob = {
     { item: 'minecraft:ender_pearl', outCount: 16 },
     { item: 'minecraft:end_crystal', outCount: 1 },
     { item: 'enderio:enderman_head', outCount: 1 },
-    { item: 'tconstruct:enderman_head', outCount: 1 },
     { item: 'outer_end:stalker_meat', outCount: 32 },
   ],
 

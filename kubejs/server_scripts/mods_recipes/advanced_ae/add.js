@@ -24,4 +24,44 @@ ServerEvents.recipes((event) => {
     'draconicevolution:item_wyvern_auto_feed',
     'ae2omnicells:quantum_omni_cell_16m',
   ]);
+
+  // advanced_ae:reaction_chamber
+  event
+    .custom({
+      type: 'extendedcrafting:shaped_table',
+      pattern: ['ABCBA', 'BDEDB', 'CFGFC', 'BDHDB', 'ABIBA'],
+      key: {
+        A: {
+          item: 'ae2omnicells:omni_link_processor',
+        },
+        B: {
+          item: 'ae2:fluix_dust',
+        },
+        C: {
+          item: 'justdirethings:eclipsealloy_ingot',
+        },
+        D: {
+          item: 'evolvedmekanism:alloy_singular',
+        },
+        E: {
+          item: 'ae2:condenser',
+        },
+        F: {
+          item: 'mysticalagradditions:insanium_ingot',
+        },
+        G: {
+          item: 'ae2:vibration_chamber',
+        },
+        H: {
+          item: 'ae2omnicells:spent_nuclear_waste_singularity',
+        },
+        I: {
+          item: 'extendedae_plus:infinity_core',
+        },
+      },
+      result: {
+        item: 'advanced_ae:reaction_chamber',
+      },
+    })
+    .id('advanced_ae:reaction_chamber');
 });

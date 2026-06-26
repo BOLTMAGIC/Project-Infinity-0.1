@@ -83,15 +83,6 @@ ServerEvents.recipes((event) => {
           item: 'mysticalagriculture:basalz_essence',
         },
         {
-          item: 'mysticalagriculture:amethyst_bronze_essence',
-        },
-        {
-          item: 'mysticalagriculture:slimesteel_essence',
-        },
-        {
-          item: 'mysticalagriculture:pig_iron_essence',
-        },
-        {
           item: 'mysticalagriculture:copper_alloy_essence',
         },
         {

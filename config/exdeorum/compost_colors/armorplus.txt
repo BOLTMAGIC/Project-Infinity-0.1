@@ -118,10 +118,6 @@ obsidian_leggings, #141220
 obsidian_pickaxe, #3e3226
 obsidian_stick, #2d2a34
 obsidian_sword, #c27579
-pig_iron_boots, #ffa1a2
-pig_iron_chestplate, #ffbcbc
-pig_iron_helmet, #ffafaf
-pig_iron_leggings, #ffa8a8
 redstone_arrow, #ccafab
 redstone_battle_axe, #f4a7a4
 redstone_boots, #720a0a

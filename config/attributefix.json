@@ -165,17 +165,6 @@
         "value": 1024
       }
     },
-    "tconstruct:generic.bad_effect_duration_multiplier": {
-      "enabled": false,
-      "min": {
-        "default": 0,
-        "value": 0
-      },
-      "max": {
-        "default": 100,
-        "value": 100
-      }
-    },
     "forge:entity_reach": {
       "enabled": false,
       "min": {
@@ -275,39 +264,6 @@
         "value": 100
       }
     },
-    "tconstruct:generic.jump_boost": {
-      "enabled": false,
-      "min": {
-        "default": 0,
-        "value": 0
-      },
-      "max": {
-        "default": 100,
-        "value": 100
-      }
-    },
-    "tconstruct:generic.bouncy": {
-      "enabled": false,
-      "min": {
-        "default": 0,
-        "value": 0
-      },
-      "max": {
-        "default": 1,
-        "value": 1
-      }
-    },
-    "tconstruct:generic.good_effect_duration_multiplier": {
-      "enabled": false,
-      "min": {
-        "default": 0,
-        "value": 0
-      },
-      "max": {
-        "default": 100,
-        "value": 100
-      }
-    },
     "forge:nametag_distance": {
       "enabled": false,
       "min": {
@@ -396,17 +352,6 @@
         "value": 179769313486231570000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
       }
     },
-    "tconstruct:generic.safe_fall_distance": {
-      "enabled": false,
-      "min": {
-        "default": -10,
-        "value": -10
-      },
-      "max": {
-        "default": 100,
-        "value": 100
-      }
-    },
     "minecraft:generic.armor": {
       "enabled": true,
       "min": {
@@ -451,17 +396,6 @@
         "value": 179769313486231570000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
       }
     },
-    "tconstruct:generic.crouch_damage_multiplier": {
-      "enabled": false,
-      "min": {
-        "default": 0,
-        "value": 0
-      },
-      "max": {
-        "default": 100,
-        "value": 100
-      }
-    },
     "attributeslib:prot_pierce": {
       "enabled": false,
       "min": {
@@ -473,17 +407,6 @@
         "value": 34
       }
     },
-    "tconstruct:player.jump_count": {
-      "enabled": false,
-      "min": {
-        "default": 1,
-        "value": 1
-      },
-      "max": {
-        "default": 100,
-        "value": 100
-      }
-    },
     "block_factorys_bosses:burning_stability": {
       "enabled": false,
       "min": {
@@ -493,17 +416,6 @@
       "max": {
         "default": 10,
         "value": 10
-      }
-    },
-    "tconstruct:generic.knockback_multiplier": {
-      "enabled": false,
-      "min": {
-        "default": 0,
-        "value": 0
-      },
-      "max": {
-        "default": 100,
-        "value": 100
       }
     },
     "minecraft:generic.flying_speed": {
@@ -561,28 +473,6 @@
         "value": 512
       }
     },
-    "tconstruct:player.experience_multiplier": {
-      "enabled": false,
-      "min": {
-        "default": 0,
-        "value": 0
-      },
-      "max": {
-        "default": 100,
-        "value": 100
-      }
-    },
-    "tconstruct:player.mining_speed_multiplier": {
-      "enabled": false,
-      "min": {
-        "default": 0,
-        "value": 0
-      },
-      "max": {
-        "default": 100,
-        "value": 100
-      }
-    },
     "botania:pixie_spawn_chance": {
       "enabled": false,
       "min": {
@@ -594,17 +484,6 @@
         "value": 1
       }
     },
-    "tconstruct:player.critical_damage": {
-      "enabled": false,
-      "min": {
-        "default": 0,
-        "value": 0
-      },
-      "max": {
-        "default": 100,
-        "value": 100
-      }
-    },
     "minecraft:generic.max_health": {
       "enabled": true,
       "min": {
@@ -614,17 +493,6 @@
       "max": {
         "default": 1024,
         "value": 1000000
-      }
-    },
-    "tconstruct:generic.protection_cap": {
-      "enabled": false,
-      "min": {
-        "default": 0,
-        "value": 0
-      },
-      "max": {
-        "default": 0.949999988079071,
-        "value": 0.949999988079071
       }
     },
     "justdirethings:phase": {
@@ -647,17 +515,6 @@
       "max": {
         "default": 10,
         "value": 10
-      }
-    },
-    "tconstruct:player.use_item_speed": {
-      "enabled": false,
-      "min": {
-        "default": 0,
-        "value": 0
-      },
-      "max": {
-        "default": 1,
-        "value": 1
       }
     },
     "minecraft:horse.jump_strength": {

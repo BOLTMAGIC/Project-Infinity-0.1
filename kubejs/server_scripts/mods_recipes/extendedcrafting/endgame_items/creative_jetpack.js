@@ -73,7 +73,10 @@ ServerEvents.recipes((event) => {
           item: 'better_angel_ring:angel_ring',
         },
         M: {
-          item: 'solarpanels:creative_energy_tablet'
+          type: 'forge:nbt',
+          item: 'appflux:fe_256k_portable_cell',
+          count: 1,
+          nbt: '{power:274877906944L}',
         },
       },
       result: {

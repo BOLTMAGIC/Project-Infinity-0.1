@@ -192,12 +192,6 @@ mythicbotany:andwari_cave
 mythicbotany:elven_house
 outer_end:catacombs
 outer_end:end_tower
-tconstruct:blood_island
-tconstruct:clay_island
-tconstruct:earth_slime_island
-tconstruct:end_slime_island
-tconstruct:ocean_skyslime_island
-tconstruct:sky_slime_island
 twilightforest:aurora_palace
 twilightforest:dark_tower
 twilightforest:final_castle

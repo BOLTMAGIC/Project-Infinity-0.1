@@ -12,14 +12,25 @@ Mod Info:
 ----------
 - MODS REMOVED:
     - YTones (its discontinued, replaced with BetterBlockZ)
-    - Tinkers Construct and all addons
+    - Tinkers Construct
+        - Tinkers Integration
+        - Tinkers Compact
+        - Tinkers Leveling
     - Extreme/ Big Reactors
     - Chemlib and Alchemistry
     - Occultism
     - Mekanism Advanced Generators
+    - Reliable Replacer
 ----------
 Recipe changes and fixes:
-- changed the drop rate of insanium essence from the wither (Thx to cervantes666)
+- Fixed Wither Insanium Essence drop (2% for drop) (thx to Reninsane)
+- There's still no EMC on Sulfur, it never had (thx to Reninsane)
+- removed recipe for Tome of Knowledge
+- removed recipe for paradoxmachine
+- recipe change for Reaction Chamber
+- hidden ExtendedCraftin Auto tables from JEI
+- changed recipes for Legendary Table
+- changed recipes for Ultimate and Epic (need the table before to craft the next one) (small change)
 - 
 ----------
 Mod changes and fixes:

@@ -86,5 +86,5 @@
 #Item settings
 [itemsSettings]
 	#By default, the Drill can mine certain blocks. If there is one that it can't mine, but should be able to, put its REGISTRY NAME here. These are the actual registered Item Names, the ones you use, for example, when using the /give Command.
-	"Drill Extra Whitelist" = ["TConstruct:GravelOre"]
+	"Drill Extra Whitelist" = [""]
 

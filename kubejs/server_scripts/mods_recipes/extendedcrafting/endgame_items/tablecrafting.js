@@ -38,7 +38,7 @@ ServerEvents.recipes((event) => {
         'AAABAAA',
         'ACCBCCA',
         'ACDEDCA',
-        'BBEFEBB',
+        'BGEFGBB',
         'ACDEDCA',
         'ACCBCCA',
         'AAABAAA',
@@ -62,6 +62,9 @@ ServerEvents.recipes((event) => {
         F: {
           item: 'bloodmagic:masterbloodorb',
         },
+        G: {
+          item: 'extendedcrafting:elite_table',
+        },
       },
       result: {
         item: 'extendedcrafting:ultimate_table',
@@ -78,7 +81,7 @@ ServerEvents.recipes((event) => {
         'BFGGHIIFB',
         'CJKLLLKJC',
         'MNOPQPRNM',
-        'ESOQTQRSE',
+        'ESXQTQXSE',
         'MUOPQPRUM',
         'CJVWWWVJC',
         'BFIIHGGFB',
@@ -154,10 +157,104 @@ ServerEvents.recipes((event) => {
         W: {
           item: 'extendedcrafting:enhanced_ender_catalyst',
         },
+        X: {
+          item: 'extendedcrafting:elite_table',
+        },
       },
       result: {
         item: 'extendedcrafting:epic_table',
       },
     })
     .id('extendedcrafting:epic_table');
+
+  // extendedcrafting:legendary_table
+  event
+    .custom({
+      type: 'extendedcrafting:shaped_table',
+      pattern: [
+        'ABCCCDCCCEF',
+        'BCGHHIHHGCE',
+        'CGHJKLKJHGC',
+        'CHJMLNLOJHC',
+        'CHKLNPNLKHC',
+        'DILNQRQNLID',
+        'CHKLNPNLKHC',
+        'CHJOLNLMJHC',
+        'CGHJKLKJHGC',
+        'SCGHHIHHGCT',
+        'USCCCDCCCTV',
+      ],
+      key: {
+        A: {
+          item: 'allthemodium:unobtainium_rod',
+        },
+        B: {
+          item: 'woot_revived:diamond_shard',
+        },
+        C: {
+          item: 'ifeu:dragon_star',
+        },
+        D: {
+          item: 'botanicalextramachinery:aureate_dragonstone',
+        },
+        E: {
+          item: 'bfr:solidified_waste',
+        },
+        F: {
+          item: 'allthemodium:vibranium_rod',
+        },
+        G: {
+          item: 'draconicevolution:awakened_draconium_ingot',
+        },
+        H: {
+          item: 'justdirethings:time_crystal',
+        },
+        I: {
+          item: 'kubejs:infinity_essence',
+        },
+        J: {
+          item: 'justdirethings:blazegold_ingot',
+        },
+        K: {
+          item: 'justdirethings:eclipsealloy_ingot',
+        },
+        L: {
+          item: 'extendedcrafting:black_iron_slate',
+        },
+        M: {
+          item: 'kubejs:ultimate_gem',
+        },
+        N: {
+          item: 'extendedcrafting:enhanced_ender_component',
+        },
+        O: {
+          item: 'avaritia:ultimate_stew',
+        },
+        P: {
+          item: 'minecraft:netherite_block',
+        },
+        Q: {
+          item: 'extendedcrafting:epic_table',
+        },
+        R: {
+          item: 'extendedcrafting:enhanced_ender_catalyst',
+        },
+        S: {
+          item: 'mekanism_extras:alloy_thermonuclear',
+        },
+        T: {
+          item: 'extendedcrafting:crystaltine_ingot',
+        },
+        U: {
+          item: 'allthemodium:piglich_heart',
+        },
+        V: {
+          item: 'allthemodium:allthemodium_rod',
+        },
+      },
+      result: {
+        item: 'extendedcrafting:legendary_table',
+      },
+    })
+    .id('extendedcrafting:legendary_table');
 });

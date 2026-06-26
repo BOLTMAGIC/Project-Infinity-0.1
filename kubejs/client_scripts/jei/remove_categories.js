@@ -9,7 +9,6 @@ JEIEvents.removeCategories((event) => {
     'ali:gameplay_loot',
     'ali:trade_loot',
     'cyclic:packager',
-    'tconstruct:worktable',
     'packagedauto:fluid_package_contents',
     'packagedauto:volume_package',
     'packagedauto:fluid_package_filling',

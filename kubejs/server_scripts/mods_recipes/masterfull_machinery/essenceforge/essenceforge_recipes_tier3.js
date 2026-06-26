@@ -61,11 +61,8 @@ MMEvents.createProcesses((event) => {
   const tier3Seeds = [
     'mysticalagriculture:boron_seeds',
     'mysticalagriculture:quartz_enriched_iron_seeds',
-    'mysticalagriculture:amethyst_bronze_seeds',
     'mysticalagriculture:cognizant_dust_seeds',
     'mysticalagriculture:lithium_seeds',
-    'mysticalagriculture:slimesteel_seeds',
-    'mysticalagriculture:pig_iron_seeds',
     'mysticalagriculture:tin_seeds',
     'mysticalagriculture:iron_seeds',
     'mysticalagriculture:copper_seeds',
@@ -139,7 +136,6 @@ MMEvents.createProcesses((event) => {
   const tier5Seeds = [
     'mysticalagriculture:iesnium_seeds',
     'mysticalagriculture:queens_slime_seeds',
-    'mysticalagriculture:hepatizon_seeds',
     'mysticalagriculture:ignitium_seeds',
     'mysticalagriculture:sky_steel_seeds',
     'mysticalagriculture:vibrant_alloy_seeds',

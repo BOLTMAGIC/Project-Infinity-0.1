@@ -13,18 +13,6 @@ ServerEvents.recipes((event) => {
 
   create3x3(event, 'custom_capacitors:cobalt_capacitor', [
     'common_ore_library:manyullyn_ingot',
-    'tconstruct:hepatizon_ingot',
-    'tconstruct:manyullyn_ingot',
-    'tconstruct:queens_slime_ingot',
-    'custom_capacitors:ender_capacitor',
-    'tconstruct:queens_slime_ingot',
-    'common_ore_library:manyullyn_ingot',
-    'tconstruct:hepatizon_ingot',
-    'tconstruct:manyullyn_ingot',
-  ]);
-
-  create3x3(event, 'custom_capacitors:cobalt_capacitor', [
-    'common_ore_library:manyullyn_ingot',
     'industrialforegoing:pink_slime_ingot',
     'ae2omnicells:charged_ender_ingot',
     'justdirethings:blazegold_ingot',

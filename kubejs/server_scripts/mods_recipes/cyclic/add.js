@@ -4,28 +4,21 @@ ServerEvents.recipes((event) => {
     'cyclic:gem_amber',
     'minecraft:amethyst_block',
     'minecraft:emerald',
-    'tconstruct:earth_slime_bucket',
+    'cyclic:slime_bucket',
   ]);
 
   shapeless(event, 'cyclic:gem_obsidian', [
     'cyclic:gem_amber',
     'minecraft:chorus_fruit',
     'minecraft:emerald',
-    'tconstruct:earth_slime_bucket',
+    'cyclic:slime_bucket',
   ]);
 
   shapeless(event, 'cyclic:gem_obsidian', [
     'cyclic:gem_amber',
     'minecraft:obsidian',
     'minecraft:wither_rose',
-    'tconstruct:earth_slime_bucket',
-  ]);
-
-  shapeless(event, '2x cyclic:gem_amber', [
-    'tconstruct:magma_bucket',
-    'minecraft:fire_charge',
-    'minecraft:redstone_block',
-    'minecraft:gold_ingot',
+    'cyclic:slime_bucket',
   ]);
 
   shapeless(event, '2x cyclic:gem_amber', [
@@ -36,14 +29,9 @@ ServerEvents.recipes((event) => {
   ]);
 
   shapeless(event, '2x cyclic:gem_amber', [
-    'tconstruct:honey_bucket',
-    'minecraft:fire_charge',
-    'minecraft:magma_block',
-    'minecraft:redstone',
-  ]);
-
-  shapeless(event, '2x cyclic:gem_amber', [
-    'cyclic:honey_bucket',
+    'minecraft:honey_bottle',
+    'minecraft:honey_bottle',
+    'minecraft:honey_bottle',
     'minecraft:fire_charge',
     'minecraft:magma_block',
     'minecraft:redstone',

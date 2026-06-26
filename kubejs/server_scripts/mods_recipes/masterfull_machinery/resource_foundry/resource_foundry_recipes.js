@@ -1589,30 +1589,6 @@ MMEvents.createProcesses(function (event) {
     inputs: [ { type: 'mm:item', item: 'mysticalagriculture:basalz_essence', count: 8 } ],
   });
 
-  // 8 amethyst_bronze_essence -> 4 tconstruct:amethyst_bronze_ingot
-  createRFProcess({
-    outputId: 'mm:amethyst_bronze_ingot_from_essence',
-    outputItem: 'tconstruct:amethyst_bronze_ingot',
-    outputCount: 4,
-    inputs: [ { type: 'mm:item', item: 'mysticalagriculture:amethyst_bronze_essence', count: 8 } ],
-  });
-
-  // 8 slimesteel_essence -> 4 tconstruct:slimesteel_ingot
-  createRFProcess({
-    outputId: 'mm:slimesteel_ingot_from_essence',
-    outputItem: 'tconstruct:slimesteel_ingot',
-    outputCount: 4,
-    inputs: [ { type: 'mm:item', item: 'mysticalagriculture:slimesteel_essence', count: 8 } ],
-  });
-
-  // 8 pig_iron_essence -> 4 tconstruct:pig_iron_ingot
-  createRFProcess({
-    outputId: 'mm:pig_iron_ingot_from_essence',
-    outputItem: 'tconstruct:pig_iron_ingot',
-    outputCount: 4,
-    inputs: [ { type: 'mm:item', item: 'mysticalagriculture:pig_iron_essence', count: 8 } ],
-  });
-
   // 8 copper_alloy_essence -> 6 enderio:copper_alloy_ingot
   createRFProcess({
     outputId: 'mm:copper_alloy_ingot_from_essence',
@@ -2460,24 +2436,6 @@ MMEvents.createProcesses(function (event) {
     outputCount: 6,
     inputs: [
       { type: 'mm:item', item: 'mysticalagriculture:manyullyn_essence', count: 8 },
-    ],
-  });
-
-  createRFProcess({
-    outputId: 'mm:queens_slime_ingot_from_essence',
-    outputItem: 'tconstruct:queens_slime_ingot',
-    outputCount: 2,
-    inputs: [
-      { type: 'mm:item', item: 'mysticalagriculture:queens_slime_essence', count: 8 },
-    ],
-  });
-
-  createRFProcess({
-    outputId: 'mm:hepatizon_ingot_from_essence',
-    outputItem: 'tconstruct:hepatizon_ingot',
-    outputCount: 2,
-    inputs: [
-      { type: 'mm:item', item: 'mysticalagriculture:hepatizon_essence', count: 8 },
     ],
   });
 

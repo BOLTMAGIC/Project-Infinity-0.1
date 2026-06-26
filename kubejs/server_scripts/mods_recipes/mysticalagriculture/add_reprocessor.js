@@ -23,9 +23,6 @@ ServerEvents.recipes((event) => {
   const seeds = [
     'mysticalagriculture:basalt_seeds',
     'mysticalagriculture:marble_seeds',
-    'mysticalagriculture:hepatizon_seeds',
-    'mysticalagriculture:slimesteel_seeds',
-    'mysticalagriculture:amethyst_bronze_seeds',
     'mysticalagriculture:menril_seeds',
   ]
 

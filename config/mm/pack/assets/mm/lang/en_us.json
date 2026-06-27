@@ -29,6 +29,7 @@
   "block.mm.gigantic_fluid_port_output": "Gigantic Fluid Port Output",
   "block.mm.gigantic_item_port_input": "Gigantic Item Port Input",
   "block.mm.gigantic_item_port_output": "Gigantic Item Port Output",
+  "block.mm.infinity_cell_factory_controller": "Infinity Cell Factory Controller",
   "block.mm.infinity_crucible_controller": "Infinity Crucible Controller",
   "block.mm.loot_fabrication_plant_controller": "Loot Fabrication Plant Controller",
   "block.mm.mechanical_empowerer_controller": "Mechanical Empowerer Controller",

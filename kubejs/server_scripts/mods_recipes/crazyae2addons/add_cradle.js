@@ -54,4 +54,34 @@ ServerEvents.recipes((event) => {
       },
     })
     .id('kubejs:ae2/crazy_entropy_cradle/spawner_extractor_controller');
+
+  //CompactMachines Maxmium Block
+  event
+    .custom({
+      type: 'crazyae2addons:cradle',
+      result_block: 'compactmachines:machine_maximum',
+      preview_nbt: 'kubejs:compactmachines_maximum_structure.nbt',
+      pattern: {
+        symbols: {
+          A: ['evolvedmekanism:block_alloy_singular'],
+          B: ['extendedcrafting:enhanced_ender_ingot_block'],
+          C: ['kubejs:spectrum_alloy_block'],
+          D: ['enderio:vibrant_alloy_block'],
+          E: ['mysticalagradditions:insanium_ingot_block'],
+          F: ['compactmachines:wall'],
+          G: ['ae2:fluix_block'],
+          H: ['justdirethings:eclipsealloy_block'],
+          I: ['kubejs:compressed_slate'],
+          J: ['kubejs:empowered_super_block'],
+        },
+        layers: [
+          ['A B B B A', 'B D E D B', 'B E D E B', 'B D E D B', 'A B B B A'],
+          ['F F F F F', 'F G G G F', 'F G G G F', 'F G G G F', 'F F F F F'],
+          ['F F F F F', 'F H I H F', 'F I J I F', 'F H I H F', 'F F F F F'],
+          ['F F F F F', 'F G G G F', 'F G G G F', 'F G G G F', 'F F F F F'],
+          ['C B B B C', 'B D E D B', 'B E D E B', 'B D E D B', 'C B B B C'],
+        ],
+      },
+    })
+    .id('kubejs:ae2/crazy_entropy_cradle/compactmachines_maximum');
 });

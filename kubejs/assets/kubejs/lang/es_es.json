@@ -1,0 +1,406 @@
+{
+  "project_infinity_01.version": "0.0.50.2",
+  "item.kubejs.zahraanite": "Zahraanita",
+  "item.kubejs.ultimate_gem": "§dGema Definitiva",
+  "item.kubejs.ultimate_prediction": "§dPredicción Definitiva",
+  "item.kubejs.ultimate_vanilla_prediction": "§dPredicción Definitiva Vanilla", // Added line
+  "item.kubejs.ultimate_boss_prediction": "§dPredicción Definitiva de Jefes", // Added line
+  "item.kubejs.ultimate_misc_prediction": "§dPredicción Definitiva Variada", // Added line
+  "item.kubejs.allthemodium_mesh": "§6Malla de Allthemodium",
+  "item.kubejs.vibranium_mesh": "§aMalla de Vibranium",
+  "item.kubejs.left_dragon_heart": "§aCorazón de Dragón Izquierdo",
+  "item.kubejs.right_dragon_heart": "§aCorazón de Dragón Derecho",
+  "item.kubejs.ultimate_heart": "§dCorazón Definitivo",
+  "item.kubejs.wither_heart": "§7Corazón de Wither",
+  "item.kubejs.warden_heart": "§1Corazón de Warden",
+  "item.kubejs.creeper_heart": "§2Corazón de Creeper",
+  "item.kubejs.blaze_heart": "§6Corazón de Blaze",
+  "item.kubejs.compressed_warden_tendril": "Warden Tendril Comprimida", // Added line
+
+  "item.kubejs.infinity_1": "Infinito 1",
+  "item.kubejs.infinity_1_333333": "Infinito 1.333333",
+  "item.kubejs.infinity_1_666666": "Infinito 1.666666",
+  "item.kubejs.infinity_1_999999": "Infinito 1.999999",
+  "item.kubejs.infinity_2": "Infinito 2",
+  "item.kubejs.infinity_3": "Infinito 3",
+  "item.kubejs.infinity_4": "Infinito 4",
+  "item.kubejs.infinity_5": "Infinito 5",
+  "item.kubejs.infinity_6": "Infinito 6",
+  "item.kubejs.infinity_7": "Infinito 7",
+  "item.kubejs.infinity_8": "Infinito 8",
+  "item.kubejs.infinity_9": "Infinito 9",
+  "item.kubejs.infinity_10": "Infinito 10",
+  "item.kubejs.infinity_11": "Infinito 11",
+  "item.kubejs.infinity_12": "Infinito 12",
+
+  "item.kubejs.arcmetal_ingot": "Lingote de Arcmetal",
+  "item.kubejs.azure_electrum_ingot": "Lingote de Electrum Azur",
+  "item.kubejs.azure_silver_ingot": "Lingote de Plata Azur",
+  "item.kubejs.blaze_gold_ingot": "Lingote de Oro de Blaze",
+  "item.kubejs.bunny_steel_ingot": "Lingote de Acero de Conejo",
+  "item.kubejs.crimson_iron_ingot": "Lingote de Hierro Carmesí",
+  "item.kubejs.crimson_steel_ingot": "Lingote de Acero Carmesí",
+  "item.kubejs.crystalline_alloy": "Aleación Cristalina",
+  "item.kubejs.midnight_iron_ingot": "Lingote de Hierro de Medianoche",
+  "item.kubejs.plasteel_ingot": "Lingote de Plasteel",
+  "item.kubejs.solarmetal_ingot": "Lingote de Solarmetal",
+  "item.kubejs.tyrian_steel_ingot": "Lingote de Acero de Tiro",
+  "item.kubejs.voidmetal_ingot": "Lingote de Voidmetal",
+  "item.kubejs.sculk_alloy_ingot": "Lingote de Aleación de Sculk",
+
+  "item.kubejs.azure_electrum_dust": "Polvo de Electrum Azur",
+  "item.kubejs.azure_silver_dust": "Polvo de Plata Azur",
+  "item.kubejs.blaze_gold_dust": "Polvo de Oro de Blaze",
+  "item.kubejs.crimson_iron_dust": "Polvo de Hierro Carmesí",
+  "item.kubejs.crimson_steel_dust": "Polvo de Acero Carmesí",
+  "item.kubejs.starmetal_dust": "Polvo de Starmetal",
+  "item.kubejs.tyrian_steel_dust": "Polvo de Acero de Tiro",
+
+  "item.kubejs.raw_arcmetal": "Arcmetal en Bruto",
+  "item.kubejs.raw_plasteel": "Plasteel en Bruto",
+  "item.kubejs.raw_solarmetal": "Solarmetal en Bruto",
+  "item.kubejs.raw_voidmetal": "Voidmetal en Bruto",
+
+  "item.kubejs.starmetal_ingot": "Lingote de Starmetal",
+
+  "item.kubejs.fire_ingot": "Lingote de Fuego", // Added line
+  "item.kubejs.air_ingot": "Lingote de Aire", // Added line
+  "item.kubejs.water_ingot": "Lingote de Agua", // Added line
+  "item.kubejs.earth_ingot": "Lingote de Tierra", // Added line
+  "item.kubejs.element_ingot": "Lingote Elemental", // Added line
+
+  "item.kubejs.apotheotic_coin": "Moneda Apoteótica",
+  "item.kubejs.infused_coin": "Moneda Infusionada",
+  "item.kubejs.ascended_coin": "Moneda Ascendida",
+  "item.kubejs.azure_silver_ore_chunk": "Fragmento de Mineral de Plata Azur",
+
+  "item.kubejs.tier1_crafting_seed": "§aSemilla de Fabricación Nivel 1",
+  "item.kubejs.tier2_crafting_seed": "§2Semilla de Fabricación Nivel 2",
+  "item.kubejs.tier3_crafting_seed": "§6Semilla de Fabricación Nivel 3",
+  "item.kubejs.tier4_crafting_seed": "§9Semilla de Fabricación Nivel 4",
+  "item.kubejs.tier5_crafting_seed": "§4Semilla de Fabricación Nivel 5",
+  "item.kubejs.tier6_crafting_seed": "§5Semilla de Fabricación Nivel 6",
+
+  "item.kubejs.tier1_super_essence": "§aSuperesencia Nivel 1",
+  "item.kubejs.tier2_super_essence": "§2Superesencia Nivel 2",
+  "item.kubejs.tier3_super_essence": "§6Superesencia Nivel 3",
+  "item.kubejs.tier4_super_essence": "§9Superesencia Nivel 4",
+  "item.kubejs.tier5_super_essence": "§4Superesencia Nivel 5",
+  "item.kubejs.tier6_super_essence": "§5Superesencia Nivel 6",
+  "item.kubejs.infinity_essence": "§dEsencia de Infinito",
+
+  "item.kubejs.chaotic_essence": "§5Esencia Caótica",
+  "item.kubejs.chaos_guardian_prediction": "§5Predicción del Guardián del Caos",
+
+  "item.kubejs.efficiency_addon_1": "Módulo de Eficiencia 1 (Objeto Ficticio)",
+  "item.kubejs.efficiency_addon_2": "Módulo de Eficiencia 2 (Objeto Ficticio)",
+  "item.kubejs.efficiency_addon_3": "Módulo de Eficiencia 3 (Objeto Ficticio)",
+  "item.kubejs.efficiency_addon_4": "Módulo de Eficiencia 4 (Objeto Ficticio)",
+  "item.kubejs.efficiency_addon_5": "Módulo de Eficiencia 5 (Objeto Ficticio)",
+  "item.kubejs.processing_addon_1": "Módulo de Procesamiento 1 (Objeto Ficticio)",
+  "item.kubejs.processing_addon_2": "Módulo de Procesamiento 2 (Objeto Ficticio)",
+  "item.kubejs.processing_addon_3": "Módulo de Procesamiento 3 (Objeto Ficticio)",
+  "item.kubejs.processing_addon_4": "Módulo de Procesamiento 4 (Objeto Ficticio)",
+  "item.kubejs.processing_addon_5": "Módulo de Procesamiento 5 (Objeto Ficticio)",
+  "item.kubejs.speed_addon_1": "Módulo de Velocidad 1 (Objeto Ficticio)",
+  "item.kubejs.speed_addon_2": "Módulo de Velocidad 2 (Objeto Ficticio)",
+  "item.kubejs.speed_addon_3": "Módulo de Velocidad 3 (Objeto Ficticio)",
+  "item.kubejs.speed_addon_4": "Módulo de Velocidad 4 (Objeto Ficticio)",
+  "item.kubejs.speed_addon_5": "Módulo de Velocidad 5 (Objeto Ficticio)",
+
+  "item.kubejs.wyvern_sword": "Espada Guiverno (Objeto Ficticio)", // Added line
+  "item.kubejs.wyvern_pickaxe": "Pico Guiverno (Objeto Ficticio)", // Added line
+  "item.kubejs.wyvern_axe": "Hacha Guiverno (Objeto Ficticio)", // Added line
+  "item.kubejs.wyvern_shovel": "Pala Guiverno (Objeto Ficticio)", // Added line
+  "item.kubejs.wyvern_hoe": "Azada Guiverno (Objeto Ficticio)", // Added line
+  "item.kubejs.wyvern_bow": "Arco Guiverno (Objeto Ficticio)", // Added line
+  "item.kubejs.wyvern_capacitor": "Condensador Guiverno (Objeto Ficticio)", // Added line
+  "item.kubejs.wyvern_chestpiece": "Peto Guiverno (Objeto Ficticio)", // Added line
+  "item.kubejs.wyvern_necklace": "Colgante Guiverno (Objeto Ficticio)", // Added line
+  "item.kubejs.draconic_sword": "Espada Dracónica (Objeto Ficticio)", // Added line
+  "item.kubejs.draconic_pickaxe": "Pico Dracónico (Objeto Ficticio)", // Added line
+  "item.kubejs.draconic_axe": "Hacha Dracónica (Objeto Ficticio)", // Added line
+  "item.kubejs.draconic_shovel": "Pala Dracónica (Objeto Ficticio)", // Added line
+  "item.kubejs.draconic_hoe": "Azada Dracónica (Objeto Ficticio)", // Added line
+  "item.kubejs.draconic_bow": "Arco Dracónico (Objeto Ficticio)", // Added line
+  "item.kubejs.draconic_staff": "Bastón Dracónico (Objeto Ficticio)", // Added line
+  "item.kubejs.draconic_capacitor": "Condensador Dracónico (Objeto Ficticio)", // Added line
+  "item.kubejs.draconic_chestpiece": "Peto Dracónico (Objeto Ficticio)", // Added line
+  "item.kubejs.draconic_necklace": "Colgante Dracónico (Objeto Ficticio)", // Added line
+  "item.kubejs.chaotic_sword": "Espada Caótica (Objeto Ficticio)", // Added line
+  "item.kubejs.chaotic_pickaxe": "Pico Caótico (Objeto Ficticio)", // Added line
+  "item.kubejs.chaotic_axe": "Hacha Caótica (Objeto Ficticio)", // Added line
+  "item.kubejs.chaotic_shovel": "Pala Caótica (Objeto Ficticio)", // Added line
+  "item.kubejs.chaotic_hoe": "Azada Caótica (Objeto Ficticio)", // Added line
+  "item.kubejs.chaotic_bow": "Arco Caótico (Objeto Ficticio)", // Added line
+  "item.kubejs.chaotic_staff": "Bastón Caótico (Objeto Ficticio)", // Added line
+  "item.kubejs.chaotic_capacitor": "Condensador Caótico (Objeto Ficticio)", // Added line
+  "item.kubejs.chaotic_necklace": "Colgante Caótico (Objeto Ficticio)", // Added line
+  "item.kubejs.chaotic_chestpiece": "Peto Caótico (Objeto Ficticio)", // Added line
+  "item.kubejs.creative_capacitor": "Condensador Creativo (Objeto Ficticio)", // Added line
+
+  "item.kubejs.full_battery_nitro": "Batería llena (Nitro) (Objeto Ficticio)", // Added line
+  "item.kubejs.empty_battery_nitro": "Batería vacía (Nitro) (Objeto Ficticio)", // Added line
+
+  "item.kubejs.filled_witch_soul_vial": "Frasco de alma de Bruja lleno (Objeto Ficticio)", // Added line
+  "item.kubejs.filled_enderman_soul_vial": "Frasco de alma de Enderman lleno (Objeto Ficticio)", // Added line
+  "item.kubejs.filled_shulker_soul_vial": "Frasco de alma de Shulker lleno (Objeto Ficticio)", // Added line
+  "item.kubejs.filled_zombie_soul_vial": "Frasco de alma de Zombie lleno (Objeto Ficticio)", // Added line
+  "item.kubejs.filled_villager_soul_vial": "Frasco de alma de Aldeano lleno (Objeto Ficticio)", // Added line
+
+  "item.kubejs.full_nbt_remover": "Eliminador completo de nbt", // Added line
+  "item.kubejs.tank_nbt_remover": "Eliminador nbt de tanque", // Added line
+
+  "item.kubejs.nuclearcraft_copy_paste_tool": "Herramienta de copiar y pegar de Nuclearcraft", // Added line
+
+  "item.kubejs.universal_wireless_terminal_uncrafter": "Uncrafter de terminal inalámbrico universal", // Added line
+
+  "item.kubejs.extra_data_model_uncrafter": "Uncrafter de modelo de datos adicionales", // Added line
+
+  "item.kubejs.compressed_enriched_redstone": "Redstone enriquecido comprimido", // Added line
+  "item.kubejs.double_compressed_enriched_redstone": "Redstone enriquecido doblemente comprimido", // Added line
+  "item.kubejs.compressed_enriched_carbon": "Carbón enriquecido comprimido", // Added line
+  "item.kubejs.double_compressed_enriched_carbon": "Carbón enriquecido doblemente comprimido", // Added line
+  "item.kubejs.compressed_enriched_diamond": "Diamante enriquecido comprimido", // Added line
+  "item.kubejs.double_compressed_enriched_diamond": "Diamante enriquecido doblemente comprimido", // Added line
+  "item.kubejs.compressed_enriched_refined_obsidian": "Obsidiana refinada enriquecida comprimida", // Added line
+  "item.kubejs.double_compressed_enriched_refined_obsidian": "Obsidiana refinada enriquecida doblemente comprimida", // Added line
+  "item.kubejs.compressed_enriched_uranium": "Uranio enriquecido comprimido", // Added line
+  "item.kubejs.double_compressed_enriched_uranium": "Uranio enriquecido doblemente comprimido", // Added line
+  "item.kubejs.compressed_enriched_better_gold": "Mejor Oro enriquecido comprimido", // Added line
+  "item.kubejs.double_compressed_enriched_better_gold": "Mejor Oro enriquecido doblemente comprimido", // Added line
+  "item.kubejs.compressed_enriched_plaslitherite": "Plastiterita enriquecida comprimida", // Added line
+  "item.kubejs.double_compressed_enriched_plaslitherite": "Plastiterita enriquecida doblemente comprimida", // Added line
+  "item.kubejs.compressed_enriched_radiance": "Resplandor enriquecido comprimido", // Added line
+  "item.kubejs.double_compressed_enriched_radiance": "Resplandor enriquecido doblemente comprimido", // Added line
+  "item.kubejs.compressed_enriched_thermonuclear": "Termonuclear enriquecido comprimido", // Added line
+  "item.kubejs.double_compressed_enriched_thermonuclear": "Termonuclear enriquecido doblemente comprimido", // Added line
+  "item.kubejs.compressed_enriched_shining": "Brillante enriquecido comprimido", // Added line
+  "item.kubejs.double_compressed_enriched_shining": "Brillante enriquecido doblemente comprimido", // Added line
+  "item.kubejs.compressed_enriched_spectrum": "Espectro enriquecido comprimido", // Added line
+  "item.kubejs.double_compressed_enriched_spectrum": "Espectro enriquecido doblemente comprimido", // Added line
+
+  "block.kubejs.compressed_block_of_gunpowder": "Bloque de Pólvora Comprimida",
+  "block.kubejs.infinity_8_block": "Bloque de Infinito 8",
+  "block.kubejs.infinity_9_block": "Bloque de Infinito 9",
+  "block.kubejs.infinity_10_block": "Bloque de Infinito 10", // Added line
+  "block.kubejs.infinity_10_1_block": "Bloque de Infinito 10.1", // Added line
+  "block.kubejs.infinity_10_2_block": "Bloque de Infinito 10.2", // Added line
+  "block.kubejs.infinity_11_block": "Bloque de Infinito 11", // Added line
+  "block.kubejs.compressed_slate": "Pizarra Comprimida",
+  "block.kubejs.double_compressed_slate": "Pizarra Doble Comprimida",
+  "block.kubejs.compressed_hellforgedparts": "Piezas forjadas en el infierno Comprimida", // Added line
+  "block.kubejs.double_compressed_iron_block": "Bloque de Hierro Doble Comprimido",
+  "block.kubejs.radiance_alloy_block": "Bloque de Aleación Radiante",
+  "block.kubejs.thermonuclear_alloy_block": "Bloque de Aleación Termonuclear",
+  "block.kubejs.shining_alloy_block": "Bloque de Aleación Brillante",
+  "block.kubejs.spectrum_alloy_block": "Bloque de Aleación del Espectro",
+  "block.kubejs.triple_compressed_iron_block": "Bloque de Hierro Triple Comprimido",
+  "block.kubejs.pink_slime_block": "Bloque de Slime Rosa",
+  "block.kubejs.compressed_glass": "Vidrio Comprimido",
+
+  "block.kubejs.chaotic_essence_block": "§5Bloque de Esencia Caótica",
+  "block.kubejs.starmetal_block": "§1Bloque de Starmetal",
+  "block.kubejs.empowered_super_block": "§dSuperbloque Potenciado",
+  "block.kubejs.auto_mechanical_sieve": "Tamiz Mecánico Automático",
+  "block.kubejs.fake_mob_masher": "Aplastador de mob Falso", // Added line
+
+  "block.kubejs.block_of_en_iron": "Bloque de Hierro Mejorado", // Added line
+  "block.kubejs.block_of_en_gold": "Bloque de Oro Mejorado", // Added line
+  "block.kubejs.block_of_en_diamond": "Bloque de Diamante Mejorado", // Added line
+  "block.kubejs.block_of_en_netherite": "Bloque de Netherita Mejorada", // Added line
+
+  "block.kubejs.ferroboron_block": "Bloque de Ferroboron", // Added line
+  "block.kubejs.hard_carbon_block": "Bloque de Oro Mejorado", // Added line
+  "block.kubejs.extreme_block": "Bloque de Carbón Duro", // Added line
+  "block.kubejs.tough_alloy_block": "Bloque de Aleación Resistente", // Added line
+
+  "block.kubejs.arcmetal_block": "Bloque de Arcmetal",
+  "block.kubejs.azure_electrum_block": "Bloque de Electrum Azur",
+  "block.kubejs.azure_silver_block": "Bloque de Plata Azur",
+  "block.kubejs.blaze_gold_block": "Bloque de Oro de Blaze",
+  "block.kubejs.bunny_steel_block": "Bloque de Acero de Conejo",
+  "block.kubejs.midnight_iron_block": "Bloque de Hierro de Medianoche",
+  "block.kubejs.plasteel_block": "Bloque de Plasteel",
+  "block.kubejs.sculk_alloy_block": "Bloque de Aleación de Sculk",
+  "block.kubejs.solarmetal_block": "Bloque de Solarmetal",
+  "block.kubejs.voidmetal_block": "Bloque de Voidmetal",
+
+  "block.kubejs.arcmetal_ore": "Mineral de Arcmetal",
+  "block.kubejs.azure_silver_ore": "Mineral de Plata Azur",
+  "block.kubejs.plasteel_ore": "Mineral de Plasteel",
+  "block.kubejs.solarmetal_ore": "Mineral de Solarmetal",
+  "block.kubejs.voidmetal_ore": "Mineral de Voidmetal",
+
+  "fluid.kubejs.molten_basalz": "Basalz Fundido",
+  "fluid.kubejs.molten_blizz": "Blizz Fundido",
+  "fluid.kubejs.molten_blitz": "Blitz Fundido",
+
+  "item.enderio.conductive_conduit": "Conducto de Energía de Aleación Conductiva",
+  "item.enderio.energetic_conduit": "Conducto de Energía de Aleación Energética",
+  "item.enderio.vibrant_conduit": "Conducto de Energía de Aleación Vibrante",
+  "item.enderio.endsteel_conduit": "Conducto de Energía de Acero del End",
+  "item.enderio.lumium_conduit": "Conducto de Energía de Lumium",
+  "item.enderio.signalum_conduit": "Conducto de Energía de Signalum",
+  "item.enderio.enderium_conduit": "Conducto de Energía de Enderium",
+
+  "item.kubejs.fake_mob_masher": "Por favor, no mires la textura. Este es un objeto ficticio usado para evitar un crasheo.",
+
+  "singularity.extendedcrafting.abyssal_ingot": "Lingote Abisal",
+  "singularity.extendedcrafting.allthemodium_ingot": "Lingote de Allthemodium",
+  "singularity.extendedcrafting.awakened_draconium_ingot": "Lingote de Draconium Despertado",
+  "singularity.extendedcrafting.awakened_supremium_ingot": "Lingote de Supremium Despertado",
+  "singularity.extendedcrafting.black_iron_ingot": "Lingote de Hierro Negro",
+  "singularity.extendedcrafting.brass_ingot": "Lingote de Latón",
+  "singularity.extendedcrafting.crystal_matrix_ingot": "Lingote de Matriz Cristalina",
+  "singularity.extendedcrafting.dark_metal_ingot": "Lingote de Metal Oscuro",
+  "singularity.extendedcrafting.dimensional_ingot": "Lingote Dimensional",
+  "singularity.extendedcrafting.draconium_ingot": "Lingote de Draconium",
+  "singularity.extendedcrafting.dragonsteel_ingot": "Lingote de Acero de Dragón",
+  "singularity.extendedcrafting.elementium_ingot": "Lingote de Elementium",
+  "singularity.extendedcrafting.enderium_ingot": "Lingote de Enderium",
+  "singularity.extendedcrafting.ender_ingot": "Lingote de Ender",
+  "singularity.extendedcrafting.end_steel_ingot": "Lingote de Acero del End",
+  "singularity.extendedcrafting.enhanced_ender_ingot": "Lingote de Ender Mejorado",
+  "singularity.extendedcrafting.enhanced_gold_ingot": "Lingote de Oro Mejorado",
+  "singularity.extendedcrafting.enhanced_iron_ingot": "Lingote de Hierro Mejorado",
+  "singularity.extendedcrafting.enhanced_netherite_ingot": "Lingote de Netherite Mejorado",
+  "singularity.extendedcrafting.ethereal_spirit": "Espíritu Etéreo",
+  "singularity.extendedcrafting.extreme_ingot": "Lingote Extremo",
+  "singularity.extendedcrafting.fiery_ingot": "Lingote Ígneo",
+  "singularity.extendedcrafting.flux_ingot": "Lingote de Flux",
+  "singularity.extendedcrafting.gunpowder": "Pólvora",
+  "singularity.extendedcrafting.imperium_ingot": "Lingote de Imperium",
+  "singularity.extendedcrafting.inferium_ingot": "Lingote de Inferium",
+  "singularity.extendedcrafting.iron_compressed_ingot": "Lingote de Hierro Comprimido",
+  "singularity.extendedcrafting.osmium_ingot": "Lingote de Osmio",
+  "singularity.extendedcrafting.refined_glowstone_ingot": "Lingote de Piedra Luminosa Refinada",
+  "singularity.extendedcrafting.refined_obsidian_ingot": "Lingote de Obsidiana Refinada",
+  "singularity.extendedcrafting.iridium_ingot": "Lingote de Iridio",
+  "singularity.extendedcrafting.ironwood_ingot": "Lingote de Madera Férrea",
+  "singularity.extendedcrafting.knightmetal_ingot": "Lingote de Metal de Caballero",
+  "singularity.extendedcrafting.lapis_lazuli": "Lapislázuli",
+  "singularity.extendedcrafting.lithium_ingot": "Lingote de Litio",
+  "singularity.extendedcrafting.lumium_ingot": "Lingote de Lumium",
+  "singularity.extendedcrafting.manasteel_ingot": "Lingote de Manasteel",
+  "singularity.extendedcrafting.manyullyn_ingot": "Lingote de Manyullyn",
+  "singularity.extendedcrafting.netherite_diamond_ingot": "Lingote de Diamante de Netherite",
+  "singularity.extendedcrafting.netherite_emerald_ingot": "Lingote de Esmeralda de Netherite",
+  "singularity.extendedcrafting.netherite_gold_ingot": "Lingote de Oro de Netherite",
+  "singularity.extendedcrafting.netherite_ingot": "Lingote de Netherite",
+  "singularity.extendedcrafting.netherite_iron_ingot": "Lingote de Hierro de Netherite",
+  "singularity.extendedcrafting.pink_slime_ingot": "Lingote de Slime Rosa",
+  "singularity.extendedcrafting.prismalium_ingot": "Lingote de Prismalium",
+  "singularity.extendedcrafting.prosperity_ingot": "Lingote de Prosperidad",
+  "singularity.extendedcrafting.prudentium_ingot": "Lingote de Prudentium",
+  "singularity.extendedcrafting.redstone_alloy_ingot": "Lingote de Aleación de Redstone",
+  "singularity.extendedcrafting.redstone_ingot": "Lingote de Redstone",
+  "singularity.extendedcrafting.rose_gold_ingot": "Lingote de Oro Rosa",
+  "singularity.extendedcrafting.sculk_alloy_ingot": "Lingote de Aleación de Sculk",
+  "singularity.extendedcrafting.shellite_ingot": "Lingote de Shellite",
+  "singularity.extendedcrafting.signalum_ingot": "Lingote de Signalum",
+  "singularity.extendedcrafting.sky_steel_ingot": "Lingote de Acero Celestial",
+  "singularity.extendedcrafting.soulium_ingot": "Lingote de Soulium",
+  "singularity.extendedcrafting.soul_infused_ingot": "Lingote de Alma Infusionada",
+  "singularity.extendedcrafting.stainless_steel_ingot": "Lingote de Acero Inoxidable",
+  "singularity.extendedcrafting.supremium_ingot": "Lingote de Supremium",
+  "singularity.extendedcrafting.tertium_ingot": "Lingote de Tertium",
+  "singularity.extendedcrafting.tough_alloy_ingot": "Lingote de Aleación Resistente",
+  "singularity.extendedcrafting.twinite_ingot": "Lingote de Twinite",
+  "singularity.extendedcrafting.unobtainium_allthemodium_ingot": "Lingote de Unobtainium Allthemodium",
+  "singularity.extendedcrafting.unobtainium_ingot": "Lingote de Unobtainium",
+  "singularity.extendedcrafting.unobtainium_vibranium_ingot": "Lingote de Unobtainium Vibranium",
+  "singularity.extendedcrafting.vibranium_ingot": "Lingote de Vibranium",
+
+  "tooltip.avaritia.infinity_tools": "Puedes hacer clic derecho sobre mí.",
+
+  "tooltip.nuclearcraft.water_collector": "%s mB cada 2 seg. Pon este objeto dentro de la Bomba (Nuclearcraft). Puedes mejorar la velocidad y la energía.",
+
+  "tooltip.allthemodium.upgrade": "Encuéntrame en los cofres de las Ciudades Antiguas. 2.5% de probabilidad.",
+
+  "tooltip.enderio.conduit_transfer": "Valor de Transferencia de Energía: %s RF/t",
+
+  "tooltip.kubejs.texture_credit": "La textura es de %s. ¡Muchas gracias!",
+  "tooltip.kubejs.infinity_9_1": "¡Necesitas 8 Bloques de Infinito para investigarme!",
+  "tooltip.kubejs.infinity_9_2": "¡Mantén G en la estación de investigación para ver los valores de Computación!",
+
+  "tooltip.kubejs.infinity_10": "Colócame en el Mundo Superior junto a un Goo Nivel 2 (o superior) y espera.",
+  "tooltip.kubejs.infinity_10_1": "Colócame en el Nether junto a un Goo Nivel 3 (o superior) y espera.",
+  "tooltip.kubejs.infinity_10_2": "Colócame en el End junto a un Goo Nivel 4 y espera.",
+
+  "tooltip.mm.item_port": "Tamaño de Inventario: %s = %s Espacios",
+  "tooltip.mm.item_port_1": "Tamaño de Inventario: 1x1 = 1 Espacio",
+  "tooltip.mm.item_port2": "Objetos por Espacio: %s",
+  "tooltip.mm.item_port3": "Objetos por Espacio: %s",
+  "tooltip.mm.item_port4": "Objetos por Espacio: %s",
+  "tooltip.mm.item_port5": "NUNCA rompas este bloque si está lleno. Crasheará tu juego porque contiene 1.5 millones de objetos.",
+  "tooltip.mm.fluid_port": "Capacidad del Tanque: %s mB",
+  "tooltip.mm.energy_port": "Capacidad de Energía: %s FE, Entrada Máx: %s FE/t, Salida Máx: %s FE/t",
+  "tooltip.mm.energy_port_gigantic": "Capacidad de Energía / Entrada y Salida Máx: %s FE",
+  "tooltip.mm.gas_port": "Capacidad de Gas: %s mB",
+  "tooltip.mm.controller_refund": "Recuperarás la Piedra Filosofal y el Cristal de Infusión Maestro. No se consumen.",
+
+  "tooltip.compactmachines.info": "Introduce vapor de Mekanism para generar RF. Hasta 83M RF/t.",
+
+  "tooltip.general.hold": "Mantén ",
+  "tooltip.general.shift": "Shift",
+  "tooltip.general.more_info": "para ver más información.",
+
+  "tooltip.avaritia.neutron": "¡Construye un Recolector de Neutrones. Buena suerte!",
+  "tooltip.mekanism_extras.naquadah": "Encuéntrame en el End cerca del vacío o en la Dimensión de Minería del End, nivel Y -30 a -60. Muy raro.",
+  "tooltip.mbtool.usage_1": "Shift + Clic derecho para abrir la interfaz.",
+  "tooltip.mbtool.usage_2": "Shift + Rueda del ratón para rotar la vista previa del Multibloque.",
+  "tooltip.armorplus.lava_crystal": "Tírame a la Lava para obtener el Cristal de Lava Infusionado.",
+  "tooltip.armorplus.frost_crystal_1": "Tírame al suelo y usa \"Trueno Grabado\" o \"Cuchillo de Rayo\" (1 solo uso) para obtener el Cristal de Escarcha Infusionado.",
+  "tooltip.armorplus.frost_crystal_2": "O lanza un Tridente a un mob con Canalización durante una tormenta. O usa el Empoderador Mecánico.",
+  "tooltip.kubejs.ore_mining_dim": "Encuéntrame dentro de la Dimensión de Minería.",
+  "tooltip.born_in_chaos.chaos_component": "Mesa de Pociones / Soporte para Pociones --> 1 Semilla de Caos y 3 Frascos con Agua + 1 Polvo de Blaze.",
+  "tooltip.occultism.iesnium": "Encuéntrame en la Dimensión de Minería del Nether @JAMD. Nivel Y: desde Bedrock hasta 50.",
+  "tooltip.born_in_chaos.pumpkinhead": "Busca una Calabaza Maligna Infernal y haz clic derecho con un Elixir de Transmutación para invocar al Señor Cabeza de Calabaza.",
+
+  "tooltip.credit.recipe_added": "Receta añadida por %s. ¡Muchas gracias!",
+  "tooltip.credit.recipe_item_added": "Receta y Objeto añadidos por %s.",
+  "tooltip.credit.joke": "¡Muchas gracias! No me odies a mí, ódialo a él :)",
+
+  "tooltip.industrialforegoing.addon_warning": "Este es un objeto ficticio, úsalo para fabricar el complemento real o para mejorarlo.",
+
+  "tooltip.mythicbotany.wither_aconite_warning": "Si AE2 / RS no te deja autocraftearlo, fabrícalo a mano.",
+
+  "tooltip.ifeu.big_dissolution_chamber_warning_1": "No lo uses para crear objetos que tengan NBT, como los complementos que no son ficticios.",
+  "tooltip.ifeu.big_dissolution_chamber_warning_2": "Puede ser un poco difícil de usar con AE2 o RS. Intenta que los Patrones sean múltiplos de 64.",
+
+  "tooltip.kubejs.full_nbt_remover_1": "Si haces clic derecho con este objeto mirando a una Afiladora, el objeto en tu mano secundaria perderá sus datos NBT.",
+  "tooltip.kubejs.full_nbt_remover_2": "¡Ten mucho cuidado, no hay forma de restaurar los datos NBT perdidos!",
+
+  "tooltip.kubejs.tank_nbt_remover_1": "Combínalo con Tanques de Mekanism para eliminar sus datos NBT no deseados.",
+  "tooltip.kubejs.tank_nbt_remover_2": "Usa esto cuando AE2 / RS no te deje fabricar objetos con tanques aunque tengas los correctos.",
+
+  "tooltip.kubejs.nuclearcraft_copy_paste_tool_1": "Shift + Clic derecho en una máquina de Nuclearcraft para copiar ajustes y Mejoras.",
+  "tooltip.kubejs.nuclearcraft_copy_paste_tool_2": "Clic derecho en una máquina de Nuclearcraft para pegar ajustes y Mejoras.",
+
+  "tooltip.kubejs.compressed_material_warning": "Este objeto solo puede usarse en Fábricas de Infusión Nivel %s o superior.",
+
+  "tooltip.exdeorum.mesh_enchant_warning": "Solo se pueden añadir 2 niveles de encantamiento a este objeto.",
+
+  "tooltip.kubejs.wither_token": "Fabrícame usando un Modelo de Datos Autoconsciente.",
+  "tooltip.kubejs.wither_token_not_self_aware": "No fui fabricado con un Modelo de Datos Autoconsciente, transfórmame de vuelta en un Modelo de Datos.",
+  "tooltip.kubejs.wither_token_self_aware": "Fui fabricado usando un Modelo de Datos Autoconsciente.",
+
+  "tooltip.mekanism.absolute_fluid_tank_nuclearcraft_polonium": "Contengo Polonio de Nuclearcraft.",
+
+  "tooltip.bmaddon.blood_generator_1": "Generará 1M mb de Sangre/t. Usa 2.14 GRF/t.",
+  "tooltip.bmaddon.blood_generator_2": "Contiene 2.14G mb de Sangre.",
+
+  "tooltip.kubejs.universal_wireless_terminal_uncrafter_1": "Si haces clic derecho con este objeto mirando a una Afiladora,",
+  "tooltip.kubejs.universal_wireless_terminal_uncrafter_2": "recuperarás todas las Terminales Inalámbricas que estaban en la Terminal Inalámbrica Universal.",
+  "tooltip.kubejs.universal_wireless_terminal_uncrafter_3": "Fabricar este objeto eliminará todas las Tarjetas / Celdas de Vista / Singularidades en la Terminal Inalámbrica Universal.",
+
+  "tooltip.thermal.compost": "Consígueme poniendo plantas en un Compostador por Lotes.",
+
+  "tooltip.kubejs.extra_data_model_uncrafter_1": "Si haces clic derecho con este objeto mirando a una Afiladora,",
+  "tooltip.kubejs.extra_data_model_uncrafter_2": "recuperarás todos los Modelos de Datos Autoconscientes que estaban en el Modelo de Datos Extra.",
+  "tooltip.kubejs.extra_data_model_uncrafter_3": "Las recetas de fabricación muestran Modelos de Datos Extra con errores, no te preocupes, funcionará como se espera.",
+
+  "tooltip.outer_end.ancient_ice": "Encuéntrame en el bioma de Piscinas Primordiales.",
+  "tooltip.sanguine_networks.virtual_sacrificer": "Enlázame a un Altar de Sangre usando la Llave Inglesa del mismo mod."
+}

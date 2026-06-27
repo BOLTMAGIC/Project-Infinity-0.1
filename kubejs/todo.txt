@@ -8,7 +8,9 @@ LUMINOUS (Overworld/ Nether/ Beasts) and Mekanism FuryBorn in the Artifacts
 ----------
 changelog v. 0.0.51.0
 Mod Info:
-- 
+-
+- MODS ADDED:
+    - Compact Expansion (configurable) from MiniMaxi
 ----------
 - MODS REMOVED:
     - YTones (its discontinued, replaced with BetterBlockZ)
@@ -28,9 +30,14 @@ Recipe changes and fixes:
 - removed recipe for Tome of Knowledge
 - removed recipe for paradoxmachine
 - recipe change for Reaction Chamber
-- hidden ExtendedCraftin Auto tables from JEI
+- hidden ExtendedCrafting Auto tables from JEI
 - changed recipes for Legendary Table
 - changed recipes for Ultimate and Epic (need the table before to craft the next one) (small change)
+- disabled player module from modular routers
+- changed recipe for compact machines
+- changed recipe for entity ticker (before you needed 531 CU now you need 597) (26 crystal matrix blocks + 1 neutronium block) (thx to Iceuandfireu)
+- changed the recipes for curvy pipes (easier) (thx to alp CAKEEEEEEEEEEE)
+- added a new twilight forest gateway (needs a snow queen trophy)
 - 
 ----------
 Mod changes and fixes:

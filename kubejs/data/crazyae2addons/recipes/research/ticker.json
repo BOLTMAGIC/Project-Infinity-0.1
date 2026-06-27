@@ -4,11 +4,11 @@
       "energy_per_tick": 500,
       "gadget": true,
       "consumables": [
-        { "item": "botanicalextramachinery:aureate_ingot", "count": 32, "computation": 531 },
+        { "item": "botanicalextramachinery:aureate_ingot", "count": 32, "computation": 597 },
         { "item": "extendedcrafting:nether_star_block", "count": 64, "computation": 469 },
         { "item": "extendedcrafting:nether_star_block", "count": 64, "computation": 469 },
         { "item": "extendedcrafting:nether_star_block", "count": 64, "computation": 469 },
-        { "item": "botanicalextramachinery:aureate_ingot", "count": 32, "computation": 531 },
+        { "item": "botanicalextramachinery:aureate_ingot", "count": 32, "computation": 597 },
         { "item": "extendedcrafting:nether_star_block", "count": 64, "computation": 469 },
         { "item": "extendedcrafting:nether_star_block", "count": 64, "computation": 469 },
         { "item": "extendedcrafting:nether_star_block", "count": 64, "computation": 469 }

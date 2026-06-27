@@ -6,6 +6,7 @@
     "mm:essenceforge_controller",
     "mm:event_horizon_antimatter_synthesizer_controller",
     "mm:fire_attuned_controller",
+    "mm:infinity_cell_factory_controller",
     "mm:infinity_crucible_controller",
     "mm:loot_fabrication_plant_controller",
     "mm:mechanical_empowerer_controller",

@@ -172,7 +172,7 @@ ServerEvents.recipes((event) => {
     'justdirethings:eclipsealloy_ingot',
     'justdirethings:eclipsealloy_ingot',
   ]);
-  create3x3(event, 'justdirethings:eclipsealloy_helmet', [
+  create3x3(event, 'justdirethings:eclipsealloy_boots', [
     'justdirethings:eclipsealloy_ingot',
     'kubejs:infinity_1',
     'justdirethings:eclipsealloy_ingot',

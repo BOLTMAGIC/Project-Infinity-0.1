@@ -1,4 +1,4 @@
-// 1.20.1	2026-06-12T14:25:29.9656054	Loot Tables
+// 1.20.1	2026-06-27T13:59:27.3260448	Loot Tables
 9fdf7151e82498699c3950ae185e9dbb659b4078 data/mm/loot_tables/blocks/advanced_awakening_altar_controller.json
 ccf1aa2ca4c6307c261df07dee94e2c12475dbae data/mm/loot_tables/blocks/auto_crusher_controller.json
 f68253f0235bfc5d0979ebdd642ea96b410ece4f data/mm/loot_tables/blocks/auto_sieve_controller.json
@@ -29,6 +29,7 @@ eac9c1d31d587ec391ac0f9d64251ed7b2b9642e data/mm/loot_tables/blocks/gigantic_flu
 180da6bad76532a2e8dc034b304917e70650abc6 data/mm/loot_tables/blocks/gigantic_fluid_port_output.json
 ebbb5ada0437c177340bf341a5b84cdde5d80710 data/mm/loot_tables/blocks/gigantic_item_port_input.json
 ba6182052e675fb3420f01f4820b8dfbf4e8181c data/mm/loot_tables/blocks/gigantic_item_port_output.json
+a72b9cb1074d4adf37eb2ea3d67dbf7ac38cbfb2 data/mm/loot_tables/blocks/infinity_cell_factory_controller.json
 d45f2d2fe7d0e7263fd91203e36e2e4ebf199d63 data/mm/loot_tables/blocks/infinity_crucible_controller.json
 8782a09a59dd821932e703023b1f342c4fd92688 data/mm/loot_tables/blocks/loot_fabrication_plant_controller.json
 f21b571417baab55fc77f0edd33218f5d15062c4 data/mm/loot_tables/blocks/mechanical_empowerer_controller.json

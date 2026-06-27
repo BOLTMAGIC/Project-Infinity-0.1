@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "mm:block/infinity_cell_factory_controller",
+      "y": 270
+    },
+    "facing=north": {
+      "model": "mm:block/infinity_cell_factory_controller",
+      "y": 180
+    },
+    "facing=south": {
+      "model": "mm:block/infinity_cell_factory_controller"
+    },
+    "facing=west": {
+      "model": "mm:block/infinity_cell_factory_controller",
+      "y": 90
+    }
+  }
+}

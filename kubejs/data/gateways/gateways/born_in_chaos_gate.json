@@ -217,6 +217,15 @@
             "type": "gateways:entity_loot",
             "entity": "born_in_chaos_v1:lord_pumpkinhead",
             "rolls": 2
+        },
+        {
+            "type": "gateways:chanced",
+            "chance": 0.05,
+            "reward": {
+                "type": "gateways:command",
+                "command": "/give @p hostilenetworks:data_model{data_model:{data:54,id:\"hostilenetworks:born_in_chaos/lord_pumpkinhead\"}} 1",
+                "desc": "to get an advanced Lord Pumpkinhead data model"
+            }
         }
     ],
     "failures": []

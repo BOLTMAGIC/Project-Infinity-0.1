@@ -38,7 +38,7 @@ ServerEvents.recipes((event) => {
         'AAABAAA',
         'ACCBCCA',
         'ACDEDCA',
-        'BGEFGBB',
+        'BGEFEGB',
         'ACDEDCA',
         'ACCBCCA',
         'AAABAAA',

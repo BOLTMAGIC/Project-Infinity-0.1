@@ -266,6 +266,7 @@
   "tooltip.industrialforegoing.addon_warning": "This is a dummy item, use it to craft the actual addon or upgrade it.",
   
   "tooltip.mythicbotany.wither_aconite_warning": "If AE2 / RS doesn't let you autocraft it, craft it by hand.",
+  "tooltip.botanicalmachineryextra.wither_aconite_mana_storage": "If you use this Flower in a Greenhouse you need at least a Mana Storage (Tier 1) upgrade inside the Greenhouse. Otherwise it will not work.",
 
   "tooltip.ifeu.big_dissolution_chamber_warning_1": "Do not use to make items that have NBT such as the non-dummy addons.",
   "tooltip.ifeu.big_dissolution_chamber_warning_2": "Can be a bit dificult to work with when using AE2 or RS. Try making the Patterns a multiple of 64.",

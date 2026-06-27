@@ -57,9 +57,18 @@ ItemEvents.tooltip((event) => {
   event.add('kubejs:infinity_9', Text.translate('tooltip.kubejs.infinity_9_1'));
   event.add('kubejs:infinity_9', Text.translate('tooltip.kubejs.infinity_9_2'));
 
-  event.add('kubejs:infinity_10_block', Text.translate('tooltip.kubejs.infinity_10'));
-  event.add('kubejs:infinity_10_1_block', Text.translate('tooltip.kubejs.infinity_10_1'));
-  event.add('kubejs:infinity_10_2_block', Text.translate('tooltip.kubejs.infinity_10_2'));
+  event.add(
+    'kubejs:infinity_10_block',
+    Text.translate('tooltip.kubejs.infinity_10')
+  );
+  event.add(
+    'kubejs:infinity_10_1_block',
+    Text.translate('tooltip.kubejs.infinity_10_1')
+  );
+  event.add(
+    'kubejs:infinity_10_2_block',
+    Text.translate('tooltip.kubejs.infinity_10_2')
+  );
 
   // --- Master Machinery Ports Tooltips ---
 
@@ -105,20 +114,17 @@ ItemEvents.tooltip((event) => {
   );
 
   event.add(
-    [
-      'mm:titanic_item_port_input',
-      'mm:titanic_item_port_output',
-    ],
+    ['mm:titanic_item_port_input', 'mm:titanic_item_port_output'],
     Text.translate('tooltip.mm.item_port2', ['64'])
   );
-   event.add(
+  event.add(
     [
       'mm:compressed_titanic_item_port_input',
       'mm:compressed_titanic_item_port_output',
     ],
     Text.translate('tooltip.mm.item_port3', ['512'])
   );
-   event.add(
+  event.add(
     [
       'mm:super_compressed_titanic_item_port_input',
       'mm:super_compressed_titanic_item_port_output',
@@ -428,10 +434,15 @@ ItemEvents.tooltip((event) => {
   }
 
   // Wither Aconite Autocrafting Warning
-  event.add(
-    'mythicbotany:wither_aconite',
-    Text.translate('tooltip.mythicbotany.wither_aconite_warning')
-  );
+  event.addAdvanced(['mythicbotany:wither_aconite'], (item, advanced, text) => {
+    text.add(1, Text.translate('tooltip.mythicbotany.wither_aconite_warning'));
+    text.add(
+      2,
+      Text.translate(
+        'tooltip.botanicalmachineryextra.wither_aconite_mana_storage'
+      ).red()
+    );
+  });
 
   event.addAdvanced(
     ['ifeu:big_dissolution_chamber'],

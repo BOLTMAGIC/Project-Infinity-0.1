@@ -1,0 +1,106 @@
+{
+    "size": "large",
+    "color": "#00e1ff",
+    "rules": {
+        "allow_discarding": true,
+        "player_damage_only": true
+    },
+    "waves": [
+        {
+            "entities": [
+                {
+                    "entity": "twilightforest:naga",
+                    "count": 1
+                }
+            ],
+            "rewards": [],
+            "max_wave_time": 8000,
+            "setup_time": 300
+        },
+        {
+            "entities": [
+                {
+                    "entity": "twilightforest:lich",
+                    "count": 1
+                }
+            ],
+            "rewards": [],
+            "max_wave_time": 8000,
+            "setup_time": 300
+        },
+        {
+            "entities": [
+                {
+                    "entity": "twilightforest:minoshroom",
+                    "count": 1
+                }
+            ],
+            "rewards": [],
+            "max_wave_time": 8000,
+            "setup_time": 300
+        },
+        {
+            "entities": [
+                {
+                    "entity": "twilightforest:hydra",
+                    "count": 1
+                }
+            ],
+            "rewards": [],
+            "max_wave_time": 8000,
+            "setup_time": 300
+        },
+        {
+            "entities": [
+                {
+                    "entity": "twilightforest:knight_phantom",
+                    "count": 1
+                }
+            ],
+            "rewards": [],
+            "max_wave_time": 8000,
+            "setup_time": 300
+        },
+        {
+            "entities": [
+                {
+                    "entity": "twilightforest:ur_ghast",
+                    "count": 1
+                }
+            ],
+            "rewards": [],
+            "max_wave_time": 8000,
+            "setup_time": 300
+        },
+        {
+            "entities": [
+                {
+                    "entity": "twilightforest:alpha_yeti",
+                    "count": 1
+                }
+            ],
+            "rewards": [],
+            "max_wave_time": 8000,
+            "setup_time": 300
+        },
+        {
+            "entities": [
+                {
+                    "entity": "twilightforest:snow_queen",
+                    "count": 1
+                }
+            ],
+            "rewards": [],
+            "max_wave_time": 8000,
+            "setup_time": 300
+        }
+    ],
+    "rewards": [
+        {
+            "type": "gateways:entity_loot",
+            "entity": "twilightforest:snow_queen",
+            "rolls": 1
+        }
+    ],
+    "failures": []
+}

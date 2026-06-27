@@ -588,6 +588,18 @@ ServerEvents.recipes((event) => {
     'thermal:redstone_servo',
   ]);
 
+  create3x3(event, 'mm:infinity_cell_factory_controller', [
+    'thermal:redstone_servo',
+    'evolvedmekanism:alloy_subatomic',
+    'thermal:rf_coil',
+    'advancednetherite:netherite_diamond_block',
+    'botania:manasteel_block',
+    'advancednetherite:netherite_diamond_block',
+    'thermal:rf_coil',
+    'mekanism_extras:alloy_thermonuclear',
+    'thermal:redstone_servo',
+  ]);
+
   create3x3(event, 'mm:pinky_controller', [
     'thermal:redstone_servo',
     'industrialforegoing:pink_slime_ingot',

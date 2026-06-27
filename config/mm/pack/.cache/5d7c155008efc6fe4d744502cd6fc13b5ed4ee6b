@@ -1,4 +1,4 @@
-// 1.20.1	2026-06-12T14:25:29.967427	Item Models: mm
+// 1.20.1	2026-06-27T13:59:27.3270455	Item Models: mm
 d8eb5d6e71c6bf630dbcd9920f532ebdab3efa96 assets/mm/models/item/advanced_awakening_altar_controller.json
 d87054b6666b46f940f6564b9e690728b75e8ae3 assets/mm/models/item/auto_crusher_controller.json
 775a48cc6d7b85e3e79d42351aa77f867e69db40 assets/mm/models/item/auto_sieve_controller.json
@@ -29,6 +29,7 @@ c661479726200b268059c134eba3d64582bba0d6 assets/mm/models/item/gigantic_energy_p
 81d9285e8f0698f12ab3c5b07b9c1bf4afc73b4a assets/mm/models/item/gigantic_fluid_port_output.json
 613d9db248eb5071e35d7df6bab4ff904b657868 assets/mm/models/item/gigantic_item_port_input.json
 e268b1b4019fcd9e355ba40a12a3ba1032ab88f0 assets/mm/models/item/gigantic_item_port_output.json
+d63dbe9cddbc53296c84909a3affc93b821c7996 assets/mm/models/item/infinity_cell_factory_controller.json
 58fa730bbcdd9eae9a198d401250ca440c37ac88 assets/mm/models/item/infinity_crucible_controller.json
 1c16a5c068008af65865930727bfb651478e7d82 assets/mm/models/item/loot_fabrication_plant_controller.json
 d4e1a0fa4b55e117d33a6112b5e5a4e2f163f662 assets/mm/models/item/mechanical_empowerer_controller.json

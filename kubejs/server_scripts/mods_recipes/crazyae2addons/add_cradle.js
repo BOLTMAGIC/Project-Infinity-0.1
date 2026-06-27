@@ -84,4 +84,82 @@ ServerEvents.recipes((event) => {
       },
     })
     .id('kubejs:ae2/crazy_entropy_cradle/compactmachines_maximum');
+
+  //Blood Altar Tier Card 3 Block
+  event
+    .custom({
+      type: 'crazyae2addons:cradle',
+      result_block: 'kubejs:blood_altar_tier_card_3_block',
+      preview_nbt: 'kubejs:blood_altar_tier_card_3_block_structure.nbt',
+      pattern: {
+        symbols: {
+          A: ['bloodmagic:altarcapacityrune'],
+          B: ['bloodmagic:blankrune'],
+          D: ['bloodmagic:speedrune'],
+          E: ['bloodmagic:largebloodstonebrick'],
+          F: ['bloodmagic:dungeon_metal'],
+          G: ['kubejs:blood_infused_blood_altar_tier_card_2_block'],
+        },
+        layers: [
+          ['A A B D D', 'A B E B D', 'B E E E B', 'D B E B A', 'D D B A A'],
+          ['A B E B D', 'B F F F B', 'E F F F E', 'B F F F B', 'D B E B A'],
+          ['B E E E B', 'E F F F E', 'E F G F E', 'E F F F E', 'B E E E B'],
+          ['D B E B A', 'B F F F B', 'E F F F E', 'B F F F B', 'A B E B D'],
+          ['D D B A A', 'D B E B A', 'B E E E B', 'A B E B D', 'A A B D D'],
+        ]
+      },
+    })
+    .id('kubejs:ae2/crazy_entropy_cradle/blood_altar_tier_card_3_block');
+
+  //Blood Altar Tier Card 4 Block
+  event
+    .custom({
+      type: 'crazyae2addons:cradle',
+      result_block: 'kubejs:blood_altar_tier_card_4_block',
+      preview_nbt: 'kubejs:blood_altar_tier_card_4_block_structure.nbt',
+      pattern: {
+        symbols: {
+          A: ['bloodmagic:altarcapacityrune2'],
+          B: ['bloodmagic:blankrune'],
+          D: ['bloodmagic:speedrune2'],
+          E: ['bloodmagic:largebloodstonebrick'],
+          F: ['bloodmagic:dungeon_metal'],
+          G: ['kubejs:blood_infused_blood_altar_tier_card_3_block'],
+        },
+        layers: [
+          ['A A B D D', 'A B E B D', 'B E E E B', 'D B E B A', 'D D B A A'],
+          ['A B E B D', 'B F F F B', 'E F F F E', 'B F F F B', 'D B E B A'],
+          ['B E E E B', 'E F F F E', 'E F G F E', 'E F F F E', 'B E E E B'],
+          ['D B E B A', 'B F F F B', 'E F F F E', 'B F F F B', 'A B E B D'],
+          ['D D B A A', 'D B E B A', 'B E E E B', 'A B E B D', 'A A B D D'],
+        ]
+      },
+    })
+    .id('kubejs:ae2/crazy_entropy_cradle/blood_altar_tier_card_4_block');
+
+  //Blood Altar Tier Card 5 Block
+  event
+    .custom({
+      type: 'crazyae2addons:cradle',
+      result_block: 'kubejs:blood_altar_tier_card_5_block',
+      preview_nbt: 'kubejs:blood_altar_tier_card_5_block_structure.nbt',
+      pattern: {
+        symbols: {
+          A: ['bloodmagic:altarcapacityrune2'],
+          B: ['bloodmagic:blankrune'],
+          D: ['bloodmagic:speedrune2'],
+          E: ['bloodmagic:largebloodstonebrick'],
+          F: ['kubejs:compressed_hellforgedparts'],
+          G: ['kubejs:blood_infused_blood_altar_tier_card_4_block'],
+        },
+        layers: [
+          ['A A B D D', 'A B E B D', 'B E E E B', 'D B E B A', 'D D B A A'],
+          ['A B E B D', 'B F F F B', 'E F F F E', 'B F F F B', 'D B E B A'],
+          ['B E E E B', 'E F F F E', 'E F G F E', 'E F F F E', 'B E E E B'],
+          ['D B E B A', 'B F F F B', 'E F F F E', 'B F F F B', 'A B E B D'],
+          ['D D B A A', 'D B E B A', 'B E E E B', 'A B E B D', 'A A B D D'],
+        ]
+      },
+    })
+    .id('kubejs:ae2/crazy_entropy_cradle/blood_altar_tier_card_5_block');
 });

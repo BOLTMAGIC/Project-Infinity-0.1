@@ -58,9 +58,9 @@ ServerEvents.recipes((event) => {
   event
     .custom({
       type: 'bloodmagic:altar',
-      altarSyphon: 100000,
-      consumptionRate: 200,
-      drainRate: 200,
+      altarSyphon: 1000000,
+      consumptionRate: 100000,
+      drainRate: 1000000,
       input: {
         item: 'ae2:speed_card',
       },
@@ -74,9 +74,9 @@ ServerEvents.recipes((event) => {
   event
     .custom({
       type: 'bloodmagic:altar',
-      altarSyphon: 50000,
-      consumptionRate: 150,
-      drainRate: 150,
+      altarSyphon: 500000,
+      consumptionRate: 50000,
+      drainRate: 500000,
       input: {
         item: 'ae2:capacity_card',
       },
@@ -90,80 +90,64 @@ ServerEvents.recipes((event) => {
   event
     .custom({
       type: 'bloodmagic:altar',
-      altarSyphon: 20000,
-      consumptionRate: 100,
-      drainRate: 100,
+      altarSyphon: 200000,
+      consumptionRate: 20000,
+      drainRate: 200000,
       input: {
-        item: 'bloodmagic:altarcapacityrune',
+        item: 'bloodmagic:dungeon_metal',
       },
       output: {
         item: 'bmaddon:blood_altar_tier_card_2',
       },
-      upgradeLevel: 1,
+      upgradeLevel: 2,
     })
     .id('bmaddon:altar_tier_card_2');
 
   event
     .custom({
       type: 'bloodmagic:altar',
-      altarSyphon: 50000,
-      consumptionRate: 150,
-      drainRate: 150,
+      altarSyphon: 500000,
+      consumptionRate: 50000,
+      drainRate: 500000,
       input: {
-        item: 'bmaddon:blood_altar_tier_card_2',
+        item: 'kubejs:blood_altar_tier_card_2_block',
       },
       output: {
-        item: 'bmaddon:blood_altar_tier_card_3',
-      },
-      upgradeLevel: 2,
-    })
-    .id('bmaddon:altar_tier_card_3');
-
-  event
-    .custom({
-      type: 'bloodmagic:altar',
-      altarSyphon: 100000,
-      consumptionRate: 200,
-      drainRate: 200,
-      input: {
-        item: 'bmaddon:blood_altar_tier_card_3',
-      },
-      output: {
-        item: 'bmaddon:blood_altar_tier_card_4',
+        item: 'kubejs:blood_infused_blood_altar_tier_card_2_block',
       },
       upgradeLevel: 3,
     })
-    .id('bmaddon:altar_tier_card_4');
+    .id('bmaddon:kjs/blood_infused_blood_altar_tier_card_2_block');
 
   event
     .custom({
       type: 'bloodmagic:altar',
-      altarSyphon: 200000,
-      consumptionRate: 250,
-      drainRate: 250,
+      altarSyphon: 1000000,
+      consumptionRate: 100000,
+      drainRate: 1000000,
       input: {
-        item: 'bmaddon:blood_altar_tier_card_4',
+        item: 'kubejs:blood_altar_tier_card_3_block',
       },
       output: {
-        item: 'bmaddon:blood_altar_tier_card_5',
+        item: 'kubejs:blood_infused_blood_altar_tier_card_3_block',
       },
       upgradeLevel: 4,
     })
-    .id('bmaddon:altar_tier_card_5');
+    .id('bmaddon:kjs/blood_infused_blood_altar_tier_card_3_block');
 
   event
     .custom({
       type: 'bloodmagic:altar',
-      altarSyphon: 200000,
-      consumptionRate: 500,
-      drainRate: 500,
+      altarSyphon: 10000000,
+      consumptionRate: 1000000,
+      drainRate: 10000000,
       input: {
-        item: 'ae2:molecular_assembler',
+        item: 'kubejs:blood_altar_tier_card_4_block',
       },
       output: {
-        item: 'bmaddon:blood_altar_assembler',
+        item: 'kubejs:blood_infused_blood_altar_tier_card_4_block',
       },
       upgradeLevel: 4,
     })
-    .id('bmaddon:altar_assembler');
+    .id('bmaddon:kjs/blood_infused_blood_altar_tier_card_4_block');
 });

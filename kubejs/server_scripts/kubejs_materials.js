@@ -467,4 +467,13 @@ ServerEvents.recipes((event) => {
       'kubejs:double_compressed_enriched_' + material.id,
     ]);
   });
+
+  shapeless(event, 'bmaddon:blood_altar_tier_card_2', 'kubejs:blood_altar_tier_card_2_block');
+  shapeless(event, 'kubejs:blood_altar_tier_card_2_block', 'bmaddon:blood_altar_tier_card_2');
+  shapeless(event, 'bmaddon:blood_altar_tier_card_3', 'kubejs:blood_altar_tier_card_3_block');
+  shapeless(event, 'kubejs:blood_altar_tier_card_3_block', 'bmaddon:blood_altar_tier_card_3');
+  shapeless(event, 'bmaddon:blood_altar_tier_card_4', 'kubejs:blood_altar_tier_card_4_block');
+  shapeless(event, 'kubejs:blood_altar_tier_card_4_block', 'bmaddon:blood_altar_tier_card_4');
+  shapeless(event, 'bmaddon:blood_altar_tier_card_5', 'kubejs:blood_altar_tier_card_5_block');
+  shapeless(event, 'kubejs:blood_altar_tier_card_5_block', 'bmaddon:blood_altar_tier_card_5');
 });

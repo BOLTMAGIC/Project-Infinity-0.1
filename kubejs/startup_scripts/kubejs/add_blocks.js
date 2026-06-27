@@ -1,5 +1,61 @@
 StartupEvents.registry('block', (event) => {
   event
+    .create('blood_altar_tier_card_2_block')
+    .displayName('Blood Altar Tier Card 2 Block')
+    .soundType('stone')
+    .hardness(1.2)
+    .resistance(2.0)
+    .textureAll('kubejs:block/silent/blood_magic/blood_altar_tier_card_2_block');
+
+  event
+    .create('blood_altar_tier_card_3_block')
+    .displayName('Blood Altar Tier Card 3 Block')
+    .soundType('stone')
+    .hardness(1.2)
+    .resistance(2.0)
+    .textureAll('kubejs:block/silent/blood_magic/blood_altar_tier_card_3_block');
+
+  event
+    .create('blood_altar_tier_card_4_block')
+    .displayName('Blood Altar Tier Card 4 Block')
+    .soundType('stone')
+    .hardness(1.2)
+    .resistance(2.0)
+    .textureAll('kubejs:block/silent/blood_magic/blood_altar_tier_card_4_block');
+
+  event
+    .create('blood_altar_tier_card_5_block')
+    .displayName('Blood Altar Tier Card 5 Block')
+    .soundType('stone')
+    .hardness(1.2)
+    .resistance(2.0)
+    .textureAll('kubejs:block/silent/blood_magic/blood_altar_tier_card_5_block');
+
+  event
+    .create('blood_infused_blood_altar_tier_card_2_block')
+    .displayName('Blood Infused Blood Altar Tier Card 2 Block')
+    .soundType('stone')
+    .hardness(1.2)
+    .resistance(2.0)
+    .textureAll('kubejs:block/silent/blood_magic/blood_infused_blood_altar_tier_card_2_block');
+
+  event
+    .create('blood_infused_blood_altar_tier_card_3_block')
+    .displayName('Blood Infused Blood Altar Tier Card 3 Block')
+    .soundType('stone')
+    .hardness(1.2)
+    .resistance(2.0)
+    .textureAll('kubejs:block/silent/blood_magic/blood_infused_blood_altar_tier_card_3_block');
+
+  event
+    .create('blood_infused_blood_altar_tier_card_4_block')
+    .displayName('Blood Infused Blood Altar Tier Card 4 Block')
+    .soundType('stone')
+    .hardness(1.2)
+    .resistance(2.0)
+    .textureAll('kubejs:block/silent/blood_magic/blood_infused_blood_altar_tier_card_4_block');
+
+  event
     .create('compressed_block_of_gunpowder')
     .displayName('Compressed Block of Gunpowder')
     .soundType('gravel')
@@ -61,14 +117,14 @@ StartupEvents.registry('block', (event) => {
     .soundType('metal')
     .hardness(0.8)
     .resistance(1.0)
-    .textureAll('kubejs:block/silent/compressed_slate');
+    .textureAll('kubejs:block/silent/blood_magic/compressed_slate');
   event
     .create('double_compressed_slate')
     .displayName('Double Compressed Slate')
     .soundType('metal')
     .hardness(0.8)
     .resistance(1.0)
-    .textureAll('kubejs:block/silent/double_compressed_slate');
+    .textureAll('kubejs:block/silent/blood_magic/double_compressed_slate');
 
   event
     .create('compressed_hellforgedparts')
@@ -76,7 +132,7 @@ StartupEvents.registry('block', (event) => {
     .soundType('metal')
     .hardness(1.0)
     .resistance(1.0)
-    .textureAll('kubejs:block/silent/compressed_hellforgedparts');
+    .textureAll('kubejs:block/silent/blood_magic/compressed_hellforgedparts');
 
   event
     .create('double_compressed_iron_block')

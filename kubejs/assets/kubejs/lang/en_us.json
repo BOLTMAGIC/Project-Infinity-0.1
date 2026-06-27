@@ -303,5 +303,7 @@
   "tooltip.kubejs.extra_data_model_uncrafter_3": "Crafting recipes shows Extra Data Models with errors, don't worry, it will work as expected.",
   
   "tooltip.outer_end.ancient_ice": "Find me in the Primordial Pools biome",
-  "tooltip.sanguine_networks.virtual_sacrificer": "Link me to a Blood Altar using the Wrench from the same Mod."
+  "tooltip.sanguine_networks.virtual_sacrificer": "Link me to a Blood Altar using the Wrench from the same Mod.",
+
+  "tooltip.hostilenetworks.data_model.lord_pumpkinhead": "You can't kill me to get Data, look at the recipes of this item."
 }

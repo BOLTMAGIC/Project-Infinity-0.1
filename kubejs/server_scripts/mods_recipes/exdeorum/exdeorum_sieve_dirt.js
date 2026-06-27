@@ -13,7 +13,6 @@ ServerEvents.recipes((event) => {
     'minecraft:kelp': 0.25,
     'minecraft:golden_carrot': 0.01,
     'minecraft:cactus': 0.25,
-    'occultism:datura': 0.25,
     'exdeorum:mycelium_spores': 0.25,
     'exdeorum:grass_seeds': 0.25,
     'integrateddynamics:menril_sapling': 0.10,

@@ -127,8 +127,6 @@ MMEvents.createProcesses((event) => {
 
   // Tier 5 Seeds
   createSeedRecipes(event, [
-    'mysticalagriculture:iesnium_seeds',
-    'mysticalagriculture:queens_slime_seeds',
     'mysticalagriculture:ignitium_seeds',
     'mysticalagriculture:sky_steel_seeds',
     'mysticalagriculture:vibrant_alloy_seeds',

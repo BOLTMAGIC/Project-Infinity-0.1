@@ -135,18 +135,6 @@ ServerEvents.recipes((event) => {
     'draconicevolution:awakened_core',
     'enderio:end_steel_ingot',
     'mysticalagriculture:awakened_supremium_ingot',
-    'occultism:iesnium_ingot',
-    'cataclysm:ignitium_ingot',
-    'pneumaticcraft:plastic',
-  ]);
-
-  shapeless(event, 'kubejs:infinity_1', [
-    'botania:terrasteel_ingot',
-    'extendedcrafting:black_iron_ingot',
-    'nuclearcraft:neutronium_ingot',
-    'draconicevolution:awakened_core',
-    'enderio:end_steel_ingot',
-    'mysticalagriculture:awakened_supremium_ingot',
     'justdirethings:eclipsealloy_ingot',
     'cataclysm:ignitium_ingot',
     'pneumaticcraft:plastic',

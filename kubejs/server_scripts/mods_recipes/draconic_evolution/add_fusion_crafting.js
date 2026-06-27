@@ -41,59 +41,6 @@ ServerEvents.recipes((event) => {
     .id('kubejs:infinity_8')
     .keepIngredient('bloodmagic:masterbloodorb');
 
-  //Unobtainium Ingot
-  event
-    .custom({
-      type: 'draconicevolution:fusion_crafting',
-      catalyst: {
-        type: 'draconicevolution:ingredient_stack',
-        count: 3,
-        items: [
-          {
-            item: 'kubejs:starmetal_ingot',
-          },
-        ],
-      },
-      ingredients: [
-        {
-          item: 'allthemodium:vibranium_ingot',
-        },
-        {
-          item: 'occultism:spirit_attuned_gem',
-        },
-        {
-          item: 'thermal_extra:dragonsteel_ingot',
-        },
-        {
-          item: 'botanicalextramachinery:saffron_dragonstone',
-        },
-        {
-          item: 'mekanism:ultimate_control_circuit',
-        },
-        {
-          item: 'mysticalexpansion:divinium_essence',
-        },
-        {
-          item: 'mysticalexpansion:etherium_essence',
-        },
-        {
-          item: 'mysticalexpansion:extremium_essence',
-        },
-        {
-          item: 'draconicevolution:awakened_core',
-        },
-        {
-          item: 'dimensionalpocketsii:dimensional_ingot_enhanced',
-        },
-      ],
-      result: {
-        item: 'allthemodium:unobtainium_ingot',
-      },
-      tier: 'WYVERN',
-      total_energy: 50000000,
-    })
-    .id('allthemodium:unobtainium_ingot');
-
       //Unobtainium Ingot
   event
     .custom({
@@ -145,5 +92,5 @@ ServerEvents.recipes((event) => {
       tier: 'WYVERN',
       total_energy: 50000000,
     })
-    .id('allthemodium:unobtainium_ingot_new');
+    .id('allthemodium:unobtainium_ingot');
 });

@@ -73,7 +73,6 @@ BlockEvents.rightClicked(
     "minecraft:copper_ore",
     "minecraft:dark_oak_log",
     "minecraft:moss_block",
-    "occultism:iesnium_block",
     "minecraft:gold_ore",
     "minecraft:deepslate_gold_ore",
     "minecraft:iron_ore",

@@ -17,7 +17,6 @@
 		{ item: "mysticalagriculture:supremium_essence", random_bonus: 1, weight: 10.0f }
 		{ item: "mysticalagriculture:supremium_ingot", random_bonus: 2, weight: 5.0f }
 		{ item: "mysticalagriculture:supremium_gemstone", random_bonus: 1, weight: 5.0f }
-		{ item: "mysticalagriculture:iesnium_seeds" }
 		{ item: "mysticalagriculture:ignitium_seeds" }
 		{ item: "mysticalagriculture:sky_steel_seeds" }
 		{ item: "mysticalagriculture:diamond_seeds" }
@@ -29,8 +28,6 @@
 		{ item: "mysticalagriculture:enderium_seeds" }
 		{ item: "mysticalagriculture:flux_infused_gem_seeds" }
 		{ item: "mysticalagriculture:manyullyn_seeds" }
-		{ item: "mysticalagriculture:queens_slime_seeds" }
-		{ item: "mysticalagriculture:hepatizon_seeds" }
 		{ item: "mysticalagriculture:vibrant_alloy_seeds" }
 		{ item: "mysticalagriculture:end_steel_seeds" }
 		{ item: "mysticalagriculture:terrasteel_seeds" }

@@ -1,42 +1,5 @@
 priority: 1;
 MMEvents.createProcesses((event) => {
-  //spirit attuned gem recipe1 @occultism
-  event
-    .create('mm:spirit_attuned_recipe1')
-    .structureId('mm:fire_attuned_structure1')
-    .ticks(4)
-    .input({
-      type: 'mm:input/consume',
-      ingredient: {
-        type: 'mm:item',
-        item: 'minecraft:diamond',
-        count: 4,
-      },
-    })
-    .input({
-      type: 'mm:input/consume',
-      ingredient: {
-        type: 'mm:energy',
-        amount: 16384,
-      },
-    })
-    .input({
-      type: 'mm:input/consume',
-      ingredient: {
-        type: 'mm:fluid',
-        fluid: 'minecraft:lava',
-        amount: 2000,
-      },
-    })
-    .output({
-      type: 'mm:output/simple',
-      ingredient: {
-        type: 'mm:item',
-        item: 'occultism:spirit_attuned_gem',
-        count: 4,
-      },
-    });
-
   //Infused Lava Crystal
   event
     .create('mm:infused_lava_crystal_recipe1')

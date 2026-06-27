@@ -193,7 +193,7 @@
 	#Entities or mods that the Polymorphic Wand cannot create.
 	#Use full entity IDs (e.g. "somebossmod:big_boss") for specific entities,
 	#or just the mod ID (e.g. "somebossmod") to block all entities from that mod.
-	polymorph_blacklist = ["draconicevolution:draconic_guardian", "pneumaticcraft", "avaritia", "block_factorys_bosses", "twilightforest", "thermal", "occultism", "nuclearcraft:feral_ghoul_boss", "mutantmonsters", "justdirethings", "cyclic", "cataclysm", "botania", "born_in_chaos_v1:lord_pumpkinhead"]
+	polymorph_blacklist = ["draconicevolution:draconic_guardian", "pneumaticcraft", "avaritia", "block_factorys_bosses", "twilightforest", "thermal", "nuclearcraft:feral_ghoul_boss", "mutantmonsters", "justdirethings", "cyclic", "cataclysm", "botania", "born_in_chaos_v1:lord_pumpkinhead"]
 
 #Goo settings
 [goo]

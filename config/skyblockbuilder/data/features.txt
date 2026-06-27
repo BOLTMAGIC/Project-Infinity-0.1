@@ -394,12 +394,6 @@ nuclearcraft:wasteland_ruins
 nuclearcraft:wasteland_surface
 nuclearcraft:zinc_ore
 nuclearcraft:zinc_wasteland_ore
-occultism:grove_underground
-occultism:ore_iesnium
-occultism:ore_silver
-occultism:ore_silver_deepslate
-occultism:tree_otherworld
-occultism:tree_otherworld_natural
 outer_end:ancient_icicle
 outer_end:ancient_stone_ore
 outer_end:azure_berry_vines_feature

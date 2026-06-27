@@ -30,7 +30,6 @@ WootStartupEvents.registerFactoryMob(
     'cataclysm:elite_draugr',
     'cataclysm:ignited_berserker',
     'cataclysm:ignited_revenant',
-    'occultism:possessed_enderman',
     'born_in_chaos_v1:bonescaller',
   ],
   (event) => {
@@ -117,8 +116,6 @@ WootStartupEvents.registerFactoryMob(
     'block_factorys_bosses:sandworm',
     'block_factorys_bosses:infernal_dragon',
     'nuclearcraft:feral_ghoul_boss',
-    'occultism:possessed_elder_guardian',
-    'occultism:possessed_warden',
     'born_in_chaos_v1:lord_pumpkinhead',
     'born_in_chaos_v1:lord_pumpkinhead_head',
     'born_in_chaos_v1:lord_pumpkinhead_withouta_horse',

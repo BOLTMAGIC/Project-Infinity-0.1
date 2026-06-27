@@ -2084,19 +2084,6 @@ MMEvents.createProcesses(function (event) {
   });
 
   createRFProcess({
-    outputId: 'mm:iesnium_ingot_from_essence',
-    outputItem: 'occultism:iesnium_ingot',
-    outputCount: 4,
-    inputs: [
-      {
-        type: 'mm:item',
-        item: 'mysticalagriculture:iesnium_essence',
-        count: 8,
-      },
-    ],
-  });
-
-  createRFProcess({
     outputId: 'mm:ignitium_ingot_from_essence',
     outputItem: 'cataclysm:ignitium_ingot',
     outputCount: 4,

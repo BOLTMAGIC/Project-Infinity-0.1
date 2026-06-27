@@ -8,9 +8,6 @@ ServerEvents.recipes((event) => {
           item: 'mysticalagriculture:supremium_essence',
         },
         {
-          item: 'mysticalagriculture:iesnium_essence',
-        },
-        {
           item: 'mysticalagriculture:ignitium_essence',
         },
         {

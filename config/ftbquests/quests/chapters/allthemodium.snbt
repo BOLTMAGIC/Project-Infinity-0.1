@@ -505,7 +505,6 @@
 				"7A8E8443F66B469D"
 				"4359F33346D2F6D3"
 				"075AFB631DD70023"
-				"6C2B451CBC4DA76F"
 			]
 			id: "0091DB2772579996"
 			rewards: [
@@ -859,21 +858,6 @@
 			}]
 			x: 6.0d
 			y: 13.0d
-		}
-		{
-			id: "6C2B451CBC4DA76F"
-			rewards: [{
-				id: "04218775493328A4"
-				item: "kubejs:apotheotic_coin"
-				type: "item"
-			}]
-			tasks: [{
-				id: "669EDD7B48F2CC78"
-				item: "occultism:spirit_attuned_gem"
-				type: "item"
-			}]
-			x: 0.5d
-			y: 14.0d
 		}
 		{
 			dependencies: ["19CF6A22EE39CD0D"]

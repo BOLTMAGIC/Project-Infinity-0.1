@@ -4107,22 +4107,6 @@
 		}
 		{
 			dependencies: ["6C52741D22052A14"]
-			id: "59F8493D85F2A55C"
-			rewards: [{
-				id: "664BEC37BBFBDC9C"
-				item: "kubejs:infused_coin"
-				type: "item"
-			}]
-			tasks: [{
-				id: "397571F4B25DE3E0"
-				item: "mysticalagriculture:iesnium_seeds"
-				type: "item"
-			}]
-			x: 3.0d
-			y: 0.0d
-		}
-		{
-			dependencies: ["6C52741D22052A14"]
 			id: "140376B585AEB4D4"
 			rewards: [{
 				id: "41AAEF00669B43FC"

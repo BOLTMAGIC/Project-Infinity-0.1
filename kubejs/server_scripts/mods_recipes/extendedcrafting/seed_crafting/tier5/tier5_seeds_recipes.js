@@ -436,10 +436,6 @@ ServerEvents.recipes((event) => {
     'cataclysm:ignitium_block',
   ]);
   seedcraftingtier5(event, [
-    'mysticalagriculture:iesnium_seeds',
-    'occultism:iesnium_block',
-  ]);
-  seedcraftingtier5(event, [
     'mysticalagriculture:uraninite_seeds',
     'powah:uraninite_block',
   ]);

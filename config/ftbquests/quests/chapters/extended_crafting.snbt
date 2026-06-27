@@ -834,7 +834,6 @@
 				"635744EF9513926D"
 				"1413D60985DCD716"
 				"484958FA351A737B"
-				"16B87DEDE4769BF7"
 				"3BED0E603E0D1456"
 				"458158B91411D4F1"
 				"1BD21112D4086A15"
@@ -3650,22 +3649,6 @@
 			}]
 			x: 18.0d
 			y: -3.5d
-		}
-		{
-			id: "16B87DEDE4769BF7"
-			rewards: [{
-				id: "4C187E798C7A8B31"
-				item: "kubejs:apotheotic_coin"
-				type: "item"
-			}]
-			shape: "hexagon"
-			tasks: [{
-				id: "1621037793F2B3D0"
-				item: "occultism:iesnium_ingot"
-				type: "item"
-			}]
-			x: 8.0d
-			y: -1.5d
 		}
 		{
 			id: "63516D6542C882AD"

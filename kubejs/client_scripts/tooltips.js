@@ -314,15 +314,6 @@ ItemEvents.tooltip((event) => {
     }
   );
 
-  event.addAdvanced(['occultism:iesnium_ore'], (item, advanced, text) => {
-    if (!event.shift) {
-      text.add(1, holdShiftText());
-    } else {
-      text.add(1, Text.translate('tooltip.occultism.iesnium').green());
-    }
-  });
-
-  // TODO FINISHME: Tell them the biome it spawns in - used in supercooled ice
   event.addAdvanced(['outer_end:ancient_ice'], (item, advanced, text) => {
     text.add(1, Text.translate('tooltip.outer_end.ancient_ice').green());
   });

@@ -662,18 +662,6 @@ ServerEvents.recipes((event) => {
 
   create3x3(event, 'mm:fire_attuned_controller', [
     'thermal:redstone_servo',
-    'occultism:spirit_attuned_gem',
-    'thermal:rf_coil',
-    'common_ore_library:cobalt_block',
-    'botania:manasteel_ingot',
-    'common_ore_library:cobalt_block',
-    'thermal:rf_coil',
-    'occultism:purified_ink',
-    'thermal:redstone_servo',
-  ]);
-
-  create3x3(event, 'mm:fire_attuned_controller', [
-    'thermal:redstone_servo',
     'justdirethings:celestigem',
     'thermal:rf_coil',
     'common_ore_library:cobalt_block',

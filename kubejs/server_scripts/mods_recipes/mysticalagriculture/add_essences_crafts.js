@@ -7,10 +7,6 @@ ServerEvents.recipes((event) => {
     'mysticalagriculture:dark_metal_ingot_essence',
   ]);
 
-  create323(event, '4x occultism:iesnium_ingot', [
-    'mysticalagriculture:iesnium_essence',
-  ]);
-
   create323(event, '4x cataclysm:ignitium_ingot', [
     'mysticalagriculture:ignitium_essence',
   ]);

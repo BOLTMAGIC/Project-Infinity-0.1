@@ -328,48 +328,6 @@
       ]
     },
     {
-      "ore_size": 5,
-      "discard_on_air_chance": 0.0,
-      "modifiers": [
-        {
-          "count": 3,
-          "type": "minecraft:count"
-        },
-        {
-          "type": "minecraft:in_square"
-        },
-        {
-          "height": {
-            "min_inclusive": {
-              "absolute": -64
-            },
-            "max_inclusive": {
-              "absolute": 50
-            },
-            "type": "minecraft:trapezoid"
-          },
-          "type": "minecraft:height_range"
-        },
-        {
-          "type": "minecraft:biome"
-        }
-      ],
-      "targets": [
-        {
-          "target": {
-            "tag": "minecraft:base_stone_nether",
-            "predicate_type": "minecraft:tag_match"
-          },
-          "state": {
-            "Properties": {
-              "uncovered": "false"
-            },
-            "Name": "occultism:iesnium_ore"
-          }
-        }
-      ]
-    },
-    {
       "ore_size": 24,
       "discard_on_air_chance": 0.0,
       "modifiers": [

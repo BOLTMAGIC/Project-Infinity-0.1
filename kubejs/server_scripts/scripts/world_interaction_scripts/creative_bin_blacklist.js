@@ -85,11 +85,6 @@ BlockEvents.rightClicked('mekanism:creative_bin',(event) => {
       nbtPath: 'ItemInv.ItemInv',
       check: (value) => value && value.length > 0,
     },
-    {
-      pattern: 'occultism:satchel',
-      nbtPath: 'Items',
-      check: (value) => value && value.length > 0,
-    },
 
     {
       pattern: /^functionalstorage:.*$/,

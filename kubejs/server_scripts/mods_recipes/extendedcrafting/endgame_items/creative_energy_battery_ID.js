@@ -68,9 +68,9 @@ ServerEvents.recipes((event) => {
         },
         Q: {
           type: 'forge:partial_nbt',
-          item: 'mekanism_extras:supreme_fluid_tank',
+          item: 'mekanism_extras:absolute_fluid_tank',
           count: 1,
-          nbt: '{mekData:{FluidTanks:[{Tank:0b,stored:{Amount:1024000,FluidName:\"integrateddynamics:menril_resin\"}}]}}',
+          nbt: '{mekData:{FluidTanks:[{Tank:0b,stored:{Amount:4096000,FluidName:\"integrateddynamics:menril_resin\"}}]}}',
         },
         R: {
           item: 'extendedcrafting:the_ultimate_block',
@@ -80,9 +80,9 @@ ServerEvents.recipes((event) => {
         },
         T: {
           type: 'forge:partial_nbt',
-          item: 'mekanism_extras:supreme_fluid_tank',
+          item: 'mekanism_extras:absolute_fluid_tank',
           count: 1,
-          nbt: '{mekData:{FluidTanks:[{Tank:0b,stored:{Amount:1024000,FluidName:\"integrateddynamics:liquid_chorus\"}}]}}',
+          nbt: '{mekData:{FluidTanks:[{Tank:0b,stored:{Amount:4096000,FluidName:\"integrateddynamics:liquid_chorus\"}}]}}',
         },
         U: {
           item: 'mekanism_extras:alloy_spectrum'

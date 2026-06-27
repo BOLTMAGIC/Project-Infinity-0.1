@@ -607,4 +607,13 @@ ItemEvents.tooltip((event) => {
     ['sanguine_networks:virtual_sacrificer'],
     Text.translate('tooltip.sanguine_networks.virtual_sacrificer').green()
   );
+
+  event.addAdvanced(['hostilenetworks:data_model'], (item, advanced, text) => {
+
+    if (item.nbt.data_model.id == 'hostilenetworks:born_in_chaos/lord_pumpkinhead') {
+      text.add(
+        Text.translate('tooltip.hostilenetworks.data_model.lord_pumpkinhead').red()
+      );
+    }
+  });
 });

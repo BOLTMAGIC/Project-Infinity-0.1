@@ -696,18 +696,6 @@ ServerEvents.recipes((event) => {
     'thermal:redstone_servo',
   ]);
 
-  create3x3(event, 'mm:mega_dissolver_controller', [
-    'thermal:redstone_servo',
-    'alchemistry:dissolver',
-    'thermal:rf_coil',
-    'common_ore_library:cobalt_block',
-    'botania:manasteel_ingot',
-    'common_ore_library:cobalt_block',
-    'thermal:rf_coil',
-    'alchemistry:dissolver',
-    'thermal:redstone_servo',
-  ]);
-
   create3x3(event, 'mm:multi_compactor_controller', [
     'thermal:redstone_servo',
     'mysticalagriculture:master_infusion_crystal',

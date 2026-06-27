@@ -23,7 +23,8 @@ Mod Info:
     - Alchemistry
         - Chemlib
         - AlchemyLib
-    - Occultism (+ SmartBrainLib)
+        - AE2 Alchemistry Addon
+    - Occultism
         - SmartBrainLib
         - Modonomicon
     - Mekanism Advanced Generators
@@ -45,6 +46,7 @@ Recipe changes and fixes:
 - added a new twilight forest gateway (needs a snow queen trophy)
 - added es_es lang for kubejs, Masterful Machinery and quests (thx to darkdeath7)
 - fixed creative battery from ID (thx to Kaimonick)
+- changed recipes for Blood Magic Addon (thx to MiniMaxi)
 - 
 ----------
 Mod changes and fixes:

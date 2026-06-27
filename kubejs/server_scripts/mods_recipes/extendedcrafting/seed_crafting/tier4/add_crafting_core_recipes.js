@@ -140,7 +140,7 @@ ServerEvents.recipes((event) => {
   ]);
   seedcraftingtier4_1(event, [
     'mysticalagriculture:titanium_seeds',
-    'chemlib:titanium_metal_block',
+    'nuclearcraft:niobium_titanium_electromagnet',
   ]);
   seedcraftingtier4_2(event, [
     'mysticalagriculture:steel_seeds',

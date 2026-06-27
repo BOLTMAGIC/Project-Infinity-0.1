@@ -81,7 +81,7 @@ ServerEvents.recipes((event) => {
     'mysticalagriculture:peridot_essence',
   ]);
 
-  create323(event, '4x chemlib:titanium_ingot', [
+  create323(event, '4x nuclearcraft:titanium_ingot', [
     'mysticalagriculture:titanium_essence',
   ]);
 

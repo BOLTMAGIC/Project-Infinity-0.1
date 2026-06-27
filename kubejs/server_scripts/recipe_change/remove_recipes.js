@@ -200,7 +200,6 @@ const removeItemsbyID = [
   'alltheores:tin_ingot',
   'alltheores:steel_ingot',
   'alltheores:electrum_ingot',
-  'chemlib:cobalt_nugget_to_ingot',
   'silentgems:iron_potato',
   'silentgems:gem_bag',
   'cyclic:compressed_cobblestone_u',

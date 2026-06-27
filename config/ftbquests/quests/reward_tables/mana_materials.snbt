@@ -1,14 +1,5 @@
 {
 	id: "4A4E40C93B3C3F60"
-	loot_crate: {
-		color: 16777215
-		drops: {
-			boss: 0
-			monster: 0
-			passive: 0
-		}
-		string_id: "common_mana_materials_loot_bag"
-	}
 	loot_size: 1
 	order_index: 6
 	rewards: [

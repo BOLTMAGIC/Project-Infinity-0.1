@@ -163,7 +163,7 @@ ServerEvents.recipes(function (event) {
     },
     {
       out: 'mysticalagriculture:graphite_seeds',
-      mats: ['bigreactors:graphite_ingot*4'],
+      mats: ['nuclearcraft:graphite_ingot*4'],
     },
     {
       out: 'mysticalagriculture:manasteel_seeds',

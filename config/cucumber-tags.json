@@ -6,5 +6,6 @@
   "forge:ingots/chrome": "null",
   "forge:gems/peridot": "alltheores:peridot",
   "forge:ingots/titanium": "nuclearcraft:titanium_ingot",
-  "forge:rubber": "thermal:cured_rubber"
+  "forge:rubber": "thermal:cured_rubber",
+  "forge:dusts/niter": "null"
 }

@@ -37,7 +37,7 @@ ServerEvents.recipes((event) => {
   crush(event, 'kubejs:solarmetal_ore', 2, 'kubejs:raw_solarmetal');
   crush(event, 'kubejs:plasteel_ore', 2, 'kubejs:raw_plasteel');
   crush(event, 'kubejs:voidmetal_ore', 2, 'kubejs:raw_voidmetal');
-  crush(event, '#forge:ingots/graphite', 1, 'bigreactors:graphite_dust');
+  crush(event, '#forge:ingots/graphite', 1, 'nuclearcraft:graphite_dust');
 
   crush(
     event,
@@ -277,7 +277,7 @@ ServerEvents.recipes((event) => {
     1,
     'minecraft:diamond',
     1,
-    'bigreactors:graphite_ingot',
+    'nuclearcraft:graphite_ingot',
     'nuclearcraft:hard_carbon_ingot',
     1
   );
@@ -644,12 +644,6 @@ ServerEvents.recipes((event) => {
     'thermal:steel_ingot',
     'mekanism:energy_tablet',
     'thermal:steel_ingot',
-  ]);
-
-  shapeless(event, '3x mekanism:ingot_uranium', [
-    'bigreactors:yellorium_ingot',
-    'bigreactors:yellorium_ingot',
-    'bigreactors:yellorium_ingot',
   ]);
 
   function oxidizing(event, item_input, gas_output_amount, gas_output) {

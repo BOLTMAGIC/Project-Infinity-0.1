@@ -90,6 +90,7 @@
 			y: -1.0d
 		}
 		{
+			dependencies: ["7DBF3F21AB94E27F"]
 			id: "3F546D112F96CB64"
 			rewards: [{
 				id: "7F6B3802EB682418"
@@ -448,9 +449,17 @@
 			y: 5.0d
 		}
 		{
-			dependencies: ["3F546D112F96CB64"]
+			dependencies: [
+				"3F546D112F96CB64"
+				"768FD95A7228A893"
+			]
 			hide_dependency_lines: true
 			id: "39DCFBD8A110EB53"
+			rewards: [{
+				id: "0C80D613321BE27F"
+				type: "xp"
+				xp: 3
+			}]
 			tasks: [{
 				id: "47A52E5267795785"
 				item: "kubejs:infinity_1_333333"
@@ -460,9 +469,17 @@
 			y: 3.5d
 		}
 		{
-			dependencies: ["3F546D112F96CB64"]
+			dependencies: [
+				"3F546D112F96CB64"
+				"768FD95A7228A893"
+			]
 			hide_dependency_lines: true
 			id: "195A8D5F6476876A"
+			rewards: [{
+				id: "55AC314A43A063BF"
+				type: "xp"
+				xp: 3
+			}]
 			tasks: [{
 				id: "71FFD42398C89BA6"
 				item: "kubejs:infinity_1_666666"
@@ -472,9 +489,17 @@
 			y: 2.5d
 		}
 		{
-			dependencies: ["3F546D112F96CB64"]
+			dependencies: [
+				"3F546D112F96CB64"
+				"768FD95A7228A893"
+			]
 			hide_dependency_lines: true
 			id: "5675CF73AF40A9D8"
+			rewards: [{
+				id: "41AFF94417164136"
+				type: "xp"
+				xp: 3
+			}]
 			tasks: [{
 				id: "3BAE5BF57E8F12C5"
 				item: "kubejs:infinity_1_999999"
@@ -485,6 +510,11 @@
 		}
 		{
 			id: "74E70B6AFFAF3F9F"
+			rewards: [{
+				id: "760DE25756F3176E"
+				type: "xp"
+				xp: 3
+			}]
 			tasks: [{
 				id: "2656C183D14DE199"
 				item: "botania:elementium_ingot"
@@ -495,6 +525,11 @@
 		}
 		{
 			id: "74D98B0C85B0A6D9"
+			rewards: [{
+				id: "3BF3EE4AEE34396E"
+				type: "xp"
+				xp: 3
+			}]
 			tasks: [{
 				id: "2C9A8FA11F0DBE8D"
 				item: "bloodmagic:dungeon_metal"
@@ -505,6 +540,11 @@
 		}
 		{
 			id: "60340E1C5D797B8B"
+			rewards: [{
+				id: "4B3FD856666F7FA9"
+				type: "xp"
+				xp: 3
+			}]
 			tasks: [{
 				id: "20A3269A481D47BA"
 				item: "pneumaticcraft:pressure_chamber_wall"
@@ -515,9 +555,14 @@
 		}
 		{
 			id: "2FDE02E1D08FACF0"
+			rewards: [{
+				id: "3AD276B709307B01"
+				type: "xp"
+				xp: 3
+			}]
 			tasks: [{
 				id: "375B8D43DAF3B812"
-				item: "enderio:soul_binder"
+				item: "enderio:slice_and_splice"
 				type: "item"
 			}]
 			x: 2.0d
@@ -525,6 +570,11 @@
 		}
 		{
 			id: "6B5FA0A7B13FB222"
+			rewards: [{
+				id: "636018FA6F7D97F3"
+				type: "xp"
+				xp: 3
+			}]
 			tasks: [{
 				id: "18477D920D568DC6"
 				item: "pneumaticcraft:assembly_controller"
@@ -535,6 +585,11 @@
 		}
 		{
 			id: "4E15BCE4E4C16522"
+			rewards: [{
+				id: "2C152EF764932B61"
+				type: "xp"
+				xp: 3
+			}]
 			tasks: [{
 				id: "15D810B24CE24719"
 				item: "avaritia:infinity"
@@ -545,9 +600,14 @@
 		}
 		{
 			id: "19F5F1A98758644F"
+			rewards: [{
+				id: "54223AB97CE89A94"
+				type: "xp"
+				xp: 3
+			}]
 			tasks: [{
 				id: "2558B08F7300D7D2"
-				item: "exdeorum:oak_sieve"
+				item: "justdirethings:gooblock_tier4"
 				type: "item"
 			}]
 			x: 7.0d
@@ -555,6 +615,11 @@
 		}
 		{
 			id: "6A5EA1F9F5A29562"
+			rewards: [{
+				id: "5E1206A962A6F3AF"
+				type: "xp"
+				xp: 3
+			}]
 			tasks: [{
 				id: "64AA0A4D4CDAE68E"
 				item: "extendedcrafting:ultimate_table"
@@ -565,6 +630,11 @@
 		}
 		{
 			id: "1C55B400F87F2E30"
+			rewards: [{
+				id: "3B45C46CEBD3D1BA"
+				type: "xp"
+				xp: 3
+			}]
 			tasks: [{
 				id: "364D694EB2729EA8"
 				item: "draconicevolution:crafting_core"
@@ -575,13 +645,48 @@
 		}
 		{
 			id: "0455DC33402F62ED"
+			rewards: [{
+				id: "7A03A2D9B2EF3743"
+				type: "xp"
+				xp: 3
+			}]
 			tasks: [{
 				id: "4A9044C8D62C54BF"
-				item: "mysticalagriculture:awakening_altar"
+				item: "powah:energizing_orb"
 				type: "item"
 			}]
 			x: 6.0d
 			y: 3.5d
+		}
+		{
+			id: "7DBF3F21AB94E27F"
+			rewards: [{
+				id: "1CD9A4C7C7084DD0"
+				type: "xp"
+				xp: 3
+			}]
+			tasks: [{
+				id: "07ACA473669DDE26"
+				item: "minecraft:crafting_table"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 6.5d
+		}
+		{
+			id: "768FD95A7228A893"
+			rewards: [{
+				id: "62FE9479D9F0678C"
+				type: "xp"
+				xp: 3
+			}]
+			tasks: [{
+				id: "7E95C524100A833F"
+				item: "thermal:machine_bottler"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 1.0d
 		}
 	]
 	title: "{ftbquests.chapter.endgame.title}"

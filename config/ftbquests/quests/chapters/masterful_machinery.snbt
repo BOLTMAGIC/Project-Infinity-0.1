@@ -118,6 +118,22 @@
 			x: 6.0d
 			y: -2.5d
 		}
+		{
+			height: 1.0d
+			image: "ae2omnicells:item/portable_cell_quantum_housing"
+			rotation: 0.0d
+			width: 1.0d
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			height: 1.0d
+			image: "avaritia:block/machine/compressor/compressor_front"
+			rotation: 0.0d
+			width: 1.0d
+			x: -6.0d
+			y: 0.0d
+		}
 	]
 	order_index: 0
 	quest_links: [ ]
@@ -591,6 +607,44 @@
 			]
 			x: 3.0d
 			y: -3.0d
+		}
+		{
+			dependencies: ["4402587B0EAC4EEC"]
+			description: ["The Resource Foundry is the multiblock for creating a lot of items. You input essences and get items back. And because its 1 big craft and not many small ones it does not take as much server resources."]
+			id: "7BA932E34079CBAA"
+			tasks: [
+				{
+					id: "14A40F9A909628A0"
+					item: "mm:resource_foundry_controller"
+					type: "item"
+				}
+				{
+					id: "6CA1781679509600"
+					item: "kubejs:empowered_super_block"
+					type: "item"
+				}
+			]
+			x: -4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4402587B0EAC4EEC"]
+			description: ["The Infinity Cell Factory is you best friend for creating all your Infinity Cells. "]
+			id: "4BD5CD621782DFB8"
+			tasks: [
+				{
+					id: "2B2ACF58F8DC22B8"
+					item: "mm:infinity_cell_factory_controller"
+					type: "item"
+				}
+				{
+					id: "40C7400C738D8EF1"
+					item: "chisel_chipped_integration:futura_me_controller"
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 0.0d
 		}
 	]
 	title: "{ftbquests.chapter.masterful_machinery.title}"

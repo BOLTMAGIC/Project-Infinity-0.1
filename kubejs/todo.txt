@@ -10,6 +10,13 @@ changelog v. 0.0.51.0
 Mod Info:
 - MODS ADDED:
     - Compact Expansion (configurable) from MiniMaxi
+        - New room sizes:
+            -  7 x  7 x  7
+            - 13 x 13 x 13
+            - 19 x 19 x 19
+            - 25 x 25 x 25
+            - 31 x 31 x 31
+            - 37 x 37 x 37
 ----------
 - MODS REMOVED:
     - YTones (its discontinued, replaced with BetterBlockZ)
@@ -47,6 +54,7 @@ Recipe changes and fixes:
 - added es_es lang for kubejs, Masterful Machinery and quests (thx to darkdeath7)
 - fixed creative battery from ID (thx to Kaimonick)
 - changed recipes for Blood Magic Addon (thx to MiniMaxi)
+- new texture for Infinity 11
 - 
 ----------
 Mod changes and fixes:

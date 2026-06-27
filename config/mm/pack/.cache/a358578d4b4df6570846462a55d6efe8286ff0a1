@@ -1,4 +1,4 @@
-// 1.20.1	2026-06-27T13:59:27.3225397	Block States: mm
+// 1.20.1	2026-06-27T23:17:55.2861911	Block States: mm
 bd76577e4250dd9bcb6fdc232e2bcd478aa81adf assets/mm/blockstates/advanced_awakening_altar_controller.json
 85e41311f8f85c00a67f3325978ecbbbf3bb9879 assets/mm/blockstates/auto_crusher_controller.json
 21d1b451b5dbc3c1f7ea3395be73097158865a1c assets/mm/blockstates/auto_sieve_controller.json
@@ -33,7 +33,6 @@ b39584140745115b10d1d07718480234db159c58 assets/mm/blockstates/gigantic_item_por
 cc4c5739d70a226e8723edab8c8cb57615980841 assets/mm/blockstates/infinity_crucible_controller.json
 bc4563abde6d0b242ba17a05b337d6ba18721451 assets/mm/blockstates/loot_fabrication_plant_controller.json
 1ba48c262de8a43abe0ddb6d12c079f0f817bd5c assets/mm/blockstates/mechanical_empowerer_controller.json
-935353b471db27c0d1a5093e9c21444845954dc5 assets/mm/blockstates/mega_dissolver_controller.json
 1b3cfb5a450ef546979271249354990ad9f8e98e assets/mm/blockstates/multi_compactor_controller.json
 28ff95446cad51300eeb3aa6aa8f7a0c54931760 assets/mm/blockstates/multi_compressor_controller.json
 8fc67bd621965748ccaaf071885d4b987b74b455 assets/mm/blockstates/normal_energy_port_input.json
@@ -94,7 +93,6 @@ c635994caa2b8ff0802630fd41c7322a2af71d51 assets/mm/models/block/enormous_fluid_p
 5216d481bc0becea8907e6141d3687b91772b953 assets/mm/models/block/infinity_crucible_controller.json
 5216d481bc0becea8907e6141d3687b91772b953 assets/mm/models/block/loot_fabrication_plant_controller.json
 5216d481bc0becea8907e6141d3687b91772b953 assets/mm/models/block/mechanical_empowerer_controller.json
-5216d481bc0becea8907e6141d3687b91772b953 assets/mm/models/block/mega_dissolver_controller.json
 5216d481bc0becea8907e6141d3687b91772b953 assets/mm/models/block/multi_compactor_controller.json
 5216d481bc0becea8907e6141d3687b91772b953 assets/mm/models/block/multi_compressor_controller.json
 f0106bb5f4ca504384b6fa9903445b00ba8854cf assets/mm/models/block/normal_energy_port_input.json

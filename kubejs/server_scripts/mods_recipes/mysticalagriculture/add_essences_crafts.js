@@ -89,7 +89,7 @@ ServerEvents.recipes((event) => {
     'mysticalagriculture:tungsten_essence',
   ]);
 
-  create323(event, '6x bigreactors:graphite_ingot', [
+  create323(event, '6x nuclearcraft:graphite_ingot', [
     'mysticalagriculture:graphite_essence',
   ]);
 

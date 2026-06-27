@@ -179,19 +179,6 @@ MMEvents.createProcesses((event) => {
     64
   );
 
-  createRecipe2(
-    event,
-    [
-      { item: 'armorplus:en_diamond', count: 64 },
-      { item: 'minecraft:lapis_lazuli', count: 64 },
-      { item: 'bigreactors:cyanite_ingot', count: 64 },
-      { item: 'common_ore_library:platinum_ingot', count: 64 },
-      { item: 'mysticalagriculture:water_essence', count: 256 },
-    ],
-    'armorplus:frost_crystal',
-    64
-  );
-
     createRecipe2(
     event,
     [

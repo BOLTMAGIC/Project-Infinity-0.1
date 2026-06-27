@@ -2036,42 +2036,6 @@
       "discard_on_air_chance": 0.0,
       "modifiers": [
         {
-          "count": 10,
-          "type": "minecraft:count"
-        },
-        {
-          "type": "minecraft:in_square"
-        },
-        {
-          "height": {
-            "min_inclusive": {
-              "absolute": 5
-            },
-            "max_inclusive": {
-              "absolute": 200
-            },
-            "type": "minecraft:uniform"
-          },
-          "type": "minecraft:height_range"
-        }
-      ],
-      "targets": [
-        {
-          "target": {
-            "tag": "forge:end_stones",
-            "predicate_type": "minecraft:tag_match"
-          },
-          "state": {
-            "Name": "bigreactors:anglesite_ore"
-          }
-        }
-      ]
-    },
-    {
-      "ore_size": 9,
-      "discard_on_air_chance": 0.0,
-      "modifiers": [
-        {
           "height": {
             "min_inclusive": {
               "absolute": 16

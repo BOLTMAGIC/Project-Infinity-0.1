@@ -144,8 +144,6 @@ MMEvents.createProcesses((event) => {
     'mysticalagriculture:draconium_seeds',
     'mysticalagriculture:netherite_seeds',
     'mysticalagriculture:wither_skeleton_seeds',
-    'mysticalagriculture:yellorium_seeds',
-    'mysticalagriculture:cyanite_seeds',
     'mysticalagriculture:platinum_seeds',
     'mysticalagriculture:iridium_seeds',
     'mysticalagriculture:niotic_crystal_seeds',

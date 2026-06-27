@@ -1220,8 +1220,8 @@
 				}
 			]
 			title: "{ftbquests.chapter.shop.quest3D2DB9C3D7B39D17.title}"
-			x: 4.0d
-			y: 6.0d
+			x: -3.0d
+			y: 10.5d
 		}
 		{
 			can_repeat: true
@@ -1267,8 +1267,8 @@
 				}
 			]
 			title: "{ftbquests.chapter.shop.quest17A198BCD46C4F67.title}"
-			x: 4.0d
-			y: 3.0d
+			x: -3.0d
+			y: 7.5d
 		}
 		{
 			can_repeat: true
@@ -1314,8 +1314,8 @@
 				}
 			]
 			title: "{ftbquests.chapter.shop.quest39D36502DF241EFC.title}"
-			x: 5.0d
-			y: 3.0d
+			x: -2.0d
+			y: 7.5d
 		}
 		{
 			can_repeat: true
@@ -1361,8 +1361,8 @@
 				}
 			]
 			title: "{ftbquests.chapter.shop.quest66058316503CC84F.title}"
-			x: 3.0d
-			y: 3.0d
+			x: -4.0d
+			y: 7.5d
 		}
 		{
 			can_repeat: true
@@ -1408,8 +1408,8 @@
 				}
 			]
 			title: "{ftbquests.chapter.shop.quest7EAC1C7BBB644065.title}"
-			x: 3.0d
-			y: 4.0d
+			x: -4.0d
+			y: 8.5d
 		}
 		{
 			can_repeat: true
@@ -1455,8 +1455,8 @@
 				}
 			]
 			title: "{ftbquests.chapter.shop.quest22FF485B2CED5054.title}"
-			x: 5.0d
-			y: 4.0d
+			x: -2.0d
+			y: 8.5d
 		}
 		{
 			can_repeat: true
@@ -1502,8 +1502,8 @@
 				}
 			]
 			title: "{ftbquests.chapter.shop.questA3D34B9BABE5DA9.title}"
-			x: 4.0d
-			y: 4.0d
+			x: -3.0d
+			y: 8.5d
 		}
 	]
 	title: "{ftbquests.chapter.shop.title}"

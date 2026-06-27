@@ -1973,42 +1973,6 @@
       ]
     },
     {
-      "ore_size": 9,
-      "discard_on_air_chance": 0.0,
-      "modifiers": [
-        {
-          "count": 10,
-          "type": "minecraft:count"
-        },
-        {
-          "type": "minecraft:in_square"
-        },
-        {
-          "height": {
-            "min_inclusive": {
-              "absolute": 3
-            },
-            "max_inclusive": {
-              "absolute": 126
-            },
-            "type": "minecraft:uniform"
-          },
-          "type": "minecraft:height_range"
-        }
-      ],
-      "targets": [
-        {
-          "target": {
-            "tag": "forge:netherrack",
-            "predicate_type": "minecraft:tag_match"
-          },
-          "state": {
-            "Name": "bigreactors:benitoite_ore"
-          }
-        }
-      ]
-    },
-    {
       "ore_size": 24,
       "discard_on_air_chance": 0.0,
       "modifiers": [

@@ -1,14 +1,5 @@
 {
 	id: "0595EDDADDEA1407"
-	loot_crate: {
-		color: 16777215
-		drops: {
-			boss: 0
-			monster: 0
-			passive: 0
-		}
-		string_id: "legendary_mana_loot_bag"
-	}
 	loot_size: 1
 	order_index: 37
 	rewards: [

@@ -1,6 +1,10 @@
 {
     "size": "medium",
     "color": "#5f5542",
+    "rules": {
+        "allow_discarding": true,
+        "player_damage_only": true
+    },
     "waves": [
         {
             "entities": [

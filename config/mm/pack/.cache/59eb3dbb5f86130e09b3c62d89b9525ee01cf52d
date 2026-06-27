@@ -1,4 +1,4 @@
-// 1.20.1	2026-06-27T13:59:27.3260448	Loot Tables
+// 1.20.1	2026-06-27T23:17:55.2901942	Loot Tables
 9fdf7151e82498699c3950ae185e9dbb659b4078 data/mm/loot_tables/blocks/advanced_awakening_altar_controller.json
 ccf1aa2ca4c6307c261df07dee94e2c12475dbae data/mm/loot_tables/blocks/auto_crusher_controller.json
 f68253f0235bfc5d0979ebdd642ea96b410ece4f data/mm/loot_tables/blocks/auto_sieve_controller.json
@@ -33,7 +33,6 @@ a72b9cb1074d4adf37eb2ea3d67dbf7ac38cbfb2 data/mm/loot_tables/blocks/infinity_cel
 d45f2d2fe7d0e7263fd91203e36e2e4ebf199d63 data/mm/loot_tables/blocks/infinity_crucible_controller.json
 8782a09a59dd821932e703023b1f342c4fd92688 data/mm/loot_tables/blocks/loot_fabrication_plant_controller.json
 f21b571417baab55fc77f0edd33218f5d15062c4 data/mm/loot_tables/blocks/mechanical_empowerer_controller.json
-564506157fa46bd05a0ca12503a1cfe96480a488 data/mm/loot_tables/blocks/mega_dissolver_controller.json
 bc83a5e00d5f031bc36850c75a15b141ce6a86dc data/mm/loot_tables/blocks/multi_compactor_controller.json
 a3095e9c5c6c6d4012468351c30ba6d73a01dcaf data/mm/loot_tables/blocks/multi_compressor_controller.json
 e126736f0b18a3700bd1082fa7cc7dc229e4aaa9 data/mm/loot_tables/blocks/normal_energy_port_input.json

@@ -53,12 +53,6 @@ ServerEvents.recipes((event) => {
           item: 'mysticalagriculture:draconium_essence',
         },
         {
-          item: 'mysticalagriculture:yellorium_essence',
-        },
-        {
-          item: 'mysticalagriculture:cyanite_essence',
-        },
-        {
           item: 'mysticalagriculture:niotic_crystal_essence',
         },
         {

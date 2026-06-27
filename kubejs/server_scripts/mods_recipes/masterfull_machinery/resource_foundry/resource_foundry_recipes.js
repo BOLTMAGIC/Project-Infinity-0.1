@@ -1556,11 +1556,11 @@ MMEvents.createProcesses(function (event) {
       { type: 'mm:item', item: 'mysticalagriculture:lead_essence', count: 8 },
     ],
   });
-
-  // 8 graphite_essence -> 6 bigreactors:graphite_ingot
+  
+  // 8 graphite_essence -> 6 nuclearcraft:graphite_ingot'
   createRFProcess({
     outputId: 'mm:graphite_ingot_from_graphite_essence',
-    outputItem: 'bigreactors:graphite_ingot',
+    outputItem: 'nuclearcraft:graphite_ingot',
     outputCount: 6,
     inputs: [ { type: 'mm:item', item: 'mysticalagriculture:graphite_essence', count: 8 } ],
   });
@@ -2460,24 +2460,6 @@ MMEvents.createProcesses(function (event) {
     outputCount: 1,
     inputs: [
       { type: 'mm:item', item: 'mysticalagriculture:draconium_essence', count: 8 },
-    ],
-  });
-
-  createRFProcess({
-    outputId: 'mm:ingot_uranium_from_yellorium_essence',
-    outputItem: 'mekanism:ingot_uranium',
-    outputCount: 4,
-    inputs: [
-      { type: 'mm:item', item: 'mysticalagriculture:yellorium_essence', count: 8 },
-    ],
-  });
-
-  createRFProcess({
-    outputId: 'mm:cyanite_ingot_from_essence',
-    outputItem: 'bigreactors:cyanite_ingot',
-    outputCount: 3,
-    inputs: [
-      { type: 'mm:item', item: 'mysticalagriculture:cyanite_essence', count: 8 },
     ],
   });
 

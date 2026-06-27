@@ -7,15 +7,6 @@
 		}
 	}
 	id: "06C4634E81851A6C"
-	loot_crate: {
-		color: 16777215
-		drops: {
-			boss: 0
-			monster: 0
-			passive: 0
-		}
-		string_id: "common_reward"
-	}
 	loot_size: 1
 	order_index: 9
 	rewards: [

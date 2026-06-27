@@ -1,4 +1,4 @@
-// 1.20.1	2026-06-27T13:59:27.3270455	Item Models: mm
+// 1.20.1	2026-06-27T23:17:55.2911945	Item Models: mm
 d8eb5d6e71c6bf630dbcd9920f532ebdab3efa96 assets/mm/models/item/advanced_awakening_altar_controller.json
 d87054b6666b46f940f6564b9e690728b75e8ae3 assets/mm/models/item/auto_crusher_controller.json
 775a48cc6d7b85e3e79d42351aa77f867e69db40 assets/mm/models/item/auto_sieve_controller.json
@@ -33,7 +33,6 @@ d63dbe9cddbc53296c84909a3affc93b821c7996 assets/mm/models/item/infinity_cell_fac
 58fa730bbcdd9eae9a198d401250ca440c37ac88 assets/mm/models/item/infinity_crucible_controller.json
 1c16a5c068008af65865930727bfb651478e7d82 assets/mm/models/item/loot_fabrication_plant_controller.json
 d4e1a0fa4b55e117d33a6112b5e5a4e2f163f662 assets/mm/models/item/mechanical_empowerer_controller.json
-6a46a00b10aa2e759118910ba5e37afb6c2ecf91 assets/mm/models/item/mega_dissolver_controller.json
 b8758dadea30baff0e4af259da1f193bed57eea6 assets/mm/models/item/multi_compactor_controller.json
 b41ec72e4ba3a50e52b290677c4c1ab285de1339 assets/mm/models/item/multi_compressor_controller.json
 fa86a8fa4255c5b9cc61c10aab14ad23a7e23ed9 assets/mm/models/item/normal_energy_port_input.json

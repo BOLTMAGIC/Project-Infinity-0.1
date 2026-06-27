@@ -6,11 +6,6 @@ ServerEvents.recipes((event) => {
     'kubejs:infinity_7'
   );
   event.replaceInput(
-    { input: 'bigreactors:yellorium_ingot' },
-    'bigreactors:yellorium_ingot',
-    'mekanism:ingot_uranium'
-  );
-  event.replaceInput(
     { output: 'botania:spark', input: 'minecraft:gold_nugget' },
     'minecraft:gold_nugget',
     'minecraft:iron_nugget'

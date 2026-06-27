@@ -38,10 +38,6 @@ armorplus:ore_frost_crystal_stone
 armorplus:ore_lava_crystal
 armorplus:ore_lava_crystal_obsidian
 armorplus:ore_lava_crystal_stone
-bigreactors:anglesite_ore
-bigreactors:benitoite_ore
-bigreactors:yellorite_deepslate_ore
-bigreactors:yellorite_ore
 born_in_chaos_v1:black_argillite
 born_in_chaos_v1:infected_deepslate_diamond_ore_feature
 born_in_chaos_v1:infected_diamond_ore_feature

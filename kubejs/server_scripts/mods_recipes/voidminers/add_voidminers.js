@@ -106,9 +106,6 @@ ServerEvents.recipes((event) => {
   for (let tier = 5; tier <= 8; tier++) {
     voidminerBatch2(2, tier, netherOres, 4.0);
   }
-  for (let tier = 5; tier <= 8; tier++) {
-    voidminerBatch2(2, tier, ['bigreactors:benitoite_ore'], 10.0);
-  }
   for (let tier = 7; tier <= 8; tier++) {
     voidminerBatch2(3, tier, endOres, 2.5);
   }

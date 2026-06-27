@@ -1,15 +1,6 @@
 {
 	icon: "minecraft:nether_star"
 	id: "481E10AEAC95C550"
-	loot_crate: {
-		color: 16777215
-		drops: {
-			boss: 0
-			monster: 0
-			passive: 0
-		}
-		string_id: "mythic_reward"
-	}
 	loot_size: 1
 	order_index: 14
 	rewards: [

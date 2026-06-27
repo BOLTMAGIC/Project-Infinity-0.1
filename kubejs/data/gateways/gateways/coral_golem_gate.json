@@ -8,6 +8,7 @@
     "size": "medium",
     "color": "#b30024",
     "rules": {
+        "allow_discarding": true,
         "player_damage_only": true
     },
     "waves": [

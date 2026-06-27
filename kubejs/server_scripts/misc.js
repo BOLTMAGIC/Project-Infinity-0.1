@@ -28,15 +28,6 @@ ServerEvents.recipes((event) => {
   //#region avaritia
   create3x3same(event, 'avaritia:blaze_cube', ['avaritia_expand:blaze_nugget']);
 
-  //#region bigreactors
-  event.smelting('bigreactors:benitoite_crystal', 'bigreactors:benitoite_ore');
-
-  shapeless(event, '3x bigreactors:yellorium_ingot', [
-    'mekanism:ingot_uranium',
-    'mekanism:ingot_uranium',
-    'mekanism:ingot_uranium',
-  ]);
-
   //#region born_in_chaos_v1
   event.smelting('born_in_chaos_v1:dark_metal_ingot','born_in_chaos_v1:pileof_dark_metal');
 

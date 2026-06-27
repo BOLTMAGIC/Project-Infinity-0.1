@@ -32,8 +32,6 @@
 		{ item: "mysticalagriculture:end_steel_seeds" }
 		{ item: "mysticalagriculture:terrasteel_seeds" }
 		{ item: "mysticalagriculture:draconium_seeds" }
-		{ item: "mysticalagriculture:yellorium_seeds" }
-		{ item: "mysticalagriculture:cyanite_seeds" }
 		{ item: "mysticalagriculture:niotic_crystal_seeds" }
 		{ item: "mysticalagriculture:spirited_crystal_seeds" }
 		{ item: "mysticalagriculture:uraninite_seeds" }

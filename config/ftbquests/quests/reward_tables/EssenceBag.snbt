@@ -1,15 +1,6 @@
 {
 	icon: "mysticalagriculture:inferium_essence"
 	id: "49E8BD91A6A936C5"
-	loot_crate: {
-		color: 16777215
-		drops: {
-			boss: 0
-			monster: 0
-			passive: 0
-		}
-		string_id: "essence_bag"
-	}
 	loot_size: 1
 	order_index: 21
 	rewards: [

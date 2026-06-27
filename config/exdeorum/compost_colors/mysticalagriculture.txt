@@ -78,8 +78,6 @@ cow_seeds, #655547
 creative_soulium_dagger, #7c049d
 creeper_essence, #6b6b6b
 creeper_seeds, #5bb850
-cyanite_essence, #70bcfb
-cyanite_seeds, #52a0dd
 dark_steel_essence, #acacac
 dark_steel_seeds, #f2f2f2
 deepslate_essence, #68686e
@@ -425,8 +423,6 @@ wither_skeleton_essence, #2c2c2c
 wither_skeleton_seeds, #2d2d2d
 wood_essence, #658c33
 wood_seeds, #83683d
-yellorium_essence, #c3b839
-yellorium_seeds, #a49b22
 zinc_essence, #d7f2e4
 zinc_seeds, #ffffff
 zombie_essence, #9e4e29

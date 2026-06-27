@@ -457,7 +457,6 @@ ServerEvents.recipes((event) => {
         'chisel_chipped_integration:metal_uranium_thermal',
         'alltheores:uranium_block',
         'common_ore_library:uranium_block',
-        'bigreactors:yellorium_block',
         'nuclearcraft:uranium_block',
       ],
     },

@@ -87,7 +87,6 @@ ServerEvents.tags('fluid', (event) => {
   event.add('mekanism:steam', [
     'mekanism:water_vapor',
     'mekanism:steam',
-    'bigreactors:steam',
   ]);
   event.add('forge:heavy_water', [
     'mekanism:heavy_water',
@@ -97,7 +96,6 @@ ServerEvents.tags('fluid', (event) => {
   event.add('forge:sulfur_trioxide', 'mekanism:sulfur_trioxide');
   event.add('minecraft:water', 'minecraft:water');
   event.add('bloodmagic:life_essence_fluid', 'bloodmagic:life_essence_fluid');
-  event.add('forge:steam', ['bigreactors:steam', 'bigreactors:steam_vapor']);
 
   event.add('getittogetherdrops:ignored', [
     'minecraft:coal',

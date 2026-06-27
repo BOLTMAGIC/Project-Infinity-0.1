@@ -452,14 +452,6 @@ ServerEvents.recipes((event) => {
     'minecraft:diamond_block',
   ]);
   seedcraftingtier5(event, [
-    'mysticalagriculture:yellorium_seeds',
-    'bigreactors:yellorium_block',
-  ]);
-  seedcraftingtier5(event, [
-    'mysticalagriculture:cyanite_seeds',
-    'bigreactors:cyanite_block',
-  ]);
-  seedcraftingtier5(event, [
     'mysticalagriculture:draconium_seeds',
     'draconicevolution:draconium_block',
   ]);

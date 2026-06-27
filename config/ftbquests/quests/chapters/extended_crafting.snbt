@@ -188,7 +188,6 @@
 			dependencies: [
 				"5974F712DA017C94"
 				"7E21D8137624442D"
-				"386E842C193E1B4F"
 			]
 			hide_dependency_lines: true
 			id: "501A8D68AA146608"
@@ -326,24 +325,6 @@
 			}]
 			x: 11.0d
 			y: -12.0d
-		}
-		{
-			dependencies: ["2EC1D0576E0D417C"]
-			hide_dependency_lines: true
-			id: "386E842C193E1B4F"
-			rewards: [{
-				id: "164DD487B3DF9AE2"
-				item: "kubejs:apotheotic_coin"
-				type: "item"
-			}]
-			shape: "hexagon"
-			tasks: [{
-				id: "76B078734C493219"
-				item: "extendedcrafting:enhanced_ender_ingot"
-				type: "item"
-			}]
-			x: 13.0d
-			y: -12.5d
 		}
 		{
 			dependencies: ["183E47DFBC340187"]
@@ -765,7 +746,6 @@
 				"3E9F25DCDD099508"
 				"103F026C14CADBDC"
 				"03D4996E270482F4"
-				"1682513B0CBE734B"
 				"78C9D74D99D6BF1E"
 				"101CC4CB931C6485"
 				"3F321078B5437647"
@@ -953,7 +933,6 @@
 			dependencies: [
 				"5974F712DA017C94"
 				"7E21D8137624442D"
-				"147EE4FB2C5F1A34"
 			]
 			hide_dependency_lines: true
 			id: "0C824D2FDD62401F"
@@ -1002,24 +981,6 @@
 			}]
 			x: 11.0d
 			y: -15.0d
-		}
-		{
-			dependencies: ["68463B5E8E6698F6"]
-			hide_dependency_lines: true
-			id: "147EE4FB2C5F1A34"
-			rewards: [{
-				id: "3A4A726CC1CEBBC1"
-				item: "kubejs:apotheotic_coin"
-				type: "item"
-			}]
-			shape: "hexagon"
-			tasks: [{
-				id: "6BD21B689412A9DD"
-				item: "extendedcrafting:enhanced_redstone_ingot"
-				type: "item"
-			}]
-			x: 13.0d
-			y: -14.0d
 		}
 		{
 			dependencies: [
@@ -3763,22 +3724,6 @@
 			y: 0.5d
 		}
 		{
-			id: "1682513B0CBE734B"
-			rewards: [{
-				id: "0D281E1F7001B055"
-				item: "kubejs:apotheotic_coin"
-				type: "item"
-			}]
-			shape: "hexagon"
-			tasks: [{
-				id: "19EC1ECE4651D5AA"
-				item: "bigreactors:cyanite_ingot"
-				type: "item"
-			}]
-			x: 18.0d
-			y: 0.5d
-		}
-		{
 			id: "5CA1B44C4EADF342"
 			rewards: [{
 				id: "6CF029AF86A3D32F"
@@ -4836,6 +4781,38 @@
 			}]
 			x: 6.5d
 			y: -6.5d
+		}
+		{
+			id: "708BF133B9975344"
+			rewards: [{
+				id: "17A20F6019F58D6E"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "3E7A7290CDB152EB"
+				item: "justdirethings:eclipsealloy_ingot"
+				type: "item"
+			}]
+			x: 8.0d
+			y: -1.5d
+		}
+		{
+			id: "1B114E1986AE1573"
+			rewards: [{
+				id: "7DDCE6F59B734E9F"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "13D00ECC5F4148D0"
+				item: "nuclearcraft:thermoconducting_ingot"
+				type: "item"
+			}]
+			x: 18.0d
+			y: 0.5d
 		}
 	]
 	title: "{ftbquests.chapter.extended_crafting.title}"

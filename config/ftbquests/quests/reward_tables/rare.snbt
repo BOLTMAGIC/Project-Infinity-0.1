@@ -7,15 +7,6 @@
 		}
 	}
 	id: "4D37FFAF33DF678A"
-	loot_crate: {
-		color: 16777215
-		drops: {
-			boss: 0
-			monster: 0
-			passive: 0
-		}
-		string_id: "rare_reward"
-	}
 	loot_size: 1
 	order_index: 11
 	rewards: [

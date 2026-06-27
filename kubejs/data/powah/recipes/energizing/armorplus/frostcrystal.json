@@ -3,7 +3,7 @@
     "ingredients": [
         { "item": "armorplus:en_diamond" },
         { "item": "minecraft:lapis_lazuli" },
-        { "item": "bigreactors:cyanite_ingot" },
+        { "item": "ae2omnicells:charged_ender_ingot" },
         { "item": "common_ore_library:platinum_ingot" },
         { "item": "minecraft:water_bucket" }
     ],

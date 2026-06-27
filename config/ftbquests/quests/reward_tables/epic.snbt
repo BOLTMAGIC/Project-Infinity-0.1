@@ -1,15 +1,6 @@
 {
 	icon: "minecraft:chest"
 	id: "617F6D802ED0FD00"
-	loot_crate: {
-		color: 16777215
-		drops: {
-			boss: 0
-			monster: 0
-			passive: 0
-		}
-		string_id: "epic_reward"
-	}
 	loot_size: 1
 	order_index: 12
 	rewards: [

@@ -3880,42 +3880,6 @@
       ]
     },
     {
-      "ore_size": 9,
-      "discard_on_air_chance": 0.0,
-      "modifiers": [
-        {
-          "count": 5,
-          "type": "minecraft:count"
-        },
-        {
-          "type": "minecraft:in_square"
-        },
-        {
-          "height": {
-            "min_inclusive": {
-              "absolute": 0
-            },
-            "max_inclusive": {
-              "absolute": 32
-            },
-            "type": "minecraft:uniform"
-          },
-          "type": "minecraft:height_range"
-        }
-      ],
-      "targets": [
-        {
-          "target": {
-            "tag": "minecraft:stone_ore_replaceables",
-            "predicate_type": "minecraft:tag_match"
-          },
-          "state": {
-            "Name": "bigreactors:yellorite_ore"
-          }
-        }
-      ]
-    },
-    {
       "ore_size": 64,
       "discard_on_air_chance": 0.0,
       "modifiers": [
@@ -4892,42 +4856,6 @@
           },
           "state": {
             "Name": "alltheores:end_platinum_ore"
-          }
-        }
-      ]
-    },
-    {
-      "ore_size": 9,
-      "discard_on_air_chance": 0.0,
-      "modifiers": [
-        {
-          "count": 3,
-          "type": "minecraft:count"
-        },
-        {
-          "type": "minecraft:in_square"
-        },
-        {
-          "height": {
-            "min_inclusive": {
-              "absolute": -64
-            },
-            "max_inclusive": {
-              "absolute": -48
-            },
-            "type": "minecraft:uniform"
-          },
-          "type": "minecraft:height_range"
-        }
-      ],
-      "targets": [
-        {
-          "target": {
-            "tag": "minecraft:deepslate_ore_replaceables",
-            "predicate_type": "minecraft:tag_match"
-          },
-          "state": {
-            "Name": "bigreactors:deepslate_yellorite_ore"
           }
         }
       ]

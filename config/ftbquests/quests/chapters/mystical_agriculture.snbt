@@ -4135,7 +4135,7 @@
 				type: "item"
 			}]
 			x: 3.0d
-			y: 1.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["6C52741D22052A14"]
@@ -4148,38 +4148,6 @@
 			tasks: [{
 				id: "0AFCCD5C8C34A0D2"
 				item: "mysticalagriculture:draconium_seeds"
-				type: "item"
-			}]
-			x: 1.0d
-			y: 2.0d
-		}
-		{
-			dependencies: ["6C52741D22052A14"]
-			id: "04BD35C03CB713FA"
-			rewards: [{
-				id: "7F98FC107700759C"
-				item: "kubejs:infused_coin"
-				type: "item"
-			}]
-			tasks: [{
-				id: "7F41EA00DC9988A4"
-				item: "mysticalagriculture:yellorium_seeds"
-				type: "item"
-			}]
-			x: 2.0d
-			y: 2.0d
-		}
-		{
-			dependencies: ["6C52741D22052A14"]
-			id: "631CB9FE2B2E96B5"
-			rewards: [{
-				id: "26A64265E44C462A"
-				item: "kubejs:infused_coin"
-				type: "item"
-			}]
-			tasks: [{
-				id: "76B48FBD63671DBC"
-				item: "mysticalagriculture:cyanite_seeds"
 				type: "item"
 			}]
 			x: 1.0d
@@ -4199,7 +4167,7 @@
 				type: "item"
 			}]
 			x: 1.0d
-			y: 3.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["6C52741D22052A14"]
@@ -4215,7 +4183,7 @@
 				type: "item"
 			}]
 			x: 2.0d
-			y: 3.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["6C52741D22052A14"]
@@ -4231,7 +4199,7 @@
 				type: "item"
 			}]
 			x: 3.0d
-			y: 2.0d
+			y: 1.0d
 		}
 		{
 			dependencies: ["6C52741D22052A14"]
@@ -4247,7 +4215,7 @@
 				type: "item"
 			}]
 			x: 1.0d
-			y: 4.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["6C52741D22052A14"]
@@ -4263,7 +4231,7 @@
 				type: "item"
 			}]
 			x: 2.0d
-			y: 4.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["6C52741D22052A14"]
@@ -4279,7 +4247,7 @@
 				type: "item"
 			}]
 			x: 3.0d
-			y: 3.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["6C52741D22052A14"]
@@ -4295,7 +4263,7 @@
 				type: "item"
 			}]
 			x: 1.0d
-			y: 5.0d
+			y: 4.0d
 		}
 		{
 			dependencies: ["6C52741D22052A14"]
@@ -4311,7 +4279,7 @@
 				type: "item"
 			}]
 			x: 2.0d
-			y: 5.0d
+			y: 4.0d
 		}
 		{
 			dependencies: ["6C52741D22052A14"]
@@ -4327,7 +4295,7 @@
 				type: "item"
 			}]
 			x: 3.0d
-			y: 4.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["6C52741D22052A14"]
@@ -4343,7 +4311,7 @@
 				type: "item"
 			}]
 			x: 1.0d
-			y: 6.0d
+			y: 5.0d
 		}
 		{
 			dependencies: ["6C52741D22052A14"]
@@ -4359,7 +4327,7 @@
 				type: "item"
 			}]
 			x: 2.0d
-			y: 6.0d
+			y: 5.0d
 		}
 		{
 			dependencies: ["6C52741D22052A14"]
@@ -4375,7 +4343,7 @@
 				type: "item"
 			}]
 			x: 3.0d
-			y: 5.0d
+			y: 4.0d
 		}
 		{
 			dependencies: ["4970CC2851818A02"]

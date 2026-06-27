@@ -1,14 +1,5 @@
 {
 	id: "639509C7B28C90DF"
-	loot_crate: {
-		color: 16777215
-		drops: {
-			boss: 0
-			monster: 0
-			passive: 0
-		}
-		string_id: "legendary_reward"
-	}
 	loot_size: 1
 	order_index: 13
 	rewards: [

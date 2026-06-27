@@ -34,8 +34,8 @@
 				id: "6F03A7F37EB82147"
 				type: "checkmark"
 			}]
-			x: -11.0d
-			y: 4.0d
+			x: -1.0d
+			y: 5.0d
 		}
 		{
 			dependencies: ["64CD0F9017E449BB"]
@@ -55,8 +55,8 @@
 				type: "stat"
 				value: 500
 			}]
-			x: 3.5d
-			y: 2.5d
+			x: 5.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["64CD0F9017E449BB"]
@@ -76,8 +76,8 @@
 				type: "stat"
 				value: 50
 			}]
-			x: 6.0d
-			y: 4.5d
+			x: -3.5d
+			y: 7.0d
 		}
 		{
 			dependencies: ["64CD0F9017E449BB"]
@@ -97,8 +97,8 @@
 				type: "stat"
 				value: 50
 			}]
-			x: 0.0d
-			y: 2.5d
+			x: 1.5d
+			y: 3.0d
 		}
 		{
 			dependencies: ["64CD0F9017E449BB"]
@@ -125,7 +125,7 @@
 				value: 1000
 			}]
 			x: -3.5d
-			y: 2.5d
+			y: 3.0d
 		}
 		{
 			dependencies: ["64CD0F9017E449BB"]
@@ -146,34 +146,7 @@
 				value: 50
 			}]
 			x: -7.0d
-			y: 2.5d
-		}
-		{
-			dependencies: ["64CD0F9017E449BB"]
-			id: "55DBB5F0220B25F1"
-			rewards: [{
-				id: "024E7CB60D06E50B"
-				item: "kubejs:apotheotic_coin"
-				type: "item"
-			}]
-			shape: "diamond"
-			subtitle: "{ftbquests.chapter.odd_challenges.quest55DBB5F0220B25F1.subtitle}"
-			tasks: [{
-				icon: {
-					Count: 1
-					id: "minecraft:fishing_rod"
-					tag: {
-						Damage: 0
-					}
-				}
-				id: "3806BD78C294B6CA"
-				stat: "minecraft:fish_caught"
-				title: "{ftbquests.chapter.odd_challenges.quest55DBB5F0220B25F1.task.4037122442342479562.title}"
-				type: "stat"
-				value: 100
-			}]
-			x: -3.5d
-			y: 6.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["64CD0F9017E449BB"]
@@ -202,8 +175,8 @@
 				type: "stat"
 				value: 100
 			}]
-			x: 0.0d
-			y: 6.0d
+			x: 1.5d
+			y: 7.0d
 		}
 		{
 			dependencies: ["64CD0F9017E449BB"]
@@ -224,7 +197,7 @@
 				value: 1000
 			}]
 			x: -7.0d
-			y: 6.0d
+			y: 7.0d
 		}
 		{
 			dependencies: ["16236912E787D392"]
@@ -246,7 +219,7 @@
 				value: 100
 			}]
 			x: -7.0d
-			y: 1.5d
+			y: 2.0d
 		}
 		{
 			dependencies: ["54A6FC9766F9CA1A"]
@@ -268,7 +241,7 @@
 				value: 200
 			}]
 			x: -8.0d
-			y: 2.5d
+			y: 3.0d
 		}
 		{
 			dependencies: ["2A077ECA2E708F50"]
@@ -290,7 +263,7 @@
 				value: 350
 			}]
 			x: -7.0d
-			y: 3.5d
+			y: 4.0d
 		}
 		{
 			dependencies: ["3CD7B38E825288A5"]
@@ -312,7 +285,7 @@
 				value: 500
 			}]
 			x: -6.0d
-			y: 2.5d
+			y: 3.0d
 		}
 		{
 			dependencies: ["26F5537324333FF4"]
@@ -340,7 +313,7 @@
 				value: 5000
 			}]
 			x: -3.5d
-			y: 1.5d
+			y: 2.0d
 		}
 		{
 			dependencies: ["00519B8C94347248"]
@@ -368,7 +341,7 @@
 				value: 10000
 			}]
 			x: -4.5d
-			y: 2.5d
+			y: 3.0d
 		}
 		{
 			dependencies: ["523C0087C03663BD"]
@@ -396,7 +369,7 @@
 				value: 50000
 			}]
 			x: -3.5d
-			y: 3.5d
+			y: 4.0d
 		}
 		{
 			dependencies: ["5A2E0FE2DE82013B"]
@@ -424,7 +397,7 @@
 				value: 100000
 			}]
 			x: -2.5d
-			y: 2.5d
+			y: 3.0d
 		}
 		{
 			dependencies: ["299772B87B7A6EDE"]
@@ -445,8 +418,8 @@
 				type: "stat"
 				value: 100
 			}]
-			x: 0.0d
-			y: 1.5d
+			x: 1.5d
+			y: 2.0d
 		}
 		{
 			dependencies: ["4661B033AC123DA0"]
@@ -467,8 +440,8 @@
 				type: "stat"
 				value: 150
 			}]
-			x: -1.0d
-			y: 2.5d
+			x: 0.5d
+			y: 3.0d
 		}
 		{
 			dependencies: ["5CF7CF7E308A5897"]
@@ -489,8 +462,8 @@
 				type: "stat"
 				value: 200
 			}]
-			x: 0.0d
-			y: 3.5d
+			x: 1.5d
+			y: 4.0d
 		}
 		{
 			dependencies: ["5FD8D89E8E57169B"]
@@ -511,8 +484,8 @@
 				type: "stat"
 				value: 300
 			}]
-			x: 1.0d
-			y: 2.5d
+			x: 2.5d
+			y: 3.0d
 		}
 		{
 			dependencies: ["06827568C3A9A731"]
@@ -533,7 +506,7 @@
 				value: 5000
 			}]
 			x: -7.0d
-			y: 5.0d
+			y: 6.0d
 		}
 		{
 			dependencies: ["4BC2221A168D44DC"]
@@ -554,7 +527,7 @@
 				value: 15000
 			}]
 			x: -8.0d
-			y: 6.0d
+			y: 7.0d
 		}
 		{
 			dependencies: ["3C4C52FB2E13E19D"]
@@ -575,7 +548,7 @@
 				value: 30000
 			}]
 			x: -7.0d
-			y: 7.0d
+			y: 8.0d
 		}
 		{
 			dependencies: ["7E56D7F3AC4E65C1"]
@@ -596,7 +569,7 @@
 				value: 100000
 			}]
 			x: -6.0d
-			y: 6.0d
+			y: 7.0d
 		}
 		{
 			dependencies: ["64CD0F9017E449BB"]
@@ -621,8 +594,8 @@
 				type: "stat"
 				value: 500
 			}]
-			x: 3.5d
-			y: 6.0d
+			x: 5.0d
+			y: 7.0d
 		}
 		{
 			dependencies: ["75DF212BEA5E3884"]
@@ -641,8 +614,8 @@
 				type: "stat"
 				value: 2500
 			}]
-			x: 3.5d
-			y: 1.5d
+			x: 5.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["46E032EB11B66CDC"]
@@ -661,8 +634,8 @@
 				type: "stat"
 				value: 5000
 			}]
-			x: 2.5d
-			y: 2.5d
+			x: 4.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["7EB569BE9EDAD34D"]
@@ -681,8 +654,8 @@
 				type: "stat"
 				value: 15000
 			}]
-			x: 3.5d
-			y: 3.5d
+			x: 5.0d
+			y: 4.0d
 		}
 		{
 			dependencies: ["441C7DC9E03D4B09"]
@@ -701,8 +674,8 @@
 				type: "stat"
 				value: 50000
 			}]
-			x: 4.5d
-			y: 2.5d
+			x: 6.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["18DF9D429BC79A1F"]
@@ -721,8 +694,8 @@
 				type: "stat"
 				value: 100
 			}]
-			x: 6.0d
-			y: 3.5d
+			x: -3.5d
+			y: 6.0d
 		}
 		{
 			dependencies: ["4AE095F400815442"]
@@ -741,8 +714,8 @@
 				type: "stat"
 				value: 150
 			}]
-			x: 5.0d
-			y: 4.5d
+			x: -4.5d
+			y: 7.0d
 		}
 		{
 			dependencies: ["6A171D9804160EDA"]
@@ -761,8 +734,8 @@
 				type: "stat"
 				value: 200
 			}]
-			x: 6.0d
-			y: 5.5d
+			x: -3.5d
+			y: 8.0d
 		}
 		{
 			dependencies: ["424F51068F2F6CC9"]
@@ -781,116 +754,8 @@
 				type: "stat"
 				value: 250
 			}]
-			x: 7.0d
-			y: 4.5d
-		}
-		{
-			dependencies: ["55DBB5F0220B25F1"]
-			hide_until_deps_visible: true
-			id: "744C033B5C929A34"
-			rewards: [{
-				id: "6D12A0EB5A4DB66D"
-				item: "kubejs:apotheotic_coin"
-				type: "item"
-			}]
-			subtitle: "{ftbquests.chapter.odd_challenges.quest744C033B5C929A34.subtitle}"
-			tasks: [{
-				icon: {
-					Count: 1
-					id: "minecraft:fishing_rod"
-					tag: {
-						Damage: 0
-					}
-				}
-				id: "138E4294638605DB"
-				stat: "minecraft:fish_caught"
-				title: "{ftbquests.chapter.odd_challenges.quest744C033B5C929A34.task.1409136938505864667.title}"
-				type: "stat"
-				value: 250
-			}]
-			x: -3.5d
-			y: 5.0d
-		}
-		{
-			dependencies: ["744C033B5C929A34"]
-			hide_until_deps_visible: true
-			id: "396325258130E693"
-			rewards: [{
-				id: "0FCB8164C7B00F30"
-				item: "kubejs:apotheotic_coin"
-				type: "item"
-			}]
-			subtitle: "{ftbquests.chapter.odd_challenges.quest396325258130E693.subtitle}"
-			tasks: [{
-				icon: {
-					Count: 1
-					id: "minecraft:fishing_rod"
-					tag: {
-						Damage: 0
-					}
-				}
-				id: "2BD4557622D5CAA0"
-				stat: "minecraft:fish_caught"
-				title: "{ftbquests.chapter.odd_challenges.quest396325258130E693.task.3158243204572498592.title}"
-				type: "stat"
-				value: 500
-			}]
-			x: -4.5d
-			y: 6.0d
-		}
-		{
-			dependencies: ["396325258130E693"]
-			hide_until_deps_visible: true
-			id: "6AFE7E124180A592"
-			rewards: [{
-				id: "5A8160CF16392D8D"
-				item: "kubejs:apotheotic_coin"
-				type: "item"
-			}]
-			subtitle: "{ftbquests.chapter.odd_challenges.quest6AFE7E124180A592.subtitle}"
-			tasks: [{
-				icon: {
-					Count: 1
-					id: "minecraft:fishing_rod"
-					tag: {
-						Damage: 0
-					}
-				}
-				id: "4DA1BE80FAAC6B3A"
-				stat: "minecraft:fish_caught"
-				title: "{ftbquests.chapter.odd_challenges.quest6AFE7E124180A592.task.5593961673341561658.title}"
-				type: "stat"
-				value: 1000
-			}]
-			x: -3.5d
-			y: 7.0d
-		}
-		{
-			dependencies: ["6AFE7E124180A592"]
-			hide_until_deps_visible: true
-			id: "62CB979901DCD6FF"
-			rewards: [{
-				id: "0386C853CB79A62B"
-				item: "kubejs:infused_coin"
-				type: "item"
-			}]
-			subtitle: "{ftbquests.chapter.odd_challenges.quest62CB979901DCD6FF.subtitle}"
-			tasks: [{
-				icon: {
-					Count: 1
-					id: "minecraft:fishing_rod"
-					tag: {
-						Damage: 0
-					}
-				}
-				id: "5B82FD41CA951FB7"
-				stat: "minecraft:mob_kills"
-				title: "{ftbquests.chapter.odd_challenges.quest62CB979901DCD6FF.task.6594111263437299639.title}"
-				type: "stat"
-				value: 1000
-			}]
 			x: -2.5d
-			y: 6.0d
+			y: 7.0d
 		}
 		{
 			dependencies: ["19D5E57463E7BEC0"]
@@ -918,8 +783,8 @@
 				type: "stat"
 				value: 250
 			}]
-			x: 0.0d
-			y: 5.0d
+			x: 1.5d
+			y: 6.0d
 		}
 		{
 			dependencies: ["678804F4C9F8B415"]
@@ -947,8 +812,8 @@
 				type: "stat"
 				value: 500
 			}]
-			x: -1.0d
-			y: 6.0d
+			x: 0.5d
+			y: 7.0d
 		}
 		{
 			dependencies: ["01AFEF906324CCAA"]
@@ -976,8 +841,8 @@
 				type: "stat"
 				value: 1000
 			}]
-			x: 0.0d
-			y: 7.0d
+			x: 1.5d
+			y: 8.0d
 		}
 		{
 			dependencies: ["4D3E69CD544F3E29"]
@@ -1005,8 +870,8 @@
 				type: "stat"
 				value: 2500
 			}]
-			x: 1.0d
-			y: 6.0d
+			x: 2.5d
+			y: 7.0d
 		}
 		{
 			dependencies: ["393886001086EBB0"]
@@ -1032,8 +897,8 @@
 				type: "stat"
 				value: 5000
 			}]
-			x: 3.5d
-			y: 5.0d
+			x: 5.0d
+			y: 6.0d
 		}
 		{
 			dependencies: ["798DBD3027B8FCE2"]
@@ -1059,8 +924,8 @@
 				type: "stat"
 				value: 10000
 			}]
-			x: 2.5d
-			y: 6.0d
+			x: 4.0d
+			y: 7.0d
 		}
 		{
 			dependencies: ["1AD03F8A3FAFDD32"]
@@ -1086,8 +951,8 @@
 				type: "stat"
 				value: 50000
 			}]
-			x: 3.5d
-			y: 7.0d
+			x: 5.0d
+			y: 8.0d
 		}
 		{
 			dependencies: ["5033D3F0F59D1B6D"]
@@ -1113,8 +978,8 @@
 				type: "stat"
 				value: 100000
 			}]
-			x: 4.5d
-			y: 6.0d
+			x: 6.0d
+			y: 7.0d
 		}
 	]
 	title: "{ftbquests.chapter.odd_challenges.title}"

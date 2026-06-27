@@ -25,18 +25,6 @@ ServerEvents.recipes((event) => {
 
   create3x3(event, 'custom_capacitors:precision_capacitor', [
     'mekanism_extras:alloy_shining',
-    'bigreactors:ludicrite_ingot',
-    'evolvedmekanism:alloy_singular',
-    'bigreactors:ludicrite_ingot',
-    'nuclearcraft:tough_alloy_ingot',
-    'bigreactors:ludicrite_ingot',
-    'custom_capacitors:cobalt_capacitor',
-    'bigreactors:ludicrite_ingot',
-    'custom_capacitors:cobalt_capacitor',
-  ]);
-
-  create3x3(event, 'custom_capacitors:precision_capacitor', [
-    'mekanism_extras:alloy_shining',
     'ifeu:empty_nether_star',
     'evolvedmekanism:alloy_singular',
     'ifeu:empty_nether_star',

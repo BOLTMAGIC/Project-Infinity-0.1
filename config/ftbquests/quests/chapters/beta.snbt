@@ -457,8 +457,8 @@
 				type: "checkmark"
 			}]
 			title: "{ftbquests.chapter.beta.quest2B001C76CB519664.title}"
-			x: -2.0d
-			y: -6.0d
+			x: 0.5d
+			y: -7.5d
 		}
 		{
 			id: "2BF6F37D2B7D4696"

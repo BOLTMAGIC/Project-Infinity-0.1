@@ -1,0 +1,161 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "welcome_2"
+	group: ""
+	id: "647B099373A61763"
+	images: [
+		{
+			height: 8.0d
+			image: "kubejs:block/screen/project_infinity_logo"
+			rotation: 0.0d
+			width: 16.0d
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			click: "https://discord.com/invite/6fxMGGzkfe"
+			height: 2.5d
+			hover: ["Join the Project Infinity 0.1 Discord Server !"]
+			image: "kubejs:block/screen/discord-logo-980x980"
+			rotation: 0.0d
+			width: 2.5d
+			x: 0.0d
+			y: -5.0d
+		}
+	]
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"The goal of the pack ?"
+				""
+				"Get all 12 custom Infinity Ingots !"
+				""
+				""
+				"Each Infinity Ingot is carefully crafted using items and machines from many mods."
+				""
+				"We've carefully integrated the progression of each mod together to give a unique experience to the players !"
+				""
+				""
+				"Feel free to give us feedback / ideas on the Discord server !"
+			]
+			id: "4B3AAC32939174E1"
+			min_width: 300
+			size: 2.0d
+			subtitle: "(0.1 is part of the name)"
+			tasks: [{
+				id: "320793CB85AADFC8"
+				title: "Welcome !"
+				type: "checkmark"
+			}]
+			title: "Welcome to Project Infinity 0.1 !"
+			x: -3.0d
+			y: 5.0d
+		}
+		{
+			description: [
+				"Big thanks to everybody that has contributed to developing the modpack and on the Discord Server helping others finish Project Infinity 0.1 !"
+				""
+				"(Hopefully I don't forget anyone, ping @_minimaxi on Discord if you were forgotten (Sorry))"
+				""
+				""
+				"Textures:"
+				""
+				"- Astrageldon"
+				"- Elpximso"
+				"- MiniMaxi"
+				""
+				"Recipes:"
+				""
+				"- Kem5540"
+				"- Itz_izumito"
+				"- .json01"
+				"- kylesexton"
+				"- realspinelle"
+				"- RxDnz"
+				"- Anti"
+				"- MiniMaxi"
+				"{@pagebreak}"
+				"Discord Helpers:"
+				""
+				"- kylesexton"
+				"- kyo297"
+				"- loophole."
+				"- gahooner_10948"
+				"- grimmspark123"
+				"- babymudkip"
+				"- jogrefrog30"
+				"- MiniMaxi"
+				""
+				"Github Contributors:"
+				""
+				"- grinchfan22"
+				"- JasonP01"
+				"- YoshikoJanai"
+				"- nageih"
+				"- Aquadin"
+				"- PsyGuy007-sys"
+				"- Slushypop"
+				"- radimous"
+				"- Almog2929"
+				"- Hocok-of-Chaos"
+				"- toqueteos"
+				"- SoyWater"
+				"- MiniMaxi"
+				"{@pagebreak}"
+				"Quests:"
+				""
+				"- whothehellisnico"
+				"- Vespa13"
+				"- Klaasy__"
+				"- MiniMaxi"
+				""
+				"Big thanks to the mod devs active on Discord for fixing the bugs we find !"
+				""
+				"- anomz : Just Dire Things port to 1.20.1"
+				"- igentuman : NuclearCraft Neoteric"
+				"- pharuxtan : Woot Revived"
+				"- almanax21 : Logistics Networks"
+				""
+				"Thanks to alpderps for hosting Project Infinity 0.1 on the ValhallaMC servers !"
+			]
+			id: "47016BF4BD0AF86E"
+			min_width: 300
+			size: 2.0d
+			subtitle: "This modpack wouldn't have been possible without the help of the community !"
+			tasks: [{
+				id: "26DC6952E8534297"
+				title: "Credits"
+				type: "checkmark"
+			}]
+			x: 3.0d
+			y: 5.0d
+		}
+		{
+			description: [
+				"Project Infinity 0.1 is heavily customized, be it crafts, configs, or even entire mods (Extended Crafting: Expanded Reforked) !"
+				""
+				"[ \"Lots of multiblocks are being added by Masterful Machinery, take a look at \", { \"text\": \"it's Questline\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"53A9A5F61BF1DBC8\" } }, \".\" ]"
+				""
+				""
+				"Many items are hidden from JEI for visibility (you would have 500 pages otherwise), but you can still craft them."
+				""
+				"Hidden items include many construction blocks; these can be enabled by going to \"minecraft\\kubejs\\config\\jei_config.json\" and following the instructions (this only affects you and will work on any server)."
+			]
+			id: "607C8F5BDF00A3C1"
+			min_width: 340
+			size: 2.0d
+			tasks: [{
+				id: "55CF288AA854D877"
+				title: "test"
+				type: "checkmark"
+			}]
+			title: "Customization"
+			x: 0.0d
+			y: 5.0d
+		}
+	]
+	title: "Welcome !"
+}

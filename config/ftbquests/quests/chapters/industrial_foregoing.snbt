@@ -917,18 +917,6 @@
 			y: 3.0d
 		}
 		{
-			id: "3AB7E151BE693F3E"
-			require_sequential_tasks: false
-			size: 0.5d
-			tasks: [{
-				id: "49203294561E8476"
-				title: "{ftbquests.chapter.industrial_foregoing.quest3AB7E151BE693F3E.task.5269267176704869494.title}"
-				type: "checkmark"
-			}]
-			x: 1.75d
-			y: -9.5d
-		}
-		{
 			dependencies: ["5B6EC8BD14EAA0DF"]
 			description: ["{ftbquests.chapter.industrial_foregoing.quest59A3F536B6B19309.description1}"]
 			id: "59A3F536B6B19309"
@@ -960,6 +948,22 @@
 			}]
 			x: 4.5d
 			y: -2.0d
+		}
+		{
+			description: [
+				"&2Quests added by Klaasy__.&r"
+				"&1Thank you a lot!&r"
+			]
+			id: "4359EFAABC4AB32F"
+			invisible: true
+			optional: true
+			tasks: [{
+				id: "7E39DDFA8955EA45"
+				type: "checkmark"
+			}]
+			title: "&2Quests added by Klaasy__.&r &1Thank you a lot!&r"
+			x: 1.0d
+			y: -11.5d
 		}
 	]
 	title: "{ftbquests.chapter.industrial_foregoing.title}"

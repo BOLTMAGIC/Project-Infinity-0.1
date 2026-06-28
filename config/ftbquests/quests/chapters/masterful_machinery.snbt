@@ -646,6 +646,22 @@
 			x: 4.0d
 			y: 0.0d
 		}
+		{
+			description: [
+				"&2Quests added by Aquadin.&r"
+				"&1Thank you a lot!&r"
+			]
+			id: "7721ABD591D762C6"
+			invisible: true
+			optional: true
+			tasks: [{
+				id: "0A182847E1718BB1"
+				type: "checkmark"
+			}]
+			title: "&2Quests added by Aquadin.&r &1Thank you a lot!&r"
+			x: 0.0d
+			y: -1.5d
+		}
 	]
 	title: "{ftbquests.chapter.masterful_machinery.title}"
 }

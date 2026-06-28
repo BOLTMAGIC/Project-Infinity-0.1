@@ -39,7 +39,7 @@
 			y: 1.7619047619047734d
 		}
 	]
-	order_index: 1
+	order_index: 2
 	progression_mode: "flexible"
 	quest_links: [ ]
 	quests: [
@@ -142,30 +142,6 @@
 			y: 10.0d
 		}
 		{
-			description: [
-				"{ftbquests.chapter.tips_and_tricks.quest25E585C8AE7430DC.description1}"
-				""
-				"{ftbquests.chapter.tips_and_tricks.quest25E585C8AE7430DC.description2}"
-				"{ftbquests.chapter.tips_and_tricks.quest25E585C8AE7430DC.description3}"
-			]
-			icon: "mekanism:oredictionificator"
-			id: "25E585C8AE7430DC"
-			optional: true
-			rewards: [{
-				id: "0F1FEE53279D1DCB"
-				type: "xp_levels"
-				xp_levels: 3
-			}]
-			size: 2.0d
-			tasks: [{
-				id: "5C37126846FB5B2D"
-				item: "mekanism:oredictionificator"
-				type: "item"
-			}]
-			x: -1.0d
-			y: 0.0d
-		}
-		{
 			id: "0821032D8ACE7E82"
 			rewards: [{
 				id: "06651311BB1B0C7F"
@@ -204,104 +180,12 @@
 			}]
 			size: 2.0d
 			tasks: [{
-				id: "260FFAB5EB3E1D3E"
+				id: "20651042D4B157A2"
 				item: {
 					Count: 1
-					id: "itemfilters:or"
+					id: "itemfilters:mod"
 					tag: {
-						items: [
-							{
-								Count: 1b
-								id: "gateways:gate_pearl"
-								tag: {
-									gateway: "gateways:basic/blaze"
-								}
-							}
-							{
-								Count: 1b
-								id: "gateways:gate_pearl"
-								tag: {
-									gateway: "gateways:basic/enderman"
-								}
-							}
-							{
-								Count: 1b
-								id: "gateways:gate_pearl"
-								tag: {
-									gateway: "gateways:basic/slime"
-								}
-							}
-							{
-								Count: 1b
-								id: "gateways:gate_pearl"
-								tag: {
-									gateway: "gateways:emerald_grove"
-								}
-							}
-							{
-								Count: 1b
-								id: "gateways:gate_pearl"
-								tag: {
-									gateway: "gateways:endless/blaze"
-								}
-							}
-							{
-								Count: 1b
-								id: "gateways:gate_pearl"
-								tag: {
-									gateway: "gateways:overworldian_nights"
-								}
-							}
-							{
-								Count: 1b
-								id: "gateways:gate_pearl"
-								tag: {
-									gateway: "gateways:cataclysm_ender"
-								}
-							}
-							{
-								Count: 1b
-								id: "gateways:gate_pearl"
-								tag: {
-									gateway: "gateways:cataclysm_ignis"
-								}
-							}
-							{
-								Count: 1b
-								id: "gateways:gate_pearl"
-								tag: {
-									gateway: "gateways:gateway_of_the_giants"
-								}
-							}
-							{
-								Count: 1b
-								id: "gateways:gate_pearl"
-								tag: {
-									gateway: "gateways:hellish_fortress"
-								}
-							}
-							{
-								Count: 1b
-								id: "gateways:gate_pearl"
-								tag: {
-									gateway: "gateways:trials_of_ignis"
-								}
-							}
-							{
-								Count: 1b
-								id: "gateways:gate_pearl"
-								tag: {
-									gateway: "gateways:trials_of_the_ancient_remnant"
-								}
-							}
-							{
-								Count: 1b
-								id: "gateways:gate_pearl"
-								tag: {
-									gateway: "gateways:trials_of_the_harbinger"
-								}
-							}
-						]
+						value: "gateways"
 					}
 				}
 				type: "item"

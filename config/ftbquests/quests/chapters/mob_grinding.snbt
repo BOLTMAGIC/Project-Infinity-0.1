@@ -1585,11 +1585,7 @@
 			id: "32E906F55B0D9F31"
 			invisible: true
 			optional: true
-			rewards: [{
-				id: "3F6A29CF663DDEDA"
-				item: "botania:terrasteel_nugget"
-				type: "item"
-			}]
+			shape: "circle"
 			tasks: [{
 				id: "111A6F2CA186260C"
 				title: "{ftbquests.chapter.mob_grinding.quest32E906F55B0D9F31.task.1232419685518419468.title}"

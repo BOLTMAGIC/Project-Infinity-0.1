@@ -2760,11 +2760,6 @@
 			id: "24087345074D5728"
 			invisible: true
 			optional: true
-			rewards: [{
-				id: "7DE3FC46E70199AB"
-				item: "botania:terrasteel_nugget"
-				type: "item"
-			}]
 			tasks: [{
 				id: "116A4D1D3314BCCA"
 				title: "{ftbquests.chapter.botania.quest24087345074D5728.task.1254900233982491850.title}"

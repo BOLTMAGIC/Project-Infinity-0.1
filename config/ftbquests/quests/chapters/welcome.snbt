@@ -5,26 +5,16 @@
 	group: "5F4DF11C296D769D"
 	icon: "minecraft:glowstone"
 	id: "69DBD1BDA43872D9"
-	images: [
-		{
-			click: "#6BD02BDE3155F746"
-			height: 3.0d
-			hover: ["ftbquests.chapter.welcome.image.hovertext1"]
-			image: "kubejs:item/apotheotic_coin"
-			rotation: 0.0d
-			width: 3.0d
-			x: -4.0d
-			y: -3.5d
-		}
-		{
-			height: 4.0d
-			image: "kubejs:block/screen/project_infinity_logo"
-			rotation: 0.0d
-			width: 8.0d
-			x: -3.0d
-			y: -6.5d
-		}
-	]
+	images: [{
+		click: "#6BD02BDE3155F746"
+		height: 3.0d
+		hover: ["ftbquests.chapter.welcome.image.hovertext1"]
+		image: "kubejs:item/apotheotic_coin"
+		rotation: 0.0d
+		width: 3.0d
+		x: -4.0d
+		y: -3.5d
+	}]
 	order_index: 0
 	progression_mode: "linear"
 	quest_links: [ ]
@@ -473,6 +463,7 @@
 			icon: "minecraft:oak_sapling"
 			id: "29F82373417B2006"
 			optional: true
+			repeat_cooldown: 5
 			rewards: [{
 				id: "6477CE5C4204FFED"
 				item: "minecraft:oak_sapling"
@@ -995,7 +986,7 @@
 		}
 		{
 			dependencies: ["349588784C2748E2"]
-			description: ["{ftbquests.chapter.welcome.quest2BD5A176D1FF28AB.image0}"]
+			description: ["{image:kubejs:block/screen/dynamic_dungeon_portal width:240 height:135 align:center}"]
 			id: "2BD5A176D1FF28AB"
 			rewards: [{
 				id: "2A648285011CC925"
@@ -1091,17 +1082,38 @@
 		{
 			dependencies: ["23BDBBD3001F9774"]
 			id: "7717A3BEE456FEEE"
+			rewards: [{
+				id: "09A8EE89E4368219"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
 			tasks: [{
-				id: "743415F74F0411BD"
+				id: "71062D29156093EC"
 				item: {
 					Count: 1
-					id: "cyclic:shears_flint"
+					id: "itemfilters:or"
 					tag: {
-						Damage: 0
+						items: [
+							{
+								Count: 1b
+								id: "minecraft:shears"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "cyclic:shears_flint"
+								tag: {
+									Damage: 0
+								}
+							}
+						]
 					}
 				}
 				type: "item"
 			}]
+			title: "Shears"
 			x: 0.0d
 			y: -2.2d
 		}
@@ -1247,16 +1259,32 @@
 			shape: "hexagon"
 			size: 2.0d
 			tasks: [{
-				id: "0C4ACCFF766BB1A4"
+				id: "29ABFE03E6B15B20"
 				item: {
 					Count: 1
-					id: "gateways:gate_pearl"
+					id: "itemfilters:or"
 					tag: {
-						gateway: "gateways:emerald_grove"
+						items: [
+							{
+								Count: 1b
+								id: "gateways:gate_pearl"
+								tag: {
+									gateway: "gateways:emerald_grove_easy"
+								}
+							}
+							{
+								Count: 1b
+								id: "gateways:gate_pearl"
+								tag: {
+									gateway: "gateways:emerald_grove"
+								}
+							}
+						]
 					}
 				}
 				type: "item"
 			}]
+			title: "Animals"
 			x: 1.0d
 			y: -8.5d
 		}
@@ -1678,19 +1706,6 @@
 			y: 5.0d
 		}
 		{
-			id: "6A811293D4DD15C3"
-			optional: true
-			size: 0.5d
-			tasks: [{
-				id: "106C70003E39E809"
-				title: "{ftbquests.chapter.welcome.quest6A811293D4DD15C3.task.1183443948437891081.title}"
-				type: "checkmark"
-			}]
-			title: "{ftbquests.chapter.welcome.quest6A811293D4DD15C3.title}"
-			x: 0.75d
-			y: 1.25d
-		}
-		{
 			description: [
 				"{ftbquests.chapter.welcome.quest10649AC32D9EA7B6.description1}"
 				"{ftbquests.chapter.welcome.quest10649AC32D9EA7B6.description2}"
@@ -1698,11 +1713,6 @@
 			id: "10649AC32D9EA7B6"
 			invisible: true
 			optional: true
-			rewards: [{
-				id: "4075CC0E1A2E51F9"
-				item: "botania:terrasteel_nugget"
-				type: "item"
-			}]
 			tasks: [{
 				id: "6FA47CBFB55675F7"
 				title: "{ftbquests.chapter.welcome.quest10649AC32D9EA7B6.task.8044691997213488631.title}"

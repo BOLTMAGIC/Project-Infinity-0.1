@@ -2036,11 +2036,6 @@
 			id: "09B1FD2981B34B12"
 			invisible: true
 			optional: true
-			rewards: [{
-				id: "2FF267A5D8576451"
-				item: "botania:terrasteel_nugget"
-				type: "item"
-			}]
 			tasks: [{
 				id: "18CC3714384DB289"
 				title: "{ftbquests.chapter.applied_energistics_2.quest9B1FD2981B34B12.task.1786863712142733961.title}"

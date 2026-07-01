@@ -631,11 +631,11 @@ ItemEvents.tooltip((event) => {
 
     text.add(
       1,
-      Text.of(`This Token contains ${tankLevelToQuantity[item.nbt.tank_level]} mB of ${fluidName}`)
+      Text.translate('tooltip.kubejs.tank_tokens_1', tankLevelToQuantity[item.nbt.tank_level], fluidName)
     );
     text.add(
       2,
-      Text.of(`From the mod : ${mod_name}`)
+      Text.translate('tooltip.kubejs.tank_tokens_2', mod_name)
     );
   });
 
@@ -686,11 +686,11 @@ ItemEvents.tooltip((event) => {
 
     text.add(
       1,
-      Text.of(`This Token contains ${tankLevelToQuantity[item.nbt.tank_level]} mB of ${chemical_name}`)
+      Text.translate('tooltip.kubejs.tank_tokens_1', tankLevelToQuantity[item.nbt.tank_level], chemical_name)
     );
     text.add(
       2,
-      Text.of(`From the mod : ${mod_name}`)
+      Text.translate('tooltip.kubejs.tank_tokens_2', mod_name)
     );
   });
 });

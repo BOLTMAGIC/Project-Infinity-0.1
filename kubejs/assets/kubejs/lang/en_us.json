@@ -307,5 +307,8 @@
 
   "tooltip.hostilenetworks.data_model.lord_pumpkinhead": "You can't kill me to get Data, look at the recipes of this item.",
 
-  "tooltip.kubejs.fake_mob_masher": "Please dont look at the texture. This is a fake item used to fix a crash."
+  "tooltip.kubejs.fake_mob_masher": "Please dont look at the texture. This is a fake item used to fix a crash.",
+
+  "tooltip.kubejs.tank_tokens_1": "This Token contains %s mB of %s",
+  "tooltip.kubejs.tank_tokens_2": "From the mod : %s"
 }

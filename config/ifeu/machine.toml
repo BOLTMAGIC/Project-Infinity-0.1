@@ -131,5 +131,5 @@
 
 	[MachineConfig.HydroponicBedConfig]
 		#BlackList for HydroponicBed
-		blackList = ["mysticalagriculture:ultimate_infinity_seeds"]
+		blackList = ["mysticalagriculture:ultimate_infinity_seeds", "mysticalagriculture:ultimate_seeds"]
 

@@ -4,58 +4,49 @@
 	filename: "endgame"
 	group: "5F4DF11C296D769D"
 	id: "41382165C0D6ABEF"
-	order_index: 3
+	order_index: 2
 	quest_links: [ ]
 	quests: [
 		{
-			id: "4BFB79E08AAAF2E1"
-			rewards: [
-				{
-					count: 5
-					id: "6FC946D67D1EA15F"
-					item: "kubejs:ascended_coin"
-					type: "item"
-				}
-				{
-					id: "04B085716F4668B6"
-					table_id: 5196609362437981520L
-					type: "random"
-				}
+			dependencies: [
+				"7DE8DFF661A344B5"
+				"39F206873B1761EC"
+				"7886259DD0D4DE2E"
+				"44E129F742C860C1"
+				"398C10075F942F86"
+				"0B6FF25ADFFB8D3C"
+				"60818F9831A43098"
+				"16774FB1B0A2DE27"
+				"17D5B951D96F9098"
+				"0E35F825E5044891"
+				"43A9E1D20CBB7953"
+				"4BBDF891BA7E80FA"
+				"3B0507DCBA7A29E1"
+				"6493E47A8BC02704"
+				"635928E30BAF5016"
+				"5355037DE32453B3"
+				"6B0714989098CFE0"
+				"0B6FF25ADFFB8D3C"
+				"646F96E52932989E"
+				"161CBE22529FBB2A"
+				"59878736F7247783"
+				"4A44BE9FEAD9C1FA"
+				"2459E23270787AF4"
+				"7047436B7D697695"
+				"4BA5F26B5B8EE166"
+				"14F29286355F410F"
+				"5472A8F5567A7169"
+				"7C99573295E44B39"
+				"479F51AE1B57F3C7"
+				"45E877F190233EB2"
+				"77D4D49AC6394FBE"
+				"5517133471DC09BD"
 			]
-			tasks: [{
-				id: "665DF175D49DC071"
-				item: "extendedcrafting:the_ultimate_ingot"
-				type: "item"
-			}]
-			x: 0.5d
-			y: -3.0d
-		}
-		{
-			id: "13C237C092587F6A"
-			rewards: [{
-				id: "75B51073DEB77ABA"
-				item: {
-					Count: 1
-					id: "obtrophies:display_trophy"
-					tag: {
-						BlockEntityTag: {
-							display: {
-								display: "mekanism:creative_bin"
-							}
-						}
-					}
-				}
-				type: "item"
-			}]
-			tasks: [{
-				id: "4377DD430E8B9982"
-				item: "mekanism:creative_bin"
-				type: "item"
-			}]
-			x: 3.5d
-			y: -3.0d
-		}
-		{
+			description: [
+				"The Creative ME Item Cell is the ultimate end goal in Project Infinity 0.1. When you craft this item,  you've beaten the pack! "
+				""
+				"To use Creative ME Item cell, you must place it in a Cell workbench and partition what you want, by dragging it over from JEI. This can be anything you want! "
+			]
 			id: "2971295789B17FB9"
 			rewards: [
 				{
@@ -80,17 +71,19 @@
 					type: "item"
 				}
 			]
-			size: 2.0d
+			shape: "heart"
+			size: 3.0d
+			subtitle: "The Culmination of all of your efforts. Be Proud!"
 			tasks: [{
 				id: "35573648C49B566A"
 				item: "ae2:creative_item_cell"
 				type: "item"
 			}]
-			x: 2.0d
-			y: -1.0d
+			x: 0.0d
+			y: 0.0d
 		}
 		{
-			dependencies: ["7DBF3F21AB94E27F"]
+			description: ["This is a great first step! Only a couple hundred thousand more to go..."]
 			id: "3F546D112F96CB64"
 			rewards: [{
 				id: "7F6B3802EB682418"
@@ -113,8 +106,8 @@
 				item: "kubejs:infinity_1"
 				type: "item"
 			}]
-			x: -3.0d
-			y: 5.0d
+			x: -15.0d
+			y: 0.0d
 		}
 		{
 			dependencies: [
@@ -122,7 +115,9 @@
 				"195A8D5F6476876A"
 				"5675CF73AF40A9D8"
 				"3F546D112F96CB64"
+				"03358A21E22401B0"
 			]
+			description: ["If you haven't noticed yet, The number of infinities needed to create the next increases. Scale up production when needed!"]
 			id: "3C7ABEC92AFECACE"
 			rewards: [{
 				id: "193E12B180A7CFAD"
@@ -145,14 +140,15 @@
 				item: "kubejs:infinity_2"
 				type: "item"
 			}]
-			x: -2.0d
-			y: 5.0d
+			x: -14.0d
+			y: 0.0d
 		}
 		{
 			dependencies: [
 				"3C7ABEC92AFECACE"
 				"74E70B6AFFAF3F9F"
 			]
+			description: ["Botanical Machinery makes this one easy to automate."]
 			id: "09E417572962783A"
 			rewards: [{
 				id: "1602848DDCE2914B"
@@ -175,14 +171,15 @@
 				item: "kubejs:infinity_3"
 				type: "item"
 			}]
-			x: -1.0d
-			y: 5.0d
+			x: -13.0d
+			y: 0.0d
 		}
 		{
 			dependencies: [
 				"09E417572962783A"
 				"74D98B0C85B0A6D9"
 			]
+			description: ["While Blood Assemblers are quite convinent, they are also rather slow. You should probably stick to the real altar for these."]
 			id: "1CCDE53F4A707C91"
 			rewards: [{
 				id: "67D1924670C89BBA"
@@ -205,13 +202,18 @@
 				item: "kubejs:infinity_4"
 				type: "item"
 			}]
-			x: 0.0d
-			y: 5.0d
+			x: -12.0d
+			y: 0.0d
 		}
 		{
 			dependencies: [
 				"1CCDE53F4A707C91"
 				"60340E1C5D797B8B"
+			]
+			description: [
+				"Volume Upgrades in your Pressure Chamber will let you perform more crafts before your pressure drops below the threshold."
+				""
+				"Also, the Recipe for 45 Infinity 5 is slightly cheaper."
 			]
 			id: "65F732CD15E10BBD"
 			rewards: [{
@@ -235,14 +237,15 @@
 				item: "kubejs:infinity_5"
 				type: "item"
 			}]
-			x: 1.0d
-			y: 5.0d
+			x: -11.0d
+			y: 0.0d
 		}
 		{
 			dependencies: [
 				"65F732CD15E10BBD"
 				"2FDE02E1D08FACF0"
 			]
+			description: ["Make sure the Axe and Shears in the Slice'N'Splice are unbreakable. Dark Matter Tools work fine, but there are other options."]
 			id: "06F8F31942E7741C"
 			rewards: [{
 				id: "496A445229D59CD0"
@@ -265,14 +268,15 @@
 				item: "kubejs:infinity_6"
 				type: "item"
 			}]
-			x: 2.0d
-			y: 5.0d
+			x: -10.0d
+			y: 0.0d
 		}
 		{
 			dependencies: [
 				"06F8F31942E7741C"
 				"6B5FA0A7B13FB222"
 			]
+			description: ["The individual parts of the Assembly Platform and be tick accelerated. The Entity Ticker works best for this."]
 			id: "7B5143F86F4FAC74"
 			rewards: [{
 				id: "32AC6EC6ECA18057"
@@ -295,14 +299,15 @@
 				item: "kubejs:infinity_7"
 				type: "item"
 			}]
-			x: 3.0d
-			y: 5.0d
+			x: -9.0d
+			y: 0.0d
 		}
 		{
 			dependencies: [
 				"7B5143F86F4FAC74"
 				"1C55B400F87F2E30"
 			]
+			description: ["The Advanced Awakening altar is WAY faster than Fusion crafting for Infinity 8. Switch to that as soon as you can afford it."]
 			id: "3B7AEEE67CA9D3BC"
 			rewards: [{
 				id: "7978AB8FAF670CF9"
@@ -325,14 +330,15 @@
 				item: "kubejs:infinity_8"
 				type: "item"
 			}]
-			x: 4.0d
-			y: 5.0d
+			x: -8.0d
+			y: 0.0d
 		}
 		{
 			dependencies: [
 				"3B7AEEE67CA9D3BC"
 				"4E15BCE4E4C16522"
 			]
+			description: ["One of the sharpest difficulty spikes in this pack is unlocking Infinity 9. Is your factory ready?"]
 			id: "21F3CB7EEAAFDFBB"
 			rewards: [{
 				id: "79DAF473FB02C7FB"
@@ -355,14 +361,15 @@
 				item: "kubejs:infinity_9"
 				type: "item"
 			}]
-			x: 5.0d
-			y: 5.0d
+			x: -7.0d
+			y: 0.0d
 		}
 		{
 			dependencies: [
 				"21F3CB7EEAAFDFBB"
 				"0455DC33402F62ED"
 			]
+			description: ["Nitro Energizing rods can hold 2 Billion FE Each. It'd be wise to invest in a few."]
 			id: "08FC6B05DAE0AE82"
 			rewards: [{
 				id: "6DEADB574944F83D"
@@ -385,14 +392,15 @@
 				item: "kubejs:infinity_10"
 				type: "item"
 			}]
-			x: 6.0d
-			y: 5.0d
+			x: -6.0d
+			y: 0.0d
 		}
 		{
 			dependencies: [
 				"08FC6B05DAE0AE82"
 				"19F5F1A98758644F"
 			]
+			description: ["Theres a few different methods for automatically moving blocks between dimensions, with the most reliable being using JustDireThings' block swappers, and using AE2 Spatial Pylons. Get creative!"]
 			id: "263CF5984CE06F89"
 			rewards: [{
 				id: "714E855055DAD7A7"
@@ -415,13 +423,18 @@
 				item: "kubejs:infinity_11"
 				type: "item"
 			}]
-			x: 7.0d
-			y: 5.0d
+			x: -5.0d
+			y: 0.0d
 		}
 		{
 			dependencies: [
 				"263CF5984CE06F89"
 				"6A5EA1F9F5A29562"
+			]
+			description: [
+				"The Final Infinity, unlocking a host of creative items."
+				""
+				"A lot of Boss drops are needed to craft Infinity 12. There's a bunch of different ways to farm bosses, like Woot, the Mob Duplicator, HNN, and Apotheosis Spawners. The choice is yours!"
 			]
 			id: "39F206873B1761EC"
 			rewards: [{
@@ -445,248 +458,1121 @@
 				item: "kubejs:infinity_12"
 				type: "item"
 			}]
-			x: 8.0d
-			y: 5.0d
+			x: -4.0d
+			y: 0.0d
 		}
 		{
-			dependencies: [
-				"3F546D112F96CB64"
-				"768FD95A7228A893"
-			]
+			dependencies: ["3F546D112F96CB64"]
 			hide_dependency_lines: true
 			id: "39DCFBD8A110EB53"
-			rewards: [{
-				id: "0C80D613321BE27F"
-				type: "xp"
-				xp: 3
-			}]
 			tasks: [{
 				id: "47A52E5267795785"
 				item: "kubejs:infinity_1_333333"
 				type: "item"
 			}]
-			x: -2.5d
-			y: 3.5d
+			x: -15.0d
+			y: -1.5d
 		}
 		{
-			dependencies: [
-				"3F546D112F96CB64"
-				"768FD95A7228A893"
-			]
+			dependencies: ["3F546D112F96CB64"]
 			hide_dependency_lines: true
 			id: "195A8D5F6476876A"
-			rewards: [{
-				id: "55AC314A43A063BF"
-				type: "xp"
-				xp: 3
-			}]
 			tasks: [{
 				id: "71FFD42398C89BA6"
 				item: "kubejs:infinity_1_666666"
 				type: "item"
 			}]
-			x: -2.0d
-			y: 2.5d
+			x: -14.0d
+			y: -1.5d
 		}
 		{
-			dependencies: [
-				"3F546D112F96CB64"
-				"768FD95A7228A893"
-			]
+			dependencies: ["3F546D112F96CB64"]
 			hide_dependency_lines: true
 			id: "5675CF73AF40A9D8"
-			rewards: [{
-				id: "41AFF94417164136"
-				type: "xp"
-				xp: 3
-			}]
 			tasks: [{
 				id: "3BAE5BF57E8F12C5"
 				item: "kubejs:infinity_1_999999"
 				type: "item"
 			}]
-			x: -1.5d
-			y: 3.5d
+			x: -13.0d
+			y: -1.5d
 		}
 		{
+			description: ["Infinity 3 requires a Elven Trading."]
 			id: "74E70B6AFFAF3F9F"
-			rewards: [{
-				id: "760DE25756F3176E"
-				type: "xp"
-				xp: 3
-			}]
 			tasks: [{
 				id: "2656C183D14DE199"
-				item: "botania:elementium_ingot"
+				item: "botania:alfheim_portal"
 				type: "item"
 			}]
-			x: -1.0d
-			y: 6.5d
+			x: -13.0d
+			y: 1.5d
 		}
 		{
+			description: ["Infinity 4 requires a Teir V Altar."]
 			id: "74D98B0C85B0A6D9"
-			rewards: [{
-				id: "3BF3EE4AEE34396E"
-				type: "xp"
-				xp: 3
-			}]
 			tasks: [{
 				id: "2C9A8FA11F0DBE8D"
-				item: "bloodmagic:dungeon_metal"
+				item: "bloodmagic:altar"
 				type: "item"
 			}]
-			x: 0.0d
-			y: 3.5d
+			x: -12.0d
+			y: -1.5d
 		}
 		{
+			description: ["Infinity 5 requires the Pressure Chamber"]
 			id: "60340E1C5D797B8B"
-			rewards: [{
-				id: "4B3FD856666F7FA9"
-				type: "xp"
-				xp: 3
-			}]
 			tasks: [{
 				id: "20A3269A481D47BA"
 				item: "pneumaticcraft:pressure_chamber_wall"
 				type: "item"
 			}]
-			x: 1.0d
-			y: 6.5d
+			x: -11.0d
+			y: 1.5d
 		}
 		{
+			description: ["Infinity 6 requires the Slice'N'Splice."]
 			id: "2FDE02E1D08FACF0"
-			rewards: [{
-				id: "3AD276B709307B01"
-				type: "xp"
-				xp: 3
-			}]
 			tasks: [{
 				id: "375B8D43DAF3B812"
 				item: "enderio:slice_and_splice"
 				type: "item"
 			}]
-			x: 2.0d
-			y: 3.5d
+			x: -10.0d
+			y: -1.5d
 		}
 		{
+			description: ["Infinity 7 requires the Assembly platform"]
 			id: "6B5FA0A7B13FB222"
-			rewards: [{
-				id: "636018FA6F7D97F3"
-				type: "xp"
-				xp: 3
-			}]
 			tasks: [{
 				id: "18477D920D568DC6"
 				item: "pneumaticcraft:assembly_controller"
 				type: "item"
 			}]
-			x: 3.0d
-			y: 6.5d
+			x: -9.0d
+			y: 1.5d
 		}
 		{
+			description: ["Infinity 9 requires a CrazyAE2 Research, which will need 8 Infinity Blocks, and a lot more Neutronium Blocks."]
 			id: "4E15BCE4E4C16522"
-			rewards: [{
-				id: "2C152EF764932B61"
-				type: "xp"
-				xp: 3
-			}]
 			tasks: [{
 				id: "15D810B24CE24719"
 				item: "avaritia:infinity"
 				type: "item"
 			}]
-			x: 5.0d
-			y: 6.5d
+			x: -7.0d
+			y: 1.5d
 		}
 		{
+			description: ["Infinity 11 is very involved, requiring an Infinity 10 Block to be effected by Shadowpulse Goo in the Overworld, Nether, and End, before going to a Sieve. Good luck!"]
 			id: "19F5F1A98758644F"
-			rewards: [{
-				id: "54223AB97CE89A94"
-				type: "xp"
-				xp: 3
-			}]
-			tasks: [{
-				id: "2558B08F7300D7D2"
-				item: "justdirethings:gooblock_tier4"
-				type: "item"
-			}]
-			x: 7.0d
-			y: 6.5d
+			tasks: [
+				{
+					id: "2558B08F7300D7D2"
+					item: "exdeorum:oak_sieve"
+					type: "item"
+				}
+				{
+					id: "045605A8ADBEA157"
+					item: "justdirethings:gooblock_tier4"
+					type: "item"
+				}
+			]
+			x: -5.0d
+			y: 1.5d
 		}
 		{
+			description: ["Infinity 12 requires an Ultimate Crafting table."]
 			id: "6A5EA1F9F5A29562"
-			rewards: [{
-				id: "5E1206A962A6F3AF"
-				type: "xp"
-				xp: 3
-			}]
 			tasks: [{
 				id: "64AA0A4D4CDAE68E"
 				item: "extendedcrafting:ultimate_table"
 				type: "item"
 			}]
-			x: 8.0d
-			y: 3.5d
+			x: -4.0d
+			y: -1.5d
 		}
 		{
+			description: ["Infinity 8 requires a Fusion Crafting setup."]
 			id: "1C55B400F87F2E30"
-			rewards: [{
-				id: "3B45C46CEBD3D1BA"
-				type: "xp"
-				xp: 3
-			}]
 			tasks: [{
 				id: "364D694EB2729EA8"
 				item: "draconicevolution:crafting_core"
 				type: "item"
 			}]
-			x: 4.0d
-			y: 3.5d
+			x: -8.0d
+			y: -1.5d
 		}
 		{
+			description: ["Infinity 10 requires over 2 Billion FE in an Energizing Orb"]
 			id: "0455DC33402F62ED"
-			rewards: [{
-				id: "7A03A2D9B2EF3743"
-				type: "xp"
-				xp: 3
-			}]
 			tasks: [{
 				id: "4A9044C8D62C54BF"
 				item: "powah:energizing_orb"
 				type: "item"
 			}]
-			x: 6.0d
-			y: 3.5d
+			x: -6.0d
+			y: -1.5d
 		}
 		{
-			id: "7DBF3F21AB94E27F"
+			dependencies: ["0655518D6121D895"]
+			description: ["The Final Star requires 8 Final Power Flowers. If only those had EMC..."]
+			hide_dependency_lines: true
+			id: "4BA5F26B5B8EE166"
 			rewards: [{
-				id: "1CD9A4C7C7084DD0"
-				type: "xp"
-				xp: 3
+				id: "585E23764A48FACA"
+				item: "kubejs:ascended_coin"
+				type: "item"
 			}]
 			tasks: [{
-				id: "07ACA473669DDE26"
-				item: "minecraft:crafting_table"
+				id: "35964C5DA6559264"
+				item: "projectexpansion:final_star"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["521A9A01B5164883"]
+			description: ["These two Condensers will cost a lot of materials in the form of the Refined Storage parts and 256M Drives used to craft them. Its a good thing those both have EMC!"]
+			hide_dependency_lines: true
+			id: "5517133471DC09BD"
+			rewards: [{
+				count: 4
+				id: "5906533BFA2D0926"
+				item: "kubejs:infused_coin"
+				type: "item"
+			}]
+			tasks: [{
+				count: 2L
+				id: "67EEFF492D248A95"
+				item: "projecte:condenser_mk2"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["5DFFD443320EFE05"]
+			description: ["This quest marks the beginning of the Endgame. Listed here are all the Creative items required for the Creative ME Item Cell."]
+			id: "0655518D6121D895"
+			rewards: [
+				{
+					id: "14199F45A5DD3D59"
+					type: "xp_levels"
+					xp_levels: 100
+				}
+				{
+					id: "590D501E8C13E90E"
+					item: "kubejs:ascended_coin"
+					type: "item"
+				}
+			]
+			size: 2.0d
+			subtitle: "Are you ready?"
+			tasks: [{
+				id: "4236DA7D93A05944"
+				item: "avaritia:infinity_ingot"
+				type: "item"
+			}]
+			title: "The Beginning of the End"
+			x: 0.0d
+			y: -6.5d
+		}
+		{
+			dependencies: [
+				"2B6C9F6B12829D8D"
+				"13CD0F61D7641FB2"
+				"235B2D5663AA3389"
+				"17C196960A05DCE9"
+				"043E076A15FEA295"
+			]
+			description: [
+				"It would be an good idea to reinvest your first couple of Creative Bins into Bin ingredients, to craft them faster. You're going to need a lot of Creative Bins for some of these items."
+				""
+				"Once an Item has been placed into a Creative bin, it becomes an Infintie source, and is &4permanent&r. You will need to make more bins if you want to have more Infinite sources."
+				""
+				"And no, you cannot place Creative bins into themselves."
+			]
+			hide_dependency_lines: false
+			id: "323A1A1FC1EFDB3C"
+			rewards: [{
+				id: "4C08C6967E3E73E9"
+				item: "kubejs:ascended_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "668D25CB92911FA6"
+				item: "mekanism:creative_bin"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["521A9A01B5164883"]
+			description: ["Allows the storage of a 3D space. Comparatively cheap, to other items in this quest line."]
+			hide_dependency_lines: true
+			id: "4BBDF891BA7E80FA"
+			rewards: [{
+				count: 4
+				id: "21E7B52685101871"
+				item: "kubejs:infused_coin"
+				type: "item"
+			}]
+			tasks: [{
+				count: 4L
+				id: "64A39D29ADFD7D28"
+				item: "ae2:spatial_storage_cell_128"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["0655518D6121D895"]
+			description: [
+				"A lot of the ingredients for the Creative ME FE Cells have EMC. Save yourself the trouble!"
+				""
+				"The CrazyAE2 256M Storages are going to be the biggest hurdle for this quest."
+			]
+			hide_dependency_lines: true
+			id: "7C99573295E44B39"
+			rewards: [{
+				id: "73D003FABB1F05FB"
+				item: "kubejs:ascended_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6BD653BFD508C1A3"
+				item: "appflux:fe_creative_cell"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["521A9A01B5164883"]
+			description: ["These also have EMC!"]
+			hide_dependency_lines: true
+			id: "43A9E1D20CBB7953"
+			rewards: [{
+				count: 4
+				id: "146A13820219DD3D"
+				item: "kubejs:infused_coin"
+				type: "item"
+			}]
+			tasks: [{
+				count: 4L
+				id: "200D14A0628BAB50"
+				item: "megacells:cell_component_256m"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["0655518D6121D895"]
+			description: ["Truly infinite storage."]
+			hide_dependency_lines: true
+			id: "4A44BE9FEAD9C1FA"
+			rewards: [{
+				id: "1C9FD7F5B1FE4E2A"
+				item: "kubejs:ascended_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "154BBEE3841887D1"
+				item: "ae2omnicells:creative_ae_cell_long"
 				type: "item"
 			}]
 			x: -3.0d
-			y: 6.5d
+			y: -4.5d
 		}
 		{
-			id: "768FD95A7228A893"
+			dependencies: ["0655518D6121D895"]
+			description: ["Provides Infinite AE Energy for your network. Useful if you like to use Entity Tickers."]
+			hide_dependency_lines: true
+			id: "7886259DD0D4DE2E"
 			rewards: [{
-				id: "62FE9479D9F0678C"
-				type: "xp"
-				xp: 3
+				id: "1CED4EF4BB3F205E"
+				item: "kubejs:ascended_coin"
+				type: "item"
 			}]
 			tasks: [{
-				id: "7E95C524100A833F"
-				item: "thermal:machine_bottler"
+				id: "278A581BD878BC8F"
+				item: "ae2:creative_energy_cell"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["521A9A01B5164883"]
+			description: ["You are going to need a LOT more than 2 Pearls. It may be a good idea to passive Abyssal Ingots for these."]
+			hide_dependency_lines: true
+			id: "60818F9831A43098"
+			rewards: [{
+				count: 4
+				id: "42D4F8A0A85640E3"
+				item: "kubejs:infused_coin"
+				type: "item"
+			}]
+			tasks: [{
+				count: 2L
+				id: "24759DB005A3F54C"
+				item: "avaritia:endest_pearl"
 				type: "item"
 			}]
 			x: -2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["0655518D6121D895"]
+			description: [
+				"The &4entire&r set of Infinity Armor."
+				""
+				"If you are having difficulty getting the Package Pattern to read the armor that has NBT, you should encode the pattern by hand using items from your inventory."
+			]
+			id: "7DE8DFF661A344B5"
+			rewards: [
+				{
+					id: "79B4DFC47701B8A9"
+					item: {
+						Count: 1
+						id: "avaritia:infinity_sword"
+						tag: {
+							mode: { }
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "37E751579F282272"
+					item: "avaritia:infinity_shield"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			size: 2.0d
+			tasks: [
+				{
+					id: "4E49DAA84F0C71B9"
+					item: "avaritia:infinity_helmet"
+					type: "item"
+				}
+				{
+					id: "168ADF949B9A23F8"
+					item: "avaritia:infinity_chestplate"
+					type: "item"
+				}
+				{
+					id: "00E19A1D1ADC8201"
+					item: "avaritia:infinity_pants"
+					type: "item"
+				}
+				{
+					id: "0588B0F8F9856CFC"
+					item: "avaritia:infinity_boots"
+					type: "item"
+				}
+			]
+			title: "Infinity Armor"
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["0655518D6121D895"]
+			description: ["Once filled with a fluid, you will have an Infinite amount of it. Once selected, this fluid is permanent! Choose wisely."]
+			hide_dependency_lines: true
+			id: "13CD0F61D7641FB2"
+			rewards: [{
+				id: "62888170A9918278"
+				item: "kubejs:ascended_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7708AB11DFC74A16"
+				item: "mekanism:creative_fluid_tank"
+				type: "item"
+			}]
+			x: 7.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["0655518D6121D895"]
+			description: ["The same deal as the Creative Fluid Tank. Infinite of any gas, but cannot be changed."]
+			hide_dependency_lines: true
+			id: "2B6C9F6B12829D8D"
+			rewards: [{
+				id: "3667894FA59AE5C5"
+				item: "kubejs:ascended_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "48727D376D1A96D5"
+				item: "mekanism:creative_chemical_tank"
+				type: "item"
+			}]
+			x: 7.0d
 			y: 1.0d
+		}
+		{
+			dependencies: [
+				"2FD605E824063266"
+				"0655518D6121D895"
+			]
+			dependency_requirement: "one_started"
+			description: ["Maintains any pressure you want!"]
+			hide_dependency_lines: true
+			id: "235B2D5663AA3389"
+			rewards: [{
+				id: "75591E1B3A8BA029"
+				item: "kubejs:ascended_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "17E321B9C0C0117F"
+				item: "pneumaticcraft:creative_compressor"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0655518D6121D895"]
+			description: [
+				"Infinite Mana. In Battery form!"
+				""
+				"Still works with Sparks."
+			]
+			hide_dependency_lines: true
+			id: "17C196960A05DCE9"
+			rewards: [{
+				id: "3516A1569D9E7A4F"
+				item: "kubejs:ascended_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "71BC9EF2E1A1719A"
+				item: "botanicalmachinery:mana_battery_creative"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["0655518D6121D895"]
+			description: ["Machines will work nearly instantly, and consume no energy. The machines still have to have some energy in their internal battery to work, though."]
+			hide_dependency_lines: true
+			id: "5472A8F5567A7169"
+			rewards: [{
+				id: "56CB00654066B24F"
+				item: "kubejs:ascended_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5DBD1C273E7FC67F"
+				item: "thermal:machine_efficiency_creative_augment"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["323A1A1FC1EFDB3C"]
+			description: [
+				"Unlike the Creative Bin, the Vending upgrade allows you Clone itself, and swap Infinite sources at will."
+				""
+				"If you place a vending upgrade into a Bin, you'll only ever need one of anything to have Infinite of it."
+				""
+				"Because of this, The Vending Upgrade is the second hardest item to craft."
+			]
+			id: "44E129F742C860C1"
+			rewards: [{
+				id: "61A60B8637D628A3"
+				item: "kubejs:ascended_coin"
+				type: "item"
+			}]
+			shape: "diamond"
+			size: 2.0d
+			tasks: [{
+				id: "27F11DF8E3446170"
+				item: "functionalstorage:creative_vending_upgrade"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0655518D6121D895"]
+			description: ["Infinite Mana."]
+			hide_dependency_lines: true
+			id: "14F29286355F410F"
+			rewards: [{
+				id: "3A40CFECA5AC1777"
+				item: "kubejs:ascended_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7482923CDABACEFE"
+				item: "botania:creative_pool"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -5.5d
+		}
+		{
+			description: ["Items that are required for the Creative ME Item cell, that arent quite so extreme, are below this check mark."]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "ftblibrary:icons/check"
+				}
+			}
+			id: "521A9A01B5164883"
+			rewards: [{
+				id: "100A55EDAF7954AD"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			size: 1.25d
+			tasks: [{
+				id: "180DEF59CE3BA87E"
+				title: "Non-Creative Items"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 1.875d
+		}
+		{
+			dependencies: ["521A9A01B5164883"]
+			description: ["A cheaper, if uglier, way of storing the Max integer of an item. "]
+			hide_dependency_lines: true
+			id: "0E35F825E5044891"
+			rewards: [{
+				count: 4
+				id: "221426C5D9DF4818"
+				item: "kubejs:infused_coin"
+				type: "item"
+			}]
+			tasks: [{
+				count: 4L
+				id: "26A12C7463280558"
+				item: "industrialforegoing:supreme_black_hole_unit"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 4.0d
+		}
+		{
+			description: ["Maintains any Temperature you want! (Only for Pneumaticraft blocks)"]
+			id: "2FD605E824063266"
+			tasks: [{
+				id: "337579850C099479"
+				item: "pneumaticcraft:creative_compressed_iron_block"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0655518D6121D895"]
+			description: ["A rather annoying alloy to make. It would be a good idea to passive the Exoversal Alloy for these."]
+			hide_dependency_lines: true
+			id: "0B6FF25ADFFB8D3C"
+			rewards: [{
+				id: "5C9F77EA8F855359"
+				item: "kubejs:ascended_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "321FC0A1DA2A3D57"
+				item: "evolvedmekanism:alloy_creative"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["0655518D6121D895"]
+			description: ["Functions as an Energy Trashcan. Crafting material only!"]
+			hide_dependency_lines: true
+			id: "22AEEC2C287F2E35"
+			rewards: [{
+				id: "2A0A584F292F48BD"
+				item: "kubejs:ascended_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3179770C8A2BD083"
+				item: {
+					Count: 1
+					id: "mekanism:creative_energy_cube"
+					tag: {
+						mekData: {
+							componentConfig: {
+								config0: {
+									side0: 1
+									side1: 1
+									side2: 1
+									side3: 1
+									side4: 1
+									side5: 1
+								}
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 5.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["22AEEC2C287F2E35"]
+			description: [
+				"Unlimited Energy."
+				""
+				"Pay attention to which energy cube is being used when crafting these creative items! Both Creative Energy cubes will appear when pressing U on them for JEI."
+			]
+			id: "398C10075F942F86"
+			rewards: [{
+				id: "7E9949B1920AEBED"
+				item: "kubejs:ascended_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "27270C3DC6A0758A"
+				item: {
+					Count: 1
+					id: "mekanism:creative_energy_cube"
+					tag: {
+						mekData: {
+							EnergyContainers: [{
+								Container: 0b
+								stored: "18446744073709551615.9999"
+							}]
+							componentConfig: {
+								config0: {
+									side0: 4
+									side1: 4
+									side2: 4
+									side3: 4
+									side4: 4
+									side5: 4
+								}
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 4.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["521A9A01B5164883"]
+			description: ["The highest tier of Matter ProjectE offers."]
+			hide_dependency_lines: true
+			id: "16774FB1B0A2DE27"
+			rewards: [{
+				count: 4
+				id: "3083707EF1CDA317"
+				item: "kubejs:infused_coin"
+				type: "item"
+			}]
+			tasks: [{
+				count: 8L
+				id: "660384705A286936"
+				item: "projectexpansion:fading_matter"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["1993AC2EE12E3DA3"]
+			description: ["Every jetpack needs to be fully charged to be able to craft this."]
+			hide_dependency_lines: true
+			id: "479F51AE1B57F3C7"
+			rewards: [{
+				id: "14472CB4BC30E432"
+				item: "kubejs:ascended_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0F56D1F8700671D5"
+				item: {
+					Count: 1
+					id: "ironjetpacks:jetpack"
+					tag: {
+						Id: "ironjetpacks:creative"
+						Throttle: 1.0d
+					}
+				}
+				type: "item"
+			}]
+			x: 4.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["0655518D6121D895"]
+			description: ["Yet another source of infinite energy."]
+			hide_dependency_lines: true
+			id: "77D4D49AC6394FBE"
+			rewards: [{
+				id: "7CB9472CE8167C94"
+				item: "kubejs:ascended_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "543FECA00EFF9C70"
+				item: "integrateddynamics:energy_battery_creative"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["0655518D6121D895"]
+			description: ["Can store infinite energy, like the Draconic Evolution Power Core"]
+			hide_dependency_lines: true
+			id: "45E877F190233EB2"
+			rewards: [{
+				id: "22EEC0D0960CA9DB"
+				item: "kubejs:ascended_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1E4DD5BBF2A8C627"
+				item: "powah:energy_cell_creative"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -6.5d
+		}
+		{
+			description: ["You're going to need a few more..."]
+			id: "1993AC2EE12E3DA3"
+			rewards: [{
+				count: 2
+				id: "7CD7C31A60CCCBE0"
+				item: "extendedcrafting:the_ultimate_ingot"
+				type: "item"
+			}]
+			tasks: [{
+				id: "48276DCA99865A12"
+				item: "extendedcrafting:the_ultimate_ingot"
+				type: "item"
+			}]
+			title: "One Small Step"
+			x: 0.0d
+			y: -10.0d
+		}
+		{
+			dependencies: ["1993AC2EE12E3DA3"]
+			description: [
+				"Some people would choose to end here."
+				""
+				"&o&8But not you, right?&r&r"
+			]
+			id: "5DFFD443320EFE05"
+			rewards: [{
+				id: "0637665D3789FC1C"
+				item: "avaritia:infinity_catalyst"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0E01B61F249FE8AD"
+				item: "avaritia:infinity_catalyst"
+				type: "item"
+			}]
+			title: "One Giant Leap"
+			x: 0.0d
+			y: -8.5d
+		}
+		{
+			dependencies: ["521A9A01B5164883"]
+			description: ["An Endgame block from Botanical Extra Machinery Reforged."]
+			hide_dependency_lines: true
+			id: "6B0714989098CFE0"
+			rewards: [{
+				count: 4
+				id: "1B704A8295EA27F1"
+				item: "kubejs:infused_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "28381E2A4EF2A0BA"
+				item: "botanicalextramachinery:mazarine_dragonstone_block"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["521A9A01B5164883"]
+			description: ["An Endgame block from Botanical Extra Machinery Reforged. One step above the Blue one."]
+			hide_dependency_lines: true
+			id: "5355037DE32453B3"
+			rewards: [{
+				count: 4
+				id: "7FF422E1EE611CAB"
+				item: "kubejs:infused_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5F00C5097B27D2BB"
+				item: "botanicalextramachinery:aureate_dragonstone_block"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["0655518D6121D895"]
+			description: ["Infinite Mana, on the go!"]
+			hide_dependency_lines: true
+			id: "646F96E52932989E"
+			rewards: [{
+				id: "13DA2A701B27BBC2"
+				item: "kubejs:ascended_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "745560AE1062D0B7"
+				item: {
+					Count: 1
+					id: "botania:mana_tablet"
+					tag: {
+						creative: 1b
+						mana: 500000
+					}
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["0655518D6121D895"]
+			description: [
+				"Lets a Mekanism Machine Consume no Energy, and have Instant Processing. "
+				""
+				"Not every Mekanism Machine can accept this upgrade, so its usage is limited."
+			]
+			hide_dependency_lines: true
+			id: "161CBE22529FBB2A"
+			rewards: [{
+				id: "5E8C804CC66350FB"
+				item: "kubejs:ascended_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "281CA1530E1BDA2C"
+				item: "mekanism_extras:upgrade_creative"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["521A9A01B5164883"]
+			description: ["A Chaotic Module for Elytra Flight. Redundant when you have a jetpack..."]
+			hide_dependency_lines: true
+			id: "3B0507DCBA7A29E1"
+			rewards: [{
+				count: 4
+				id: "119B00A84A3E6466"
+				item: "kubejs:infused_coin"
+				type: "item"
+			}]
+			tasks: [{
+				count: 2L
+				id: "1D9BD545BEBC21EF"
+				item: "draconicevolution:item_chaotic_flight"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["0655518D6121D895"]
+			description: ["Another source of Unlimited Power."]
+			hide_dependency_lines: true
+			id: "043E076A15FEA295"
+			rewards: [{
+				id: "5A06DF7F7CF688D9"
+				item: "kubejs:ascended_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3EDB7D78BFF6D5C7"
+				item: "draconicevolution:creative_op_capacitor"
+				type: "item"
+			}]
+			x: 7.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["0655518D6121D895"]
+			description: ["The Dummy Item for the Creative Capacitor. The Draconic Evolution Dummy items make them far easier to work with in autocrafting. Also, the Dummy textures are their original pixel art!"]
+			hide_dependency_lines: true
+			id: "2459E23270787AF4"
+			rewards: [{
+				id: "12A893A07E99ABEE"
+				item: "kubejs:ascended_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2666D2A99D1B4844"
+				item: "kubejs:creative_capacitor"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["0655518D6121D895"]
+			description: ["One of every Mystical Agriculture essence, plus a little neutronium."]
+			hide_dependency_lines: true
+			id: "59878736F7247783"
+			rewards: [{
+				id: "162B0F3783EAAA5D"
+				item: "kubejs:ascended_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "14DC8B01B4DA02BD"
+				item: "kubejs:infinity_essence"
+				type: "item"
+			}]
+			x: -5.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["0655518D6121D895"]
+			description: ["The Final Seed, able to create a lot of the Infinity items with its essence. There is no intended way to duplicate this seed."]
+			hide_dependency_lines: true
+			id: "7047436B7D697695"
+			rewards: [{
+				id: "282A59724850BBBB"
+				item: "kubejs:ascended_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3DAB1B07F5A53ACA"
+				item: "mysticalagriculture:ultimate_infinity_seeds"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["521A9A01B5164883"]
+			description: ["A Crafting Material for the Rainbow Furnace, which is a rather underpowered power generator. Still, the core is a crafting component for the Creative Me Item Cell. The colored glass is not optional!"]
+			hide_dependency_lines: true
+			id: "635928E30BAF5016"
+			rewards: [{
+				count: 4
+				id: "0B103DB1AB729724"
+				item: "kubejs:infused_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5CA84372817E26FA"
+				item: "ironfurnaces:rainbow_core"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["521A9A01B5164883"]
+			description: ["The byproducts of both a Rosarium void miner and a Rosarium Solar panel with a stellar core. If you haven't started Void miners yet, youre going to want to ASAP."]
+			hide_dependency_lines: true
+			id: "17D5B951D96F9098"
+			rewards: [{
+				count: 4
+				id: "7D87BE8BB0235889"
+				item: "kubejs:infused_coin"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "3596A0430AF0C412"
+					item: "voidminers:solar_ultimate_block"
+					type: "item"
+				}
+				{
+					id: "421278933353DC6B"
+					item: "voidminers:ultimate_block"
+					type: "item"
+				}
+			]
+			title: "Void Miners Ultimate Blocks"
+			x: -3.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["3F546D112F96CB64"]
+			description: ["Infinity 2 requires a the Fluid Encapsulator, and Blizz, Blitz, and Basalz Rods."]
+			hide_dependency_lines: true
+			id: "03358A21E22401B0"
+			tasks: [{
+				id: "52EEE36F6D50BC51"
+				item: "thermal:machine_bottler"
+				type: "item"
+			}]
+			x: -14.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["0655518D6121D895"]
+			description: ["The Last Solar Panel for Solar Flux Reborn. Probably not worth the material investment, theres better solar options avaliable."]
+			hide_dependency_lines: true
+			id: "6493E47A8BC02704"
+			rewards: [{
+				id: "5984FF90B51BBE88"
+				item: "kubejs:ascended_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "00A4717C734D30F1"
+				item: "solarflux:sp_avaritia.infinity"
+				type: "item"
+			}]
+			x: -6.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["0655518D6121D895"]
+			description: ["The infinite storage options for Refined storage. Not required to beat the pack."]
+			hide_dependency_lines: true
+			id: "331BE5F69280F24A"
+			optional: true
+			rewards: [{
+				id: "41404914574F1ACA"
+				item: "kubejs:ascended_coin"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "63E8BBF5AF0367F8"
+					item: "refinedstorage:creative_fluid_storage_disk"
+					type: "item"
+				}
+				{
+					id: "2F9168D59CB98E42"
+					item: "refinedstorage:creative_storage_disk"
+					type: "item"
+				}
+			]
+			title: "Refined Storage Disks"
+			x: -5.5d
+			y: -6.0d
 		}
 	]
 	title: "{ftbquests.chapter.endgame.title}"

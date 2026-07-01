@@ -139,12 +139,12 @@
 	time_wand_max_fluid = 8000
 	#Time Fluid cost per use, multiplied by the acceleration rate (2^level)
 	#Range: 0.0 ~ 1.7976931348623157E308
-	time_wand_fluid_cost = 0.5
+	time_wand_fluid_cost = 16.0
 	#Maximum tick speed multiplier (must be a power of 2, e.g. 256 = up to 2^8 = 256x)
 	#Range: > 2
 	time_wand_max_multiplier = 256
 	#Can fake players (e.g. Clickers) use the Time Wand?
-	time_wand_fake_player_allowed = true
+	time_wand_fake_player_allowed = false
 
 #Advanced Portal Gun
 [portal_gun]

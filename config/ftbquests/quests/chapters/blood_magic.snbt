@@ -39,7 +39,7 @@
 			y: -4.0d
 		}
 	]
-	order_index: 4
+	order_index: 5
 	quest_links: [ ]
 	quests: [
 		{
@@ -1233,6 +1233,142 @@
 			}]
 			x: -3.0d
 			y: 4.5d
+		}
+		{
+			dependencies: ["53E7A09F3F3B6272"]
+			description: ["Make this and connect it to ae2 to start autmating blood magic.  (requires patters and cards to work)"]
+			id: "6FF7C9BC80A7EFE1"
+			rewards: [{
+				id: "540B39465C861B6B"
+				item: "kubejs:infused_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "15B28D87EAEB1511"
+				item: "bmaddon:blood_altar_assembler"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["46ABB6AD85644E7C"]
+			description: ["Make these to make patterns for the blood assembler to automate blood magic crafting."]
+			id: "4825D321E1FF7D45"
+			rewards: [{
+				id: "5E885B2BF85CD877"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "635A93E020C594D7"
+				item: "bmaddon:blood_altar_pattern"
+				type: "item"
+			}]
+			x: -9.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["143A7BF0B54CED1B"]
+			description: ["add me to blood assembler to craft tier 2 recipes"]
+			id: "00D2E146A03C0D43"
+			rewards: [{
+				id: "6D9CC514D06E388A"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "724056464473DD22"
+				item: "bmaddon:blood_altar_tier_card_2"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["22899D5B9A1D407E"]
+			description: ["add me to blood assembler to craft tier 3 recipes"]
+			id: "6E81876E31E76450"
+			rewards: [{
+				id: "0275E905AD90F9FA"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2019477B5C5E04C2"
+				item: "bmaddon:blood_altar_tier_card_3"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["22657461D5EC7233"]
+			description: ["add me to blood assembler to craft tier 4 recipes"]
+			id: "049439E68729D062"
+			rewards: [{
+				id: "002FFCCCF2E19927"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "51C4241339122954"
+				item: "bmaddon:blood_altar_tier_card_4"
+				type: "item"
+			}]
+			x: -5.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["53E7A09F3F3B6272"]
+			description: ["add me to blood assembler to craft tier 5 recipes"]
+			id: "3E859E7AF6A98B86"
+			rewards: [{
+				id: "57306DB8CC9E065D"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "09246B44F04E126B"
+				item: "bmaddon:blood_altar_tier_card_5"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["22899D5B9A1D407E"]
+			description: ["increases the number of crafts that happen at one time by 4x."]
+			id: "46074F9479EEFC2A"
+			rewards: [{
+				id: "76A0C3358DC4F6B1"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0D1FB14FFDAD2828"
+				item: "bmaddon:blood_altar_parallel_card"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["22657461D5EC7233"]
+			description: ["this decreases the time between crafts for the blood assembler."]
+			id: "0A3A8763FF67AC2C"
+			rewards: [{
+				id: "35732257E3360EB2"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "394BE9627BCCE431"
+				item: "bmaddon:blood_magic_speed_card"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -1.5d
 		}
 	]
 	title: "{ftbquests.chapter.blood_magic.title}"

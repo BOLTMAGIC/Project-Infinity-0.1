@@ -61,7 +61,7 @@
 				evertide = 20
 				#Delay between Harvest Goddess trying to grow and harvest while in the pedestal.
 				#Range: > -1
-				harvest = 10
+				harvest = 100
 				#Delay between Ignition Ring trying to light entities on fire while in the pedestal.
 				#Range: > -1
 				ignition = 40

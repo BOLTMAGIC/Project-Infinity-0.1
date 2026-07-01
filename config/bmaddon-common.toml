@@ -27,10 +27,10 @@
 [blood_altar_assembler]
 	#Base craft time for Blood Altar Assembler, in ticks.
 	#Range: 1 ~ 72000
-	baseCraftTimeTicks = 200
+	baseCraftTimeTicks = 60
 	#Minimum craft time after acceleration cards, in ticks.
 	#Range: 1 ~ 72000
-	minCraftTimeTicks = 20
+	minCraftTimeTicks = 6
 	#Base AE energy consumed per active craft each tick.
 	#Range: 0.0 ~ 1.7976931348623157E308
 	aePerTickBase = 8.0

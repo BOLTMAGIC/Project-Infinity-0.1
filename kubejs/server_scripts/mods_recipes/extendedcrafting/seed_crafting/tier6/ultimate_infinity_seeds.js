@@ -1,64 +1,152 @@
 ServerEvents.recipes((event) => {
-  //Ultimate Infinity Seeds
+  // mysticalagriculture:ultimate_infinity_seeds
   event
     .custom({
       type: 'extendedcrafting:shaped_table',
       pattern: [
-        'ABCCDCCBA',
-        'BAEFOFEAB',
-        'CEGGGGGEC',
-        'CFGHNJGFC',
-        'DOGLKMGOD',
-        'CFGJIHGFC',
-        'CEGGGGGEC',
-        'BAEFOFEAB',
-        'ABCCDCCBA',
+        'ABCDEFGHIJKLA',
+        'MNOOOOPOOOOQM',
+        'MORSTTUTTSROM',
+        'MOSRVWXWVRSOM',
+        'MOTVYYYYYVTOM',
+        'MOTWYZabYWTOM',
+        'cPUXYdefYXUPc',
+        'MOTWYbgZYWTOM',
+        'MOTVYYYYYVTOM',
+        'MOSRVWXWVRSOM',
+        'MORSTTUTTSROM',
+        'MQOOOOPOOOONM',
+        'AhijklmnopqVA',
       ],
       key: {
         A: {
-          item: 'kubejs:ultimate_gem',
+          item: 'kubejs:infinity_7',
         },
         B: {
-          item: 'kubejs:ultimate_prediction',
+          item: 'mysticalagriculture:dark_metal_ingot_seeds',
         },
         C: {
-          item: 'extendedcrafting:the_ultimate_ingot',
+          item: 'mysticalagriculture:plutonium_seeds',
         },
         D: {
-          item: 'avaritia:neutron',
+          item: 'mysticalagriculture:unobtainium_seeds',
         },
         E: {
-          item: 'kubejs:infinity_essence',
+          item: 'mysticalagriculture:vibranium_seeds',
         },
         F: {
-          item: 'kubejs:ultimate_heart',
+          item: 'mysticalagriculture:nether_star_seeds',
         },
         G: {
-          item: 'extendedcrafting:ultimate_singularity',
+          item: 'mysticalagriculture:dragon_egg_seeds',
         },
         H: {
-          item: 'mekanism_extras:infinite_control_circuit',
+          item: 'mysticalagriculture:gaia_spirit_seeds',
         },
         I: {
-          item: 'kubejs:empowered_super_block',
+          item: 'mysticalagriculture:awakened_draconium_seeds',
         },
         J: {
-          item: 'evolvedmekanism:creative_control_circuit',
+          item: 'mysticalagriculture:neutronium_seeds',
         },
         K: {
-          item: 'extendedcrafting:the_ultimate_block',
+          item: 'mysticalagriculture:nitro_crystal_seeds',
         },
         L: {
-          item: 'botanicalextramachinery:crimson_dragonstone_block',
+          item: 'mysticalagriculture:allthemodium_seeds',
         },
         M: {
-          item: 'voidminers:ultimate_block',
+          item: 'ifeu:dragon_star',
         },
         N: {
-          item: 'voidminers:solar_ultimate_block',
+          item: 'rftoolsdim:rare_essence',
         },
         O: {
+          item: 'voidminers:ultimate_stellar_core',
+        },
+        P: {
+          item: 'kubejs:infinity_10',
+        },
+        Q: {
+          item: 'rftoolsdim:legendary_essence',
+        },
+        R: {
+          item: 'kubejs:ultimate_gem',
+        },
+        S: {
+          item: 'kubejs:ultimate_prediction',
+        },
+        T: {
+          item: 'extendedcrafting:the_ultimate_ingot',
+        },
+        U: {
+          item: 'avaritia:neutron',
+        },
+        V: {
+          item: 'kubejs:infinity_essence',
+        },
+        W: {
+          item: 'kubejs:ultimate_heart',
+        },
+        X: {
           item: 'mysticalexpansion:divinium_block',
+        },
+        Y: {
+          item: 'extendedcrafting:ultimate_singularity',
+        },
+        Z: {
+          item: 'mekanism_extras:infinite_control_circuit',
+        },
+        a: {
+          item: 'voidminers:solar_ultimate_block',
+        },
+        b: {
+          item: 'evolvedmekanism:creative_control_circuit',
+        },
+        c: {
+          item: 'kubejs:zahraanite',
+        },
+        d: {
+          item: 'botanicalextramachinery:crimson_dragonstone_block',
+        },
+        e: {
+          item: 'mysticalagriculture:ultimate_seeds',
+        },
+        f: {
+          item: 'voidminers:ultimate_block',
+        },
+        g: {
+          item: 'kubejs:empowered_super_block',
+        },
+        h: {
+          item: 'kubejs:chaotic_essence',
+        },
+        i: {
+          item: 'extendedcrafting:luminessence',
+        },
+        j: {
+          item: 'kubejs:tier1_super_essence',
+        },
+        k: {
+          item: 'kubejs:tier2_super_essence',
+        },
+        l: {
+          item: 'kubejs:tier3_super_essence',
+        },
+        m: {
+          item: 'kubejs:tier4_super_essence',
+        },
+        n: {
+          item: 'kubejs:tier5_super_essence',
+        },
+        o: {
+          item: 'kubejs:tier6_super_essence',
+        },
+        p: {
+          item: 'mysticalagradditions:insanium_essence',
+        },
+        q: {
+          item: 'mysticalagradditions:creative_essence',
         },
       },
       result: {

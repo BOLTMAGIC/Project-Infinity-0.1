@@ -231,4 +231,90 @@ MMEvents.createProcesses((event) => {
         count: 300000,
       },
     });
+
+  //infinity_catalyst
+  event
+    .create('mm:infinity_crucible_recipe4')
+    .structureId('mm:infinity_crucible_structure')
+    .ticks(1)
+    .input({
+      type: 'mm:input/consume',
+      ingredient: {
+        type: 'mm:mekanism/gas',
+        gas: 'mekanism:antimatter',
+        amount: 500,
+      },
+    })
+    .input({
+      type: 'mm:input/consume',
+      chance: 0.0,
+      ingredient: {
+        type: 'mm:item',
+        item: 'avaritia:infinity_catalyst',
+        count: 1,
+      },
+    })
+    .input({
+      type: 'mm:input/consume',
+      ingredient: {
+        type: 'mm:item',
+        item: 'kubejs:ultimate_prediction',
+        count: 2,
+      },
+    })
+    .input({
+      type: 'mm:input/consume',
+      ingredient: {
+        type: 'mm:item',
+        item: 'kubejs:ultimate_gem',
+        count: 2,
+      },
+    })
+    .input({
+      type: 'mm:input/consume',
+      ingredient: {
+        type: 'mm:item',
+        item: 'avaritia:cosmic_meatballs',
+        count: 1,
+      },
+    })
+    .input({
+      type: 'mm:input/consume',
+      ingredient: {
+        type: 'mm:item',
+        item: 'kubejs:infinity_essence',
+        count: 1,
+      },
+    })
+    .input({
+      type: 'mm:input/consume',
+      ingredient: {
+        type: 'mm:item',
+        item: 'extendedcrafting:ultimate_singularity',
+        count: 1,
+      },
+    })
+    .input({
+      type: 'mm:input/consume',
+      ingredient: {
+        type: 'mm:item',
+        item: 'avaritia:ultimate_stew',
+        count: 1,
+      },
+    })
+    .input({
+      type: 'mm:input/consume',
+      ingredient: {
+        type: 'mm:energy',
+        amount: 2147483647,
+      },
+    })
+    .output({
+      type: 'mm:output/simple',
+      ingredient: {
+        type: 'mm:item',
+        item: 'avaritia:infinity_catalyst',
+        count: 1,
+      },
+    });
 });

@@ -6,7 +6,7 @@
 	group: "29543B666C58207C"
 	icon: "packagedauto:recipe_holder"
 	id: "0D9E32CFA14CC182"
-	order_index: 1
+	order_index: 2
 	quest_links: [ ]
 	quests: [
 		{

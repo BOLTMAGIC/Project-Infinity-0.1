@@ -304,6 +304,7 @@ StartupEvents.registry('block', (e) => {
       .displayName(input2)
       .tagBlock('mineable/pickaxe')
       .soundType('metal')
+      .tag('forge:ores')
       .resistance(6)
       .hardness(5)
       .requiresTool(true)

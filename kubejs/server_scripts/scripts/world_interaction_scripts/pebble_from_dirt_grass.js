@@ -11,6 +11,7 @@ BlockEvents.rightClicked(
 
   if (!player.isCrouching()) return;
   if (player.mainHandItem.isBlock()) return;
+  if (!player.mainHandItem.isEmpty() && player.mainHandItem.id !== 'botania:pebble') return;
 
   if (player.cooldowns.isOnCooldown('botania:pebble')) return;
 

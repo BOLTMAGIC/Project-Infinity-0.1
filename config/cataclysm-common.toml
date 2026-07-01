@@ -350,18 +350,18 @@
 		[mobs.ender_guardian.combat_config]
 			#Scale mob health by this value
 			#Range: 0.1 ~ 1000000.0
-			health_multiplier = 1.0
+			health_multiplier = 1.5
 			#Scale mob attack damage by this value
 			#Range: 0.1 ~ 1000000.0
-			attack_multiplier = 1.0
+			attack_multiplier = 1.2
 
 		[mobs.ender_guardian.cap_config]
 			#Damage Cap
 			#Range: 0.0 ~ 1000000.0
-			damage_cap = 22.0
+			damage_cap = 350.0
 			#Dps Cap
 			#Range: 1.0 ~ 1000000.0
-			dps_cap = 13.0
+			dps_cap = 350.0
 			#DPS Limit Time
 			#Range: 1 ~ 100
 			dps_limit_time = 20
@@ -390,10 +390,10 @@
 		[mobs.ender_golem.combat_config]
 			#Scale mob health by this value
 			#Range: 0.1 ~ 1000000.0
-			health_multiplier = 1.0
+			health_multiplier = 1.5
 			#Scale mob attack damage by this value
 			#Range: 0.1 ~ 1000000.0
-			attack_multiplier = 1.0
+			attack_multiplier = 1.2
 
 		[mobs.ender_golem.cap_config]
 			#Damage Cap
@@ -446,18 +446,18 @@
 		[mobs.netherite_monstrosity.combat_config]
 			#Scale mob health by this value
 			#Range: 0.1 ~ 1000000.0
-			health_multiplier = 1.0
+			health_multiplier = 1.5
 			#Scale mob attack damage by this value
 			#Range: 0.1 ~ 1000000.0
-			attack_multiplier = 1.0
+			attack_multiplier = 1.2
 
 		[mobs.netherite_monstrosity.cap_config]
 			#Damage Cap
 			#Range: 0.0 ~ 1000000.0
-			damage_cap = 25.0
+			damage_cap = 350.0
 			#Dps Cap
 			#Range: 1.0 ~ 1000000.0
-			dps_cap = 20.0
+			dps_cap = 350.0
 			#DPS Limit Time
 			#Range: 1 ~ 100
 			dps_limit_time = 20
@@ -498,18 +498,18 @@
 		[mobs.ignis.combat_config]
 			#Scale mob health by this value
 			#Range: 0.1 ~ 1000000.0
-			health_multiplier = 1.0
+			health_multiplier = 1.5
 			#Scale mob attack damage by this value
 			#Range: 0.1 ~ 1000000.0
-			attack_multiplier = 1.0
+			attack_multiplier = 1.2
 
 		[mobs.ignis.cap_config]
 			#Damage Cap
 			#Range: 0.0 ~ 1000000.0
-			damage_cap = 20.0
+			damage_cap = 350.0
 			#Dps Cap
 			#Range: 1.0 ~ 1000000.0
-			dps_cap = 14.0
+			dps_cap = 350.0
 			#DPS Limit Time
 			#Range: 1 ~ 100
 			dps_limit_time = 20
@@ -568,18 +568,18 @@
 		[mobs.harbinger.combat_config]
 			#Scale mob health by this value
 			#Range: 0.1 ~ 1000000.0
-			health_multiplier = 1.0
+			health_multiplier = 1.5
 			#Scale mob attack damage by this value
 			#Range: 0.1 ~ 1000000.0
-			attack_multiplier = 1.0
+			attack_multiplier = 1.2
 
 		[mobs.harbinger.cap_config]
 			#Damage Cap
 			#Range: 0.0 ~ 1000000.0
-			damage_cap = 22.0
+			damage_cap = 350.0
 			#Dps Cap
 			#Range: 1.0 ~ 1000000.0
-			dps_cap = 14.0
+			dps_cap = 350.0
 			#DPS Limit Time
 			#Range: 1 ~ 100
 			dps_limit_time = 20
@@ -617,10 +617,10 @@
 		[mobs.prowler.combat_config]
 			#Scale mob health by this value
 			#Range: 0.1 ~ 1000000.0
-			health_multiplier = 1.0
+			health_multiplier = 1.5
 			#Scale mob attack damage by this value
 			#Range: 0.1 ~ 1000000.0
-			attack_multiplier = 1.0
+			attack_multiplier = 1.2
 
 	[mobs.amethyst_crab]
 		#Earth Quake Damage
@@ -675,18 +675,18 @@
 		[mobs.leviathan.combat_config]
 			#Scale mob health by this value
 			#Range: 0.1 ~ 1000000.0
-			health_multiplier = 1.0
+			health_multiplier = 1.5
 			#Scale mob attack damage by this value
 			#Range: 0.1 ~ 1000000.0
-			attack_multiplier = 1.0
+			attack_multiplier = 1.2
 
 		[mobs.leviathan.cap_config]
 			#Damage Cap
 			#Range: 0.0 ~ 1000000.0
-			damage_cap = 20.0
+			damage_cap = 350.0
 			#Dps Cap
 			#Range: 1.0 ~ 1000000.0
-			dps_cap = 15.0
+			dps_cap = 350.0
 			#DPS Limit Time
 			#Range: 1 ~ 100
 			dps_limit_time = 20
@@ -729,18 +729,18 @@
 		[mobs.ancient_remnant.combat_config]
 			#Scale mob health by this value
 			#Range: 0.1 ~ 1000000.0
-			health_multiplier = 1.0
+			health_multiplier = 1.5
 			#Scale mob attack damage by this value
 			#Range: 0.1 ~ 1000000.0
-			attack_multiplier = 1.0
+			attack_multiplier = 1.2
 
 		[mobs.ancient_remnant.cap_config]
 			#Damage Cap
 			#Range: 0.0 ~ 1000000.0
-			damage_cap = 21.0
+			damage_cap = 350.0
 			#Dps Cap
 			#Range: 1.0 ~ 1000000.0
-			dps_cap = 14.0
+			dps_cap = 350.0
 			#DPS Limit Time
 			#Range: 1 ~ 100
 			dps_limit_time = 20
@@ -832,18 +832,18 @@
 		[mobs.maledictus.combat_config]
 			#Scale mob health by this value
 			#Range: 0.1 ~ 1000000.0
-			health_multiplier = 1.0
+			health_multiplier = 1.5
 			#Scale mob attack damage by this value
 			#Range: 0.1 ~ 1000000.0
-			attack_multiplier = 1.0
+			attack_multiplier = 1.2
 
 		[mobs.maledictus.cap_config]
 			#Damage Cap
 			#Range: 0.0 ~ 1000000.0
-			damage_cap = 20.0
+			damage_cap = 350.0
 			#Dps Cap
 			#Range: 1.0 ~ 1000000.0
-			dps_cap = 13.0
+			dps_cap = 350.0
 			#DPS Limit Time
 			#Range: 1 ~ 100
 			dps_limit_time = 20
@@ -868,10 +868,10 @@
 		[mobs.aptrgangr.combat_config]
 			#Scale mob health by this value
 			#Range: 0.1 ~ 1000000.0
-			health_multiplier = 1.0
+			health_multiplier = 1.5
 			#Scale mob attack damage by this value
 			#Range: 0.1 ~ 1000000.0
-			attack_multiplier = 1.0
+			attack_multiplier = 1.2
 
 		[mobs.aptrgangr.nature_heal_config]
 			#Nature Heal
@@ -909,18 +909,18 @@
 		[mobs.scylla.combat_config]
 			#Scale mob health by this value
 			#Range: 0.1 ~ 1000000.0
-			health_multiplier = 1.0
+			health_multiplier = 1.5
 			#Scale mob attack damage by this value
 			#Range: 0.1 ~ 1000000.0
-			attack_multiplier = 1.0
+			attack_multiplier = 1.2
 
 		[mobs.scylla.cap_config]
 			#Damage Cap
 			#Range: 0.0 ~ 1000000.0
-			damage_cap = 21.0
+			damage_cap = 350.0
 			#Dps Cap
 			#Range: 1.0 ~ 1000000.0
-			dps_cap = 13.0
+			dps_cap = 350.0
 			#DPS Limit Time
 			#Range: 1 ~ 100
 			dps_limit_time = 20
@@ -946,18 +946,18 @@
 		[mobs.clawdian.combat_config]
 			#Scale mob health by this value
 			#Range: 0.1 ~ 1000000.0
-			health_multiplier = 1.0
+			health_multiplier = 1.5
 			#Scale mob attack damage by this value
 			#Range: 0.1 ~ 1000000.0
-			attack_multiplier = 1.0
+			attack_multiplier = 1.2
 
 		[mobs.clawdian.cap_config]
 			#Damage Cap
 			#Range: 0.0 ~ 1000000.0
-			damage_cap = 21.0
+			damage_cap = 350.0
 			#Dps Cap
 			#Range: 1.0 ~ 1000000.0
-			dps_cap = 12.0
+			dps_cap = 350.0
 			#DPS Limit Time
 			#Range: 1 ~ 100
 			dps_limit_time = 20

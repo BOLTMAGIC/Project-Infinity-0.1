@@ -23,7 +23,7 @@ ServerEvents.recipes((event) => {
     'mekanism_extras:alloy_spectrum',
     'justdirethings:time_crystal',
     'evolvedmekanism:alloy_exoversal',
-    'justdirethings:blazegold_ingot',
+    'extendedcrafting:ultimate_singularity',
     'evolvedmekanism:alloy_exoversal',
     'justdirethings:time_crystal',
     'mekanism_extras:alloy_spectrum',

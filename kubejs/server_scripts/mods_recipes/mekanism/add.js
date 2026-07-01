@@ -1,5 +1,5 @@
 ServerEvents.recipes((event) => {
-  function crush(event, input, output_count, output, input_count) {
+  function crush (event, input, output_count, output, input_count) {
     if (input_count == null) input_count = 1;
 
     input = String(input);
@@ -46,7 +46,7 @@ ServerEvents.recipes((event) => {
     'draconicevolution:draconium_dust'
   );
 
-  function alloying(
+  function alloying (
     event,
     input_amount1,
     input_item1,
@@ -86,7 +86,7 @@ ServerEvents.recipes((event) => {
       .id('alloying_' + output);
   }
 
-  function combining(
+  function combining (
     event,
     input_amount1,
     input_item1,
@@ -309,10 +309,19 @@ ServerEvents.recipes((event) => {
     'kubejs:extreme_block',
     1
   );
+  combining(
+    event,
+    1,
+    'nuclearcraft:boron_ingot',
+    1,
+    'thermal:steel_ingot',
+    'nuclearcraft:ferroboron_dust',
+    1
+  );
 });
 
 ServerEvents.recipes((event) => {
-  function infuse(
+  function infuse (
     event,
     chemicalInput,
     chemicalAmount,
@@ -342,7 +351,7 @@ ServerEvents.recipes((event) => {
       .id('mek_' + output.replace(/[:]/g, '_').toLowerCase());
   }
 
-  function nucleosynthesizing(event, gasAmount, duration, input, output) {
+  function nucleosynthesizing (event, gasAmount, duration, input, output) {
     event
       .custom({
         type: 'mekanism:nucleosynthesizing',
@@ -461,7 +470,7 @@ ServerEvents.recipes((event) => {
     1
   );
 
-  function infusion_conversion(
+  function infusion_conversion (
     event,
     item_input,
     amount_output,
@@ -518,7 +527,7 @@ ServerEvents.recipes((event) => {
     );
   });
 
-  function enriching(event, item_input, item_output) {
+  function enriching (event, item_input, item_output) {
     event
       .custom({
         type: 'mekanism:enriching',
@@ -582,7 +591,7 @@ ServerEvents.recipes((event) => {
     'kubejs:double_compressed_enriched_shining'
   );
 
-  function compressing(event, gas_amount, gas_input, item_input, item_output) {
+  function compressing (event, gas_amount, gas_input, item_input, item_output) {
     event
       .custom({
         type: 'mekanism:compressing',
@@ -646,7 +655,7 @@ ServerEvents.recipes((event) => {
     'thermal:steel_ingot',
   ]);
 
-  function oxidizing(event, item_input, gas_output_amount, gas_output) {
+  function oxidizing (event, item_input, gas_output_amount, gas_output) {
     event
       .custom({
         type: 'mekanism:oxidizing',

@@ -188,6 +188,7 @@
 						value: "gateways"
 					}
 				}
+				title: "Any Gateway"
 				type: "item"
 			}]
 			title: "{ftbquests.chapter.tips_and_tricks.quest70E66957E98D944D.title}"
@@ -1020,8 +1021,8 @@
 				}
 			]
 			title: "{ftbquests.chapter.tips_and_tricks.quest6D0D293C2771D49C.title}"
-			x: 5.0d
-			y: 2.0d
+			x: -1.0d
+			y: 0.0d
 		}
 		{
 			description: [
@@ -1183,6 +1184,23 @@
 			title: "{ftbquests.chapter.tips_and_tricks.quest6CA3E88417FE311.title}"
 			x: 6.0d
 			y: 5.0d
+		}
+		{
+			description: ["Check JEI."]
+			id: "52A23568AD537D46"
+			rewards: [{
+				id: "17E17490B0884379"
+				type: "xp"
+				xp: 3
+			}]
+			size: 2.0d
+			tasks: [{
+				id: "0408309DB04451D1"
+				title: "Check JEI"
+				type: "checkmark"
+			}]
+			x: 5.0d
+			y: 2.0d
 		}
 	]
 	title: "{ftbquests.chapter.tips_and_tricks.title}"

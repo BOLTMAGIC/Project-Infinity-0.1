@@ -1,4 +1,4 @@
-BlockEvents.rightClicked('mekanism:creative_bin',(event) => {
+BlockEvents.rightClicked('mekanism:creative_bin', (event) => {
   const { player, item, block, facing } = event;
 
   if (item.isEmpty()) return;
@@ -25,6 +25,10 @@ BlockEvents.rightClicked('mekanism:creative_bin',(event) => {
 
     'ae2wtlib:wireless_universal_terminal',
     'ae2:wireless_crafting_terminal',
+    'nuclearcraft:basic_storage_container',
+    'nuclearcraft:advanced_storage_container',
+    'nuclearcraft:du_storage_container',
+    'nuclearcraft:elite_storage_container',
   ];
   // check for bannedItems
   for (const banned of bannedItems) {
@@ -411,10 +415,10 @@ BlockEvents.rightClicked('mekanism:creative_bin',(event) => {
     },
   ];
 
-  function rftoolsCheck(array) {
-    for(const item of array) {
-      if(item.id != 10.0) {
-        console.log("true")
+  function rftoolsCheck (array) {
+    for (const item of array) {
+      if (item.id != 10.0) {
+        console.log('true');
         return true;
       }
     }
@@ -442,13 +446,13 @@ BlockEvents.rightClicked('mekanism:creative_bin',(event) => {
   }
 });
 
-function matchesPattern(itemId, pattern) {
+function matchesPattern (itemId, pattern) {
   if (typeof pattern === 'string') return itemId === pattern;
   if (pattern instanceof RegExp) return pattern.test(itemId);
   return false;
 }
 
-function getNbtValue(nbt, path) {
+function getNbtValue (nbt, path) {
   var parts = path.split('.');
   var value = nbt;
   for (var i = 0; i < parts.length; i++) {

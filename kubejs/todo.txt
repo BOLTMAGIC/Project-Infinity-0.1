@@ -36,6 +36,7 @@ Mod Info:
         - Modonomicon
     - Mekanism Advanced Generators
     - Reliable Replacer
+    - Nether Package Fixer
 ----------
 Recipe changes and fixes:
 - Fixed Wither Insanium Essence drop (2% for drop) (thx to Reninsane)
@@ -46,7 +47,7 @@ Recipe changes and fixes:
 - hidden ExtendedCrafting Auto tables from JEI
 - changed recipes for Legendary Table
 - changed recipes for Ultimate and Epic (need the table before to craft the next one) (small change)
-- disabled player module from modular routers
+- disabled player module from modular routers (thx to CheatCodeLearn)
 - changed recipe for compact machines
 - changed recipe for entity ticker (before you needed 531 CU now you need 597) (26 crystal matrix blocks + 1 neutronium block) (thx to Iceuandfireu)
 - changed the recipes for curvy pipes (easier) (thx to alp CAKEEEEEEEEEEE)
@@ -55,6 +56,17 @@ Recipe changes and fixes:
 - fixed creative battery from ID (thx to Kaimonick)
 - changed recipes for Blood Magic Addon (thx to MiniMaxi)
 - new texture for Infinity 11
+- added a recipe to dupe infinity catalyst (maybe this saves some TPS)
+- fixed shift rightclick grass to get pebble script. you now wont get any pebble if you hold any item in your main hand except pebble
+- added a dupe for Infinity catalysts in the Infinity Crucible
+- made the blood assembler faster in the config
+- HNN chaos dragon numbers for leveling the data model up got changed (again)
+- added a new ultimate seed. its between Tier6 and Ultimate Infinity seeds (thx to Reninsane)
+- changed recipe for Ultimate Infinity
+- fixed cataclysm config (thx to grinchfan22)
+- changed recipe for time wand (good luck)
+- added forge:ores to kubejs ores
+- fixed ferroboron ingot in the combiner
 - 
 ----------
 Mod changes and fixes:

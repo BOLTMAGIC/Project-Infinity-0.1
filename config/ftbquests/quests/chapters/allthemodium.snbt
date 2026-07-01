@@ -5,6 +5,44 @@
 	group: "29543B666C58207C"
 	icon: "allthemodium:allthemodium_ingot"
 	id: "45266BB4B938FF39"
+	images: [
+		{
+			alpha: 175
+			height: 12.0d
+			image: "allthemodium:block/allthemodium_block"
+			rotation: 0.0d
+			width: 12.0d
+			x: -3.0d
+			y: -4.5d
+		}
+		{
+			alpha: 175
+			height: 12.0d
+			image: "allthemodium:block/vibranium_block"
+			rotation: 0.0d
+			width: 12.0d
+			x: 7.0d
+			y: -4.5d
+		}
+		{
+			alpha: 175
+			height: 12.0d
+			image: "allthemodium:block/unobtainium_block"
+			rotation: 0.0d
+			width: 12.0d
+			x: -3.0d
+			y: 5.5d
+		}
+		{
+			alpha: 175
+			height: 12.0d
+			image: "allthemodium:block/unobtainium_vibranium_alloy_block"
+			rotation: 180.0d
+			width: 12.0d
+			x: 7.0d
+			y: 5.5d
+		}
+	]
 	order_index: 11
 	progression_mode: "flexible"
 	quest_links: [ ]
@@ -43,7 +81,7 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: 0.0d
+			y: -2.5d
 		}
 		{
 			dependencies: ["296B7AFD680BBA2D"]
@@ -65,8 +103,8 @@
 				item: "mekanism:ingot_refined_glowstone"
 				type: "item"
 			}]
-			x: 1.5d
-			y: 1.0d
+			x: -2.5d
+			y: -1.0d
 		}
 		{
 			dependencies: ["031BDF73F745954F"]
@@ -81,8 +119,8 @@
 				item: "mekanism:osmium_compressor"
 				type: "item"
 			}]
-			x: 3.0d
-			y: 1.5d
+			x: -4.5d
+			y: -1.0d
 		}
 		{
 			dependencies: ["68DB25B8F9FF0A13"]
@@ -104,8 +142,8 @@
 				item: "redstone_arsenal:flux_ingot"
 				type: "item"
 			}]
-			x: 3.0d
-			y: 0.0d
+			x: -2.5d
+			y: -2.0d
 		}
 		{
 			dependencies: ["2EE9E8AEA1AF64E0"]
@@ -127,8 +165,8 @@
 				item: "thermal_extra:soul_infused_ingot"
 				type: "item"
 			}]
-			x: 3.0d
-			y: -2.5d
+			x: -2.5d
+			y: -3.0d
 		}
 		{
 			dependencies: ["28880F50C8C818ED"]
@@ -151,8 +189,8 @@
 					type: "item"
 				}
 			]
-			x: 2.5d
-			y: -3.5d
+			x: -3.5d
+			y: -3.0d
 		}
 		{
 			dependencies: ["031BDF73F745954F"]
@@ -167,8 +205,8 @@
 				item: "thermal:machine_pulverizer"
 				type: "item"
 			}]
-			x: 1.0d
-			y: -4.5d
+			x: -4.5d
+			y: -3.0d
 		}
 		{
 			dependencies: ["031BDF73F745954F"]
@@ -183,8 +221,8 @@
 				item: "enderio:alloy_smelter"
 				type: "item"
 			}]
-			x: -2.5d
-			y: -3.5d
+			x: -4.5d
+			y: -4.0d
 		}
 		{
 			dependencies: ["185DC151DA95D592"]
@@ -207,7 +245,7 @@
 				type: "item"
 			}]
 			x: -2.5d
-			y: -2.0d
+			y: -4.0d
 		}
 		{
 			hide_details_until_startable: false
@@ -245,8 +283,8 @@
 				value: 1L
 			}]
 			title: "{ftbquests.chapter.allthemodium.quest31BDF73F745954F.title}"
-			x: 0.0d
-			y: -2.625d
+			x: -7.0d
+			y: -0.875d
 		}
 		{
 			dependencies: ["031BDF73F745954F"]
@@ -262,8 +300,8 @@
 				item: "redstone_arsenal:flux_dust"
 				type: "item"
 			}]
-			x: 4.0d
-			y: -1.0d
+			x: -3.5d
+			y: -2.0d
 		}
 		{
 			dependencies: ["1C014E4F1DE73C03"]
@@ -285,8 +323,8 @@
 				item: "allthemodium:allthemodium_block"
 				type: "item"
 			}]
-			x: -1.5d
-			y: 4.0d
+			x: 0.0d
+			y: -4.5d
 		}
 		{
 			dependencies: ["45FDD8348D8FD770"]
@@ -346,11 +384,12 @@
 				type: "item"
 			}]
 			title: "{ftbquests.chapter.allthemodium.quest441BB6FFE77E9620.title}"
-			x: 3.5d
-			y: 3.5d
+			x: 3.0d
+			y: -5.0d
 		}
 		{
 			dependencies: ["1C014E4F1DE73C03"]
+			description: ["This template is found in ancient city within suspicious clay."]
 			id: "45FDD8348D8FD770"
 			rewards: [
 				{
@@ -364,14 +403,22 @@
 					type: "item"
 				}
 			]
-			tasks: [{
-				id: "44CB5CBCB991BB23"
-				title: "{ftbquests.chapter.allthemodium.quest45FDD8348D8FD770.task.4957157780488305443.title}"
-				type: "checkmark"
-			}]
-			title: "{ftbquests.chapter.allthemodium.quest45FDD8348D8FD770.title}"
-			x: 1.5d
-			y: 4.0d
+			tasks: [
+				{
+					id: "19982F33B7AE5C80"
+					item: "allthemodium:allthemodium_upgrade_smithing_template"
+					type: "item"
+				}
+				{
+					icon: "minecraft:sculk_shrieker"
+					id: "5C3005E543E4B1B5"
+					structure: "minecraft:ancient_city"
+					type: "structure"
+				}
+			]
+			title: "Allthemodium Template"
+			x: 2.0d
+			y: -5.0d
 		}
 		{
 			dependencies: ["45FDD8348D8FD770"]
@@ -393,8 +440,8 @@
 				item: "allthemodium:allthemodium_apple"
 				type: "item"
 			}]
-			x: 3.5d
-			y: 4.5d
+			x: 3.0d
+			y: -4.0d
 		}
 		{
 			dependencies: ["4D3C691CC647D955"]
@@ -416,8 +463,8 @@
 				item: "allthemodium:allthemodium_carrot"
 				type: "item"
 			}]
-			x: 4.5d
-			y: 4.5d
+			x: 4.0d
+			y: -4.0d
 		}
 		{
 			dependencies: [
@@ -446,8 +493,8 @@
 				item: "allthemodium:vibranium_ingot"
 				type: "item"
 			}]
-			x: 0.0d
-			y: 7.0d
+			x: 4.0d
+			y: 0.5d
 		}
 		{
 			id: "2C459814EFC92B12"
@@ -468,8 +515,8 @@
 				item: "bloodmagic:life_essence_bucket"
 				type: "item"
 			}]
-			x: -1.5d
-			y: 6.5d
+			x: 5.5d
+			y: 0.5d
 		}
 		{
 			id: "6A6ACFC1BAFCDBEE"
@@ -490,8 +537,8 @@
 				item: "mysticalagradditions:insanium_essence"
 				type: "item"
 			}]
-			x: 2.0d
-			y: 7.5d
+			x: 5.5d
+			y: -0.5d
 		}
 		{
 			dependencies: [
@@ -505,6 +552,7 @@
 				"7A8E8443F66B469D"
 				"4359F33346D2F6D3"
 				"075AFB631DD70023"
+				"6C2B451CBC4DA76F"
 			]
 			id: "0091DB2772579996"
 			rewards: [
@@ -527,7 +575,7 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: 12.0d
+			y: 4.5d
 		}
 		{
 			dependencies: ["441BB6FFE77E9620"]
@@ -574,8 +622,8 @@
 				type: "item"
 			}]
 			title: "{ftbquests.chapter.allthemodium.quest6E56F7739520746C.title}"
-			x: 4.5d
-			y: 3.5d
+			x: 4.0d
+			y: -5.0d
 		}
 		{
 			dependencies: ["0091DB2772579996"]
@@ -590,8 +638,8 @@
 				item: "allthemodium:unobtainium_block"
 				type: "item"
 			}]
-			x: -1.5d
-			y: 15.0d
+			x: 0.0d
+			y: 6.5d
 		}
 		{
 			dependencies: ["031BDF73F745954F"]
@@ -601,13 +649,14 @@
 				item: "kubejs:apotheotic_coin"
 				type: "item"
 			}]
+			size: 1.0d
 			tasks: [{
 				id: "0419FAC32A3EABE2"
 				item: "powah:crystal_nitro"
 				type: "item"
 			}]
-			x: -2.0d
-			y: 1.0d
+			x: -2.5d
+			y: 0.0d
 		}
 		{
 			id: "49253D81234DEC7D"
@@ -621,11 +670,16 @@
 				item: "twilightforest:fiery_block"
 				type: "item"
 			}]
-			x: -1.5d
-			y: 7.5d
+			x: 5.5d
+			y: 1.5d
 		}
 		{
 			dependencies: ["1C014E4F1DE73C03"]
+			description: [
+				"Place in the overworld to go to the mining dimesion"
+				"Place in the Nether to go to the \"other\" dimension"
+				"Place in the end to go to the void dimesion"
+			]
 			id: "4E22DBF17286B3F4"
 			rewards: [{
 				id: "1F20ECCF5DA69D2A"
@@ -638,7 +692,7 @@
 				type: "item"
 			}]
 			x: 1.0d
-			y: 5.5d
+			y: -0.5d
 		}
 		{
 			id: "370FB72EABE6E9B4"
@@ -652,8 +706,8 @@
 				item: "botanicalextramachinery:saffron_dragonstone"
 				type: "item"
 			}]
-			x: -2.0d
-			y: 12.5d
+			x: -1.0d
+			y: 6.5d
 		}
 		{
 			id: "4359F33346D2F6D3"
@@ -667,8 +721,8 @@
 				item: "mekanism:ultimate_control_circuit"
 				type: "item"
 			}]
-			x: 1.5d
-			y: 13.5d
+			x: 2.0d
+			y: 6.5d
 		}
 		{
 			id: "5562245536C63F7B"
@@ -683,7 +737,7 @@
 				type: "item"
 			}]
 			x: -2.0d
-			y: 10.5d
+			y: 5.5d
 		}
 		{
 			id: "1A992D8ADE610577"
@@ -697,8 +751,8 @@
 				item: "mysticalexpansion:etherium_essence"
 				type: "item"
 			}]
-			x: -1.0d
-			y: 10.0d
+			x: -2.0d
+			y: 4.5d
 		}
 		{
 			id: "1FB3C83A0FA88B41"
@@ -712,8 +766,8 @@
 				item: "mysticalexpansion:extremium_essence"
 				type: "item"
 			}]
-			x: -2.5d
-			y: 11.5d
+			x: -2.0d
+			y: 6.5d
 		}
 		{
 			id: "357A1C73F3B5E89F"
@@ -728,7 +782,7 @@
 				type: "item"
 			}]
 			x: 2.0d
-			y: 12.5d
+			y: 5.5d
 		}
 		{
 			id: "7A8E8443F66B469D"
@@ -742,8 +796,8 @@
 				item: "dimensionalpocketsii:dimensional_ingot_enhanced"
 				type: "item"
 			}]
-			x: 1.0d
-			y: 10.0d
+			x: -2.0d
+			y: 3.5d
 		}
 		{
 			id: "05FE2B47DABF3AFE"
@@ -758,7 +812,7 @@
 				type: "item"
 			}]
 			x: 2.0d
-			y: 10.5d
+			y: 3.5d
 		}
 		{
 			dependencies: ["693CF506C80A3F9F"]
@@ -774,8 +828,8 @@
 				item: "kubejs:starmetal_ingot"
 				type: "item"
 			}]
-			x: 2.5d
-			y: 11.5d
+			x: 2.0d
+			y: 4.5d
 		}
 		{
 			id: "76E7B80B54C3594C"
@@ -789,8 +843,8 @@
 				item: "dimensionalpocketsii:nether_star_shard"
 				type: "item"
 			}]
-			x: 6.0d
-			y: 10.0d
+			x: 4.0d
+			y: 3.5d
 		}
 		{
 			id: "39D28C5F3B15E2A3"
@@ -805,8 +859,8 @@
 				item: "kubejs:azure_silver_dust"
 				type: "item"
 			}]
-			x: 6.0d
-			y: 11.0d
+			x: 5.0d
+			y: 4.0d
 		}
 		{
 			id: "5777C5DE815F7B50"
@@ -820,8 +874,8 @@
 				item: "kubejs:azure_electrum_dust"
 				type: "item"
 			}]
-			x: 6.0d
-			y: 12.0d
+			x: 5.0d
+			y: 5.0d
 		}
 		{
 			dependencies: [
@@ -841,8 +895,8 @@
 				item: "kubejs:starmetal_dust"
 				type: "item"
 			}]
-			x: 4.5d
-			y: 11.5d
+			x: 3.5d
+			y: 4.5d
 		}
 		{
 			id: "66EFF93F1BBDA2AC"
@@ -856,8 +910,23 @@
 				item: "kubejs:blaze_gold_dust"
 				type: "item"
 			}]
-			x: 6.0d
-			y: 13.0d
+			x: 4.0d
+			y: 5.5d
+		}
+		{
+			id: "6C2B451CBC4DA76F"
+			rewards: [{
+				id: "04218775493328A4"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "669EDD7B48F2CC78"
+				item: "justdirethings:celestigem"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 6.5d
 		}
 		{
 			dependencies: ["19CF6A22EE39CD0D"]
@@ -872,8 +941,317 @@
 				item: "ironfurnaces:allthemodium_furnace"
 				type: "item"
 			}]
-			x: -3.5d
-			y: 3.5d
+			x: 0.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["2909CC7DAE6E69AC"]
+			description: ["This template is found in treasure bastion in suspicious soul sand."]
+			id: "0054360494E42CD3"
+			rewards: [{
+				id: "71E87C20576FA3C6"
+				item: "kubejs:infused_coin"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "663BF7D2318011D0"
+					item: "allthemodium:vibranium_upgrade_smithing_template"
+					type: "item"
+				}
+				{
+					icon: "minecraft:gilded_blackstone"
+					id: "1671CC33E0F05D6F"
+					structure: "minecraft:bastion_remnant"
+					type: "structure"
+				}
+			]
+			title: "Vibranium template"
+			x: 4.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["0091DB2772579996"]
+			description: ["This template is found in the dimension \"The Other\" in the dungeon.    in the librairy room."]
+			id: "15364C6FD7FA16CD"
+			rewards: [{
+				id: "276D665D2ED48488"
+				item: "kubejs:infused_coin"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "52BBE6EF826AFD13"
+					item: "allthemodium:unobtainium_upgrade_smithing_template"
+					type: "item"
+				}
+				{
+					icon: "allthemodium:ancient_stone_bricks"
+					id: "02823B5D6411FDBD"
+					structure: "allthemodium:dungeon"
+					type: "structure"
+				}
+			]
+			x: 1.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["0054360494E42CD3"]
+			id: "046A49484DF60ECA"
+			rewards: [{
+				id: "3C8A6F605EA7D2A9"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "45E86CEBC22BBD34"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "allthemodium:vibranium_hoe"
+							}
+							{
+								Count: 1b
+								id: "allthemodium:vibranium_shovel"
+							}
+							{
+								Count: 1b
+								id: "allthemodium:vibranium_axe"
+							}
+							{
+								Count: 1b
+								id: "allthemodium:vibranium_pickaxe"
+							}
+							{
+								Count: 1b
+								id: "allthemodium:vibranium_sword"
+							}
+						]
+					}
+				}
+				title: "Vibranium tools"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["0054360494E42CD3"]
+			id: "7D0D1117941364E0"
+			rewards: [{
+				id: "2CE5B03D3EDA861A"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "14EC7A83FDB3768B"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "allthemodium:vibranium_boots"
+							}
+							{
+								Count: 1b
+								id: "allthemodium:vibranium_leggings"
+							}
+							{
+								Count: 1b
+								id: "allthemodium:vibranium_chestplate"
+							}
+							{
+								Count: 1b
+								id: "allthemodium:vibranium_helmet"
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "Vibranium armor"
+			x: 5.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["15364C6FD7FA16CD"]
+			id: "0D7A02DEB12B8D1E"
+			rewards: [{
+				id: "7939A3BF3730FF25"
+				item: "kubejs:infused_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2D003C94FB0207B8"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "allthemodium:unobtainium_hoe"
+							}
+							{
+								Count: 1b
+								id: "allthemodium:unobtainium_shovel"
+							}
+							{
+								Count: 1b
+								id: "allthemodium:unobtainium_axe"
+							}
+							{
+								Count: 1b
+								id: "allthemodium:unobtainium_pickaxe"
+							}
+							{
+								Count: 1b
+								id: "allthemodium:unobtainium_sword"
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "Unobtainium tools"
+			x: 2.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["15364C6FD7FA16CD"]
+			id: "0ABE5C97214D96C7"
+			rewards: [{
+				id: "71D22EBDEC804609"
+				item: "kubejs:infused_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "61304A7BE2914E77"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "allthemodium:unobtainium_boots"
+							}
+							{
+								Count: 1b
+								id: "allthemodium:unobtainium_leggings"
+							}
+							{
+								Count: 1b
+								id: "allthemodium:unobtainium_chestplate"
+							}
+							{
+								Count: 1b
+								id: "allthemodium:unobtainium_helmet"
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "unobtainium armor"
+			x: 1.0d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"1C014E4F1DE73C03"
+				"0091DB2772579996"
+			]
+			id: "018FA2D2DA87B475"
+			rewards: [{
+				id: "051C396586A5B51C"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6A684AC01D4E0FD4"
+				item: "allthemodium:unobtainium_allthemodium_alloy_ingot"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["018FA2D2DA87B475"]
+			id: "7826DF21D8B6D664"
+			rewards: [{
+				id: "07296DB220DE6E3D"
+				item: "kubejs:infused_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2F7CCB9E4ADC32B3"
+				item: {
+					Count: 1
+					id: "extendedcrafting:singularity"
+					tag: {
+						Id: "extendedcrafting:unobtainium_allthemodium_alloy_ingot"
+					}
+				}
+				type: "item"
+			}]
+			x: -2.5d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"0D7A02DEB12B8D1E"
+				"441BB6FFE77E9620"
+				"046A49484DF60ECA"
+			]
+			hide_dependency_lines: true
+			id: "18F3B67502A52FD7"
+			rewards: [{
+				id: "01C1F32F0DF71677"
+				item: "kubejs:ascended_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "324D177DA206AC23"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "allthemodium:alloy_shovel"
+							}
+							{
+								Count: 1b
+								id: "allthemodium:alloy_axe"
+							}
+							{
+								Count: 1b
+								id: "allthemodium:alloy_pickaxe"
+							}
+							{
+								Count: 1b
+								id: "allthemodium:alloy_paxel"
+							}
+							{
+								Count: 1b
+								id: "allthemodium:alloy_sword"
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "ATM Alloy tools"
+			x: 2.0d
+			y: 0.5d
 		}
 	]
 	title: "{ftbquests.chapter.allthemodium.title}"

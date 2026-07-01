@@ -1,7 +1,7 @@
 {
   "name": "Ultimate Infinity",
   "type": "mysticalagriculture:resource",
-  "tier": "mysticalcustomization:7",
+  "tier": "mysticalcustomization:8",
   "ingredient": {
     "item": "extendedcrafting:ultimate_infinity"
   },

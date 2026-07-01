@@ -3,7 +3,7 @@
     "variants": [],
     "name": "entity.draconicevolution.draconic_guardian",
     "name_color": "#ffffff",
-    "gui_scale": 0.5,
+    "gui_scale": 0.33,
     "gui_x_offset": 0,
     "gui_y_offset": 0,
     "gui_z_offset": 0,
@@ -20,6 +20,6 @@
             "item": "minecraft:air"
         }
     ],
-    "tier_data": [1, 25000, 30000, 32767],                      
-    "data_per_kill": [1, 500, 500, 500]
+    "tier_data": [1, 12500, 25000, 32767],                      
+    "data_per_kill": [1, 1000, 1000, 1000]
 }

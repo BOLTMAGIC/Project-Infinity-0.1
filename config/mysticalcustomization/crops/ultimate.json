@@ -1,0 +1,18 @@
+{
+  "name": "Ultimate",
+  "type": "mysticalagriculture:resource",
+  "tier": "mysticalcustomization:7",
+  "ingredient": {
+    "item": "extendedcrafting:ultimate"
+  },
+  "color": "e09b96",
+  "textures": {
+    "flower": "mysticalagriculture:block/flower_ingot",
+    "essence": "mysticalagriculture:item/essence_ingot"
+  },
+  "crux": "extendedcrafting:the_ultimate_block",
+  "recipes": {
+    "infusion": false,
+    "reprocessor": false
+  }
+}

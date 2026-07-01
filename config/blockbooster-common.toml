@@ -25,7 +25,7 @@
 	#Deactivate booster with redstone signal
 	deactivate_with_redstone = true
 	#Blacklist of block entities by block id or block tags (example: "minecraft:furnace","#somemod:some_tag")
-	black_list = ["#mekanism:cardboard_blacklist", "mysticalagriculture:ultimate_infinity_seeds", "industrialforegoingsouls:soul_network_pipe", "industrialforegoingsouls:soul_surge", "avaritia:neutron_collector", "avaritia:dense_neutron_collector", "avaritia:denser_neutron_collector"]
+	black_list = ["#mekanism:cardboard_blacklist", "mysticalagriculture:ultimate_infinity_seeds", "mysticalagriculture:ultimate_seeds", "industrialforegoingsouls:soul_network_pipe", "industrialforegoingsouls:soul_surge", "avaritia:neutron_collector", "avaritia:dense_neutron_collector", "avaritia:denser_neutron_collector"]
 	#Whitelist of block entities by id or block tags (example: "minecraft:furnace","#somemod:some_tag") has higher priority
 	white_list = []
 	#Enable TPS-based lag protection. Boosters will stop working when server TPS drops below threshold

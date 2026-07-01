@@ -26,16 +26,6 @@ LootJS.modifiers((event) => {
 });
 
 LootJS.modifiers((event) => {
-  event.disableLootModification(/.*swasher*/);
-  event.disableLootModification(/.*melting_pan*/);
-});
-
-LootJS.modifiers((event) => {
-  event.addLootTypeModifier(LootType.FISHING, LootType.ENTITY).removeLoot([/.*swasher*/]);
-  event.addLootTypeModifier(LootType.ENTITY).removeLoot([/.*melting_pan*/]);
-});
-
-LootJS.modifiers((event) => {
   event
     .addLootTypeModifier(LootType.ENTITY, LootType.CHEST)
     .removeLoot([/.*dimlet*/]);

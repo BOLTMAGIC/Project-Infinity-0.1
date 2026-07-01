@@ -571,7 +571,7 @@ const removeItemsbyID = [
   'alltheores:uranium_rod',
   'thermal_processing:machine/press/ingot_to_block/uranium',
   'thermal_processing:machine/press/ingot_to_nugget/uranium',
-  '',
+  'combiningnuclearcraft:ferroboron_ingot',
   '',
   '',
   '',

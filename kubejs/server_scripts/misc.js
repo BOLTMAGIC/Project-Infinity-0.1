@@ -29,7 +29,10 @@ ServerEvents.recipes((event) => {
   create3x3same(event, 'avaritia:blaze_cube', ['avaritia_expand:blaze_nugget']);
 
   //#region born_in_chaos_v1
-  event.smelting('born_in_chaos_v1:dark_metal_ingot','born_in_chaos_v1:pileof_dark_metal');
+  event.smelting(
+    'born_in_chaos_v1:dark_metal_ingot',
+    'born_in_chaos_v1:pileof_dark_metal'
+  );
 
   //#region botanypotstiers
   shapeless(event, 'botanypotstiers:creative_terracotta_hopper_botany_pot', [
@@ -56,7 +59,7 @@ ServerEvents.recipes((event) => {
     'minecraft:firework_rocket',
     'kubejs:infinity_4',
   ]);
-  
+
   create3x3(event, 'draconicevolution:grinder', [
     'draconicevolution:draconium_ingot',
     'kubejs:draconic_sword',
@@ -255,7 +258,10 @@ ServerEvents.recipes((event) => {
 
   shapeless(
     event,
-    Item.of('patchouli:guide_book','{"patchouli:book":"patchouli:project_infinity"}'),
+    Item.of(
+      'patchouli:guide_book',
+      '{"patchouli:book":"patchouli:project_infinity"}'
+    ),
     ['minecraft:book', 'voidminers:rubetine']
   );
 
@@ -272,7 +278,7 @@ ServerEvents.recipes((event) => {
       }
     )
     .keepIngredient('projecte:transmutation_table');
-  
+
   create3x3(event, 'projectexpansion:basic_emc_link', [
     'projecte:low_covalence_dust',
     'projecte:medium_covalence_dust',

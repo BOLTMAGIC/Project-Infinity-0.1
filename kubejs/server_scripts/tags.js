@@ -67,6 +67,23 @@ ServerEvents.tags('item', (event) => {
     'exdeorum:skyroot_sieve',
   ]);
 
+  event.add('silentgems:goodgems', [
+    'silentgems:carnelian',
+    'silentgems:topaz',
+    'silentgems:citrine',
+    'silentgems:heliodor',
+    'silentgems:moldavite',
+    'silentgems:peridot',
+    'silentgems:turquoise',
+    'silentgems:kyanite',
+    'silentgems:iolite',
+    'silentgems:alexandrite',
+    'silentgems:ammolite',
+    'silentgems:rose_quartz',
+    'silentgems:black_diamond',
+    'silentgems:white_diamond',
+  ]);
+
   event.add('curios:curio', 'compactmachines:personal_shrinking_device');
 });
 
@@ -84,10 +101,7 @@ ServerEvents.tags('fluid', (event) => {
   event.add('mekanism:bio', 'mekanism:bio');
   event.add('forge:chlorine', 'mekanism:chlorine');
   event.add('mekanism:water_vapor', ['mekanism:water_vapor', 'mekanism:steam']);
-  event.add('mekanism:steam', [
-    'mekanism:water_vapor',
-    'mekanism:steam',
-  ]);
+  event.add('mekanism:steam', ['mekanism:water_vapor', 'mekanism:steam']);
   event.add('forge:heavy_water', [
     'mekanism:heavy_water',
     'nuclearcraft:heavy_water',

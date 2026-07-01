@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "mm:block/tank_encapsulator_controller",
+      "y": 270
+    },
+    "facing=north": {
+      "model": "mm:block/tank_encapsulator_controller",
+      "y": 180
+    },
+    "facing=south": {
+      "model": "mm:block/tank_encapsulator_controller"
+    },
+    "facing=west": {
+      "model": "mm:block/tank_encapsulator_controller",
+      "y": 90
+    }
+  }
+}

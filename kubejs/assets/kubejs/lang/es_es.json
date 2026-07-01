@@ -244,8 +244,6 @@
   "item.enderio.signalum_conduit": "Conducto de Energía de Signalum",
   "item.enderio.enderium_conduit": "Conducto de Energía de Enderium",
 
-  "item.kubejs.fake_mob_masher": "Por favor, no mires la textura. Este es un objeto ficticio usado para evitar un crasheo.",
-
   "singularity.extendedcrafting.abyssal_ingot": "Lingote Abisal",
   "singularity.extendedcrafting.allthemodium_ingot": "Lingote de Allthemodium",
   "singularity.extendedcrafting.awakened_draconium_ingot": "Lingote de Draconium Despertado",
@@ -403,5 +401,7 @@
   "tooltip.outer_end.ancient_ice": "Encuéntrame en el bioma de Piscinas Primordiales.",
   "tooltip.sanguine_networks.virtual_sacrificer": "Enlázame a un Altar de Sangre usando la Llave Inglesa del mismo mod.",
 
-  "tooltip.hostilenetworks.data_model.lord_pumpkinhead": "No puedes matarme para obtener datos; consulta las recetas de este objeto."
+  "tooltip.hostilenetworks.data_model.lord_pumpkinhead": "No puedes matarme para obtener datos; consulta las recetas de este objeto.",
+
+  "tooltip.kubejs.fake_mob_masher": "Por favor, no mires la textura. Este es un objeto ficticio usado para evitar un crasheo."
 }

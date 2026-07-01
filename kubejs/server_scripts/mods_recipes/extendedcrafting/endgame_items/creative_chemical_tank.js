@@ -227,5 +227,237 @@ ServerEvents.recipes((event) => {
         item: 'mekanism:creative_chemical_tank',
       },
     })
-    .id('mekanism:creative_chemical_tank');
+    .id('mekanism:creative_chemical_tank1');
+});
+
+ServerEvents.recipes((event) => {
+  //Creative Chemical Tank
+  event
+    .custom({
+      type: 'extendedcrafting:shaped_table',
+      pattern: [
+        'ABCDDEFGH',
+        'IJDKLMNOB',
+        'PNMMKKMDC',
+        'QMKRSTMKD',
+        'DUKVWVKXD',
+        'DKMYZaKMb',
+        'CDMKKMMNc',
+        'BdNMeKDfg',
+        'hijkDDCBl',
+      ],
+      key: {
+        A: {
+          type: 'forge:partial_nbt',
+          item: 'kubejs:chemical_tank_token',
+          count: 1,
+          nbt: '{tank_level:"ultimate", chemical_id:"mekanism:yellow"}'
+        },
+        B: {
+          item: 'mekanism_extras:infinite_chemical_tank',
+        },
+        C: {
+          item: 'evolvedmekanism:alloy_creative',
+        },
+        D: {
+          item: 'kubejs:infinity_12',
+        },
+        E: {
+          type: 'forge:partial_nbt',
+          item: 'kubejs:chemical_tank_token',
+          count: 1,
+          nbt: '{tank_level:"ultimate", chemical_id:"mekanism:green"}'
+        },
+        F: {
+          type: 'forge:partial_nbt',
+          item: 'kubejs:chemical_tank_token',
+          count: 1,
+          nbt: '{tank_level:"ultimate", chemical_id:"mekanism:lime"}'
+        },
+        G: {
+          type: 'forge:partial_nbt',
+          item: 'kubejs:chemical_tank_token',
+          count: 1,
+          nbt: '{tank_level:"ultimate", chemical_id:"mekanism:cyan"}'
+        },
+        H: {
+          type: 'forge:partial_nbt',
+          item: 'kubejs:chemical_tank_token',
+          count: 1,
+          nbt: '{tank_level:"ultimate", chemical_id:"mekanism:light_blue"}'
+        },
+        I: {
+          type: 'forge:partial_nbt',
+          item: 'kubejs:chemical_tank_token',
+          count: 1,
+          nbt: '{tank_level:"ultimate", chemical_id:"mekanism:orange"}'
+        },
+        J: {
+          type: 'forge:partial_nbt',
+          item: 'kubejs:chemical_tank_token',
+          count: 1,
+          nbt: '{tank_level:"ultimate", chemical_id:"mekanism:chlorine"}'
+        },
+        K: {
+          item: 'avaritia:infinity_ingot',
+        },
+        L: {
+          type: 'forge:partial_nbt',
+          item: 'kubejs:chemical_tank_token',
+          count: 1,
+          nbt: '{tank_level:"ultimate", chemical_id:"mekanism:fissile_fuel"}'
+        },
+        M: {
+          item: 'extendedcrafting:the_ultimate_ingot',
+        },
+        N: {
+          item: 'evolvedmekanism:creative_control_circuit',
+        },
+        O: {
+          type: 'forge:partial_nbt',
+          item: 'kubejs:chemical_tank_token',
+          count: 1,
+          nbt: '{tank_level:"ultimate", chemical_id:"mekanismgenerators:tritium"}'
+        },
+        P: {
+          type: 'forge:partial_nbt',
+          item: 'kubejs:chemical_tank_token',
+          count: 1,
+          nbt: '{tank_level:"ultimate", chemical_id:"mekanism:red"}'
+        },
+        Q: {
+          type: 'forge:partial_nbt',
+          item: 'kubejs:chemical_tank_token',
+          count: 1,
+          nbt: '{tank_level:"ultimate", chemical_id:"mekanism:brown"}'
+        },
+        R: {
+          type: 'forge:partial_nbt',
+          item: 'kubejs:chemical_tank_token',
+          count: 1,
+          nbt: '{tank_level:"absolute", chemical_id:"mekanism:oxygen"}'
+        },
+        S: {
+          type: 'forge:partial_nbt',
+          item: 'kubejs:chemical_tank_token',
+          count: 1,
+          nbt: '{tank_level:"advanced", chemical_id:"mekanism:antimatter"}'
+        },
+        T: {
+          type: 'forge:partial_nbt',
+          item: 'kubejs:chemical_tank_token',
+          count: 1,
+          nbt: '{tank_level:"absolute", chemical_id:"mekanism:hydrogen"}'
+        },
+        U: {
+          type: 'forge:partial_nbt',
+          item: 'kubejs:chemical_tank_token',
+          count: 1,
+          nbt: '{tank_level:"ultimate", chemical_id:"mekanism:uranium_hexafluoride"}'
+        },
+        V: {
+          type: 'forge:partial_nbt',
+          item: 'extendedcrafting:singularity',
+          count: 1,
+          nbt: '{Id:"extendedcrafting:ingot_osmium"}'
+        },
+        W: {
+          item: 'avaritia:neutron_collector',
+        },
+        X: {
+          type: 'forge:partial_nbt',
+          item: 'kubejs:chemical_tank_token',
+          count: 1,
+          nbt: '{tank_level:"ultimate", chemical_id:"mekanism:sulfuric_acid"}'
+        },
+        Y: {
+          type: 'forge:partial_nbt',
+          item: 'kubejs:chemical_tank_token',
+          count: 1,
+          nbt: '{tank_level:"elite", chemical_id:"allthemodium:clean_allthemodium"}'
+        },
+        Z: {
+          type: 'forge:partial_nbt',
+          item: 'kubejs:chemical_tank_token',
+          count: 1,
+          nbt: '{tank_level:"elite", chemical_id:"allthemodium:clean_unobtainium"}'
+        },
+        a: {
+          type: 'forge:partial_nbt',
+          item: 'kubejs:chemical_tank_token',
+          count: 1,
+          nbt: '{tank_level:"elite", chemical_id:"allthemodium:clean_vibranium"}'
+        },
+        b: {
+          type: 'forge:partial_nbt',
+          item: 'kubejs:chemical_tank_token',
+          count: 1,
+          nbt: '{tank_level:"ultimate", chemical_id:"mekanism:blue"}'
+        },
+        c: {
+          type: 'forge:partial_nbt',
+          item: 'kubejs:chemical_tank_token',
+          count: 1,
+          nbt: '{tank_level:"ultimate", chemical_id:"mekanism:purple"}'
+        },
+        d: {
+          type: 'forge:partial_nbt',
+          item: 'kubejs:chemical_tank_token',
+          count: 1,
+          nbt: '{tank_level:"ultimate", chemical_id:"mekanismgenerators:deuterium"}'
+        },
+        e: {
+          type: 'forge:partial_nbt',
+          item: 'kubejs:chemical_tank_token',
+          count: 1,
+          nbt: '{tank_level:"ultimate", chemical_id:"mekanism:sulfur_trioxide"}'
+        },
+        f: {
+          type: 'forge:partial_nbt',
+          item: 'kubejs:chemical_tank_token',
+          count: 1,
+          nbt: '{tank_level:"ultimate", chemical_id:"mekanism:sodium"}'
+        },
+        g: {
+          type: 'forge:partial_nbt',
+          item: 'kubejs:chemical_tank_token',
+          count: 1,
+          nbt: '{tank_level:"ultimate", chemical_id:"mekanism:magenta"}'
+        },
+        h: {
+          type: 'forge:partial_nbt',
+          item: 'kubejs:chemical_tank_token',
+          count: 1,
+          nbt: '{tank_level:"ultimate", chemical_id:"mekanism:black"}'
+        },
+        i: {
+          type: 'forge:partial_nbt',
+          item: 'kubejs:chemical_tank_token',
+          count: 1,
+          nbt: '{tank_level:"ultimate", chemical_id:"mekanism:gray"}'
+        },
+        j: {
+          type: 'forge:partial_nbt',
+          item: 'kubejs:chemical_tank_token',
+          count: 1,
+          nbt: '{tank_level:"ultimate", chemical_id:"mekanism:light_gray"}'
+        },
+        k: {
+          type: 'forge:partial_nbt',
+          item: 'kubejs:chemical_tank_token',
+          count: 1,
+          nbt: '{tank_level:"ultimate", chemical_id:"mekanism:white"}'
+        },
+        l: {
+          type: 'forge:partial_nbt',
+          item: 'kubejs:chemical_tank_token',
+          count: 1,
+          nbt: '{tank_level:"ultimate", chemical_id:"mekanism:pink"}'
+        },
+      },
+      result: {
+        item: 'mekanism:creative_chemical_tank',
+      },
+    })
+    .id('mekanism:creative_chemical_tank2');
 });

@@ -50,5 +50,46 @@ ServerEvents.recipes((event) => {
         item: 'bmaddon:blood_altar_assembler',
       }
     })
-    .id('bmaddon:blood_altar_assembler');
+    .id('bmaddon:blood_altar_assembler1');
+
+  event
+    .custom({
+      type: 'extendedcrafting:shaped_table',
+      pattern: [
+        'AAAAAAA',
+        'ABBCDDA',
+        'ABBEDDA',
+        'ACEFECA',
+        'ADDEBBA',
+        'ADDCBBA',
+        'AAAAAAA'
+      ],
+      key: {
+        A: {
+          item: 'bloodmagic:largebloodstonebrick'
+        },
+        B: {
+          item: 'bloodmagic:altarcapacityrune'
+        },
+        C: {
+          type: 'forge:partial_nbt',
+          item: 'kubejs:fluid_tank_token',
+          count: 1,
+          nbt: '{tank_level:"elite", fluid_id:"bloodmagic:life_essence_fluid"}'
+        },
+        D: {
+          item: 'bloodmagic:speedrune'
+        },
+        E: {
+          item: 'expatternprovider:ex_molecular_assembler'
+        },
+        F: {
+          item: 'bloodmagic:altar'
+        }
+      },
+      result: {
+        item: 'bmaddon:blood_altar_assembler',
+      }
+    })
+    .id('bmaddon:blood_altar_assembler2');
 });

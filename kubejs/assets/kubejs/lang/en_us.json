@@ -137,6 +137,8 @@
   "fluid.kubejs.molten_blizz": "Molten Blizz",
   "fluid.kubejs.molten_blitz": "Molten Blitz",
 
+  "item.kubejs.tank_token": "Tank Token",
+
   "item.enderio.conductive_conduit": "Conductive Alloy Energy Conduit",
   "item.enderio.energetic_conduit": "Energetic Alloy Energy Conduit",
   "item.enderio.vibrant_conduit": "Vibrant Alloy Energy Conduit",
@@ -144,8 +146,6 @@
   "item.enderio.lumium_conduit": "Lumium Energy Conduit",
   "item.enderio.signalum_conduit": "Signalum Energy Conduit",
   "item.enderio.enderium_conduit": "Enderium Energy Conduit",
-
-  "item.kubejs.fake_mob_masher": "Please dont look at the texture. This is a fake item used to fix a crash.",
 
   "singularity.extendedcrafting.abyssal_ingot": "Abyssal Ingot",
   "singularity.extendedcrafting.allthemodium_ingot": "Allthemodium Ingot",
@@ -305,5 +305,7 @@
   "tooltip.outer_end.ancient_ice": "Find me in the Primordial Pools biome",
   "tooltip.sanguine_networks.virtual_sacrificer": "Link me to a Blood Altar using the Wrench from the same Mod.",
 
-  "tooltip.hostilenetworks.data_model.lord_pumpkinhead": "You can't kill me to get Data, look at the recipes of this item."
+  "tooltip.hostilenetworks.data_model.lord_pumpkinhead": "You can't kill me to get Data, look at the recipes of this item.",
+
+  "tooltip.kubejs.fake_mob_masher": "Please dont look at the texture. This is a fake item used to fix a crash."
 }

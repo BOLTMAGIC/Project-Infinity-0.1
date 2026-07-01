@@ -76,5 +76,9 @@
     "mbtool.structure.research_unit_multiblock_full": "Crazy AE2 Research Unit Multiblock Full",
     "mbtool.structure.spawner_extractor": "Crazy AE2 Spawner Extractor",
     "mbtool.structure.spawner_extractor_recipe": "Crazy AE2 Spawner Extractor Recipe",
-    "mbtool.structure.botania_mana_enchanter": "Botania Mana Enchanter"
+    "mbtool.structure.botania_mana_enchanter": "Botania Mana Enchanter",
+    "mbtool.structure.tank_encapsulator": "Tank Encapsulator",
+    "mbtool.structure.blood_altar_tier_card_3_block_structure": "Blood Altar Tier Card 3 Block Structure",
+    "mbtool.structure.blood_altar_tier_card_4_block_structure": "Blood Altar Tier Card 4 Block Structure",
+    "mbtool.structure.blood_altar_tier_card_5_block_structure": "Blood Altar Tier Card 5 Block Structure"
 }

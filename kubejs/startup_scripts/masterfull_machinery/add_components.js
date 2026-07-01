@@ -84,6 +84,27 @@ MMEvents.registerPorts((event) => {
     .config('mm:mekanism/gas', (c) => {
       c.capacity(2147483647);
     });
+  event
+    .create('colossal_slurry_port')
+    .name('Colossal Slurry Port')
+    .controllerId('mm:controller')
+    .config('mm:mekanism/slurry', (c) => {
+      c.capacity(2147483647);
+    });
+  event
+    .create('colossal_pigment_port')
+    .name('Colossal Pigment Port')
+    .controllerId('mm:controller')
+    .config('mm:mekanism/pigment', (c) => {
+      c.capacity(2147483647);
+    });
+  event
+    .create('colossal_infuse_port')
+    .name('Colossal Infuse Port')
+    .controllerId('mm:controller')
+    .config('mm:mekanism/infuse', (c) => {
+      c.capacity(2147483647);
+    });
 });
 
 MMEvents.registerPorts((event) => {

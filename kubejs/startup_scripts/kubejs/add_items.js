@@ -1,6 +1,8 @@
 StartupEvents.registry('item', (e) => {
   // The texture for this item has to be placed in kubejs/assets/kubejs/textures/item/test_item.png
-  e.create('zahraanite');
+  e.create('zahraanite')
+    .maxStackSize(64)
+    .texture('kubejs:item/zahraanite');
 
   e.create('ultimate_gem')
     .tag('balm:gems')
@@ -466,26 +468,7 @@ StartupEvents.registry('item', (e) => {
   createEnderIO(e, 'filled_zombie_soul_vial');
   createEnderIO(e, 'filled_villager_soul_vial');
 
-  e.create('full_nbt_remover')
-    .displayName('Full NBT Remover')
-    .texture('kubejs:item/full_nbt_remover');
-
-  e.create('tank_nbt_remover')
-    .displayName('Tank NBT Remover')
-    .texture('kubejs:item/tank_nbt_remover');
-
-  e.create('nuclearcraft_copy_paste_tool')
-    .displayName('Nuclearcraft Copy Paste Tool')
-    .texture('kubejs:item/nuclearcraft_copy_paste_tool');
-
-  e.create('universal_wireless_terminal_uncrafter')
-    .displayName('Universal Wireless Terminal Uncrafter')
-    .texture('kubejs:item/universal_wireless_terminal_uncrafter');
-
-  e.create('extra_data_model_uncrafter')
-    .displayName('Extra Data Model Uncrafter')
-    .texture('kubejs:item/extra_data_model_uncrafter');
-
+  //#region Mekanism
   function createMekanismCompressed (e, item) {
     e.create('compressed_enriched_' + item)
       .displayName(
@@ -519,4 +502,33 @@ StartupEvents.registry('item', (e) => {
   mekanismEnrichedMaterialsToCompress.forEach((material) => {
     createMekanismCompressed(e, material);
   });
+
+  //#region Misc
+  e.create('full_nbt_remover')
+    .displayName('Full NBT Remover')
+    .texture('kubejs:item/full_nbt_remover');
+
+  e.create('tank_nbt_remover')
+    .displayName('Tank NBT Remover')
+    .texture('kubejs:item/tank_nbt_remover');
+
+  e.create('nuclearcraft_copy_paste_tool')
+    .displayName('Nuclearcraft Copy Paste Tool')
+    .texture('kubejs:item/nuclearcraft_copy_paste_tool');
+
+  e.create('universal_wireless_terminal_uncrafter')
+    .displayName('Universal Wireless Terminal Uncrafter')
+    .texture('kubejs:item/universal_wireless_terminal_uncrafter');
+
+  e.create('extra_data_model_uncrafter')
+    .displayName('Extra Data Model Uncrafter')
+    .texture('kubejs:item/extra_data_model_uncrafter');
+
+  e.create('fluid_tank_token')
+    .displayName('Fluid Tank Token')
+    .texture('kubejs:item/fluid_tank_token');
+
+  e.create('chemical_tank_token')
+    .displayName('Chemical Tank Token')
+    .texture('kubejs:item/chemical_tank_token');
 });

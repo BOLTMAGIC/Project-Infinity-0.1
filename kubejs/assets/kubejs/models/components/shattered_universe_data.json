@@ -1,7 +1,0 @@
-{
-    "parent":"item/generated",
-    "textures": {
-      "layer0":"kubejs:item/components/shattered_universe_data",
-      "layer1":"kubejs:item/components/shattered_data_overlay"
-    }
-}

@@ -1,11 +1,12 @@
 StartupEvents.registry('block', (event) => {
+  //#region blood_magic
   event
     .create('blood_altar_tier_card_2_block')
     .displayName('Blood Altar Tier Card 2 Block')
     .soundType('stone')
     .hardness(1.2)
     .resistance(2.0)
-    .textureAll('kubejs:block/silent/blood_magic/blood_altar_tier_card_2_block');
+    .textureAll('kubejs:block/blood_magic/blood_altar_tier_card_2_block');
 
   event
     .create('blood_altar_tier_card_3_block')
@@ -13,7 +14,7 @@ StartupEvents.registry('block', (event) => {
     .soundType('stone')
     .hardness(1.2)
     .resistance(2.0)
-    .textureAll('kubejs:block/silent/blood_magic/blood_altar_tier_card_3_block');
+    .textureAll('kubejs:block/blood_magic/blood_altar_tier_card_3_block');
 
   event
     .create('blood_altar_tier_card_4_block')
@@ -21,7 +22,7 @@ StartupEvents.registry('block', (event) => {
     .soundType('stone')
     .hardness(1.2)
     .resistance(2.0)
-    .textureAll('kubejs:block/silent/blood_magic/blood_altar_tier_card_4_block');
+    .textureAll('kubejs:block/blood_magic/blood_altar_tier_card_4_block');
 
   event
     .create('blood_altar_tier_card_5_block')
@@ -29,7 +30,7 @@ StartupEvents.registry('block', (event) => {
     .soundType('stone')
     .hardness(1.2)
     .resistance(2.0)
-    .textureAll('kubejs:block/silent/blood_magic/blood_altar_tier_card_5_block');
+    .textureAll('kubejs:block/blood_magic/blood_altar_tier_card_5_block');
 
   event
     .create('blood_infused_blood_altar_tier_card_2_block')
@@ -37,7 +38,7 @@ StartupEvents.registry('block', (event) => {
     .soundType('stone')
     .hardness(1.2)
     .resistance(2.0)
-    .textureAll('kubejs:block/silent/blood_magic/blood_infused_blood_altar_tier_card_2_block');
+    .textureAll('kubejs:block/blood_magic/blood_infused_blood_altar_tier_card_2_block');
 
   event
     .create('blood_infused_blood_altar_tier_card_3_block')
@@ -45,7 +46,7 @@ StartupEvents.registry('block', (event) => {
     .soundType('stone')
     .hardness(1.2)
     .resistance(2.0)
-    .textureAll('kubejs:block/silent/blood_magic/blood_infused_blood_altar_tier_card_3_block');
+    .textureAll('kubejs:block/blood_magic/blood_infused_blood_altar_tier_card_3_block');
 
   event
     .create('blood_infused_blood_altar_tier_card_4_block')
@@ -53,78 +54,22 @@ StartupEvents.registry('block', (event) => {
     .soundType('stone')
     .hardness(1.2)
     .resistance(2.0)
-    .textureAll('kubejs:block/silent/blood_magic/blood_infused_blood_altar_tier_card_4_block');
-
-  event
-    .create('compressed_block_of_gunpowder')
-    .displayName('Compressed Block of Gunpowder')
-    .soundType('gravel')
-    .hardness(0.8)
-    .resistance(1.0)
-    .textureAll('kubejs:block/silent/compressed_block_of_gunpowder');
-
-  event
-    .create('infinity_8_block')
-    .displayName('Infinity 8 Block')
-    .soundType('metal')
-    .hardness(1.2)
-    .resistance(2.0)
-    .textureAll('kubejs:block/silent/infinity_8_block');
-
-  event
-    .create('infinity_9_block')
-    .displayName('Infinity 9 Block')
-    .soundType('metal')
-    .hardness(1.2)
-    .resistance(2.0)
-    .textureAll('kubejs:block/silent/infinity_9_block');
-
-  event
-    .create('infinity_10_block')
-    .displayName('Infinity 10 Block')
-    .soundType('metal')
-    .hardness(1.2)
-    .resistance(2.0)
-    .textureAll('kubejs:block/silent/infinity_10_block');
-
-  event
-    .create('infinity_10_1_block')
-    .displayName('Infinity 10.1 Block')
-    .soundType('metal')
-    .hardness(1.2)
-    .resistance(2.0)
-    .textureAll('kubejs:block/silent/infinity_10_1_block');
-
-  event
-    .create('infinity_10_2_block')
-    .displayName('Infinity 10.2 Block')
-    .soundType('metal')
-    .hardness(1.2)
-    .resistance(2.0)
-    .textureAll('kubejs:block/silent/infinity_10_2_block');
-
-  event
-    .create('unfiltered_infinity_11_block')
-    .displayName('Infinity 11 Block')
-    .soundType('metal')
-    .hardness(1.2)
-    .resistance(2.0)
-    .textureAll('kubejs:block/silent/unfiltered_infinity_11_block');
-
+    .textureAll('kubejs:block/blood_magic/blood_infused_blood_altar_tier_card_4_block');
   event
     .create('compressed_slate')
     .displayName('Compressed Slate')
     .soundType('metal')
     .hardness(0.8)
     .resistance(1.0)
-    .textureAll('kubejs:block/silent/blood_magic/compressed_slate');
+    .textureAll('kubejs:block/blood_magic/compressed_slate');
+
   event
     .create('double_compressed_slate')
     .displayName('Double Compressed Slate')
     .soundType('metal')
     .hardness(0.8)
     .resistance(1.0)
-    .textureAll('kubejs:block/silent/blood_magic/double_compressed_slate');
+    .textureAll('kubejs:block/blood_magic/double_compressed_slate');
 
   event
     .create('compressed_hellforgedparts')
@@ -132,31 +77,74 @@ StartupEvents.registry('block', (event) => {
     .soundType('metal')
     .hardness(1.0)
     .resistance(1.0)
-    .textureAll('kubejs:block/silent/blood_magic/compressed_hellforgedparts');
+    .textureAll('kubejs:block/blood_magic/compressed_hellforgedparts');
 
+  //#region industrial_foregoing
   event
-    .create('double_compressed_iron_block')
-    .displayName('Double Compressed Iron Block')
+    .create('pink_slime_block')
+    .displayName('Pink Slime Block')
     .soundType('metal')
     .hardness(0.8)
     .resistance(1.0)
-    .textureAll('kubejs:block/silent/double_compressed_iron_block');
+    .textureAll('kubejs:block/industrial_foregoing/pink_slime_block');
+
+  //#region infinity
+  event
+    .create('infinity_8_block')
+    .displayName('Infinity 8 Block')
+    .soundType('metal')
+    .hardness(1.2)
+    .resistance(2.0)
+    .textureAll('kubejs:block/infinity/infinity_8_block');
 
   event
-    .create('triple_compressed_iron_block')
-    .displayName('Triple Compressed Iron Block')
+    .create('infinity_9_block')
+    .displayName('Infinity 9 Block')
     .soundType('metal')
-    .hardness(0.8)
-    .resistance(1.0)
-    .textureAll('kubejs:block/silent/triple_compressed_iron_block');
+    .hardness(1.2)
+    .resistance(2.0)
+    .textureAll('kubejs:block/infinity/infinity_9_block');
 
+  event
+    .create('infinity_10_block')
+    .displayName('Infinity 10 Block')
+    .soundType('metal')
+    .hardness(1.2)
+    .resistance(2.0)
+    .textureAll('kubejs:block/infinity/infinity_10_block');
+
+  event
+    .create('infinity_10_1_block')
+    .displayName('Infinity 10.1 Block')
+    .soundType('metal')
+    .hardness(1.2)
+    .resistance(2.0)
+    .textureAll('kubejs:block/infinity/infinity_10_1_block');
+
+  event
+    .create('infinity_10_2_block')
+    .displayName('Infinity 10.2 Block')
+    .soundType('metal')
+    .hardness(1.2)
+    .resistance(2.0)
+    .textureAll('kubejs:block/infinity/infinity_10_2_block');
+
+  event
+    .create('unfiltered_infinity_11_block')
+    .displayName('Infinity 11 Block')
+    .soundType('metal')
+    .hardness(1.2)
+    .resistance(2.0)
+    .textureAll('kubejs:block/infinity/unfiltered_infinity_11_block');
+
+  //#region mekanism
   event
     .create('radiance_alloy_block')
     .displayName('Radiance Alloy Block')
     .soundType('metal')
     .hardness(0.8)
     .resistance(1.0)
-    .textureAll('kubejs:block/silent/radiance_alloy_block');
+    .textureAll('kubejs:block/mekanism/radiance_alloy_block');
 
   event
     .create('thermonuclear_alloy_block')
@@ -164,7 +152,7 @@ StartupEvents.registry('block', (event) => {
     .soundType('metal')
     .hardness(0.8)
     .resistance(1.0)
-    .textureAll('kubejs:block/silent/thermonuclear_alloy_block');
+    .textureAll('kubejs:block/mekanism/thermonuclear_alloy_block');
 
   event
     .create('shining_alloy_block')
@@ -172,7 +160,7 @@ StartupEvents.registry('block', (event) => {
     .soundType('metal')
     .hardness(0.8)
     .resistance(1.0)
-    .textureAll('kubejs:block/silent/shining_alloy_block');
+    .textureAll('kubejs:block/mekanism/shining_alloy_block');
 
   event
     .create('spectrum_alloy_block')
@@ -180,15 +168,16 @@ StartupEvents.registry('block', (event) => {
     .soundType('metal')
     .hardness(0.8)
     .resistance(1.0)
-    .textureAll('kubejs:block/silent/spectrum_alloy_block');
+    .textureAll('kubejs:block/mekanism/spectrum_alloy_block');
 
+  //#region misc
   event
-    .create('pink_slime_block')
-    .displayName('Pink Slime Block')
-    .soundType('metal')
+    .create('compressed_block_of_gunpowder')
+    .displayName('Compressed Block of Gunpowder')
+    .soundType('gravel')
     .hardness(0.8)
     .resistance(1.0)
-    .textureAll('kubejs:block/silent/pink_slime_block');
+    .textureAll('kubejs:block/misc/compressed_block_of_gunpowder');
 
   event
     .create('compressed_glass')
@@ -198,7 +187,7 @@ StartupEvents.registry('block', (event) => {
     .hardness(0.5)
     .resistance(0.7)
     .defaultCutout()
-    .textureAll('kubejs:block/silent/compressed_glass');
+    .textureAll('kubejs:block/misc/compressed_glass');
 
   event
     .create('chaotic_essence_block')
@@ -206,7 +195,7 @@ StartupEvents.registry('block', (event) => {
     .soundType('metal')
     .hardness(1.5)
     .resistance(3.0)
-    .textureAll('kubejs:block/silent/chaotic_essence_block')
+    .textureAll('kubejs:block/misc/chaotic_essence_block')
     .tag('kubejs:chaotic_essence_block');
 
   event
@@ -215,7 +204,7 @@ StartupEvents.registry('block', (event) => {
     .soundType('metal')
     .hardness(1.0)
     .resistance(1.5)
-    .textureAll('kubejs:block/silent/starmetal_block')
+    .textureAll('kubejs:block/misc/starmetal_block')
     .tag('kubejs:starmetal_block');
 
   event
@@ -224,15 +213,16 @@ StartupEvents.registry('block', (event) => {
     .soundType('metal')
     .hardness(1.0)
     .resistance(1.5)
-    .textureAll('kubejs:block/silent/empowered_super_block')
+    .textureAll('kubejs:block/misc/empowered_super_block')
     .tag('kubejs:empowered_super_block');
+
   event
     .create('auto_mechanical_sieve')
     .displayName('Auto Mechanical Sieve')
     .soundType('metal')
     .hardness(1.0)
     .resistance(1.5)
-    .textureAll('kubejs:block/silent/auto_mechanical_sieve')
+    .textureAll('kubejs:block/misc/auto_mechanical_sieve')
     .tag('kubejs:auto_mechanical_sieve');
 
   event
@@ -241,38 +231,60 @@ StartupEvents.registry('block', (event) => {
     .soundType('metal')
     .hardness(1.0)
     .resistance(1.0)
-    .textureAll('kubejs:block/silent/fake_mob_masher');
+    .textureAll('kubejs:block/misc/fake_mob_masher');
 
+  //#region armor_plus
   event
     .create('block_of_en_iron')
     .displayName('Block of Enhanced Iron')
     .soundType('metal')
     .hardness(1.0)
     .resistance(1.0)
-    .textureAll('kubejs:block/silent/block_of_en_iron');
+    .textureAll('kubejs:block/armor_plus/block_of_en_iron');
+
   event
     .create('block_of_en_gold')
     .displayName('Block of Enhanced Gold')
     .soundType('metal')
     .hardness(1.0)
     .resistance(1.0)
-    .textureAll('kubejs:block/silent/block_of_en_gold');
+    .textureAll('kubejs:block/armor_plus/block_of_en_gold');
+
   event
     .create('block_of_en_diamond')
     .displayName('Block of Enhanced Diamond')
     .soundType('metal')
     .hardness(1.0)
     .resistance(1.0)
-    .textureAll('kubejs:block/silent/block_of_en_diamond');
+    .textureAll('kubejs:block/armor_plus/block_of_en_diamond');
+    
   event
     .create('block_of_en_netherite')
     .displayName('Block of Enhanced Netherite')
     .soundType('metal')
     .hardness(1.0)
     .resistance(1.0)
-    .textureAll('kubejs:block/silent/block_of_en_netherite');
+    .textureAll('kubejs:block/armor_plus/block_of_en_netherite');
+
+  //#region pneumaticraft_repressurized
+  event
+    .create('double_compressed_iron_block')
+    .displayName('Double Compressed Iron Block')
+    .soundType('metal')
+    .hardness(0.8)
+    .resistance(1.0)
+    .textureAll('kubejs:block/pneumaticraft_repressurized/double_compressed_iron_block');
+
+  event
+    .create('triple_compressed_iron_block')
+    .displayName('Triple Compressed Iron Block')
+    .soundType('metal')
+    .hardness(0.8)
+    .resistance(1.0)
+    .textureAll('kubejs:block/pneumaticraft_repressurized/triple_compressed_iron_block');
 });
 
+//#region silent_gear
 StartupEvents.registry('block', (e) => {
   function createblock (e, input1, input2) {
     e.create(input1)
@@ -285,7 +297,7 @@ StartupEvents.registry('block', (e) => {
       .resistance(6)
       .hardness(5)
       .requiresTool(true)
-      .textureAll('kubejs:block/silent/' + input1);
+      .textureAll('kubejs:block/silent_gear/' + input1);
   }
 
   createblock(e, 'arcmetal_block', 'Arcmetal Block');
@@ -308,7 +320,7 @@ StartupEvents.registry('block', (e) => {
       .resistance(6)
       .hardness(5)
       .requiresTool(true)
-      .textureAll('kubejs:block/silent/' + input1);
+      .textureAll('kubejs:block/silent_gear/' + input1);
   }
 
   createore(e, 'arcmetal_ore', 'Arcmetal Ore');
@@ -318,7 +330,7 @@ StartupEvents.registry('block', (e) => {
   createore(e, 'azure_silver_ore', 'Azure Silver Ore');
 });
 
-// Nuclearcraft
+//#region nuclearcraft
 StartupEvents.registry('block', (e) => {
   function createblock (e, input1, input2) {
     e.create(input1)
@@ -331,7 +343,7 @@ StartupEvents.registry('block', (e) => {
       .resistance(6)
       .hardness(5)
       .requiresTool(true)
-      .textureAll('kubejs:block/silent/nuclearcraft/' + input1);
+      .textureAll('kubejs:block/nuclearcraft/' + input1);
   }
 
   createblock(e, 'ferroboron_block', 'Ferroboron Block');

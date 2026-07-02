@@ -1,7 +1,0 @@
-{
-    "parent":"item/generated",
-    "textures": {
-      "layer0":"kubejs:item/components/stellar_creation_data",
-      "layer1":"kubejs:item/components/data_overlay"
-    }
-}

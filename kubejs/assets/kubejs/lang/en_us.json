@@ -96,6 +96,8 @@
   "item.kubejs.speed_addon_3": "Speed Addon 3 Dummy Item",
   "item.kubejs.speed_addon_4": "Speed Addon 4 Dummy Item",
   "item.kubejs.speed_addon_5": "Speed Addon 5 Dummy Item",
+
+  "item.kubejs.tank_token": "Tank Token",
   
   "block.kubejs.compressed_block_of_gunpowder": "Compressed Block of Gunpowder",
   "block.kubejs.infinity_9_block": "Infinity 9 Block",
@@ -133,11 +135,22 @@
   "block.kubejs.solarmetal_ore": "Solarmetal Ore",
   "block.kubejs.voidmetal_ore": "Voidmetal Ore",
 
+  "block.kubejs.year_1_cake": "1 Year Cake",
+  "block.kubejs.year_2_cake": "2 Year Cake",
+  "block.kubejs.year_3_cake": "3 Year Cake",
+  "block.kubejs.year_4_cake": "4 Year Cake",
+  "block.kubejs.year_5_cake": "5 Year Cake",
+  "block.kubejs.year_6_cake": "6 Year Cake",
+  "block.kubejs.year_7_cake": "7 Year Cake",
+  "block.kubejs.year_8_cake": "8 Year Cake",
+  "block.kubejs.year_9_cake": "9 Year Cake",
+  "block.kubejs.year_10_cake": "10 Year Cake",
+  "block.kubejs.year_11_cake": "11 Year Cake",
+  "block.kubejs.year_12_cake": "12 Year Cake",
+
   "fluid.kubejs.molten_basalz": "Molten Basalz",
   "fluid.kubejs.molten_blizz": "Molten Blizz",
   "fluid.kubejs.molten_blitz": "Molten Blitz",
-
-  "item.kubejs.tank_token": "Tank Token",
 
   "item.enderio.conductive_conduit": "Conductive Alloy Energy Conduit",
   "item.enderio.energetic_conduit": "Energetic Alloy Energy Conduit",
@@ -309,6 +322,61 @@
 
   "tooltip.kubejs.fake_mob_masher": "Please dont look at the texture. This is a fake item used to fix a crash.",
 
-  "tooltip.kubejs.tank_tokens_1": "This Token contains %s mB of %s",
-  "tooltip.kubejs.tank_tokens_2": "From the mod : %s"
+  "tooltip.kubejs.tank_token_1": "This Token contains %s mB of %s",
+  "tooltip.kubejs.tank_token_2": "From the mod : %s",
+
+  "tooltip.kubejs.year_1_cake_1": "Happy 1 year anniversary of Project Infinity 0.1 !",
+  "tooltip.kubejs.year_1_cake_2": "Can you believe it ?",
+  "tooltip.kubejs.year_1_cake_3": "05/16/2026",
+
+  "tooltip.kubejs.year_2_cake_1": "2 years ? Time flies when you're having fun !",
+  "tooltip.kubejs.year_2_cake_2": "The cake is a lie !",
+  "tooltip.kubejs.year_2_cake_3": "05/16/2027",
+
+  "tooltip.kubejs.year_3_cake_1": "3 cakes already ?",
+  "tooltip.kubejs.year_3_cake_2": "How many has he prepared in advance ?",
+  "tooltip.kubejs.year_3_cake_3": "05/16/2028",
+
+  "tooltip.kubejs.year_4_cake_1": "No, it can't be, is that a 4th cake ?",
+  "tooltip.kubejs.year_4_cake_2": "Answer to the previous question :",
+  "tooltip.kubejs.year_4_cake_3": "You can probably guess by looking at the cakes.",
+  "tooltip.kubejs.year_4_cake_4": "05/16/2029",
+
+  "tooltip.kubejs.year_5_cake_1": "Fun fact :",
+  "tooltip.kubejs.year_5_cake_2": "I'm writing all of those tooltips on July 7th, 2026.",
+  "tooltip.kubejs.year_5_cake_3": "05/16/2030",
+
+  "tooltip.kubejs.year_6_cake_1": "Here is the 6th cake, I wonder what the 7th will be like !",
+  "tooltip.kubejs.year_6_cake_2": "If you've been following along, we're halfway there !",
+  "tooltip.kubejs.year_6_cake_3": "05/16/2031",
+
+  "tooltip.kubejs.year_7_cake_1": "Small tip : If you are wondering where I got the eggs and milk,",
+  "tooltip.kubejs.year_7_cake_2": "they are from the Emerald Grove Gateway Chickens and Cows.",
+  "tooltip.kubejs.year_7_cake_3": "05/16/2032",
+
+  "tooltip.kubejs.year_8_cake_1": "Fun fact : (Minimaxi speaking)",
+  "tooltip.kubejs.year_8_cake_2": "It took me 3 days to understand how to make cakes in KubeJS,",
+  "tooltip.kubejs.year_8_cake_3": "another 2 to understand how to make textures for them,",
+  "tooltip.kubejs.year_8_cake_4": "and another 1 to actually make the textures for them.",
+  "tooltip.kubejs.year_8_cake_5": "05/16/2033",
+
+  "tooltip.kubejs.year_9_cake_1": "The 9th cake is here !",
+  "tooltip.kubejs.year_9_cake_2": "Made you work hard for this one, eh ?",
+  "tooltip.kubejs.year_9_cake_3": "05/16/2034",
+
+  "tooltip.kubejs.year_10_cake_1": "Double digits now, we're getting old !",
+  "tooltip.kubejs.year_10_cake_2": "2 Cakes to go !",
+  "tooltip.kubejs.year_10_cake_3": "05/16/2035",
+
+  "tooltip.kubejs.year_11_cake_1": "Fun facts : (Minimaxi speaking)",
+  "tooltip.kubejs.year_11_cake_2": "This is the first time I've worked on a modpack and I've got to say, it's been a fun ride !",
+  "tooltip.kubejs.year_11_cake_3": "Funny thing is, these cakes are my second secret project, I still haven't finished the first one.",
+  "tooltip.kubejs.year_11_cake_4": "05/16/2036",
+
+  "tooltip.kubejs.year_12_cake_1": "Congratulations !",
+  "tooltip.kubejs.year_12_cake_2": "For making this cake and for seeing this message !",
+  "tooltip.kubejs.year_12_cake_3": "If you see this, you either gave yourself this item or are actually playing",
+  "tooltip.kubejs.year_12_cake_4": "12 years after the modpack was released, which is impressive !",
+  "tooltip.kubejs.year_12_cake_5": "Hope you had fun playing this modpack, see you again some day !",
+  "tooltip.kubejs.year_12_cake_6": "05/16/2037"
 }

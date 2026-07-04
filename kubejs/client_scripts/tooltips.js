@@ -693,4 +693,27 @@ ItemEvents.tooltip((event) => {
       Text.translate('tooltip.kubejs.tank_tokens_2', mod_name)
     );
   });
+
+  const cakes = {
+    year_1_cake: 3,
+    year_2_cake: 3,
+    year_3_cake: 3,
+    year_4_cake: 4,
+    year_5_cake: 3,
+    year_6_cake: 3,
+    year_7_cake: 3,
+    year_8_cake: 5,
+    year_9_cake: 3,
+    year_10_cake: 3,
+    year_11_cake: 4,
+    year_12_cake: 6,
+  };
+
+  Object.keys(cakes).forEach((cake) => {
+    event.addAdvanced([`kubejs:${cake}`], (item, advanced, text) => {
+      for (let i = 1; i <= cakes[cake]; i++) {
+        text.add(i, Text.translate(`tooltip.kubejs.${cake}_${i}`));
+      }
+    });
+  });
 });

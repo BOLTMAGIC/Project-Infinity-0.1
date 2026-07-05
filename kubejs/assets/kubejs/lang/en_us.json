@@ -378,5 +378,61 @@
   "tooltip.kubejs.year_12_cake_3": "If you see this, you either gave yourself this item or are actually playing",
   "tooltip.kubejs.year_12_cake_4": "12 years after the modpack was released, which is impressive !",
   "tooltip.kubejs.year_12_cake_5": "Hope you had fun playing this modpack, see you again some day !",
-  "tooltip.kubejs.year_12_cake_6": "05/16/2037"
+  "tooltip.kubejs.year_12_cake_6": "05/16/2037",
+
+  "painting.kubejs.project_infinity_logo_1.title": "Project Infinity Logo",
+  "painting.kubejs.project_infinity_logo_2.title": "Project Infinity Logo",
+  "painting.kubejs.project_infinity_logo_3.title": "Project Infinity Logo",
+  "painting.kubejs.project_infinity_logo_4.title": "Project Infinity Logo",
+  "painting.kubejs.project_infinity_logo_5.title": "Project Infinity Logo",
+
+  "painting.kubejs.project_infinity_logo_1.author": "Minimaxi",
+  "painting.kubejs.project_infinity_logo_2.author": "Minimaxi",
+  "painting.kubejs.project_infinity_logo_3.author": "Minimaxi",
+  "painting.kubejs.project_infinity_logo_4.author": "Minimaxi",
+  "painting.kubejs.project_infinity_logo_5.author": "Minimaxi",
+
+  "painting.kubejs.project_infinity_logo_with_stars_1.title": "Project Infinity Logo With Stars",
+  "painting.kubejs.project_infinity_logo_with_stars_2.title": "Project Infinity Logo With Stars",
+  "painting.kubejs.project_infinity_logo_with_stars_3.title": "Project Infinity Logo With Stars",
+  "painting.kubejs.project_infinity_logo_with_stars_4.title": "Project Infinity Logo With Stars",
+  "painting.kubejs.project_infinity_logo_with_stars_5.title": "Project Infinity Logo With Stars",
+
+  "painting.kubejs.project_infinity_logo_with_stars_1.author": "Minimaxi",
+  "painting.kubejs.project_infinity_logo_with_stars_2.author": "Minimaxi",
+  "painting.kubejs.project_infinity_logo_with_stars_3.author": "Minimaxi",
+  "painting.kubejs.project_infinity_logo_with_stars_4.author": "Minimaxi",
+  "painting.kubejs.project_infinity_logo_with_stars_5.author": "Minimaxi",
+
+  "painting.kubejs.infinity_symbol_1.title": "Infinity Symbol",
+  "painting.kubejs.infinity_symbol_2.title": "Infinity Symbol",
+  "painting.kubejs.infinity_symbol_3.title": "Infinity Symbol",
+
+  "painting.kubejs.infinity_symbol_1.author": "Minimaxi",
+  "painting.kubejs.infinity_symbol_2.author": "Minimaxi",
+  "painting.kubejs.infinity_symbol_3.author": "Minimaxi",
+
+  "painting.kubejs.infinity_symbol_with_stars_1.title": "Infinity Symbol Stars",
+  "painting.kubejs.infinity_symbol_with_stars_2.title": "Infinity Symbol Stars",
+  "painting.kubejs.infinity_symbol_with_stars_3.title": "Infinity Symbol Stars",
+
+  "painting.kubejs.infinity_symbol_with_stars_1.author": "Minimaxi",
+  "painting.kubejs.infinity_symbol_with_stars_2.author": "Minimaxi",
+  "painting.kubejs.infinity_symbol_with_stars_3.author": "Minimaxi",
+
+  "painting.kubejs.project_infinity_1.title": "Project Infinity",
+  "painting.kubejs.project_infinity_2.title": "Project Infinity",
+  "painting.kubejs.project_infinity_3.title": "Project Infinity",
+
+  "painting.kubejs.project_infinity_1.author": "Minimaxi",
+  "painting.kubejs.project_infinity_2.author": "Minimaxi",
+  "painting.kubejs.project_infinity_3.author": "Minimaxi",
+
+  "painting.kubejs.project_infinity_and_credit_1.title": "Project Infinity and Credit",
+  "painting.kubejs.project_infinity_and_credit_2.title": "Project Infinity and Credit",
+  "painting.kubejs.project_infinity_and_credit_3.title": "Project Infinity and Credit",
+
+  "painting.kubejs.project_infinity_and_credit_1.author": "Minimaxi",
+  "painting.kubejs.project_infinity_and_credit_2.author": "Minimaxi",
+  "painting.kubejs.project_infinity_and_credit_3.author": "Minimaxi"
 }

@@ -1,0 +1,32 @@
+---
+navigation:
+  parent: faq.md
+  title: RFTools random dimensions
+  icon: bloodmagic:altar
+  position: 18
+categories:
+   - FAQ
+item_ids:
+   - rftoolsdim:dimension_builder
+   - rftoolsdim:dimension_editor
+   - rftoolsdim:enscriber
+   - rftoolsdim:dimlet_workbench
+   - rftoolsdim:knowledge_holder
+---
+
+# **Q: How do i make random dimensions with rftools?**
+**Q: How do i make random dimensions with rftools?**
+
+Short answer: use a dimension inscriber + builder for randomized tabs, and always enter with safety gear.
+
+* In the Dimension Inscriber:
+  * Place an empty dimension tab into the inscriber.
+  * Click "Store" to create a randomized tab; you can add digit dimlets (0–9) to force unique variations.
+* In the Dimension Builder:
+  * Place the realized dimension tab into the builder.
+  * Supply enough RF/tick power until the dimension finishes building.
+  * Use a Dialing Device to dial and access the new dimension.
+* Tips:
+  * Use different digit dimlets (0–9) with empty tabs to get unique random dimensions each time.
+  * Always carry a Phased Field Generator when entering new, unknown RFTools dimensions for protection.
+  * If a world is bad or unwanted, use /rftdim safedel <ID> to delete it and roll another.

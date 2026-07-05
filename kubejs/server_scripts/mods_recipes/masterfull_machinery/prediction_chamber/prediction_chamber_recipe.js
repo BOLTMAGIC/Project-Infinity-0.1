@@ -54,7 +54,6 @@ const dataModelsBossArray = [
   'allthemodium/piglich',
   'twilightforest/snow_queen',
   'cataclysm/harbinger',
-  'twilightforest/ur_ghast',
   'bomd/void_blossom',
   'warden',
   'wither',

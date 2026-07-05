@@ -385,6 +385,7 @@ nuclearcraft:uranium_additional_wasteland_ore
 nuclearcraft:uranium_ore
 nuclearcraft:uranium_wasteland_ore
 nuclearcraft:wasteland_boss_lair
+nuclearcraft:wasteland_deco
 nuclearcraft:wasteland_portal
 nuclearcraft:wasteland_ruins
 nuclearcraft:wasteland_surface

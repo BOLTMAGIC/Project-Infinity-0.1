@@ -1,0 +1,28 @@
+
+#Settings for Heat Exchanger
+[heat_exchanger]
+	#Multiblock min size.
+	#Range: 3 ~ 25
+	min_size = 5
+	#Multiblock max size.
+	#Range: 5 ~ 25
+	max_size = 15
+	#Standby FE/t consumed per interior heat exchanger block while powered by redstone. Recipes themselves are free; running out of energy halts processing.
+	#Range: 0 ~ 1000000
+	energy_per_block = 200
+	#Recipe progress units per server tick, per interior heat exchanger block.
+	#Range: 0.01 ~ 100000.0
+	throughput_per_block = 50000.0
+	#Internal energy buffer (FE).
+	#Range: > 0
+	energy_capacity = 1000000
+	#Fluid tank capacity (mB) per interior heat exchanger block, for each tank.
+	#Range: 1000 ~ 1000000
+	fluid_capacity_per_block = 100000
+	#Heat removed from the buffer per tick (H/t) per radiator block in the shell. Passive: applies whenever the multiblock is formed.
+	#Range: > 0
+	radiator_cooling = 1000000
+	#Heat buffer capacity per interior heat exchanger block.
+	#Range: > 1
+	heat_capacity_per_block = 10000000
+

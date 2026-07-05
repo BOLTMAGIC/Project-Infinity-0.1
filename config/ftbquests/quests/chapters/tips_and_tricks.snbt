@@ -1109,30 +1109,31 @@
 			description: ["{ftbquests.chapter.tips_and_tricks.quest518405876B7FEB5A.description1}"]
 			icon: {
 				Count: 1
-				id: "mbtool:mbtool"
-				tag: { }
+				id: "guideme:guide"
+				tag: {
+					guideId: "kubejs:guide"
+				}
 			}
 			id: "518405876B7FEB5A"
-			rewards: [{
-				id: "7549D05030692286"
-				type: "xp"
-				xp: 3
-			}]
-			size: 2.5d
-			tasks: [
+			rewards: [
 				{
-					id: "74B116450E93225B"
+					id: "7549D05030692286"
+					type: "xp"
+					xp: 3
+				}
+				{
+					id: "4B3204D813FE665E"
 					item: {
 						Count: 1
-						id: "patchouli:guide_book"
+						id: "guideme:guide"
 						tag: {
-							"patchouli:book": "patchouli:project_infinity"
+							guideId: "kubejs:guide"
 						}
 					}
 					type: "item"
 				}
 				{
-					id: "498F2380030A0E4A"
+					id: "1948684BF2E2447A"
 					item: {
 						Count: 1
 						id: "mbtool:mbtool"
@@ -1141,6 +1142,12 @@
 					type: "item"
 				}
 			]
+			size: 2.5d
+			tasks: [{
+				id: "4DA39D64821AA2C1"
+				title: "Hey :)"
+				type: "checkmark"
+			}]
 			x: -0.9761904761904674d
 			y: 3.000000000000007d
 		}

@@ -1,0 +1,36 @@
+---
+navigation:
+  parent: faq.md
+  title: Mana transport Botania
+  icon: botania:spark
+  position: 7
+categories:
+   - FAQ
+item_ids:
+   - botania:spark
+   - botanicalextramachinery:base_spark
+   - botanicalextramachinery:malachite_spark
+   - botanicalextramachinery:saffron_spark
+   - botanicalextramachinery:shadow_spark
+   - botanicalextramachinery:crimson_spark
+   - botanicalextramachinery:aureate_spark
+   - botanicalextramachinery:mazarine_spark
+   - botania:spark_upgrade_dispersive
+   - botania:spark_upgrade_dominant
+   - botania:spark_upgrade_recessive
+   - botania:spark_upgrade_isolated
+---
+
+# **Q: How do i move mana? spreaders are too slow?**
+**Q: How do i move mana? spreaders are too slow?**
+
+Short answer: Use sparks (with augments) for high-speed mana transfer, and later AE2 integration.
+
+* Put a spark on your main mana pool or mana battery and give it a recessive augment so it pushes mana to other pools automatically.
+* Place sparks on Botania blocks that accept them to feed mana directly; not all Botania blocks can take a spark, so check the tooltip.
+* Later you can craft stronger sparks with much higher transfer rates; these act as your high*bandwidth mana pipes.
+* For mana from flowers, a mana collector is a good step between normal spreaders and a full greenhouse setup.
+* As an advanced option, you can integrate mana with AE2, treating it similar to items or fluids:
+  * Use the appropriate integration block to get mana into the AE network.
+  * Some machines void excess mana if they get too much, so make sure you buffer correctly.
+  * You can store specific mana amounts in AE2 patterns by right-clicking with a mana band while making the pattern.

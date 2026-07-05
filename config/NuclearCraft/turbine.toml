@@ -33,4 +33,7 @@
 	beryllium = ["turbine_magnesium_coil"]
 	silver = ["turbine_magnesium_coil", "turbine_gold_coil"]
 	aluminum = ["turbine_gold_coil|turbine_magnesium_coil|turbine_beryllium_coil|turbine_gold_coil|turbine_copper_coil"]
+	#Create energy convertion rate
+	#Range: 0.01 ~ 2.0
+	create_energy_convertion = 0.2
 

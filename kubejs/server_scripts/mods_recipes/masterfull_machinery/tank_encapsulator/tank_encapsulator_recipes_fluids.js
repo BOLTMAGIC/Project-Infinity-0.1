@@ -3,43 +3,47 @@ MMEvents.createProcesses((event) => {
   const fluidTanks = {
     basic: {
       capacity: 32000,
-      id: 'mekanism:basic_fluid_tank'
+      id: 'mekanism:basic_fluid_tank',
     },
     advanced: {
       capacity: 64000,
-      id: 'mekanism:advanced_fluid_tank'
+      id: 'mekanism:advanced_fluid_tank',
     },
     elite: {
       capacity: 128000,
-      id: 'mekanism:elite_fluid_tank'
+      id: 'mekanism:elite_fluid_tank',
     },
     ultimate: {
       capacity: 256000,
-      id: 'mekanism:ultimate_fluid_tank'
+      id: 'mekanism:ultimate_fluid_tank',
     },
     absolute: {
       capacity: 4096000,
-      id: 'mekanism_extras:absolute_fluid_tank'
+      id: 'mekanism_extras:absolute_fluid_tank',
     },
     supreme: {
       capacity: 32768000,
-      id: 'mekanism_extras:supreme_fluid_tank'
+      id: 'mekanism_extras:supreme_fluid_tank',
     },
     cosmic: {
       capacity: 262144000,
-      id: 'mekanism_extras:cosmic_fluid_tank'
+      id: 'mekanism_extras:cosmic_fluid_tank',
     },
     infinite: {
       capacity: 2097152000,
-      id: 'mekanism_extras:infinite_fluid_tank'
-    }
-  }
+      id: 'mekanism_extras:infinite_fluid_tank',
+    },
+  };
 
-  const TICKS = 20
+  const TICKS = 20;
 
-  function fluidTankEncapsulator(tank_level, fluid_id) {
+  function fluidTankEncapsulator (tank_level, fluid_id) {
     event
-      .create(`mm:${fluid_id.replace(/[:]/g, '_').toLowerCase()}_to_${tank_level.toLowerCase()}_fluid_tank_token`)
+      .create(
+        `mm:${fluid_id
+          .replace(/[:]/g, '_')
+          .toLowerCase()}_to_${tank_level.toLowerCase()}_fluid_tank_token`
+      )
       .structureId('mm:tank_encapsulator_structure')
       .ticks(TICKS)
       .input({
@@ -78,7 +82,10 @@ MMEvents.createProcesses((event) => {
   fluidTankEncapsulator('ultimate', 'mekanism:nutritional_paste');
   fluidTankEncapsulator('ultimate', 'woot_revived:enchanted_fluid');
   fluidTankEncapsulator('supreme', 'minecraft:lava');
-  fluidTankEncapsulator('supreme', 'mekanism_extras:polonium_containing_solution');
+  fluidTankEncapsulator(
+    'supreme',
+    'mekanism_extras:polonium_containing_solution'
+  );
   fluidTankEncapsulator('ultimate', 'industrialforegoing:meat');
   fluidTankEncapsulator('supreme', 'mekanism:sodium');
   fluidTankEncapsulator('ultimate', 'crazyae2addons:research_fluid');

@@ -6,8 +6,8 @@ MMEvents.createStructures((event) => {
     .name('Tank Encapsulator')
     .layout((a) => {
       a.portsAnywhere(true);
-      a.layer(['ABFBA', 'BDEDB', 'ABBBA'])
-      a.layer(['GLBMG', 'HI JK', 'GGCGG'])
+      a.layer(['ABFBA', 'BDEDB', 'ABBBA']);
+      a.layer(['GLBMG', 'HI JK', 'GGCGG']);
       a.layer(['ABOBA', 'NDBDB', 'ABBBA'])
         .key('A', {
           block: 'chisel_chipped_integration:futura_mysterious_cube',
@@ -50,6 +50,6 @@ MMEvents.createStructures((event) => {
         })
         .key('O', {
           block: 'mm:colossal_pigment_port_input',
-        })
+        });
     });
 });

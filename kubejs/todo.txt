@@ -67,6 +67,8 @@ Recipe changes and fixes:
 - changed recipe for time wand (good luck)
 - added forge:ores to kubejs ores
 - fixed ferroboron ingot in the combiner
+- changed draconium ingot recipe in the infinity crucible (easier)
+- added some new hammers (thx to maydeens)
 - 
 ----------
 Mod changes and fixes:

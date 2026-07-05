@@ -169,3 +169,8 @@
 	#To do so, you need to put IE core sample into leacher.
 	allow_to_leach_ie_veins = true
 
+[creative_particle_source]
+	register = true
+	base_power = 50
+	base_time = 200
+

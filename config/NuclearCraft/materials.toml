@@ -264,6 +264,7 @@
 	zinc = true
 	boron = true
 	corium = true
+	kumanderite = true
 
 [gems]
 	boron_arsenide = true

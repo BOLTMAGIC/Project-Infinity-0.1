@@ -1,0 +1,15 @@
+{
+  "item_settings": {
+    "display_name": {
+      "text": "FAQ Guide"
+    },
+    "tooltip_lines": [
+      {
+        "text": "In game documentation for Project Infinity 0.1",
+        "color": "dark_gray"
+      }
+    ]
+  },
+    "default_language": "en_us",
+    "initial_page": "faq.md"
+}

@@ -18,13 +18,56 @@
 	#The scaling factor for the beam attenuation equation.
 	#Range: 0.0 ~ 2.147483647E9
 	beam_scaling = 10000.0
+	#Base heat capacity per accelerator block.
+	#Total capacity = base * block count. Larger accelerators = larger thermal mass.
+	#Range: > 1
+	base_heat_capacity = 25000
+	#Base energy requirement per accelerator.
+	#Range: > 1
+	base_energy_requirement = 10000
+	#Thermal conductivity of casing. Used for external (biome) heat exchange.
+	#Higher = faster equalization to ambient temperature.
+	#Range: 0.0 ~ 1.0
+	thermal_conductivity = 0.0025
+	#Maximum representable temperature (Kelvin). Heat is mapped to [0, MAX_TEMP] using capacity.
+	#Range: 1 ~ 10000
+	max_temp = 400
+	#Minimal energy of input particle for ring accelerators in kEV.
+	#Range: 1 ~ 100000
+	ring_accelerator_input_particle_min_energy = 5000
+	#If true, components exceeding their max operating temperature will explode.
+	meltdown_enabled = true
 
-#Particle chamber
-[particle_chamber]
-	#Min size.
+#Target chamber
+[target_chamber]
+	#Min exterior size (cube edge, odd).
 	#Range: 5 ~ 11
 	min_size = 5
-	#Max size.
+	#Max exterior size (cube edge, odd).
 	#Range: 7 ~ 11
 	max_size = 11
+
+#Decay chamber
+[decay_chamber]
+	#Min size (cube edge, odd).
+	#Range: 5 ~ 11
+	min_size = 5
+	#Max size (cube edge, odd).
+	#Range: 7 ~ 11
+	max_size = 11
+	#Base RF/tick consumed while running.
+	#Range: > 0
+	base_power = 2000
+
+#Collision chamber
+[collision_chamber]
+	#Min interior size (cube edge, odd).
+	#Range: 13 ~ 21
+	min_size = 17
+	#Max interior size (cube edge, odd).
+	#Range: 13 ~ 21
+	max_size = 17
+	#Base RF/tick consumed while running.
+	#Range: > 0
+	base_power = 2000
 

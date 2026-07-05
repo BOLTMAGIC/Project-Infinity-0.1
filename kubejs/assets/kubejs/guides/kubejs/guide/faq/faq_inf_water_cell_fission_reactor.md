@@ -1,0 +1,36 @@
+---
+navigation:
+  parent: faq.md
+  title: Mekanism Fission Reactor Inf Water Cell 717.78 mB/t
+  icon: mekanismgenerators:fission_reactor_casing
+  position: 20
+categories:
+   - FAQ
+item_ids:
+   - mekanismgenerators:fission_reactor_casing
+   - mekanismgenerators:fission_reactor_port
+   - mekanismgenerators:reactor_glass
+---
+
+# **Q: What's the fastest way to input Water in my Mekanism Fission Reactor?**
+**Q: What's the fastest way to input Water in my Mekanism Fission Reactor?**
+
+Using this setup, you can sustain a 717.78 mB/t burn rate (max before the reactor takes damage)
+
+A = Energy Acceptor
+
+B = ME ExtendedIO Port (it has an ME Infinity Water Cell and 5 Acceleration Cards)
+
+C = Storage Bus
+
+D = Superdense Energy Cell
+
+E = Any power source, here a Flux Point
+
+<GameScene zoom="3" interactive={true}>
+   <ImportStructure src="/photos/mfr_inf_water_cell.nbt" />
+
+   <BlockAnnotation x="2" y="0" z="2" color="#ddaaaa">
+      Need a ME Infinity Water Cell <ItemImage id="expatternprovider:infinity_cell"/> and 5 Acceleration Cards <ItemImage id="ae2:speed_card"/>
+   </BlockAnnotation>
+</GameScene>

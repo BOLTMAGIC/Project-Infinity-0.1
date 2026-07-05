@@ -273,7 +273,7 @@ StartupEvents.registry('block', (event) => {
     .soundType('metal')
     .hardness(0.8)
     .resistance(1.0)
-    .textureAll('kubejs:block/pneumaticraft_repressurized/double_compressed_iron_block');
+    .textureAll('kubejs:block/misc/double_compressed_iron_block');
 
   event
     .create('triple_compressed_iron_block')
@@ -281,7 +281,7 @@ StartupEvents.registry('block', (event) => {
     .soundType('metal')
     .hardness(0.8)
     .resistance(1.0)
-    .textureAll('kubejs:block/pneumaticraft_repressurized/triple_compressed_iron_block');
+    .textureAll('kubejs:block/misc/triple_compressed_iron_block');
 });
 
 //#region silent_gear

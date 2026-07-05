@@ -1,0 +1,21 @@
+---
+navigation:
+  parent: faq.md
+  title: Sharing EMC
+  icon: botania:cosmetic_questgiver_mark
+  position: 19
+categories:
+   - FAQ
+item_ids:
+   - botania:cosmetic_questgiver_mark
+---
+
+# **Q: How do i share emc with other people?**
+**Q: How do i share emc with other people?**
+
+Short answer: use the team command from projecte.
+
+* Use the command:
+  >/team_projecte invite PLAYER_NAME
+* Replace PLAYER_NAME with the player you want to share EMC with.
+* Courtesy of Dursty79.

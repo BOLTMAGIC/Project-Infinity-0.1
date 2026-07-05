@@ -1,0 +1,21 @@
+---
+navigation:
+  parent: faq.md
+  title: AE smithing table automation
+  icon: armorplus:infused_frost_lava_crystal
+  position: 11
+categories:
+   - FAQ
+item_ids:
+   - armorplus:infused_frost_lava_crystal
+---
+
+# **Q: How do i automate the smithing table with ae?**
+**Q: How do i automate the smithing table with ae?**
+
+Short answer: don't automate the smithing table directly; use ae patterns that act like smithing and stonecutter recipes.
+
+* You generally don't need a physical smithing table for AE automation in this pack.
+* Molecular Assemblers can use patterns that behave like smithing table and stonecutter recipes directly.
+* The Assembly Matrix can also handle these pattern types, making dedicated smithing-table automation setups unnecessary.
+* Focus on setting up the correct patterns in your AE system instead of trying to pipe items into a smithing table block.

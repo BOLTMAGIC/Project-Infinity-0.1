@@ -1,0 +1,26 @@
+---
+navigation:
+  parent: faq.md
+  title: Blood altar LP in/out speed
+  icon: bloodmagic:altar
+  position: 16
+categories:
+   - FAQ
+item_ids:
+   - bloodmagic:altar
+---
+
+# **Q: How do i get lp in and out of the blood altar faster?**
+**Q: How do i get lp in and out of the blood altar faster?**
+
+Short answer: use a mix of capacity, acceleration, dislocation, and some speed runes; you need to balance them.
+
+* Acceleration runes reduce the number of ticks between altar LP transfers (down to as low as 19 ticks).
+* Dislocation runes increase how much LP the altar tries to move each time; you can reach around 10% of your total capacity per move.
+* Capacity runes increase the altar’s total LP capacity, which interacts with dislocation to allow larger transfers.
+* It’s a balancing act and hard to see exact numbers in‑game, so you have to experiment.
+* A simple starting point:
+  * 19 acceleration runes,
+  * enough capacity runes to get above 50k LP,
+  * dislocation runes until transfers stop getting noticeably faster,
+  * plus a few speed runes for general responsiveness.

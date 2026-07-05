@@ -1,0 +1,19 @@
+---
+navigation:
+  parent: faq.md
+  title: Extra chunk loading for admins
+  icon: botania:cosmetic_questgiver_mark
+  position: 15
+categories:
+   - FAQ
+---
+
+# **Q: How do i chunkload more than the default 25 chunks?**
+**Q: How do i chunkload more than the default 25 chunks?**
+
+Short answer: only admins can increase the limit via a command.
+
+* You need admin rights on the server to do this.
+* Use the command:
+  >/ftbchunks admin extra_force_load_chunks PLAYERNAME add NUMBER
+* Replace PLAYERNAME with the player’s name and NUMBER with how many extra chunks they may force‑load.

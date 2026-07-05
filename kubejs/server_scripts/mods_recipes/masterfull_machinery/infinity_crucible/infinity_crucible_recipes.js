@@ -149,7 +149,7 @@ MMEvents.createProcesses((event) => {
       ingredient: {
         type: 'mm:item',
         item: 'draconicevolution:overworld_draconium_ore',
-        count: 16384,
+        count: 4096,
       },
     })
     .input({
@@ -165,7 +165,7 @@ MMEvents.createProcesses((event) => {
       ingredient: {
         type: 'mm:item',
         item: 'botanicalextramachinery:mazarine_dragonstone',
-        count: 32,
+        count: 16,
       },
     })
     .input({
@@ -189,7 +189,7 @@ MMEvents.createProcesses((event) => {
       ingredient: {
         type: 'mm:item',
         item: 'mysticalagriculture:draconium_essence',
-        count: 16384,
+        count: 4096,
       },
     })
     .input({
@@ -197,7 +197,7 @@ MMEvents.createProcesses((event) => {
       ingredient: {
         type: 'mm:item',
         item: 'justdirethings:time_crystal',
-        count: 128,
+        count: 32,
       },
     })
     .input({

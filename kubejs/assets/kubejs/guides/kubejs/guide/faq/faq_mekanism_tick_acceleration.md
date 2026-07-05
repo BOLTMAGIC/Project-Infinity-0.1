@@ -1,0 +1,36 @@
+---
+navigation:
+  parent: faq.md
+  title: Mekanism tick acceleration
+  icon: mekanism_extras:infinite_smelting_factory
+  position: 17
+categories:
+   - FAQ
+item_ids:
+   - mekanism_extras:upgrade_stack
+   - mekanism_extras:upgrade_creative
+   - mekanism_extras:absolute_smelting_factory
+   - mekanism_extras:supreme_smelting_factory
+   - mekanism_extras:cosmic_smelting_factory
+   - mekanism_extras:infinite_smelting_factory
+---
+
+# **Q: Does tick acceleration work on mekanism machines, and how strong can it get?**
+**Q: Does tick acceleration work on mekanism machines, and how strong can it get?**
+
+Short answer: yes; fully upgraded mekanism machines under heavy tick acceleration can reach absurd item throughput.
+
+* Tick acceleration works on Mekanism machines in this pack.
+* Example extreme setup:
+  * Infinite Smelting Factory + Creative + 6x Stack Upgrades on the machine,
+    * 17 Slots
+    * 4096 items each slot
+    * would need inf items input
+    * huge curvy item pipe into the smelter
+    * Logistic Networks Node on inpput and smelter
+    * huge curvy item pipes output into a ME Oversized Interface
+    * Node on Interface
+    * Entity Ticker on the smelter so its 512 multiplier
+* With this configuration, you can reach around 1,300,000 items per second from a single machine.
+
+![Smelter Setup](/photos/smelter_setup.png)

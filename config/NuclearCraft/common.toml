@@ -49,6 +49,7 @@
 	#Allowed Values: ONLY_FE, ONLY_GTCEU, GTCEU_AND_FE
 	gregtech_energy_compatibility = "GTCEU_AND_FE"
 	#This only counts if GTCEU is supported
+	#Allowed Values: ULV, LV, MV, HV, EV, IV, LuV, ZPM, UV, UHV, UEV, UIV, UXV, OpV, MAX
 	fission_reactor_energy_tier = "EV"
 	#This only counts if GTCEU is supported
 	#Explode machines when input energy is more than max input
@@ -59,14 +60,19 @@
 	#Formula: FE/t = voltage * amperage * (EU to FE convertion rate, usually 4)
 	limit_fe_output = false
 	#This only counts if GTCEU is supported
+	#Allowed Values: ULV, LV, MV, HV, EV, IV, LuV, ZPM, UV, UHV, UEV, UIV, UXV, OpV, MAX
 	turbine_energy_tier = "EV"
 	#This only counts if GTCEU is supported
+	#Allowed Values: ULV, LV, MV, HV, EV, IV, LuV, ZPM, UV, UHV, UEV, UIV, UXV, OpV, MAX
 	fusion_reactor_energy_tier = "IV"
 	#This only counts if GTCEU is supported
+	#Allowed Values: ULV, LV, MV, HV, EV, IV, LuV, ZPM, UV, UHV, UEV, UIV, UXV, OpV, MAX
 	kugelblitz_energy_tier = "LuV"
 	#This only counts if GTCEU is supported
+	#Allowed Values: ULV, LV, MV, HV, EV, IV, LuV, ZPM, UV, UHV, UEV, UIV, UXV, OpV, MAX
 	accelerators_energy_tier = "LuV"
 	#This only counts if GTCEU is supported
+	#Allowed Values: ULV, LV, MV, HV, EV, IV, LuV, ZPM, UV, UHV, UEV, UIV, UXV, OpV, MAX
 	processor_energy_tier = "MV"
 	#This only counts if GTCEU is supported
 	#How many energy upgrades are needed for processor to reach next energy tier
@@ -129,4 +135,159 @@
 	chunk_resends_per_tick = 32
 	#If true, bombs mutate chunk sections directly and resend whole chunks instead of using server.setBlock per op. ~50-100x faster but skips neighbor updates, fluid flow, falling-block triggers, and Forge block events inside the blast. Set false to roll back to vanilla setBlock path.
 	fast_block_writes = true
+
+[anomalies]
+	#Master switch for the Wasteland anomaly system
+	enabled = true
+	#Enable the per-variant anomaly post-process shaders (distortion/glow/lightning). Disable on weak GPUs.
+	shader = true
+	#Probability (0..1) that a given placement cell contains an anomaly
+	#Range: 0.0 ~ 1.0
+	spawn_chance_per_cell = 0.45
+	#Side length, in blocks, of each square placement cell
+	#Range: 16 ~ 4096
+	cell_size = 128
+	#How many cells around each player are scanned for spawning
+	#Range: 0 ~ 8
+	activation_cell_radius = 2
+
+	[anomalies.variants]
+		enable_gravitational = true
+		#Range: 0 ~ 1000
+		weight_gravitational = 2
+		enable_electric = true
+		#Range: 0 ~ 1000
+		weight_electric = 3
+		enable_radioactive = true
+		#Range: 0 ~ 1000
+		weight_radioactive = 3
+		enable_burning = true
+		#Range: 0 ~ 1000
+		weight_burning = 3
+		enable_psycho = true
+		#Range: 0 ~ 1000
+		weight_psycho = 2
+		enable_teleporting = true
+		#Range: 0 ~ 1000
+		weight_teleporting = 2
+
+	[anomalies.gravitational]
+		#Range: 1.0 ~ 32.0
+		radius = 12.0
+		#Per-tick velocity added toward the centre at the edge of the radius
+		#Range: 0.0 ~ 2.0
+		pull = 0.3
+		#Per-tick chance to fling a caught living entity upward
+		#Range: 0.0 ~ 1.0
+		launch_chance = 0.05
+		#Upward velocity applied when a living entity is launched. ~2.0 hurls them well into the sky.
+		#Range: 0.0 ~ 10.0
+		launch_power = 2.0
+		#Absorbed blocks needed to trigger the collapse explosion (counterplay)
+		#Range: 1 ~ 100000
+		absorb_threshold = 320
+		#Range: 1 ~ 1200
+		absorb_interval_ticks = 50
+		#Allow the anomaly to remove (absorb) nearby blocks. Disable to prevent terrain edits.
+		block_absorb = true
+		explosion_on_collapse = true
+		#Range: 0.0 ~ 64.0
+		explosion_power = 18.0
+		#Extra radius/pull multiplier gained as the anomaly absorbs mass. 0 = no growth; 1.0 = up to 2x radius and pull at the collapse threshold.
+		#Range: 0.0 ~ 8.0
+		mass_scale = 1.0
+
+	[anomalies.electric]
+		#Range: 1.0 ~ 64.0
+		radius = 28.0
+		#Range: 0.0 ~ 1000.0
+		damage = 16.0
+		#Range: 1 ~ 1200
+		strike_interval_ticks = 50
+		#Free energy buffer (FE) an adjacent battery must offer to neutralise it. 10 MFE = 10,000,000 FE.
+		#Range: > 1
+		discharge_fe_threshold = 100000000
+
+	[anomalies.radioactive]
+		#Range: 4 ~ 256
+		radius = 48
+		#Radiation dose applied to each living entity within radius per emit (scaled by distance falloff). Same units as the player radiation capability.
+		#Range: 0 ~ 9223372036854775807
+		dose = 100000
+		#Range: 1 ~ 1200
+		emit_interval_ticks = 20
+
+	[anomalies.burning]
+		#Range: 1.0 ~ 64.0
+		radius = 10.0
+		#Range: 0.0 ~ 64.0
+		explosion_radius = 2.0
+		#Range: 1 ~ 24000
+		explosion_min_ticks = 200
+		#Range: 1 ~ 24000
+		explosion_max_ticks = 400
+		#Water source blocks within 3 blocks needed to extinguish it (counterplay)
+		#Range: 1 ~ 1000
+		water_blocks_to_neutralize = 8
+		#Allow the anomaly to set nearby flammable blocks on fire. Disable to prevent fire spread.
+		block_ignite = true
+		periodic_explosion = true
+
+	[anomalies.psycho]
+		#Range: 1.0 ~ 128.0
+		radius = 48.0
+		#Range: 1 ~ 1200
+		interval_ticks = 40
+		#Range: 0 ~ 10
+		effect_amplifier = 0
+		#Average ticks between vex spawns (actual timing jittered +/-25%)
+		#Range: 1 ~ 1200
+		vex_spawn_interval_ticks = 40
+		#Max vexes allowed within radius before spawning is suppressed. 0 disables vex spawning.
+		#Range: 0 ~ 64
+		vex_max_nearby = 6
+		#Ticks a spawned vex lives before vanishing. 0 = no limit (persistent).
+		#Range: 0 ~ 24000
+		vex_lifetime_ticks = 1200
+
+	[anomalies.teleporting]
+		#Range: 1.0 ~ 32.0
+		victim_radius = 5.0
+		#Range: 1 ~ 1000
+		victim_max_distance = 100
+		#Range: 1 ~ 1200
+		self_blink_min_ticks = 60
+		#Range: 1 ~ 1200
+		self_blink_max_ticks = 120
+		#Range: 1.0 ~ 32.0
+		self_blink_radius = 12.0
+		#Range: 0 ~ 32
+		hover_offset = 3
+
+	[anomalies.shards]
+		#Drop resonite shards when an anomaly is resolved through its counterplay
+		shard_drops_enabled = true
+		#Range: 0 ~ 64
+		shard_drop_min = 1
+		#Range: 0 ~ 64
+		shard_drop_max = 2
+		#Range: 0.0 ~ 1.0
+		shard_drop_chance = 1.0
+		#Relative weights for the rarity rolled when a crystal is analyzed
+		#Range: 0 ~ 1000000
+		rarity_weight_common = 85
+		#Range: 0 ~ 1000000
+		rarity_weight_rare = 8
+		#Range: 0 ~ 1000000
+		rarity_weight_epic = 6
+		#Range: 0 ~ 1000000
+		rarity_weight_legendary = 1
+		#How often (ticks) carried analyzed crystals re-apply their buff
+		#Range: 1 ~ 1200
+		buff_refresh_ticks = 120
+		#Duration (ticks) of the applied buff; keep above the refresh interval
+		#Range: 1 ~ 24000
+		buff_duration_ticks = 240
+		#Effect ids excluded from the crystal analysis buff pool
+		buff_effect_blacklist = ["minecraft:hero_of_the_village", "minecraft:dolphins_grace", "minecraft:conduit_power"]
 

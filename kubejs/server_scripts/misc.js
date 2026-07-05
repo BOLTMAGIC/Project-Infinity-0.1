@@ -256,15 +256,6 @@ ServerEvents.recipes((event) => {
     ['minecraft:book', 'compressium:cobblestone_1']
   );
 
-  shapeless(
-    event,
-    Item.of(
-      'patchouli:guide_book',
-      '{"patchouli:book":"patchouli:project_infinity"}'
-    ),
-    ['minecraft:book', 'voidminers:rubetine']
-  );
-
   //#region projectexpansion
   event
     .shaped(

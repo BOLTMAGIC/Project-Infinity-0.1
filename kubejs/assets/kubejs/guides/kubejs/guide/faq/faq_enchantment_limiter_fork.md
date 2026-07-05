@@ -1,0 +1,20 @@
+---
+navigation:
+  parent: faq.md
+  title: Enchantment Limiter Fork
+  icon: botania:cosmetic_questgiver_mark
+  position: 8
+categories:
+   - FAQ
+---
+
+# **Q: Why am i limited in how much i can enchant an item?**
+**Q: Why am i limited in how much i can enchant an item?**
+
+Short answer: a mod adds an enchantment point system so you can't infinitely stack enchants.
+
+* The mod "Enchantment Limiter Fork" adds an enchantment point system to items.
+* Every item has a maximum number of enchantment points it can use.
+* Each enchantment and each level of that enchantment costs points; once the item reaches its point cap, you can't add more enchants.
+* You can increase an item's maximum enchantment points by upgrading it in an anvil.
+* Some items (like meshes and Mystical Agriculture crystals) are blacklisted, so they can't use this system to become overpowered.

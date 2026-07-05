@@ -1,0 +1,20 @@
+---
+navigation:
+  parent: faq.md
+  title: Chunk loading / keeping chunks active
+  icon: botania:cosmetic_questgiver_mark
+  position: 13
+categories:
+   - FAQ
+---
+
+# **Q: How do i keep chunks active / chunkload?**
+**Q: How do i keep chunks active / chunkload?**
+
+Short answer: use the ftbchunks mod to claim and then chunkload chunks.
+
+* Open your inventory and click the "FTB Chunks: Claim Manager" button at the top left.
+* Left‑click a chunk to claim it; claimed chunks are protected (most mobs won't destroy blocks).
+* After claiming a chunk, shift‑left‑click it to chunkload it so it stays active when you're not nearby.
+
+![FTB Chunks Claim Manager](/photos/ftb_chunks_claim_manager.png)

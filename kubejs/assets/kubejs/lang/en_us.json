@@ -293,6 +293,7 @@
   "tooltip.kubejs.nuclearcraft_copy_paste_tool_2": "Right Click a Nuclearcraft machine to paste settings and Upgrades.",
 
   "tooltip.kubejs.compressed_material_warning": "This item can only be used in %s or better Infusing Factories.",
+  "tooltip.mekanism_extras.enriched_osmium": "This item can only be used in Ultimate or better Compressing Factories.",
 
   "tooltip.exdeorum.mesh_enchant_warning": "Only 2 enchant levels can be added to this item.",
 

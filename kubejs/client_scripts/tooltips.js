@@ -497,6 +497,11 @@ ItemEvents.tooltip((event) => {
     );
   });
 
+  event.add(
+    'mekanism_extras:enriched_osmium',
+    Text.translate('tooltip.mekanism_extras.enriched_osmium')
+  );
+
   const meshes = [
     'exdeorum:string_mesh',
     'exdeorum:flint_mesh',
@@ -515,7 +520,7 @@ ItemEvents.tooltip((event) => {
   event.addAdvanced(['kubejs:wither_token'], (item, advanced, text) => {
     if (!item.nbt) {
       text.add(Text.translate('tooltip.kubejs.wither_token').darkAqua());
-      return
+      return;
     }
 
     if (item.nbt.self_aware == false) {
@@ -601,9 +606,13 @@ ItemEvents.tooltip((event) => {
   );
 
   event.addAdvanced(['hostilenetworks:data_model'], (item, advanced, text) => {
-    if (item.nbt.data_model.id == 'hostilenetworks:born_in_chaos/lord_pumpkinhead') {
+    if (
+      item.nbt.data_model.id == 'hostilenetworks:born_in_chaos/lord_pumpkinhead'
+    ) {
       text.add(
-        Text.translate('tooltip.hostilenetworks.data_model.lord_pumpkinhead').red()
+        Text.translate(
+          'tooltip.hostilenetworks.data_model.lord_pumpkinhead'
+        ).red()
       );
     }
   });
@@ -612,86 +621,92 @@ ItemEvents.tooltip((event) => {
     if (!item.nbt) return;
 
     const tankLevelToQuantity = {
-      basic: "32,000",
-      advanced: "64,000",
-      elite: "128,000",
-      ultimate: "256,000",
-      absolute: "4,096,000",
-      supreme: "32,768,000",
-      cosmic: "262,144,000",
-      infinite: "2,097,152,000"
-    }
+      basic: '32,000',
+      advanced: '64,000',
+      elite: '128,000',
+      ultimate: '256,000',
+      absolute: '4,096,000',
+      supreme: '32,768,000',
+      cosmic: '262,144,000',
+      infinite: '2,097,152,000',
+    };
 
     const fluidID = item.nbt.fluid_id;
     const parts = fluidID.split(':');
     const first = parts[0];
 
-    const fluidName = Fluid.of(fluidID).getFluidStack().name.getString()
-    const mod_name = Platform.mods[first].name
+    const fluidName = Fluid.of(fluidID).getFluidStack().name.getString();
+    const mod_name = Platform.mods[first].name;
 
     text.add(
       1,
-      Text.translate('tooltip.kubejs.tank_tokens_1', tankLevelToQuantity[item.nbt.tank_level], fluidName)
+      Text.translate(
+        'tooltip.kubejs.tank_tokens_1',
+        tankLevelToQuantity[item.nbt.tank_level],
+        fluidName
+      )
     );
-    text.add(
-      2,
-      Text.translate('tooltip.kubejs.tank_tokens_2', mod_name)
-    );
+    text.add(2, Text.translate('tooltip.kubejs.tank_tokens_2', mod_name));
   });
 
   event.addAdvanced(['kubejs:chemical_tank_token'], (item, advanced, text) => {
     if (!item.nbt) return;
 
     const tankLevelToQuantity = {
-      basic: "64,000",
-      advanced: "128,000",
-      elite: "1,024,000",
-      ultimate: "8,192,000",
-      absolute: "131,072,000",
-      supreme: "4,194,304,000",
-      cosmic: "268,435,456,000",
-      infinite: "34,359,738,368,000"
-    }
+      basic: '64,000',
+      advanced: '128,000',
+      elite: '1,024,000',
+      ultimate: '8,192,000',
+      absolute: '131,072,000',
+      supreme: '4,194,304,000',
+      cosmic: '268,435,456,000',
+      infinite: '34,359,738,368,000',
+    };
 
     const modIDToTranslationKey = {
       mekanism: [
         'gas.mekanism.',
         'pigment.mekanism.',
         'slurry.mekanism.',
-        'infuse_type.mekanism.'
+        'infuse_type.mekanism.',
       ],
       mekanismgenerators: ['gas.mekanismgenerators.'],
       mekanism_extras: ['gas.mekanism_extras.'],
       evolvedmekanism: ['infuse_type.evolvedmekanism.'],
       alltheores: ['slurry.alltheores.'],
-      allthemodium: ['slurry.allthemodium.']
-    }
+      allthemodium: ['slurry.allthemodium.'],
+    };
 
     const chemID = item.nbt.chemical_id;
     const parts = chemID.split(':');
     const first = parts[0];
     const second = parts[1];
 
-    let chemicalTK
+    let chemicalTK;
 
     for (const prefix of modIDToTranslationKey[first]) {
-      if(!Text.translatable(prefix + second).getString().equals(prefix + second)) {
+      if (
+        !Text.translatable(prefix + second)
+          .getString()
+          .equals(prefix + second)
+      ) {
         chemicalTK = prefix;
-        break
+        break;
       }
     }
 
-    const chemical_name = Text.translatable(chemicalTK + second).getString()
-    const mod_name = Platform.mods[first].name
+    const chemical_name = Text.translatable(chemicalTK + second).getString();
+    const mod_name = Platform.mods[first].name;
 
     text.add(
       1,
-      Text.translate('tooltip.kubejs.tank_tokens_1', tankLevelToQuantity[item.nbt.tank_level], chemical_name)
+      Text.translate(
+        'tooltip.kubejs.tank_tokens_1',
+        tankLevelToQuantity[item.nbt.tank_level],
+        chemical_name
+      )
     );
-    text.add(
-      2,
-      Text.translate('tooltip.kubejs.tank_tokens_2', mod_name)
-    );
+    text.add(2, Text.translate('tooltip.kubejs.tank_tokens_2', mod_name));
   });
 
   const cakes = {

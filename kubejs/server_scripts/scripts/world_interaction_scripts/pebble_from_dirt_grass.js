@@ -5,6 +5,9 @@ BlockEvents.rightClicked(
   ],
   (event) => {
   const {block, player, level, server} = event;
+
+  if (player.persistentData['pebble_disabled'] == true) return;
+
   const COOLDOWN_TICKS = 1;
 
   if (level.dimension !== 'minecraft:overworld' && level.dimension !== 'compactmachines:compact_world') return;

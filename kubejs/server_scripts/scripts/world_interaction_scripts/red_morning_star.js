@@ -1,52 +1,46 @@
-BlockEvents.broken(
-  [
-    'cyclic:experience_pylon'
-  ],
-  event => {
-    const { block, player } = event;
+BlockEvents.broken('cyclic:experience_pylon', (event) => {
+  const { block, player } = event;
 
-    const mainHand = player.mainHandItem;
-    const offHand = player.offHandItem;
+  const mainHand = player.mainHandItem;
+  const offHand = player.offHandItem;
 
-    if (
-      mainHand.id != 'projecte:rm_morning_star' && 
-      offHand.id != 'projecte:rm_morning_star'
-    ) return;
-    
-    if (
-      mainHand.nbt.Charge == 0 || 
-      offHand.nbt.Charge == 0
-    ) return;
+  console.log(mainHand, '  ', offHand);
 
-    player.tell(
-      Text.red(
-        'Breaking of ' +
-          block.item.getDisplayName().getString() +
-          ' prevented to avoid voiding it.'
+  const item = mainHand.id == 'projecte:rm_morning_star' ? mainHand : offHand;
+
+  if (item.id != 'projecte:rm_morning_star') return;
+
+  if (!item.nbt) return;
+  if (!item.nbt.Charge) return;
+  if (item.nbt.Charge == 0) return;
+
+  player.tell(
+    Text.red(
+      Text.translate(
+        'text.kubejs.red_morningstar_aoe.block_break_canceled_1',
+        block.item.getDisplayName().getString()
       )
-    );
-    player.tell(
-      Text.red(
-        'Use a non-charged Red Morningstar or another tool to break it.'
-      )
-    );
+    )
+  );
+  player.tell(
+    Text.red(
+      Text.translate('text.kubejs.red_morningstar_aoe.block_break_canceled_2')
+    )
+  );
 
-    event.cancel();
+  event.cancel();
 });
 
-BlockEvents.rightClicked('projecte:rm_morning_star', event => {
+BlockEvents.rightClicked((event) => {
   const { player, item } = event;
+
+  if (item.id != 'projecte:rm_morning_star') return;
 
   if (player.persistentData['red_morningstar_aoe_disabled'] == false) return;
 
-  if (
-    item.nbt && item.nbt.Charge &&
-    item.nbt.Charge != 0)
-    {
+  if (item.nbt && item.nbt.Charge && item.nbt.Charge != 0) {
     player.tell(
-      Text.red(
-        'Red Morningstar AOE is disabled, do /red_morningstar_aoe to enable'
-      )
+      Text.red(Text.translate('text.kubejs.red_morningstar_aoe.disabled'))
     );
     event.cancel();
   }

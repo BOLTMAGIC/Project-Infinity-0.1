@@ -434,5 +434,16 @@
 
   "painting.kubejs.project_infinity_and_credit_1.author": "Minimaxi",
   "painting.kubejs.project_infinity_and_credit_2.author": "Minimaxi",
-  "painting.kubejs.project_infinity_and_credit_3.author": "Minimaxi"
+  "painting.kubejs.project_infinity_and_credit_3.author": "Minimaxi",
+
+  "text.kubejs.red_morningstar_aoe.disabled": "Red Morningstar AOE is disabled, do \"/ProjectInfinity red_morningstar_aoe enable\" to enable it.",
+  "text.kubejs.red_morningstar_aoe.state": "Red Morningstar AOE is now : ",
+  "text.kubejs.red_morningstar_aoe.state.disabled": "Disabled",
+  "text.kubejs.red_morningstar_aoe.state.enabled": "Enabled",
+  "text.kubejs.red_morningstar_aoe.block_break_canceled_1": "Breaking of %s prevented to avoid voiding it.",
+  "text.kubejs.red_morningstar_aoe.block_break_canceled_2": "Use a non-charged Red Morningstar or another tool to break it.",
+
+  "text.kubejs.pebble.state": "Pebble collecting is now : ",
+  "text.kubejs.pebble.state.disabled": "Disabled",
+  "text.kubejs.pebble.state.enabled": "Enabled"
 }

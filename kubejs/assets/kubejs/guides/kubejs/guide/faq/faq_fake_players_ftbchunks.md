@@ -1,6 +1,6 @@
 ---
 navigation:
-  parent: faq.md
+  parent: index.md
   title: Fake players in claimed chunks
   icon: botania:cosmetic_questgiver_mark
   position: 14

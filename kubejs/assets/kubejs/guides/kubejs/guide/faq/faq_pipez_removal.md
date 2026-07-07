@@ -1,9 +1,9 @@
 ---
 navigation:
-  parent: faq.md
+  parent: index.md
   title: Pipez removal and better pipe mods
   icon: botania:cosmetic_questgiver_mark
-  position: 21
+  position: 22
 categories:
    - FAQ
 ---

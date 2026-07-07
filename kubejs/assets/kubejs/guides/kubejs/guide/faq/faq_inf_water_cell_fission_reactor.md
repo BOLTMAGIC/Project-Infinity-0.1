@@ -1,9 +1,9 @@
 ---
 navigation:
-  parent: faq.md
+  parent: index.md
   title: Mekanism Fission Reactor Inf Water Cell 717.78 mB/t
   icon: mekanismgenerators:fission_reactor_casing
-  position: 20
+  position: 21
 categories:
    - FAQ
 item_ids:

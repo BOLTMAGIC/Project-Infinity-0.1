@@ -1,6 +1,6 @@
 ---
 navigation:
-  parent: faq.md
+  parent: index.md
   title: Extra chunk loading for admins
   icon: botania:cosmetic_questgiver_mark
   position: 15

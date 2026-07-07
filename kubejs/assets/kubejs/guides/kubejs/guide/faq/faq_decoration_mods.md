@@ -1,6 +1,6 @@
 ---
 navigation:
-  parent: faq.md
+  parent: index.md
   title: Decoration mods
   icon: rechiseled:chisel
   position: 12

@@ -1,0 +1,20 @@
+---
+navigation:
+  parent: index.md
+  title: Blood Magic – blood altar autocrafting
+  icon: bloodmagic:blood_altar
+  position: 17
+categories:
+   - FAQ
+---
+
+# **Q: How do i autocraft with the blood altar?**
+**Q: How do i autocraft with the blood altar?**
+
+Short answer: watch the recommended setup video and be very careful with tick acceleration.
+
+* Take a look at this video for a full autocrafting setup:
+  [Link](https://youtu.be/VkUqb65kygQ)
+* Be careful when using tick acceleration on the Blood Altar.
+* Going above x64 tick acceleration can cause the altar to skip a slate tier step.
+* If a step is skipped, your slate progression and automation chain can break, so stay at or below x64.

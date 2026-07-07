@@ -1,6 +1,6 @@
 ---
 navigation:
-  parent: faq.md
+  parent: index.md
   title: Blood altar LP in/out speed
   icon: bloodmagic:altar
   position: 16

@@ -1,0 +1,12 @@
+ServerEvents.recipes((event) => {
+  // 1 cake unlocks every year
+  const unixStart = 1747346400000
+  for (let i = 1; i <= 12; i++) {
+    if (Date.now() < unixStart + i * 31536000000) break;
+
+    event.shapeless(`kubejs:year_${i}_cake`, [
+      'minecraft:cake',
+      `kubejs:infinity_${i}`
+    ]);
+  }
+});

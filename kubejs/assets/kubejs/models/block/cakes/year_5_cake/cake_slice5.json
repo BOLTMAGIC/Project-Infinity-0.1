@@ -1,0 +1,22 @@
+{
+    "textures": {
+        "particle": "kubejs:block/cakes/cake_side",
+        "bottom": "kubejs:block/cakes/cake_bottom",
+        "top": "kubejs:block/cakes/year_5_cake_top",
+        "side": "kubejs:block/cakes/cake_side",
+        "inside": "kubejs:block/cakes/cake_inner_5"
+    },
+    "elements": [
+        {   "from": [ 11, 0, 1 ],
+            "to": [ 15, 8, 15 ],
+            "faces": {
+                "down":  { "texture": "#bottom", "cullface": "down" },
+                "up":    { "texture": "#top" },
+                "north": { "texture": "#side" },
+                "south": { "texture": "#side" },
+                "west":  { "texture": "#inside" },
+                "east":  { "texture": "#side" }
+            }
+        }
+    ]
+}

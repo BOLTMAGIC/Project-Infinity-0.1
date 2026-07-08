@@ -76,7 +76,6 @@ MMEvents.createProcesses((event) => {
 
     ingredientInput[chemical_type] = chemical_id;
 
-    console.log('ok')
     event
       .create(`mm:${chemical_id.replace(/[:]/g, '_').toLowerCase()}_to_${tank_level.toLowerCase()}_fluid_tank_token`)
       .structureId('mm:tank_encapsulator_structure')

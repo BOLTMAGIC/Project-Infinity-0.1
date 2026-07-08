@@ -29,6 +29,29 @@ BlockEvents.rightClicked('mekanism:creative_bin', (event) => {
     'nuclearcraft:advanced_storage_container',
     'nuclearcraft:du_storage_container',
     'nuclearcraft:elite_storage_container',
+
+    'justdirethings:inventoryholder',
+    'justdirethings:creaturecatcher',
+    'refinedstorageaddons:wireless_crafting_grid',
+    'refinedstorageaddons:creative_wireless_crafting_grid',
+    'universalgrid:wireless_universal_grid',
+    'universalgrid:creative_wireless_universal_grid',
+    'megacells:bulk_item_cell',
+
+    /^ae2:portable_item_cell_.*$/,
+    /^megacells:portable_item_cell_.*$/,
+
+    'rftoolsbuilder:builder',
+    'rftoolsbuilder:mover',
+    'rftoolsbuilder:vehicle_builder',
+    'rftoolscontrol:craftingstation',
+    'rftoolscontrol:processor',
+    'rftoolscontrol:programmer',
+    'rftoolscontrol:workbench',
+    'rftoolsdim:dimlet_workbench',
+    'rftoolsstorage:storage_scanner',
+    'rftoolsutility:screen',
+    'rftoolsutility:matter_beamer',
   ];
   // check for bannedItems
   for (const banned of bannedItems) {
@@ -413,6 +436,12 @@ BlockEvents.rightClicked('mekanism:creative_bin', (event) => {
       nbtPath: 'Items',
       check: (value) => value && value.length > 0,
     },
+    {
+      pattern: 'botanicalmachinery:mechanical_mana_pool',
+      nbtPath: 'BlockEntityTag.inv.Items',
+      check: (value) => value && value.length > 0,
+    }
+
   ];
 
   function rftoolsCheck (array) {

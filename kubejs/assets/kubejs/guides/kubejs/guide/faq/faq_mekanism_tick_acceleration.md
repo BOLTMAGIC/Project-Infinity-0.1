@@ -1,9 +1,9 @@
 ---
 navigation:
-  parent: faq.md
+  parent: index.md
   title: Mekanism tick acceleration
   icon: mekanism_extras:infinite_smelting_factory
-  position: 17
+  position: 18
 categories:
    - FAQ
 item_ids:

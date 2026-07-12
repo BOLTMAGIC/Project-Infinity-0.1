@@ -3,10 +3,6 @@ allthemodium:ancient_pyramid
 allthemodium:dungeon
 allthemodium:piglin_village
 betterfortresses:fortress
-block_factorys_bosses:dragon_tower
-block_factorys_bosses:sandworm_nest
-block_factorys_bosses:underworld_arena
-block_factorys_bosses:yeti_hideout
 born_in_chaos_v1:clown_caravan_plains
 born_in_chaos_v1:clown_caravan_savanna
 born_in_chaos_v1:clown_caravan_taiga

@@ -1098,7 +1098,7 @@
 				type: "item"
 			}]
 			x: 14.0d
-			y: 1.0d
+			y: -1.0d
 		}
 		{
 			dependencies: ["6C52741D22052A14"]
@@ -4621,6 +4621,7 @@
 			y: 3.5d
 		}
 		{
+			dependencies: ["60B83836D990E8AC"]
 			description: [
 				"{ftbquests.chapter.mystical_agriculture.quest2B7ACC7B3F0C13E4.description1}"
 				""
@@ -4701,6 +4702,22 @@
 			}]
 			x: 10.5d
 			y: 0.0d
+		}
+		{
+			id: "60B83836D990E8AC"
+			rewards: [{
+				id: "7DBE92AEFCD83F52"
+				item: "kubejs:ascended_coin"
+				type: "item"
+			}]
+			size: 2.0d
+			tasks: [{
+				id: "3FCC6E09213C55E5"
+				item: "mysticalagriculture:ultimate_seeds"
+				type: "item"
+			}]
+			x: 14.0d
+			y: 3.5d
 		}
 	]
 	title: "{ftbquests.chapter.mystical_agriculture.title}"

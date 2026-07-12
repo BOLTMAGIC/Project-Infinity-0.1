@@ -1,6 +1,6 @@
 ---
 navigation:
-  parent: faq.md
+  parent: index.md
   title: EnderIO Conduit Transfer Rates
   icon: enderio:energy_conduit
   position: 50

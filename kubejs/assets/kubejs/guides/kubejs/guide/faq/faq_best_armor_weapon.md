@@ -1,6 +1,6 @@
 ---
 navigation:
-  parent: faq.md
+  parent: index.md
   title: Best Armor and Weapon
   icon: avaritia:infinity_chestplate
   position: 6

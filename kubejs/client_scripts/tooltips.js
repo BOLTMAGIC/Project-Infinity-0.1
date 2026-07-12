@@ -226,6 +226,17 @@ ItemEvents.tooltip((event) => {
     }
   );
 
+  event.add(
+    ['allthemodium:vibranium_upgrade_smithing_template'],
+    Text.translate('tooltip.kubejs.vibranium_template')
+  );
+
+  event.add(
+    ['allthemodium:unobtainium_upgrade_smithing_template'],
+    Text.translate('tooltip.kubejs.unobtainium_template')
+  );
+
+
   event.addAdvanced(
     [
       'avaritia:neutron_pile',

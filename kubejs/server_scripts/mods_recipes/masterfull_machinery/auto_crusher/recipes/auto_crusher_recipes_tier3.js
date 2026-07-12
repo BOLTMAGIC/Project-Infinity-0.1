@@ -411,4 +411,50 @@ MMEvents.createProcesses((event) => {
         count: 64,
       },
     });
+
+  //raw_eclipsealloy
+  event
+    .create('mm:raw_eclipsealloy_recipe3')
+    .structureId('mm:auto_crusher_structure3')
+    .ticks(1)
+    .input({
+      type: 'mm:input/consume',
+      ingredient: {
+        type: 'mm:item',
+        item: 'minecraft:netherite_block',
+        count: 256,
+      },
+    })
+    .input({
+      type: 'mm:input/consume',
+      ingredient: {
+        type: 'mm:item',
+        item: 'justdirethings:time_crystal',
+        count: 16,
+      },
+    })
+    .input({
+      type: 'mm:input/consume',
+      chance: 0.0,
+      ingredient: {
+        type: 'mm:item',
+        item: 'justdirethings:gooblock_tier4',
+        count: 1,
+      },
+    })
+    .input({
+      type: 'mm:input/consume',
+      ingredient: {
+        type: 'mm:energy',
+        amount: 640000,
+      },
+    })
+    .output({
+      type: 'mm:output/simple',
+      ingredient: {
+        type: 'mm:item',
+        item: 'justdirethings:raw_eclipsealloy',
+        count: 256,
+      },
+    });
 });

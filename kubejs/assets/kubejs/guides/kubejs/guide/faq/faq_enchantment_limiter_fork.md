@@ -1,6 +1,6 @@
 ---
 navigation:
-  parent: faq.md
+  parent: index.md
   title: Enchantment Limiter Fork
   icon: botania:cosmetic_questgiver_mark
   position: 8

@@ -1,6 +1,6 @@
 ---
 navigation:
-  parent: faq.md
+  parent: index.md
   title: Quests
   icon: botania:cosmetic_questgiver_mark
   position: 1

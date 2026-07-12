@@ -1,5 +1,6 @@
 priority: 1;
 ServerEvents.recipes((event) => {
+  //#region Ports
   create3x3(event, 'mm:tiny_item_port_input', [
     '#forge:ingots/cobalt',
     'minecraft:chest',
@@ -528,6 +529,79 @@ ServerEvents.recipes((event) => {
     '#forge:ingots/cobalt',
   ]);
 
+  create3x3(event, 'mm:colossal_pigment_port_input', [
+    '#forge:ingots/cobalt',
+    'mekanism:pigment_mixer',
+    '#forge:ingots/cobalt',
+    'minecraft:redstone',
+    'minecraft:diamond',
+    'minecraft:redstone',
+    '#forge:ingots/cobalt',
+    'mekanism:basic_chemical_tank',
+    '#forge:ingots/cobalt',
+  ]);
+
+  create3x3(event, 'mm:colossal_pigment_port_output', [
+    '#forge:ingots/cobalt',
+    'mekanism:basic_chemical_tank',
+    '#forge:ingots/cobalt',
+    'minecraft:redstone',
+    'minecraft:diamond',
+    'minecraft:redstone',
+    '#forge:ingots/cobalt',
+    'mekanism:pigment_mixer',
+    '#forge:ingots/cobalt',
+  ]);
+
+  create3x3(event, 'mm:colossal_slurry_port_input', [
+    '#forge:ingots/cobalt',
+    'mekanism:chemical_crystallizer',
+    '#forge:ingots/cobalt',
+    'minecraft:redstone',
+    'minecraft:diamond',
+    'minecraft:redstone',
+    '#forge:ingots/cobalt',
+    'mekanism:basic_chemical_tank',
+    '#forge:ingots/cobalt',
+  ]);
+
+  create3x3(event, 'mm:colossal_slurry_port_output', [
+    '#forge:ingots/cobalt',
+    'mekanism:basic_chemical_tank',
+    '#forge:ingots/cobalt',
+    'minecraft:redstone',
+    'minecraft:diamond',
+    'minecraft:redstone',
+    '#forge:ingots/cobalt',
+    'mekanism:chemical_crystallizer',
+    '#forge:ingots/cobalt',
+  ]);
+
+  create3x3(event, 'mm:colossal_infuse_port_input', [
+    '#forge:ingots/cobalt',
+    'mekanism:chemical_infuser',
+    '#forge:ingots/cobalt',
+    'minecraft:redstone',
+    'minecraft:diamond',
+    'minecraft:redstone',
+    '#forge:ingots/cobalt',
+    'mekanism:basic_chemical_tank',
+    '#forge:ingots/cobalt',
+  ]);
+
+  create3x3(event, 'mm:colossal_infuse_port_output', [
+    '#forge:ingots/cobalt',
+    'mekanism:basic_chemical_tank',
+    '#forge:ingots/cobalt',
+    'minecraft:redstone',
+    'minecraft:diamond',
+    'minecraft:redstone',
+    '#forge:ingots/cobalt',
+    'mekanism:chemical_infuser',
+    '#forge:ingots/cobalt',
+  ]);
+
+  //#region Controllers
   create3x3(event, 'mm:auto_crusher_controller', [
     'thermal:redstone_servo',
     'mekanism:ultimate_crushing_factory',
@@ -717,6 +791,18 @@ ServerEvents.recipes((event) => {
     'common_ore_library:cobalt_block',
     'thermal:rf_coil',
     'mekanism_extras:alloy_radiance',
+    'thermal:redstone_servo',
+  ]);
+
+  create3x3(event, 'mm:tank_encapsulator_controller', [
+    'thermal:redstone_servo',
+    'mekanism_extras:absolute_fluid_tank',
+    'thermal:rf_coil',
+    'common_ore_library:cobalt_block',
+    'botania:manasteel_ingot',
+    'common_ore_library:cobalt_block',
+    'thermal:rf_coil',
+    'mekanism_extras:absolute_chemical_tank',
     'thermal:redstone_servo',
   ]);
 });

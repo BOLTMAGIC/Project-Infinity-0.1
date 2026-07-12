@@ -1,6 +1,6 @@
 ---
 navigation:
-  parent: faq.md
+  parent: index.md
   title: Mob farm issues
   icon: darkutils:vector_plate_fast
   position: 10

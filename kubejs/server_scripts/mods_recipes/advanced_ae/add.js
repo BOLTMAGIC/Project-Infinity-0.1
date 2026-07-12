@@ -41,7 +41,7 @@ ServerEvents.recipes((event) => {
           item: 'justdirethings:eclipsealloy_ingot',
         },
         D: {
-          item: 'evolvedmekanism:alloy_singular',
+          item: 'mekanism:alloy_atomic',
         },
         E: {
           item: 'ae2:condenser',
@@ -56,7 +56,7 @@ ServerEvents.recipes((event) => {
           item: 'ae2omnicells:spent_nuclear_waste_singularity',
         },
         I: {
-          item: 'extendedae_plus:infinity_core',
+          item: 'extendedae_plus:basic_core',
         },
       },
       result: {

@@ -6,24 +6,14 @@
 	group: "5255C8D5C49409ED"
 	icon: "solarflux:sp_avaritia.infinity"
 	id: "762C2E1A28A8B9AB"
-	images: [
-		{
-			height: 5.0d
-			image: "enderio:textures/gui/icons/weather_sun.png"
-			rotation: 0.0d
-			width: 5.0d
-			x: -0.5d
-			y: 0.0d
-		}
-		{
-			height: 5.0d
-			image: "enderio:textures/gui/icons/weather_sun.png"
-			rotation: 0.0d
-			width: 5.0d
-			x: 22.5d
-			y: 2.0d
-		}
-	]
+	images: [{
+		height: 5.0d
+		image: "enderio:textures/gui/icons/weather_sun.png"
+		rotation: 0.0d
+		width: 5.0d
+		x: -0.5d
+		y: 0.0d
+	}]
 	order_index: 4
 	quest_links: [ ]
 	quests: [

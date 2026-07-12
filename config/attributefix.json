@@ -33,15 +33,15 @@
         "value": 2048
       }
     },
-    "block_factorys_bosses:roll_count": {
+    "attributeslib:crit_damage": {
       "enabled": false,
       "min": {
-        "default": 0,
-        "value": 0
+        "default": 1,
+        "value": 1
       },
       "max": {
-        "default": 9,
-        "value": 9
+        "default": 100,
+        "value": 100
       }
     },
     "attributeslib:prot_shred": {
@@ -55,17 +55,6 @@
         "value": 1
       }
     },
-    "block_factorys_bosses:roll_animtime": {
-      "enabled": false,
-      "min": {
-        "default": 0,
-        "value": 0
-      },
-      "max": {
-        "default": 100,
-        "value": 100
-      }
-    },
     "attributeslib:overheal": {
       "enabled": false,
       "min": {
@@ -75,6 +64,17 @@
       "max": {
         "default": 10,
         "value": 10
+      }
+    },
+    "forge:nametag_distance": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 64,
+        "value": 64
       }
     },
     "attributeslib:armor_shred": {
@@ -110,6 +110,17 @@
         "value": 8
       }
     },
+    "forge:block_reach": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1024,
+        "value": 1024
+      }
+    },
     "ftbultimine:max_blocks_modifier": {
       "enabled": false,
       "min": {
@@ -130,171 +141,6 @@
       "max": {
         "default": 1000,
         "value": 1000
-      }
-    },
-    "attributeslib:cold_damage": {
-      "enabled": false,
-      "min": {
-        "default": 0,
-        "value": 0
-      },
-      "max": {
-        "default": 1000,
-        "value": 1000
-      }
-    },
-    "attributeslib:experience_gained": {
-      "enabled": false,
-      "min": {
-        "default": 0,
-        "value": 0
-      },
-      "max": {
-        "default": 1000,
-        "value": 1000
-      }
-    },
-    "minecraft:generic.luck": {
-      "enabled": true,
-      "min": {
-        "default": -1024,
-        "value": -1024
-      },
-      "max": {
-        "default": 1024,
-        "value": 1024
-      }
-    },
-    "forge:entity_reach": {
-      "enabled": false,
-      "min": {
-        "default": 0,
-        "value": 0
-      },
-      "max": {
-        "default": 1024,
-        "value": 1024
-      }
-    },
-    "attributeslib:dodge_chance": {
-      "enabled": false,
-      "min": {
-        "default": 0,
-        "value": 0
-      },
-      "max": {
-        "default": 1,
-        "value": 1
-      }
-    },
-    "minecraft:zombie.spawn_reinforcements": {
-      "enabled": true,
-      "min": {
-        "default": 0,
-        "value": 0
-      },
-      "max": {
-        "default": 1,
-        "value": 1
-      }
-    },
-    "attributeslib:fire_damage": {
-      "enabled": false,
-      "min": {
-        "default": 0,
-        "value": 0
-      },
-      "max": {
-        "default": 1000,
-        "value": 1000
-      }
-    },
-    "minecraft:generic.attack_knockback": {
-      "enabled": true,
-      "min": {
-        "default": 0,
-        "value": 0
-      },
-      "max": {
-        "default": 5,
-        "value": 1000000
-      }
-    },
-    "attributeslib:crit_chance": {
-      "enabled": false,
-      "min": {
-        "default": 0,
-        "value": 0
-      },
-      "max": {
-        "default": 10,
-        "value": 10
-      }
-    },
-    "forge:swim_speed": {
-      "enabled": false,
-      "min": {
-        "default": 0,
-        "value": 0
-      },
-      "max": {
-        "default": 1024,
-        "value": 1024
-      }
-    },
-    "minecraft:generic.armor_toughness": {
-      "enabled": true,
-      "min": {
-        "default": 0,
-        "value": 0
-      },
-      "max": {
-        "default": 20,
-        "value": 1000000
-      }
-    },
-    "attributeslib:crit_damage": {
-      "enabled": false,
-      "min": {
-        "default": 1,
-        "value": 1
-      },
-      "max": {
-        "default": 100,
-        "value": 100
-      }
-    },
-    "forge:nametag_distance": {
-      "enabled": false,
-      "min": {
-        "default": 0,
-        "value": 0
-      },
-      "max": {
-        "default": 64,
-        "value": 64
-      }
-    },
-    "block_factorys_bosses:movement_recovery": {
-      "enabled": false,
-      "min": {
-        "default": 0,
-        "value": 0
-      },
-      "max": {
-        "default": 5,
-        "value": 5
-      }
-    },
-    "forge:block_reach": {
-      "enabled": false,
-      "min": {
-        "default": 0,
-        "value": 0
-      },
-      "max": {
-        "default": 1024,
-        "value": 1024
       }
     },
     "cataclysm:additional_critical_damage": {
@@ -339,6 +185,39 @@
       "max": {
         "default": 4,
         "value": 4
+      }
+    },
+    "attributeslib:cold_damage": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1000,
+        "value": 1000
+      }
+    },
+    "attributeslib:experience_gained": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1000,
+        "value": 1000
+      }
+    },
+    "minecraft:generic.luck": {
+      "enabled": true,
+      "min": {
+        "default": -1024,
+        "value": -1024
+      },
+      "max": {
+        "default": 1024,
+        "value": 1024
       }
     },
     "ftbultimine:exhaustion_modifier": {
@@ -396,6 +275,17 @@
         "value": 179769313486231570000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
       }
     },
+    "forge:entity_reach": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1024,
+        "value": 1024
+      }
+    },
     "attributeslib:prot_pierce": {
       "enabled": false,
       "min": {
@@ -405,17 +295,6 @@
       "max": {
         "default": 34,
         "value": 34
-      }
-    },
-    "block_factorys_bosses:burning_stability": {
-      "enabled": false,
-      "min": {
-        "default": -10,
-        "value": -10
-      },
-      "max": {
-        "default": 10,
-        "value": 10
       }
     },
     "minecraft:generic.flying_speed": {
@@ -495,6 +374,17 @@
         "value": 1000000
       }
     },
+    "attributeslib:dodge_chance": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1,
+        "value": 1
+      }
+    },
     "justdirethings:phase": {
       "enabled": false,
       "min": {
@@ -506,6 +396,17 @@
         "value": 179769313486231570000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
       }
     },
+    "minecraft:zombie.spawn_reinforcements": {
+      "enabled": true,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1,
+        "value": 1
+      }
+    },
     "attributeslib:arrow_damage": {
       "enabled": false,
       "min": {
@@ -515,6 +416,17 @@
       "max": {
         "default": 10,
         "value": 10
+      }
+    },
+    "attributeslib:fire_damage": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1000,
+        "value": 1000
       }
     },
     "minecraft:horse.jump_strength": {
@@ -539,6 +451,39 @@
         "value": 10
       }
     },
+    "minecraft:generic.attack_knockback": {
+      "enabled": true,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 5,
+        "value": 1000000
+      }
+    },
+    "attributeslib:crit_chance": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 10,
+        "value": 10
+      }
+    },
+    "forge:swim_speed": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1024,
+        "value": 1024
+      }
+    },
     "minecraft:generic.knockback_resistance": {
       "enabled": true,
       "min": {
@@ -548,6 +493,17 @@
       "max": {
         "default": 1,
         "value": 1
+      }
+    },
+    "minecraft:generic.armor_toughness": {
+      "enabled": true,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 20,
+        "value": 1000000
       }
     },
     "cataclysm:nature_heal": {

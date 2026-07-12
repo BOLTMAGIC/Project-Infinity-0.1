@@ -1,6 +1,6 @@
 ---
 navigation:
-  parent: faq.md
+  parent: index.md
   title: AE autocrafting is slow
   icon: ae2:controller
   position: 9

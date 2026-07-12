@@ -37,6 +37,7 @@ ServerEvents.recipes((event) => {
     ['deepling_warlock_gate', 'cataclysm:athame'],
     ['coral_golem_gate', 'cataclysm:crystallized_coral_fragments'],
     ['twilight_forest_gate', 'twilightforest:snow_queen_trophy'],
+    ['mutant_monsters_gate', 'mutantmonsters:endersoul_hand'],
   ];
   Item.of('gateways:gate_pearl', '{gateway:"gateways:trials_of_ignis"}');
   gateways.forEach(([gateway, middleItem]) => {

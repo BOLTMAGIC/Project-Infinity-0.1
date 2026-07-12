@@ -1,6 +1,6 @@
 ---
 navigation:
-  parent: faq.md
+  parent: index.md
   title: Botanypots Soil Types
   icon: minecraft:dirt
   position: 51

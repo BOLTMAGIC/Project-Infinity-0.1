@@ -125,7 +125,7 @@ ServerEvents.recipes((event) => {
         { item: 'kubejs:infinity_9' },
         { item: 'kubejs:infinity_9' },
         { item: 'avaritia:neutron_ingot' },
-        { item: 'extendedcrafting:enhanced_redstone_ingot' },
+        { item: 'avaritia:infinity_ingot' },
         { item: 'kubejs:element_ingot' },
       ],
       energy: 2147483647,

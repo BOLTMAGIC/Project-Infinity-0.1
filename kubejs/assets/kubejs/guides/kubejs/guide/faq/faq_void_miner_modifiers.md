@@ -1,6 +1,6 @@
 ---
 navigation:
-  parent: faq.md
+  parent: index.md
   title: Void Miner optimal modifier
   icon: voidminers:rubetine_miner
   position: 5

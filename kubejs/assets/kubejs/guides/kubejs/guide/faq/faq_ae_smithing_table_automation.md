@@ -1,6 +1,6 @@
 ---
 navigation:
-  parent: faq.md
+  parent: index.md
   title: AE smithing table automation
   icon: armorplus:infused_frost_lava_crystal
   position: 11

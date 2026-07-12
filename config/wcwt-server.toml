@@ -1,0 +1,6 @@
+#Toolkit slot count. Minimum 11 keeps the dedicated tool slots available.
+#Range: 11 ~ 640
+toolkitSlotCount = 64
+#Actively refresh the pattern management provider list while it is visible. Disabled keeps one-shot refreshes only.
+patternProviderActiveRefresh = false
+

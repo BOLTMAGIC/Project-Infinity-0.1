@@ -119,6 +119,12 @@
 	paradox_energy_max = 100.0
 	#If true, only safe mob data fields are restored
 	paradox_restricted_mobs = true
+	#Blocks the Paradox Machine cannot save/restore, matched by regex against the full block ID.
+	#Each entry is a regex searched (not fully matched) against the block ID, so partial matches work.
+	#Example: ".*reative.*" blocks all blocks with "reative" in their ID (e.g. all Creative blocks),
+	#or "seeds" blocks any block whose ID contains "seeds".
+	#Note: the paradox_deny block tag also controls this and is checked first.
+	paradox_block_blacklist = [".*kubejs.*", ".*creative.*"]
 
 #Polymorphic Wand
 [polymorphic_wand]
@@ -145,6 +151,12 @@
 	time_wand_max_multiplier = 256
 	#Can fake players (e.g. Clickers) use the Time Wand?
 	time_wand_fake_player_allowed = false
+	#Blocks the Time Wand cannot accelerate, matched by regex against the full block ID.
+	#Each entry is a regex searched (not fully matched) against the block ID, so partial matches work.
+	#Example: "draconicevolution:chaos_crystal" blocks that exact block,
+	#or "^draconicevolution:" blocks all blocks from that mod.
+	#Note: the tick_speed_deny block tag also controls this and is checked first.
+	time_wand_block_blacklist = ["^kubejs:", "^avaritia:", "^draconicevolution:"]
 
 #Advanced Portal Gun
 [portal_gun]
@@ -166,15 +178,15 @@
 
 #Portal Gun
 [portal_gun_original]
-	#Max mB of unstable portal fluid the original Portal Gun can hold
-	#Range: > 1
-	portal_gun_original_max_fluid = 4000
-	#mB of unstable portal fluid consumed per shot
-	#Range: > 0
-	portal_gun_original_fluid_cost = 500
 	#How many ticks a portal remains open (-1 for infinite)
 	#Range: > -1
 	portal_gun_original_lifespan = 3000
+	#Max FE capacity of the original Portal Gun
+	#Range: > 1
+	portal_gun_original_max_fe = 100000
+	#FE cost per portal shot
+	#Range: > 0
+	portal_gun_original_fe_cost = 1000
 
 #Polymorphic Wand V2
 [polymorphic_wand_v2]
@@ -190,10 +202,11 @@
 	#mB of polymorphic fluid consumed per targeted polymorph
 	#Range: > 0
 	target_polymorph_cost = 1000
-	#Entities or mods that the Polymorphic Wand cannot create.
-	#Use full entity IDs (e.g. "somebossmod:big_boss") for specific entities,
-	#or just the mod ID (e.g. "somebossmod") to block all entities from that mod.
-	polymorph_blacklist = ["draconicevolution:draconic_guardian", "pneumaticcraft", "avaritia", "block_factorys_bosses", "twilightforest", "thermal", "nuclearcraft:feral_ghoul_boss", "mutantmonsters", "justdirethings", "cyclic", "cataclysm", "botania", "born_in_chaos_v1:lord_pumpkinhead"]
+	#Entities the Polymorphic Wand cannot create, matched by regex against the full entity ID.
+	#Each entry is a regex searched (not fully matched) against the entity ID, so partial matches work.
+	#Example: "somebossmod:big_boss" blocks that exact entity,
+	#or "^somebossmod:" blocks all entities from that mod.
+	polymorph_blacklist = ["draconicevolution:draconic_guardian", "^pneumaticcraft:", "^avaritia:", "^twilightforest:", "^thermal:", "nuclearcraft:feral_ghoul_boss", "^mutantmonsters:", "^justdirethings:", "^cyclic:", "^cataclysm:", "^botania:", "born_in_chaos_v1:lord_pumpkinhead"]
 
 #Goo settings
 [goo]
@@ -210,13 +223,15 @@
 
 #Block Swapper
 [block_swapper]
-	#Entities or mods that the Block Swapper cannot teleport.
-	#Use full entity IDs (e.g. "draconicevolution:chaos_guardian") for specific entities,
-	#or just the mod ID (e.g. "draconicevolution") to block all entities from that mod.
+	#Entities the Block Swapper cannot teleport, matched by regex against the full entity ID.
+	#Each entry is a regex searched (not fully matched) against the entity ID, so partial matches work.
+	#Example: "draconicevolution:chaos_guardian" blocks that exact entity,
+	#or "^draconicevolution:" blocks all entities from that mod.
 	swapper_entity_blacklist = ["draconicevolution"]
-	#Blocks or mods that the Block Swapper cannot move.
-	#Use full block IDs (e.g. "draconicevolution:chaos_crystal") for specific blocks,
-	#or just the mod ID (e.g. "draconicevolution") to block all blocks from that mod.
+	#Blocks the Block Swapper cannot move, matched by regex against the full block ID.
+	#Each entry is a regex searched (not fully matched) against the block ID, so partial matches work.
+	#Example: "draconicevolution:chaos_crystal" blocks that exact block,
+	#or "^draconicevolution:" blocks all blocks from that mod.
 	#Note: the swapper_deny block tag also controls this and is checked first.
-	swapper_block_blacklist = ["draconicevolution"]
+	swapper_block_blacklist = ["^draconicevolution:"]
 

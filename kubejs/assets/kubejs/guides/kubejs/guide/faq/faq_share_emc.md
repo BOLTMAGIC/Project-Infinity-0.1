@@ -1,9 +1,9 @@
 ---
 navigation:
-  parent: faq.md
+  parent: index.md
   title: Sharing EMC
   icon: botania:cosmetic_questgiver_mark
-  position: 19
+  position: 20
 categories:
    - FAQ
 item_ids:

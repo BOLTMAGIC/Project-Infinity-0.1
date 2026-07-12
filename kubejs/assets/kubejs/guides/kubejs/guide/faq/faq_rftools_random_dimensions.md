@@ -3,7 +3,7 @@ navigation:
   parent: faq.md
   title: RFTools random dimensions
   icon: bloodmagic:altar
-  position: 18
+  position: 19
 categories:
    - FAQ
 item_ids:

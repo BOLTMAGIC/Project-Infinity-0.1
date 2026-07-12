@@ -1,0 +1,109 @@
+{
+    "size": "large",
+    "color": "#21d150",
+    "rules": {
+        "allow_discarding": true,
+        "player_damage_only": true
+    },
+    "waves": [
+        {
+            "entities": [
+                {
+                    "entity": "mutantmonsters:mutant_creeper",
+                    "count": 2
+                }
+            ],
+            "rewards": [],
+            "max_wave_time": 8000,
+            "setup_time": 300
+        },
+        {
+            "entities": [
+                {
+                    "entity": "mutantmonsters:mutant_zombie",
+                    "count": 2
+                }
+            ],
+            "rewards": [],
+            "max_wave_time": 8000,
+            "setup_time": 300
+        },
+        {
+            "entities": [
+                {
+                    "entity": "mutantmonsters:spider_pig",
+                    "count": 2
+                }
+            ],
+            "rewards": [],
+            "max_wave_time": 8000,
+            "setup_time": 300
+        },
+        {
+            "entities": [
+                {
+                    "entity": "mutantmonsters:mutant_snow_golem",
+                    "count": 2
+                }
+            ],
+            "rewards": [],
+            "max_wave_time": 8000,
+            "setup_time": 300
+        },
+        {
+            "entities": [
+                {
+                    "entity": "mutantmonsters:mutant_skeleton",
+                    "count": 2
+                }
+            ],
+            "rewards": [],
+            "max_wave_time": 8000,
+            "setup_time": 300
+        },
+        {
+            "entities": [
+                {
+                    "entity": "mutantmonsters:mutant_enderman",
+                    "count": 2
+                }
+            ],
+            "rewards": [],
+            "max_wave_time": 8000,
+            "setup_time": 300
+        }
+    ],
+    "rewards": [
+        {
+            "type": "gateways:entity_loot",
+            "entity": "mutantmonsters:mutant_creeper",
+            "rolls": 1
+        },
+        {
+            "type": "gateways:entity_loot",
+            "entity": "mutantmonsters:mutant_zombie",
+            "rolls": 1
+        },
+        {
+            "type": "gateways:entity_loot",
+            "entity": "mutantmonsters:spider_pig",
+            "rolls": 1
+        },
+        {
+            "type": "gateways:entity_loot",
+            "entity": "mutantmonsters:mutant_snow_golem",
+            "rolls": 1
+        },
+        {
+            "type": "gateways:entity_loot",
+            "entity": "mutantmonsters:mutant_skeleton",
+            "rolls": 1
+        },
+        {
+            "type": "gateways:entity_loot",
+            "entity": "mutantmonsters:mutant_enderman",
+            "rolls": 1
+        }
+    ],
+    "failures": []
+}

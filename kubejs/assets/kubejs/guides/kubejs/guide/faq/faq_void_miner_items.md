@@ -1,6 +1,6 @@
 ---
 navigation:
-  parent: faq.md
+  parent: index.md
   title: Void miner item flood
   icon: voidminers:rubetine_miner
   position: 4

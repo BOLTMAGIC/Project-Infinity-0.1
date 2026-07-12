@@ -1,6 +1,6 @@
 ---
 navigation:
-  parent: faq.md
+  parent: index.md
   title: Smithing Templates
   icon: minecraft:netherite_upgrade_smithing_template
   position: 2

@@ -1,6 +1,6 @@
 ---
 navigation:
-  parent: faq.md
+  parent: index.md
   title: Mana transport Botania
   icon: botania:spark
   position: 7

@@ -1,6 +1,6 @@
 ---
 navigation:
-  parent: faq.md
+  parent: index.md
   title: Infinity 9 CU
   icon: kubejs:infinity_9
   position: 3

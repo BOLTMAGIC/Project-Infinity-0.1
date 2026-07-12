@@ -1,4 +1,10 @@
 ServerEvents.recipes((event) => {
+  shapeless(event, Item.of('guideme:guide', '{guideId:"kubejs:guide"}'), [
+    'minecraft:book',
+    'minecraft:oak_log',
+    'minecraft:stone',
+  ]);
+
   event.blasting('kubejs:azure_silver_ingot', ['kubejs:azure_silver_ore']);
 
   event.smelting('kubejs:compressed_glass', 'compressium:sand_1');
@@ -7,6 +13,9 @@ ServerEvents.recipes((event) => {
 
   shapeless(event, 'kubejs:infinity_8_block', ['kubejs:infinity_8']);
   shapeless(event, 'kubejs:infinity_8', ['kubejs:infinity_8_block']);
+
+  shapeless(event, 'kubejs:infinity_6_block', ['9x kubejs:infinity_6']);
+  shapeless(event, '9x kubejs:infinity_6', ['kubejs:infinity_6_block']);
 
   shapeless(event, 'kubejs:infinity_2', [
     'kubejs:infinity_1_333333',
@@ -468,12 +477,44 @@ ServerEvents.recipes((event) => {
     ]);
   });
 
-  shapeless(event, 'bmaddon:blood_altar_tier_card_2', 'kubejs:blood_altar_tier_card_2_block');
-  shapeless(event, 'kubejs:blood_altar_tier_card_2_block', 'bmaddon:blood_altar_tier_card_2');
-  shapeless(event, 'bmaddon:blood_altar_tier_card_3', 'kubejs:blood_altar_tier_card_3_block');
-  shapeless(event, 'kubejs:blood_altar_tier_card_3_block', 'bmaddon:blood_altar_tier_card_3');
-  shapeless(event, 'bmaddon:blood_altar_tier_card_4', 'kubejs:blood_altar_tier_card_4_block');
-  shapeless(event, 'kubejs:blood_altar_tier_card_4_block', 'bmaddon:blood_altar_tier_card_4');
-  shapeless(event, 'bmaddon:blood_altar_tier_card_5', 'kubejs:blood_altar_tier_card_5_block');
-  shapeless(event, 'kubejs:blood_altar_tier_card_5_block', 'bmaddon:blood_altar_tier_card_5');
+  shapeless(
+    event,
+    'bmaddon:blood_altar_tier_card_2',
+    'kubejs:blood_altar_tier_card_2_block'
+  );
+  shapeless(
+    event,
+    'kubejs:blood_altar_tier_card_2_block',
+    'bmaddon:blood_altar_tier_card_2'
+  );
+  shapeless(
+    event,
+    'bmaddon:blood_altar_tier_card_3',
+    'kubejs:blood_altar_tier_card_3_block'
+  );
+  shapeless(
+    event,
+    'kubejs:blood_altar_tier_card_3_block',
+    'bmaddon:blood_altar_tier_card_3'
+  );
+  shapeless(
+    event,
+    'bmaddon:blood_altar_tier_card_4',
+    'kubejs:blood_altar_tier_card_4_block'
+  );
+  shapeless(
+    event,
+    'kubejs:blood_altar_tier_card_4_block',
+    'bmaddon:blood_altar_tier_card_4'
+  );
+  shapeless(
+    event,
+    'bmaddon:blood_altar_tier_card_5',
+    'kubejs:blood_altar_tier_card_5_block'
+  );
+  shapeless(
+    event,
+    'kubejs:blood_altar_tier_card_5_block',
+    'bmaddon:blood_altar_tier_card_5'
+  );
 });

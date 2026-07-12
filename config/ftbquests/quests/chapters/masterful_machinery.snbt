@@ -32,7 +32,7 @@
 		}
 		{
 			height: 1.0d
-			image: "kubejs:block/silent/empowered_super_block"
+			image: "kubejs:block/misc/empowered_super_block"
 			rotation: 0.0d
 			width: 1.0d
 			x: 2.5d

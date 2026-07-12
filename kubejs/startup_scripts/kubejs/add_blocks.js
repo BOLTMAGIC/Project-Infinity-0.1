@@ -38,7 +38,9 @@ StartupEvents.registry('block', (event) => {
     .soundType('stone')
     .hardness(1.2)
     .resistance(2.0)
-    .textureAll('kubejs:block/blood_magic/blood_infused_blood_altar_tier_card_2_block');
+    .textureAll(
+      'kubejs:block/blood_magic/blood_infused_blood_altar_tier_card_2_block'
+    );
 
   event
     .create('blood_infused_blood_altar_tier_card_3_block')
@@ -46,7 +48,9 @@ StartupEvents.registry('block', (event) => {
     .soundType('stone')
     .hardness(1.2)
     .resistance(2.0)
-    .textureAll('kubejs:block/blood_magic/blood_infused_blood_altar_tier_card_3_block');
+    .textureAll(
+      'kubejs:block/blood_magic/blood_infused_blood_altar_tier_card_3_block'
+    );
 
   event
     .create('blood_infused_blood_altar_tier_card_4_block')
@@ -54,7 +58,9 @@ StartupEvents.registry('block', (event) => {
     .soundType('stone')
     .hardness(1.2)
     .resistance(2.0)
-    .textureAll('kubejs:block/blood_magic/blood_infused_blood_altar_tier_card_4_block');
+    .textureAll(
+      'kubejs:block/blood_magic/blood_infused_blood_altar_tier_card_4_block'
+    );
   event
     .create('compressed_slate')
     .displayName('Compressed Slate')
@@ -89,6 +95,14 @@ StartupEvents.registry('block', (event) => {
     .textureAll('kubejs:block/industrial_foregoing/pink_slime_block');
 
   //#region infinity
+  event
+    .create('infinity_6_block')
+    .displayName('Infinity 6 Block')
+    .soundType('metal')
+    .hardness(1.2)
+    .resistance(2.0)
+    .textureAll('kubejs:block/infinity/infinity_6_block');
+
   event
     .create('infinity_8_block')
     .displayName('Infinity 8 Block')
@@ -257,7 +271,7 @@ StartupEvents.registry('block', (event) => {
     .hardness(1.0)
     .resistance(1.0)
     .textureAll('kubejs:block/armor_plus/block_of_en_diamond');
-    
+
   event
     .create('block_of_en_netherite')
     .displayName('Block of Enhanced Netherite')

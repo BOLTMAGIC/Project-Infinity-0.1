@@ -981,13 +981,7 @@
 		}
 		{
 			dependencies: ["323A1A1FC1EFDB3C"]
-			description: [
-				"Unlike the Creative Bin, the Vending upgrade allows you Clone itself, and swap Infinite sources at will."
-				""
-				"If you place a vending upgrade into a Bin, you'll only ever need one of anything to have Infinite of it."
-				""
-				"Because of this, The Vending Upgrade is the second hardest item to craft."
-			]
+			description: ["The Vending Upgrade is the second hardest item to craft."]
 			id: "44E129F742C860C1"
 			rewards: [{
 				id: "61A60B8637D628A3"

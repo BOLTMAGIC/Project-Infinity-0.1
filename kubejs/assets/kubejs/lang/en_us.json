@@ -321,10 +321,13 @@
 
   "tooltip.hostilenetworks.data_model.lord_pumpkinhead": "You can't kill me to get Data, look at the recipes of this item.",
 
+  "tooltip.kubejs.vibranium_template": "Find me in large bastion remnants. Brush suspicious soul sand.",
+  "tooltip.kubejs.unobtainium_template": "Dungeon structures in the Other. Look for the huge underground structure. The template appears rarely in chests in library rooms.",
+
   "tooltip.kubejs.fake_mob_masher": "Please dont look at the texture. This is a fake item used to fix a crash.",
 
-  "tooltip.kubejs.tank_token_1": "This Token contains %s mB of %s",
-  "tooltip.kubejs.tank_token_2": "From the mod : %s",
+  "tooltip.kubejs.tank_tokens_1": "This Token contains %s mB of %s",
+  "tooltip.kubejs.tank_tokens_2": "From the mod : %s",
 
   "tooltip.kubejs.year_1_cake_1": "Happy 1 year anniversary of Project Infinity 0.1 !",
   "tooltip.kubejs.year_1_cake_2": "Can you believe it ?",

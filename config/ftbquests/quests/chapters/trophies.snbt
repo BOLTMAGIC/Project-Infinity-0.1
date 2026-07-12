@@ -76,23 +76,29 @@
 			hide_until_deps_visible: false
 			icon_scale: 2.0d
 			id: "0C17286BEE764C15"
-			rewards: [{
-				id: "50EA227263BF1D10"
-				item: {
-					Count: 1
-					id: "obtrophies:trophy"
-					tag: {
-						BlockEntityTag: {
-							VariantID: 0
-							entity: "cataclysm:the_leviathan"
+			rewards: [
+				{
+					id: "6CE8CEBCAAC4F938"
+					item: "kubejs:ascended_coin"
+					type: "item"
+				}
+				{
+					id: "1ADEDFB1463C8A13"
+					item: {
+						Count: 1
+						id: "obtrophies:trophy"
+						tag: {
+							BlockEntityTag: {
+								entity: "cataclysm:the_leviathan"
+							}
 						}
 					}
+					type: "item"
 				}
-				type: "item"
-			}]
+			]
 			shape: "rsquare"
 			size: 2.0d
-			subtitle: "{ftbquests.chapter.trophies.questC17286BEE764C15.subtitle}"
+			subtitle: "Hunting Dimension. Ocean Biome. Sunken City Structure Boss"
 			tasks: [{
 				entity: "cataclysm:the_leviathan"
 				icon: {
@@ -100,45 +106,54 @@
 					id: "obtrophies:trophy"
 					tag: {
 						BlockEntityTag: {
-							VariantID: 0
 							entity: "cataclysm:the_leviathan"
 						}
 					}
 				}
-				id: "345155F886520E82"
+				id: "07232CF9317BC0D3"
 				type: "kill"
 				value: 1L
 			}]
-			x: -13.0d
-			y: 13.0d
+			x: -21.0d
+			y: 12.0d
 		}
 		{
 			can_repeat: false
+			dependencies: ["2A4F18AF12384AD1"]
 			hide_details_until_startable: false
 			hide_text_until_complete: false
 			hide_until_deps_visible: false
 			icon_scale: 2.0d
 			id: "727D679153B5CC69"
-			rewards: [{
-				id: "1ADB19D668EA034E"
-				item: "kubejs:ascended_coin"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "1ADB19D668EA034E"
+					item: "kubejs:ascended_coin"
+					type: "item"
+				}
+				{
+					id: "10D8BCA41962507D"
+					item: {
+						Count: 1
+						id: "obtrophies:trophy"
+						tag: {
+							BlockEntityTag: {
+								VariantID: 0
+								entity: "twilightforest:alpha_yeti"
+							}
+						}
+					}
+					type: "item"
+				}
+			]
 			shape: "rsquare"
 			size: 2.0d
 			tasks: [{
-				id: "11101CA9AB84A000"
-				item: {
-					Count: 1
-					id: "obtrophies:trophy"
-					tag: {
-						BlockEntityTag: {
-							entity: "twilightforest:alpha_yeti"
-						}
-					}
-				}
-				match_nbt: true
-				type: "item"
+				entity: "twilightforest:alpha_yeti"
+				icon: "twilightforest:alpha_yeti_trophy"
+				id: "2FA1939F92F32D03"
+				type: "kill"
+				value: 1L
 			}]
 			x: -5.0d
 			y: 14.0d
@@ -150,33 +165,46 @@
 			hide_until_deps_visible: false
 			icon_scale: 2.0d
 			id: "090B353D06371C2F"
-			rewards: [{
-				id: "120EF35235767DED"
-				item: "kubejs:ascended_coin"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "683B5C7835D7B1CD"
+					item: "kubejs:ascended_coin"
+					type: "item"
+				}
+				{
+					id: "732C2D2CDAD20E08"
+					item: {
+						Count: 1
+						id: "obtrophies:trophy"
+						tag: {
+							BlockEntityTag: {
+								entity: "cataclysm:ender_golem"
+							}
+						}
+					}
+					type: "item"
+				}
+			]
 			shape: "rsquare"
 			size: 2.0d
-			subtitle: "{ftbquests.chapter.trophies.quest90B353D06371C2F.subtitle}"
+			subtitle: "End Dimension. Ruined Citadel Structure. MiniBoss"
 			tasks: [{
-				consume_items: false
-				id: "4D960D843D196E12"
-				item: {
+				entity: "cataclysm:ender_golem"
+				icon: {
 					Count: 1
 					id: "obtrophies:trophy"
 					tag: {
 						BlockEntityTag: {
-							VariantID: 0
 							entity: "cataclysm:ender_golem"
 						}
 					}
 				}
-				match_nbt: true
-				only_from_crafting: false
-				type: "item"
+				id: "474247CF5B0FFEAE"
+				type: "kill"
+				value: 1L
 			}]
-			x: -19.0d
-			y: 12.0d
+			x: -17.0d
+			y: 16.0d
 		}
 		{
 			can_repeat: false
@@ -214,22 +242,37 @@
 		}
 		{
 			can_repeat: false
+			dependencies: ["3A182E53E0E2359A"]
 			hide_details_until_startable: false
 			hide_text_until_complete: false
 			hide_until_deps_visible: false
 			icon_scale: 2.0d
 			id: "129579FEE23643C0"
-			rewards: [{
-				id: "17C76794DCF3A451"
-				item: "kubejs:ascended_coin"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "17C76794DCF3A451"
+					item: "kubejs:ascended_coin"
+					type: "item"
+				}
+				{
+					id: "5D94DE07E2BC84EC"
+					item: {
+						Count: 1
+						id: "obtrophies:trophy"
+						tag: {
+							BlockEntityTag: {
+								entity: "minecraft:warden"
+							}
+						}
+					}
+					type: "item"
+				}
+			]
 			shape: "rsquare"
 			size: 2.0d
 			tasks: [{
-				consume_items: false
-				id: "761BF4C732711FE6"
-				item: {
+				entity: "minecraft:warden"
+				icon: {
 					Count: 1
 					id: "obtrophies:trophy"
 					tag: {
@@ -239,9 +282,9 @@
 						}
 					}
 				}
-				match_nbt: true
-				only_from_crafting: false
-				type: "item"
+				id: "390F715B87FAEACC"
+				type: "kill"
+				value: 1L
 			}]
 			x: -3.0d
 			y: 6.0d
@@ -253,33 +296,46 @@
 			hide_until_deps_visible: false
 			icon_scale: 2.0d
 			id: "19AD469AA10F626B"
-			rewards: [{
-				id: "21464202782E1A46"
-				item: "kubejs:ascended_coin"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "3DB387E79B362B6D"
+					item: "kubejs:ascended_coin"
+					type: "item"
+				}
+				{
+					id: "035ECA94274993A8"
+					item: {
+						Count: 1
+						id: "obtrophies:trophy"
+						tag: {
+							BlockEntityTag: {
+								entity: "cataclysm:ancient_remnant"
+							}
+						}
+					}
+					type: "item"
+				}
+			]
 			shape: "rsquare"
 			size: 2.0d
-			subtitle: "{ftbquests.chapter.trophies.quest19AD469AA10F626B.subtitle}"
+			subtitle: "Lost Cities Dimension. Desert Biome. Cursed Pyramid Structure Boss"
 			tasks: [{
-				consume_items: false
-				id: "2996F643A889BE33"
-				item: {
+				entity: "cataclysm:ancient_remnant"
+				icon: {
 					Count: 1
 					id: "obtrophies:trophy"
 					tag: {
 						BlockEntityTag: {
-							VariantID: 0
 							entity: "cataclysm:ancient_remnant"
 						}
 					}
 				}
-				match_nbt: true
-				only_from_crafting: false
-				type: "item"
+				id: "45CCD4369B1000E8"
+				type: "kill"
+				value: 1L
 			}]
-			x: -15.0d
-			y: 12.0d
+			x: -21.0d
+			y: 16.0d
 		}
 		{
 			can_repeat: false
@@ -288,17 +344,31 @@
 			hide_until_deps_visible: false
 			icon_scale: 2.0d
 			id: "3E95DAD3114DB736"
-			rewards: [{
-				id: "107CC69590BA4BA3"
-				item: "kubejs:ascended_coin"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "107CC69590BA4BA3"
+					item: "kubejs:ascended_coin"
+					type: "item"
+				}
+				{
+					id: "5778331D05CBCB53"
+					item: {
+						Count: 1
+						id: "obtrophies:trophy"
+						tag: {
+							BlockEntityTag: {
+								entity: "minecraft:wither"
+							}
+						}
+					}
+					type: "item"
+				}
+			]
 			shape: "rsquare"
 			size: 2.0d
 			tasks: [{
-				consume_items: false
-				id: "428B54467F0B9751"
-				item: {
+				entity: "minecraft:wither"
+				icon: {
 					Count: 1
 					id: "obtrophies:trophy"
 					tag: {
@@ -308,40 +378,49 @@
 						}
 					}
 				}
-				match_nbt: true
-				only_from_crafting: false
-				type: "item"
+				id: "0D43FD8EA7F182AB"
+				type: "kill"
+				value: 1L
 			}]
 			x: -7.0d
 			y: 6.0d
 		}
 		{
 			can_repeat: false
+			dependencies: ["28C4A252B3C43FC0"]
 			hide_details_until_startable: false
 			hide_text_until_complete: false
 			hide_until_deps_visible: false
 			icon_scale: 2.0d
 			id: "5E412D0911470EC8"
-			rewards: [{
-				id: "06DE3ABDC4A3E486"
-				item: "kubejs:ascended_coin"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "06DE3ABDC4A3E486"
+					item: "kubejs:ascended_coin"
+					type: "item"
+				}
+				{
+					id: "6BD72438673CCC9B"
+					item: {
+						Count: 1
+						id: "obtrophies:trophy"
+						tag: {
+							BlockEntityTag: {
+								entity: "twilightforest:lich"
+							}
+						}
+					}
+					type: "item"
+				}
+			]
 			shape: "rsquare"
 			size: 2.0d
 			tasks: [{
-				id: "2C815CE9554CABFB"
-				item: {
-					Count: 1
-					id: "obtrophies:trophy"
-					tag: {
-						BlockEntityTag: {
-							entity: "twilightforest:lich"
-						}
-					}
-				}
-				match_nbt: true
-				type: "item"
+				entity: "twilightforest:lich"
+				icon: "twilightforest:lich_trophy"
+				id: "29799C7B4B59C2C8"
+				type: "kill"
+				value: 1L
 			}]
 			x: -7.0d
 			y: 12.0d
@@ -353,32 +432,45 @@
 			hide_until_deps_visible: false
 			icon_scale: 2.0d
 			id: "421704684A878A50"
-			rewards: [{
-				id: "6526ECC25FCC83E2"
-				item: "kubejs:ascended_coin"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "67367DB579C7BE85"
+					item: "kubejs:ascended_coin"
+					type: "item"
+				}
+				{
+					id: "681BA89F0B54DF8E"
+					item: {
+						Count: 1
+						id: "obtrophies:trophy"
+						tag: {
+							BlockEntityTag: {
+								entity: "cataclysm:the_harbinger"
+							}
+						}
+					}
+					type: "item"
+				}
+			]
 			shape: "rsquare"
 			size: 2.0d
-			subtitle: "{ftbquests.chapter.trophies.quest421704684A878A50.subtitle}"
+			subtitle: "Hunting Dimension. Underground. Ancient Factory Sturcute. Boss"
 			tasks: [{
-				consume_items: false
-				id: "1BEAE18014D96BC2"
-				item: {
+				entity: "cataclysm:the_harbinger"
+				icon: {
 					Count: 1
 					id: "obtrophies:trophy"
 					tag: {
 						BlockEntityTag: {
-							VariantID: 0
 							entity: "cataclysm:the_harbinger"
 						}
 					}
 				}
-				match_nbt: true
-				only_from_crafting: false
-				type: "item"
+				id: "08A4AA5E8138C64A"
+				type: "kill"
+				value: 1L
 			}]
-			x: -17.0d
+			x: -15.0d
 			y: 14.0d
 		}
 		{
@@ -417,93 +509,120 @@
 		}
 		{
 			can_repeat: false
+			dependencies: ["5E412D0911470EC8"]
 			hide_details_until_startable: false
 			hide_text_until_complete: false
 			hide_until_deps_visible: false
 			icon_scale: 2.0d
 			id: "286FAA3DC4D41B72"
-			rewards: [{
-				id: "7706185A6D96CEB2"
-				item: "kubejs:ascended_coin"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "7706185A6D96CEB2"
+					item: "kubejs:ascended_coin"
+					type: "item"
+				}
+				{
+					id: "4012B7A047C00586"
+					item: {
+						Count: 1
+						id: "obtrophies:trophy"
+						tag: {
+							BlockEntityTag: {
+								entity: "twilightforest:minoshroom"
+							}
+						}
+					}
+					type: "item"
+				}
+			]
 			shape: "rsquare"
 			size: 2.0d
 			tasks: [{
-				id: "3FC4CD74040F0248"
-				item: {
-					Count: 1
-					id: "obtrophies:trophy"
-					tag: {
-						BlockEntityTag: {
-							entity: "twilightforest:minoshroom"
-						}
-					}
-				}
-				match_nbt: true
-				type: "item"
+				entity: "twilightforest:minoshroom"
+				icon: "twilightforest:minoshroom_trophy"
+				id: "401812EC1314A985"
+				type: "kill"
+				value: 1L
 			}]
 			x: -5.0d
 			y: 12.0d
 		}
 		{
 			can_repeat: false
+			dependencies: ["70D32DC0A4532E75"]
 			hide_details_until_startable: false
 			hide_text_until_complete: false
 			hide_until_deps_visible: false
 			icon_scale: 2.0d
 			id: "2A4F18AF12384AD1"
-			rewards: [{
-				id: "72DD99D265B41CFB"
-				item: "kubejs:ascended_coin"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "72DD99D265B41CFB"
+					item: "kubejs:ascended_coin"
+					type: "item"
+				}
+				{
+					id: "4119DCAFA534006A"
+					item: {
+						Count: 1
+						id: "obtrophies:trophy"
+						tag: {
+							BlockEntityTag: {
+								entity: "twilightforest:ur_ghast"
+							}
+						}
+					}
+					type: "item"
+				}
+			]
 			shape: "rsquare"
 			size: 2.0d
 			tasks: [{
-				id: "533A42418983F2D4"
-				item: {
-					Count: 1
-					id: "obtrophies:trophy"
-					tag: {
-						BlockEntityTag: {
-							entity: "twilightforest:ur_ghast"
-						}
-					}
-				}
-				match_nbt: true
-				type: "item"
+				entity: "twilightforest:ur_ghast"
+				icon: "twilightforest:ur_ghast_trophy"
+				id: "06FC9922DCA2FCC1"
+				type: "kill"
+				value: 1L
 			}]
 			x: -7.0d
 			y: 14.0d
 		}
 		{
 			can_repeat: false
+			dependencies: ["333D13D510CF84AA"]
 			hide_details_until_startable: false
 			hide_text_until_complete: false
 			hide_until_deps_visible: false
 			icon_scale: 2.0d
 			id: "70D32DC0A4532E75"
-			rewards: [{
-				id: "37F2913C503C59A8"
-				item: "kubejs:ascended_coin"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "37F2913C503C59A8"
+					item: "kubejs:ascended_coin"
+					type: "item"
+				}
+				{
+					id: "6E9646A0819F8E60"
+					item: {
+						Count: 1
+						id: "obtrophies:trophy"
+						tag: {
+							BlockEntityTag: {
+								entity: "twilightforest:knight_phantom"
+							}
+						}
+					}
+					type: "item"
+				}
+			]
 			shape: "rsquare"
 			size: 2.0d
 			tasks: [{
-				id: "6E81A54ECD76E93F"
-				item: {
-					Count: 1
-					id: "obtrophies:trophy"
-					tag: {
-						BlockEntityTag: {
-							entity: "twilightforest:knight_phantom"
-						}
-					}
-				}
-				match_nbt: true
-				type: "item"
+				entity: "twilightforest:knight_phantom"
+				icon: "twilightforest:knight_phantom_trophy"
+				id: "3F1B406BC4F23E6A"
+				type: "kill"
+				value: 1L
 			}]
 			x: -9.0d
 			y: 14.0d
@@ -515,17 +634,31 @@
 			hide_until_deps_visible: false
 			icon_scale: 2.0d
 			id: "5C142E209917BEEE"
-			rewards: [{
-				id: "524341EC95EC8C37"
-				item: "kubejs:ascended_coin"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "524341EC95EC8C37"
+					item: "kubejs:ascended_coin"
+					type: "item"
+				}
+				{
+					id: "748743D5CE1F3FF0"
+					item: {
+						Count: 1
+						id: "obtrophies:trophy"
+						tag: {
+							BlockEntityTag: {
+								entity: "minecraft:ender_dragon"
+							}
+						}
+					}
+					type: "item"
+				}
+			]
 			shape: "rsquare"
 			size: 2.0d
 			tasks: [{
-				consume_items: false
-				id: "3238817C3F7027ED"
-				item: {
+				entity: "minecraft:ender_dragon"
+				icon: {
 					Count: 1
 					id: "obtrophies:trophy"
 					tag: {
@@ -535,9 +668,9 @@
 						}
 					}
 				}
-				match_nbt: true
-				only_from_crafting: false
-				type: "item"
+				id: "71D35AB2986B88D0"
+				type: "kill"
+				value: 1L
 			}]
 			x: -5.0d
 			y: 6.0d
@@ -549,32 +682,45 @@
 			hide_until_deps_visible: false
 			icon_scale: 2.0d
 			id: "4F8621DAF45C01F3"
-			rewards: [{
-				id: "579F87A7C54CEE27"
-				item: "kubejs:ascended_coin"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "674DA2A2145D5E3A"
+					item: "kubejs:ascended_coin"
+					type: "item"
+				}
+				{
+					id: "36C2644A4BD95129"
+					item: {
+						Count: 1
+						id: "obtrophies:trophy"
+						tag: {
+							BlockEntityTag: {
+								entity: "cataclysm:the_prowler"
+							}
+						}
+					}
+					type: "item"
+				}
+			]
 			shape: "rsquare"
 			size: 2.0d
-			subtitle: "{ftbquests.chapter.trophies.quest4F8621DAF45C01F3.subtitle}"
+			subtitle: "Hunting Dimension. Underground. Ancient Factory Sturcute. MiniBoss"
 			tasks: [{
-				consume_items: false
-				id: "490AC22321279129"
-				item: {
+				entity: "cataclysm:the_prowler"
+				icon: {
 					Count: 1
 					id: "obtrophies:trophy"
 					tag: {
 						BlockEntityTag: {
-							VariantID: 0
 							entity: "cataclysm:the_prowler"
 						}
 					}
 				}
-				match_nbt: true
-				only_from_crafting: false
-				type: "item"
+				id: "65DD404147EE3FF3"
+				type: "kill"
+				value: 1L
 			}]
-			x: -19.0d
+			x: -17.0d
 			y: 14.0d
 		}
 		{
@@ -613,31 +759,40 @@
 		}
 		{
 			can_repeat: false
+			dependencies: ["286FAA3DC4D41B72"]
 			hide_details_until_startable: false
 			hide_text_until_complete: false
 			hide_until_deps_visible: false
 			icon_scale: 2.0d
 			id: "333D13D510CF84AA"
-			rewards: [{
-				id: "07251222A7A1CE2C"
-				item: "kubejs:ascended_coin"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "07251222A7A1CE2C"
+					item: "kubejs:ascended_coin"
+					type: "item"
+				}
+				{
+					id: "29BB8060E02D1C5A"
+					item: {
+						Count: 1
+						id: "obtrophies:trophy"
+						tag: {
+							BlockEntityTag: {
+								entity: "twilightforest:hydra"
+							}
+						}
+					}
+					type: "item"
+				}
+			]
 			shape: "rsquare"
 			size: 2.0d
 			tasks: [{
-				id: "14C7C2934BFDBAC6"
-				item: {
-					Count: 1
-					id: "obtrophies:trophy"
-					tag: {
-						BlockEntityTag: {
-							entity: "twilightforest:hydra"
-						}
-					}
-				}
-				match_nbt: true
-				type: "item"
+				entity: "twilightforest:hydra"
+				icon: "twilightforest:hydra_trophy"
+				id: "0035DBDC2D0FAF07"
+				type: "kill"
+				value: 1L
 			}]
 			x: -3.0d
 			y: 12.0d
@@ -649,33 +804,46 @@
 			hide_until_deps_visible: false
 			icon_scale: 2.0d
 			id: "176A32477392BF5B"
-			rewards: [{
-				id: "1B411A8163870932"
-				item: "kubejs:ascended_coin"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "5BBD0C0DB4DE4287"
+					item: "kubejs:ascended_coin"
+					type: "item"
+				}
+				{
+					id: "116A909124920045"
+					item: {
+						Count: 1
+						id: "obtrophies:trophy"
+						tag: {
+							BlockEntityTag: {
+								entity: "cataclysm:netherite_monstrosity"
+							}
+						}
+					}
+					type: "item"
+				}
+			]
 			shape: "rsquare"
 			size: 2.0d
-			subtitle: "{ftbquests.chapter.trophies.quest176A32477392BF5B.subtitle}"
+			subtitle: "Nether Dimension. Soul Forge Structure. Boss"
 			tasks: [{
-				consume_items: false
-				id: "12BAA128B30B42E4"
-				item: {
+				entity: "cataclysm:netherite_monstrosity"
+				icon: {
 					Count: 1
 					id: "obtrophies:trophy"
 					tag: {
 						BlockEntityTag: {
-							VariantID: 0
 							entity: "cataclysm:netherite_monstrosity"
 						}
 					}
 				}
-				match_nbt: true
-				only_from_crafting: false
-				type: "item"
+				id: "2186B6DAC7B73501"
+				type: "kill"
+				value: 1L
 			}]
-			x: -21.0d
-			y: 12.0d
+			x: -19.0d
+			y: 16.0d
 		}
 		{
 			can_repeat: false
@@ -684,17 +852,31 @@
 			hide_until_deps_visible: false
 			icon_scale: 2.0d
 			id: "1E3D030FEC04F7DE"
-			rewards: [{
-				id: "3E6658E663B8D0F8"
-				item: "kubejs:ascended_coin"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "3E6658E663B8D0F8"
+					item: "kubejs:ascended_coin"
+					type: "item"
+				}
+				{
+					id: "28701238D3680CA0"
+					item: {
+						Count: 1
+						id: "obtrophies:trophy"
+						tag: {
+							BlockEntityTag: {
+								entity: "botania:doppleganger"
+							}
+						}
+					}
+					type: "item"
+				}
+			]
 			shape: "rsquare"
 			size: 2.0d
 			tasks: [{
-				consume_items: false
-				id: "0BC4B8C4A66903D0"
-				item: {
+				entity: "botania:doppleganger"
+				icon: {
 					Count: 1
 					id: "obtrophies:trophy"
 					tag: {
@@ -704,40 +886,54 @@
 						}
 					}
 				}
-				match_nbt: true
-				only_from_crafting: false
-				type: "item"
+				id: "5D29B5AD39DDFABA"
+				type: "kill"
+				value: 1L
 			}]
 			x: 4.0d
 			y: 6.0d
 		}
 		{
 			can_repeat: false
+			description: [
+				"Use the cake or build the portal."
+				"Throw a diamond in the water to activate the portal."
+				"{image:kubejs:block/screen/twilight_forest_portal1 width:100 height:100 align:center}"
+				"{image:kubejs:block/screen/twilight_forest_portal2 width:100 height:100 align:center}"
+			]
 			hide_details_until_startable: false
 			hide_text_until_complete: false
 			hide_until_deps_visible: false
 			icon_scale: 2.0d
 			id: "28C4A252B3C43FC0"
-			rewards: [{
-				id: "74323C4B7D4AEDD4"
-				item: "kubejs:ascended_coin"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "74323C4B7D4AEDD4"
+					item: "kubejs:ascended_coin"
+					type: "item"
+				}
+				{
+					id: "46E1112F9C219C37"
+					item: {
+						Count: 1
+						id: "obtrophies:trophy"
+						tag: {
+							BlockEntityTag: {
+								entity: "twilightforest:naga"
+							}
+						}
+					}
+					type: "item"
+				}
+			]
 			shape: "rsquare"
 			size: 2.0d
 			tasks: [{
-				id: "376D33F166DD140E"
-				item: {
-					Count: 1
-					id: "obtrophies:trophy"
-					tag: {
-						BlockEntityTag: {
-							entity: "twilightforest:naga"
-						}
-					}
-				}
-				match_nbt: true
-				type: "item"
+				entity: "twilightforest:naga"
+				icon: "twilightforest:naga_trophy"
+				id: "03861FC2842A127B"
+				type: "kill"
+				value: 1L
 			}]
 			x: -9.0d
 			y: 12.0d
@@ -812,31 +1008,40 @@
 		}
 		{
 			can_repeat: false
+			dependencies: ["727D679153B5CC69"]
 			hide_details_until_startable: false
 			hide_text_until_complete: false
 			hide_until_deps_visible: false
 			icon_scale: 2.0d
 			id: "5B94B68F7DE56059"
-			rewards: [{
-				id: "09DEDAC86969DAA1"
-				item: "kubejs:ascended_coin"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "09DEDAC86969DAA1"
+					item: "kubejs:ascended_coin"
+					type: "item"
+				}
+				{
+					id: "0314C612837DE27E"
+					item: {
+						Count: 1
+						id: "obtrophies:trophy"
+						tag: {
+							BlockEntityTag: {
+								entity: "twilightforest:snow_queen"
+							}
+						}
+					}
+					type: "item"
+				}
+			]
 			shape: "rsquare"
 			size: 2.0d
 			tasks: [{
-				id: "7F2B6424E9DA259C"
-				item: {
-					Count: 1
-					id: "obtrophies:trophy"
-					tag: {
-						BlockEntityTag: {
-							entity: "twilightforest:snow_queen"
-						}
-					}
-				}
-				match_nbt: true
-				type: "item"
+				entity: "twilightforest:snow_queen"
+				icon: "twilightforest:snow_queen_trophy"
+				id: "7C0E8264596F82B4"
+				type: "kill"
+				value: 1L
 			}]
 			x: -3.0d
 			y: 14.0d
@@ -848,17 +1053,31 @@
 			hide_until_deps_visible: false
 			icon_scale: 2.0d
 			id: "73844BDE8B09AF82"
-			rewards: [{
-				id: "23B2ACBC09C38EA4"
-				item: "kubejs:ascended_coin"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "23B2ACBC09C38EA4"
+					item: "kubejs:ascended_coin"
+					type: "item"
+				}
+				{
+					id: "21F069860AFC19EB"
+					item: {
+						Count: 1
+						id: "obtrophies:trophy"
+						tag: {
+							BlockEntityTag: {
+								entity: "minecraft:elder_guardian"
+							}
+						}
+					}
+					type: "item"
+				}
+			]
 			shape: "rsquare"
 			size: 2.0d
 			tasks: [{
-				consume_items: false
-				id: "51CC14399F4427AE"
-				item: {
+				entity: "minecraft:elder_guardian"
+				icon: {
 					Count: 1
 					id: "obtrophies:trophy"
 					tag: {
@@ -868,9 +1087,9 @@
 						}
 					}
 				}
-				match_nbt: true
-				only_from_crafting: false
-				type: "item"
+				id: "166A5AF3529BCDAA"
+				type: "kill"
+				value: 1L
 			}]
 			x: -9.0d
 			y: 6.0d
@@ -916,67 +1135,45 @@
 			hide_until_deps_visible: false
 			icon_scale: 2.0d
 			id: "505592DEC9244341"
-			rewards: [{
-				id: "10A6307DDAD80ABE"
-				item: "kubejs:ascended_coin"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "380D9BA6074D7369"
+					item: "kubejs:ascended_coin"
+					type: "item"
+				}
+				{
+					id: "3E37AFA23E6B778B"
+					item: {
+						Count: 1
+						id: "obtrophies:trophy"
+						tag: {
+							BlockEntityTag: {
+								entity: "cataclysm:ignis"
+							}
+						}
+					}
+					type: "item"
+				}
+			]
 			shape: "rsquare"
 			size: 2.0d
-			subtitle: "{ftbquests.chapter.trophies.quest505592DEC9244341.subtitle}"
+			subtitle: "Nether Dimension. Nether Wastes Biome. Burning Arena Structure. Boss"
 			tasks: [{
-				consume_items: false
-				id: "60E3DD68D17F87FB"
-				item: {
+				entity: "cataclysm:ignis"
+				icon: {
 					Count: 1
 					id: "obtrophies:trophy"
 					tag: {
 						BlockEntityTag: {
-							VariantID: 0
 							entity: "cataclysm:ignis"
 						}
 					}
 				}
-				match_nbt: true
-				only_from_crafting: false
-				type: "item"
+				id: "42225D3B43A655FA"
+				type: "kill"
+				value: 1L
 			}]
-			x: -15.0d
-			y: 14.0d
-		}
-		{
-			can_repeat: false
-			hide_details_until_startable: false
-			hide_text_until_complete: false
-			hide_until_deps_visible: false
-			icon_scale: 2.0d
-			id: "16E7B387F7A40600"
-			rewards: [{
-				id: "0038816BB9F60681"
-				item: "kubejs:ascended_coin"
-				type: "item"
-			}]
-			shape: "rsquare"
-			size: 2.0d
-			subtitle: "{ftbquests.chapter.trophies.quest16E7B387F7A40600.subtitle}"
-			tasks: [{
-				consume_items: false
-				id: "20F4F0B36FC557EE"
-				item: {
-					Count: 1
-					id: "obtrophies:trophy"
-					tag: {
-						BlockEntityTag: {
-							VariantID: 0
-							entity: "cataclysm:ender_guardian"
-						}
-					}
-				}
-				match_nbt: true
-				only_from_crafting: false
-				type: "item"
-			}]
-			x: -17.0d
+			x: -19.0d
 			y: 12.0d
 		}
 		{
@@ -985,18 +1182,81 @@
 			hide_text_until_complete: false
 			hide_until_deps_visible: false
 			icon_scale: 2.0d
-			id: "34AB3D77F5DF0E1D"
-			rewards: [{
-				id: "3D19A812059B9A6F"
-				item: "kubejs:ascended_coin"
-				type: "item"
+			id: "16E7B387F7A40600"
+			rewards: [
+				{
+					id: "71CAD201A2750A29"
+					item: "kubejs:ascended_coin"
+					type: "item"
+				}
+				{
+					id: "37944D472FFEF0CE"
+					item: {
+						Count: 1
+						id: "obtrophies:trophy"
+						tag: {
+							BlockEntityTag: {
+								entity: "cataclysm:ender_guardian"
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 2.0d
+			subtitle: "End Dimension. Ruined Citadel Structure. Boss"
+			tasks: [{
+				entity: "cataclysm:ender_guardian"
+				icon: {
+					Count: 1
+					id: "obtrophies:trophy"
+					tag: {
+						BlockEntityTag: {
+							entity: "cataclysm:ender_guardian"
+						}
+					}
+				}
+				id: "56AA200B11D4A802"
+				type: "kill"
+				value: 1L
 			}]
+			x: -15.0d
+			y: 16.0d
+		}
+		{
+			can_repeat: false
+			description: ["You monster!"]
+			hide_details_until_startable: false
+			hide_text_until_complete: false
+			hide_until_deps_visible: false
+			icon_scale: 2.0d
+			id: "34AB3D77F5DF0E1D"
+			rewards: [
+				{
+					id: "3D19A812059B9A6F"
+					item: "kubejs:ascended_coin"
+					type: "item"
+				}
+				{
+					id: "001EBB54CBB10FFC"
+					item: {
+						Count: 1
+						id: "obtrophies:trophy"
+						tag: {
+							BlockEntityTag: {
+								entity: "botania:pink_wither"
+							}
+						}
+					}
+					type: "item"
+				}
+			]
 			shape: "rsquare"
 			size: 2.0d
 			tasks: [{
-				consume_items: false
-				id: "20679C24B41170E1"
-				item: {
+				entity: "botania:pink_wither"
+				icon: {
 					Count: 1
 					id: "obtrophies:trophy"
 					tag: {
@@ -1006,9 +1266,9 @@
 						}
 					}
 				}
-				match_nbt: true
-				only_from_crafting: false
-				type: "item"
+				id: "17963E76EAB9365A"
+				type: "kill"
+				value: 1L
 			}]
 			x: 2.0d
 			y: 6.0d
@@ -1054,170 +1314,255 @@
 			hide_until_deps_visible: false
 			icon_scale: 2.0d
 			id: "154C21F7275D391F"
-			rewards: [{
-				id: "6BBB4491A74B8527"
-				item: "kubejs:ascended_coin"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "5B4B67ACA9B5FE22"
+					item: "kubejs:ascended_coin"
+					type: "item"
+				}
+				{
+					id: "082EE1C70B4624FE"
+					item: {
+						Count: 1
+						id: "obtrophies:trophy"
+						tag: {
+							BlockEntityTag: {
+								entity: "cataclysm:aptrgangr"
+							}
+						}
+					}
+					type: "item"
+				}
+			]
 			shape: "rsquare"
 			size: 2.0d
-			subtitle: "{ftbquests.chapter.trophies.quest154C21F7275D391F.subtitle}"
+			subtitle: "Lost Cities Dimension. Snowy Biomes. Frosted Prison Structure. MiniBoss"
 			tasks: [{
-				consume_items: false
-				id: "147744672A0CB816"
-				item: {
+				entity: "cataclysm:aptrgangr"
+				icon: {
 					Count: 1
 					id: "obtrophies:trophy"
 					tag: {
 						BlockEntityTag: {
-							VariantID: 0
 							entity: "cataclysm:aptrgangr"
 						}
 					}
 				}
-				match_nbt: true
-				only_from_crafting: false
-				type: "item"
+				id: "10AB0F3F47474BBA"
+				type: "kill"
+				value: 1L
 			}]
 			x: -21.0d
 			y: 14.0d
 		}
 		{
-			id: "6DE336D855245A65"
+			can_repeat: false
+			hide_details_until_startable: false
+			hide_text_until_complete: false
+			hide_until_deps_visible: false
+			icon_scale: 2.0d
+			id: "62443022DB2BE6C2"
 			rewards: [
 				{
-					id: "442DE163BDDB2ED2"
+					id: "2D32FFAEB01E3C7A"
+					item: "kubejs:ascended_coin"
+					type: "item"
+				}
+				{
+					id: "4807E8E03969EEE1"
 					item: {
 						Count: 1
-						id: "obtrophies:display_trophy"
+						id: "obtrophies:trophy"
 						tag: {
 							BlockEntityTag: {
-								display: {
-									display: "block_factorys_bosses:yeti_spawn_egg"
-								}
+								entity: "cataclysm:maledictus"
 							}
 						}
 					}
 					type: "item"
 				}
-				{
-					id: "22A549BA1AC702A9"
-					item: "kubejs:ascended_coin"
-					type: "item"
-				}
 			]
+			shape: "rsquare"
+			size: 2.0d
+			subtitle: "Lost Cities Dimension. Snowy Biomes. Frosted Prison Structure. Boss"
 			tasks: [{
-				entity: "block_factorys_bosses:yeti"
-				icon: "block_factorys_bosses:yeti_spawn_egg"
-				id: "041EEC222CBDC720"
+				entity: "cataclysm:maledictus"
+				icon: {
+					Count: 1
+					id: "obtrophies:trophy"
+					tag: {
+						BlockEntityTag: {
+							entity: "cataclysm:maledictus"
+						}
+					}
+				}
+				id: "427158A593365FE3"
 				type: "kill"
 				value: 1L
 			}]
-			x: 2.0d
-			y: 0.0d
+			x: -19.0d
+			y: 14.0d
 		}
 		{
-			id: "799CBB24F90A42EB"
+			can_repeat: false
+			hide_details_until_startable: false
+			hide_text_until_complete: false
+			hide_until_deps_visible: false
+			icon_scale: 2.0d
+			id: "3B8FE81C2871316C"
 			rewards: [
 				{
-					id: "43A9F3B8AF9E5D42"
+					id: "611368D371C71EEB"
+					item: "kubejs:ascended_coin"
+					type: "item"
+				}
+				{
+					id: "5DB954B839E04F63"
 					item: {
 						Count: 1
-						id: "obtrophies:display_trophy"
+						id: "obtrophies:trophy"
 						tag: {
 							BlockEntityTag: {
-								display: {
-									display: "block_factorys_bosses:infernal_dragon_spawn_egg"
-								}
+								entity: "cataclysm:scylla"
 							}
 						}
 					}
 					type: "item"
 				}
-				{
-					id: "477A17B2E1E064C6"
-					item: "kubejs:ascended_coin"
-					type: "item"
-				}
 			]
+			shape: "rsquare"
+			size: 2.0d
+			subtitle: "Hunting Dimension. Ocean Biome. Acropolis Structure"
 			tasks: [{
-				entity: "block_factorys_bosses:infernal_dragon"
-				icon: "block_factorys_bosses:infernal_dragon_spawn_egg"
-				id: "024DFC1C7E7506F5"
+				entity: "cataclysm:scylla"
+				icon: {
+					Count: 1
+					id: "obtrophies:trophy"
+					tag: {
+						BlockEntityTag: {
+							entity: "cataclysm:scylla"
+						}
+					}
+				}
+				id: "2485E85F6520C346"
 				type: "kill"
 				value: 1L
 			}]
-			x: 4.0d
-			y: 0.0d
+			x: -17.0d
+			y: 12.0d
 		}
 		{
-			id: "1BAC1C6300252161"
+			can_repeat: false
+			hide_details_until_startable: false
+			hide_text_until_complete: false
+			hide_until_deps_visible: false
+			icon_scale: 2.0d
+			id: "4E55A44AB629DFDE"
 			rewards: [
 				{
-					id: "04DCA4A45F8913D5"
+					id: "36607E3C62AACE6B"
+					item: "kubejs:ascended_coin"
+					type: "item"
+				}
+				{
+					id: "4529E74525F91ACD"
 					item: {
 						Count: 1
-						id: "obtrophies:display_trophy"
+						id: "obtrophies:trophy"
 						tag: {
 							BlockEntityTag: {
-								display: {
-									display: "block_factorys_bosses:underworld_knight_spawn_egg"
-								}
+								entity: "cataclysm:clawdian"
 							}
 						}
 					}
 					type: "item"
 				}
-				{
-					id: "4D90E583A00F0184"
-					item: "kubejs:ascended_coin"
-					type: "item"
-				}
 			]
+			shape: "rsquare"
+			size: 2.0d
+			subtitle: "Hunting Dimension. Ocean Biome. Sunken City Structure MiniBoss"
 			tasks: [{
-				entity: "block_factorys_bosses:underworld_knight"
-				icon: "block_factorys_bosses:underworld_knight_spawn_egg"
-				id: "406F47CA60AF1F71"
+				entity: "cataclysm:clawdian"
+				icon: {
+					Count: 1
+					id: "obtrophies:trophy"
+					tag: {
+						BlockEntityTag: {
+							entity: "cataclysm:clawdian"
+						}
+					}
+				}
+				id: "624173672906B622"
 				type: "kill"
 				value: 1L
 			}]
-			x: 6.0d
-			y: 0.0d
+			x: -15.0d
+			y: 12.0d
 		}
 		{
-			id: "61403E485BC33F47"
+			can_repeat: false
+			description: ["Feed me all the wool colors to get the trophy."]
+			hide_details_until_startable: false
+			hide_text_until_complete: false
+			hide_until_deps_visible: false
+			icon_scale: 2.0d
+			id: "29E0B732F98A6A58"
 			rewards: [
 				{
-					id: "43587BA1B44F37DF"
+					id: "003E19DA25B1936E"
+					item: "kubejs:ascended_coin"
+					type: "item"
+				}
+				{
+					id: "67A92F173B59CBAD"
 					item: {
 						Count: 1
-						id: "obtrophies:display_trophy"
+						id: "obtrophies:trophy"
 						tag: {
 							BlockEntityTag: {
-								display: {
-									display: "block_factorys_bosses:sandworm_spawn_egg"
-								}
+								entity: "twilightforest:quest_ram"
 							}
 						}
 					}
 					type: "item"
 				}
-				{
-					id: "2929D0294D8F5FC4"
-					item: "kubejs:ascended_coin"
-					type: "item"
-				}
 			]
+			shape: "rsquare"
+			size: 2.0d
 			tasks: [{
-				entity: "block_factorys_bosses:sandworm"
-				icon: "block_factorys_bosses:sandworm_spawn_egg"
-				id: "63E8EFCF4EE3996B"
+				entity: "twilightforest:quest_ram"
+				icon: "twilightforest:quest_ram_trophy"
+				id: "3101F8CECC72E090"
 				type: "kill"
 				value: 1L
 			}]
-			x: 8.0d
-			y: 0.0d
+			x: -6.0d
+			y: 16.5d
+		}
+		{
+			description: ["{ftbquests.chapter.bounty_board.quest239FCC26EECF4DE2.description1}"]
+			id: "3A182E53E0E2359A"
+			rewards: [{
+				id: "3B8310480BD70111"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			size: 1.0d
+			tasks: [
+				{
+					id: "78096BBDD71425BA"
+					item: "minecraft:sculk_shrieker"
+					type: "item"
+				}
+				{
+					id: "080FEEFEE6CD0917"
+					item: "exdeorum:sculk_core"
+					type: "item"
+				}
+			]
+			x: -3.0d
+			y: 4.25d
 		}
 	]
-	title: "{ftbquests.chapter.trophies.title}"
+	title: "Kill Throphies"
 }

@@ -1193,18 +1193,21 @@
 			y: 5.0d
 		}
 		{
-			description: ["Check JEI."]
-			id: "52A23568AD537D46"
+			description: [
+				"You can view the status of all ME devices at once (online/offline, channels, connections, etc.)."
+				"Use it to spot missing channels, disconnected cables, or overloaded parts of the network."
+			]
+			id: "07226C281B781ADF"
 			rewards: [{
-				id: "17E17490B0884379"
+				id: "42D4F56DA403D446"
 				type: "xp"
 				xp: 3
 			}]
 			size: 2.0d
 			tasks: [{
-				id: "0408309DB04451D1"
-				title: "Check JEI"
-				type: "checkmark"
+				id: "25B413CA25F2CFCB"
+				item: "ae2netanalyser:network_analyser"
+				type: "item"
 			}]
 			x: 5.0d
 			y: 2.0d

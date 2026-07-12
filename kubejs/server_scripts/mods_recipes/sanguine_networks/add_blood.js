@@ -88,7 +88,6 @@ ServerEvents.recipes((event) => {
         'allthemodium:piglich',
         'twilightforest:hydra',
         'twilightforest:snow_queen',
-        'twilightforest:ur_ghast',
         'minecraft:warden',
       ],
     },

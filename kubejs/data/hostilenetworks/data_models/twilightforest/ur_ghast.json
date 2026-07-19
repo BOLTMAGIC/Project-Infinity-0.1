@@ -1,10 +1,4 @@
 {
-    "conditions": [
-        {
-            "modid": "artifacts",
-            "type": "forge:mod_loaded"
-        }
-    ],
     "entity": "twilightforest:ur_ghast",
     "variants": [],
     "name": "entity.twilightforest.ur_ghast",

@@ -124,31 +124,9 @@ MMEvents.createProcesses((event) => {
     'mysticalagriculture:energized_steel_seeds',
     'mysticalagriculture:blazing_crystal_seeds',
   ]);
-
-  // Tier 5 Seeds
-  createSeedRecipes(event, [
-    'mysticalagriculture:ignitium_seeds',
-    'mysticalagriculture:sky_steel_seeds',
-    'mysticalagriculture:vibrant_alloy_seeds',
-    'mysticalagriculture:end_steel_seeds',
-    'mysticalagriculture:diamond_seeds',
-    'mysticalagriculture:emerald_seeds',
-    'mysticalagriculture:terrasteel_seeds',
-    'mysticalagriculture:draconium_seeds',
-    'mysticalagriculture:netherite_seeds',
-    'mysticalagriculture:wither_skeleton_seeds',
-    'mysticalagriculture:platinum_seeds',
-    'mysticalagriculture:iridium_seeds',
-    'mysticalagriculture:niotic_crystal_seeds',
-    'mysticalagriculture:spirited_crystal_seeds',
-    'mysticalagriculture:enderium_seeds',
-    'mysticalagriculture:flux_infused_gem_seeds',
-    'mysticalagriculture:uraninite_seeds',
-    'mysticalagriculture:manyullyn_seeds',
-  ]);
 });
 
-function createSeedRecipes(event, seeds) {
+function createSeedRecipes (event, seeds) {
   seeds.forEach((seed) => {
     const essence = seed.replace('_seeds', '_essence');
 
@@ -165,6 +143,15 @@ function createSeedRecipes(event, seeds) {
           amount: 1000000,
         },
       })
+      // Input Ether
+      .input({
+        type: 'mm:input/consume',
+        ingredient: {
+          type: 'mm:fluid',
+          fluid: 'industrialforegoing:ether_gas',
+          amount: 100,
+        },
+      })
       // Input Seed
       .input({
         type: 'mm:input/consume',
@@ -175,15 +162,7 @@ function createSeedRecipes(event, seeds) {
           count: 1,
         },
       })
-      // Input Ether
-      .input({
-        type: 'mm:input/consume',
-        ingredient: {
-          type: 'mm:fluid',
-          fluid: 'industrialforegoing:ether_gas',
-          amount: 100,
-        },
-      })
+
       // Output Essence
       .output({
         type: 'mm:output/simple',

@@ -16,11 +16,11 @@
 	#Should crops have a chance of dropping a second seed when harvested?
 	secondarySeedDrops = true
 	#Should the Wither drop essence when killed with an essence weapon?
-	witherDropsEssence = true
+	witherDropsEssence = false
 	#Should the Wither drop Cognizant Dust when killed with a Mystical Enlightenment enchanted essence weapon?
 	witherDropsCognizant = true
 	#Should the Ender Dragon drop essence when killed with an essence weapon?
-	dragonDropsEssence = true
+	dragonDropsEssence = false
 	#Should the Ender Dragon drop Cognizant Dust when killed with a Mystical Enlightenment enchanted essence weapon?
 	dragonDropsCognizant = true
 	#Should right clicking on Farmland with an Essence create Essence Farmland?

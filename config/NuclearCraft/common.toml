@@ -291,3 +291,20 @@
 		#Effect ids excluded from the crystal analysis buff pool
 		buff_effect_blacklist = ["minecraft:hero_of_the_village", "minecraft:dolphins_grace", "minecraft:conduit_power"]
 
+[pipes]
+	#Ticks between active pipe transfer passes
+	#Range: 1 ~ 200
+	transfer_interval_ticks = 1
+	#Items moved per active-pull operation, per connector
+	#Range: > 1
+	item_throughput = 512
+	#Fluid moved per active-pull operation, per connector (mB)
+	#Range: > 1
+	fluid_throughput = 512000
+	#Energy moved per active-pull operation, per connector (FE)
+	#Range: > 1
+	energy_throughput = 512000
+	#Node budget for a single pipe network's flood-fill discovery; caps recompute cost
+	#Range: > 16
+	max_network_size = 4096
+

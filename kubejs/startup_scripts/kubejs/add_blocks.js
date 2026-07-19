@@ -204,6 +204,66 @@ StartupEvents.registry('block', (event) => {
     .textureAll('kubejs:block/misc/compressed_glass');
 
   event
+    .create('dust_2')
+    .displayName('Compressed Dust (x2)')
+    .soundType('sand')
+    .textureAll('kubejs:block/misc/dust_2');
+
+  event
+    .create('dust_3')
+    .displayName('Compressed Dust (x3)')
+    .soundType('sand')
+    .textureAll('kubejs:block/misc/dust_3');
+
+  event
+    .create('dust_4')
+    .displayName('Compressed Dust (x4)')
+    .soundType('sand')
+    .textureAll('kubejs:block/misc/dust_4');
+
+  event
+    .create('dust_5')
+    .displayName('Compressed Dust (x5)')
+    .soundType('sand')
+    .textureAll('kubejs:block/misc/dust_5');
+
+  event
+    .create('dust_6')
+    .displayName('Compressed Dust (x6)')
+    .soundType('sand')
+    .textureAll('kubejs:block/misc/dust_6');
+
+  event
+    .create('blackstone_2')
+    .displayName('Compressed Blackstone (x2)')
+    .soundType('stone')
+    .textureAll('kubejs:block/misc/blackstone_2');
+
+  event
+    .create('blackstone_3')
+    .displayName('Compressed Blackstone (x3)')
+    .soundType('stone')
+    .textureAll('kubejs:block/misc/blackstone_3');
+
+  event
+    .create('blackstone_4')
+    .displayName('Compressed Blackstone (x4)')
+    .soundType('stone')
+    .textureAll('kubejs:block/misc/blackstone_4');
+
+  event
+    .create('blackstone_5')
+    .displayName('Compressed Blackstone (x5)')
+    .soundType('stone')
+    .textureAll('kubejs:block/misc/blackstone_5');
+
+  event
+    .create('blackstone_6')
+    .displayName('Compressed Blackstone (x6)')
+    .soundType('stone')
+    .textureAll('kubejs:block/misc/blackstone_6');
+
+  event
     .create('chaotic_essence_block')
     .displayName('§5Chaotic Essence Block')
     .soundType('metal')

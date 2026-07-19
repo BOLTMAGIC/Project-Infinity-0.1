@@ -52,6 +52,14 @@ BlockEvents.rightClicked('mekanism:creative_bin', (event) => {
     'rftoolsstorage:storage_scanner',
     'rftoolsutility:screen',
     'rftoolsutility:matter_beamer',
+
+    'dankstorage:dank_1',
+    'dankstorage:dank_2',
+    'dankstorage:dank_3',
+    'dankstorage:dank_4',
+    'dankstorage:dank_5',
+    'dankstorage:dank_6',
+    'dankstorage:dank_7',
   ];
   // check for bannedItems
   for (const banned of bannedItems) {
@@ -142,6 +150,8 @@ BlockEvents.rightClicked('mekanism:creative_bin', (event) => {
     { pattern: /^appflux:fe.*$/, nbtPath: 'power', check: (value) => value },
 
     { pattern: /^appbot:mana.*$/, nbtPath: 'amount', check: (value) => value },
+    { pattern: /^appbot:portable.*$/, nbtPath: 'amount', check: (value) => value },
+    { pattern: /^appbot:creative.*$/, nbtPath: 'amount', check: (value) => value },
 
     {
       pattern: /^megacells:mana.*$/,
@@ -150,6 +160,16 @@ BlockEvents.rightClicked('mekanism:creative_bin', (event) => {
     },
     {
       pattern: /^megacells:.*_storage_cell_.*$/,
+      nbtPath: 'keys',
+      check: (value) => value,
+    },
+    {
+      pattern: /^megacells:.*portable_.*$/,
+      nbtPath: 'keys',
+      check: (value) => value,
+    },
+    {
+      pattern: /^megacells:.*bulk.*$/,
       nbtPath: 'keys',
       check: (value) => value,
     },
@@ -440,8 +460,7 @@ BlockEvents.rightClicked('mekanism:creative_bin', (event) => {
       pattern: 'botanicalmachinery:mechanical_mana_pool',
       nbtPath: 'BlockEntityTag.inv.Items',
       check: (value) => value && value.length > 0,
-    }
-
+    },
   ];
 
   function rftoolsCheck (array) {

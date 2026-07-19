@@ -20,6 +20,8 @@ Mod Info:
     - Applied Botanics (Fork) (my Fork to fix the Mana Voiding Bug for Botanical Machinery Machines)
     - AE2 Network Analyser
     - AE2 WCWT (Wireless Comprehensive Work Terminal)
+    - Ember´s Log Filtering
+    - AE2 Crafting Optimizer
 ----------
 - MODS REMOVED:
     - YTones (its discontinued, replaced with BetterBlockZ)
@@ -79,12 +81,23 @@ Recipe changes and fixes:
 - added some new hammers (thx to maydeens)
 - added a new recipe for vitality fuel fluid. needs infinity 4 (thx to Miguelito)
 - added a new recipe to craft raw eclipsealloy (thx to Miguelito)
-- added recipes for the new ports and controller
+- added a new multiblock to create ME Inf Cells (Infinity Cell Factory)
+    - added recipes for the new ports and controller
+    - added recipe for the ME Inf Cells
+    - added Compressed Dust and Blackstone (2x, 3x, 4x, 5x, 6x)
 - added a recipe in the alloyer for abyssal block
 - changed naquadah ore in voidminer from tier 7-9 to tier 9 only
 - changed recipe for infinity 10 (thx to Iceuandfireu)
 - added a Infinity 6 block
     - added a inf 6 block to inf 7 ingot recipe
+- changed recipe for basic collector (way harder)
+- lowered ATM ores in ultimate voidminer (thx to Iceuandfireu)
+- changed recipe for time in a bottle
+- reworked EssenceForge recipes and cost (thx to hi_5979)
+    - T1 EF will no longer work with T5 seeds.
+    - T2 EF will no longer work with T6 seeds.
+    - T4 EF will use fewer eather gas for lower tier seeds
+- added a Compressed Yellow Cake Uranium item
 - 
 ----------
 Mod changes and fixes:

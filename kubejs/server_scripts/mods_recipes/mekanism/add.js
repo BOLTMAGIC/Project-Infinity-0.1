@@ -540,12 +540,7 @@ ServerEvents.recipes((event) => {
           item: item_output,
         },
       })
-      .id(
-        'mek_' +
-          item_output.replace(/[:]/g, '_').toLowerCase() +
-          '_from_' +
-          item_input.replace(/[:]/g, '_').toLowerCase()
-      );
+      .id('enriching_' + item_output.replace(/[:]/g, '_').toLowerCase());
   }
 
   enriching(
@@ -573,6 +568,11 @@ ServerEvents.recipes((event) => {
     event,
     'compressium:diamond_1',
     'kubejs:double_compressed_enriched_diamond'
+  );
+  enriching(
+    event,
+    'mekanism:block_uranium',
+    'kubejs:compressed_yellow_cake_uranium'
   );
 
   nucleosynthesizing(
@@ -608,12 +608,7 @@ ServerEvents.recipes((event) => {
           item: item_output,
         },
       })
-      .id(
-        'mek_' +
-          item_output.replace(/[:]/g, '_').toLowerCase() +
-          '_from_' +
-          item_input.replace(/[:]/g, '_').toLowerCase()
-      );
+      .id('compressing_' + item_output.replace(/[:]/g, '_').toLowerCase());
   }
 
   compressing(
@@ -669,15 +664,16 @@ ServerEvents.recipes((event) => {
           gas: gas_output,
         },
       })
-      .id(
-        'mek_' +
-          gas_output.replace(/[:]/g, '_').toLowerCase() +
-          '_from_' +
-          item_input.replace(/[:]/g, '_').toLowerCase()
-      );
+      .id('oxi_' + gas_output_amount + '_' + gas_output.replace(/[:]/g, '_').toLowerCase());
   }
 
   oxidizing(event, 'mekanism:ingot_osmium', 200, 'mekanism:osmium');
   oxidizing(event, 'mekanism:block_osmium', 1800, 'mekanism:osmium');
   oxidizing(event, 'mekanism_extras:enriched_osmium', 1600, 'mekanism:osmium');
+  oxidizing(
+    event,
+    'kubejs:compressed_yellow_cake_uranium',
+    2250,
+    'mekanism:uranium_oxide'
+  );
 });

@@ -65,6 +65,14 @@
 			x: -20.5d
 			y: 3.0d
 		}
+		{
+			height: 2.5d
+			image: "kubejs:block/screen/bomd_logo"
+			rotation: 0.0d
+			width: 9.0d
+			x: -18.0d
+			y: -3.5d
+		}
 	]
 	order_index: 0
 	quest_links: [ ]
@@ -213,29 +221,42 @@
 			hide_until_deps_visible: false
 			icon_scale: 2.0d
 			id: "2DB7A01D6CEB323C"
-			rewards: [{
-				id: "1D92FF1E972A3F25"
-				item: "kubejs:ascended_coin"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "1D92FF1E972A3F25"
+					item: "kubejs:ascended_coin"
+					type: "item"
+				}
+				{
+					id: "0907089E70B0D9A6"
+					item: {
+						Count: 1
+						id: "obtrophies:trophy"
+						tag: {
+							BlockEntityTag: {
+								entity: "mutantmonsters:mutant_zombie"
+							}
+						}
+					}
+					type: "item"
+				}
+			]
 			shape: "rsquare"
 			size: 2.0d
 			tasks: [{
-				consume_items: false
-				id: "71D45A3C998BCF1F"
-				item: {
+				entity: "mutantmonsters:mutant_zombie"
+				icon: {
 					Count: 1
 					id: "obtrophies:trophy"
 					tag: {
 						BlockEntityTag: {
-							VariantID: 0
 							entity: "mutantmonsters:mutant_zombie"
 						}
 					}
 				}
-				match_nbt: true
-				only_from_crafting: false
-				type: "item"
+				id: "0BA78E47E1BE0E9A"
+				type: "kill"
+				value: 1L
 			}]
 			x: 7.0d
 			y: 14.0d
@@ -480,29 +501,42 @@
 			hide_until_deps_visible: false
 			icon_scale: 2.0d
 			id: "12D5E786E5F36E66"
-			rewards: [{
-				id: "2967AAEE9EA5645A"
-				item: "kubejs:ascended_coin"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "2967AAEE9EA5645A"
+					item: "kubejs:ascended_coin"
+					type: "item"
+				}
+				{
+					id: "7C4E2599A0EC80F9"
+					item: {
+						Count: 1
+						id: "obtrophies:trophy"
+						tag: {
+							BlockEntityTag: {
+								entity: "mutantmonsters:spider_pig"
+							}
+						}
+					}
+					type: "item"
+				}
+			]
 			shape: "rsquare"
 			size: 2.0d
 			tasks: [{
-				consume_items: false
-				id: "47A33C340F9F0C3B"
-				item: {
+				entity: "mutantmonsters:spider_pig"
+				icon: {
 					Count: 1
 					id: "obtrophies:trophy"
 					tag: {
 						BlockEntityTag: {
-							VariantID: 0
 							entity: "mutantmonsters:spider_pig"
 						}
 					}
 				}
-				match_nbt: true
-				only_from_crafting: false
-				type: "item"
+				id: "43515D7E1C76F306"
+				type: "kill"
+				value: 1L
 			}]
 			x: 5.0d
 			y: 14.0d
@@ -730,29 +764,42 @@
 			hide_until_deps_visible: false
 			icon_scale: 2.0d
 			id: "087307C74F2C832B"
-			rewards: [{
-				id: "18C35260DF1F84EB"
-				item: "kubejs:ascended_coin"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "18C35260DF1F84EB"
+					item: "kubejs:ascended_coin"
+					type: "item"
+				}
+				{
+					id: "3D74482C91F03574"
+					item: {
+						Count: 1
+						id: "obtrophies:trophy"
+						tag: {
+							BlockEntityTag: {
+								entity: "mutantmonsters:mutant_enderman"
+							}
+						}
+					}
+					type: "item"
+				}
+			]
 			shape: "rsquare"
 			size: 2.0d
 			tasks: [{
-				consume_items: false
-				id: "0AD07F9713D510F3"
-				item: {
+				entity: "mutantmonsters:mutant_enderman"
+				icon: {
 					Count: 1
 					id: "obtrophies:trophy"
 					tag: {
 						BlockEntityTag: {
-							VariantID: 0
 							entity: "mutantmonsters:mutant_enderman"
 						}
 					}
 				}
-				match_nbt: true
-				only_from_crafting: false
-				type: "item"
+				id: "4D5695AB7FED0511"
+				type: "kill"
+				value: 1L
 			}]
 			x: 5.0d
 			y: 12.0d
@@ -945,29 +992,43 @@
 			hide_until_deps_visible: false
 			icon_scale: 2.0d
 			id: "7DDCE408BFBB339E"
-			rewards: [{
-				id: "409A3B513F91D37A"
-				item: "kubejs:ascended_coin"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "409A3B513F91D37A"
+					item: "kubejs:ascended_coin"
+					type: "item"
+				}
+				{
+					id: "7E30D2569E3D3094"
+					item: {
+						Count: 1
+						id: "obtrophies:trophy"
+						tag: {
+							BlockEntityTag: {
+								entity: "allthemodium:piglich"
+							}
+						}
+					}
+					type: "item"
+				}
+			]
 			shape: "rsquare"
 			size: 2.0d
+			subtitle: "The Other Dimension. Ancient Pyramid Structure"
 			tasks: [{
-				consume_items: false
-				id: "2EE8141DAE60100B"
-				item: {
+				entity: "allthemodium:piglich"
+				icon: {
 					Count: 1
 					id: "obtrophies:trophy"
 					tag: {
 						BlockEntityTag: {
-							VariantID: 0
 							entity: "allthemodium:piglich"
 						}
 					}
 				}
-				match_nbt: true
-				only_from_crafting: false
-				type: "item"
+				id: "4134DDF187772433"
+				type: "kill"
+				value: 1L
 			}]
 			x: -20.5d
 			y: 6.0d
@@ -979,29 +1040,42 @@
 			hide_until_deps_visible: false
 			icon_scale: 2.0d
 			id: "27D925ABF8776D4E"
-			rewards: [{
-				id: "435F6BBE09195156"
-				item: "kubejs:ascended_coin"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "435F6BBE09195156"
+					item: "kubejs:ascended_coin"
+					type: "item"
+				}
+				{
+					id: "41136816A8B583A3"
+					item: {
+						Count: 1
+						id: "obtrophies:trophy"
+						tag: {
+							BlockEntityTag: {
+								entity: "mutantmonsters:mutant_creeper"
+							}
+						}
+					}
+					type: "item"
+				}
+			]
 			shape: "rsquare"
 			size: 2.0d
 			tasks: [{
-				consume_items: false
-				id: "6A85F4A3667E9ABB"
-				item: {
+				entity: "mutantmonsters:mutant_creeper"
+				icon: {
 					Count: 1
 					id: "obtrophies:trophy"
 					tag: {
 						BlockEntityTag: {
-							VariantID: 0
 							entity: "mutantmonsters:mutant_creeper"
 						}
 					}
 				}
-				match_nbt: true
-				only_from_crafting: false
-				type: "item"
+				id: "5FC7C46DF2E4D784"
+				type: "kill"
+				value: 1L
 			}]
 			x: 7.0d
 			y: 12.0d
@@ -1101,29 +1175,42 @@
 			hide_until_deps_visible: false
 			icon_scale: 2.0d
 			id: "7286EACE201EC026"
-			rewards: [{
-				id: "6DD5FE3F4C3F27DA"
-				item: "kubejs:ascended_coin"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "6DD5FE3F4C3F27DA"
+					item: "kubejs:ascended_coin"
+					type: "item"
+				}
+				{
+					id: "38AAA67BB6FCB53D"
+					item: {
+						Count: 1
+						id: "obtrophies:trophy"
+						tag: {
+							BlockEntityTag: {
+								entity: "mutantmonsters:mutant_skeleton"
+							}
+						}
+					}
+					type: "item"
+				}
+			]
 			shape: "rsquare"
 			size: 2.0d
 			tasks: [{
-				consume_items: false
-				id: "34CCB4603469908E"
-				item: {
+				entity: "mutantmonsters:mutant_skeleton"
+				icon: {
 					Count: 1
 					id: "obtrophies:trophy"
 					tag: {
 						BlockEntityTag: {
-							VariantID: 0
 							entity: "mutantmonsters:mutant_skeleton"
 						}
 					}
 				}
-				match_nbt: true
-				only_from_crafting: false
-				type: "item"
+				id: "35FF7154B313BF09"
+				type: "kill"
+				value: 1L
 			}]
 			x: 3.0d
 			y: 12.0d
@@ -1280,29 +1367,42 @@
 			hide_until_deps_visible: false
 			icon_scale: 2.0d
 			id: "6910C9A0E3D1AC01"
-			rewards: [{
-				id: "553B85B29DF7DAFD"
-				item: "kubejs:ascended_coin"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "553B85B29DF7DAFD"
+					item: "kubejs:ascended_coin"
+					type: "item"
+				}
+				{
+					id: "7FBD80B38B681FB3"
+					item: {
+						Count: 1
+						id: "obtrophies:trophy"
+						tag: {
+							BlockEntityTag: {
+								entity: "mutantmonsters:mutant_snow_golem"
+							}
+						}
+					}
+					type: "item"
+				}
+			]
 			shape: "rsquare"
 			size: 2.0d
 			tasks: [{
-				consume_items: false
-				id: "426380373F486E18"
-				item: {
+				entity: "mutantmonsters:mutant_snow_golem"
+				icon: {
 					Count: 1
 					id: "obtrophies:trophy"
 					tag: {
 						BlockEntityTag: {
-							VariantID: 0
 							entity: "mutantmonsters:mutant_snow_golem"
 						}
 					}
 				}
-				match_nbt: true
-				only_from_crafting: false
-				type: "item"
+				id: "514E1C39C6E20403"
+				type: "kill"
+				value: 1L
 			}]
 			x: 3.0d
 			y: 14.0d
@@ -1562,6 +1662,198 @@
 			]
 			x: -3.0d
 			y: 4.25d
+		}
+		{
+			can_repeat: false
+			hide_details_until_startable: false
+			hide_text_until_complete: false
+			hide_until_deps_visible: false
+			icon_scale: 2.0d
+			id: "71E9B29134583208"
+			rewards: [
+				{
+					id: "0E3A62C7219DC233"
+					item: "kubejs:ascended_coin"
+					type: "item"
+				}
+				{
+					id: "00449DC0C6475C5D"
+					item: {
+						Count: 1
+						id: "obtrophies:trophy"
+						tag: {
+							BlockEntityTag: {
+								entity: "bosses_of_mass_destruction:gauntlet"
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 2.0d
+			subtitle: "Nether Dimension. The Gauntlet Arena Structure"
+			tasks: [{
+				entity: "bosses_of_mass_destruction:gauntlet"
+				icon: {
+					Count: 1
+					id: "obtrophies:trophy"
+					tag: {
+						BlockEntityTag: {
+							entity: "bosses_of_mass_destruction:gauntlet"
+						}
+					}
+				}
+				id: "42DDDDA050699CC7"
+				type: "kill"
+				value: 1L
+			}]
+			x: -21.0d
+			y: -1.0d
+		}
+		{
+			can_repeat: false
+			hide_details_until_startable: false
+			hide_text_until_complete: false
+			hide_until_deps_visible: false
+			icon_scale: 2.0d
+			id: "32283FA5987E5EC4"
+			rewards: [
+				{
+					id: "2837B43A33F58432"
+					item: "kubejs:ascended_coin"
+					type: "item"
+				}
+				{
+					id: "7EAE94C635B7FC8A"
+					item: {
+						Count: 1
+						id: "obtrophies:trophy"
+						tag: {
+							BlockEntityTag: {
+								entity: "bosses_of_mass_destruction:lich"
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 2.0d
+			subtitle: "Hunting Dimension. Cold biomes. Lich Tower Structure"
+			tasks: [{
+				entity: "bosses_of_mass_destruction:lich"
+				icon: {
+					Count: 1
+					id: "obtrophies:trophy"
+					tag: {
+						BlockEntityTag: {
+							entity: "bosses_of_mass_destruction:lich"
+						}
+					}
+				}
+				id: "1C905D930ACF8053"
+				type: "kill"
+				value: 1L
+			}]
+			x: -19.0d
+			y: -1.0d
+		}
+		{
+			can_repeat: false
+			hide_details_until_startable: false
+			hide_text_until_complete: false
+			hide_until_deps_visible: false
+			icon_scale: 2.0d
+			id: "61B3A493C23B7511"
+			rewards: [
+				{
+					id: "66AB35CB6161A3DD"
+					item: "kubejs:ascended_coin"
+					type: "item"
+				}
+				{
+					id: "29EAE877AB03BF50"
+					item: {
+						Count: 1
+						id: "obtrophies:trophy"
+						tag: {
+							BlockEntityTag: {
+								entity: "bosses_of_mass_destruction:obsidilith"
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 2.0d
+			subtitle: "The End Dimension. Obsidilith Structure"
+			tasks: [{
+				entity: "bosses_of_mass_destruction:obsidilith"
+				icon: {
+					Count: 1
+					id: "obtrophies:trophy"
+					tag: {
+						BlockEntityTag: {
+							entity: "bosses_of_mass_destruction:obsidilith"
+						}
+					}
+				}
+				id: "261A17F0EADC62F4"
+				type: "kill"
+				value: 1L
+			}]
+			x: -17.0d
+			y: -1.0d
+		}
+		{
+			can_repeat: false
+			hide_details_until_startable: false
+			hide_text_until_complete: false
+			hide_until_deps_visible: false
+			icon_scale: 2.0d
+			id: "74C3F78D8D75A801"
+			rewards: [
+				{
+					id: "60CD4D2703C5508A"
+					item: "kubejs:ascended_coin"
+					type: "item"
+				}
+				{
+					id: "3DF7B5CC7E67C68E"
+					item: {
+						Count: 1
+						id: "obtrophies:trophy"
+						tag: {
+							BlockEntityTag: {
+								entity: "bosses_of_mass_destruction:void_blossom"
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 2.0d
+			subtitle: "Hunting Dimension. Void Blossom Structure"
+			tasks: [{
+				entity: "bosses_of_mass_destruction:void_blossom"
+				icon: {
+					Count: 1
+					id: "obtrophies:trophy"
+					tag: {
+						BlockEntityTag: {
+							entity: "bosses_of_mass_destruction:void_blossom"
+						}
+					}
+				}
+				id: "6279D6862197673B"
+				type: "kill"
+				value: 1L
+			}]
+			x: -15.0d
+			y: -1.0d
 		}
 	]
 	title: "Kill Throphies"

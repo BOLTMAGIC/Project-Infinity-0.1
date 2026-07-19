@@ -15,7 +15,7 @@
 
 ["Mob Drops"]
 	#Wither drops insanium essence when killed with an Insanium weapon.
-	wither_insanium = true
+	wither_insanium = false
 	#Ender Dragon drops insanium essence when killed with an Insanium weapon.
-	dragon_insanium = true
+	dragon_insanium = false
 

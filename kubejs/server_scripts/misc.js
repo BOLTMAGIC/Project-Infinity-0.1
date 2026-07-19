@@ -263,7 +263,7 @@ ServerEvents.recipes((event) => {
       ['ABA', 'ACA', 'ADA'],
       {
         A: 'minecraft:glowstone',
-        B: 'minecraft:lime_stained_glass',
+        B: 'projecte:collector_mk3',
         C: 'projecte:aeternalis_fuel_block',
         D: 'projecte:transmutation_table',
       }

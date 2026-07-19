@@ -46,6 +46,38 @@
 			x: -16.0d
 			y: 10.0d
 		}
+		{
+			height: 1.5d
+			image: "ftbquests:tasks/input_only"
+			rotation: 90.0d
+			width: 1.5d
+			x: -16.0d
+			y: 16.0d
+		}
+		{
+			height: 1.5d
+			image: "ftbquests:tasks/input_only"
+			rotation: 45.0d
+			width: 1.5d
+			x: -16.0d
+			y: 16.0d
+		}
+		{
+			height: 1.5d
+			image: "ftbquests:tasks/input_only"
+			rotation: 90.0d
+			width: 1.5d
+			x: -2.5d
+			y: 16.0d
+		}
+		{
+			height: 1.5d
+			image: "ftbquests:tasks/input_only"
+			rotation: 45.0d
+			width: 1.5d
+			x: -2.5d
+			y: 16.0d
+		}
 	]
 	order_index: 2
 	progression_mode: "flexible"
@@ -1985,7 +2017,7 @@
 				type: "item"
 			}]
 			x: -3.0d
-			y: 17.5d
+			y: 18.5d
 		}
 		{
 			dependencies: ["14B3542ECB59869C"]
@@ -2085,38 +2117,6 @@
 		}
 		{
 			dependencies: ["14B3542ECB59869C"]
-			id: "6BCB799B580C8F12"
-			rewards: [
-				{
-					id: "1F1A4DF23F0D30A0"
-					type: "xp"
-					xp: 50
-				}
-				{
-					id: "411D7062486E1644"
-					item: "kubejs:apotheotic_coin"
-					type: "item"
-				}
-			]
-			tasks: [{
-				id: "33630E7211D63357"
-				item: {
-					Count: 1
-					id: "hostilenetworks:prediction"
-					tag: {
-						data_model: {
-							id: "hostilenetworks:twilightforest/ur_ghast"
-						}
-					}
-				}
-				match_nbt: true
-				type: "item"
-			}]
-			x: -3.0d
-			y: 16.5d
-		}
-		{
-			dependencies: ["14B3542ECB59869C"]
 			id: "430B0F434ECD2759"
 			rewards: [
 				{
@@ -2145,7 +2145,7 @@
 				type: "item"
 			}]
 			x: -2.0d
-			y: 16.5d
+			y: 17.5d
 		}
 		{
 			dependencies: ["14B3542ECB59869C"]
@@ -2501,7 +2501,6 @@
 				"0E2B224A5FF934DF"
 				"354E0774523B374F"
 				"5905241071D1960A"
-				"6BCB799B580C8F12"
 				"3B85E2D0774F53CA"
 				"24157BFA5B85DCBA"
 				"0FB1999626E6BE91"
@@ -2602,10 +2601,11 @@
 				"4606559A9F944DFD"
 				"08F27B1F8C2BB530"
 				"687C7C69170EBBED"
-				"49CF7FACDEFE32EB"
 				"59C99BD278F86994"
 				"2CB8298248812440"
 				"3324EB394FE52A06"
+				"507FB6EA46D8E15B"
+				"4F28D7DA6E0177B8"
 			]
 			id: "018AAF09164FB224"
 			rewards: [
@@ -2764,7 +2764,7 @@
 				type: "item"
 			}]
 			x: -2.0d
-			y: 17.5d
+			y: 18.5d
 		}
 		{
 			dependencies: ["14B3542ECB59869C"]
@@ -3132,7 +3132,7 @@
 				type: "item"
 			}]
 			x: -2.5d
-			y: 15.5d
+			y: 16.0d
 		}
 		{
 			dependencies: ["14B3542ECB59869C"]
@@ -3157,7 +3157,7 @@
 				type: "item"
 			}]
 			x: -16.5d
-			y: 17.5d
+			y: 18.5d
 		}
 		{
 			dependencies: ["14B3542ECB59869C"]
@@ -3490,8 +3490,8 @@
 				match_nbt: true
 				type: "item"
 			}]
-			x: -16.01190476190476d
-			y: 9.982142857142861d
+			x: -15.999999999999993d
+			y: 10.002976190476197d
 		}
 		{
 			dependencies: ["14B3542ECB59869C"]
@@ -4342,7 +4342,7 @@
 				type: "item"
 			}]
 			x: -16.0d
-			y: 15.5d
+			y: 16.0d
 		}
 		{
 			dependencies: ["14B3542ECB59869C"]
@@ -4421,31 +4421,6 @@
 		}
 		{
 			dependencies: ["14B3542ECB59869C"]
-			id: "49CF7FACDEFE32EB"
-			rewards: [{
-				id: "46656DB47D5981C6"
-				type: "xp"
-				xp: 50
-			}]
-			tasks: [{
-				id: "31D2F6422B065848"
-				item: {
-					Count: 1
-					id: "hostilenetworks:data_model"
-					tag: {
-						data_model: {
-							id: "hostilenetworks:twilightforest/ur_ghast"
-						}
-					}
-				}
-				match_nbt: true
-				type: "item"
-			}]
-			x: -16.5d
-			y: 16.5d
-		}
-		{
-			dependencies: ["14B3542ECB59869C"]
 			id: "53BD6FD6895D3332"
 			rewards: [{
 				id: "6E93C8ADEF6CEDC3"
@@ -4467,7 +4442,7 @@
 				type: "item"
 			}]
 			x: -15.5d
-			y: 16.5d
+			y: 17.5d
 		}
 		{
 			dependencies: ["14B3542ECB59869C"]
@@ -4692,7 +4667,7 @@
 				type: "item"
 			}]
 			x: -15.5d
-			y: 17.5d
+			y: 18.5d
 		}
 		{
 			dependencies: ["14B3542ECB59869C"]
@@ -4868,6 +4843,63 @@
 			}]
 			x: -20.0d
 			y: 13.5d
+		}
+		{
+			dependencies: ["14B3542ECB59869C"]
+			id: "507FB6EA46D8E15B"
+			rewards: [{
+				id: "6B295E98E7F52C1D"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "7C92D66BBF11245B"
+				item: {
+					Count: 1
+					id: "hostilenetworks:data_model"
+					tag: {
+						data_model: {
+							id: "hostilenetworks:twilightforest/ur_ghast"
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			x: -16.5d
+			y: 17.5d
+		}
+		{
+			dependencies: ["14B3542ECB59869C"]
+			id: "4F28D7DA6E0177B8"
+			rewards: [
+				{
+					id: "3A9D81A9EE133760"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "36F21218C7594CB4"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "3BABAC91AEE0B2A6"
+				item: {
+					Count: 1
+					id: "hostilenetworks:prediction"
+					tag: {
+						data_model: {
+							id: "hostilenetworks:twilightforest/ur_ghast"
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			x: -3.0d
+			y: 17.5d
 		}
 	]
 	title: "{ftbquests.chapter.hostile_neural_networks.title}"

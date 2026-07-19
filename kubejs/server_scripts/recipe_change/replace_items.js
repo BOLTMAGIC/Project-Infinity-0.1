@@ -151,26 +151,6 @@ ServerEvents.recipes((event) => {
     'minecraft:diamond_block'
   );
   event.replaceInput(
-    {
-      output: Item.of(
-        'expatternprovider:infinity_cell',
-        '{record:{"#c":"ae2:i",id:"minecraft:cobblestone"}}'
-      ),
-    },
-    'ae2:cell_component_16k',
-    'ae2omnicells:quantum_omni_cell_component_256m'
-  );
-  event.replaceInput(
-    {
-      output: Item.of(
-        'expatternprovider:infinity_cell',
-        '{record:{"#c":"ae2:f",id:"minecraft:water"}}'
-      ),
-    },
-    'ae2:cell_component_16k',
-    'ae2omnicells:quantum_omni_cell_component_256m'
-  );
-  event.replaceInput(
     { output: 'packagedexcrafting:advanced_crafter' },
     'extendedcrafting:advanced_auto_table',
     'extendedcrafting:advanced_table'
@@ -184,6 +164,11 @@ ServerEvents.recipes((event) => {
     { output: 'packagedexcrafting:ultimate_crafter' },
     'extendedcrafting:ultimate_auto_table',
     'extendedcrafting:ultimate_table'
+  );
+  event.replaceInput(
+    { output: 'tiab:time_in_a_bottle' },
+    'minecraft:gold_ingot',
+    'justdirethings:time_crystal_block'
   );
   event.replaceInput(
     { output: 'packagedexexcrafting:epic_crafter' },

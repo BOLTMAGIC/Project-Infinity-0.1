@@ -119,12 +119,18 @@
 	paradox_energy_max = 100.0
 	#If true, only safe mob data fields are restored
 	paradox_restricted_mobs = true
-	#Blocks the Paradox Machine cannot save/restore, matched by regex against the full block ID.
+	#Additional blocks the Paradox Machine cannot save/restore, matched by regex against the full block ID.
 	#Each entry is a regex searched (not fully matched) against the block ID, so partial matches work.
+	#Only blocks the Paradox Machine would otherwise be allowed to touch (the paradox_allow block tag,
+	#ores by default) are affected - this list can only narrow that, not widen it.
 	#Example: ".*reative.*" blocks all blocks with "reative" in their ID (e.g. all Creative blocks),
 	#or "seeds" blocks any block whose ID contains "seeds".
-	#Note: the paradox_deny block tag also controls this and is checked first.
 	paradox_block_blacklist = [".*kubejs.*", ".*creative.*"]
+	#Additional entities the Paradox Machine cannot save/restore, matched by regex against the full entity ID.
+	#Each entry is a regex searched (not fully matched) against the entity ID, so partial matches work.
+	#Example: "draconicevolution:chaos_guardian" blocks that exact entity,
+	#or "^draconicevolution:" blocks all entities from that mod.
+	paradox_entity_blacklist = []
 
 #Polymorphic Wand
 [polymorphic_wand]
@@ -234,4 +240,38 @@
 	#or "^draconicevolution:" blocks all blocks from that mod.
 	#Note: the swapper_deny block tag also controls this and is checked first.
 	swapper_block_blacklist = ["^draconicevolution:"]
+
+#Cooldown Overlay Position
+[overlay_position]
+	#The X position of the cooldown overlay - this is pixels left from the center of the screen
+	#Range: -500 ~ 500
+	overlay_x_position = 91
+	#The Y position of the cooldown overlay - this is pixels up from the bottom of the screen
+	#Range: 0 ~ 500
+	overlay_y_position = 70
+
+#Tool Limits
+[tools]
+	#The maximum number of blocks that a Ferricore tool can break as a result of abilities, such as ore miner or tree feller.
+	#Range: 1 ~ 2048
+	tool_max_break_ferricore = 64
+	#The maximum number of blocks that a Blazegold tool can break as a result of abilities, such as ore miner or tree feller.
+	#Range: 1 ~ 2048
+	tool_max_break_blazegold = 128
+	#The maximum number of blocks that a Celestigem tool can break as a result of abilities, such as ore miner or tree feller.
+	#Range: 1 ~ 2048
+	tool_max_break_celestigem = 192
+	#The maximum number of blocks that a Eclipse Alloy tool can break as a result of abilities, such as ore miner or tree feller.
+	#Range: 1 ~ 2048
+	tool_max_break_eclipsealloy = 256
+
+#Player Accessor
+[player_accessor]
+	#Will you be blacklisting dimensions? If set to false, the Blacklist Dimensions list will not function.
+	player_accessor_dimensional_blacklisting = false
+	#The frequency with which the player accessor validates the player - the longer this is set to, the longer the player can be accessed in a blacklisted dimension.
+	#Range: 0 ~ 5000
+	player_accessor_validation_time = 100
+	#A list of dimension names to blacklist for the Player Accessor feature.
+	player_accessor_blacklisted_dimensions = []
 

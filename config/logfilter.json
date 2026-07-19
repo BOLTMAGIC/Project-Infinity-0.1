@@ -1,0 +1,788 @@
+{
+  "configVersion": 1,
+  "enabled": true,
+  "rules": [
+    {
+      "name": "Suppress advancement loading",
+      "enabled": true,
+      "type": "MESSAGE_REGEX",
+      "pattern": "is missing mods.toml file",
+      "action": "DENY"
+    },
+    {
+      "name": "Suppress advancement loading",
+      "enabled": true,
+      "type": "MESSAGE_REGEX",
+      "pattern": ".json does not specify",
+      "action": "DENY"
+    },
+    {
+      "name": "Suppress advancement loading",
+      "enabled": true,
+      "type": "MESSAGE_REGEX",
+      "pattern": "could not be read",
+      "action": "DENY"
+    },
+    {
+      "name": "Suppress advancement loading",
+      "enabled": true,
+      "type": "MESSAGE_REGEX",
+      "pattern": "Error loading class:",
+      "action": "DENY"
+    },
+    {
+      "name": "Suppress advancement loading",
+      "enabled": true,
+      "type": "MESSAGE_REGEX",
+      "pattern": "Method overwrite conflict for",
+      "action": "DENY"
+    },
+    {
+      "name": "Suppress advancement loading",
+      "enabled": true,
+      "type": "MESSAGE_REGEX",
+      "pattern": "Static binding violation:",
+      "action": "DENY"
+    },
+    {
+      "name": "Suppress advancement loading",
+      "enabled": true,
+      "type": "LOGGER_REGEX",
+      "pattern": "org.spongepowered.asm.util.Locals",
+      "action": "DENY"
+    },
+    {
+      "name": "Suppress advancement loading",
+      "enabled": true,
+      "type": "MESSAGE_REGEX",
+      "pattern": "does not have required mod",
+      "action": "DENY"
+    },
+    {
+      "name": "Suppress advancement loading",
+      "enabled": true,
+      "type": "MESSAGE_REGEX",
+      "pattern": "Registry minecraft:menu",
+      "action": "DENY"
+    },
+    {
+      "name": "Suppress advancement loading",
+      "enabled": true,
+      "type": "LOGGER_REGEX",
+      "pattern": "advancedae.menu.CraftingCPUMenuManualStatusAdvancedMixin",
+      "action": "DENY"
+    },
+    {
+      "name": "Suppress advancement loading",
+      "enabled": true,
+      "type": "LOGGER_REGEX",
+      "pattern": "ae2.menu.CraftingCPUMenuManualStatusMixin",
+      "action": "DENY"
+    },
+    {
+      "name": "Suppress advancement loading",
+      "enabled": true,
+      "type": "LOGGER_REGEX",
+      "pattern": "net.minecraft.world.inventory.MenuType",
+      "action": "DENY"
+    },
+    {
+      "name": "Suppress advancement loading",
+      "enabled": true,
+      "type": "MESSAGE_REGEX",
+      "pattern": "Registry minecraft:recipe_type:",
+      "action": "DENY"
+    },
+    {
+      "name": "Suppress advancement loading",
+      "enabled": true,
+      "type": "MESSAGE_REGEX",
+      "pattern": "Registry minecraft:recipe_serializer:",
+      "action": "DENY"
+    },
+    {
+      "name": "Suppress advancement loading",
+      "enabled": true,
+      "type": "LOGGER_REGEX",
+      "pattern": "software.bernie.geckolib.core.molang.MolangParser:parseSymbolsMolang:259",
+      "action": "DENY"
+    },
+    {
+      "name": "Suppress advancement loading",
+      "enabled": true,
+      "type": "MESSAGE_REGEX",
+      "pattern": "Unable to parse",
+      "action": "DENY"
+    },
+    {
+      "name": "Suppress advancement loading",
+      "enabled": true,
+      "type": "LOGGER_REGEX",
+      "pattern": "software.bernie.geckolib.loading.json.typeadapter.BakedAnimationsAdapter:deserialize:43",
+      "action": "DENY"
+    },
+    {
+      "name": "Suppress advancement loading",
+      "enabled": true,
+      "type": "LOGGER_REGEX",
+      "pattern": "wayoftime.bloodmagic.structures.DungeonRoomLoader:loadDungeons:191",
+      "action": "DENY"
+    },
+    {
+      "name": "Suppress advancement loading",
+      "enabled": true,
+      "type": "LOGGER_REGEX",
+      "pattern": "wayoftime.bloodmagic.structures.DungeonRoomLoader:loadDungeons:193",
+      "action": "DENY"
+    },
+    {
+      "name": "Suppress advancement loading",
+      "enabled": true,
+      "type": "LOGGER_REGEX",
+      "pattern": "org.spongepowered.asm.util.Locals:generateLocalVariableTable:719",
+      "action": "DENY"
+    },
+    {
+      "name": "Suppress advancement loading",
+      "enabled": true,
+      "type": "MESSAGE_REGEX",
+      "pattern": "Invalid frame index on sprite",
+      "action": "DENY"
+    },
+    {
+      "name": "Suppress advancement loading",
+      "enabled": true,
+      "type": "MESSAGE_REGEX",
+      "pattern": "Texture",
+      "action": "DENY",
+      "level": "WARN"
+    },
+    {
+      "name": "Suppress advancement loading",
+      "enabled": true,
+      "type": "MESSAGE_REGEX",
+      "pattern": "Failed to load model",
+      "action": "DENY"
+    },
+    {
+      "name": "Suppress advancement loading",
+      "enabled": true,
+      "type": "LOGGER_REGEX",
+      "pattern": "net.minecraft.ResourceLocationException",
+      "action": "DENY",
+      "level": "ERROR"
+    },
+    {
+      "name": "Suppress advancement loading",
+      "enabled": true,
+      "type": "MESSAGE_REGEX",
+      "pattern": "Unused frames in sprite",
+      "action": "DENY"
+    },
+    {
+      "name": "Suppress advancement loading",
+      "enabled": true,
+      "type": "MESSAGE_REGEX",
+      "pattern": "Incorrect key",
+      "action": "DENY"
+    },
+    {
+      "name": "Suppress advancement loading",
+      "enabled": true,
+      "type": "LOGGER_REGEX",
+      "pattern": "com.lrdynamicdungeon.init.AttributeTweaks:expandMaxHealth:15",
+      "action": "DENY"
+    },
+    {
+      "name": "Suppress advancement loading",
+      "enabled": true,
+      "type": "MESSAGE_REGEX",
+      "pattern": "Failed to load book",
+      "action": "DENY"
+    },
+    {
+      "name": "Suppress advancement loading",
+      "enabled": true,
+      "type": "MESSAGE_REGEX",
+      "pattern": "Exception loading blockstate definition:",
+      "action": "DENY"
+    },
+    {
+      "name": "Suppress advancement loading",
+      "enabled": true,
+      "type": "MESSAGE_REGEX",
+      "pattern": "minecraft:models/",
+      "action": "DENY"
+    },
+    {
+      "name": "Suppress advancement loading",
+      "enabled": true,
+      "type": "MESSAGE_REGEX",
+      "pattern": "Missing textures in model",
+      "action": "DENY"
+    },
+    {
+      "name": "Suppress advancement loading",
+      "enabled": true,
+      "type": "MESSAGE_REGEX",
+      "pattern": "Missing, or failed to load, enchanted book models",
+      "action": "DENY"
+    },
+    {
+      "name": "Suppress advancement loading",
+      "enabled": true,
+      "type": "MESSAGE_REGEX",
+      "pattern": "Rejected containerblacklist due to bad",
+      "action": "DENY"
+    },
+    {
+      "name": "Suppress advancement loading",
+      "enabled": true,
+      "type": "LOGGER_REGEX",
+      "pattern": "com.simibubi.create.content.kinetics.base.KineticBlock",
+      "action": "DENY",
+      "level": "ERROR"
+    },
+    {
+      "name": "Suppress advancement loading",
+      "enabled": true,
+      "type": "MESSAGE_REGEX",
+      "pattern": "com/simibubi/create/content/kinetics/base/KineticBlock",
+      "action": "DENY"
+    },
+    {
+      "name": "Suppress advancement loading",
+      "enabled": true,
+      "type": "LOGGER_REGEX",
+      "pattern": "io.ticticboom.mods.mm.compat.waila.MMWailaPlugin",
+      "action": "DENY"
+    },
+    {
+      "name": "Suppress advancement loading",
+      "enabled": true,
+      "type": "MESSAGE_REGEX",
+      "pattern": "Missing sound for event:",
+      "action": "DENY"
+    },
+    {
+      "name": "Suppress advancement loading",
+      "enabled": true,
+      "type": "MESSAGE_REGEX",
+      "pattern": "in the specified shader program",
+      "action": "DENY"
+    },
+    {
+      "name": "Suppress advancement loading",
+      "enabled": true,
+      "type": "MESSAGE_REGEX",
+      "pattern": "in its item_ids frontmatter",
+      "action": "DENY"
+    },
+    {
+      "name": "Suppress advancement loading",
+      "enabled": true,
+      "type": "MESSAGE_REGEX",
+      "pattern": "Key conflict in index Item",
+      "action": "DENY"
+    },
+    {
+      "name": "Suppress advancement loading",
+      "enabled": true,
+      "type": "MESSAGE_REGEX",
+      "pattern": "Couldn't find icon",
+      "action": "DENY"
+    },
+    {
+      "name": "Suppress advancement loading",
+      "enabled": true,
+      "type": "MESSAGE_REGEX",
+      "pattern": "Failed to process update information",
+      "action": "DENY"
+    },
+    {
+      "name": "Suppress advancement loading",
+      "enabled": true,
+      "type": "MESSAGE_REGEX",
+      "pattern": "Unable to find registry for tag directory",
+      "action": "DENY"
+    },
+    {
+      "name": "Suppress advancement loading",
+      "enabled": true,
+      "type": "MESSAGE_REGEX",
+      "pattern": "Built tags for registry",
+      "action": "DENY"
+    },
+    {
+      "name": "Suppress advancement loading",
+      "enabled": true,
+      "type": "MESSAGE_REGEX",
+      "pattern": "Missing block in structure",
+      "action": "DENY"
+    },
+    {
+      "name": "Suppress advancement loading",
+      "enabled": true,
+      "type": "MESSAGE_REGEX",
+      "pattern": "Skipping structure mbtool",
+      "action": "DENY"
+    },
+    {
+      "name": "Suppress advancement loading",
+      "enabled": true,
+      "type": "MESSAGE_REGEX",
+      "pattern": "Couldn't load tag",
+      "action": "DENY"
+    },
+    {
+      "name": "Suppress advancement loading",
+      "enabled": true,
+      "type": "MESSAGE_REGEX",
+      "pattern": "The following tags are invalid and will",
+      "action": "DENY"
+    },
+    {
+      "name": "Suppress advancement loading",
+      "enabled": true,
+      "type": "MESSAGE_REGEX",
+      "pattern": "Couldn't parse element",
+      "action": "DENY"
+    },
+    {
+      "name": "Suppress advancement loading",
+      "enabled": true,
+      "type": "MESSAGE_REGEX",
+      "pattern": "Failed to parse recipe",
+      "action": "DENY"
+    },
+    {
+      "name": "Suppress advancement loading",
+      "enabled": true,
+      "type": "MESSAGE_REGEX",
+      "pattern": "Error parsing recipe",
+      "action": "DENY"
+    },
+    {
+      "name": "Suppress advancement loading",
+      "enabled": true,
+      "type": "MESSAGE_REGEX",
+      "pattern": "Failed to register Avaritia recipes!",
+      "action": "DENY"
+    },
+    {
+      "name": "Suppress advancement loading",
+      "enabled": true,
+      "type": "LOGGER_REGEX",
+      "pattern": "morph/avaritia/init/AvaritiaModContent",
+      "action": "DENY"
+    },
+    {
+      "name": "Suppress advancement loading",
+      "enabled": true,
+      "type": "MESSAGE_REGEX",
+      "pattern": "Parsing error loading custom advancement",
+      "action": "DENY"
+    },
+    {
+      "name": "Suppress advancement loading",
+      "enabled": true,
+      "type": "MESSAGE_REGEX",
+      "pattern": "Could not decode GlobalLootModifier with json id",
+      "action": "DENY"
+    },
+    {
+      "name": "Suppress advancement loading",
+      "enabled": true,
+      "type": "MESSAGE_REGEX",
+      "pattern": "Caught an error loading trophy config for",
+      "action": "DENY"
+    },
+    {
+      "name": "Suppress advancement loading",
+      "enabled": true,
+      "type": "MESSAGE_REGEX",
+      "pattern": "Unknown registry key in ResourceKey",
+      "action": "DENY"
+    },
+    {
+      "name": "Suppress advancement loading",
+      "enabled": true,
+      "type": "MESSAGE_REGEX",
+      "pattern": "Energy value for",
+      "action": "DENY"
+    },
+    {
+      "name": "Suppress advancement loading",
+      "enabled": true,
+      "type": "MESSAGE_REGEX",
+      "pattern": "ScreenCustomizationLayer registered:",
+      "action": "DENY"
+    },
+    {
+      "name": "Suppress advancement loading",
+      "enabled": true,
+      "type": "MESSAGE_REGEX",
+      "pattern": "No fluid found for tag",
+      "action": "DENY"
+    },
+    {
+      "name": "Suppress advancement loading",
+      "enabled": true,
+      "type": "MESSAGE_REGEX",
+      "pattern": "Non-unique structure_set",
+      "action": "DENY"
+    },
+    {
+      "name": "Suppress advancement loading",
+      "enabled": true,
+      "type": "MESSAGE_REGEX",
+      "pattern": "Method overwrite conflict for removeIf",
+      "action": "DENY"
+    },
+    {
+      "name": "Suppress advancement loading",
+      "enabled": true,
+      "type": "LOGGER_REGEX",
+      "pattern": "com.lrdynamicdungeon.world.DungeonController",
+      "action": "DENY"
+    },
+    {
+      "name": "Suppress advancement loading",
+      "enabled": true,
+      "type": "MESSAGE_REGEX",
+      "pattern": "defineId called for",
+      "action": "DENY"
+    },
+    {
+      "name": "Suppress advancement loading",
+      "enabled": true,
+      "type": "MESSAGE_REGEX",
+      "pattern": "Unable to locate destination for auto",
+      "action": "DENY"
+    },
+    {
+      "name": "Suppress advancement loading",
+      "enabled": true,
+      "type": "MESSAGE_REGEX",
+      "pattern": "Missing GLM for",
+      "action": "DENY"
+    },
+    {
+      "name": "Suppress advancement loading",
+      "enabled": true,
+      "type": "MESSAGE_REGEX",
+      "pattern": "No trades defined for",
+      "action": "DENY"
+    },
+    {
+      "name": "Suppress advancement loading",
+      "enabled": true,
+      "type": "MESSAGE_REGEX",
+      "pattern": "Missing entry factories",
+      "action": "DENY"
+    },
+    {
+      "name": "Suppress advancement loading",
+      "enabled": true,
+      "type": "MESSAGE_REGEX",
+      "pattern": "Missing trade item listings",
+      "action": "DENY"
+    },
+    {
+      "name": "Suppress advancement loading",
+      "enabled": true,
+      "type": "MESSAGE_REGEX",
+      "pattern": "Missing function tooltips",
+      "action": "DENY"
+    },
+    {
+      "name": "Suppress advancement loading",
+      "enabled": true,
+      "type": "MESSAGE_REGEX",
+      "pattern": "Missing condition tooltips",
+      "action": "DENY"
+    },
+    {
+      "name": "Suppress advancement loading",
+      "enabled": true,
+      "type": "MESSAGE_REGEX",
+      "pattern": "GenericSource method class",
+      "action": "DENY"
+    },
+    {
+      "name": "Suppress advancement loading",
+      "enabled": true,
+      "type": "MESSAGE_REGEX",
+      "pattern": "Check debug logs for more information.",
+      "action": "DENY"
+    },
+    {
+      "name": "Suppress advancement loading",
+      "enabled": true,
+      "type": "MESSAGE_REGEX",
+      "pattern": "Added recipe category decorator:",
+      "action": "DENY"
+    },
+    {
+      "name": "Suppress advancement loading",
+      "enabled": true,
+      "type": "MESSAGE_REGEX",
+      "pattern": "Found a broken recipe, failed",
+      "action": "DENY"
+    },
+    {
+      "name": "Suppress advancement loading",
+      "enabled": true,
+      "type": "MESSAGE_REGEX",
+      "pattern": "Unknown custom packet identifier",
+      "action": "DENY"
+    },
+    {
+      "name": "Suppress advancement loading",
+      "enabled": true,
+      "type": "MESSAGE_REGEX",
+      "pattern": "Invalid icon item stack:",
+      "action": "DENY"
+    },
+    {
+      "name": "Suppress advancement loading",
+      "enabled": true,
+      "type": "MESSAGE_REGEX",
+      "pattern": "Recipe ",
+      "action": "DENY",
+      "level": "WARN"
+    },
+    {
+      "name": "Suppress advancement loading",
+      "enabled": true,
+      "type": "MESSAGE_REGEX",
+      "pattern": "Invalid extra recipe mapping:",
+      "action": "DENY"
+    },
+    {
+      "name": "Suppress advancement loading",
+      "enabled": true,
+      "type": "MESSAGE_REGEX",
+      "pattern": "Thermalpedia missing the crafting recipe",
+      "action": "DENY"
+    },
+    {
+      "name": "Suppress advancement loading",
+      "enabled": true,
+      "type": "MESSAGE_REGEX",
+      "pattern": "faq_rftools_random_dimensions",
+      "action": "DENY",
+      "level": "ERROR"
+    },
+    {
+      "name": "Suppress advancement loading",
+      "enabled": true,
+      "type": "MESSAGE_REGEX",
+      "pattern": "An error occurred",
+      "action": "DENY"
+    },
+    {
+      "name": "Suppress advancement loading",
+      "enabled": true,
+      "type": "MESSAGE_REGEX",
+      "pattern": "Error loading plugin at io.ticticboom.mods.mm.compat.waila.MMWailaPlugin",
+      "action": "DENY"
+    },
+    {
+      "name": "Suppress advancement loading",
+      "enabled": true,
+      "type": "MESSAGE_REGEX",
+      "pattern": "Pages",
+      "action": "DENY",
+      "level": "ERROR"
+    },
+    {
+      "name": "Suppress advancement loading",
+      "enabled": true,
+      "type": "MESSAGE_REGEX",
+      "pattern": "mysticalagriculture:",
+      "action": "DENY",
+      "level": "WARN"
+    },
+    {
+      "name": "Suppress advancement loading",
+      "enabled": true,
+      "type": "MESSAGE_REGEX",
+      "pattern": "advanced_ae:block/crafting/quantum_core_formed",
+      "action": "DENY",
+      "level": "WARN"
+    },
+    {
+      "name": "Suppress advancement loading",
+      "enabled": true,
+      "type": "MESSAGE_REGEX",
+      "pattern": "industrialforegoing:transporter",
+      "action": "DENY",
+      "level": "WARN"
+    },
+    {
+      "name": "Suppress advancement loading",
+      "enabled": true,
+      "type": "MESSAGE_REGEX",
+      "pattern": "refinedstorage:cover",
+      "action": "DENY",
+      "level": "WARN"
+    },
+    {
+      "name": "Suppress advancement loading",
+      "enabled": true,
+      "type": "MESSAGE_REGEX",
+      "pattern": "refinedstorage:hollow_cover",
+      "action": "DENY",
+      "level": "WARN"
+    },
+    {
+      "name": "Suppress advancement loading",
+      "enabled": true,
+      "type": "MESSAGE_REGEX",
+      "pattern": "custom_capacitors:",
+      "action": "DENY",
+      "level": "WARN"
+    },
+    {
+      "name": "Suppress advancement loading",
+      "enabled": true,
+      "type": "MESSAGE_REGEX",
+      "pattern": "mangomultiblock:example_item",
+      "action": "DENY",
+      "level": "WARN"
+    },
+    {
+      "name": "Suppress advancement loading",
+      "enabled": true,
+      "type": "MESSAGE_REGEX",
+      "pattern": "ifeu:air",
+      "action": "DENY",
+      "level": "WARN"
+    },
+    {
+      "name": "Suppress advancement loading",
+      "enabled": true,
+      "type": "MESSAGE_REGEX",
+      "pattern": "armorplus:item/",
+      "action": "DENY",
+      "level": "WARN"
+    },
+    {
+      "name": "Suppress advancement loading",
+      "enabled": true,
+      "type": "MESSAGE_REGEX",
+      "pattern": "actuallyadditions:block/",
+      "action": "DENY",
+      "level": "WARN"
+    },
+    {
+      "name": "Suppress advancement loading",
+      "enabled": true,
+      "type": "MESSAGE_REGEX",
+      "pattern": "draconicevolution:block/structure_block",
+      "action": "DENY",
+      "level": "WARN"
+    },
+    {
+      "name": "Suppress advancement loading",
+      "enabled": true,
+      "type": "MESSAGE_REGEX",
+      "pattern": "Mixin apply failed",
+      "action": "DENY"
+    },
+    {
+      "name": "Suppress advancement loading",
+      "enabled": true,
+      "type": "MESSAGE_REGEX",
+      "pattern": "is missing mods.toml file",
+      "action": "DENY"
+    },
+    {
+      "name": "Suppress advancement loading",
+      "enabled": true,
+      "type": "MESSAGE_REGEX",
+      "pattern": "Registering config factory for mod",
+      "action": "DENY"
+    },
+    {
+      "name": "Suppress advancement loading",
+      "enabled": true,
+      "type": "MESSAGE_REGEX",
+      "pattern": "Start loading plugin at",
+      "action": "DENY"
+    },
+    {
+      "name": "Suppress advancement loading",
+      "enabled": true,
+      "type": "MESSAGE_REGEX",
+      "pattern": "Key mapping key.observable.profile registered after event",
+      "action": "DENY"
+    },
+    {
+      "name": "Suppress advancement loading",
+      "enabled": true,
+      "type": "MESSAGE_REGEX",
+      "pattern": "minecraft",
+      "action": "DENY",
+      "level": "WARN"
+    },
+    {
+      "name": "Suppress advancement loading",
+      "enabled": true,
+      "type": "MESSAGE_REGEX",
+      "pattern": "Attempting to load Living Armour Upgrade",
+      "action": "DENY"
+    },
+    {
+      "name": "Suppress advancement loading",
+      "enabled": true,
+      "type": "MESSAGE_REGEX",
+      "pattern": "Loading weighted loot table",
+      "action": "DENY"
+    },
+    {
+      "name": "Suppress advancement loading",
+      "enabled": true,
+      "type": "MESSAGE_REGEX",
+      "pattern": "Invalid item:",
+      "action": "DENY"
+    },
+    {
+      "name": "Suppress advancement loading",
+      "enabled": true,
+      "type": "MESSAGE_REGEX",
+      "pattern": "Invalid enchantment in item",
+      "action": "DENY"
+    },
+    {
+      "name": "Suppress advancement loading",
+      "enabled": true,
+      "type": "MESSAGE_REGEX",
+      "pattern": "Skipping empty category",
+      "action": "DENY"
+    },
+    {
+      "name": "Suppress advancement loading",
+      "enabled": true,
+      "type": "MESSAGE_REGEX",
+      "pattern": "BookContentResourceListenerLoader",
+      "action": "DENY"
+    },
+    {
+      "name": "Suppress advancement loading",
+      "enabled": true,
+      "type": "MESSAGE_REGEX",
+      "pattern": "Hiding ",
+      "action": "DENY",
+      "level": "INFO"
+    },
+    {
+      "name": "Suppress advancement loading",
+      "enabled": true,
+      "type": "MESSAGE_REGEX",
+      "pattern": "ignoring heat properties for block",
+      "action": "DENY"
+    }
+  ]
+}

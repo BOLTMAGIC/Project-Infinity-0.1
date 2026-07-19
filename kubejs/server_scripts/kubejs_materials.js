@@ -17,6 +17,13 @@ ServerEvents.recipes((event) => {
   shapeless(event, 'kubejs:infinity_6_block', ['9x kubejs:infinity_6']);
   shapeless(event, '9x kubejs:infinity_6', ['kubejs:infinity_6_block']);
 
+  shapeless(event, 'kubejs:compressed_yellow_cake_uranium', [
+    '9x mekanism:yellow_cake_uranium',
+  ]);
+  shapeless(event, '9x mekanism:yellow_cake_uranium', [
+    'kubejs:compressed_yellow_cake_uranium',
+  ]);
+
   shapeless(event, 'kubejs:infinity_2', [
     'kubejs:infinity_1_333333',
     'kubejs:infinity_1_666666',
@@ -212,6 +219,32 @@ ServerEvents.recipes((event) => {
   create3x3same(event, 'kubejs:voidmetal_block', ['kubejs:voidmetal_ingot']);
 
   shapeless(event, '9x kubejs:voidmetal_ingot', ['kubejs:voidmetal_block']);
+
+  create3x3same(event, 'kubejs:dust_2', ['9x exdeorum:compressed_dust']);
+  shapeless(event, '9x exdeorum:compressed_dust', ['kubejs:dust_2']);
+  create3x3same(event, 'kubejs:dust_3', ['9x kubejs:dust_2']);
+  shapeless(event, '9x kubejs:dust_2', ['kubejs:dust_3']);
+  create3x3same(event, 'kubejs:dust_4', ['9x kubejs:dust_3']);
+  shapeless(event, '9x kubejs:dust_3', ['kubejs:dust_4']);
+  create3x3same(event, 'kubejs:dust_5', ['9x kubejs:dust_4']);
+  shapeless(event, '9x kubejs:dust_4', ['kubejs:dust_5']);
+  create3x3same(event, 'kubejs:dust_6', ['9x kubejs:dust_5']);
+  shapeless(event, '9x kubejs:dust_5', ['kubejs:dust_6']);
+
+  create3x3same(event, 'kubejs:blackstone_2', [
+    '9x exdeorum:compressed_blackstone',
+  ]);
+  shapeless(event, '9x exdeorum:compressed_blackstone', [
+    'kubejs:blackstone_2',
+  ]);
+  create3x3same(event, 'kubejs:blackstone_3', ['9x kubejs:blackstone_2']);
+  shapeless(event, '9x kubejs:blackstone_2', ['kubejs:blackstone_3']);
+  create3x3same(event, 'kubejs:blackstone_4', ['9x kubejs:blackstone_3']);
+  shapeless(event, '9x kubejs:blackstone_3', ['kubejs:blackstone_4']);
+  create3x3same(event, 'kubejs:blackstone_5', ['9x kubejs:blackstone_4']);
+  shapeless(event, '9x kubejs:blackstone_4', ['kubejs:blackstone_5']);
+  create3x3same(event, 'kubejs:blackstone_6', ['9x kubejs:blackstone_5']);
+  shapeless(event, '9x kubejs:blackstone_5', ['kubejs:blackstone_6']);
 
   create3x3same(event, 'kubejs:compressed_hellforgedparts', [
     'bloodmagic:hellforgedparts',

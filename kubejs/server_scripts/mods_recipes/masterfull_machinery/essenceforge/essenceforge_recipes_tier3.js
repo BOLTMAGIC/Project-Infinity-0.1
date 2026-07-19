@@ -279,7 +279,7 @@ function createTier6SeedRecipes(event, seeds) {
         ingredient: {
           type: 'mm:fluid',
           fluid: 'industrialforegoing:ether_gas',
-          amount: 400,
+          amount: 500,
         },
       })
       .input({
@@ -320,7 +320,7 @@ function generateTier3Recipes(event, seeds, maxSeedsPerRecipe) {
         ingredient: {
           type: 'mm:fluid',
           fluid: 'industrialforegoing:ether_gas',
-          amount: 300,
+          amount: 250,
         },
       });
 

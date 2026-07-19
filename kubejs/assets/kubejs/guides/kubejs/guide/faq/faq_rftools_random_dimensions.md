@@ -29,4 +29,4 @@ Short answer: use a dimension inscriber + builder for randomized tabs, and alway
 * Tips:
   * Use different digit dimlets (0–9) with empty tabs to get unique random dimensions each time.
   * Always carry a Phased Field Generator when entering new, unknown RFTools dimensions for protection.
-  * If a world is bad or unwanted, use /rftdim safedel <ID> to delete it and roll another.
+  * If a world is bad or unwanted, use /rftdim safedel "ID" to delete it and roll another.

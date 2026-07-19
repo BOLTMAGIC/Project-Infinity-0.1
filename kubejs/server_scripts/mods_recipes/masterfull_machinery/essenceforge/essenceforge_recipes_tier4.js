@@ -190,6 +190,8 @@ MMEvents.createProcesses((event) => {
     tier5Seeds,
     tier6Seeds,
   ];
+  // Ether gas amount per seed for tiers 1..6 (per seed)
+  const gasPerSeed = [75, 125, 175, 225, 275, 350];
 
   for (var i = 0; i < 6; i++) {
     var recipeId = `mm:essenceforge_tier4_tier${i + 1}_seeds`;
@@ -209,7 +211,7 @@ MMEvents.createProcesses((event) => {
         ingredient: {
           type: 'mm:fluid',
           fluid: 'industrialforegoing:ether_gas',
-          amount: 500 * seeds.length,
+          amount: gasPerSeed[i] * seeds.length,
         },
       });
 

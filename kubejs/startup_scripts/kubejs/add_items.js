@@ -1,8 +1,6 @@
 StartupEvents.registry('item', (e) => {
   // The texture for this item has to be placed in kubejs/assets/kubejs/textures/item/test_item.png
-  e.create('zahraanite')
-    .maxStackSize(64)
-    .texture('kubejs:item/zahraanite');
+  e.create('zahraanite').maxStackSize(64).texture('kubejs:item/zahraanite');
 
   e.create('ultimate_gem')
     .tag('balm:gems')
@@ -502,6 +500,12 @@ StartupEvents.registry('item', (e) => {
   mekanismEnrichedMaterialsToCompress.forEach((material) => {
     createMekanismCompressed(e, material);
   });
+
+  e.create('compressed_yellow_cake_uranium')
+    .tag('kubejs:compressed_yellow_cake_uranium')
+    .displayName('Compressed Yellow Cake Uranium')
+    .maxStackSize(64)
+    .texture('kubejs:item/mekanism/compressed_yellow_cake_uranium');
 
   //#region Misc
   e.create('full_nbt_remover')

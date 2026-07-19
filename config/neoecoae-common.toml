@@ -48,35 +48,25 @@ enableInfiniteStorage = true
 	#Set JVM property -Dneoecoae.ecoCpuPushTickLimit=<value> to override this config.
 	#Range: > 1
 	ecoCpuPushTickLimit = 2147483647
-	#Maximum crafts merged into a single fast path batch push.
-	#Set JVM property -Dneoecoae.ecoBatchFastPathLimit=<value> to override this config.
-	#Range: > 1
-	ecoBatchFastPathLimit = 64
 	#Maximum fast path batch crafts a CPU may push per tick.
 	#Set JVM property -Dneoecoae.ecoBatchFastPathTickLimit=<value> to override this config.
-	#Range: > 1
+	#Range: 1 ~ 65536
 	ecoBatchFastPathTickLimit = 256
 	#Enable the aggressive ECO fast path.
 	#This keeps the same safety checks as the normal fast path, but allows much larger ECO Pattern Bus batch pushes.
 	#Default true. Disable this option if a modpack has recipe compatibility issues.
 	#Set JVM property -Dneoecoae.ecoAggressiveFastPath=true to force-enable this optimization without editing the config.
 	ecoAggressiveFastPathEnabled = true
-	#Fallback maximum crafts merged into a single aggressive fast path batch push.
-	#When a controller's dynamic FX capacity is available, that capacity is used instead.
-	#Only used when ecoAggressiveFastPathEnabled is true.
-	#Set JVM property -Dneoecoae.ecoAggressiveFastPathLimit=<value> to override this config.
-	#Range: > 1
-	ecoAggressiveFastPathLimit = 4096
 	#Maximum new aggressive fast path crafts a CPU may schedule per tick.
 	#This also scales the simulated crafting power cap so batches up to this limit can advance at the controller's full progress rate when enough AE power is available.
 	#The controller's dynamic FX capacity still caps total in-flight simulated crafts.
 	#Only used when ecoAggressiveFastPathEnabled is true.
 	#Set JVM property -Dneoecoae.ecoAggressiveFastPathTickLimit=<value> to override this config.
-	#Range: > 1
+	#Range: 1 ~ 65536
 	ecoAggressiveFastPathTickLimit = 4096
 	#Maximum recipe entries kept in each ECO fast path cache.
 	#Set JVM property -Dneoecoae.ecoFastPathCacheSize=<value> to override this config.
 	#Changes fully apply to newly created caches after re-entering the world or restarting the server.
-	#Range: > 16
+	#Range: 16 ~ 16384
 	ecoFastPathCacheSize = 512
 

@@ -134,6 +134,22 @@
 			x: -6.0d
 			y: 0.0d
 		}
+		{
+			height: 1.0d
+			image: "cyclic:block/water_fake"
+			rotation: 0.0d
+			width: 0.66d
+			x: 0.3214285714285623d
+			y: 2.0d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/lava_flow"
+			rotation: 0.0d
+			width: 0.66d
+			x: -0.2500000000000071d
+			y: 2.0d
+		}
 	]
 	order_index: 0
 	quest_links: [ ]
@@ -661,6 +677,30 @@
 			title: "&2Quests added by Aquadin.&r &1Thank you a lot!&r"
 			x: 0.0d
 			y: -1.5d
+		}
+		{
+			dependencies: ["4402587B0EAC4EEC"]
+			description: ["The Tank Encapsulator Multiblock lets you create some Fluid and Chemical Tanks so you dont have problems with NBT."]
+			id: "1451DABE6CCAC3AD"
+			rewards: [{
+				id: "2E4A11590F5ED49A"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "1ABD3B144CFE4836"
+					item: "mm:tank_encapsulator_controller"
+					type: "item"
+				}
+				{
+					id: "7A92C4DFCD79906E"
+					item: "mekanism_extras:absolute_fluid_tank"
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 2.0d
 		}
 	]
 	title: "{ftbquests.chapter.masterful_machinery.title}"

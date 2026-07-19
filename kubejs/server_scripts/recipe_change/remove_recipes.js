@@ -497,7 +497,6 @@ const removeItemsbyID = [
   'botania:red_string_alt',
   'minecraft:gravel_from_compressed_gravel',
   'nuclearcraft:aluminum_block',
-
   'justdirethings:time_wand',
   'justdirethings:upgrade_time_protection',
   'justdirethings:paradoxmachine',
@@ -575,8 +574,8 @@ const removeItemsbyID = [
   'neoecoae:integrated_working_station/eco_infinite_cell_component',
   'nuclearcraft:resonite_crystal',
   'nuclearcraft:analyzer/resonite_crystal',
-  '',
-  '',
+  'expatternprovider:cobblestone_cell',
+  'expatternprovider:water_cell',
   '',
   '',
   '',

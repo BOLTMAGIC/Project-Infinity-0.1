@@ -4,7 +4,7 @@
 	filename: "ore_processing"
 	group: "29543B666C58207C"
 	icon: "dimensionalpocketsii:module_furnace"
-	id: "2B9E7395C1524405"
+	id: "1BC1F5C0039B5DDF"
 	images: [
 		{
 			height: 7.0d
@@ -51,18 +51,18 @@
 			y: 3.0d
 		}
 	]
-	order_index: 17
+	order_index: 16
 	quest_links: [ ]
 	quests: [
 		{
-			id: "2AF9D1680D0C6E8C"
+			id: "4BECE8AF5B50F536"
 			rewards: [{
-				id: "04E61D3D32C8256A"
+				id: "47BE4B0281C1095F"
 				item: "kubejs:apotheotic_coin"
 				type: "item"
 			}]
 			tasks: [{
-				id: "0BE31136A5561B13"
+				id: "0E4DA09D0597D5A9"
 				item: "ironfurnaces:copper_furnace"
 				type: "item"
 			}]
@@ -71,14 +71,14 @@
 		}
 		{
 			dependencies: ["4BECE8AF5B50F536"]
-			id: "030D3C3C4D8FDEEE"
+			id: "606B181B5E0B8CCB"
 			rewards: [{
-				id: "55C2240856035A00"
+				id: "20AB51668168310C"
 				item: "kubejs:apotheotic_coin"
 				type: "item"
 			}]
 			tasks: [{
-				id: "07101B5E0EEEDE88"
+				id: "2295AE4F015C8886"
 				item: "ironfurnaces:iron_furnace"
 				type: "item"
 			}]
@@ -88,21 +88,21 @@
 		{
 			dependencies: ["606B181B5E0B8CCB"]
 			icon: "ironfurnaces:silver_furnace"
-			id: "063FE36F86186BEB"
+			id: "257B32BDB6B96F3D"
 			min_required_tasks: 1
 			rewards: [{
-				id: "702263D8A2201206"
+				id: "0C974BD9277E555E"
 				item: "kubejs:apotheotic_coin"
 				type: "item"
 			}]
 			tasks: [
 				{
-					id: "65F418DB0BE0DB0C"
+					id: "55970F366D1B9A9D"
 					item: "ironfurnaces:silver_furnace"
 					type: "item"
 				}
 				{
-					id: "32BD01B7CDBA01F6"
+					id: "605B7AD6CB1AC6D8"
 					type: "checkmark"
 				}
 			]
@@ -111,14 +111,14 @@
 		}
 		{
 			dependencies: ["257B32BDB6B96F3D"]
-			id: "73B448252C227F92"
+			id: "345C131CB732DCC1"
 			rewards: [{
-				id: "78E3F19662044677"
+				id: "23B739B7D69F97CF"
 				item: "kubejs:apotheotic_coin"
 				type: "item"
 			}]
 			tasks: [{
-				id: "37FDA8036CB3A38F"
+				id: "760964077F37697C"
 				item: "ironfurnaces:gold_furnace"
 				type: "item"
 			}]
@@ -127,14 +127,14 @@
 		}
 		{
 			dependencies: ["345C131CB732DCC1"]
-			id: "5BD6E264C3BA6E92"
+			id: "21B120B6A7FE11F8"
 			rewards: [{
-				id: "5F95DB54F1B8B187"
+				id: "5D100318D524FFF1"
 				item: "kubejs:apotheotic_coin"
 				type: "item"
 			}]
 			tasks: [{
-				id: "5B2CF503BD4525EC"
+				id: "663119ED27D6774C"
 				item: "ironfurnaces:diamond_furnace"
 				type: "item"
 			}]
@@ -144,21 +144,21 @@
 		{
 			dependencies: ["21B120B6A7FE11F8"]
 			icon: "ironfurnaces:crystal_furnace"
-			id: "6413D08FB13E4C3A"
+			id: "12D5DC6C4C1E3CF2"
 			min_required_tasks: 1
 			rewards: [{
-				id: "35F13410C4644884"
+				id: "54F0EE7C95C3D186"
 				item: "kubejs:apotheotic_coin"
 				type: "item"
 			}]
 			tasks: [
 				{
-					id: "1503C1ABC1B1A003"
+					id: "32412D858DB720E2"
 					item: "ironfurnaces:crystal_furnace"
 					type: "item"
 				}
 				{
-					id: "693583CDE079FA48"
+					id: "35F09BD8E6595707"
 					type: "checkmark"
 				}
 			]
@@ -167,14 +167,14 @@
 		}
 		{
 			dependencies: ["12D5DC6C4C1E3CF2"]
-			id: "694E56DA2E10FC53"
+			id: "256DF8EF5190A2A2"
 			rewards: [{
-				id: "508D467EF2FA6609"
+				id: "1666C16FAD6F8DEA"
 				item: "kubejs:apotheotic_coin"
 				type: "item"
 			}]
 			tasks: [{
-				id: "13D18790E0D1F9D1"
+				id: "6D7CA13697185EF4"
 				item: "ironfurnaces:emerald_furnace"
 				type: "item"
 			}]
@@ -183,14 +183,14 @@
 		}
 		{
 			dependencies: ["5442707A729A609F"]
-			id: "124469A1D4DAA319"
+			id: "17F3D880D58F4737"
 			rewards: [{
-				id: "7D9DD9493EFBD522"
+				id: "5E9FAC5A51DC0720"
 				item: "kubejs:apotheotic_coin"
 				type: "item"
 			}]
 			tasks: [{
-				id: "1327AA7FB54355B3"
+				id: "1E3564D725F1369E"
 				item: "ironfurnaces:netherite_furnace"
 				type: "item"
 			}]
@@ -199,14 +199,14 @@
 		}
 		{
 			dependencies: ["256DF8EF5190A2A2"]
-			id: "501EFFB4D8CDA17D"
+			id: "5442707A729A609F"
 			rewards: [{
-				id: "69D6E7D15E09BDC9"
+				id: "02B684B489AC525A"
 				item: "kubejs:apotheotic_coin"
 				type: "item"
 			}]
 			tasks: [{
-				id: "7CC4431EBC1E2B00"
+				id: "5650F6FD96B64425"
 				item: "ironfurnaces:obsidian_furnace"
 				type: "item"
 			}]
@@ -218,14 +218,14 @@
 				"17F3D880D58F4737"
 				"74F6FB46AD12D33E"
 			]
-			id: "6F2605B1527373B2"
+			id: "7002CC832A3DE836"
 			rewards: [{
-				id: "08BBBC3D0B154F66"
+				id: "7A8FCC91F446011B"
 				item: "kubejs:infused_coin"
 				type: "item"
 			}]
 			tasks: [{
-				id: "4DC3F045CA8992F7"
+				id: "3FB473EF9FBAB1CC"
 				item: "ironfurnaces:allthemodium_furnace"
 				type: "item"
 			}]
@@ -234,14 +234,14 @@
 		}
 		{
 			dependencies: ["7002CC832A3DE836"]
-			id: "428434A5802C4695"
+			id: "01DD94BA907B8DB4"
 			rewards: [{
-				id: "67924ABCCE3DEB46"
+				id: "5540EEF2EDD5E67D"
 				item: "kubejs:infused_coin"
 				type: "item"
 			}]
 			tasks: [{
-				id: "7F1C5CBB6D45C852"
+				id: "5A0028CE46A1864A"
 				item: "ironfurnaces:vibranium_furnace"
 				type: "item"
 			}]
@@ -250,14 +250,14 @@
 		}
 		{
 			dependencies: ["01DD94BA907B8DB4"]
-			id: "0143C69102FB6081"
+			id: "54CA72D7003470FF"
 			rewards: [{
-				id: "031427931285CC5D"
+				id: "3C6F36879E946117"
 				item: "kubejs:ascended_coin"
 				type: "item"
 			}]
 			tasks: [{
-				id: "2E955469C76AC36E"
+				id: "0CA8F26D6A4B6CAA"
 				item: "ironfurnaces:unobtainium_furnace"
 				type: "item"
 			}]
@@ -265,14 +265,14 @@
 			y: 2.5d
 		}
 		{
-			id: "7622D341263482A3"
+			id: "6443130AA8F2A9E8"
 			rewards: [{
-				id: "20F499E26E92B9D3"
+				id: "089B8195362FD970"
 				item: "kubejs:apotheotic_coin"
 				type: "item"
 			}]
 			tasks: [{
-				id: "2C662106A04C0000"
+				id: "09172453D7FD5074"
 				item: "mekanism:energized_smelter"
 				type: "item"
 			}]
@@ -281,14 +281,14 @@
 		}
 		{
 			dependencies: ["6443130AA8F2A9E8"]
-			id: "0FE6EBDE44A5BAC5"
+			id: "223C35426CB6C9A9"
 			rewards: [{
-				id: "20CB82F55487D99E"
+				id: "77C4519EF517B2D4"
 				item: "kubejs:apotheotic_coin"
 				type: "item"
 			}]
 			tasks: [{
-				id: "64DEF716BD4E5A35"
+				id: "6F90527F746DDB35"
 				item: "mekanism:basic_smelting_factory"
 				type: "item"
 			}]
@@ -297,14 +297,14 @@
 		}
 		{
 			dependencies: ["223C35426CB6C9A9"]
-			id: "3007094F48C50510"
+			id: "034AF9BFDFD911A7"
 			rewards: [{
-				id: "05D5ABE16590B272"
+				id: "432DDFC10D364CBA"
 				item: "kubejs:apotheotic_coin"
 				type: "item"
 			}]
 			tasks: [{
-				id: "1C876F7329114623"
+				id: "70BA014FE0D0EB70"
 				item: "mekanism:advanced_smelting_factory"
 				type: "item"
 			}]
@@ -313,14 +313,14 @@
 		}
 		{
 			dependencies: ["605DFA537EF37A6C"]
-			id: "048E2059E2B49A70"
+			id: "14E5799BD38284A1"
 			rewards: [{
-				id: "0E0B16B56C7D9845"
+				id: "26D642C4F6209DC7"
 				item: "kubejs:apotheotic_coin"
 				type: "item"
 			}]
 			tasks: [{
-				id: "33707AD28CC8ED1F"
+				id: "2A55C15CD480EDF3"
 				item: "mekanism:ultimate_smelting_factory"
 				type: "item"
 			}]
@@ -329,14 +329,14 @@
 		}
 		{
 			dependencies: ["14E5799BD38284A1"]
-			id: "7A9A4FAB33E18BD3"
+			id: "0A34B05D4AD2E57A"
 			rewards: [{
-				id: "36AB4422F0458563"
+				id: "395524FEADFF05DD"
 				item: "kubejs:infused_coin"
 				type: "item"
 			}]
 			tasks: [{
-				id: "0DF82C0C135F1142"
+				id: "62F1CDDC72E81459"
 				item: "mekanism_extras:absolute_smelting_factory"
 				type: "item"
 			}]
@@ -345,14 +345,14 @@
 		}
 		{
 			dependencies: ["034AF9BFDFD911A7"]
-			id: "780B67B737698AFD"
+			id: "605DFA537EF37A6C"
 			rewards: [{
-				id: "3E48A1E611A8AF30"
+				id: "474B3EA4D8929616"
 				item: "kubejs:apotheotic_coin"
 				type: "item"
 			}]
 			tasks: [{
-				id: "6A89614EFC4132FB"
+				id: "7F7918C76045DAF7"
 				item: "mekanism:elite_smelting_factory"
 				type: "item"
 			}]
@@ -361,14 +361,14 @@
 		}
 		{
 			dependencies: ["0A34B05D4AD2E57A"]
-			id: "6BDB22294AB80F14"
+			id: "7D5F725ED73D2ACC"
 			rewards: [{
-				id: "7CD523C2B296FDD1"
+				id: "5557AA7C3AC10065"
 				item: "kubejs:infused_coin"
 				type: "item"
 			}]
 			tasks: [{
-				id: "78B6489421E40163"
+				id: "23D0D8D15849BA99"
 				item: "mekanism_extras:supreme_smelting_factory"
 				type: "item"
 			}]
@@ -377,14 +377,14 @@
 		}
 		{
 			dependencies: ["7D5F725ED73D2ACC"]
-			id: "48C7F6B4A5BCBE71"
+			id: "39308278555762F5"
 			rewards: [{
-				id: "22B73817FAE128B8"
+				id: "24D487A5F47479B9"
 				item: "kubejs:infused_coin"
 				type: "item"
 			}]
 			tasks: [{
-				id: "59D5EFFF65041168"
+				id: "21D1AE53478084E5"
 				item: "mekanism_extras:cosmic_smelting_factory"
 				type: "item"
 			}]
@@ -393,14 +393,14 @@
 		}
 		{
 			dependencies: ["39308278555762F5"]
-			id: "742C9CFFC4A43711"
+			id: "3B30D9FF5D982515"
 			rewards: [{
-				id: "3A66E0F218F62792"
+				id: "25E369E350BC8426"
 				item: "kubejs:ascended_coin"
 				type: "item"
 			}]
 			tasks: [{
-				id: "00F0F4E38962E37B"
+				id: "2B96665F2529A2FA"
 				item: "mekanism_extras:infinite_smelting_factory"
 				type: "item"
 			}]
@@ -408,14 +408,14 @@
 			y: -2.0d
 		}
 		{
-			id: "796D0B038758A9D3"
+			id: "6B83C6DAD9040951"
 			rewards: [{
-				id: "140CB87269198714"
+				id: "16EB6664D502C15A"
 				item: "kubejs:apotheotic_coin"
 				type: "item"
 			}]
 			tasks: [{
-				id: "6FADF0722E372A84"
+				id: "160485093CA07C4B"
 				item: {
 					Count: 1
 					id: "itemfilters:or"
@@ -439,14 +439,14 @@
 		}
 		{
 			dependencies: ["6B83C6DAD9040951"]
-			id: "6A6584B7A519A2DD"
+			id: "591C844EAACB74A8"
 			rewards: [{
-				id: "43922B20B05E2C2B"
+				id: "2AD7653DCE56D7D4"
 				item: "kubejs:apotheotic_coin"
 				type: "item"
 			}]
 			tasks: [{
-				id: "10552FB677882F08"
+				id: "0B0F218561C101ED"
 				item: {
 					Count: 1
 					id: "itemfilters:or"
@@ -469,14 +469,14 @@
 			y: 5.5d
 		}
 		{
-			id: "661E75A5409A5EB3"
+			id: "06C28E5A32BE125C"
 			rewards: [{
-				id: "6D0DE9DD5340CDA0"
+				id: "35573D3A4033D049"
 				item: "kubejs:apotheotic_coin"
 				type: "item"
 			}]
 			tasks: [{
-				id: "58EFE055A6CFE997"
+				id: "42A6BE4D15192322"
 				item: "enderio:primitive_alloy_smelter"
 				type: "item"
 			}]
@@ -485,14 +485,14 @@
 		}
 		{
 			dependencies: ["06C28E5A32BE125C"]
-			id: "56A2972FC38DCC69"
+			id: "4C83A10CF7B3A285"
 			rewards: [{
-				id: "2337E4B9607FC257"
+				id: "41BF1BB1F602612D"
 				item: "kubejs:apotheotic_coin"
 				type: "item"
 			}]
 			tasks: [{
-				id: "27B5041492A0D703"
+				id: "1536D84DF263B7F5"
 				item: "enderio:alloy_smelter"
 				type: "item"
 			}]
@@ -500,15 +500,15 @@
 			y: 6.5d
 		}
 		{
-			id: "63220E87E66034B7"
+			id: "370AC771A7A01BF5"
 			tasks: [
 				{
-					id: "524C1A9FBDBBCFCE"
+					id: "2F7A2758B320CB73"
 					item: "ironfurnaces:augment_smoking"
 					type: "item"
 				}
 				{
-					id: "391F2312B45DC761"
+					id: "4577CB3520C92B2D"
 					item: "ironfurnaces:augment_blasting"
 					type: "item"
 				}
@@ -517,15 +517,15 @@
 			y: -1.5d
 		}
 		{
-			id: "6643F94EFE54CD1B"
+			id: "188A21E07825A505"
 			tasks: [
 				{
-					id: "2E36C3BA2AD16B9E"
+					id: "2B588BDBF2A3E76D"
 					item: "ironfurnaces:augment_factory"
 					type: "item"
 				}
 				{
-					id: "462C95746FA17B9C"
+					id: "69059A9758ACFF77"
 					item: "ironfurnaces:augment_generator"
 					type: "item"
 				}
@@ -534,15 +534,15 @@
 			y: -1.5d
 		}
 		{
-			id: "1DDC4C42ECF8895A"
+			id: "70CF2578BBDE1770"
 			tasks: [
 				{
-					id: "015ED8D26A7E0A47"
+					id: "37B55F0409DD1EB7"
 					item: "ironfurnaces:augment_speed"
 					type: "item"
 				}
 				{
-					id: "43F5A346225C3DD6"
+					id: "5F280DF9CE9E9017"
 					item: "ironfurnaces:augment_fuel"
 					type: "item"
 				}
@@ -551,9 +551,9 @@
 			y: -1.5d
 		}
 		{
-			id: "2955072C86018F49"
+			id: "12C15ECF899CAD7F"
 			tasks: [{
-				id: "138C3F91FAA95931"
+				id: "56152CA2F12A310C"
 				item: {
 					Count: 1
 					id: "itemfilters:or"
@@ -635,9 +635,9 @@
 				"606B181B5E0B8CCB"
 			]
 			hide_dependency_lines: true
-			id: "69DE98A793954194"
+			id: "5FA027B696A1555C"
 			tasks: [{
-				id: "1DB58E2F601D8A9D"
+				id: "3FC3ACC30A96E6BF"
 				item: {
 					Count: 1
 					id: "ironfurnaces:million_furnace"
@@ -653,14 +653,14 @@
 			y: 1.0d
 		}
 		{
-			id: "72E67ED5B172F217"
+			id: "02231815F0555296"
 			rewards: [{
-				id: "7C3401D269864BC6"
+				id: "0DB082C2910A4867"
 				item: "kubejs:apotheotic_coin"
 				type: "item"
 			}]
 			tasks: [{
-				id: "1DF4049C5FD08A0E"
+				id: "12A28FCCA4D02896"
 				item: "mysticalagriculture:inferium_furnace"
 				type: "item"
 			}]
@@ -669,14 +669,14 @@
 		}
 		{
 			dependencies: ["02231815F0555296"]
-			id: "2D13710A5C87DEC6"
+			id: "3BD7A5546C0C2B9A"
 			rewards: [{
-				id: "38D8901F2BEA2EF8"
+				id: "63D5C72C1FCE387A"
 				item: "kubejs:apotheotic_coin"
 				type: "item"
 			}]
 			tasks: [{
-				id: "1419C04944B6E58F"
+				id: "38E91E277CCDC97B"
 				item: "mysticalagriculture:prudentium_furnace"
 				type: "item"
 			}]
@@ -685,14 +685,14 @@
 		}
 		{
 			dependencies: ["3BD7A5546C0C2B9A"]
-			id: "3B1A3D8ED905BBBD"
+			id: "01E1C2880E2C4C88"
 			rewards: [{
-				id: "1B0465E280E81C1B"
+				id: "7FE04DA3F8F3AF59"
 				item: "kubejs:apotheotic_coin"
 				type: "item"
 			}]
 			tasks: [{
-				id: "24E412B331D10EC4"
+				id: "2004727C56B721D4"
 				item: "mysticalagriculture:tertium_furnace"
 				type: "item"
 			}]
@@ -701,14 +701,14 @@
 		}
 		{
 			dependencies: ["01E1C2880E2C4C88"]
-			id: "2BA8E39EE4F62168"
+			id: "6FC9CE38A5A4074B"
 			rewards: [{
-				id: "2125221FB985C8BF"
+				id: "64F88C5C75F6E1E6"
 				item: "kubejs:apotheotic_coin"
 				type: "item"
 			}]
 			tasks: [{
-				id: "0918E846C6B3079A"
+				id: "37DD5003B49F1358"
 				item: "mysticalagriculture:imperium_furnace"
 				type: "item"
 			}]
@@ -717,14 +717,14 @@
 		}
 		{
 			dependencies: ["6FC9CE38A5A4074B"]
-			id: "69AE67EE497FE96E"
+			id: "4DC28F1F8526BE39"
 			rewards: [{
-				id: "45886B2B9FCE49FE"
+				id: "08C8CBFE799701F0"
 				item: "kubejs:apotheotic_coin"
 				type: "item"
 			}]
 			tasks: [{
-				id: "7BD39B3F575B5A4E"
+				id: "6865040DB82E5536"
 				item: "mysticalagriculture:supremium_furnace"
 				type: "item"
 			}]
@@ -733,14 +733,14 @@
 		}
 		{
 			dependencies: ["4DC28F1F8526BE39"]
-			id: "706FBCE7B12DE615"
+			id: "73FC2A537BFE3C11"
 			rewards: [{
-				id: "2E9CAEDAB7636D15"
+				id: "27BF5EEE39B2F4EB"
 				item: "kubejs:infused_coin"
 				type: "item"
 			}]
 			tasks: [{
-				id: "2683DBD25CB9790F"
+				id: "055005F3D4B079F7"
 				item: "mysticalagriculture:awakened_supremium_furnace"
 				type: "item"
 			}]
@@ -749,14 +749,14 @@
 		}
 		{
 			dependencies: ["73FC2A537BFE3C11"]
-			id: "006E2FBC5DDDF384"
+			id: "23242C9FBE362815"
 			rewards: [{
-				id: "5D578D81E023753E"
+				id: "662C1521765B5002"
 				item: "kubejs:infused_coin"
 				type: "item"
 			}]
 			tasks: [{
-				id: "141BA1E657B10F8E"
+				id: "641C313E8AF16340"
 				item: "mysticaladaptations:insanium_furnace"
 				type: "item"
 			}]
@@ -764,14 +764,14 @@
 			y: 6.0d
 		}
 		{
-			id: "316FE2C0C315B0E6"
+			id: "60E815712C9C7587"
 			rewards: [{
-				id: "48A03B391295E8ED"
+				id: "6256FF35C8B763A8"
 				item: "kubejs:apotheotic_coin"
 				type: "item"
 			}]
 			tasks: [{
-				id: "43067BC586F4C0ED"
+				id: "0DA511D03D1C49C5"
 				item: "thermal:machine_furnace"
 				type: "item"
 			}]
@@ -779,14 +779,14 @@
 			y: 5.5d
 		}
 		{
-			id: "0F38E966338668E2"
+			id: "1D4A31ABF19D1ED8"
 			rewards: [{
-				id: "274D310D6A16C0E6"
+				id: "253B11A6D89EBD1E"
 				item: "kubejs:apotheotic_coin"
 				type: "item"
 			}]
 			tasks: [{
-				id: "76C4B1427BBAB8EA"
+				id: "28DF4CC983A31F63"
 				item: "dimensionalpocketsii:module_furnace"
 				type: "item"
 			}]
@@ -794,14 +794,14 @@
 			y: 6.5d
 		}
 		{
-			id: "071E47FB8E806D1C"
+			id: "1A1E62EF73389C58"
 			rewards: [{
-				id: "4A0F99210510A1AB"
+				id: "16D68244ED815945"
 				item: "kubejs:infused_coin"
 				type: "item"
 			}]
 			tasks: [{
-				id: "22BD5BD91BB233B1"
+				id: "52C31B0D0D75BDA0"
 				item: "projecte:dm_furnace"
 				type: "item"
 			}]
@@ -810,14 +810,14 @@
 		}
 		{
 			dependencies: ["1A1E62EF73389C58"]
-			id: "6EFF193CD2E2BD0E"
+			id: "16F1086E4006233A"
 			rewards: [{
-				id: "55B8ECAE802E8F10"
+				id: "0D712442C4E2C9BF"
 				item: "kubejs:ascended_coin"
 				type: "item"
 			}]
 			tasks: [{
-				id: "397B6350CCBF6BE2"
+				id: "73302E3A52B2190A"
 				item: "projecte:rm_furnace"
 				type: "item"
 			}]
@@ -825,9 +825,9 @@
 			y: 6.5d
 		}
 		{
-			id: "36646CAF8BFD5A45"
+			id: "7EFDD81ACC6B4054"
 			tasks: [{
-				id: "174495065B7E3212"
+				id: "5A0B4BDADBB34EFD"
 				title: "Created by Solardaisy"
 				type: "checkmark"
 			}]

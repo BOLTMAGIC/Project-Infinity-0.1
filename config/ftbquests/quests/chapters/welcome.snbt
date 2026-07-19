@@ -1149,7 +1149,7 @@
 			shape: "hexagon"
 			size: 2.0d
 			tasks: [{
-				id: "29ABFE03E6B15B20"
+				id: "2372D2B2BA383A35"
 				item: {
 					Count: 1
 					id: "itemfilters:or"
@@ -1159,19 +1159,20 @@
 								Count: 1b
 								id: "gateways:gate_pearl"
 								tag: {
-									gateway: "gateways:emerald_grove_easy"
+									gateway: "gateways:emerald_grove"
 								}
 							}
 							{
 								Count: 1b
 								id: "gateways:gate_pearl"
 								tag: {
-									gateway: "gateways:emerald_grove"
+									gateway: "gateways:emerald_grove_easy"
 								}
 							}
 						]
 					}
 				}
+				match_nbt: true
 				type: "item"
 			}]
 			title: "Animals"

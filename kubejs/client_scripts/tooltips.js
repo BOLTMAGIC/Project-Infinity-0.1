@@ -762,4 +762,8 @@ ItemEvents.tooltip((event) => {
       );
     }
   );
+
+  event.addAdvanced('botanicalextramachinery:catalyst_speed', (item, advanced, text) => {
+    text.add(1, Text.translate('tooltip.kubejs.botanicalextramachinery_catalyst_speed'));
+  });
 });

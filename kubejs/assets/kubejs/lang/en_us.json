@@ -452,5 +452,7 @@
 
   "tooltip.kubejs.fake_transmutation_tablet.warning_1": "This item cannot be uncrafted into a Transmutation Table.",
   "tooltip.kubejs.fake_transmutation_tablet.warning_2": "This item will be consumed by it's recipes.",
-  "tooltip.kubejs.fake_transmutation_tablet.warning_3": "You should learn this item and duplicate it."
+  "tooltip.kubejs.fake_transmutation_tablet.warning_3": "You should learn this item and duplicate it.",
+
+  "tooltip.kubejs.botanicalextramachinery_catalyst_speed": "I can only be used in Advanced/Ultimate Industrial Agglomeration Factory."
 }

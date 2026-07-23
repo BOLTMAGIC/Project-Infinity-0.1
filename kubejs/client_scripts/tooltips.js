@@ -20,10 +20,17 @@ ItemEvents.tooltip((event) => {
   );
 
   // Allthemodium
-  event.add(
-    'allthemodium:allthemodium_upgrade_smithing_template',
-    Text.translate('tooltip.allthemodium.upgrade')
-  );
+  event.addAdvanced('allthemodium:allthemodium_upgrade_smithing_template', (item, advanced, text) => {
+    text.add(1, Text.translate('tooltip.kubejs.allthemodium_template'));
+  });
+
+  event.addAdvanced('allthemodium:vibranium_upgrade_smithing_template', (item, advanced, text) => {
+    text.add(1, Text.translate('tooltip.kubejs.vibranium_template'));
+  });
+
+  event.addAdvanced('allthemodium:unobtainium_upgrade_smithing_template', (item, advanced, text) => {
+    text.add(1, Text.translate('tooltip.kubejs.unobtainium_template'));
+  });
 
   // EnderIO Conduits
   const conduits = [
@@ -224,16 +231,6 @@ ItemEvents.tooltip((event) => {
       let refundText = Text.translate('tooltip.mm.controller_refund');
       text.add(1, refundText.white());
     }
-  );
-
-  event.add(
-    ['allthemodium:vibranium_upgrade_smithing_template'],
-    Text.translate('tooltip.kubejs.vibranium_template')
-  );
-
-  event.add(
-    ['allthemodium:unobtainium_upgrade_smithing_template'],
-    Text.translate('tooltip.kubejs.unobtainium_template')
   );
 
   event.addAdvanced(
@@ -742,9 +739,27 @@ ItemEvents.tooltip((event) => {
     });
   });
 
-  event.addAdvanced('kubejs:fake_transmutation_tablet', (item, advanced, text) => {
-    text.add(1, Text.translate('tooltip.kubejs.fake_transmutation_tablet.warning_1').red());
-    text.add(2, Text.translate('tooltip.kubejs.fake_transmutation_tablet.warning_2').red());
-    text.add(3, Text.translate('tooltip.kubejs.fake_transmutation_tablet.warning_3').red());
-  });
+  event.addAdvanced(
+    'kubejs:fake_transmutation_tablet',
+    (item, advanced, text) => {
+      text.add(
+        1,
+        Text.translate(
+          'tooltip.kubejs.fake_transmutation_tablet.warning_1'
+        ).red()
+      );
+      text.add(
+        2,
+        Text.translate(
+          'tooltip.kubejs.fake_transmutation_tablet.warning_2'
+        ).red()
+      );
+      text.add(
+        3,
+        Text.translate(
+          'tooltip.kubejs.fake_transmutation_tablet.warning_3'
+        ).red()
+      );
+    }
+  );
 });

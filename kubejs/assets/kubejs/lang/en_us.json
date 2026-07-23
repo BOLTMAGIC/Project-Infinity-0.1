@@ -230,8 +230,6 @@
   
   "tooltip.nuclearcraft.water_collector": "%s mB every 2 sec. Put this item inside the Pump(Nuclearcraft). You can Upgrade the speed and energy.",
   
-  "tooltip.allthemodium.upgrade": "Find me inside ancient city chests. 2.5% Chance",
-  
   "tooltip.enderio.conduit_transfer": "Energy Transfer Value: %s RF/t",
   
   "tooltip.kubejs.texture_credit": "Texture is from %s. Thank you a lot!",
@@ -321,8 +319,9 @@
 
   "tooltip.hostilenetworks.data_model.lord_pumpkinhead": "You can't kill me to get Data, look at the recipes of this item.",
 
-  "tooltip.kubejs.vibranium_template": "Find me in large bastion remnants. Brush suspicious soul sand.",
-  "tooltip.kubejs.unobtainium_template": "Dungeon structures in the Other. Look for the huge underground structure. The template appears rarely in chests in library rooms.",
+  "tooltip.kubejs.allthemodium_template": "Find me inside ancient city chests. 2.5% Chance",
+  "tooltip.kubejs.vibranium_template": "Find me in large bastion remnants by brushing Suspicious Soul Sand.",
+  "tooltip.kubejs.unobtainium_template": "Find me in libraries inside the \"Dungeon\" in the \"Other\" dimension. I appears rarely in chests in library rooms in the underground structure.",
 
   "tooltip.kubejs.fake_mob_masher": "Please dont look at the texture. This is a fake item used to fix a crash.",
 

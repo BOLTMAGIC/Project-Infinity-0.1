@@ -238,6 +238,9 @@ StartupEvents.registry('item', (e) => {
   createraw(e, 'raw_voidmetal');
   createraw(e, 'raw_plasteel');
 
+  e.create('soul_gem')
+    .texture('kubejs:item/silent/soul_gem');
+
   //#region starmetal ingot
   e.create('starmetal_ingot')
     .tag('forge:ingots/starmetal_ingot')

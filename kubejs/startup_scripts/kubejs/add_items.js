@@ -538,4 +538,8 @@ StartupEvents.registry('item', (e) => {
   e.create('chemical_tank_token')
     .displayName('Chemical Tank Token')
     .texture('kubejs:item/chemical_tank_token');
+
+  e.create('fake_transmutation_tablet')
+    .displayName('Fake Transmutation Tablet')
+    .texture('kubejs:item/fake_transmutation_tablet');
 });

@@ -449,5 +449,9 @@
 
   "text.kubejs.pebble.state": "Pebble collecting is now : ",
   "text.kubejs.pebble.state.disabled": "Disabled",
-  "text.kubejs.pebble.state.enabled": "Enabled"
+  "text.kubejs.pebble.state.enabled": "Enabled",
+
+  "tooltip.kubejs.fake_transmutation_tablet.warning_1": "This item cannot be uncrafted into a Transmutation Table.",
+  "tooltip.kubejs.fake_transmutation_tablet.warning_2": "This item will be consumed by it's recipes.",
+  "tooltip.kubejs.fake_transmutation_tablet.warning_3": "You should learn this item and duplicate it."
 }

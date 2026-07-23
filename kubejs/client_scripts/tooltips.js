@@ -236,7 +236,6 @@ ItemEvents.tooltip((event) => {
     Text.translate('tooltip.kubejs.unobtainium_template')
   );
 
-
   event.addAdvanced(
     [
       'avaritia:neutron_pile',
@@ -741,5 +740,11 @@ ItemEvents.tooltip((event) => {
         text.add(i, Text.translate(`tooltip.kubejs.${cake}_${i}`));
       }
     });
+  });
+
+  event.addAdvanced('kubejs:fake_transmutation_tablet', (item, advanced, text) => {
+    text.add(1, Text.translate('tooltip.kubejs.fake_transmutation_tablet.warning_1').red());
+    text.add(2, Text.translate('tooltip.kubejs.fake_transmutation_tablet.warning_2').red());
+    text.add(3, Text.translate('tooltip.kubejs.fake_transmutation_tablet.warning_3').red());
   });
 });

@@ -1,0 +1,18 @@
+{
+    "type": "lrdynamicdungeon:dungeon_type",
+    "generator": {
+        "type": "minecraft:flat",
+        "settings": {
+            "biome": "minecraft:plains",
+            "lakes": false,
+            "features": false,
+            "structure_overrides": [],
+            "layers": [
+                {
+                    "block": "minecraft:stone",
+                    "height": 256
+                }
+            ]
+        }
+    }
+}

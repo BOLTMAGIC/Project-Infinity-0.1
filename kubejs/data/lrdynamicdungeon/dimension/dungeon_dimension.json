@@ -3,7 +3,7 @@
     "generator": {
         "type": "minecraft:flat",
         "settings": {
-            "biome": "minecraft:plains",
+            "biome": "minecraft:the_void",
             "lakes": false,
             "features": false,
             "structure_overrides": [],

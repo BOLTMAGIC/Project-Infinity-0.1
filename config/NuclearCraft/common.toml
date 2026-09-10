@@ -308,3 +308,9 @@
 	#Barrel capacity in Buckets: advanced_barrel, basic_barrel, elite_barrel, du_barrel
 	barrel_capacity = [512, 128, 8192, 2048]
 
+[designs_hub]
+	#Enable the Designs Hub: browse/upload/vote on shared fission reactor designs
+	enabled = true
+	#Base URL of the Designs Hub API
+	base_url = "https://nc-fission-designs-api.itman.website"
+

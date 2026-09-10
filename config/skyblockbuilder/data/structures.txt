@@ -1,4 +1,6 @@
 ae2:meteorite
+ae2lt:alien_starship
+ae2lt:firmament_starship
 allthemodium:ancient_pyramid
 allthemodium:dungeon
 allthemodium:piglin_village

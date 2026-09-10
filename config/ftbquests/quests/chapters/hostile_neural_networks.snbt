@@ -90,7 +90,7 @@
 				id: "hostilenetworks:data_model"
 				tag: {
 					data_model: {
-						id: "hostilenetworks:enderman"
+						id: "hostilenetworks:creeper"
 					}
 				}
 			}
@@ -101,14 +101,14 @@
 				xp: 10
 			}]
 			shape: "gear"
-			size: 2.0d
+			size: 3.0d
 			tasks: [{
 				id: "463EB27ECC7E6509"
 				type: "checkmark"
 			}]
 			title: "{ftbquests.chapter.hostile_neural_networks.quest37EBB8E0D6E5F821.title}"
-			x: -2.5d
-			y: -2.5d
+			x: -18.5d
+			y: 1.5d
 		}
 		{
 			dependencies: ["37EBB8E0D6E5F821"]
@@ -128,7 +128,8 @@
 					type: "item"
 				}
 			]
-			shape: "square"
+			shape: "rsquare"
+			size: 1.5d
 			subtitle: "{ftbquests.chapter.hostile_neural_networks.quest3E3CBDCEAB0FF28F.subtitle}"
 			tasks: [{
 				id: "054BE385F6537CBA"
@@ -136,8 +137,8 @@
 				type: "item"
 			}]
 			title: "{ftbquests.chapter.hostile_neural_networks.quest3E3CBDCEAB0FF28F.title}"
-			x: -4.0d
-			y: -0.5d
+			x: -14.75d
+			y: 3.75d
 		}
 		{
 			dependencies: ["37EBB8E0D6E5F821"]
@@ -157,7 +158,8 @@
 					type: "item"
 				}
 			]
-			shape: "square"
+			shape: "rsquare"
+			size: 1.5d
 			subtitle: "{ftbquests.chapter.hostile_neural_networks.quest58C2ABED43B2EA61.subtitle}"
 			tasks: [{
 				id: "1C090CE24508A2EC"
@@ -165,8 +167,8 @@
 				type: "item"
 			}]
 			title: "{ftbquests.chapter.hostile_neural_networks.quest58C2ABED43B2EA61.title}"
-			x: -1.0d
-			y: -0.5d
+			x: -14.75d
+			y: -0.75d
 		}
 		{
 			dependencies: [
@@ -191,14 +193,15 @@
 				}
 			]
 			shape: "rsquare"
+			size: 1.5d
 			tasks: [{
 				id: "6E9AD3D0255D4F8B"
 				item: "hostilenetworks:sim_chamber"
 				type: "item"
 			}]
 			title: "{ftbquests.chapter.hostile_neural_networks.quest104EBBC08B4733F5.title}"
-			x: -2.5d
-			y: 1.0d
+			x: -11.75d
+			y: -0.75d
 		}
 		{
 			dependencies: [
@@ -231,13 +234,14 @@
 				}
 			]
 			shape: "diamond"
+			size: 1.5d
 			tasks: [{
 				id: "7CEA92391454DDD3"
 				type: "checkmark"
 			}]
 			title: "{ftbquests.chapter.hostile_neural_networks.quest34CD54347E9821B5.title}"
-			x: -2.5d
-			y: -0.5d
+			x: -14.75d
+			y: 1.5d
 		}
 		{
 			dependencies: ["104EBBC08B4733F5"]
@@ -256,8 +260,8 @@
 				type: "item"
 			}]
 			title: "{ftbquests.chapter.hostile_neural_networks.quest2559201BCF5D497C.title}"
-			x: -3.5d
-			y: 2.5d
+			x: -13.0d
+			y: -3.0d
 		}
 		{
 			dependencies: ["104EBBC08B4733F5"]
@@ -276,8 +280,8 @@
 				type: "item"
 			}]
 			title: "{ftbquests.chapter.hostile_neural_networks.quest10E8BC20D406D9FB.title}"
-			x: -2.5d
-			y: 2.5d
+			x: -12.0d
+			y: -3.0d
 		}
 		{
 			dependencies: ["104EBBC08B4733F5"]
@@ -296,8 +300,8 @@
 				type: "item"
 			}]
 			title: "{ftbquests.chapter.hostile_neural_networks.quest5A23107C363A209E.title}"
-			x: -1.5d
-			y: 2.5d
+			x: -11.0d
+			y: -3.0d
 		}
 		{
 			dependencies: ["14B3542ECB59869C"]
@@ -1457,12 +1461,19 @@
 			description: ["{ftbquests.chapter.hostile_neural_networks.quest14B3542ECB59869C.description1}"]
 			hide_dependency_lines: false
 			id: "14B3542ECB59869C"
-			rewards: [{
-				id: "0AA237BF385028BD"
-				type: "xp"
-				xp: 50
-			}]
-			shape: "hexagon"
+			rewards: [
+				{
+					id: "0AA237BF385028BD"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "2F8E71AD921BAE3E"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
 			size: 1.5d
 			tasks: [{
 				id: "19F0FC233A052810"
@@ -1470,8 +1481,8 @@
 				type: "item"
 			}]
 			title: "{ftbquests.chapter.hostile_neural_networks.quest14B3542ECB59869C.title}"
-			x: -2.5d
-			y: 4.0d
+			x: -11.75d
+			y: 3.75d
 		}
 		{
 			dependencies: ["14B3542ECB59869C"]
@@ -2196,8 +2207,8 @@
 				type: "item"
 			}]
 			title: "{ftbquests.chapter.hostile_neural_networks.quest3215DB3E694A5AE2.title}"
-			x: -0.5d
-			y: 2.5d
+			x: -10.0d
+			y: -3.0d
 		}
 		{
 			dependencies: ["14B3542ECB59869C"]
@@ -2264,7 +2275,8 @@
 			y: 16.5d
 		}
 		{
-			dependencies: ["14B3542ECB59869C"]
+			dependencies: ["7B92C09E74D6ABB2"]
+			description: ["Like the regular &5Loot Fabricator&r, except this machine can process predictions &24 at a time!&r So much loot!"]
 			hide_dependency_lines: false
 			hide_until_deps_visible: false
 			id: "6C878E306E620FAE"
@@ -2283,16 +2295,18 @@
 			]
 			shape: "rsquare"
 			size: 1.5d
+			subtitle: "4x Processing"
 			tasks: [{
 				id: "663D6B5E96B491FD"
 				item: "extrahnn:ultimate_loot_fabricator_v1"
 				type: "item"
 			}]
-			x: 2.25d
-			y: 4.0d
+			x: -4.25d
+			y: 3.75d
 		}
 		{
-			dependencies: ["6C878E306E620FAE"]
+			dependencies: ["7B92C09E74D6ABB2"]
+			description: ["Using &eExtra Data Models&r, this machine can simulate mobs in parallel for 4x the output!"]
 			hide_dependency_lines: false
 			hide_until_deps_visible: false
 			id: "20667F122EADBD6B"
@@ -2311,16 +2325,29 @@
 			]
 			shape: "rsquare"
 			size: 1.5d
+			subtitle: "4x Processing"
 			tasks: [{
 				id: "2ED24C4C5AE11E84"
 				item: "extrahnn:ultimate_sim_chamber_v1"
 				type: "item"
 			}]
-			x: 6.75d
-			y: 6.0d
+			x: -4.25d
+			y: -0.75d
 		}
 		{
-			dependencies: ["6C878E306E620FAE"]
+			dependencies: [
+				"104EBBC08B4733F5"
+				"14B3542ECB59869C"
+			]
+			description: [
+				"The Merger Camera lets you combine 4 &6Self-Aware&r Data Models along with an &8Extra Model Framework&r to create a combined &eExtra Data Model&r that can then be used in the &9Ultimate Machines&r."
+				""
+				"You can combine 4 of the same model into one, or you can mix and match between different mob types as needed so long as they are all at the &6Self-Aware&r tier."
+				""
+				"&eExtra Data Models&r created by this process will start out at the &bAutonomous&r tier and level up in the following order:"
+				""
+				"&bAutonomous&r -> &3Intelligent&r -> &cAdvanced&r -> &4Synthetic&r -> &5Omnipotent&r"
+			]
 			hide_dependency_lines: false
 			hide_until_deps_visible: false
 			id: "7B92C09E74D6ABB2"
@@ -2339,16 +2366,31 @@
 			]
 			shape: "rsquare"
 			size: 1.5d
-			tasks: [{
-				id: "7DCE3BA39B43059E"
-				item: "extrahnn:merger_camera"
-				type: "item"
-			}]
-			x: 6.75d
-			y: 4.0d
+			subtitle: "4x your models!"
+			tasks: [
+				{
+					id: "7DCE3BA39B43059E"
+					item: "extrahnn:merger_camera"
+					type: "item"
+				}
+				{
+					id: "6B1ECAB84885B645"
+					item: "extrahnn:blank_extra_data_model"
+					type: "item"
+				}
+			]
+			x: -8.0d
+			y: 1.5d
 		}
 		{
-			dependencies: ["6C878E306E620FAE"]
+			dependencies: ["104EBBC08B4733F5"]
+			description: [
+				"The &9Simulator Modeling&r machine allows you to upgrade your models faster without having to leave them in a &9Simulation Chamber&r. While your models won't produce predictions in this machine, this can help you quickly get your models up to the &6Self Aware&r level required to put them in the &9Merger Camera&r!"
+				""
+				"A model needs to be at least &aBasic&r tier to be leveled up by this machine, &7Faulty&r models aren't good enough."
+				""
+				"This machine also has &6upgrade slots&r to improve it's functionality. (Note: additional upgrades of the same type do not stack their effects in this machine.)"
+			]
 			hide_dependency_lines: false
 			hide_until_deps_visible: false
 			id: "20879753F697BF83"
@@ -2367,13 +2409,14 @@
 			]
 			shape: "rsquare"
 			size: 1.5d
+			subtitle: "Models upgrading too slow?"
 			tasks: [{
 				id: "289E502B50D744D3"
 				item: "extrahnn:simulator_modeling"
 				type: "item"
 			}]
-			x: 6.75d
-			y: 2.5d
+			x: -8.0d
+			y: -0.75d
 		}
 		{
 			dependencies: ["7B92C09E74D6ABB2"]
@@ -2388,11 +2431,14 @@
 				"{ftbquests.chapter.hostile_neural_networks.quest55C76FF9FC3B049A.description7}"
 			]
 			id: "55C76FF9FC3B049A"
+			optional: true
 			rewards: [{
 				id: "39C4648E68007B36"
 				item: "kubejs:ascended_coin"
 				type: "item"
 			}]
+			shape: "heart"
+			subtitle: "Try a combo!"
 			tasks: [{
 				id: "45122342E5B76996"
 				item: {
@@ -2413,16 +2459,16 @@
 				type: "item"
 			}]
 			title: "{ftbquests.chapter.hostile_neural_networks.quest55C76FF9FC3B049A.title}"
-			x: 9.0d
-			y: 4.0d
+			x: -8.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["20879753F697BF83"]
-			description: ["{ftbquests.chapter.hostile_neural_networks.quest5E88E4FB34428051.description1}"]
+			description: ["&aDoubles&r the amount of data received per cycle of the machine with no downside!"]
 			id: "5E88E4FB34428051"
 			rewards: [{
-				id: "244DDC9EB8FE944C"
-				item: "kubejs:ascended_coin"
+				id: "378D20A1393762CE"
+				item: "kubejs:infused_coin"
 				type: "item"
 			}]
 			tasks: [{
@@ -2430,15 +2476,16 @@
 				item: "extrahnn:upgrade_data_kill"
 				type: "item"
 			}]
-			x: 6.3214285714285765d
-			y: 0.8214285714285765d
+			x: -7.5d
+			y: -2.0d
 		}
 		{
-			dependencies: ["20879753F697BF83"]
-			description: ["{ftbquests.chapter.hostile_neural_networks.quest17B6588BDE007D44.description1}"]
+			dependencies: ["5E88E4FB34428051"]
+			dependency_requirement: "all_started"
+			description: ["Provides enough data to &ainstantly level up a model&r to the next tier with each machine cycle, but &cdrasticly increases energy consumption&r."]
 			id: "17B6588BDE007D44"
 			rewards: [{
-				id: "0998BC2FE3A9F2C3"
+				id: "4F7922A7ED64D490"
 				item: "kubejs:ascended_coin"
 				type: "item"
 			}]
@@ -2447,16 +2494,16 @@
 				item: "extrahnn:upgrade_module_stack"
 				type: "item"
 			}]
-			x: 6.8214285714285765d
-			y: -0.1785714285714235d
+			x: -8.0d
+			y: -3.0d
 		}
 		{
 			dependencies: ["20879753F697BF83"]
-			description: ["{ftbquests.chapter.hostile_neural_networks.quest53DAA838BC387E90.description1}"]
+			description: ["Makes the machine &awork 50% faster&r, at the cost of &cdoubled power consumtion&r."]
 			id: "53DAA838BC387E90"
 			rewards: [{
-				id: "4ABC13CC49C4D32E"
-				item: "kubejs:ascended_coin"
+				id: "5E785C8D2540882E"
+				item: "kubejs:infused_coin"
 				type: "item"
 			}]
 			tasks: [{
@@ -2464,8 +2511,8 @@
 				item: "extrahnn:upgrade_speed"
 				type: "item"
 			}]
-			x: 7.3214285714285765d
-			y: 0.8214285714285765d
+			x: -8.5d
+			y: -2.0d
 		}
 		{
 			dependencies: [
@@ -2621,6 +2668,7 @@
 					type: "item"
 				}
 			]
+			shape: "diamond"
 			size: 5.0d
 			tasks: [{
 				id: "4ED4690A95944D98"
@@ -2952,13 +3000,14 @@
 			]
 			shape: "rsquare"
 			size: 1.5d
+			subtitle: "16x Processing"
 			tasks: [{
 				id: "627F1915BCFC722B"
 				item: "extrahnn:ultimate_loot_fabricator_v2"
 				type: "item"
 			}]
-			x: 2.25d
-			y: 1.5d
+			x: -2.75d
+			y: 3.75d
 		}
 		{
 			dependencies: ["5C3177532204DA62"]
@@ -2980,13 +3029,14 @@
 			]
 			shape: "rsquare"
 			size: 1.5d
+			subtitle: "32x Processing"
 			tasks: [{
 				id: "080B408D4950EB6C"
 				item: "extrahnn:ultimate_loot_fabricator_v3"
 				type: "item"
 			}]
-			x: 2.25d
-			y: -0.75d
+			x: -1.25d
+			y: 3.75d
 		}
 		{
 			dependencies: ["161CEB53492BDBB2"]
@@ -3008,13 +3058,14 @@
 			]
 			shape: "rsquare"
 			size: 1.5d
+			subtitle: "64x Processing"
 			tasks: [{
 				id: "44D8337A48115EA4"
 				item: "extrahnn:ultimate_loot_fabricator_v4"
 				type: "item"
 			}]
-			x: 2.25d
-			y: -3.0d
+			x: 0.25d
+			y: 3.75d
 		}
 		{
 			dependencies: ["20667F122EADBD6B"]
@@ -3036,13 +3087,14 @@
 			]
 			shape: "rsquare"
 			size: 1.5d
+			subtitle: "16x Processing"
 			tasks: [{
 				id: "11633F251E8925A9"
 				item: "extrahnn:ultimate_sim_chamber_v2"
 				type: "item"
 			}]
-			x: 6.75d
-			y: 7.5d
+			x: -2.75d
+			y: -0.75d
 		}
 		{
 			dependencies: ["764AC50C2A450ACC"]
@@ -3064,13 +3116,14 @@
 			]
 			shape: "rsquare"
 			size: 1.5d
+			subtitle: "32x Processsing"
 			tasks: [{
 				id: "4FF803A39171F0D5"
 				item: "extrahnn:ultimate_sim_chamber_v3"
 				type: "item"
 			}]
-			x: 6.75d
-			y: 9.0d
+			x: -1.25d
+			y: -0.75d
 		}
 		{
 			dependencies: ["0E5C4120BD3908B5"]
@@ -3092,13 +3145,14 @@
 			]
 			shape: "rsquare"
 			size: 1.5d
+			subtitle: "64x Processing"
 			tasks: [{
 				id: "126117C06EA823F4"
 				item: "extrahnn:ultimate_sim_chamber_v4"
 				type: "item"
 			}]
-			x: 6.75d
-			y: 10.5d
+			x: 0.25d
+			y: -0.75d
 		}
 		{
 			dependencies: ["14B3542ECB59869C"]
@@ -4900,6 +4954,35 @@
 			}]
 			x: -3.0d
 			y: 17.5d
+		}
+		{
+			dependencies: ["14B3542ECB59869C"]
+			description: [
+				"Have a bunch of &5Loot Fabricators&r all piped together? This tool can help you make sure they all have the same processing settings so they know what to make out of their predictions. Simply set the recipes you want in one machine, and then you can copy-paste them into all the other machines with ease."
+				""
+				"&9Sneak&r + &4Right Click&r: Copy the settings from a machine."
+				""
+				"&4Right Click&r: Paste those settings."
+				""
+				"&9Sneak&r + &4Right Click&r the air: Clear the saved settings."
+			]
+			hide_dependency_lines: false
+			id: "3141AB4D80CBE99E"
+			rewards: [{
+				id: "03DE7B82A2851778"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			shape: "diamond"
+			size: 1.5d
+			subtitle: "Copy/Paste"
+			tasks: [{
+				id: "4CC528AAD66B74F7"
+				item: "extrahnn:setting_card"
+				type: "item"
+			}]
+			x: -9.75d
+			y: 3.75d
 		}
 	]
 	title: "{ftbquests.chapter.hostile_neural_networks.title}"

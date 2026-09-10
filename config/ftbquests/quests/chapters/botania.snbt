@@ -1844,7 +1844,23 @@
 				{
 					count: 8L
 					id: "1B64E8638CC52688"
-					item: { Count: 8, id: "botania:livingwood" }
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "botania:livingwood_log"
+								}
+								{
+									Count: 1b
+									id: "botania:livingwood"
+								}
+							]
+						}
+					}
+					title: "Livingwood or Log"
 					type: "item"
 				}
 			]

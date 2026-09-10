@@ -1,0 +1,14 @@
+// Compost colors for skylogistics. You may add your own colors, change existing ones, or remove colors that aren't needed.
+chora_nectar, #bed9b6
+configurator, #c0f0ee
+dimension_upgrade, #4d688a
+eulogia_companion_stone, #62acc0
+eulogia_crystal, #7affff
+filter_list, #c3f8f7
+force_extraction_upgrade, #586168
+ordered_matching_upgrade, #5e8a8e
+sky_logistics_manual, #69b5a5
+sky_necklace, #edeba0
+sky_wrench, #7ddeff
+speed_upgrade, #5c7266
+tag_filter_list, #ffd370

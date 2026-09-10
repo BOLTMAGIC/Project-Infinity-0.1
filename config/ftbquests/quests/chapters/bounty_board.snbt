@@ -1004,11 +1004,10 @@
 			]
 			size: 1.5d
 			tasks: [{
-				entity: "born_in_chaos_v1:lord_pumpkinhead_withouta_horse"
-				id: "65EB78DE87A47727"
-				title: "{ftbquests.chapter.bounty_board.quest73BA98EF0E5184FE.task.7344096514511501095.title}"
-				type: "kill"
-				value: 1L
+				advancement: "born_in_chaos_v1:pumpkin_lord"
+				criterion: ""
+				id: "75C06F2C5CD4AAB0"
+				type: "advancement"
 			}]
 			title: "{ftbquests.chapter.bounty_board.quest73BA98EF0E5184FE.title}"
 			x: 4.5d

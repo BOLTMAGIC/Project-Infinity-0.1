@@ -117,6 +117,11 @@
     "wt_master_location": true,
     "wt_owner": true
   },
+  "ae2lt": {
+    "frequency_card_wireless_node": true,
+    "lightning_collector": true,
+    "firmament_conversion_core": true
+  },
   "hammerlib": {
     "root": true
   },
@@ -174,6 +179,13 @@
   "logisticsnetworks": {
     "logistics_node_entity": true,
     "node_attached": true
+  },
+  "skylogistics": {
+    "sky_distributor": true,
+    "node": true,
+    "simple_pipe": true,
+    "fluid_vault": true,
+    "item_vault": true
   },
   "extrastorage": {
     "crafter": true,

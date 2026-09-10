@@ -1321,7 +1321,7 @@
 				item: "bmaddon:blood_altar_tier_card_3"
 				type: "item"
 			}]
-			x: -4.0d
+			x: -3.0d
 			y: 2.0d
 		}
 		{
@@ -1338,7 +1338,7 @@
 				item: "bmaddon:blood_altar_tier_card_4"
 				type: "item"
 			}]
-			x: -4.0d
+			x: -3.0d
 			y: 3.0d
 		}
 		{
@@ -1355,7 +1355,7 @@
 				item: "bmaddon:blood_altar_tier_card_5"
 				type: "item"
 			}]
-			x: -4.0d
+			x: -3.0d
 			y: 4.0d
 		}
 		{
@@ -1391,81 +1391,6 @@
 			}]
 			x: -4.0d
 			y: -1.5d
-		}
-		{
-			dependencies: ["53E7A09F3F3B6272"]
-			icon: "avaritia:infinity"
-			id: "36E8C71637541797"
-			rewards: [{
-				id: "2BDB64DECBB1578B"
-				item: "kubejs:ascended_coin"
-				type: "item"
-			}]
-			tasks: [
-				{
-					count: 4L
-					id: "51876697B4CCA7B4"
-					item: "avaritia:infinity"
-					type: "item"
-				}
-				{
-					count: 76L
-					id: "7D2FA1BCD96B22A1"
-					item: {
-						Count: 1
-						id: "itemfilters:or"
-						tag: {
-							items: [
-								{
-									Count: 1b
-									id: "bloodmagic:blankrune"
-								}
-								{
-									Count: 1b
-									id: "bloodmagic:speedrune"
-								}
-								{
-									Count: 1b
-									id: "bloodmagic:sacrificerune"
-								}
-								{
-									Count: 1b
-									id: "bloodmagic:selfsacrificerune"
-								}
-								{
-									Count: 1b
-									id: "bloodmagic:dislocationrune"
-								}
-								{
-									Count: 1b
-									id: "bloodmagic:altarcapacityrune"
-								}
-								{
-									Count: 1b
-									id: "bloodmagic:bettercapacityrune"
-								}
-								{
-									Count: 1b
-									id: "bloodmagic:orbcapacityrune"
-								}
-								{
-									Count: 1b
-									id: "bloodmagic:accelerationrune"
-								}
-								{
-									Count: 1b
-									id: "bloodmagic:chargingrune"
-								}
-							]
-						}
-					}
-					title: "{ftbquests.chapter.blood_magic.quest36E8C71637541797.task.9020606411119993505.title}"
-					type: "item"
-				}
-			]
-			title: "{ftbquests.chapter.blood_magic.quest36E8C71637541797.title}"
-			x: -3.0d
-			y: 3.0d
 		}
 	]
 	title: "{ftbquests.chapter.blood_magic.title}"

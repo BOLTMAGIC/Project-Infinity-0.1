@@ -1,0 +1,6 @@
+
+[gui]
+	#Whether the configurator line details render active Sky Necklaces as player heads.
+	#配置器线路详情中是否将活动的天穹项链显示为玩家头颅。
+	renderConfiguratorPlayerHeads = true
+

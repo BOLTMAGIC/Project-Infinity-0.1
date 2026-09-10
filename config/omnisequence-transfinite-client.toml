@@ -1,10 +1,15 @@
 
-#Client-side display and visual-effect settings.
-[display]
-	#Matter Sequence item tooltip display mode. DISABLED turns it off, HOLD_SHIFT expands it while Shift is held, and ALWAYS_VISIBLE keeps it visible.
-	#Allowed Values: DISABLED, HOLD_SHIFT, ALWAYS_VISIBLE
-	matter_sequence_tooltip_mode = "HOLD_SHIFT"
+#Client-side visual effect settings.
+#客户端视觉效果设置。
+[visual]
 	#Dynamic multiblock effects: 0=off, 1=reduced, 2=full astral rings and quantum gate.
 	#Range: 0 ~ 2
 	dynamic_effect_level = 2
+
+#Item tooltip display settings.
+#物品提示显示设置。
+[tooltips]
+	#Matter Sequence item tooltip display mode. DISABLED turns it off, HOLD_SHIFT expands it while Shift is held, and ALWAYS_VISIBLE keeps it visible.
+	#Allowed Values: DISABLED, HOLD_SHIFT, ALWAYS_VISIBLE
+	matter_sequence_tooltip_mode = "HOLD_SHIFT"
 

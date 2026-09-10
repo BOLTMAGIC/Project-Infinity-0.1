@@ -928,5 +928,21 @@
         "organic": 0
       }
     }
+  },
+  "_entropy_calculation": {
+    "deconstruct_entropy_per_item": "max(1, floor(saturated_sum(deconstruct.metal, mineral, crystal, organic) / 64))",
+    "rewrite_entropy_per_item": "max(1, floor(saturated_sum(rewrite.metal, mineral, crystal, organic) / 16))",
+    "operation_condition": "current_entropy + entropy_per_item <= sequence_array.matter_rewrite.matter_entropy_capacity",
+    "cooling": "Every second, sequence_array.matter_rewrite.matter_entropy_cooling_per_second multiplied by the current speed_cards cooling multiplier is removed from current entropy (saturated at Long.MAX_VALUE).",
+    "speed_cards": "sequence_array.matter_rewrite.speed_cards.card_0 through card_4 configure parallel operations, cycle ticks, and entropy cooling multipliers for each installed-card count.",
+    "server_config": "config/omnisequence-transfinite-server.toml: sequence_array.matter_rewrite.*"
+  },
+  "_entropy_calculation_zh": {
+    "分解单件熵值": "max(1, deconstruct 四类数值饱和求和后 / 64 向下取整)",
+    "重写单件熵值": "max(1, rewrite 四类数值饱和求和后 / 16 向下取整)",
+    "操作条件": "当前熵值 + 单件熵值 <= sequence_array.matter_rewrite.matter_entropy_capacity",
+    "自然散热": "每秒从当前熵值中扣除 sequence_array.matter_rewrite.matter_entropy_cooling_per_second × 当前加速卡档位的散热倍率；乘法按 Long.MAX_VALUE 饱和",
+    "加速卡档位": "sequence_array.matter_rewrite.speed_cards 的 card_0～card_4 分别配置对应加速卡张数的并行量、批次 tick 和熵散热倍率",
+    "服务器配置": "config/omnisequence-transfinite-server.toml：sequence_array.matter_rewrite.*"
   }
 }

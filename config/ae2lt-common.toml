@@ -1,0 +1,323 @@
+#Internal config schema version. Do not edit; used by the mod for upgrade migrations.
+#Range: > 1
+configVersion = 3
+
+[lightningCollector]
+	#Cooldown in ticks after each captured lightning strike.
+	#Range: > 0
+	cooldownTicks = 0
+
+	[lightningCollector.outputProfile]
+		#Minimum HV output before crystal bonuses are applied.
+		#Range: > 0
+		hvBaseMin = 1
+		#Maximum HV output before crystal bonuses are applied.
+		#Range: > 0
+		hvBaseMax = 2
+		#Minimum EHV output before crystal bonuses are applied.
+		#Range: > 0
+		ehvBaseMin = 1
+		#Maximum EHV output before crystal bonuses are applied.
+		#Range: > 0
+		ehvBaseMax = 4
+		#HV crystal count where bonus scaling starts.
+		#Range: > 0
+		hvCrystalStart = 2
+		#HV crystal count where bonus scaling ends.
+		#Range: > 0
+		hvCrystalEnd = 16
+		#EHV crystal count where bonus scaling starts.
+		#Range: > 0
+		ehvCrystalStart = 2
+		#EHV crystal count where bonus scaling ends.
+		#Range: > 0
+		ehvCrystalEnd = 16
+		#Fixed HV output for a perfect crystal.
+		#Range: > 0
+		perfectHvOutput = 16
+		#Fixed EHV output for a perfect crystal.
+		#Range: > 0
+		perfectEhvOutput = 16
+		#Fraction of output used as random spread. Range: > 0.
+		#Range: 1.0E-6 ~ 1.7976931348623157E308
+		spreadRatio = 0.12
+
+[electroChimeCrystal]
+	#Catalysis value needed to transform an electro chime crystal into its perfect form.
+	#Range: > 1
+	maxCatalysis = 180
+	#Minimum catalysis gained per natural (EHV) lightning strike on the collector.
+	#Range: > 1
+	catalysisPerStrikeMin = 8
+	#Maximum catalysis gained per natural (EHV) lightning strike on the collector.
+	#Range: > 1
+	catalysisPerStrikeMax = 12
+
+[overloadTnt]
+	#Controls whether overload TNT can damage terrain with the custom blast task.
+	enableTerrainDamage = false
+	#Maximum blocks processed per tick across all overload TNT tasks.
+	#Range: > 0
+	globalBlockBudgetPerTick = 2400
+	#Maximum lightning strikes processed per tick across all overload TNT tasks.
+	#Range: > 0
+	globalLightningBudgetPerTick = 8
+
+[easterEgg]
+	#Enables easter eggs.
+	enabled = true
+	#Easter egg item id.
+	eastereggitem = "ae2lt:lightning_collapse_matrix"
+	#Easter egg weight.
+	#Range: 0 ~ 10000
+	eastereggweight = 50
+	#Easter egg weights. Format: item_id=weight.
+	eastereggweights = ["avaritia:infinity_ingot=1200", "mekanism_extras:qio_drive_singularity=1200", "modern_industrialization:quantum_upgrade=1200", "bigreactors:inanite_block=776", "draconicevolution:chaotic_core=760", "occultism:celestial_chalice=744", "appflux:core_256m=460", "advanced_ae:data_entangler=455", "advanced_ae:quantum_multi_threader=445", "megacells:cell_component_256m=440", "ae2omnicells:quantum_omni_cell_component_256m=435", "mekanism_extras:infinite_induction_cell=415", "mekanism_extras:infinite_induction_provider=415", "mekanism:pellet_antimatter=252", "mekanism_extras:infinite_control_circuit=240", "ars_nouveau:wilden_tribute=204", "minecraft:elytra=138", "minecraft:heavy_core=132", "minecraft:dragon_head=114", "ae2:256k_crafting_storage=98", "mekanism:ultimate_induction_cell=76", "mekanism:ultimate_induction_provider=76", "pneumaticcraft:micromissiles=72", "minecraft:dragon_egg=54", "minecraft:heart_of_the_sea=40", "minecraft:echo_shard=36", "minecraft:nether_star=32", "minecraft:torchflower=8", "minecraft:recovery_compass=7", "minecraft:slime_ball=4"]
+
+[floatingMatter]
+	#Whether a Silk Touch enchanted AE2 Annihilation Plane collects vanilla Shulker bullets
+	#that reach it, consuming the bullet and inserting one Floating Matter into the ME network.
+	#The bullet does not need to be shot down; reaching the plane is enough.
+	shulkerBulletCollection = true
+	#Blocks per tick that a dropped Floating Matter item rises.
+	#Range: 0.001 ~ 2.0
+	riseSpeed = 0.08
+	#Floating Matter despawns once it climbs above this multiple of the world max build height.
+	#Range: 1.0 ~ 16.0
+	despawnHeightMultiplier = 2.0
+
+[network]
+
+	[network.overloadedController]
+		#Extra channels provided by each overloaded controller.
+		#Range: > 0
+		channelsPerController = 128
+		#Passive AE injected per tick by an overloaded controller.
+		#Range: 0.0 ~ 1.7976931348623157E308
+		passiveAePerTick = 100.0
+
+	[network.wirelessConnector]
+		#Maximum block distance for Overloaded Wireless Connect Tool links.
+		#Only limits links from overloaded providers, interfaces, and power supplies to target machines.
+		#Set to 0 to disable this distance limit.
+		#Range: > 0
+		maxDistance = 128
+
+	[network.extendedPatternProvider]
+		#Number of 36-slot pattern pages in the Extended Overloaded Pattern Provider.
+		#Range: 1 ~ 64
+		pages = 4
+
+	[network.batchDispatch]
+		#Block ids whose single-target pushBatch calls are capped at 1024 copies.
+		#Matches both batch-provider blocks and physical machines targeted by overloaded providers.
+		#Supports '*' and '?' wildcards; exact ids and namespace:* use constant-time lookup.
+		copyLimitedBlocks = ["neoecoae:crafting_pattern_bus", "sophisticated*:*"]
+
+[overloadProcessingFactory]
+	#Parallel operations provided by each Lightning Collapse Matrix.
+	#Range: 0 ~ 67108863
+	parallelPerMatrix = 8
+	#Internal FE buffer capacity of the Overload Processing Factory.
+	#Range: 1 ~ 9223372036854775807
+	energyCapacity = 640000000
+	#Maximum FE consumed per tick with no Speed Cards installed.
+	#Range: 0 ~ 9223372036854775807
+	fePerTickBase = 400000
+	#Maximum FE consumed per tick with 1 Speed Card installed.
+	#Range: 0 ~ 9223372036854775807
+	fePerTick1SpeedCard = 2000000
+	#Maximum FE consumed per tick with 2 Speed Cards installed.
+	#Range: 0 ~ 9223372036854775807
+	fePerTick2SpeedCards = 8000000
+	#Maximum FE consumed per tick with 3 Speed Cards installed.
+	#Range: 0 ~ 9223372036854775807
+	fePerTick3SpeedCards = 32000000
+	#Maximum FE consumed per tick with 4 Speed Cards installed.
+	#Range: 0 ~ 9223372036854775807
+	fePerTick4SpeedCards = 128000000
+
+[artificialLightning]
+	#Controls whether Overload Crystals in the hotbar or offhand can trigger artificial lightning.
+	triggerFromHotbar = true
+	#Controls whether Overload Crystals in the main inventory can trigger artificial lightning.
+	triggerFromBackpack = false
+
+[teslaCoil]
+
+	[teslaCoil.modeCosts]
+		#Overload Crystal Dust cost for High Voltage mode.
+		#Range: > 0
+		highVoltageDustCost = 2
+		#FE cost for High Voltage mode. Range: >= 1.
+		#Range: > 1
+		highVoltageFe = 25000
+		#High Voltage Lightning input cost for Extreme High Voltage mode.
+		#Range: > 0
+		extremeHighVoltageInput = 8
+		#FE cost for Extreme High Voltage mode. Range: >= 1.
+		#Range: > 1
+		extremeHighVoltageFe = 500000
+
+[pigmeeFumo]
+	#Controls whether players receive a Pigmee Fumo as a gift on their first login.
+	giftOnFirstJoin = true
+
+[overloadArmor]
+
+	[overloadArmor.movement]
+		#Server master switch for the phase module's no-clip mode. Creative flight and movement guards remain available.
+		phaseFlightEnabled = true
+		#Server policy for the phase-lock module's external-teleport protection.
+		#ignore-all: disable teleport protection entirely.
+		#ignore-command: allow player-self commands and permission-level-2 management commands; block other external teleports.
+		#ignore-none: allow player-self commands only; block every external teleport source.
+		phaseLockTeleportMode = "ignore-command"
+		#Movement multiplier applied while phase flight is active.
+		#Range: 0.0 ~ 4.0
+		phaseFlightSpeedMultiplier = 0.35
+
+	[overloadArmor.defense]
+		#Ticks between automatic status effect purification attempts.
+		#Range: 1 ~ 72000
+		purificationPeriodTicks = 40
+		#Whether purification can remove beneficial effects.
+		purificationBeneficialEffects = false
+		#Whether purification can remove neutral effects.
+		purificationNeutralEffects = false
+		#Whether purification can remove harmful effects.
+		purificationHarmfulEffects = true
+
+	[overloadArmor.utility]
+		#Ticks between saturation sustain checks.
+		#Range: 1 ~ 72000
+		saturationCheckIntervalTicks = 20
+		#Break-speed multiplier applied by underwater dig affinity.
+		#Range: 1.0 ~ 64.0
+		underwaterDigMultiplier = 5.0
+		#Break-speed multiplier applied by airborne dig affinity.
+		#Range: 1.0 ~ 64.0
+		airborneDigMultiplier = 5.0
+
+	[overloadArmor.lightningCosts]
+		#HV lightning consumed each tick by the active reach extension armor module.
+		#Range: 0 ~ 9223372036854775807
+		passiveHvPerTick = 1
+		#HV lightning consumed each tick while creative flight is active.
+		#Range: 0 ~ 9223372036854775807
+		flightHvPerTick = 2
+		#HV lightning consumed each tick while phase flight is active.
+		#Range: 0 ~ 9223372036854775807
+		phaseFlightHvPerTick = 8
+
+	[overloadArmor.penalty]
+		#Ticks in the linear combo window for matrix shield lightning cost scaling.
+		#Range: 1 ~ 72000
+		shieldComboWindowTicks = 200
+		#Ticks in the linear combo window for undying FE and EHV cost scaling.
+		#Range: 1 ~ 72000
+		undyingComboWindowTicks = 200
+
+[railgun]
+
+	[railgun.damage]
+		#High Voltage beam damage per 2-tick settle.
+		#Range: > 0
+		beamDamagePerSettle = 20
+		#High Voltage beam armor bypass (0.0 = fully blocked by armor, 1.0 = ignore armor).
+		#Range: 0.0 ~ 1.0
+		beamBypass = 0.4
+		#Charge tier 1 base damage.
+		#Range: > 0
+		baseDamageEhv1 = 100
+		#Charge tier 2 base damage.
+		#Range: > 0
+		baseDamageEhv2 = 300
+		#Charge tier 3 (max) base damage.
+		#Range: > 0
+		baseDamageEhv3 = 600
+		#Charged-shot armor bypass for all tiers (single dial — replaces per-tier 0.4/0.6/0.8).
+		#Range: 0.0 ~ 1.0
+		chargedBypass = 0.8
+
+	[railgun.energy]
+		#FE energy consumed per beam settle.
+		#Range: 0 ~ 9223372036854775807
+		beamFeCostPerSettle = 400
+		#FE energy consumed per tier-1 charged shot.
+		#Range: 0 ~ 9223372036854775807
+		feCostTier1 = 8000
+		#FE energy consumed per tier-2 charged shot.
+		#Range: 0 ~ 9223372036854775807
+		feCostTier2 = 40000
+		#FE energy consumed per tier-3 (max) charged shot.
+		#Range: 0 ~ 9223372036854775807
+		feCostTier3 = 200000
+		#HV beam consumes 1 HV every N settles (settle = 2 ticks). N=8 means ~1.25 HV/sec.
+		#Range: 1 ~ 64
+		beamHvCostInterval = 8
+		#EHV consumed per tier-1 charged shot.
+		#Range: 0 ~ 9223372036854775807
+		ehvCostTier1 = 32
+		#EHV consumed per tier-2 charged shot.
+		#Range: 0 ~ 9223372036854775807
+		ehvCostTier2 = 96
+		#EHV consumed per tier-3 (max) charged shot.
+		#Range: 0 ~ 9223372036854775807
+		ehvCostTier3 = 256
+		#Base FE stored in the railgun when no structural energy module is installed.
+		#Installing an energy module makes the railgun capacity equal to that module's capacity.
+		#Range: 0 ~ 9223372036854775807
+		bufferCapacity = 1000000
+
+	[railgun.misc]
+		#Whether the railgun damages other players.
+		damagePlayers = true
+		#Whether paralysis applies to players.
+		paralysisOnPlayers = true
+
+	[railgun.terrain]
+		#Master switch for railgun terrain destruction.
+		#When false, no railgun shot can break blocks even if the item setting is ON.
+		enableTerrainDestruction = true
+		#Whether terrain destruction produces drops (drops auto-despawn after 60s).
+		dropItems = false
+		#Block break budget per tick across all railgun terrain jobs.
+		#Range: 1 ~ 8192
+		blocksPerTick = 200
+
+	[railgun.overloadExecution]
+		#Master switch for the Overload Execution module (EHv3-charged forced-kill).
+		enabled = true
+		#Decay window in ticks. After this many ticks since the last hit, the recorded HP fully resets to current HP.
+		#Default 1200 = 60 seconds.
+		#Range: > 1
+		decayWindowTicks = 1200
+		#Decay curve exponent (slow-start, fast-finish). recovery_fraction = (elapsed / window)^power.
+		#  1.0 = linear
+		#  2.0 = quadratic (default — early ticks barely heal, last ticks restore fast)
+		#  3.0 = cubic (even slower start)
+		#Range: 0.1 ~ 10.0
+		decayPower = 2.0
+		#Maximum number of targets whose recorded HP is kept simultaneously on a single railgun.
+		#Range: 1 ~ 64
+		maxTracked = 8
+
+[frequencyCard]
+
+	[frequencyCard.cleanup]
+		#Controls whether invalid Overloaded Frequency Card wireless link records are cleaned up automatically.
+		enableAutoCleanup = true
+		#Seconds between cleanup passes for Overloaded Frequency Card wireless links.
+		#Range: > 1
+		cleanupIntervalSeconds = 300
+		#Seconds an invalid Overloaded Frequency Card wireless link must remain invalid before removal.
+		#Range: > 0
+		invalidCleanupDelaySeconds = 300
+		#Number of cleanup passes that must confirm an invalid Overloaded Frequency Card wireless link before removal.
+		#Range: > 1
+		invalidCleanupRequiredChecks = 3
+		#Maximum Overloaded Frequency Card wireless links checked per cleanup pass.
+		#Range: > 1
+		cleanupBatchSize = 128
+

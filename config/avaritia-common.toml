@@ -45,6 +45,8 @@
 			blade_slash_radius = 10
 			#config.avaritia.is_sword_attack_projectile.tooltip
 			is_sword_attack_projectile = false
+			#config.avaritia.is_sword_attack_explode.tooltip
+			is_sword_attack_explode = true
 
 [emc]
 

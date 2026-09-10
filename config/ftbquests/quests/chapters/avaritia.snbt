@@ -764,11 +764,6 @@
 			dependencies: ["54C6961ACAFC8D8B"]
 			description: ["{ftbquests.chapter.avaritia.quest3353D17D82959D0C.description1}"]
 			id: "3353D17D82959D0C"
-			rewards: [{
-				id: "2427616CF7ED18DD"
-				item: "extendedcrafting:elite_auto_table"
-				type: "item"
-			}]
 			shape: "hexagon"
 			size: 1.5d
 			subtitle: "{ftbquests.chapter.avaritia.quest3353D17D82959D0C.subtitle}"
@@ -1114,32 +1109,6 @@
 		}
 		{
 			dependencies: ["3416441A94958EA1"]
-			description: ["{ftbquests.chapter.avaritia.quest5B8F0C492F564758.description1}"]
-			id: "5B8F0C492F564758"
-			rewards: [
-				{
-					id: "3A44BDA791B5D6FF"
-					type: "xp_levels"
-					xp_levels: 200
-				}
-				{
-					count: 3
-					id: "09CB6B677CAAF54D"
-					item: "avaritia:infinity_ingot"
-					type: "item"
-				}
-			]
-			subtitle: "{ftbquests.chapter.avaritia.quest5B8F0C492F564758.subtitle}"
-			tasks: [{
-				id: "55E0B5EA98D05E3C"
-				item: "avaritia:neutron_horse_armor"
-				type: "item"
-			}]
-			x: 8.5d
-			y: -5.5d
-		}
-		{
-			dependencies: ["3416441A94958EA1"]
 			description: ["{ftbquests.chapter.avaritia.quest39FFA83723143D47.description1}"]
 			id: "39FFA83723143D47"
 			rewards: [
@@ -1161,7 +1130,7 @@
 				item: "avaritia:endless_cake"
 				type: "item"
 			}]
-			x: 9.5d
+			x: 9.0d
 			y: -5.5d
 		}
 		{
@@ -1187,7 +1156,7 @@
 				item: "avaritia:extreme_anvil"
 				type: "item"
 			}]
-			x: 10.5d
+			x: 10.0d
 			y: -5.5d
 		}
 		{
@@ -1237,7 +1206,7 @@
 				item: "avaritia:infinity_bucket"
 				type: "item"
 			}]
-			x: 7.5d
+			x: 8.0d
 			y: -5.5d
 		}
 		{

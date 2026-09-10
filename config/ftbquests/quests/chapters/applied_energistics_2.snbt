@@ -45,11 +45,24 @@
 			icon: "ae2:meteorite_compass"
 			id: "08B3905C53BC441D"
 			min_width: 300
-			rewards: [{
-				id: "1A387D99FC359764"
-				item: "kubejs:apotheotic_coin"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "1A387D99FC359764"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+				{
+					id: "2C516EB3E0A60686"
+					item: {
+						Count: 1
+						id: "guideme:guide"
+						tag: {
+							guideId: "ae2craftingtime:guide"
+						}
+					}
+					type: "item"
+				}
+			]
 			shape: "octagon"
 			size: 1.5d
 			subtitle: "{ftbquests.chapter.applied_energistics_2.quest8B3905C53BC441D.subtitle}"

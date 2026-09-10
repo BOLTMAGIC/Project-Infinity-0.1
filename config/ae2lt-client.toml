@@ -1,0 +1,19 @@
+
+[tianshuTerminal]
+	#Modifier condition that starts pattern upload after encoding
+	#Allowed Values: NO_SHIFT, SHIFT, CTRL, ALT, MANUAL_ONLY
+	uploadTrigger = "NO_SHIFT"
+	#Cancel encoding when the same pattern already exists on the ME network
+	interceptDuplicatePatternEncoding = true
+	#Recipe type/category id to pattern-provider alias mappings (source=alias)
+	uploadAliases = []
+
+[compatibility]
+	#Compatibility switch: disable custom core shaders provided by AE2 Lightning Tech.
+	#Enable only when a graphics driver or another rendering mod is incompatible with them.
+	disableCoreShaderRendering = false
+
+[rendering]
+	#Render formed Tianshu and matter-warping core effects
+	multiblockCoreEffects = true
+

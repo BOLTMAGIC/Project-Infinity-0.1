@@ -290,6 +290,11 @@
 		}
 		{
 			id: "4C677FE82EB191D5"
+			rewards: [{
+				id: "4FA38199B470D52C"
+				type: "xp"
+				xp: 5
+			}]
 			size: 1.0d
 			tasks: [{
 				id: "19F64B5432EAEB29"
@@ -308,6 +313,12 @@
 		{
 			dependencies: ["4C677FE82EB191D5"]
 			id: "0556C94512CBF3DA"
+			rewards: [{
+				count: 4
+				id: "10E3A9E5C1B19285"
+				item: "justdirethings:raw_ferricore"
+				type: "item"
+			}]
 			tasks: [{
 				id: "566FBEA31693E7C0"
 				item: {
@@ -325,6 +336,12 @@
 		{
 			dependencies: ["0556C94512CBF3DA"]
 			id: "59BA0CC2F3351023"
+			rewards: [{
+				count: 4
+				id: "2064AF84E4850630"
+				item: "justdirethings:raw_blazegold"
+				type: "item"
+			}]
 			tasks: [{
 				id: "5EEBEB0081E9ABF5"
 				item: {
@@ -342,6 +359,11 @@
 		{
 			dependencies: ["59BA0CC2F3351023"]
 			id: "45530AC96E238C0B"
+			rewards: [{
+				id: "6571DB4D799866F3"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
 			tasks: [{
 				id: "24B5208BE24CAE42"
 				item: {
@@ -358,6 +380,11 @@
 		}
 		{
 			id: "51A5B6205DBD3B0B"
+			rewards: [{
+				id: "430B5AA3EF6BD534"
+				type: "xp"
+				xp: 5
+			}]
 			tasks: [{
 				id: "6D34ED3F61FDF36F"
 				item: {
@@ -375,6 +402,12 @@
 		{
 			dependencies: ["51A5B6205DBD3B0B"]
 			id: "4B97E792DBFA7D78"
+			rewards: [{
+				count: 4
+				id: "10C97A64EA71B090"
+				item: "justdirethings:raw_ferricore"
+				type: "item"
+			}]
 			tasks: [{
 				id: "6EE2790E2D40B83A"
 				item: {
@@ -392,6 +425,12 @@
 		{
 			dependencies: ["4B97E792DBFA7D78"]
 			id: "79AC425FB49EE74F"
+			rewards: [{
+				count: 4
+				id: "4E8A4AD711DA51C2"
+				item: "justdirethings:raw_blazegold"
+				type: "item"
+			}]
 			tasks: [{
 				id: "2EE0CFC966AD00EF"
 				item: {
@@ -409,6 +448,11 @@
 		{
 			dependencies: ["79AC425FB49EE74F"]
 			id: "4FB2A6888A869DEE"
+			rewards: [{
+				id: "70C2118FA9FBB1CD"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
 			tasks: [{
 				id: "68EFBC36E24D875F"
 				item: {
@@ -425,6 +469,11 @@
 		}
 		{
 			id: "34A5908F2E7E7A0F"
+			rewards: [{
+				id: "2735A8CEFF52ECE0"
+				type: "xp"
+				xp: 5
+			}]
 			tasks: [{
 				id: "06482A4DE1AED26C"
 				item: {
@@ -442,6 +491,12 @@
 		{
 			dependencies: ["34A5908F2E7E7A0F"]
 			id: "49FFC5D0557D86CC"
+			rewards: [{
+				count: 4
+				id: "09B25C8DD66F62A1"
+				item: "justdirethings:raw_ferricore"
+				type: "item"
+			}]
 			tasks: [{
 				id: "0F4ADF644CC169CF"
 				item: {
@@ -459,6 +514,12 @@
 		{
 			dependencies: ["49FFC5D0557D86CC"]
 			id: "201C537AAA003B5D"
+			rewards: [{
+				count: 4
+				id: "3207B09FE74C19EC"
+				item: "justdirethings:raw_blazegold"
+				type: "item"
+			}]
 			tasks: [{
 				id: "219966F5DA08E61A"
 				item: {
@@ -476,6 +537,11 @@
 		{
 			dependencies: ["201C537AAA003B5D"]
 			id: "0AFE0E766EDAA162"
+			rewards: [{
+				id: "7873FCB4E10046F6"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
 			tasks: [{
 				id: "3E9009A7C172207F"
 				item: {
@@ -492,6 +558,11 @@
 		}
 		{
 			id: "34B3A622E98A1129"
+			rewards: [{
+				id: "558BD6DC8B8FAB9A"
+				type: "xp"
+				xp: 5
+			}]
 			tasks: [{
 				id: "2DED3287D4468451"
 				item: {
@@ -509,6 +580,12 @@
 		{
 			dependencies: ["34B3A622E98A1129"]
 			id: "46E6253A6FBA9DDE"
+			rewards: [{
+				count: 4
+				id: "5BAEBE4E3998ED4E"
+				item: "justdirethings:raw_ferricore"
+				type: "item"
+			}]
 			tasks: [{
 				id: "14D292AE1ADEE9F2"
 				item: {
@@ -526,6 +603,12 @@
 		{
 			dependencies: ["46E6253A6FBA9DDE"]
 			id: "69B93788BCBBAE94"
+			rewards: [{
+				count: 4
+				id: "2CEA2544DC03153F"
+				item: "justdirethings:raw_blazegold"
+				type: "item"
+			}]
 			tasks: [{
 				id: "4A8162F96155DB95"
 				item: {
@@ -543,6 +626,11 @@
 		{
 			dependencies: ["69B93788BCBBAE94"]
 			id: "351F70943AE663EB"
+			rewards: [{
+				id: "189A9A8B4DF33085"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
 			tasks: [{
 				id: "4594F9933B598E45"
 				item: {
@@ -623,6 +711,11 @@
 		}
 		{
 			id: "298760FD6BEDCDC3"
+			rewards: [{
+				id: "37C3B408905F4E32"
+				type: "xp"
+				xp: 1
+			}]
 			size: 2.0d
 			tasks: [{
 				id: "29E0DFF945E91C9D"
@@ -643,6 +736,11 @@
 			description: ["{ftbquests.chapter.justdirethings.quest56D25A91F08C0C19.image0}"]
 			icon: "justdirethings:gooblock_tier1"
 			id: "56D25A91F08C0C19"
+			rewards: [{
+				id: "47ACA561383397FD"
+				type: "xp"
+				xp: 4
+			}]
 			tasks: [
 				{
 					id: "4BAD20E1C36439BD"
@@ -685,6 +783,12 @@
 				"{ftbquests.chapter.justdirethings.quest18D85621DF45BBF3.image2}"
 			]
 			id: "18D85621DF45BBF3"
+			rewards: [{
+				count: 3
+				id: "0DE41AEBAD083CF6"
+				item: "justdirethings:raw_ferricore"
+				type: "item"
+			}]
 			tasks: [{
 				id: "2E7A257C4EF2F1D6"
 				item: "justdirethings:raw_ferricore"
@@ -695,6 +799,11 @@
 		}
 		{
 			id: "62AE034E7BC6A9CB"
+			rewards: [{
+				id: "239207560624C2CF"
+				type: "xp"
+				xp: 5
+			}]
 			tasks: [{
 				id: "6562537971E5A9ED"
 				item: {
@@ -712,6 +821,12 @@
 		{
 			dependencies: ["62AE034E7BC6A9CB"]
 			id: "0CA5C8800D303E52"
+			rewards: [{
+				count: 4
+				id: "18C16EDE9CC00395"
+				item: "justdirethings:raw_ferricore"
+				type: "item"
+			}]
 			tasks: [{
 				id: "392A8AAE37DD391B"
 				item: {
@@ -729,6 +844,12 @@
 		{
 			dependencies: ["0CA5C8800D303E52"]
 			id: "31568DD301E32E41"
+			rewards: [{
+				count: 4
+				id: "68026B8976E32955"
+				item: "justdirethings:raw_blazegold"
+				type: "item"
+			}]
 			tasks: [{
 				id: "39D3C91C6768AB32"
 				item: {
@@ -746,6 +867,11 @@
 		{
 			dependencies: ["31568DD301E32E41"]
 			id: "15E403996C93B4F6"
+			rewards: [{
+				id: "79F155677CBBC6A3"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
 			tasks: [{
 				id: "10B4F5C65E998878"
 				item: {
@@ -843,6 +969,11 @@
 		{
 			dependencies: ["56D25A91F08C0C19"]
 			id: "59AA9C7A221F958B"
+			rewards: [{
+				id: "1760EE60EEEE53AD"
+				type: "xp"
+				xp: 4
+			}]
 			tasks: [{
 				id: "2D6C861E531E941D"
 				item: "justdirethings:gooblock_tier2"
@@ -854,6 +985,11 @@
 		{
 			dependencies: ["59AA9C7A221F958B"]
 			id: "65E25D812FF888F2"
+			rewards: [{
+				id: "72BC6C484CEE6C63"
+				type: "xp"
+				xp: 4
+			}]
 			tasks: [{
 				id: "1529AC160635D292"
 				item: "justdirethings:gooblock_tier3"
@@ -865,6 +1001,11 @@
 		{
 			dependencies: ["65E25D812FF888F2"]
 			id: "31EC98FDFBC8F85C"
+			rewards: [{
+				id: "1619B0B2385C4B96"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
 			tasks: [{
 				id: "5BC1F97D9D64BC62"
 				item: "justdirethings:gooblock_tier4"
@@ -876,6 +1017,12 @@
 		{
 			dependencies: ["18D85621DF45BBF3"]
 			id: "7F4F7130F783BBD6"
+			rewards: [{
+				count: 3
+				id: "2E8A56D0E497CD0D"
+				item: "justdirethings:raw_blazegold"
+				type: "item"
+			}]
 			tasks: [{
 				id: "22EF4E5E4D89403F"
 				item: "justdirethings:raw_blazegold"
@@ -886,6 +1033,11 @@
 		}
 		{
 			id: "55D6EB6B0296FFAA"
+			rewards: [{
+				id: "3C12A6D94D6039DD"
+				type: "xp"
+				xp: 4
+			}]
 			tasks: [{
 				id: "48C786AAB40F031F"
 				item: "justdirethings:goosoil_tier1"
@@ -897,6 +1049,11 @@
 		{
 			dependencies: ["55D6EB6B0296FFAA"]
 			id: "1FC863383F4F893D"
+			rewards: [{
+				id: "7E49ED9093EABF18"
+				type: "xp"
+				xp: 4
+			}]
 			tasks: [{
 				id: "42D4E2720ACEA832"
 				item: "justdirethings:goosoil_tier2"
@@ -908,6 +1065,11 @@
 		{
 			dependencies: ["1FC863383F4F893D"]
 			id: "7949EA444CC9709C"
+			rewards: [{
+				id: "03F65ADA8E58C076"
+				type: "xp"
+				xp: 4
+			}]
 			tasks: [{
 				id: "28D4953E9A94B90D"
 				item: "justdirethings:goosoil_tier3"
@@ -919,6 +1081,11 @@
 		{
 			dependencies: ["7949EA444CC9709C"]
 			id: "5DCCC3DA10E72E05"
+			rewards: [{
+				id: "77D56ADF389E5850"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
 			tasks: [{
 				id: "5DA534D5AFCBC32E"
 				item: "justdirethings:goosoil_tier4"
@@ -929,6 +1096,11 @@
 		}
 		{
 			id: "78F7D40162BD556F"
+			rewards: [{
+				id: "1711924B4ABCEA9E"
+				type: "xp"
+				xp: 5
+			}]
 			tasks: [{
 				id: "239544722D4203D5"
 				item: {
@@ -946,6 +1118,12 @@
 		{
 			dependencies: ["78F7D40162BD556F"]
 			id: "01103ADC3ADDFFAA"
+			rewards: [{
+				count: 4
+				id: "7A007D3B834497DA"
+				item: "justdirethings:raw_ferricore"
+				type: "item"
+			}]
 			tasks: [{
 				id: "57484578278C97DD"
 				item: {
@@ -963,6 +1141,12 @@
 		{
 			dependencies: ["01103ADC3ADDFFAA"]
 			id: "1004D9E8FC15FCF2"
+			rewards: [{
+				count: 4
+				id: "053024E85F984FAD"
+				item: "justdirethings:raw_blazegold"
+				type: "item"
+			}]
 			tasks: [{
 				id: "3B64A276D8930BC2"
 				item: {
@@ -980,6 +1164,11 @@
 		{
 			dependencies: ["1004D9E8FC15FCF2"]
 			id: "350719AA0263B0E6"
+			rewards: [{
+				id: "76ABAFD9298A4D74"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
 			tasks: [{
 				id: "75F3316C5EF2EA98"
 				item: {
@@ -1076,6 +1265,11 @@
 		}
 		{
 			id: "61AE3E29E360C877"
+			rewards: [{
+				id: "570883A1384CDA94"
+				type: "xp"
+				xp: 5
+			}]
 			tasks: [{
 				id: "0197D710F2B76E23"
 				item: {
@@ -1093,6 +1287,12 @@
 		{
 			dependencies: ["61AE3E29E360C877"]
 			id: "78994B59177D4627"
+			rewards: [{
+				count: 4
+				id: "03FF28ED15E998A8"
+				item: "justdirethings:raw_ferricore"
+				type: "item"
+			}]
 			tasks: [{
 				id: "42FF83DF6D7AA6C1"
 				item: {
@@ -1110,6 +1310,12 @@
 		{
 			dependencies: ["78994B59177D4627"]
 			id: "6E36764E80BA4E4F"
+			rewards: [{
+				count: 4
+				id: "40178E5DB5C08004"
+				item: "justdirethings:raw_blazegold"
+				type: "item"
+			}]
 			tasks: [{
 				id: "2B613637BF15075A"
 				item: {
@@ -1127,6 +1333,11 @@
 		{
 			dependencies: ["6E36764E80BA4E4F"]
 			id: "03494AD6ACF5F9F8"
+			rewards: [{
+				id: "090D6819309AA1A7"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
 			tasks: [{
 				id: "1B970C0B267934CE"
 				item: {
@@ -1255,6 +1466,11 @@
 		}
 		{
 			id: "097E7FE0BE63A72E"
+			rewards: [{
+				id: "5CF64F887C14A603"
+				type: "xp"
+				xp: 5
+			}]
 			tasks: [{
 				id: "5BA02355A6FFD137"
 				item: {
@@ -1272,6 +1488,12 @@
 		{
 			dependencies: ["097E7FE0BE63A72E"]
 			id: "26806EE701A43F81"
+			rewards: [{
+				count: 4
+				id: "6A07500E51F1B006"
+				item: "justdirethings:raw_ferricore"
+				type: "item"
+			}]
 			tasks: [{
 				id: "70BE7A53F282AF32"
 				item: {
@@ -1289,6 +1511,11 @@
 		{
 			dependencies: ["21E58F55F167E2C6"]
 			id: "5A8A47C24E40291C"
+			rewards: [{
+				id: "3261D1BAFE3CD128"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
 			tasks: [{
 				id: "5F3C080338793086"
 				item: {
@@ -1306,6 +1533,12 @@
 		{
 			dependencies: ["26806EE701A43F81"]
 			id: "21E58F55F167E2C6"
+			rewards: [{
+				count: 4
+				id: "411499322EC9073D"
+				item: "justdirethings:raw_blazegold"
+				type: "item"
+			}]
 			tasks: [{
 				id: "45B462802B0576B7"
 				item: {
@@ -1418,6 +1651,11 @@
 		}
 		{
 			id: "6080B5E02647A847"
+			rewards: [{
+				id: "01052A7617EC91FC"
+				type: "xp"
+				xp: 5
+			}]
 			tasks: [{
 				id: "1B0C54C0C866E87E"
 				item: {
@@ -1435,6 +1673,12 @@
 		{
 			dependencies: ["6080B5E02647A847"]
 			id: "54387DEFB1F0763E"
+			rewards: [{
+				count: 4
+				id: "5C06625297C965A4"
+				item: "justdirethings:raw_ferricore"
+				type: "item"
+			}]
 			tasks: [{
 				id: "62D769D762FBF2DA"
 				item: {
@@ -1452,6 +1696,12 @@
 		{
 			dependencies: ["54387DEFB1F0763E"]
 			id: "0BD2FC6FFFB9A0BC"
+			rewards: [{
+				count: 4
+				id: "63541281DC323AD0"
+				item: "justdirethings:raw_blazegold"
+				type: "item"
+			}]
 			tasks: [{
 				id: "1D44A0959AB6E1B6"
 				item: {
@@ -1469,6 +1719,11 @@
 		{
 			dependencies: ["0BD2FC6FFFB9A0BC"]
 			id: "3E4BC667408FA7CD"
+			rewards: [{
+				id: "60F35E458CBAF7F7"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
 			tasks: [{
 				id: "3F2DC9331632ACF1"
 				item: {
@@ -1565,6 +1820,11 @@
 		}
 		{
 			id: "1F8E103D5F557118"
+			rewards: [{
+				id: "18B7A519A72CF3E4"
+				type: "xp"
+				xp: 5
+			}]
 			tasks: [{
 				id: "1E7AAB7F0FC054A7"
 				item: {
@@ -1582,6 +1842,12 @@
 		{
 			dependencies: ["1F8E103D5F557118"]
 			id: "388231D11DBDBDD7"
+			rewards: [{
+				count: 4
+				id: "668FA1968077B2B1"
+				item: "justdirethings:raw_ferricore"
+				type: "item"
+			}]
 			tasks: [{
 				id: "7869974772BEB9E5"
 				item: {
@@ -1599,6 +1865,12 @@
 		{
 			dependencies: ["388231D11DBDBDD7"]
 			id: "25BC2ED8AD8B3176"
+			rewards: [{
+				count: 4
+				id: "7ADBF037433CAA37"
+				item: "justdirethings:raw_blazegold"
+				type: "item"
+			}]
 			tasks: [{
 				id: "446E2D82D262CC84"
 				item: {
@@ -1616,6 +1888,11 @@
 		{
 			dependencies: ["25BC2ED8AD8B3176"]
 			id: "17E8614BCE133540"
+			rewards: [{
+				id: "3AB875D9C7311806"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
 			tasks: [{
 				id: "392E8D21BDA58C3A"
 				item: {
@@ -1641,8 +1918,8 @@
 			id: "5811CC23794B18BC"
 			optional: true
 			rewards: [{
-				id: "0631B61ABC38DA91"
-				item: "kubejs:ascended_coin"
+				id: "5EAD71732106AA5E"
+				item: "kubejs:infused_coin"
 				type: "item"
 			}]
 			size: 1.0d
@@ -1671,8 +1948,8 @@
 			id: "683F84AC1E2772C4"
 			optional: true
 			rewards: [{
-				id: "70436543C0675B4D"
-				item: "kubejs:ascended_coin"
+				id: "50AD34B487C49CAE"
+				item: "kubejs:infused_coin"
 				type: "item"
 			}]
 			size: 2.0d
@@ -1895,16 +2172,26 @@
 		}
 		{
 			id: "5E117693D4ABBE05"
+			rewards: [{
+				id: "56370247A7B33676"
+				type: "xp"
+				xp: 4
+			}]
 			tasks: [{
 				id: "4CEC2D822F96448A"
 				item: "justdirethings:itemcollector"
 				type: "item"
 			}]
-			x: -5.5d
+			x: -5.0d
 			y: -1.0d
 		}
 		{
 			id: "4D8C59BDA416A437"
+			rewards: [{
+				id: "36036B7F219CA931"
+				type: "xp"
+				xp: 4
+			}]
 			tasks: [{
 				id: "3B001E47DDC4454F"
 				item: "justdirethings:blockbreakert1"
@@ -1916,6 +2203,11 @@
 		{
 			dependencies: ["4D8C59BDA416A437"]
 			id: "23EA6FF5B39AB1F0"
+			rewards: [{
+				id: "50108E8943AB8D1E"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
 			tasks: [{
 				id: "602700BFE08763E2"
 				item: "justdirethings:blockbreakert2"
@@ -1926,6 +2218,11 @@
 		}
 		{
 			id: "2D3128BB7337E315"
+			rewards: [{
+				id: "51ACA7D7B219C050"
+				type: "xp"
+				xp: 4
+			}]
 			tasks: [{
 				id: "55F42E30CCA55E95"
 				item: "justdirethings:blockplacert1"
@@ -1937,6 +2234,11 @@
 		{
 			dependencies: ["2D3128BB7337E315"]
 			id: "6844AF2103D1B724"
+			rewards: [{
+				id: "6EBC23AD67FF7182"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
 			tasks: [{
 				id: "477DA27BE8110C8B"
 				item: "justdirethings:blockplacert2"
@@ -1947,6 +2249,11 @@
 		}
 		{
 			id: "65AAFA49DA65429D"
+			rewards: [{
+				id: "46DD1AA1CFF7A7A0"
+				type: "xp"
+				xp: 4
+			}]
 			tasks: [{
 				id: "636F3473A17FB7FC"
 				item: "justdirethings:clickert1"
@@ -1958,6 +2265,11 @@
 		{
 			dependencies: ["65AAFA49DA65429D"]
 			id: "2B3EA905E7124214"
+			rewards: [{
+				id: "197690859EB7DF2B"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
 			tasks: [{
 				id: "7B74F70F25B3D812"
 				item: "justdirethings:clickert2"
@@ -1968,6 +2280,11 @@
 		}
 		{
 			id: "40DEB80D9444BA35"
+			rewards: [{
+				id: "2079DA5C3A0F11B3"
+				type: "xp"
+				xp: 4
+			}]
 			tasks: [{
 				id: "3A8B6F6CD3DBA89A"
 				item: "justdirethings:sensort1"
@@ -1979,6 +2296,11 @@
 		{
 			dependencies: ["40DEB80D9444BA35"]
 			id: "5A8A26EE1C0053BF"
+			rewards: [{
+				id: "2549280AB6AA6722"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
 			tasks: [{
 				id: "56F158E62EEAF708"
 				item: "justdirethings:sensort2"
@@ -1989,6 +2311,11 @@
 		}
 		{
 			id: "03A220BFE8E77377"
+			rewards: [{
+				id: "15BFE28718A37CA2"
+				type: "xp"
+				xp: 4
+			}]
 			tasks: [{
 				id: "49319E8E81DBD65C"
 				item: "justdirethings:droppert1"
@@ -2000,6 +2327,11 @@
 		{
 			dependencies: ["03A220BFE8E77377"]
 			id: "598544C57DDA4AA8"
+			rewards: [{
+				id: "50787582D62DF1DE"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
 			tasks: [{
 				id: "591BE3FE3AC73532"
 				item: "justdirethings:droppert2"
@@ -2010,6 +2342,11 @@
 		}
 		{
 			id: "4B6B5A62ABDF24C9"
+			rewards: [{
+				id: "2CB7332A67273B72"
+				type: "xp"
+				xp: 4
+			}]
 			tasks: [{
 				id: "3783524EC74D7DDE"
 				item: "justdirethings:blockswappert1"
@@ -2021,6 +2358,11 @@
 		{
 			dependencies: ["4B6B5A62ABDF24C9"]
 			id: "251AC6C736F589D0"
+			rewards: [{
+				id: "0A720122D34E13F1"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
 			tasks: [{
 				id: "2F8BC39A93723F57"
 				item: "justdirethings:blockswappert2"
@@ -2030,27 +2372,27 @@
 			y: 7.0d
 		}
 		{
-			id: "7B20E055582E8DB5"
-			tasks: [{
-				id: "2A5A88A4FA9914F6"
-				item: "justdirethings:playeraccessor"
-				type: "item"
-			}]
-			x: -3.5d
-			y: -1.0d
-		}
-		{
 			id: "010A8754BD9D23E9"
+			rewards: [{
+				id: "76CA27AF53F259EF"
+				type: "xp"
+				xp: 4
+			}]
 			tasks: [{
 				id: "3B8280B6EFA527B8"
 				item: "justdirethings:energytransmitter"
 				type: "item"
 			}]
-			x: -4.5d
+			x: -4.0d
 			y: -1.0d
 		}
 		{
 			id: "35E67C185EF72B2E"
+			rewards: [{
+				id: "0ED748064C337941"
+				type: "xp"
+				xp: 4
+			}]
 			tasks: [{
 				id: "498FA67206CB42D9"
 				item: "justdirethings:generatort1"
@@ -2061,16 +2403,26 @@
 		}
 		{
 			id: "64A20DF9BC03C1F4"
+			rewards: [{
+				id: "48381409EA5A96D0"
+				type: "xp"
+				xp: 4
+			}]
 			tasks: [{
 				id: "54034C73DBFD79D2"
 				item: "justdirethings:experienceholder"
 				type: "item"
 			}]
-			x: -5.5d
+			x: -5.0d
 			y: 0.0d
 		}
 		{
 			id: "6F785FAB9724F4CC"
+			rewards: [{
+				id: "3947451CCCAD8289"
+				type: "xp"
+				xp: 4
+			}]
 			tasks: [{
 				id: "12C422A2D9796358"
 				item: "justdirethings:fluidcollectort1"
@@ -2082,6 +2434,11 @@
 		{
 			dependencies: ["6F785FAB9724F4CC"]
 			id: "54FD128CE7F00314"
+			rewards: [{
+				id: "603593BEEE1955A0"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
 			tasks: [{
 				id: "4AE128238F44807A"
 				item: "justdirethings:fluidcollectort2"
@@ -2092,6 +2449,11 @@
 		}
 		{
 			id: "0552D3B85AEEEDCF"
+			rewards: [{
+				id: "2C8C18A6A7ACD87C"
+				type: "xp"
+				xp: 4
+			}]
 			tasks: [{
 				id: "5001AD9A1C9D569A"
 				item: "justdirethings:fluidplacert1"
@@ -2103,6 +2465,11 @@
 		{
 			dependencies: ["0552D3B85AEEEDCF"]
 			id: "4A339CDF1401A211"
+			rewards: [{
+				id: "6E085DA32C15788C"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
 			tasks: [{
 				id: "604F37A10AEF6055"
 				item: "justdirethings:fluidplacert2"
@@ -2113,16 +2480,26 @@
 		}
 		{
 			id: "408A5B7AA6401DE6"
+			rewards: [{
+				id: "21AB2A74C67CB9FD"
+				type: "xp"
+				xp: 4
+			}]
 			tasks: [{
 				id: "20104B6A7DC7F307"
 				item: "justdirethings:inventoryholder"
 				type: "item"
 			}]
-			x: -3.5d
+			x: -4.0d
 			y: 0.0d
 		}
 		{
 			id: "6FAC0471AD271AE4"
+			rewards: [{
+				id: "4B972176A9165406"
+				type: "xp"
+				xp: 4
+			}]
 			tasks: [{
 				id: "7E094591849BFBA4"
 				item: "justdirethings:generatorfluidt1"
@@ -2133,6 +2510,11 @@
 		}
 		{
 			id: "1885518A8C510ED8"
+			rewards: [{
+				id: "3A6F3AB13C95C142"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
 			tasks: [{
 				id: "6DDFE87642888A51"
 				item: {
@@ -2150,6 +2532,11 @@
 		{
 			dependencies: ["1885518A8C510ED8"]
 			id: "14DEE048C82313ED"
+			rewards: [{
+				id: "0613658F42D4EBC0"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
 			tasks: [{
 				id: "700E38F4A23188FA"
 				item: {
@@ -2203,6 +2590,11 @@
 		}
 		{
 			id: "4D245D90D9128C68"
+			rewards: [{
+				id: "72F552AB5B16E0E4"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
 			tasks: [{
 				id: "182DC295FB708DBB"
 				item: {
@@ -2239,16 +2631,26 @@
 		}
 		{
 			id: "523CAAD37393900B"
+			rewards: [{
+				id: "18B287D38271AB25"
+				type: "xp"
+				xp: 4
+			}]
 			tasks: [{
 				id: "422BAE9802A41065"
 				item: "justdirethings:ferricore_wrench"
 				type: "item"
 			}]
-			x: -1.5d
-			y: 1.0d
+			x: 2.0d
+			y: 3.5d
 		}
 		{
 			id: "52B199430782107A"
+			rewards: [{
+				id: "4451DAA1E804F18D"
+				type: "xp"
+				xp: 4
+			}]
 			tasks: [{
 				id: "49864EB9B0114AA3"
 				item: "justdirethings:machine_settings_copier"
@@ -2259,6 +2661,11 @@
 		}
 		{
 			id: "40C626BC0FBCBEFC"
+			rewards: [{
+				id: "3E995DC7F3233393"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
 			tasks: [{
 				id: "057E76EB984E2914"
 				item: "justdirethings:portal_gun"
@@ -2286,6 +2693,12 @@
 		{
 			dependencies: ["7F4F7130F783BBD6"]
 			id: "3351562F8189A59A"
+			rewards: [{
+				count: 3
+				id: "0D9BCD55FC3377F9"
+				item: "justdirethings:raw_eclipsealloy"
+				type: "item"
+			}]
 			tasks: [{
 				id: "2B3E4B878456AB03"
 				item: "justdirethings:raw_eclipsealloy"

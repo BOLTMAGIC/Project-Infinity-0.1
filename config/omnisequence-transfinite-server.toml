@@ -1,0 +1,119 @@
+
+#Sequence Array controller, construction, power, and Matter Rewrite settings.
+#构序阵列控制器、结构施工、耗电与物质重写设置。
+[sequence_array]
+	#Number of pattern pages for Molecular Centers.
+	#Range: 1 ~ 1000
+	pattern_pages = 200
+	#Maximum structure blocks placed or removed per tick.
+	#Range: 1 ~ 256
+	build_blocks_per_tick = 32
+	#Molecular Center idle power usage in AE/t.
+	#Range: 1 ~ 4096
+	idle_power = 128
+
+	#Matter Sequence storage, entropy, cooling, and processing speed.
+	#物质构序存储、熵值、散热与处理速度设置。
+	[sequence_array.matter_rewrite]
+		#Maximum amount stored independently for each Matter Sequence type. Range: 1 to Long.MAX_VALUE; default: Long.MAX_VALUE (9223372036854775807).
+		#每一种物质构序可独立存储的最大数量。范围：1～Long.MAX_VALUE；默认：Long.MAX_VALUE（9223372036854775807）。
+		#Range: 1 ~ 9223372036854775807
+		matter_sequence_capacity = 9223372036854775807
+		#Maximum rewrite entropy held by a Molecular Center. Range: 1 to Long.MAX_VALUE; default: 1000000.
+		#Deconstruction entropy/item = max(1, saturated total sequence / 64); rewrite entropy/item = max(1, saturated total sequence / 16).
+		#构序阵列可容纳的最大熵值。范围：1～Long.MAX_VALUE；默认：1000000。
+		#分解单件熵=max(1, 四类产出饱和总和/64)；重写单件熵=max(1, 四类消耗饱和总和/16)。
+		#Range: 1 ~ 9223372036854775807
+		matter_entropy_capacity = 1000000
+		#Base entropy removed per second before applying the installed speed-card cooling multiplier. Range: 1 to Long.MAX_VALUE; default: 25.
+		#Effective cooling/second = this value * the current card-count cooling multiplier; multiplication saturates at Long.MAX_VALUE.
+		#应用加速卡散热倍率前的基础每秒散热值。范围：1～Long.MAX_VALUE；默认：25。
+		#有效每秒散热=本值×当前加速卡张数对应的散热倍率；乘法超过 Long.MAX_VALUE 时按上限饱和。
+		#Range: 1 ~ 9223372036854775807
+		matter_entropy_cooling_per_second = 25
+
+		#Per-card-count processing and entropy-cooling rules for zero through four installed AE2 speed cards.
+		#Parallel controls items processed per batch; cycle_ticks controls ticks between batches; cooling_multiplier accelerates entropy cooling.
+		#安装 0～4 张 AE2 加速卡时分别使用的处理与散热规则。
+		#parallel 为每批并行物品数；cycle_ticks 为批次间隔 tick；cooling_multiplier 为熵散热倍率。
+		[sequence_array.matter_rewrite.speed_cards]
+			#Maximum matter operations processed together with 0 installed speed card(s). Range: 1-4096; default: 1.
+			#安装 0 张加速卡时每批最多并行处理的物品数。范围：1～4096；默认：1。
+			#Range: 1 ~ 4096
+			card_0_parallel = 1
+			#Ticks between matter-processing batches with 0 installed speed card(s). Range: 1-1200; default: 20.
+			#安装 0 张加速卡时两个处理批次之间的 tick 数。范围：1～1200；默认：20。
+			#Range: 1 ~ 1200
+			card_0_cycle_ticks = 20
+			#Multiplier applied to matter_entropy_cooling_per_second with 0 installed speed card(s). Range: 1 to Long.MAX_VALUE; default: 1.
+			#安装 0 张加速卡时应用到基础每秒散热值的倍率。范围：1～Long.MAX_VALUE；默认：1。
+			#Range: 1 ~ 9223372036854775807
+			card_0_cooling_multiplier = 1
+			#Maximum matter operations processed together with 1 installed speed card(s). Range: 1-4096; default: 2.
+			#安装 1 张加速卡时每批最多并行处理的物品数。范围：1～4096；默认：2。
+			#Range: 1 ~ 4096
+			card_1_parallel = 2
+			#Ticks between matter-processing batches with 1 installed speed card(s). Range: 1-1200; default: 10.
+			#安装 1 张加速卡时两个处理批次之间的 tick 数。范围：1～1200；默认：10。
+			#Range: 1 ~ 1200
+			card_1_cycle_ticks = 10
+			#Multiplier applied to matter_entropy_cooling_per_second with 1 installed speed card(s). Range: 1 to Long.MAX_VALUE; default: 2.
+			#安装 1 张加速卡时应用到基础每秒散热值的倍率。范围：1～Long.MAX_VALUE；默认：2。
+			#Range: 1 ~ 9223372036854775807
+			card_1_cooling_multiplier = 2
+			#Maximum matter operations processed together with 2 installed speed card(s). Range: 1-4096; default: 4.
+			#安装 2 张加速卡时每批最多并行处理的物品数。范围：1～4096；默认：4。
+			#Range: 1 ~ 4096
+			card_2_parallel = 4
+			#Ticks between matter-processing batches with 2 installed speed card(s). Range: 1-1200; default: 5.
+			#安装 2 张加速卡时两个处理批次之间的 tick 数。范围：1～1200；默认：5。
+			#Range: 1 ~ 1200
+			card_2_cycle_ticks = 5
+			#Multiplier applied to matter_entropy_cooling_per_second with 2 installed speed card(s). Range: 1 to Long.MAX_VALUE; default: 4.
+			#安装 2 张加速卡时应用到基础每秒散热值的倍率。范围：1～Long.MAX_VALUE；默认：4。
+			#Range: 1 ~ 9223372036854775807
+			card_2_cooling_multiplier = 4
+			#Maximum matter operations processed together with 3 installed speed card(s). Range: 1-4096; default: 16.
+			#安装 3 张加速卡时每批最多并行处理的物品数。范围：1～4096；默认：16。
+			#Range: 1 ~ 4096
+			card_3_parallel = 16
+			#Ticks between matter-processing batches with 3 installed speed card(s). Range: 1-1200; default: 2.
+			#安装 3 张加速卡时两个处理批次之间的 tick 数。范围：1～1200；默认：2。
+			#Range: 1 ~ 1200
+			card_3_cycle_ticks = 2
+			#Multiplier applied to matter_entropy_cooling_per_second with 3 installed speed card(s). Range: 1 to Long.MAX_VALUE; default: 16.
+			#安装 3 张加速卡时应用到基础每秒散热值的倍率。范围：1～Long.MAX_VALUE；默认：16。
+			#Range: 1 ~ 9223372036854775807
+			card_3_cooling_multiplier = 16
+			#Maximum matter operations processed together with 4 installed speed card(s). Range: 1-4096; default: 64.
+			#安装 4 张加速卡时每批最多并行处理的物品数。范围：1～4096；默认：64。
+			#Range: 1 ~ 4096
+			card_4_parallel = 64
+			#Ticks between matter-processing batches with 4 installed speed card(s). Range: 1-1200; default: 1.
+			#安装 4 张加速卡时两个处理批次之间的 tick 数。范围：1～1200；默认：1。
+			#Range: 1 ~ 1200
+			card_4_cycle_ticks = 1
+			#Multiplier applied to matter_entropy_cooling_per_second with 4 installed speed card(s). Range: 1 to Long.MAX_VALUE; default: 64.
+			#安装 4 张加速卡时应用到基础每秒散热值的倍率。范围：1～Long.MAX_VALUE；默认：64。
+			#Range: 1 ~ 9223372036854775807
+			card_4_cooling_multiplier = 64
+
+#Omni-Computation Core machine dispatch settings.
+#万物演算核心的机器派发设置。规划器及 AE2 通用增强由 AppliedEnhancements 配置控制。
+[omni_computation]
+
+	#Crafting-provider batch dispatch and main-thread work budgets.
+	#合成供应器批量派发与主线程工作预算。
+	[omni_computation.dispatch]
+		#Enable multi-craft material extraction and dispatch for explicitly compatible crafting providers.
+		omni_batch_dispatch_enabled = true
+		#Hard safety ceiling for complete one-recipe provider calls shared by one Omni-Computation Core per tick. The adaptive time budget normally stops dispatch much earlier.
+		#Range: > 256
+		omni_compat_dispatch_max_calls_per_tick = 2147483647
+		#Maximum server-wide main-thread time in microseconds used by compatibility one-recipe dispatch each tick. All active Omni cores share one deadline, which shrinks automatically as average server MSPT approaches 45.
+		#Range: 250 ~ 50000
+		omni_compat_dispatch_max_time_us = 20000
+		#Maximum dispatch work units per Omni controller and tick. Input extraction and each provider attempt cost one unit, regardless of logical batch size.
+		#Range: 64 ~ 9223372036854775807
+		omni_dispatch_max_work_units = 2147483647
+

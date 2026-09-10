@@ -10,4 +10,6 @@ sacrificer_energy = 15000000
 sacrificer_data = 1
 #Should data be given to faulty models? [true]
 faulty_data = false
+#Allow Extra HNN combined models in the Virtual Sacrificer [true]
+extra_hnn_models_enabled = true
 

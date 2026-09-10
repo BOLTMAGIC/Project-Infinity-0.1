@@ -790,6 +790,13 @@
       "type": "MESSAGE_REGEX",
       "pattern": "Failed to enumerate",
       "action": "DENY"
+    },
+    {
+      "name": "Suppress",
+      "enabled": true,
+      "type": "MESSAGE_REGEX",
+      "pattern": "Refusing to mount universal cell whose storage domain",
+      "action": "DENY"
     }
   ]
 }

@@ -32,10 +32,3 @@ name = "Fast Capacitor"
 level = 10.5
 glow = true
 color = "00FF00"
-
-[[capacitor]]
-id = "ultimate_capacitor"
-name = "Ultimate Capacitor"
-level = 25.0
-glow = true
-color = "FF0000"

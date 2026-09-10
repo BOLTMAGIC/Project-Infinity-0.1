@@ -1,0 +1,12 @@
+
+[planning]
+	#Enable the experimental OR-Tools CP-SAT crafting planner.
+	#When enabled, Thunderbolt downloads and verifies the matching native runtime
+	#during startup. A download or load failure only disables this planner for that run.
+	enableCpSatPlanner = false
+
+[channel]
+	#When to enable Thunderbolt channel max-flow.
+	#Allowed Values: MOD, DEVICE, ON
+	mode = "MOD"
+

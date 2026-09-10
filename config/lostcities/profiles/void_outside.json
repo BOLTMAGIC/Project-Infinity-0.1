@@ -125,6 +125,7 @@
     "ruinMaxlevelPercent": 0.4,
     "useAvgHeightmap": false,
     "avoidWater": true,
+    "railwayLevelOffset": 0,
     "editMode": false,
     "rubbleLeaveScale": 0.0,
     "vineChance": 0.0,

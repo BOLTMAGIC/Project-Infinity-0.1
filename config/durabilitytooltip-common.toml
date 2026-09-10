@@ -23,6 +23,10 @@
     # Allowed values: true, false - Default: true
     showWhenFull = true
 
+    # Should the durability tooltip be shown when a tool is broken, i.e. 0 durability? Only relevant for mods that allow items to have 0 durability.
+    # Allowed values: true, false - Default: true
+    showWhenBroken = true
+
     # Which mods should be blacklisted? Items from blacklisted mods won't show the durability tooltip.
     # Allowed length: 0 ~ 100 - Default: 'tconstruct,supplementaries'
     blackListedMods = ""

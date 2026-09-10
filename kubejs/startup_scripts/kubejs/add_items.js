@@ -545,3 +545,15 @@
     .texture('kubejs:item/fake_transmutation_tablet');
   });
 })();
+
+  //#region Custom Capacitors
+StartupEvents.registry('item', event => {
+    event.create('ultimate_capacitor', 'custom_capacitors:capacitor')
+    .displayName('Ultimate Capacitor')
+    .level(25)
+    .glowing(true)
+    .maxStackSize(64)
+    .rarity('epic')
+    .fireResistant()
+    .texture('custom_capacitors:item/ultimate_capacitor')
+})

@@ -1188,6 +1188,11 @@
 		{
 			dependencies: ["3E5A18DF29A58420"]
 			id: "62979A03AD5D57D9"
+			rewards: [{
+				id: "0FCDBE4CD783E795"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
 			size: 1.5d
 			tasks: [{
 				id: "74094C565A071D94"
@@ -1240,6 +1245,11 @@
 			]
 			id: "1C11DA199619C59B"
 			min_width: 425
+			rewards: [{
+				id: "6F974ED6F5C43F8F"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
 			tasks: [{
 				id: "40E4E75D56ECC8E6"
 				item: "neoecoae:storage_system_l4"
@@ -1251,6 +1261,11 @@
 		{
 			dependencies: ["1C11DA199619C59B"]
 			id: "417BF3D48AD8D6FA"
+			rewards: [{
+				id: "06A1AD34289B8828"
+				item: "kubejs:infused_coin"
+				type: "item"
+			}]
 			tasks: [{
 				id: "79F3E7413F268D52"
 				item: "neoecoae:storage_system_l6"
@@ -1262,6 +1277,11 @@
 		{
 			dependencies: ["417BF3D48AD8D6FA"]
 			id: "3B15EF93AA974157"
+			rewards: [{
+				id: "500F0D920CED0589"
+				item: "kubejs:infused_coin"
+				type: "item"
+			}]
 			tasks: [{
 				id: "1789FB4E22F13F99"
 				item: "neoecoae:storage_system_l9"
@@ -1273,6 +1293,11 @@
 		{
 			dependencies: ["53916AEFDD45D596"]
 			id: "70496FE64555A812"
+			rewards: [{
+				id: "12C94E1403BCF06F"
+				item: "kubejs:infused_coin"
+				type: "item"
+			}]
 			tasks: [{
 				id: "3444159C347FF700"
 				item: "neoecoae:crafting_system_l6"
@@ -1302,6 +1327,11 @@
 			]
 			id: "53916AEFDD45D596"
 			min_width: 425
+			rewards: [{
+				id: "77BB4BE3FE178E7F"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
 			tasks: [{
 				id: "43EAD5D8EB765502"
 				item: "neoecoae:crafting_system_l4"
@@ -1313,6 +1343,11 @@
 		{
 			dependencies: ["70496FE64555A812"]
 			id: "0B11AC8816E36B95"
+			rewards: [{
+				id: "79B54ECF9AA2AF36"
+				item: "kubejs:infused_coin"
+				type: "item"
+			}]
 			tasks: [{
 				id: "25435A0BEDC9FAE1"
 				item: "neoecoae:crafting_system_l9"
@@ -1342,6 +1377,11 @@
 			]
 			id: "437C628A947832BF"
 			min_width: 425
+			rewards: [{
+				id: "1D5727FB4F89A844"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
 			tasks: [{
 				id: "22B588477B932C55"
 				item: "neoecoae:computation_system_l4"
@@ -1353,6 +1393,11 @@
 		{
 			dependencies: ["437C628A947832BF"]
 			id: "217BB2DEB5384040"
+			rewards: [{
+				id: "33E74976E2E284A1"
+				item: "kubejs:infused_coin"
+				type: "item"
+			}]
 			tasks: [{
 				id: "6CB038BE096CDDE2"
 				item: "neoecoae:computation_system_l6"
@@ -1364,6 +1409,11 @@
 		{
 			dependencies: ["217BB2DEB5384040"]
 			id: "2FF4D0BB67640C93"
+			rewards: [{
+				id: "0F5C222359F38F86"
+				item: "kubejs:infused_coin"
+				type: "item"
+			}]
 			tasks: [{
 				id: "708620821D4F2F40"
 				item: "neoecoae:computation_system_l9"
@@ -1397,6 +1447,11 @@
 			]
 			id: "6C6546FBCB6ED113"
 			min_width: 425
+			rewards: [{
+				id: "5395A482F4D884AD"
+				item: "kubejs:ascended_coin"
+				type: "item"
+			}]
 			tasks: [{
 				id: "00CC1F91CD13F6BF"
 				item: "neoecoae:crafting_high_energy_network_switch"
@@ -1420,6 +1475,11 @@
 			]
 			id: "04D62CCE8E8E243D"
 			min_width: 425
+			rewards: [{
+				id: "1ED2B6934206EBD0"
+				item: "kubejs:ascended_coin"
+				type: "item"
+			}]
 			tasks: [{
 				id: "640688DCCE069781"
 				item: "neoecoae:computation_high_energy_network_switch"
@@ -1429,7 +1489,10 @@
 			y: 1.5d
 		}
 		{
-			dependencies: ["0A5E6E6E3D3C7BC7"]
+			dependencies: [
+				"0A5E6E6E3D3C7BC7"
+				"51BF15935660A6F1"
+			]
 			description: [
 				"Now that you have gathered enough resources, it's time to move on to the truly powerful part of &2Neo ECO AE Extension&r: &4THE MULTIBLOCKS&r"
 				""
@@ -1459,6 +1522,11 @@
 			]
 			id: "40B01E90B2545BEE"
 			min_width: 425
+			rewards: [{
+				id: "70578069E3989152"
+				type: "xp"
+				xp: 1
+			}]
 			tasks: [{
 				id: "6365613A1EEE52F7"
 				title: "3 Multiblocks to rule them all"

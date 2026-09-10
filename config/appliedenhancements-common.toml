@@ -1,0 +1,143 @@
+
+#AE2 crafting behavior and presentation
+#AE2 合成行为与界面显示
+[crafting]
+	#Enable crafting orders above Integer.MAX_VALUE, up to Long.MAX_VALUE.
+	#启用超过 Integer.MAX_VALUE、最大可到 Long.MAX_VALUE 的合成订单。
+	#Default / 默认值: true
+	enable_long_range_crafting = true
+	#Maximum amount allowed for a single AE2 autocrafting order.
+	#Values above Integer.MAX_VALUE (2,147,483,647) use long-range crafting.
+	#单次 AE2 自动合成订单允许的最大数量。
+	#超过 Integer.MAX_VALUE（2,147,483,647）时使用超大数量合成路径。
+	#Default / 默认值: Integer.MAX_VALUE (2,147,483,647)
+	#Range: 1 ~ 9223372036854775807
+	max_crafting_order_amount = 2147483647
+	#Show crafting calculation progress and selected planner path.
+	#显示合成计算进度与所选规划路径。
+	#Default / 默认值: false
+	enable_progress_display = false
+	#Enable enhanced material calculation in the crafting preview.
+	#Shows accurate missing, stored, and crafting item counts.
+	#在合成预览中启用增强材料计算。
+	#显示准确的缺失、库存与待合成物品数量。
+	#Default / 默认值: false
+	enable_enhanced_material_calculation = false
+
+	#AELIS planner settings
+	#AELIS 规划器设置
+	[crafting.aelis]
+		#Enable automatic AELIS integration in AE2's native planner.
+		#Third-party API calls are not affected by this setting.
+		#Manual crafting-plan inventory reservations are active only while this is enabled.
+		#在 AE2 原生规划流程中自动启用 AELIS。
+		#第三方 API 调用不受此设置影响。
+		#手动合成计划库存预留仅在此项启用时生效。
+		#Default / 默认值: false
+		enable_automatic_planner = false
+		#Maximum nodes analyzed by AELIS per attempt.
+		#Higher values allow more complex recipes but use more memory.
+		#AELIS 每次尝试允许分析的最大节点数。
+		#数值越高，可处理的配方越复杂，但会占用更多内存。
+		#Default / 默认值: 100000
+		#Range: 1000 ~ 1000000
+		max_nodes = 100000
+		#Compilation budget in milliseconds for each AELIS attempt.
+		#Limits time spent analyzing the crafting tree before execution.
+		#每次 AELIS 尝试的编译时间预算，单位为毫秒。
+		#限制执行前分析合成树所花费的最长时间。
+		#Default / 默认值: 2000
+		#Range: 100 ~ 30000
+		compile_budget_ms = 2000
+		#Enable detailed AELIS planning diagnostics.
+		#WARNING: This produces a large amount of log output.
+		#启用 AELIS 规划诊断详情。
+		#警告：这会产生大量日志输出。
+		#Default / 默认值: false
+		enable_diagnostics = false
+
+		#Bounded solver for cyclic crafting dependencies
+		#循环合成依赖的有界求解器
+		[crafting.aelis.cycle_solver]
+			#Maximum material nodes in one strongly connected component.
+			#单个强连通分量允许包含的最大材料节点数。
+			#Default / 默认值: 256
+			#Range: 4 ~ 1024
+			max_scc_nodes = 256
+			#Maximum branch-search states for multi-candidate cyclic components.
+			#多候选循环分量允许搜索的最大分支状态数。
+			#Default / 默认值: 1000000
+			#Range: 1000 ~ 10000000
+			max_search_states = 1000000
+			#Maximum time spent by one global or local cyclic solve in milliseconds.
+			#单次全图或局部循环求解允许使用的最大时间（毫秒）。
+			#Default / 默认值: 1000
+			#Range: 10 ~ 5000
+			budget_ms = 1000
+			#Policy for cycle startup materials after the proven cycle schedule finishes.
+			#PRESERVE_MINIMUM keeps the minimum seed vector for the next order.
+			#MAX_THROUGHPUT allows the current order to consume every cycle material.
+			#已证明循环顺序执行完成后，启动材料的处理策略。
+			#PRESERVE_MINIMUM 会为下一份订单保留最低种子向量。
+			#MAX_THROUGHPUT 允许当前订单使用全部循环材料。
+			#Default / 默认值: PRESERVE_MINIMUM
+			#Allowed Values: PRESERVE_MINIMUM, MAX_THROUGHPUT
+			seed_policy = "PRESERVE_MINIMUM"
+
+#Performance optimizations with validation and native fallbacks
+#带重新验证与原版回退的性能优化
+[performance]
+
+	#Encoded-pattern cache settings
+	#编码样板缓存设置
+	[performance.pattern_cache]
+		#Cache pattern input validation and container-return lookups.
+		#Significantly improves large crafting calculations.
+		#缓存样板输入有效性与容器返还物查询。
+		#可显著提升大型合成计算的性能。
+		#Default / 默认值: true
+		enabled = true
+		#Maximum multi-key cache entries retained per pattern.
+		#Limits memory use while preserving useful cache diversity.
+		#每张样板保留的多键缓存最大条目数。
+		#在保留有效缓存多样性的同时限制内存占用。
+		#Default / 默认值: 32
+		#Range: 8 ~ 256
+		max_entries_per_pattern = 32
+
+	#Item storage-bus optimization
+	#物品存储总线优化
+	[performance.storage_bus]
+		#Index candidate slots during AE2's existing external-inventory scan.
+		#Cached slots are revalidated; incomplete results fall back to AE2's full scan.
+		#在 AE2 原有外部库存扫描期间建立候选槽位索引。
+		#缓存槽位会重新验证；结果不完整时回退 AE2 完整扫描。
+		#Default / 默认值: true
+		enable_slot_index = true
+
+	#Import and export bus optimization
+	#输入与输出总线优化
+	[performance.io_bus]
+		#Reuse validated source and target slot hints for AE2 I/O buses.
+		#Incomplete operations fall back to AE2's original slot routing.
+		#为 AE2 输入与输出总线复用经过验证的来源及目标槽位提示。
+		#操作结果不完整时回退 AE2 原始槽位路由。
+		#Default / 默认值: true
+		enable_slot_routing = true
+
+#Storage behavior and representation
+#存储行为与显示
+[storage]
+
+	#Explicitly marked infinite storage cells
+	#显式标记的无限存储元件
+	[storage.infinite]
+		#Raise infinite-cell network listings to Long.MAX_VALUE and display them as 9.2E.
+		#Disable this to preserve the amount reported by the original cell implementation.
+		#Long.MAX_VALUE can leave no arithmetic headroom for AE2's native planner.
+		#将无限磁盘网络数量提升至 Long.MAX_VALUE，并显示为 9.2E。
+		#关闭后保留磁盘原实现报告的数量。
+		#Long.MAX_VALUE 可能不给 AE2 原生规划器留下算术余量。
+		#Default / 默认值: false
+		enable_listing_limit_bypass = false
+

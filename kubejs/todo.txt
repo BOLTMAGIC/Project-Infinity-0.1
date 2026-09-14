@@ -4,7 +4,7 @@ finish quests high prio
 rf tools recipes
 LUMINOUS (Overworld/ Nether/ Beasts)
 ----------
-changelog v. 0.0.52.0
+changelog v. 0.0.51.4
 
 MAKE A BACKUP AND UPDATE TO A NEW INSTANCE!!!
 

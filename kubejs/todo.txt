@@ -2,6 +2,7 @@
 //main
 finish quests high prio
 rf tools recipes
+draconic evolution armor and upgrades recipe change
 LUMINOUS (Overworld/ Nether/ Beasts)
 ----------
 changelog v. 0.0.51.4
@@ -44,6 +45,7 @@ Recipe changes and fixes:
 - changed recipe for universal bulk cell
 - ultimate capacitor got a new texture (thx to mrwobbe1e)
 - fixed ATM ore drop chance in Utimate Miner
+- changed ultimate seed philosophers stone to transmutation table
 ----------
 known bugs:
 - 

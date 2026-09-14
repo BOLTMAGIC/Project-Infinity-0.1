@@ -38,7 +38,7 @@ ServerEvents.recipes((event) => {
           item: 'kubejs:tier4_crafting_seed',
         },
         G: {
-          item: 'projecte:philosophers_stone',
+          item: 'projecte:transmutation_table',
         },
         H: {
           item: 'kubejs:tier3_crafting_seed',

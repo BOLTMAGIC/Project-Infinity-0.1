@@ -1,3 +1,47 @@
+%#red%**Version 0.0.51.4**%#%
+
+MAKE A BACKUP AND UPDATE TO A NEW INSTANCE!!!
+
+Mod Info:
+- MODS ADDED:
+    - Universal Bulk Storage Cell (thx to Kyo)
+    - Advanced Core Info (ACI) (Dependency of ALI)
+    - replaced Explorers Compass Edited with Explorers Compass Enhance (same item ID)
+    - replaced ProjectCell with ProjectCell Reforked (my fork)
+    - replaced Radium with Radium Reforged
+- MODS INFO:
+    - CrazyAE2 will get updated to the newest version soon.
+    - this will break all old crazyAE2 multiblocks!
+- MODS REMOVED:
+    - More Dragon Eggs (thx to grinchfan22)
+- MODS GETTING REMOVED in 0.0.53.0:
+    - Born in Chaos
+----------
+Recipe changes and fixes:
+- ALL OmniSequence multiblocks got changed. you need to build them again!
+- fixed blizz, blitz and basalz recipe in the melter (nuclearcraft) (thx to CLISHÉ)
+- changed layout for the Loot Fabrication Plant Tier 1 (need crimson dragonstone block and V1 and not V4 ExtraHNN blocks. removed Merger Camera blocks)
+- added a new mechanical empowerer tier 2 (needs infinity 4 block)
+    - added reaction chamber recipes to the mechanical empowerer multiblock Tier 2
+- removed recipe for ifeu big dissolution chamber
+- changed values for matter in the sequence array multiblock
+- added a recipe in the Fire Attuned Multiblock to get liquid malic acid (thx to nogweii)
+- changed woot magmator to use T1 for T2 and so on (thx to SilverSoul)
+- changed creative fluid tank recipe (from ifeu fluid_transfer to industrialforegoing fluid sieving) (thx to Edward)
+- added a recipe in the fire attuned multiblock for energized crystal dust
+- lowered chance to get polonium pellets from dynamic dungeon
+- changed densest neutron collector recipe (easier)
+- removed Tier 6 Blood Altar
+- changed recipes for Woot upgrades
+- disabled Player Accessor from JDT
+- changed recipe for RFToolsDim Researcher and Inscriber
+- changed recipe for universal bulk cell
+- ultimate capacitor got a new texture (thx to mrwobbe1e)
+- fixed ATM ore drop chance in Utimate Miner
+- changed ultimate seed philosophers stone to transmutation table
+----------
+----------
+----------
 %#red%**Version 0.0.51.3 HOTFIX**%#%
 
 MAKE A BACKUP AND UPDATE TO A NEW INSTANCE!!!
@@ -57,29 +101,3 @@ Recipe changes and fixes:
 - added loot fabrication plant tier 2
 - fix prediction chamber NBT
 - added a recipe for time crystals
-----------
-----------
-----------
-%#red%**Version 0.0.51.1**%#%
-
-MAKE A BACKUP AND UPDATE TO A NEW INSTANCE!!!
-
-If you want the new EnchantmentLimiter settings you need to place the "enchantlimiter-server.toml" from defaultconfig into your saves serverconfig folder
-
-Mod Info:
-- MODS REMOVED:
-    - AE2 Optimizer Mod
-----------
-Recipe changes and fixes:
-- fixed Vitality Fluid Crash
-- changed recipe for World Breaker to use Creative Bin (thx to Lightreaper45)
-- changed recipe for dungeon pass (thx to alekzander)
-- readded uranium seeds (thx to Kyo and ricky1680)
-- added ram trophy dupe (thx to edwardeau)
-- changed recipe for reaction chamber (thx to Miguelito)
-- changed recipe for rosarium miner and solar panels (thx to Lightreaper45)
-- removed recipes for NeoEco controllers (will get readded when the mod gets some fixes)
-----------
-Mod changes and fixes:
-- fixed EnchantmentLimiter
-- Masterful Machinery TPS fixes

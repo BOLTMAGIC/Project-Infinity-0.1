@@ -117,11 +117,6 @@
     "wt_master_location": true,
     "wt_owner": true
   },
-  "ae2lt": {
-    "frequency_card_wireless_node": true,
-    "lightning_collector": true,
-    "firmament_conversion_core": true
-  },
   "hammerlib": {
     "root": true
   },

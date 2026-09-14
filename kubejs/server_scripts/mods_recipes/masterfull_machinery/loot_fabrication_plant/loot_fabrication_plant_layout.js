@@ -7,9 +7,9 @@ MMEvents.createStructures((event) => {
     .layout((a) => {
       a.portsAnywhere(true);
       a.layer(['ABBBBBA', 'BEEEEEB', 'BEEOEEB', 'BEEEEEB', 'ABBBBBA'])
-        .layer(['ADEEEDA', 'DF   GD', 'E     E', 'DH   ID', 'ADENEDA'])
+        .layer(['ADEEEDA', 'DF   GD', 'E     E', 'DH    D', 'ADENEDA'])
         .layer(['MDEEEDM', 'D     D', 'E  P  E', 'D     D', 'MDEEEDM'])
-        .layer(['ADEEEDA', 'DF   GD', 'E     E', 'DH   ID', 'ALECEJA'])
+        .layer(['ADEEEDA', 'DF   GD', 'E     E', 'DH    D', 'ALECEJA'])
         .layer(['ABBBBBA', 'BBBBBBB', 'BBBBBBB', 'BBBBBBB', 'ABBBBBA'])
         .key('A', {
           block: 'evolvedmekanism:apt_casing',
@@ -31,9 +31,6 @@ MMEvents.createStructures((event) => {
         })
         .key('H', {
           block: 'extrahnn:simulator_modeling',
-        })
-        .key('I', {
-          block: 'extrahnn:merger_camera',
         })
         .key('J', {
           portType: 'mm:item',

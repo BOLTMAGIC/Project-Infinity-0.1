@@ -349,22 +349,29 @@
 			]
 			description: ["{ftbquests.chapter.endgame.quest21F3CB7EEAAFDFBB.description1}"]
 			id: "21F3CB7EEAAFDFBB"
-			rewards: [{
-				id: "79DAF473FB02C7FB"
-				item: {
-					Count: 1
-					id: "obtrophies:display_trophy"
-					tag: {
-						BlockEntityTag: {
-							display: {
-								display: "kubejs:infinity_9"
-								scale: 2.0f
+			rewards: [
+				{
+					id: "79DAF473FB02C7FB"
+					item: {
+						Count: 1
+						id: "obtrophies:display_trophy"
+						tag: {
+							BlockEntityTag: {
+								display: {
+									display: "kubejs:infinity_9"
+									scale: 2.0f
+								}
 							}
 						}
 					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "0864357F89528D83"
+					item: "molecularmanipulator:transfinite_compute_nexus"
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "10CD0C5E756DDB5C"
 				item: "kubejs:infinity_9"

@@ -32,6 +32,30 @@
 			x: -4.5d
 			y: -7.5d
 		}
+		{
+			height: 4.0d
+			image: "kubejs:block/screen/omnisequence_sequence_array_multiblock"
+			rotation: 0.0d
+			width: 12.0d
+			x: -1.0d
+			y: 16.5d
+		}
+		{
+			height: 5.0d
+			image: "kubejs:block/screen/omnisequence_omni_computation_multiblock"
+			rotation: 0.0d
+			width: 7.5d
+			x: 3.0d
+			y: 13.0d
+		}
+		{
+			height: 5.0d
+			image: "kubejs:block/screen/omnisequence_matter_fabrication_well_multiblock"
+			rotation: 0.0d
+			width: 6.5d
+			x: -5.0d
+			y: 13.0d
+		}
 	]
 	order_index: 1
 	quest_links: [ ]
@@ -406,6 +430,7 @@
 				"{ftbquests.chapter.applied_energistics_2.quest6EE4B174356FB915.description1}"
 				"{ftbquests.chapter.applied_energistics_2.quest6EE4B174356FB915.description2}{ftbquests.chapter.applied_energistics_2.quest6EE4B174356FB915.description3}"
 			]
+			hide_dependent_lines: true
 			icon: "advanced_ae:quantum_alloy"
 			id: "32317607D34C7CA5"
 			size: 2.0d
@@ -966,11 +991,53 @@
 		}
 		{
 			dependencies: ["3E7BA0C70B5569D4"]
+			description: [
+				"# OmniSequence"
+				""
+				"&3&lOmniSequence&r is an end-game automation mod built on &b&lAE2&r."
+				"It adds high-throughput crafting CPUs, molecular sequence rewriting, and large-scale computation to turn massive resource flows into reliable, scalable production."
+				""
+				"## What it does"
+				""
+				"The mod introduces the &2&lMatter Fabrication Well&r as the central research and processing hub."
+				"From there, you unlock two main branches: the &3&lSequence Array&r for molecular rewriting and parallel crafting, and the &d&lOmni-Computation&r branch for effectively unlimited logical crafting storage and parallelism via the &3&lOmni-Computation Core&r."
+				""
+				"Key features include:"
+				""
+				"- Virtual parallel crafting with extremely high logical CPU capacity."
+				"- Internal pattern libraries and dedicated auto-crafting slots."
+				"- Matter deconstruction and rewriting similar to transmutation, with configurable rules."
+				"- Cross-dimensional network links via &b&lAE2 Quantum Rings&r."
+				"- Strong spawn protection around formed multiblocks."
+				""
+				"## Why use it"
+				""
+				"Use OmniSequence when standard &b&lAE2&r autocrafting hits limits in throughput, complexity, or scale."
+				"It is designed for late-game bases that need:"
+				""
+				"- Massive, stable &b&lautocrafting&r for complex modpack recipes."
+				"- Efficient conversion of bulk resources into high-value components."
+				"- Centralized, research-driven progression that gates powerful machines behind clear milestones."
+				"- Compact, high-performance crafting that reduces the need for thousands of individual pattern providers and machines."
+				""
+				"## When you need it"
+				""
+				"You will benefit from OmniSequence once you:"
+				""
+				"- Run large &b&lME Networks&r with heavy crafting demand."
+				"- Want to automate expensive, multi-step recipes without exploding lag or block counts."
+				"- Plan cross-dimensional production or remote crafting hubs."
+				"- Aim for a clean, scalable end-game automation layer instead of ad-hoc machine rooms."
+				""
+				"In short: OmniSequence turns your &b&lAE2&r network into a true industrial fabricator, combining research, computation, and matter rewriting into one cohesive end-game system."
+			]
+			icon: "molecularmanipulator:molecular_center_controller"
 			id: "13A47F2EB18B8951"
+			min_width: 450
 			size: 2.0d
 			tasks: [{
 				id: "7CB4DC0079B27013"
-				title: "AE2 Lightning Tech"
+				title: "OmniSequence"
 				type: "checkmark"
 			}]
 			x: -1.0d
@@ -1060,6 +1127,7 @@
 			y: -4.0d
 		}
 		{
+			dependencies: ["32317607D34C7CA5"]
 			id: "532419E05A7BFBC8"
 			tasks: [{
 				id: "3B50B2E9154EB214"
@@ -1070,6 +1138,7 @@
 			y: -3.0d
 		}
 		{
+			dependencies: ["32317607D34C7CA5"]
 			id: "4FEA0AA812165276"
 			tasks: [
 				{
@@ -1082,16 +1151,12 @@
 					item: "advanced_ae:small_adv_pattern_provider"
 					type: "item"
 				}
-				{
-					id: "3EF00F0AA0176C80"
-					item: "advanced_ae:adv_pattern_provider"
-					type: "item"
-				}
 			]
 			x: 4.5d
 			y: -2.0d
 		}
 		{
+			dependencies: ["32317607D34C7CA5"]
 			id: "18D37D619C74F0BA"
 			tasks: [{
 				id: "1343A9D04D38260A"
@@ -1102,6 +1167,7 @@
 			y: -3.0d
 		}
 		{
+			dependencies: ["32317607D34C7CA5"]
 			id: "310D634B9A2589F5"
 			tasks: [
 				{
@@ -1124,6 +1190,7 @@
 			y: -4.0d
 		}
 		{
+			dependencies: ["32317607D34C7CA5"]
 			id: "7CFE99E7CA2C7347"
 			tasks: [
 				{
@@ -1173,6 +1240,367 @@
 			]
 			x: 4.5d
 			y: -4.0d
+		}
+		{
+			dependencies: ["63465F6B67C8633A"]
+			description: [
+				"# Molecular Sequence Rewrite Array"
+				""
+				"The &3&lMolecular Sequence Rewrite Array&r is a high-throughput &b&lautocrafting&r machine."
+				"It stores encoded patterns like a &b&lPattern Provider&r, but performs every molecular-assembler-compatible recipe inside the block instead of sending ingredients to adjacent machines."
+				""
+				"## Setup"
+				""
+				"Complete &2&lStage II: Sequence Array&r once in the &2&lMatter Fabrication Well&r, then produce this machine there."
+				"Deep research improves its well manufacturing recipe, not the performance of the placed array."
+				""
+				"1. Connect the array to a powered &b&lME Network&r with an available channel."
+				"2. Right-click it and insert encoded &b&lcrafting&r, &b&lsmithing&r, or &b&lstonecutting&r patterns."
+				"3. Use the page buttons to move through the fixed pattern inventory: &e&l10 pages&r with &e&l36 slots&r each, for a total of &e&l360 pattern slots&r."
+				"4. Request one of the encoded results from an &b&lME terminal&r as usual."
+				""
+				"Processing patterns are not executed internally."
+				"Use a normal &b&lPattern Provider&r and an external machine for those."
+				""
+				"## Processing and outputs"
+				""
+				"The array uses virtual parallel processing and can finish supported recipes in as little as &e&l1 tick&r."
+				"Actual throughput still depends on available ingredients, &b&lME power&r, and whether the network can accept the results."
+				""
+				"Recipe results, intermediate products, and container remainders are aggregated by AE key and returned to the &b&lME Network&r."
+				"If the network cannot accept them immediately, the array keeps them in a persistent output buffer and retries later, including after a world reload."
+				""
+				"Normal block drops retain patterns, inventory, and pending returns."
+				"Replace the array and restore its &b&lME connection&r to continue."
+			]
+			id: "39466F9FC8385BA2"
+			min_width: 450
+			tasks: [{
+				id: "7E145E0F7F792173"
+				item: "molecularmanipulator:molecular_manipulator"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 10.5d
+		}
+		{
+			dependencies: ["63465F6B67C8633A"]
+			description: [
+				"# Sequence Array Controller"
+				""
+				"The &3&lSequence Array Controller&r builds a &3&lSequence Array&r on a &e&l61×61&r footprint and &e&l29 blocks&r tall."
+				"The active layout is the baseless &d&lFrost Feather Crown&r with a central controller."
+				"When complete, it merges massive parallel &b&lAE crafting&r, per-pattern passive auto crafting, &a&lmatter sequence rewriting&r, and an optional cross-dimensional &9&lquantum link&r."
+				""
+				"## Autocrafting"
+				""
+				"The completed array supports virtual parallelism up to the signed 64-bit limit."
+				"Actual throughput still depends on &e&lingredients&r, &b&lenergy&r, &6&loutput capacity&r, and server tick time."
+				""
+				"The &d&lAuto Crafting&r tab provides its own row of &e&l9 dedicated pattern slots&r and never pulls patterns from the large library."
+				"Place patterns directly into these slots, then click the numbered selector or right-click the slot to configure it."
+				"New patterns start &c&ldisabled&r."
+				"Each logical input has an independent &b&lME reserve&r: passive crafting never extracts enough of that ingredient or any valid substitute to drop its stock below the reserve."
+				"The primary output has an &b&lME stock limit&r; `0` disables that limit and continues until protected ingredients or &b&lAE power&r run out."
+				"Conditions are re-checked automatically, so a paused pattern resumes when stock, power, or output capacity returns."
+				""
+				"Passive batches pull directly from this controller's &b&lME Network&r and use the `Long.MAX_VALUE` aggregate execution path without acceleration cards."
+				"Primary outputs, byproducts, containers, reusable ingredients, and rollback refunds return exclusively to &b&lME&r through persistent escrow."
+				"There is no internal-storage or adjacent-inventory output mode."
+				"{@pagebreak}"
+				"### Reusable inputs and cancellation"
+				""
+				"The array can run same-key remainders, including &e&lunbreakable items&r, as one persistent reusable batch."
+				"Finite-durability tools are batched only when every craft deterministically adds exactly one damage; &e&lUnbreaking&r-enchanted or otherwise random and context-dependent tools fall back to &b&lAE2&r's original one-craft path."
+				"Key-changing remainders such as &9&lwater buckets&r also remain on that path."
+				""
+				"Accepted reusable batches survive saves, chunk unloads, and server restarts."
+				"Canceling the &b&lAE2&r crafting job persistently stops all remaining executions and refunds the exact unused materials plus the reusable item's current state."
+				"Completed outputs remain valid, and canceled work cannot resume after reload."
+				"Batch energy uses &b&lAE2&r's native pattern-power calculation over the actual combined inputs."
+				""
+				"## Matter sequence rewriting"
+				""
+				"The matter-rewriting system works like item transmutation in &d&lEquivalent Exchange&r: supported items are deconstructed into stored sequence, and that sequence is then spent to reproduce other supported items."
+				"&2&lMetal&r, &2&lmineral&r, &b&lcrystal&r, and &a&lorganic sequence&r are stored separately."
+				"Deconstruction yields and rewriting costs are different values, so an item is not necessarily reproduced for the same amount recovered from deconstructing it."
+				"{@pagebreak}"
+				"### Rewriting"
+				""
+				"Place one real item in the &d&lBlueprint Sample&r slot and start rewriting."
+				"The array spends that item's configured sequence cost to create copies."
+				"The sample itself is never consumed, but it must stay in the slot unchanged for the entire job; removing or replacing it stops the job."
+				""
+				"Rewritten items can return directly to the &b&lME Network&r or enter the controller's output slot."
+				"A target of `0` runs continuously."
+				"If stored sequence or &b&lME power&r is temporarily insufficient, the job waits and retries."
+				"A changed blueprint or blocked output stops it."
+				""
+				"Up to &e&l4 AE2 acceleration cards&r affect batch size, batch interval, and entropy cooling for both operations."
+				"Modpacks may configure each value; defaults are:"
+				""
+				"### Rewrite entropy"
+				""
+				"Rewrite entropy is a heat-like throughput limit for matter deconstruction and rewriting; it does not affect normal autocrafting."
+				"Every successful operation adds entropy based on the total sequence handled:"
+				""
+				"- Deconstruction adds at least &e&l1 entropy&r, or the total recovered sequence divided by &e&l64&r."
+				"- Rewriting adds at least &e&l1 entropy&r, or the total sequence cost divided by &e&l16&r."
+				""
+				"Default entropy capacity is &e&l1,000,000&r."
+				"Base cooling is &e&l25 per second&r, multiplied by the installed cards' cooling multiplier; &e&l4 cards&r therefore remove &e&l1,600 per second&r by default."
+				"Capacity, base cooling, and multipliers are configurable."
+				"Insufficient free entropy capacity pauses work in &5&lCooling&r until it can resume."
+				"If a single operation costs more entropy than total capacity, waiting cannot solve it: change the target or configuration."
+				"Cards do not change entropy per item; the net accumulation depends on processing throughput and cooling together."
+				"{@pagebreak}"
+				"## Quantum link and visual settings"
+				""
+				"The quantum slot accepts one half of a paired entangled singularity."
+				"Place the other half in a powered &b&lAE2 Quantum Ring&r to connect the array across dimensions."
+				"Before the structure is formed, this remote link can only retrieve construction materials."
+				"A full link consumes an additional &e&l512 AE/t&r and &e&l1 channel&r."
+				""
+				"The colors tab changes the energy field, core, rings, and crystal effects."
+				"These settings are visual only and do not affect processing speed."
+				""
+				"## Natural spawning protection"
+				""
+				"While formed, constructing, dismantling, or updating its structure, the array blocks natural spawning in all occupied chunks from bedrock to build height."
+				"This includes &c&lmonsters&r, &e&lanimals&r, &b&laquatic mobs&r, and &7&lbats&r, plus &c&lpatrol&r and &c&lreinforcement spawns&r."
+				"&6&lSpawners&r, &e&lspawn eggs&r, &d&lbreeding&r, &b&lcommands&r, and already-existing mobs are not affected."
+				"This protection works without &b&lAE power&r; if no structure or operation owns a chunk, spawning returns to normal there."
+			]
+			id: "39248F0A9EB6D513"
+			min_width: 450
+			tasks: [
+				{
+					id: "730C10CCB3EC239E"
+					item: "molecularmanipulator:molecular_center_controller"
+					type: "item"
+				}
+				{
+					id: "5894F9EBCBCF4134"
+					item: "molecularmanipulator:molecular_center_casing"
+					type: "item"
+				}
+				{
+					id: "7D9EDAD75706702B"
+					item: "molecularmanipulator:molecular_center_glass"
+					type: "item"
+				}
+				{
+					id: "27B843E148CB85A9"
+					item: "molecularmanipulator:molecular_center_coil"
+					type: "item"
+				}
+				{
+					id: "2EB0FFCF7F890136"
+					item: "molecularmanipulator:molecular_center_stabilizer"
+					type: "item"
+				}
+				{
+					id: "1421F19A968B883C"
+					item: "molecularmanipulator:molecular_center_core"
+					type: "item"
+				}
+			]
+			x: -2.0d
+			y: 10.5d
+		}
+		{
+			dependencies: ["13A47F2EB18B8951"]
+			description: [
+				"# Matter Fabrication Well"
+				""
+				"The &3&lMatter Fabrication Well&r combines material processing, &b&lAE autocrafting&r and research."
+				"It starts this mod's progression: craft its controller, structural blocks and ports with base &b&lAE2&r materials, then research advanced materials and machines."
+				"The &6&lPattern Assembly&r is produced in the well after the first research unlock."
+				""
+				"## Natural spawning protection"
+				""
+				"While formed, constructing, dismantling, or updating its structure, this multiblock blocks natural spawning throughout the full height of its occupied chunks, including &c&lmonsters&r, &e&lanimals&r, &b&laquatic mobs&r, and &7&lbats&r."
+				"&c&lPatrol&r and &c&lreinforcement spawns&r are also blocked."
+				"&6&lSpawners&r, &e&lspawn eggs&r, &d&lbreeding&r, &b&lcommands&r, and existing mobs are unaffected."
+				"Protection does not require &b&lAE power&r; when no structure or operation owns a chunk, spawning there returns to normal."
+				""
+				"## Processing and research"
+				""
+				"A new controller starts at &e&lstage 0&r."
+				"The &2&lfirst research&r unlocks &b&lAE material processing&r, materials used by later research, and the &6&lPattern Assembly&r recipe."
+				"&2&lStage two&r has separate &3&lSequence Array&r and &d&lOmni-Computation&r branches."
+				"By default, one completion of &2&lstage one&r is sufficient; both branches may run together."
+				""
+				"For ordinary processing, supply the appropriate item/fluid input ports and provide output ports for the results."
+				"For &b&lAE autocrafting&r, insert matching processing patterns into a &6&lPattern Assembly&r."
+				"JEI and guide recipe panels show the research that unlocks each processing recipe."
+				"Research permissions and bonuses belong to this controller."
+				"{@pagebreak}"
+				"## Operation and persistence"
+				""
+				"Production displays rotating star rings, converging material streams, and manufacturing scan layers."
+				"Independent research constellations appear above them, including simultaneous branches."
+				"Paused, prerequisite-blocked, offline, or unpowered research stops sending light pulses."
+				"Custom stages receive an automatic visual preset."
+				""
+				"Only the current well blueprint is retained; experimental development layouts are no longer recognized."
+				"The controller force-loads the required chunks while formed or during construction and dismantling."
+				"Tickets are released when no valid structure or operation needs them."
+				"Chunk loading does not supply materials or energy."
+			]
+			id: "63465F6B67C8633A"
+			min_width: 450
+			tasks: [
+				{
+					id: "7F857AA38292DE47"
+					item: "molecularmanipulator:matter_fabrication_controller"
+					type: "item"
+				}
+				{
+					id: "58A21BB687440AE1"
+					item: "molecularmanipulator:matter_fabrication_casing"
+					type: "item"
+				}
+				{
+					id: "2041495CF0859551"
+					item: "molecularmanipulator:matter_fabrication_glass"
+					type: "item"
+				}
+				{
+					id: "2EA8FF5A1A70DEE8"
+					item: "molecularmanipulator:matter_fabrication_coil"
+					type: "item"
+				}
+				{
+					id: "639D5ADDA0096710"
+					item: "molecularmanipulator:matter_fabrication_stabilizer"
+					type: "item"
+				}
+				{
+					id: "40B94F94521C3711"
+					item: "molecularmanipulator:matter_fabrication_core"
+					type: "item"
+				}
+				{
+					id: "56AC4C00DF394C39"
+					item: "molecularmanipulator:matter_fabrication_item_input"
+					type: "item"
+				}
+				{
+					id: "4FBB39381FF6B62B"
+					item: "molecularmanipulator:matter_fabrication_item_output"
+					type: "item"
+				}
+				{
+					id: "1D8A37E28454B226"
+					item: "molecularmanipulator:matter_fabrication_fluid_input"
+					type: "item"
+				}
+				{
+					id: "49F4E5CB63B30C1A"
+					item: "molecularmanipulator:matter_fabrication_fluid_output"
+					type: "item"
+				}
+				{
+					id: "4451ACF2224D5D7C"
+					item: "molecularmanipulator:matter_fabrication_pattern_assembly"
+					type: "item"
+				}
+			]
+			x: -1.0d
+			y: 9.5d
+		}
+		{
+			dependencies: ["63465F6B67C8633A"]
+			description: [
+				"# Omni-Computation Core"
+				""
+				"The &3&lOmni-Computation Core&r is a floating &e&l65×65×35&r end-game &b&lcrafting CPU&r."
+				"When formed and online, it provides effectively unlimited logical crafting storage and parallelism."
+				""
+				"Its controller and components are produced in the &2&lMatter Fabrication Well&r after the first completion of &2&lStage II: Omni-Computation&r research."
+				"Defaults require one stage-one completion and &e&l30 seconds&r per stage-two round."
+				""
+				"## Autocrafting"
+				""
+				"The core creates virtual CPU lanes and keeps an idle lane available."
+				"Once formed and online, crafting requests on its network can use the accelerated planner when its normal conditions are met."
+				"Cyclic crafting still needs a valid starting seed and all other ingredients."
+				"A successful plan does not remove material or power requirements."
+				""
+				"Dispatch adapts to machine acceptance and server load."
+				"&6&lIngredients&r, &b&lenergy&r, &c&lbackpressure&r, and server tick time still limit actual throughput."
+				""
+				"## Persistence and remote access"
+				""
+				"The core force-loads required chunks while formed and during construction, dismantling, or structure updates."
+				"Normal controller drops retain stored contents, active jobs, and quantum-slot contents."
+				"Restore the structure and network after replacing it."
+				""
+				"If part of the structure is broken or unloaded, active jobs, stored ingredients, and progress are preserved."
+				"Work resumes after the complete structure is loaded and valid again."
+				""
+				"The quantum slot accepts one half of a paired entangled singularity."
+				"Place the other half in a powered &b&lAE2 Quantum Ring&r to connect the core across dimensions."
+				"The quantum link consumes an additional &e&l512 AE/t&r and &e&l1 channel&r."
+				"A wired connection and a conflicting remote network cannot be used at the same time."
+			]
+			id: "0D4935F66A7A1590"
+			min_width: 450
+			tasks: [
+				{
+					id: "6424A18EB2A81750"
+					item: "molecularmanipulator:omni_computation_controller"
+					type: "item"
+				}
+				{
+					id: "2143F26FB7C0E03B"
+					item: "molecularmanipulator:omni_computation_casing"
+					type: "item"
+				}
+				{
+					id: "5C01117B09ACC68B"
+					item: "molecularmanipulator:omni_computation_glass"
+					type: "item"
+				}
+				{
+					id: "21069949405B3CFF"
+					item: "molecularmanipulator:infinite_parallel_matrix"
+					type: "item"
+				}
+				{
+					id: "6F767EEF08330851"
+					item: "molecularmanipulator:infinite_crafting_storage"
+					type: "item"
+				}
+				{
+					id: "14AA7D31144C0C80"
+					item: "molecularmanipulator:universal_pattern_matrix"
+					type: "item"
+				}
+				{
+					id: "2A8EBD1C9DAD5E91"
+					item: "molecularmanipulator:computation_data_entangler"
+					type: "item"
+				}
+				{
+					id: "5FA951886AB8AA10"
+					item: "molecularmanipulator:computation_energy_stabilizer"
+					type: "item"
+				}
+				{
+					id: "12CA93D02C91E552"
+					item: "molecularmanipulator:computation_output_node"
+					type: "item"
+				}
+				{
+					id: "7481F97C7903F489"
+					item: "molecularmanipulator:computation_crystal_pylon"
+					type: "item"
+				}
+			]
+			x: -1.0d
+			y: 10.5d
 		}
 	]
 	title: "AE2 Addons"

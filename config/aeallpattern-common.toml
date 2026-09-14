@@ -1,0 +1,20 @@
+
+[patternLinker]
+	#Maximum same-dimension distance in blocks between a linker and a bound machine. 0 is unlimited.
+	#Range: 0 ~ 30000000
+	maxBindingDistance = 0
+	#Whether a linker may bind machines in another dimension. Cross-dimension bindings ignore distance.
+	allowCrossDimension = true
+
+[patternSelection]
+	#Range: 1 ~ 16384
+	displayLimit = 1024
+
+[aggregatePattern]
+	#Maximum number of recipes stored in a newly generated aggregate pattern.
+	#Range: 1 ~ 1048576
+	singlePatternRecipeLimit = 1048576
+	#Maximum number of item alternatives expanded from one recipe ingredient tag.
+	#Range: > 1
+	tagExpansionLimit = 1024
+

@@ -414,6 +414,8 @@
 				"{ftbquests.chapter.masterful_machinery.quest3174B21A62F4B32C.description2}"
 				""
 				"{ftbquests.chapter.masterful_machinery.quest3174B21A62F4B32C.description3}"
+				""
+				"Probability-wise, processing 64 blocks in a manual sieve is better than using higher-tier auto sieves. The trade‑off is speed and automation: auto sieves are much faster and fully automatable, but they don’t increase your per‑block chances."
 			]
 			id: "3174B21A62F4B32C"
 			rewards: [{

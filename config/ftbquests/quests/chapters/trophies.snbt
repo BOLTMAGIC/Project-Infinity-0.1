@@ -1630,11 +1630,10 @@
 			shape: "rsquare"
 			size: 2.0d
 			tasks: [{
-				entity: "twilightforest:quest_ram"
-				icon: "twilightforest:quest_ram_trophy"
-				id: "3101F8CECC72E090"
-				type: "kill"
-				value: 1L
+				advancement: "twilightforest:quest_ram"
+				criterion: ""
+				id: "626BA1BBFCB9ED56"
+				type: "advancement"
 			}]
 			x: -6.0d
 			y: 16.5d

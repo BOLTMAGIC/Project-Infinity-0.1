@@ -592,11 +592,10 @@ const removeItemsbyID = [
   'appliede:ae2wtlib/wireless_transmutation_terminal',
   'ifeu:shaped/big_dissolution_chamber',
   'justdirethings:playeraccessor',
-  'ae2lt:lightning_assembly/module_phase_flight',
   'functionalstorage:armory_cabinet',
   'functionalstorage:oak_drawer_alternate_x1',
   'avaritia:neutron_horse_armor',
-  '',
+  'molecularmanipulator:transfinite_compute_nexus',
   '',
   '',
   '',
@@ -646,10 +645,6 @@ ServerEvents.recipes((event) => {
   event.remove({
     mod: 'libraryferret',
   });
-  // TODO: Remove this when the mod is removed from the pack 0.0.52.2
-  // event.remove({
-  //   mod: 'molecularmanipulator',
-  // });
   event.remove({
     input: 'mysticalagriculture:saltpeter_essence',
   });

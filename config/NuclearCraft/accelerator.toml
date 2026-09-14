@@ -35,8 +35,9 @@
 	#Minimal energy of input particle for ring accelerators in kEV.
 	#Range: 1 ~ 100000
 	ring_accelerator_input_particle_min_energy = 5000
-	#If true, components exceeding their max operating temperature will explode.
-	meltdown_enabled = true
+	#How long an overheated accelerator remains disabled, in ticks.
+	#Range: > 1
+	overheat_cooldown_ticks = 1200
 
 #Target chamber
 [target_chamber]

@@ -12,17 +12,17 @@
 	#超过 Integer.MAX_VALUE（2,147,483,647）时使用超大数量合成路径。
 	#Default / 默认值: Integer.MAX_VALUE (2,147,483,647)
 	#Range: 1 ~ 9223372036854775807
-	max_crafting_order_amount = 2147483647
+	max_crafting_order_amount = 9223372036854775807
 	#Show crafting calculation progress and selected planner path.
 	#显示合成计算进度与所选规划路径。
 	#Default / 默认值: false
-	enable_progress_display = false
+	enable_progress_display = true
 	#Enable enhanced material calculation in the crafting preview.
 	#Shows accurate missing, stored, and crafting item counts.
 	#在合成预览中启用增强材料计算。
 	#显示准确的缺失、库存与待合成物品数量。
 	#Default / 默认值: false
-	enable_enhanced_material_calculation = false
+	enable_enhanced_material_calculation = true
 
 	#AELIS planner settings
 	#AELIS 规划器设置
@@ -139,5 +139,5 @@
 		#关闭后保留磁盘原实现报告的数量。
 		#Long.MAX_VALUE 可能不给 AE2 原生规划器留下算术余量。
 		#Default / 默认值: false
-		enable_listing_limit_bypass = false
+		enable_listing_limit_bypass = true
 

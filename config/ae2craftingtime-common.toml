@@ -4,12 +4,12 @@ enabled = true
 showInTree = true
 #Post Ctrl-click TTC details and reset notices in chat.
 showChatMessages = true
+#Privately notify the craft owner when an output becomes delayed.
+notifyOnDelayed = true
 #How many recent samples to keep for each crafted output.
 #Range: 1 ~ 100
 maxSamples = 10
 #Ignore samples this many times slower or faster than the median.
 #Range: 1.0 ~ 1000.0
 outlierMultiplier = 4.0
-#Privately notify the craft owner when an output becomes delayed.
-notifyOnDelayed = true
 

@@ -3,7 +3,7 @@
 #构序阵列控制器、结构施工、耗电与物质重写设置。
 [sequence_array]
 	#Number of pattern pages for Molecular Centers.
-	#Range: 1 ~ 1000
+	#Range: 1 ~ 300
 	pattern_pages = 200
 	#Maximum structure blocks placed or removed per tick.
 	#Range: 1 ~ 256
@@ -116,4 +116,12 @@
 		#Maximum dispatch work units per Omni controller and tick. Input extraction and each provider attempt cost one unit, regardless of logical batch size.
 		#Range: 64 ~ 9223372036854775807
 		omni_dispatch_max_work_units = 2147483647
+
+#Transfinite Compute Nexus power settings.
+#超限算枢耗电设置。
+[transfinite_compute_nexus]
+	#Idle power usage in AE/t. Requires a powered ME network and one channel.
+	#待机耗电（AE/t），需要已供电的 ME 网络和一个频道。
+	#Range: > 1
+	idle_power = 16384
 

@@ -1,3 +1,25 @@
+%#red%**Version 0.0.51.4-hotfix-1**%#%
+
+MAKE A BACKUP AND UPDATE TO A NEW INSTANCE!!!
+
+Mod Info:
+- MODS Updated:
+    - Botanical Machinery Extra Reforked from 1.3.0.1 to 1.3.0.2 to fix the Alfheim Markets eating Infinity 2
+    - ProjectCell Reforked from 1.0.2 to 1.0.3 to fix it not working
+- MODS Downgraded:
+    - JEI from 15.59.0.210 to 15.56.0.205 to fix Grindstone recipes crashing
+    - Polymorph from 0.49.11 to 0.49.10 because 0.49.11 wants a higher version of JEI
+- MODS INFO:
+    - CrazyAE2 will get updated to the newest version soon.
+    - this will break all old crazyAE2 multiblocks!
+- MODS GETTING REMOVED in 0.0.53.0:
+    - Born in Chaos
+----------
+Recipe changes and fixes:
+- Shattered Singularity/Ender Ingot recipes in Mechanical Empowerer Tier 2 now uses the Ender Pearl Dust from Thermal
+----------
+----------
+----------
 %#red%**Version 0.0.51.4**%#%
 
 MAKE A BACKUP AND UPDATE TO A NEW INSTANCE!!!

@@ -368,7 +368,7 @@ MMEvents.createProcesses((event) => {
     [
       'ae2:singularity',
       32,
-      'enderio:powdered_ender_pearl',
+      'thermal:ender_pearl_dust',
       64,
       'ae2:sky_stone_block',
       64,
@@ -483,7 +483,7 @@ MMEvents.createProcesses((event) => {
     [
       'ae2:singularity',
       1,
-      'enderio:powdered_ender_pearl',
+      'thermal:ender_pearl_dust',
       2,
       'ae2:sky_dust',
       2,
@@ -732,7 +732,7 @@ MMEvents.createProcesses((event) => {
   reaction_recipe2(
     event,
     [
-      'ae2:ender_dust',
+      'thermal:ender_pearl_dust',
       32,
       'minecraft:iron_ingot',
       32,

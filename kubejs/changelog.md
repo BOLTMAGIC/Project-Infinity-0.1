@@ -1,3 +1,15 @@
+%#red%**Version 0.0.51.4-hotfix-2**%#%
+
+MAKE A BACKUP AND UPDATE TO A NEW INSTANCE!!!
+
+Mod Info:
+- MODS Removed:
+    - ProjectCell Reforked
+- MODS Added:
+    - ProjectCell version 1.0.1
+----------
+----------
+----------
 %#red%**Version 0.0.51.4-hotfix-1**%#%
 
 MAKE A BACKUP AND UPDATE TO A NEW INSTANCE!!!

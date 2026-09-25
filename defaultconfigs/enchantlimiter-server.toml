@@ -49,4 +49,6 @@
 [general]
 	#Enable or disable all EnchantLimiter features globally. Default: true
 	enabled = true
+	#Advancements that exempt a player from the enchantment limit once earned. With FTB Teams installed, the player's whole party is exempt too. Players can also be exempted with /enchantlimiter exempt. Examples: ["mypack:obtained_infinity_ingot"]
+	"exempt advancements" = ["enchantlimiter_unlock:infinity_1"]
 

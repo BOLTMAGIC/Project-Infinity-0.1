@@ -31,7 +31,34 @@
       ],
       "render_type": "minecraft:translucent",
       "textures": {
-        "overlay": "mm:block/controller_cutout"
+        "overlay": "mm:block/controller_frame"
+      }
+    },
+    "screen": {
+      "parent": "minecraft:block/block",
+      "elements": [
+        {
+          "faces": {
+            "north": {
+              "texture": "#screen",
+              "tintindex": 0
+            }
+          },
+          "from": [
+            0,
+            0,
+            0
+          ],
+          "to": [
+            16,
+            16,
+            16
+          ]
+        }
+      ],
+      "render_type": "minecraft:translucent",
+      "textures": {
+        "screen": "mm:block/controller_screen_unformed"
       }
     }
   },
@@ -73,10 +100,11 @@
   },
   "item_render_order": [
     "base",
-    "overlay"
+    "overlay",
+    "screen"
   ],
   "loader": "forge:composite",
   "textures": {
-    "particle": "mm:block/controller_cutout"
+    "particle": "mm:block/controller_frame"
   }
 }

@@ -1,0 +1,21 @@
+
+[controller]
+	#Color the controller's screen by machine state. When false the screen keeps its green look.
+	#A controller can override these colors with unformedColor / idleColor / workingColor (KubeJS or JSON).
+	tintControllerScreen = true
+	#Screen color while the multiblock is not built, as #RRGGBB
+	unformedColor = "#FF6B5C"
+	#Screen color while the multiblock is built but not processing, as #RRGGBB
+	idleColor = "#5CFF89"
+	#Screen color while a recipe is running, as #RRGGBB
+	workingColor = "#FFC94D"
+	#Play the sound and show the particles a controller sets with workingSound / workingParticle (KubeJS or JSON)
+	#while its machine is working. Controllers that set neither stay silent either way.
+	workingEffects = true
+
+[ports]
+	#Show a status light on item, fluid, energy, chemical and mana ports in the machine's state color:
+	#the controller's own unformedColor / idleColor / workingColor if it sets them, else the colors above.
+	#When false the light blends into the port.
+	statusLight = true
+

@@ -1,0 +1,17 @@
+{
+  "criteria": {
+    "has_infinity_1": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["kubejs:infinity_1"]
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "enchantlimiter_unlock:limit_lifted"
+  }
+}

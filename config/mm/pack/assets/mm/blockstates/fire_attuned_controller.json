@@ -1,18 +1,48 @@
 {
   "variants": {
-    "facing=east": {
+    "facing=east,state=idle": {
+      "model": "mm:block/fire_attuned_controller_idle",
+      "y": 270
+    },
+    "facing=east,state=unformed": {
       "model": "mm:block/fire_attuned_controller",
       "y": 270
     },
-    "facing=north": {
+    "facing=east,state=working": {
+      "model": "mm:block/fire_attuned_controller_working",
+      "y": 270
+    },
+    "facing=north,state=idle": {
+      "model": "mm:block/fire_attuned_controller_idle",
+      "y": 180
+    },
+    "facing=north,state=unformed": {
       "model": "mm:block/fire_attuned_controller",
       "y": 180
     },
-    "facing=south": {
+    "facing=north,state=working": {
+      "model": "mm:block/fire_attuned_controller_working",
+      "y": 180
+    },
+    "facing=south,state=idle": {
+      "model": "mm:block/fire_attuned_controller_idle"
+    },
+    "facing=south,state=unformed": {
       "model": "mm:block/fire_attuned_controller"
     },
-    "facing=west": {
+    "facing=south,state=working": {
+      "model": "mm:block/fire_attuned_controller_working"
+    },
+    "facing=west,state=idle": {
+      "model": "mm:block/fire_attuned_controller_idle",
+      "y": 90
+    },
+    "facing=west,state=unformed": {
       "model": "mm:block/fire_attuned_controller",
+      "y": 90
+    },
+    "facing=west,state=working": {
+      "model": "mm:block/fire_attuned_controller_working",
       "y": 90
     }
   }

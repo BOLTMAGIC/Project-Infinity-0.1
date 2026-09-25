@@ -7,7 +7,8 @@ structureValidationRate = 10
 debugTool = true
 #Splits JEI recipe viewer categories by the structure they belong to. Default: true
 splitRecipesJei = true
-#The default value of 'autoPush' (when not set) on ports that support automatic extract to nearby storages. Default: false
+#The default value of 'autoPush' (when not set) on ports that support automatic extract to nearby storages.
+#When true, newly placed output ports start with all sides pushing. Sides can be changed per port in its GUI. Default: false
 portsAutoExtractByDefault = false
 #The default value of 'parallelProcessing' (when not set) on structures that support parallel processing. Default: false
 parallelProcessingDefault = false
@@ -16,9 +17,25 @@ parallelProcessingDefault = false
 maxParallelRecipes = 5
 #Show 'Max Parallel Processing' line in JEI structure view. Default: true
 showJeiMaxParallel = true
+#How often ports with enabled auto push/pull sides transfer, in ticks. Default: 10
+#Range: 1 ~ 200
+portAutoIOInterval = 10
 
 #Preview features that are not yet stable or ready for use.
 [preview_features]
 	#Blueprint screen (JEI structure view with more fancy buttons). Default: false
 	previewBlueprintScreen = false
+
+#Network linker (needs AE2): links a multiblock to an owner and an AE2 network.
+[network_link]
+	#How often linked machines send their output port contents to the AE2 network, in ticks. Default: 20
+	#Range: 1 ~ 1200
+	outputInterval = 20
+	#Operators (permission level 2+) can open and break any linked machine. Default: true
+	opBypass = true
+	#When a port of a linked machine is removed (broken, exploded...), send its contents to the AE2 network instead of dropping them. Default: true
+	sendContentsOnRemove = true
+	#How far from a port to look for the controller it belongs to. Must cover your largest multiblock. Default: 16
+	#Range: 4 ~ 64
+	controllerSearchRadius = 16
 

@@ -177,6 +177,7 @@
 				"44F2519ABF030A14"
 				"04ECC2F4FD75BB6B"
 			]
+			description: ["You get this pressing die by breaking mysterious cubes in AE2 meteors."]
 			id: "704CBC5C44EFA9E0"
 			optional: true
 			rewards: [{

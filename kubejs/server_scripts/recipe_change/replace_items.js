@@ -424,7 +424,7 @@ ServerEvents.recipes((event) => {
   event.replaceInput(
     { output: 'apotheosis:treasure_shelf' },
     'minecraft:diamond',
-    'kubejs:infinity_8'
+    'kubejs:infinity_1'
   );
 
   event.replaceInput(

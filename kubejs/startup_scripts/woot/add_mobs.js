@@ -33,7 +33,7 @@ WootStartupEvents.registerFactoryMob(
     'born_in_chaos_v1:bonescaller',
   ],
   (event) => {
-    event.factoryMobPatcher().tier('tier_3').patch();
+    event.factoryMobPatcher().tier('tier_3').vitalityCost(7500).patch();
   }
 );
 
@@ -50,10 +50,7 @@ WootStartupEvents.registerFactoryMob(
     'cataclysm:deepling_priest',
     'cataclysm:deepling_brute',
     'cataclysm:hippocamtus',
-    'cataclysm:the_leviathan',
     'cataclysm:kobolediator',
-    'cataclysm:netherite_monstrosity',
-    'cataclysm:scylla',
     'twilightforest:armored_giant',
     'twilightforest:carminite_golem',
     'twilightforest:giant_miner',
@@ -81,7 +78,7 @@ WootStartupEvents.registerFactoryMob(
     'cataclysm:the_prowler',
   ],
   (event) => {
-    event.factoryMobPatcher().tier('tier_4').patch();
+    event.factoryMobPatcher().tier('tier_4').vitalityCost(10000).patch();
   }
 );
 
@@ -105,7 +102,10 @@ WootStartupEvents.registerFactoryMob(
     'cataclysm:ender_golem',
     'cataclysm:ancient_remnant',
     'cataclysm:the_harbinger',
+    'cataclysm:the_leviathan',
     'cataclysm:maledictus',
+    'cataclysm:netherite_monstrosity',
+    'cataclysm:scylla',
     'minecraft:wither',
     'minecraft:warden',
     'born_in_chaos_v1:krampus',
@@ -120,7 +120,7 @@ WootStartupEvents.registerFactoryMob(
     'born_in_chaos_v1:sir_pumpkinhead_without_horse',
   ],
   (event) => {
-    event.factoryMobPatcher().tier('tier_5').patch();
+    event.factoryMobPatcher().tier('tier_5').vitalityCost(30000).patch();
   }
 );
 

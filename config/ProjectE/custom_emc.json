@@ -597,6 +597,10 @@
       "emc": 0
     },
     {
+      "item": "extrahnn:extra_data_model",
+      "emc": 0
+    },
+    {
       "item": "hostilenetworks:deep_learner",
       "emc": 0
     },

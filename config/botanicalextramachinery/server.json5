@@ -35,22 +35,6 @@
       "manaStorage": 50000000
     },
     
-    "ascendedAlfheimMarket": {
-    
-      // Max amount of crafting at a time
-      // Range: 1 - 64
-      "countCraft": 48,
-
-      // Crafting speed increase factor
-      // Minimum: 1
-      // Tier scaling: higher tier = faster
-      "craftTime": 20,
-
-      // Mana Storage
-      // Minimum: 1000
-      "manaStorage": 200000000
-    },
-    
     "baseAlfheimMarket": {
     
       // Max amount of crafting at a time
@@ -105,7 +89,7 @@
        // Speed of crafting. Total speed is calculated as workingDuration * craftTime
        // Minimum: 1
        // Aggressive: strongly increase workingDuration
-       "workingDuration": 400,
+       "workingDuration": 2,
 
     "advancedApothecary": {
     
@@ -116,29 +100,13 @@
       // Crafting speed increase factor
       // Minimum: 1
       // Tier scaling: higher tier = faster
-      "craftTime": 8,
+      "craftTime": 16,
 
       // Water storage
       // Minimum: 1000
       "fluidStorage": 64000
     },
-    
-    "ascendedApothecary": {
-    
-      // Max amount of crafting at a time
-      // Range: 1 - 64
-      "countCraft": 48,
-
-      // Crafting speed increase factor
-      // Minimum: 1
-      // Tier scaling: higher tier = faster
-      "craftTime": 20,
-
-      // Water storage
-      // Minimum: 1000
-      "fluidStorage": 256000
-    },
-    
+  
     "baseApothecary": {
     
       // Max amount of crafting at a time
@@ -148,7 +116,7 @@
       // Crafting speed increase factor
       // Minimum: 1
       // Tier scaling: base is slowest
-      "craftTime": 2,
+      "craftTime": 4,
 
       // Water storage
       // Minimum: 1000
@@ -164,7 +132,7 @@
       // Crafting speed increase factor
       // Minimum: 1
       // Tier scaling: higher tier = faster
-      "craftTime": 16,
+      "craftTime": 32,
 
       // Water storage
       // Minimum: 1000
@@ -180,7 +148,7 @@
       // Crafting speed increase factor
       // Minimum: 1
       // Tier scaling: upgraded faster than base
-      "craftTime": 4,
+      "craftTime": 8,
 
       // Water storage
       // Minimum: 1000
@@ -205,16 +173,6 @@
       // How much of an item can be stored in a slot. Affects how many items can be made at once.
       // Range: 1 - 64
       "sizeItemSlots": 32
-    },
-    
-    "ascendedDaisy": {
-    
-      // Crafting duration. This number is multiplied by the crafting time in the recipe.
-      "durationTime": 1,
-      
-      // How much of an item can be stored in a slot. Affects how many items can be made at once.
-      // Range: 1 - 64
-      "sizeItemSlots": 64
     },
     
     "baseDaisy": {
@@ -326,22 +284,6 @@
       "manaStorage": 50000000
     },
     
-     "ascendedAgglomeration": {
-
-       // Max amount of crafting at a time
-       // Range: 1 - 64
-       "countCraft": 48,
-
-       // Crafting speed increase factor
-       // Minimum: 1
-       // Tier scaling: higher tier = faster
-       "craftTime": 20,
-
-      // Mana Storage
-      // Minimum: 1000
-      "manaStorage": 200000000
-    },
-    
      "baseAgglomeration": {
 
        // Max amount of crafting at a time
@@ -434,22 +376,6 @@
       "manaStorage": 50000000
     },
     
-     "ascendedManaInfuser": {
-
-       // Max amount of crafting at a time
-       // Range: 1 - 64
-       "countCraft": 48,
-
-       // Crafting speed increase factor
-       // Minimum: 1
-       // Tier scaling: higher tier = faster
-       "craftTime": 20,
-
-      // Mana Storage
-      // Minimum: 1000
-      "manaStorage": 200000000
-    },
-    
      "baseManaInfuser": {
 
        // Max amount of crafting at a time
@@ -517,23 +443,6 @@
       // Mana Storage
       // Minimum: 1
       "manaStorage": 50000000
-    },
-    
-     "ascendedManaPool": {
-
-       // Max amount of crafting at a time
-       // Range: 1 - 64
-       "countCraft": 48,
-
-         // Crafting time in ticks
-         // Minimum: 1
-         // Tier scaling: base slower -> higher tiers faster
-         // ascended = faster than advanced
-         "craftTime": 1,
-
-      // Mana Storage
-      // Minimum: 1
-      "manaStorage": 200000000
     },
     
      "baseManaPool": {
@@ -608,22 +517,6 @@
       "manaStorage": 50000000
     },
     
-     "ascendedOrechid": {
-
-       // 'Rest' time after crafting. In ticks
-       // Minimum: 1
-       // Tier scaling: ascended is faster than advanced
-       "cooldown": 4,
-
-       // Max amount of crafting at a time
-       // Range: 1 - 64
-       "countCraft": 48,
-
-      // Mana Storage
-      // Minimum: 1000
-      "manaStorage": 200000000
-    },
-    
      "baseOrechid": {
 
        // 'Rest' time after crafting. In ticks
@@ -694,22 +587,6 @@
       // Mana Storage
       // Minimum: 1
       "manaStorage": 50000000
-    },
-    
-     "ascendedRunicAltar": {
-
-       // Max amount of crafting at a time
-       // Range: 1 - 64
-       "countCraft": 48,
-
-       // Crafting speed increase factor
-       // Minimum: 1
-       // Tier scaling: higher tier = faster
-       "craftTime": 20,
-
-      // Mana Storage
-      // Minimum: 1
-      "manaStorage": 200000000
     },
     
      "baseRunicAltar": {

@@ -805,4 +805,29 @@ ServerEvents.recipes((event) => {
     'mekanism_extras:absolute_chemical_tank',
     'thermal:redstone_servo',
   ]);
+
+  //#region Misc
+  create3x3(event, 'mm:network_linker', [
+    'projectexpansion:purple_emc_link',
+    'allthemodium:allthemodium_ingot',
+    'wcwt:wireless_comprehensive_work_terminal',
+    'kubejs:infinity_8',
+    'crazyae2addons:super_singularity',
+    'kubejs:infinity_8',
+    'armorplus:soul_slayer',
+    'allthemodium:allthemodium_ingot',
+    'neoecoae:eco_quantum_omni_cell_256m',
+  ]);
+
+  create3x3(event, 'mm:input_gateway', [
+    'ae2omnicells:omni_crafting_storage_256m_block',
+    'allthemodium:allthemodium_ingot',
+    'megacells:256m_crafting_storage',
+    'kubejs:infinity_8',
+    'crazyae2addons:crazy_pattern_provider',
+    'kubejs:infinity_8',
+    'ae2omnicells:complex_crafting_storage_256m_block',
+    'allthemodium:allthemodium_ingot',
+    'ae2omnicells:quantum_crafting_storage_256m_block',
+  ]);
 });

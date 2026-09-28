@@ -248,10 +248,10 @@
 	ie_external_heater_fe_per_tick = 100
 	#Mekanism thermal resistance multiplier. Larger values mean slower heat transfer between Mekanism and PneumaticCraft blocks.
 	#Range: 1.0 ~ 1.7976931348623157E308
-	mek_thermal_resistance_factor = 5.0
+	mek_thermal_resistance_factor = 2.147555555555E12
 	#Mekanism <-> PneumaticCraft heat conversion efficiency. Set to 0 to disable Mekanism heat integration entirely. Note that Mekanism and PNC use a similar heat system, but scale things quite differently (Mekanism heaters produces a LOT of heat by PneumaticCraft standards), so conversion efficiency tuning is important for inter-mod balance.
 	#Range: 0.0 ~ 2.0
-	mek_thermal_conversion_efficiency = 0.01
+	mek_thermal_conversion_efficiency = 0
 	#Volume boost multiplier for pressurizable items with the CoFH Holding enchantment; air volume is multiplied by (1 + level_of_holding_enchantment) x this value. Set to 0 to disallow pressurizable items being enchanted with the Holding enchantment at all.
 	#Range: 0.0 ~ 1.7976931348623157E308
 	cofh_holding_multiplier = 1.0

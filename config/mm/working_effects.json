@@ -1,3 +1,8 @@
 {
-  "_help": "Working sound and particle per machine controller (block id). Each field is optional and overrides the controller\u0027s KubeJS/JSON settings; \"\" turns it off. interval \u003d ticks between sounds. Reload with F3+T. Example: \"mm:auto_crusher_controller\": {\"sound\": \"minecraft:block.grindstone.use\", \"interval\": 25, \"particle\": \"minecraft:smoke\"}"
+  "_help": "Working sound and particle per machine controller (block id). Each field is optional and overrides the controller's KubeJS/JSON settings; \"\" turns it off. interval = ticks between sounds. Reload with F3+T. Example: \"mm:auto_crusher_controller\": {\"sound\": \"minecraft:block.grindstone.use\", \"interval\": 25, \"particle\": \"minecraft:smoke\"}",
+  "mm:auto_crusher_controller": {
+    "sound": "minecraft:block.grindstone.use",
+    "interval": 25,
+    "particle": "minecraft:smoke"
+  }
 }

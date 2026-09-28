@@ -83,16 +83,7 @@
 			y: 0.0d
 		}
 		{
-			description: [
-				"{ftbquests.chapter.endgame.quest3F546D112F96CB64.description1}"
-				""
-				"{ftbquests.chapter.endgame.quest3F546D112F96CB64.description2}"
-				""
-				"{ftbquests.chapter.endgame.quest3F546D112F96CB64.description3}"
-				""
-				"{ftbquests.chapter.endgame.quest3F546D112F96CB64.description4}"
-				"{ftbquests.chapter.endgame.quest3F546D112F96CB64.description5}"
-			]
+			description: ["{ftbquests.chapter.endgame.quest3F546D112F96CB64.description1}"]
 			id: "3F546D112F96CB64"
 			rewards: [{
 				id: "7F6B3802EB682418"

@@ -59,7 +59,7 @@ ServerEvents.recipes((event) => {
         },
         O: {
           type: 'forge:partial_nbt',
-          item: 'appflux:fe_256k_portable_cell',
+          item: 'appflux:fe_64k_cell',
           count: 1,
           nbt: '{power:274877906944L}',
         },

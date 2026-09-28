@@ -21,6 +21,14 @@ Mod Info:
     - Born in Chaos
 ----------
 Recipe changes and fixes:
+- removed EMC from Extra HNN data model (thx to bacopn)
+- fixed wither token bug (thx to tahir_09)
+- added recipe for ME linker and input gateway (Masterful Machinery)
+- changed woot tier 3-5 vitality fluid value (need more fluid) (thx to exzials)
+- changed recipe for treasure shelf from inf 8 to inf 1 (thx to potatoman999)
+- replaced portable 256k fe cell with 64k normal fe cell (not portable) (thx to therealpilpoh)
+- fixed MBTool structures
+- speed up Apothecary settings
 - 
 ----------
 known bugs:

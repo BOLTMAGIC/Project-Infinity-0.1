@@ -12,6 +12,9 @@
 	#Play the sound and show the particles a controller sets with workingSound / workingParticle (KubeJS or JSON)
 	#while its machine is working. Controllers that set neither stay silent either way.
 	workingEffects = true
+	#Open the controller screen large (sized to the window, everything on one page) instead of small.
+	#The button in the screen's top-right corner switches it too.
+	bigScreen = true
 
 [ports]
 	#Show a status light on item, fluid, energy, chemical and mana ports in the machine's state color:

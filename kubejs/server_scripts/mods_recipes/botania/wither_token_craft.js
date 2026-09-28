@@ -8,11 +8,12 @@ ServerEvents.recipes(event => {
   ).modifyResult((grid, result) => {
 
     let model = grid.find(Item.of('hostilenetworks:data_model'));
+    let data = model.nbt?.data_model?.data ?? 0;
 
-    if(model.nbt.data_model.data < 1254) {
+    if(data < 1254) {
       return Item.of('kubejs:wither_token', {
         data_model: {
-          data: model.nbt.data_model.data,
+          data: data,
           id: "hostilenetworks:wither",
           iterations: model.nbt.data_model.iterations
         },

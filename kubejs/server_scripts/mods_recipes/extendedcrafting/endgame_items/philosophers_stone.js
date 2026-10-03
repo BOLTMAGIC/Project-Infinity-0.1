@@ -110,8 +110,8 @@ ServerEvents.recipes((event) => {
         },
       },
       result: {
-        item: 'projecte:philosophers_stone',
+        item: 'kubejs:fake_philosophers_stone',
       },
     })
-    .id('projecte:philosophers_stone');
+    .id('kubejs:fake_philosophers_stone');
 });

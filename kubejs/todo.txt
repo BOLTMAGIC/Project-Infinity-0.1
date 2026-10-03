@@ -37,3 +37,4 @@ Recipe changes and fixes:
 - remove the port requirement for Masterful Machinery machines, any port will form the multiblocks (you still need to have a big enough port for the recipe you are trying to run !)
 - added a block recipe for Prismalium Blocks in the Alloyer
 - added missing lang keys in "kubejs\assets\kubejs\lang\en_us.json"
+- added the Fake Philosopher's Stone

@@ -778,7 +778,7 @@ ServerEvents.recipes((event) => {
     'botania:manasteel_ingot',
     'projectexpansion:pink_fuel_block',
     'thermal:rf_coil',
-    'projecte:philosophers_stone',
+    'kubejs:fake_philosophers_stone',
     'thermal:redstone_servo',
   ]);
 

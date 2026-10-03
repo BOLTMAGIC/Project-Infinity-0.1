@@ -35,12 +35,10 @@ MMEvents.createStructures((event) => {
         .key('J', {
           portType: 'mm:item',
           input: false,
-          minTier: 8,
         })
         .key('L', {
           portType: 'mm:item',
           input: true,
-          minTier: 2,
         })
         .key('M', {
           block: 'chisel_chipped_integration:laboratory_small_steel',
@@ -94,12 +92,10 @@ MMEvents.createStructures((event) => {
         .key('J', {
           portType: 'mm:item',
           input: false,
-          minTier: 9,
         })
         .key('L', {
           portType: 'mm:item',
           input: true,
-          minTier: 2,
         })
         .key('M', {
           block: 'chisel_chipped_integration:laboratory_small_steel',

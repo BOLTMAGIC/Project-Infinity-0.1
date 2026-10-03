@@ -143,7 +143,6 @@ MMEvents.createStructures((event) => {
         .key('G', {
           portType: 'mm:item',
           input: false,
-          minTier: 9,
         })
         .key('H', {
           block: 'chisel_chipped_integration:factory_blue_framed_circuit',
@@ -216,7 +215,6 @@ MMEvents.createStructures((event) => {
         .key('G', {
           portType: 'mm:item',
           input: false,
-          minTier: 9,
         })
         .key('H', {
           block: 'chisel_chipped_integration:factory_blue_framed_circuit',

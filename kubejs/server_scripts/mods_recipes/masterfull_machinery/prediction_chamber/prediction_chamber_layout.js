@@ -79,7 +79,6 @@ MMEvents.createStructures((event) => {
         .key('2', {
           portType: 'mm:item',
           input: false,
-          minTier: 8,
         })
         .key('3', {
           block: 'mm:gigantic_energy_port_input',
@@ -165,7 +164,6 @@ MMEvents.createStructures((event) => {
         .key('2', {
           portType: 'mm:item',
           input: false,
-          minTier: 9,
         })
         .key('3', {
           block: 'mm:gigantic_energy_port_input',

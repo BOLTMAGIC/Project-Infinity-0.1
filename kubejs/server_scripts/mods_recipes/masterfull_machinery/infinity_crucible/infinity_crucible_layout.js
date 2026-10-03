@@ -41,7 +41,6 @@ MMEvents.createStructures((event) => {
         .key('K', {
           portType: 'mm:item',
           input: true,
-          minTier: 5,
         })
         .key('L', {
           block: 'kubejs:chaotic_essence_block',
@@ -49,7 +48,6 @@ MMEvents.createStructures((event) => {
         .key('M', {
           portType: 'mm:item',
           input: false,
-          minTier: 5,
         })
         .key('N', {
           block: 'mm:gigantic_energy_port_input',

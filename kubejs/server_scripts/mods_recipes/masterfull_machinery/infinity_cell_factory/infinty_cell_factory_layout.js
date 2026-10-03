@@ -32,7 +32,6 @@ MMEvents.createStructures((event) => {
         .key('H', {
           portType: 'mm:item',
           input: true,
-          minTier: 6,
         })
         .key('I', {
           block: 'mm:gigantic_energy_port_input',
@@ -46,7 +45,6 @@ MMEvents.createStructures((event) => {
         .key('M', {
           portType: 'mm:item',
           input: false,
-          minTier: 6,
         })
         .key('N', {
           block: 'voidminers:solar_ultimate_block',

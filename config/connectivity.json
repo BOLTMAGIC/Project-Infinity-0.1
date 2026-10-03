@@ -21,7 +21,7 @@
   },
   "disconnectTimeout": {
     "desc:": "Set the ingame disconnect timeout for disconnecting players. Default = 60sec",
-    "disconnectTimeout": 120
+    "disconnectTimeout": 300
   },
   "packetHistoryMinutes": {
     "desc:": "Set the amount of minutes for which network packet history data is saved. Default = 5 minutes",

@@ -351,21 +351,6 @@ MMEvents.createProcesses((event) => {
   reaction_recipe2(
     event,
     [
-      'advanced_ae:quantum_alloy_block',
-      4,
-      'expatternprovider:silicon_block',
-      4,
-      'minecraft:redstone_block',
-      4,
-    ],
-    'minecraft:water',
-    1000,
-    'advanced_ae:quantum_processor',
-    36
-  );
-  reaction_recipe2(
-    event,
-    [
       'ae2:singularity',
       32,
       'thermal:ender_pearl_dust',
@@ -450,10 +435,10 @@ MMEvents.createProcesses((event) => {
   reaction_recipe2(
     event,
     [
-      Item.of(
-        'hostilenetworks:prediction',
-        '{data_model:{id:"hostilenetworks:wither"}}'
-      ),
+      {
+        item: 'hostilenetworks:prediction',
+        nbt: '{data_model:{id:"hostilenetworks:wither"}}',
+      },
       2,
       'powah:crystal_nitro',
       2,
@@ -480,14 +465,7 @@ MMEvents.createProcesses((event) => {
   );
   reaction_recipe2(
     event,
-    [
-      'ae2:singularity',
-      1,
-      'thermal:ender_pearl_dust',
-      2,
-      'ae2:sky_dust',
-      2,
-    ],
+    ['ae2:singularity', 1, 'thermal:ender_pearl_dust', 2, 'ae2:sky_dust', 2],
     'minecraft:lava',
     100,
     'advanced_ae:shattered_singularity',
@@ -507,21 +485,6 @@ MMEvents.createProcesses((event) => {
     100,
     'neoecoae:superconducting_processor',
     4
-  );
-  reaction_recipe2(
-    event,
-    [
-      'ae2:quartz_block',
-      9,
-      'expatternprovider:silicon_block',
-      4,
-      'minecraft:redstone_block',
-      4,
-    ],
-    'minecraft:water',
-    1000,
-    'ae2:calculation_processor',
-    36
   );
   reaction_recipe2(
     event,
@@ -560,21 +523,6 @@ MMEvents.createProcesses((event) => {
     100,
     'advanced_ae:quantum_processor',
     4
-  );
-  reaction_recipe2(
-    event,
-    [
-      'ae2omnicells:singularity_block',
-      4,
-      'expatternprovider:silicon_block',
-      4,
-      'minecraft:redstone_block',
-      4,
-    ],
-    'minecraft:water',
-    1000,
-    'ae2omnicells:multidimensional_expansion_processor',
-    36
   );
   reaction_recipe2(
     event,
@@ -747,21 +695,6 @@ MMEvents.createProcesses((event) => {
   reaction_recipe2(
     event,
     [
-      'minecraft:gold_block',
-      4,
-      'expatternprovider:silicon_block',
-      4,
-      'minecraft:redstone_block',
-      4,
-    ],
-    'minecraft:water',
-    1000,
-    'ae2:logic_processor',
-    36
-  );
-  reaction_recipe2(
-    event,
-    [
       'megacells:printed_accumulation_processor',
       4,
       'ae2:printed_silicon',
@@ -773,36 +706,6 @@ MMEvents.createProcesses((event) => {
     100,
     'megacells:accumulation_processor',
     4
-  );
-  reaction_recipe2(
-    event,
-    [
-      'ae2omnicells:ender_ingot_block',
-      4,
-      'expatternprovider:silicon_block',
-      4,
-      'minecraft:redstone_block',
-      4,
-    ],
-    'minecraft:water',
-    1000,
-    'ae2omnicells:omni_link_processor',
-    36
-  );
-  reaction_recipe2(
-    event,
-    [
-      'minecraft:diamond_block',
-      4,
-      'expatternprovider:silicon_block',
-      4,
-      'minecraft:redstone_block',
-      4,
-    ],
-    'minecraft:water',
-    1000,
-    'ae2:engineering_processor',
-    36
   );
   reaction_recipe2(
     event,
@@ -819,25 +722,10 @@ MMEvents.createProcesses((event) => {
     'ae2omnicells:omni_link_processor',
     4
   );
-  reaction_recipe2(
-    event,
-    [
-      'ae2omnicells:netherite_scrap_block',
-      4,
-      'expatternprovider:silicon_block',
-      4,
-      'minecraft:redstone_block',
-      4,
-    ],
-    'minecraft:water',
-    1000,
-    'ae2omnicells:complex_link_processor',
-    36
-  );
 });
 //#region Functions
 // Helper: add an item or tag input depending on whether the value is a tag
-function addItemInput (recipe, item, count) {
+function addItemInput (recipe, item, count, nbt) {
   let itemStr = item;
   if (
     typeof item === 'object' &&
@@ -849,34 +737,28 @@ function addItemInput (recipe, item, count) {
 
   if (!itemStr) {
     console.warn(
-      'addItemInput: ingredient has no item id, skipping: ' + String(item) + 
-      ' (count: ' + count + ', type: ' + typeof item + ')'
+      'addItemInput: ingredient has no item id, skipping: ' +
+        String(item) +
+        ' (count: ' +
+        count +
+        ', type: ' +
+        typeof item +
+        ')'
     );
     return;
   }
 
-  if (typeof itemStr === 'string' && itemStr.startsWith('#')) {
-    // MasterfulMachinery expects the id string; keep the leading '#' so
-    // the parser can handle tags the same way as before.
-    // Write tag without the leading '#', using the 'tag' field as required:
-    recipe.input({
-      type: 'mm:input/consume',
-      ingredient: {
-        type: 'mm:item',
-        tag: itemStr.slice(1),
-        count: count,
-      },
-    });
+  let ingredient;
+  if (itemStr.startsWith('#')) {
+    ingredient = { type: 'mm:item', tag: itemStr.slice(1), count: count };
   } else {
-    recipe.input({
-      type: 'mm:input/consume',
-      ingredient: {
-        type: 'mm:item',
-        item: itemStr,
-        count: count,
-      },
-    });
+    ingredient = { type: 'mm:item', item: itemStr, count: count };
+    if (nbt) {
+      ingredient.nbt_snbt = nbt;
+      ingredient.nbt_match = 'strong';
+    }
   }
+  recipe.input({ type: 'mm:input/consume', ingredient: ingredient });
 }
 
 function createSimple12 (event, input, output) {
@@ -1133,15 +1015,23 @@ function reaction_recipe2 (event) {
     // Support two common array formats:
     // - ['mod:item', count, 'mod:item2', count2, ...]
     // - ['mod:item', 'mod:item2', ...] or [{item,count}, ...]
-    if (
-      first.length >= 2 &&
-      typeof first[0] === 'string' &&
-      typeof first[1] === 'number'
-    ) {
+    if (first.length >= 2 && typeof first[1] === 'number') {
       for (var i = 0; i < first.length; i += 2) {
         var it = first[i];
         var ct = first[i + 1];
-        inputsList.push({ item: it, count: typeof ct === 'number' ? ct : 1 });
+        var count = typeof ct === 'number' ? ct : 1;
+        if (typeof it === 'string') {
+          inputsList.push({ item: it, count: count });
+        } else if (
+          it &&
+          typeof it === 'object' &&
+          typeof it.item === 'string'
+        ) {
+          // plain object form: { item: 'mod:id', nbt: '{...}' }
+          inputsList.push({ item: it.item, nbt: it.nbt, count: count });
+        } else {
+          inputsList.push({ item: null, count: count });
+        }
       }
     } else {
       inputsList = first.map((it) => {
@@ -1250,14 +1140,24 @@ function reaction_recipe2 (event) {
   // Filter out null items with better logging
   const validInputs = inputsList.filter((i) => {
     if (!i.item) {
-      console.warn('reaction_recipe2: Skipping null input item for output: ' + output + ' (count: ' + i.count + ')');
+      console.warn(
+        'reaction_recipe2: Skipping null input item for output: ' +
+          output +
+          ' (count: ' +
+          i.count +
+          ')'
+      );
       return false;
     }
     return true;
   });
 
   if (validInputs.length === 0 && !fluid) {
-    console.warn('reaction_recipe2: Skipping recipe for ' + output + ' - no valid inputs found');
+    console.warn(
+      'reaction_recipe2: Skipping recipe for ' +
+        output +
+        ' - no valid inputs found'
+    );
     return;
   }
 
@@ -1268,7 +1168,7 @@ function reaction_recipe2 (event) {
     .ticks(TICKS2);
 
   validInputs.forEach((ing) => {
-    addItemInput(recipe, ing.item, ing.count * 64);
+    addItemInput(recipe, ing.item, ing.count * 64, ing.nbt);
   });
 
   if (fluid) {

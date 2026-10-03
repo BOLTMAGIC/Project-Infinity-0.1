@@ -30,7 +30,6 @@ MMEvents.createStructures((event) => {
         .key('H', {
           portType: 'mm:item',
           input: true,
-          minTier: 6,
         })
         .key('I', {
           block: 'mekanism_extras:absolute_fluid_tank',
@@ -41,7 +40,6 @@ MMEvents.createStructures((event) => {
         .key('K', {
           portType: 'mm:item',
           input: false,
-          minTier: 6,
         })
         .key('L', {
           block: 'mm:colossal_infuse_port_input',

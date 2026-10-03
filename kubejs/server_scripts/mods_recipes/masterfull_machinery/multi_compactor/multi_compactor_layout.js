@@ -95,7 +95,6 @@ MMEvents.createStructures((event) => {
         .key('D', {
           portType: 'mm:item',
           input: false,
-          minTier: 8,
         })
         .key('E', {
           block: 'chisel_chipped_integration:factory_blue_framed_circuit',

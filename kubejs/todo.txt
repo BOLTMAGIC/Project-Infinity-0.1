@@ -10,11 +10,12 @@ changelog v. 0.0.52.0
 MAKE A BACKUP AND UPDATE TO A NEW INSTANCE!!!
 
 Mod Info:
+CrazyAE2 will get updated to the newest version in 0.0.53.0.
+This will break all old crazyAE2 multiblocks!
 - MODS ADDED:
     - 
 - MODS INFO:
-    - CrazyAE2 will get updated to the newest version soon.
-    - this will break all old crazyAE2 multiblocks!
+    -
 - MODS REMOVED:
     - 
 - MODS GETTING REMOVED in 0.0.53.0:
@@ -28,8 +29,11 @@ Recipe changes and fixes:
 - changed recipe for treasure shelf from inf 8 to inf 1 (thx to potatoman999)
 - replaced portable 256k fe cell with 64k normal fe cell (not portable) (thx to therealpilpoh)
 - fixed MBTool structures
-- speed up Apothecary settings
-- 
-----------
-known bugs:
-- 
+- speed up Apothecary machines
+- added blasting recipes to all kubejs ores
+- removed AE2 processors recipes using Redstone Blocks from the Mechanical Empowerer multiblock so it stops conflicting with other recipes; with the new tiers of Alloyers, it should be fast enough
+- MBTool will no longer place any BloodMagic runes if you don't have the one defined by the Structure
+- MBTool will be able to place the highest 2 tiers of Item Input/Output if you don't have the one defined by the Structure
+- remove the port requirement for Masterful Machinery machines, any port will form the multiblocks (you still need to have a big enough port for the recipe you are trying to run !)
+- added a block recipe for Prismalium Blocks in the Alloyer
+- added missing lang keys in "kubejs\assets\kubejs\lang\en_us.json"

@@ -1,4 +1,3 @@
-priority: 0;
 LootJS.modifiers((event) => {
   event
     .addLootTypeModifier(LootType.ENTITY, LootType.CHEST)

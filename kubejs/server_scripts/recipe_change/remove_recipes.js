@@ -1,4 +1,3 @@
-priority: 0;
 //#region Output removal
 const removeItemsbyOutput = [
   'minecraft:bedrock',

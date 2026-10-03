@@ -1,4 +1,3 @@
-priority: 0;
 MMEvents.registerPorts((event) => {
   function port(name, id, type, config, tier) {
     var portname;

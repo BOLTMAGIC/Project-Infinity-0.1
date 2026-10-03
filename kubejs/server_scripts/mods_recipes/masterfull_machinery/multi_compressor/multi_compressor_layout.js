@@ -86,12 +86,11 @@ MMEvents.createStructures((event) => {
           '        ',
           '        ',
         ])
-        .key('A', { portType: 'mm:fluid', input: true, minTier: 5 })
-        .key('B', { portType: 'mm:energy', input: true, minTier: 6 })
+        .key('A', { portType: 'mm:fluid', input: true })
+        .key('B', { portType: 'mm:energy', input: true })
         .key('D', {
           portType: 'mm:item',
           input: false,
-          minTier: 8,
         })
         .key('E', {
           block: 'chisel_chipped_integration:factory_blue_framed_circuit',
@@ -99,7 +98,6 @@ MMEvents.createStructures((event) => {
         .key('F', {
           portType: 'mm:item',
           input: true,
-          minTier: 8,
         })
         .key('G', {
           block: 'compressium:cobblestone_7',

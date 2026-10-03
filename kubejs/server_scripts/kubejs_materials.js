@@ -5,12 +5,6 @@ ServerEvents.recipes((event) => {
     'minecraft:stone',
   ]);
 
-  event.blasting('kubejs:azure_silver_ingot', ['kubejs:azure_silver_ore']);
-
-  event.smelting('kubejs:compressed_glass', 'compressium:sand_1');
-
-  event.smelting('compressium:stone_1', 'compressium:cobblestone_1');
-
   shapeless(event, 'kubejs:infinity_8_block', [
     'kubejs:infinity_8',
     'woot_revived:gold_enchanted_plate',
@@ -202,10 +196,7 @@ ServerEvents.recipes((event) => {
   create3x3same(event, 'kubejs:sculk_alloy_block', [
     'kubejs:sculk_alloy_ingot',
   ]);
-
   shapeless(event, '9x kubejs:sculk_alloy_ingot', ['kubejs:sculk_alloy_block']);
-
-  event.smelting('kubejs:starmetal_ingot', 'kubejs:starmetal_dust');
 
   create2x2same(event, 'kubejs:starmetal_block', ['kubejs:starmetal_ingot']);
 
@@ -225,20 +216,10 @@ ServerEvents.recipes((event) => {
     'advanced_ae:quantum_alloy_plate',
   ]);
 
-  event.smelting('kubejs:arcmetal_ingot', 'kubejs:raw_arcmetal');
-
-  event.smelting('kubejs:arcmetal_ingot', 'kubejs:arcmetal_ore');
-
   create3x3same(event, 'kubejs:arcmetal_block', ['kubejs:arcmetal_ingot']);
-
   shapeless(event, '9x kubejs:arcmetal_ingot', ['kubejs:arcmetal_block']);
 
-  event.smelting('kubejs:voidmetal_ingot', 'kubejs:raw_voidmetal');
-
-  event.smelting('kubejs:voidmetal_ingot', 'kubejs:voidmetal_ore');
-
   create3x3same(event, 'kubejs:voidmetal_block', ['kubejs:voidmetal_ingot']);
-
   shapeless(event, '9x kubejs:voidmetal_ingot', ['kubejs:voidmetal_block']);
 
   create3x3same(event, 'kubejs:dust_2', ['9x exdeorum:compressed_dust']);
@@ -333,10 +314,6 @@ ServerEvents.recipes((event) => {
     'kubejs:crimson_iron_ingot',
   ]);
 
-  event.smelting('kubejs:crimson_steel_ingot', 'kubejs:crimson_steel_dust');
-
-  event.smelting('kubejs:crimson_iron_ingot', 'kubejs:crimson_iron_dust');
-
   create3x3(event, 'kubejs:midnight_iron_ingot', [
     'minecraft:air',
     'minecraft:blackstone',
@@ -352,7 +329,6 @@ ServerEvents.recipes((event) => {
   create3x3same(event, 'kubejs:midnight_iron_block', [
     'kubejs:midnight_iron_ingot',
   ]);
-
   shapeless(event, '9x kubejs:midnight_iron_ingot', [
     'kubejs:midnight_iron_block',
   ]);
@@ -360,23 +336,12 @@ ServerEvents.recipes((event) => {
   create3x3same(event, 'kubejs:bunny_steel_block', [
     'kubejs:bunny_steel_ingot',
   ]);
-
   shapeless(event, '9x kubejs:bunny_steel_ingot', ['kubejs:bunny_steel_block']);
 
-  event.smelting('kubejs:solarmetal_ingot', 'kubejs:raw_solarmetal');
-
-  event.smelting('kubejs:solarmetal_ingot', 'kubejs:solarmetal_ore');
-
   create3x3same(event, 'kubejs:solarmetal_block', ['kubejs:solarmetal_ingot']);
-
   shapeless(event, '9x kubejs:solarmetal_ingot', ['kubejs:solarmetal_block']);
 
-  event.smelting('kubejs:plasteel_ingot', 'kubejs:raw_plasteel');
-
-  event.smelting('kubejs:plasteel_ingot', 'kubejs:plasteel_ore');
-
   create3x3same(event, 'kubejs:plasteel_block', ['kubejs:plasteel_ingot']);
-
   shapeless(event, '9x kubejs:plasteel_ingot', ['kubejs:plasteel_block']);
 
   shapeless(event, 'kubejs:blaze_gold_ingot', [
@@ -385,23 +350,13 @@ ServerEvents.recipes((event) => {
   ]);
 
   create3x3same(event, 'kubejs:blaze_gold_block', ['kubejs:blaze_gold_ingot']);
-
   shapeless(event, '9x kubejs:blaze_gold_ingot', ['kubejs:blaze_gold_block']);
-
-  event.smelting('kubejs:azure_silver_ingot', 'kubejs:azure_silver_ore');
 
   create3x3same(event, 'kubejs:azure_silver_block', [
     'kubejs:azure_silver_ingot',
   ]);
-
   shapeless(event, '9x kubejs:azure_silver_ingot', [
     'kubejs:azure_silver_block',
-  ]);
-
-  event.smelting('kubejs:azure_electrum_ingot', 'kubejs:azure_electrum_dust');
-
-  create3x3same(event, 'kubejs:azure_electrum_block', [
-    'kubejs:azure_electrum_ingot',
   ]);
 
   create3x3(event, 'kubejs:azure_electrum_ingot', [
@@ -419,15 +374,13 @@ ServerEvents.recipes((event) => {
   create3x3same(event, 'kubejs:double_compressed_iron_block', [
     'pneumaticcraft:compressed_iron_block',
   ]);
-
-  create3x3same(event, 'kubejs:triple_compressed_iron_block', [
-    'kubejs:double_compressed_iron_block',
-  ]);
-
   shapeless(event, '9x pneumaticcraft:compressed_iron_block', [
     'kubejs:double_compressed_iron_block',
   ]);
 
+  create3x3same(event, 'kubejs:triple_compressed_iron_block', [
+    'kubejs:double_compressed_iron_block',
+  ]);
   shapeless(event, '9x kubejs:double_compressed_iron_block', [
     'kubejs:triple_compressed_iron_block',
   ]);
@@ -435,23 +388,23 @@ ServerEvents.recipes((event) => {
   create3x3same(event, 'kubejs:double_compressed_slate', [
     'kubejs:compressed_slate',
   ]);
-
-  create3x3same(event, 'kubejs:pink_slime_block', [
-    'industrialforegoing:pink_slime_ingot',
-  ]);
-
-  shapeless(event, '9x industrialforegoing:pink_slime_ingot', [
-    'kubejs:pink_slime_block',
-  ]);
-
   shapeless(event, '9x kubejs:compressed_slate', [
     'kubejs:double_compressed_slate',
   ]);
 
-  create3x3same(event, 'kubejs:compressed_slate', ['bloodmagic:blankslate']);
+  create3x3same(event, 'kubejs:pink_slime_block', [
+    'industrialforegoing:pink_slime_ingot',
+  ]);
+  shapeless(event, '9x industrialforegoing:pink_slime_ingot', [
+    'kubejs:pink_slime_block',
+  ]);
 
+  create3x3same(event, 'kubejs:compressed_slate', ['bloodmagic:blankslate']);
   shapeless(event, '9x bloodmagic:blankslate', ['kubejs:compressed_slate']);
 
+  create3x3same(event, 'kubejs:azure_electrum_block', [
+    'kubejs:azure_electrum_ingot',
+  ]);
   shapeless(event, '9x kubejs:azure_electrum_ingot', [
     'kubejs:azure_electrum_block',
   ]);

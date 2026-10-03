@@ -266,7 +266,6 @@ MMEvents.createStructures((event) => {
         .key('5', {
           portType: 'mm:item',
           input: false,
-          minTier: 8,
         })
         .key('6', {
           block: 'mekanism_extras:infinite_purifying_factory',

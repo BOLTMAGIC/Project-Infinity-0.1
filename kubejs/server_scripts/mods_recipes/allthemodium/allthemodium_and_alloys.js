@@ -13,13 +13,13 @@ ServerEvents.recipes((event) => {
 
   create3x3(event, 'allthemodium:teleport_pad', [
     'cyclic:netherite_pressure_plate',
-    'allthemodium:vibranium_nugget',
+    'allthemodium:allthemodium_nugget',
     'cyclic:netherite_pressure_plate',
     'allthemodium:allthemodium_nugget',
     'cataclysm:abyss_eye',
     'allthemodium:allthemodium_nugget',
     'cyclic:netherite_pressure_plate',
-    'allthemodium:vibranium_nugget',
+    'allthemodium:allthemodium_nugget',
     'cyclic:netherite_pressure_plate',
   ]);
 

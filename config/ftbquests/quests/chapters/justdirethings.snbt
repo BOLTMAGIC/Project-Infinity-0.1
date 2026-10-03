@@ -1032,69 +1032,6 @@
 			y: -5.0d
 		}
 		{
-			id: "55D6EB6B0296FFAA"
-			rewards: [{
-				id: "3C12A6D94D6039DD"
-				type: "xp"
-				xp: 4
-			}]
-			tasks: [{
-				id: "48C786AAB40F031F"
-				item: "justdirethings:goosoil_tier1"
-				type: "item"
-			}]
-			x: -4.5d
-			y: -5.5d
-		}
-		{
-			dependencies: ["55D6EB6B0296FFAA"]
-			id: "1FC863383F4F893D"
-			rewards: [{
-				id: "7E49ED9093EABF18"
-				type: "xp"
-				xp: 4
-			}]
-			tasks: [{
-				id: "42D4E2720ACEA832"
-				item: "justdirethings:goosoil_tier2"
-				type: "item"
-			}]
-			x: -4.5d
-			y: -4.5d
-		}
-		{
-			dependencies: ["1FC863383F4F893D"]
-			id: "7949EA444CC9709C"
-			rewards: [{
-				id: "03F65ADA8E58C076"
-				type: "xp"
-				xp: 4
-			}]
-			tasks: [{
-				id: "28D4953E9A94B90D"
-				item: "justdirethings:goosoil_tier3"
-				type: "item"
-			}]
-			x: -4.5d
-			y: -3.5d
-		}
-		{
-			dependencies: ["7949EA444CC9709C"]
-			id: "5DCCC3DA10E72E05"
-			rewards: [{
-				id: "77D56ADF389E5850"
-				item: "kubejs:apotheotic_coin"
-				type: "item"
-			}]
-			tasks: [{
-				id: "5DA534D5AFCBC32E"
-				item: "justdirethings:goosoil_tier4"
-				type: "item"
-			}]
-			x: -4.5d
-			y: -2.5d
-		}
-		{
 			id: "78F7D40162BD556F"
 			rewards: [{
 				id: "1711924B4ABCEA9E"

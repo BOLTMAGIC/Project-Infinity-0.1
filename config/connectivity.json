@@ -29,7 +29,7 @@
   },
   "malformedtraffic": {
     "desc:": "Detection and blocking of malformed and/or malicious traffic",
-    "enabled": true,
+    "enabled": false,
     "proxies:": "Add your proxy IP to the whitelist below, if you're using one(e.g. velocity) to avoid blocking the proxy's ip. Format: [\"127.0.0.1\", \"128.0.01\"] without the \\ ",
     "proxywhitelist": []
   },

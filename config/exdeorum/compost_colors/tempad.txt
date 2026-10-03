@@ -1,4 +1,0 @@
-// Compost colors for tempad. You may add your own colors, change existing ones, or remove colors that aren't needed.
-he_who_remains_tempad, #44292a
-location_card, #e7d4ae
-tempad, #93825e

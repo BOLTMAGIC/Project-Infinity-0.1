@@ -11,7 +11,6 @@ BlockEvents.broken(
     let itemCount = 0;
 
     stacks.forEach(stack => {
-      console.log(stack)
       itemCount += stack.Count;
     });
 

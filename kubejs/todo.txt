@@ -39,3 +39,4 @@ Recipe changes and fixes:
 - added missing lang keys in "kubejs\assets\kubejs\lang\en_us.json"
 - added the Fake Philosopher's Stone
 - boosted Raw Eclipse Alloy recipe in Auto Crusher multiblocks
+- fixed custom hammers not working for exdeorum block breaking recipes

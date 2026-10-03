@@ -483,7 +483,7 @@ MMEvents.createProcesses((event) => {
       ingredient: {
         type: 'mm:item',
         item: 'justdirethings:raw_eclipsealloy',
-        count: 16,
+        count: 64,
       },
     });
 });

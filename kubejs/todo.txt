@@ -38,3 +38,4 @@ Recipe changes and fixes:
 - added a block recipe for Prismalium Blocks in the Alloyer
 - added missing lang keys in "kubejs\assets\kubejs\lang\en_us.json"
 - added the Fake Philosopher's Stone
+- boosted Raw Eclipse Alloy recipe in Auto Crusher multiblocks

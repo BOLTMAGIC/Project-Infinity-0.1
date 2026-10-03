@@ -347,6 +347,7 @@ const removeItemsbyID = [
   'enderio:smelting/refinedstorage/silicon',
   'voidminers:the_end/tier8_miner/ultimate_stellar_core',
   'avaritia:neutron_ring',
+  'avaritia:infinity_ring',
   'extendedae_plus:wireless_transceiver',
   'extendedae_plus:entity_speed_ticker',
   'avaritia:blaze_cube',

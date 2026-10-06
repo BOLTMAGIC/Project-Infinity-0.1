@@ -348,7 +348,7 @@ MMEvents.createProcesses((event) => {
 
   //ender pearl -> dust
   event
-    .create('mm:ender_dust_recipe3')
+    .create('mm:ender_pearl_dust_recipe3')
     .structureId('mm:auto_crusher_structure3')
     .ticks(1)
     .input({
@@ -370,7 +370,7 @@ MMEvents.createProcesses((event) => {
       type: 'mm:output/simple',
       ingredient: {
         type: 'mm:item',
-        item: 'ae2:ender_dust',
+        item: 'thermal:ender_pearl_dust',
         count: 64,
       },
     });

@@ -1,5 +1,5 @@
 //#region Output removal
-const removeItemsbyOutput = [
+const removeRecipebyOutput = [
   'minecraft:bedrock',
   'avaritia:diamond_lattice',
   'projecte:philosophers_stone',
@@ -174,7 +174,7 @@ const removeItemsbyOutput = [
 ];
 
 //#region ID removal
-const removeItemsbyID = [
+const removeRecipebyRecipeID = [
   'thermal:fire_charge/enderium_ingot_2',
   'cb_microblock:stone_rod',
   'cyclic:netherite_ingot',
@@ -613,7 +613,7 @@ const removeItemsbyID = [
   '',
 ];
 //#region Type removal
-const removeItemsbyType = [
+const removeRecipebyType = [
   'cyclic:crusher',
   'cyclic:packager',
   'thermal:insolator',
@@ -636,9 +636,9 @@ const removeItemsbyType = [
 
 //Function to remove the items above
 ServerEvents.recipes((event) => {
-  removeItemsbyOutput.forEach((item) => event.remove({ output: item }));
-  removeItemsbyID.forEach((item) => event.remove({ id: item }));
-  removeItemsbyType.forEach((item) => event.remove({ type: item }));
+  removeRecipebyOutput.forEach((item) => event.remove({ output: item }));
+  removeRecipebyRecipeID.forEach((item) => event.remove({ id: item }));
+  removeRecipebyType.forEach((item) => event.remove({ type: item }));
   event.remove({
     input: 'avaritia:diamond_lattice',
     output: 'avaritia:crystal_matrix_ingot',

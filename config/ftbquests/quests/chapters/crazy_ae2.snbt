@@ -88,8 +88,8 @@
 			image: "jei:textures/jei/atlas/gui/icons/info.png"
 			rotation: 0.0d
 			width: 0.5d
-			x: 1.5059523809523867d
-			y: -3.250000000000007d
+			x: 1.5d
+			y: -3.0d
 		}
 		{
 			click: "https://www.youtube.com/watch?v=tP8O12OYQlQ"
@@ -99,7 +99,7 @@
 			rotation: 0.0d
 			width: 0.5d
 			x: -5.0d
-			y: 0.25d
+			y: 0.5d
 		}
 	]
 	order_index: 5

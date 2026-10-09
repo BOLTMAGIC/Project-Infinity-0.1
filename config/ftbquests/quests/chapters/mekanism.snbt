@@ -5,10 +5,340 @@
 	group: "5255C8D5C49409ED"
 	icon: "mekanism:steel_casing"
 	id: "23983F4DC524B14B"
-	order_index: 5
+	order_index: 4
 	progression_mode: "flexible"
 	quest_links: [ ]
 	quests: [
+		{
+			description: [
+				"The Naquadah Reactor comes from the Mekanism Extra mod."
+				""
+				"This reactor produces &7Polonium Containing Steam&r which through refining processes can be turned into a lot of &2Polonium&r and thus, a lot of &5Antimatter&r."
+				""
+				"And trust me, you will want a lot of &5Antimatter&r."
+			]
+			id: "0E5CD46C5A26BEC0"
+			min_width: 250
+			rewards: [{
+				id: "739CC987ACD00C9C"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "53E6782510C4C944"
+				type: "checkmark"
+			}]
+			title: "The Naquadah Reactor"
+			x: -13.125d
+			y: -10.625d
+		}
+		{
+			description: ["(The Naquadah Reactor can be found in the Multibuilder Tool)"]
+			id: "7A822E0A7F810F44"
+			rewards: [{
+				id: "0640198D6654187E"
+				item: "kubejs:infused_coin"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "7C5E4652543951E1"
+					item: "mekanism_extras:naquadah_reactor_controller"
+					type: "item"
+				}
+				{
+					count: 108L
+					id: "1068847E6406C55A"
+					item: "mekanism_extras:naquadah_reactor_casing"
+					type: "item"
+				}
+				{
+					count: 6L
+					id: "2583165A7B99F626"
+					item: "mekanism_extras:naquadah_reactor_port"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "4D2596560581280E"
+					item: "mekanism_extras:naquadah_reactor_logic_adapter"
+					type: "item"
+				}
+				{
+					id: "13FC156463E5AD01"
+					item: "mekanism_extras:lead_coated_laser_focus_matrix"
+					type: "item"
+				}
+				{
+					count: 212L
+					id: "2C7904F1B2E906A5"
+					item: "mekanism_extras:lead_coated_glass"
+					type: "item"
+				}
+			]
+			title: "Build it !"
+			x: -9.125d
+			y: -10.125d
+		}
+		{
+			description: [
+				"A Naquadah Hohlraum filled with Naquadah Uranium Fuel will be necessary to start the Naquadah Reactor."
+				""
+				"To make Naquadah Uranium Fuel, you need Liquid Fluorinated Naquadah Uranium Fuel and Osmium in chemical form."
+				"{@pagebreak}"
+				"To get Osmium in chemical form, you need to make a setup like this:"
+				"{image:kubejs:block/screen/naquadah_line_osmium_compressor width:100 height:100 align:center} "
+				"{image:kubejs:block/screen/naquadah_line_osmium_compressor_sides width:150 height:150 align:center}"
+				"{@pagebreak}"
+				"To fill the Hohlraum, put it inside a Chemical Tank containing Naquadah Uranium Fuel."
+				""
+				"{image:kubejs:block/screen/naquadah_line_hohlraum width:100 height:50 align:center fit:true}"
+			]
+			id: "4720028D12723450"
+			rewards: [{
+				id: "01E50AEEC137E9BA"
+				item: "kubejs:infused_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5DBE4C4015369086"
+				item: {
+					Count: 1
+					id: "mekanism_extras:naquadah_hohlraum"
+					tag: {
+						mekData: {
+							GasTanks: [{
+								Tank: 0b
+								stored: {
+									amount: 100L
+									gasName: "mekanism_extras:naquadah_uranium_fuel"
+								}
+							}]
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			x: -8.625d
+			y: -8.125d
+		}
+		{
+			id: "75BB4D203AC76737"
+			secret: true
+			size: 0.75d
+			tasks: [{
+				id: "02996B95205E0E3B"
+				title: "Thanks"
+				type: "checkmark"
+			}]
+			title: "&2Huge thanks to&r &6BabyMudkip&r &2for the original Naquadah Reactor Guide!&r"
+			x: -13.875d
+			y: -11.25d
+		}
+		{
+			description: ["Just like \"vanilla\" Mekanism with the Heavy Water, we need a special pump and a special upgrade to make the fuels necessary for the Naquadah Reactor to run."]
+			id: "753F63B99BD9EEA2"
+			rewards: [{
+				id: "75DBFF214C29DAEC"
+				item: "kubejs:infused_coin"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "508BCD970F725FCF"
+					item: "mekanism_extras:advance_electric_pump"
+					type: "item"
+				}
+				{
+					id: "43271FA656CADD88"
+					item: "mekanism_extras:upgrade_ionic_membrane"
+					type: "item"
+				}
+			]
+			x: -16.125d
+			y: -8.125d
+		}
+		{
+			dependencies: ["753F63B99BD9EEA2"]
+			description: [
+				"To get this, you need to make the Advance Pump (with the Ionic Membrane Upgrade) pump a source block of Naquadah Hexafluoride."
+				""
+				"To place Naquadah Hexafluoride in the world, you can use Formation Planes from AE2 or Fluid Placers from one of the 4 mods that adds one."
+			]
+			id: "164C61193E91BE31"
+			rewards: [{
+				id: "704CF294E2150DA1"
+				item: "kubejs:infused_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0198AFAABCC81B78"
+				item: "mekanism_extras:rich_naquadah_fuel_bucket"
+				type: "item"
+			}]
+			x: -14.625d
+			y: -7.125d
+		}
+		{
+			dependencies: ["753F63B99BD9EEA2"]
+			description: [
+				"To get this, you need to make the Advance Pump (with the Ionic Membrane Upgrade) pump a source block of Uranium Hexafluoride."
+				""
+				"To place Uranium Hexafluoride in the world, you can use Formation Planes from AE2 or Fluid Placers from one of the 4 mods that adds one."
+			]
+			id: "5ECD77828416708E"
+			rewards: [{
+				id: "012B6C15988E5002"
+				item: "kubejs:infused_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "74FCB595F094E719"
+				item: "mekanism_extras:rich_uranium_fuel_bucket"
+				type: "item"
+			}]
+			x: -14.625d
+			y: -9.125d
+		}
+		{
+			dependencies: [
+				"164C61193E91BE31"
+				"5ECD77828416708E"
+			]
+			description: ["We need to gas version of those 2 fuels so use a Rotary Condensentrator."]
+			id: "6535B870E9488FBB"
+			rewards: [{
+				id: "27EBBA3C5BD01348"
+				item: "kubejs:infused_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6C47254DDB4D890A"
+				item: "mekanism:rotary_condensentrator"
+				type: "item"
+			}]
+			x: -13.125d
+			y: -8.125d
+		}
+		{
+			description: [
+				"To light, the Naquadah Reactor needs a 2GFE laser pulse aimed at the Laser Focus Matrix."
+				""
+				"To get a 2GFE laser in a reasonable amount of time, you can do a setup like this:"
+				"{image:kubejs:block/screen/naq_laser_amplifiers width:100 height:100 align:center fit:true}"
+				"The last Laser Amplifier (the one nearest the Laser Focus Matrix) needs to be in redstone pulse mode so that it accumulates 2GFE then you decide when to release it with a button/lever."
+			]
+			id: "2EE2FEBB7EC53C47"
+			rewards: [{
+				id: "4E5B033AB1AC3A49"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "2343EC930617C483"
+					item: "mekanism:laser"
+					type: "item"
+				}
+				{
+					id: "2CAFD639A469326E"
+					item: "mekanism:laser_amplifier"
+					type: "item"
+				}
+			]
+			x: -11.125d
+			y: -10.625d
+		}
+		{
+			dependencies: [
+				"4720028D12723450"
+				"2EE2FEBB7EC53C47"
+				"7A822E0A7F810F44"
+				"6535B870E9488FBB"
+			]
+			description: [
+				"Before lighting it, you need to set the Injection Rate inside the reactor's GUI to at least 6 otherwise the reactor won't accept Water."
+				""
+				"We need Water in the Reactor for it to make Polonium Containing Steam."
+				"{image:kubejs:block/screen/naq_water_change_to_6 width:100 height:80 align:center fit:true}"
+				"{@pagebreak}"
+				"If the reactor is not hot enough i.e. it didn't get a 2GFE laser pulse, it will produce normal Steam."
+				""
+				"You have to get rid of that steam for it to start producing Polonium Containing Steam once hot enough."
+			]
+			id: "6F3A495685E2A643"
+			rewards: [{
+				id: "239D4E6DC67303BE"
+				item: "kubejs:infused_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7F259278A6669C65"
+				title: "Light it !"
+				type: "checkmark"
+			}]
+			x: -11.125d
+			y: -8.125d
+		}
+		{
+			dependencies: ["6F3A495685E2A643"]
+			description: [
+				"Here is the full precessing line from &7Polonium Containing Steam&r to &2Polonium&r."
+				""
+				"&7Polonium Containing Steam&r > &9Liquid Polonium Containing Solution&r"
+				"[Rotary Condensentrator in Condensentrating mode]"
+				""
+				"&9Liquid Polonium Containing Solution&r > &aLiquid Polonium-208&r"
+				"[Thermal Evaporation Plant]"
+				""
+				"&aLiquid Polonium-208&r > &3Polonium-208&r"
+				"[Rotary Condensentrator in Decondensentrating mode]"
+				""
+				"&3Polonium-208&r > &2Polonium&r"
+				"[Solar Neutron Activator]"
+				""
+				"All of those recipes (except &aLiquid Polonium-208&r) also have a corresponding recipe in the Event Horizon Antimatter Synthesizer (which is much much faster)."
+				""
+				"From there, you should probably use the &5Antimatter&r recipes in the Event Horizon Antimatter Synthesizer."
+			]
+			id: "440DCCF63EFD54CD"
+			min_width: 320
+			rewards: [{
+				id: "05916949EC398DDB"
+				item: "kubejs:ascended_coin"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "38D5B2E2E982A566"
+					item: "mekanism:rotary_condensentrator"
+					type: "item"
+				}
+				{
+					id: "3023784EF83FBB99"
+					item: "mekanism:thermal_evaporation_controller"
+					type: "item"
+				}
+				{
+					id: "392F43493F1BE674"
+					item: "mekanism:solar_neutron_activator"
+					type: "item"
+				}
+				{
+					id: "7FE9C3D99CC99EB1"
+					item: "mekanism_extras:polonium_containing_solution_bucket"
+					type: "item"
+				}
+				{
+					id: "718071B30DA074C8"
+					item: "mekanism_extras:polonium-208_bucket"
+					type: "item"
+				}
+			]
+			x: -11.125d
+			y: -5.625d
+		}
 		{
 			dependencies: ["31A2E4F8E3B4C997"]
 			id: "7940E814260C556F"
@@ -1919,11 +2249,6 @@
 			id: "0FA17A520EB6F1D7"
 			invisible: true
 			optional: true
-			rewards: [{
-				id: "455D2BDF67CD3B71"
-				item: "botania:terrasteel_nugget"
-				type: "item"
-			}]
 			tasks: [{
 				id: "497160B02CBA34C8"
 				title: "{ftbquests.chapter.mekanism.questFA17A520EB6F1D7.task.5292117346917954760.title}"

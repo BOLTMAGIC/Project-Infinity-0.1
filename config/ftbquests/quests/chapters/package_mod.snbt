@@ -6,11 +6,46 @@
 	group: "29543B666C58207C"
 	icon: "packagedauto:recipe_holder"
 	id: "0D9E32CFA14CC182"
+	images: [
+		{
+			height: 4.5d
+			image: "kubejs:block/screen/package1"
+			rotation: 0.0d
+			width: 8.426436781609196d
+			x: -3.45d
+			y: 9.0d
+		}
+		{
+			height: 4.5d
+			image: "kubejs:block/screen/package2"
+			rotation: 0.0d
+			width: 8.5d
+			x: 9.2d
+			y: 9.0d
+		}
+		{
+			height: 5.0d
+			image: "kubejs:block/screen/package3"
+			rotation: 0.0d
+			width: 10.632022471910112d
+			x: -4.4d
+			y: 15.8d
+		}
+		{
+			height: 5.0d
+			image: "kubejs:block/screen/package4"
+			rotation: 0.0d
+			width: 5.0d
+			x: 7.7d
+			y: 15.8d
+		}
+	]
 	order_index: 1
 	quest_links: [ ]
 	quests: [
 		{
-			dependencies: ["0AFFE685B5B34A56"]
+			dependencies: ["3178A3309DA989AC"]
+			description: ["Allows for the automation of the Advanced Crafting Table."]
 			id: "43F28CD6CB3D6523"
 			rewards: [{
 				id: "05ED1ED604513B75"
@@ -23,11 +58,11 @@
 				type: "item"
 			}]
 			title: "{ftbquests.chapter.package_mod.quest43F28CD6CB3D6523.title}"
-			x: 0.0d
-			y: 5.5d
+			x: -0.5d
+			y: 6.5d
 		}
 		{
-			dependencies: ["0AFFE685B5B34A56"]
+			dependencies: ["1C3B265F18A02D1A"]
 			description: [
 				"{ftbquests.chapter.package_mod.quest2E64A1B7D993EFF8.description1}"
 				""
@@ -51,13 +86,6 @@
 				"{ftbquests.chapter.package_mod.quest2E64A1B7D993EFF8.description12}"
 				""
 				"{ftbquests.chapter.package_mod.quest2E64A1B7D993EFF8.description13}"
-				""
-				"{ftbquests.chapter.package_mod.quest2E64A1B7D993EFF8.description14}"
-				""
-				"{ftbquests.chapter.package_mod.quest2E64A1B7D993EFF8.description15}"
-				"{ftbquests.chapter.package_mod.quest2E64A1B7D993EFF8.description16}"
-				"{ftbquests.chapter.package_mod.quest2E64A1B7D993EFF8.description17}"
-				"{ftbquests.chapter.package_mod.quest2E64A1B7D993EFF8.description18}"
 			]
 			icon: "packagedexcrafting:combination_crafter"
 			id: "2E64A1B7D993EFF8"
@@ -79,25 +107,12 @@
 				}
 			]
 			title: "{ftbquests.chapter.package_mod.quest2E64A1B7D993EFF8.title}"
-			x: 3.0d
-			y: 9.5d
+			x: 7.7d
+			y: 13.0d
 		}
 		{
 			dependencies: ["71222E3AF49A8143"]
-			description: [
-				"{ftbquests.chapter.package_mod.quest740AD1C00684D5CD.description1}"
-				""
-				"{ftbquests.chapter.package_mod.quest740AD1C00684D5CD.description2}"
-				""
-				"{ftbquests.chapter.package_mod.quest740AD1C00684D5CD.description3}"
-				""
-				"{ftbquests.chapter.package_mod.quest740AD1C00684D5CD.description4}"
-				""
-				"{ftbquests.chapter.package_mod.quest740AD1C00684D5CD.description5}"
-				"{ftbquests.chapter.package_mod.quest740AD1C00684D5CD.description6}"
-				"{ftbquests.chapter.package_mod.quest740AD1C00684D5CD.description7}"
-				"{ftbquests.chapter.package_mod.quest740AD1C00684D5CD.description8}"
-			]
+			description: ["Allows for the automation of the &dExtreme Crafting Table&r."]
 			id: "740AD1C00684D5CD"
 			rewards: [{
 				id: "3BF1519962387A24"
@@ -110,8 +125,8 @@
 				type: "item"
 			}]
 			title: "{ftbquests.chapter.package_mod.quest740AD1C00684D5CD.title}"
-			x: 8.5d
-			y: 5.0d
+			x: -5.5d
+			y: 11.5d
 		}
 		{
 			dependencies: ["01EFE05083181909"]
@@ -162,16 +177,12 @@
 				type: "item"
 			}]
 			title: "{ftbquests.chapter.package_mod.quest18FBAD6FAA74B08D.title}"
-			x: 1.5d
-			y: 1.0d
+			x: 0.5d
+			y: 1.5d
 		}
 		{
-			dependencies: ["0AFFE685B5B34A56"]
+			dependencies: ["35DD7CC1713A9880"]
 			description: [
-				"{ftbquests.chapter.package_mod.quest2E4361DA4E4F0874.description1}"
-				""
-				"{ftbquests.chapter.package_mod.quest2E4361DA4E4F0874.description2}"
-				""
 				"{ftbquests.chapter.package_mod.quest2E4361DA4E4F0874.description3}"
 				""
 				"{ftbquests.chapter.package_mod.quest2E4361DA4E4F0874.description4}"
@@ -194,13 +205,6 @@
 				"{ftbquests.chapter.package_mod.quest2E4361DA4E4F0874.description15}"
 				""
 				"{ftbquests.chapter.package_mod.quest2E4361DA4E4F0874.description16}"
-				""
-				"{ftbquests.chapter.package_mod.quest2E4361DA4E4F0874.description17}"
-				""
-				"{ftbquests.chapter.package_mod.quest2E4361DA4E4F0874.description18}"
-				"{ftbquests.chapter.package_mod.quest2E4361DA4E4F0874.description19}"
-				"{ftbquests.chapter.package_mod.quest2E4361DA4E4F0874.description20}"
-				"{ftbquests.chapter.package_mod.quest2E4361DA4E4F0874.description21}"
 			]
 			id: "2E4361DA4E4F0874"
 			rewards: [{
@@ -214,11 +218,11 @@
 				type: "item"
 			}]
 			title: "{ftbquests.chapter.package_mod.quest2E4361DA4E4F0874.title}"
-			x: 5.5d
-			y: 7.0d
+			x: -1.0d
+			y: 13.0d
 		}
 		{
-			dependencies: ["0AFFE685B5B34A56"]
+			dependencies: ["6C24C1BA9673C72C"]
 			description: [
 				"{ftbquests.chapter.package_mod.quest453B1A596BE686ED.description1}"
 				""
@@ -241,35 +245,29 @@
 				"{ftbquests.chapter.package_mod.quest453B1A596BE686ED.description11}"
 				"{ftbquests.chapter.package_mod.quest453B1A596BE686ED.description12}"
 				"{ftbquests.chapter.package_mod.quest453B1A596BE686ED.description13}"
-				""
-				"{ftbquests.chapter.package_mod.quest453B1A596BE686ED.description14}"
-				""
-				"{ftbquests.chapter.package_mod.quest453B1A596BE686ED.description15}"
-				"{ftbquests.chapter.package_mod.quest453B1A596BE686ED.description16}"
-				"{ftbquests.chapter.package_mod.quest453B1A596BE686ED.description17}"
-				"{ftbquests.chapter.package_mod.quest453B1A596BE686ED.description18}"
-				""
-				"{ftbquests.chapter.package_mod.quest453B1A596BE686ED.description19}"
-				""
-				"{ftbquests.chapter.package_mod.quest453B1A596BE686ED.description20}"
-				"{ftbquests.chapter.package_mod.quest453B1A596BE686ED.description21}"
-				"{ftbquests.chapter.package_mod.quest453B1A596BE686ED.description22}"
-				"{ftbquests.chapter.package_mod.quest453B1A596BE686ED.description23}"
 			]
+			icon: "packagedexcrafting:flux_crafter"
 			id: "453B1A596BE686ED"
 			rewards: [{
 				id: "7F995F3BB89B6D1A"
 				item: "kubejs:apotheotic_coin"
 				type: "item"
 			}]
-			tasks: [{
-				id: "1B18032A38E5C609"
-				item: "packagedexcrafting:flux_crafter"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "1B18032A38E5C609"
+					item: "packagedexcrafting:flux_crafter"
+					type: "item"
+				}
+				{
+					id: "07070457274EB876"
+					item: "extendedcrafting:flux_alternator"
+					type: "item"
+				}
+			]
 			title: "{ftbquests.chapter.package_mod.quest453B1A596BE686ED.title}"
 			x: 5.0d
-			y: 9.5d
+			y: 8.0d
 		}
 		{
 			dependencies: ["54832AACF9BC8B54"]
@@ -311,11 +309,12 @@
 				type: "item"
 			}]
 			title: "{ftbquests.chapter.package_mod.quest6EE0CF1C19D181CF.title}"
-			x: -0.5d
-			y: 2.5d
+			x: -1.5d
+			y: 3.0d
 		}
 		{
-			dependencies: ["0AFFE685B5B34A56"]
+			dependencies: ["43F28CD6CB3D6523"]
+			description: ["Allows for the automation of the Elite Crafting Table."]
 			id: "1070E5EB5869C5DB"
 			rewards: [{
 				id: "3EA479DC5387CF99"
@@ -328,25 +327,12 @@
 				type: "item"
 			}]
 			title: "{ftbquests.chapter.package_mod.quest1070E5EB5869C5DB.title}"
-			x: 0.5d
+			x: -2.0d
 			y: 6.5d
 		}
 		{
 			dependencies: ["7167023C7FD28CF0"]
-			description: [
-				"{ftbquests.chapter.package_mod.quest71222E3AF49A8143.description1}"
-				""
-				"{ftbquests.chapter.package_mod.quest71222E3AF49A8143.description2}"
-				""
-				"{ftbquests.chapter.package_mod.quest71222E3AF49A8143.description3}"
-				""
-				"{ftbquests.chapter.package_mod.quest71222E3AF49A8143.description4}"
-				""
-				"{ftbquests.chapter.package_mod.quest71222E3AF49A8143.description5}"
-				"{ftbquests.chapter.package_mod.quest71222E3AF49A8143.description6}"
-				"{ftbquests.chapter.package_mod.quest71222E3AF49A8143.description7}"
-				"{ftbquests.chapter.package_mod.quest71222E3AF49A8143.description8}"
-			]
+			description: ["Allows for the automation of the &bEnd Crafting Table&r."]
 			id: "71222E3AF49A8143"
 			rewards: [{
 				id: "7AE9A87D7A868B0B"
@@ -359,8 +345,8 @@
 				type: "item"
 			}]
 			title: "{ftbquests.chapter.package_mod.quest71222E3AF49A8143.title}"
-			x: 7.5d
-			y: 4.5d
+			x: -4.0d
+			y: 11.5d
 		}
 		{
 			dependencies: ["2E4361DA4E4F0874"]
@@ -375,8 +361,8 @@
 				item: "packageddraconic:marked_draconium_injector"
 				type: "item"
 			}]
-			x: 6.5d
-			y: 6.5d
+			x: -2.5d
+			y: 13.0d
 		}
 		{
 			description: [
@@ -429,8 +415,8 @@
 				type: "item"
 			}]
 			title: "{ftbquests.chapter.package_mod.quest54832AACF9BC8B54.title}"
-			x: -0.5d
-			y: 1.0d
+			x: -3.5d
+			y: 3.0d
 		}
 		{
 			dependencies: ["6EE0CF1C19D181CF"]
@@ -463,8 +449,8 @@
 				type: "item"
 			}]
 			title: "{ftbquests.chapter.package_mod.quest1EFE05083181909.title}"
-			x: 1.5d
-			y: 2.5d
+			x: 0.5d
+			y: 3.0d
 		}
 		{
 			dependencies: ["6EE0CF1C19D181CF"]
@@ -529,26 +515,11 @@
 			]
 			title: "{ftbquests.chapter.package_mod.quest1CC35C01F13AE8EF.title}"
 			x: -1.5d
-			y: 3.5d
+			y: 4.5d
 		}
 		{
 			dependencies: ["5AD13B93F716568B"]
-			description: [
-				"{ftbquests.chapter.package_mod.quest7167023C7FD28CF0.description1}"
-				""
-				"{ftbquests.chapter.package_mod.quest7167023C7FD28CF0.description2}"
-				""
-				"{ftbquests.chapter.package_mod.quest7167023C7FD28CF0.description3}"
-				""
-				"{ftbquests.chapter.package_mod.quest7167023C7FD28CF0.description4}"
-				""
-				"{ftbquests.chapter.package_mod.quest7167023C7FD28CF0.description5}"
-				""
-				"{ftbquests.chapter.package_mod.quest7167023C7FD28CF0.description6}"
-				"{ftbquests.chapter.package_mod.quest7167023C7FD28CF0.description7}"
-				"{ftbquests.chapter.package_mod.quest7167023C7FD28CF0.description8}"
-				"{ftbquests.chapter.package_mod.quest7167023C7FD28CF0.description9}"
-			]
+			description: ["Allows for the automation of the &eNether Crafting Table&r."]
 			id: "7167023C7FD28CF0"
 			rewards: [{
 				id: "0EB5528049A18051"
@@ -561,27 +532,12 @@
 				type: "item"
 			}]
 			title: "{ftbquests.chapter.package_mod.quest7167023C7FD28CF0.title}"
-			x: 6.5d
-			y: 5.0d
+			x: -2.5d
+			y: 11.5d
 		}
 		{
-			dependencies: ["0AFFE685B5B34A56"]
-			description: [
-				"{ftbquests.chapter.package_mod.quest5AD13B93F716568B.description1}"
-				""
-				"{ftbquests.chapter.package_mod.quest5AD13B93F716568B.description2}"
-				""
-				"{ftbquests.chapter.package_mod.quest5AD13B93F716568B.description3}"
-				""
-				"{ftbquests.chapter.package_mod.quest5AD13B93F716568B.description4}"
-				""
-				"{ftbquests.chapter.package_mod.quest5AD13B93F716568B.description5}"
-				""
-				"{ftbquests.chapter.package_mod.quest5AD13B93F716568B.description6}"
-				"{ftbquests.chapter.package_mod.quest5AD13B93F716568B.description7}"
-				"{ftbquests.chapter.package_mod.quest5AD13B93F716568B.description8}"
-				"{ftbquests.chapter.package_mod.quest5AD13B93F716568B.description9}"
-			]
+			dependencies: ["5BD0534CFB6CE886"]
+			description: ["Allows for the automation of the Sculk Crafting Table."]
 			id: "5AD13B93F716568B"
 			rewards: [{
 				id: "4AE8FFD4A8DAB114"
@@ -594,11 +550,12 @@
 				type: "item"
 			}]
 			title: "{ftbquests.chapter.package_mod.quest5AD13B93F716568B.title}"
-			x: 5.5d
-			y: 4.5d
+			x: -1.0d
+			y: 11.5d
 		}
 		{
-			dependencies: ["0AFFE685B5B34A56"]
+			dependencies: ["1070E5EB5869C5DB"]
+			description: ["Allows for the automation of the Ultimate Crafting Table."]
 			id: "3878C5C2024F29A8"
 			rewards: [{
 				id: "181F18A141E99106"
@@ -611,8 +568,8 @@
 				type: "item"
 			}]
 			title: "{ftbquests.chapter.package_mod.quest3878C5C2024F29A8.title}"
-			x: 1.0d
-			y: 7.5d
+			x: -3.5d
+			y: 6.5d
 		}
 		{
 			dependencies: ["1FD6976F1F2761E5"]
@@ -627,8 +584,8 @@
 				item: "packageddraconic:marked_chaotic_injector"
 				type: "item"
 			}]
-			x: 9.5d
-			y: 7.0d
+			x: -7.0d
+			y: 13.0d
 		}
 		{
 			dependencies: ["553D95BD59C50C68"]
@@ -643,11 +600,11 @@
 				item: "packageddraconic:marked_draconic_injector"
 				type: "item"
 			}]
-			x: 8.5d
-			y: 6.5d
+			x: -5.5d
+			y: 13.0d
 		}
 		{
-			dependencies: ["0AFFE685B5B34A56"]
+			dependencies: ["6C24C1BA9673C72C"]
 			description: [
 				"{ftbquests.chapter.package_mod.quest24422A6ACA45CC63.description1}"
 				""
@@ -670,38 +627,33 @@
 				"{ftbquests.chapter.package_mod.quest24422A6ACA45CC63.description11}"
 				"{ftbquests.chapter.package_mod.quest24422A6ACA45CC63.description12}"
 				"{ftbquests.chapter.package_mod.quest24422A6ACA45CC63.description13}"
-				""
-				"{ftbquests.chapter.package_mod.quest24422A6ACA45CC63.description14}"
-				""
-				"{ftbquests.chapter.package_mod.quest24422A6ACA45CC63.description15}"
-				"{ftbquests.chapter.package_mod.quest24422A6ACA45CC63.description16}"
-				"{ftbquests.chapter.package_mod.quest24422A6ACA45CC63.description17}"
-				"{ftbquests.chapter.package_mod.quest24422A6ACA45CC63.description18}"
-				""
-				"{ftbquests.chapter.package_mod.quest24422A6ACA45CC63.description19}"
-				""
-				"{ftbquests.chapter.package_mod.quest24422A6ACA45CC63.description20}"
-				"{ftbquests.chapter.package_mod.quest24422A6ACA45CC63.description21}"
-				"{ftbquests.chapter.package_mod.quest24422A6ACA45CC63.description22}"
-				"{ftbquests.chapter.package_mod.quest24422A6ACA45CC63.description23}"
 			]
+			icon: "packagedexcrafting:ender_crafter"
 			id: "24422A6ACA45CC63"
 			rewards: [{
 				id: "602E8E68F867056A"
 				item: "kubejs:apotheotic_coin"
 				type: "item"
 			}]
-			tasks: [{
-				id: "44E0D14F999323A2"
-				item: "packagedexcrafting:ender_crafter"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "44E0D14F999323A2"
+					item: "packagedexcrafting:ender_crafter"
+					type: "item"
+				}
+				{
+					id: "219C9263181FD820"
+					item: "extendedcrafting:ender_alternator"
+					type: "item"
+				}
+			]
 			title: "{ftbquests.chapter.package_mod.quest24422A6ACA45CC63.title}"
-			x: 4.0d
-			y: 9.5d
+			x: 6.5d
+			y: 6.5d
 		}
 		{
-			dependencies: ["0AFFE685B5B34A56"]
+			dependencies: ["3878C5C2024F29A8"]
+			description: ["Allows for the automation of the Epic Crafting Table."]
 			id: "176CD1F9AEB2D23F"
 			rewards: [{
 				id: "0A0686FD74022512"
@@ -714,8 +666,8 @@
 				type: "item"
 			}]
 			title: "{ftbquests.chapter.package_mod.quest176CD1F9AEB2D23F.title}"
-			x: 1.5d
-			y: 8.5d
+			x: -5.0d
+			y: 6.5d
 		}
 		{
 			dependencies: ["1DA71A2A36736336"]
@@ -730,8 +682,8 @@
 				item: "packageddraconic:marked_wyvern_injector"
 				type: "item"
 			}]
-			x: 7.5d
-			y: 7.0d
+			x: -4.0d
+			y: 13.0d
 		}
 		{
 			dependencies: ["01EFE05083181909"]
@@ -788,7 +740,7 @@
 			}]
 			title: "{ftbquests.chapter.package_mod.quest3CED53CE6C425AD2.title}"
 			x: 3.0d
-			y: 2.5d
+			y: 3.0d
 		}
 		{
 			dependencies: ["3CED53CE6C425AD2"]
@@ -840,7 +792,7 @@
 			}]
 			title: "{ftbquests.chapter.package_mod.quest6A1B3509AB70FA8C.title}"
 			x: 3.0d
-			y: 1.0d
+			y: 1.5d
 		}
 		{
 			dependencies: [
@@ -886,13 +838,15 @@
 				"{ftbquests.chapter.package_mod.questAFFE685B5B34A56.description24}"
 				"{ftbquests.chapter.package_mod.questAFFE685B5B34A56.description25}"
 			]
-			hide_dependent_lines: true
+			icon_scale: 1.1d
 			id: "0AFFE685B5B34A56"
 			rewards: [{
 				id: "152E6CFFB5133B87"
 				item: "kubejs:apotheotic_coin"
 				type: "item"
 			}]
+			shape: "hexagon"
+			size: 1.5d
 			tasks: [{
 				id: "4451AB66474ABD77"
 				item: "packagedauto:packaging_provider"
@@ -900,7 +854,7 @@
 			}]
 			title: "{ftbquests.chapter.package_mod.questAFFE685B5B34A56.title}"
 			x: 3.0d
-			y: 4.0d
+			y: 4.5d
 		}
 		{
 			dependencies: ["01EFE05083181909"]
@@ -949,8 +903,8 @@
 				type: "item"
 			}]
 			title: "{ftbquests.chapter.package_mod.quest6DE7A57143B0C88E.title}"
-			x: 1.5d
-			y: 4.0d
+			x: 0.5d
+			y: 4.5d
 		}
 		{
 			dependencies: ["54832AACF9BC8B54"]
@@ -987,8 +941,8 @@
 				type: "item"
 			}]
 			title: "{ftbquests.chapter.package_mod.quest30BEE6FCFFC78A63.title}"
-			x: -1.5d
-			y: 1.0d
+			x: -3.5d
+			y: 1.5d
 		}
 		{
 			dependencies: ["54832AACF9BC8B54"]
@@ -1032,8 +986,8 @@
 				type: "item"
 			}]
 			title: "{ftbquests.chapter.package_mod.quest4AD6B31B2ACFD56E.title}"
-			x: -1.5d
-			y: 2.0d
+			x: -3.5d
+			y: 4.5d
 		}
 		{
 			dependencies: ["6EE0CF1C19D181CF"]
@@ -1092,11 +1046,12 @@
 				}
 			]
 			title: "{ftbquests.chapter.package_mod.quest5E8B7801E15425D7.title}"
-			x: -0.5d
-			y: 3.5d
+			x: -1.5d
+			y: 1.5d
 		}
 		{
-			dependencies: ["0AFFE685B5B34A56"]
+			dependencies: ["176CD1F9AEB2D23F"]
+			description: ["Allows for the automation of the Legendary Crafting Table."]
 			id: "1547B8D21C753435"
 			rewards: [{
 				id: "6B970F75E7ED7971"
@@ -1108,8 +1063,81 @@
 				item: "packagedexexexcrafting:legendary_crafter"
 				type: "item"
 			}]
-			x: 2.0d
-			y: 9.5d
+			x: -6.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["4FF7FFCD116D1793"]
+			description: ["P.s. You can tick accelerate marked tables."]
+			id: "3178A3309DA989AC"
+			tasks: [{
+				id: "1AB4217DE83AB437"
+				title: "Extended Crafting"
+				type: "checkmark"
+			}]
+			x: 1.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["4FF7FFCD116D1793"]
+			description: ["P.s. You can tick accelerate marked tables."]
+			id: "5BD0534CFB6CE886"
+			tasks: [{
+				id: "3B831D210DCE252E"
+				title: "Avaritia Crafting"
+				type: "checkmark"
+			}]
+			x: 1.0d
+			y: 11.5d
+		}
+		{
+			dependencies: ["0AFFE685B5B34A56"]
+			description: [
+				"So, there's our &6&lcrafts&r&r begins!"
+				""
+				"Don't forget to use &l&4CORRECT&r&r tables when encoding patterns, if you use wrong table, craft will not procced."
+			]
+			id: "4FF7FFCD116D1793"
+			tasks: [{
+				id: "0879DE2B97F592CA"
+				title: "Let's craft!"
+				type: "checkmark"
+			}]
+			x: 3.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["4FF7FFCD116D1793"]
+			id: "6C24C1BA9673C72C"
+			tasks: [{
+				id: "151E3F17EC34DFD8"
+				title: "Extended Crafting Pt.2"
+				type: "checkmark"
+			}]
+			x: 5.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["4FF7FFCD116D1793"]
+			id: "35DD7CC1713A9880"
+			tasks: [{
+				id: "2A4E751837EF70A9"
+				title: "Fusion Crafting"
+				type: "checkmark"
+			}]
+			x: 1.0d
+			y: 13.0d
+		}
+		{
+			dependencies: ["4FF7FFCD116D1793"]
+			id: "1C3B265F18A02D1A"
+			tasks: [{
+				id: "4E8A7643912A6BB2"
+				title: "Extended Crafting Pt.3"
+				type: "checkmark"
+			}]
+			x: 5.0d
+			y: 13.0d
 		}
 	]
 	title: "{ftbquests.chapter.package_mod.title}"

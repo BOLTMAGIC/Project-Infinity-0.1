@@ -4984,6 +4984,19 @@
 			x: -9.75d
 			y: 3.75d
 		}
+		{
+			id: "400ADC6313A594A8"
+			secret: true
+			size: 0.75d
+			tasks: [{
+				id: "6CEB256F31D258CA"
+				title: "Thanks"
+				type: "checkmark"
+			}]
+			title: "&2Huge thanks to&r &6BabyMudkip&r &2for the original Naquadah Reactor Guide!&r"
+			x: -10.0d
+			y: 6.5d
+		}
 	]
 	title: "{ftbquests.chapter.hostile_neural_networks.title}"
 }

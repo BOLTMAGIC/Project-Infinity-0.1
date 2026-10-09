@@ -20,6 +20,8 @@ This will break all old crazyAE2 multiblocks!
     - 
 - MODS GETTING REMOVED in 0.0.53.0:
     - Born in Chaos
+    - Refined Storage
+    - RFToolsDim
 ----------
 Recipe changes and fixes:
 - removed EMC from Extra HNN data model (thx to bacopn)
@@ -40,3 +42,8 @@ Recipe changes and fixes:
 - added the Fake Philosopher's Stone
 - boosted Raw Eclipse Alloy recipe in Auto Crusher multiblocks
 - fixed custom hammers not working for exdeorum block breaking recipes
+
+Quest changes:
+- Removed dedicated Naquadah Reactor questline, added it to the Mekanism questline
+- Reworked the Naquadah Reactor questline, should be easy to follow now
+- Removed Refined Storage questline to prepare for the removal of the mod in 0.0.53.0

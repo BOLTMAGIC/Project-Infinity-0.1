@@ -4,13 +4,13 @@ ServerEvents.recipes((event) => {
     .custom({
       type: 'extendedcrafting:shaped_table',
       pattern: [
-        'ABCDEFA',
+        'ABCDCFA',
         'FGHIHGB',
-        'EHJKJHC',
+        'CHCKCHC',
         'DIKLKID',
-        'CHJKJHE',
+        'CHCKCHC',
         'BGHIHGF',
-        'AFEDCBA',
+        'AFCDCBA',
       ],
       key: {
         A: {
@@ -23,13 +23,10 @@ ServerEvents.recipes((event) => {
           item: 'minecraft:iron_block',
         },
         C: {
-          item: 'rftoolsdim:common_essence',
+          item: 'minecraft:netherite_ingot',
         },
         D: {
           item: 'rftoolsbase:infused_enderpearl',
-        },
-        E: {
-          item: 'rftoolsdim:rare_essence',
         },
         F: {
           item: 'minecraft:redstone_block',
@@ -45,9 +42,6 @@ ServerEvents.recipes((event) => {
         },
         I: {
           item: 'rftoolsbase:infused_diamond',
-        },
-        J: {
-          item: 'rftoolsdim:legendary_essence',
         },
         K: {
           item: 'rftoolsbuilder:shape_card_def',

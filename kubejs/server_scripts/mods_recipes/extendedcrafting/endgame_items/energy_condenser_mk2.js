@@ -16,7 +16,7 @@ ServerEvents.recipes((event) => {
       ],
       key: {
         A: {
-          item: 'extrastorage:storagepart_16384k',
+          item: 'megacells:cell_component_256m',
         },
         B: {
           item: 'projecte:dark_matter',

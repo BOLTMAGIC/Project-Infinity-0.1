@@ -39,7 +39,7 @@ ServerEvents.recipes((event) => {
           nbt: '{mekData:{FluidTanks:[{stored:{Amount:32000,FluidName:"nuclearcraft:xenorium_298"}}]}}',
         },
         G: {
-          item: 'rftoolsdim:fluid_absorber',
+          item: 'mekanism_extras:infinite_fluid_tank',
         },
         H: {
           item: 'mob_grinding_utils:xpsolidifier',
@@ -232,7 +232,7 @@ ServerEvents.recipes((event) => {
           nbt: '{tank_level:"basic", fluid_id:"nuclearcraft:xenorium_298"}',
         },
         G: {
-          item: 'rftoolsdim:fluid_absorber',
+          item: 'mekanism_extras:infinite_fluid_tank',
         },
         H: {
           item: 'mob_grinding_utils:xpsolidifier',

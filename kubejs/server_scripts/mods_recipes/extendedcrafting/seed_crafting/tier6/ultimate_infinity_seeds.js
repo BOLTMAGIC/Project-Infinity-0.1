@@ -5,7 +5,7 @@ ServerEvents.recipes((event) => {
       type: 'extendedcrafting:shaped_table',
       pattern: [
         'ABCDEFGHIJKLA',
-        'MNOOOOPOOOOQM',
+        'MOOOOOPOOOOOM',
         'MORSTTUTTSROM',
         'MOSRVWXWVRSOM',
         'MOTVYYeYYVTOM',
@@ -15,7 +15,7 @@ ServerEvents.recipes((event) => {
         'MOTVYYeYYVTOM',
         'MOSRVWXWVRSOM',
         'MORSTTUTTSROM',
-        'MQOOOOPOOOONM',
+        'MOOOOOPOOOOOM',
         'AhijklmnopqVA',
       ],
       key: {
@@ -58,17 +58,11 @@ ServerEvents.recipes((event) => {
         M: {
           item: 'ifeu:dragon_star',
         },
-        N: {
-          item: 'rftoolsdim:rare_essence',
-        },
         O: {
           item: 'voidminers:ultimate_stellar_core',
         },
         P: {
           item: 'kubejs:infinity_10',
-        },
-        Q: {
-          item: 'rftoolsdim:legendary_essence',
         },
         R: {
           item: 'kubejs:ultimate_gem',

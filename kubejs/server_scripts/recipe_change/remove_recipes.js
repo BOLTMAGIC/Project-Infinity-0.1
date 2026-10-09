@@ -38,8 +38,7 @@ const removeRecipebyOutput = [
   'enderio:energy_conduit',
   'avaritia:neutron_compressor',
   'cyclic:item_infinite',
-  'rsinfinitybooster:infinity_card',
-  'rsinfinitybooster:dimension_card',
+
   'solarflux:twilightforest/twilight_cell_1',
   'solarflux:twilightforest/twilight_cell_2',
   'solarflux:sp_tf.carminite',
@@ -199,8 +198,6 @@ const removeRecipebyRecipeID = [
   'cyclic:compressed_cobblestone_u',
   'minecraft:cobblestone_from_compressed_cobblestone',
   'mysticalagradditions:essence/neutronium_nugget',
-  'extrastorage:advanced_exporter',
-  'extrastorage:advanced_importer',
   'cyclic:guide_book',
   'cyclic:dropper',
   'cyclic:crusher',
@@ -645,6 +642,27 @@ ServerEvents.recipes((event) => {
   });
   event.remove({
     mod: 'libraryferret',
+  });
+  event.remove({
+    mod: 'refinedstorage',
+  });
+  event.remove({
+    mod: 'rsinfinitybooster',
+  });
+  event.remove({
+    mod: 'extrastorage',
+  });
+  event.remove({
+    mod: 'rsrequestify',
+  });
+  event.remove({
+    mod: 'universalgrid',
+  });
+  event.remove({
+    mod: 'refinedstorageaddons',
+  });
+  event.remove({
+    mod: 'rftoolsdim',
   });
   event.remove({
     input: 'mysticalagriculture:saltpeter_essence',

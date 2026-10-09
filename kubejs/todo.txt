@@ -42,6 +42,8 @@ Recipe changes and fixes:
 - added the Fake Philosopher's Stone
 - boosted Raw Eclipse Alloy recipe in Auto Crusher multiblocks
 - fixed custom hammers not working for exdeorum block breaking recipes
+- removed Refined Storage recipes to prepare for the removal of the mod in 0.0.53.0
+- removed RFToolsDim recipes to prepare for the removal of the mod in 0.0.53.0
 
 Quest changes:
 - Removed dedicated Naquadah Reactor questline, added it to the Mekanism questline

@@ -346,6 +346,35 @@ MMEvents.createProcesses((event) => {
       },
     });
 
+  //ender pearl -> dust
+  event
+    .create('mm:ender_pearl_dust_recipe3')
+    .structureId('mm:auto_crusher_structure3')
+    .ticks(1)
+    .input({
+      type: 'mm:input/consume',
+      ingredient: {
+        type: 'mm:item',
+        item: 'minecraft:ender_pearl',
+        count: 64,
+      },
+    })
+    .input({
+      type: 'mm:input/consume',
+      ingredient: {
+        type: 'mm:energy',
+        amount: 640000,
+      },
+    })
+    .output({
+      type: 'mm:output/simple',
+      ingredient: {
+        type: 'mm:item',
+        item: 'thermal:ender_pearl_dust',
+        count: 64,
+      },
+    });
+
   //grains of piezallity
   event
     .create('mm:grains_of_piezallity_recipe3')

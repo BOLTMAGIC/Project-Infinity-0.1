@@ -934,22 +934,6 @@
 			y: 2.5d
 		}
 		{
-			dependencies: ["0C45879298C3753B"]
-			id: "6EBB263D63C1186E"
-			rewards: [{
-				id: "308254FB76FA802D"
-				item: "kubejs:infused_coin"
-				type: "item"
-			}]
-			tasks: [{
-				id: "42ED1835E218AEBD"
-				item: "ifeu:big_dissolution_chamber"
-				type: "item"
-			}]
-			x: 4.5d
-			y: -2.0d
-		}
-		{
 			description: [
 				"{ftbquests.chapter.industrial_foregoing.quest4359EFAABC4AB32F.description1}"
 				"{ftbquests.chapter.industrial_foregoing.quest4359EFAABC4AB32F.description2}"

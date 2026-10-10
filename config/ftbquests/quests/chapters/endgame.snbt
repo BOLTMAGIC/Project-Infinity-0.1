@@ -573,18 +573,11 @@
 		{
 			description: ["{ftbquests.chapter.endgame.quest19F5F1A98758644F.description1}"]
 			id: "19F5F1A98758644F"
-			tasks: [
-				{
-					id: "2558B08F7300D7D2"
-					item: "exdeorum:oak_sieve"
-					type: "item"
-				}
-				{
-					id: "045605A8ADBEA157"
-					item: "justdirethings:gooblock_tier4"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "045605A8ADBEA157"
+				item: "justdirethings:gooblock_tier4"
+				type: "item"
+			}]
 			x: -5.0d
 			y: 1.5d
 		}

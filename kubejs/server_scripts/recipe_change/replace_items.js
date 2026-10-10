@@ -307,16 +307,6 @@ ServerEvents.recipes((event) => {
     'woot_revived:netherite_shard'
   );
   event.replaceInput(
-    { output: 'rftoolsdim:researcher' },
-    'minecraft:redstone',
-    'mekanism_extras:alloy_thermonuclear'
-  );
-  event.replaceInput(
-    { output: 'rftoolsdim:enscriber' },
-    'minecraft:crafting_table',
-    'botanicalextramachinery:mazarine_dragonstone_block'
-  );
-  event.replaceInput(
     { output: 'woot_revived:iron_magmator' },
     'minecraft:magma_block',
     'woot_revived:copper_magmator'

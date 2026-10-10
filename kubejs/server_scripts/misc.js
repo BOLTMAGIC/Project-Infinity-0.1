@@ -332,17 +332,6 @@ ServerEvents.recipes((event) => {
     'projecte:transmutation_table'
   );
 
-  //#region refinedstorage
-  shapeless(event, 'refinedstorage:creative_storage_block', [
-    'refinedstorage:creative_storage_disk',
-    'refinedstorage:machine_casing',
-  ]);
-
-  shapeless(event, 'refinedstorage:creative_fluid_storage_block', [
-    'refinedstorage:creative_fluid_storage_disk',
-    'refinedstorage:machine_casing',
-  ]);
-
   //#region rftoolsutility
   create3x3(event, Item.of('rftoolsutility:computer_module', '{Damage:0}'), [
     'minecraft:air',
@@ -354,31 +343,6 @@ ServerEvents.recipes((event) => {
     'minecraft:air',
     Item.of('rftoolsutility:machineinformation_module', '{Damage:0}'),
     'minecraft:air',
-  ]);
-
-  //#region rsinfinitybooster
-  create3x3(event, 'rsinfinitybooster:infinity_card', [
-    'minecraft:ender_eye',
-    'refinedstorage:range_upgrade',
-    'minecraft:ender_eye',
-    'refinedstorage:range_upgrade',
-    'minecraft:nether_star',
-    'refinedstorage:range_upgrade',
-    'minecraft:netherite_ingot',
-    'minecraft:netherite_ingot',
-    'minecraft:netherite_ingot',
-  ]);
-
-  create3x3(event, 'rsinfinitybooster:dimension_card', [
-    'rsinfinitybooster:infinity_card',
-    'minecraft:nether_star',
-    'rsinfinitybooster:infinity_card',
-    'minecraft:nether_star',
-    'minecraft:ender_eye',
-    'minecraft:nether_star',
-    'rsinfinitybooster:infinity_card',
-    'minecraft:nether_star',
-    'rsinfinitybooster:infinity_card',
   ]);
 
   //#region sfm
@@ -447,4 +411,17 @@ ServerEvents.recipes((event) => {
 
   //#region AppliedE
   shapeless(event, 'projectcell:emc_storage_cell', ['appliede:emc_module']);
+
+  //#region Project Cell
+  create3x3(event, 'projectcell:emc_storage_cell', [
+    'projecte:red_matter_block',
+    'kubejs:fake_philosophers_stone',
+    'projecte:red_matter_block',
+    'projecte:dark_matter_block',
+    'projecte:transmutation_table',
+    'projecte:dark_matter_block',
+    'projecte:red_matter_block',
+    'ae2:item_cell_housing',
+    'projecte:red_matter_block',
+  ]);
 });

@@ -531,4 +531,15 @@ ServerEvents.recipes((event) => {
     'kubejs:blood_altar_tier_card_5_block',
     'bmaddon:blood_altar_tier_card_5'
   );
+
+  shapeless(
+    event,
+    'projecte:philosophers_stone',
+    'kubejs:fake_philosophers_stone'
+  );
+  shapeless(
+    event,
+    'kubejs:fake_philosophers_stone',
+    'projecte:philosophers_stone'
+  );
 });

@@ -19,10 +19,10 @@
 			rotation: 0.0d
 			width: 2.0d
 			x: 1.0d
-			y: -4.0d
+			y: -5.0d
 		}
 	]
-	order_index: 13
+	order_index: 12
 	quest_links: [ ]
 	quests: [
 		{
@@ -331,7 +331,7 @@
 				type: "item"
 			}]
 			x: -2.5d
-			y: -8.5d
+			y: -6.5d
 		}
 		{
 			dependencies: ["6DF7B2E5786221A0"]
@@ -362,8 +362,8 @@
 				item: "industrialforegoing:pink_slime_ingot"
 				type: "item"
 			}]
-			x: -2.0d
-			y: -4.5d
+			x: 0.0d
+			y: -3.5d
 		}
 		{
 			dependencies: ["3B16CD0DAF9BF2A8"]
@@ -379,8 +379,8 @@
 				item: { Count: 3, id: "kubejs:pink_slime_block" }
 				type: "item"
 			}]
-			x: -3.0d
-			y: -5.5d
+			x: 1.5d
+			y: -3.5d
 		}
 		{
 			dependencies: ["16A14B37A649D493"]
@@ -396,8 +396,8 @@
 				item: "mm:pinky_controller"
 				type: "item"
 			}]
-			x: -4.0d
-			y: -6.5d
+			x: 1.5d
+			y: -2.0d
 		}
 		{
 			dependencies: ["2F37F90D3F79EDBF"]
@@ -414,7 +414,7 @@
 				type: "item"
 			}]
 			x: -3.5d
-			y: -9.5d
+			y: -5.5d
 		}
 		{
 			dependencies: ["1831BA1692DCA05C"]
@@ -498,7 +498,7 @@
 				type: "item"
 			}]
 			x: -2.5d
-			y: -3.5d
+			y: -2.0d
 		}
 		{
 			dependencies: ["1831BA1692DCA05C"]
@@ -585,7 +585,7 @@
 				}
 			]
 			x: -3.5d
-			y: -4.5d
+			y: -3.0d
 		}
 		{
 			dependencies: ["179C7CB4DECD8932"]
@@ -932,22 +932,6 @@
 			}]
 			x: 1.5d
 			y: 2.5d
-		}
-		{
-			dependencies: ["0C45879298C3753B"]
-			id: "6EBB263D63C1186E"
-			rewards: [{
-				id: "308254FB76FA802D"
-				item: "kubejs:infused_coin"
-				type: "item"
-			}]
-			tasks: [{
-				id: "42ED1835E218AEBD"
-				item: "ifeu:big_dissolution_chamber"
-				type: "item"
-			}]
-			x: 4.5d
-			y: -2.0d
 		}
 		{
 			description: [

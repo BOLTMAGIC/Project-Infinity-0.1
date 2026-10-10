@@ -282,25 +282,6 @@
 			y: -4.0d
 		}
 		{
-			description: ["{ftbquests.chapter.tips_and_tricks.quest68B70D3C33B1A218.description1}"]
-			icon: "cobblefordays:tier_1"
-			id: "68B70D3C33B1A218"
-			rewards: [{
-				id: "50CA0D6FB125FBAF"
-				type: "xp"
-				xp: 3
-			}]
-			size: 2.0d
-			tasks: [{
-				id: "748BFD9A190EFE3E"
-				item: "cobblefordays:tier_1"
-				type: "item"
-			}]
-			title: "{ftbquests.chapter.tips_and_tricks.quest68B70D3C33B1A218.title}"
-			x: -1.0d
-			y: 10.0d
-		}
-		{
 			description: ["{ftbquests.chapter.tips_and_tricks.quest39F0944503669D86.description1}"]
 			id: "39F0944503669D86"
 			rewards: [{

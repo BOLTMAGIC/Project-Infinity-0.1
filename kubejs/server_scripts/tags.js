@@ -48,6 +48,14 @@ ServerEvents.tags('item', (event) => {
     'thermal_extra:twinite_hammer',
     'thermal_extra:dragonsteel_hammer',
     'thermal_extra:abyssal_hammer',
+    'kubejs:netherite_iron_hammer',
+    'kubejs:netherite_gold_hammer',
+    'kubejs:netherite_emerald_hammer',
+    'kubejs:netherite_diamond_hammer',
+    'kubejs:allthemodium_hammer',
+    'kubejs:vibranium_hammer',
+    'kubejs:unobtainium_hammer',
+    'kubejs:allthemodium_alloy_hammer'
   ]);
 
   event.add('minecraft:wooden_slabs', 'minecraft:wooden_slabs');
@@ -85,6 +93,34 @@ ServerEvents.tags('item', (event) => {
   ]);
 
   event.add('curios:curio', 'compactmachines:personal_shrinking_device');
+
+  event.add('kubejs:hammers_with_no_durability', [
+    'kubejs:allthemodium_hammer',
+    'kubejs:vibranium_hammer',
+    'kubejs:unobtainium_hammer',
+    'kubejs:allthemodium_alloy_hammer'
+  ]);
+
+  event.add('kubejs:hammers_with_durability', [
+    'thermal_extra:signalum_hammer',
+    'thermal_extra:lumium_hammer',
+    'thermal_extra:enderium_hammer',
+    'thermal_extra:soul_infused_hammer',
+    'thermal_extra:shellite_hammer',
+    'thermal_extra:twinite_hammer',
+    'thermal_extra:dragonsteel_hammer',
+    'thermal_extra:abyssal_hammer',
+    'exdeorum:wooden_hammer',
+    'exdeorum:stone_hammer',
+    'exdeorum:golden_hammer',
+    'exdeorum:iron_hammer',
+    'exdeorum:diamond_hammer',
+    'exdeorum:netherite_hammer',
+    'kubejs:netherite_iron_hammer',
+    'kubejs:netherite_gold_hammer',
+    'kubejs:netherite_emerald_hammer',
+    'kubejs:netherite_diamond_hammer',
+  ]);
 });
 
 //remove Tags from Items

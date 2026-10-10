@@ -1,5 +1,5 @@
 //#region Output removal
-const removeItemsbyOutput = [
+const removeRecipebyOutput = [
   'minecraft:bedrock',
   'avaritia:diamond_lattice',
   'projecte:philosophers_stone',
@@ -38,8 +38,7 @@ const removeItemsbyOutput = [
   'enderio:energy_conduit',
   'avaritia:neutron_compressor',
   'cyclic:item_infinite',
-  'rsinfinitybooster:infinity_card',
-  'rsinfinitybooster:dimension_card',
+
   'solarflux:twilightforest/twilight_cell_1',
   'solarflux:twilightforest/twilight_cell_2',
   'solarflux:sp_tf.carminite',
@@ -170,10 +169,11 @@ const removeItemsbyOutput = [
   'industrialforegoing:conveyor_splitting_upgrade',
   'thermal:florb',
   'silentgems:soul_gem',
+  'projectcell:emc_storage_cell',
 ];
 
 //#region ID removal
-const removeItemsbyID = [
+const removeRecipebyRecipeID = [
   'thermal:fire_charge/enderium_ingot_2',
   'cb_microblock:stone_rod',
   'cyclic:netherite_ingot',
@@ -198,8 +198,6 @@ const removeItemsbyID = [
   'cyclic:compressed_cobblestone_u',
   'minecraft:cobblestone_from_compressed_cobblestone',
   'mysticalagradditions:essence/neutronium_nugget',
-  'extrastorage:advanced_exporter',
-  'extrastorage:advanced_importer',
   'cyclic:guide_book',
   'cyclic:dropper',
   'cyclic:crusher',
@@ -346,6 +344,7 @@ const removeItemsbyID = [
   'enderio:smelting/refinedstorage/silicon',
   'voidminers:the_end/tier8_miner/ultimate_stellar_core',
   'avaritia:neutron_ring',
+  'avaritia:infinity_ring',
   'extendedae_plus:wireless_transceiver',
   'extendedae_plus:entity_speed_ticker',
   'avaritia:blaze_cube',
@@ -611,7 +610,7 @@ const removeItemsbyID = [
   '',
 ];
 //#region Type removal
-const removeItemsbyType = [
+const removeRecipebyType = [
   'cyclic:crusher',
   'cyclic:packager',
   'thermal:insolator',
@@ -634,15 +633,36 @@ const removeItemsbyType = [
 
 //Function to remove the items above
 ServerEvents.recipes((event) => {
-  removeItemsbyOutput.forEach((item) => event.remove({ output: item }));
-  removeItemsbyID.forEach((item) => event.remove({ id: item }));
-  removeItemsbyType.forEach((item) => event.remove({ type: item }));
+  removeRecipebyOutput.forEach((item) => event.remove({ output: item }));
+  removeRecipebyRecipeID.forEach((item) => event.remove({ id: item }));
+  removeRecipebyType.forEach((item) => event.remove({ type: item }));
   event.remove({
     input: 'avaritia:diamond_lattice',
     output: 'avaritia:crystal_matrix_ingot',
   });
   event.remove({
     mod: 'libraryferret',
+  });
+  event.remove({
+    mod: 'refinedstorage',
+  });
+  event.remove({
+    mod: 'rsinfinitybooster',
+  });
+  event.remove({
+    mod: 'extrastorage',
+  });
+  event.remove({
+    mod: 'rsrequestify',
+  });
+  event.remove({
+    mod: 'universalgrid',
+  });
+  event.remove({
+    mod: 'refinedstorageaddons',
+  });
+  event.remove({
+    mod: 'rftoolsdim',
   });
   event.remove({
     input: 'mysticalagriculture:saltpeter_essence',

@@ -345,6 +345,35 @@ MMEvents.createProcesses((event) => {
         count: 1,
       },
     });
+  
+  //ender pearl -> dust
+  event
+    .create('mm:ender_pearl_dust_recipe1_5')
+    .structureId('mm:auto_crusher_structure1.5')
+    .ticks(8)
+    .input({
+      type: 'mm:input/consume',
+      ingredient: {
+        type: 'mm:item',
+        item: 'minecraft:ender_pearl',
+        count: 1,
+      },
+    })
+    .input({
+      type: 'mm:input/consume',
+      ingredient: {
+        type: 'mm:energy',
+        amount: 10000,
+      },
+    })
+    .output({
+      type: 'mm:output/simple',
+      ingredient: {
+        type: 'mm:item',
+        item: 'thermal:ender_pearl_dust',
+        count: 1,
+      },
+    });
 
   //grains of piezallity
   event
@@ -483,7 +512,7 @@ MMEvents.createProcesses((event) => {
       ingredient: {
         type: 'mm:item',
         item: 'justdirethings:raw_eclipsealloy',
-        count: 16,
+        count: 64,
       },
     });
 });

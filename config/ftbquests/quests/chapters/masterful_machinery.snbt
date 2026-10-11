@@ -11,128 +11,128 @@
 			image: "industrialforegoing:item/pink_slime_ingot"
 			rotation: 0.0d
 			width: 1.0d
-			x: 5.0d
-			y: 5.0d
+			x: 7d
+			y: 7d
 		}
 		{
 			height: 1.0d
 			image: "draconicevolution:item/components/awakened_core"
 			rotation: 0.0d
 			width: 1.0d
-			x: 0.0d
-			y: -6.0d
+			x: 0d
+			y: -8.4d
 		}
 		{
 			height: 1.0d
 			image: "draconicadditions:textures/gui/chaos.png"
 			rotation: 0.0d
 			width: 1.0d
-			x: -2.5d
-			y: -6.0d
+			x: -3.5d
+			y: -8.4d
 		}
 		{
 			height: 1.0d
 			image: "kubejs:block/misc/empowered_super_block"
 			rotation: 0.0d
 			width: 1.0d
-			x: 2.5d
-			y: -6.0d
+			x: 3.5d
+			y: -8.4d
 		}
 		{
 			height: 1.0d
 			image: "kubejs:item/ultimate_prediction"
 			rotation: 0.0d
 			width: 1.0d
-			x: -5.0d
-			y: -5.0d
+			x: -7d
+			y: -7d
 		}
 		{
 			height: 1.0d
 			image: "draconicevolution:item/components/dragon_heart"
 			rotation: 0.0d
 			width: 1.0d
-			x: -6.0d
-			y: -2.5d
+			x: -8.4d
+			y: -3.5d
 		}
 		{
 			height: 1.0d
 			image: "exdeorum:item/iron_ore_chunk"
 			rotation: 0.0d
 			width: 1.0d
-			x: -6.0d
-			y: 2.5d
+			x: -8.4d
+			y: 3.5d
 		}
 		{
 			height: 1.0d
 			image: "minecraft:block/gravel"
 			rotation: 0.0d
 			width: 1.0d
-			x: -5.0d
-			y: 5.0d
+			x: -7d
+			y: 7d
 		}
 		{
 			height: 1.0d
 			image: "kubejs:item/mysticalagriculture/infinity_essence"
 			rotation: 0.0d
 			width: 1.0d
-			x: -2.5d
-			y: 6.0d
+			x: -3.5d
+			y: 8.4d
 		}
 		{
 			height: 1.0d
 			image: "rftoolsutility:item/envmodules/waterbreathingmoduleitem"
 			rotation: 0.0d
 			width: 1.0d
-			x: 2.5d
-			y: 6.0d
+			x: 3.5d
+			y: 8.4d
 		}
 		{
 			height: 1.0d
 			image: "armorplus:item/infused_lava_crystal"
 			rotation: 0.0d
 			width: 1.0d
-			x: 0.0d
-			y: 6.0d
+			x: 0d
+			y: 8.4d
 		}
 		{
 			height: 1.0d
 			image: "mekanism:item/pellet_antimatter"
 			rotation: 0.0d
 			width: 1.0d
-			x: 6.0d
-			y: 2.5d
+			x: 8.4d
+			y: 3.5d
 		}
 		{
 			height: 1.0d
 			image: "mysticalagriculture:item/master_infusion_crystal"
 			rotation: 0.0d
 			width: 1.0d
-			x: 5.0d
-			y: -5.0d
+			x: 7d
+			y: -7d
 		}
 		{
 			height: 1.0d
 			image: "avaritia:item/resource/singularity/eternal_singularity2"
 			rotation: 0.0d
 			width: 1.0d
-			x: 6.0d
-			y: -2.5d
+			x: 8.4d
+			y: -3.5d
 		}
 		{
 			height: 1.0d
 			image: "ae2omnicells:item/portable_cell_quantum_housing"
 			rotation: 0.0d
 			width: 1.0d
-			x: 6.0d
-			y: 0.0d
+			x: 8.4d
+			y: 0d
 		}
 		{
 			height: 1.0d
 			image: "avaritia:block/machine/compressor/compressor_front"
 			rotation: 0.0d
 			width: 1.0d
-			x: -6.0d
-			y: 0.0d
+			x: -8.4d
+			y: 0d
 		}
 		{
 			height: 1.0d
@@ -164,6 +164,8 @@
 				"{ftbquests.chapter.masterful_machinery.quest4402587B0EAC4EEC.description4}"
 				""
 				"{ftbquests.chapter.masterful_machinery.quest4402587B0EAC4EEC.description5}"
+				""
+				"&2Multiblock quests updated by Sn0wye.&r"
 			]
 			hide_dependent_lines: true
 			id: "4402587B0EAC4EEC"
@@ -192,9 +194,18 @@
 		{
 			dependencies: ["4402587B0EAC4EEC"]
 			description: [
-				"{ftbquests.chapter.masterful_machinery.quest363152D3E6DCCBA7.description1}"
+				"The Event Horizon Antimatter Synthesizer is a powerful alternative to produce Mekanism Antimatter. It is recommended to use multiple Synthesizers together with a Naquadah Reactor (see the &eMekanism&r chapter)."
+				"JEI shows all replacement recipes under the uses of the Controller."
 				""
-				"{ftbquests.chapter.masterful_machinery.quest363152D3E6DCCBA7.description2}"
+				"&eController:&r a &6Supreme Purifying Factory&r (Mekanism Extras) and an &6Antiprotonic Nucleosynthesizer&r (Mekanism), plus the usual 2 Redstone Servos, 2 Redstone Reception Coils, 2 Cobalt Blocks and a Manasteel Ingot."
+				"{@pagebreak}"
+				"&eStructure:&r every block is listed as a task. Check the structure preview in JEI (uses of the Controller) or let a &eMultiblock Builder&r place it for you."
+				""
+				"&ePorts:&r a recipe only starts if its inputs and outputs fit in the ports, so these are the sizes that run every recipe:"
+				"- 2x Fluid Input: &eSmall&r or bigger"
+				"- 2x Fluid Output: &eSmall&r or bigger"
+				""
+				"The Gigantic Energy and Colossal Gas ports are fixed parts of the structure and are listed as tasks."
 			]
 			id: "363152D3E6DCCBA7"
 			rewards: [{
@@ -209,8 +220,113 @@
 					type: "item"
 				}
 				{
-					id: "7B221F7449BFB220"
-					item: "mekanism_extras:naquadah_reactor_controller"
+					count: 36L
+					id: "0AE35FBCF01CE8EE"
+					item: "kubejs:starmetal_block"
+					type: "item"
+				}
+				{
+					count: 24L
+					id: "6E8EB77141DA9F90"
+					item: "chisel_chipped_integration:factory_blue_framed_circuit"
+					type: "item"
+				}
+				{
+					count: 115L
+					id: "66DCABF1AFF3BC05"
+					item: "ae2:quartz_glass"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "333343AB3E7B5365"
+					item: "mm:gigantic_energy_port_input"
+					type: "item"
+				}
+				{
+					count: 6L
+					id: "4CD4E63FBC99FCD7"
+					item: "mekanism:supercharged_coil"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "30176B1522A422A8"
+					item: "mm:colossal_gas_port_input"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "1EE149DA095E1F38"
+					item: "mm:colossal_gas_port_output"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "7F63081282E9ABCA"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "mm:small_fluid_port_input"
+								}
+								{
+									Count: 1b
+									id: "mm:normal_fluid_port_input"
+								}
+								{
+									Count: 1b
+									id: "mm:big_fluid_port_input"
+								}
+								{
+									Count: 1b
+									id: "mm:enormous_fluid_port_input"
+								}
+								{
+									Count: 1b
+									id: "mm:gigantic_fluid_port_input"
+								}
+							]
+						}
+					}
+					title: "Fluid Input Port (Small or bigger)"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "445FF09769A4030C"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "mm:small_fluid_port_output"
+								}
+								{
+									Count: 1b
+									id: "mm:normal_fluid_port_output"
+								}
+								{
+									Count: 1b
+									id: "mm:big_fluid_port_output"
+								}
+								{
+									Count: 1b
+									id: "mm:enormous_fluid_port_output"
+								}
+								{
+									Count: 1b
+									id: "mm:gigantic_fluid_port_output"
+								}
+							]
+						}
+					}
+					title: "Fluid Output Port (Small or bigger)"
 					type: "item"
 				}
 			]
@@ -220,14 +336,23 @@
 		{
 			dependencies: ["4402587B0EAC4EEC"]
 			description: [
-				"{ftbquests.chapter.masterful_machinery.quest3F6F01364D47157D.description1}"
+				"The Fire Attuned Machine offers a few high temperature recipes:"
+				"- Bulk Lava from Cobblestone"
+				"- Life Essence from &aTerrasteel&r (skips the Blood Altar grind)"
+				"- Late game fluids: &dEther Gas&r, &dLiquid Sculk Matter&r, &dLiquid Dragon Breath&r, &dQuantum Infusion Source&r"
 				""
-				"{ftbquests.chapter.masterful_machinery.quest3F6F01364D47157D.description2}"
-				"{ftbquests.chapter.masterful_machinery.quest3F6F01364D47157D.description3}"
-				"{ftbquests.chapter.masterful_machinery.quest3F6F01364D47157D.description4}"
-				"{ftbquests.chapter.masterful_machinery.quest3F6F01364D47157D.description5}"
+				"&eController:&r a &6Celestigem&r (Just Dire Things, quested in the &eAllTheModium&r chapter) and a &6Nitro Crystal&r (&ePowah&r, needs a Nether Star), plus the usual 2 Redstone Servos, 2 Redstone Reception Coils, 2 Cobalt Blocks and a Manasteel Ingot."
+				"{@pagebreak}"
+				"&eFire Attuned Machine Tier 1 structure:&r every block is listed as a task. Check the structure preview in JEI (uses of the Controller) or let a &eMultiblock Builder&r place it for you."
 				""
-				"{ftbquests.chapter.masterful_machinery.quest3F6F01364D47157D.description6}"
+				"&ePorts:&r a recipe only starts if its inputs and outputs fit in the ports. These sizes run most recipes; the few that need bigger ports are named:"
+				"- 1x Energy Input: &eBig&r or bigger &7(up to &eGigantic&7 for: Ether Gas, Energized Crystal Dust)&r"
+				"- 1x Item Output: &eSmall&r or bigger &7(Tiny runs 1 of 2 recipes)&r"
+				"- 1x Item Input: &eSmall&r or bigger &7(Tiny runs 4 of 9 recipes)&r"
+				"- 1x Fluid Input: &eSmall&r or bigger"
+				"- 1x Fluid Output: &eSmall&r or bigger"
+				""
+				"Higher tiers are optional upgrades, see the quests further out."
 			]
 			id: "3F6F01364D47157D"
 			rewards: [{
@@ -242,8 +367,198 @@
 					type: "item"
 				}
 				{
-					id: "7BD0030093AB34F0"
-					item: "minecraft:lava_bucket"
+					count: 2L
+					id: "1F11CA02F3A6A98D"
+					item: "chisel_chipped_integration:factory_blue_framed_circuit"
+					type: "item"
+				}
+				{
+					id: "51FDACD1B8AE9C2A"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "mm:big_energy_port_input"
+								}
+								{
+									Count: 1b
+									id: "mm:enormous_energy_port_input"
+								}
+								{
+									Count: 1b
+									id: "mm:gigantic_energy_port_input"
+								}
+							]
+						}
+					}
+					title: "Energy Input Port (Big or bigger)"
+					type: "item"
+				}
+				{
+					id: "753F7A7B52EFFAD6"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "mm:small_item_port_output"
+								}
+								{
+									Count: 1b
+									id: "mm:normal_item_port_output"
+								}
+								{
+									Count: 1b
+									id: "mm:big_item_port_output"
+								}
+								{
+									Count: 1b
+									id: "mm:enormous_item_port_output"
+								}
+								{
+									Count: 1b
+									id: "mm:gigantic_item_port_output"
+								}
+								{
+									Count: 1b
+									id: "mm:colossal_item_port_output"
+								}
+								{
+									Count: 1b
+									id: "mm:titanic_item_port_output"
+								}
+								{
+									Count: 1b
+									id: "mm:compressed_titanic_item_port_output"
+								}
+								{
+									Count: 1b
+									id: "mm:super_compressed_titanic_item_port_output"
+								}
+							]
+						}
+					}
+					title: "Item Output Port (Small or bigger)"
+					type: "item"
+				}
+				{
+					id: "2C727BE55276674A"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "mm:small_item_port_input"
+								}
+								{
+									Count: 1b
+									id: "mm:normal_item_port_input"
+								}
+								{
+									Count: 1b
+									id: "mm:big_item_port_input"
+								}
+								{
+									Count: 1b
+									id: "mm:enormous_item_port_input"
+								}
+								{
+									Count: 1b
+									id: "mm:gigantic_item_port_input"
+								}
+								{
+									Count: 1b
+									id: "mm:colossal_item_port_input"
+								}
+								{
+									Count: 1b
+									id: "mm:titanic_item_port_input"
+								}
+								{
+									Count: 1b
+									id: "mm:compressed_titanic_item_port_input"
+								}
+								{
+									Count: 1b
+									id: "mm:super_compressed_titanic_item_port_input"
+								}
+							]
+						}
+					}
+					title: "Item Input Port (Small or bigger)"
+					type: "item"
+				}
+				{
+					id: "11A86F6F5BB2A697"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "mm:small_fluid_port_input"
+								}
+								{
+									Count: 1b
+									id: "mm:normal_fluid_port_input"
+								}
+								{
+									Count: 1b
+									id: "mm:big_fluid_port_input"
+								}
+								{
+									Count: 1b
+									id: "mm:enormous_fluid_port_input"
+								}
+								{
+									Count: 1b
+									id: "mm:gigantic_fluid_port_input"
+								}
+							]
+						}
+					}
+					title: "Fluid Input Port (Small or bigger)"
+					type: "item"
+				}
+				{
+					id: "701319047797E7C1"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "mm:small_fluid_port_output"
+								}
+								{
+									Count: 1b
+									id: "mm:normal_fluid_port_output"
+								}
+								{
+									Count: 1b
+									id: "mm:big_fluid_port_output"
+								}
+								{
+									Count: 1b
+									id: "mm:enormous_fluid_port_output"
+								}
+								{
+									Count: 1b
+									id: "mm:gigantic_fluid_port_output"
+								}
+							]
+						}
+					}
+					title: "Fluid Output Port (Small or bigger)"
 					type: "item"
 				}
 			]
@@ -251,15 +566,141 @@
 			y: 4.0d
 		}
 		{
+			dependencies: ["3F6F01364D47157D"]
+			description: [
+				"Upgrades the Fire Attuned Machine from Tier 1 to Tier 2."
+				""
+				"&eSwap:&r take out 1x Factory Blue Framed Circuit and put the blocks from the tasks in their place."
+				""
+				"&ePorts:&r this tier needs bigger ports to run all its recipes:"
+				"- 1x Energy Input: &eGigantic&r &7(Enormous runs 8 of 11 recipes)&r"
+				"- 1x Item Output: &eGigantic&r or bigger &7(Enormous runs 2 of 3 recipes)&r"
+				"- 1x Item Input: &eBig&r or bigger &7(Normal runs 10 of 11 recipes)&r"
+				""
+				"Tier 2 runs much bigger batches (about 5-10x per craft), runs faster and unlocks &dLiquid Malic Acid&r from apples."
+				"A Tier 2 build only runs Tier 2 recipes, so make sure your inputs and power can keep up."
+				""
+				"Check the structure preview in JEI (uses of the Controller) for the exact layout."
+			]
+			id: "11A1BCC8C45E26A9"
+			optional: true
+			rewards: [{
+				id: "4934A75F738FC2A2"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			size: 0.75d
+			tasks: [
+				{
+					id: "56B9E20341DF1C7D"
+					item: "avaritia:neutron"
+					type: "item"
+				}
+				{
+					id: "0779FF92BFC7D64A"
+					item: "mm:gigantic_energy_port_input"
+					type: "item"
+				}
+				{
+					id: "120EF35E462E3376"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "mm:gigantic_item_port_output"
+								}
+								{
+									Count: 1b
+									id: "mm:colossal_item_port_output"
+								}
+								{
+									Count: 1b
+									id: "mm:titanic_item_port_output"
+								}
+								{
+									Count: 1b
+									id: "mm:compressed_titanic_item_port_output"
+								}
+								{
+									Count: 1b
+									id: "mm:super_compressed_titanic_item_port_output"
+								}
+							]
+						}
+					}
+					title: "Item Output Port (Gigantic or bigger)"
+					type: "item"
+				}
+				{
+					id: "089CD7EB1D3C0CC0"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "mm:big_item_port_input"
+								}
+								{
+									Count: 1b
+									id: "mm:enormous_item_port_input"
+								}
+								{
+									Count: 1b
+									id: "mm:gigantic_item_port_input"
+								}
+								{
+									Count: 1b
+									id: "mm:colossal_item_port_input"
+								}
+								{
+									Count: 1b
+									id: "mm:titanic_item_port_input"
+								}
+								{
+									Count: 1b
+									id: "mm:compressed_titanic_item_port_input"
+								}
+								{
+									Count: 1b
+									id: "mm:super_compressed_titanic_item_port_input"
+								}
+							]
+						}
+					}
+					title: "Item Input Port (Big or bigger)"
+					type: "item"
+				}
+			]
+			title: "Fire Attuned: Tier 2 Upgrade"
+			x: 0d
+			y: 5.25d
+		}
+		{
 			dependencies: [
 				"4402587B0EAC4EEC"
 				"45FD2226287B545E"
 			]
 			description: [
-				"{ftbquests.chapter.masterful_machinery.quest74D33264B4291BCB.description1}"
-				"{ftbquests.chapter.masterful_machinery.quest74D33264B4291BCB.description2}"
+				"The Loot Fabrication Plant produces loot from mob predictions."
+				"Unlike the Loot Fabricator you don't choose an item in the GUI but place the desired item in the input port along with the predictions. The \"blueprint\" item is not consumed."
+				"For all available loot fabrications look up the uses of the Controller."
 				""
-				"{ftbquests.chapter.masterful_machinery.quest74D33264B4291BCB.description3}"
+				"&eController:&r a &6Simulator Modeling&r and a &6Merger Camera&r (Extra Hostile Neural Networks, see the &eHostile Neural Networks&r chapter), plus the usual 2 Redstone Servos, 2 Redstone Reception Coils, 2 Cobalt Blocks and a Manasteel Ingot."
+				"{@pagebreak}"
+				"&eLoot Fabrication Plant Tier 1 structure:&r every block is listed as a task. Check the structure preview in JEI (uses of the Controller) or let a &eMultiblock Builder&r place it for you."
+				""
+				"&ePorts:&r a recipe only starts if its inputs and outputs fit in the ports, so these are the sizes that run every recipe:"
+				"- 1x Item Input: &eNormal&r or bigger"
+				"- 1x Item Output: &eCompressed Titanic&r or bigger &7(Titanic runs 80 of 201 recipes)&r"
+				""
+				"Each craft returns a huge pile of loot, so the output port has to be big. Smaller output ports only run the recipes with small outputs."
+				""
+				"Higher tiers are optional upgrades, see the quests further out."
 			]
 			id: "74D33264B4291BCB"
 			rewards: [{
@@ -274,8 +715,132 @@
 					type: "item"
 				}
 				{
-					id: "28255F342524AC35"
-					item: "allthemodium:piglich_heart"
+					count: 16L
+					id: "35B813163C6585B6"
+					item: "evolvedmekanism:apt_casing"
+					type: "item"
+				}
+				{
+					count: 47L
+					id: "010701F3A2490B8D"
+					item: "actuallyadditions:ender_casing"
+					type: "item"
+				}
+				{
+					count: 36L
+					id: "3D5D8FCC8BCF3F5C"
+					item: "ae2:quartz_glass"
+					type: "item"
+				}
+				{
+					id: "0E69E18902F0FE51"
+					item: "mekanism:block_refined_glowstone"
+					type: "item"
+				}
+				{
+					count: 22L
+					id: "5E40A3698245F2B9"
+					item: "chisel_chipped_integration:factory_blue_framed_circuit"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "6F2343661764DB34"
+					item: "extrahnn:ultimate_loot_fabricator_v1"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "40087A310A1F08E3"
+					item: "extrahnn:ultimate_sim_chamber_v1"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "2EDF58235633DA33"
+					item: "extrahnn:simulator_modeling"
+					type: "item"
+				}
+				{
+					id: "78993D57D0774959"
+					item: "mm:gigantic_energy_port_input"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "4D6C4A5582F6008D"
+					item: "chisel_chipped_integration:laboratory_small_steel"
+					type: "item"
+				}
+				{
+					id: "709527BA7FB63715"
+					item: "botanicalextramachinery:crimson_dragonstone_block"
+					type: "item"
+				}
+				{
+					id: "45101DC7D3BDE912"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "mm:normal_item_port_input"
+								}
+								{
+									Count: 1b
+									id: "mm:big_item_port_input"
+								}
+								{
+									Count: 1b
+									id: "mm:enormous_item_port_input"
+								}
+								{
+									Count: 1b
+									id: "mm:gigantic_item_port_input"
+								}
+								{
+									Count: 1b
+									id: "mm:colossal_item_port_input"
+								}
+								{
+									Count: 1b
+									id: "mm:titanic_item_port_input"
+								}
+								{
+									Count: 1b
+									id: "mm:compressed_titanic_item_port_input"
+								}
+								{
+									Count: 1b
+									id: "mm:super_compressed_titanic_item_port_input"
+								}
+							]
+						}
+					}
+					title: "Item Input Port (Normal or bigger)"
+					type: "item"
+				}
+				{
+					id: "082DFCC9A97CA88E"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "mm:compressed_titanic_item_port_output"
+								}
+								{
+									Count: 1b
+									id: "mm:super_compressed_titanic_item_port_output"
+								}
+							]
+						}
+					}
+					title: "Item Output Port (Compressed Titanic or bigger)"
 					type: "item"
 				}
 			]
@@ -283,16 +848,102 @@
 			y: -1.5d
 		}
 		{
+			dependencies: ["74D33264B4291BCB"]
+			description: [
+				"Upgrades the Loot Fabrication Plant from Tier 1 to Tier 2."
+				""
+				"&eChanges:&r take out 2x Ultimate Loot Fabricator V1, 2x Ultimate Sim Chamber V1, 1x Crimson Dragonstone Block, then add the blocks from the tasks."
+				""
+				"&ePorts:&r this tier needs bigger ports to run all its recipes:"
+				"- 1x Item Input: &eCompressed Titanic&r or bigger"
+				"- 1x Item Output: &eSuper Compressed Titanic&r &7(Compressed Titanic runs 46 of 201 recipes)&r"
+				""
+				"Tier 2 turns 32x more predictions into loot per craft and finishes a craft every tick."
+				""
+				"Check the structure preview in JEI (uses of the Controller) for the exact layout."
+			]
+			id: "05DACDD9D82ED9A2"
+			optional: true
+			rewards: [{
+				id: "63FC1B9DE9A1BB58"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			size: 0.75d
+			tasks: [
+				{
+					count: 2L
+					id: "7ABBAEB158AA4706"
+					item: "extrahnn:ultimate_loot_fabricator_v4"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "00B34E7DA854EC78"
+					item: "extrahnn:ultimate_sim_chamber_v4"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "280F688DD029559F"
+					item: "extrahnn:merger_camera"
+					type: "item"
+				}
+				{
+					id: "3A773E2CAE01C70D"
+					item: "kubejs:infinity_6_block"
+					type: "item"
+				}
+				{
+					id: "0E6182F39D99D070"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "mm:compressed_titanic_item_port_input"
+								}
+								{
+									Count: 1b
+									id: "mm:super_compressed_titanic_item_port_input"
+								}
+							]
+						}
+					}
+					title: "Item Input Port (Compressed Titanic or bigger)"
+					type: "item"
+				}
+				{
+					id: "4CCAE74512C2BDF6"
+					item: "mm:super_compressed_titanic_item_port_output"
+					type: "item"
+				}
+			]
+			title: "Loot Fabrication Plant: Tier 2 Upgrade"
+			x: -5.17d
+			y: -1.94d
+		}
+		{
 			dependencies: [
 				"4402587B0EAC4EEC"
 				"33B09B78983BA676"
 			]
 			description: [
-				"{ftbquests.chapter.masterful_machinery.quest59290400D20A1EB2.description1}"
+				"The Prediction Chamber Machine is the big brother to the (Extra) Hostile Neural Networks Simulation Chambers."
+				"It needs &6Prediction Matrices&r and an Extra Data Model (Tier: Omnipotent) of a single mob to run."
+				"For all usable Data Models look up the uses of the Controller."
 				""
-				"{ftbquests.chapter.masterful_machinery.quest59290400D20A1EB2.description2}"
+				"&eController:&r a &6Merger Camera&r and a &6Simulator Modeling&r (see the &eHostile Neural Networks&r chapter), plus the usual 2 Redstone Servos, 2 Redstone Reception Coils, 2 Cobalt Blocks and a Manasteel Ingot."
+				"{@pagebreak}"
+				"&ePrediction Chamber Tier 1 structure:&r every block is listed as a task. Check the structure preview in JEI (uses of the Controller) or let a &eMultiblock Builder&r place it for you."
 				""
-				"{ftbquests.chapter.masterful_machinery.quest59290400D20A1EB2.description3}"
+				"&ePorts:&r a recipe only starts if its inputs and outputs fit in the ports, so these are the sizes that run every recipe:"
+				"- 2x Item Output: &eNormal&r or bigger"
+				"- 2x Item Input: &eSmall&r or bigger"
+				""
+				"Higher tiers are optional upgrades, see the quests further out."
 			]
 			id: "59290400D20A1EB2"
 			rewards: [
@@ -315,8 +966,146 @@
 					type: "item"
 				}
 				{
-					id: "7364569F1C38C6FC"
-					item: "hostilenetworks:prediction_matrix"
+					count: 16L
+					id: "73234FC930FF9D96"
+					item: "actuallyadditions:ender_casing"
+					type: "item"
+				}
+				{
+					count: 42L
+					id: "0C81D8B2639A7D9F"
+					item: "evolvedmekanism:apt_casing"
+					type: "item"
+				}
+				{
+					count: 36L
+					id: "664C8E7670490513"
+					item: "ae2:quartz_glass"
+					type: "item"
+				}
+				{
+					count: 6L
+					id: "5C4A2199609105F9"
+					item: "mekanism:supercharged_coil"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "3A2CA663ED230150"
+					item: "extrahnn:ultimate_loot_fabricator_v4"
+					type: "item"
+				}
+				{
+					id: "6BE0CA1E052DDB93"
+					item: "botanicalextramachinery:crimson_dragonstone_block"
+					type: "item"
+				}
+				{
+					count: 17L
+					id: "10D29344003DD587"
+					item: "chisel_chipped_integration:factory_blue_framed_circuit"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "53C7D95A91C3B26C"
+					item: "mm:gigantic_energy_port_input"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "3B8EB9840D01A251"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "mm:normal_item_port_output"
+								}
+								{
+									Count: 1b
+									id: "mm:big_item_port_output"
+								}
+								{
+									Count: 1b
+									id: "mm:enormous_item_port_output"
+								}
+								{
+									Count: 1b
+									id: "mm:gigantic_item_port_output"
+								}
+								{
+									Count: 1b
+									id: "mm:colossal_item_port_output"
+								}
+								{
+									Count: 1b
+									id: "mm:titanic_item_port_output"
+								}
+								{
+									Count: 1b
+									id: "mm:compressed_titanic_item_port_output"
+								}
+								{
+									Count: 1b
+									id: "mm:super_compressed_titanic_item_port_output"
+								}
+							]
+						}
+					}
+					title: "Item Output Port (Normal or bigger)"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "6930A242AD9B56E1"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "mm:small_item_port_input"
+								}
+								{
+									Count: 1b
+									id: "mm:normal_item_port_input"
+								}
+								{
+									Count: 1b
+									id: "mm:big_item_port_input"
+								}
+								{
+									Count: 1b
+									id: "mm:enormous_item_port_input"
+								}
+								{
+									Count: 1b
+									id: "mm:gigantic_item_port_input"
+								}
+								{
+									Count: 1b
+									id: "mm:colossal_item_port_input"
+								}
+								{
+									Count: 1b
+									id: "mm:titanic_item_port_input"
+								}
+								{
+									Count: 1b
+									id: "mm:compressed_titanic_item_port_input"
+								}
+								{
+									Count: 1b
+									id: "mm:super_compressed_titanic_item_port_input"
+								}
+							]
+						}
+					}
+					title: "Item Input Port (Small or bigger)"
 					type: "item"
 				}
 			]
@@ -324,8 +1113,119 @@
 			y: -3.0d
 		}
 		{
+			dependencies: ["59290400D20A1EB2"]
+			description: [
+				"Upgrades the Prediction Chamber from Tier 1 to Tier 2."
+				""
+				"&eSwap:&r take out 1x Crimson Dragonstone Block and put the blocks from the tasks in their place."
+				""
+				"&ePorts:&r this tier needs bigger ports to run all its recipes:"
+				"- 2x Item Output: &eTitanic&r or bigger"
+				"- 2x Item Input: &eEnormous&r or bigger"
+				""
+				"Tier 2 makes many more predictions per craft and finishes a craft every tick instead of every 5 seconds."
+				""
+				"Check the structure preview in JEI (uses of the Controller) for the exact layout."
+			]
+			id: "30FEA8AED1C0A7D0"
+			optional: true
+			rewards: [{
+				id: "450D1E8F59A68CC2"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			size: 0.75d
+			tasks: [
+				{
+					id: "4DDE2C3AD8EF06C0"
+					item: "kubejs:infinity_6_block"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "2BF856949DCCA257"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "mm:titanic_item_port_output"
+								}
+								{
+									Count: 1b
+									id: "mm:compressed_titanic_item_port_output"
+								}
+								{
+									Count: 1b
+									id: "mm:super_compressed_titanic_item_port_output"
+								}
+							]
+						}
+					}
+					title: "Item Output Port (Titanic or bigger)"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "4F9F15E279C4BF22"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "mm:enormous_item_port_input"
+								}
+								{
+									Count: 1b
+									id: "mm:gigantic_item_port_input"
+								}
+								{
+									Count: 1b
+									id: "mm:colossal_item_port_input"
+								}
+								{
+									Count: 1b
+									id: "mm:titanic_item_port_input"
+								}
+								{
+									Count: 1b
+									id: "mm:compressed_titanic_item_port_input"
+								}
+								{
+									Count: 1b
+									id: "mm:super_compressed_titanic_item_port_input"
+								}
+							]
+						}
+					}
+					title: "Item Input Port (Enormous or bigger)"
+					type: "item"
+				}
+			]
+			title: "Prediction Chamber: Tier 2 Upgrade"
+			x: -3.88d
+			y: -3.88d
+		}
+		{
 			dependencies: ["4402587B0EAC4EEC"]
-			description: ["{ftbquests.chapter.masterful_machinery.quest1E051F9FF87E7F6C.description1}"]
+			description: [
+				"The Infinity Crucible is the way to automate renewable Draconic Evolution &6Chaos Shards&r."
+				"It also has a few massive bulk recipes (Draconium Ingots, Time Crystals) that need the biggest item ports in the game."
+				""
+				"&eController:&r a &6Starmetal Block&r and &6Black Concrete&r, plus the usual 2 Redstone Servos, 2 Redstone Reception Coils, 2 Cobalt Blocks and a Manasteel Ingot."
+				"{@pagebreak}"
+				"&eStructure:&r every block is listed as a task. Check the structure preview in JEI (uses of the Controller) or let a &eMultiblock Builder&r place it for you."
+				""
+				"&ePorts:&r a recipe only starts if its inputs and outputs fit in the ports, so these are the sizes that run every recipe:"
+				"- 1x Item Input: &eCompressed Titanic&r or bigger &7(Titanic runs 3 of 6 recipes)&r"
+				"- 1x Item Output: &eSuper Compressed Titanic&r &7(Compressed Titanic runs 3 of 6 recipes)&r"
+				""
+				"The Chaos Shard recipes only need a Normal input and a Tiny output port. The bigger ports listed are for the bulk Draconium Ingot and Time Crystal recipes."
+			]
 			id: "1E051F9FF87E7F6C"
 			rewards: [{
 				id: "43682DFFBC244C56"
@@ -339,8 +1239,95 @@
 					type: "item"
 				}
 				{
-					id: "38A0CB03FA2C32EE"
-					item: "draconicevolution:chaos_shard"
+					id: "40BCBE0A12E86733"
+					item: "cyclic:beacon_redstone"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "6DAA6566488CAEE5"
+					item: "draconicevolution:draconium_block"
+					type: "item"
+				}
+				{
+					count: 7L
+					id: "5E1B69FE0F97AE89"
+					item: "draconicevolution:awakened_draconium_block"
+					type: "item"
+				}
+				{
+					id: "01E3610CF667F17F"
+					item: "minecraft:redstone_block"
+					type: "item"
+				}
+				{
+					id: "3F9A0C4B4DF0840B"
+					item: "mm:gigantic_energy_port_input"
+					type: "item"
+				}
+				{
+					count: 12L
+					id: "739414F544F7DE93"
+					item: "kubejs:starmetal_block"
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "105A117A0B1331F6"
+					item: "ae2:quartz_glass"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "7025E8D39E023B08"
+					item: "igleelib:derium_block"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "21883BC30B379BFA"
+					item: "minecraft:black_concrete"
+					type: "item"
+				}
+				{
+					id: "58C25BB3B9E18410"
+					item: "kubejs:chaotic_essence_block"
+					type: "item"
+				}
+				{
+					id: "46DD14E405A0850C"
+					item: "mm:colossal_gas_port_input"
+					type: "item"
+				}
+				{
+					id: "170B5FE0861F66F5"
+					item: "draconicevolution:reactor_stabilizer"
+					type: "item"
+				}
+				{
+					id: "648B66CA137CC34C"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "mm:compressed_titanic_item_port_input"
+								}
+								{
+									Count: 1b
+									id: "mm:super_compressed_titanic_item_port_input"
+								}
+							]
+						}
+					}
+					title: "Item Input Port (Compressed Titanic or bigger)"
+					type: "item"
+				}
+				{
+					id: "55C4D13E1A0F483E"
+					item: "mm:super_compressed_titanic_item_port_output"
 					type: "item"
 				}
 			]
@@ -349,7 +1336,21 @@
 		}
 		{
 			dependencies: ["4402587B0EAC4EEC"]
-			description: ["{ftbquests.chapter.masterful_machinery.quest76B341B45BB5DBB0.description1}"]
+			description: [
+				"The Pinky Machine accelerates the production of two pink-ish ingots: &dPink Slime Ingots&r and &dCrimson Iron Ingots&r."
+				""
+				"&eController:&r a &6Pink Slime Ingot&r and a &6Dissolution Chamber&r (see the &eIndustrial Foregoing&r chapter), plus the usual 2 Redstone Servos, 2 Redstone Reception Coils, 2 Cobalt Blocks and a Manasteel Ingot."
+				"{@pagebreak}"
+				"&ePinky Machine Tier 1 structure:&r every block is listed as a task. Check the structure preview in JEI (uses of the Controller) or let a &eMultiblock Builder&r place it for you."
+				""
+				"&ePorts:&r a recipe only starts if its inputs and outputs fit in the ports, so these are the sizes that run every recipe:"
+				"- 1x Energy Input: &eTiny&r or bigger"
+				"- 1x Item Input: &eSmall&r or bigger"
+				"- 1x Fluid Input: &eSmall&r or bigger"
+				"- 1x Item Output: &eTiny&r or bigger"
+				""
+				"Higher tiers are optional upgrades, see the quests further out."
+			]
 			id: "76B341B45BB5DBB0"
 			rewards: [{
 				id: "7433E993F86550E8"
@@ -363,8 +1364,187 @@
 					type: "item"
 				}
 				{
-					id: "73D3B2BED624820B"
-					item: "minecraft:pink_dye"
+					count: 10L
+					id: "65F7A4D16538324F"
+					item: "chisel_chipped_integration:factory_blue_framed_circuit"
+					type: "item"
+				}
+				{
+					count: 3L
+					id: "0741CCC79B3D4213"
+					item: "kubejs:pink_slime_block"
+					type: "item"
+				}
+				{
+					id: "6ED69D75BA4C3C1D"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "mm:tiny_energy_port_input"
+								}
+								{
+									Count: 1b
+									id: "mm:small_energy_port_input"
+								}
+								{
+									Count: 1b
+									id: "mm:normal_energy_port_input"
+								}
+								{
+									Count: 1b
+									id: "mm:big_energy_port_input"
+								}
+								{
+									Count: 1b
+									id: "mm:enormous_energy_port_input"
+								}
+								{
+									Count: 1b
+									id: "mm:gigantic_energy_port_input"
+								}
+							]
+						}
+					}
+					title: "Energy Input Port (Tiny or bigger)"
+					type: "item"
+				}
+				{
+					id: "522278BB6F088B18"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "mm:small_item_port_input"
+								}
+								{
+									Count: 1b
+									id: "mm:normal_item_port_input"
+								}
+								{
+									Count: 1b
+									id: "mm:big_item_port_input"
+								}
+								{
+									Count: 1b
+									id: "mm:enormous_item_port_input"
+								}
+								{
+									Count: 1b
+									id: "mm:gigantic_item_port_input"
+								}
+								{
+									Count: 1b
+									id: "mm:colossal_item_port_input"
+								}
+								{
+									Count: 1b
+									id: "mm:titanic_item_port_input"
+								}
+								{
+									Count: 1b
+									id: "mm:compressed_titanic_item_port_input"
+								}
+								{
+									Count: 1b
+									id: "mm:super_compressed_titanic_item_port_input"
+								}
+							]
+						}
+					}
+					title: "Item Input Port (Small or bigger)"
+					type: "item"
+				}
+				{
+					id: "156134A349D4DE33"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "mm:small_fluid_port_input"
+								}
+								{
+									Count: 1b
+									id: "mm:normal_fluid_port_input"
+								}
+								{
+									Count: 1b
+									id: "mm:big_fluid_port_input"
+								}
+								{
+									Count: 1b
+									id: "mm:enormous_fluid_port_input"
+								}
+								{
+									Count: 1b
+									id: "mm:gigantic_fluid_port_input"
+								}
+							]
+						}
+					}
+					title: "Fluid Input Port (Small or bigger)"
+					type: "item"
+				}
+				{
+					id: "609E222A289E15D7"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "mm:tiny_item_port_output"
+								}
+								{
+									Count: 1b
+									id: "mm:small_item_port_output"
+								}
+								{
+									Count: 1b
+									id: "mm:normal_item_port_output"
+								}
+								{
+									Count: 1b
+									id: "mm:big_item_port_output"
+								}
+								{
+									Count: 1b
+									id: "mm:enormous_item_port_output"
+								}
+								{
+									Count: 1b
+									id: "mm:gigantic_item_port_output"
+								}
+								{
+									Count: 1b
+									id: "mm:colossal_item_port_output"
+								}
+								{
+									Count: 1b
+									id: "mm:titanic_item_port_output"
+								}
+								{
+									Count: 1b
+									id: "mm:compressed_titanic_item_port_output"
+								}
+								{
+									Count: 1b
+									id: "mm:super_compressed_titanic_item_port_output"
+								}
+							]
+						}
+					}
+					title: "Item Output Port (Tiny or bigger)"
 					type: "item"
 				}
 			]
@@ -372,16 +1552,134 @@
 			y: 3.0d
 		}
 		{
+			dependencies: ["76B341B45BB5DBB0"]
+			description: [
+				"Upgrades the Pinky Machine from Tier 1 to Tier 2."
+				""
+				"&eSwap:&r take out 1x Factory Blue Framed Circuit and put the blocks from the tasks in their place."
+				""
+				"&ePorts:&r this tier needs bigger ports to run all its recipes:"
+				"- 1x Energy Input: &eNormal&r or bigger"
+				"- 1x Item Input: &eNormal&r or bigger &7(Small runs 1 of 2 recipes)&r"
+				""
+				"Tier 2 crafts 16x more per craft and finishes every tick."
+				""
+				"Check the structure preview in JEI (uses of the Controller) for the exact layout."
+			]
+			id: "2B2CEF4C08F11968"
+			optional: true
+			rewards: [{
+				id: "20BC97DC6A00CC80"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			size: 0.75d
+			tasks: [
+				{
+					id: "7213E7B175A36C06"
+					item: "avaritia:neutron"
+					type: "item"
+				}
+				{
+					id: "0A76FE9C507844FA"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "mm:normal_energy_port_input"
+								}
+								{
+									Count: 1b
+									id: "mm:big_energy_port_input"
+								}
+								{
+									Count: 1b
+									id: "mm:enormous_energy_port_input"
+								}
+								{
+									Count: 1b
+									id: "mm:gigantic_energy_port_input"
+								}
+							]
+						}
+					}
+					title: "Energy Input Port (Normal or bigger)"
+					type: "item"
+				}
+				{
+					id: "64AC3340DA12AB79"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "mm:normal_item_port_input"
+								}
+								{
+									Count: 1b
+									id: "mm:big_item_port_input"
+								}
+								{
+									Count: 1b
+									id: "mm:enormous_item_port_input"
+								}
+								{
+									Count: 1b
+									id: "mm:gigantic_item_port_input"
+								}
+								{
+									Count: 1b
+									id: "mm:colossal_item_port_input"
+								}
+								{
+									Count: 1b
+									id: "mm:titanic_item_port_input"
+								}
+								{
+									Count: 1b
+									id: "mm:compressed_titanic_item_port_input"
+								}
+								{
+									Count: 1b
+									id: "mm:super_compressed_titanic_item_port_input"
+								}
+							]
+						}
+					}
+					title: "Item Input Port (Normal or bigger)"
+					type: "item"
+				}
+			]
+			title: "Pinky: Tier 2 Upgrade"
+			x: 3.88d
+			y: 3.88d
+		}
+		{
 			dependencies: [
 				"4402587B0EAC4EEC"
 				"07CB0C4388DEBCA3"
 			]
 			description: [
-				"{ftbquests.chapter.masterful_machinery.quest50F61B9BCC25618F.description1}"
-				"{ftbquests.chapter.masterful_machinery.quest50F61B9BCC25618F.description2}"
+				"The Auto Crusher Machine provides selected hammering and crushing related recipes."
+				"Recommended as part of basic resource generation together with the Auto Sieve Machine."
+				"Not all recipes are available for all Machine Tiers. For all recipes look up the uses of the Controller."
 				""
-				"{ftbquests.chapter.masterful_machinery.quest50F61B9BCC25618F.description3}"
-				"{ftbquests.chapter.masterful_machinery.quest50F61B9BCC25618F.description4}"
+				"&eController:&r an &6Ultimate Crushing Factory&r (Mekanism) and a &6Double Crusher&r (Actually Additions), plus the usual 2 Redstone Servos, 2 Redstone Reception Coils, 2 Cobalt Blocks and a Manasteel Ingot."
+				"{@pagebreak}"
+				"&eAuto Crusher Tier 1 structure:&r every block is listed as a task. Check the structure preview in JEI (uses of the Controller) or let a &eMultiblock Builder&r place it for you."
+				""
+				"&ePorts:&r a recipe only starts if its inputs and outputs fit in the ports. These sizes run most recipes; the few that need bigger ports are named:"
+				"- 2x Item Output: &eTiny&r or bigger &7(up to &eSmall&7 for: Cobblestone)&r"
+				"- 1x Energy Input: &eTiny&r or bigger &7(up to &eSmall&7 for: Cobblestone, Raw Eclipsealloy)&r"
+				"- 2x Item Input: &eTiny&r or bigger &7(up to &eSmall&7 for: Raw Eclipsealloy)&r"
+				"- 2x Fluid Input: &eSmall&r or bigger"
+				""
+				"Higher tiers are optional upgrades, see the quests further out."
 			]
 			id: "50F61B9BCC25618F"
 			rewards: [{
@@ -396,8 +1694,220 @@
 					type: "item"
 				}
 				{
-					id: "17990D547EFB3648"
-					item: "exdeorum:mechanical_hammer"
+					count: 23L
+					id: "639287D33D28CEE0"
+					item: "chisel_chipped_integration:factory_blue_framed_circuit"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "1F54F0A50DB8A564"
+					item: "chisel_chipped_integration:technical_fan"
+					type: "item"
+				}
+				{
+					id: "13EF7BD10517DBE6"
+					item: "mekanism:block_refined_glowstone"
+					type: "item"
+				}
+				{
+					count: 6L
+					id: "038DDD5AF069BDC5"
+					item: "ae2:quartz_glass"
+					type: "item"
+				}
+				{
+					id: "2702E31C41F44D18"
+					item: "mekanism:ultimate_enriching_factory"
+					type: "item"
+				}
+				{
+					id: "5FA8EFCCB4FDE057"
+					item: "mekanism:ultimate_purifying_factory"
+					type: "item"
+				}
+				{
+					id: "0FA506CD6B9E06FC"
+					item: "mekanism:ultimate_crushing_factory"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "216E2AD0172E2F1E"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "mm:tiny_item_port_output"
+								}
+								{
+									Count: 1b
+									id: "mm:small_item_port_output"
+								}
+								{
+									Count: 1b
+									id: "mm:normal_item_port_output"
+								}
+								{
+									Count: 1b
+									id: "mm:big_item_port_output"
+								}
+								{
+									Count: 1b
+									id: "mm:enormous_item_port_output"
+								}
+								{
+									Count: 1b
+									id: "mm:gigantic_item_port_output"
+								}
+								{
+									Count: 1b
+									id: "mm:colossal_item_port_output"
+								}
+								{
+									Count: 1b
+									id: "mm:titanic_item_port_output"
+								}
+								{
+									Count: 1b
+									id: "mm:compressed_titanic_item_port_output"
+								}
+								{
+									Count: 1b
+									id: "mm:super_compressed_titanic_item_port_output"
+								}
+							]
+						}
+					}
+					title: "Item Output Port (Tiny or bigger)"
+					type: "item"
+				}
+				{
+					id: "3F4300681CA7E185"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "mm:tiny_energy_port_input"
+								}
+								{
+									Count: 1b
+									id: "mm:small_energy_port_input"
+								}
+								{
+									Count: 1b
+									id: "mm:normal_energy_port_input"
+								}
+								{
+									Count: 1b
+									id: "mm:big_energy_port_input"
+								}
+								{
+									Count: 1b
+									id: "mm:enormous_energy_port_input"
+								}
+								{
+									Count: 1b
+									id: "mm:gigantic_energy_port_input"
+								}
+							]
+						}
+					}
+					title: "Energy Input Port (Tiny or bigger)"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "40FCC6F67E966B07"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "mm:tiny_item_port_input"
+								}
+								{
+									Count: 1b
+									id: "mm:small_item_port_input"
+								}
+								{
+									Count: 1b
+									id: "mm:normal_item_port_input"
+								}
+								{
+									Count: 1b
+									id: "mm:big_item_port_input"
+								}
+								{
+									Count: 1b
+									id: "mm:enormous_item_port_input"
+								}
+								{
+									Count: 1b
+									id: "mm:gigantic_item_port_input"
+								}
+								{
+									Count: 1b
+									id: "mm:colossal_item_port_input"
+								}
+								{
+									Count: 1b
+									id: "mm:titanic_item_port_input"
+								}
+								{
+									Count: 1b
+									id: "mm:compressed_titanic_item_port_input"
+								}
+								{
+									Count: 1b
+									id: "mm:super_compressed_titanic_item_port_input"
+								}
+							]
+						}
+					}
+					title: "Item Input Port (Tiny or bigger)"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "10214E991A597C16"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "mm:small_fluid_port_input"
+								}
+								{
+									Count: 1b
+									id: "mm:normal_fluid_port_input"
+								}
+								{
+									Count: 1b
+									id: "mm:big_fluid_port_input"
+								}
+								{
+									Count: 1b
+									id: "mm:enormous_fluid_port_input"
+								}
+								{
+									Count: 1b
+									id: "mm:gigantic_fluid_port_input"
+								}
+							]
+						}
+					}
+					title: "Fluid Input Port (Small or bigger)"
 					type: "item"
 				}
 			]
@@ -405,17 +1915,476 @@
 			y: 3.0d
 		}
 		{
+			dependencies: ["50F61B9BCC25618F"]
+			description: [
+				"Upgrades the Auto Crusher from Tier 1 to Tier 1.5 (Blackstone)."
+				""
+				"&eChanges:&r take out 1x Quartz Glass, then add the blocks from the tasks."
+				""
+				"&ePorts:&r this tier needs bigger ports to run all its recipes:"
+				"- 2x Item Output: &eSmall&r or bigger &7(Tiny runs 14 of 15 recipes)&r"
+				"- 1x Energy Input: &eSmall&r or bigger &7(Tiny runs 13 of 15 recipes)&r"
+				"- 2x Item Input: &eSmall&r or bigger &7(Tiny runs 13 of 14 recipes)&r"
+				""
+				"A side upgrade of Tier 1: the same recipes plus a fast &dBlackstone&r recipe. Tier 2 builds on Tier 1, not on this one."
+				""
+				"Check the structure preview in JEI (uses of the Controller) for the exact layout."
+			]
+			id: "6A822759C2F21490"
+			optional: true
+			rewards: [{
+				id: "08F874A6C7FE4BF4"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			size: 0.75d
+			tasks: [
+				{
+					count: 98L
+					id: "739C2EB831DA3B2B"
+					item: "minecraft:blue_ice"
+					type: "item"
+				}
+				{
+					count: 98L
+					id: "07744F508D3272AF"
+					item: "exdeorum:compressed_blackstone"
+					type: "item"
+				}
+				{
+					id: "52D0D16833828EB3"
+					item: "thermal:device_rock_gen"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "50F55A4C655CEFC5"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "mm:small_item_port_output"
+								}
+								{
+									Count: 1b
+									id: "mm:normal_item_port_output"
+								}
+								{
+									Count: 1b
+									id: "mm:big_item_port_output"
+								}
+								{
+									Count: 1b
+									id: "mm:enormous_item_port_output"
+								}
+								{
+									Count: 1b
+									id: "mm:gigantic_item_port_output"
+								}
+								{
+									Count: 1b
+									id: "mm:colossal_item_port_output"
+								}
+								{
+									Count: 1b
+									id: "mm:titanic_item_port_output"
+								}
+								{
+									Count: 1b
+									id: "mm:compressed_titanic_item_port_output"
+								}
+								{
+									Count: 1b
+									id: "mm:super_compressed_titanic_item_port_output"
+								}
+							]
+						}
+					}
+					title: "Item Output Port (Small or bigger)"
+					type: "item"
+				}
+				{
+					id: "3B7AF6E4D5BEB5C4"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "mm:small_energy_port_input"
+								}
+								{
+									Count: 1b
+									id: "mm:normal_energy_port_input"
+								}
+								{
+									Count: 1b
+									id: "mm:big_energy_port_input"
+								}
+								{
+									Count: 1b
+									id: "mm:enormous_energy_port_input"
+								}
+								{
+									Count: 1b
+									id: "mm:gigantic_energy_port_input"
+								}
+							]
+						}
+					}
+					title: "Energy Input Port (Small or bigger)"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "669BFE165342BC47"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "mm:small_item_port_input"
+								}
+								{
+									Count: 1b
+									id: "mm:normal_item_port_input"
+								}
+								{
+									Count: 1b
+									id: "mm:big_item_port_input"
+								}
+								{
+									Count: 1b
+									id: "mm:enormous_item_port_input"
+								}
+								{
+									Count: 1b
+									id: "mm:gigantic_item_port_input"
+								}
+								{
+									Count: 1b
+									id: "mm:colossal_item_port_input"
+								}
+								{
+									Count: 1b
+									id: "mm:titanic_item_port_input"
+								}
+								{
+									Count: 1b
+									id: "mm:compressed_titanic_item_port_input"
+								}
+								{
+									Count: 1b
+									id: "mm:super_compressed_titanic_item_port_input"
+								}
+							]
+						}
+					}
+					title: "Item Input Port (Small or bigger)"
+					type: "item"
+				}
+			]
+			title: "Auto Crusher: Tier 1.5 (Blackstone)"
+			x: -3.88d
+			y: 3.88d
+		}
+		{
+			dependencies: ["50F61B9BCC25618F"]
+			description: [
+				"Upgrades the Auto Crusher from Tier 1 to Tier 2."
+				""
+				"&eSwap:&r take out 1x Factory Blue Framed Circuit, 1x Ultimate Enriching Factory, 1x Ultimate Purifying Factory, 1x Ultimate Crushing Factory and put the blocks from the tasks in their place."
+				""
+				"&ePorts:&r this tier needs bigger ports to run all its recipes:"
+				"- 2x Item Output: &eNormal&r or bigger &7(Small runs 13 of 14 recipes)&r"
+				"- 1x Energy Input: &eBig&r or bigger &7(Normal runs 13 of 14 recipes)&r"
+				"- 2x Item Input: &eSmall&r or bigger &7(Tiny runs 12 of 13 recipes)&r"
+				""
+				"Tier 2 swaps the Ultimate factories for Absolute ones and runs bigger, faster batches."
+				""
+				"Check the structure preview in JEI (uses of the Controller) for the exact layout."
+			]
+			id: "68505A4507846109"
+			optional: true
+			rewards: [{
+				id: "32243AA156356065"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			size: 0.75d
+			tasks: [
+				{
+					id: "100B437A8F4E0C27"
+					item: "mekanism_extras:absolute_enriching_factory"
+					type: "item"
+				}
+				{
+					id: "37167CA7CC5AB041"
+					item: "mekanism_extras:absolute_purifying_factory"
+					type: "item"
+				}
+				{
+					id: "0BD193592E97C49D"
+					item: "mekanism_extras:absolute_crushing_factory"
+					type: "item"
+				}
+				{
+					id: "76E0E2D2FE2B990D"
+					item: "voidminers:azurine_block"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "1ADD92BC2900EE71"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "mm:normal_item_port_output"
+								}
+								{
+									Count: 1b
+									id: "mm:big_item_port_output"
+								}
+								{
+									Count: 1b
+									id: "mm:enormous_item_port_output"
+								}
+								{
+									Count: 1b
+									id: "mm:gigantic_item_port_output"
+								}
+								{
+									Count: 1b
+									id: "mm:colossal_item_port_output"
+								}
+								{
+									Count: 1b
+									id: "mm:titanic_item_port_output"
+								}
+								{
+									Count: 1b
+									id: "mm:compressed_titanic_item_port_output"
+								}
+								{
+									Count: 1b
+									id: "mm:super_compressed_titanic_item_port_output"
+								}
+							]
+						}
+					}
+					title: "Item Output Port (Normal or bigger)"
+					type: "item"
+				}
+				{
+					id: "27DCFB878361390A"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "mm:big_energy_port_input"
+								}
+								{
+									Count: 1b
+									id: "mm:enormous_energy_port_input"
+								}
+								{
+									Count: 1b
+									id: "mm:gigantic_energy_port_input"
+								}
+							]
+						}
+					}
+					title: "Energy Input Port (Big or bigger)"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "5388C9B4B2952964"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "mm:small_item_port_input"
+								}
+								{
+									Count: 1b
+									id: "mm:normal_item_port_input"
+								}
+								{
+									Count: 1b
+									id: "mm:big_item_port_input"
+								}
+								{
+									Count: 1b
+									id: "mm:enormous_item_port_input"
+								}
+								{
+									Count: 1b
+									id: "mm:gigantic_item_port_input"
+								}
+								{
+									Count: 1b
+									id: "mm:colossal_item_port_input"
+								}
+								{
+									Count: 1b
+									id: "mm:titanic_item_port_input"
+								}
+								{
+									Count: 1b
+									id: "mm:compressed_titanic_item_port_input"
+								}
+								{
+									Count: 1b
+									id: "mm:super_compressed_titanic_item_port_input"
+								}
+							]
+						}
+					}
+					title: "Item Input Port (Small or bigger)"
+					type: "item"
+				}
+			]
+			title: "Auto Crusher: Tier 2 Upgrade"
+			x: -3.03d
+			y: 4.58d
+		}
+		{
+			dependencies: ["68505A4507846109"]
+			description: [
+				"Upgrades the Auto Crusher from Tier 2 to Tier 3."
+				""
+				"&eSwap:&r take out 1x Absolute Enriching Factory, 1x Absolute Purifying Factory, 1x Absolute Crushing Factory, 1x Azurine Block and put the blocks from the tasks in their place."
+				""
+				"&ePorts:&r this tier needs bigger ports to run all its recipes:"
+				"- 2x Item Output: &eColossal&r or bigger &7(Gigantic runs 13 of 14 recipes)&r"
+				"- 1x Energy Input: &eEnormous&r or bigger &7(Big runs 13 of 14 recipes)&r"
+				""
+				"Tier 3 swaps the Absolute factories for Infinite ones. The Cobblestone recipe makes 6144 Cobblestone per craft, which is why the output port is so big."
+				""
+				"Check the structure preview in JEI (uses of the Controller) for the exact layout."
+			]
+			id: "1F8A2B2DEF6BC924"
+			optional: true
+			rewards: [{
+				id: "4D0D88A3B4FAE569"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			size: 0.75d
+			tasks: [
+				{
+					id: "75A4113B10A16B99"
+					item: "mekanism_extras:infinite_enriching_factory"
+					type: "item"
+				}
+				{
+					id: "6C1DA7B104972566"
+					item: "mekanism_extras:infinite_purifying_factory"
+					type: "item"
+				}
+				{
+					id: "055FE3D5F5190EA1"
+					item: "mekanism_extras:infinite_crushing_factory"
+					type: "item"
+				}
+				{
+					id: "615B05E935D9BF08"
+					item: "botanicalextramachinery:crimson_dragonstone_block"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "536B49D33C81F6AB"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "mm:colossal_item_port_output"
+								}
+								{
+									Count: 1b
+									id: "mm:titanic_item_port_output"
+								}
+								{
+									Count: 1b
+									id: "mm:compressed_titanic_item_port_output"
+								}
+								{
+									Count: 1b
+									id: "mm:super_compressed_titanic_item_port_output"
+								}
+							]
+						}
+					}
+					title: "Item Output Port (Colossal or bigger)"
+					type: "item"
+				}
+				{
+					id: "3DA84A6B781713AD"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "mm:enormous_energy_port_input"
+								}
+								{
+									Count: 1b
+									id: "mm:gigantic_energy_port_input"
+								}
+							]
+						}
+					}
+					title: "Energy Input Port (Enormous or bigger)"
+					type: "item"
+				}
+			]
+			title: "Auto Crusher: Tier 3 Upgrade"
+			x: -4.77d
+			y: 4.77d
+		}
+		{
 			dependencies: [
 				"4402587B0EAC4EEC"
 				"07CB0C4388DEBCA3"
 			]
 			description: [
-				"{ftbquests.chapter.masterful_machinery.quest3174B21A62F4B32C.description1}"
-				"{ftbquests.chapter.masterful_machinery.quest3174B21A62F4B32C.description2}"
+				"The Auto Sieve will provide the basic resources you need in your daily skyblock adventures."
+				"Processing speed and amounts increase with Multiblock Tier. For all recipes look up the uses of the Controller."
+				"Probability-wise, processing 64 blocks in a manual sieve is better than using the Auto Sieve."
 				""
-				"{ftbquests.chapter.masterful_machinery.quest3174B21A62F4B32C.description3}"
+				"&eController:&r any &6Ex Deorum Sieve&r and an &6Auto Mechanical Sieve&r (see &eThe Beginning&r chapter), plus the usual 2 Redstone Servos, 2 Redstone Reception Coils, 2 Cobalt Blocks and a Manasteel Ingot."
+				"{@pagebreak}"
+				"&eAuto Sieve Tier 1 structure:&r every block is listed as a task. Check the structure preview in JEI (uses of the Controller) or let a &eMultiblock Builder&r place it for you."
 				""
-				"Probability-wise, processing 64 blocks in a manual sieve is better than using higher-tier auto sieves. The trade‑off is speed and automation: auto sieves are much faster and fully automatable, but they don’t increase your per‑block chances."
+				"&ePorts:&r a recipe only starts if its inputs and outputs fit in the ports. These sizes run most recipes; the few that need bigger ports are named:"
+				"- 2x Item Output: &eNormal&r or bigger &7(Small runs 3 of 8 recipes)&r"
+				"- 2x Item Input: &eTiny&r or bigger"
+				"- 2x Energy Input: &eTiny&r or bigger &7(up to &eNormal&7 for: Infinity 11)&r"
+				""
+				"Higher tiers are optional upgrades, see the quests further out."
 			]
 			id: "3174B21A62F4B32C"
 			rewards: [{
@@ -430,8 +2399,175 @@
 					type: "item"
 				}
 				{
-					id: "5DF2120FEAF830E0"
-					item: "exdeorum:mechanical_sieve"
+					count: 4L
+					id: "663F3A15F47C5427"
+					item: "chisel_chipped_integration:technical_fan"
+					type: "item"
+				}
+				{
+					count: 45L
+					id: "5883EBC27CE052E1"
+					item: "chisel_chipped_integration:factory_blue_framed_circuit"
+					type: "item"
+				}
+				{
+					count: 24L
+					id: "08273870816F7EFC"
+					item: "ae2:quartz_glass"
+					type: "item"
+				}
+				{
+					id: "272288BE9D9CEE94"
+					item: "mekanism:block_refined_glowstone"
+					type: "item"
+				}
+				{
+					id: "5B78F5A9858E273D"
+					item: "advancednetherite:netherite_diamond_block"
+					type: "item"
+				}
+				{
+					count: 9L
+					id: "173F96367B1D733A"
+					item: "kubejs:auto_mechanical_sieve"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "5A0FBB27355D5094"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "mm:normal_item_port_output"
+								}
+								{
+									Count: 1b
+									id: "mm:big_item_port_output"
+								}
+								{
+									Count: 1b
+									id: "mm:enormous_item_port_output"
+								}
+								{
+									Count: 1b
+									id: "mm:gigantic_item_port_output"
+								}
+								{
+									Count: 1b
+									id: "mm:colossal_item_port_output"
+								}
+								{
+									Count: 1b
+									id: "mm:titanic_item_port_output"
+								}
+								{
+									Count: 1b
+									id: "mm:compressed_titanic_item_port_output"
+								}
+								{
+									Count: 1b
+									id: "mm:super_compressed_titanic_item_port_output"
+								}
+							]
+						}
+					}
+					title: "Item Output Port (Normal or bigger)"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "20B3BD01CCEB6630"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "mm:tiny_item_port_input"
+								}
+								{
+									Count: 1b
+									id: "mm:small_item_port_input"
+								}
+								{
+									Count: 1b
+									id: "mm:normal_item_port_input"
+								}
+								{
+									Count: 1b
+									id: "mm:big_item_port_input"
+								}
+								{
+									Count: 1b
+									id: "mm:enormous_item_port_input"
+								}
+								{
+									Count: 1b
+									id: "mm:gigantic_item_port_input"
+								}
+								{
+									Count: 1b
+									id: "mm:colossal_item_port_input"
+								}
+								{
+									Count: 1b
+									id: "mm:titanic_item_port_input"
+								}
+								{
+									Count: 1b
+									id: "mm:compressed_titanic_item_port_input"
+								}
+								{
+									Count: 1b
+									id: "mm:super_compressed_titanic_item_port_input"
+								}
+							]
+						}
+					}
+					title: "Item Input Port (Tiny or bigger)"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "02AAB26B81542C86"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "mm:tiny_energy_port_input"
+								}
+								{
+									Count: 1b
+									id: "mm:small_energy_port_input"
+								}
+								{
+									Count: 1b
+									id: "mm:normal_energy_port_input"
+								}
+								{
+									Count: 1b
+									id: "mm:big_energy_port_input"
+								}
+								{
+									Count: 1b
+									id: "mm:enormous_energy_port_input"
+								}
+								{
+									Count: 1b
+									id: "mm:gigantic_energy_port_input"
+								}
+							]
+						}
+					}
+					title: "Energy Input Port (Tiny or bigger)"
 					type: "item"
 				}
 			]
@@ -439,11 +2575,175 @@
 			y: 1.5d
 		}
 		{
+			dependencies: ["3174B21A62F4B32C"]
+			description: [
+				"Upgrades the Auto Sieve from Tier 1 to Tier 2."
+				""
+				"&eAdd:&r the blocks from the tasks."
+				""
+				"&ePorts:&r this tier needs bigger ports to run all its recipes:"
+				"- 2x Energy Input: &eNormal&r or bigger &7(Small runs 7 of 8 recipes)&r"
+				""
+				"Tier 2 is twice as fast as Tier 1."
+				""
+				"Check the structure preview in JEI (uses of the Controller) for the exact layout."
+			]
+			id: "2AA1E6D577029E24"
+			optional: true
+			rewards: [{
+				id: "7399A91B81C779C2"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			size: 0.75d
+			tasks: [
+				{
+					id: "7E1068719A778122"
+					item: "voidminers:citrinetine_block"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "33CF19F6FC9612D2"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "mm:normal_energy_port_input"
+								}
+								{
+									Count: 1b
+									id: "mm:big_energy_port_input"
+								}
+								{
+									Count: 1b
+									id: "mm:enormous_energy_port_input"
+								}
+								{
+									Count: 1b
+									id: "mm:gigantic_energy_port_input"
+								}
+							]
+						}
+					}
+					title: "Energy Input Port (Normal or bigger)"
+					type: "item"
+				}
+			]
+			title: "Auto Sieve: Tier 2 Upgrade"
+			x: -5.17d
+			y: 1.94d
+		}
+		{
+			dependencies: ["2AA1E6D577029E24"]
+			description: [
+				"Upgrades the Auto Sieve from Tier 2 to Tier 3."
+				""
+				"&eSwap:&r take out 1x Citrinetine Block and put the blocks from the tasks in their place."
+				""
+				"&ePorts:&r the ports from the previous tier are big enough."
+				""
+				"Tier 3 finishes a craft every 4 ticks."
+				""
+				"Check the structure preview in JEI (uses of the Controller) for the exact layout."
+			]
+			id: "17F974450AE9DDCA"
+			optional: true
+			rewards: [{
+				id: "45F53E79544C73EC"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			size: 0.75d
+			tasks: [
+				{
+					id: "39FDA8A09403D85F"
+					item: "voidminers:amethystine_block"
+					type: "item"
+				}
+			]
+			title: "Auto Sieve: Tier 3 Upgrade"
+			x: -6.34d
+			y: 2.38d
+		}
+		{
+			dependencies: ["17F974450AE9DDCA"]
+			description: [
+				"Upgrades the Auto Sieve from Tier 3 to Tier 4."
+				""
+				"&eSwap:&r take out 1x Amethystine Block and put the blocks from the tasks in their place."
+				""
+				"&ePorts:&r this tier needs bigger ports to run all its recipes:"
+				"- 2x Energy Input: &eBig&r or bigger &7(Normal runs 7 of 8 recipes)&r"
+				""
+				"Tier 4 finishes a craft every tick."
+				""
+				"Check the structure preview in JEI (uses of the Controller) for the exact layout."
+			]
+			id: "5E09629EAF13A7AC"
+			optional: true
+			rewards: [{
+				id: "4887A3BD13E3C6F2"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			size: 0.75d
+			tasks: [
+				{
+					id: "51B20668782C4A54"
+					item: "botanicalextramachinery:crimson_dragonstone_block"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "55AC45793D2B57AA"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "mm:big_energy_port_input"
+								}
+								{
+									Count: 1b
+									id: "mm:enormous_energy_port_input"
+								}
+								{
+									Count: 1b
+									id: "mm:gigantic_energy_port_input"
+								}
+							]
+						}
+					}
+					title: "Energy Input Port (Big or bigger)"
+					type: "item"
+				}
+			]
+			title: "Auto Sieve: Tier 4 Upgrade"
+			x: -7.51d
+			y: 2.82d
+		}
+		{
 			dependencies: ["4402587B0EAC4EEC"]
 			description: [
-				"{ftbquests.chapter.masterful_machinery.quest30DE5CFF66D40BB8.description1}"
+				"The Mechanical Empowerer removes the fiddly automation from the Actually Additions Empowerer and a few other recipes. Notably, the automation of EnderIO recipes including Soul Vials."
+				"For all available recipes look up the uses of the Controller."
 				""
-				"{ftbquests.chapter.masterful_machinery.quest30DE5CFF66D40BB8.description2}"
+				"&eController:&r an &6Empowered Emeradic Crystal Block&r and an &6Empowered Diamatine Crystal Block&r (Actually Additions), plus the usual 2 Redstone Servos, 2 Redstone Reception Coils, 2 Cobalt Blocks and a Manasteel Ingot."
+				"{@pagebreak}"
+				"&eMechanical Empowerer Tier 1 structure:&r every block is listed as a task. Check the structure preview in JEI (uses of the Controller) or let a &eMultiblock Builder&r place it for you."
+				""
+				"&ePorts:&r a recipe only starts if its inputs and outputs fit in the ports. These sizes run most recipes; the few that need bigger ports are named:"
+				"- 3x Energy Input: &eNormal&r or bigger &7(Small runs 19 of 38 recipes)&r"
+				"- 1x Item Output: &eTiny&r or bigger &7(up to &eSmall&7 for: Empty Soul Vial)&r"
+				"- 1x Item Input: &eNormal&r or bigger &7(Small runs 28 of 38 recipes)&r"
+				""
+				"Higher tiers are optional upgrades, see the quests further out."
 			]
 			id: "30DE5CFF66D40BB8"
 			rewards: [{
@@ -458,8 +2758,161 @@
 					type: "item"
 				}
 				{
-					id: "75821A6DCD66DC11"
-					item: "actuallyadditions:empowerer"
+					count: 4L
+					id: "7033DF0D4254730B"
+					item: "chisel_chipped_integration:technical_fan"
+					type: "item"
+				}
+				{
+					count: 6L
+					id: "01B642743539880A"
+					item: "chisel_chipped_integration:factory_blue_framed_circuit"
+					type: "item"
+				}
+				{
+					count: 28L
+					id: "420AA2DFFAF0F92B"
+					item: "enderio:dark_steel_block"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "14166EC989C68CF3"
+					item: "enderio:end_steel_block"
+					type: "item"
+				}
+				{
+					count: 3L
+					id: "77F0A3600E7B22D0"
+					item: "kubejs:fake_mob_masher"
+					type: "item"
+				}
+				{
+					count: 3L
+					id: "6FCC8E308FCC55C1"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "mm:normal_energy_port_input"
+								}
+								{
+									Count: 1b
+									id: "mm:big_energy_port_input"
+								}
+								{
+									Count: 1b
+									id: "mm:enormous_energy_port_input"
+								}
+								{
+									Count: 1b
+									id: "mm:gigantic_energy_port_input"
+								}
+							]
+						}
+					}
+					title: "Energy Input Port (Normal or bigger)"
+					type: "item"
+				}
+				{
+					id: "461E2C484938E6F1"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "mm:tiny_item_port_output"
+								}
+								{
+									Count: 1b
+									id: "mm:small_item_port_output"
+								}
+								{
+									Count: 1b
+									id: "mm:normal_item_port_output"
+								}
+								{
+									Count: 1b
+									id: "mm:big_item_port_output"
+								}
+								{
+									Count: 1b
+									id: "mm:enormous_item_port_output"
+								}
+								{
+									Count: 1b
+									id: "mm:gigantic_item_port_output"
+								}
+								{
+									Count: 1b
+									id: "mm:colossal_item_port_output"
+								}
+								{
+									Count: 1b
+									id: "mm:titanic_item_port_output"
+								}
+								{
+									Count: 1b
+									id: "mm:compressed_titanic_item_port_output"
+								}
+								{
+									Count: 1b
+									id: "mm:super_compressed_titanic_item_port_output"
+								}
+							]
+						}
+					}
+					title: "Item Output Port (Tiny or bigger)"
+					type: "item"
+				}
+				{
+					id: "5EDE42937D05AC1D"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "mm:normal_item_port_input"
+								}
+								{
+									Count: 1b
+									id: "mm:big_item_port_input"
+								}
+								{
+									Count: 1b
+									id: "mm:enormous_item_port_input"
+								}
+								{
+									Count: 1b
+									id: "mm:gigantic_item_port_input"
+								}
+								{
+									Count: 1b
+									id: "mm:colossal_item_port_input"
+								}
+								{
+									Count: 1b
+									id: "mm:titanic_item_port_input"
+								}
+								{
+									Count: 1b
+									id: "mm:compressed_titanic_item_port_input"
+								}
+								{
+									Count: 1b
+									id: "mm:super_compressed_titanic_item_port_input"
+								}
+							]
+						}
+					}
+					title: "Item Input Port (Normal or bigger)"
 					type: "item"
 				}
 			]
@@ -467,8 +2920,114 @@
 			y: -4.0d
 		}
 		{
+			dependencies: ["30DE5CFF66D40BB8"]
+			description: [
+				"Upgrades the Mechanical Empowerer from Tier 1 to Tier 2."
+				""
+				"&eSwap:&r take out 1x Dark Steel Block, 3x Mob Masher and put the blocks from the tasks in their place."
+				""
+				"&ePorts:&r this tier needs bigger ports to run all its recipes:"
+				"- 3x Energy Input: &eGigantic&r &7(Enormous runs 38 of 73 recipes)&r"
+				"- 1x Item Output: &eTitanic&r or bigger &7(Colossal runs 60 of 73 recipes)&r"
+				"- 1x Item Input: &eCompressed Titanic&r or bigger &7(Titanic runs 70 of 73 recipes)&r"
+				""
+				"Tier 2 runs every recipe in big batches and adds AE2 related recipes (processors, charged crystals, singularities). It also needs a fixed Gigantic Fluid Input port."
+				"The ports are sized for the biggest batches. With smaller ports only some of the recipes will start."
+				""
+				"Check the structure preview in JEI (uses of the Controller) for the exact layout."
+			]
+			id: "74FD52F505EF73C8"
+			optional: true
+			rewards: [{
+				id: "1BFE2A76BBADAA0E"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			size: 0.75d
+			tasks: [
+				{
+					id: "73375B32A3294560"
+					item: "mm:gigantic_fluid_port_input"
+					type: "item"
+				}
+				{
+					count: 3L
+					id: "7245173EC1A311AB"
+					item: "kubejs:infinity_4_block"
+					type: "item"
+				}
+				{
+					count: 3L
+					id: "087CD1B03F4B655D"
+					item: "mm:gigantic_energy_port_input"
+					type: "item"
+				}
+				{
+					id: "7CCF21A345FDCFDE"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "mm:titanic_item_port_output"
+								}
+								{
+									Count: 1b
+									id: "mm:compressed_titanic_item_port_output"
+								}
+								{
+									Count: 1b
+									id: "mm:super_compressed_titanic_item_port_output"
+								}
+							]
+						}
+					}
+					title: "Item Output Port (Titanic or bigger)"
+					type: "item"
+				}
+				{
+					id: "796040770BCCD1CF"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "mm:compressed_titanic_item_port_input"
+								}
+								{
+									Count: 1b
+									id: "mm:super_compressed_titanic_item_port_input"
+								}
+							]
+						}
+					}
+					title: "Item Input Port (Compressed Titanic or bigger)"
+					type: "item"
+				}
+			]
+			title: "Mechanical Empowerer: Tier 2 Upgrade"
+			x: 1.94d
+			y: -5.17d
+		}
+		{
 			dependencies: ["4402587B0EAC4EEC"]
-			description: ["{ftbquests.chapter.masterful_machinery.quest38B38D416DA41D43.description1}"]
+			description: [
+				"A basic water generator. Higher Tiers provide more water per operation."
+				""
+				"&eController:&r a &6Simple Black Hole Tank&r (Industrial Foregoing) and an &6Elite Fluid Tank&r (Mekanism), plus the usual 2 Redstone Servos, 2 Redstone Reception Coils, 2 Cobalt Blocks and a Manasteel Ingot."
+				"{@pagebreak}"
+				"&eWater Condenser Tier 1 structure:&r every block is listed as a task. Check the structure preview in JEI (uses of the Controller) or let a &eMultiblock Builder&r place it for you."
+				""
+				"&ePorts:&r a recipe only starts if its inputs and outputs fit in the ports, so these are the sizes that run every recipe:"
+				"- 2x Energy Input: &eTiny&r or bigger"
+				"- 4x Fluid Output: &eSmall&r or bigger"
+				""
+				"Higher tiers are optional upgrades, see the quests further out."
+			]
 			id: "38B38D416DA41D43"
 			rewards: [{
 				id: "4D59DA5421A33BCE"
@@ -482,8 +3041,92 @@
 					type: "item"
 				}
 				{
-					id: "3F50B8CDC9A153B1"
-					item: "minecraft:water_bucket"
+					count: 16L
+					id: "2A96507CCEE46AB6"
+					item: "chisel_chipped_integration:factory_blue_framed_circuit"
+					type: "item"
+				}
+				{
+					count: 3L
+					id: "3467D989FF49A90C"
+					item: "mob_grinding_utils:tank"
+					type: "item"
+				}
+				{
+					id: "4E5D529ECB4C3F3A"
+					item: "actuallyadditions:empowered_diamatine_crystal_block"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "2D3D8457D763EC50"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "mm:tiny_energy_port_input"
+								}
+								{
+									Count: 1b
+									id: "mm:small_energy_port_input"
+								}
+								{
+									Count: 1b
+									id: "mm:normal_energy_port_input"
+								}
+								{
+									Count: 1b
+									id: "mm:big_energy_port_input"
+								}
+								{
+									Count: 1b
+									id: "mm:enormous_energy_port_input"
+								}
+								{
+									Count: 1b
+									id: "mm:gigantic_energy_port_input"
+								}
+							]
+						}
+					}
+					title: "Energy Input Port (Tiny or bigger)"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "19EC0DB2AD7C0134"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "mm:small_fluid_port_output"
+								}
+								{
+									Count: 1b
+									id: "mm:normal_fluid_port_output"
+								}
+								{
+									Count: 1b
+									id: "mm:big_fluid_port_output"
+								}
+								{
+									Count: 1b
+									id: "mm:enormous_fluid_port_output"
+								}
+								{
+									Count: 1b
+									id: "mm:gigantic_fluid_port_output"
+								}
+							]
+						}
+					}
+					title: "Fluid Output Port (Small or bigger)"
 					type: "item"
 				}
 			]
@@ -491,11 +3134,149 @@
 			y: 4.0d
 		}
 		{
+			dependencies: ["38B38D416DA41D43"]
+			description: [
+				"Upgrades the Water Condenser from Tier 1 to Tier 2."
+				""
+				"&eSwap:&r take out 1x Empowered Diamatine Crystal Block and put the blocks from the tasks in their place."
+				""
+				"&ePorts:&r this tier needs bigger ports to run all its recipes:"
+				"- 2x Energy Input: &eNormal&r or bigger"
+				""
+				"Tier 2 makes 1,000,000 mB of water per craft."
+				""
+				"Check the structure preview in JEI (uses of the Controller) for the exact layout."
+			]
+			id: "7BD3F442AC83151E"
+			optional: true
+			rewards: [{
+				id: "5D38E2BD91A0F1C6"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			size: 0.75d
+			tasks: [
+				{
+					id: "2821F418C640BCB5"
+					item: "mysticalagriculture:supremium_gemstone_block"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "1899CFD6888E38AE"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "mm:normal_energy_port_input"
+								}
+								{
+									Count: 1b
+									id: "mm:big_energy_port_input"
+								}
+								{
+									Count: 1b
+									id: "mm:enormous_energy_port_input"
+								}
+								{
+									Count: 1b
+									id: "mm:gigantic_energy_port_input"
+								}
+							]
+						}
+					}
+					title: "Energy Input Port (Normal or bigger)"
+					type: "item"
+				}
+			]
+			title: "Water Condenser: Tier 2 Upgrade"
+			x: 1.94d
+			y: 5.17d
+		}
+		{
+			dependencies: ["7BD3F442AC83151E"]
+			description: [
+				"Upgrades the Water Condenser from Tier 2 to Tier 3."
+				""
+				"&eSwap:&r take out 1x Supremium Gemstone Block and put the blocks from the tasks in their place."
+				""
+				"&ePorts:&r this tier needs bigger ports to run all its recipes:"
+				"- 2x Energy Input: &eGigantic&r"
+				"- 4x Fluid Output: &eEnormous&r or bigger"
+				""
+				"Tier 3 makes 100,000,000 mB of water per craft."
+				""
+				"Check the structure preview in JEI (uses of the Controller) for the exact layout."
+			]
+			id: "27EAC836DDE0A136"
+			optional: true
+			rewards: [{
+				id: "79D7BB249388D5AD"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			size: 0.75d
+			tasks: [
+				{
+					id: "68DE3A38375C09E7"
+					item: "evolvedmekanism:block_better_gold"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "1E9B8D2FEE0B6D51"
+					item: "mm:gigantic_energy_port_input"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "70F829FAFFAA1C69"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "mm:enormous_fluid_port_output"
+								}
+								{
+									Count: 1b
+									id: "mm:gigantic_fluid_port_output"
+								}
+							]
+						}
+					}
+					title: "Fluid Output Port (Enormous or bigger)"
+					type: "item"
+				}
+			]
+			title: "Water Condenser: Tier 3 Upgrade"
+			x: 2.38d
+			y: 6.34d
+		}
+		{
 			dependencies: [
 				"4402587B0EAC4EEC"
 				"586C269FAAC6D0AB"
 			]
-			description: ["{ftbquests.chapter.masterful_machinery.quest537E288F211B3167.description1}"]
+			description: [
+				"The Advanced Awakening Altar combines a few of the most used recipes from Draconic Evolution's Infusion crafting and Mystical Agriculture's Awakening Altar into one Block. This makes automation of Awakened Draconium and Awakened Supremium a breeze."
+				""
+				"&eController:&r an &6Awakened Draconium Block&r (Draconic Evolution) and an &6Awakening Altar&r (Mystical Agriculture), plus the usual 2 Redstone Servos, 2 Redstone Reception Coils, 2 Cobalt Blocks and a Manasteel Ingot."
+				"{@pagebreak}"
+				"&eAdvanced Awakening Altar Tier 1 structure:&r every block is listed as a task. Check the structure preview in JEI (uses of the Controller) or let a &eMultiblock Builder&r place it for you."
+				""
+				"&ePorts:&r a recipe only starts if its inputs and outputs fit in the ports. These sizes run most recipes; the few that need bigger ports are named:"
+				"- 4x Item Output: &eTiny&r or bigger"
+				"- 4x Energy Input: &eEnormous&r or bigger &7(up to &eGigantic&7 for: Infinity 8, Draconic Relay Crystal)&r"
+				"- 4x Item Input: &eSmall&r or bigger &7(Tiny runs 4 of 8 recipes)&r"
+				""
+				"Higher tiers are optional upgrades, see the quests further out."
+			]
 			id: "537E288F211B3167"
 			rewards: [
 				{
@@ -516,8 +3297,188 @@
 					type: "item"
 				}
 				{
-					id: "267F400DF26E62AF"
+					count: 122L
+					id: "4C1CB4F74319F233"
+					item: "chisel_chipped_integration:factory_ice_ice_ice"
+					type: "item"
+				}
+				{
+					count: 68L
+					id: "65C68DC4D9C436CA"
+					item: "chisel_chipped_integration:factory_blue_wireframe"
+					type: "item"
+				}
+				{
+					count: 112L
+					id: "7DA5372373885546"
+					item: "chisel_chipped_integration:factory_blue_framed_circuit"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "1E9AB42D5F44541B"
+					item: "mysticalagriculture:awakened_supremium_ingot_block"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "4592849CFC1F7299"
 					item: "draconicevolution:awakened_draconium_block"
+					type: "item"
+				}
+				{
+					count: 95L
+					id: "252CB6515D3E5585"
+					item: "ae2:quartz_glass"
+					type: "item"
+				}
+				{
+					count: 18L
+					id: "0DB79603985D850E"
+					item: "minecraft:end_rod"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "0D96A70FABE837F3"
+					item: "mysticalagriculture:awakening_pedestal"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "558FD1AC13976F72"
+					item: "mysticalagriculture:essence_vessel"
+					type: "item"
+				}
+				{
+					id: "7F51CAA6C4B3B013"
+					item: "mysticalagriculture:awakening_altar"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "3DE2AA93AE5CF88A"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "mm:tiny_item_port_output"
+								}
+								{
+									Count: 1b
+									id: "mm:small_item_port_output"
+								}
+								{
+									Count: 1b
+									id: "mm:normal_item_port_output"
+								}
+								{
+									Count: 1b
+									id: "mm:big_item_port_output"
+								}
+								{
+									Count: 1b
+									id: "mm:enormous_item_port_output"
+								}
+								{
+									Count: 1b
+									id: "mm:gigantic_item_port_output"
+								}
+								{
+									Count: 1b
+									id: "mm:colossal_item_port_output"
+								}
+								{
+									Count: 1b
+									id: "mm:titanic_item_port_output"
+								}
+								{
+									Count: 1b
+									id: "mm:compressed_titanic_item_port_output"
+								}
+								{
+									Count: 1b
+									id: "mm:super_compressed_titanic_item_port_output"
+								}
+							]
+						}
+					}
+					title: "Item Output Port (Tiny or bigger)"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "60E5F3B5C61F0352"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "mm:enormous_energy_port_input"
+								}
+								{
+									Count: 1b
+									id: "mm:gigantic_energy_port_input"
+								}
+							]
+						}
+					}
+					title: "Energy Input Port (Enormous or bigger)"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "5136F8C53855FFE6"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "mm:small_item_port_input"
+								}
+								{
+									Count: 1b
+									id: "mm:normal_item_port_input"
+								}
+								{
+									Count: 1b
+									id: "mm:big_item_port_input"
+								}
+								{
+									Count: 1b
+									id: "mm:enormous_item_port_input"
+								}
+								{
+									Count: 1b
+									id: "mm:gigantic_item_port_input"
+								}
+								{
+									Count: 1b
+									id: "mm:colossal_item_port_input"
+								}
+								{
+									Count: 1b
+									id: "mm:titanic_item_port_input"
+								}
+								{
+									Count: 1b
+									id: "mm:compressed_titanic_item_port_input"
+								}
+								{
+									Count: 1b
+									id: "mm:super_compressed_titanic_item_port_input"
+								}
+							]
+						}
+					}
+					title: "Item Input Port (Small or bigger)"
 					type: "item"
 				}
 			]
@@ -525,14 +3486,63 @@
 			y: -4.0d
 		}
 		{
+			dependencies: ["537E288F211B3167"]
+			description: [
+				"Upgrades the Advanced Awakening Altar from Tier 1 to Tier 2."
+				""
+				"&eSwap:&r take out 2x Awakened Draconium Block and put the blocks from the tasks in their place."
+				""
+				"&ePorts:&r this tier needs bigger ports to run all its recipes:"
+				"- 4x Energy Input: &eGigantic&r &7(Enormous runs 3 of 8 recipes)&r"
+				""
+				"Tier 2 runs 4x bigger batches and finishes a craft in 2 ticks instead of 100."
+				""
+				"Check the structure preview in JEI (uses of the Controller) for the exact layout."
+			]
+			id: "5A68F0FBEB12F839"
+			optional: true
+			rewards: [{
+				id: "19B9EEC0E2AEC12A"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			size: 0.75d
+			tasks: [
+				{
+					count: 2L
+					id: "02662CE822847FD6"
+					item: "botanicalextramachinery:crimson_dragonstone_block"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "287A676128566A2D"
+					item: "mm:gigantic_energy_port_input"
+					type: "item"
+				}
+			]
+			title: "Advanced Awakening Altar: Tier 2 Upgrade"
+			x: 0d
+			y: -5.25d
+		}
+		{
 			dependencies: [
 				"4402587B0EAC4EEC"
 				"7A822E0A7F810F44"
 			]
 			description: [
-				"{ftbquests.chapter.masterful_machinery.quest75229C9000F5B3AB.description1}"
+				"The Multi Compressor Machine has the single purpose of helping you make singularities faster. Producing the required resources fast enough is for you to figure out."
+				"The recipes for each singularity may differ from the ones in the Quantum Compressor, so make sure to check JEI!"
 				""
-				"{ftbquests.chapter.masterful_machinery.quest75229C9000F5B3AB.description2}"
+				"&eController:&r a &6Compacting Drawer&r (Functional Storage) and a &6Compacter&r, plus the usual 2 Redstone Servos, 2 Redstone Reception Coils, 2 Cobalt Blocks and a Manasteel Ingot."
+				"{@pagebreak}"
+				"&eStructure:&r every block is listed as a task. Check the structure preview in JEI (uses of the Controller) or let a &eMultiblock Builder&r place it for you."
+				""
+				"&ePorts:&r a recipe only starts if its inputs and outputs fit in the ports. These sizes run most recipes; the few that need bigger ports are named:"
+				"- 7x Item Input: &eNormal&r or bigger &7(up to &eGigantic&7 for: Coal Singularity, Ethereal Spirit Singularity, Extreme Ingot Singularity, Glowstone Singularity, Tough Alloy Ingot Singularity)&r"
+				"- 4x Fluid Input: &eSmall&r or bigger"
+				"- 4x Energy Input: &eBig&r or bigger"
+				"- 1x Item Output: &eTiny&r or bigger"
 			]
 			id: "75229C9000F5B3AB"
 			rewards: [{
@@ -553,8 +3563,186 @@
 					type: "item"
 				}
 				{
-					id: "7D16CD214D39C6E4"
+					count: 103L
+					id: "78D907E5FE736580"
+					item: "chisel_chipped_integration:factory_blue_framed_circuit"
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "4831B84DE72A3DEE"
+					item: "ae2:quartz_glass"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "2685EDB304EB8C93"
+					item: "compressium:cobblestone_7"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "6BE8800332C8A5DE"
 					item: "extendedcrafting:compressor"
+					type: "item"
+				}
+				{
+					count: 7L
+					id: "385A8822413D8D5C"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "mm:normal_item_port_input"
+								}
+								{
+									Count: 1b
+									id: "mm:big_item_port_input"
+								}
+								{
+									Count: 1b
+									id: "mm:enormous_item_port_input"
+								}
+								{
+									Count: 1b
+									id: "mm:gigantic_item_port_input"
+								}
+								{
+									Count: 1b
+									id: "mm:colossal_item_port_input"
+								}
+								{
+									Count: 1b
+									id: "mm:titanic_item_port_input"
+								}
+								{
+									Count: 1b
+									id: "mm:compressed_titanic_item_port_input"
+								}
+								{
+									Count: 1b
+									id: "mm:super_compressed_titanic_item_port_input"
+								}
+							]
+						}
+					}
+					title: "Item Input Port (Normal or bigger)"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "74692151FECC1E09"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "mm:small_fluid_port_input"
+								}
+								{
+									Count: 1b
+									id: "mm:normal_fluid_port_input"
+								}
+								{
+									Count: 1b
+									id: "mm:big_fluid_port_input"
+								}
+								{
+									Count: 1b
+									id: "mm:enormous_fluid_port_input"
+								}
+								{
+									Count: 1b
+									id: "mm:gigantic_fluid_port_input"
+								}
+							]
+						}
+					}
+					title: "Fluid Input Port (Small or bigger)"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "7DF49E958421F82C"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "mm:big_energy_port_input"
+								}
+								{
+									Count: 1b
+									id: "mm:enormous_energy_port_input"
+								}
+								{
+									Count: 1b
+									id: "mm:gigantic_energy_port_input"
+								}
+							]
+						}
+					}
+					title: "Energy Input Port (Big or bigger)"
+					type: "item"
+				}
+				{
+					id: "7D74C3B69EFA6587"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "mm:tiny_item_port_output"
+								}
+								{
+									Count: 1b
+									id: "mm:small_item_port_output"
+								}
+								{
+									Count: 1b
+									id: "mm:normal_item_port_output"
+								}
+								{
+									Count: 1b
+									id: "mm:big_item_port_output"
+								}
+								{
+									Count: 1b
+									id: "mm:enormous_item_port_output"
+								}
+								{
+									Count: 1b
+									id: "mm:gigantic_item_port_output"
+								}
+								{
+									Count: 1b
+									id: "mm:colossal_item_port_output"
+								}
+								{
+									Count: 1b
+									id: "mm:titanic_item_port_output"
+								}
+								{
+									Count: 1b
+									id: "mm:compressed_titanic_item_port_output"
+								}
+								{
+									Count: 1b
+									id: "mm:super_compressed_titanic_item_port_output"
+								}
+							]
+						}
+					}
+					title: "Item Output Port (Tiny or bigger)"
 					type: "item"
 				}
 			]
@@ -564,11 +3752,21 @@
 		{
 			dependencies: ["4402587B0EAC4EEC"]
 			description: [
-				"{ftbquests.chapter.masterful_machinery.quest244180B3CF50DBD7.description1}"
-				"{ftbquests.chapter.masterful_machinery.quest244180B3CF50DBD7.description2}"
-				"{ftbquests.chapter.masterful_machinery.quest244180B3CF50DBD7.description3}"
+				"The EssenceForge is your mid- to endgame resource production using Mystical Agriculture."
+				"Using some Ether Gas the EssenceForge processes Mystical Agriculture seeds to produce the corresponding essences. The seeds and cruxes are NOT consumed, as is indicated by the small &4x&r in the recipe."
+				"It is recommended to use the Fire Attuned Machine to produce the necessary Ether Gas in later gamestages."
 				""
-				"{ftbquests.chapter.masterful_machinery.quest244180B3CF50DBD7.description4}"
+				"&eController:&r an &6Empowered Super Block&r and &6Inferium Farmland&r (Mystical Agriculture), plus the usual 2 Redstone Servos, 2 Redstone Reception Coils, 2 Cobalt Blocks and a Manasteel Ingot."
+				"{@pagebreak}"
+				"&eEssenceForge Tier 1 structure:&r every block is listed as a task. Check the structure preview in JEI (uses of the Controller) or let a &eMultiblock Builder&r place it for you."
+				""
+				"&ePorts:&r a recipe only starts if its inputs and outputs fit in the ports, so these are the sizes that run every recipe:"
+				"- 2x Fluid Input: &eSmall&r or bigger"
+				"- 2x Energy Input: &eNormal&r or bigger"
+				"- 1x Item Input: &eTiny&r or bigger"
+				"- 1x Item Output: &eTiny&r or bigger"
+				""
+				"Higher tiers are optional upgrades, see the quests further out."
 			]
 			id: "244180B3CF50DBD7"
 			rewards: [{
@@ -583,8 +3781,208 @@
 					type: "item"
 				}
 				{
-					id: "2DA3545CD5C81A3E"
-					item: "mysticalagriculture:inferium_seeds"
+					count: 32L
+					id: "4CF52BC20768F6C2"
+					item: "chisel_chipped_integration:futura_fabulously_wavy"
+					type: "item"
+				}
+				{
+					count: 17L
+					id: "7BD87B96272C724A"
+					item: "chisel_chipped_integration:futura_mysterious_cube"
+					type: "item"
+				}
+				{
+					count: 30L
+					id: "4C4612642DE2DE15"
+					item: "chisel_chipped_integration:factory_blue_framed_circuit"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "378C3C01F1467616"
+					item: "chisel_chipped_integration:technical_fan"
+					type: "item"
+				}
+				{
+					id: "1ED3F032D3037B51"
+					item: "igleelib:blazum_block"
+					type: "item"
+				}
+				{
+					count: 9L
+					id: "0276C406A5B6D1ED"
+					item: "mysticalagriculture:prudentium_farmland"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "72D9194E5225D87D"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "mm:small_fluid_port_input"
+								}
+								{
+									Count: 1b
+									id: "mm:normal_fluid_port_input"
+								}
+								{
+									Count: 1b
+									id: "mm:big_fluid_port_input"
+								}
+								{
+									Count: 1b
+									id: "mm:enormous_fluid_port_input"
+								}
+								{
+									Count: 1b
+									id: "mm:gigantic_fluid_port_input"
+								}
+							]
+						}
+					}
+					title: "Fluid Input Port (Small or bigger)"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "4AE02F822FFC3A2A"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "mm:normal_energy_port_input"
+								}
+								{
+									Count: 1b
+									id: "mm:big_energy_port_input"
+								}
+								{
+									Count: 1b
+									id: "mm:enormous_energy_port_input"
+								}
+								{
+									Count: 1b
+									id: "mm:gigantic_energy_port_input"
+								}
+							]
+						}
+					}
+					title: "Energy Input Port (Normal or bigger)"
+					type: "item"
+				}
+				{
+					id: "3D67BD8DBBCD427B"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "mm:tiny_item_port_input"
+								}
+								{
+									Count: 1b
+									id: "mm:small_item_port_input"
+								}
+								{
+									Count: 1b
+									id: "mm:normal_item_port_input"
+								}
+								{
+									Count: 1b
+									id: "mm:big_item_port_input"
+								}
+								{
+									Count: 1b
+									id: "mm:enormous_item_port_input"
+								}
+								{
+									Count: 1b
+									id: "mm:gigantic_item_port_input"
+								}
+								{
+									Count: 1b
+									id: "mm:colossal_item_port_input"
+								}
+								{
+									Count: 1b
+									id: "mm:titanic_item_port_input"
+								}
+								{
+									Count: 1b
+									id: "mm:compressed_titanic_item_port_input"
+								}
+								{
+									Count: 1b
+									id: "mm:super_compressed_titanic_item_port_input"
+								}
+							]
+						}
+					}
+					title: "Item Input Port (Tiny or bigger)"
+					type: "item"
+				}
+				{
+					id: "3FDCC2D356A270EE"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "mm:tiny_item_port_output"
+								}
+								{
+									Count: 1b
+									id: "mm:small_item_port_output"
+								}
+								{
+									Count: 1b
+									id: "mm:normal_item_port_output"
+								}
+								{
+									Count: 1b
+									id: "mm:big_item_port_output"
+								}
+								{
+									Count: 1b
+									id: "mm:enormous_item_port_output"
+								}
+								{
+									Count: 1b
+									id: "mm:gigantic_item_port_output"
+								}
+								{
+									Count: 1b
+									id: "mm:colossal_item_port_output"
+								}
+								{
+									Count: 1b
+									id: "mm:titanic_item_port_output"
+								}
+								{
+									Count: 1b
+									id: "mm:compressed_titanic_item_port_output"
+								}
+								{
+									Count: 1b
+									id: "mm:super_compressed_titanic_item_port_output"
+								}
+							]
+						}
+					}
+					title: "Item Output Port (Tiny or bigger)"
 					type: "item"
 				}
 			]
@@ -592,11 +3990,335 @@
 			y: 4.0d
 		}
 		{
+			dependencies: ["244180B3CF50DBD7"]
+			description: [
+				"Upgrades the EssenceForge from Tier 1 to Tier 2."
+				""
+				"&eChanges:&r take out 9x Prudentium Farmland, then add the blocks from the tasks."
+				""
+				"&ePorts:&r this tier needs bigger ports to run all its recipes:"
+				"- 2x Energy Input: &eGigantic&r &7(Enormous runs 128 of 129 recipes)&r"
+				"- 1x Item Input: &eNormal&r or bigger &7(Small runs 128 of 129 recipes)&r"
+				"- 1x Item Output: &eTitanic&r or bigger &7(Colossal runs 128 of 129 recipes)&r"
+				""
+				"Tier 2 needs multiple seeds in the input port at once and returns much more essence per craft. See the uses of the Controller in JEI for each seed group."
+				""
+				"Check the structure preview in JEI (uses of the Controller) for the exact layout."
+			]
+			id: "1B84D976F6DC4535"
+			optional: true
+			rewards: [{
+				id: "3F4B4159BF720CA6"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			size: 0.75d
+			tasks: [
+				{
+					id: "20872C2645DD2AB9"
+					item: "mysticalagriculture:imperium_block"
+					type: "item"
+				}
+				{
+					id: "5DDDFDDE32C00FD8"
+					item: "mysticalagriculture:tertium_block"
+					type: "item"
+				}
+				{
+					id: "2B68A29DECDB9335"
+					item: "mysticalagriculture:inferium_block"
+					type: "item"
+				}
+				{
+					id: "43ABDB2DC5DCC22A"
+					item: "mysticalagriculture:prudentium_block"
+					type: "item"
+				}
+				{
+					count: 9L
+					id: "3D9FD14D4777FE60"
+					item: "mysticalagriculture:imperium_farmland"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "3A65EF8A28698C46"
+					item: "mm:gigantic_energy_port_input"
+					type: "item"
+				}
+				{
+					id: "7E5049B628DD822E"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "mm:normal_item_port_input"
+								}
+								{
+									Count: 1b
+									id: "mm:big_item_port_input"
+								}
+								{
+									Count: 1b
+									id: "mm:enormous_item_port_input"
+								}
+								{
+									Count: 1b
+									id: "mm:gigantic_item_port_input"
+								}
+								{
+									Count: 1b
+									id: "mm:colossal_item_port_input"
+								}
+								{
+									Count: 1b
+									id: "mm:titanic_item_port_input"
+								}
+								{
+									Count: 1b
+									id: "mm:compressed_titanic_item_port_input"
+								}
+								{
+									Count: 1b
+									id: "mm:super_compressed_titanic_item_port_input"
+								}
+							]
+						}
+					}
+					title: "Item Input Port (Normal or bigger)"
+					type: "item"
+				}
+				{
+					id: "3B8A3292F8106A16"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "mm:titanic_item_port_output"
+								}
+								{
+									Count: 1b
+									id: "mm:compressed_titanic_item_port_output"
+								}
+								{
+									Count: 1b
+									id: "mm:super_compressed_titanic_item_port_output"
+								}
+							]
+						}
+					}
+					title: "Item Output Port (Titanic or bigger)"
+					type: "item"
+				}
+			]
+			title: "EssenceForge: Tier 2 Upgrade"
+			x: -1.94d
+			y: 5.17d
+		}
+		{
+			dependencies: ["1B84D976F6DC4535"]
+			description: [
+				"Upgrades the EssenceForge from Tier 2 to Tier 3."
+				""
+				"&eChanges:&r take out 1x Imperium Block, 1x Tertium Block, 1x Inferium Block, 1x Prudentium Block, 9x Imperium Farmland, then add the blocks from the tasks."
+				""
+				"&ePorts:&r the ports from the previous tier are big enough."
+				""
+				"Tier 3 processes whole groups of seeds at once. Its energy ports are fixed Gigantic Energy Input ports."
+				""
+				"Check the structure preview in JEI (uses of the Controller) for the exact layout."
+			]
+			id: "45D9916070E1980F"
+			optional: true
+			rewards: [{
+				id: "42B9FE3D48C66C56"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			size: 0.75d
+			tasks: [
+				{
+					id: "157DA589822CF001"
+					item: "mysticalexpansion:divinium_block"
+					type: "item"
+				}
+				{
+					id: "1D4E94270F679E78"
+					item: "mysticalexpansion:etherium_block"
+					type: "item"
+				}
+				{
+					id: "76F986C81F76A008"
+					item: "mysticalagradditions:insanium_block"
+					type: "item"
+				}
+				{
+					id: "351839B057D2E7E0"
+					item: "mysticalexpansion:extremium_block"
+					type: "item"
+				}
+				{
+					id: "501243EE4DABCD44"
+					item: "botanicalextramachinery:crimson_ingot_block"
+					type: "item"
+				}
+				{
+					id: "2A9F45FB40136E4D"
+					item: "botanicalextramachinery:shadow_ingot_block"
+					type: "item"
+				}
+				{
+					id: "0854FDD590704C9C"
+					item: "botanicalextramachinery:malachite_ingot_block"
+					type: "item"
+				}
+				{
+					id: "00CD8C30686DA6F1"
+					item: "botanicalextramachinery:saffron_ingot_block"
+					type: "item"
+				}
+				{
+					count: 9L
+					id: "75A57BE93EEFDF98"
+					item: "mysticalagradditions:insanium_farmland"
+					type: "item"
+				}
+			]
+			title: "EssenceForge: Tier 3 Upgrade"
+			x: -2.38d
+			y: 6.34d
+		}
+		{
+			dependencies: ["45D9916070E1980F"]
+			description: [
+				"Upgrades the EssenceForge from Tier 3 to Tier 4."
+				""
+				"&eChanges:&r take out 2x Factory Blue Framed Circuit, 1x Blazum Block, 9x Insanium Farmland, then add the blocks from the tasks."
+				""
+				"&ePorts:&r this tier needs bigger ports to run all its recipes:"
+				"- 2x Item Input: &eEnormous&r or bigger &7(Big runs 4 of 6 recipes)&r"
+				"- 2x Item Output: &eCompressed Titanic&r or bigger &7(Titanic runs 2 of 6 recipes)&r"
+				""
+				"Tier 4 processes entire seed tiers in one craft and needs a second item input and output port."
+				""
+				"Check the structure preview in JEI (uses of the Controller) for the exact layout."
+			]
+			id: "1DC6EF989D6A594B"
+			optional: true
+			rewards: [{
+				id: "1B6FFAFFF188711C"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			size: 0.75d
+			tasks: [
+				{
+					id: "5E1A096615D71C6E"
+					item: "kubejs:infinity_8_block"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "7EB3D1AC88C9D73C"
+					item: "bloodmagic:speedrune2"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "00099E96C203B30A"
+					item: "bloodmagic:accelerationrune2"
+					type: "item"
+				}
+				{
+					id: "4572B7B79495D960"
+					item: "ifeu:simulated_hydroponic_bed"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "0528A2D5C7193CE4"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "mm:enormous_item_port_input"
+								}
+								{
+									Count: 1b
+									id: "mm:gigantic_item_port_input"
+								}
+								{
+									Count: 1b
+									id: "mm:colossal_item_port_input"
+								}
+								{
+									Count: 1b
+									id: "mm:titanic_item_port_input"
+								}
+								{
+									Count: 1b
+									id: "mm:compressed_titanic_item_port_input"
+								}
+								{
+									Count: 1b
+									id: "mm:super_compressed_titanic_item_port_input"
+								}
+							]
+						}
+					}
+					title: "Item Input Port (Enormous or bigger)"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "1B270BDCCEB94FDE"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "mm:compressed_titanic_item_port_output"
+								}
+								{
+									Count: 1b
+									id: "mm:super_compressed_titanic_item_port_output"
+								}
+							]
+						}
+					}
+					title: "Item Output Port (Compressed Titanic or bigger)"
+					type: "item"
+				}
+			]
+			title: "EssenceForge: Tier 4 Upgrade"
+			x: -2.82d
+			y: 7.51d
+		}
+		{
 			dependencies: ["4402587B0EAC4EEC"]
 			description: [
-				"{ftbquests.chapter.masterful_machinery.quest49F7A2C0AB76A359.description1}"
+				"The Multi Compactor Machine compacts Mystical Agriculture Essences and ProjectE Alchemical Fuels."
+				"As a bonus you can try to produce the elusive Intricate Hellforged Parts with huge amounts of Coal and Gems (WIP)."
+				"For all available recipes look up the uses of the Controller."
 				""
-				"{ftbquests.chapter.masterful_machinery.quest49F7A2C0AB76A359.description2}"
+				"&eController:&r a &6Master Infusion Crystal&r (Mystical Agriculture), 2 &6Pink Fuel Blocks&r (ProjectExpansion) and a &6Philosopher's Stone&r, plus 2 Redstone Servos, 2 Redstone Reception Coils and a Manasteel Ingot."
+				"{@pagebreak}"
+				"&eStructure:&r every block is listed as a task. Check the structure preview in JEI (uses of the Controller) or let a &eMultiblock Builder&r place it for you."
+				""
+				"&ePorts:&r a recipe only starts if its inputs and outputs fit in the ports. These sizes run most recipes; the few that need bigger ports are named:"
+				"- 7x Item Input: &eTiny&r or bigger"
+				"- 1x Item Output: &eTiny&r or bigger &7(up to &eSmall&7 for: Intricate Hellforged Parts)&r"
 			]
 			id: "49F7A2C0AB76A359"
 			rewards: [{
@@ -611,15 +4333,146 @@
 					type: "item"
 				}
 				{
-					id: "25ABF7BBA5366C8A"
+					count: 4L
+					id: "0544550C68AA2D10"
+					item: "mm:gigantic_fluid_port_input"
+					type: "item"
+				}
+				{
+					count: 103L
+					id: "462214A74E4291B1"
+					item: "chisel_chipped_integration:factory_blue_framed_circuit"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "28ECEE6133975A1D"
+					item: "mm:gigantic_energy_port_input"
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "01AF0F0451572504"
+					item: "ae2:quartz_glass"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "3A466F2EEBA1D8D9"
+					item: "compressium:cobblestone_7"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "68297F49E1575C34"
+					item: "extendedcrafting:compressor"
+					type: "item"
+				}
+				{
+					count: 7L
+					id: "3749EE5277A36951"
 					item: {
 						Count: 1
-						ForgeCaps: {
-							Parent: { }
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "mm:tiny_item_port_input"
+								}
+								{
+									Count: 1b
+									id: "mm:small_item_port_input"
+								}
+								{
+									Count: 1b
+									id: "mm:normal_item_port_input"
+								}
+								{
+									Count: 1b
+									id: "mm:big_item_port_input"
+								}
+								{
+									Count: 1b
+									id: "mm:enormous_item_port_input"
+								}
+								{
+									Count: 1b
+									id: "mm:gigantic_item_port_input"
+								}
+								{
+									Count: 1b
+									id: "mm:colossal_item_port_input"
+								}
+								{
+									Count: 1b
+									id: "mm:titanic_item_port_input"
+								}
+								{
+									Count: 1b
+									id: "mm:compressed_titanic_item_port_input"
+								}
+								{
+									Count: 1b
+									id: "mm:super_compressed_titanic_item_port_input"
+								}
+							]
 						}
-						id: "projecte:philosophers_stone"
-						tag: { }
 					}
+					title: "Item Input Port (Tiny or bigger)"
+					type: "item"
+				}
+				{
+					id: "4520EF46EACED3B7"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "mm:tiny_item_port_output"
+								}
+								{
+									Count: 1b
+									id: "mm:small_item_port_output"
+								}
+								{
+									Count: 1b
+									id: "mm:normal_item_port_output"
+								}
+								{
+									Count: 1b
+									id: "mm:big_item_port_output"
+								}
+								{
+									Count: 1b
+									id: "mm:enormous_item_port_output"
+								}
+								{
+									Count: 1b
+									id: "mm:gigantic_item_port_output"
+								}
+								{
+									Count: 1b
+									id: "mm:colossal_item_port_output"
+								}
+								{
+									Count: 1b
+									id: "mm:titanic_item_port_output"
+								}
+								{
+									Count: 1b
+									id: "mm:compressed_titanic_item_port_output"
+								}
+								{
+									Count: 1b
+									id: "mm:super_compressed_titanic_item_port_output"
+								}
+							]
+						}
+					}
+					title: "Item Output Port (Tiny or bigger)"
 					type: "item"
 				}
 			]
@@ -628,7 +4481,16 @@
 		}
 		{
 			dependencies: ["4402587B0EAC4EEC"]
-			description: ["{ftbquests.chapter.masterful_machinery.quest7BA932E34079CBAA.description1}"]
+			description: [
+				"The Resource Foundry is the multiblock for creating a lot of items. You input essences and get items back."
+				"Because it is 1 big craft and not many small ones, it does not take as much server resources."
+				""
+				"&eController:&r &6Hypercharged Alloy&r (Evolved Mekanism) and &6Radiance Alloy&r (Mekanism Extras), plus the usual 2 Redstone Servos, 2 Redstone Reception Coils, 2 Cobalt Blocks and a Manasteel Ingot."
+				"{@pagebreak}"
+				"&eStructure:&r every block is listed as a task. Check the structure preview in JEI (uses of the Controller) or let a &eMultiblock Builder&r place it for you."
+				""
+				"All ports of the Resource Foundry are fixed parts of the structure and are listed as tasks."
+			]
 			id: "7BA932E34079CBAA"
 			tasks: [
 				{
@@ -637,8 +4499,125 @@
 					type: "item"
 				}
 				{
-					id: "6CA1781679509600"
+					count: 28L
+					id: "41B8A1C563BDFA1D"
+					item: "chisel_chipped_integration:factory_blue_framed_circuit"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "14B333A35F428124"
+					item: "enderio:dark_steel_block"
+					type: "item"
+				}
+				{
+					count: 23L
+					id: "029D505047648142"
+					item: "kubejs:starmetal_block"
+					type: "item"
+				}
+				{
+					count: 3L
+					id: "5489E131BAA7BC9C"
+					item: "mm:gigantic_energy_port_input"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "325F7E5FE85A4297"
+					item: "botanicalextramachinery:shadow_dragonstone_block"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "04DCC8E0151518BE"
+					item: "mysticalexpansion:divinium_gemstone_block"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "68B7BCD696679570"
+					item: "bloodmagic:dungeon_metal"
+					type: "item"
+				}
+				{
+					count: 3L
+					id: "39B425321EA3FD25"
 					item: "kubejs:empowered_super_block"
+					type: "item"
+				}
+				{
+					count: 6L
+					id: "033AA188EE007823"
+					item: "mm:super_compressed_titanic_item_port_input"
+					type: "item"
+				}
+				{
+					count: 20L
+					id: "2DEE9BEFBCEEC24B"
+					item: "advancednetherite:netherite_diamond_block"
+					type: "item"
+				}
+				{
+					count: 6L
+					id: "392EE63026EF0CD2"
+					item: "mm:super_compressed_titanic_item_port_output"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "430B9A99EC0B4582"
+					item: "mekanism_extras:block_naquadah"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "6176B883C0AEDB97"
+					item: "justdirethings:time_crystal_block"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "185C8F95C7AC4462"
+					item: "crazyae2addons:super_singularity_block"
+					type: "item"
+				}
+				{
+					id: "1E555C0A8E3B93FF"
+					item: "allthemodium:allthemodium_block"
+					type: "item"
+				}
+				{
+					id: "032438A0ECAE5FF3"
+					item: "allthemodium:vibranium_block"
+					type: "item"
+				}
+				{
+					id: "055CFA82544D447F"
+					item: "allthemodium:unobtainium_block"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "2F29E78B240331F5"
+					item: "evolvedmekanism:block_alloy_exoversal"
+					type: "item"
+				}
+				{
+					id: "2EF07E8E1C0F27F3"
+					item: "mm:gigantic_fluid_port_input"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "1C93321F1742BE38"
+					item: "pneumaticcraft:smooth_plastic_brick_blue"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "03A1B6FEB36FB2FE"
+					item: "kubejs:sculk_alloy_block"
 					type: "item"
 				}
 			]
@@ -647,7 +4626,18 @@
 		}
 		{
 			dependencies: ["4402587B0EAC4EEC"]
-			description: ["{ftbquests.chapter.masterful_machinery.quest4BD5CD621782DFB8.description1}"]
+			description: [
+				"The Infinity Cell Factory is your best friend for creating all your Infinity Cells."
+				""
+				"&eController:&r &6Subatomic Alloy&r, &6Thermonuclear Alloy&r, 2 &6Netherite-Diamond Blocks&r and a &6Block of Manasteel&r, plus 2 Redstone Servos and 2 Redstone Reception Coils."
+				"{@pagebreak}"
+				"&eStructure:&r every block is listed as a task. Check the structure preview in JEI (uses of the Controller) or let a &eMultiblock Builder&r place it for you."
+				""
+				"&ePorts:&r a recipe only starts if its inputs and outputs fit in the ports. These sizes run most recipes; the few that need bigger ports are named:"
+				"- 2x Item Input: &eNormal&r or bigger &7(up to &eEnormous&7 for: Prosperity Shard Infinity Cell)&r"
+				"- 2x Fluid Input: &eSmall&r or bigger"
+				"- 2x Item Output: &eTiny&r or bigger"
+			]
 			id: "4BD5CD621782DFB8"
 			tasks: [
 				{
@@ -656,8 +4646,196 @@
 					type: "item"
 				}
 				{
-					id: "40C7400C738D8EF1"
+					count: 16L
+					id: "308A71F857973C80"
+					item: "chisel_chipped_integration:futura_purple_me_controller"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "6B40632FC383F4EB"
+					item: "kubejs:triple_compressed_iron_block"
+					type: "item"
+				}
+				{
+					count: 44L
+					id: "39BB2E3FF41725AB"
 					item: "chisel_chipped_integration:futura_me_controller"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "3A16418356EF9F32"
+					item: "botanicalextramachinery:saffron_ingot_block"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "68EC89ECB01CED2F"
+					item: "evolvedmekanism:block_better_gold"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "1B9B024B733E0089"
+					item: "mm:gigantic_energy_port_input"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "1776E48FAAD7B6F5"
+					item: "kubejs:thermonuclear_alloy_block"
+					type: "item"
+				}
+				{
+					id: "2E998E49B979F23E"
+					item: "voidminers:solar_ultimate_block"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "5BDBCA3B14C6B3A5"
+					item: "bloodmagic:dislocationrune"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "1953EB5EB7DDA599"
+					item: "mysticalexpansion:etherium_gemstone_block"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "26BE69B16B47B915"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "mm:normal_item_port_input"
+								}
+								{
+									Count: 1b
+									id: "mm:big_item_port_input"
+								}
+								{
+									Count: 1b
+									id: "mm:enormous_item_port_input"
+								}
+								{
+									Count: 1b
+									id: "mm:gigantic_item_port_input"
+								}
+								{
+									Count: 1b
+									id: "mm:colossal_item_port_input"
+								}
+								{
+									Count: 1b
+									id: "mm:titanic_item_port_input"
+								}
+								{
+									Count: 1b
+									id: "mm:compressed_titanic_item_port_input"
+								}
+								{
+									Count: 1b
+									id: "mm:super_compressed_titanic_item_port_input"
+								}
+							]
+						}
+					}
+					title: "Item Input Port (Normal or bigger)"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "6CFCEB9BB15DD765"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "mm:small_fluid_port_input"
+								}
+								{
+									Count: 1b
+									id: "mm:normal_fluid_port_input"
+								}
+								{
+									Count: 1b
+									id: "mm:big_fluid_port_input"
+								}
+								{
+									Count: 1b
+									id: "mm:enormous_fluid_port_input"
+								}
+								{
+									Count: 1b
+									id: "mm:gigantic_fluid_port_input"
+								}
+							]
+						}
+					}
+					title: "Fluid Input Port (Small or bigger)"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "6FB0339B50CA3A5E"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "mm:tiny_item_port_output"
+								}
+								{
+									Count: 1b
+									id: "mm:small_item_port_output"
+								}
+								{
+									Count: 1b
+									id: "mm:normal_item_port_output"
+								}
+								{
+									Count: 1b
+									id: "mm:big_item_port_output"
+								}
+								{
+									Count: 1b
+									id: "mm:enormous_item_port_output"
+								}
+								{
+									Count: 1b
+									id: "mm:gigantic_item_port_output"
+								}
+								{
+									Count: 1b
+									id: "mm:colossal_item_port_output"
+								}
+								{
+									Count: 1b
+									id: "mm:titanic_item_port_output"
+								}
+								{
+									Count: 1b
+									id: "mm:compressed_titanic_item_port_output"
+								}
+								{
+									Count: 1b
+									id: "mm:super_compressed_titanic_item_port_output"
+								}
+							]
+						}
+					}
+					title: "Item Output Port (Tiny or bigger)"
 					type: "item"
 				}
 			]
@@ -682,7 +4860,19 @@
 		}
 		{
 			dependencies: ["4402587B0EAC4EEC"]
-			description: ["{ftbquests.chapter.masterful_machinery.quest1451DABE6CCAC3AD.description1}"]
+			description: [
+				"The Tank Encapsulator Multiblock lets you create some Fluid and Chemical Tanks so you don't have problems with NBT."
+				""
+				"&eController:&r an &6Absolute Fluid Tank&r and an &6Absolute Chemical Tank&r (Mekanism Extras), plus the usual 2 Redstone Servos, 2 Redstone Reception Coils, 2 Cobalt Blocks and a Manasteel Ingot."
+				"{@pagebreak}"
+				"&eStructure:&r every block is listed as a task. Check the structure preview in JEI (uses of the Controller) or let a &eMultiblock Builder&r place it for you."
+				""
+				"&ePorts:&r a recipe only starts if its inputs and outputs fit in the ports, so these are the sizes that run every recipe:"
+				"- 1x Item Input: &eTiny&r or bigger"
+				"- 1x Item Output: &eTiny&r or bigger"
+				""
+				"The fluid and chemical ports are fixed parts of the structure and are listed as tasks."
+			]
 			id: "1451DABE6CCAC3AD"
 			rewards: [{
 				id: "2E4A11590F5ED49A"
@@ -696,8 +4886,173 @@
 					type: "item"
 				}
 				{
-					id: "7A92C4DFCD79906E"
+					count: 8L
+					id: "4F77508736964824"
+					item: "chisel_chipped_integration:futura_mysterious_cube"
+					type: "item"
+				}
+				{
+					count: 15L
+					id: "3F8DE51D69BCC778"
+					item: "chisel_chipped_integration:factory_blue_framed_circuit"
+					type: "item"
+				}
+				{
+					id: "6E9A0E85E3296A18"
+					item: "mm:colossal_gas_port_input"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "7872AE0F0D518203"
+					item: "minecraft:piston"
+					type: "item"
+				}
+				{
+					id: "5F8229D88F227760"
+					item: "mm:gigantic_fluid_port_input"
+					type: "item"
+				}
+				{
+					count: 6L
+					id: "29B3307E79BF9248"
+					item: "ae2:quartz_glass"
+					type: "item"
+				}
+				{
+					id: "6BA4121EA80704D0"
+					item: "mm:colossal_infuse_port_input"
+					type: "item"
+				}
+				{
+					id: "400869FC6264CA47"
+					item: "mm:colossal_slurry_port_input"
+					type: "item"
+				}
+				{
+					id: "5B78C08D176AC372"
 					item: "mekanism_extras:absolute_fluid_tank"
+					type: "item"
+				}
+				{
+					id: "16179E8686FCCF70"
+					item: "mekanism_extras:absolute_chemical_tank"
+					type: "item"
+				}
+				{
+					id: "549BC7BECF391BA9"
+					item: "mm:colossal_pigment_port_input"
+					type: "item"
+				}
+				{
+					id: "4DE42145A8E6B43F"
+					item: "chisel_chipped_integration:futura_fabulously_wavy"
+					type: "item"
+				}
+				{
+					id: "43DC15D43869E82B"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "mm:tiny_item_port_input"
+								}
+								{
+									Count: 1b
+									id: "mm:small_item_port_input"
+								}
+								{
+									Count: 1b
+									id: "mm:normal_item_port_input"
+								}
+								{
+									Count: 1b
+									id: "mm:big_item_port_input"
+								}
+								{
+									Count: 1b
+									id: "mm:enormous_item_port_input"
+								}
+								{
+									Count: 1b
+									id: "mm:gigantic_item_port_input"
+								}
+								{
+									Count: 1b
+									id: "mm:colossal_item_port_input"
+								}
+								{
+									Count: 1b
+									id: "mm:titanic_item_port_input"
+								}
+								{
+									Count: 1b
+									id: "mm:compressed_titanic_item_port_input"
+								}
+								{
+									Count: 1b
+									id: "mm:super_compressed_titanic_item_port_input"
+								}
+							]
+						}
+					}
+					title: "Item Input Port (Tiny or bigger)"
+					type: "item"
+				}
+				{
+					id: "6963FBB0A8007E1A"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "mm:tiny_item_port_output"
+								}
+								{
+									Count: 1b
+									id: "mm:small_item_port_output"
+								}
+								{
+									Count: 1b
+									id: "mm:normal_item_port_output"
+								}
+								{
+									Count: 1b
+									id: "mm:big_item_port_output"
+								}
+								{
+									Count: 1b
+									id: "mm:enormous_item_port_output"
+								}
+								{
+									Count: 1b
+									id: "mm:gigantic_item_port_output"
+								}
+								{
+									Count: 1b
+									id: "mm:colossal_item_port_output"
+								}
+								{
+									Count: 1b
+									id: "mm:titanic_item_port_output"
+								}
+								{
+									Count: 1b
+									id: "mm:compressed_titanic_item_port_output"
+								}
+								{
+									Count: 1b
+									id: "mm:super_compressed_titanic_item_port_output"
+								}
+							]
+						}
+					}
+					title: "Item Output Port (Tiny or bigger)"
 					type: "item"
 				}
 			]
@@ -707,3 +5062,4 @@
 	]
 	title: "{ftbquests.chapter.masterful_machinery.title}"
 }
+

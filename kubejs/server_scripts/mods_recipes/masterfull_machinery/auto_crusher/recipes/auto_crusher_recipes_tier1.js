@@ -1,445 +1,83 @@
 priority: 1;
 MMEvents.createProcesses((event) => {
-  //blackstone
-  event
-    .create('mm:crushed_blackstone_recipe1')
-    .structureId('mm:auto_crusher_structure1')
-    .ticks(8)
-    .input({
-      type: 'mm:input/consume',
-      ingredient: {
-        type: 'mm:item',
-        item: 'minecraft:blackstone',
-        count: 4,
-      },
-    })
-    .input({
-      type: 'mm:input/consume',
-      ingredient: {
-        type: 'mm:energy',
-        amount: 10000,
-      },
-    })
-    .input({
-      type: 'mm:input/consume',
-      ingredient: {
-        type: 'mm:fluid',
-        fluid: 'minecraft:water',
-        amount: 250,
-      },
-    })
-    .output({
-      type: 'mm:output/simple',
-      ingredient: {
-        type: 'mm:item',
-        item: 'exdeorum:crushed_blackstone',
-        count: 8,
-      },
-    });
 
-  //netherrack
-  event
-    .create('mm:crushed_netherrack_recipe1')
-    .structureId('mm:auto_crusher_structure1')
-    .ticks(8)
-    .input({
-      type: 'mm:input/consume',
-      ingredient: {
-        type: 'mm:item',
-        item: 'minecraft:netherrack',
-        count: 4,
-      },
-    })
-    .input({
-      type: 'mm:input/consume',
-      ingredient: {
-        type: 'mm:energy',
-        amount: 10000,
-      },
-    })
-    .input({
-      type: 'mm:input/consume',
-      ingredient: {
-        type: 'mm:fluid',
-        fluid: 'minecraft:lava',
-        amount: 250,
-      },
-    })
-    .output({
-      type: 'mm:output/simple',
-      ingredient: {
-        type: 'mm:item',
-        item: 'exdeorum:crushed_netherrack',
-        count: 8,
-      },
-    });
+  const addRecipe = (id, inputItems, inputFluids, outputItems, energy) => {
+    if (!energy) energy = 10000;
+    let count;
+    let itemFluid;
 
-  //gravel
-  event
-    .create('mm:gravel_recipe1')
-    .structureId('mm:auto_crusher_structure1')
-    .ticks(8)
-    .input({
-      type: 'mm:input/consume',
-      ingredient: {
-        type: 'mm:item',
-        item: 'minecraft:cobblestone',
-        count: 4,
-      },
-    })
-    .input({
-      type: 'mm:input/consume',
-      ingredient: {
-        type: 'mm:energy',
-        amount: 10000,
-      },
-    })
-    .input({
-      type: 'mm:input/consume',
-      ingredient: {
-        type: 'mm:fluid',
-        fluid: 'minecraft:water',
-        amount: 250,
-      },
-    })
-    .output({
-      type: 'mm:output/simple',
-      ingredient: {
-        type: 'mm:item',
-        item: 'minecraft:gravel',
-        count: 8,
-      },
-    });
+    let recipe = event.create(id)
+      .structureId('mm:auto_crusher_structure1')
+      .ticks(8)
+      .input({
+        type: 'mm:input/consume',
+        ingredient: {
+          type: 'mm:energy',
+          amount: energy
+        }
+      });
+    
+    if (inputItems) {
+        inputItems.forEach(element => {
+          count = element.split('x', 1);
+          itemFluid = element.slice(element.indexOf('x') + 2);
 
-  //sand
-  event
-    .create('mm:sand_recipe1')
-    .structureId('mm:auto_crusher_structure1')
-    .ticks(8)
-    .input({
-      type: 'mm:input/consume',
-      ingredient: {
-        type: 'mm:item',
-        item: 'minecraft:gravel',
-        count: 4,
-      },
-    })
-    .input({
-      type: 'mm:input/consume',
-      ingredient: {
-        type: 'mm:energy',
-        amount: 10000,
-      },
-    })
-    .input({
-      type: 'mm:input/consume',
-      ingredient: {
-        type: 'mm:fluid',
-        fluid: 'minecraft:water',
-        amount: 250,
-      },
-    })
-    .output({
-      type: 'mm:output/simple',
-      ingredient: {
-        type: 'mm:item',
-        item: 'minecraft:sand',
-        count: 8,
-      },
-    });
+          recipe.input({
+            type: 'mm:input/consume',
+            ingredient: {
+              type: 'mm:item',
+              item: itemFluid,
+              count: count
+            }
+          });
+      });
+    }
+    
 
-  //dust
-  event
-    .create('mm:dust_recipe1')
-    .structureId('mm:auto_crusher_structure1')
-    .ticks(8)
-    .input({
-      type: 'mm:input/consume',
-      ingredient: {
-        type: 'mm:item',
-        item: 'minecraft:sand',
-        count: 4,
-      },
-    })
-    .input({
-      type: 'mm:input/consume',
-      ingredient: {
-        type: 'mm:energy',
-        amount: 10000,
-      },
-    })
-    .input({
-      type: 'mm:input/consume',
-      ingredient: {
-        type: 'mm:fluid',
-        fluid: 'minecraft:water',
-        amount: 250,
-      },
-    })
-    .output({
-      type: 'mm:output/simple',
-      ingredient: {
-        type: 'mm:item',
-        item: 'exdeorum:dust',
-        count: 8,
-      },
-    });
+    if (inputFluids) {
+      inputFluids.forEach(element => {
+        count = element.split('x', 1);
+        itemFluid = element.slice(element.indexOf('x') + 2);
 
-  //end stone
-  event
-    .create('mm:crushed_end_stone_recipe1')
-    .structureId('mm:auto_crusher_structure1')
-    .ticks(8)
-    .input({
-      type: 'mm:input/consume',
-      ingredient: {
-        type: 'mm:item',
-        item: 'minecraft:end_stone',
-        count: 4,
-      },
-    })
-    .input({
-      type: 'mm:input/consume',
-      ingredient: {
-        type: 'mm:energy',
-        amount: 10000,
-      },
-    })
-    .input({
-      type: 'mm:input/consume',
-      ingredient: {
-        type: 'mm:fluid',
-        fluid: 'minecraft:lava',
-        amount: 250,
-      },
-    })
-    .output({
-      type: 'mm:output/simple',
-      ingredient: {
-        type: 'mm:item',
-        item: 'exdeorum:crushed_end_stone',
-        count: 8,
-      },
-    });
+        recipe.input({
+          type: 'mm:input/consume',
+          ingredient: {
+            type: 'mm:fluid',
+            fluid: itemFluid,
+            amount: count
+          }
+        });
+      });
+    }
 
-  //cobblestone
-  event
-    .create('mm:cobblestone_recipe21')
-    .structureId('mm:auto_crusher_structure1')
-    .ticks(8)
-    .input({
-      type: 'mm:input/consume',
-      ingredient: {
-        type: 'mm:energy',
-        amount: 100000,
-      },
-    })
-    .input({
-      type: 'mm:input/consume',
-      ingredient: {
-        type: 'mm:fluid',
-        fluid: 'minecraft:water',
-        amount: 16000,
-      },
-    })
-    .input({
-      type: 'mm:input/consume',
-      ingredient: {
-        type: 'mm:fluid',
-        fluid: 'minecraft:lava',
-        amount: 16000,
-      },
-    })
-    .output({
-      type: 'mm:output/simple',
-      ingredient: {
-        type: 'mm:item',
-        item: 'minecraft:cobblestone',
-        count: 256,
-      },
-    });
+    outputItems.forEach(element => {
+      count = element.split('x', 1);
+      itemFluid = element.slice(element.indexOf('x') + 2);
 
-  //blaze gold ingot -> dust
-  event
-    .create('mm:blaze_gold_dust_recipe1')
-    .structureId('mm:auto_crusher_structure1')
-    .ticks(8)
-    .input({
-      type: 'mm:input/consume',
-      ingredient: {
-        type: 'mm:item',
-        item: 'kubejs:blaze_gold_ingot',
-        count: 1,
-      },
-    })
-    .input({
-      type: 'mm:input/consume',
-      ingredient: {
-        type: 'mm:energy',
-        amount: 10000,
-      },
-    })
-    .output({
-      type: 'mm:output/simple',
-      ingredient: {
-        type: 'mm:item',
-        item: 'kubejs:blaze_gold_dust',
-        count: 1,
-      },
+      recipe.output({
+        type: 'mm:output/simple',
+        ingredient: {
+          type: 'mm:item',
+          item: itemFluid,
+          count: count
+        }
+      });
     });
+  }
 
-  //azure silver ingot -> dust
-  event
-    .create('mm:azure_silver_dust_recipe1')
-    .structureId('mm:auto_crusher_structure1')
-    .ticks(8)
-    .input({
-      type: 'mm:input/consume',
-      ingredient: {
-        type: 'mm:item',
-        item: 'kubejs:azure_silver_ingot',
-        count: 1,
-      },
-    })
-    .input({
-      type: 'mm:input/consume',
-      ingredient: {
-        type: 'mm:energy',
-        amount: 10000,
-      },
-    })
-    .output({
-      type: 'mm:output/simple',
-      ingredient: {
-        type: 'mm:item',
-        item: 'kubejs:azure_silver_dust',
-        count: 1,
-      },
-    });
-
-  //azure electrum ingot -> dust
-  event
-    .create('mm:azure_electrum_dust_recipe1')
-    .structureId('mm:auto_crusher_structure1')
-    .ticks(8)
-    .input({
-      type: 'mm:input/consume',
-      ingredient: {
-        type: 'mm:item',
-        item: 'kubejs:azure_electrum_ingot',
-        count: 1,
-      },
-    })
-    .input({
-      type: 'mm:input/consume',
-      ingredient: {
-        type: 'mm:energy',
-        amount: 10000,
-      },
-    })
-    .output({
-      type: 'mm:output/simple',
-      ingredient: {
-        type: 'mm:item',
-        item: 'kubejs:azure_electrum_dust',
-        count: 1,
-      },
-    });
-
-  //ender pearl -> dust
-  event
-    .create('mm:ender_pearl_dust_recipe1')
-    .structureId('mm:auto_crusher_structure1')
-    .ticks(8)
-    .input({
-      type: 'mm:input/consume',
-      ingredient: {
-        type: 'mm:item',
-        item: 'minecraft:ender_pearl',
-        count: 1,
-      },
-    })
-    .input({
-      type: 'mm:input/consume',
-      ingredient: {
-        type: 'mm:energy',
-        amount: 10000,
-      },
-    })
-    .output({
-      type: 'mm:output/simple',
-      ingredient: {
-        type: 'mm:item',
-        item: 'thermal:ender_pearl_dust',
-        count: 1,
-      },
-    });
-
-  //grains of piezallity
-  event
-    .create('mm:grains_of_piezallity_recipe1')
-    .structureId('mm:auto_crusher_structure1')
-    .ticks(8)
-    .input({
-      type: 'mm:input/consume',
-      ingredient: {
-        type: 'mm:item',
-        item: 'enderio:pulsating_crystal',
-        count: 8,
-      },
-    })
-    .input({
-      type: 'mm:input/consume',
-      ingredient: {
-        type: 'mm:energy',
-        amount: 10000,
-      },
-    })
-    .output({
-      type: 'mm:output/simple',
-      ingredient: {
-        type: 'mm:item',
-        item: 'enderio:pulsating_powder',
-        count: 8,
-      },
-    });
-
-  //flux dust
-  event
-    .create('mm:flux_dust_recipe1')
-    .structureId('mm:auto_crusher_structure1')
-    .ticks(8)
-    .input({
-      type: 'mm:input/consume',
-      ingredient: {
-        type: 'mm:item',
-        item: 'minecraft:redstone',
-        count: 4,
-      },
-    })
-    .input({
-      type: 'mm:input/consume',
-      ingredient: {
-        type: 'mm:item',
-        item: 'minecraft:obsidian',
-        count: 1,
-      },
-    })
-    .input({
-      type: 'mm:input/consume',
-      ingredient: {
-        type: 'mm:energy',
-        amount: 10000,
-      },
-    })
-    .output({
-      type: 'mm:output/simple',
-      ingredient: {
-        type: 'mm:item',
-        item: 'fluxnetworks:flux_dust',
-        count: 4,
-      },
-    });
+  addRecipe('mm:crushed_blackstone_recipe1', ['4x minecraft:blackstone'], ['250x minecraft:water'], ['8x exdeorum:crushed_blackstone']);
+  addRecipe('mm:crushed_netherrack_recipe1', ['4x minecraft:netherrack'], ['250x minecraft:lava'], ['8x exdeorum:crushed_netherrack']);
+  addRecipe('mm:gravel_recipe1', ['4x minecraft:cobblestone'], ['250x minecraft:water'], ['8x minecraft:gravel']);
+  addRecipe('mm:sand_recipe1', ['4x minecraft:gravel'], ['250x minecraft:water'], ['8x minecraft:sand']);
+  addRecipe('mm:dust_recipe1', ['4x minecraft:sand'], ['250x minecraft:water'], ['8x exdeorum:dust']);
+  addRecipe('mm:crushed_end_stone_recipe1', ['4x minecraft:end_stone'], ['250x minecraft:lava'], ['8x exdeorum:crushed_end_stone']);
+  addRecipe('mm:cobblestone_recipe21', false, ['16000x minecraft:water', '16000x minecraft:lava'], ['256x minecraft:cobblestone'], 100000);
+  addRecipe('mm:blaze_gold_dust_recipe1', ['1x kubejs:blaze_gold_ingot'], false, ['1x kubejs:blaze_gold_dust']);
+  addRecipe('mm:azure_silver_dust_recipe1', ['1x kubejs:azure_silver_ingot'], false, ['1x kubejs:azure_silver_dust']);
+  addRecipe('mm:azure_electrum_dust_recipe1', ['1x kubejs:azure_electrum_ingot'], false, ['1x kubejs:azure_electrum_dust']);
+  addRecipe('mm:ender_pearl_dust_recipe1', ['1x minecraft:ender_pearl'], false, ['1x thermal:ender_pearl_dust']);
+  addRecipe('mm:grains_of_piezallity_recipe1', ['8x enderio:pulsating_crystal'], false, ['8x enderio:pulsating_powder']);
+  addRecipe('mm:flux_dust_recipe1', ['4x minecraft:redstone', '1x minecraft:obsidian'], false, ['4x fluxnetworks:flux_dust']);
 
   //raw_eclipsealloy
   event

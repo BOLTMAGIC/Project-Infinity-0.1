@@ -46,3 +46,5 @@ kubejs/startup_scripts/jsconfig.json
 user_variables.db
 /config/fancymenu/*.db
 dimensions.txt
+pregenerated_emc.json
+/kubejs/assets/nuclearcraft

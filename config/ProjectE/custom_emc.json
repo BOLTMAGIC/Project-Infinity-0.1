@@ -17,132 +17,12 @@
       "emc": 1000000001
     },
     {
-      "item": "projectexpansion:basic_power_flower",
-      "emc": 0
+      "item": "projecte:collector_mk1",
+      "emc": 20000001
     },
     {
-      "item": "projectexpansion:dark_power_flower",
-      "emc": 0
-    },
-    {
-      "item": "projectexpansion:red_power_flower",
-      "emc": 0
-    },
-    {
-      "item": "projectexpansion:magenta_power_flower",
-      "emc": 0
-    },
-    {
-      "item": "projectexpansion:pink_power_flower",
-      "emc": 0
-    },
-    {
-      "item": "projectexpansion:purple_power_flower",
-      "emc": 0
-    },
-    {
-      "item": "projectexpansion:violet_power_flower",
-      "emc": 0
-    },
-    {
-      "item": "projectexpansion:blue_power_flower",
-      "emc": 0
-    },
-    {
-      "item": "projectexpansion:cyan_power_flower",
-      "emc": 0
-    },
-    {
-      "item": "projectexpansion:green_power_flower",
-      "emc": 0
-    },
-    {
-      "item": "projectexpansion:lime_power_flower",
-      "emc": 0
-    },
-    {
-      "item": "projectexpansion:yellow_power_flower",
-      "emc": 0
-    },
-    {
-      "item": "projectexpansion:orange_power_flower",
-      "emc": 0
-    },
-    {
-      "item": "projectexpansion:white_power_flower",
-      "emc": 0
-    },
-    {
-      "item": "projectexpansion:fading_power_flower",
-      "emc": 0
-    },
-    {
-      "item": "projectexpansion:final_power_flower",
-      "emc": 0
-    },
-    {
-      "item": "projectexpansion:yellow_collector",
-      "emc": 0
-    },
-    {
-      "item": "projectexpansion:white_collector",
-      "emc": 0
-    },
-    {
-      "item": "projectexpansion:lime_collector",
-      "emc": 0
-    },
-    {
-      "item": "projectexpansion:pink_collector",
-      "emc": 0
-    },
-    {
-      "item": "projectexpansion:basic_collector",
-      "emc": 0
-    },
-    {
-      "item": "projectexpansion:violet_collector",
-      "emc": 0
-    },
-    {
-      "item": "projectexpansion:blue_collector",
-      "emc": 0
-    },
-    {
-      "item": "projectexpansion:cyan_collector",
-      "emc": 0
-    },
-    {
-      "item": "projectexpansion:orange_collector",
-      "emc": 0
-    },
-    {
-      "item": "projectexpansion:dark_collector",
-      "emc": 0
-    },
-    {
-      "item": "projectexpansion:magenta_collector",
-      "emc": 0
-    },
-    {
-      "item": "projectexpansion:red_collector",
-      "emc": 0
-    },
-    {
-      "item": "projectexpansion:fading_collector",
-      "emc": 0
-    },
-    {
-      "item": "projectexpansion:purple_collector",
-      "emc": 0
-    },
-    {
-      "item": "projectexpansion:final_collector",
-      "emc": 0
-    },
-    {
-      "item": "projectexpansion:green_collector",
-      "emc": 0
+      "item": "projecte:collector_mk2",
+      "emc": 40000001
     },
     {
       "item": "avaritia:neutron_pile",
@@ -618,7 +498,7 @@
     },
     {
       "item": "kubejs:fake_transmutation_tablet",
-      "emc": 2000000001
+      "emc": 1
     }
   ]
 }

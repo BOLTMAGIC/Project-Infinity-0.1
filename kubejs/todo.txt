@@ -12,10 +12,10 @@ MAKE A BACKUP AND UPDATE TO A NEW INSTANCE!!!
 Mod Info:
 CrazyAE2 will get updated to the newest version in 0.0.53.0.
 This will break all old crazyAE2 multiblocks!
+- MODS UPDATED:
+    - 
 - MODS ADDED:
     - 
-- MODS INFO:
-    -
 - MODS REMOVED:
     - 
 - MODS GETTING REMOVED in 0.0.53.0:
@@ -44,8 +44,14 @@ Recipe changes and fixes:
 - fixed custom hammers not working for exdeorum block breaking recipes
 - removed Refined Storage recipes to prepare for the removal of the mod in 0.0.53.0
 - removed RFToolsDim recipes to prepare for the removal of the mod in 0.0.53.0
+- new Nuclearcraft Reactor in the MBTool (credits to Tuxedo !)
+- gave Power Flowers and Collectors EMC
 
 Quest changes:
 - Removed dedicated Naquadah Reactor questline, added it to the Mekanism questline
-- Reworked the Naquadah Reactor questline, should be easy to follow now
+- Reworked the Naquadah Reactor quests, should be easy to follow now
 - Removed Refined Storage questline to prepare for the removal of the mod in 0.0.53.0
+
+Other changes:
+- Auto Crusher KubeJS Code Cleaning (credits to oTurquoise !)
+- removed recipes in KubeJS from mods that no longer are in the modpack

@@ -152,6 +152,10 @@ ServerEvents.tags('fluid', (event) => {
     'minecraft:coal_block',
     'minecraft:nether_star',
   ]);
+
+  event.add('c:experience', [
+    'justdirethings:xp_fluid',
+  ]);
 });
 
 //add Tags to Blocks

@@ -84,7 +84,7 @@
 	quests: [
 		{
 			dependencies: ["130ECB24009A590F"]
-			description: ["{ftbquests.chapter.projecte_2.quest1E3D292C23AC2F93.description1}"]
+			description: ["{ftbquests.chapter.projecte_2.quest1.description1}"]
 			icon: "projectexpansion:fading_matter"
 			id: "1E3D292C23AC2F93"
 			rewards: [
@@ -101,7 +101,7 @@
 			]
 			tasks: [{
 				id: "373B00FDF17053F0"
-				title: "{ftbquests.chapter.projecte_2.quest1E3D292C23AC2F93.task.3979775786389361648.title}"
+				title: "{ftbquests.chapter.projecte_2.quest1.task_3979775786389361648.title}"
 				type: "checkmark"
 			}]
 			x: -10.5d
@@ -109,7 +109,7 @@
 		}
 		{
 			dependencies: ["1E3D292C23AC2F93"]
-			description: ["{ftbquests.chapter.projecte_2.quest7A9593C776D00CF.description1}"]
+			description: ["{ftbquests.chapter.projecte_2.quest2.description1}"]
 			id: "07A9593C776D00CF"
 			rewards: [
 				{
@@ -133,7 +133,7 @@
 		}
 		{
 			dependencies: ["1E3D292C23AC2F93"]
-			description: ["{ftbquests.chapter.projecte_2.quest617C6768D53DB8A6.description1}"]
+			description: ["{ftbquests.chapter.projecte_2.quest3.description1}"]
 			id: "617C6768D53DB8A6"
 			rewards: [
 				{
@@ -152,7 +152,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "{ftbquests.chapter.projecte_2.quest617C6768D53DB8A6.subtitle}"
+			subtitle: "{ftbquests.chapter.projecte_2.quest3.subtitle}"
 			tasks: [{
 				id: "41EA888884A73844"
 				item: "projecte:dark_matter"
@@ -164,11 +164,11 @@
 		{
 			dependencies: ["1E3D292C23AC2F93"]
 			description: [
-				"{ftbquests.chapter.projecte_2.quest155A11A4A56D3FA.description1}"
+				"{ftbquests.chapter.projecte_2.quest4.description1}"
 				""
-				"{ftbquests.chapter.projecte_2.quest155A11A4A56D3FA.description2}"
+				"{ftbquests.chapter.projecte_2.quest4.description2}"
 				""
-				"{ftbquests.chapter.projecte_2.quest155A11A4A56D3FA.description3}"
+				"{ftbquests.chapter.projecte_2.quest4.description3}"
 			]
 			id: "0155A11A4A56D3FA"
 			rewards: [
@@ -183,7 +183,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "{ftbquests.chapter.projecte_2.quest155A11A4A56D3FA.subtitle}"
+			subtitle: "{ftbquests.chapter.projecte_2.quest4.subtitle}"
 			tasks: [{
 				id: "33B55955760760DF"
 				item: {
@@ -201,7 +201,7 @@
 		}
 		{
 			dependencies: ["07A9593C776D00CF"]
-			description: ["{ftbquests.chapter.projecte_2.questAA19D8276C5B0F.description1}"]
+			description: ["{ftbquests.chapter.projecte_2.quest5.description1}"]
 			id: "00AA19D8276C5B0F"
 			rewards: [
 				{
@@ -225,7 +225,7 @@
 		}
 		{
 			dependencies: ["617C6768D53DB8A6"]
-			description: ["{ftbquests.chapter.projecte_2.quest300E7A6896F5E3FF.description1}"]
+			description: ["{ftbquests.chapter.projecte_2.quest6.description1}"]
 			id: "300E7A6896F5E3FF"
 			rewards: [
 				{
@@ -337,11 +337,11 @@
 		{
 			dependencies: ["0155A11A4A56D3FA"]
 			description: [
-				"{ftbquests.chapter.projecte_2.quest6BEF2C05A0A6C44E.description1}"
+				"{ftbquests.chapter.projecte_2.quest7.description1}"
 				""
 				""
 				"{@pagebreak}"
-				"{ftbquests.chapter.projecte_2.quest6BEF2C05A0A6C44E.description2}"
+				"{ftbquests.chapter.projecte_2.quest7.description2}"
 			]
 			id: "6BEF2C05A0A6C44E"
 			rewards: [
@@ -356,7 +356,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "{ftbquests.chapter.projecte_2.quest6BEF2C05A0A6C44E.subtitle}"
+			subtitle: "{ftbquests.chapter.projecte_2.quest7.subtitle}"
 			tasks: [{
 				id: "797E3D756DFA0D8C"
 				item: "projecte:transmutation_table"
@@ -368,11 +368,11 @@
 		{
 			dependencies: ["00AA19D8276C5B0F"]
 			description: [
-				"{ftbquests.chapter.projecte_2.quest1AEFEF41C35C032B.description1}"
+				"{ftbquests.chapter.projecte_2.quest8.description1}"
 				""
-				"{ftbquests.chapter.projecte_2.quest1AEFEF41C35C032B.description2}"
+				"{ftbquests.chapter.projecte_2.quest8.description2}"
 				""
-				"{ftbquests.chapter.projecte_2.quest1AEFEF41C35C032B.description3}"
+				"{ftbquests.chapter.projecte_2.quest8.description3}"
 			]
 			id: "1AEFEF41C35C032B"
 			rewards: [
@@ -394,7 +394,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "{ftbquests.chapter.projecte_2.quest1AEFEF41C35C032B.subtitle}"
+			subtitle: "{ftbquests.chapter.projecte_2.quest8.subtitle}"
 			tasks: [{
 				id: "1773C26A22E2C8E7"
 				item: "projecte:condenser_mk1"
@@ -405,7 +405,7 @@
 		}
 		{
 			dependencies: ["300E7A6896F5E3FF"]
-			description: ["{ftbquests.chapter.projecte_2.quest28755C0B064C7916.description1}"]
+			description: ["{ftbquests.chapter.projecte_2.quest9.description1}"]
 			id: "28755C0B064C7916"
 			rewards: [
 				{
@@ -452,9 +452,9 @@
 		{
 			dependencies: ["1AEFEF41C35C032B"]
 			description: [
-				"{ftbquests.chapter.projecte_2.quest3ED5DB8D1922B491.description1}"
+				"{ftbquests.chapter.projecte_2.quest10.description1}"
 				""
-				"{ftbquests.chapter.projecte_2.quest3ED5DB8D1922B491.description2}"
+				"{ftbquests.chapter.projecte_2.quest10.description2}"
 			]
 			id: "3ED5DB8D1922B491"
 			rewards: [
@@ -486,7 +486,7 @@
 		}
 		{
 			dependencies: ["28755C0B064C7916"]
-			description: ["{ftbquests.chapter.projecte_2.questAE2BE768D2D9660.description1}"]
+			description: ["{ftbquests.chapter.projecte_2.quest11.description1}"]
 			id: "0AE2BE768D2D9660"
 			rewards: [
 				{
@@ -510,7 +510,7 @@
 		}
 		{
 			dependencies: ["6BEF2C05A0A6C44E"]
-			description: ["{ftbquests.chapter.projecte_2.questD0B51AB0EFCC979.description1}"]
+			description: ["{ftbquests.chapter.projecte_2.quest12.description1}"]
 			id: "0D0B51AB0EFCC979"
 			rewards: [
 				{
@@ -542,16 +542,16 @@
 				}
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.projecte_2.questD0B51AB0EFCC979.title}"
+			title: "{ftbquests.chapter.projecte_2.quest12.title}"
 			x: -1.5d
 			y: 0.5d
 		}
 		{
 			dependencies: ["3ED5DB8D1922B491"]
 			description: [
-				"{ftbquests.chapter.projecte_2.quest34B7E1F067A0F685.description1}"
+				"{ftbquests.chapter.projecte_2.quest13.description1}"
 				""
-				"{ftbquests.chapter.projecte_2.quest34B7E1F067A0F685.description2}"
+				"{ftbquests.chapter.projecte_2.quest13.description2}"
 			]
 			id: "34B7E1F067A0F685"
 			rewards: [
@@ -576,7 +576,7 @@
 		}
 		{
 			dependencies: ["0AE2BE768D2D9660"]
-			description: ["{ftbquests.chapter.projecte_2.quest5B0AC159182D73C5.description1}"]
+			description: ["{ftbquests.chapter.projecte_2.quest14.description1}"]
 			id: "5B0AC159182D73C5"
 			rewards: [
 				{
@@ -618,17 +618,17 @@
 		{
 			dependencies: ["0AE2BE768D2D9660"]
 			description: [
-				"{ftbquests.chapter.projecte_2.quest79B39D6387CE396A.description1}"
+				"{ftbquests.chapter.projecte_2.quest15.description1}"
 				""
-				"{ftbquests.chapter.projecte_2.quest79B39D6387CE396A.description2}"
+				"{ftbquests.chapter.projecte_2.quest15.description2}"
 				""
-				"{ftbquests.chapter.projecte_2.quest79B39D6387CE396A.description3}"
+				"{ftbquests.chapter.projecte_2.quest15.description3}"
 				""
-				"{ftbquests.chapter.projecte_2.quest79B39D6387CE396A.description4}"
+				"{ftbquests.chapter.projecte_2.quest15.description4}"
 				""
-				"{ftbquests.chapter.projecte_2.quest79B39D6387CE396A.description5}"
+				"{ftbquests.chapter.projecte_2.quest15.description5}"
 				""
-				"{ftbquests.chapter.projecte_2.quest79B39D6387CE396A.description6}"
+				"{ftbquests.chapter.projecte_2.quest15.description6}"
 			]
 			id: "79B39D6387CE396A"
 			rewards: [
@@ -645,7 +645,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "{ftbquests.chapter.projecte_2.quest79B39D6387CE396A.subtitle}"
+			subtitle: "{ftbquests.chapter.projecte_2.quest15.subtitle}"
 			tasks: [{
 				id: "0EFBB57DD46AB9D7"
 				item: {
@@ -696,11 +696,11 @@
 		{
 			dependencies: ["0D0B51AB0EFCC979"]
 			description: [
-				"{ftbquests.chapter.projecte_2.quest9BC6A21C507FD66.description1}"
+				"{ftbquests.chapter.projecte_2.quest17.description1}"
 				""
-				"{ftbquests.chapter.projecte_2.quest9BC6A21C507FD66.description2}"
+				"{ftbquests.chapter.projecte_2.quest17.description2}"
 				""
-				"{ftbquests.chapter.projecte_2.quest9BC6A21C507FD66.description3}"
+				"{ftbquests.chapter.projecte_2.quest17.description3}"
 			]
 			id: "09BC6A21C507FD66"
 			rewards: [
@@ -733,21 +733,21 @@
 		{
 			dependencies: ["34B7E1F067A0F685"]
 			description: [
-				"{ftbquests.chapter.projecte_2.quest39EA68CA7E4A49FA.description1}"
+				"{ftbquests.chapter.projecte_2.quest18.description1}"
 				""
-				"{ftbquests.chapter.projecte_2.quest39EA68CA7E4A49FA.description2}"
+				"{ftbquests.chapter.projecte_2.quest18.description2}"
 				""
 				"{@pagebreak}"
 				""
-				"{ftbquests.chapter.projecte_2.quest39EA68CA7E4A49FA.description3}"
+				"{ftbquests.chapter.projecte_2.quest18.description3}"
 				""
-				"{ftbquests.chapter.projecte_2.quest39EA68CA7E4A49FA.description4}"
+				"{ftbquests.chapter.projecte_2.quest18.description4}"
 				""
-				"{ftbquests.chapter.projecte_2.quest39EA68CA7E4A49FA.description5}"
+				"{ftbquests.chapter.projecte_2.quest18.description5}"
 				""
-				"{ftbquests.chapter.projecte_2.quest39EA68CA7E4A49FA.description6}"
+				"{ftbquests.chapter.projecte_2.quest18.description6}"
 				""
-				"{ftbquests.chapter.projecte_2.quest39EA68CA7E4A49FA.description7}"
+				"{ftbquests.chapter.projecte_2.quest18.description7}"
 			]
 			id: "39EA68CA7E4A49FA"
 			rewards: [
@@ -764,7 +764,7 @@
 			]
 			tasks: [{
 				id: "4AABCAF6D28650F2"
-				title: "{ftbquests.chapter.projecte_2.quest39EA68CA7E4A49FA.task.5380617341266972914.title}"
+				title: "{ftbquests.chapter.projecte_2.quest18.task_5380617341266972914.title}"
 				type: "checkmark"
 			}]
 			x: 2.5d
@@ -773,13 +773,13 @@
 		{
 			dependencies: ["09BC6A21C507FD66"]
 			description: [
-				"{ftbquests.chapter.projecte_2.quest1D44E9BC799A988D.description1}"
-				"{ftbquests.chapter.projecte_2.quest1D44E9BC799A988D.description2}"
-				"{ftbquests.chapter.projecte_2.quest1D44E9BC799A988D.description3}"
-				"{ftbquests.chapter.projecte_2.quest1D44E9BC799A988D.description4}"
-				"{ftbquests.chapter.projecte_2.quest1D44E9BC799A988D.description5}"
-				"{ftbquests.chapter.projecte_2.quest1D44E9BC799A988D.description6}"
-				"{ftbquests.chapter.projecte_2.quest1D44E9BC799A988D.description7}"
+				"{ftbquests.chapter.projecte_2.quest19.description1}"
+				"{ftbquests.chapter.projecte_2.quest19.description2}"
+				"{ftbquests.chapter.projecte_2.quest19.description3}"
+				"{ftbquests.chapter.projecte_2.quest19.description4}"
+				"{ftbquests.chapter.projecte_2.quest19.description5}"
+				"{ftbquests.chapter.projecte_2.quest19.description6}"
+				"{ftbquests.chapter.projecte_2.quest19.description7}"
 			]
 			id: "1D44E9BC799A988D"
 			rewards: [
@@ -801,7 +801,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "{ftbquests.chapter.projecte_2.quest1D44E9BC799A988D.subtitle}"
+			subtitle: "{ftbquests.chapter.projecte_2.quest19.subtitle}"
 			tasks: [
 				{
 					id: "2207E7D5906E89C6"
@@ -841,7 +841,7 @@
 		}
 		{
 			dependencies: ["30F7F3CC1BDAD46F"]
-			description: ["{ftbquests.chapter.projecte_2.quest22C98C37AF41B5FD.description1}"]
+			description: ["{ftbquests.chapter.projecte_2.quest20.description1}"]
 			id: "22C98C37AF41B5FD"
 			rewards: [
 				{
@@ -855,7 +855,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "{ftbquests.chapter.projecte_2.quest22C98C37AF41B5FD.subtitle}"
+			subtitle: "{ftbquests.chapter.projecte_2.quest20.subtitle}"
 			tasks: [{
 				id: "7C2F81696BD961AE"
 				item: {
@@ -867,18 +867,18 @@
 				}
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.projecte_2.quest22C98C37AF41B5FD.title}"
+			title: "{ftbquests.chapter.projecte_2.quest20.title}"
 			x: 5.0d
 			y: 2.0d
 		}
 		{
 			dependencies: ["5B0AC159182D73C5"]
 			description: [
-				"{ftbquests.chapter.projecte_2.quest30F7F3CC1BDAD46F.description1}"
+				"{ftbquests.chapter.projecte_2.quest21.description1}"
 				""
-				"{ftbquests.chapter.projecte_2.quest30F7F3CC1BDAD46F.description2}"
+				"{ftbquests.chapter.projecte_2.quest21.description2}"
 				""
-				"{ftbquests.chapter.projecte_2.quest30F7F3CC1BDAD46F.description3}"
+				"{ftbquests.chapter.projecte_2.quest21.description3}"
 			]
 			id: "30F7F3CC1BDAD46F"
 			rewards: [
@@ -992,7 +992,7 @@
 		}
 		{
 			dependencies: ["39EA68CA7E4A49FA"]
-			description: ["{ftbquests.chapter.projecte_2.quest17A986A4AF5A781F.description1}"]
+			description: ["{ftbquests.chapter.projecte_2.quest22.description1}"]
 			id: "17A986A4AF5A781F"
 			rewards: [
 				{
@@ -1022,7 +1022,7 @@
 				}
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.projecte_2.quest17A986A4AF5A781F.title}"
+			title: "{ftbquests.chapter.projecte_2.quest22.title}"
 			x: 5.0d
 			y: -1.0d
 		}
@@ -1032,7 +1032,7 @@
 				"17A986A4AF5A781F"
 				"1D44E9BC799A988D"
 			]
-			description: ["{ftbquests.chapter.projecte_2.quest72A62522BD359871.description1}"]
+			description: ["{ftbquests.chapter.projecte_2.quest23.description1}"]
 			id: "72A62522BD359871"
 			rewards: [
 				{

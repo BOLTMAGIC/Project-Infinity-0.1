@@ -84,7 +84,7 @@
 	quest_links: [ ]
 	quests: [
 		{
-			description: ["{ftbquests.chapter.hostile_neural_networks.quest37EBB8E0D6E5F821.description1}"]
+			description: ["{ftbquests.chapter.hostile_neural_networks.quest1.description1}"]
 			icon: {
 				Count: 1
 				id: "hostilenetworks:data_model"
@@ -106,13 +106,13 @@
 				id: "463EB27ECC7E6509"
 				type: "checkmark"
 			}]
-			title: "{ftbquests.chapter.hostile_neural_networks.quest37EBB8E0D6E5F821.title}"
+			title: "{ftbquests.chapter.hostile_neural_networks.quest1.title}"
 			x: -18.5d
 			y: 1.5d
 		}
 		{
 			dependencies: ["37EBB8E0D6E5F821"]
-			description: ["{ftbquests.chapter.hostile_neural_networks.quest3E3CBDCEAB0FF28F.description1}"]
+			description: ["{ftbquests.chapter.hostile_neural_networks.quest2.description1}"]
 			hide_dependency_lines: false
 			hide_until_deps_visible: false
 			id: "3E3CBDCEAB0FF28F"
@@ -130,19 +130,19 @@
 			]
 			shape: "rsquare"
 			size: 1.5d
-			subtitle: "{ftbquests.chapter.hostile_neural_networks.quest3E3CBDCEAB0FF28F.subtitle}"
+			subtitle: "{ftbquests.chapter.hostile_neural_networks.quest2.subtitle}"
 			tasks: [{
 				id: "054BE385F6537CBA"
 				item: "hostilenetworks:deep_learner"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.hostile_neural_networks.quest3E3CBDCEAB0FF28F.title}"
+			title: "{ftbquests.chapter.hostile_neural_networks.quest2.title}"
 			x: -14.75d
 			y: 3.75d
 		}
 		{
 			dependencies: ["37EBB8E0D6E5F821"]
-			description: ["{ftbquests.chapter.hostile_neural_networks.quest58C2ABED43B2EA61.description1}"]
+			description: ["{ftbquests.chapter.hostile_neural_networks.quest3.description1}"]
 			hide_dependency_lines: false
 			hide_until_deps_visible: false
 			id: "58C2ABED43B2EA61"
@@ -160,13 +160,13 @@
 			]
 			shape: "rsquare"
 			size: 1.5d
-			subtitle: "{ftbquests.chapter.hostile_neural_networks.quest58C2ABED43B2EA61.subtitle}"
+			subtitle: "{ftbquests.chapter.hostile_neural_networks.quest3.subtitle}"
 			tasks: [{
 				id: "1C090CE24508A2EC"
 				item: "hostilenetworks:blank_data_model"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.hostile_neural_networks.quest58C2ABED43B2EA61.title}"
+			title: "{ftbquests.chapter.hostile_neural_networks.quest3.title}"
 			x: -14.75d
 			y: -0.75d
 		}
@@ -175,7 +175,7 @@
 				"3E3CBDCEAB0FF28F"
 				"58C2ABED43B2EA61"
 			]
-			description: ["{ftbquests.chapter.hostile_neural_networks.quest104EBBC08B4733F5.description1}"]
+			description: ["{ftbquests.chapter.hostile_neural_networks.quest4.description1}"]
 			hide_dependency_lines: false
 			hide_until_deps_visible: false
 			id: "104EBBC08B4733F5"
@@ -199,7 +199,7 @@
 				item: "hostilenetworks:sim_chamber"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.hostile_neural_networks.quest104EBBC08B4733F5.title}"
+			title: "{ftbquests.chapter.hostile_neural_networks.quest4.title}"
 			x: -11.75d
 			y: -0.75d
 		}
@@ -208,7 +208,7 @@
 				"58C2ABED43B2EA61"
 				"3E3CBDCEAB0FF28F"
 			]
-			description: ["{ftbquests.chapter.hostile_neural_networks.quest34CD54347E9821B5.description1}"]
+			description: ["{ftbquests.chapter.hostile_neural_networks.quest5.description1}"]
 			hide_dependency_lines: false
 			hide_until_deps_visible: false
 			icon: {
@@ -239,13 +239,13 @@
 				id: "7CEA92391454DDD3"
 				type: "checkmark"
 			}]
-			title: "{ftbquests.chapter.hostile_neural_networks.quest34CD54347E9821B5.title}"
+			title: "{ftbquests.chapter.hostile_neural_networks.quest5.title}"
 			x: -14.75d
 			y: 1.5d
 		}
 		{
 			dependencies: ["104EBBC08B4733F5"]
-			description: ["{ftbquests.chapter.hostile_neural_networks.quest2559201BCF5D497C.description1}"]
+			description: ["{ftbquests.chapter.hostile_neural_networks.quest6.description1}"]
 			hide_dependency_lines: false
 			id: "2559201BCF5D497C"
 			rewards: [{
@@ -259,13 +259,13 @@
 				item: "hostilenetworks:overworld_prediction"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.hostile_neural_networks.quest2559201BCF5D497C.title}"
+			title: "{ftbquests.chapter.hostile_neural_networks.quest6.title}"
 			x: -13.0d
 			y: -3.0d
 		}
 		{
 			dependencies: ["104EBBC08B4733F5"]
-			description: ["{ftbquests.chapter.hostile_neural_networks.quest10E8BC20D406D9FB.description1}"]
+			description: ["{ftbquests.chapter.hostile_neural_networks.quest7.description1}"]
 			hide_dependency_lines: false
 			id: "10E8BC20D406D9FB"
 			rewards: [{
@@ -279,13 +279,13 @@
 				item: "hostilenetworks:nether_prediction"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.hostile_neural_networks.quest10E8BC20D406D9FB.title}"
+			title: "{ftbquests.chapter.hostile_neural_networks.quest7.title}"
 			x: -12.0d
 			y: -3.0d
 		}
 		{
 			dependencies: ["104EBBC08B4733F5"]
-			description: ["{ftbquests.chapter.hostile_neural_networks.quest5A23107C363A209E.description1}"]
+			description: ["{ftbquests.chapter.hostile_neural_networks.quest8.description1}"]
 			hide_dependency_lines: false
 			id: "5A23107C363A209E"
 			rewards: [{
@@ -299,7 +299,7 @@
 				item: "hostilenetworks:end_prediction"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.hostile_neural_networks.quest5A23107C363A209E.title}"
+			title: "{ftbquests.chapter.hostile_neural_networks.quest8.title}"
 			x: -11.0d
 			y: -3.0d
 		}
@@ -1458,7 +1458,7 @@
 		}
 		{
 			dependencies: ["104EBBC08B4733F5"]
-			description: ["{ftbquests.chapter.hostile_neural_networks.quest14B3542ECB59869C.description1}"]
+			description: ["{ftbquests.chapter.hostile_neural_networks.quest43.description1}"]
 			hide_dependency_lines: false
 			id: "14B3542ECB59869C"
 			rewards: [
@@ -1480,7 +1480,7 @@
 				item: "hostilenetworks:loot_fabricator"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.hostile_neural_networks.quest14B3542ECB59869C.title}"
+			title: "{ftbquests.chapter.hostile_neural_networks.quest43.title}"
 			x: -11.75d
 			y: 3.75d
 		}
@@ -2192,7 +2192,7 @@
 		}
 		{
 			dependencies: ["104EBBC08B4733F5"]
-			description: ["{ftbquests.chapter.hostile_neural_networks.quest3215DB3E694A5AE2.description1}"]
+			description: ["{ftbquests.chapter.hostile_neural_networks.quest66.description1}"]
 			hide_dependency_lines: false
 			id: "3215DB3E694A5AE2"
 			rewards: [{
@@ -2206,7 +2206,7 @@
 				item: "hostilenetworks:twilight_prediction"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.hostile_neural_networks.quest3215DB3E694A5AE2.title}"
+			title: "{ftbquests.chapter.hostile_neural_networks.quest66.title}"
 			x: -10.0d
 			y: -3.0d
 		}
@@ -2276,7 +2276,7 @@
 		}
 		{
 			dependencies: ["7B92C09E74D6ABB2"]
-			description: ["Like the regular &5Loot Fabricator&r, except this machine can process predictions &24 at a time!&r So much loot!"]
+			description: ["{ftbquests.chapter.hostile_neural_networks.quest69.description1}"]
 			hide_dependency_lines: false
 			hide_until_deps_visible: false
 			id: "6C878E306E620FAE"
@@ -2295,7 +2295,7 @@
 			]
 			shape: "rsquare"
 			size: 1.5d
-			subtitle: "4x Processing"
+			subtitle: "{ftbquests.chapter.hostile_neural_networks.quest69.subtitle}"
 			tasks: [{
 				id: "663D6B5E96B491FD"
 				item: "extrahnn:ultimate_loot_fabricator_v1"
@@ -2306,7 +2306,7 @@
 		}
 		{
 			dependencies: ["7B92C09E74D6ABB2"]
-			description: ["Using &eExtra Data Models&r, this machine can simulate mobs in parallel for 4x the output!"]
+			description: ["{ftbquests.chapter.hostile_neural_networks.quest70.description1}"]
 			hide_dependency_lines: false
 			hide_until_deps_visible: false
 			id: "20667F122EADBD6B"
@@ -2325,7 +2325,7 @@
 			]
 			shape: "rsquare"
 			size: 1.5d
-			subtitle: "4x Processing"
+			subtitle: "{ftbquests.chapter.hostile_neural_networks.quest70.subtitle}"
 			tasks: [{
 				id: "2ED24C4C5AE11E84"
 				item: "extrahnn:ultimate_sim_chamber_v1"
@@ -2340,13 +2340,13 @@
 				"14B3542ECB59869C"
 			]
 			description: [
-				"The Merger Camera lets you combine 4 &6Self-Aware&r Data Models along with an &8Extra Model Framework&r to create a combined &eExtra Data Model&r that can then be used in the &9Ultimate Machines&r."
+				"{ftbquests.chapter.hostile_neural_networks.quest71.description1}"
 				""
-				"You can combine 4 of the same model into one, or you can mix and match between different mob types as needed so long as they are all at the &6Self-Aware&r tier."
+				"{ftbquests.chapter.hostile_neural_networks.quest71.description2}"
 				""
-				"&eExtra Data Models&r created by this process will start out at the &bAutonomous&r tier and level up in the following order:"
+				"{ftbquests.chapter.hostile_neural_networks.quest71.description3}"
 				""
-				"&bAutonomous&r -> &3Intelligent&r -> &cAdvanced&r -> &4Synthetic&r -> &5Omnipotent&r"
+				"{ftbquests.chapter.hostile_neural_networks.quest71.description4}"
 			]
 			hide_dependency_lines: false
 			hide_until_deps_visible: false
@@ -2366,7 +2366,7 @@
 			]
 			shape: "rsquare"
 			size: 1.5d
-			subtitle: "4x your models!"
+			subtitle: "{ftbquests.chapter.hostile_neural_networks.quest71.subtitle}"
 			tasks: [
 				{
 					id: "7DCE3BA39B43059E"
@@ -2385,11 +2385,11 @@
 		{
 			dependencies: ["104EBBC08B4733F5"]
 			description: [
-				"The &9Simulator Modeling&r machine allows you to upgrade your models faster without having to leave them in a &9Simulation Chamber&r. While your models won't produce predictions in this machine, this can help you quickly get your models up to the &6Self Aware&r level required to put them in the &9Merger Camera&r!"
+				"{ftbquests.chapter.hostile_neural_networks.quest72.description1}"
 				""
-				"A model needs to be at least &aBasic&r tier to be leveled up by this machine, &7Faulty&r models aren't good enough."
+				"{ftbquests.chapter.hostile_neural_networks.quest72.description2}"
 				""
-				"This machine also has &6upgrade slots&r to improve it's functionality. (Note: additional upgrades of the same type do not stack their effects in this machine.)"
+				"{ftbquests.chapter.hostile_neural_networks.quest72.description3}"
 			]
 			hide_dependency_lines: false
 			hide_until_deps_visible: false
@@ -2409,7 +2409,7 @@
 			]
 			shape: "rsquare"
 			size: 1.5d
-			subtitle: "Models upgrading too slow?"
+			subtitle: "{ftbquests.chapter.hostile_neural_networks.quest72.subtitle}"
 			tasks: [{
 				id: "289E502B50D744D3"
 				item: "extrahnn:simulator_modeling"
@@ -2421,14 +2421,14 @@
 		{
 			dependencies: ["7B92C09E74D6ABB2"]
 			description: [
-				"{ftbquests.chapter.hostile_neural_networks.quest55C76FF9FC3B049A.description1}"
-				"{ftbquests.chapter.hostile_neural_networks.quest55C76FF9FC3B049A.description2}"
-				"{ftbquests.chapter.hostile_neural_networks.quest55C76FF9FC3B049A.description3}"
-				"{ftbquests.chapter.hostile_neural_networks.quest55C76FF9FC3B049A.description4}"
-				"{ftbquests.chapter.hostile_neural_networks.quest55C76FF9FC3B049A.description5}"
+				"{ftbquests.chapter.hostile_neural_networks.quest73.description1}"
+				"{ftbquests.chapter.hostile_neural_networks.quest73.description2}"
+				"{ftbquests.chapter.hostile_neural_networks.quest73.description3}"
+				"{ftbquests.chapter.hostile_neural_networks.quest73.description4}"
+				"{ftbquests.chapter.hostile_neural_networks.quest73.description5}"
 				""
-				"{ftbquests.chapter.hostile_neural_networks.quest55C76FF9FC3B049A.description6}"
-				"{ftbquests.chapter.hostile_neural_networks.quest55C76FF9FC3B049A.description7}"
+				"{ftbquests.chapter.hostile_neural_networks.quest73.description6}"
+				"{ftbquests.chapter.hostile_neural_networks.quest73.description7}"
 			]
 			id: "55C76FF9FC3B049A"
 			optional: true
@@ -2438,7 +2438,7 @@
 				type: "item"
 			}]
 			shape: "heart"
-			subtitle: "Try a combo!"
+			subtitle: "{ftbquests.chapter.hostile_neural_networks.quest73.subtitle}"
 			tasks: [{
 				id: "45122342E5B76996"
 				item: {
@@ -2458,13 +2458,13 @@
 				match_nbt: true
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.hostile_neural_networks.quest55C76FF9FC3B049A.title}"
+			title: "{ftbquests.chapter.hostile_neural_networks.quest73.title}"
 			x: -8.0d
 			y: 3.0d
 		}
 		{
 			dependencies: ["20879753F697BF83"]
-			description: ["&aDoubles&r the amount of data received per cycle of the machine with no downside!"]
+			description: ["{ftbquests.chapter.hostile_neural_networks.quest74.description1}"]
 			id: "5E88E4FB34428051"
 			rewards: [{
 				id: "378D20A1393762CE"
@@ -2482,7 +2482,7 @@
 		{
 			dependencies: ["5E88E4FB34428051"]
 			dependency_requirement: "all_started"
-			description: ["Provides enough data to &ainstantly level up a model&r to the next tier with each machine cycle, but &cdrasticly increases energy consumption&r."]
+			description: ["{ftbquests.chapter.hostile_neural_networks.quest75.description1}"]
 			id: "17B6588BDE007D44"
 			rewards: [{
 				id: "4F7922A7ED64D490"
@@ -2499,7 +2499,7 @@
 		}
 		{
 			dependencies: ["20879753F697BF83"]
-			description: ["Makes the machine &awork 50% faster&r, at the cost of &cdoubled power consumtion&r."]
+			description: ["{ftbquests.chapter.hostile_neural_networks.quest76.description1}"]
 			id: "53DAA838BC387E90"
 			rewards: [{
 				id: "5E785C8D2540882E"
@@ -3000,7 +3000,7 @@
 			]
 			shape: "rsquare"
 			size: 1.5d
-			subtitle: "16x Processing"
+			subtitle: "{ftbquests.chapter.hostile_neural_networks.quest87.subtitle}"
 			tasks: [{
 				id: "627F1915BCFC722B"
 				item: "extrahnn:ultimate_loot_fabricator_v2"
@@ -3029,7 +3029,7 @@
 			]
 			shape: "rsquare"
 			size: 1.5d
-			subtitle: "32x Processing"
+			subtitle: "{ftbquests.chapter.hostile_neural_networks.quest88.subtitle}"
 			tasks: [{
 				id: "080B408D4950EB6C"
 				item: "extrahnn:ultimate_loot_fabricator_v3"
@@ -3058,7 +3058,7 @@
 			]
 			shape: "rsquare"
 			size: 1.5d
-			subtitle: "64x Processing"
+			subtitle: "{ftbquests.chapter.hostile_neural_networks.quest89.subtitle}"
 			tasks: [{
 				id: "44D8337A48115EA4"
 				item: "extrahnn:ultimate_loot_fabricator_v4"
@@ -3087,7 +3087,7 @@
 			]
 			shape: "rsquare"
 			size: 1.5d
-			subtitle: "16x Processing"
+			subtitle: "{ftbquests.chapter.hostile_neural_networks.quest90.subtitle}"
 			tasks: [{
 				id: "11633F251E8925A9"
 				item: "extrahnn:ultimate_sim_chamber_v2"
@@ -3116,7 +3116,7 @@
 			]
 			shape: "rsquare"
 			size: 1.5d
-			subtitle: "32x Processsing"
+			subtitle: "{ftbquests.chapter.hostile_neural_networks.quest91.subtitle}"
 			tasks: [{
 				id: "4FF803A39171F0D5"
 				item: "extrahnn:ultimate_sim_chamber_v3"
@@ -3145,7 +3145,7 @@
 			]
 			shape: "rsquare"
 			size: 1.5d
-			subtitle: "64x Processing"
+			subtitle: "{ftbquests.chapter.hostile_neural_networks.quest92.subtitle}"
 			tasks: [{
 				id: "126117C06EA823F4"
 				item: "extrahnn:ultimate_sim_chamber_v4"
@@ -3156,7 +3156,7 @@
 		}
 		{
 			dependencies: ["14B3542ECB59869C"]
-			description: ["{ftbquests.chapter.hostile_neural_networks.quest2282DDBCAE7CA5AA.description1}"]
+			description: ["{ftbquests.chapter.hostile_neural_networks.quest93.description1}"]
 			hide_until_deps_visible: false
 			id: "2282DDBCAE7CA5AA"
 			rewards: [
@@ -4374,7 +4374,7 @@
 		}
 		{
 			dependencies: ["14B3542ECB59869C"]
-			description: ["{ftbquests.chapter.hostile_neural_networks.quest7D297E6E96ED222B.description1}"]
+			description: ["{ftbquests.chapter.hostile_neural_networks.quest141.description1}"]
 			id: "7D297E6E96ED222B"
 			rewards: [{
 				id: "79FACD21C89B2108"
@@ -4958,13 +4958,13 @@
 		{
 			dependencies: ["14B3542ECB59869C"]
 			description: [
-				"Have a bunch of &5Loot Fabricators&r all piped together? This tool can help you make sure they all have the same processing settings so they know what to make out of their predictions. Simply set the recipes you want in one machine, and then you can copy-paste them into all the other machines with ease."
+				"{ftbquests.chapter.hostile_neural_networks.quest164.description1}"
 				""
-				"&9Sneak&r + &4Right Click&r: Copy the settings from a machine."
+				"{ftbquests.chapter.hostile_neural_networks.quest164.description2}"
 				""
-				"&4Right Click&r: Paste those settings."
+				"{ftbquests.chapter.hostile_neural_networks.quest164.description3}"
 				""
-				"&9Sneak&r + &4Right Click&r the air: Clear the saved settings."
+				"{ftbquests.chapter.hostile_neural_networks.quest164.description4}"
 			]
 			hide_dependency_lines: false
 			id: "3141AB4D80CBE99E"
@@ -4975,7 +4975,7 @@
 			}]
 			shape: "diamond"
 			size: 1.5d
-			subtitle: "Copy/Paste"
+			subtitle: "{ftbquests.chapter.hostile_neural_networks.quest164.subtitle}"
 			tasks: [{
 				id: "4CC528AAD66B74F7"
 				item: "extrahnn:setting_card"
@@ -4983,19 +4983,6 @@
 			}]
 			x: -9.75d
 			y: 3.75d
-		}
-		{
-			id: "400ADC6313A594A8"
-			secret: true
-			size: 0.75d
-			tasks: [{
-				id: "6CEB256F31D258CA"
-				title: "Thanks"
-				type: "checkmark"
-			}]
-			title: "&2Huge thanks to&r &6BabyMudkip&r &2for the original Naquadah Reactor Guide!&r"
-			x: -10.0d
-			y: 6.5d
 		}
 	]
 	title: "{ftbquests.chapter.hostile_neural_networks.title}"

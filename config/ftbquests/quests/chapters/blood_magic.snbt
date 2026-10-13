@@ -52,38 +52,38 @@
 	quests: [
 		{
 			description: [
-				"{ftbquests.chapter.blood_magic.quest7738BD62E1D27997.description1}"
+				"{ftbquests.chapter.blood_magic.quest1.description1}"
 				""
-				"{ftbquests.chapter.blood_magic.quest7738BD62E1D27997.description2}"
+				"{ftbquests.chapter.blood_magic.quest1.description2}"
 				""
-				"{ftbquests.chapter.blood_magic.quest7738BD62E1D27997.description3}"
+				"{ftbquests.chapter.blood_magic.quest1.description3}"
 				""
-				"{ftbquests.chapter.blood_magic.quest7738BD62E1D27997.description4}"
-				"{ftbquests.chapter.blood_magic.quest7738BD62E1D27997.description5}"
-				"{ftbquests.chapter.blood_magic.quest7738BD62E1D27997.description6}"
-				"{ftbquests.chapter.blood_magic.quest7738BD62E1D27997.description7}"
+				"{ftbquests.chapter.blood_magic.quest1.description4}"
+				"{ftbquests.chapter.blood_magic.quest1.description5}"
+				"{ftbquests.chapter.blood_magic.quest1.description6}"
+				"{ftbquests.chapter.blood_magic.quest1.description7}"
 				""
-				"{ftbquests.chapter.blood_magic.quest7738BD62E1D27997.description8}"
-				"{ftbquests.chapter.blood_magic.quest7738BD62E1D27997.description9}"
-				"{ftbquests.chapter.blood_magic.quest7738BD62E1D27997.description10}"
-				"{ftbquests.chapter.blood_magic.quest7738BD62E1D27997.description11}"
+				"{ftbquests.chapter.blood_magic.quest1.description8}"
+				"{ftbquests.chapter.blood_magic.quest1.description9}"
+				"{ftbquests.chapter.blood_magic.quest1.description10}"
+				"{ftbquests.chapter.blood_magic.quest1.description11}"
 				"{@pagebreak}"
-				"{ftbquests.chapter.blood_magic.quest7738BD62E1D27997.description12}"
-				"{ftbquests.chapter.blood_magic.quest7738BD62E1D27997.description13}"
-				"{ftbquests.chapter.blood_magic.quest7738BD62E1D27997.description14}"
-				"{ftbquests.chapter.blood_magic.quest7738BD62E1D27997.description15}"
-				"{ftbquests.chapter.blood_magic.quest7738BD62E1D27997.description16}"
+				"{ftbquests.chapter.blood_magic.quest1.description12}"
+				"{ftbquests.chapter.blood_magic.quest1.description13}"
+				"{ftbquests.chapter.blood_magic.quest1.description14}"
+				"{ftbquests.chapter.blood_magic.quest1.description15}"
+				"{ftbquests.chapter.blood_magic.quest1.description16}"
 				""
-				"{ftbquests.chapter.blood_magic.quest7738BD62E1D27997.description17}"
-				"{ftbquests.chapter.blood_magic.quest7738BD62E1D27997.description18}"
-				"{ftbquests.chapter.blood_magic.quest7738BD62E1D27997.description19}"
-				"{ftbquests.chapter.blood_magic.quest7738BD62E1D27997.description20}"
-				"{ftbquests.chapter.blood_magic.quest7738BD62E1D27997.description21}"
+				"{ftbquests.chapter.blood_magic.quest1.description17}"
+				"{ftbquests.chapter.blood_magic.quest1.description18}"
+				"{ftbquests.chapter.blood_magic.quest1.description19}"
+				"{ftbquests.chapter.blood_magic.quest1.description20}"
+				"{ftbquests.chapter.blood_magic.quest1.description21}"
 				""
-				"{ftbquests.chapter.blood_magic.quest7738BD62E1D27997.description22}"
-				"{ftbquests.chapter.blood_magic.quest7738BD62E1D27997.description23}"
+				"{ftbquests.chapter.blood_magic.quest1.description22}"
+				"{ftbquests.chapter.blood_magic.quest1.description23}"
 				""
-				"{ftbquests.chapter.blood_magic.quest7738BD62E1D27997.description24}"
+				"{ftbquests.chapter.blood_magic.quest1.description24}"
 			]
 			id: "7738BD62E1D27997"
 			min_width: 350
@@ -94,21 +94,21 @@
 			}]
 			tasks: [{
 				id: "643DFC061B12BE38"
-				title: "{ftbquests.chapter.blood_magic.quest7738BD62E1D27997.task.7223206480526360120.title}"
+				title: "{ftbquests.chapter.blood_magic.quest1.task_7223206480526360120.title}"
 				type: "checkmark"
 			}]
-			title: "{ftbquests.chapter.blood_magic.quest7738BD62E1D27997.title}"
+			title: "{ftbquests.chapter.blood_magic.quest1.title}"
 			x: -3.0d
 			y: -12.0d
 		}
 		{
 			dependencies: ["7738BD62E1D27997"]
 			description: [
-				"{ftbquests.chapter.blood_magic.quest2C9DCF44DF0C695C.description1}"
+				"{ftbquests.chapter.blood_magic.quest2.description1}"
 				""
-				"{ftbquests.chapter.blood_magic.quest2C9DCF44DF0C695C.description2}"
+				"{ftbquests.chapter.blood_magic.quest2.description2}"
 				""
-				"{ftbquests.chapter.blood_magic.quest2C9DCF44DF0C695C.description3}"
+				"{ftbquests.chapter.blood_magic.quest2.description3}"
 			]
 			id: "2C9DCF44DF0C695C"
 			rewards: [{
@@ -116,7 +116,7 @@
 				item: "kubejs:apotheotic_coin"
 				type: "item"
 			}]
-			subtitle: "{ftbquests.chapter.blood_magic.quest2C9DCF44DF0C695C.subtitle}"
+			subtitle: "{ftbquests.chapter.blood_magic.quest2.subtitle}"
 			tasks: [
 				{
 					id: "2BA58E45564991C8"
@@ -141,9 +141,9 @@
 		{
 			dependencies: ["2C9DCF44DF0C695C"]
 			description: [
-				"{ftbquests.chapter.blood_magic.quest26ED1375B742CE73.description1}"
+				"{ftbquests.chapter.blood_magic.quest3.description1}"
 				""
-				"{ftbquests.chapter.blood_magic.quest26ED1375B742CE73.description2}"
+				"{ftbquests.chapter.blood_magic.quest3.description2}"
 			]
 			id: "26ED1375B742CE73"
 			rewards: [{
@@ -156,16 +156,16 @@
 				item: "bloodmagic:blankslate"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.blood_magic.quest26ED1375B742CE73.title}"
+			title: "{ftbquests.chapter.blood_magic.quest3.title}"
 			x: -5.0d
 			y: -9.5d
 		}
 		{
 			dependencies: ["2C9DCF44DF0C695C"]
 			description: [
-				"{ftbquests.chapter.blood_magic.quest60A0B82B80FF9831.description1}"
+				"{ftbquests.chapter.blood_magic.quest4.description1}"
 				""
-				"{ftbquests.chapter.blood_magic.quest60A0B82B80FF9831.description2}"
+				"{ftbquests.chapter.blood_magic.quest4.description2}"
 			]
 			id: "60A0B82B80FF9831"
 			rewards: [{
@@ -184,9 +184,9 @@
 		{
 			dependencies: ["2C9DCF44DF0C695C"]
 			description: [
-				"{ftbquests.chapter.blood_magic.quest15AB701D6D324B29.description1}"
+				"{ftbquests.chapter.blood_magic.quest5.description1}"
 				""
-				"{ftbquests.chapter.blood_magic.quest15AB701D6D324B29.description2}"
+				"{ftbquests.chapter.blood_magic.quest5.description2}"
 			]
 			id: "15AB701D6D324B29"
 			rewards: [{
@@ -208,9 +208,9 @@
 				"15AB701D6D324B29"
 			]
 			description: [
-				"{ftbquests.chapter.blood_magic.quest1CD1610FD2C009CD.description1}"
+				"{ftbquests.chapter.blood_magic.quest6.description1}"
 				""
-				"{ftbquests.chapter.blood_magic.quest1CD1610FD2C009CD.description2}"
+				"{ftbquests.chapter.blood_magic.quest6.description2}"
 			]
 			id: "1CD1610FD2C009CD"
 			rewards: [{
@@ -236,7 +236,7 @@
 		}
 		{
 			dependencies: ["1CD1610FD2C009CD"]
-			description: ["{ftbquests.chapter.blood_magic.quest2E12E30CA07F180A.description1}"]
+			description: ["{ftbquests.chapter.blood_magic.quest7.description1}"]
 			id: "2E12E30CA07F180A"
 			rewards: [{
 				id: "452578E72D9C16A5"
@@ -386,10 +386,10 @@
 						]
 					}
 				}
-				title: "{ftbquests.chapter.blood_magic.quest143A7BF0B54CED1B.task.7802715776255701558.title}"
+				title: "{ftbquests.chapter.blood_magic.quest11.task_7802715776255701558.title}"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.blood_magic.quest143A7BF0B54CED1B.title}"
+			title: "{ftbquests.chapter.blood_magic.quest11.title}"
 			x: -3.0d
 			y: -8.0d
 		}
@@ -476,11 +476,11 @@
 							]
 						}
 					}
-					title: "{ftbquests.chapter.blood_magic.quest22899D5B9A1D407E.task.6890309383017216573.title}"
+					title: "{ftbquests.chapter.blood_magic.quest13.task_6890309383017216573.title}"
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.blood_magic.quest22899D5B9A1D407E.title}"
+			title: "{ftbquests.chapter.blood_magic.quest13.title}"
 			x: -3.0d
 			y: -6.0d
 		}
@@ -554,24 +554,24 @@
 							]
 						}
 					}
-					title: "{ftbquests.chapter.blood_magic.quest22657461D5EC7233.task.6691591085340758708.title}"
+					title: "{ftbquests.chapter.blood_magic.quest14.task_6691591085340758708.title}"
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.blood_magic.quest22657461D5EC7233.title}"
+			title: "{ftbquests.chapter.blood_magic.quest14.title}"
 			x: -3.0d
 			y: -3.0d
 		}
 		{
 			dependencies: ["2C9DCF44DF0C695C"]
 			description: [
-				"{ftbquests.chapter.blood_magic.quest7C9BBAD8BFEAB152.description1}"
+				"{ftbquests.chapter.blood_magic.quest15.description1}"
 				""
-				"{ftbquests.chapter.blood_magic.quest7C9BBAD8BFEAB152.description2}"
+				"{ftbquests.chapter.blood_magic.quest15.description2}"
 				""
-				"{ftbquests.chapter.blood_magic.quest7C9BBAD8BFEAB152.description3}"
+				"{ftbquests.chapter.blood_magic.quest15.description3}"
 				""
-				"{ftbquests.chapter.blood_magic.quest7C9BBAD8BFEAB152.description4}"
+				"{ftbquests.chapter.blood_magic.quest15.description4}"
 			]
 			id: "7C9BBAD8BFEAB152"
 			rewards: [{
@@ -702,9 +702,9 @@
 		{
 			dependencies: ["22899D5B9A1D407E"]
 			description: [
-				"{ftbquests.chapter.blood_magic.quest363464DDE5932DDA.description1}"
+				"{ftbquests.chapter.blood_magic.quest23.description1}"
 				""
-				"{ftbquests.chapter.blood_magic.quest363464DDE5932DDA.description2}"
+				"{ftbquests.chapter.blood_magic.quest23.description2}"
 			]
 			id: "363464DDE5932DDA"
 			rewards: [{
@@ -714,7 +714,7 @@
 			}]
 			tasks: [{
 				id: "013F21490A4DA1F7"
-				title: "{ftbquests.chapter.blood_magic.quest363464DDE5932DDA.task.89827115159888375.title}"
+				title: "{ftbquests.chapter.blood_magic.quest23.task_89827115159888375.title}"
 				type: "checkmark"
 			}]
 			x: -13.0d
@@ -723,11 +723,11 @@
 		{
 			dependencies: ["363464DDE5932DDA"]
 			description: [
-				"{ftbquests.chapter.blood_magic.quest6478D601B3D62C97.description1}"
+				"{ftbquests.chapter.blood_magic.quest24.description1}"
 				""
-				"{ftbquests.chapter.blood_magic.quest6478D601B3D62C97.description2}"
+				"{ftbquests.chapter.blood_magic.quest24.description2}"
 				""
-				"{ftbquests.chapter.blood_magic.quest6478D601B3D62C97.description3}"
+				"{ftbquests.chapter.blood_magic.quest24.description3}"
 			]
 			id: "6478D601B3D62C97"
 			rewards: [{
@@ -790,18 +790,18 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.blood_magic.quest6478D601B3D62C97.title}"
+			title: "{ftbquests.chapter.blood_magic.quest24.title}"
 			x: -15.0d
 			y: -5.0d
 		}
 		{
 			dependencies: ["363464DDE5932DDA"]
 			description: [
-				"{ftbquests.chapter.blood_magic.quest150B13435CABB864.description1}"
+				"{ftbquests.chapter.blood_magic.quest25.description1}"
 				""
-				"{ftbquests.chapter.blood_magic.quest150B13435CABB864.description2}"
+				"{ftbquests.chapter.blood_magic.quest25.description2}"
 				""
-				"{ftbquests.chapter.blood_magic.quest150B13435CABB864.description3}"
+				"{ftbquests.chapter.blood_magic.quest25.description3}"
 			]
 			id: "150B13435CABB864"
 			rewards: [{
@@ -827,9 +827,9 @@
 		{
 			dependencies: ["150B13435CABB864"]
 			description: [
-				"{ftbquests.chapter.blood_magic.quest7D5EBD274B282AF8.description1}"
+				"{ftbquests.chapter.blood_magic.quest26.description1}"
 				""
-				"{ftbquests.chapter.blood_magic.quest7D5EBD274B282AF8.description2}"
+				"{ftbquests.chapter.blood_magic.quest26.description2}"
 			]
 			id: "7D5EBD274B282AF8"
 			rewards: [{
@@ -842,13 +842,13 @@
 				item: "bloodmagic:strong_tau"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.blood_magic.quest7D5EBD274B282AF8.title}"
+			title: "{ftbquests.chapter.blood_magic.quest26.title}"
 			x: -11.5d
 			y: -3.0d
 		}
 		{
 			dependencies: ["7D5EBD274B282AF8"]
-			description: ["{ftbquests.chapter.blood_magic.quest46ABB6AD85644E7C.description1}"]
+			description: ["{ftbquests.chapter.blood_magic.quest27.description1}"]
 			id: "46ABB6AD85644E7C"
 			rewards: [{
 				id: "6D35CB9B27A45FE5"
@@ -879,9 +879,9 @@
 		{
 			dependencies: ["6478D601B3D62C97"]
 			description: [
-				"{ftbquests.chapter.blood_magic.quest12ECEAB582BC3CAF.description1}"
+				"{ftbquests.chapter.blood_magic.quest28.description1}"
 				""
-				"{ftbquests.chapter.blood_magic.quest12ECEAB582BC3CAF.description2}"
+				"{ftbquests.chapter.blood_magic.quest28.description2}"
 			]
 			id: "12ECEAB582BC3CAF"
 			rewards: [{
@@ -920,19 +920,19 @@
 				"12ECEAB582BC3CAF"
 			]
 			description: [
-				"{ftbquests.chapter.blood_magic.quest16A6411529017F31.description1}"
+				"{ftbquests.chapter.blood_magic.quest29.description1}"
 				""
-				"{ftbquests.chapter.blood_magic.quest16A6411529017F31.description2}"
+				"{ftbquests.chapter.blood_magic.quest29.description2}"
 				""
-				"{ftbquests.chapter.blood_magic.quest16A6411529017F31.description3}"
+				"{ftbquests.chapter.blood_magic.quest29.description3}"
 				""
-				"{ftbquests.chapter.blood_magic.quest16A6411529017F31.description4}"
+				"{ftbquests.chapter.blood_magic.quest29.description4}"
 				""
-				"{ftbquests.chapter.blood_magic.quest16A6411529017F31.description5}"
-				"{ftbquests.chapter.blood_magic.quest16A6411529017F31.description6}"
+				"{ftbquests.chapter.blood_magic.quest29.description5}"
+				"{ftbquests.chapter.blood_magic.quest29.description6}"
 				""
-				"{ftbquests.chapter.blood_magic.quest16A6411529017F31.description7}"
-				"{ftbquests.chapter.blood_magic.quest16A6411529017F31.description8}"
+				"{ftbquests.chapter.blood_magic.quest29.description7}"
+				"{ftbquests.chapter.blood_magic.quest29.description8}"
 			]
 			id: "16A6411529017F31"
 			rewards: [{
@@ -942,7 +942,7 @@
 			}]
 			tasks: [{
 				id: "020A43A3BCB23058"
-				title: "{ftbquests.chapter.blood_magic.quest16A6411529017F31.task.147004308367487064.title}"
+				title: "{ftbquests.chapter.blood_magic.quest29.task_147004308367487064.title}"
 				type: "checkmark"
 			}]
 			x: -11.5d
@@ -951,9 +951,9 @@
 		{
 			dependencies: ["16A6411529017F31"]
 			description: [
-				"{ftbquests.chapter.blood_magic.quest221CABE0279BF12.description1}"
+				"{ftbquests.chapter.blood_magic.quest30.description1}"
 				""
-				"{ftbquests.chapter.blood_magic.quest221CABE0279BF12.description2}"
+				"{ftbquests.chapter.blood_magic.quest30.description2}"
 			]
 			id: "0221CABE0279BF12"
 			rewards: [{
@@ -972,11 +972,11 @@
 		{
 			dependencies: ["0221CABE0279BF12"]
 			description: [
-				"{ftbquests.chapter.blood_magic.quest4F2B18FF16680E08.description1}"
+				"{ftbquests.chapter.blood_magic.quest31.description1}"
 				""
-				"{ftbquests.chapter.blood_magic.quest4F2B18FF16680E08.description2}"
+				"{ftbquests.chapter.blood_magic.quest31.description2}"
 				""
-				"{ftbquests.chapter.blood_magic.quest4F2B18FF16680E08.description3}"
+				"{ftbquests.chapter.blood_magic.quest31.description3}"
 			]
 			id: "4F2B18FF16680E08"
 			rewards: [{
@@ -995,9 +995,9 @@
 		{
 			dependencies: ["16A6411529017F31"]
 			description: [
-				"{ftbquests.chapter.blood_magic.quest4DCC1687AE0B6815.description1}"
+				"{ftbquests.chapter.blood_magic.quest32.description1}"
 				""
-				"{ftbquests.chapter.blood_magic.quest4DCC1687AE0B6815.description2}"
+				"{ftbquests.chapter.blood_magic.quest32.description2}"
 			]
 			id: "4DCC1687AE0B6815"
 			rewards: [{
@@ -1084,27 +1084,27 @@
 							]
 						}
 					}
-					title: "{ftbquests.chapter.blood_magic.quest53E7A09F3F3B6272.task.1584693650998761559.title}"
+					title: "{ftbquests.chapter.blood_magic.quest33.task_1584693650998761559.title}"
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.blood_magic.quest53E7A09F3F3B6272.title}"
+			title: "{ftbquests.chapter.blood_magic.quest33.title}"
 			x: -3.0d
 			y: 0.5d
 		}
 		{
 			dependencies: ["143A7BF0B54CED1B"]
 			description: [
-				"{ftbquests.chapter.blood_magic.quest740D7627902669E.description1}"
+				"{ftbquests.chapter.blood_magic.quest34.description1}"
 				""
-				"{ftbquests.chapter.blood_magic.quest740D7627902669E.description2}"
+				"{ftbquests.chapter.blood_magic.quest34.description2}"
 				""
-				"{ftbquests.chapter.blood_magic.quest740D7627902669E.description3}"
-				"{ftbquests.chapter.blood_magic.quest740D7627902669E.description4}"
+				"{ftbquests.chapter.blood_magic.quest34.description3}"
+				"{ftbquests.chapter.blood_magic.quest34.description4}"
 				""
-				"{ftbquests.chapter.blood_magic.quest740D7627902669E.description5}"
-				"{ftbquests.chapter.blood_magic.quest740D7627902669E.description6}"
-				"{ftbquests.chapter.blood_magic.quest740D7627902669E.description7}"
+				"{ftbquests.chapter.blood_magic.quest34.description5}"
+				"{ftbquests.chapter.blood_magic.quest34.description6}"
+				"{ftbquests.chapter.blood_magic.quest34.description7}"
 			]
 			id: "0740D7627902669E"
 			rewards: [{
@@ -1124,24 +1124,24 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.blood_magic.quest740D7627902669E.title}"
+			title: "{ftbquests.chapter.blood_magic.quest34.title}"
 			x: -5.0d
 			y: -8.0d
 		}
 		{
 			dependencies: ["0740D7627902669E"]
 			description: [
-				"{ftbquests.chapter.blood_magic.quest20F9EDA876F35FC1.description1}"
+				"{ftbquests.chapter.blood_magic.quest35.description1}"
 				""
-				"{ftbquests.chapter.blood_magic.quest20F9EDA876F35FC1.description2}"
+				"{ftbquests.chapter.blood_magic.quest35.description2}"
 				""
-				"{ftbquests.chapter.blood_magic.quest20F9EDA876F35FC1.description3}"
+				"{ftbquests.chapter.blood_magic.quest35.description3}"
 				""
-				"{ftbquests.chapter.blood_magic.quest20F9EDA876F35FC1.description4}"
-				"{ftbquests.chapter.blood_magic.quest20F9EDA876F35FC1.description5}"
+				"{ftbquests.chapter.blood_magic.quest35.description4}"
+				"{ftbquests.chapter.blood_magic.quest35.description5}"
 				""
-				"{ftbquests.chapter.blood_magic.quest20F9EDA876F35FC1.description6}"
-				"{ftbquests.chapter.blood_magic.quest20F9EDA876F35FC1.description7}"
+				"{ftbquests.chapter.blood_magic.quest35.description6}"
+				"{ftbquests.chapter.blood_magic.quest35.description7}"
 			]
 			id: "20F9EDA876F35FC1"
 			rewards: [{
@@ -1152,7 +1152,7 @@
 			tasks: [
 				{
 					id: "6CE189907E825929"
-					title: "{ftbquests.chapter.blood_magic.quest20F9EDA876F35FC1.task.7845703279546882345.title}"
+					title: "{ftbquests.chapter.blood_magic.quest35.task_7845703279546882345.title}"
 					type: "checkmark"
 				}
 				{
@@ -1166,8 +1166,8 @@
 		}
 		{
 			description: [
-				"{ftbquests.chapter.blood_magic.quest6C16349EFFD65587.description1}"
-				"{ftbquests.chapter.blood_magic.quest6C16349EFFD65587.description2}"
+				"{ftbquests.chapter.blood_magic.quest36.description1}"
+				"{ftbquests.chapter.blood_magic.quest36.description2}"
 			]
 			id: "6C16349EFFD65587"
 			invisible: true
@@ -1179,7 +1179,7 @@
 			}]
 			tasks: [{
 				id: "486161E7DDCDD476"
-				title: "{ftbquests.chapter.blood_magic.quest6C16349EFFD65587.task.5215557491958338678.title}"
+				title: "{ftbquests.chapter.blood_magic.quest36.task_5215557491958338678.title}"
 				type: "checkmark"
 			}]
 			x: -3.0d
@@ -1188,36 +1188,36 @@
 		{
 			dependencies: ["16A6411529017F31"]
 			description: [
-				"{ftbquests.chapter.blood_magic.questDAFD6CCA0F30DE1.description1}"
+				"{ftbquests.chapter.blood_magic.quest37.description1}"
 				""
-				"{ftbquests.chapter.blood_magic.questDAFD6CCA0F30DE1.description2}"
-				"{ftbquests.chapter.blood_magic.questDAFD6CCA0F30DE1.description3}"
-				"{ftbquests.chapter.blood_magic.questDAFD6CCA0F30DE1.description4}"
+				"{ftbquests.chapter.blood_magic.quest37.description2}"
+				"{ftbquests.chapter.blood_magic.quest37.description3}"
+				"{ftbquests.chapter.blood_magic.quest37.description4}"
 				""
-				"{ftbquests.chapter.blood_magic.questDAFD6CCA0F30DE1.description5}"
-				"{ftbquests.chapter.blood_magic.questDAFD6CCA0F30DE1.description6}"
-				"{ftbquests.chapter.blood_magic.questDAFD6CCA0F30DE1.description7}"
-				"{ftbquests.chapter.blood_magic.questDAFD6CCA0F30DE1.description8}"
-				"{ftbquests.chapter.blood_magic.questDAFD6CCA0F30DE1.description9}"
+				"{ftbquests.chapter.blood_magic.quest37.description5}"
+				"{ftbquests.chapter.blood_magic.quest37.description6}"
+				"{ftbquests.chapter.blood_magic.quest37.description7}"
+				"{ftbquests.chapter.blood_magic.quest37.description8}"
+				"{ftbquests.chapter.blood_magic.quest37.description9}"
 				""
-				"{ftbquests.chapter.blood_magic.questDAFD6CCA0F30DE1.description10}"
-				"{ftbquests.chapter.blood_magic.questDAFD6CCA0F30DE1.description11}"
-				"{ftbquests.chapter.blood_magic.questDAFD6CCA0F30DE1.description12}"
+				"{ftbquests.chapter.blood_magic.quest37.description10}"
+				"{ftbquests.chapter.blood_magic.quest37.description11}"
+				"{ftbquests.chapter.blood_magic.quest37.description12}"
 				""
-				"{ftbquests.chapter.blood_magic.questDAFD6CCA0F30DE1.description13}"
-				"{ftbquests.chapter.blood_magic.questDAFD6CCA0F30DE1.description14}"
-				"{ftbquests.chapter.blood_magic.questDAFD6CCA0F30DE1.description15}"
-				"{ftbquests.chapter.blood_magic.questDAFD6CCA0F30DE1.description16}"
+				"{ftbquests.chapter.blood_magic.quest37.description13}"
+				"{ftbquests.chapter.blood_magic.quest37.description14}"
+				"{ftbquests.chapter.blood_magic.quest37.description15}"
+				"{ftbquests.chapter.blood_magic.quest37.description16}"
 				""
-				"{ftbquests.chapter.blood_magic.questDAFD6CCA0F30DE1.description17}"
-				"{ftbquests.chapter.blood_magic.questDAFD6CCA0F30DE1.description18}"
-				"{ftbquests.chapter.blood_magic.questDAFD6CCA0F30DE1.description19}"
+				"{ftbquests.chapter.blood_magic.quest37.description17}"
+				"{ftbquests.chapter.blood_magic.quest37.description18}"
+				"{ftbquests.chapter.blood_magic.quest37.description19}"
 				""
-				"{ftbquests.chapter.blood_magic.questDAFD6CCA0F30DE1.description20}"
-				"{ftbquests.chapter.blood_magic.questDAFD6CCA0F30DE1.description21}"
-				"{ftbquests.chapter.blood_magic.questDAFD6CCA0F30DE1.description22}"
-				"{ftbquests.chapter.blood_magic.questDAFD6CCA0F30DE1.description23}"
-				"{ftbquests.chapter.blood_magic.questDAFD6CCA0F30DE1.description24}"
+				"{ftbquests.chapter.blood_magic.quest37.description20}"
+				"{ftbquests.chapter.blood_magic.quest37.description21}"
+				"{ftbquests.chapter.blood_magic.quest37.description22}"
+				"{ftbquests.chapter.blood_magic.quest37.description23}"
+				"{ftbquests.chapter.blood_magic.quest37.description24}"
 			]
 			id: "0DAFD6CCA0F30DE1"
 			min_width: 300
@@ -1228,18 +1228,18 @@
 			}]
 			tasks: [{
 				id: "2F8A4467B09FE08E"
-				title: "{ftbquests.chapter.blood_magic.questDAFD6CCA0F30DE1.task.3425625678704271502.title}"
+				title: "{ftbquests.chapter.blood_magic.quest37.task_3425625678704271502.title}"
 				type: "checkmark"
 			}]
-			title: "{ftbquests.chapter.blood_magic.questDAFD6CCA0F30DE1.title}"
+			title: "{ftbquests.chapter.blood_magic.quest37.title}"
 			x: -11.5d
 			y: 0.5d
 		}
 		{
 			dependencies: ["53E7A09F3F3B6272"]
 			description: [
-				"{ftbquests.chapter.blood_magic.quest47A2D3F9F4B9DFE7.description1}"
-				"{ftbquests.chapter.blood_magic.quest47A2D3F9F4B9DFE7.description2}"
+				"{ftbquests.chapter.blood_magic.quest38.description1}"
+				"{ftbquests.chapter.blood_magic.quest38.description2}"
 			]
 			id: "47A2D3F9F4B9DFE7"
 			rewards: [{
@@ -1258,7 +1258,7 @@
 		}
 		{
 			dependencies: ["53E7A09F3F3B6272"]
-			description: ["{ftbquests.chapter.blood_magic.quest6FF7C9BC80A7EFE1.description1}"]
+			description: ["{ftbquests.chapter.blood_magic.quest39.description1}"]
 			id: "6FF7C9BC80A7EFE1"
 			rewards: [{
 				id: "540B39465C861B6B"
@@ -1275,7 +1275,7 @@
 		}
 		{
 			dependencies: ["46ABB6AD85644E7C"]
-			description: ["{ftbquests.chapter.blood_magic.quest4825D321E1FF7D45.description1}"]
+			description: ["{ftbquests.chapter.blood_magic.quest40.description1}"]
 			id: "4825D321E1FF7D45"
 			rewards: [{
 				id: "5E885B2BF85CD877"
@@ -1292,7 +1292,7 @@
 		}
 		{
 			dependencies: ["22657461D5EC7233"]
-			description: ["{ftbquests.chapter.blood_magic.questD2E146A03C0D43.description1}"]
+			description: ["{ftbquests.chapter.blood_magic.quest41.description1}"]
 			id: "00D2E146A03C0D43"
 			rewards: [{
 				id: "6D9CC514D06E388A"
@@ -1309,7 +1309,7 @@
 		}
 		{
 			dependencies: ["53E7A09F3F3B6272"]
-			description: ["{ftbquests.chapter.blood_magic.quest6E81876E31E76450.description1}"]
+			description: ["{ftbquests.chapter.blood_magic.quest42.description1}"]
 			id: "6E81876E31E76450"
 			rewards: [{
 				id: "0275E905AD90F9FA"
@@ -1326,7 +1326,7 @@
 		}
 		{
 			dependencies: ["6E81876E31E76450"]
-			description: ["{ftbquests.chapter.blood_magic.quest49439E68729D062.description1}"]
+			description: ["{ftbquests.chapter.blood_magic.quest43.description1}"]
 			id: "049439E68729D062"
 			rewards: [{
 				id: "002FFCCCF2E19927"
@@ -1343,7 +1343,7 @@
 		}
 		{
 			dependencies: ["049439E68729D062"]
-			description: ["{ftbquests.chapter.blood_magic.quest3E859E7AF6A98B86.description1}"]
+			description: ["{ftbquests.chapter.blood_magic.quest44.description1}"]
 			id: "3E859E7AF6A98B86"
 			rewards: [{
 				id: "57306DB8CC9E065D"
@@ -1360,7 +1360,7 @@
 		}
 		{
 			dependencies: ["22899D5B9A1D407E"]
-			description: ["{ftbquests.chapter.blood_magic.quest46074F9479EEFC2A.description1}"]
+			description: ["{ftbquests.chapter.blood_magic.quest45.description1}"]
 			id: "46074F9479EEFC2A"
 			rewards: [{
 				id: "76A0C3358DC4F6B1"
@@ -1377,7 +1377,7 @@
 		}
 		{
 			dependencies: ["22657461D5EC7233"]
-			description: ["{ftbquests.chapter.blood_magic.questA3A8763FF67AC2C.description1}"]
+			description: ["{ftbquests.chapter.blood_magic.quest46.description1}"]
 			id: "0A3A8763FF67AC2C"
 			rewards: [{
 				id: "35732257E3360EB2"

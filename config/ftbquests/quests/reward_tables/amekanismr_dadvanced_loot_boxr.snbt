@@ -2,7 +2,7 @@
 	icon: "mekanism:basic_tier_installer"
 	id: "74164DBBE7919A3B"
 	loot_size: 1
-	order_index: 34
+	order_index: 31
 	rewards: [
 		{ count: 4, item: "thermal:steel_ingot", random_bonus: 4, weight: 100.0f }
 		{ item: "thermal:steel_block", random_bonus: 1, weight: 75.0f }
@@ -77,6 +77,6 @@
 		}
 		{ item: "mysticalagriculture:uranium_seeds", random_bonus: 1, weight: 25.0f }
 	]
-	title: "{ftbquests.loot_table.8364958827326577211.title}"
+	title: "{ftbquests.loot_table_8364958827326577211.title}"
 	use_title: true
 }

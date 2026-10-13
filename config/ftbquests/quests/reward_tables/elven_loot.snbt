@@ -1,7 +1,7 @@
 {
 	id: "724575573A0EFEF5"
 	loot_size: 1
-	order_index: 36
+	order_index: 33
 	rewards: [
 		{ item: "botania:elementium_ingot", random_bonus: 4 }
 		{ count: 4, item: "botania:pixie_dust", random_bonus: 16 }
@@ -13,6 +13,6 @@
 		{ item: "botania:black_lotus", random_bonus: 2, weight: 0.2f }
 		{ item: "botania:blacker_lotus", random_bonus: 1, weight: 0.1f }
 	]
-	title: "{ftbquests.loot_table.8234116511213485813.title}"
+	title: "{ftbquests.loot_table_8234116511213485813.title}"
 	use_title: true
 }

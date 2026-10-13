@@ -51,6 +51,7 @@ Quest changes:
 - Removed dedicated Naquadah Reactor questline, added it to the Mekanism questline
 - Reworked the Naquadah Reactor quests, should be easy to follow now
 - Removed Refined Storage questline to prepare for the removal of the mod in 0.0.53.0
+- Reworked Masterful Machinery questline (credits to Sn0wye)
 
 Other changes:
 - Auto Crusher KubeJS Code Cleaning (credits to oTurquoise !)

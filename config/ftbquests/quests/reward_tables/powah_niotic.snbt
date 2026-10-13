@@ -1,7 +1,7 @@
 {
 	id: "4E550B6FE754E446"
 	loot_size: 1
-	order_index: 28
+	order_index: 25
 	rewards: [
 		{ item: "powah:capacitor_blazing", random_bonus: 1, weight: 10.0f }
 		{ item: "powah:capacitor_niotic", random_bonus: 1, weight: 10.0f }
@@ -14,6 +14,6 @@
 		{ item: "powah:blazing_crystal_block", weight: 2.0f }
 		{ item: "powah:niotic_crystal_block" }
 	]
-	title: "{ftbquests.loot_table.5644430283229160518.title}"
+	title: "{ftbquests.loot_table_5644430283229160518.title}"
 	use_title: true
 }

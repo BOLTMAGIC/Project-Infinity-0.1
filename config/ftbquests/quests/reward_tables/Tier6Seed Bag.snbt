@@ -2,7 +2,7 @@
 	icon: "mysticalagradditions:insanium_gemstone"
 	id: "32D89E2679C55D75"
 	loot_size: 1
-	order_index: 20
+	order_index: 17
 	rewards: [
 		{ item: "mysticalagradditions:insanium_farmland", weight: 7.0f }
 		{ item: "mysticalagradditions:insanium_coal_block", weight: 5.0f }
@@ -30,6 +30,6 @@
 		{ item: "mysticalagriculture:neutronium_seeds" }
 		{ item: "mysticalagriculture:nitro_crystal_seeds" }
 	]
-	title: "{ftbquests.loot_table.3663852184954822005.title}"
+	title: "{ftbquests.loot_table_3663852184954822005.title}"
 	use_title: true
 }

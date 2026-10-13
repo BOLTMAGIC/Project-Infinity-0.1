@@ -1,11 +1,11 @@
 {
 	id: "28A9C4EA22B6DBD7"
 	loot_size: 1
-	order_index: 33
+	order_index: 30
 	rewards: [
 		{ count: 4, item: "botania:livingrock" }
 		{ count: 4, item: "botania:livingwood_log" }
 	]
-	title: "{ftbquests.loot_table.2930089542465018839.title}"
+	title: "{ftbquests.loot_table_2930089542465018839.title}"
 	use_title: true
 }

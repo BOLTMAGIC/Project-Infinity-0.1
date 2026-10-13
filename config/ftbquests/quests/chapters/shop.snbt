@@ -53,7 +53,7 @@
 	quests: [
 		{
 			can_repeat: true
-			description: ["{ftbquests.chapter.shop.quest7EAC1BF1F8F8A83F.description1}"]
+			description: ["{ftbquests.chapter.shop.quest1.description1}"]
 			icon: {
 				Count: 1
 				id: "everlastingabilities:ability_totem"
@@ -81,7 +81,7 @@
 				type: "item"
 			}]
 			size: 2.0d
-			subtitle: "{ftbquests.chapter.shop.quest7EAC1BF1F8F8A83F.subtitle}"
+			subtitle: "{ftbquests.chapter.shop.quest1.subtitle}"
 			tasks: [
 				{
 					consume_items: true
@@ -105,13 +105,13 @@
 					weak_nbt_match: true
 				}
 			]
-			title: "{ftbquests.chapter.shop.quest7EAC1BF1F8F8A83F.title}"
+			title: "{ftbquests.chapter.shop.quest1.title}"
 			x: -5.0d
 			y: -1.0d
 		}
 		{
 			can_repeat: true
-			description: ["{ftbquests.chapter.shop.quest6B186BC00BFA1134.description1}"]
+			description: ["{ftbquests.chapter.shop.quest2.description1}"]
 			icon: {
 				Count: 1
 				id: "everlastingabilities:ability_totem"
@@ -146,13 +146,13 @@
 				item: "kubejs:apotheotic_coin"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.shop.quest6B186BC00BFA1134.title}"
+			title: "{ftbquests.chapter.shop.quest2.title}"
 			x: -7.0d
 			y: 3.5d
 		}
 		{
 			can_repeat: true
-			description: ["{ftbquests.chapter.shop.quest41693C6D3F534969.description1}"]
+			description: ["{ftbquests.chapter.shop.quest3.description1}"]
 			icon: {
 				Count: 1
 				id: "everlastingabilities:ability_totem"
@@ -187,13 +187,13 @@
 				item: "kubejs:apotheotic_coin"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.shop.quest41693C6D3F534969.title}"
+			title: "{ftbquests.chapter.shop.quest3.title}"
 			x: -3.0d
 			y: 3.5d
 		}
 		{
 			can_repeat: true
-			description: ["{ftbquests.chapter.shop.quest7CA80608EB36C8CF.description1}"]
+			description: ["{ftbquests.chapter.shop.quest4.description1}"]
 			icon: {
 				Count: 1
 				id: "everlastingabilities:ability_totem"
@@ -228,13 +228,13 @@
 				item: "kubejs:infused_coin"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.shop.quest7CA80608EB36C8CF.title}"
+			title: "{ftbquests.chapter.shop.quest4.title}"
 			x: -5.5d
 			y: 2.5d
 		}
 		{
 			can_repeat: true
-			description: ["{ftbquests.chapter.shop.quest40D08E513545B669.description1}"]
+			description: ["{ftbquests.chapter.shop.quest5.description1}"]
 			icon: {
 				Count: 1
 				id: "everlastingabilities:ability_totem"
@@ -269,13 +269,13 @@
 				item: "kubejs:apotheotic_coin"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.shop.quest40D08E513545B669.title}"
+			title: "{ftbquests.chapter.shop.quest5.title}"
 			x: -7.5d
 			y: 4.5d
 		}
 		{
 			can_repeat: true
-			description: ["{ftbquests.chapter.shop.quest60D126B08EC1E332.description1}"]
+			description: ["{ftbquests.chapter.shop.quest6.description1}"]
 			icon: {
 				Count: 1
 				id: "everlastingabilities:ability_totem"
@@ -310,13 +310,13 @@
 				item: "kubejs:apotheotic_coin"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.shop.quest60D126B08EC1E332.title}"
+			title: "{ftbquests.chapter.shop.quest6.title}"
 			x: -3.5d
 			y: 4.5d
 		}
 		{
 			can_repeat: true
-			description: ["{ftbquests.chapter.shop.quest6EF86515D1C8DE6F.description1}"]
+			description: ["{ftbquests.chapter.shop.quest7.description1}"]
 			icon: {
 				Count: 1
 				id: "everlastingabilities:ability_totem"
@@ -351,13 +351,13 @@
 				item: "kubejs:apotheotic_coin"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.shop.quest6EF86515D1C8DE6F.title}"
+			title: "{ftbquests.chapter.shop.quest7.title}"
 			x: -4.0d
 			y: 3.5d
 		}
 		{
 			can_repeat: true
-			description: ["{ftbquests.chapter.shop.quest172AD8126AC4FCA1.description1}"]
+			description: ["{ftbquests.chapter.shop.quest8.description1}"]
 			icon: {
 				Count: 1
 				id: "everlastingabilities:ability_totem"
@@ -392,13 +392,13 @@
 				item: "kubejs:ascended_coin"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.shop.quest172AD8126AC4FCA1.title}"
+			title: "{ftbquests.chapter.shop.quest8.title}"
 			x: -5.5d
 			y: 0.5d
 		}
 		{
 			can_repeat: true
-			description: ["{ftbquests.chapter.shop.quest7B5717A72E6781E0.description1}"]
+			description: ["{ftbquests.chapter.shop.quest9.description1}"]
 			icon: {
 				Count: 1
 				id: "everlastingabilities:ability_totem"
@@ -433,13 +433,13 @@
 				item: "kubejs:infused_coin"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.shop.quest7B5717A72E6781E0.title}"
+			title: "{ftbquests.chapter.shop.quest9.title}"
 			x: -6.5d
 			y: 2.5d
 		}
 		{
 			can_repeat: true
-			description: ["{ftbquests.chapter.shop.quest5491C9ED1BB98D92.description1}"]
+			description: ["{ftbquests.chapter.shop.quest10.description1}"]
 			icon: {
 				Count: 1
 				id: "everlastingabilities:ability_totem"
@@ -474,13 +474,13 @@
 				item: "kubejs:infused_coin"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.shop.quest5491C9ED1BB98D92.title}"
+			title: "{ftbquests.chapter.shop.quest10.title}"
 			x: -3.5d
 			y: 2.5d
 		}
 		{
 			can_repeat: true
-			description: ["{ftbquests.chapter.shop.questF5A12948668B5DF.description1}"]
+			description: ["{ftbquests.chapter.shop.quest11.description1}"]
 			icon: {
 				Count: 1
 				id: "everlastingabilities:ability_totem"
@@ -515,13 +515,13 @@
 				item: "kubejs:apotheotic_coin"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.shop.questF5A12948668B5DF.title}"
+			title: "{ftbquests.chapter.shop.quest11.title}"
 			x: -2.5d
 			y: 4.5d
 		}
 		{
 			can_repeat: true
-			description: ["{ftbquests.chapter.shop.quest784D318025B240F1.description1}"]
+			description: ["{ftbquests.chapter.shop.quest12.description1}"]
 			icon: {
 				Count: 1
 				id: "everlastingabilities:ability_totem"
@@ -556,13 +556,13 @@
 				item: "kubejs:ascended_coin"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.shop.quest784D318025B240F1.title}"
+			title: "{ftbquests.chapter.shop.quest12.title}"
 			x: -4.5d
 			y: 0.5d
 		}
 		{
 			can_repeat: true
-			description: ["{ftbquests.chapter.shop.quest3DB8D01403E62E31.description1}"]
+			description: ["{ftbquests.chapter.shop.quest13.description1}"]
 			icon: {
 				Count: 1
 				id: "everlastingabilities:ability_totem"
@@ -597,13 +597,13 @@
 				item: "kubejs:infused_coin"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.shop.quest3DB8D01403E62E31.title}"
+			title: "{ftbquests.chapter.shop.quest13.title}"
 			x: -5.0d
 			y: 1.5d
 		}
 		{
 			can_repeat: true
-			description: ["{ftbquests.chapter.shop.quest29BE9180D30A3546.description1}"]
+			description: ["{ftbquests.chapter.shop.quest14.description1}"]
 			icon: {
 				Count: 1
 				id: "everlastingabilities:ability_totem"
@@ -638,13 +638,13 @@
 				item: "kubejs:apotheotic_coin"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.shop.quest29BE9180D30A3546.title}"
+			title: "{ftbquests.chapter.shop.quest14.title}"
 			x: -6.0d
 			y: 3.5d
 		}
 		{
 			can_repeat: true
-			description: ["{ftbquests.chapter.shop.quest7069BFCF55EAD440.description1}"]
+			description: ["{ftbquests.chapter.shop.quest15.description1}"]
 			icon: {
 				Count: 1
 				id: "everlastingabilities:ability_totem"
@@ -679,13 +679,13 @@
 				item: "kubejs:apotheotic_coin"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.shop.quest7069BFCF55EAD440.title}"
+			title: "{ftbquests.chapter.shop.quest15.title}"
 			x: -6.5d
 			y: 4.5d
 		}
 		{
 			can_repeat: true
-			description: ["{ftbquests.chapter.shop.quest46AFFF5B8F214347.description1}"]
+			description: ["{ftbquests.chapter.shop.quest16.description1}"]
 			icon: {
 				Count: 1
 				id: "everlastingabilities:ability_totem"
@@ -720,13 +720,13 @@
 				item: "kubejs:apotheotic_coin"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.shop.quest46AFFF5B8F214347.title}"
+			title: "{ftbquests.chapter.shop.quest16.title}"
 			x: -5.0d
 			y: 3.5d
 		}
 		{
 			can_repeat: true
-			description: ["{ftbquests.chapter.shop.quest422DD5D2B56EF4BB.description1}"]
+			description: ["{ftbquests.chapter.shop.quest17.description1}"]
 			icon: {
 				Count: 1
 				id: "everlastingabilities:ability_totem"
@@ -761,13 +761,13 @@
 				item: "kubejs:infused_coin"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.shop.quest422DD5D2B56EF4BB.title}"
+			title: "{ftbquests.chapter.shop.quest17.title}"
 			x: -4.5d
 			y: 2.5d
 		}
 		{
 			can_repeat: true
-			description: ["{ftbquests.chapter.shop.quest253CDE8D3C1E28A.description1}"]
+			description: ["{ftbquests.chapter.shop.quest18.description1}"]
 			icon: {
 				Count: 1
 				id: "everlastingabilities:ability_totem"
@@ -802,13 +802,13 @@
 				item: "kubejs:ascended_coin"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.shop.quest253CDE8D3C1E28A.title}"
+			title: "{ftbquests.chapter.shop.quest18.title}"
 			x: -5.0d
 			y: -2.5d
 		}
 		{
 			can_repeat: true
-			description: ["{ftbquests.chapter.shop.quest1709287D638CB87B.description1}"]
+			description: ["{ftbquests.chapter.shop.quest19.description1}"]
 			icon: {
 				Count: 1
 				id: "everlastingabilities:ability_totem"
@@ -843,13 +843,13 @@
 				item: "kubejs:ascended_coin"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.shop.quest1709287D638CB87B.title}"
+			title: "{ftbquests.chapter.shop.quest19.title}"
 			x: -3.5d
 			y: -1.0d
 		}
 		{
 			can_repeat: true
-			description: ["{ftbquests.chapter.shop.quest37AB135269CA24C7.description1}"]
+			description: ["{ftbquests.chapter.shop.quest20.description1}"]
 			icon: {
 				Count: 1
 				id: "everlastingabilities:ability_totem"
@@ -884,13 +884,13 @@
 				item: "kubejs:infused_coin"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.shop.quest37AB135269CA24C7.title}"
+			title: "{ftbquests.chapter.shop.quest20.title}"
 			x: -6.0d
 			y: 1.5d
 		}
 		{
 			can_repeat: true
-			description: ["{ftbquests.chapter.shop.quest390F6C33C5A48825.description1}"]
+			description: ["{ftbquests.chapter.shop.quest21.description1}"]
 			icon: {
 				Count: 1
 				id: "everlastingabilities:ability_totem"
@@ -925,13 +925,13 @@
 				item: "kubejs:infused_coin"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.shop.quest390F6C33C5A48825.title}"
+			title: "{ftbquests.chapter.shop.quest21.title}"
 			x: -4.0d
 			y: 1.5d
 		}
 		{
 			can_repeat: true
-			description: ["{ftbquests.chapter.shop.quest4798F1FCFC70BF70.description1}"]
+			description: ["{ftbquests.chapter.shop.quest22.description1}"]
 			icon: {
 				Count: 1
 				id: "everlastingabilities:ability_totem"
@@ -966,13 +966,13 @@
 				item: "kubejs:ascended_coin"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.shop.quest4798F1FCFC70BF70.title}"
+			title: "{ftbquests.chapter.shop.quest22.title}"
 			x: -6.5d
 			y: -1.0d
 		}
 		{
 			can_repeat: true
-			description: ["{ftbquests.chapter.shop.quest10961F25FAD6A171.description1}"]
+			description: ["{ftbquests.chapter.shop.quest23.description1}"]
 			icon: {
 				Count: 1
 				id: "everlastingabilities:ability_totem"
@@ -1007,13 +1007,13 @@
 				item: "kubejs:apotheotic_coin"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.shop.quest10961F25FAD6A171.title}"
+			title: "{ftbquests.chapter.shop.quest23.title}"
 			x: -5.5d
 			y: 4.5d
 		}
 		{
 			can_repeat: true
-			description: ["{ftbquests.chapter.shop.quest38199C568FADFF9.description1}"]
+			description: ["{ftbquests.chapter.shop.quest24.description1}"]
 			icon: {
 				Count: 1
 				id: "everlastingabilities:ability_totem"
@@ -1048,7 +1048,7 @@
 				item: "kubejs:apotheotic_coin"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.shop.quest38199C568FADFF9.title}"
+			title: "{ftbquests.chapter.shop.quest24.title}"
 			x: -4.5d
 			y: 4.5d
 		}
@@ -1056,8 +1056,8 @@
 			can_repeat: true
 			dependencies: ["6857EBCB5EE5161B"]
 			description: [
-				"{ftbquests.chapter.shop.quest7CCB21D64B9DD26C.description1}"
-				"{ftbquests.chapter.shop.quest7CCB21D64B9DD26C.description2}"
+				"{ftbquests.chapter.shop.quest25.description1}"
+				"{ftbquests.chapter.shop.quest25.description2}"
 			]
 			id: "7CCB21D64B9DD26C"
 			optional: true
@@ -1085,8 +1085,8 @@
 			can_repeat: true
 			dependencies: ["6857EBCB5EE5161B"]
 			description: [
-				"{ftbquests.chapter.shop.quest432D9DC5978653F2.description1}"
-				"{ftbquests.chapter.shop.quest432D9DC5978653F2.description2}"
+				"{ftbquests.chapter.shop.quest26.description1}"
+				"{ftbquests.chapter.shop.quest26.description2}"
 			]
 			id: "432D9DC5978653F2"
 			optional: true
@@ -1138,7 +1138,7 @@
 				type: "questsadditions:killnbt"
 				value: 250L
 			}]
-			title: "{ftbquests.chapter.shop.quest55A7C859171B02BE.title}"
+			title: "{ftbquests.chapter.shop.quest27.title}"
 			x: -6.5d
 			y: 13.0d
 		}
@@ -1155,8 +1155,8 @@
 		{
 			can_repeat: true
 			description: [
-				"{ftbquests.chapter.shop.quest3D2DB9C3D7B39D17.description1}"
-				"{ftbquests.chapter.shop.quest3D2DB9C3D7B39D17.description2}"
+				"{ftbquests.chapter.shop.quest29.description1}"
+				"{ftbquests.chapter.shop.quest29.description2}"
 			]
 			id: "3D2DB9C3D7B39D17"
 			optional: true
@@ -1219,7 +1219,7 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.shop.quest3D2DB9C3D7B39D17.title}"
+			title: "{ftbquests.chapter.shop.quest29.title}"
 			x: -3.0d
 			y: 10.5d
 		}

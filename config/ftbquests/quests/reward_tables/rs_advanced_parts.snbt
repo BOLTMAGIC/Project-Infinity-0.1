@@ -1,8 +1,8 @@
 {
 	id: "18240B67396BDC49"
 	loot_size: 1
-	order_index: 8
+	order_index: 5
 	rewards: [{ item: "extrastorage:neural_processor", random_bonus: 2, weight: 50.0f }]
-	title: "{ftbquests.loot_table.1739527894044761161.title}"
+	title: "{ftbquests.loot_table_1739527894044761161.title}"
 	use_title: true
 }

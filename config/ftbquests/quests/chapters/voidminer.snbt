@@ -129,43 +129,43 @@
 	quests: [
 		{
 			description: [
-				"{ftbquests.chapter.voidminer.quest10650AD3F8696D4C.description1}"
+				"{ftbquests.chapter.voidminer.quest1.description1}"
 				""
-				"{ftbquests.chapter.voidminer.quest10650AD3F8696D4C.description2}"
-				"{ftbquests.chapter.voidminer.quest10650AD3F8696D4C.description3}"
+				"{ftbquests.chapter.voidminer.quest1.description2}"
+				"{ftbquests.chapter.voidminer.quest1.description3}"
 				""
-				"{ftbquests.chapter.voidminer.quest10650AD3F8696D4C.description4}"
+				"{ftbquests.chapter.voidminer.quest1.description4}"
 				""
-				"{ftbquests.chapter.voidminer.quest10650AD3F8696D4C.description5}"
-				"{ftbquests.chapter.voidminer.quest10650AD3F8696D4C.description6}"
-				"{ftbquests.chapter.voidminer.quest10650AD3F8696D4C.description7}"
-				"{ftbquests.chapter.voidminer.quest10650AD3F8696D4C.description8}"
+				"{ftbquests.chapter.voidminer.quest1.description5}"
+				"{ftbquests.chapter.voidminer.quest1.description6}"
+				"{ftbquests.chapter.voidminer.quest1.description7}"
+				"{ftbquests.chapter.voidminer.quest1.description8}"
 				""
-				"{ftbquests.chapter.voidminer.quest10650AD3F8696D4C.description9}"
-				"{ftbquests.chapter.voidminer.quest10650AD3F8696D4C.description10}"
+				"{ftbquests.chapter.voidminer.quest1.description9}"
+				"{ftbquests.chapter.voidminer.quest1.description10}"
 				""
-				"{ftbquests.chapter.voidminer.quest10650AD3F8696D4C.description11}"
+				"{ftbquests.chapter.voidminer.quest1.description11}"
 				""
-				"{ftbquests.chapter.voidminer.quest10650AD3F8696D4C.description12}"
-				"{ftbquests.chapter.voidminer.quest10650AD3F8696D4C.description13}"
-				"{ftbquests.chapter.voidminer.quest10650AD3F8696D4C.description14}"
-				"{ftbquests.chapter.voidminer.quest10650AD3F8696D4C.description15}"
+				"{ftbquests.chapter.voidminer.quest1.description12}"
+				"{ftbquests.chapter.voidminer.quest1.description13}"
+				"{ftbquests.chapter.voidminer.quest1.description14}"
+				"{ftbquests.chapter.voidminer.quest1.description15}"
 				""
-				"{ftbquests.chapter.voidminer.quest10650AD3F8696D4C.description16}"
-				"{ftbquests.chapter.voidminer.quest10650AD3F8696D4C.description17}"
+				"{ftbquests.chapter.voidminer.quest1.description16}"
+				"{ftbquests.chapter.voidminer.quest1.description17}"
 				"{@pagebreak}"
-				"{ftbquests.chapter.voidminer.quest10650AD3F8696D4C.description18}"
+				"{ftbquests.chapter.voidminer.quest1.description18}"
 				""
-				"{ftbquests.chapter.voidminer.quest10650AD3F8696D4C.description19}"
-				"{ftbquests.chapter.voidminer.quest10650AD3F8696D4C.description20}"
+				"{ftbquests.chapter.voidminer.quest1.description19}"
+				"{ftbquests.chapter.voidminer.quest1.description20}"
 				""
-				"{ftbquests.chapter.voidminer.quest10650AD3F8696D4C.description21}"
-				"{ftbquests.chapter.voidminer.quest10650AD3F8696D4C.description22}"
-				"{ftbquests.chapter.voidminer.quest10650AD3F8696D4C.description23}"
+				"{ftbquests.chapter.voidminer.quest1.description21}"
+				"{ftbquests.chapter.voidminer.quest1.description22}"
+				"{ftbquests.chapter.voidminer.quest1.description23}"
 				""
-				"{ftbquests.chapter.voidminer.quest10650AD3F8696D4C.description24}"
-				"{ftbquests.chapter.voidminer.quest10650AD3F8696D4C.description25}"
-				"{ftbquests.chapter.voidminer.quest10650AD3F8696D4C.description26}"
+				"{ftbquests.chapter.voidminer.quest1.description24}"
+				"{ftbquests.chapter.voidminer.quest1.description25}"
+				"{ftbquests.chapter.voidminer.quest1.description26}"
 			]
 			hide_dependent_lines: true
 			id: "10650AD3F8696D4C"
@@ -178,20 +178,20 @@
 			size: 2.0d
 			tasks: [{
 				id: "25FADFE2900B9911"
-				title: "{ftbquests.chapter.voidminer.quest10650AD3F8696D4C.task.2736745887753279761.title}"
+				title: "{ftbquests.chapter.voidminer.quest1.task_2736745887753279761.title}"
 				type: "checkmark"
 			}]
-			title: "{ftbquests.chapter.voidminer.quest10650AD3F8696D4C.title}"
+			title: "{ftbquests.chapter.voidminer.quest1.title}"
 			x: -11.0d
 			y: -8.0d
 		}
 		{
 			dependencies: ["613DA71A509DC39C"]
 			description: [
-				"{ftbquests.chapter.voidminer.quest6A5C0FD659ACF33A.description1}"
+				"{ftbquests.chapter.voidminer.quest2.description1}"
 				""
-				"{ftbquests.chapter.voidminer.quest6A5C0FD659ACF33A.description2}"
-				"{ftbquests.chapter.voidminer.quest6A5C0FD659ACF33A.description3}"
+				"{ftbquests.chapter.voidminer.quest2.description2}"
+				"{ftbquests.chapter.voidminer.quest2.description3}"
 			]
 			icon: "voidminers:rubetine_miner"
 			id: "6A5C0FD659ACF33A"
@@ -219,7 +219,7 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.voidminer.quest6A5C0FD659ACF33A.title}"
+			title: "{ftbquests.chapter.voidminer.quest2.title}"
 			x: -9.5d
 			y: -2.5d
 		}
@@ -554,25 +554,25 @@
 		{
 			dependencies: ["4447B5220839E9E6"]
 			description: [
-				"{ftbquests.chapter.voidminer.quest7A53D218AE346717.description1}"
+				"{ftbquests.chapter.voidminer.quest14.description1}"
 				""
-				"{ftbquests.chapter.voidminer.quest7A53D218AE346717.description2}"
-				"{ftbquests.chapter.voidminer.quest7A53D218AE346717.description3}"
+				"{ftbquests.chapter.voidminer.quest14.description2}"
+				"{ftbquests.chapter.voidminer.quest14.description3}"
 				""
-				"{ftbquests.chapter.voidminer.quest7A53D218AE346717.description4}"
-				"{ftbquests.chapter.voidminer.quest7A53D218AE346717.description5}"
+				"{ftbquests.chapter.voidminer.quest14.description4}"
+				"{ftbquests.chapter.voidminer.quest14.description5}"
 				""
-				"{ftbquests.chapter.voidminer.quest7A53D218AE346717.description6}"
-				"{ftbquests.chapter.voidminer.quest7A53D218AE346717.description7}"
-				"{ftbquests.chapter.voidminer.quest7A53D218AE346717.description8}"
+				"{ftbquests.chapter.voidminer.quest14.description6}"
+				"{ftbquests.chapter.voidminer.quest14.description7}"
+				"{ftbquests.chapter.voidminer.quest14.description8}"
 				""
-				"{ftbquests.chapter.voidminer.quest7A53D218AE346717.description9}"
+				"{ftbquests.chapter.voidminer.quest14.description9}"
 				""
-				"{ftbquests.chapter.voidminer.quest7A53D218AE346717.description10}"
+				"{ftbquests.chapter.voidminer.quest14.description10}"
 				""
-				"{ftbquests.chapter.voidminer.quest7A53D218AE346717.description11}"
-				"{ftbquests.chapter.voidminer.quest7A53D218AE346717.description12}"
-				"{ftbquests.chapter.voidminer.quest7A53D218AE346717.description13}"
+				"{ftbquests.chapter.voidminer.quest14.description11}"
+				"{ftbquests.chapter.voidminer.quest14.description12}"
+				"{ftbquests.chapter.voidminer.quest14.description13}"
 			]
 			hide_dependency_lines: true
 			id: "7A53D218AE346717"
@@ -584,10 +584,10 @@
 			}]
 			tasks: [{
 				id: "323BFA1B7512E1A5"
-				title: "{ftbquests.chapter.voidminer.quest7A53D218AE346717.task.3619761721357558181.title}"
+				title: "{ftbquests.chapter.voidminer.quest14.task_3619761721357558181.title}"
 				type: "checkmark"
 			}]
-			title: "{ftbquests.chapter.voidminer.quest7A53D218AE346717.title}"
+			title: "{ftbquests.chapter.voidminer.quest14.title}"
 			x: -6.0d
 			y: 1.0d
 		}
@@ -682,11 +682,11 @@
 		{
 			dependencies: ["6E34E7248F1B7E27"]
 			description: [
-				"{ftbquests.chapter.voidminer.questBFF2A289A45C93.description1}"
+				"{ftbquests.chapter.voidminer.quest20.description1}"
 				""
-				"{ftbquests.chapter.voidminer.questBFF2A289A45C93.description2}"
+				"{ftbquests.chapter.voidminer.quest20.description2}"
 				""
-				"{ftbquests.chapter.voidminer.questBFF2A289A45C93.description3}"
+				"{ftbquests.chapter.voidminer.quest20.description3}"
 			]
 			id: "00BFF2A289A45C93"
 			rewards: [{
@@ -838,13 +838,13 @@
 		{
 			dependencies: ["7A53D218AE346717"]
 			description: [
-				"{ftbquests.chapter.voidminer.questD2BC09A7E0549CE.description1}"
+				"{ftbquests.chapter.voidminer.quest29.description1}"
 				""
-				"{ftbquests.chapter.voidminer.questD2BC09A7E0549CE.description2}"
-				"{ftbquests.chapter.voidminer.questD2BC09A7E0549CE.description3}"
-				"{ftbquests.chapter.voidminer.questD2BC09A7E0549CE.description4}"
+				"{ftbquests.chapter.voidminer.quest29.description2}"
+				"{ftbquests.chapter.voidminer.quest29.description3}"
+				"{ftbquests.chapter.voidminer.quest29.description4}"
 				""
-				"{ftbquests.chapter.voidminer.questD2BC09A7E0549CE.description5}"
+				"{ftbquests.chapter.voidminer.quest29.description5}"
 			]
 			id: "0D2BC09A7E0549CE"
 			rewards: [{
@@ -857,20 +857,20 @@
 				item: "voidminers:rubetine_energy_modifier"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.voidminer.questD2BC09A7E0549CE.title}"
+			title: "{ftbquests.chapter.voidminer.quest29.title}"
 			x: -7.0d
 			y: 2.0d
 		}
 		{
 			dependencies: ["7A53D218AE346717"]
 			description: [
-				"{ftbquests.chapter.voidminer.quest2A16003D6E868DAC.description1}"
+				"{ftbquests.chapter.voidminer.quest30.description1}"
 				""
-				"{ftbquests.chapter.voidminer.quest2A16003D6E868DAC.description2}"
-				"{ftbquests.chapter.voidminer.quest2A16003D6E868DAC.description3}"
-				"{ftbquests.chapter.voidminer.quest2A16003D6E868DAC.description4}"
+				"{ftbquests.chapter.voidminer.quest30.description2}"
+				"{ftbquests.chapter.voidminer.quest30.description3}"
+				"{ftbquests.chapter.voidminer.quest30.description4}"
 				""
-				"{ftbquests.chapter.voidminer.quest2A16003D6E868DAC.description5}"
+				"{ftbquests.chapter.voidminer.quest30.description5}"
 			]
 			id: "2A16003D6E868DAC"
 			rewards: [{
@@ -883,20 +883,20 @@
 				item: "voidminers:rubetine_speed_modifier"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.voidminer.quest2A16003D6E868DAC.title}"
+			title: "{ftbquests.chapter.voidminer.quest30.title}"
 			x: -6.0d
 			y: 3.0d
 		}
 		{
 			dependencies: ["7A53D218AE346717"]
 			description: [
-				"{ftbquests.chapter.voidminer.quest38A172F647EEFD6.description1}"
+				"{ftbquests.chapter.voidminer.quest31.description1}"
 				""
-				"{ftbquests.chapter.voidminer.quest38A172F647EEFD6.description2}"
-				"{ftbquests.chapter.voidminer.quest38A172F647EEFD6.description3}"
-				"{ftbquests.chapter.voidminer.quest38A172F647EEFD6.description4}"
+				"{ftbquests.chapter.voidminer.quest31.description2}"
+				"{ftbquests.chapter.voidminer.quest31.description3}"
+				"{ftbquests.chapter.voidminer.quest31.description4}"
 				""
-				"{ftbquests.chapter.voidminer.quest38A172F647EEFD6.description5}"
+				"{ftbquests.chapter.voidminer.quest31.description5}"
 			]
 			id: "038A172F647EEFD6"
 			rewards: [{
@@ -909,13 +909,13 @@
 				item: "voidminers:rubetine_item_modifier"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.voidminer.quest38A172F647EEFD6.title}"
+			title: "{ftbquests.chapter.voidminer.quest31.title}"
 			x: -5.0d
 			y: 2.0d
 		}
 		{
 			dependencies: ["13D8005BEF796C17"]
-			description: ["{ftbquests.chapter.voidminer.quest5A5749D17D78A93.description1}"]
+			description: ["{ftbquests.chapter.voidminer.quest32.description1}"]
 			id: "05A5749D17D78A93"
 			rewards: [{
 				id: "79C550B5BCFADC98"
@@ -927,13 +927,13 @@
 				item: "voidminers:upgrade_max_storage_t1"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.voidminer.quest5A5749D17D78A93.title}"
+			title: "{ftbquests.chapter.voidminer.quest32.title}"
 			x: -11.0d
 			y: -4.0d
 		}
 		{
 			dependencies: ["05A5749D17D78A93"]
-			description: ["{ftbquests.chapter.voidminer.quest39308E4C2876748C.description1}"]
+			description: ["{ftbquests.chapter.voidminer.quest33.description1}"]
 			id: "39308E4C2876748C"
 			rewards: [{
 				id: "66D7FBB71A19B14A"
@@ -945,13 +945,13 @@
 				item: "voidminers:upgrade_max_storage_t2"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.voidminer.quest39308E4C2876748C.title}"
+			title: "{ftbquests.chapter.voidminer.quest33.title}"
 			x: -11.0d
 			y: -3.0d
 		}
 		{
 			dependencies: ["39308E4C2876748C"]
-			description: ["{ftbquests.chapter.voidminer.quest722324B602B3832.description1}"]
+			description: ["{ftbquests.chapter.voidminer.quest34.description1}"]
 			id: "0722324B602B3832"
 			rewards: [{
 				id: "519E08F3173576E0"
@@ -963,22 +963,22 @@
 				item: "voidminers:upgrade_max_storage_t3"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.voidminer.quest722324B602B3832.title}"
+			title: "{ftbquests.chapter.voidminer.quest34.title}"
 			x: -11.0d
 			y: -2.0d
 		}
 		{
 			dependencies: ["10650AD3F8696D4C"]
 			description: [
-				"{ftbquests.chapter.voidminer.quest13D8005BEF796C17.description1}"
-				"{ftbquests.chapter.voidminer.quest13D8005BEF796C17.description2}"
+				"{ftbquests.chapter.voidminer.quest35.description1}"
+				"{ftbquests.chapter.voidminer.quest35.description2}"
 				""
-				"{ftbquests.chapter.voidminer.quest13D8005BEF796C17.description3}"
+				"{ftbquests.chapter.voidminer.quest35.description3}"
 				""
-				"{ftbquests.chapter.voidminer.quest13D8005BEF796C17.description4}"
-				"{ftbquests.chapter.voidminer.quest13D8005BEF796C17.description5}"
-				"{ftbquests.chapter.voidminer.quest13D8005BEF796C17.description6}"
-				"{ftbquests.chapter.voidminer.quest13D8005BEF796C17.description7}"
+				"{ftbquests.chapter.voidminer.quest35.description4}"
+				"{ftbquests.chapter.voidminer.quest35.description5}"
+				"{ftbquests.chapter.voidminer.quest35.description6}"
+				"{ftbquests.chapter.voidminer.quest35.description7}"
 			]
 			id: "13D8005BEF796C17"
 			min_width: 300
@@ -989,7 +989,7 @@
 			}]
 			tasks: [{
 				id: "129C403BF76E0C7F"
-				title: "{ftbquests.chapter.voidminer.quest13D8005BEF796C17.task.1341017415347997823.title}"
+				title: "{ftbquests.chapter.voidminer.quest35.task_1341017415347997823.title}"
 				type: "checkmark"
 			}]
 			x: -11.0d
@@ -998,13 +998,13 @@
 		{
 			dependencies: ["00BFF2A289A45C93"]
 			description: [
-				"{ftbquests.chapter.voidminer.quest457A6496FA02E39E.description1}"
+				"{ftbquests.chapter.voidminer.quest36.description1}"
 				""
-				"{ftbquests.chapter.voidminer.quest457A6496FA02E39E.description2}"
-				"{ftbquests.chapter.voidminer.quest457A6496FA02E39E.description3}"
-				"{ftbquests.chapter.voidminer.quest457A6496FA02E39E.description4}"
+				"{ftbquests.chapter.voidminer.quest36.description2}"
+				"{ftbquests.chapter.voidminer.quest36.description3}"
+				"{ftbquests.chapter.voidminer.quest36.description4}"
 				""
-				"{ftbquests.chapter.voidminer.quest457A6496FA02E39E.description5}"
+				"{ftbquests.chapter.voidminer.quest36.description5}"
 			]
 			hide_dependency_lines: true
 			id: "457A6496FA02E39E"
@@ -1018,21 +1018,21 @@
 				item: "voidminers:solar_rubetine_efficiency_modifier"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.voidminer.quest457A6496FA02E39E.title}"
+			title: "{ftbquests.chapter.voidminer.quest36.title}"
 			x: -16.5d
 			y: 2.0d
 		}
 		{
 			dependencies: ["00BFF2A289A45C93"]
 			description: [
-				"{ftbquests.chapter.voidminer.quest399AB99920896FE3.description1}"
-				"{ftbquests.chapter.voidminer.quest399AB99920896FE3.description2}"
+				"{ftbquests.chapter.voidminer.quest37.description1}"
+				"{ftbquests.chapter.voidminer.quest37.description2}"
 				""
-				"{ftbquests.chapter.voidminer.quest399AB99920896FE3.description3}"
-				"{ftbquests.chapter.voidminer.quest399AB99920896FE3.description4}"
-				"{ftbquests.chapter.voidminer.quest399AB99920896FE3.description5}"
+				"{ftbquests.chapter.voidminer.quest37.description3}"
+				"{ftbquests.chapter.voidminer.quest37.description4}"
+				"{ftbquests.chapter.voidminer.quest37.description5}"
 				""
-				"{ftbquests.chapter.voidminer.quest399AB99920896FE3.description6}"
+				"{ftbquests.chapter.voidminer.quest37.description6}"
 			]
 			hide_dependency_lines: true
 			id: "399AB99920896FE3"
@@ -1046,7 +1046,7 @@
 				item: "voidminers:solar_rubetine_weather_modifier"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.voidminer.quest399AB99920896FE3.title}"
+			title: "{ftbquests.chapter.voidminer.quest37.title}"
 			x: -15.5d
 			y: 2.0d
 		}

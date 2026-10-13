@@ -10,7 +10,7 @@
 	quests: [
 		{
 			dependencies: ["3DB4820E671C641B"]
-			description: ["{ftbquests.chapter.avaritia.quest128C850EFE438E33.description1}"]
+			description: ["{ftbquests.chapter.avaritia.quest1.description1}"]
 			id: "128C850EFE438E33"
 			rewards: [{
 				count: 9
@@ -28,7 +28,7 @@
 		}
 		{
 			dependencies: ["128C850EFE438E33"]
-			description: ["{ftbquests.chapter.avaritia.quest63A46DD9090FABCD.description1}"]
+			description: ["{ftbquests.chapter.avaritia.quest2.description1}"]
 			id: "63A46DD9090FABCD"
 			rewards: [{
 				count: 18
@@ -46,7 +46,7 @@
 		}
 		{
 			dependencies: ["63A46DD9090FABCD"]
-			description: ["{ftbquests.chapter.avaritia.quest6CD0A72A42EE5F15.description1}"]
+			description: ["{ftbquests.chapter.avaritia.quest3.description1}"]
 			id: "6CD0A72A42EE5F15"
 			rewards: [
 				{
@@ -71,7 +71,7 @@
 			y: -13.5d
 		}
 		{
-			description: ["{ftbquests.chapter.avaritia.quest3DB4820E671C641B.description1}"]
+			description: ["{ftbquests.chapter.avaritia.quest4.description1}"]
 			id: "3DB4820E671C641B"
 			rewards: [{
 				id: "32E5C292004F9AB8"
@@ -89,7 +89,7 @@
 		}
 		{
 			dependencies: ["6CD0A72A42EE5F15"]
-			description: ["{ftbquests.chapter.avaritia.quest6BCEC4DFC4050076.description1}"]
+			description: ["{ftbquests.chapter.avaritia.quest5.description1}"]
 			id: "6BCEC4DFC4050076"
 			rewards: [
 				{
@@ -117,7 +117,7 @@
 		}
 		{
 			dependencies: ["6CD0A72A42EE5F15"]
-			description: ["{ftbquests.chapter.avaritia.quest58134A3611BA2D30.description1}"]
+			description: ["{ftbquests.chapter.avaritia.quest6.description1}"]
 			id: "58134A3611BA2D30"
 			rewards: [
 				{
@@ -143,7 +143,7 @@
 		}
 		{
 			dependencies: ["58134A3611BA2D30"]
-			description: ["{ftbquests.chapter.avaritia.quest4431F1144F0C5C0C.description1}"]
+			description: ["{ftbquests.chapter.avaritia.quest7.description1}"]
 			id: "4431F1144F0C5C0C"
 			rewards: [
 				{
@@ -167,7 +167,7 @@
 		}
 		{
 			dependencies: ["4431F1144F0C5C0C"]
-			description: ["{ftbquests.chapter.avaritia.quest7CD16FF452E8EE3D.description1}"]
+			description: ["{ftbquests.chapter.avaritia.quest8.description1}"]
 			id: "7CD16FF452E8EE3D"
 			rewards: [
 				{
@@ -228,7 +228,7 @@
 		}
 		{
 			dependencies: ["6BCEC4DFC4050076"]
-			description: ["{ftbquests.chapter.avaritia.quest847FA3F33F03338.description1}"]
+			description: ["{ftbquests.chapter.avaritia.quest10.description1}"]
 			id: "0847FA3F33F03338"
 			rewards: [{
 				count: 12
@@ -246,7 +246,7 @@
 		}
 		{
 			dependencies: ["6CD0A72A42EE5F15"]
-			description: ["{ftbquests.chapter.avaritia.quest182525B7EDF23BB5.description1}"]
+			description: ["{ftbquests.chapter.avaritia.quest11.description1}"]
 			id: "182525B7EDF23BB5"
 			rewards: [{
 				id: "43E5619CA2F7F856"
@@ -263,7 +263,7 @@
 		}
 		{
 			dependencies: ["6BCEC4DFC4050076"]
-			description: ["{ftbquests.chapter.avaritia.quest253B13051E4540FB.description1}"]
+			description: ["{ftbquests.chapter.avaritia.quest12.description1}"]
 			hide_dependency_lines: true
 			id: "253B13051E4540FB"
 			rewards: [{
@@ -289,7 +289,7 @@
 		}
 		{
 			dependencies: ["6BCEC4DFC4050076"]
-			description: ["{ftbquests.chapter.avaritia.quest7C6A708506A6522.description1}"]
+			description: ["{ftbquests.chapter.avaritia.quest13.description1}"]
 			hide_dependency_lines: true
 			id: "07C6A708506A6522"
 			rewards: [{
@@ -315,7 +315,7 @@
 		}
 		{
 			dependencies: ["6BCEC4DFC4050076"]
-			description: ["{ftbquests.chapter.avaritia.quest626B196AC0108F30.description1}"]
+			description: ["{ftbquests.chapter.avaritia.quest14.description1}"]
 			hide_dependency_lines: true
 			id: "626B196AC0108F30"
 			rewards: [{
@@ -341,7 +341,7 @@
 		}
 		{
 			dependencies: ["6BCEC4DFC4050076"]
-			description: ["{ftbquests.chapter.avaritia.quest3F28748E2A3794ED.description1}"]
+			description: ["{ftbquests.chapter.avaritia.quest15.description1}"]
 			hide_dependency_lines: true
 			id: "3F28748E2A3794ED"
 			rewards: [{
@@ -367,7 +367,7 @@
 		}
 		{
 			dependencies: ["6BCEC4DFC4050076"]
-			description: ["{ftbquests.chapter.avaritia.quest604B4CECA4FD44CB.description1}"]
+			description: ["{ftbquests.chapter.avaritia.quest16.description1}"]
 			hide_dependency_lines: true
 			id: "604B4CECA4FD44CB"
 			rewards: [{
@@ -393,7 +393,7 @@
 		}
 		{
 			dependencies: ["0D9F327D30321040"]
-			description: ["{ftbquests.chapter.avaritia.quest55ED711EFD438FC3.description1}"]
+			description: ["{ftbquests.chapter.avaritia.quest17.description1}"]
 			id: "55ED711EFD438FC3"
 			rewards: [
 				{
@@ -420,7 +420,7 @@
 		}
 		{
 			dependencies: ["0D9F327D30321040"]
-			description: ["{ftbquests.chapter.avaritia.quest73B6E398931525BA.description1}"]
+			description: ["{ftbquests.chapter.avaritia.quest18.description1}"]
 			hide_dependency_lines: true
 			id: "73B6E398931525BA"
 			rewards: [{
@@ -446,7 +446,7 @@
 		}
 		{
 			dependencies: ["0D9F327D30321040"]
-			description: ["{ftbquests.chapter.avaritia.quest64953DD2811A1713.description1}"]
+			description: ["{ftbquests.chapter.avaritia.quest19.description1}"]
 			hide_dependency_lines: true
 			id: "64953DD2811A1713"
 			rewards: [{
@@ -472,7 +472,7 @@
 		}
 		{
 			dependencies: ["0D9F327D30321040"]
-			description: ["{ftbquests.chapter.avaritia.quest48F4D5E88C907E51.description1}"]
+			description: ["{ftbquests.chapter.avaritia.quest20.description1}"]
 			hide_dependency_lines: true
 			id: "48F4D5E88C907E51"
 			rewards: [{
@@ -498,7 +498,7 @@
 		}
 		{
 			dependencies: ["0D9F327D30321040"]
-			description: ["{ftbquests.chapter.avaritia.quest4C7455970DDABF24.description1}"]
+			description: ["{ftbquests.chapter.avaritia.quest21.description1}"]
 			hide_dependency_lines: true
 			id: "4C7455970DDABF24"
 			rewards: [{
@@ -524,7 +524,7 @@
 		}
 		{
 			dependencies: ["0D9F327D30321040"]
-			description: ["{ftbquests.chapter.avaritia.quest74092BDC7DA9BAD9.description1}"]
+			description: ["{ftbquests.chapter.avaritia.quest22.description1}"]
 			hide_dependency_lines: true
 			id: "74092BDC7DA9BAD9"
 			rewards: [{
@@ -560,7 +560,7 @@
 			y: -9.5d
 		}
 		{
-			description: ["{ftbquests.chapter.avaritia.quest42DF944251E8538F.description1}"]
+			description: ["{ftbquests.chapter.avaritia.quest24.description1}"]
 			id: "42DF944251E8538F"
 			rewards: [{
 				count: 6
@@ -579,7 +579,7 @@
 		}
 		{
 			dependencies: ["42DF944251E8538F"]
-			description: ["{ftbquests.chapter.avaritia.quest7E164982974B7C55.description1}"]
+			description: ["{ftbquests.chapter.avaritia.quest25.description1}"]
 			id: "7E164982974B7C55"
 			rewards: [{
 				id: "75904785CA912A47"
@@ -596,7 +596,7 @@
 		}
 		{
 			dependencies: ["7E164982974B7C55"]
-			description: ["{ftbquests.chapter.avaritia.quest61B5E14CC5647919.description1}"]
+			description: ["{ftbquests.chapter.avaritia.quest26.description1}"]
 			id: "61B5E14CC5647919"
 			rewards: [{
 				id: "37320F02FC16256A"
@@ -613,7 +613,7 @@
 		}
 		{
 			dependencies: ["61B5E14CC5647919"]
-			description: ["{ftbquests.chapter.avaritia.quest11B42EB302FA9DDF.description1}"]
+			description: ["{ftbquests.chapter.avaritia.quest27.description1}"]
 			id: "11B42EB302FA9DDF"
 			rewards: [{
 				id: "69CD7F12F64751E1"
@@ -630,7 +630,7 @@
 		}
 		{
 			dependencies: ["11B42EB302FA9DDF"]
-			description: ["{ftbquests.chapter.avaritia.quest156E41193C265303.description1}"]
+			description: ["{ftbquests.chapter.avaritia.quest28.description1}"]
 			id: "156E41193C265303"
 			rewards: [
 				{
@@ -655,7 +655,7 @@
 		}
 		{
 			dependencies: ["42DF944251E8538F"]
-			description: ["{ftbquests.chapter.avaritia.quest5DD4B5780494D422.description1}"]
+			description: ["{ftbquests.chapter.avaritia.quest29.description1}"]
 			id: "5DD4B5780494D422"
 			tasks: [{
 				id: "60EBF03A28F6FDC3"
@@ -667,7 +667,7 @@
 		}
 		{
 			dependencies: ["5DD4B5780494D422"]
-			description: ["{ftbquests.chapter.avaritia.quest2DD3DE061E0BD676.description1}"]
+			description: ["{ftbquests.chapter.avaritia.quest30.description1}"]
 			id: "2DD3DE061E0BD676"
 			tasks: [{
 				id: "3B7213EB1C2B3422"
@@ -679,7 +679,7 @@
 		}
 		{
 			dependencies: ["2DD3DE061E0BD676"]
-			description: ["{ftbquests.chapter.avaritia.quest13931F57613DCC60.description1}"]
+			description: ["{ftbquests.chapter.avaritia.quest31.description1}"]
 			id: "13931F57613DCC60"
 			rewards: [{
 				count: 2
@@ -697,7 +697,7 @@
 		}
 		{
 			dependencies: ["55ED711EFD438FC3"]
-			description: ["{ftbquests.chapter.avaritia.quest54C6961ACAFC8D8B.description1}"]
+			description: ["{ftbquests.chapter.avaritia.quest32.description1}"]
 			id: "54C6961ACAFC8D8B"
 			rewards: [
 				{
@@ -726,7 +726,7 @@
 				"2F6E8A0DFB555ED6"
 				"623B6948CC6BEE3B"
 			]
-			description: ["{ftbquests.chapter.avaritia.quest348E851939EFF3EB.description1}"]
+			description: ["{ftbquests.chapter.avaritia.quest33.description1}"]
 			id: "348E851939EFF3EB"
 			rewards: [{
 				id: "7CF6B6CE1EF7FFE6"
@@ -743,7 +743,7 @@
 		}
 		{
 			dependencies: ["348E851939EFF3EB"]
-			description: ["{ftbquests.chapter.avaritia.quest2C53C8A3322CAB88.description1}"]
+			description: ["{ftbquests.chapter.avaritia.quest34.description1}"]
 			id: "2C53C8A3322CAB88"
 			rewards: [{
 				id: "1954BBB17319DE38"
@@ -762,11 +762,11 @@
 		}
 		{
 			dependencies: ["54C6961ACAFC8D8B"]
-			description: ["{ftbquests.chapter.avaritia.quest3353D17D82959D0C.description1}"]
+			description: ["{ftbquests.chapter.avaritia.quest35.description1}"]
 			id: "3353D17D82959D0C"
 			shape: "hexagon"
 			size: 1.5d
-			subtitle: "{ftbquests.chapter.avaritia.quest3353D17D82959D0C.subtitle}"
+			subtitle: "{ftbquests.chapter.avaritia.quest35.subtitle}"
 			tasks: [{
 				id: "75AE8D903B1972C1"
 				item: "extendedcrafting:ultimate_table"
@@ -777,7 +777,7 @@
 		}
 		{
 			dependencies: ["2C53C8A3322CAB88"]
-			description: ["{ftbquests.chapter.avaritia.quest2CA7B7158BE3A3D4.description1}"]
+			description: ["{ftbquests.chapter.avaritia.quest36.description1}"]
 			id: "2CA7B7158BE3A3D4"
 			rewards: [
 				{
@@ -792,7 +792,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "{ftbquests.chapter.avaritia.quest2CA7B7158BE3A3D4.subtitle}"
+			subtitle: "{ftbquests.chapter.avaritia.quest36.subtitle}"
 			tasks: [{
 				id: "1AD615AAB6B4E1F5"
 				item: "avaritia:infinity_sword"
@@ -803,7 +803,7 @@
 		}
 		{
 			dependencies: ["2C53C8A3322CAB88"]
-			description: ["{ftbquests.chapter.avaritia.quest2B56AEA32C0C43FD.description1}"]
+			description: ["{ftbquests.chapter.avaritia.quest37.description1}"]
 			id: "2B56AEA32C0C43FD"
 			rewards: [
 				{
@@ -818,7 +818,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "{ftbquests.chapter.avaritia.quest2B56AEA32C0C43FD.subtitle}"
+			subtitle: "{ftbquests.chapter.avaritia.quest37.subtitle}"
 			tasks: [{
 				id: "67636438AD4249BD"
 				item: {
@@ -833,7 +833,7 @@
 		}
 		{
 			dependencies: ["2C53C8A3322CAB88"]
-			description: ["{ftbquests.chapter.avaritia.quest40952B7721569DE2.description1}"]
+			description: ["{ftbquests.chapter.avaritia.quest38.description1}"]
 			id: "40952B7721569DE2"
 			rewards: [
 				{
@@ -848,7 +848,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "{ftbquests.chapter.avaritia.quest40952B7721569DE2.subtitle}"
+			subtitle: "{ftbquests.chapter.avaritia.quest38.subtitle}"
 			tasks: [{
 				id: "5DF2AF19F4614AD1"
 				item: "avaritia:infinity_axe"
@@ -859,7 +859,7 @@
 		}
 		{
 			dependencies: ["2C53C8A3322CAB88"]
-			description: ["{ftbquests.chapter.avaritia.quest282994DE03384B38.description1}"]
+			description: ["{ftbquests.chapter.avaritia.quest39.description1}"]
 			id: "282994DE03384B38"
 			rewards: [
 				{
@@ -874,7 +874,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "{ftbquests.chapter.avaritia.quest282994DE03384B38.subtitle}"
+			subtitle: "{ftbquests.chapter.avaritia.quest39.subtitle}"
 			tasks: [{
 				id: "3502D5596AFECA84"
 				item: {
@@ -889,7 +889,7 @@
 		}
 		{
 			dependencies: ["2C53C8A3322CAB88"]
-			description: ["{ftbquests.chapter.avaritia.quest10F556BBB559E13F.description1}"]
+			description: ["{ftbquests.chapter.avaritia.quest40.description1}"]
 			id: "10F556BBB559E13F"
 			rewards: [
 				{
@@ -904,7 +904,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "{ftbquests.chapter.avaritia.quest10F556BBB559E13F.subtitle}"
+			subtitle: "{ftbquests.chapter.avaritia.quest40.subtitle}"
 			tasks: [{
 				id: "7C59ACB2216AB4D6"
 				item: "avaritia:infinity_hoe"
@@ -915,7 +915,7 @@
 		}
 		{
 			dependencies: ["2C53C8A3322CAB88"]
-			description: ["{ftbquests.chapter.avaritia.quest7CDA899FDC1B3C0F.description1}"]
+			description: ["{ftbquests.chapter.avaritia.quest41.description1}"]
 			id: "7CDA899FDC1B3C0F"
 			rewards: [
 				{
@@ -930,7 +930,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "{ftbquests.chapter.avaritia.quest7CDA899FDC1B3C0F.subtitle}"
+			subtitle: "{ftbquests.chapter.avaritia.quest41.subtitle}"
 			tasks: [{
 				id: "01BC9F5A5BEC81C7"
 				item: "avaritia:infinity_bow"
@@ -940,7 +940,7 @@
 			y: -0.5d
 		}
 		{
-			description: ["{ftbquests.chapter.avaritia.quest3035A949E710CCCB.description1}"]
+			description: ["{ftbquests.chapter.avaritia.quest42.description1}"]
 			id: "3035A949E710CCCB"
 			rewards: [
 				{
@@ -964,7 +964,7 @@
 			y: -1.0d
 		}
 		{
-			description: ["{ftbquests.chapter.avaritia.quest1A250921FB4E8EA.description1}"]
+			description: ["{ftbquests.chapter.avaritia.quest43.description1}"]
 			id: "01A250921FB4E8EA"
 			rewards: [
 				{
@@ -988,7 +988,7 @@
 			y: -1.0d
 		}
 		{
-			description: ["{ftbquests.chapter.avaritia.quest623B6948CC6BEE3B.description1}"]
+			description: ["{ftbquests.chapter.avaritia.quest44.description1}"]
 			hide_dependency_lines: true
 			id: "623B6948CC6BEE3B"
 			rewards: [{
@@ -1005,7 +1005,7 @@
 			y: -4.5d
 		}
 		{
-			description: ["{ftbquests.chapter.avaritia.quest2F6E8A0DFB555ED6.description1}"]
+			description: ["{ftbquests.chapter.avaritia.quest45.description1}"]
 			hide_dependency_lines: true
 			id: "2F6E8A0DFB555ED6"
 			rewards: [{
@@ -1026,7 +1026,7 @@
 				"3035A949E710CCCB"
 				"01A250921FB4E8EA"
 			]
-			description: ["{ftbquests.chapter.avaritia.quest3416441A94958EA1.description1}"]
+			description: ["{ftbquests.chapter.avaritia.quest46.description1}"]
 			id: "3416441A94958EA1"
 			rewards: [
 				{
@@ -1053,7 +1053,7 @@
 		}
 		{
 			dependencies: ["3416441A94958EA1"]
-			description: ["{ftbquests.chapter.avaritia.quest1CF726BC8C581693.description1}"]
+			description: ["{ftbquests.chapter.avaritia.quest47.description1}"]
 			id: "1CF726BC8C581693"
 			rewards: [
 				{
@@ -1078,7 +1078,7 @@
 		}
 		{
 			dependencies: ["3416441A94958EA1"]
-			description: ["{ftbquests.chapter.avaritia.quest239D0B5CA70AA4C5.description1}"]
+			description: ["{ftbquests.chapter.avaritia.quest48.description1}"]
 			id: "239D0B5CA70AA4C5"
 			rewards: [
 				{
@@ -1109,7 +1109,7 @@
 		}
 		{
 			dependencies: ["3416441A94958EA1"]
-			description: ["{ftbquests.chapter.avaritia.quest39FFA83723143D47.description1}"]
+			description: ["{ftbquests.chapter.avaritia.quest49.description1}"]
 			id: "39FFA83723143D47"
 			rewards: [
 				{
@@ -1124,7 +1124,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "{ftbquests.chapter.avaritia.quest39FFA83723143D47.subtitle}"
+			subtitle: "{ftbquests.chapter.avaritia.quest49.subtitle}"
 			tasks: [{
 				id: "30F966ED6B1DFB6F"
 				item: "avaritia:endless_cake"
@@ -1135,7 +1135,7 @@
 		}
 		{
 			dependencies: ["3416441A94958EA1"]
-			description: ["{ftbquests.chapter.avaritia.quest55D40CC92FA0FC2B.description1}"]
+			description: ["{ftbquests.chapter.avaritia.quest50.description1}"]
 			id: "55D40CC92FA0FC2B"
 			rewards: [
 				{
@@ -1150,7 +1150,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "{ftbquests.chapter.avaritia.quest55D40CC92FA0FC2B.subtitle}"
+			subtitle: "{ftbquests.chapter.avaritia.quest50.subtitle}"
 			tasks: [{
 				id: "63DE348D262D87C3"
 				item: "avaritia:extreme_anvil"
@@ -1161,7 +1161,7 @@
 		}
 		{
 			dependencies: ["3416441A94958EA1"]
-			description: ["{ftbquests.chapter.avaritia.questC110E8F2F0509EC.description1}"]
+			description: ["{ftbquests.chapter.avaritia.quest51.description1}"]
 			id: "0C110E8F2F0509EC"
 			rewards: [
 				{
@@ -1186,7 +1186,7 @@
 		}
 		{
 			dependencies: ["3416441A94958EA1"]
-			description: ["{ftbquests.chapter.avaritia.quest8DB6154965F3519.description1}"]
+			description: ["{ftbquests.chapter.avaritia.quest52.description1}"]
 			id: "08DB6154965F3519"
 			rewards: [
 				{
@@ -1211,7 +1211,7 @@
 		}
 		{
 			dependencies: ["2C53C8A3322CAB88"]
-			description: ["{ftbquests.chapter.avaritia.quest4E552E69695756D.description1}"]
+			description: ["{ftbquests.chapter.avaritia.quest53.description1}"]
 			id: "04E552E69695756D"
 			rewards: [{
 				id: "312E24468F558983"
@@ -1228,7 +1228,7 @@
 		}
 		{
 			dependencies: ["2C53C8A3322CAB88"]
-			description: ["{ftbquests.chapter.avaritia.quest521E73E59FE17D9B.description1}"]
+			description: ["{ftbquests.chapter.avaritia.quest54.description1}"]
 			id: "521E73E59FE17D9B"
 			rewards: [{
 				id: "1FD328961900EEAE"

@@ -18,7 +18,7 @@
 	quests: [
 		{
 			dependencies: ["39BDA119A3E1B4D5"]
-			description: ["{ftbquests.chapter.botanic.quest1E6DA6D94BAE498E.description1}"]
+			description: ["{ftbquests.chapter.botanic.quest1.description1}"]
 			id: "1E6DA6D94BAE498E"
 			rewards: [{
 				id: "523468FC72926F2B"
@@ -131,7 +131,7 @@
 		}
 		{
 			dependencies: ["39BDA119A3E1B4D5"]
-			description: ["{ftbquests.chapter.botanic.quest62B78C5BE6475ED5.description1}"]
+			description: ["{ftbquests.chapter.botanic.quest8.description1}"]
 			id: "62B78C5BE6475ED5"
 			rewards: [{
 				id: "3842622071532A57"
@@ -662,37 +662,37 @@
 		{
 			dependencies: ["39BDA119A3E1B4D5"]
 			description: [
-				"{ftbquests.chapter.botanic.quest7BBE46FB237B252E.description1}"
+				"{ftbquests.chapter.botanic.quest41.description1}"
 				""
-				"{ftbquests.chapter.botanic.quest7BBE46FB237B252E.description2}"
+				"{ftbquests.chapter.botanic.quest41.description2}"
 				""
-				"{ftbquests.chapter.botanic.quest7BBE46FB237B252E.description3}"
+				"{ftbquests.chapter.botanic.quest41.description3}"
 				""
-				"{ftbquests.chapter.botanic.quest7BBE46FB237B252E.description4}"
-				"{ftbquests.chapter.botanic.quest7BBE46FB237B252E.description5}"
+				"{ftbquests.chapter.botanic.quest41.description4}"
+				"{ftbquests.chapter.botanic.quest41.description5}"
 				""
-				"{ftbquests.chapter.botanic.quest7BBE46FB237B252E.description6}"
+				"{ftbquests.chapter.botanic.quest41.description6}"
 				""
-				"{ftbquests.chapter.botanic.quest7BBE46FB237B252E.description7}"
-				"{ftbquests.chapter.botanic.quest7BBE46FB237B252E.description8}"
+				"{ftbquests.chapter.botanic.quest41.description7}"
+				"{ftbquests.chapter.botanic.quest41.description8}"
 				""
-				"{ftbquests.chapter.botanic.quest7BBE46FB237B252E.description9}"
+				"{ftbquests.chapter.botanic.quest41.description9}"
 				""
-				"{ftbquests.chapter.botanic.quest7BBE46FB237B252E.description10}"
+				"{ftbquests.chapter.botanic.quest41.description10}"
 				""
-				"{ftbquests.chapter.botanic.quest7BBE46FB237B252E.description11}"
-				"{ftbquests.chapter.botanic.quest7BBE46FB237B252E.description12}"
-				"{ftbquests.chapter.botanic.quest7BBE46FB237B252E.description13}"
-				"{ftbquests.chapter.botanic.quest7BBE46FB237B252E.description14}"
-				"{ftbquests.chapter.botanic.quest7BBE46FB237B252E.description15}"
-				"{ftbquests.chapter.botanic.quest7BBE46FB237B252E.description16}"
-				"{ftbquests.chapter.botanic.quest7BBE46FB237B252E.description17}"
-				"{ftbquests.chapter.botanic.quest7BBE46FB237B252E.description18}"
-				"{ftbquests.chapter.botanic.quest7BBE46FB237B252E.description19}"
+				"{ftbquests.chapter.botanic.quest41.description11}"
+				"{ftbquests.chapter.botanic.quest41.description12}"
+				"{ftbquests.chapter.botanic.quest41.description13}"
+				"{ftbquests.chapter.botanic.quest41.description14}"
+				"{ftbquests.chapter.botanic.quest41.description15}"
+				"{ftbquests.chapter.botanic.quest41.description16}"
+				"{ftbquests.chapter.botanic.quest41.description17}"
+				"{ftbquests.chapter.botanic.quest41.description18}"
+				"{ftbquests.chapter.botanic.quest41.description19}"
 				""
-				"{ftbquests.chapter.botanic.quest7BBE46FB237B252E.description20}"
-				"{ftbquests.chapter.botanic.quest7BBE46FB237B252E.description21}"
-				"{ftbquests.chapter.botanic.quest7BBE46FB237B252E.description22}"
+				"{ftbquests.chapter.botanic.quest41.description20}"
+				"{ftbquests.chapter.botanic.quest41.description21}"
+				"{ftbquests.chapter.botanic.quest41.description22}"
 			]
 			id: "7BBE46FB237B252E"
 			min_width: 350
@@ -706,7 +706,7 @@
 				item: "botanicalextramachinery:greenhouse"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.botanic.quest7BBE46FB237B252E.title}"
+			title: "{ftbquests.chapter.botanic.quest41.title}"
 			x: 5.0d
 			y: 2.5d
 		}

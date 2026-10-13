@@ -2,7 +2,7 @@
 	icon: "thermal:upgrade_augment_3"
 	id: "6661EF2B4EB97E1B"
 	loot_size: 1
-	order_index: 24
+	order_index: 21
 	rewards: [
 		{ item: "thermal:machine_frame", weight: 100.0f }
 		{
@@ -45,6 +45,6 @@
 		{ item: "thermal:signalum_ingot", random_bonus: 3, weight: 50.0f }
 		{ item: "thermal:constantan_ingot", random_bonus: 3, weight: 50.0f }
 	]
-	title: "{ftbquests.loot_table.7377440633892994587.title}"
+	title: "{ftbquests.loot_table_7377440633892994587.title}"
 	use_title: true
 }

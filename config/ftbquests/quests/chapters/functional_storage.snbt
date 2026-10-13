@@ -87,7 +87,7 @@
 				}
 				type: "item"
 			}]
-			title: "Drawer 1x1"
+			title: "{ftbquests.chapter.functional_storage.quest1.title}"
 			x: 1.5d
 			y: 0.5d
 		}
@@ -151,7 +151,7 @@
 				}
 				type: "item"
 			}]
-			title: "Drawer 2x1"
+			title: "{ftbquests.chapter.functional_storage.quest2.title}"
 			x: 3.0d
 			y: 0.5d
 		}
@@ -215,7 +215,7 @@
 				}
 				type: "item"
 			}]
-			title: "Drawer 2x2"
+			title: "{ftbquests.chapter.functional_storage.quest3.title}"
 			x: 4.5d
 			y: 0.5d
 		}
@@ -563,18 +563,18 @@
 			optional: true
 			tasks: [{
 				id: "1310782AD60715DF"
-				title: "{ftbquests.chapter.functional_storage.quest7C990C0D5F95781.task.1373730011722749407.title}"
+				title: "{ftbquests.chapter.functional_storage.quest24.task_1373730011722749407.title}"
 				type: "checkmark"
 			}]
-			title: "Created by Solardaisy"
+			title: "{ftbquests.chapter.functional_storage.quest24.title}"
 			x: 4.5d
 			y: -2.5d
 		}
 		{
 			description: [
-				"&4&lWarning"
+				"{ftbquests.chapter.functional_storage.quest25.description1}"
 				""
-				"ae2 has ghost items with compacting drawers. Says you have both the ore chunks and ore for example, even though they are the same."
+				"{ftbquests.chapter.functional_storage.quest25.description2}"
 			]
 			id: "691FEDF7BF8BF075"
 			rewards: [{
@@ -610,10 +610,10 @@
 				}
 				type: "item"
 			}]
-			title: "Compacting Drawers"
+			title: "{ftbquests.chapter.functional_storage.quest25.title}"
 			x: 6.0d
 			y: 1.5d
 		}
 	]
-	title: "Functional storage"
+	title: "{ftbquests.chapter.functional_storage.title}"
 }

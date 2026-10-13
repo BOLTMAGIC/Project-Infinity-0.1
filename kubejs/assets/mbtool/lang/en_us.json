@@ -86,5 +86,6 @@
     "mbtool.structure.blood_altar_tier_card_5_block_structure": "Blood Altar Tier Card 5 Block Structure",
     "mbtool.structure.neoeco_c9_computation_controller": "NeoEco C9 Computation Multiblock",
     "mbtool.structure.neoeco_f9_crafting_controller": "NeoEco F9 Crafting Multiblock",
-    "mbtool.structure.neoeco_l9_storage_controller": "NeoEco L9 Storage Multiblock"
+    "mbtool.structure.neoeco_l9_storage_controller": "NeoEco L9 Storage Multiblock",
+    "mbtool.structure.good_nuclearcraft_reactor": "Good Fission Reactor (any fuel / water-cooled)"
 }

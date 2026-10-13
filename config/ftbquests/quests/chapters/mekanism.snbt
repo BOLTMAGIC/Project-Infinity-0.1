@@ -11,11 +11,11 @@
 	quests: [
 		{
 			description: [
-				"The Naquadah Reactor comes from the Mekanism Extra mod."
+				"{ftbquests.chapter.mekanism.quest1.description1}"
 				""
-				"This reactor produces &7Polonium Containing Steam&r which through refining processes can be turned into a lot of &2Polonium&r and thus, a lot of &5Antimatter&r."
+				"{ftbquests.chapter.mekanism.quest1.description2}"
 				""
-				"And trust me, you will want a lot of &5Antimatter&r."
+				"{ftbquests.chapter.mekanism.quest1.description3}"
 			]
 			id: "0E5CD46C5A26BEC0"
 			min_width: 250
@@ -28,12 +28,12 @@
 				id: "53E6782510C4C944"
 				type: "checkmark"
 			}]
-			title: "The Naquadah Reactor"
+			title: "{ftbquests.chapter.mekanism.quest1.title}"
 			x: -13.125d
 			y: -10.625d
 		}
 		{
-			description: ["(The Naquadah Reactor can be found in the Multibuilder Tool)"]
+			description: ["{ftbquests.chapter.mekanism.quest2.description1}"]
 			id: "7A822E0A7F810F44"
 			rewards: [{
 				id: "0640198D6654187E"
@@ -76,23 +76,23 @@
 					type: "item"
 				}
 			]
-			title: "Build it !"
+			title: "{ftbquests.chapter.mekanism.quest2.title}"
 			x: -9.125d
 			y: -10.125d
 		}
 		{
 			description: [
-				"A Naquadah Hohlraum filled with Naquadah Uranium Fuel will be necessary to start the Naquadah Reactor."
+				"{ftbquests.chapter.mekanism.quest3.description1}"
 				""
-				"To make Naquadah Uranium Fuel, you need Liquid Fluorinated Naquadah Uranium Fuel and Osmium in chemical form."
+				"{ftbquests.chapter.mekanism.quest3.description2}"
 				"{@pagebreak}"
-				"To get Osmium in chemical form, you need to make a setup like this:"
-				"{image:kubejs:block/screen/naquadah_line_osmium_compressor width:100 height:100 align:center} "
-				"{image:kubejs:block/screen/naquadah_line_osmium_compressor_sides width:150 height:150 align:center}"
+				"{ftbquests.chapter.mekanism.quest3.description3}"
+				"{ftbquests.chapter.mekanism.quest3.image0}"
+				"{ftbquests.chapter.mekanism.quest3.image2}"
 				"{@pagebreak}"
-				"To fill the Hohlraum, put it inside a Chemical Tank containing Naquadah Uranium Fuel."
+				"{ftbquests.chapter.mekanism.quest3.description4}"
 				""
-				"{image:kubejs:block/screen/naquadah_line_hohlraum width:100 height:50 align:center fit:true}"
+				"{ftbquests.chapter.mekanism.quest3.image4}"
 			]
 			id: "4720028D12723450"
 			rewards: [{
@@ -129,15 +129,15 @@
 			size: 0.75d
 			tasks: [{
 				id: "02996B95205E0E3B"
-				title: "Thanks"
+				title: "{ftbquests.chapter.mekanism.quest4.task_187299147749920315.title}"
 				type: "checkmark"
 			}]
-			title: "&2Huge thanks to&r &6BabyMudkip&r &2for the original Naquadah Reactor Guide!&r"
+			title: "{ftbquests.chapter.mekanism.quest4.title}"
 			x: -13.875d
 			y: -11.25d
 		}
 		{
-			description: ["Just like \"vanilla\" Mekanism with the Heavy Water, we need a special pump and a special upgrade to make the fuels necessary for the Naquadah Reactor to run."]
+			description: ["{ftbquests.chapter.mekanism.quest5.description1}"]
 			id: "753F63B99BD9EEA2"
 			rewards: [{
 				id: "75DBFF214C29DAEC"
@@ -162,9 +162,9 @@
 		{
 			dependencies: ["753F63B99BD9EEA2"]
 			description: [
-				"To get this, you need to make the Advance Pump (with the Ionic Membrane Upgrade) pump a source block of Naquadah Hexafluoride."
+				"{ftbquests.chapter.mekanism.quest6.description1}"
 				""
-				"To place Naquadah Hexafluoride in the world, you can use Formation Planes from AE2 or Fluid Placers from one of the 4 mods that adds one."
+				"{ftbquests.chapter.mekanism.quest6.description2}"
 			]
 			id: "164C61193E91BE31"
 			rewards: [{
@@ -183,9 +183,9 @@
 		{
 			dependencies: ["753F63B99BD9EEA2"]
 			description: [
-				"To get this, you need to make the Advance Pump (with the Ionic Membrane Upgrade) pump a source block of Uranium Hexafluoride."
+				"{ftbquests.chapter.mekanism.quest7.description1}"
 				""
-				"To place Uranium Hexafluoride in the world, you can use Formation Planes from AE2 or Fluid Placers from one of the 4 mods that adds one."
+				"{ftbquests.chapter.mekanism.quest7.description2}"
 			]
 			id: "5ECD77828416708E"
 			rewards: [{
@@ -206,7 +206,7 @@
 				"164C61193E91BE31"
 				"5ECD77828416708E"
 			]
-			description: ["We need to gas version of those 2 fuels so use a Rotary Condensentrator."]
+			description: ["{ftbquests.chapter.mekanism.quest8.description1}"]
 			id: "6535B870E9488FBB"
 			rewards: [{
 				id: "27EBBA3C5BD01348"
@@ -223,11 +223,11 @@
 		}
 		{
 			description: [
-				"To light, the Naquadah Reactor needs a 2GFE laser pulse aimed at the Laser Focus Matrix."
+				"{ftbquests.chapter.mekanism.quest9.description1}"
 				""
-				"To get a 2GFE laser in a reasonable amount of time, you can do a setup like this:"
-				"{image:kubejs:block/screen/naq_laser_amplifiers width:100 height:100 align:center fit:true}"
-				"The last Laser Amplifier (the one nearest the Laser Focus Matrix) needs to be in redstone pulse mode so that it accumulates 2GFE then you decide when to release it with a button/lever."
+				"{ftbquests.chapter.mekanism.quest9.description2}"
+				"{ftbquests.chapter.mekanism.quest9.image0}"
+				"{ftbquests.chapter.mekanism.quest9.description3}"
 			]
 			id: "2EE2FEBB7EC53C47"
 			rewards: [{
@@ -258,14 +258,14 @@
 				"6535B870E9488FBB"
 			]
 			description: [
-				"Before lighting it, you need to set the Injection Rate inside the reactor's GUI to at least 6 otherwise the reactor won't accept Water."
+				"{ftbquests.chapter.mekanism.quest10.description1}"
 				""
-				"We need Water in the Reactor for it to make Polonium Containing Steam."
-				"{image:kubejs:block/screen/naq_water_change_to_6 width:100 height:80 align:center fit:true}"
+				"{ftbquests.chapter.mekanism.quest10.description2}"
+				"{ftbquests.chapter.mekanism.quest10.image0}"
 				"{@pagebreak}"
-				"If the reactor is not hot enough i.e. it didn't get a 2GFE laser pulse, it will produce normal Steam."
+				"{ftbquests.chapter.mekanism.quest10.description3}"
 				""
-				"You have to get rid of that steam for it to start producing Polonium Containing Steam once hot enough."
+				"{ftbquests.chapter.mekanism.quest10.description4}"
 			]
 			id: "6F3A495685E2A643"
 			rewards: [{
@@ -275,7 +275,7 @@
 			}]
 			tasks: [{
 				id: "7F259278A6669C65"
-				title: "Light it !"
+				title: "{ftbquests.chapter.mekanism.quest10.task_9161890063840615525.title}"
 				type: "checkmark"
 			}]
 			x: -11.125d
@@ -284,23 +284,23 @@
 		{
 			dependencies: ["6F3A495685E2A643"]
 			description: [
-				"Here is the full precessing line from &7Polonium Containing Steam&r to &2Polonium&r."
+				"{ftbquests.chapter.mekanism.quest11.description1}"
 				""
-				"&7Polonium Containing Steam&r > &9Liquid Polonium Containing Solution&r"
-				"[Rotary Condensentrator in Condensentrating mode]"
+				"{ftbquests.chapter.mekanism.quest11.description2}"
+				"{ftbquests.chapter.mekanism.quest11.description3}"
 				""
-				"&9Liquid Polonium Containing Solution&r > &aLiquid Polonium-208&r"
-				"[Thermal Evaporation Plant]"
+				"{ftbquests.chapter.mekanism.quest11.description4}"
+				"{ftbquests.chapter.mekanism.quest11.description5}"
 				""
-				"&aLiquid Polonium-208&r > &3Polonium-208&r"
-				"[Rotary Condensentrator in Decondensentrating mode]"
+				"{ftbquests.chapter.mekanism.quest11.description6}"
+				"{ftbquests.chapter.mekanism.quest11.description7}"
 				""
-				"&3Polonium-208&r > &2Polonium&r"
-				"[Solar Neutron Activator]"
+				"{ftbquests.chapter.mekanism.quest11.description8}"
+				"{ftbquests.chapter.mekanism.quest11.description9}"
 				""
-				"All of those recipes (except &aLiquid Polonium-208&r) also have a corresponding recipe in the Event Horizon Antimatter Synthesizer (which is much much faster)."
+				"{ftbquests.chapter.mekanism.quest11.description10}"
 				""
-				"From there, you should probably use the &5Antimatter&r recipes in the Event Horizon Antimatter Synthesizer."
+				"{ftbquests.chapter.mekanism.quest11.description11}"
 			]
 			id: "440DCCF63EFD54CD"
 			min_width: 320
@@ -432,9 +432,9 @@
 		{
 			dependencies: ["1F4B432C7EA765EE"]
 			description: [
-				"{ftbquests.chapter.mekanism.quest587A19FC348387C5.description1}"
+				"{ftbquests.chapter.mekanism.quest17.description1}"
 				""
-				"{ftbquests.chapter.mekanism.quest587A19FC348387C5.description2}"
+				"{ftbquests.chapter.mekanism.quest17.description2}"
 			]
 			id: "587A19FC348387C5"
 			rewards: [{
@@ -600,8 +600,8 @@
 		}
 		{
 			description: [
-				"{ftbquests.chapter.mekanism.quest66D40619BDB8DC60.description1}"
-				"{ftbquests.chapter.mekanism.quest66D40619BDB8DC60.description2}"
+				"{ftbquests.chapter.mekanism.quest26.description1}"
+				"{ftbquests.chapter.mekanism.quest26.description2}"
 			]
 			icon: "mekanismgenerators:heat_generator"
 			id: "66D40619BDB8DC60"
@@ -617,7 +617,7 @@
 				item: "mekanismgenerators:heat_generator"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.mekanism.quest66D40619BDB8DC60.title}"
+			title: "{ftbquests.chapter.mekanism.quest26.title}"
 			x: 0.0d
 			y: 0.0d
 		}
@@ -820,7 +820,7 @@
 		}
 		{
 			dependencies: ["66D40619BDB8DC60"]
-			description: ["{ftbquests.chapter.mekanism.quest1F4B432C7EA765EE.description1}"]
+			description: ["{ftbquests.chapter.mekanism.quest39.description1}"]
 			id: "1F4B432C7EA765EE"
 			rewards: [{
 				id: "7BC4D3D2BF4A435A"
@@ -831,7 +831,7 @@
 			size: 2.0d
 			tasks: [{
 				id: "31009B6F208F05A1"
-				title: "{ftbquests.chapter.mekanism.quest1F4B432C7EA765EE.task.3530993009448388001.title}"
+				title: "{ftbquests.chapter.mekanism.quest39.task_3530993009448388001.title}"
 				type: "checkmark"
 			}]
 			x: 7.0d
@@ -920,8 +920,8 @@
 		{
 			dependencies: ["1F4B432C7EA765EE"]
 			description: [
-				"{ftbquests.chapter.mekanism.quest6122482F67B6FD72.description1}"
-				"{ftbquests.chapter.mekanism.quest6122482F67B6FD72.description2}"
+				"{ftbquests.chapter.mekanism.quest45.description1}"
+				"{ftbquests.chapter.mekanism.quest45.description2}"
 			]
 			id: "6122482F67B6FD72"
 			rewards: [{
@@ -1097,7 +1097,7 @@
 		}
 		{
 			dependencies: ["66D40619BDB8DC60"]
-			description: ["{ftbquests.chapter.mekanism.quest5012E356410BDF1B.description1}"]
+			description: ["{ftbquests.chapter.mekanism.quest55.description1}"]
 			id: "5012E356410BDF1B"
 			rewards: [{
 				id: "321BBD79D058C1A4"
@@ -1108,7 +1108,7 @@
 			size: 2.0d
 			tasks: [{
 				id: "38E44D8B815CE312"
-				title: "{ftbquests.chapter.mekanism.quest5012E356410BDF1B.task.4099486822380135186.title}"
+				title: "{ftbquests.chapter.mekanism.quest55.task_4099486822380135186.title}"
 				type: "checkmark"
 			}]
 			x: -5.5d
@@ -1196,7 +1196,7 @@
 		}
 		{
 			dependencies: ["609D080C33BE0F54"]
-			description: ["{ftbquests.chapter.mekanism.quest3F75ACB40C84F0C.description1}"]
+			description: ["{ftbquests.chapter.mekanism.quest61.description1}"]
 			id: "03F75ACB40C84F0C"
 			rewards: [{
 				id: "73BCA1E3C50E8D0E"
@@ -1303,7 +1303,7 @@
 			}]
 			tasks: [{
 				id: "3B891456F317F6FE"
-				title: "{ftbquests.chapter.mekanism.quest334F8AFC8CFFA73.task.4289982483725285118.title}"
+				title: "{ftbquests.chapter.mekanism.quest67.task_4289982483725285118.title}"
 				type: "checkmark"
 			}]
 			x: -9.5d
@@ -1401,7 +1401,7 @@
 			size: 2.0d
 			tasks: [{
 				id: "6234D712972E35A3"
-				title: "{ftbquests.chapter.mekanism.quest609D080C33BE0F54.task.7076517389351663011.title}"
+				title: "{ftbquests.chapter.mekanism.quest73.task_7076517389351663011.title}"
 				type: "checkmark"
 			}]
 			x: -5.5d
@@ -1546,7 +1546,7 @@
 				}
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.mekanism.questA4D6CA125D56AD1.title}"
+			title: "{ftbquests.chapter.mekanism.quest79.title}"
 			x: -1.0d
 			y: 5.5d
 		}
@@ -1620,7 +1620,7 @@
 				}
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.mekanism.questF5F10E4E81F6D6F.title}"
+			title: "{ftbquests.chapter.mekanism.quest80.title}"
 			x: 0.0d
 			y: 5.5d
 		}
@@ -1708,7 +1708,7 @@
 				}
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.mekanism.quest447778EE955BA925.title}"
+			title: "{ftbquests.chapter.mekanism.quest81.title}"
 			x: 0.0d
 			y: 6.5d
 		}
@@ -1724,7 +1724,7 @@
 			size: 2.0d
 			tasks: [{
 				id: "3CB58666D8D72450"
-				title: "{ftbquests.chapter.mekanism.quest3A27A0E7BBE8F984.task.4374550389343069264.title}"
+				title: "{ftbquests.chapter.mekanism.quest82.task_4374550389343069264.title}"
 				type: "checkmark"
 			}]
 			x: 0.0d
@@ -1782,7 +1782,7 @@
 				}
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.mekanism.questC94E6BBACD8AFEB.title}"
+			title: "{ftbquests.chapter.mekanism.quest83.title}"
 			x: -1.0d
 			y: 6.5d
 		}
@@ -1838,7 +1838,7 @@
 				}
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.mekanism.quest4C3F35EFD49CBB8D.title}"
+			title: "{ftbquests.chapter.mekanism.quest84.title}"
 			x: -1.0d
 			y: 9.5d
 		}
@@ -1894,7 +1894,7 @@
 				}
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.mekanism.quest399EDE7E4471027B.title}"
+			title: "{ftbquests.chapter.mekanism.quest85.title}"
 			x: -1.0d
 			y: 8.5d
 		}
@@ -1950,7 +1950,7 @@
 				}
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.mekanism.quest3D8474987A711499.title}"
+			title: "{ftbquests.chapter.mekanism.quest86.title}"
 			x: -1.0d
 			y: 7.5d
 		}
@@ -2010,7 +2010,7 @@
 				}
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.mekanism.quest98EAF6AF1D0AF7D.title}"
+			title: "{ftbquests.chapter.mekanism.quest87.title}"
 			x: 1.0d
 			y: 6.5d
 		}
@@ -2070,7 +2070,7 @@
 				}
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.mekanism.questFEAEB2D26B00466.title}"
+			title: "{ftbquests.chapter.mekanism.quest88.title}"
 			x: 1.0d
 			y: 7.5d
 		}
@@ -2130,7 +2130,7 @@
 				}
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.mekanism.quest7CAC91FB5F268084.title}"
+			title: "{ftbquests.chapter.mekanism.quest89.title}"
 			x: 1.0d
 			y: 5.5d
 		}
@@ -2243,15 +2243,15 @@
 		}
 		{
 			description: [
-				"{ftbquests.chapter.mekanism.questFA17A520EB6F1D7.description1}"
-				"{ftbquests.chapter.mekanism.questFA17A520EB6F1D7.description2}"
+				"{ftbquests.chapter.mekanism.quest97.description1}"
+				"{ftbquests.chapter.mekanism.quest97.description2}"
 			]
 			id: "0FA17A520EB6F1D7"
 			invisible: true
 			optional: true
 			tasks: [{
 				id: "497160B02CBA34C8"
-				title: "{ftbquests.chapter.mekanism.questFA17A520EB6F1D7.task.5292117346917954760.title}"
+				title: "{ftbquests.chapter.mekanism.quest97.task_5292117346917954760.title}"
 				type: "checkmark"
 			}]
 			x: -2.0d

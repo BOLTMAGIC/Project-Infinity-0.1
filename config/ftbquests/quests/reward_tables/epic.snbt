@@ -2,7 +2,7 @@
 	icon: "minecraft:chest"
 	id: "617F6D802ED0FD00"
 	loot_size: 1
-	order_index: 12
+	order_index: 9
 	rewards: [
 		{ item: "powah:thermo_generator_spirited" }
 		{
@@ -76,6 +76,6 @@
 		}
 		{ item: "ironfurnaces:netherite_furnace" }
 	]
-	title: "{ftbquests.loot_table.7025454341029952768.title}"
+	title: "{ftbquests.loot_table_7025454341029952768.title}"
 	use_title: true
 }

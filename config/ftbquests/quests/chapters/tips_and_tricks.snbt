@@ -44,7 +44,7 @@
 	quest_links: [ ]
 	quests: [
 		{
-			description: ["{ftbquests.chapter.tips_and_tricks.questF75D7B9F4FF2459.description1}"]
+			description: ["{ftbquests.chapter.tips_and_tricks.quest1.description1}"]
 			id: "0F75D7B9F4FF2459"
 			rewards: [{
 				id: "4F4959C6CA30683B"
@@ -79,12 +79,12 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.tips_and_tricks.questF75D7B9F4FF2459.title}"
+			title: "{ftbquests.chapter.tips_and_tricks.quest1.title}"
 			x: -7.0d
 			y: 2.0d
 		}
 		{
-			description: ["{ftbquests.chapter.tips_and_tricks.quest2A2E3D020B1F5126.description1}"]
+			description: ["{ftbquests.chapter.tips_and_tricks.quest2.description1}"]
 			id: "2A2E3D020B1F5126"
 			rewards: [{
 				id: "73E17D3567E3D6BD"
@@ -104,22 +104,22 @@
 				}
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.tips_and_tricks.quest2A2E3D020B1F5126.title}"
+			title: "{ftbquests.chapter.tips_and_tricks.quest2.title}"
 			x: -5.0d
 			y: 4.0d
 		}
 		{
 			description: [
-				"{ftbquests.chapter.tips_and_tricks.quest3FC002E5A6C08DCC.description1}"
+				"{ftbquests.chapter.tips_and_tricks.quest3.description1}"
 				""
-				"{ftbquests.chapter.tips_and_tricks.quest3FC002E5A6C08DCC.description2}"
+				"{ftbquests.chapter.tips_and_tricks.quest3.description2}"
 				""
-				"{ftbquests.chapter.tips_and_tricks.quest3FC002E5A6C08DCC.description3}"
+				"{ftbquests.chapter.tips_and_tricks.quest3.description3}"
 				""
-				"{ftbquests.chapter.tips_and_tricks.quest3FC002E5A6C08DCC.description4}"
+				"{ftbquests.chapter.tips_and_tricks.quest3.description4}"
 				""
 				""
-				"{ftbquests.chapter.tips_and_tricks.quest3FC002E5A6C08DCC.description5}"
+				"{ftbquests.chapter.tips_and_tricks.quest3.description5}"
 			]
 			id: "3FC002E5A6C08DCC"
 			rewards: [{
@@ -137,7 +137,7 @@
 				}
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.tips_and_tricks.quest3FC002E5A6C08DCC.title}"
+			title: "{ftbquests.chapter.tips_and_tricks.quest3.title}"
 			x: -3.0d
 			y: 10.0d
 		}
@@ -164,7 +164,7 @@
 			y: 9.0d
 		}
 		{
-			description: ["{ftbquests.chapter.tips_and_tricks.quest70E66957E98D944D.description1}"]
+			description: ["{ftbquests.chapter.tips_and_tricks.quest5.description1}"]
 			icon: {
 				Count: 1
 				id: "gateways:gate_pearl"
@@ -188,15 +188,15 @@
 						value: "gateways"
 					}
 				}
-				title: "{ftbquests.chapter.tips_and_tricks.quest70E66957E98D944D.task.2334289861083748258.title}"
+				title: "{ftbquests.chapter.tips_and_tricks.quest5.task_2334289861083748258.title}"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.tips_and_tricks.quest70E66957E98D944D.title}"
+			title: "{ftbquests.chapter.tips_and_tricks.quest5.title}"
 			x: -1.0d
 			y: -4.0d
 		}
 		{
-			description: ["{ftbquests.chapter.tips_and_tricks.quest2874646A910EA889.description1}"]
+			description: ["{ftbquests.chapter.tips_and_tricks.quest6.description1}"]
 			icon: "torchmaster:megatorch"
 			id: "2874646A910EA889"
 			rewards: [{
@@ -227,12 +227,12 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.tips_and_tricks.quest2874646A910EA889.title}"
+			title: "{ftbquests.chapter.tips_and_tricks.quest6.title}"
 			x: -2.0d
 			y: -1.0d
 		}
 		{
-			description: ["{ftbquests.chapter.tips_and_tricks.questBD5C89908C16DDB.description1}"]
+			description: ["{ftbquests.chapter.tips_and_tricks.quest7.description1}"]
 			icon: "angelblockrenewed:angel_block"
 			id: "0BD5C89908C16DDB"
 			rewards: [{
@@ -246,12 +246,12 @@
 				item: "angelblockrenewed:angel_block"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.tips_and_tricks.questBD5C89908C16DDB.title}"
+			title: "{ftbquests.chapter.tips_and_tricks.quest7.title}"
 			x: 0.0d
 			y: 9.0d
 		}
 		{
-			description: ["{ftbquests.chapter.tips_and_tricks.quest550D14F2C1CB91DF.description1}"]
+			description: ["{ftbquests.chapter.tips_and_tricks.quest8.description1}"]
 			icon: "bhc:red_heart_canister"
 			id: "550D14F2C1CB91DF"
 			rewards: [{
@@ -277,12 +277,12 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.tips_and_tricks.quest550D14F2C1CB91DF.title}"
+			title: "{ftbquests.chapter.tips_and_tricks.quest8.title}"
 			x: 1.0d
 			y: -4.0d
 		}
 		{
-			description: ["{ftbquests.chapter.tips_and_tricks.quest39F0944503669D86.description1}"]
+			description: ["{ftbquests.chapter.tips_and_tricks.quest9.description1}"]
 			id: "39F0944503669D86"
 			rewards: [{
 				id: "32B06B319FFB2BBE"
@@ -295,12 +295,12 @@
 				item: "mekanism:digital_miner"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.tips_and_tricks.quest39F0944503669D86.title}"
+			title: "{ftbquests.chapter.tips_and_tricks.quest9.title}"
 			x: 2.0d
 			y: 3.0d
 		}
 		{
-			description: ["{ftbquests.chapter.tips_and_tricks.quest3887F065A1B917DC.description1}"]
+			description: ["{ftbquests.chapter.tips_and_tricks.quest10.description1}"]
 			icon: "compacter:compacter"
 			id: "3887F065A1B917DC"
 			rewards: [{
@@ -309,18 +309,18 @@
 				xp: 3
 			}]
 			size: 2.0d
-			subtitle: "{ftbquests.chapter.tips_and_tricks.quest3887F065A1B917DC.subtitle}"
+			subtitle: "{ftbquests.chapter.tips_and_tricks.quest10.subtitle}"
 			tasks: [{
 				id: "013061F4A17E61C8"
 				item: "compacter:compacter"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.tips_and_tricks.quest3887F065A1B917DC.title}"
+			title: "{ftbquests.chapter.tips_and_tricks.quest10.title}"
 			x: 3.0d
 			y: 4.0d
 		}
 		{
-			description: ["{ftbquests.chapter.tips_and_tricks.quest72026F51769FE691.description1}"]
+			description: ["{ftbquests.chapter.tips_and_tricks.quest11.description1}"]
 			id: "72026F51769FE691"
 			rewards: [{
 				id: "70E30476631BBF48"
@@ -330,15 +330,15 @@
 			size: 2.0d
 			tasks: [{
 				id: "25ECB4BE7185468F"
-				title: "{ftbquests.chapter.tips_and_tricks.quest72026F51769FE691.task.2732757803948394127.title}"
+				title: "{ftbquests.chapter.tips_and_tricks.quest11.task_2732757803948394127.title}"
 				type: "checkmark"
 			}]
-			title: "{ftbquests.chapter.tips_and_tricks.quest72026F51769FE691.title}"
+			title: "{ftbquests.chapter.tips_and_tricks.quest11.title}"
 			x: 6.0d
 			y: 3.0d
 		}
 		{
-			description: ["{ftbquests.chapter.tips_and_tricks.quest5A2174711D9219BF.description1}"]
+			description: ["{ftbquests.chapter.tips_and_tricks.quest12.description1}"]
 			id: "5A2174711D9219BF"
 			rewards: [{
 				id: "00B47659A517F31E"
@@ -348,14 +348,14 @@
 			size: 2.0d
 			tasks: [{
 				id: "5F5B1B7F605C5997"
-				title: "{ftbquests.chapter.tips_and_tricks.quest5A2174711D9219BF.task.6871115890375285143.title}"
+				title: "{ftbquests.chapter.tips_and_tricks.quest12.task_6871115890375285143.title}"
 				type: "checkmark"
 			}]
 			x: 6.0d
 			y: 1.0d
 		}
 		{
-			description: ["{ftbquests.chapter.tips_and_tricks.quest70CC7F36C90AFAD6.description1}"]
+			description: ["{ftbquests.chapter.tips_and_tricks.quest13.description1}"]
 			icon: "laserio:laser_node"
 			id: "70CC7F36C90AFAD6"
 			rewards: [{
@@ -386,15 +386,15 @@
 		}
 		{
 			description: [
-				"{ftbquests.chapter.tips_and_tricks.quest3DC75B276FB694C9.description1}"
+				"{ftbquests.chapter.tips_and_tricks.quest14.description1}"
 				""
-				"{ftbquests.chapter.tips_and_tricks.quest3DC75B276FB694C9.description2}"
+				"{ftbquests.chapter.tips_and_tricks.quest14.description2}"
 				""
-				"{ftbquests.chapter.tips_and_tricks.quest3DC75B276FB694C9.description3}"
+				"{ftbquests.chapter.tips_and_tricks.quest14.description3}"
 				""
-				"{ftbquests.chapter.tips_and_tricks.quest3DC75B276FB694C9.description4}"
+				"{ftbquests.chapter.tips_and_tricks.quest14.description4}"
 				""
-				"{ftbquests.chapter.tips_and_tricks.quest3DC75B276FB694C9.description5}"
+				"{ftbquests.chapter.tips_and_tricks.quest14.description5}"
 			]
 			id: "3DC75B276FB694C9"
 			min_width: 400
@@ -428,7 +428,7 @@
 				xp: 3
 			}]
 			size: 2.0d
-			subtitle: "{ftbquests.chapter.tips_and_tricks.quest12D1983081A8D945.subtitle}"
+			subtitle: "{ftbquests.chapter.tips_and_tricks.quest15.subtitle}"
 			tasks: [
 				{
 					id: "740AD0132B3CFCDD"
@@ -446,7 +446,7 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.tips_and_tricks.quest12D1983081A8D945.title}"
+			title: "{ftbquests.chapter.tips_and_tricks.quest15.title}"
 			x: -2.0d
 			y: 7.0d
 		}
@@ -458,28 +458,28 @@
 				xp: 3
 			}]
 			size: 2.0d
-			subtitle: "{ftbquests.chapter.tips_and_tricks.quest44EB5188DD7FB011.subtitle}"
+			subtitle: "{ftbquests.chapter.tips_and_tricks.quest16.subtitle}"
 			tasks: [{
 				id: "611D5361E401A76C"
 				item: "javd:portal_block"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.tips_and_tricks.quest44EB5188DD7FB011.title}"
+			title: "{ftbquests.chapter.tips_and_tricks.quest16.title}"
 			x: 0.0d
 			y: 7.0d
 		}
 		{
 			dependency_requirement: "all_started"
 			description: [
-				"{ftbquests.chapter.tips_and_tricks.quest4D3274AE190EEA88.description1}"
+				"{ftbquests.chapter.tips_and_tricks.quest17.description1}"
 				""
-				"{ftbquests.chapter.tips_and_tricks.quest4D3274AE190EEA88.description2}"
+				"{ftbquests.chapter.tips_and_tricks.quest17.description2}"
 				""
-				"{ftbquests.chapter.tips_and_tricks.quest4D3274AE190EEA88.description3}"
+				"{ftbquests.chapter.tips_and_tricks.quest17.description3}"
 				""
-				"{ftbquests.chapter.tips_and_tricks.quest4D3274AE190EEA88.description4}"
+				"{ftbquests.chapter.tips_and_tricks.quest17.description4}"
 				""
-				"{ftbquests.chapter.tips_and_tricks.quest4D3274AE190EEA88.description5}"
+				"{ftbquests.chapter.tips_and_tricks.quest17.description5}"
 			]
 			id: "4D3274AE190EEA88"
 			min_width: 420
@@ -511,22 +511,22 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.tips_and_tricks.quest4D3274AE190EEA88.title}"
+			title: "{ftbquests.chapter.tips_and_tricks.quest17.title}"
 			x: -8.0d
 			y: 3.0d
 		}
 		{
 			description: [
-				"{ftbquests.chapter.tips_and_tricks.quest7F9F08CF09D81EB6.description1}"
+				"{ftbquests.chapter.tips_and_tricks.quest18.description1}"
 				""
-				"{ftbquests.chapter.tips_and_tricks.quest7F9F08CF09D81EB6.description2}"
-				"{ftbquests.chapter.tips_and_tricks.quest7F9F08CF09D81EB6.description3}"
-				"{ftbquests.chapter.tips_and_tricks.quest7F9F08CF09D81EB6.description4}"
+				"{ftbquests.chapter.tips_and_tricks.quest18.description2}"
+				"{ftbquests.chapter.tips_and_tricks.quest18.description3}"
+				"{ftbquests.chapter.tips_and_tricks.quest18.description4}"
 				""
-				"{ftbquests.chapter.tips_and_tricks.quest7F9F08CF09D81EB6.description5}"
-				"{ftbquests.chapter.tips_and_tricks.quest7F9F08CF09D81EB6.description6}"
-				"{ftbquests.chapter.tips_and_tricks.quest7F9F08CF09D81EB6.description7}"
-				"{ftbquests.chapter.tips_and_tricks.quest7F9F08CF09D81EB6.description8}"
+				"{ftbquests.chapter.tips_and_tricks.quest18.description5}"
+				"{ftbquests.chapter.tips_and_tricks.quest18.description6}"
+				"{ftbquests.chapter.tips_and_tricks.quest18.description7}"
+				"{ftbquests.chapter.tips_and_tricks.quest18.description8}"
 			]
 			id: "7F9F08CF09D81EB6"
 			min_width: 300
@@ -554,18 +554,18 @@
 						]
 					}
 				}
-				title: "{ftbquests.chapter.tips_and_tricks.quest7F9F08CF09D81EB6.task.4611133331452188310.title}"
+				title: "{ftbquests.chapter.tips_and_tricks.quest18.task_4611133331452188310.title}"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.tips_and_tricks.quest7F9F08CF09D81EB6.title}"
+			title: "{ftbquests.chapter.tips_and_tricks.quest18.title}"
 			x: -8.0d
 			y: 1.0d
 		}
 		{
 			description: [
-				"{ftbquests.chapter.tips_and_tricks.quest684F432B43D104A1.description1}"
+				"{ftbquests.chapter.tips_and_tricks.quest19.description1}"
 				""
-				"{ftbquests.chapter.tips_and_tricks.quest684F432B43D104A1.description2}"
+				"{ftbquests.chapter.tips_and_tricks.quest19.description2}"
 			]
 			id: "684F432B43D104A1"
 			min_width: 300
@@ -601,20 +601,20 @@
 						]
 					}
 				}
-				title: "{ftbquests.chapter.tips_and_tricks.quest684F432B43D104A1.task.4192200748300727101.title}"
+				title: "{ftbquests.chapter.tips_and_tricks.quest19.task_4192200748300727101.title}"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.tips_and_tricks.quest684F432B43D104A1.title}"
+			title: "{ftbquests.chapter.tips_and_tricks.quest19.title}"
 			x: -7.0d
 			y: 4.0d
 		}
 		{
 			description: [
-				"{ftbquests.chapter.tips_and_tricks.quest2E20069AE6C51ADF.description1}"
+				"{ftbquests.chapter.tips_and_tricks.quest20.description1}"
 				""
-				"{ftbquests.chapter.tips_and_tricks.quest2E20069AE6C51ADF.description2}"
+				"{ftbquests.chapter.tips_and_tricks.quest20.description2}"
 				""
-				"{ftbquests.chapter.tips_and_tricks.quest2E20069AE6C51ADF.description3}"
+				"{ftbquests.chapter.tips_and_tricks.quest20.description3}"
 			]
 			id: "2E20069AE6C51ADF"
 			min_width: 400
@@ -642,11 +642,11 @@
 		}
 		{
 			description: [
-				"{ftbquests.chapter.tips_and_tricks.quest7D557A396FB12D0A.description1}"
+				"{ftbquests.chapter.tips_and_tricks.quest21.description1}"
 				""
-				"{ftbquests.chapter.tips_and_tricks.quest7D557A396FB12D0A.description2}"
+				"{ftbquests.chapter.tips_and_tricks.quest21.description2}"
 				""
-				"{ftbquests.chapter.tips_and_tricks.quest7D557A396FB12D0A.description3}"
+				"{ftbquests.chapter.tips_and_tricks.quest21.description3}"
 			]
 			id: "7D557A396FB12D0A"
 			min_width: 300
@@ -675,7 +675,7 @@
 							]
 						}
 					}
-					title: "{ftbquests.chapter.tips_and_tricks.quest7D557A396FB12D0A.task.7311569572673024648.title}"
+					title: "{ftbquests.chapter.tips_and_tricks.quest21.task_7311569572673024648.title}"
 					type: "item"
 				}
 				{
@@ -688,12 +688,12 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.tips_and_tricks.quest7D557A396FB12D0A.title}"
+			title: "{ftbquests.chapter.tips_and_tricks.quest21.title}"
 			x: -1.0d
 			y: -2.0d
 		}
 		{
-			description: ["{ftbquests.chapter.tips_and_tricks.quest721FC1AE7D78A0D8.description1}"]
+			description: ["{ftbquests.chapter.tips_and_tricks.quest22.description1}"]
 			icon: "telepastries:overworld_cake"
 			id: "721FC1AE7D78A0D8"
 			rewards: [{
@@ -734,20 +734,20 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.tips_and_tricks.quest721FC1AE7D78A0D8.title}"
+			title: "{ftbquests.chapter.tips_and_tricks.quest22.title}"
 			x: 4.0d
 			y: 3.0d
 		}
 		{
 			description: [
-				"{ftbquests.chapter.tips_and_tricks.quest20F4CBC52CD12260.description1}"
+				"{ftbquests.chapter.tips_and_tricks.quest23.description1}"
 				""
-				"{ftbquests.chapter.tips_and_tricks.quest20F4CBC52CD12260.description2}"
-				"{ftbquests.chapter.tips_and_tricks.quest20F4CBC52CD12260.description3}"
-				"{ftbquests.chapter.tips_and_tricks.quest20F4CBC52CD12260.description4}"
-				"{ftbquests.chapter.tips_and_tricks.quest20F4CBC52CD12260.description5}"
+				"{ftbquests.chapter.tips_and_tricks.quest23.description2}"
+				"{ftbquests.chapter.tips_and_tricks.quest23.description3}"
+				"{ftbquests.chapter.tips_and_tricks.quest23.description4}"
+				"{ftbquests.chapter.tips_and_tricks.quest23.description5}"
 				""
-				"{ftbquests.chapter.tips_and_tricks.quest20F4CBC52CD12260.description6}"
+				"{ftbquests.chapter.tips_and_tricks.quest23.description6}"
 			]
 			id: "20F4CBC52CD12260"
 			rewards: [{
@@ -768,12 +768,12 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.tips_and_tricks.quest20F4CBC52CD12260.title}"
+			title: "{ftbquests.chapter.tips_and_tricks.quest23.title}"
 			x: -1.0d
 			y: 8.0d
 		}
 		{
-			description: ["{ftbquests.chapter.tips_and_tricks.quest6A7F7835B4FFED38.description1}"]
+			description: ["{ftbquests.chapter.tips_and_tricks.quest24.description1}"]
 			id: "6A7F7835B4FFED38"
 			rewards: [{
 				id: "196071A366681DEC"
@@ -793,19 +793,19 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.tips_and_tricks.quest6A7F7835B4FFED38.title}"
+			title: "{ftbquests.chapter.tips_and_tricks.quest24.title}"
 			x: -8.0d
 			y: 5.0d
 		}
 		{
 			description: [
-				"{ftbquests.chapter.tips_and_tricks.quest5BAFDEC1D5F8FDFF.description1}"
+				"{ftbquests.chapter.tips_and_tricks.quest25.description1}"
 				""
-				"{ftbquests.chapter.tips_and_tricks.quest5BAFDEC1D5F8FDFF.description2}"
+				"{ftbquests.chapter.tips_and_tricks.quest25.description2}"
 				""
-				"{ftbquests.chapter.tips_and_tricks.quest5BAFDEC1D5F8FDFF.description3}"
+				"{ftbquests.chapter.tips_and_tricks.quest25.description3}"
 				""
-				"{ftbquests.chapter.tips_and_tricks.quest5BAFDEC1D5F8FDFF.description4}"
+				"{ftbquests.chapter.tips_and_tricks.quest25.description4}"
 			]
 			id: "5BAFDEC1D5F8FDFF"
 			rewards: [{
@@ -838,7 +838,7 @@
 				xp: 3
 			}]
 			size: 2.0d
-			subtitle: "{ftbquests.chapter.tips_and_tricks.quest209438A4F154203C.subtitle}"
+			subtitle: "{ftbquests.chapter.tips_and_tricks.quest26.subtitle}"
 			tasks: [
 				{
 					id: "6DDB2A796B000ABC"
@@ -861,20 +861,20 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.tips_and_tricks.quest209438A4F154203C.title}"
+			title: "{ftbquests.chapter.tips_and_tricks.quest26.title}"
 			x: -2.0d
 			y: -3.0d
 		}
 		{
 			description: [
-				"{ftbquests.chapter.tips_and_tricks.quest4A7299079141D52.description1}"
+				"{ftbquests.chapter.tips_and_tricks.quest27.description1}"
 				""
-				"{ftbquests.chapter.tips_and_tricks.quest4A7299079141D52.description2}"
-				"{ftbquests.chapter.tips_and_tricks.quest4A7299079141D52.description3}"
-				"{ftbquests.chapter.tips_and_tricks.quest4A7299079141D52.description4}"
-				"{ftbquests.chapter.tips_and_tricks.quest4A7299079141D52.description5}"
+				"{ftbquests.chapter.tips_and_tricks.quest27.description2}"
+				"{ftbquests.chapter.tips_and_tricks.quest27.description3}"
+				"{ftbquests.chapter.tips_and_tricks.quest27.description4}"
+				"{ftbquests.chapter.tips_and_tricks.quest27.description5}"
 				""
-				"{ftbquests.chapter.tips_and_tricks.quest4A7299079141D52.description6}"
+				"{ftbquests.chapter.tips_and_tricks.quest27.description6}"
 			]
 			icon: "ae2:calculation_processor_press"
 			id: "04A7299079141D52"
@@ -915,7 +915,7 @@
 			y: -4.0d
 		}
 		{
-			description: ["{ftbquests.chapter.tips_and_tricks.quest5A2AF10773FA8B2D.description1}"]
+			description: ["{ftbquests.chapter.tips_and_tricks.quest28.description1}"]
 			icon: "modularrouters:modular_router"
 			id: "5A2AF10773FA8B2D"
 			rewards: [{
@@ -945,7 +945,7 @@
 			y: 2.0d
 		}
 		{
-			description: ["{ftbquests.chapter.tips_and_tricks.quest5DE6CDBDD36EC3CC.description1}"]
+			description: ["{ftbquests.chapter.tips_and_tricks.quest29.description1}"]
 			icon: {
 				Count: 1
 				id: "entangled:block"
@@ -978,7 +978,7 @@
 			y: -1.0d
 		}
 		{
-			description: ["{ftbquests.chapter.tips_and_tricks.quest6D0D293C2771D49C.description1}"]
+			description: ["{ftbquests.chapter.tips_and_tricks.quest30.description1}"]
 			icon: "compactmachines:personal_shrinking_device"
 			id: "6D0D293C2771D49C"
 			rewards: [{
@@ -1027,21 +1027,21 @@
 							]
 						}
 					}
-					title: "Custom Machine"
+					title: "{ftbquests.chapter.tips_and_tricks.quest30.task_4189680211955580534.title}"
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.tips_and_tricks.quest6D0D293C2771D49C.title}"
+			title: "{ftbquests.chapter.tips_and_tricks.quest30.title}"
 			x: -1.0d
 			y: 0.0d
 		}
 		{
 			description: [
-				"{ftbquests.chapter.tips_and_tricks.quest59EC5CDA14D238F.description1}"
-				"{ftbquests.chapter.tips_and_tricks.quest59EC5CDA14D238F.description2}"
-				"{ftbquests.chapter.tips_and_tricks.quest59EC5CDA14D238F.description3}"
-				"{ftbquests.chapter.tips_and_tricks.quest59EC5CDA14D238F.description4}"
-				"{ftbquests.chapter.tips_and_tricks.quest59EC5CDA14D238F.description5}"
+				"{ftbquests.chapter.tips_and_tricks.quest31.description1}"
+				"{ftbquests.chapter.tips_and_tricks.quest31.description2}"
+				"{ftbquests.chapter.tips_and_tricks.quest31.description3}"
+				"{ftbquests.chapter.tips_and_tricks.quest31.description4}"
+				"{ftbquests.chapter.tips_and_tricks.quest31.description5}"
 			]
 			id: "059EC5CDA14D238F"
 			rewards: [{
@@ -1059,28 +1059,28 @@
 				}
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.tips_and_tricks.quest59EC5CDA14D238F.title}"
+			title: "{ftbquests.chapter.tips_and_tricks.quest31.title}"
 			x: 0.0d
 			y: -3.0d
 		}
 		{
 			description: [
-				"{ftbquests.chapter.tips_and_tricks.quest54D3F98DB1BC6BB2.description1}"
+				"{ftbquests.chapter.tips_and_tricks.quest32.description1}"
 				""
-				"{ftbquests.chapter.tips_and_tricks.quest54D3F98DB1BC6BB2.description2}"
+				"{ftbquests.chapter.tips_and_tricks.quest32.description2}"
 				""
 				""
-				"{ftbquests.chapter.tips_and_tricks.quest54D3F98DB1BC6BB2.description3}"
+				"{ftbquests.chapter.tips_and_tricks.quest32.description3}"
 				""
-				"{ftbquests.chapter.tips_and_tricks.quest54D3F98DB1BC6BB2.description4}"
+				"{ftbquests.chapter.tips_and_tricks.quest32.description4}"
 				""
-				"{ftbquests.chapter.tips_and_tricks.quest54D3F98DB1BC6BB2.description5}"
-				"{ftbquests.chapter.tips_and_tricks.quest54D3F98DB1BC6BB2.description6}"
+				"{ftbquests.chapter.tips_and_tricks.quest32.description5}"
+				"{ftbquests.chapter.tips_and_tricks.quest32.description6}"
 				""
-				"{ftbquests.chapter.tips_and_tricks.quest54D3F98DB1BC6BB2.description7}"
-				"{ftbquests.chapter.tips_and_tricks.quest54D3F98DB1BC6BB2.description8}"
-				"{ftbquests.chapter.tips_and_tricks.quest54D3F98DB1BC6BB2.description9}"
-				"{ftbquests.chapter.tips_and_tricks.quest54D3F98DB1BC6BB2.description10}"
+				"{ftbquests.chapter.tips_and_tricks.quest32.description7}"
+				"{ftbquests.chapter.tips_and_tricks.quest32.description8}"
+				"{ftbquests.chapter.tips_and_tricks.quest32.description9}"
+				"{ftbquests.chapter.tips_and_tricks.quest32.description10}"
 			]
 			icon: "blockbooster:booster_t1"
 			id: "54D3F98DB1BC6BB2"
@@ -1117,7 +1117,7 @@
 			y: 2.0d
 		}
 		{
-			description: ["{ftbquests.chapter.tips_and_tricks.quest518405876B7FEB5A.description1}"]
+			description: ["{ftbquests.chapter.tips_and_tricks.quest33.description1}"]
 			icon: {
 				Count: 1
 				id: "guideme:guide"
@@ -1156,7 +1156,7 @@
 			size: 2.5d
 			tasks: [{
 				id: "4DA39D64821AA2C1"
-				title: "{ftbquests.chapter.tips_and_tricks.quest518405876B7FEB5A.task.5594488217129362113.title}"
+				title: "{ftbquests.chapter.tips_and_tricks.quest33.task_5594488217129362113.title}"
 				type: "checkmark"
 			}]
 			x: -0.9761904761904674d
@@ -1171,7 +1171,7 @@
 				xp: 3
 			}]
 			size: 2.0d
-			subtitle: "{ftbquests.chapter.tips_and_tricks.quest74BA767367F2722B.subtitle}"
+			subtitle: "{ftbquests.chapter.tips_and_tricks.quest34.subtitle}"
 			tasks: [{
 				id: "1637D01C6CB844C6"
 				item: "waystones:waystone"
@@ -1182,9 +1182,9 @@
 		}
 		{
 			description: [
-				"{ftbquests.chapter.tips_and_tricks.quest6CA3E88417FE311.description1}"
-				"{ftbquests.chapter.tips_and_tricks.quest6CA3E88417FE311.description2}"
-				"{ftbquests.chapter.tips_and_tricks.quest6CA3E88417FE311.description3}"
+				"{ftbquests.chapter.tips_and_tricks.quest35.description1}"
+				"{ftbquests.chapter.tips_and_tricks.quest35.description2}"
+				"{ftbquests.chapter.tips_and_tricks.quest35.description3}"
 			]
 			id: "06CA3E88417FE311"
 			min_width: 350
@@ -1196,17 +1196,17 @@
 			size: 2.0d
 			tasks: [{
 				id: "03A5B9F5C215C2A6"
-				title: "{ftbquests.chapter.tips_and_tricks.quest6CA3E88417FE311.task.262820618445374118.title}"
+				title: "{ftbquests.chapter.tips_and_tricks.quest35.task_262820618445374118.title}"
 				type: "checkmark"
 			}]
-			title: "{ftbquests.chapter.tips_and_tricks.quest6CA3E88417FE311.title}"
+			title: "{ftbquests.chapter.tips_and_tricks.quest35.title}"
 			x: 6.0d
 			y: 5.0d
 		}
 		{
 			description: [
-				"{ftbquests.chapter.tips_and_tricks.quest7226C281B781ADF.description1}"
-				"{ftbquests.chapter.tips_and_tricks.quest7226C281B781ADF.description2}"
+				"{ftbquests.chapter.tips_and_tricks.quest36.description1}"
+				"{ftbquests.chapter.tips_and_tricks.quest36.description2}"
 			]
 			id: "07226C281B781ADF"
 			rewards: [{

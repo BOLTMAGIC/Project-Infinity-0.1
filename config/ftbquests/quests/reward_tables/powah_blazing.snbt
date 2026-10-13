@@ -1,7 +1,7 @@
 {
 	id: "1C750D27FEF7C386"
 	loot_size: 1
-	order_index: 27
+	order_index: 24
 	rewards: [
 		{ item: "powah:capacitor_hardened", random_bonus: 1, weight: 10.0f }
 		{ item: "powah:capacitor_blazing", random_bonus: 1, weight: 10.0f }
@@ -14,6 +14,6 @@
 		{ item: "powah:energized_steel_block", weight: 2.0f }
 		{ item: "powah:blazing_crystal_block" }
 	]
-	title: "{ftbquests.loot_table.2050559670769664902.title}"
+	title: "{ftbquests.loot_table_2050559670769664902.title}"
 	use_title: true
 }

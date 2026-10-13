@@ -28,7 +28,7 @@
 	quest_links: [ ]
 	quests: [
 		{
-			description: ["{ftbquests.chapter.solarflux_reborn.quest6D200C64228552DD.description1}"]
+			description: ["{ftbquests.chapter.solarflux_reborn.quest1.description1}"]
 			id: "6D200C64228552DD"
 			rewards: [{
 				id: "3703C649A36A0170"
@@ -39,19 +39,19 @@
 			size: 1.0d
 			tasks: [{
 				id: "660EDD993775F521"
-				title: "{ftbquests.chapter.solarflux_reborn.quest6D200C64228552DD.task.7354058891672810785.title}"
+				title: "{ftbquests.chapter.solarflux_reborn.quest1.task_7354058891672810785.title}"
 				type: "checkmark"
 			}]
-			title: "{ftbquests.chapter.solarflux_reborn.quest6D200C64228552DD.title}"
+			title: "{ftbquests.chapter.solarflux_reborn.quest1.title}"
 			x: -1.0d
 			y: -3.5d
 		}
 		{
 			dependencies: ["07695BF95821104C"]
 			description: [
-				"{ftbquests.chapter.solarflux_reborn.quest6B7CC05482168BAD.description1}"
+				"{ftbquests.chapter.solarflux_reborn.quest2.description1}"
 				""
-				"{ftbquests.chapter.solarflux_reborn.quest6B7CC05482168BAD.description2}"
+				"{ftbquests.chapter.solarflux_reborn.quest2.description2}"
 			]
 			id: "6B7CC05482168BAD"
 			rewards: [
@@ -77,11 +77,11 @@
 		{
 			dependencies: ["6D200C64228552DD"]
 			description: [
-				"{ftbquests.chapter.solarflux_reborn.quest7695BF95821104C.description1}"
+				"{ftbquests.chapter.solarflux_reborn.quest3.description1}"
 				""
-				"{ftbquests.chapter.solarflux_reborn.quest7695BF95821104C.description2}"
+				"{ftbquests.chapter.solarflux_reborn.quest3.description2}"
 				""
-				"{ftbquests.chapter.solarflux_reborn.quest7695BF95821104C.description3}"
+				"{ftbquests.chapter.solarflux_reborn.quest3.description3}"
 			]
 			id: "07695BF95821104C"
 			rewards: [
@@ -102,13 +102,13 @@
 				item: "solarflux:mirror"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.solarflux_reborn.quest7695BF95821104C.title}"
+			title: "{ftbquests.chapter.solarflux_reborn.quest3.title}"
 			x: -1.0d
 			y: -1.0d
 		}
 		{
 			dependencies: ["07695BF95821104C"]
-			description: ["{ftbquests.chapter.solarflux_reborn.quest4588F09890728436.description1}"]
+			description: ["{ftbquests.chapter.solarflux_reborn.quest4.description1}"]
 			id: "4588F09890728436"
 			rewards: [{
 				id: "3AADC5F472AF3076"
@@ -117,10 +117,10 @@
 			}]
 			shape: "hexagon"
 			size: 1.0d
-			subtitle: "{ftbquests.chapter.solarflux_reborn.quest4588F09890728436.subtitle}"
+			subtitle: "{ftbquests.chapter.solarflux_reborn.quest4.subtitle}"
 			tasks: [{
 				id: "77D6336DBA090447"
-				title: "{ftbquests.chapter.solarflux_reborn.quest4588F09890728436.task.8635145881895109703.title}"
+				title: "{ftbquests.chapter.solarflux_reborn.quest4.task_8635145881895109703.title}"
 				type: "checkmark"
 			}]
 			x: -3.0d
@@ -128,7 +128,7 @@
 		}
 		{
 			dependencies: ["4588F09890728436"]
-			description: ["{ftbquests.chapter.solarflux_reborn.quest21C9CACEC28D9380.description1}"]
+			description: ["{ftbquests.chapter.solarflux_reborn.quest5.description1}"]
 			id: "21C9CACEC28D9380"
 			rewards: [
 				{
@@ -160,9 +160,9 @@
 			dependencies: ["6B7CC05482168BAD"]
 			dependency_requirement: "one_completed"
 			description: [
-				"{ftbquests.chapter.solarflux_reborn.quest45F3E857897AF9E8.description1}"
+				"{ftbquests.chapter.solarflux_reborn.quest6.description1}"
 				""
-				"{ftbquests.chapter.solarflux_reborn.quest45F3E857897AF9E8.description2}"
+				"{ftbquests.chapter.solarflux_reborn.quest6.description2}"
 			]
 			id: "45F3E857897AF9E8"
 			rewards: [
@@ -187,7 +187,7 @@
 		}
 		{
 			dependencies: ["07695BF95821104C"]
-			description: ["{ftbquests.chapter.solarflux_reborn.quest2B5C940E1B4AE183.description1}"]
+			description: ["{ftbquests.chapter.solarflux_reborn.quest7.description1}"]
 			id: "2B5C940E1B4AE183"
 			rewards: [
 				{
@@ -216,9 +216,9 @@
 				"2B5C940E1B4AE183"
 			]
 			description: [
-				"{ftbquests.chapter.solarflux_reborn.quest5F9945DB00930E83.description1}"
+				"{ftbquests.chapter.solarflux_reborn.quest8.description1}"
 				""
-				"{ftbquests.chapter.solarflux_reborn.quest5F9945DB00930E83.description2}"
+				"{ftbquests.chapter.solarflux_reborn.quest8.description2}"
 			]
 			hide_dependency_lines: false
 			id: "5F9945DB00930E83"
@@ -234,19 +234,19 @@
 					xp: 100
 				}
 			]
-			subtitle: "{ftbquests.chapter.solarflux_reborn.quest5F9945DB00930E83.subtitle}"
+			subtitle: "{ftbquests.chapter.solarflux_reborn.quest8.subtitle}"
 			tasks: [{
 				id: "087EA910B23DD647"
 				item: "solarflux:efficiency_upgrade"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.solarflux_reborn.quest5F9945DB00930E83.title}"
+			title: "{ftbquests.chapter.solarflux_reborn.quest8.title}"
 			x: -4.0d
 			y: -2.0d
 		}
 		{
 			dependencies: ["21C9CACEC28D9380"]
-			description: ["{ftbquests.chapter.solarflux_reborn.quest10F30F8C3F6717E8.description1}"]
+			description: ["{ftbquests.chapter.solarflux_reborn.quest9.description1}"]
 			id: "10F30F8C3F6717E8"
 			rewards: [
 				{
@@ -270,7 +270,7 @@
 		}
 		{
 			dependencies: ["21C9CACEC28D9380"]
-			description: ["{ftbquests.chapter.solarflux_reborn.quest7020099B296A585A.description1}"]
+			description: ["{ftbquests.chapter.solarflux_reborn.quest10.description1}"]
 			id: "7020099B296A585A"
 			rewards: [
 				{
@@ -294,7 +294,7 @@
 		}
 		{
 			dependencies: ["61795A749706FF83"]
-			description: ["{ftbquests.chapter.solarflux_reborn.quest491F1991E43271B8.description1}"]
+			description: ["{ftbquests.chapter.solarflux_reborn.quest11.description1}"]
 			id: "491F1991E43271B8"
 			optional: true
 			rewards: [
@@ -319,7 +319,7 @@
 		}
 		{
 			dependencies: ["61795A749706FF83"]
-			description: ["{ftbquests.chapter.solarflux_reborn.quest7324D496127FC13E.description1}"]
+			description: ["{ftbquests.chapter.solarflux_reborn.quest12.description1}"]
 			id: "7324D496127FC13E"
 			optional: true
 			rewards: [
@@ -347,7 +347,7 @@
 				"61795A749706FF83"
 				"661D7ED8182EDE3E"
 			]
-			description: ["{ftbquests.chapter.solarflux_reborn.quest7EB5F0ABF6875189.description1}"]
+			description: ["{ftbquests.chapter.solarflux_reborn.quest13.description1}"]
 			id: "7EB5F0ABF6875189"
 			optional: true
 			rewards: [
@@ -372,7 +372,7 @@
 		}
 		{
 			dependencies: ["61795A749706FF83"]
-			description: ["{ftbquests.chapter.solarflux_reborn.quest661D7ED8182EDE3E.description1}"]
+			description: ["{ftbquests.chapter.solarflux_reborn.quest14.description1}"]
 			id: "661D7ED8182EDE3E"
 			optional: true
 			rewards: [
@@ -400,7 +400,7 @@
 				"1DBC769D11787A26"
 				"61795A749706FF83"
 			]
-			description: ["{ftbquests.chapter.solarflux_reborn.questD28A9BB313B6447.description1}"]
+			description: ["{ftbquests.chapter.solarflux_reborn.quest15.description1}"]
 			id: "0D28A9BB313B6447"
 			optional: true
 			rewards: [
@@ -425,7 +425,7 @@
 		}
 		{
 			dependencies: ["21C9CACEC28D9380"]
-			description: ["{ftbquests.chapter.solarflux_reborn.quest61795A749706FF83.description1}"]
+			description: ["{ftbquests.chapter.solarflux_reborn.quest16.description1}"]
 			id: "61795A749706FF83"
 			optional: true
 			rewards: [{
@@ -437,7 +437,7 @@
 			size: 1.0d
 			tasks: [{
 				id: "4FA7E55830792183"
-				title: "{ftbquests.chapter.solarflux_reborn.quest61795A749706FF83.task.5739808417040114051.title}"
+				title: "{ftbquests.chapter.solarflux_reborn.quest16.task_5739808417040114051.title}"
 				type: "checkmark"
 			}]
 			x: -6.5d
@@ -449,9 +449,9 @@
 				"2B5C940E1B4AE183"
 			]
 			description: [
-				"{ftbquests.chapter.solarflux_reborn.quest753E298B65E8CEF5.description1}"
+				"{ftbquests.chapter.solarflux_reborn.quest17.description1}"
 				""
-				"{ftbquests.chapter.solarflux_reborn.quest753E298B65E8CEF5.description2}"
+				"{ftbquests.chapter.solarflux_reborn.quest17.description2}"
 			]
 			id: "753E298B65E8CEF5"
 			rewards: [
@@ -480,9 +480,9 @@
 				"7911D72245D86A30"
 			]
 			description: [
-				"{ftbquests.chapter.solarflux_reborn.quest40D3FC3C6709B990.description1}"
+				"{ftbquests.chapter.solarflux_reborn.quest18.description1}"
 				""
-				"{ftbquests.chapter.solarflux_reborn.quest40D3FC3C6709B990.description2}"
+				"{ftbquests.chapter.solarflux_reborn.quest18.description2}"
 			]
 			id: "40D3FC3C6709B990"
 			rewards: [
@@ -507,7 +507,7 @@
 		}
 		{
 			dependencies: ["2B5C940E1B4AE183"]
-			description: ["{ftbquests.chapter.solarflux_reborn.quest7911D72245D86A30.description1}"]
+			description: ["{ftbquests.chapter.solarflux_reborn.quest19.description1}"]
 			id: "7911D72245D86A30"
 			rewards: [
 				{
@@ -536,9 +536,9 @@
 				"40D3FC3C6709B990"
 			]
 			description: [
-				"{ftbquests.chapter.solarflux_reborn.quest336BA1D3A227968D.description1}"
+				"{ftbquests.chapter.solarflux_reborn.quest20.description1}"
 				""
-				"{ftbquests.chapter.solarflux_reborn.quest336BA1D3A227968D.description2}"
+				"{ftbquests.chapter.solarflux_reborn.quest20.description2}"
 			]
 			id: "336BA1D3A227968D"
 			tasks: [{
@@ -555,9 +555,9 @@
 				"40D3FC3C6709B990"
 			]
 			description: [
-				"{ftbquests.chapter.solarflux_reborn.quest48218FC36BBFCBF4.description1}"
+				"{ftbquests.chapter.solarflux_reborn.quest21.description1}"
 				""
-				"{ftbquests.chapter.solarflux_reborn.quest48218FC36BBFCBF4.description2}"
+				"{ftbquests.chapter.solarflux_reborn.quest21.description2}"
 			]
 			id: "48218FC36BBFCBF4"
 			rewards: [
@@ -586,9 +586,9 @@
 				"40D3FC3C6709B990"
 			]
 			description: [
-				"{ftbquests.chapter.solarflux_reborn.quest68386786A6999AFF.description1}"
+				"{ftbquests.chapter.solarflux_reborn.quest22.description1}"
 				""
-				"{ftbquests.chapter.solarflux_reborn.quest68386786A6999AFF.description2}"
+				"{ftbquests.chapter.solarflux_reborn.quest22.description2}"
 			]
 			id: "68386786A6999AFF"
 			rewards: [
@@ -617,9 +617,9 @@
 				"336BA1D3A227968D"
 			]
 			description: [
-				"{ftbquests.chapter.solarflux_reborn.questAE073C20A3BCD20.description1}"
+				"{ftbquests.chapter.solarflux_reborn.quest23.description1}"
 				""
-				"{ftbquests.chapter.solarflux_reborn.questAE073C20A3BCD20.description2}"
+				"{ftbquests.chapter.solarflux_reborn.quest23.description2}"
 			]
 			id: "0AE073C20A3BCD20"
 			rewards: [
@@ -645,9 +645,9 @@
 		{
 			dependencies: ["0AE073C20A3BCD20"]
 			description: [
-				"{ftbquests.chapter.solarflux_reborn.quest2CE635EACAEE41AD.description1}"
+				"{ftbquests.chapter.solarflux_reborn.quest24.description1}"
 				""
-				"{ftbquests.chapter.solarflux_reborn.quest2CE635EACAEE41AD.description2}"
+				"{ftbquests.chapter.solarflux_reborn.quest24.description2}"
 			]
 			id: "2CE635EACAEE41AD"
 			rewards: [
@@ -673,9 +673,9 @@
 		{
 			dependencies: ["2CE635EACAEE41AD"]
 			description: [
-				"{ftbquests.chapter.solarflux_reborn.quest78B02BEC238F2133.description1}"
+				"{ftbquests.chapter.solarflux_reborn.quest25.description1}"
 				""
-				"{ftbquests.chapter.solarflux_reborn.quest78B02BEC238F2133.description2}"
+				"{ftbquests.chapter.solarflux_reborn.quest25.description2}"
 			]
 			id: "78B02BEC238F2133"
 			rewards: [
@@ -701,9 +701,9 @@
 		{
 			dependencies: ["78B02BEC238F2133"]
 			description: [
-				"{ftbquests.chapter.solarflux_reborn.quest5ADE08D373D363A2.description1}"
+				"{ftbquests.chapter.solarflux_reborn.quest26.description1}"
 				""
-				"{ftbquests.chapter.solarflux_reborn.quest5ADE08D373D363A2.description2}"
+				"{ftbquests.chapter.solarflux_reborn.quest26.description2}"
 			]
 			id: "5ADE08D373D363A2"
 			rewards: [
@@ -729,9 +729,9 @@
 		{
 			dependencies: ["5ADE08D373D363A2"]
 			description: [
-				"{ftbquests.chapter.solarflux_reborn.quest1EB860042A15FEF8.description1}"
+				"{ftbquests.chapter.solarflux_reborn.quest27.description1}"
 				""
-				"{ftbquests.chapter.solarflux_reborn.quest1EB860042A15FEF8.description2}"
+				"{ftbquests.chapter.solarflux_reborn.quest27.description2}"
 			]
 			id: "1EB860042A15FEF8"
 			rewards: [
@@ -757,13 +757,13 @@
 		{
 			dependencies: ["1EB860042A15FEF8"]
 			description: [
-				"{ftbquests.chapter.solarflux_reborn.quest9221120B99432D.description1}"
+				"{ftbquests.chapter.solarflux_reborn.quest28.description1}"
 				""
-				"{ftbquests.chapter.solarflux_reborn.quest9221120B99432D.description2}"
+				"{ftbquests.chapter.solarflux_reborn.quest28.description2}"
 				""
-				"{ftbquests.chapter.solarflux_reborn.quest9221120B99432D.description3}"
+				"{ftbquests.chapter.solarflux_reborn.quest28.description3}"
 				""
-				"{ftbquests.chapter.solarflux_reborn.quest9221120B99432D.description4}"
+				"{ftbquests.chapter.solarflux_reborn.quest28.description4}"
 			]
 			icon_scale: 1.25d
 			id: "009221120B99432D"
@@ -806,7 +806,7 @@
 		}
 		{
 			dependencies: ["7911D72245D86A30"]
-			description: ["{ftbquests.chapter.solarflux_reborn.quest72C054D9C3B98723.description1}"]
+			description: ["{ftbquests.chapter.solarflux_reborn.quest29.description1}"]
 			id: "72C054D9C3B98723"
 			rewards: [
 				{
@@ -834,7 +834,7 @@
 				"72C054D9C3B98723"
 				"1DBC769D11787A26"
 			]
-			description: ["{ftbquests.chapter.solarflux_reborn.quest260B105CA106384C.description1}"]
+			description: ["{ftbquests.chapter.solarflux_reborn.quest30.description1}"]
 			id: "260B105CA106384C"
 			rewards: [
 				{
@@ -862,7 +862,7 @@
 				"317E3C250230188F"
 				"260B105CA106384C"
 			]
-			description: ["{ftbquests.chapter.solarflux_reborn.quest7AE2C6A1E9B346E8.description1}"]
+			description: ["{ftbquests.chapter.solarflux_reborn.quest31.description1}"]
 			id: "7AE2C6A1E9B346E8"
 			rewards: [
 				{
@@ -890,7 +890,7 @@
 				"054E573D5261E706"
 				"7AE2C6A1E9B346E8"
 			]
-			description: ["{ftbquests.chapter.solarflux_reborn.quest504987403C94C5DA.description1}"]
+			description: ["{ftbquests.chapter.solarflux_reborn.quest32.description1}"]
 			id: "504987403C94C5DA"
 			rewards: [
 				{
@@ -915,7 +915,7 @@
 		}
 		{
 			dependencies: ["07695BF95821104C"]
-			description: ["{ftbquests.chapter.solarflux_reborn.quest1DBC769D11787A26.description1}"]
+			description: ["{ftbquests.chapter.solarflux_reborn.quest33.description1}"]
 			hide_dependency_lines: true
 			id: "1DBC769D11787A26"
 			rewards: [
@@ -941,7 +941,7 @@
 		}
 		{
 			dependencies: ["07695BF95821104C"]
-			description: ["{ftbquests.chapter.solarflux_reborn.quest317E3C250230188F.description1}"]
+			description: ["{ftbquests.chapter.solarflux_reborn.quest34.description1}"]
 			hide_dependency_lines: true
 			id: "317E3C250230188F"
 			rewards: [
@@ -967,7 +967,7 @@
 		}
 		{
 			dependencies: ["317E3C250230188F"]
-			description: ["{ftbquests.chapter.solarflux_reborn.quest54E573D5261E706.description1}"]
+			description: ["{ftbquests.chapter.solarflux_reborn.quest35.description1}"]
 			id: "054E573D5261E706"
 			rewards: [
 				{
@@ -999,10 +999,10 @@
 				type: "item"
 			}]
 			secret: true
-			subtitle: "{ftbquests.chapter.solarflux_reborn.quest18B283D14819EFDD.subtitle}"
+			subtitle: "{ftbquests.chapter.solarflux_reborn.quest36.subtitle}"
 			tasks: [{
 				id: "14CD13C58DA87444"
-				title: "{ftbquests.chapter.solarflux_reborn.quest18B283D14819EFDD.task.1498875990190355524.title}"
+				title: "{ftbquests.chapter.solarflux_reborn.quest36.task_1498875990190355524.title}"
 				type: "checkmark"
 			}]
 			x: -2.0d

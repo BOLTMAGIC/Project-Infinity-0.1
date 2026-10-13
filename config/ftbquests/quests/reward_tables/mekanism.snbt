@@ -1,7 +1,7 @@
 {
 	id: "63E11953DD289422"
 	loot_size: 1
-	order_index: 4
+	order_index: 2
 	rewards: [
 		{ count: 2, item: "mekanism:alloy_infused", random_bonus: 2, weight: 4.0f }
 		{ count: 2, item: "mekanism:basic_control_circuit", random_bonus: 2, weight: 4.0f }
@@ -9,6 +9,6 @@
 		{ item: "mekanism:advanced_control_circuit", random_bonus: 1, weight: 2.0f }
 		{ count: 4, item: "mekanism:ingot_osmium", random_bonus: 2, weight: 4.0f }
 	]
-	title: "{ftbquests.loot_table.7197061527498167330.title}"
+	title: "{ftbquests.loot_table_7197061527498167330.title}"
 	use_title: true
 }

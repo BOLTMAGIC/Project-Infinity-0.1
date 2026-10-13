@@ -2,7 +2,7 @@
 	icon: "mysticalagriculture:inferium_essence"
 	id: "49E8BD91A6A936C5"
 	loot_size: 1
-	order_index: 21
+	order_index: 18
 	rewards: [
 		{ count: 8, item: "mysticalagriculture:inferium_essence", random_bonus: 8, weight: 250.0f }
 		{ count: 2, item: "mysticalagriculture:prudentium_essence", random_bonus: 2, weight: 150.0f }
@@ -76,6 +76,6 @@
 			weight: 5.0f
 		}
 	]
-	title: "{ftbquests.loot_table.5325714992629626565.title}"
+	title: "{ftbquests.loot_table_5325714992629626565.title}"
 	use_title: true
 }

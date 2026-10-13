@@ -2,7 +2,7 @@
 	icon: "mysticalagriculture:imperium_gemstone"
 	id: "61F8686E9D8EFEB7"
 	loot_size: 1
-	order_index: 17
+	order_index: 14
 	rewards: [
 		{ item: "mysticalagriculture:imperium_farmland", weight: 7.0f }
 		{ item: "mysticalagriculture:gold_seeds", weight: 2.0f }
@@ -31,6 +31,6 @@
 		{ item: "mysticalagriculture:imperium_ingot", random_bonus: 1, weight: 5.0f }
 		{ item: "mysticalagriculture:imperium_gemstone", weight: 5.0f }
 	]
-	title: "{ftbquests.loot_table.7059507240202337975.title}"
+	title: "{ftbquests.loot_table_7059507240202337975.title}"
 	use_title: true
 }

@@ -29,18 +29,18 @@
 	quests: [
 		{
 			description: [
-				"{ftbquests.chapter.applied_energistics_2.quest8B3905C53BC441D.description1}"
+				"{ftbquests.chapter.applied_energistics_2.quest1.description1}"
 				""
-				"{ftbquests.chapter.applied_energistics_2.quest8B3905C53BC441D.description2}"
+				"{ftbquests.chapter.applied_energistics_2.quest1.description2}"
 				""
-				"{ftbquests.chapter.applied_energistics_2.quest8B3905C53BC441D.description3}"
+				"{ftbquests.chapter.applied_energistics_2.quest1.description3}"
 				""
-				"{ftbquests.chapter.applied_energistics_2.quest8B3905C53BC441D.description4}"
+				"{ftbquests.chapter.applied_energistics_2.quest1.description4}"
 				""
-				"{ftbquests.chapter.applied_energistics_2.quest8B3905C53BC441D.description5}"
+				"{ftbquests.chapter.applied_energistics_2.quest1.description5}"
 				""
-				"{ftbquests.chapter.applied_energistics_2.quest8B3905C53BC441D.description6}"
-				"{ftbquests.chapter.applied_energistics_2.quest8B3905C53BC441D.description7}"
+				"{ftbquests.chapter.applied_energistics_2.quest1.description6}"
+				"{ftbquests.chapter.applied_energistics_2.quest1.description7}"
 			]
 			icon: "ae2:meteorite_compass"
 			id: "08B3905C53BC441D"
@@ -65,7 +65,7 @@
 			]
 			shape: "octagon"
 			size: 1.5d
-			subtitle: "{ftbquests.chapter.applied_energistics_2.quest8B3905C53BC441D.subtitle}"
+			subtitle: "{ftbquests.chapter.applied_energistics_2.quest1.subtitle}"
 			tasks: [
 				{
 					id: "3B0555C8A22037E9"
@@ -78,14 +78,14 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.applied_energistics_2.quest8B3905C53BC441D.title}"
+			title: "{ftbquests.chapter.applied_energistics_2.quest1.title}"
 			x: 0.0d
 			y: 0.0d
 		}
 		{
 			can_repeat: true
 			dependencies: ["7F3123DDC2948BC4"]
-			description: ["{ftbquests.chapter.applied_energistics_2.quest2C2FBE8DA1366686.description1}"]
+			description: ["{ftbquests.chapter.applied_energistics_2.quest2.description1}"]
 			id: "2C2FBE8DA1366686"
 			ignore_reward_blocking: true
 			optional: true
@@ -93,22 +93,22 @@
 				auto: "enabled"
 				command: "execute as @p run ae2 channelmode infinite"
 				id: "7B206E0B7AB06AB8"
-				title: "{ftbquests.chapter.applied_energistics_2.quest2C2FBE8DA1366686.reward.8872212261501954744.title}"
+				title: "{ftbquests.chapter.applied_energistics_2.quest2.reward_8872212261501954744.title}"
 				type: "command"
 			}]
 			tasks: [{
 				id: "60A5BD43C83622B4"
-				title: "{ftbquests.chapter.applied_energistics_2.quest2C2FBE8DA1366686.task.6964180497617789620.title}"
+				title: "{ftbquests.chapter.applied_energistics_2.quest2.task_6964180497617789620.title}"
 				type: "checkmark"
 			}]
-			title: "{ftbquests.chapter.applied_energistics_2.quest2C2FBE8DA1366686.title}"
+			title: "{ftbquests.chapter.applied_energistics_2.quest2.title}"
 			x: -2.0d
 			y: -2.5d
 		}
 		{
 			can_repeat: true
 			dependencies: ["7F3123DDC2948BC4"]
-			description: ["{ftbquests.chapter.applied_energistics_2.quest4E2BF4E1F1EDC591.description1}"]
+			description: ["{ftbquests.chapter.applied_energistics_2.quest3.description1}"]
 			id: "4E2BF4E1F1EDC591"
 			ignore_reward_blocking: true
 			optional: true
@@ -116,22 +116,22 @@
 				auto: "enabled"
 				command: "execute as @p run ae2 channelmode default"
 				id: "3B740F65F7E40FC0"
-				title: "{ftbquests.chapter.applied_energistics_2.quest4E2BF4E1F1EDC591.reward.4284066076161216448.title}"
+				title: "{ftbquests.chapter.applied_energistics_2.quest3.reward_4284066076161216448.title}"
 				type: "command"
 			}]
 			tasks: [{
 				id: "0426D663CE2F256E"
-				title: "{ftbquests.chapter.applied_energistics_2.quest4E2BF4E1F1EDC591.task.299162149416019310.title}"
+				title: "{ftbquests.chapter.applied_energistics_2.quest3.task_299162149416019310.title}"
 				type: "checkmark"
 			}]
-			title: "{ftbquests.chapter.applied_energistics_2.quest4E2BF4E1F1EDC591.title}"
+			title: "{ftbquests.chapter.applied_energistics_2.quest3.title}"
 			x: -1.0d
 			y: -2.5d
 		}
 		{
 			can_repeat: true
 			dependencies: ["7F3123DDC2948BC4"]
-			description: ["{ftbquests.chapter.applied_energistics_2.quest551BE8A0CBF45086.description1}"]
+			description: ["{ftbquests.chapter.applied_energistics_2.quest4.description1}"]
 			id: "551BE8A0CBF45086"
 			ignore_reward_blocking: true
 			optional: true
@@ -139,22 +139,22 @@
 				auto: "enabled"
 				command: "execute as @p run ae2 channelmode x2"
 				id: "040706800B04F2EA"
-				title: "{ftbquests.chapter.applied_energistics_2.quest551BE8A0CBF45086.reward.290207847999140586.title}"
+				title: "{ftbquests.chapter.applied_energistics_2.quest4.reward_290207847999140586.title}"
 				type: "command"
 			}]
 			tasks: [{
 				id: "06C9F3F0AD5C9246"
-				title: "{ftbquests.chapter.applied_energistics_2.quest551BE8A0CBF45086.task.489190249572635206.title}"
+				title: "{ftbquests.chapter.applied_energistics_2.quest4.task_489190249572635206.title}"
 				type: "checkmark"
 			}]
-			title: "{ftbquests.chapter.applied_energistics_2.quest551BE8A0CBF45086.title}"
+			title: "{ftbquests.chapter.applied_energistics_2.quest4.title}"
 			x: 0.0d
 			y: -2.5d
 		}
 		{
 			can_repeat: true
 			dependencies: ["7F3123DDC2948BC4"]
-			description: ["{ftbquests.chapter.applied_energistics_2.quest45745822D14AEC1C.description1}"]
+			description: ["{ftbquests.chapter.applied_energistics_2.quest5.description1}"]
 			id: "45745822D14AEC1C"
 			ignore_reward_blocking: true
 			optional: true
@@ -162,22 +162,22 @@
 				auto: "enabled"
 				command: "execute as @p run ae2 channelmode x3"
 				id: "6D57D9ADADB6DF5A"
-				title: "{ftbquests.chapter.applied_energistics_2.quest45745822D14AEC1C.reward.7879005413074984794.title}"
+				title: "{ftbquests.chapter.applied_energistics_2.quest5.reward_7879005413074984794.title}"
 				type: "command"
 			}]
 			tasks: [{
 				id: "0B33EF9455303F0D"
-				title: "{ftbquests.chapter.applied_energistics_2.quest45745822D14AEC1C.task.807252178592874253.title}"
+				title: "{ftbquests.chapter.applied_energistics_2.quest5.task_807252178592874253.title}"
 				type: "checkmark"
 			}]
-			title: "{ftbquests.chapter.applied_energistics_2.quest45745822D14AEC1C.title}"
+			title: "{ftbquests.chapter.applied_energistics_2.quest5.title}"
 			x: 1.0d
 			y: -2.5d
 		}
 		{
 			can_repeat: true
 			dependencies: ["7F3123DDC2948BC4"]
-			description: ["{ftbquests.chapter.applied_energistics_2.quest1B7EA9EF978033D8.description1}"]
+			description: ["{ftbquests.chapter.applied_energistics_2.quest6.description1}"]
 			id: "1B7EA9EF978033D8"
 			ignore_reward_blocking: true
 			optional: true
@@ -185,24 +185,24 @@
 				auto: "enabled"
 				command: "execute as @p run ae2 channelmode x4"
 				id: "67DFCBAF34C8AFCF"
-				title: "{ftbquests.chapter.applied_energistics_2.quest1B7EA9EF978033D8.reward.7484925059078336463.title}"
+				title: "{ftbquests.chapter.applied_energistics_2.quest6.reward_7484925059078336463.title}"
 				type: "command"
 			}]
 			tasks: [{
 				id: "67359A9B5559E26E"
-				title: "{ftbquests.chapter.applied_energistics_2.quest1B7EA9EF978033D8.task.7437020351614804590.title}"
+				title: "{ftbquests.chapter.applied_energistics_2.quest6.task_7437020351614804590.title}"
 				type: "checkmark"
 			}]
-			title: "{ftbquests.chapter.applied_energistics_2.quest1B7EA9EF978033D8.title}"
+			title: "{ftbquests.chapter.applied_energistics_2.quest6.title}"
 			x: 2.0d
 			y: -2.5d
 		}
 		{
 			dependencies: ["08B3905C53BC441D"]
 			description: [
-				"{ftbquests.chapter.applied_energistics_2.quest594FF6D489C9989A.description1}"
+				"{ftbquests.chapter.applied_energistics_2.quest7.description1}"
 				""
-				"{ftbquests.chapter.applied_energistics_2.quest594FF6D489C9989A.description2}"
+				"{ftbquests.chapter.applied_energistics_2.quest7.description2}"
 			]
 			id: "594FF6D489C9989A"
 			rewards: [
@@ -240,18 +240,18 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.applied_energistics_2.quest594FF6D489C9989A.title}"
+			title: "{ftbquests.chapter.applied_energistics_2.quest7.title}"
 			x: 0.0d
 			y: 2.5d
 		}
 		{
 			dependencies: ["08B3905C53BC441D"]
 			description: [
-				"{ftbquests.chapter.applied_energistics_2.quest60C3D122117080C3.description1}"
+				"{ftbquests.chapter.applied_energistics_2.quest8.description1}"
 				""
-				"{ftbquests.chapter.applied_energistics_2.quest60C3D122117080C3.description2}"
+				"{ftbquests.chapter.applied_energistics_2.quest8.description2}"
 				""
-				"{ftbquests.chapter.applied_energistics_2.quest60C3D122117080C3.description3}"
+				"{ftbquests.chapter.applied_energistics_2.quest8.description3}"
 			]
 			id: "60C3D122117080C3"
 			rewards: [
@@ -277,13 +277,13 @@
 		{
 			dependencies: ["60C3D122117080C3"]
 			description: [
-				"{ftbquests.chapter.applied_energistics_2.quest69FA3A1232E77B94.description1}"
+				"{ftbquests.chapter.applied_energistics_2.quest9.description1}"
 				""
-				"{ftbquests.chapter.applied_energistics_2.quest69FA3A1232E77B94.description2}"
+				"{ftbquests.chapter.applied_energistics_2.quest9.description2}"
 				""
-				"{ftbquests.chapter.applied_energistics_2.quest69FA3A1232E77B94.description3}"
+				"{ftbquests.chapter.applied_energistics_2.quest9.description3}"
 				""
-				"{ftbquests.chapter.applied_energistics_2.quest69FA3A1232E77B94.description4}"
+				"{ftbquests.chapter.applied_energistics_2.quest9.description4}"
 			]
 			id: "69FA3A1232E77B94"
 			rewards: [{
@@ -303,11 +303,11 @@
 		{
 			dependencies: ["69FA3A1232E77B94"]
 			description: [
-				"{ftbquests.chapter.applied_energistics_2.quest1E4D58B118DD78F9.description1}"
+				"{ftbquests.chapter.applied_energistics_2.quest10.description1}"
 				""
-				"{ftbquests.chapter.applied_energistics_2.quest1E4D58B118DD78F9.description2}"
+				"{ftbquests.chapter.applied_energistics_2.quest10.description2}"
 				""
-				"{ftbquests.chapter.applied_energistics_2.quest1E4D58B118DD78F9.description3}"
+				"{ftbquests.chapter.applied_energistics_2.quest10.description3}"
 			]
 			id: "1E4D58B118DD78F9"
 			rewards: [
@@ -333,13 +333,13 @@
 		{
 			dependencies: ["1E4D58B118DD78F9"]
 			description: [
-				"{ftbquests.chapter.applied_energistics_2.quest7AD0FDBAA82ED3A4.description1}"
+				"{ftbquests.chapter.applied_energistics_2.quest11.description1}"
 				""
-				"{ftbquests.chapter.applied_energistics_2.quest7AD0FDBAA82ED3A4.description2}"
+				"{ftbquests.chapter.applied_energistics_2.quest11.description2}"
 				""
-				"{ftbquests.chapter.applied_energistics_2.quest7AD0FDBAA82ED3A4.description3}"
+				"{ftbquests.chapter.applied_energistics_2.quest11.description3}"
 				""
-				"{ftbquests.chapter.applied_energistics_2.quest7AD0FDBAA82ED3A4.description4}"
+				"{ftbquests.chapter.applied_energistics_2.quest11.description4}"
 			]
 			id: "7AD0FDBAA82ED3A4"
 			rewards: [
@@ -365,9 +365,9 @@
 		{
 			dependencies: ["1E4D58B118DD78F9"]
 			description: [
-				"{ftbquests.chapter.applied_energistics_2.quest20DD29DD5FD691A9.description1}"
+				"{ftbquests.chapter.applied_energistics_2.quest12.description1}"
 				""
-				"{ftbquests.chapter.applied_energistics_2.quest20DD29DD5FD691A9.description2}"
+				"{ftbquests.chapter.applied_energistics_2.quest12.description2}"
 			]
 			id: "20DD29DD5FD691A9"
 			optional: true
@@ -394,9 +394,9 @@
 		{
 			dependencies: ["7AD0FDBAA82ED3A4"]
 			description: [
-				"{ftbquests.chapter.applied_energistics_2.quest6774A29BFBB3913B.description1}"
+				"{ftbquests.chapter.applied_energistics_2.quest13.description1}"
 				""
-				"{ftbquests.chapter.applied_energistics_2.quest6774A29BFBB3913B.description2}"
+				"{ftbquests.chapter.applied_energistics_2.quest13.description2}"
 			]
 			id: "6774A29BFBB3913B"
 			optional: true
@@ -423,17 +423,17 @@
 		{
 			dependencies: ["69FA3A1232E77B94"]
 			description: [
-				"{ftbquests.chapter.applied_energistics_2.quest5DA2DAE6450BB3F5.description1}"
+				"{ftbquests.chapter.applied_energistics_2.quest14.description1}"
 				""
-				"{ftbquests.chapter.applied_energistics_2.quest5DA2DAE6450BB3F5.description2}"
+				"{ftbquests.chapter.applied_energistics_2.quest14.description2}"
 				""
-				"{ftbquests.chapter.applied_energistics_2.quest5DA2DAE6450BB3F5.description3}"
+				"{ftbquests.chapter.applied_energistics_2.quest14.description3}"
 				""
-				"{ftbquests.chapter.applied_energistics_2.quest5DA2DAE6450BB3F5.description4}"
+				"{ftbquests.chapter.applied_energistics_2.quest14.description4}"
 				""
-				"{ftbquests.chapter.applied_energistics_2.quest5DA2DAE6450BB3F5.description5}"
+				"{ftbquests.chapter.applied_energistics_2.quest14.description5}"
 				""
-				"{ftbquests.chapter.applied_energistics_2.quest5DA2DAE6450BB3F5.description6}"
+				"{ftbquests.chapter.applied_energistics_2.quest14.description6}"
 			]
 			id: "5DA2DAE6450BB3F5"
 			optional: true
@@ -444,19 +444,19 @@
 			}]
 			tasks: [{
 				id: "72C4BAB5265D196B"
-				title: "{ftbquests.chapter.applied_energistics_2.quest5DA2DAE6450BB3F5.task.8269940102954555755.title}"
+				title: "{ftbquests.chapter.applied_energistics_2.quest14.task_8269940102954555755.title}"
 				type: "checkmark"
 			}]
-			title: "{ftbquests.chapter.applied_energistics_2.quest5DA2DAE6450BB3F5.title}"
+			title: "{ftbquests.chapter.applied_energistics_2.quest14.title}"
 			x: -4.5d
 			y: -2.0d
 		}
 		{
 			dependencies: ["594FF6D489C9989A"]
 			description: [
-				"{ftbquests.chapter.applied_energistics_2.quest1001685A187EFB1C.description1}"
+				"{ftbquests.chapter.applied_energistics_2.quest15.description1}"
 				""
-				"{ftbquests.chapter.applied_energistics_2.quest1001685A187EFB1C.description2}"
+				"{ftbquests.chapter.applied_energistics_2.quest15.description2}"
 			]
 			id: "1001685A187EFB1C"
 			rewards: [
@@ -493,18 +493,18 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.applied_energistics_2.quest1001685A187EFB1C.title}"
+			title: "{ftbquests.chapter.applied_energistics_2.quest15.title}"
 			x: 0.0d
 			y: 5.0d
 		}
 		{
 			dependencies: ["1001685A187EFB1C"]
 			description: [
-				"{ftbquests.chapter.applied_energistics_2.quest115A169A32BA81FF.description1}"
+				"{ftbquests.chapter.applied_energistics_2.quest16.description1}"
 				""
-				"{ftbquests.chapter.applied_energistics_2.quest115A169A32BA81FF.description2}"
+				"{ftbquests.chapter.applied_energistics_2.quest16.description2}"
 				""
-				"{ftbquests.chapter.applied_energistics_2.quest115A169A32BA81FF.description3}"
+				"{ftbquests.chapter.applied_energistics_2.quest16.description3}"
 			]
 			id: "115A169A32BA81FF"
 			rewards: [{
@@ -517,22 +517,22 @@
 				item: "ae2:energy_acceptor"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.applied_energistics_2.quest115A169A32BA81FF.title}"
+			title: "{ftbquests.chapter.applied_energistics_2.quest16.title}"
 			x: -2.0d
 			y: 5.0d
 		}
 		{
 			dependencies: ["1001685A187EFB1C"]
 			description: [
-				"{ftbquests.chapter.applied_energistics_2.quest674057FBFADF5EBB.description1}"
+				"{ftbquests.chapter.applied_energistics_2.quest17.description1}"
 				""
-				"{ftbquests.chapter.applied_energistics_2.quest674057FBFADF5EBB.description2}"
+				"{ftbquests.chapter.applied_energistics_2.quest17.description2}"
 				""
-				"{ftbquests.chapter.applied_energistics_2.quest674057FBFADF5EBB.description3}"
+				"{ftbquests.chapter.applied_energistics_2.quest17.description3}"
 				""
-				"{ftbquests.chapter.applied_energistics_2.quest674057FBFADF5EBB.description4}"
+				"{ftbquests.chapter.applied_energistics_2.quest17.description4}"
 				""
-				"{ftbquests.chapter.applied_energistics_2.quest674057FBFADF5EBB.description5}"
+				"{ftbquests.chapter.applied_energistics_2.quest17.description5}"
 			]
 			id: "674057FBFADF5EBB"
 			rewards: [{
@@ -551,11 +551,11 @@
 		{
 			dependencies: ["1001685A187EFB1C"]
 			description: [
-				"{ftbquests.chapter.applied_energistics_2.questFFC3FED6F875232.description1}"
+				"{ftbquests.chapter.applied_energistics_2.quest18.description1}"
 				""
-				"{ftbquests.chapter.applied_energistics_2.questFFC3FED6F875232.description2}"
+				"{ftbquests.chapter.applied_energistics_2.quest18.description2}"
 				""
-				"{ftbquests.chapter.applied_energistics_2.questFFC3FED6F875232.description3}"
+				"{ftbquests.chapter.applied_energistics_2.quest18.description3}"
 			]
 			id: "0FFC3FED6F875232"
 			rewards: [
@@ -576,20 +576,20 @@
 				item: "ae2:terminal"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.applied_energistics_2.questFFC3FED6F875232.title}"
+			title: "{ftbquests.chapter.applied_energistics_2.quest18.title}"
 			x: 0.0d
 			y: 8.0d
 		}
 		{
 			dependencies: ["0FFC3FED6F875232"]
 			description: [
-				"{ftbquests.chapter.applied_energistics_2.quest5476A0F1E8DAF72B.description1}"
+				"{ftbquests.chapter.applied_energistics_2.quest19.description1}"
 				""
-				"{ftbquests.chapter.applied_energistics_2.quest5476A0F1E8DAF72B.description2}"
+				"{ftbquests.chapter.applied_energistics_2.quest19.description2}"
 				""
-				"{ftbquests.chapter.applied_energistics_2.quest5476A0F1E8DAF72B.description3}"
+				"{ftbquests.chapter.applied_energistics_2.quest19.description3}"
 				""
-				"{ftbquests.chapter.applied_energistics_2.quest5476A0F1E8DAF72B.description4}"
+				"{ftbquests.chapter.applied_energistics_2.quest19.description4}"
 			]
 			id: "5476A0F1E8DAF72B"
 			optional: true
@@ -615,22 +615,22 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.applied_energistics_2.quest5476A0F1E8DAF72B.title}"
+			title: "{ftbquests.chapter.applied_energistics_2.quest19.title}"
 			x: 1.5d
 			y: 8.0d
 		}
 		{
 			dependencies: ["69FA3A1232E77B94"]
 			description: [
-				"{ftbquests.chapter.applied_energistics_2.quest1FB072E8996E8ACF.description1}"
+				"{ftbquests.chapter.applied_energistics_2.quest20.description1}"
 				""
-				"{ftbquests.chapter.applied_energistics_2.quest1FB072E8996E8ACF.description2}"
+				"{ftbquests.chapter.applied_energistics_2.quest20.description2}"
 				""
-				"{ftbquests.chapter.applied_energistics_2.quest1FB072E8996E8ACF.description3}"
+				"{ftbquests.chapter.applied_energistics_2.quest20.description3}"
 				""
-				"{ftbquests.chapter.applied_energistics_2.quest1FB072E8996E8ACF.description4}"
+				"{ftbquests.chapter.applied_energistics_2.quest20.description4}"
 				""
-				"{ftbquests.chapter.applied_energistics_2.quest1FB072E8996E8ACF.description5}"
+				"{ftbquests.chapter.applied_energistics_2.quest20.description5}"
 			]
 			id: "1FB072E8996E8ACF"
 			optional: true
@@ -663,29 +663,29 @@
 						]
 					}
 				}
-				title: "{ftbquests.chapter.applied_energistics_2.quest1FB072E8996E8ACF.task.2809305620645875375.title}"
+				title: "{ftbquests.chapter.applied_energistics_2.quest20.task_2809305620645875375.title}"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.applied_energistics_2.quest1FB072E8996E8ACF.title}"
+			title: "{ftbquests.chapter.applied_energistics_2.quest20.title}"
 			x: -6.0d
 			y: -1.5d
 		}
 		{
 			dependencies: ["0FFC3FED6F875232"]
 			description: [
-				"{ftbquests.chapter.applied_energistics_2.quest47A2266666468E4D.description1}"
+				"{ftbquests.chapter.applied_energistics_2.quest21.description1}"
 				""
-				"{ftbquests.chapter.applied_energistics_2.quest47A2266666468E4D.description2}"
+				"{ftbquests.chapter.applied_energistics_2.quest21.description2}"
 				""
-				"{ftbquests.chapter.applied_energistics_2.quest47A2266666468E4D.description3}"
+				"{ftbquests.chapter.applied_energistics_2.quest21.description3}"
 				""
-				"{ftbquests.chapter.applied_energistics_2.quest47A2266666468E4D.description4}"
+				"{ftbquests.chapter.applied_energistics_2.quest21.description4}"
 				""
-				"{ftbquests.chapter.applied_energistics_2.quest47A2266666468E4D.description5}"
+				"{ftbquests.chapter.applied_energistics_2.quest21.description5}"
 				""
-				"{ftbquests.chapter.applied_energistics_2.quest47A2266666468E4D.description6}"
+				"{ftbquests.chapter.applied_energistics_2.quest21.description6}"
 				""
-				"{ftbquests.chapter.applied_energistics_2.quest47A2266666468E4D.description7}"
+				"{ftbquests.chapter.applied_energistics_2.quest21.description7}"
 			]
 			id: "47A2266666468E4D"
 			rewards: [{
@@ -704,9 +704,9 @@
 		{
 			dependencies: ["0FFC3FED6F875232"]
 			description: [
-				"{ftbquests.chapter.applied_energistics_2.quest44972673B4196F1F.description1}"
+				"{ftbquests.chapter.applied_energistics_2.quest22.description1}"
 				""
-				"{ftbquests.chapter.applied_energistics_2.quest44972673B4196F1F.description2}"
+				"{ftbquests.chapter.applied_energistics_2.quest22.description2}"
 			]
 			id: "44972673B4196F1F"
 			rewards: [{
@@ -719,20 +719,20 @@
 				item: "ae2:drive"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.applied_energistics_2.quest44972673B4196F1F.title}"
+			title: "{ftbquests.chapter.applied_energistics_2.quest22.title}"
 			x: 0.0d
 			y: 10.0d
 		}
 		{
 			dependencies: ["44972673B4196F1F"]
-			description: ["{ftbquests.chapter.applied_energistics_2.quest1A872FFE286F2CB9.description1}"]
+			description: ["{ftbquests.chapter.applied_energistics_2.quest23.description1}"]
 			id: "1A872FFE286F2CB9"
 			tasks: [{
 				id: "6046EB09B9561E47"
 				item: "ae2:io_port"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.applied_energistics_2.quest1A872FFE286F2CB9.title}"
+			title: "{ftbquests.chapter.applied_energistics_2.quest23.title}"
 			x: 1.5d
 			y: 10.0d
 		}
@@ -743,11 +743,11 @@
 			]
 			dependency_requirement: "one_completed"
 			description: [
-				"{ftbquests.chapter.applied_energistics_2.quest63E9204E0C9BB3D3.description1}"
+				"{ftbquests.chapter.applied_energistics_2.quest24.description1}"
 				""
-				"{ftbquests.chapter.applied_energistics_2.quest63E9204E0C9BB3D3.description2}"
+				"{ftbquests.chapter.applied_energistics_2.quest24.description2}"
 				""
-				"{ftbquests.chapter.applied_energistics_2.quest63E9204E0C9BB3D3.description3}"
+				"{ftbquests.chapter.applied_energistics_2.quest24.description3}"
 			]
 			id: "63E9204E0C9BB3D3"
 			rewards: [{
@@ -760,13 +760,13 @@
 				item: "ae2:cell_workbench"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.applied_energistics_2.quest63E9204E0C9BB3D3.title}"
+			title: "{ftbquests.chapter.applied_energistics_2.quest24.title}"
 			x: 0.0d
 			y: 16.5d
 		}
 		{
 			dependencies: ["63E9204E0C9BB3D3"]
-			description: ["{ftbquests.chapter.applied_energistics_2.quest4BAB0FBAD1ABD253.description1}"]
+			description: ["{ftbquests.chapter.applied_energistics_2.quest25.description1}"]
 			id: "4BAB0FBAD1ABD253"
 			rewards: [{
 				id: "192E574CB7546BAD"
@@ -783,7 +783,7 @@
 		}
 		{
 			dependencies: ["63E9204E0C9BB3D3"]
-			description: ["{ftbquests.chapter.applied_energistics_2.quest65033CE853E48C5E.description1}"]
+			description: ["{ftbquests.chapter.applied_energistics_2.quest26.description1}"]
 			id: "65033CE853E48C5E"
 			rewards: [{
 				id: "4983849273326237"
@@ -801,13 +801,13 @@
 		{
 			dependencies: ["0FFC3FED6F875232"]
 			description: [
-				"{ftbquests.chapter.applied_energistics_2.quest1FADBF003F478AAD.description1}"
+				"{ftbquests.chapter.applied_energistics_2.quest27.description1}"
 				""
-				"{ftbquests.chapter.applied_energistics_2.quest1FADBF003F478AAD.description2}"
+				"{ftbquests.chapter.applied_energistics_2.quest27.description2}"
 				""
-				"{ftbquests.chapter.applied_energistics_2.quest1FADBF003F478AAD.description3}"
+				"{ftbquests.chapter.applied_energistics_2.quest27.description3}"
 				""
-				"{ftbquests.chapter.applied_energistics_2.quest1FADBF003F478AAD.description4}"
+				"{ftbquests.chapter.applied_energistics_2.quest27.description4}"
 			]
 			id: "1FADBF003F478AAD"
 			rewards: [{
@@ -838,9 +838,9 @@
 		{
 			dependencies: ["54E85849C2272076"]
 			description: [
-				"{ftbquests.chapter.applied_energistics_2.quest7FEDAD2FD9DB6EB4.description1}"
+				"{ftbquests.chapter.applied_energistics_2.quest28.description1}"
 				""
-				"{ftbquests.chapter.applied_energistics_2.quest7FEDAD2FD9DB6EB4.description2}"
+				"{ftbquests.chapter.applied_energistics_2.quest28.description2}"
 			]
 			id: "7FEDAD2FD9DB6EB4"
 			rewards: [{
@@ -859,9 +859,9 @@
 		{
 			dependencies: ["1FADBF003F478AAD"]
 			description: [
-				"{ftbquests.chapter.applied_energistics_2.quest54E85849C2272076.description1}"
+				"{ftbquests.chapter.applied_energistics_2.quest29.description1}"
 				""
-				"{ftbquests.chapter.applied_energistics_2.quest54E85849C2272076.description2}"
+				"{ftbquests.chapter.applied_energistics_2.quest29.description2}"
 			]
 			id: "54E85849C2272076"
 			rewards: [{
@@ -880,9 +880,9 @@
 		{
 			dependencies: ["69FA3A1232E77B94"]
 			description: [
-				"{ftbquests.chapter.applied_energistics_2.quest5B7B701F3E6A435E.description1}"
+				"{ftbquests.chapter.applied_energistics_2.quest30.description1}"
 				""
-				"{ftbquests.chapter.applied_energistics_2.quest5B7B701F3E6A435E.description2}"
+				"{ftbquests.chapter.applied_energistics_2.quest30.description2}"
 			]
 			id: "5B7B701F3E6A435E"
 			rewards: [{
@@ -908,25 +908,25 @@
 						]
 					}
 				}
-				title: "{ftbquests.chapter.applied_energistics_2.quest5B7B701F3E6A435E.task.3457549355950265173.title}"
+				title: "{ftbquests.chapter.applied_energistics_2.quest30.task_3457549355950265173.title}"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.applied_energistics_2.quest5B7B701F3E6A435E.title}"
+			title: "{ftbquests.chapter.applied_energistics_2.quest30.title}"
 			x: -6.5d
 			y: 0.0d
 		}
 		{
 			dependencies: ["048ACF54F38C203A"]
 			description: [
-				"{ftbquests.chapter.applied_energistics_2.quest76E723B0BE3DFC5B.description1}"
+				"{ftbquests.chapter.applied_energistics_2.quest31.description1}"
 				""
-				"{ftbquests.chapter.applied_energistics_2.quest76E723B0BE3DFC5B.description2}"
+				"{ftbquests.chapter.applied_energistics_2.quest31.description2}"
 				""
-				"{ftbquests.chapter.applied_energistics_2.quest76E723B0BE3DFC5B.description3}"
+				"{ftbquests.chapter.applied_energistics_2.quest31.description3}"
 				""
-				"{ftbquests.chapter.applied_energistics_2.quest76E723B0BE3DFC5B.description4}"
+				"{ftbquests.chapter.applied_energistics_2.quest31.description4}"
 				""
-				"{ftbquests.chapter.applied_energistics_2.quest76E723B0BE3DFC5B.description5}"
+				"{ftbquests.chapter.applied_energistics_2.quest31.description5}"
 			]
 			id: "76E723B0BE3DFC5B"
 			rewards: [{
@@ -952,16 +952,16 @@
 						]
 					}
 				}
-				title: "{ftbquests.chapter.applied_energistics_2.quest76E723B0BE3DFC5B.task.6569828737847263322.title}"
+				title: "{ftbquests.chapter.applied_energistics_2.quest31.task_6569828737847263322.title}"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.applied_energistics_2.quest76E723B0BE3DFC5B.title}"
+			title: "{ftbquests.chapter.applied_energistics_2.quest31.title}"
 			x: 3.5d
 			y: 1.0d
 		}
 		{
 			dependencies: ["1001685A187EFB1C"]
-			description: ["{ftbquests.chapter.applied_energistics_2.quest1D8EC31C843D4F0C.description1}"]
+			description: ["{ftbquests.chapter.applied_energistics_2.quest32.description1}"]
 			id: "1D8EC31C843D4F0C"
 			rewards: [{
 				id: "6986CE688387E329"
@@ -980,23 +980,23 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.applied_energistics_2.quest1D8EC31C843D4F0C.title}"
+			title: "{ftbquests.chapter.applied_energistics_2.quest32.title}"
 			x: 3.5d
 			y: 7.0d
 		}
 		{
 			dependencies: ["1D8EC31C843D4F0C"]
 			description: [
-				"{ftbquests.chapter.applied_energistics_2.quest76DEFA612FFCD0E.description1}"
+				"{ftbquests.chapter.applied_energistics_2.quest33.description1}"
 				""
-				"{ftbquests.chapter.applied_energistics_2.quest76DEFA612FFCD0E.description2}"
+				"{ftbquests.chapter.applied_energistics_2.quest33.description2}"
 				""
-				"{ftbquests.chapter.applied_energistics_2.quest76DEFA612FFCD0E.description3}"
+				"{ftbquests.chapter.applied_energistics_2.quest33.description3}"
 				""
-				"{ftbquests.chapter.applied_energistics_2.quest76DEFA612FFCD0E.description4}"
-				"{ftbquests.chapter.applied_energistics_2.quest76DEFA612FFCD0E.description5}"
+				"{ftbquests.chapter.applied_energistics_2.quest33.description4}"
+				"{ftbquests.chapter.applied_energistics_2.quest33.description5}"
 				""
-				"{ftbquests.chapter.applied_energistics_2.quest76DEFA612FFCD0E.description6}"
+				"{ftbquests.chapter.applied_energistics_2.quest33.description6}"
 			]
 			id: "076DEFA612FFCD0E"
 			rewards: [{
@@ -1022,21 +1022,21 @@
 						]
 					}
 				}
-				title: "{ftbquests.chapter.applied_energistics_2.quest76DEFA612FFCD0E.task.1747470766372388578.title}"
+				title: "{ftbquests.chapter.applied_energistics_2.quest33.task_1747470766372388578.title}"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.applied_energistics_2.quest76DEFA612FFCD0E.title}"
+			title: "{ftbquests.chapter.applied_energistics_2.quest33.title}"
 			x: 5.5d
 			y: 9.0d
 		}
 		{
 			dependencies: ["1D8EC31C843D4F0C"]
 			description: [
-				"{ftbquests.chapter.applied_energistics_2.quest1ADC8D54D3C886C8.description1}"
+				"{ftbquests.chapter.applied_energistics_2.quest34.description1}"
 				""
-				"{ftbquests.chapter.applied_energistics_2.quest1ADC8D54D3C886C8.description2}"
+				"{ftbquests.chapter.applied_energistics_2.quest34.description2}"
 				""
-				"{ftbquests.chapter.applied_energistics_2.quest1ADC8D54D3C886C8.description3}"
+				"{ftbquests.chapter.applied_energistics_2.quest34.description3}"
 			]
 			id: "1ADC8D54D3C886C8"
 			rewards: [{
@@ -1056,25 +1056,25 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.applied_energistics_2.quest1ADC8D54D3C886C8.title}"
+			title: "{ftbquests.chapter.applied_energistics_2.quest34.title}"
 			x: 3.5d
 			y: 9.0d
 		}
 		{
 			dependencies: ["1D8EC31C843D4F0C"]
 			description: [
-				"{ftbquests.chapter.applied_energistics_2.quest574ECD80D17B7217.description1}"
+				"{ftbquests.chapter.applied_energistics_2.quest35.description1}"
 				""
-				"{ftbquests.chapter.applied_energistics_2.quest574ECD80D17B7217.description2}"
+				"{ftbquests.chapter.applied_energistics_2.quest35.description2}"
 				""
-				"{ftbquests.chapter.applied_energistics_2.quest574ECD80D17B7217.description3}"
+				"{ftbquests.chapter.applied_energistics_2.quest35.description3}"
 				""
-				"{ftbquests.chapter.applied_energistics_2.quest574ECD80D17B7217.description4}"
+				"{ftbquests.chapter.applied_energistics_2.quest35.description4}"
 				""
-				"{ftbquests.chapter.applied_energistics_2.quest574ECD80D17B7217.description5}"
-				"{ftbquests.chapter.applied_energistics_2.quest574ECD80D17B7217.description6}"
+				"{ftbquests.chapter.applied_energistics_2.quest35.description5}"
+				"{ftbquests.chapter.applied_energistics_2.quest35.description6}"
 				""
-				"{ftbquests.chapter.applied_energistics_2.quest574ECD80D17B7217.description7}"
+				"{ftbquests.chapter.applied_energistics_2.quest35.description7}"
 			]
 			id: "574ECD80D17B7217"
 			rewards: [{
@@ -1093,14 +1093,14 @@
 		{
 			dependencies: ["1D8EC31C843D4F0C"]
 			description: [
-				"{ftbquests.chapter.applied_energistics_2.quest25323570A28E0C73.description1}"
+				"{ftbquests.chapter.applied_energistics_2.quest36.description1}"
 				""
-				"{ftbquests.chapter.applied_energistics_2.quest25323570A28E0C73.description2}"
+				"{ftbquests.chapter.applied_energistics_2.quest36.description2}"
 				""
-				"{ftbquests.chapter.applied_energistics_2.quest25323570A28E0C73.description3}"
-				"{ftbquests.chapter.applied_energistics_2.quest25323570A28E0C73.description4}"
+				"{ftbquests.chapter.applied_energistics_2.quest36.description3}"
+				"{ftbquests.chapter.applied_energistics_2.quest36.description4}"
 				""
-				"{ftbquests.chapter.applied_energistics_2.quest25323570A28E0C73.description5}"
+				"{ftbquests.chapter.applied_energistics_2.quest36.description5}"
 			]
 			id: "25323570A28E0C73"
 			rewards: [{
@@ -1119,14 +1119,14 @@
 		{
 			dependencies: ["1D8EC31C843D4F0C"]
 			description: [
-				"{ftbquests.chapter.applied_energistics_2.quest4D2904009A968924.description1}"
+				"{ftbquests.chapter.applied_energistics_2.quest37.description1}"
 				""
-				"{ftbquests.chapter.applied_energistics_2.quest4D2904009A968924.description2}"
+				"{ftbquests.chapter.applied_energistics_2.quest37.description2}"
 				""
-				"{ftbquests.chapter.applied_energistics_2.quest4D2904009A968924.description3}"
-				"{ftbquests.chapter.applied_energistics_2.quest4D2904009A968924.description4}"
+				"{ftbquests.chapter.applied_energistics_2.quest37.description3}"
+				"{ftbquests.chapter.applied_energistics_2.quest37.description4}"
 				""
-				"{ftbquests.chapter.applied_energistics_2.quest4D2904009A968924.description5}"
+				"{ftbquests.chapter.applied_energistics_2.quest37.description5}"
 			]
 			id: "4D2904009A968924"
 			rewards: [{
@@ -1145,9 +1145,9 @@
 		{
 			dependencies: ["115A169A32BA81FF"]
 			description: [
-				"{ftbquests.chapter.applied_energistics_2.quest609441BB95F9C34E.description1}"
+				"{ftbquests.chapter.applied_energistics_2.quest38.description1}"
 				""
-				"{ftbquests.chapter.applied_energistics_2.quest609441BB95F9C34E.description2}"
+				"{ftbquests.chapter.applied_energistics_2.quest38.description2}"
 			]
 			id: "609441BB95F9C34E"
 			rewards: [{
@@ -1169,7 +1169,7 @@
 		}
 		{
 			dependencies: ["609441BB95F9C34E"]
-			description: ["{ftbquests.chapter.applied_energistics_2.quest318FB71B7C97BB55.description1}"]
+			description: ["{ftbquests.chapter.applied_energistics_2.quest39.description1}"]
 			id: "318FB71B7C97BB55"
 			rewards: [{
 				id: "3681BE7B15430D4B"
@@ -1191,9 +1191,9 @@
 		{
 			dependencies: ["1001685A187EFB1C"]
 			description: [
-				"{ftbquests.chapter.applied_energistics_2.quest48ACF54F38C203A.description1}"
+				"{ftbquests.chapter.applied_energistics_2.quest40.description1}"
 				""
-				"{ftbquests.chapter.applied_energistics_2.quest48ACF54F38C203A.description2}"
+				"{ftbquests.chapter.applied_energistics_2.quest40.description2}"
 			]
 			id: "048ACF54F38C203A"
 			rewards: [{
@@ -1211,15 +1211,15 @@
 		}
 		{
 			description: [
-				"{ftbquests.chapter.applied_energistics_2.quest7F3123DDC2948BC4.description1}"
+				"{ftbquests.chapter.applied_energistics_2.quest41.description1}"
 				""
-				"{ftbquests.chapter.applied_energistics_2.quest7F3123DDC2948BC4.description2}"
+				"{ftbquests.chapter.applied_energistics_2.quest41.description2}"
 			]
 			id: "7F3123DDC2948BC4"
 			optional: true
 			tasks: [{
 				id: "00DD0AD43AF4F1D9"
-				title: "{ftbquests.chapter.applied_energistics_2.quest7F3123DDC2948BC4.task.62217876491530713.title}"
+				title: "{ftbquests.chapter.applied_energistics_2.quest41.task_62217876491530713.title}"
 				type: "checkmark"
 			}]
 			x: 0.0d
@@ -1228,9 +1228,9 @@
 		{
 			dependencies: ["44972673B4196F1F"]
 			description: [
-				"{ftbquests.chapter.applied_energistics_2.quest794E40A7B810D043.description1}"
+				"{ftbquests.chapter.applied_energistics_2.quest42.description1}"
 				""
-				"{ftbquests.chapter.applied_energistics_2.quest794E40A7B810D043.description2}"
+				"{ftbquests.chapter.applied_energistics_2.quest42.description2}"
 			]
 			id: "794E40A7B810D043"
 			rewards: [{
@@ -1248,7 +1248,7 @@
 		}
 		{
 			dependencies: ["794E40A7B810D043"]
-			description: ["{ftbquests.chapter.applied_energistics_2.quest4BA07FF50AA59AB.description1}"]
+			description: ["{ftbquests.chapter.applied_energistics_2.quest43.description1}"]
 			id: "04BA07FF50AA59AB"
 			rewards: [
 				{
@@ -1343,16 +1343,16 @@
 		{
 			dependencies: ["6C0DDC638326D231"]
 			description: [
-				"{ftbquests.chapter.applied_energistics_2.quest54954E5D9DC45BD6.description1}"
+				"{ftbquests.chapter.applied_energistics_2.quest47.description1}"
 				""
-				"{ftbquests.chapter.applied_energistics_2.quest54954E5D9DC45BD6.description2}"
+				"{ftbquests.chapter.applied_energistics_2.quest47.description2}"
 				""
-				"{ftbquests.chapter.applied_energistics_2.quest54954E5D9DC45BD6.description3}"
+				"{ftbquests.chapter.applied_energistics_2.quest47.description3}"
 				""
-				"{ftbquests.chapter.applied_energistics_2.quest54954E5D9DC45BD6.description4}"
+				"{ftbquests.chapter.applied_energistics_2.quest47.description4}"
 				""
 				""
-				"{ftbquests.chapter.applied_energistics_2.quest54954E5D9DC45BD6.description5}"
+				"{ftbquests.chapter.applied_energistics_2.quest47.description5}"
 			]
 			id: "54954E5D9DC45BD6"
 			rewards: [{
@@ -1395,16 +1395,16 @@
 						]
 					}
 				}
-				title: "{ftbquests.chapter.applied_energistics_2.quest54954E5D9DC45BD6.task.3954093454567554570.title}"
+				title: "{ftbquests.chapter.applied_energistics_2.quest47.task_3954093454567554570.title}"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.applied_energistics_2.quest54954E5D9DC45BD6.title}"
+			title: "{ftbquests.chapter.applied_energistics_2.quest47.title}"
 			x: -0.5d
 			y: 15.0d
 		}
 		{
 			dependencies: ["63E9204E0C9BB3D3"]
-			description: ["{ftbquests.chapter.applied_energistics_2.quest153BFF88705AFC8C.description1}"]
+			description: ["{ftbquests.chapter.applied_energistics_2.quest48.description1}"]
 			id: "153BFF88705AFC8C"
 			rewards: [{
 				id: "3EEE7579B5CF112E"
@@ -1426,13 +1426,13 @@
 			]
 			dependency_requirement: "one_completed"
 			description: [
-				"{ftbquests.chapter.applied_energistics_2.quest2CD963618CF02F10.description1}"
+				"{ftbquests.chapter.applied_energistics_2.quest49.description1}"
 				""
-				"{ftbquests.chapter.applied_energistics_2.quest2CD963618CF02F10.description2}"
+				"{ftbquests.chapter.applied_energistics_2.quest49.description2}"
 				""
-				"{ftbquests.chapter.applied_energistics_2.quest2CD963618CF02F10.description3}"
+				"{ftbquests.chapter.applied_energistics_2.quest49.description3}"
 				""
-				"{ftbquests.chapter.applied_energistics_2.quest2CD963618CF02F10.description4}"
+				"{ftbquests.chapter.applied_energistics_2.quest49.description4}"
 			]
 			hide_dependency_lines: true
 			id: "2CD963618CF02F10"
@@ -1444,7 +1444,7 @@
 			}]
 			tasks: [{
 				id: "2BC0E71127DCF8A6"
-				title: "{ftbquests.chapter.applied_energistics_2.quest2CD963618CF02F10.task.3152773800028600486.title}"
+				title: "{ftbquests.chapter.applied_energistics_2.quest49.task_3152773800028600486.title}"
 				type: "checkmark"
 			}]
 			x: 3.5d
@@ -1453,13 +1453,13 @@
 		{
 			dependencies: ["048ACF54F38C203A"]
 			description: [
-				"{ftbquests.chapter.applied_energistics_2.quest46844D4E57821B05.description1}"
+				"{ftbquests.chapter.applied_energistics_2.quest50.description1}"
 				""
-				"{ftbquests.chapter.applied_energistics_2.quest46844D4E57821B05.description2}"
+				"{ftbquests.chapter.applied_energistics_2.quest50.description2}"
 				""
-				"{ftbquests.chapter.applied_energistics_2.quest46844D4E57821B05.description3}"
+				"{ftbquests.chapter.applied_energistics_2.quest50.description3}"
 				""
-				"{ftbquests.chapter.applied_energistics_2.quest46844D4E57821B05.description4}"
+				"{ftbquests.chapter.applied_energistics_2.quest50.description4}"
 			]
 			id: "46844D4E57821B05"
 			rewards: [{
@@ -1497,21 +1497,21 @@
 						]
 					}
 				}
-				title: "{ftbquests.chapter.applied_energistics_2.quest46844D4E57821B05.task.7336381381024065352.title}"
+				title: "{ftbquests.chapter.applied_energistics_2.quest50.task_7336381381024065352.title}"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.applied_energistics_2.quest46844D4E57821B05.title}"
+			title: "{ftbquests.chapter.applied_energistics_2.quest50.title}"
 			x: 5.5d
 			y: 2.0d
 		}
 		{
 			dependencies: ["048ACF54F38C203A"]
 			description: [
-				"{ftbquests.chapter.applied_energistics_2.quest21F6DAE21CB20EF6.description1}"
+				"{ftbquests.chapter.applied_energistics_2.quest51.description1}"
 				""
-				"{ftbquests.chapter.applied_energistics_2.quest21F6DAE21CB20EF6.description2}"
+				"{ftbquests.chapter.applied_energistics_2.quest51.description2}"
 				""
-				"{ftbquests.chapter.applied_energistics_2.quest21F6DAE21CB20EF6.description3}"
+				"{ftbquests.chapter.applied_energistics_2.quest51.description3}"
 			]
 			id: "21F6DAE21CB20EF6"
 			rewards: [{
@@ -1529,7 +1529,7 @@
 		}
 		{
 			dependencies: ["60C3D122117080C3"]
-			description: ["{ftbquests.chapter.applied_energistics_2.quest4ED59FCB7C8CF4B8.description1}"]
+			description: ["{ftbquests.chapter.applied_energistics_2.quest52.description1}"]
 			id: "4ED59FCB7C8CF4B8"
 			rewards: [{
 				id: "78BEA1BE16916DD3"
@@ -1541,7 +1541,7 @@
 				item: "ae2:growth_accelerator"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.applied_energistics_2.quest4ED59FCB7C8CF4B8.title}"
+			title: "{ftbquests.chapter.applied_energistics_2.quest52.title}"
 			x: -2.5d
 			y: 2.0d
 		}
@@ -1551,7 +1551,7 @@
 				"25323570A28E0C73"
 			]
 			dependency_requirement: "one_completed"
-			description: ["{ftbquests.chapter.applied_energistics_2.quest22A3D93079CE924A.description1}"]
+			description: ["{ftbquests.chapter.applied_energistics_2.quest53.description1}"]
 			hide_dependency_lines: true
 			id: "22A3D93079CE924A"
 			rewards: [{
@@ -1564,7 +1564,7 @@
 				item: "ae2:speed_card"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.applied_energistics_2.quest22A3D93079CE924A.title}"
+			title: "{ftbquests.chapter.applied_energistics_2.quest53.title}"
 			x: 7.5d
 			y: 7.0d
 		}
@@ -1574,7 +1574,7 @@
 				"076DEFA612FFCD0E"
 			]
 			dependency_requirement: "one_completed"
-			description: ["{ftbquests.chapter.applied_energistics_2.quest42B231CCDED208B.description1}"]
+			description: ["{ftbquests.chapter.applied_energistics_2.quest54.description1}"]
 			hide_dependency_lines: true
 			id: "042B231CCDED208B"
 			rewards: [{
@@ -1587,7 +1587,7 @@
 				item: "ae2:crafting_card"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.applied_energistics_2.quest42B231CCDED208B.title}"
+			title: "{ftbquests.chapter.applied_energistics_2.quest54.title}"
 			x: 8.5d
 			y: 8.0d
 		}
@@ -1600,9 +1600,9 @@
 			]
 			dependency_requirement: "one_completed"
 			description: [
-				"{ftbquests.chapter.applied_energistics_2.quest5A10F47AF1B11EDA.description1}"
+				"{ftbquests.chapter.applied_energistics_2.quest55.description1}"
 				""
-				"{ftbquests.chapter.applied_energistics_2.quest5A10F47AF1B11EDA.description2}"
+				"{ftbquests.chapter.applied_energistics_2.quest55.description2}"
 			]
 			hide_dependency_lines: true
 			id: "5A10F47AF1B11EDA"
@@ -1616,7 +1616,7 @@
 				item: "ae2:fuzzy_card"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.applied_energistics_2.quest5A10F47AF1B11EDA.title}"
+			title: "{ftbquests.chapter.applied_energistics_2.quest55.title}"
 			x: 7.5d
 			y: 9.0d
 		}
@@ -1626,7 +1626,7 @@
 				"25323570A28E0C73"
 			]
 			dependency_requirement: "one_completed"
-			description: ["{ftbquests.chapter.applied_energistics_2.quest1A2138E9995A7BD2.description1}"]
+			description: ["{ftbquests.chapter.applied_energistics_2.quest56.description1}"]
 			hide_dependency_lines: true
 			id: "1A2138E9995A7BD2"
 			rewards: [{
@@ -1639,7 +1639,7 @@
 				item: "ae2:redstone_card"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.applied_energistics_2.quest1A2138E9995A7BD2.title}"
+			title: "{ftbquests.chapter.applied_energistics_2.quest56.title}"
 			x: 8.5d
 			y: 7.0d
 		}
@@ -1652,7 +1652,7 @@
 				"1ADC8D54D3C886C8"
 			]
 			dependency_requirement: "one_completed"
-			description: ["{ftbquests.chapter.applied_energistics_2.quest495F1E67F284076C.description1}"]
+			description: ["{ftbquests.chapter.applied_energistics_2.quest57.description1}"]
 			hide_dependency_lines: true
 			id: "495F1E67F284076C"
 			rewards: [{
@@ -1665,14 +1665,14 @@
 				item: "ae2:capacity_card"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.applied_energistics_2.quest495F1E67F284076C.title}"
+			title: "{ftbquests.chapter.applied_energistics_2.quest57.title}"
 			x: 7.5d
 			y: 8.0d
 		}
 		{
 			dependencies: ["574ECD80D17B7217"]
 			dependency_requirement: "one_completed"
-			description: ["{ftbquests.chapter.applied_energistics_2.quest3F2613BDA0554944.description1}"]
+			description: ["{ftbquests.chapter.applied_energistics_2.quest58.description1}"]
 			hide_dependency_lines: true
 			id: "3F2613BDA0554944"
 			rewards: [{
@@ -1685,18 +1685,18 @@
 				item: "ae2:inverter_card"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.applied_energistics_2.quest3F2613BDA0554944.title}"
+			title: "{ftbquests.chapter.applied_energistics_2.quest58.title}"
 			x: 8.5d
 			y: 9.0d
 		}
 		{
 			dependencies: ["76E723B0BE3DFC5B"]
 			description: [
-				"{ftbquests.chapter.applied_energistics_2.quest5DEBCC9B6FA60670.description1}"
+				"{ftbquests.chapter.applied_energistics_2.quest59.description1}"
 				""
-				"{ftbquests.chapter.applied_energistics_2.quest5DEBCC9B6FA60670.description2}"
+				"{ftbquests.chapter.applied_energistics_2.quest59.description2}"
 				""
-				"{ftbquests.chapter.applied_energistics_2.quest5DEBCC9B6FA60670.description3}"
+				"{ftbquests.chapter.applied_energistics_2.quest59.description3}"
 			]
 			id: "5DEBCC9B6FA60670"
 			rewards: [{
@@ -1722,15 +1722,15 @@
 		{
 			dependencies: ["76E723B0BE3DFC5B"]
 			description: [
-				"{ftbquests.chapter.applied_energistics_2.quest3AF42690AA9B7CD3.description1}"
+				"{ftbquests.chapter.applied_energistics_2.quest60.description1}"
 				""
-				"{ftbquests.chapter.applied_energistics_2.quest3AF42690AA9B7CD3.description2}"
+				"{ftbquests.chapter.applied_energistics_2.quest60.description2}"
 				""
-				"{ftbquests.chapter.applied_energistics_2.quest3AF42690AA9B7CD3.description3}"
+				"{ftbquests.chapter.applied_energistics_2.quest60.description3}"
 				""
-				"{ftbquests.chapter.applied_energistics_2.quest3AF42690AA9B7CD3.description4}"
+				"{ftbquests.chapter.applied_energistics_2.quest60.description4}"
 				""
-				"{ftbquests.chapter.applied_energistics_2.quest3AF42690AA9B7CD3.description5}"
+				"{ftbquests.chapter.applied_energistics_2.quest60.description5}"
 			]
 			id: "3AF42690AA9B7CD3"
 			rewards: [{
@@ -1743,7 +1743,7 @@
 				item: "ae2:molecular_assembler"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.applied_energistics_2.quest3AF42690AA9B7CD3.title}"
+			title: "{ftbquests.chapter.applied_energistics_2.quest60.title}"
 			x: 4.5d
 			y: 0.0d
 		}
@@ -1752,7 +1752,7 @@
 				"46844D4E57821B05"
 				"21F6DAE21CB20EF6"
 			]
-			description: ["[ \"There are a lot of \", { \"text\": \"AE2 Addons\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"3E7BA0C70B5569D4\" } }, \" <-- Click me\" ]"]
+			description: ["[\"\",{\"translate\":\"ftbquests.chapter.applied_energistics_2.quest61.rich_description1\"},{\"underlined\":1,\"translate\":\"ftbquests.chapter.applied_energistics_2.quest61.rich_description2\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"3E7BA0C70B5569D4\"},{\"translate\":\"ftbquests.chapter.applied_energistics_2.quest61.rich_description3\"}}]"]
 			id: "6EE4B174356FB915"
 			optional: true
 			rewards: [{
@@ -1762,7 +1762,7 @@
 			}]
 			tasks: [{
 				id: "40FDC0A339B993D4"
-				title: "AE2 Addons and more"
+				title: "{ftbquests.chapter.applied_energistics_2.quest61.task_4683110994815849428.title}"
 				type: "checkmark"
 			}]
 			x: 7.5d
@@ -1771,13 +1771,13 @@
 		{
 			dependencies: ["048ACF54F38C203A"]
 			description: [
-				"{ftbquests.chapter.applied_energistics_2.quest70F972871383E1A0.description1}"
+				"{ftbquests.chapter.applied_energistics_2.quest62.description1}"
 				""
-				"{ftbquests.chapter.applied_energistics_2.quest70F972871383E1A0.description2}"
+				"{ftbquests.chapter.applied_energistics_2.quest62.description2}"
 				""
-				"{ftbquests.chapter.applied_energistics_2.quest70F972871383E1A0.description3}"
+				"{ftbquests.chapter.applied_energistics_2.quest62.description3}"
 				""
-				"{ftbquests.chapter.applied_energistics_2.quest70F972871383E1A0.description4}"
+				"{ftbquests.chapter.applied_energistics_2.quest62.description4}"
 			]
 			id: "70F972871383E1A0"
 			rewards: [{
@@ -1796,16 +1796,16 @@
 		{
 			dependencies: ["1FADBF003F478AAD"]
 			description: [
-				"{ftbquests.chapter.applied_energistics_2.quest7A514FC484535387.description1}"
+				"{ftbquests.chapter.applied_energistics_2.quest63.description1}"
 				""
-				"{ftbquests.chapter.applied_energistics_2.quest7A514FC484535387.description2}"
+				"{ftbquests.chapter.applied_energistics_2.quest63.description2}"
 				""
-				"{ftbquests.chapter.applied_energistics_2.quest7A514FC484535387.description3}"
+				"{ftbquests.chapter.applied_energistics_2.quest63.description3}"
 				""
-				"{ftbquests.chapter.applied_energistics_2.quest7A514FC484535387.description4}"
-				"{ftbquests.chapter.applied_energistics_2.quest7A514FC484535387.description5}"
+				"{ftbquests.chapter.applied_energistics_2.quest63.description4}"
+				"{ftbquests.chapter.applied_energistics_2.quest63.description5}"
 				""
-				"{ftbquests.chapter.applied_energistics_2.quest7A514FC484535387.description6}"
+				"{ftbquests.chapter.applied_energistics_2.quest63.description6}"
 			]
 			id: "7A514FC484535387"
 			rewards: [{
@@ -1831,11 +1831,11 @@
 		{
 			dependencies: ["7A514FC484535387"]
 			description: [
-				"{ftbquests.chapter.applied_energistics_2.quest28D52D3DAC0750BA.description1}"
+				"{ftbquests.chapter.applied_energistics_2.quest64.description1}"
 				""
-				"{ftbquests.chapter.applied_energistics_2.quest28D52D3DAC0750BA.description2}"
+				"{ftbquests.chapter.applied_energistics_2.quest64.description2}"
 				""
-				"{ftbquests.chapter.applied_energistics_2.quest28D52D3DAC0750BA.description3}"
+				"{ftbquests.chapter.applied_energistics_2.quest64.description3}"
 			]
 			id: "28D52D3DAC0750BA"
 			rewards: [{
@@ -1872,24 +1872,24 @@
 							]
 						}
 					}
-					title: "{ftbquests.chapter.applied_energistics_2.quest28D52D3DAC0750BA.task.3988266505868436777.title}"
+					title: "{ftbquests.chapter.applied_energistics_2.quest64.task_3988266505868436777.title}"
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.applied_energistics_2.quest28D52D3DAC0750BA.title}"
+			title: "{ftbquests.chapter.applied_energistics_2.quest64.title}"
 			x: -4.0d
 			y: 11.5d
 		}
 		{
 			dependencies: ["28D52D3DAC0750BA"]
 			description: [
-				"{ftbquests.chapter.applied_energistics_2.quest6D899457C59B4562.description1}"
+				"{ftbquests.chapter.applied_energistics_2.quest65.description1}"
 				""
-				"{ftbquests.chapter.applied_energistics_2.quest6D899457C59B4562.description2}"
+				"{ftbquests.chapter.applied_energistics_2.quest65.description2}"
 				""
-				"{ftbquests.chapter.applied_energistics_2.quest6D899457C59B4562.description3}"
+				"{ftbquests.chapter.applied_energistics_2.quest65.description3}"
 				""
-				"{ftbquests.chapter.applied_energistics_2.quest6D899457C59B4562.description4}"
+				"{ftbquests.chapter.applied_energistics_2.quest65.description4}"
 			]
 			id: "6D899457C59B4562"
 			rewards: [{
@@ -1917,7 +1917,7 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.applied_energistics_2.quest6D899457C59B4562.title}"
+			title: "{ftbquests.chapter.applied_energistics_2.quest65.title}"
 			x: -5.5d
 			y: 11.5d
 		}
@@ -1940,16 +1940,16 @@
 		{
 			dependencies: ["2D0807B323940745"]
 			description: [
-				"{ftbquests.chapter.applied_energistics_2.quest4295EC2020E4146C.description1}"
+				"{ftbquests.chapter.applied_energistics_2.quest67.description1}"
 				""
-				"{ftbquests.chapter.applied_energistics_2.quest4295EC2020E4146C.description2}"
+				"{ftbquests.chapter.applied_energistics_2.quest67.description2}"
 				""
-				"{ftbquests.chapter.applied_energistics_2.quest4295EC2020E4146C.description3}"
+				"{ftbquests.chapter.applied_energistics_2.quest67.description3}"
 				""
-				"{ftbquests.chapter.applied_energistics_2.quest4295EC2020E4146C.description4}"
+				"{ftbquests.chapter.applied_energistics_2.quest67.description4}"
 				""
 				""
-				"{ftbquests.chapter.applied_energistics_2.quest4295EC2020E4146C.description5}"
+				"{ftbquests.chapter.applied_energistics_2.quest67.description5}"
 			]
 			id: "4295EC2020E4146C"
 			rewards: [{
@@ -1992,10 +1992,10 @@
 						]
 					}
 				}
-				title: "{ftbquests.chapter.applied_energistics_2.quest4295EC2020E4146C.task.1920969978318795557.title}"
+				title: "{ftbquests.chapter.applied_energistics_2.quest67.task_1920969978318795557.title}"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.applied_energistics_2.quest4295EC2020E4146C.title}"
+			title: "{ftbquests.chapter.applied_energistics_2.quest67.title}"
 			x: 0.5d
 			y: 15.0d
 		}
@@ -2017,15 +2017,15 @@
 		}
 		{
 			description: [
-				"{ftbquests.chapter.applied_energistics_2.quest9B1FD2981B34B12.description1}"
-				"{ftbquests.chapter.applied_energistics_2.quest9B1FD2981B34B12.description2}"
+				"{ftbquests.chapter.applied_energistics_2.quest69.description1}"
+				"{ftbquests.chapter.applied_energistics_2.quest69.description2}"
 			]
 			id: "09B1FD2981B34B12"
 			invisible: true
 			optional: true
 			tasks: [{
 				id: "18CC3714384DB289"
-				title: "{ftbquests.chapter.applied_energistics_2.quest9B1FD2981B34B12.task.1786863712142733961.title}"
+				title: "{ftbquests.chapter.applied_energistics_2.quest69.task_1786863712142733961.title}"
 				type: "checkmark"
 			}]
 			x: 0.0d
@@ -2084,10 +2084,10 @@
 		{
 			dependencies: ["47A2266666468E4D"]
 			description: [
-				"{ftbquests.chapter.applied_energistics_2.quest760CBB459BBF2621.description1}"
+				"{ftbquests.chapter.applied_energistics_2.quest72.description1}"
 				""
-				"{ftbquests.chapter.applied_energistics_2.quest760CBB459BBF2621.description2}"
-				"{ftbquests.chapter.applied_energistics_2.quest760CBB459BBF2621.description3}"
+				"{ftbquests.chapter.applied_energistics_2.quest72.description2}"
+				"{ftbquests.chapter.applied_energistics_2.quest72.description3}"
 			]
 			id: "760CBB459BBF2621"
 			optional: true
@@ -2098,7 +2098,7 @@
 			}]
 			tasks: [{
 				id: "7A5BB7D6E45CBC56"
-				title: "{ftbquests.chapter.applied_energistics_2.quest760CBB459BBF2621.task.8816842829090045014.title}"
+				title: "{ftbquests.chapter.applied_energistics_2.quest72.task_8816842829090045014.title}"
 				type: "checkmark"
 			}]
 			x: -3.0d
@@ -2145,7 +2145,7 @@
 						]
 					}
 				}
-				title: "Any Budding Certus Quartz"
+				title: "{ftbquests.chapter.applied_energistics_2.quest73.task_858870462565477230.title}"
 				type: "item"
 			}]
 			x: -2.0d

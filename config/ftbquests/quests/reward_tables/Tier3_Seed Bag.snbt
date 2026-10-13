@@ -2,7 +2,7 @@
 	icon: "mysticalagriculture:tertium_gemstone"
 	id: "6B7F78B9150AFFEE"
 	loot_size: 1
-	order_index: 19
+	order_index: 16
 	rewards: [
 		{ item: "mysticalagriculture:tertium_farmland", weight: 5.0f }
 		{ item: "mysticalagriculture:iron_seeds", weight: 2.0f }
@@ -36,6 +36,6 @@
 		{ item: "mysticalagradditions:tertium_coal", random_bonus: 3, weight: 5.0f }
 		{ item: "mysticalagradditions:tertium_coal_block", weight: 3.0f }
 	]
-	title: "{ftbquests.loot_table.7746042620417867758.title}"
+	title: "{ftbquests.loot_table_7746042620417867758.title}"
 	use_title: true
 }

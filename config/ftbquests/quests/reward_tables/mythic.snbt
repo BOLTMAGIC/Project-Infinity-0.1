@@ -2,7 +2,7 @@
 	icon: "minecraft:nether_star"
 	id: "481E10AEAC95C550"
 	loot_size: 1
-	order_index: 14
+	order_index: 11
 	rewards: [
 		{ item: "mekanism:pellet_antimatter", weight: 2.0f }
 		{ item: "mysticalagriculture:awakened_supremium_block", random_bonus: 1, weight: 1.5f }
@@ -15,6 +15,6 @@
 		{ item: "botania:dice", weight: 2.0f }
 		{ count: 36, item: "powah:reactor_nitro", weight: 5.0f }
 	]
-	title: "{ftbquests.loot_table.5196609362437981520.title}"
+	title: "{ftbquests.loot_table_5196609362437981520.title}"
 	use_title: true
 }

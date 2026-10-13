@@ -69,11 +69,11 @@
 		{
 			dependencies: ["2E747C1C2DB534B5"]
 			description: [
-				"{ftbquests.chapter.mystical_agriculture.quest28586493542A3B3A.description1}"
+				"{ftbquests.chapter.mystical_agriculture.quest1.description1}"
 				""
-				"{ftbquests.chapter.mystical_agriculture.quest28586493542A3B3A.description2}"
+				"{ftbquests.chapter.mystical_agriculture.quest1.description2}"
 				""
-				"{ftbquests.chapter.mystical_agriculture.quest28586493542A3B3A.description3}"
+				"{ftbquests.chapter.mystical_agriculture.quest1.description3}"
 			]
 			hide_dependent_lines: true
 			id: "28586493542A3B3A"
@@ -83,14 +83,14 @@
 				type: "item"
 			}]
 			shape: "rsquare"
-			subtitle: "{ftbquests.chapter.mystical_agriculture.quest28586493542A3B3A.subtitle}"
+			subtitle: "{ftbquests.chapter.mystical_agriculture.quest1.subtitle}"
 			tasks: [{
 				count: 64L
 				id: "14C0517833A0912C"
 				item: "mysticalagriculture:inferium_essence"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.mystical_agriculture.quest28586493542A3B3A.title}"
+			title: "{ftbquests.chapter.mystical_agriculture.quest1.title}"
 			x: -22.0d
 			y: -7.5d
 		}
@@ -105,13 +105,13 @@
 				type: "item"
 			}]
 			shape: "rsquare"
-			subtitle: "{ftbquests.chapter.mystical_agriculture.quest41E5E6BF7CB5063F.subtitle}"
+			subtitle: "{ftbquests.chapter.mystical_agriculture.quest2.subtitle}"
 			tasks: [{
 				id: "5B44AD7E8F44030C"
 				item: "mysticalagriculture:prudentium_essence"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.mystical_agriculture.quest41E5E6BF7CB5063F.title}"
+			title: "{ftbquests.chapter.mystical_agriculture.quest2.title}"
 			x: -16.0d
 			y: -7.5d
 		}
@@ -126,13 +126,13 @@
 				type: "item"
 			}]
 			shape: "rsquare"
-			subtitle: "{ftbquests.chapter.mystical_agriculture.questEE7C12766C3CA1B.subtitle}"
+			subtitle: "{ftbquests.chapter.mystical_agriculture.quest3.subtitle}"
 			tasks: [{
 				id: "1C482C69BF168CA7"
 				item: "mysticalagriculture:tertium_essence"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.mystical_agriculture.questEE7C12766C3CA1B.title}"
+			title: "{ftbquests.chapter.mystical_agriculture.quest3.title}"
 			x: -10.0d
 			y: -7.5d
 		}
@@ -147,13 +147,13 @@
 				type: "item"
 			}]
 			shape: "rsquare"
-			subtitle: "{ftbquests.chapter.mystical_agriculture.quest3763C9494249EC62.subtitle}"
+			subtitle: "{ftbquests.chapter.mystical_agriculture.quest4.subtitle}"
 			tasks: [{
 				id: "0D1F0A398BFE5635"
 				item: "mysticalagriculture:imperium_essence"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.mystical_agriculture.quest3763C9494249EC62.title}"
+			title: "{ftbquests.chapter.mystical_agriculture.quest4.title}"
 			x: -4.0d
 			y: -7.5d
 		}
@@ -168,13 +168,13 @@
 				type: "item"
 			}]
 			shape: "rsquare"
-			subtitle: "{ftbquests.chapter.mystical_agriculture.quest6C52741D22052A14.subtitle}"
+			subtitle: "{ftbquests.chapter.mystical_agriculture.quest5.subtitle}"
 			tasks: [{
 				id: "5A8F544AD3C7FA43"
 				item: "mysticalagriculture:supremium_essence"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.mystical_agriculture.quest6C52741D22052A14.title}"
+			title: "{ftbquests.chapter.mystical_agriculture.quest5.title}"
 			x: 2.0d
 			y: -7.5d
 		}
@@ -189,13 +189,13 @@
 				type: "item"
 			}]
 			shape: "rsquare"
-			subtitle: "{ftbquests.chapter.mystical_agriculture.quest4970CC2851818A02.subtitle}"
+			subtitle: "{ftbquests.chapter.mystical_agriculture.quest6.subtitle}"
 			tasks: [{
 				id: "799329ED8A028E70"
 				item: "mysticalagradditions:insanium_essence"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.mystical_agriculture.quest4970CC2851818A02.title}"
+			title: "{ftbquests.chapter.mystical_agriculture.quest6.title}"
 			x: 8.0d
 			y: -7.5d
 		}
@@ -298,13 +298,13 @@
 		{
 			dependencies: ["3A83B7208433E77E"]
 			description: [
-				"{ftbquests.chapter.mystical_agriculture.quest449C60985F16226E.description1}"
+				"{ftbquests.chapter.mystical_agriculture.quest13.description1}"
 				""
-				"{ftbquests.chapter.mystical_agriculture.quest449C60985F16226E.description2}"
+				"{ftbquests.chapter.mystical_agriculture.quest13.description2}"
 				""
-				"{ftbquests.chapter.mystical_agriculture.quest449C60985F16226E.description3}"
+				"{ftbquests.chapter.mystical_agriculture.quest13.description3}"
 				""
-				"{ftbquests.chapter.mystical_agriculture.quest449C60985F16226E.description4}"
+				"{ftbquests.chapter.mystical_agriculture.quest13.description4}"
 			]
 			id: "449C60985F16226E"
 			min_width: 300
@@ -345,7 +345,7 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.mystical_agriculture.quest449C60985F16226E.title}"
+			title: "{ftbquests.chapter.mystical_agriculture.quest13.title}"
 			x: -22.0d
 			y: -3.0d
 		}
@@ -389,7 +389,7 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.mystical_agriculture.quest49BA104F2E73D3D0.title}"
+			title: "{ftbquests.chapter.mystical_agriculture.quest14.title}"
 			x: -16.0d
 			y: -3.0d
 		}
@@ -433,7 +433,7 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.mystical_agriculture.quest7076CEF6294F6310.title}"
+			title: "{ftbquests.chapter.mystical_agriculture.quest15.title}"
 			x: -10.0d
 			y: -3.0d
 		}
@@ -477,7 +477,7 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.mystical_agriculture.quest5B8090AE76C3EC15.title}"
+			title: "{ftbquests.chapter.mystical_agriculture.quest16.title}"
 			x: -4.0d
 			y: -3.0d
 		}
@@ -521,7 +521,7 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.mystical_agriculture.quest3C5D84B0D51474E7.title}"
+			title: "{ftbquests.chapter.mystical_agriculture.quest17.title}"
 			x: 2.0d
 			y: -3.0d
 		}
@@ -560,16 +560,16 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.mystical_agriculture.quest383784BD11018358.title}"
+			title: "{ftbquests.chapter.mystical_agriculture.quest18.title}"
 			x: 8.0d
 			y: -3.0d
 		}
 		{
 			dependencies: ["3A83B7208433E77E"]
 			description: [
-				"{ftbquests.chapter.mystical_agriculture.quest7FB0BABF99C78B45.description1}"
+				"{ftbquests.chapter.mystical_agriculture.quest19.description1}"
 				""
-				"{ftbquests.chapter.mystical_agriculture.quest7FB0BABF99C78B45.description2}"
+				"{ftbquests.chapter.mystical_agriculture.quest19.description2}"
 			]
 			id: "7FB0BABF99C78B45"
 			rewards: [{
@@ -671,10 +671,10 @@
 						]
 					}
 				}
-				title: "{ftbquests.chapter.mystical_agriculture.quest7FB0BABF99C78B45.task.6137072861688319819.title}"
+				title: "{ftbquests.chapter.mystical_agriculture.quest19.task_6137072861688319819.title}"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.mystical_agriculture.quest7FB0BABF99C78B45.title}"
+			title: "{ftbquests.chapter.mystical_agriculture.quest19.title}"
 			x: -23.5d
 			y: -4.5d
 		}
@@ -829,9 +829,9 @@
 		{
 			dependencies: ["24902049F1152926"]
 			description: [
-				"{ftbquests.chapter.mystical_agriculture.quest31A06D0CDFE935A7.description1}"
+				"{ftbquests.chapter.mystical_agriculture.quest29.description1}"
 				""
-				"{ftbquests.chapter.mystical_agriculture.quest31A06D0CDFE935A7.description2}"
+				"{ftbquests.chapter.mystical_agriculture.quest29.description2}"
 			]
 			id: "31A06D0CDFE935A7"
 			rewards: [{
@@ -852,16 +852,16 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.mystical_agriculture.quest31A06D0CDFE935A7.title}"
+			title: "{ftbquests.chapter.mystical_agriculture.quest29.title}"
 			x: 15.0d
 			y: -6.5d
 		}
 		{
 			dependencies: ["2E397DEC7A70A2A8"]
 			description: [
-				"{ftbquests.chapter.mystical_agriculture.quest458826F7BC0D3554.description1}"
+				"{ftbquests.chapter.mystical_agriculture.quest30.description1}"
 				""
-				"{ftbquests.chapter.mystical_agriculture.quest458826F7BC0D3554.description2}"
+				"{ftbquests.chapter.mystical_agriculture.quest30.description2}"
 			]
 			id: "458826F7BC0D3554"
 			rewards: [{
@@ -883,12 +883,12 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.mystical_agriculture.quest458826F7BC0D3554.title}"
+			title: "{ftbquests.chapter.mystical_agriculture.quest30.title}"
 			x: 15.0d
 			y: -4.5d
 		}
 		{
-			description: ["{ftbquests.chapter.mystical_agriculture.quest2E747C1C2DB534B5.description1}"]
+			description: ["{ftbquests.chapter.mystical_agriculture.quest31.description1}"]
 			disable_toast: true
 			icon: {
 				Count: 1
@@ -911,18 +911,18 @@
 				id: "00954CEB0D4ECDCB"
 				type: "checkmark"
 			}]
-			title: "{ftbquests.chapter.mystical_agriculture.quest2E747C1C2DB534B5.title}"
+			title: "{ftbquests.chapter.mystical_agriculture.quest31.title}"
 			x: -22.0d
 			y: -9.75d
 		}
 		{
 			dependencies: ["16F3395D7F66884E"]
 			description: [
-				"{ftbquests.chapter.mystical_agriculture.quest66F55A558D9D8046.description1}"
+				"{ftbquests.chapter.mystical_agriculture.quest32.description1}"
 				""
-				"{ftbquests.chapter.mystical_agriculture.quest66F55A558D9D8046.description2}"
+				"{ftbquests.chapter.mystical_agriculture.quest32.description2}"
 				""
-				"{ftbquests.chapter.mystical_agriculture.quest66F55A558D9D8046.description3}"
+				"{ftbquests.chapter.mystical_agriculture.quest32.description3}"
 				""
 			]
 			hide_dependency_lines: true
@@ -970,7 +970,7 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.mystical_agriculture.quest66F55A558D9D8046.title}"
+			title: "{ftbquests.chapter.mystical_agriculture.quest32.title}"
 			x: 15.0d
 			y: -7.5d
 		}
@@ -1103,9 +1103,9 @@
 		{
 			dependencies: ["6C52741D22052A14"]
 			description: [
-				"{ftbquests.chapter.mystical_agriculture.quest586C269FAAC6D0AB.description1}"
+				"{ftbquests.chapter.mystical_agriculture.quest39.description1}"
 				""
-				"{ftbquests.chapter.mystical_agriculture.quest586C269FAAC6D0AB.description2}"
+				"{ftbquests.chapter.mystical_agriculture.quest39.description2}"
 			]
 			hide_dependency_lines: true
 			id: "586C269FAAC6D0AB"
@@ -1134,7 +1134,7 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.mystical_agriculture.quest586C269FAAC6D0AB.title}"
+			title: "{ftbquests.chapter.mystical_agriculture.quest39.title}"
 			x: 14.0d
 			y: -4.5d
 		}
@@ -1157,9 +1157,9 @@
 		{
 			dependencies: ["3A83B7208433E77E"]
 			description: [
-				"{ftbquests.chapter.mystical_agriculture.quest511DD8761FFFD191.description1}"
+				"{ftbquests.chapter.mystical_agriculture.quest41.description1}"
 				""
-				"{ftbquests.chapter.mystical_agriculture.quest511DD8761FFFD191.description2}"
+				"{ftbquests.chapter.mystical_agriculture.quest41.description2}"
 			]
 			id: "511DD8761FFFD191"
 			rewards: [{
@@ -1213,16 +1213,16 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.mystical_agriculture.quest511DD8761FFFD191.title}"
+			title: "{ftbquests.chapter.mystical_agriculture.quest41.title}"
 			x: -23.5d
 			y: -5.5d
 		}
 		{
 			dependencies: ["28586493542A3B3A"]
 			description: [
-				"{ftbquests.chapter.mystical_agriculture.quest2B929B5A07037BD9.description1}"
+				"{ftbquests.chapter.mystical_agriculture.quest42.description1}"
 				""
-				"{ftbquests.chapter.mystical_agriculture.quest2B929B5A07037BD9.description2}"
+				"{ftbquests.chapter.mystical_agriculture.quest42.description2}"
 			]
 			hide_dependency_lines: true
 			id: "2B929B5A07037BD9"
@@ -1322,7 +1322,7 @@
 		}
 		{
 			dependencies: ["4970CC2851818A02"]
-			description: ["{ftbquests.chapter.mystical_agriculture.quest7CD3468178DB684E.description1}"]
+			description: ["{ftbquests.chapter.mystical_agriculture.quest48.description1}"]
 			hide_dependency_lines: true
 			id: "7CD3468178DB684E"
 			rewards: [{
@@ -1331,13 +1331,13 @@
 				type: "item"
 			}]
 			shape: "hexagon"
-			subtitle: "{ftbquests.chapter.mystical_agriculture.quest7CD3468178DB684E.subtitle}"
+			subtitle: "{ftbquests.chapter.mystical_agriculture.quest48.subtitle}"
 			tasks: [{
 				id: "362BCA59E34B3E7D"
 				item: "mysticalagradditions:creative_essence"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.mystical_agriculture.quest7CD3468178DB684E.title}"
+			title: "{ftbquests.chapter.mystical_agriculture.quest48.title}"
 			x: 14.0d
 			y: -7.5d
 		}
@@ -1443,10 +1443,10 @@
 						]
 					}
 				}
-				title: "{ftbquests.chapter.mystical_agriculture.quest4E6FF002D6C5580E.task.8651388905749086439.title}"
+				title: "{ftbquests.chapter.mystical_agriculture.quest49.task_8651388905749086439.title}"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.mystical_agriculture.quest4E6FF002D6C5580E.title}"
+			title: "{ftbquests.chapter.mystical_agriculture.quest49.title}"
 			x: -14.5d
 			y: -4.5d
 		}
@@ -1504,7 +1504,7 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.mystical_agriculture.quest746C4B9DEC8DE25C.title}"
+			title: "{ftbquests.chapter.mystical_agriculture.quest50.title}"
 			x: -14.5d
 			y: -5.5d
 		}
@@ -1610,10 +1610,10 @@
 						]
 					}
 				}
-				title: "{ftbquests.chapter.mystical_agriculture.quest2192DB99EC17807E.task.6213838790235964760.title}"
+				title: "{ftbquests.chapter.mystical_agriculture.quest51.task_6213838790235964760.title}"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.mystical_agriculture.quest2192DB99EC17807E.title}"
+			title: "{ftbquests.chapter.mystical_agriculture.quest51.title}"
 			x: -11.5d
 			y: -4.0d
 		}
@@ -1719,10 +1719,10 @@
 						]
 					}
 				}
-				title: "{ftbquests.chapter.mystical_agriculture.quest1A6E8D9F8C1DDE91.task.6319649890803935779.title}"
+				title: "{ftbquests.chapter.mystical_agriculture.quest52.task_6319649890803935779.title}"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.mystical_agriculture.quest1A6E8D9F8C1DDE91.title}"
+			title: "{ftbquests.chapter.mystical_agriculture.quest52.title}"
 			x: -2.5d
 			y: -4.5d
 		}
@@ -1780,7 +1780,7 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.mystical_agriculture.quest70EFB06E6ADA9DA6.title}"
+			title: "{ftbquests.chapter.mystical_agriculture.quest53.title}"
 			x: -2.5d
 			y: -5.5d
 		}
@@ -1838,7 +1838,7 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.mystical_agriculture.quest5004AE3D175A02A6.title}"
+			title: "{ftbquests.chapter.mystical_agriculture.quest54.title}"
 			x: 0.5d
 			y: -5.5d
 		}
@@ -1896,7 +1896,7 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.mystical_agriculture.quest1C7595C546E3ADF2.title}"
+			title: "{ftbquests.chapter.mystical_agriculture.quest55.title}"
 			x: -11.5d
 			y: -5.0d
 		}
@@ -1966,10 +1966,10 @@
 						]
 					}
 				}
-				title: "{ftbquests.chapter.mystical_agriculture.quest6013A55D0A31137E.task.1038733918421474197.title}"
+				title: "{ftbquests.chapter.mystical_agriculture.quest56.task_1038733918421474197.title}"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.mystical_agriculture.quest6013A55D0A31137E.title}"
+			title: "{ftbquests.chapter.mystical_agriculture.quest56.title}"
 			x: 0.5d
 			y: -4.5d
 		}
@@ -2039,10 +2039,10 @@
 						]
 					}
 				}
-				title: "{ftbquests.chapter.mystical_agriculture.quest5853A6A7DC4BF393.task.5733508258134098571.title}"
+				title: "{ftbquests.chapter.mystical_agriculture.quest57.task_5733508258134098571.title}"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.mystical_agriculture.quest5853A6A7DC4BF393.title}"
+			title: "{ftbquests.chapter.mystical_agriculture.quest57.title}"
 			x: 9.5d
 			y: -4.5d
 		}
@@ -2100,7 +2100,7 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.mystical_agriculture.quest1C14C5EED8076080.title}"
+			title: "{ftbquests.chapter.mystical_agriculture.quest58.title}"
 			x: 9.5d
 			y: -5.5d
 		}
@@ -2114,13 +2114,13 @@
 				type: "item"
 			}]
 			shape: "rsquare"
-			subtitle: "{ftbquests.chapter.mystical_agriculture.quest1E4E718BB7A63EFD.subtitle}"
+			subtitle: "{ftbquests.chapter.mystical_agriculture.quest59.subtitle}"
 			tasks: [{
 				id: "4DBB187E9ADA4384"
 				item: "mysticalagriculture:awakened_supremium_essence"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.mystical_agriculture.quest1E4E718BB7A63EFD.title}"
+			title: "{ftbquests.chapter.mystical_agriculture.quest59.title}"
 			x: 13.0d
 			y: -7.5d
 		}
@@ -2146,7 +2146,7 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.mystical_agriculture.quest23EAABD5221EB3ED.title}"
+			title: "{ftbquests.chapter.mystical_agriculture.quest60.title}"
 			x: 13.0d
 			y: -6.5d
 		}
@@ -2218,10 +2218,10 @@
 						]
 					}
 				}
-				title: "{ftbquests.chapter.mystical_agriculture.quest6213EC800B6C9A60.task.1422797945092551883.title}"
+				title: "{ftbquests.chapter.mystical_agriculture.quest61.task_1422797945092551883.title}"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.mystical_agriculture.quest6213EC800B6C9A60.title}"
+			title: "{ftbquests.chapter.mystical_agriculture.quest61.title}"
 			x: 13.0d
 			y: -4.5d
 		}
@@ -2281,13 +2281,13 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.mystical_agriculture.quest1FCFAE491EF9E348.title}"
+			title: "{ftbquests.chapter.mystical_agriculture.quest62.title}"
 			x: 13.0d
 			y: -5.5d
 		}
 		{
 			dependencies: ["586C269FAAC6D0AB"]
-			description: ["{ftbquests.chapter.mystical_agriculture.quest29C451D97A47A48C.description1}"]
+			description: ["{ftbquests.chapter.mystical_agriculture.quest63.description1}"]
 			hide_dependency_lines: true
 			id: "29C451D97A47A48C"
 			rewards: [{
@@ -2301,13 +2301,13 @@
 				item: "mysticalagriculture:cognizant_dust"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.mystical_agriculture.quest29C451D97A47A48C.title}"
+			title: "{ftbquests.chapter.mystical_agriculture.quest63.title}"
 			x: 14.0d
 			y: -5.5d
 		}
 		{
 			dependencies: ["7FB0BABF99C78B45"]
-			description: ["{ftbquests.chapter.mystical_agriculture.quest55C1EB0809EDA131.description1}"]
+			description: ["{ftbquests.chapter.mystical_agriculture.quest64.description1}"]
 			hide_dependency_lines: true
 			id: "55C1EB0809EDA131"
 			rewards: [{
@@ -2416,10 +2416,10 @@
 						]
 					}
 				}
-				title: "{ftbquests.chapter.mystical_agriculture.quest55C1EB0809EDA131.task.8615332862295181751.title}"
+				title: "{ftbquests.chapter.mystical_agriculture.quest64.task_8615332862295181751.title}"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.mystical_agriculture.quest55C1EB0809EDA131.title}"
+			title: "{ftbquests.chapter.mystical_agriculture.quest64.title}"
 			x: 15.0d
 			y: -3.5d
 		}
@@ -4623,9 +4623,9 @@
 		{
 			dependencies: ["60B83836D990E8AC"]
 			description: [
-				"{ftbquests.chapter.mystical_agriculture.quest2B7ACC7B3F0C13E4.description1}"
+				"{ftbquests.chapter.mystical_agriculture.quest202.description1}"
 				""
-				"{ftbquests.chapter.mystical_agriculture.quest2B7ACC7B3F0C13E4.description2}"
+				"{ftbquests.chapter.mystical_agriculture.quest202.description2}"
 			]
 			id: "2B7ACC7B3F0C13E4"
 			rewards: [{
@@ -4676,11 +4676,11 @@
 		}
 		{
 			description: [
-				"{ftbquests.chapter.mystical_agriculture.quest76729738389C5C5F.description1}"
+				"{ftbquests.chapter.mystical_agriculture.quest205.description1}"
 				""
-				"{ftbquests.chapter.mystical_agriculture.quest76729738389C5C5F.description2}"
+				"{ftbquests.chapter.mystical_agriculture.quest205.description2}"
 				""
-				"{ftbquests.chapter.mystical_agriculture.quest76729738389C5C5F.description3}"
+				"{ftbquests.chapter.mystical_agriculture.quest205.description3}"
 			]
 			id: "76729738389C5C5F"
 			min_width: 350

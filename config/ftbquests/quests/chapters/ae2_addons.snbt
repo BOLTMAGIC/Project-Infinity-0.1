@@ -63,29 +63,29 @@
 		{
 			dependencies: ["32317607D34C7CA5"]
 			description: [
-				"{ftbquests.chapter.applied_energistics_2.quest32A2624C78A14A38.description1}"
+				"{ftbquests.chapter.ae2_addons.quest1.description1}"
 				""
-				"{ftbquests.chapter.applied_energistics_2.quest32A2624C78A14A38.description2}"
-				"{ftbquests.chapter.applied_energistics_2.quest32A2624C78A14A38.description3}"
-				"{ftbquests.chapter.applied_energistics_2.quest32A2624C78A14A38.description4}"
+				"{ftbquests.chapter.ae2_addons.quest1.description2}"
+				"{ftbquests.chapter.ae2_addons.quest1.description3}"
+				"{ftbquests.chapter.ae2_addons.quest1.description4}"
 				""
-				"{ftbquests.chapter.applied_energistics_2.quest32A2624C78A14A38.description5}"
-				"{ftbquests.chapter.applied_energistics_2.quest32A2624C78A14A38.description6}"
-				"{ftbquests.chapter.applied_energistics_2.quest32A2624C78A14A38.description7}"
+				"{ftbquests.chapter.ae2_addons.quest1.description5}"
+				"{ftbquests.chapter.ae2_addons.quest1.description6}"
+				"{ftbquests.chapter.ae2_addons.quest1.description7}"
 				""
-				"{ftbquests.chapter.applied_energistics_2.quest32A2624C78A14A38.description8}"
-				"{ftbquests.chapter.applied_energistics_2.quest32A2624C78A14A38.description9}"
-				"{ftbquests.chapter.applied_energistics_2.quest32A2624C78A14A38.description10}"
-				"{ftbquests.chapter.applied_energistics_2.quest32A2624C78A14A38.description11}"
+				"{ftbquests.chapter.ae2_addons.quest1.description8}"
+				"{ftbquests.chapter.ae2_addons.quest1.description9}"
+				"{ftbquests.chapter.ae2_addons.quest1.description10}"
+				"{ftbquests.chapter.ae2_addons.quest1.description11}"
 				""
-				"{ftbquests.chapter.applied_energistics_2.quest32A2624C78A14A38.description12}"
-				"{ftbquests.chapter.applied_energistics_2.quest32A2624C78A14A38.description13}"
+				"{ftbquests.chapter.ae2_addons.quest1.description12}"
+				"{ftbquests.chapter.ae2_addons.quest1.description13}"
 				""
-				"{ftbquests.chapter.applied_energistics_2.quest32A2624C78A14A38.description14}"
+				"{ftbquests.chapter.ae2_addons.quest1.description14}"
 				""
-				"{ftbquests.chapter.applied_energistics_2.quest32A2624C78A14A38.description15}"
+				"{ftbquests.chapter.ae2_addons.quest1.description15}"
 				""
-				"{ftbquests.chapter.applied_energistics_2.quest32A2624C78A14A38.description16}"
+				"{ftbquests.chapter.ae2_addons.quest1.description16}"
 			]
 			icon: "advanced_ae:quantum_core"
 			id: "0B737B8EE54BAB03"
@@ -119,7 +119,7 @@
 							]
 						}
 					}
-					title: "Quantum Computer Storage"
+					title: "{ftbquests.chapter.ae2_addons.quest1.task_2630393248492061494.title}"
 					type: "item"
 				}
 				{
@@ -143,16 +143,16 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.applied_energistics_2.quest32A2624C78A14A38.title}"
+			title: "{ftbquests.chapter.ae2_addons.quest1.title}"
 			x: 3.5d
 			y: -2.0d
 		}
 		{
 			description: [
-				"This tab gathers the &bmost important&r AE2 addons for advanced automation, storage, and crafting."
-				"Use it as a &dquick reference&r for what each mod adds and how they &aenhance&r your &9ME Network&r."
+				"{ftbquests.chapter.ae2_addons.quest2.description1}"
+				"{ftbquests.chapter.ae2_addons.quest2.description2}"
 				""
-				"Special focus lies on &5&lmultiblocks&r that define the late-game AE2 experience."
+				"{ftbquests.chapter.ae2_addons.quest2.description3}"
 			]
 			id: "3E7BA0C70B5569D4"
 			optional: true
@@ -166,48 +166,48 @@
 				id: "6D9F7615BA3221F1"
 				type: "checkmark"
 			}]
-			title: "&bAE2 Addons&r"
+			title: "{ftbquests.chapter.ae2_addons.quest2.title}"
 			x: -1.0d
 			y: 4.0d
 		}
 		{
 			dependencies: ["6AC49CA40C6B2AC5"]
 			description: [
-				"{ftbquests.chapter.applied_energistics_2.quest4D529BF135A82201.description1}"
+				"{ftbquests.chapter.ae2_addons.quest3.description1}"
 				""
-				"{ftbquests.chapter.applied_energistics_2.quest4D529BF135A82201.description2}"
-				"{ftbquests.chapter.applied_energistics_2.quest4D529BF135A82201.description3}"
+				"{ftbquests.chapter.ae2_addons.quest3.description2}"
+				"{ftbquests.chapter.ae2_addons.quest3.description3}"
 				""
-				"{ftbquests.chapter.applied_energistics_2.quest4D529BF135A82201.description4}"
+				"{ftbquests.chapter.ae2_addons.quest3.description4}"
 				""
-				"{ftbquests.chapter.applied_energistics_2.quest4D529BF135A82201.description5}"
+				"{ftbquests.chapter.ae2_addons.quest3.description5}"
 				""
-				"{ftbquests.chapter.applied_energistics_2.quest4D529BF135A82201.description6}"
+				"{ftbquests.chapter.ae2_addons.quest3.description6}"
 				""
-				"{ftbquests.chapter.applied_energistics_2.quest4D529BF135A82201.description7}"
-				"{ftbquests.chapter.applied_energistics_2.quest4D529BF135A82201.description8}"
+				"{ftbquests.chapter.ae2_addons.quest3.description7}"
+				"{ftbquests.chapter.ae2_addons.quest3.description8}"
 				""
-				"{ftbquests.chapter.applied_energistics_2.quest4D529BF135A82201.description9}"
-				"{ftbquests.chapter.applied_energistics_2.quest4D529BF135A82201.description10}"
+				"{ftbquests.chapter.ae2_addons.quest3.description9}"
+				"{ftbquests.chapter.ae2_addons.quest3.description10}"
 				""
-				"{ftbquests.chapter.applied_energistics_2.quest4D529BF135A82201.description11}"
-				"{ftbquests.chapter.applied_energistics_2.quest4D529BF135A82201.description12}"
-				"{ftbquests.chapter.applied_energistics_2.quest4D529BF135A82201.description13}"
-				"{ftbquests.chapter.applied_energistics_2.quest4D529BF135A82201.description14}"
+				"{ftbquests.chapter.ae2_addons.quest3.description11}"
+				"{ftbquests.chapter.ae2_addons.quest3.description12}"
+				"{ftbquests.chapter.ae2_addons.quest3.description13}"
+				"{ftbquests.chapter.ae2_addons.quest3.description14}"
 				""
-				"{ftbquests.chapter.applied_energistics_2.quest4D529BF135A82201.description15}"
-				"{ftbquests.chapter.applied_energistics_2.quest4D529BF135A82201.description16}"
-				"{ftbquests.chapter.applied_energistics_2.quest4D529BF135A82201.description17}"
+				"{ftbquests.chapter.ae2_addons.quest3.description15}"
+				"{ftbquests.chapter.ae2_addons.quest3.description16}"
+				"{ftbquests.chapter.ae2_addons.quest3.description17}"
 				""
-				"{ftbquests.chapter.applied_energistics_2.quest4D529BF135A82201.description18}"
-				"{ftbquests.chapter.applied_energistics_2.quest4D529BF135A82201.description19}"
-				"{ftbquests.chapter.applied_energistics_2.quest4D529BF135A82201.description20}"
+				"{ftbquests.chapter.ae2_addons.quest3.description18}"
+				"{ftbquests.chapter.ae2_addons.quest3.description19}"
+				"{ftbquests.chapter.ae2_addons.quest3.description20}"
 				""
-				"{ftbquests.chapter.applied_energistics_2.quest4D529BF135A82201.description21}"
-				"{ftbquests.chapter.applied_energistics_2.quest4D529BF135A82201.description22}"
-				"{ftbquests.chapter.applied_energistics_2.quest4D529BF135A82201.description23}"
-				"{ftbquests.chapter.applied_energistics_2.quest4D529BF135A82201.description24}"
-				"{ftbquests.chapter.applied_energistics_2.quest4D529BF135A82201.description25}"
+				"{ftbquests.chapter.ae2_addons.quest3.description21}"
+				"{ftbquests.chapter.ae2_addons.quest3.description22}"
+				"{ftbquests.chapter.ae2_addons.quest3.description23}"
+				"{ftbquests.chapter.ae2_addons.quest3.description24}"
+				"{ftbquests.chapter.ae2_addons.quest3.description25}"
 			]
 			id: "5750DF0292AEB823"
 			min_width: 400
@@ -240,7 +240,7 @@
 							]
 						}
 					}
-					title: "{ftbquests.chapter.applied_energistics_2.quest4D529BF135A82201.task.323231805323170957.title}"
+					title: "{ftbquests.chapter.ae2_addons.quest3.task_1718240042708409118.title}"
 					type: "item"
 				}
 				{
@@ -261,7 +261,7 @@
 							]
 						}
 					}
-					title: "{ftbquests.chapter.applied_energistics_2.quest4D529BF135A82201.task.1946419708754787241.title}"
+					title: "{ftbquests.chapter.ae2_addons.quest3.task_2592019656041699917.title}"
 					type: "item"
 				}
 				{
@@ -282,7 +282,7 @@
 							]
 						}
 					}
-					title: "{ftbquests.chapter.applied_energistics_2.quest4D529BF135A82201.task.2071717347688163457.title}"
+					title: "{ftbquests.chapter.ae2_addons.quest3.task_1764460315655432273.title}"
 					type: "item"
 				}
 				{
@@ -303,11 +303,11 @@
 							]
 						}
 					}
-					title: "{ftbquests.chapter.applied_energistics_2.quest4D529BF135A82201.task.8175533383354653458.title}"
+					title: "{ftbquests.chapter.ae2_addons.quest3.task_6247401884921276602.title}"
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.applied_energistics_2.quest4D529BF135A82201.title}"
+			title: "{ftbquests.chapter.ae2_addons.quest3.title}"
 			x: -1.5d
 			y: -2.0d
 		}
@@ -317,18 +317,18 @@
 				"6AC49CA40C6B2AC5"
 			]
 			description: [
-				"{ftbquests.chapter.applied_energistics_2.quest62226CF7455EC7E8.description1}"
+				"{ftbquests.chapter.ae2_addons.quest4.description1}"
 				""
-				"{ftbquests.chapter.applied_energistics_2.quest62226CF7455EC7E8.description2}"
-				"{ftbquests.chapter.applied_energistics_2.quest62226CF7455EC7E8.description3}"
+				"{ftbquests.chapter.ae2_addons.quest4.description2}"
+				"{ftbquests.chapter.ae2_addons.quest4.description3}"
 				""
-				"{ftbquests.chapter.applied_energistics_2.quest62226CF7455EC7E8.description4}"
+				"{ftbquests.chapter.ae2_addons.quest4.description4}"
 				""
-				"{ftbquests.chapter.applied_energistics_2.quest62226CF7455EC7E8.description5}"
+				"{ftbquests.chapter.ae2_addons.quest4.description5}"
 				""
-				"{ftbquests.chapter.applied_energistics_2.quest62226CF7455EC7E8.description6}"
+				"{ftbquests.chapter.ae2_addons.quest4.description6}"
 				""
-				"{ftbquests.chapter.applied_energistics_2.quest62226CF7455EC7E8.description7}"
+				"{ftbquests.chapter.ae2_addons.quest4.description7}"
 			]
 			id: "0EB492FCD3747F13"
 			rewards: [{
@@ -341,7 +341,7 @@
 				item: "extendedae_plus:assembler_matrix_upload_core"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.applied_energistics_2.quest62226CF7455EC7E8.title}"
+			title: "{ftbquests.chapter.ae2_addons.quest4.title}"
 			x: -2.5d
 			y: -2.0d
 		}
@@ -364,7 +364,7 @@
 			size: 2.0d
 			tasks: [{
 				id: "37719F8BBF5C1945"
-				title: "Nice to have"
+				title: "{ftbquests.chapter.ae2_addons.quest6.task_3995149767014095173.title}"
 				type: "checkmark"
 			}]
 			x: -5.0d
@@ -372,7 +372,7 @@
 		}
 		{
 			dependencies: ["3E7BA0C70B5569D4"]
-			description: ["[ \"Quest for \", { \"text\": \"CrazyAE2\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"2E66DFDA5014FCD7\" } }, \" <-- Click me\" ]"]
+			description: ["[\"\",{\"translate\":\"ftbquests.chapter.ae2_addons.quest7.rich_description1\"},{\"underlined\":1,\"translate\":\"ftbquests.chapter.ae2_addons.quest7.rich_description2\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"2E66DFDA5014FCD7\"},{\"translate\":\"ftbquests.chapter.ae2_addons.quest7.rich_description3\"}}]"]
 			icon: "crazyae2addons:super_singularity"
 			id: "37C1E9E74F83826F"
 			rewards: [{
@@ -383,7 +383,7 @@
 			size: 2.0d
 			tasks: [{
 				id: "0FFCA7FFEB122AE9"
-				title: "CrazyAE2"
+				title: "{ftbquests.chapter.ae2_addons.quest7.task_1151980322302339817.title}"
 				type: "checkmark"
 			}]
 			x: -5.0d
@@ -392,24 +392,24 @@
 		{
 			dependencies: ["3E7BA0C70B5569D4"]
 			description: [
-				"The &5&lAssembler Matrix&r and &5&lUltimate Super Assembler Matrix&r are scalable multiblock crafters that combine pattern storage and molecular assembling into one structure."
+				"{ftbquests.chapter.ae2_addons.quest8.description1}"
 				""
-				"Extended AE also adds:"
-				"- &3Infinity Cells&r"
-				"- &3Extended Export Bus &rand &3Extended Import Bus&r"
-				"- &3Pattern Access Terminal&r"
-				"- &3ME Wireless Connector &rand &3ME Wireless Hub &r(single-dimension)"
-				"- &3ME Ingredient Buffer&r"
-				"- &3Circuit Slicer&r"
-				"- &3ME Oversized Interface&r"
-				"- &3Extended Inscriber&r"
+				"{ftbquests.chapter.ae2_addons.quest8.description2}"
+				"{ftbquests.chapter.ae2_addons.quest8.description3}"
+				"{ftbquests.chapter.ae2_addons.quest8.description4}"
+				"{ftbquests.chapter.ae2_addons.quest8.description5}"
+				"{ftbquests.chapter.ae2_addons.quest8.description6}"
+				"{ftbquests.chapter.ae2_addons.quest8.description7}"
+				"{ftbquests.chapter.ae2_addons.quest8.description8}"
+				"{ftbquests.chapter.ae2_addons.quest8.description9}"
+				"{ftbquests.chapter.ae2_addons.quest8.description10}"
 				""
-				"Extended AE Plus adds:"
-				"- &5Wireless Transceiver &r(cross-dimension)"
-				"- &5Mirror Pattern Provider&r"
-				"- &54x–1024x Crafting Accelerators&r"
-				"- &5Super Circuit Cutter&r"
-				"- &5Ultimate Super Assembler Matrix&r"
+				"{ftbquests.chapter.ae2_addons.quest8.description11}"
+				"{ftbquests.chapter.ae2_addons.quest8.description12}"
+				"{ftbquests.chapter.ae2_addons.quest8.description13}"
+				"{ftbquests.chapter.ae2_addons.quest8.description14}"
+				"{ftbquests.chapter.ae2_addons.quest8.description15}"
+				"{ftbquests.chapter.ae2_addons.quest8.description16}"
 			]
 			hide_dependent_lines: true
 			icon: "expatternprovider:assembler_matrix_frame"
@@ -417,26 +417,23 @@
 			size: 2.0d
 			tasks: [{
 				id: "181A82700BAF08C5"
-				title: "ExtendedAE and Plus"
+				title: "{ftbquests.chapter.ae2_addons.quest8.task_1736844024048715973.title}"
 				type: "checkmark"
 			}]
-			title: "&6Extended AE &r+ &6Extended AE Plus&r"
+			title: "{ftbquests.chapter.ae2_addons.quest8.title}"
 			x: -1.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["3E7BA0C70B5569D4"]
-			description: [
-				"{ftbquests.chapter.applied_energistics_2.quest6EE4B174356FB915.description1}"
-				"{ftbquests.chapter.applied_energistics_2.quest6EE4B174356FB915.description2}{ftbquests.chapter.applied_energistics_2.quest6EE4B174356FB915.description3}"
-			]
+			description: ["{ftbquests.chapter.ae2_addons.quest9.description1}"]
 			hide_dependent_lines: true
 			icon: "advanced_ae:quantum_alloy"
 			id: "32317607D34C7CA5"
 			size: 2.0d
 			tasks: [{
 				id: "2A5DE0CA82F5C03F"
-				title: "AdvancedAE"
+				title: "{ftbquests.chapter.ae2_addons.quest9.task_3052843282812223551.title}"
 				type: "checkmark"
 			}]
 			x: 3.0d
@@ -445,30 +442,30 @@
 		{
 			dependencies: ["3E7BA0C70B5569D4"]
 			description: [
-				"The &2Neo ECO AE Extension&r adds three powerful multiblock systems that massively expand your AE2 capabilities."
+				"{ftbquests.chapter.ae2_addons.quest10.description1}"
 				""
-				"The &2Storage System &rprovides huge ME storage with ECO cells up to 256MB, integrated high-density energy storage, and three tiers: &bL4&r, &6L6&r, and &5L9&r."
+				"{ftbquests.chapter.ae2_addons.quest10.description2}"
 				""
-				"The &2Computation System &rreplaces vanilla crafting CPUs with a scalable cluster that supports many parallel crafting threads and massive acceleration across &bC4&r, &6C6&r, and &5C9&r tiers."
+				"{ftbquests.chapter.ae2_addons.quest10.description3}"
 				""
-				"The &2Crafting System &racts as an advanced pattern provider with high parallelism, overclocking, active cooling, and three performance tiers: &bF4&r, &6F6&r, and &5F9&r."
+				"{ftbquests.chapter.ae2_addons.quest10.description4}"
 				""
-				"All multiblocks can be built manually or with the &2Structure Terminal&r, which shows a preview, checks materials, and places missing blocks automatically."
+				"{ftbquests.chapter.ae2_addons.quest10.description5}"
 				""
-				"The &aEnergized Budding Crystal &ris a key material for many components and can be obtained via lightning strikes."
+				"{ftbquests.chapter.ae2_addons.quest10.description6}"
 				""
-				"The &aIntegrated Working Station &rcombines multiple AE2 device functions and is essential for crafting advanced components and multiblock controllers."
+				"{ftbquests.chapter.ae2_addons.quest10.description7}"
 				""
-				"Higher tiers (&b4&r → &66&r → &59&r) give more capacity, speed, and efficiency, but require rarer materials and more power."
+				"{ftbquests.chapter.ae2_addons.quest10.description8}"
 				""
-				"[ \"---> \", { \"text\": \"Click ME\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"340776B18E840067\" } }, \" <---\" ]"
+				"[\"\",{\"translate\":\"ftbquests.chapter.ae2_addons.quest10.rich_description1\"},{\"underlined\":1,\"translate\":\"ftbquests.chapter.ae2_addons.quest10.rich_description2\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"340776B18E840067\"},{\"translate\":\"ftbquests.chapter.ae2_addons.quest10.rich_description3\"}}]"
 			]
 			icon: "neoecoae:energized_crystal"
 			id: "2A8BE548681A5CD5"
 			size: 2.0d
 			tasks: [{
 				id: "4ABC918EFB8B409D"
-				title: "Neo Eco AE Extension"
+				title: "{ftbquests.chapter.ae2_addons.quest10.task_5385339297719861405.title}"
 				type: "checkmark"
 			}]
 			x: 3.0d
@@ -481,7 +478,7 @@
 			size: 2.0d
 			tasks: [{
 				id: "3C074690BB134F29"
-				title: "AE Omni Cells"
+				title: "{ftbquests.chapter.ae2_addons.quest11.task_4325503554540490537.title}"
 				type: "checkmark"
 			}]
 			x: 3.0d
@@ -498,7 +495,7 @@
 			size: 2.0d
 			tasks: [{
 				id: "60C27F4744C9DAB8"
-				title: "All the cells"
+				title: "{ftbquests.chapter.ae2_addons.quest12.task_6972275117196434104.title}"
 				type: "checkmark"
 			}]
 			x: -5.0d
@@ -507,9 +504,9 @@
 		{
 			dependencies: ["6AC49CA40C6B2AC5"]
 			description: [
-				"The &3Infinity Cells&r provide infinite amounts of basic resources directly in your ME system."
+				"{ftbquests.chapter.ae2_addons.quest13.description1}"
 				""
-				"The &3Infinity Water Cell &rgives unlimited water, and the &3Infinity Cobblestone Cell &rgives unlimited cobblestone, removing the need for external generators."
+				"{ftbquests.chapter.ae2_addons.quest13.description2}"
 			]
 			id: "7F9EFE01915D6BB4"
 			tasks: [{
@@ -652,7 +649,7 @@
 						]
 					}
 				}
-				title: "Infinity Cells"
+				title: "{ftbquests.chapter.ae2_addons.quest13.task_2194865556061768854.title}"
 				type: "item"
 			}]
 			x: -0.5d
@@ -661,9 +658,9 @@
 		{
 			dependencies: ["6AC49CA40C6B2AC5"]
 			description: [
-				"The &3Extended Import Bus &rand &3Extended Export Bus&r offer higher throughput and more upgrade slots than vanilla AE2 buses."
+				"{ftbquests.chapter.ae2_addons.quest14.description1}"
 				""
-				"They operate &38× faster &rby default and support &38 upgrade slots&r instead of 5, allowing more acceleration, capacity, and control cards."
+				"{ftbquests.chapter.ae2_addons.quest14.description2}"
 			]
 			id: "25531495682B5C7C"
 			tasks: [
@@ -678,16 +675,16 @@
 					type: "item"
 				}
 			]
-			title: "ME Extended Import \\& Export Bus"
+			title: "{ftbquests.chapter.ae2_addons.quest14.title}"
 			x: 0.5d
 			y: -2.0d
 		}
 		{
 			dependencies: ["6AC49CA40C6B2AC5"]
 			description: [
-				"The &3ME Extended Pattern Access Terminal &rprovides a searchable overview of all pattern providers on your ME network."
+				"{ftbquests.chapter.ae2_addons.quest15.description1}"
 				""
-				"It shows patterns with their inputs and outputs, lets you filter by item or fluid, and can highlight the actual pattern provider block in the world."
+				"{ftbquests.chapter.ae2_addons.quest15.description2}"
 			]
 			id: "72DFA70BEBBA7A13"
 			tasks: [{
@@ -701,10 +698,10 @@
 		{
 			dependencies: ["6AC49CA40C6B2AC5"]
 			description: [
-				"The &3ME Wireless Hub &racts as a central hub that can connect up to 8 wireless connectors or hubs, distributing up to 32 channels total."
-				"Both require the &3ME Wireless Setup Kit &rto bind connections and only work within a single dimension."
+				"{ftbquests.chapter.ae2_addons.quest16.description1}"
+				"{ftbquests.chapter.ae2_addons.quest16.description2}"
 				""
-				"The &3ME Wireless Connector &rcreates a wireless link between two points in the same dimension, transmitting up to 32 channels without cables."
+				"{ftbquests.chapter.ae2_addons.quest16.description3}"
 			]
 			id: "6EFF07C8B2647AC4"
 			tasks: [
@@ -725,9 +722,9 @@
 		{
 			dependencies: ["6AC49CA40C6B2AC5"]
 			description: [
-				"The &3ME Ingredient Buffer &rstores items and fluids in one block and can be paired with a Pattern Provider to automate complex recipes."
+				"{ftbquests.chapter.ae2_addons.quest17.description1}"
 				""
-				"This setup allows you to automate multiblocks like the &5Antimatter Protomolecular Transmutator (APT) &rand the &5Fire Attuned Multiblock&r by buffering all required ingredients in one place."
+				"{ftbquests.chapter.ae2_addons.quest17.description2}"
 			]
 			id: "5D3C1D51D721CD9A"
 			tasks: [{
@@ -741,9 +738,9 @@
 		{
 			dependencies: ["6AC49CA40C6B2AC5"]
 			description: [
-				"The &3Circuit Slicer &rconverts whole blocks directly into printed circuits without needing inscriber presses."
+				"{ftbquests.chapter.ae2_addons.quest18.description1}"
 				""
-				"It processes materials like gold, diamond, silicon, and entro blocks into multiple circuit prints at once, making it much faster than vanilla inscribers."
+				"{ftbquests.chapter.ae2_addons.quest18.description2}"
 			]
 			id: "14AA0A797643E635"
 			tasks: [{
@@ -757,11 +754,11 @@
 		{
 			dependencies: ["6AC49CA40C6B2AC5"]
 			description: [
-				"The &3ME Oversized Interface &rextends the vanilla interface with more slots and higher stack limits."
+				"{ftbquests.chapter.ae2_addons.quest19.description1}"
 				""
-				"It offers 4 rows of slots (32 total) and supports stack sizes up to 1024, making it ideal for high-throughput item and fluid buffering."
+				"{ftbquests.chapter.ae2_addons.quest19.description2}"
 				""
-				"Use it to keep large ingredient buffers for multiblocks or machines that consume resources faster than a normal interface can supply."
+				"{ftbquests.chapter.ae2_addons.quest19.description3}"
 			]
 			id: "45EFBBB707F48607"
 			tasks: [{
@@ -775,11 +772,11 @@
 		{
 			dependencies: ["6AC49CA40C6B2AC5"]
 			description: [
-				"The &3Extended Inscriber &rcombines four inscriber operations into a single block, running up to four jobs simultaneously."
+				"{ftbquests.chapter.ae2_addons.quest20.description1}"
 				""
-				"It has four separate job pages, each with its own press and input slots, allowing you to produce different circuits or processors in one machine."
+				"{ftbquests.chapter.ae2_addons.quest20.description2}"
 				""
-				"This makes it ideal for compact processor factories, though for late-game circuits the &3Circuit Slicer &rand &3Crystal Assembler &rare often faster alternatives."
+				"{ftbquests.chapter.ae2_addons.quest20.description3}"
 			]
 			id: "7C1E0996C1FF18C1"
 			tasks: [{
@@ -793,13 +790,13 @@
 		{
 			dependencies: ["6AC49CA40C6B2AC5"]
 			description: [
-				"The &5Wireless Transceiver &rcreates a wireless ME channel link that works across any distance and even across dimensions."
+				"{ftbquests.chapter.ae2_addons.quest21.description1}"
 				""
-				"Place one transceiver on your main ME Controller and another at your remote base, then set both to the same channel frequency to link them."
+				"{ftbquests.chapter.ae2_addons.quest21.description2}"
 				""
-				"Unlike the ME Wireless Connector, the &5Wireless Transceiver &rdoes not require a setup kit and supports full cross-dimension networks."
+				"{ftbquests.chapter.ae2_addons.quest21.description3}"
 				""
-				"The chunk containing the main transceiver must be chunk-loaded for the connection to remain active."
+				"{ftbquests.chapter.ae2_addons.quest21.description4}"
 			]
 			id: "2E3C4ECC926E9FE1"
 			tasks: [{
@@ -813,11 +810,11 @@
 		{
 			dependencies: ["6AC49CA40C6B2AC5"]
 			description: [
-				"The &5Mirror Pattern Provider &rlets you mirror the patterns of other Pattern Providers or Extended Pattern Providers using the &5Mirror Binding Tool&r."
+				"{ftbquests.chapter.ae2_addons.quest22.description1}"
 				""
-				"Once linked, it acts as a remote copy of the original provider's patterns, allowing you to distribute crafting logic across your base without re-encoding everything."
+				"{ftbquests.chapter.ae2_addons.quest22.description2}"
 				""
-				"&4Sidenote&r: Don't place too many Mirror Pattern Providers, as they can become laggy when overused."
+				"{ftbquests.chapter.ae2_addons.quest22.description3}"
 			]
 			id: "61770BE75E7C81D9"
 			tasks: [{
@@ -831,13 +828,13 @@
 		{
 			dependencies: ["6AC49CA40C6B2AC5"]
 			description: [
-				"The &54x, 16x, 64x, 256x, and 1024x Crafting Accelerators&r are multiblock components that massively increase the crafting speed of your AE2 Crafting CPUs."
+				"{ftbquests.chapter.ae2_addons.quest23.description1}"
 				""
-				"Place them inside a Crafting CPU multiblock alongside Crafting Storage and Co-Processors to reduce the time required for complex or large-scale autocrafting jobs."
+				"{ftbquests.chapter.ae2_addons.quest23.description2}"
 				""
-				"Higher-tier accelerators provide exponentially faster crafting, but also consume significantly more power per tick."
+				"{ftbquests.chapter.ae2_addons.quest23.description3}"
 				""
-				"Use them to push your autocrafting system far beyond vanilla AE2 limits, especially when combined with high-speed machines and pattern providers."
+				"{ftbquests.chapter.ae2_addons.quest23.description4}"
 			]
 			id: "6ABCE5A68448E852"
 			tasks: [{
@@ -870,7 +867,7 @@
 						]
 					}
 				}
-				title: "Crafting Accelerators"
+				title: "{ftbquests.chapter.ae2_addons.quest23.task_4008985993716004940.title}"
 				type: "item"
 			}]
 			x: -2.5d
@@ -992,44 +989,44 @@
 		{
 			dependencies: ["3E7BA0C70B5569D4"]
 			description: [
-				"# OmniSequence"
+				"{ftbquests.chapter.ae2_addons.quest32.description1}"
 				""
-				"&3&lOmniSequence&r is an end-game automation mod built on &b&lAE2&r."
-				"It adds high-throughput crafting CPUs, molecular sequence rewriting, and large-scale computation to turn massive resource flows into reliable, scalable production."
+				"{ftbquests.chapter.ae2_addons.quest32.description2}"
+				"{ftbquests.chapter.ae2_addons.quest32.description3}"
 				""
-				"## What it does"
+				"{ftbquests.chapter.ae2_addons.quest32.description4}"
 				""
-				"The mod introduces the &2&lMatter Fabrication Well&r as the central research and processing hub."
-				"From there, you unlock two main branches: the &3&lSequence Array&r for molecular rewriting and parallel crafting, and the &d&lOmni-Computation&r branch for effectively unlimited logical crafting storage and parallelism via the &3&lOmni-Computation Core&r."
+				"{ftbquests.chapter.ae2_addons.quest32.description5}"
+				"{ftbquests.chapter.ae2_addons.quest32.description6}"
 				""
-				"Key features include:"
+				"{ftbquests.chapter.ae2_addons.quest32.description7}"
 				""
-				"- Virtual parallel crafting with extremely high logical CPU capacity."
-				"- Internal pattern libraries and dedicated auto-crafting slots."
-				"- Matter deconstruction and rewriting similar to transmutation, with configurable rules."
-				"- Cross-dimensional network links via &b&lAE2 Quantum Rings&r."
-				"- Strong spawn protection around formed multiblocks."
+				"{ftbquests.chapter.ae2_addons.quest32.description8}"
+				"{ftbquests.chapter.ae2_addons.quest32.description9}"
+				"{ftbquests.chapter.ae2_addons.quest32.description10}"
+				"{ftbquests.chapter.ae2_addons.quest32.description11}"
+				"{ftbquests.chapter.ae2_addons.quest32.description12}"
 				""
-				"## Why use it"
+				"{ftbquests.chapter.ae2_addons.quest32.description13}"
 				""
-				"Use OmniSequence when standard &b&lAE2&r autocrafting hits limits in throughput, complexity, or scale."
-				"It is designed for late-game bases that need:"
+				"{ftbquests.chapter.ae2_addons.quest32.description14}"
+				"{ftbquests.chapter.ae2_addons.quest32.description15}"
 				""
-				"- Massive, stable &b&lautocrafting&r for complex modpack recipes."
-				"- Efficient conversion of bulk resources into high-value components."
-				"- Centralized, research-driven progression that gates powerful machines behind clear milestones."
-				"- Compact, high-performance crafting that reduces the need for thousands of individual pattern providers and machines."
+				"{ftbquests.chapter.ae2_addons.quest32.description16}"
+				"{ftbquests.chapter.ae2_addons.quest32.description17}"
+				"{ftbquests.chapter.ae2_addons.quest32.description18}"
+				"{ftbquests.chapter.ae2_addons.quest32.description19}"
 				""
-				"## When you need it"
+				"{ftbquests.chapter.ae2_addons.quest32.description20}"
 				""
-				"You will benefit from OmniSequence once you:"
+				"{ftbquests.chapter.ae2_addons.quest32.description21}"
 				""
-				"- Run large &b&lME Networks&r with heavy crafting demand."
-				"- Want to automate expensive, multi-step recipes without exploding lag or block counts."
-				"- Plan cross-dimensional production or remote crafting hubs."
-				"- Aim for a clean, scalable end-game automation layer instead of ad-hoc machine rooms."
+				"{ftbquests.chapter.ae2_addons.quest32.description22}"
+				"{ftbquests.chapter.ae2_addons.quest32.description23}"
+				"{ftbquests.chapter.ae2_addons.quest32.description24}"
+				"{ftbquests.chapter.ae2_addons.quest32.description25}"
 				""
-				"In short: OmniSequence turns your &b&lAE2&r network into a true industrial fabricator, combining research, computation, and matter rewriting into one cohesive end-game system."
+				"{ftbquests.chapter.ae2_addons.quest32.description26}"
 			]
 			icon: "molecularmanipulator:molecular_center_controller"
 			id: "13A47F2EB18B8951"
@@ -1037,7 +1034,7 @@
 			size: 2.0d
 			tasks: [{
 				id: "7CB4DC0079B27013"
-				title: "OmniSequence"
+				title: "{ftbquests.chapter.ae2_addons.quest32.task_8986049051110830099.title}"
 				type: "checkmark"
 			}]
 			x: -1.0d
@@ -1046,32 +1043,32 @@
 		{
 			dependencies: ["6AC49CA40C6B2AC5"]
 			description: [
-				"The &dUltimate Super Assembler Matrix Builder &ris a special tool from &2Extended AE Plus &rthat places and instantly forms the complete &dUltimate Super Assembler &rmultiblock structure."
+				"{ftbquests.chapter.ae2_addons.quest33.description1}"
 				""
-				"After you select an origin by right-clicking a block face, the builder shows a &bpreview &rof the entire matrix; hold &bCtrl &rwhile previewing to see the individual structure parts."
+				"{ftbquests.chapter.ae2_addons.quest33.description2}"
 				""
-				"You can change the origin at any time by sneak-right-clicking another block, or cancel the selection by sneak-right-clicking air."
+				"{ftbquests.chapter.ae2_addons.quest33.description3}"
 				""
-				"When you right-click with an origin selected, the builder checks every required block position first; it will not overwrite existing blocks, and a failed placement leaves the world unchanged."
+				"{ftbquests.chapter.ae2_addons.quest33.description4}"
 				""
-				"You must first bind the builder to an &3ME Interface &rby sneak-right-clicking it; the tool then simulates the full material cost in that ME network before building."
+				"{ftbquests.chapter.ae2_addons.quest33.description5}"
 				""
-				"If all required items are available, the builder extracts them and places the complete multiblock; if not, the chat lists every missing item and amount, and no materials are consumed."
+				"{ftbquests.chapter.ae2_addons.quest33.description6}"
 				""
 				"{@pagebreak}"
-				"The &6Super Assembler Matrix &ris a powerful multiblock crafting provider for &2AE2 &rthat integrates directly into your normal autocrafting system."
+				"{ftbquests.chapter.ae2_addons.quest33.description7}"
 				""
-				"Once formed, you connect any active matrix block to your &3ME Network&r and can then use its stored crafting patterns through the standard AE2 autocrafting interface."
+				"{ftbquests.chapter.ae2_addons.quest33.description8}"
 				""
-				"The structure is built as a sealed cuboid between &b3×3×3 &rand &b9×9×9 &rblocks, with &6Matrix Frames &ron every outer edge and &6Matrix Walls &r(or compatible glass) on the remaining outer surfaces."
+				"{ftbquests.chapter.ae2_addons.quest33.description9}"
 				""
-				"All internal positions must be filled with &6Super Assembler Matrix Hybrid Cores&r; original ExtendedAE matrix cores cannot be used in this structure."
+				"{ftbquests.chapter.ae2_addons.quest33.description10}"
 				""
-				"Each &6Hybrid Core &rcombines the effects of a Pattern Core, Crafting Core, and Speed Core: it provides &b72 pattern slots&r, &b512 crafting jobs&r, and the speed bonus of &bfive regular Speed Cores&r."
+				"{ftbquests.chapter.ae2_addons.quest33.description11}"
 				""
-				"Only AE2 molecular-assembler compatible crafting patterns can be inserted into the matrix; other pattern types are not supported."
+				"{ftbquests.chapter.ae2_addons.quest33.description12}"
 				""
-				"For endgame bases, the &dUltimate Super Assembler Matrix &ris a fixed &b14×16×14 &rstructure with 312 Hybrid Cores and 4 Upload Cores, offering &b22,464 pattern slots &rand effectively unlimited parallel crafting capacity."
+				"{ftbquests.chapter.ae2_addons.quest33.description13}"
 			]
 			id: "6B0F9F8E8E2CC938"
 			tasks: [
@@ -1096,26 +1093,26 @@
 					type: "item"
 				}
 			]
-			title: "Ultimate Super Assembler Matrix"
+			title: "{ftbquests.chapter.ae2_addons.quest33.title}"
 			x: -2.5d
 			y: -3.0d
 		}
 		{
 			dependencies: ["6AC49CA40C6B2AC5"]
 			description: [
-				"The &6Super Circuit Cutter &ris an advanced machine from &2Extended AE Plus &rthat processes circuit-cutter recipes with up to &b8 parallels &rin a single cycle."
+				"{ftbquests.chapter.ae2_addons.quest34.description1}"
 				""
-				"It works like a normal circuit cutter, but instead of one recipe at a time, it can run up to &b8 copies &rof the same recipe simultaneously, as long as it has enough items, fluid, and output space."
+				"{ftbquests.chapter.ae2_addons.quest34.description2}"
 				""
-				"To use it, insert the required &3item &rand &9fluid &rinto the machine; it will automatically choose how many parallels (1–8) it can run based on available inputs and AE power."
+				"{ftbquests.chapter.ae2_addons.quest34.description3}"
 				""
-				"Each parallel operation consumes its own share of &6AE, items, and fluid&r, and all outputs are combined into the machine’s output slot."
+				"{ftbquests.chapter.ae2_addons.quest34.description4}"
 				""
-				"If the output slot cannot hold a full batch, the machine automatically reduces the number of parallels instead of wasting resources."
+				"{ftbquests.chapter.ae2_addons.quest34.description5}"
 				""
-				"The &6Super Circuit Cutter &rhas an internal buffer of &b64,000 AE &rand supports up to &b4 AE2 Speed Cards&r, which reduce processing time but do not increase the 8-recipe parallel limit."
+				"{ftbquests.chapter.ae2_addons.quest34.description6}"
 				""
-				"Enable &aAuto-Export &rin the machine interface to automatically send finished circuits to adjacent inventories for easier integration into your production lines."
+				"{ftbquests.chapter.ae2_addons.quest34.description7}"
 			]
 			id: "756B51C99CFFB4D3"
 			tasks: [{
@@ -1244,34 +1241,34 @@
 		{
 			dependencies: ["63465F6B67C8633A"]
 			description: [
-				"# Molecular Sequence Rewrite Array"
+				"{ftbquests.chapter.ae2_addons.quest40.description1}"
 				""
-				"The &3&lMolecular Sequence Rewrite Array&r is a high-throughput &b&lautocrafting&r machine."
-				"It stores encoded patterns like a &b&lPattern Provider&r, but performs every molecular-assembler-compatible recipe inside the block instead of sending ingredients to adjacent machines."
+				"{ftbquests.chapter.ae2_addons.quest40.description2}"
+				"{ftbquests.chapter.ae2_addons.quest40.description3}"
 				""
-				"## Setup"
+				"{ftbquests.chapter.ae2_addons.quest40.description4}"
 				""
-				"Complete &2&lStage II: Sequence Array&r once in the &2&lMatter Fabrication Well&r, then produce this machine there."
-				"Deep research improves its well manufacturing recipe, not the performance of the placed array."
+				"{ftbquests.chapter.ae2_addons.quest40.description5}"
+				"{ftbquests.chapter.ae2_addons.quest40.description6}"
 				""
-				"1. Connect the array to a powered &b&lME Network&r with an available channel."
-				"2. Right-click it and insert encoded &b&lcrafting&r, &b&lsmithing&r, or &b&lstonecutting&r patterns."
-				"3. Use the page buttons to move through the fixed pattern inventory: &e&l10 pages&r with &e&l36 slots&r each, for a total of &e&l360 pattern slots&r."
-				"4. Request one of the encoded results from an &b&lME terminal&r as usual."
+				"{ftbquests.chapter.ae2_addons.quest40.description7}"
+				"{ftbquests.chapter.ae2_addons.quest40.description8}"
+				"{ftbquests.chapter.ae2_addons.quest40.description9}"
+				"{ftbquests.chapter.ae2_addons.quest40.description10}"
 				""
-				"Processing patterns are not executed internally."
-				"Use a normal &b&lPattern Provider&r and an external machine for those."
+				"{ftbquests.chapter.ae2_addons.quest40.description11}"
+				"{ftbquests.chapter.ae2_addons.quest40.description12}"
 				""
-				"## Processing and outputs"
+				"{ftbquests.chapter.ae2_addons.quest40.description13}"
 				""
-				"The array uses virtual parallel processing and can finish supported recipes in as little as &e&l1 tick&r."
-				"Actual throughput still depends on available ingredients, &b&lME power&r, and whether the network can accept the results."
+				"{ftbquests.chapter.ae2_addons.quest40.description14}"
+				"{ftbquests.chapter.ae2_addons.quest40.description15}"
 				""
-				"Recipe results, intermediate products, and container remainders are aggregated by AE key and returned to the &b&lME Network&r."
-				"If the network cannot accept them immediately, the array keeps them in a persistent output buffer and retries later, including after a world reload."
+				"{ftbquests.chapter.ae2_addons.quest40.description16}"
+				"{ftbquests.chapter.ae2_addons.quest40.description17}"
 				""
-				"Normal block drops retain patterns, inventory, and pending returns."
-				"Replace the array and restore its &b&lME connection&r to continue."
+				"{ftbquests.chapter.ae2_addons.quest40.description18}"
+				"{ftbquests.chapter.ae2_addons.quest40.description19}"
 			]
 			id: "39466F9FC8385BA2"
 			min_width: 450
@@ -1286,90 +1283,90 @@
 		{
 			dependencies: ["63465F6B67C8633A"]
 			description: [
-				"# Sequence Array Controller"
+				"{ftbquests.chapter.ae2_addons.quest41.description1}"
 				""
-				"The &3&lSequence Array Controller&r builds a &3&lSequence Array&r on a &e&l61×61&r footprint and &e&l29 blocks&r tall."
-				"The active layout is the baseless &d&lFrost Feather Crown&r with a central controller."
-				"When complete, it merges massive parallel &b&lAE crafting&r, per-pattern passive auto crafting, &a&lmatter sequence rewriting&r, and an optional cross-dimensional &9&lquantum link&r."
+				"{ftbquests.chapter.ae2_addons.quest41.description2}"
+				"{ftbquests.chapter.ae2_addons.quest41.description3}"
+				"{ftbquests.chapter.ae2_addons.quest41.description4}"
 				""
-				"## Autocrafting"
+				"{ftbquests.chapter.ae2_addons.quest41.description5}"
 				""
-				"The completed array supports virtual parallelism up to the signed 64-bit limit."
-				"Actual throughput still depends on &e&lingredients&r, &b&lenergy&r, &6&loutput capacity&r, and server tick time."
+				"{ftbquests.chapter.ae2_addons.quest41.description6}"
+				"{ftbquests.chapter.ae2_addons.quest41.description7}"
 				""
-				"The &d&lAuto Crafting&r tab provides its own row of &e&l9 dedicated pattern slots&r and never pulls patterns from the large library."
-				"Place patterns directly into these slots, then click the numbered selector or right-click the slot to configure it."
-				"New patterns start &c&ldisabled&r."
-				"Each logical input has an independent &b&lME reserve&r: passive crafting never extracts enough of that ingredient or any valid substitute to drop its stock below the reserve."
-				"The primary output has an &b&lME stock limit&r; `0` disables that limit and continues until protected ingredients or &b&lAE power&r run out."
-				"Conditions are re-checked automatically, so a paused pattern resumes when stock, power, or output capacity returns."
+				"{ftbquests.chapter.ae2_addons.quest41.description8}"
+				"{ftbquests.chapter.ae2_addons.quest41.description9}"
+				"{ftbquests.chapter.ae2_addons.quest41.description10}"
+				"{ftbquests.chapter.ae2_addons.quest41.description11}"
+				"{ftbquests.chapter.ae2_addons.quest41.description12}"
+				"{ftbquests.chapter.ae2_addons.quest41.description13}"
 				""
-				"Passive batches pull directly from this controller's &b&lME Network&r and use the `Long.MAX_VALUE` aggregate execution path without acceleration cards."
-				"Primary outputs, byproducts, containers, reusable ingredients, and rollback refunds return exclusively to &b&lME&r through persistent escrow."
-				"There is no internal-storage or adjacent-inventory output mode."
+				"{ftbquests.chapter.ae2_addons.quest41.description14}"
+				"{ftbquests.chapter.ae2_addons.quest41.description15}"
+				"{ftbquests.chapter.ae2_addons.quest41.description16}"
 				"{@pagebreak}"
-				"### Reusable inputs and cancellation"
+				"{ftbquests.chapter.ae2_addons.quest41.description17}"
 				""
-				"The array can run same-key remainders, including &e&lunbreakable items&r, as one persistent reusable batch."
-				"Finite-durability tools are batched only when every craft deterministically adds exactly one damage; &e&lUnbreaking&r-enchanted or otherwise random and context-dependent tools fall back to &b&lAE2&r's original one-craft path."
-				"Key-changing remainders such as &9&lwater buckets&r also remain on that path."
+				"{ftbquests.chapter.ae2_addons.quest41.description18}"
+				"{ftbquests.chapter.ae2_addons.quest41.description19}"
+				"{ftbquests.chapter.ae2_addons.quest41.description20}"
 				""
-				"Accepted reusable batches survive saves, chunk unloads, and server restarts."
-				"Canceling the &b&lAE2&r crafting job persistently stops all remaining executions and refunds the exact unused materials plus the reusable item's current state."
-				"Completed outputs remain valid, and canceled work cannot resume after reload."
-				"Batch energy uses &b&lAE2&r's native pattern-power calculation over the actual combined inputs."
+				"{ftbquests.chapter.ae2_addons.quest41.description21}"
+				"{ftbquests.chapter.ae2_addons.quest41.description22}"
+				"{ftbquests.chapter.ae2_addons.quest41.description23}"
+				"{ftbquests.chapter.ae2_addons.quest41.description24}"
 				""
-				"## Matter sequence rewriting"
+				"{ftbquests.chapter.ae2_addons.quest41.description25}"
 				""
-				"The matter-rewriting system works like item transmutation in &d&lEquivalent Exchange&r: supported items are deconstructed into stored sequence, and that sequence is then spent to reproduce other supported items."
-				"&2&lMetal&r, &2&lmineral&r, &b&lcrystal&r, and &a&lorganic sequence&r are stored separately."
-				"Deconstruction yields and rewriting costs are different values, so an item is not necessarily reproduced for the same amount recovered from deconstructing it."
+				"{ftbquests.chapter.ae2_addons.quest41.description26}"
+				"{ftbquests.chapter.ae2_addons.quest41.description27}"
+				"{ftbquests.chapter.ae2_addons.quest41.description28}"
 				"{@pagebreak}"
-				"### Rewriting"
+				"{ftbquests.chapter.ae2_addons.quest41.description29}"
 				""
-				"Place one real item in the &d&lBlueprint Sample&r slot and start rewriting."
-				"The array spends that item's configured sequence cost to create copies."
-				"The sample itself is never consumed, but it must stay in the slot unchanged for the entire job; removing or replacing it stops the job."
+				"{ftbquests.chapter.ae2_addons.quest41.description30}"
+				"{ftbquests.chapter.ae2_addons.quest41.description31}"
+				"{ftbquests.chapter.ae2_addons.quest41.description32}"
 				""
-				"Rewritten items can return directly to the &b&lME Network&r or enter the controller's output slot."
-				"A target of `0` runs continuously."
-				"If stored sequence or &b&lME power&r is temporarily insufficient, the job waits and retries."
-				"A changed blueprint or blocked output stops it."
+				"{ftbquests.chapter.ae2_addons.quest41.description33}"
+				"{ftbquests.chapter.ae2_addons.quest41.description34}"
+				"{ftbquests.chapter.ae2_addons.quest41.description35}"
+				"{ftbquests.chapter.ae2_addons.quest41.description36}"
 				""
-				"Up to &e&l4 AE2 acceleration cards&r affect batch size, batch interval, and entropy cooling for both operations."
-				"Modpacks may configure each value; defaults are:"
+				"{ftbquests.chapter.ae2_addons.quest41.description37}"
+				"{ftbquests.chapter.ae2_addons.quest41.description38}"
 				""
-				"### Rewrite entropy"
+				"{ftbquests.chapter.ae2_addons.quest41.description39}"
 				""
-				"Rewrite entropy is a heat-like throughput limit for matter deconstruction and rewriting; it does not affect normal autocrafting."
-				"Every successful operation adds entropy based on the total sequence handled:"
+				"{ftbquests.chapter.ae2_addons.quest41.description40}"
+				"{ftbquests.chapter.ae2_addons.quest41.description41}"
 				""
-				"- Deconstruction adds at least &e&l1 entropy&r, or the total recovered sequence divided by &e&l64&r."
-				"- Rewriting adds at least &e&l1 entropy&r, or the total sequence cost divided by &e&l16&r."
+				"{ftbquests.chapter.ae2_addons.quest41.description42}"
+				"{ftbquests.chapter.ae2_addons.quest41.description43}"
 				""
-				"Default entropy capacity is &e&l1,000,000&r."
-				"Base cooling is &e&l25 per second&r, multiplied by the installed cards' cooling multiplier; &e&l4 cards&r therefore remove &e&l1,600 per second&r by default."
-				"Capacity, base cooling, and multipliers are configurable."
-				"Insufficient free entropy capacity pauses work in &5&lCooling&r until it can resume."
-				"If a single operation costs more entropy than total capacity, waiting cannot solve it: change the target or configuration."
-				"Cards do not change entropy per item; the net accumulation depends on processing throughput and cooling together."
+				"{ftbquests.chapter.ae2_addons.quest41.description44}"
+				"{ftbquests.chapter.ae2_addons.quest41.description45}"
+				"{ftbquests.chapter.ae2_addons.quest41.description46}"
+				"{ftbquests.chapter.ae2_addons.quest41.description47}"
+				"{ftbquests.chapter.ae2_addons.quest41.description48}"
+				"{ftbquests.chapter.ae2_addons.quest41.description49}"
 				"{@pagebreak}"
-				"## Quantum link and visual settings"
+				"{ftbquests.chapter.ae2_addons.quest41.description50}"
 				""
-				"The quantum slot accepts one half of a paired entangled singularity."
-				"Place the other half in a powered &b&lAE2 Quantum Ring&r to connect the array across dimensions."
-				"Before the structure is formed, this remote link can only retrieve construction materials."
-				"A full link consumes an additional &e&l512 AE/t&r and &e&l1 channel&r."
+				"{ftbquests.chapter.ae2_addons.quest41.description51}"
+				"{ftbquests.chapter.ae2_addons.quest41.description52}"
+				"{ftbquests.chapter.ae2_addons.quest41.description53}"
+				"{ftbquests.chapter.ae2_addons.quest41.description54}"
 				""
-				"The colors tab changes the energy field, core, rings, and crystal effects."
-				"These settings are visual only and do not affect processing speed."
+				"{ftbquests.chapter.ae2_addons.quest41.description55}"
+				"{ftbquests.chapter.ae2_addons.quest41.description56}"
 				""
-				"## Natural spawning protection"
+				"{ftbquests.chapter.ae2_addons.quest41.description57}"
 				""
-				"While formed, constructing, dismantling, or updating its structure, the array blocks natural spawning in all occupied chunks from bedrock to build height."
-				"This includes &c&lmonsters&r, &e&lanimals&r, &b&laquatic mobs&r, and &7&lbats&r, plus &c&lpatrol&r and &c&lreinforcement spawns&r."
-				"&6&lSpawners&r, &e&lspawn eggs&r, &d&lbreeding&r, &b&lcommands&r, and already-existing mobs are not affected."
-				"This protection works without &b&lAE power&r; if no structure or operation owns a chunk, spawning returns to normal there."
+				"{ftbquests.chapter.ae2_addons.quest41.description58}"
+				"{ftbquests.chapter.ae2_addons.quest41.description59}"
+				"{ftbquests.chapter.ae2_addons.quest41.description60}"
+				"{ftbquests.chapter.ae2_addons.quest41.description61}"
 			]
 			id: "39248F0A9EB6D513"
 			min_width: 450
@@ -1411,42 +1408,42 @@
 		{
 			dependencies: ["13A47F2EB18B8951"]
 			description: [
-				"# Matter Fabrication Well"
+				"{ftbquests.chapter.ae2_addons.quest42.description1}"
 				""
-				"The &3&lMatter Fabrication Well&r combines material processing, &b&lAE autocrafting&r and research."
-				"It starts this mod's progression: craft its controller, structural blocks and ports with base &b&lAE2&r materials, then research advanced materials and machines."
-				"The &6&lPattern Assembly&r is produced in the well after the first research unlock."
+				"{ftbquests.chapter.ae2_addons.quest42.description2}"
+				"{ftbquests.chapter.ae2_addons.quest42.description3}"
+				"{ftbquests.chapter.ae2_addons.quest42.description4}"
 				""
-				"## Natural spawning protection"
+				"{ftbquests.chapter.ae2_addons.quest42.description5}"
 				""
-				"While formed, constructing, dismantling, or updating its structure, this multiblock blocks natural spawning throughout the full height of its occupied chunks, including &c&lmonsters&r, &e&lanimals&r, &b&laquatic mobs&r, and &7&lbats&r."
-				"&c&lPatrol&r and &c&lreinforcement spawns&r are also blocked."
-				"&6&lSpawners&r, &e&lspawn eggs&r, &d&lbreeding&r, &b&lcommands&r, and existing mobs are unaffected."
-				"Protection does not require &b&lAE power&r; when no structure or operation owns a chunk, spawning there returns to normal."
+				"{ftbquests.chapter.ae2_addons.quest42.description6}"
+				"{ftbquests.chapter.ae2_addons.quest42.description7}"
+				"{ftbquests.chapter.ae2_addons.quest42.description8}"
+				"{ftbquests.chapter.ae2_addons.quest42.description9}"
 				""
-				"## Processing and research"
+				"{ftbquests.chapter.ae2_addons.quest42.description10}"
 				""
-				"A new controller starts at &e&lstage 0&r."
-				"The &2&lfirst research&r unlocks &b&lAE material processing&r, materials used by later research, and the &6&lPattern Assembly&r recipe."
-				"&2&lStage two&r has separate &3&lSequence Array&r and &d&lOmni-Computation&r branches."
-				"By default, one completion of &2&lstage one&r is sufficient; both branches may run together."
+				"{ftbquests.chapter.ae2_addons.quest42.description11}"
+				"{ftbquests.chapter.ae2_addons.quest42.description12}"
+				"{ftbquests.chapter.ae2_addons.quest42.description13}"
+				"{ftbquests.chapter.ae2_addons.quest42.description14}"
 				""
-				"For ordinary processing, supply the appropriate item/fluid input ports and provide output ports for the results."
-				"For &b&lAE autocrafting&r, insert matching processing patterns into a &6&lPattern Assembly&r."
-				"JEI and guide recipe panels show the research that unlocks each processing recipe."
-				"Research permissions and bonuses belong to this controller."
+				"{ftbquests.chapter.ae2_addons.quest42.description15}"
+				"{ftbquests.chapter.ae2_addons.quest42.description16}"
+				"{ftbquests.chapter.ae2_addons.quest42.description17}"
+				"{ftbquests.chapter.ae2_addons.quest42.description18}"
 				"{@pagebreak}"
-				"## Operation and persistence"
+				"{ftbquests.chapter.ae2_addons.quest42.description19}"
 				""
-				"Production displays rotating star rings, converging material streams, and manufacturing scan layers."
-				"Independent research constellations appear above them, including simultaneous branches."
-				"Paused, prerequisite-blocked, offline, or unpowered research stops sending light pulses."
-				"Custom stages receive an automatic visual preset."
+				"{ftbquests.chapter.ae2_addons.quest42.description20}"
+				"{ftbquests.chapter.ae2_addons.quest42.description21}"
+				"{ftbquests.chapter.ae2_addons.quest42.description22}"
+				"{ftbquests.chapter.ae2_addons.quest42.description23}"
 				""
-				"Only the current well blueprint is retained; experimental development layouts are no longer recognized."
-				"The controller force-loads the required chunks while formed or during construction and dismantling."
-				"Tickets are released when no valid structure or operation needs them."
-				"Chunk loading does not supply materials or energy."
+				"{ftbquests.chapter.ae2_addons.quest42.description24}"
+				"{ftbquests.chapter.ae2_addons.quest42.description25}"
+				"{ftbquests.chapter.ae2_addons.quest42.description26}"
+				"{ftbquests.chapter.ae2_addons.quest42.description27}"
 			]
 			id: "63465F6B67C8633A"
 			min_width: 450
@@ -1513,37 +1510,37 @@
 		{
 			dependencies: ["63465F6B67C8633A"]
 			description: [
-				"# Omni-Computation Core"
+				"{ftbquests.chapter.ae2_addons.quest43.description1}"
 				""
-				"The &3&lOmni-Computation Core&r is a floating &e&l65×65×35&r end-game &b&lcrafting CPU&r."
-				"When formed and online, it provides effectively unlimited logical crafting storage and parallelism."
+				"{ftbquests.chapter.ae2_addons.quest43.description2}"
+				"{ftbquests.chapter.ae2_addons.quest43.description3}"
 				""
-				"Its controller and components are produced in the &2&lMatter Fabrication Well&r after the first completion of &2&lStage II: Omni-Computation&r research."
-				"Defaults require one stage-one completion and &e&l30 seconds&r per stage-two round."
+				"{ftbquests.chapter.ae2_addons.quest43.description4}"
+				"{ftbquests.chapter.ae2_addons.quest43.description5}"
 				""
-				"## Autocrafting"
+				"{ftbquests.chapter.ae2_addons.quest43.description6}"
 				""
-				"The core creates virtual CPU lanes and keeps an idle lane available."
-				"Once formed and online, crafting requests on its network can use the accelerated planner when its normal conditions are met."
-				"Cyclic crafting still needs a valid starting seed and all other ingredients."
-				"A successful plan does not remove material or power requirements."
+				"{ftbquests.chapter.ae2_addons.quest43.description7}"
+				"{ftbquests.chapter.ae2_addons.quest43.description8}"
+				"{ftbquests.chapter.ae2_addons.quest43.description9}"
+				"{ftbquests.chapter.ae2_addons.quest43.description10}"
 				""
-				"Dispatch adapts to machine acceptance and server load."
-				"&6&lIngredients&r, &b&lenergy&r, &c&lbackpressure&r, and server tick time still limit actual throughput."
+				"{ftbquests.chapter.ae2_addons.quest43.description11}"
+				"{ftbquests.chapter.ae2_addons.quest43.description12}"
 				""
-				"## Persistence and remote access"
+				"{ftbquests.chapter.ae2_addons.quest43.description13}"
 				""
-				"The core force-loads required chunks while formed and during construction, dismantling, or structure updates."
-				"Normal controller drops retain stored contents, active jobs, and quantum-slot contents."
-				"Restore the structure and network after replacing it."
+				"{ftbquests.chapter.ae2_addons.quest43.description14}"
+				"{ftbquests.chapter.ae2_addons.quest43.description15}"
+				"{ftbquests.chapter.ae2_addons.quest43.description16}"
 				""
-				"If part of the structure is broken or unloaded, active jobs, stored ingredients, and progress are preserved."
-				"Work resumes after the complete structure is loaded and valid again."
+				"{ftbquests.chapter.ae2_addons.quest43.description17}"
+				"{ftbquests.chapter.ae2_addons.quest43.description18}"
 				""
-				"The quantum slot accepts one half of a paired entangled singularity."
-				"Place the other half in a powered &b&lAE2 Quantum Ring&r to connect the core across dimensions."
-				"The quantum link consumes an additional &e&l512 AE/t&r and &e&l1 channel&r."
-				"A wired connection and a conflicting remote network cannot be used at the same time."
+				"{ftbquests.chapter.ae2_addons.quest43.description19}"
+				"{ftbquests.chapter.ae2_addons.quest43.description20}"
+				"{ftbquests.chapter.ae2_addons.quest43.description21}"
+				"{ftbquests.chapter.ae2_addons.quest43.description22}"
 			]
 			id: "0D4935F66A7A1590"
 			min_width: 450
@@ -1603,5 +1600,5 @@
 			y: 10.5d
 		}
 	]
-	title: "AE2 Addons"
+	title: "{ftbquests.chapter.ae2_addons.title}"
 }

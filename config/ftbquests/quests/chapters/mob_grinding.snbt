@@ -10,13 +10,13 @@
 	quests: [
 		{
 			description: [
-				"{ftbquests.chapter.mob_grinding.quest7E200B1A028DF704.description1}"
+				"{ftbquests.chapter.mob_grinding.quest1.description1}"
 				""
-				"{ftbquests.chapter.mob_grinding.quest7E200B1A028DF704.description2}"
+				"{ftbquests.chapter.mob_grinding.quest1.description2}"
 				""
-				"{ftbquests.chapter.mob_grinding.quest7E200B1A028DF704.description3}"
+				"{ftbquests.chapter.mob_grinding.quest1.description3}"
 				""
-				"{ftbquests.chapter.mob_grinding.quest7E200B1A028DF704.description4}"
+				"{ftbquests.chapter.mob_grinding.quest1.description4}"
 			]
 			id: "7E200B1A028DF704"
 			min_width: 300
@@ -68,9 +68,9 @@
 		}
 		{
 			description: [
-				"{ftbquests.chapter.mob_grinding.quest6A752619712F23A1.description1}"
+				"{ftbquests.chapter.mob_grinding.quest3.description1}"
 				""
-				"{ftbquests.chapter.mob_grinding.quest6A752619712F23A1.description2}"
+				"{ftbquests.chapter.mob_grinding.quest3.description2}"
 			]
 			id: "6A752619712F23A1"
 			rewards: [
@@ -266,7 +266,7 @@
 				item: "cataclysm:abyssal_egg"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.mob_grinding.quest35A2FAE57A8C60C7.title}"
+			title: "{ftbquests.chapter.mob_grinding.quest10.title}"
 			x: -1.5d
 			y: -3.0d
 		}
@@ -325,7 +325,7 @@
 				type: "kill"
 				value: 1L
 			}]
-			title: "{ftbquests.chapter.mob_grinding.quest3D5F259F0263E4AD.title}"
+			title: "{ftbquests.chapter.mob_grinding.quest12.title}"
 			x: 6.5d
 			y: -2.5d
 		}
@@ -353,16 +353,16 @@
 				item: "cataclysm:witherite_ingot"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.mob_grinding.quest48E3CB3381D466E3.title}"
+			title: "{ftbquests.chapter.mob_grinding.quest13.title}"
 			x: 6.5d
 			y: -4.0d
 		}
 		{
 			dependencies: ["2EA2F770EFCD342B"]
 			description: [
-				"{ftbquests.chapter.mob_grinding.quest7904E7153115E60B.description1}"
+				"{ftbquests.chapter.mob_grinding.quest14.description1}"
 				""
-				"{ftbquests.chapter.mob_grinding.quest7904E7153115E60B.description2}"
+				"{ftbquests.chapter.mob_grinding.quest14.description2}"
 			]
 			id: "7904E7153115E60B"
 			rewards: [
@@ -392,7 +392,7 @@
 				item: "cataclysm:meat_shredder"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.mob_grinding.quest7904E7153115E60B.title}"
+			title: "{ftbquests.chapter.mob_grinding.quest14.title}"
 			x: 6.5d
 			y: -7.0d
 		}
@@ -424,7 +424,7 @@
 				}
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.mob_grinding.quest39DBEDCA587BA1E1.title}"
+			title: "{ftbquests.chapter.mob_grinding.quest15.title}"
 			x: 5.5d
 			y: -7.0d
 		}
@@ -450,7 +450,7 @@
 				item: "cataclysm:wither_assault_shoulder_weapon"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.mob_grinding.quest61FF844439FCBE0E.title}"
+			title: "{ftbquests.chapter.mob_grinding.quest16.title}"
 			x: 7.5d
 			y: -7.0d
 		}
@@ -475,7 +475,7 @@
 				item: "cataclysm:mechanical_fusion_anvil"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.mob_grinding.quest2EA2F770EFCD342B.title}"
+			title: "{ftbquests.chapter.mob_grinding.quest17.title}"
 			x: 6.5d
 			y: -5.5d
 		}
@@ -838,12 +838,12 @@
 		}
 		{
 			description: [
-				"{ftbquests.chapter.mob_grinding.quest2DECC405722071F7.description1}"
+				"{ftbquests.chapter.mob_grinding.quest37.description1}"
 				""
-				"{ftbquests.chapter.mob_grinding.quest2DECC405722071F7.description2}"
-				"{ftbquests.chapter.mob_grinding.quest2DECC405722071F7.description3}"
-				"{ftbquests.chapter.mob_grinding.quest2DECC405722071F7.description4}"
-				"{ftbquests.chapter.mob_grinding.quest2DECC405722071F7.description5}"
+				"{ftbquests.chapter.mob_grinding.quest37.description2}"
+				"{ftbquests.chapter.mob_grinding.quest37.description3}"
+				"{ftbquests.chapter.mob_grinding.quest37.description4}"
+				"{ftbquests.chapter.mob_grinding.quest37.description5}"
 			]
 			id: "2DECC405722071F7"
 			min_width: 300
@@ -864,8 +864,8 @@
 		}
 		{
 			description: [
-				"{ftbquests.chapter.mob_grinding.quest1E621425409F2864.description1}"
-				"{ftbquests.chapter.mob_grinding.quest1E621425409F2864.description2}"
+				"{ftbquests.chapter.mob_grinding.quest38.description1}"
+				"{ftbquests.chapter.mob_grinding.quest38.description2}"
 			]
 			id: "1E621425409F2864"
 			rewards: [{
@@ -939,11 +939,11 @@
 		}
 		{
 			description: [
-				"{ftbquests.chapter.mob_grinding.quest6DAA43F5088D6196.description1}"
+				"{ftbquests.chapter.mob_grinding.quest42.description1}"
 				""
-				"{ftbquests.chapter.mob_grinding.quest6DAA43F5088D6196.description2}"
+				"{ftbquests.chapter.mob_grinding.quest42.description2}"
 				""
-				"{ftbquests.chapter.mob_grinding.quest6DAA43F5088D6196.description3}"
+				"{ftbquests.chapter.mob_grinding.quest42.description3}"
 			]
 			id: "6DAA43F5088D6196"
 			min_width: 300
@@ -1000,18 +1000,18 @@
 		}
 		{
 			description: [
-				"{ftbquests.chapter.mob_grinding.quest7D61929378EAC308.description1}"
-				"{ftbquests.chapter.mob_grinding.quest7D61929378EAC308.description2}"
-				"{ftbquests.chapter.mob_grinding.quest7D61929378EAC308.description3}"
+				"{ftbquests.chapter.mob_grinding.quest45.description1}"
+				"{ftbquests.chapter.mob_grinding.quest45.description2}"
+				"{ftbquests.chapter.mob_grinding.quest45.description3}"
 				""
 				""
-				"{ftbquests.chapter.mob_grinding.quest7D61929378EAC308.description4}"
-				"{ftbquests.chapter.mob_grinding.quest7D61929378EAC308.description5}"
-				"{ftbquests.chapter.mob_grinding.quest7D61929378EAC308.description6}"
-				"{ftbquests.chapter.mob_grinding.quest7D61929378EAC308.description7}"
-				"{ftbquests.chapter.mob_grinding.quest7D61929378EAC308.description8}"
-				"{ftbquests.chapter.mob_grinding.quest7D61929378EAC308.description9}"
-				"{ftbquests.chapter.mob_grinding.quest7D61929378EAC308.description10}"
+				"{ftbquests.chapter.mob_grinding.quest45.description4}"
+				"{ftbquests.chapter.mob_grinding.quest45.description5}"
+				"{ftbquests.chapter.mob_grinding.quest45.description6}"
+				"{ftbquests.chapter.mob_grinding.quest45.description7}"
+				"{ftbquests.chapter.mob_grinding.quest45.description8}"
+				"{ftbquests.chapter.mob_grinding.quest45.description9}"
+				"{ftbquests.chapter.mob_grinding.quest45.description10}"
 			]
 			id: "7D61929378EAC308"
 			min_width: 300
@@ -1133,7 +1133,7 @@
 			y: 10.0d
 		}
 		{
-			description: ["{ftbquests.chapter.mob_grinding.quest56B496FCD6877FE6.description1}"]
+			description: ["{ftbquests.chapter.mob_grinding.quest52.description1}"]
 			id: "56B496FCD6877FE6"
 			rewards: [{
 				id: "2F9F0E869EA1103E"
@@ -1151,7 +1151,7 @@
 		}
 		{
 			dependencies: ["7396DDBFF4D4ECC1"]
-			description: ["{ftbquests.chapter.mob_grinding.quest6C0EB4981AA33466.description1}"]
+			description: ["{ftbquests.chapter.mob_grinding.quest53.description1}"]
 			id: "6C0EB4981AA33466"
 			rewards: [{
 				id: "30D0618635C97406"
@@ -1170,8 +1170,8 @@
 		{
 			dependencies: ["56B496FCD6877FE6"]
 			description: [
-				"{ftbquests.chapter.mob_grinding.quest7396DDBFF4D4ECC1.description1}"
-				"{ftbquests.chapter.mob_grinding.quest7396DDBFF4D4ECC1.description2}"
+				"{ftbquests.chapter.mob_grinding.quest54.description1}"
+				"{ftbquests.chapter.mob_grinding.quest54.description2}"
 			]
 			id: "7396DDBFF4D4ECC1"
 			rewards: [{
@@ -1189,7 +1189,7 @@
 			y: 5.5d
 		}
 		{
-			description: ["{ftbquests.chapter.mob_grinding.quest343154008E85BAE3.description1}"]
+			description: ["{ftbquests.chapter.mob_grinding.quest55.description1}"]
 			id: "343154008E85BAE3"
 			rewards: [{
 				id: "5B83180AF1F3A918"
@@ -1208,8 +1208,8 @@
 		{
 			dependencies: ["7396DDBFF4D4ECC1"]
 			description: [
-				"{ftbquests.chapter.mob_grinding.quest4F4A0970FD4D5A3E.description1}"
-				"{ftbquests.chapter.mob_grinding.quest4F4A0970FD4D5A3E.description2}"
+				"{ftbquests.chapter.mob_grinding.quest56.description1}"
+				"{ftbquests.chapter.mob_grinding.quest56.description2}"
 			]
 			id: "4F4A0970FD4D5A3E"
 			rewards: [{
@@ -1333,13 +1333,13 @@
 		{
 			dependencies: ["64F63DCDA106EC3B"]
 			description: [
-				"{ftbquests.chapter.mob_grinding.quest3C8AD5F473EA51D.description1}"
+				"{ftbquests.chapter.mob_grinding.quest63.description1}"
 				""
-				"{ftbquests.chapter.mob_grinding.quest3C8AD5F473EA51D.description2}"
+				"{ftbquests.chapter.mob_grinding.quest63.description2}"
 				""
-				"{ftbquests.chapter.mob_grinding.quest3C8AD5F473EA51D.description3}"
+				"{ftbquests.chapter.mob_grinding.quest63.description3}"
 				""
-				"{ftbquests.chapter.mob_grinding.quest3C8AD5F473EA51D.description4}"
+				"{ftbquests.chapter.mob_grinding.quest63.description4}"
 			]
 			id: "03C8AD5F473EA51D"
 			rewards: [{
@@ -1460,8 +1460,8 @@
 		}
 		{
 			description: [
-				"{ftbquests.chapter.mob_grinding.quest755178C0306F9ADF.description1}"
-				"{ftbquests.chapter.mob_grinding.quest755178C0306F9ADF.description2}"
+				"{ftbquests.chapter.mob_grinding.quest70.description1}"
+				"{ftbquests.chapter.mob_grinding.quest70.description2}"
 			]
 			id: "755178C0306F9ADF"
 			rewards: [{
@@ -1480,8 +1480,8 @@
 		}
 		{
 			description: [
-				"{ftbquests.chapter.mob_grinding.quest3E6F3D025F933FD.description1}"
-				"{ftbquests.chapter.mob_grinding.quest3E6F3D025F933FD.description2}"
+				"{ftbquests.chapter.mob_grinding.quest71.description1}"
+				"{ftbquests.chapter.mob_grinding.quest71.description2}"
 			]
 			id: "03E6F3D025F933FD"
 			rewards: [{
@@ -1534,8 +1534,8 @@
 		}
 		{
 			description: [
-				"{ftbquests.chapter.mob_grinding.quest163EEE264D1C12B2.description1}"
-				"{ftbquests.chapter.mob_grinding.quest163EEE264D1C12B2.description2}"
+				"{ftbquests.chapter.mob_grinding.quest74.description1}"
+				"{ftbquests.chapter.mob_grinding.quest74.description2}"
 			]
 			id: "163EEE264D1C12B2"
 			rewards: [{
@@ -1554,11 +1554,11 @@
 		}
 		{
 			description: [
-				"{ftbquests.chapter.mob_grinding.questE0367D5C2B35F37.description1}"
+				"{ftbquests.chapter.mob_grinding.quest75.description1}"
 				""
-				"{ftbquests.chapter.mob_grinding.questE0367D5C2B35F37.description2}"
+				"{ftbquests.chapter.mob_grinding.quest75.description2}"
 				""
-				"{ftbquests.chapter.mob_grinding.questE0367D5C2B35F37.description3}"
+				"{ftbquests.chapter.mob_grinding.quest75.description3}"
 			]
 			id: "0E0367D5C2B35F37"
 			min_width: 300
@@ -1570,17 +1570,17 @@
 			size: 2.0d
 			tasks: [{
 				id: "2D63A9B90B940FA3"
-				title: "{ftbquests.chapter.mob_grinding.questE0367D5C2B35F37.task.3270644366629408675.title}"
+				title: "{ftbquests.chapter.mob_grinding.quest75.task_3270644366629408675.title}"
 				type: "checkmark"
 			}]
-			title: "{ftbquests.chapter.mob_grinding.questE0367D5C2B35F37.title}"
+			title: "{ftbquests.chapter.mob_grinding.quest75.title}"
 			x: 4.0d
 			y: 3.0d
 		}
 		{
 			description: [
-				"{ftbquests.chapter.mob_grinding.quest32E906F55B0D9F31.description1}"
-				"{ftbquests.chapter.mob_grinding.quest32E906F55B0D9F31.description2}"
+				"{ftbquests.chapter.mob_grinding.quest76.description1}"
+				"{ftbquests.chapter.mob_grinding.quest76.description2}"
 			]
 			id: "32E906F55B0D9F31"
 			invisible: true
@@ -1588,7 +1588,7 @@
 			shape: "circle"
 			tasks: [{
 				id: "111A6F2CA186260C"
-				title: "{ftbquests.chapter.mob_grinding.quest32E906F55B0D9F31.task.1232419685518419468.title}"
+				title: "{ftbquests.chapter.mob_grinding.quest76.task_1232419685518419468.title}"
 				type: "checkmark"
 			}]
 			x: 2.0d

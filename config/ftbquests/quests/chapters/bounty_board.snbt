@@ -37,11 +37,11 @@
 				entity: "minecraft:zombie"
 				icon: "minecraft:zombie_head"
 				id: "5457CD8C1ABA0B9E"
-				title: "{ftbquests.chapter.bounty_board.quest2B05A29C62676EB2.task.6077552223787289502.title}"
+				title: "{ftbquests.chapter.bounty_board.quest1.task_6077552223787289502.title}"
 				type: "kill"
 				value: 5L
 			}]
-			title: "{ftbquests.chapter.bounty_board.quest2B05A29C62676EB2.title}"
+			title: "{ftbquests.chapter.bounty_board.quest1.title}"
 			x: -4.0d
 			y: -0.5d
 		}
@@ -66,7 +66,7 @@
 				entity: "minecraft:zombie"
 				icon: "minecraft:zombie_head"
 				id: "3AD10C31CB6BA4C2"
-				title: "{ftbquests.chapter.bounty_board.quest444ACE285311ECB4.task.4238182132338107586.title}"
+				title: "{ftbquests.chapter.bounty_board.quest2.task_4238182132338107586.title}"
 				type: "kill"
 				value: 10L
 			}]
@@ -99,7 +99,7 @@
 				entity: "minecraft:zombie"
 				icon: "minecraft:zombie_head"
 				id: "51471254BFEBDAA7"
-				title: "{ftbquests.chapter.bounty_board.quest146232B8504789C1.task.5856669995625077415.title}"
+				title: "{ftbquests.chapter.bounty_board.quest3.task_5856669995625077415.title}"
 				type: "kill"
 				value: 50L
 			}]
@@ -120,7 +120,7 @@
 				entity: "minecraft:zombie"
 				icon: "minecraft:zombie_head"
 				id: "5056DC37AEF523E5"
-				title: "{ftbquests.chapter.bounty_board.quest7D5B36BF3EC0C93F.task.5789056502747964389.title}"
+				title: "{ftbquests.chapter.bounty_board.quest4.task_5789056502747964389.title}"
 				type: "kill"
 				value: 100L
 			}]
@@ -154,11 +154,11 @@
 				entity: "minecraft:skeleton"
 				icon: "minecraft:skeleton_skull"
 				id: "5B35720DF93CE2DB"
-				title: "{ftbquests.chapter.bounty_board.quest42822B1E8A53D051.task.6572284635558765275.title}"
+				title: "{ftbquests.chapter.bounty_board.quest5.task_6572284635558765275.title}"
 				type: "kill"
 				value: 5L
 			}]
-			title: "{ftbquests.chapter.bounty_board.quest42822B1E8A53D051.title}"
+			title: "{ftbquests.chapter.bounty_board.quest5.title}"
 			x: -2.0d
 			y: -0.5d
 		}
@@ -183,7 +183,7 @@
 				entity: "minecraft:skeleton"
 				icon: "minecraft:skeleton_skull"
 				id: "015CB0D172D0712A"
-				title: "{ftbquests.chapter.bounty_board.quest4748831E75A840BE.task.98147705516224810.title}"
+				title: "{ftbquests.chapter.bounty_board.quest6.task_98147705516224810.title}"
 				type: "kill"
 				value: 10L
 			}]
@@ -210,7 +210,7 @@
 				entity: "minecraft:skeleton"
 				icon: "minecraft:skeleton_skull"
 				id: "2E17443A1BF2A0DA"
-				title: "{ftbquests.chapter.bounty_board.quest410E0DD607CB3469.task.3321198266576707802.title}"
+				title: "{ftbquests.chapter.bounty_board.quest7.task_3321198266576707802.title}"
 				type: "kill"
 				value: 50L
 			}]
@@ -231,7 +231,7 @@
 				entity: "minecraft:skeleton"
 				icon: "minecraft:skeleton_skull"
 				id: "00655AC734444E54"
-				title: "{ftbquests.chapter.bounty_board.quest555957ED58ABF8F8.task.28528784269659732.title}"
+				title: "{ftbquests.chapter.bounty_board.quest8.task_28528784269659732.title}"
 				type: "kill"
 				value: 100L
 			}]
@@ -265,11 +265,11 @@
 				entity: "minecraft:creeper"
 				icon: "minecraft:creeper_head"
 				id: "423AF6C6647B1626"
-				title: "{ftbquests.chapter.bounty_board.quest77FC692AC94D2EEF.task.4772398087102207526.title}"
+				title: "{ftbquests.chapter.bounty_board.quest9.task_4772398087102207526.title}"
 				type: "kill"
 				value: 5L
 			}]
-			title: "{ftbquests.chapter.bounty_board.quest77FC692AC94D2EEF.title}"
+			title: "{ftbquests.chapter.bounty_board.quest9.title}"
 			x: 0.0d
 			y: -0.5d
 		}
@@ -294,7 +294,7 @@
 				entity: "minecraft:creeper"
 				icon: "minecraft:creeper_head"
 				id: "1AB92CF7F0246D21"
-				title: "{ftbquests.chapter.bounty_board.quest65BBA5C0DAEEC31F.task.1925619759075061025.title}"
+				title: "{ftbquests.chapter.bounty_board.quest10.task_1925619759075061025.title}"
 				type: "kill"
 				value: 10L
 			}]
@@ -321,7 +321,7 @@
 				entity: "minecraft:creeper"
 				icon: "minecraft:creeper_head"
 				id: "24BA89BD9898759B"
-				title: "{ftbquests.chapter.bounty_board.quest76A29816F19E33A2.task.2646579178435540379.title}"
+				title: "{ftbquests.chapter.bounty_board.quest11.task_2646579178435540379.title}"
 				type: "kill"
 				value: 50L
 			}]
@@ -342,7 +342,7 @@
 				entity: "minecraft:creeper"
 				icon: "minecraft:creeper_head"
 				id: "045D1087A2692360"
-				title: "{ftbquests.chapter.bounty_board.quest5FCA4FF8C135435E.task.314425723717231456.title}"
+				title: "{ftbquests.chapter.bounty_board.quest12.task_314425723717231456.title}"
 				type: "kill"
 				value: 100L
 			}]
@@ -376,11 +376,11 @@
 				entity: "minecraft:enderman"
 				icon: "minecraft:ender_pearl"
 				id: "0EA4B08DAAFA4287"
-				title: "{ftbquests.chapter.bounty_board.quest17F3AC15ADCFB175.task.1055162335216943751.title}"
+				title: "{ftbquests.chapter.bounty_board.quest13.task_1055162335216943751.title}"
 				type: "kill"
 				value: 5L
 			}]
-			title: "{ftbquests.chapter.bounty_board.quest17F3AC15ADCFB175.title}"
+			title: "{ftbquests.chapter.bounty_board.quest13.title}"
 			x: 10.0d
 			y: -0.5d
 		}
@@ -406,7 +406,7 @@
 				entity: "minecraft:enderman"
 				icon: "minecraft:ender_pearl"
 				id: "58BF5D3267CF02F8"
-				title: "{ftbquests.chapter.bounty_board.quest2916F873A4DA84E8.task.6394932466960761592.title}"
+				title: "{ftbquests.chapter.bounty_board.quest14.task_6394932466960761592.title}"
 				type: "kill"
 				value: 10L
 			}]
@@ -434,7 +434,7 @@
 				entity: "minecraft:enderman"
 				icon: "minecraft:ender_pearl"
 				id: "6BA6847A172C8DD7"
-				title: "{ftbquests.chapter.bounty_board.quest2AAF57D1D8AB6BF8.task.7757033068101930455.title}"
+				title: "{ftbquests.chapter.bounty_board.quest15.task_7757033068101930455.title}"
 				type: "kill"
 				value: 50L
 			}]
@@ -455,7 +455,7 @@
 				entity: "minecraft:enderman"
 				icon: "minecraft:ender_eye"
 				id: "53C23DB8B4D1CEE2"
-				title: "{ftbquests.chapter.bounty_board.quest479A4E778D8D7317.task.6035454314146811618.title}"
+				title: "{ftbquests.chapter.bounty_board.quest16.task_6035454314146811618.title}"
 				type: "kill"
 				value: 100L
 			}]
@@ -492,7 +492,7 @@
 				type: "kill"
 				value: 5L
 			}]
-			title: "{ftbquests.chapter.bounty_board.quest1F18B64C84C8809D.title}"
+			title: "{ftbquests.chapter.bounty_board.quest17.title}"
 			x: 2.0d
 			y: -0.5d
 		}
@@ -517,7 +517,7 @@
 				entity: "minecraft:spider"
 				icon: "minecraft:spider_eye"
 				id: "5801AF8000768808"
-				title: "{ftbquests.chapter.bounty_board.quest283CA6DB77D5D2EB.task.6341542714612811784.title}"
+				title: "{ftbquests.chapter.bounty_board.quest18.task_6341542714612811784.title}"
 				type: "kill"
 				value: 10L
 			}]
@@ -550,7 +550,7 @@
 				entity: "minecraft:spider"
 				icon: "minecraft:spider_eye"
 				id: "0F94F7427F99DAFE"
-				title: "{ftbquests.chapter.bounty_board.quest63A1F25DF658928A.task.1122794072102787838.title}"
+				title: "{ftbquests.chapter.bounty_board.quest19.task_1122794072102787838.title}"
 				type: "kill"
 				value: 50L
 			}]
@@ -571,7 +571,7 @@
 				entity: "minecraft:spider"
 				icon: "minecraft:spider_eye"
 				id: "0F8ACB07CFA8CB33"
-				title: "{ftbquests.chapter.bounty_board.quest2D7E335B9D780E70.task.1119930691764144947.title}"
+				title: "{ftbquests.chapter.bounty_board.quest20.task_1119930691764144947.title}"
 				type: "kill"
 				value: 100L
 			}]
@@ -605,11 +605,11 @@
 				entity: "minecraft:blaze"
 				icon: "minecraft:blaze_powder"
 				id: "1718CA0F8978181C"
-				title: "{ftbquests.chapter.bounty_board.quest6141DE779232C8AA.task.1664302230393067548.title}"
+				title: "{ftbquests.chapter.bounty_board.quest21.task_1664302230393067548.title}"
 				type: "kill"
 				value: 5L
 			}]
-			title: "{ftbquests.chapter.bounty_board.quest6141DE779232C8AA.title}"
+			title: "{ftbquests.chapter.bounty_board.quest21.title}"
 			x: 6.0d
 			y: -0.5d
 		}
@@ -634,7 +634,7 @@
 				entity: "minecraft:blaze"
 				icon: "minecraft:blaze_rod"
 				id: "00445193DEB7EAA0"
-				title: "{ftbquests.chapter.bounty_board.quest4F48A4839B549C92.task.19229993954962080.title}"
+				title: "{ftbquests.chapter.bounty_board.quest22.task_19229993954962080.title}"
 				type: "kill"
 				value: 10L
 			}]
@@ -661,7 +661,7 @@
 				entity: "minecraft:blaze"
 				icon: "minecraft:blaze_rod"
 				id: "404D3420276BD963"
-				title: "{ftbquests.chapter.bounty_board.quest6C9BC3A699E57162.task.4633416904339085667.title}"
+				title: "{ftbquests.chapter.bounty_board.quest23.task_4633416904339085667.title}"
 				type: "kill"
 				value: 50L
 			}]
@@ -682,7 +682,7 @@
 				entity: "minecraft:blaze"
 				icon: "minecraft:blaze_rod"
 				id: "2038156A13C07BFC"
-				title: "{ftbquests.chapter.bounty_board.quest35CC1F1DA9530688.task.2321629153251589116.title}"
+				title: "{ftbquests.chapter.bounty_board.quest24.task_2321629153251589116.title}"
 				type: "kill"
 				value: 100L
 			}]
@@ -722,11 +722,11 @@
 					}
 				}
 				id: "7BAB5E17D2DE4E3E"
-				title: "{ftbquests.chapter.bounty_board.quest5AC497F76A086A5C.task.8911319744097701438.title}"
+				title: "{ftbquests.chapter.bounty_board.quest25.task_8911319744097701438.title}"
 				type: "kill"
 				value: 5L
 			}]
-			title: "{ftbquests.chapter.bounty_board.quest5AC497F76A086A5C.title}"
+			title: "{ftbquests.chapter.bounty_board.quest25.title}"
 			x: 4.0d
 			y: -0.5d
 		}
@@ -776,7 +776,7 @@
 					}
 				}
 				id: "7127A76DEB4D1696"
-				title: "{ftbquests.chapter.bounty_board.quest6E4FD0B568BEB3F9.task.8153669740918544022.title}"
+				title: "{ftbquests.chapter.bounty_board.quest26.task_8153669740918544022.title}"
 				type: "kill"
 				value: 10L
 			}]
@@ -821,7 +821,7 @@
 					}
 				}
 				id: "78A782913B7E6353"
-				title: "{ftbquests.chapter.bounty_board.quest2D136FCDA92C92AC.task.8694061165942039379.title}"
+				title: "{ftbquests.chapter.bounty_board.quest27.task_8694061165942039379.title}"
 				type: "kill"
 				value: 50L
 			}]
@@ -848,7 +848,7 @@
 					}
 				}
 				id: "5A3D6416BA0C7A20"
-				title: "{ftbquests.chapter.bounty_board.quest6F93A02E620C69FE.task.6502463485766302240.title}"
+				title: "{ftbquests.chapter.bounty_board.quest28.task_6502463485766302240.title}"
 				type: "kill"
 				value: 100L
 			}]
@@ -887,11 +887,11 @@
 				entity: "minecraft:wither_skeleton"
 				icon: "minecraft:wither_skeleton_skull"
 				id: "1016033CBB003413"
-				title: "{ftbquests.chapter.bounty_board.quest3371F9248D403664.task.1159117513464755219.title}"
+				title: "{ftbquests.chapter.bounty_board.quest29.task_1159117513464755219.title}"
 				type: "kill"
 				value: 5L
 			}]
-			title: "{ftbquests.chapter.bounty_board.quest3371F9248D403664.title}"
+			title: "{ftbquests.chapter.bounty_board.quest29.title}"
 			x: 8.0d
 			y: -0.5d
 		}
@@ -916,7 +916,7 @@
 				entity: "minecraft:wither_skeleton"
 				icon: "minecraft:wither_skeleton_skull"
 				id: "33107949548BC22D"
-				title: "{ftbquests.chapter.bounty_board.quest738E94C4CFB05D11.task.3679574251419714093.title}"
+				title: "{ftbquests.chapter.bounty_board.quest30.task_3679574251419714093.title}"
 				type: "kill"
 				value: 10L
 			}]
@@ -943,7 +943,7 @@
 				entity: "minecraft:wither_skeleton"
 				icon: "minecraft:wither_skeleton_skull"
 				id: "29A605F8B896F3B9"
-				title: "{ftbquests.chapter.bounty_board.quest65CE9117B923C0DB.task.3001092767495943097.title}"
+				title: "{ftbquests.chapter.bounty_board.quest31.task_3001092767495943097.title}"
 				type: "kill"
 				value: 50L
 			}]
@@ -964,7 +964,7 @@
 				entity: "minecraft:wither_skeleton"
 				icon: "minecraft:wither_skeleton_skull"
 				id: "727813FFC599C36D"
-				title: "{ftbquests.chapter.bounty_board.quest180B3AFF8C552F3F.task.8248364706781840237.title}"
+				title: "{ftbquests.chapter.bounty_board.quest32.task_8248364706781840237.title}"
 				type: "kill"
 				value: 100L
 			}]
@@ -1009,7 +1009,7 @@
 				id: "75C06F2C5CD4AAB0"
 				type: "advancement"
 			}]
-			title: "{ftbquests.chapter.bounty_board.quest73BA98EF0E5184FE.title}"
+			title: "{ftbquests.chapter.bounty_board.quest33.title}"
 			x: 4.5d
 			y: 4.5d
 		}

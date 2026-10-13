@@ -8,7 +8,7 @@
 	}
 	id: "4D37FFAF33DF678A"
 	loot_size: 1
-	order_index: 11
+	order_index: 8
 	rewards: [
 		{
 			item: {
@@ -69,6 +69,6 @@
 		}
 		{ item: "ironfurnaces:diamond_furnace", weight: 3.0f }
 	]
-	title: "{ftbquests.loot_table.5564196992594175882.title}"
+	title: "{ftbquests.loot_table_5564196992594175882.title}"
 	use_title: true
 }

@@ -2,7 +2,7 @@
 	icon: "ftbquests:lootcrate"
 	id: "3A3BDBA4E9AD13C4"
 	loot_size: 1
-	order_index: 10
+	order_index: 7
 	rewards: [
 		{ item: "mob_grinding_utils:saw", weight: 3.0f }
 		{
@@ -197,6 +197,6 @@
 		{ item: "minecraft:wither_skeleton_skull", weight: 10.0f }
 		{ item: "ironfurnaces:emerald_furnace", weight: 3.5f }
 	]
-	title: "{ftbquests.loot_table.4196188979167302596.title}"
+	title: "{ftbquests.loot_table_4196188979167302596.title}"
 	use_title: true
 }

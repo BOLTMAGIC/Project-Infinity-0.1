@@ -9,19 +9,19 @@
 	quests: [
 		{
 			description: [
-				"{ftbquests.chapter.odd_challenges.quest64CD0F9017E449BB.description1}"
+				"{ftbquests.chapter.odd_challenges.quest1.description1}"
 				""
-				"{ftbquests.chapter.odd_challenges.quest64CD0F9017E449BB.description2}"
-				"{ftbquests.chapter.odd_challenges.quest64CD0F9017E449BB.description3}"
-				"{ftbquests.chapter.odd_challenges.quest64CD0F9017E449BB.description4}"
-				"{ftbquests.chapter.odd_challenges.quest64CD0F9017E449BB.description5}"
-				"{ftbquests.chapter.odd_challenges.quest64CD0F9017E449BB.description6}"
-				"{ftbquests.chapter.odd_challenges.quest64CD0F9017E449BB.description7}"
-				"{ftbquests.chapter.odd_challenges.quest64CD0F9017E449BB.description8}"
+				"{ftbquests.chapter.odd_challenges.quest1.description2}"
+				"{ftbquests.chapter.odd_challenges.quest1.description3}"
+				"{ftbquests.chapter.odd_challenges.quest1.description4}"
+				"{ftbquests.chapter.odd_challenges.quest1.description5}"
+				"{ftbquests.chapter.odd_challenges.quest1.description6}"
+				"{ftbquests.chapter.odd_challenges.quest1.description7}"
+				"{ftbquests.chapter.odd_challenges.quest1.description8}"
 				""
-				"{ftbquests.chapter.odd_challenges.quest64CD0F9017E449BB.description9}"
+				"{ftbquests.chapter.odd_challenges.quest1.description9}"
 				""
-				"{ftbquests.chapter.odd_challenges.quest64CD0F9017E449BB.description10}"
+				"{ftbquests.chapter.odd_challenges.quest1.description10}"
 			]
 			disable_toast: true
 			hide_dependency_lines: true
@@ -46,12 +46,12 @@
 				type: "item"
 			}]
 			shape: "diamond"
-			subtitle: "{ftbquests.chapter.odd_challenges.quest75DF212BEA5E3884.subtitle}"
+			subtitle: "{ftbquests.chapter.odd_challenges.quest2.subtitle}"
 			tasks: [{
 				icon: "draconicevolution:item_draconium_jump"
 				id: "1AAE04E07D1BFC89"
 				stat: "minecraft:jump"
-				title: "{ftbquests.chapter.odd_challenges.quest75DF212BEA5E3884.task.1922479453151952009.title}"
+				title: "{ftbquests.chapter.odd_challenges.quest2.task_1922479453151952009.title}"
 				type: "stat"
 				value: 500
 			}]
@@ -67,12 +67,12 @@
 				type: "item"
 			}]
 			shape: "diamond"
-			subtitle: "{ftbquests.chapter.odd_challenges.quest18DF9D429BC79A1F.subtitle}"
+			subtitle: "{ftbquests.chapter.odd_challenges.quest3.subtitle}"
 			tasks: [{
 				icon: "minecraft:furnace"
 				id: "7459860F6AB0A8A0"
 				stat: "minecraft:interact_with_furnace"
-				title: "{ftbquests.chapter.odd_challenges.quest18DF9D429BC79A1F.task.8383879582099482784.title}"
+				title: "{ftbquests.chapter.odd_challenges.quest3.task_8383879582099482784.title}"
 				type: "stat"
 				value: 50
 			}]
@@ -88,12 +88,12 @@
 				type: "item"
 			}]
 			shape: "diamond"
-			subtitle: "{ftbquests.chapter.odd_challenges.quest299772B87B7A6EDE.subtitle}"
+			subtitle: "{ftbquests.chapter.odd_challenges.quest4.subtitle}"
 			tasks: [{
 				icon: "minecraft:crafting_table"
 				id: "14378209632C523F"
 				stat: "minecraft:interact_with_crafting_table"
-				title: "{ftbquests.chapter.odd_challenges.quest299772B87B7A6EDE.task.1456775981307810367.title}"
+				title: "{ftbquests.chapter.odd_challenges.quest4.task_1456775981307810367.title}"
 				type: "stat"
 				value: 50
 			}]
@@ -109,7 +109,7 @@
 				type: "item"
 			}]
 			shape: "diamond"
-			subtitle: "{ftbquests.chapter.odd_challenges.quest26F5537324333FF4.subtitle}"
+			subtitle: "{ftbquests.chapter.odd_challenges.quest5.subtitle}"
 			tasks: [{
 				icon: {
 					Count: 1
@@ -120,7 +120,7 @@
 				}
 				id: "62A0C4F4CBA39846"
 				stat: "minecraft:damage_dealt"
-				title: "{ftbquests.chapter.odd_challenges.quest26F5537324333FF4.task.7106896767658203206.title}"
+				title: "{ftbquests.chapter.odd_challenges.quest5.task_7106896767658203206.title}"
 				type: "stat"
 				value: 1000
 			}]
@@ -136,12 +136,12 @@
 				type: "item"
 			}]
 			shape: "diamond"
-			subtitle: "{ftbquests.chapter.odd_challenges.quest16236912E787D392.subtitle}"
+			subtitle: "{ftbquests.chapter.odd_challenges.quest6.subtitle}"
 			tasks: [{
 				icon: "minecraft:enchanting_table"
 				id: "0536C2D540D42AE0"
 				stat: "minecraft:enchant_item"
-				title: "{ftbquests.chapter.odd_challenges.quest16236912E787D392.task.375701840103484128.title}"
+				title: "{ftbquests.chapter.odd_challenges.quest6.task_375701840103484128.title}"
 				type: "stat"
 				value: 50
 			}]
@@ -157,7 +157,7 @@
 				type: "item"
 			}]
 			shape: "diamond"
-			subtitle: "{ftbquests.chapter.odd_challenges.quest19D5E57463E7BEC0.subtitle}"
+			subtitle: "{ftbquests.chapter.odd_challenges.quest7.subtitle}"
 			tasks: [{
 				icon: {
 					Count: 1
@@ -171,7 +171,7 @@
 				}
 				id: "7AAFF94D47513A8A"
 				stat: "minecraft:animals_bred"
-				title: "{ftbquests.chapter.odd_challenges.quest19D5E57463E7BEC0.task.8840558703855876746.title}"
+				title: "{ftbquests.chapter.odd_challenges.quest7.task_8840558703855876746.title}"
 				type: "stat"
 				value: 100
 			}]
@@ -187,12 +187,12 @@
 				type: "item"
 			}]
 			shape: "diamond"
-			subtitle: "{ftbquests.chapter.odd_challenges.quest6827568C3A9A731.subtitle}"
+			subtitle: "{ftbquests.chapter.odd_challenges.quest8.subtitle}"
 			tasks: [{
 				icon: "minecraft:oak_log"
 				id: "59E793831DEC57D2"
 				stat: "constructionwand:use_wand"
-				title: "{ftbquests.chapter.odd_challenges.quest6827568C3A9A731.task.6478308780347774930.title}"
+				title: "{ftbquests.chapter.odd_challenges.quest8.task_6478308780347774930.title}"
 				type: "stat"
 				value: 1000
 			}]
@@ -209,12 +209,12 @@
 				type: "item"
 			}]
 			shape: "diamond"
-			subtitle: "{ftbquests.chapter.odd_challenges.quest54A6FC9766F9CA1A.subtitle}"
+			subtitle: "{ftbquests.chapter.odd_challenges.quest9.subtitle}"
 			tasks: [{
 				icon: "minecraft:enchanting_table"
 				id: "1DB2945EAF2F30B9"
 				stat: "minecraft:enchant_item"
-				title: "{ftbquests.chapter.odd_challenges.quest54A6FC9766F9CA1A.task.2139935907341349049.title}"
+				title: "{ftbquests.chapter.odd_challenges.quest9.task_2139935907341349049.title}"
 				type: "stat"
 				value: 100
 			}]
@@ -231,12 +231,12 @@
 				type: "item"
 			}]
 			shape: "diamond"
-			subtitle: "{ftbquests.chapter.odd_challenges.quest2A077ECA2E708F50.subtitle}"
+			subtitle: "{ftbquests.chapter.odd_challenges.quest10.subtitle}"
 			tasks: [{
 				icon: "minecraft:enchanting_table"
 				id: "118E84485684E81E"
 				stat: "minecraft:enchant_item"
-				title: "{ftbquests.chapter.odd_challenges.quest2A077ECA2E708F50.task.1265093991561750558.title}"
+				title: "{ftbquests.chapter.odd_challenges.quest10.task_1265093991561750558.title}"
 				type: "stat"
 				value: 200
 			}]
@@ -253,12 +253,12 @@
 				type: "item"
 			}]
 			shape: "diamond"
-			subtitle: "{ftbquests.chapter.odd_challenges.quest3CD7B38E825288A5.subtitle}"
+			subtitle: "{ftbquests.chapter.odd_challenges.quest11.subtitle}"
 			tasks: [{
 				icon: "minecraft:enchanting_table"
 				id: "028EEA174C611728"
 				stat: "minecraft:enchant_item"
-				title: "{ftbquests.chapter.odd_challenges.quest3CD7B38E825288A5.task.184342020555347752.title}"
+				title: "{ftbquests.chapter.odd_challenges.quest11.task_184342020555347752.title}"
 				type: "stat"
 				value: 350
 			}]
@@ -275,12 +275,12 @@
 				type: "item"
 			}]
 			shape: "diamond"
-			subtitle: "{ftbquests.chapter.odd_challenges.quest5F173C7988F6D8ED.subtitle}"
+			subtitle: "{ftbquests.chapter.odd_challenges.quest12.subtitle}"
 			tasks: [{
 				icon: "minecraft:enchanting_table"
 				id: "43C420679CFCBBBE"
 				stat: "minecraft:enchant_item"
-				title: "{ftbquests.chapter.odd_challenges.quest5F173C7988F6D8ED.task.4883063525363989438.title}"
+				title: "{ftbquests.chapter.odd_challenges.quest12.task_4883063525363989438.title}"
 				type: "stat"
 				value: 500
 			}]
@@ -297,7 +297,7 @@
 				type: "item"
 			}]
 			shape: "diamond"
-			subtitle: "{ftbquests.chapter.odd_challenges.quest519B8C94347248.subtitle}"
+			subtitle: "{ftbquests.chapter.odd_challenges.quest13.subtitle}"
 			tasks: [{
 				icon: {
 					Count: 1
@@ -308,7 +308,7 @@
 				}
 				id: "556398176F33BC7B"
 				stat: "minecraft:damage_dealt"
-				title: "{ftbquests.chapter.odd_challenges.quest519B8C94347248.task.6152928742335560827.title}"
+				title: "{ftbquests.chapter.odd_challenges.quest13.task_6152928742335560827.title}"
 				type: "stat"
 				value: 5000
 			}]
@@ -325,7 +325,7 @@
 				type: "item"
 			}]
 			shape: "diamond"
-			subtitle: "{ftbquests.chapter.odd_challenges.quest523C0087C03663BD.subtitle}"
+			subtitle: "{ftbquests.chapter.odd_challenges.quest14.subtitle}"
 			tasks: [{
 				icon: {
 					Count: 1
@@ -336,7 +336,7 @@
 				}
 				id: "2467160D7AF5B761"
 				stat: "minecraft:damage_dealt"
-				title: "{ftbquests.chapter.odd_challenges.quest523C0087C03663BD.task.2623089555119912801.title}"
+				title: "{ftbquests.chapter.odd_challenges.quest14.task_2623089555119912801.title}"
 				type: "stat"
 				value: 10000
 			}]
@@ -353,7 +353,7 @@
 				type: "item"
 			}]
 			shape: "diamond"
-			subtitle: "{ftbquests.chapter.odd_challenges.quest5A2E0FE2DE82013B.subtitle}"
+			subtitle: "{ftbquests.chapter.odd_challenges.quest15.subtitle}"
 			tasks: [{
 				icon: {
 					Count: 1
@@ -364,7 +364,7 @@
 				}
 				id: "41F1BDAAB6F4E694"
 				stat: "minecraft:damage_dealt"
-				title: "{ftbquests.chapter.odd_challenges.quest5A2E0FE2DE82013B.task.4751787622764177044.title}"
+				title: "{ftbquests.chapter.odd_challenges.quest15.task_4751787622764177044.title}"
 				type: "stat"
 				value: 50000
 			}]
@@ -381,7 +381,7 @@
 				type: "item"
 			}]
 			shape: "diamond"
-			subtitle: "{ftbquests.chapter.odd_challenges.quest48C92ECA577FA2A8.subtitle}"
+			subtitle: "{ftbquests.chapter.odd_challenges.quest16.subtitle}"
 			tasks: [{
 				icon: {
 					Count: 1
@@ -392,7 +392,7 @@
 				}
 				id: "442FA2DAD1F3F1FE"
 				stat: "minecraft:damage_dealt"
-				title: "{ftbquests.chapter.odd_challenges.quest48C92ECA577FA2A8.task.4913324779193496062.title}"
+				title: "{ftbquests.chapter.odd_challenges.quest16.task_4913324779193496062.title}"
 				type: "stat"
 				value: 100000
 			}]
@@ -409,12 +409,12 @@
 				type: "item"
 			}]
 			shape: "diamond"
-			subtitle: "{ftbquests.chapter.odd_challenges.quest4661B033AC123DA0.subtitle}"
+			subtitle: "{ftbquests.chapter.odd_challenges.quest17.subtitle}"
 			tasks: [{
 				icon: "minecraft:crafting_table"
 				id: "30890E8E145B7EF6"
 				stat: "minecraft:interact_with_crafting_table"
-				title: "{ftbquests.chapter.odd_challenges.quest4661B033AC123DA0.task.3497342589019586294.title}"
+				title: "{ftbquests.chapter.odd_challenges.quest17.task_3497342589019586294.title}"
 				type: "stat"
 				value: 100
 			}]
@@ -431,12 +431,12 @@
 				type: "item"
 			}]
 			shape: "diamond"
-			subtitle: "{ftbquests.chapter.odd_challenges.quest5CF7CF7E308A5897.subtitle}"
+			subtitle: "{ftbquests.chapter.odd_challenges.quest18.subtitle}"
 			tasks: [{
 				icon: "minecraft:crafting_table"
 				id: "0B86FFDBA44F193A"
 				stat: "minecraft:interact_with_crafting_table"
-				title: "{ftbquests.chapter.odd_challenges.quest5CF7CF7E308A5897.task.830632500116003130.title}"
+				title: "{ftbquests.chapter.odd_challenges.quest18.task_830632500116003130.title}"
 				type: "stat"
 				value: 150
 			}]
@@ -453,12 +453,12 @@
 				type: "item"
 			}]
 			shape: "diamond"
-			subtitle: "{ftbquests.chapter.odd_challenges.quest5FD8D89E8E57169B.subtitle}"
+			subtitle: "{ftbquests.chapter.odd_challenges.quest19.subtitle}"
 			tasks: [{
 				icon: "minecraft:crafting_table"
 				id: "4EA453D3488A447F"
 				stat: "minecraft:interact_with_crafting_table"
-				title: "{ftbquests.chapter.odd_challenges.quest5FD8D89E8E57169B.task.5666746398059152511.title}"
+				title: "{ftbquests.chapter.odd_challenges.quest19.task_5666746398059152511.title}"
 				type: "stat"
 				value: 200
 			}]
@@ -475,12 +475,12 @@
 				type: "item"
 			}]
 			shape: "diamond"
-			subtitle: "{ftbquests.chapter.odd_challenges.quest440196F457F5B33A.subtitle}"
+			subtitle: "{ftbquests.chapter.odd_challenges.quest20.subtitle}"
 			tasks: [{
 				icon: "minecraft:crafting_table"
 				id: "2C999F81DCFF5EA5"
 				stat: "minecraft:interact_with_crafting_table"
-				title: "{ftbquests.chapter.odd_challenges.quest440196F457F5B33A.task.3213775189212880549.title}"
+				title: "{ftbquests.chapter.odd_challenges.quest20.task_3213775189212880549.title}"
 				type: "stat"
 				value: 300
 			}]
@@ -496,12 +496,12 @@
 				item: "kubejs:apotheotic_coin"
 				type: "item"
 			}]
-			subtitle: "{ftbquests.chapter.odd_challenges.quest4BC2221A168D44DC.subtitle}"
+			subtitle: "{ftbquests.chapter.odd_challenges.quest21.subtitle}"
 			tasks: [{
 				icon: "minecraft:oak_log"
 				id: "6E7B3B11C8C0EE51"
 				stat: "constructionwand:use_wand"
-				title: "{ftbquests.chapter.odd_challenges.quest4BC2221A168D44DC.task.7961021713876053585.title}"
+				title: "{ftbquests.chapter.odd_challenges.quest21.task_7961021713876053585.title}"
 				type: "stat"
 				value: 5000
 			}]
@@ -517,12 +517,12 @@
 				item: "kubejs:apotheotic_coin"
 				type: "item"
 			}]
-			subtitle: "{ftbquests.chapter.odd_challenges.quest3C4C52FB2E13E19D.subtitle}"
+			subtitle: "{ftbquests.chapter.odd_challenges.quest22.subtitle}"
 			tasks: [{
 				icon: "minecraft:oak_log"
 				id: "3530BC17B0F9E68C"
 				stat: "constructionwand:use_wand"
-				title: "{ftbquests.chapter.odd_challenges.quest3C4C52FB2E13E19D.task.3832770092831729292.title}"
+				title: "{ftbquests.chapter.odd_challenges.quest22.task_3832770092831729292.title}"
 				type: "stat"
 				value: 15000
 			}]
@@ -538,12 +538,12 @@
 				item: "kubejs:apotheotic_coin"
 				type: "item"
 			}]
-			subtitle: "{ftbquests.chapter.odd_challenges.quest7E56D7F3AC4E65C1.subtitle}"
+			subtitle: "{ftbquests.chapter.odd_challenges.quest23.subtitle}"
 			tasks: [{
 				icon: "minecraft:oak_log"
 				id: "2F6B85ACC78BC525"
 				stat: "constructionwand:use_wand"
-				title: "{ftbquests.chapter.odd_challenges.quest7E56D7F3AC4E65C1.task.3416971719419348261.title}"
+				title: "{ftbquests.chapter.odd_challenges.quest23.task_3416971719419348261.title}"
 				type: "stat"
 				value: 30000
 			}]
@@ -559,12 +559,12 @@
 				item: "kubejs:infused_coin"
 				type: "item"
 			}]
-			subtitle: "{ftbquests.chapter.odd_challenges.quest6743803C6D45C219.subtitle}"
+			subtitle: "{ftbquests.chapter.odd_challenges.quest24.subtitle}"
 			tasks: [{
 				icon: "minecraft:oak_log"
 				id: "3539C5120BF42049"
 				stat: "constructionwand:use_wand"
-				title: "{ftbquests.chapter.odd_challenges.quest6743803C6D45C219.task.3835313238983319625.title}"
+				title: "{ftbquests.chapter.odd_challenges.quest24.task_3835313238983319625.title}"
 				type: "stat"
 				value: 100000
 			}]
@@ -579,7 +579,7 @@
 				item: "kubejs:apotheotic_coin"
 				type: "item"
 			}]
-			subtitle: "{ftbquests.chapter.odd_challenges.quest393886001086EBB0.subtitle}"
+			subtitle: "{ftbquests.chapter.odd_challenges.quest25.subtitle}"
 			tasks: [{
 				icon: {
 					Count: 1
@@ -590,7 +590,7 @@
 				}
 				id: "4A70A1236C52D7FB"
 				stat: "minecraft:damage_blocked_by_shield"
-				title: "{ftbquests.chapter.odd_challenges.quest393886001086EBB0.task.5363964329711556603.title}"
+				title: "{ftbquests.chapter.odd_challenges.quest25.task_5363964329711556603.title}"
 				type: "stat"
 				value: 500
 			}]
@@ -610,7 +610,7 @@
 				icon: "draconicevolution:item_draconium_jump"
 				id: "3EDEA5DE61F7990B"
 				stat: "minecraft:jump"
-				title: "{ftbquests.chapter.odd_challenges.quest46E032EB11B66CDC.task.4530240649726236939.title}"
+				title: "{ftbquests.chapter.odd_challenges.quest26.task_4530240649726236939.title}"
 				type: "stat"
 				value: 2500
 			}]
@@ -630,7 +630,7 @@
 				icon: "draconicevolution:item_wyvern_jump"
 				id: "319679FA245E4089"
 				stat: "minecraft:jump"
-				title: "{ftbquests.chapter.odd_challenges.quest7EB569BE9EDAD34D.task.3573177469624008841.title}"
+				title: "{ftbquests.chapter.odd_challenges.quest27.task_3573177469624008841.title}"
 				type: "stat"
 				value: 5000
 			}]
@@ -650,7 +650,7 @@
 				icon: "draconicevolution:item_draconic_jump"
 				id: "59F8F4B6919CA83D"
 				stat: "minecraft:jump"
-				title: "{ftbquests.chapter.odd_challenges.quest441C7DC9E03D4B09.task.6483200728564017213.title}"
+				title: "{ftbquests.chapter.odd_challenges.quest28.task_6483200728564017213.title}"
 				type: "stat"
 				value: 15000
 			}]
@@ -670,7 +670,7 @@
 				icon: "draconicevolution:item_chaotic_jump"
 				id: "1E6C28774F2292F9"
 				stat: "minecraft:jump"
-				title: "{ftbquests.chapter.odd_challenges.quest5E78AD1CE1D8F372.task.2192171611516474105.title}"
+				title: "{ftbquests.chapter.odd_challenges.quest29.task_2192171611516474105.title}"
 				type: "stat"
 				value: 50000
 			}]
@@ -690,7 +690,7 @@
 				icon: "minecraft:furnace"
 				id: "76EBF7B58C3115A2"
 				stat: "minecraft:interact_with_furnace"
-				title: "{ftbquests.chapter.odd_challenges.quest4AE095F400815442.task.8569215075115668898.title}"
+				title: "{ftbquests.chapter.odd_challenges.quest30.task_8569215075115668898.title}"
 				type: "stat"
 				value: 100
 			}]
@@ -710,7 +710,7 @@
 				icon: "minecraft:furnace"
 				id: "782D1250F93E2B48"
 				stat: "minecraft:interact_with_furnace"
-				title: "{ftbquests.chapter.odd_challenges.quest6A171D9804160EDA.task.8659597797491616584.title}"
+				title: "{ftbquests.chapter.odd_challenges.quest31.task_8659597797491616584.title}"
 				type: "stat"
 				value: 150
 			}]
@@ -730,7 +730,7 @@
 				icon: "minecraft:furnace"
 				id: "3BF62819488A1B58"
 				stat: "minecraft:interact_with_furnace"
-				title: "{ftbquests.chapter.odd_challenges.quest424F51068F2F6CC9.task.4320684981564873560.title}"
+				title: "{ftbquests.chapter.odd_challenges.quest32.task_4320684981564873560.title}"
 				type: "stat"
 				value: 200
 			}]
@@ -750,7 +750,7 @@
 				icon: "minecraft:furnace"
 				id: "77C39F7D38554A36"
 				stat: "minecraft:interact_with_furnace"
-				title: "{ftbquests.chapter.odd_challenges.quest432DB1D05BB06469.task.8629916671136844342.title}"
+				title: "{ftbquests.chapter.odd_challenges.quest33.task_8629916671136844342.title}"
 				type: "stat"
 				value: 250
 			}]
@@ -779,7 +779,7 @@
 				}
 				id: "10ECA9D39776DDB4"
 				stat: "minecraft:animals_bred"
-				title: "{ftbquests.chapter.odd_challenges.quest678804F4C9F8B415.task.1219536325354905012.title}"
+				title: "{ftbquests.chapter.odd_challenges.quest34.task_1219536325354905012.title}"
 				type: "stat"
 				value: 250
 			}]
@@ -808,7 +808,7 @@
 				}
 				id: "7474BB4E0087B44C"
 				stat: "minecraft:animals_bred"
-				title: "{ftbquests.chapter.odd_challenges.quest1AFEF906324CCAA.task.8391537949388813388.title}"
+				title: "{ftbquests.chapter.odd_challenges.quest35.task_8391537949388813388.title}"
 				type: "stat"
 				value: 500
 			}]
@@ -837,7 +837,7 @@
 				}
 				id: "743E573A1F65C503"
 				stat: "minecraft:animals_bred"
-				title: "{ftbquests.chapter.odd_challenges.quest4D3E69CD544F3E29.task.8376228264102184195.title}"
+				title: "{ftbquests.chapter.odd_challenges.quest36.task_8376228264102184195.title}"
 				type: "stat"
 				value: 1000
 			}]
@@ -866,7 +866,7 @@
 				}
 				id: "3468C04845852BFB"
 				stat: "minecraft:animals_bred"
-				title: "{ftbquests.chapter.odd_challenges.quest595DFEA592E18E68.task.3776479704186694651.title}"
+				title: "{ftbquests.chapter.odd_challenges.quest37.task_3776479704186694651.title}"
 				type: "stat"
 				value: 2500
 			}]
@@ -882,7 +882,7 @@
 				item: "kubejs:apotheotic_coin"
 				type: "item"
 			}]
-			subtitle: "{ftbquests.chapter.odd_challenges.quest798DBD3027B8FCE2.subtitle}"
+			subtitle: "{ftbquests.chapter.odd_challenges.quest38.subtitle}"
 			tasks: [{
 				icon: {
 					Count: 1
@@ -893,7 +893,7 @@
 				}
 				id: "2FE2A689B1BFFC56"
 				stat: "minecraft:damage_blocked_by_shield"
-				title: "{ftbquests.chapter.odd_challenges.quest798DBD3027B8FCE2.task.3450503374842100822.title}"
+				title: "{ftbquests.chapter.odd_challenges.quest38.task_3450503374842100822.title}"
 				type: "stat"
 				value: 5000
 			}]
@@ -909,7 +909,7 @@
 				item: "kubejs:apotheotic_coin"
 				type: "item"
 			}]
-			subtitle: "{ftbquests.chapter.odd_challenges.quest1AD03F8A3FAFDD32.subtitle}"
+			subtitle: "{ftbquests.chapter.odd_challenges.quest39.subtitle}"
 			tasks: [{
 				icon: {
 					Count: 1
@@ -920,7 +920,7 @@
 				}
 				id: "3B8460267BBA4FA6"
 				stat: "minecraft:damage_blocked_by_shield"
-				title: "{ftbquests.chapter.odd_challenges.quest1AD03F8A3FAFDD32.task.4288658463564386214.title}"
+				title: "{ftbquests.chapter.odd_challenges.quest39.task_4288658463564386214.title}"
 				type: "stat"
 				value: 10000
 			}]
@@ -936,7 +936,7 @@
 				item: "kubejs:apotheotic_coin"
 				type: "item"
 			}]
-			subtitle: "{ftbquests.chapter.odd_challenges.quest5033D3F0F59D1B6D.subtitle}"
+			subtitle: "{ftbquests.chapter.odd_challenges.quest40.subtitle}"
 			tasks: [{
 				icon: {
 					Count: 1
@@ -947,7 +947,7 @@
 				}
 				id: "70ED446D043D6754"
 				stat: "minecraft:damage_blocked_by_shield"
-				title: "{ftbquests.chapter.odd_challenges.quest5033D3F0F59D1B6D.task.8137235336741611348.title}"
+				title: "{ftbquests.chapter.odd_challenges.quest40.task_8137235336741611348.title}"
 				type: "stat"
 				value: 50000
 			}]
@@ -963,7 +963,7 @@
 				item: "kubejs:infused_coin"
 				type: "item"
 			}]
-			subtitle: "{ftbquests.chapter.odd_challenges.quest4EF5324EF25D1B65.subtitle}"
+			subtitle: "{ftbquests.chapter.odd_challenges.quest41.subtitle}"
 			tasks: [{
 				icon: {
 					Count: 1
@@ -974,7 +974,7 @@
 				}
 				id: "5D6286A6E13F7E3D"
 				stat: "minecraft:damage_blocked_by_shield"
-				title: "{ftbquests.chapter.odd_challenges.quest4EF5324EF25D1B65.task.6729088844546670141.title}"
+				title: "{ftbquests.chapter.odd_challenges.quest41.task_6729088844546670141.title}"
 				type: "stat"
 				value: 100000
 			}]

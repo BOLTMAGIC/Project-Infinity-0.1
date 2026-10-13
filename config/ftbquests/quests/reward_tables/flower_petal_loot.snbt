@@ -1,7 +1,7 @@
 {
 	id: "51D81405A1552C58"
 	loot_size: 1
-	order_index: 30
+	order_index: 27
 	rewards: [
 		{ count: 3, item: "botania:white_petal" }
 		{ count: 3, item: "botania:orange_petal" }
@@ -21,6 +21,6 @@
 		{ count: 3, item: "botania:black_petal" }
 		{ count: 2, item: "botania:fertilizer" }
 	]
-	title: "{ftbquests.loot_table.5897485726455770200.title}"
+	title: "{ftbquests.loot_table_5897485726455770200.title}"
 	use_title: true
 }

@@ -1,7 +1,7 @@
 {
 	id: "72D242FB70CF9896"
 	loot_size: 1
-	order_index: 35
+	order_index: 32
 	rewards: [
 		{ item: "botania:manasteel_ingot", random_bonus: 3, weight: 25.0f }
 		{ item: "botania:manasteel_block", weight: 10.0f }
@@ -13,6 +13,6 @@
 		{ item: "botania:black_lotus", weight: 2.0f }
 		{ item: "botania:blacker_lotus" }
 	]
-	title: "{ftbquests.loot_table.8273749113129900182.title}"
+	title: "{ftbquests.loot_table_8273749113129900182.title}"
 	use_title: true
 }

@@ -1,7 +1,7 @@
 {
 	id: "4B19C9059B3AA9AC"
 	loot_size: 1
-	order_index: 25
+	order_index: 22
 	rewards: [
 		{ count: 2, item: "powah:capacitor_basic_tiny", random_bonus: 2, weight: 25.0f }
 		{ item: "powah:capacitor_basic", random_bonus: 2, weight: 25.0f }
@@ -14,6 +14,6 @@
 		{ item: "powah:solar_panel_starter" }
 		{ item: "powah:solar_panel_basic" }
 	]
-	title: "{ftbquests.loot_table.5411577453178694060.title}"
+	title: "{ftbquests.loot_table_5411577453178694060.title}"
 	use_title: true
 }

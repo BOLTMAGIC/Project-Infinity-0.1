@@ -2,7 +2,7 @@
 	icon: "mysticalagriculture:prudentium_gemstone"
 	id: "21B1896C13F84C09"
 	loot_size: 1
-	order_index: 16
+	order_index: 13
 	rewards: [
 		{ item: "mysticalagradditions:prudentium_apple", weight: 7.0f }
 		{ item: "mysticalagradditions:prudentium_coal_block", weight: 3.0f }
@@ -46,6 +46,6 @@
 		{ item: "mysticalagriculture:basalt_seeds" }
 		{ item: "mysticalagriculture:menril_seeds" }
 	]
-	title: "{ftbquests.loot_table.2427872771413920777.title}"
+	title: "{ftbquests.loot_table_2427872771413920777.title}"
 	use_title: true
 }

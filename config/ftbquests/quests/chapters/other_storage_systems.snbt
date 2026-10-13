@@ -9,21 +9,21 @@
 	quests: [
 		{
 			description: [
-				"{ftbquests.chapter.other_storage_systems.questE8F0E3589291140.description1}"
+				"{ftbquests.chapter.other_storage_systems.quest1.description1}"
 				""
-				"{ftbquests.chapter.other_storage_systems.questE8F0E3589291140.description2}"
-				"{ftbquests.chapter.other_storage_systems.questE8F0E3589291140.description3}"
+				"{ftbquests.chapter.other_storage_systems.quest1.description2}"
+				"{ftbquests.chapter.other_storage_systems.quest1.description3}"
 				""
-				"{ftbquests.chapter.other_storage_systems.questE8F0E3589291140.description4}"
+				"{ftbquests.chapter.other_storage_systems.quest1.description4}"
 				""
-				"{ftbquests.chapter.other_storage_systems.questE8F0E3589291140.description5}"
+				"{ftbquests.chapter.other_storage_systems.quest1.description5}"
 				""
-				"{ftbquests.chapter.other_storage_systems.questE8F0E3589291140.description6}"
+				"{ftbquests.chapter.other_storage_systems.quest1.description6}"
 				""
-				"{ftbquests.chapter.other_storage_systems.questE8F0E3589291140.description7}"
+				"{ftbquests.chapter.other_storage_systems.quest1.description7}"
 				""
 				""
-				"{ftbquests.chapter.other_storage_systems.questE8F0E3589291140.description8}"
+				"{ftbquests.chapter.other_storage_systems.quest1.description8}"
 			]
 			disable_toast: true
 			id: "0E8F0E3589291140"

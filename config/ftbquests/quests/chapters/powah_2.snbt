@@ -12,9 +12,9 @@
 		{
 			dependencies: ["37EC8847643485B3"]
 			description: [
-				"{ftbquests.chapter.powah_2.quest7D63CEF4A5A2928D.description1}"
+				"{ftbquests.chapter.powah_2.quest1.description1}"
 				""
-				"{ftbquests.chapter.powah_2.quest7D63CEF4A5A2928D.description2}"
+				"{ftbquests.chapter.powah_2.quest1.description2}"
 			]
 			id: "7D63CEF4A5A2928D"
 			rewards: [{
@@ -22,7 +22,7 @@
 				item: "kubejs:apotheotic_coin"
 				type: "item"
 			}]
-			subtitle: "{ftbquests.chapter.powah_2.quest7D63CEF4A5A2928D.subtitle}"
+			subtitle: "{ftbquests.chapter.powah_2.quest1.subtitle}"
 			tasks: [{
 				id: "173C29091DCEBF75"
 				item: "powah:steel_energized"
@@ -34,9 +34,9 @@
 		{
 			dependencies: ["7D63CEF4A5A2928D"]
 			description: [
-				"{ftbquests.chapter.powah_2.quest425768712B4346A7.description1}"
+				"{ftbquests.chapter.powah_2.quest2.description1}"
 				""
-				"{ftbquests.chapter.powah_2.quest425768712B4346A7.description2}"
+				"{ftbquests.chapter.powah_2.quest2.description2}"
 			]
 			hide_dependency_lines: false
 			id: "425768712B4346A7"
@@ -45,7 +45,7 @@
 				item: "kubejs:apotheotic_coin"
 				type: "item"
 			}]
-			subtitle: "{ftbquests.chapter.powah_2.quest425768712B4346A7.subtitle}"
+			subtitle: "{ftbquests.chapter.powah_2.quest2.subtitle}"
 			tasks: [{
 				id: "661C87C805E3966C"
 				item: "powah:crystal_blazing"
@@ -57,9 +57,9 @@
 		{
 			dependencies: ["425768712B4346A7"]
 			description: [
-				"{ftbquests.chapter.powah_2.quest2CB4A101005B075E.description1}"
+				"{ftbquests.chapter.powah_2.quest3.description1}"
 				""
-				"{ftbquests.chapter.powah_2.quest2CB4A101005B075E.description2}"
+				"{ftbquests.chapter.powah_2.quest3.description2}"
 			]
 			id: "2CB4A101005B075E"
 			rewards: [{
@@ -67,7 +67,7 @@
 				item: "kubejs:infused_coin"
 				type: "item"
 			}]
-			subtitle: "{ftbquests.chapter.powah_2.quest2CB4A101005B075E.subtitle}"
+			subtitle: "{ftbquests.chapter.powah_2.quest3.subtitle}"
 			tasks: [{
 				id: "0AC2A5272578EF08"
 				item: "powah:crystal_niotic"
@@ -79,9 +79,9 @@
 		{
 			dependencies: ["2CB4A101005B075E"]
 			description: [
-				"{ftbquests.chapter.powah_2.quest3037A7B311DA0740.description1}"
+				"{ftbquests.chapter.powah_2.quest4.description1}"
 				""
-				"{ftbquests.chapter.powah_2.quest3037A7B311DA0740.description2}"
+				"{ftbquests.chapter.powah_2.quest4.description2}"
 			]
 			id: "3037A7B311DA0740"
 			rewards: [{
@@ -89,7 +89,7 @@
 				item: "kubejs:infused_coin"
 				type: "item"
 			}]
-			subtitle: "{ftbquests.chapter.powah_2.quest3037A7B311DA0740.subtitle}"
+			subtitle: "{ftbquests.chapter.powah_2.quest4.subtitle}"
 			tasks: [{
 				id: "063980C5BD06E7A2"
 				item: "powah:crystal_spirited"
@@ -101,11 +101,11 @@
 		{
 			dependencies: ["3037A7B311DA0740"]
 			description: [
-				"{ftbquests.chapter.powah_2.quest576ACB07185AA060.description1}"
+				"{ftbquests.chapter.powah_2.quest5.description1}"
 				""
-				"{ftbquests.chapter.powah_2.quest576ACB07185AA060.description2}"
+				"{ftbquests.chapter.powah_2.quest5.description2}"
 				""
-				"{ftbquests.chapter.powah_2.quest576ACB07185AA060.description3}"
+				"{ftbquests.chapter.powah_2.quest5.description3}"
 			]
 			hide_dependent_lines: true
 			id: "576ACB07185AA060"
@@ -114,7 +114,7 @@
 				item: "kubejs:ascended_coin"
 				type: "item"
 			}]
-			subtitle: "{ftbquests.chapter.powah_2.quest576ACB07185AA060.subtitle}"
+			subtitle: "{ftbquests.chapter.powah_2.quest5.subtitle}"
 			tasks: [{
 				id: "74BAFC0E08D44C89"
 				item: "powah:crystal_nitro"
@@ -974,11 +974,11 @@
 		{
 			dependencies: ["7E6AEBDD984080AD"]
 			description: [
-				"{ftbquests.chapter.powah_2.quest37EC8847643485B3.description1}"
+				"{ftbquests.chapter.powah_2.quest56.description1}"
 				""
-				"{ftbquests.chapter.powah_2.quest37EC8847643485B3.description2}"
+				"{ftbquests.chapter.powah_2.quest56.description2}"
 				""
-				"{ftbquests.chapter.powah_2.quest37EC8847643485B3.description3}"
+				"{ftbquests.chapter.powah_2.quest56.description3}"
 			]
 			id: "37EC8847643485B3"
 			rewards: [{
@@ -986,7 +986,7 @@
 				item: "kubejs:apotheotic_coin"
 				type: "item"
 			}]
-			subtitle: "{ftbquests.chapter.powah_2.quest37EC8847643485B3.subtitle}"
+			subtitle: "{ftbquests.chapter.powah_2.quest56.subtitle}"
 			tasks: [{
 				id: "5332938B784E8761"
 				item: "powah:energizing_orb"
@@ -1186,19 +1186,19 @@
 		{
 			dependencies: ["37EC8847643485B3"]
 			description: [
-				"{ftbquests.chapter.powah_2.quest44AE4403A7AD3A2D.description1}"
+				"{ftbquests.chapter.powah_2.quest67.description1}"
 				""
-				"{ftbquests.chapter.powah_2.quest44AE4403A7AD3A2D.description2}"
+				"{ftbquests.chapter.powah_2.quest67.description2}"
 				""
-				"{ftbquests.chapter.powah_2.quest44AE4403A7AD3A2D.description3}"
+				"{ftbquests.chapter.powah_2.quest67.description3}"
 				""
-				"{ftbquests.chapter.powah_2.quest44AE4403A7AD3A2D.description4}"
+				"{ftbquests.chapter.powah_2.quest67.description4}"
 			]
 			id: "44AE4403A7AD3A2D"
-			subtitle: "{ftbquests.chapter.powah_2.quest44AE4403A7AD3A2D.subtitle}"
+			subtitle: "{ftbquests.chapter.powah_2.quest67.subtitle}"
 			tasks: [{
 				id: "120EE28EB73882FF"
-				title: "{ftbquests.chapter.powah_2.quest44AE4403A7AD3A2D.task.1301226444943819519.title}"
+				title: "{ftbquests.chapter.powah_2.quest67.task_1301226444943819519.title}"
 				type: "checkmark"
 			}]
 			x: 8.0d
@@ -1206,14 +1206,14 @@
 		}
 		{
 			dependencies: ["5A8A261986DC8B28"]
-			description: ["{ftbquests.chapter.powah_2.quest7E6AEBDD984080AD.description1}"]
+			description: ["{ftbquests.chapter.powah_2.quest68.description1}"]
 			id: "7E6AEBDD984080AD"
 			rewards: [{
 				id: "02D373A946F811FF"
 				item: "kubejs:apotheotic_coin"
 				type: "item"
 			}]
-			subtitle: "{ftbquests.chapter.powah_2.quest7E6AEBDD984080AD.subtitle}"
+			subtitle: "{ftbquests.chapter.powah_2.quest68.subtitle}"
 			tasks: [{
 				id: "6201E1D7D23D804F"
 				item: "powah:capacitor_basic"
@@ -1225,9 +1225,9 @@
 		{
 			dependencies: ["1BEE6A25B4AEE069"]
 			description: [
-				"{ftbquests.chapter.powah_2.quest5A8A261986DC8B28.description1}"
+				"{ftbquests.chapter.powah_2.quest69.description1}"
 				""
-				"{ftbquests.chapter.powah_2.quest5A8A261986DC8B28.description2}"
+				"{ftbquests.chapter.powah_2.quest69.description2}"
 			]
 			id: "5A8A261986DC8B28"
 			rewards: [{
@@ -1235,7 +1235,7 @@
 				item: "kubejs:apotheotic_coin"
 				type: "item"
 			}]
-			subtitle: "{ftbquests.chapter.powah_2.quest5A8A261986DC8B28.subtitle}"
+			subtitle: "{ftbquests.chapter.powah_2.quest69.subtitle}"
 			tasks: [{
 				id: "4FF12746015260B4"
 				item: "powah:capacitor_basic_tiny"
@@ -1246,13 +1246,13 @@
 		}
 		{
 			description: [
-				"{ftbquests.chapter.powah_2.quest1BEE6A25B4AEE069.description1}"
+				"{ftbquests.chapter.powah_2.quest70.description1}"
 				""
-				"{ftbquests.chapter.powah_2.quest1BEE6A25B4AEE069.description2}"
+				"{ftbquests.chapter.powah_2.quest70.description2}"
 				""
-				"{ftbquests.chapter.powah_2.quest1BEE6A25B4AEE069.description3}"
+				"{ftbquests.chapter.powah_2.quest70.description3}"
 				""
-				"{ftbquests.chapter.powah_2.quest1BEE6A25B4AEE069.description4}"
+				"{ftbquests.chapter.powah_2.quest70.description4}"
 			]
 			id: "1BEE6A25B4AEE069"
 			rewards: [{
@@ -1267,7 +1267,7 @@
 				item: "powah:dielectric_paste"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.powah_2.quest1BEE6A25B4AEE069.title}"
+			title: "{ftbquests.chapter.powah_2.quest70.title}"
 			x: -1.0d
 			y: 0.0d
 		}
@@ -1483,9 +1483,9 @@
 		{
 			dependencies: ["5A8A261986DC8B28"]
 			description: [
-				"{ftbquests.chapter.powah_2.quest644CCFF892037163.description1}"
+				"{ftbquests.chapter.powah_2.quest83.description1}"
 				""
-				"{ftbquests.chapter.powah_2.quest644CCFF892037163.description2}"
+				"{ftbquests.chapter.powah_2.quest83.description2}"
 			]
 			hide_dependency_lines: true
 			id: "644CCFF892037163"
@@ -1494,7 +1494,7 @@
 				item: "kubejs:apotheotic_coin"
 				type: "item"
 			}]
-			subtitle: "{ftbquests.chapter.powah_2.quest644CCFF892037163.subtitle}"
+			subtitle: "{ftbquests.chapter.powah_2.quest83.subtitle}"
 			tasks: [{
 				id: "0B2233D6AA8CA343"
 				item: "powah:furnator_starter"
@@ -1506,11 +1506,11 @@
 		{
 			dependencies: ["5A8A261986DC8B28"]
 			description: [
-				"{ftbquests.chapter.powah_2.quest35179C553FED0B87.description1}"
+				"{ftbquests.chapter.powah_2.quest84.description1}"
 				""
-				"{ftbquests.chapter.powah_2.quest35179C553FED0B87.description2}"
+				"{ftbquests.chapter.powah_2.quest84.description2}"
 				""
-				"{ftbquests.chapter.powah_2.quest35179C553FED0B87.description3}"
+				"{ftbquests.chapter.powah_2.quest84.description3}"
 			]
 			hide_dependency_lines: true
 			id: "35179C553FED0B87"
@@ -1519,7 +1519,7 @@
 				item: "kubejs:apotheotic_coin"
 				type: "item"
 			}]
-			subtitle: "{ftbquests.chapter.powah_2.quest35179C553FED0B87.subtitle}"
+			subtitle: "{ftbquests.chapter.powah_2.quest84.subtitle}"
 			tasks: [{
 				count: 36L
 				id: "18722B0CFA851CC5"
@@ -1531,7 +1531,7 @@
 		}
 		{
 			dependencies: ["5A8A261986DC8B28"]
-			description: ["{ftbquests.chapter.powah_2.quest7DAD3538EC18EBF2.description1}"]
+			description: ["{ftbquests.chapter.powah_2.quest85.description1}"]
 			hide_dependency_lines: true
 			id: "7DAD3538EC18EBF2"
 			rewards: [{
@@ -1539,7 +1539,7 @@
 				item: "kubejs:apotheotic_coin"
 				type: "item"
 			}]
-			subtitle: "{ftbquests.chapter.powah_2.quest7DAD3538EC18EBF2.subtitle}"
+			subtitle: "{ftbquests.chapter.powah_2.quest85.subtitle}"
 			tasks: [{
 				id: "00B649DCE33AD460"
 				item: "powah:magmator_starter"
@@ -1551,14 +1551,14 @@
 		{
 			dependencies: ["5A8A261986DC8B28"]
 			description: [
-				"{ftbquests.chapter.powah_2.quest59B3E88794222B2.description1}"
+				"{ftbquests.chapter.powah_2.quest86.description1}"
 				""
-				"{ftbquests.chapter.powah_2.quest59B3E88794222B2.description2}"
+				"{ftbquests.chapter.powah_2.quest86.description2}"
 				""
-				"{ftbquests.chapter.powah_2.quest59B3E88794222B2.description3}"
-				"{ftbquests.chapter.powah_2.quest59B3E88794222B2.description4}"
-				"{ftbquests.chapter.powah_2.quest59B3E88794222B2.description5}"
-				"{ftbquests.chapter.powah_2.quest59B3E88794222B2.description6}"
+				"{ftbquests.chapter.powah_2.quest86.description3}"
+				"{ftbquests.chapter.powah_2.quest86.description4}"
+				"{ftbquests.chapter.powah_2.quest86.description5}"
+				"{ftbquests.chapter.powah_2.quest86.description6}"
 			]
 			hide_dependency_lines: true
 			id: "059B3E88794222B2"
@@ -1567,7 +1567,7 @@
 				item: "kubejs:apotheotic_coin"
 				type: "item"
 			}]
-			subtitle: "{ftbquests.chapter.powah_2.quest59B3E88794222B2.subtitle}"
+			subtitle: "{ftbquests.chapter.powah_2.quest86.subtitle}"
 			tasks: [{
 				id: "74A3DA335D19204E"
 				item: "powah:thermo_generator_starter"
@@ -1579,8 +1579,8 @@
 		{
 			dependencies: ["5A8A261986DC8B28"]
 			description: [
-				"{ftbquests.chapter.powah_2.quest4F41E02BBB8D4123.description1}"
-				"{ftbquests.chapter.powah_2.quest4F41E02BBB8D4123.description2}"
+				"{ftbquests.chapter.powah_2.quest87.description1}"
+				"{ftbquests.chapter.powah_2.quest87.description2}"
 			]
 			hide_dependency_lines: true
 			id: "4F41E02BBB8D4123"
@@ -1589,7 +1589,7 @@
 				item: "kubejs:apotheotic_coin"
 				type: "item"
 			}]
-			subtitle: "{ftbquests.chapter.powah_2.quest4F41E02BBB8D4123.subtitle}"
+			subtitle: "{ftbquests.chapter.powah_2.quest87.subtitle}"
 			tasks: [{
 				id: "7FA9CE874446B961"
 				item: "powah:solar_panel_starter"
@@ -1600,7 +1600,7 @@
 		}
 		{
 			dependencies: ["5A8A261986DC8B28"]
-			description: ["{ftbquests.chapter.powah_2.quest3A1C936F19145E5F.description1}"]
+			description: ["{ftbquests.chapter.powah_2.quest88.description1}"]
 			hide_dependency_lines: true
 			id: "3A1C936F19145E5F"
 			rewards: [{
@@ -1608,7 +1608,7 @@
 				item: "kubejs:apotheotic_coin"
 				type: "item"
 			}]
-			subtitle: "{ftbquests.chapter.powah_2.quest3A1C936F19145E5F.subtitle}"
+			subtitle: "{ftbquests.chapter.powah_2.quest88.subtitle}"
 			tasks: [{
 				id: "60AD4C96DDDC3C65"
 				item: "powah:energizing_rod_starter"
@@ -1620,9 +1620,9 @@
 		{
 			dependencies: ["5A8A261986DC8B28"]
 			description: [
-				"{ftbquests.chapter.powah_2.quest2BEE61D5EA111F5B.description1}"
+				"{ftbquests.chapter.powah_2.quest89.description1}"
 				""
-				"{ftbquests.chapter.powah_2.quest2BEE61D5EA111F5B.description2}"
+				"{ftbquests.chapter.powah_2.quest89.description2}"
 			]
 			hide_dependency_lines: true
 			id: "2BEE61D5EA111F5B"
@@ -1631,7 +1631,7 @@
 				item: "kubejs:apotheotic_coin"
 				type: "item"
 			}]
-			subtitle: "{ftbquests.chapter.powah_2.quest2BEE61D5EA111F5B.subtitle}"
+			subtitle: "{ftbquests.chapter.powah_2.quest89.subtitle}"
 			tasks: [{
 				id: "5AA5B079FD25CDB0"
 				item: "powah:energy_cable_starter"
@@ -1643,11 +1643,11 @@
 		{
 			dependencies: ["5A8A261986DC8B28"]
 			description: [
-				"{ftbquests.chapter.powah_2.quest50ED5BE6490F83F0.description1}"
+				"{ftbquests.chapter.powah_2.quest90.description1}"
 				""
-				"{ftbquests.chapter.powah_2.quest50ED5BE6490F83F0.description2}"
+				"{ftbquests.chapter.powah_2.quest90.description2}"
 				""
-				"{ftbquests.chapter.powah_2.quest50ED5BE6490F83F0.description3}"
+				"{ftbquests.chapter.powah_2.quest90.description3}"
 			]
 			hide_dependency_lines: true
 			id: "50ED5BE6490F83F0"
@@ -1656,7 +1656,7 @@
 				item: "kubejs:apotheotic_coin"
 				type: "item"
 			}]
-			subtitle: "{ftbquests.chapter.powah_2.quest50ED5BE6490F83F0.subtitle}"
+			subtitle: "{ftbquests.chapter.powah_2.quest90.subtitle}"
 			tasks: [{
 				id: "0A38B732F74225BB"
 				item: "powah:ender_gate_starter"
@@ -1668,11 +1668,11 @@
 		{
 			dependencies: ["5A8A261986DC8B28"]
 			description: [
-				"{ftbquests.chapter.powah_2.quest4DC6CB201C92587C.description1}"
+				"{ftbquests.chapter.powah_2.quest91.description1}"
 				""
-				"{ftbquests.chapter.powah_2.quest4DC6CB201C92587C.description2}"
+				"{ftbquests.chapter.powah_2.quest91.description2}"
 				""
-				"{ftbquests.chapter.powah_2.quest4DC6CB201C92587C.description3}"
+				"{ftbquests.chapter.powah_2.quest91.description3}"
 			]
 			hide_dependency_lines: true
 			id: "4DC6CB201C92587C"
@@ -1681,7 +1681,7 @@
 				item: "kubejs:apotheotic_coin"
 				type: "item"
 			}]
-			subtitle: "{ftbquests.chapter.powah_2.quest4DC6CB201C92587C.subtitle}"
+			subtitle: "{ftbquests.chapter.powah_2.quest91.subtitle}"
 			tasks: [{
 				id: "2524E6958B14E7AA"
 				item: {
@@ -1697,11 +1697,11 @@
 		{
 			dependencies: ["5A8A261986DC8B28"]
 			description: [
-				"{ftbquests.chapter.powah_2.quest1725FE520BE6765E.description1}"
+				"{ftbquests.chapter.powah_2.quest92.description1}"
 				""
-				"{ftbquests.chapter.powah_2.quest1725FE520BE6765E.description2}"
+				"{ftbquests.chapter.powah_2.quest92.description2}"
 				""
-				"{ftbquests.chapter.powah_2.quest1725FE520BE6765E.description3}"
+				"{ftbquests.chapter.powah_2.quest92.description3}"
 			]
 			hide_dependency_lines: true
 			id: "1725FE520BE6765E"
@@ -1710,7 +1710,7 @@
 				item: "kubejs:apotheotic_coin"
 				type: "item"
 			}]
-			subtitle: "{ftbquests.chapter.powah_2.quest1725FE520BE6765E.subtitle}"
+			subtitle: "{ftbquests.chapter.powah_2.quest92.subtitle}"
 			tasks: [{
 				id: "3C114F7D28CFE3B5"
 				item: "powah:ender_cell_starter"
@@ -1721,7 +1721,7 @@
 		}
 		{
 			dependencies: ["5A8A261986DC8B28"]
-			description: ["{ftbquests.chapter.powah_2.quest16C399E4B72D39F7.description1}"]
+			description: ["{ftbquests.chapter.powah_2.quest93.description1}"]
 			hide_dependency_lines: true
 			id: "16C399E4B72D39F7"
 			rewards: [{
@@ -1729,7 +1729,7 @@
 				item: "kubejs:apotheotic_coin"
 				type: "item"
 			}]
-			subtitle: "{ftbquests.chapter.powah_2.quest16C399E4B72D39F7.subtitle}"
+			subtitle: "{ftbquests.chapter.powah_2.quest93.subtitle}"
 			tasks: [{
 				id: "365B6A8DA7CF4926"
 				item: "powah:energy_cell_starter"
@@ -1741,11 +1741,11 @@
 		{
 			dependencies: ["5A8A261986DC8B28"]
 			description: [
-				"{ftbquests.chapter.powah_2.quest799F27D09677B1E2.description1}"
+				"{ftbquests.chapter.powah_2.quest94.description1}"
 				""
-				"{ftbquests.chapter.powah_2.quest799F27D09677B1E2.description2}"
+				"{ftbquests.chapter.powah_2.quest94.description2}"
 				""
-				"{ftbquests.chapter.powah_2.quest799F27D09677B1E2.description3}"
+				"{ftbquests.chapter.powah_2.quest94.description3}"
 			]
 			hide_dependency_lines: true
 			id: "799F27D09677B1E2"
@@ -1754,7 +1754,7 @@
 				item: "kubejs:apotheotic_coin"
 				type: "item"
 			}]
-			subtitle: "{ftbquests.chapter.powah_2.quest799F27D09677B1E2.subtitle}"
+			subtitle: "{ftbquests.chapter.powah_2.quest94.subtitle}"
 			tasks: [
 				{
 					id: "39AFE1B7DB9D2CD2"
@@ -1771,14 +1771,14 @@
 			y: 2.0d
 		}
 		{
-			description: ["{ftbquests.chapter.powah_2.quest50402B3043E98F05.description1}"]
+			description: ["{ftbquests.chapter.powah_2.quest95.description1}"]
 			id: "50402B3043E98F05"
 			optional: true
 			secret: true
-			subtitle: "{ftbquests.chapter.powah_2.quest50402B3043E98F05.subtitle}"
+			subtitle: "{ftbquests.chapter.powah_2.quest95.subtitle}"
 			tasks: [{
 				id: "09FBD00B89115F3B"
-				title: "{ftbquests.chapter.powah_2.quest50402B3043E98F05.task.719397313458560827.title}"
+				title: "{ftbquests.chapter.powah_2.quest95.task_719397313458560827.title}"
 				type: "checkmark"
 			}]
 			x: 11.75d
@@ -1787,17 +1787,17 @@
 		{
 			dependencies: ["1BEE6A25B4AEE069"]
 			description: [
-				"{ftbquests.chapter.powah_2.quest4D33D9FAAE828603.description1}"
+				"{ftbquests.chapter.powah_2.quest96.description1}"
 				""
-				"{ftbquests.chapter.powah_2.quest4D33D9FAAE828603.description2}"
+				"{ftbquests.chapter.powah_2.quest96.description2}"
 				""
-				"{ftbquests.chapter.powah_2.quest4D33D9FAAE828603.description3}"
+				"{ftbquests.chapter.powah_2.quest96.description3}"
 				""
-				"{ftbquests.chapter.powah_2.quest4D33D9FAAE828603.description4}"
+				"{ftbquests.chapter.powah_2.quest96.description4}"
 				""
-				"{ftbquests.chapter.powah_2.quest4D33D9FAAE828603.description5}"
+				"{ftbquests.chapter.powah_2.quest96.description5}"
 				""
-				"{ftbquests.chapter.powah_2.quest4D33D9FAAE828603.description6}"
+				"{ftbquests.chapter.powah_2.quest96.description6}"
 			]
 			id: "4D33D9FAAE828603"
 			rewards: [{

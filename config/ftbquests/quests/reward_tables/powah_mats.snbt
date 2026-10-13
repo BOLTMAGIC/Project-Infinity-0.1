@@ -1,7 +1,7 @@
 {
 	id: "3AC97B13FF3E4FD3"
 	loot_size: 1
-	order_index: 22
+	order_index: 19
 	rewards: [
 		{ count: 2, item: "powah:capacitor_basic_tiny", random_bonus: 2 }
 		{ item: "powah:capacitor_basic", random_bonus: 2 }
@@ -11,6 +11,6 @@
 		{ count: 8, item: "powah:dielectric_rod", random_bonus: 8 }
 		{ count: 16, item: "powah:dielectric_paste", random_bonus: 16 }
 	]
-	title: "{ftbquests.loot_table.4236052250335530963.title}"
+	title: "{ftbquests.loot_table_4236052250335530963.title}"
 	use_title: true
 }

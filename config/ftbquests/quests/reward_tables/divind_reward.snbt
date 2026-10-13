@@ -2,7 +2,7 @@
 	icon: "voidminers:ultimate_stellar_core"
 	id: "7EADDEB8EB560C7C"
 	loot_size: 1
-	order_index: 43
+	order_index: 40
 	rewards: [
 		{
 			command: "/execute at @p run gamemode creative"
@@ -12,5 +12,5 @@
 		}
 		{ item: "minecraft:coal", weight: 99.0f }
 	]
-	title: "{ftbquests.loot_table.9128196905553497212.title}"
+	title: "{ftbquests.loot_table_9128196905553497212.title}"
 }

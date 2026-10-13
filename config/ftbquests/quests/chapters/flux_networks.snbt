@@ -11,13 +11,13 @@
 		{
 			dependencies: ["7AD0A09E83F4D09C"]
 			description: [
-				"{ftbquests.chapter.flux_networks.quest439C6C61A5263D31.description1}"
+				"{ftbquests.chapter.flux_networks.quest1.description1}"
 				""
-				"{ftbquests.chapter.flux_networks.quest439C6C61A5263D31.description2}"
+				"{ftbquests.chapter.flux_networks.quest1.description2}"
 				""
-				"{ftbquests.chapter.flux_networks.quest439C6C61A5263D31.description3}"
+				"{ftbquests.chapter.flux_networks.quest1.description3}"
 				""
-				"{ftbquests.chapter.flux_networks.quest439C6C61A5263D31.description4}"
+				"{ftbquests.chapter.flux_networks.quest1.description4}"
 			]
 			id: "439C6C61A5263D31"
 			min_width: 300
@@ -39,7 +39,7 @@
 				item: "fluxnetworks:flux_dust"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.flux_networks.quest439C6C61A5263D31.title}"
+			title: "{ftbquests.chapter.flux_networks.quest1.title}"
 			x: -4.0d
 			y: -3.0d
 		}
@@ -57,7 +57,7 @@
 				item: "fluxnetworks:flux_configurator"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.flux_networks.quest1651E315517369BD.title}"
+			title: "{ftbquests.chapter.flux_networks.quest2.title}"
 			x: -4.0d
 			y: -1.5d
 		}
@@ -81,16 +81,16 @@
 				item: "fluxnetworks:flux_block"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.flux_networks.quest7AA18B409FB698D2.title}"
+			title: "{ftbquests.chapter.flux_networks.quest3.title}"
 			x: 0.0d
 			y: -3.0d
 		}
 		{
 			dependencies: ["7AA18B409FB698D2"]
 			description: [
-				"{ftbquests.chapter.flux_networks.quest1B60491EDE73447B.description1}"
+				"{ftbquests.chapter.flux_networks.quest4.description1}"
 				""
-				"{ftbquests.chapter.flux_networks.quest1B60491EDE73447B.description2}"
+				"{ftbquests.chapter.flux_networks.quest4.description2}"
 			]
 			id: "1B60491EDE73447B"
 			min_width: 330
@@ -101,13 +101,13 @@
 			}]
 			shape: "diamond"
 			size: 1.0d
-			subtitle: "{ftbquests.chapter.flux_networks.quest1B60491EDE73447B.subtitle}"
+			subtitle: "{ftbquests.chapter.flux_networks.quest4.subtitle}"
 			tasks: [{
 				id: "000430BA08919240"
 				item: "fluxnetworks:basic_flux_storage"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.flux_networks.quest1B60491EDE73447B.title}"
+			title: "{ftbquests.chapter.flux_networks.quest4.title}"
 			x: 1.5d
 			y: -3.0d
 		}
@@ -134,7 +134,7 @@
 				item: "fluxnetworks:flux_plug"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.flux_networks.quest7AEAF2E101B5D652.title}"
+			title: "{ftbquests.chapter.flux_networks.quest5.title}"
 			x: -2.5d
 			y: -4.0d
 		}
@@ -160,7 +160,7 @@
 				item: "fluxnetworks:flux_point"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.flux_networks.quest6E9B60CCAE55E387.title}"
+			title: "{ftbquests.chapter.flux_networks.quest6.title}"
 			x: -1.5d
 			y: -4.0d
 		}
@@ -184,13 +184,13 @@
 				item: "fluxnetworks:flux_controller"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.flux_networks.quest1C214DD51C58BE4D.title}"
+			title: "{ftbquests.chapter.flux_networks.quest7.title}"
 			x: -2.0d
 			y: -1.5d
 		}
 		{
 			dependencies: ["1B60491EDE73447B"]
-			description: ["{ftbquests.chapter.flux_networks.quest4CC229C23E5AC155.description1}"]
+			description: ["{ftbquests.chapter.flux_networks.quest8.description1}"]
 			id: "4CC229C23E5AC155"
 			rewards: [{
 				id: "04B53CCA9C85763E"
@@ -199,7 +199,7 @@
 			}]
 			shape: "diamond"
 			size: 1.0d
-			subtitle: "{ftbquests.chapter.flux_networks.quest4CC229C23E5AC155.subtitle}"
+			subtitle: "{ftbquests.chapter.flux_networks.quest8.subtitle}"
 			tasks: [{
 				id: "28F65D4F11F6AA7B"
 				item: "fluxnetworks:herculean_flux_storage"
@@ -210,7 +210,7 @@
 		}
 		{
 			dependencies: ["4CC229C23E5AC155"]
-			description: ["{ftbquests.chapter.flux_networks.quest6886DFF567919753.description1}"]
+			description: ["{ftbquests.chapter.flux_networks.quest9.description1}"]
 			id: "6886DFF567919753"
 			rewards: [{
 				id: "62581571F3835125"
@@ -219,7 +219,7 @@
 			}]
 			shape: "diamond"
 			size: 1.0d
-			subtitle: "{ftbquests.chapter.flux_networks.quest6886DFF567919753.subtitle}"
+			subtitle: "{ftbquests.chapter.flux_networks.quest9.subtitle}"
 			tasks: [{
 				id: "0E8AC367918AD54F"
 				item: "fluxnetworks:gargantuan_flux_storage"
@@ -229,7 +229,7 @@
 			y: -3.0d
 		}
 		{
-			description: ["{ftbquests.chapter.flux_networks.quest7AD0A09E83F4D09C.description1}"]
+			description: ["{ftbquests.chapter.flux_networks.quest10.description1}"]
 			icon: "fluxnetworks:admin_configurator"
 			id: "7AD0A09E83F4D09C"
 			min_width: 300
@@ -244,13 +244,13 @@
 				id: "0A5DAF2F42E5BEB5"
 				type: "checkmark"
 			}]
-			title: "{ftbquests.chapter.flux_networks.quest7AD0A09E83F4D09C.title}"
+			title: "{ftbquests.chapter.flux_networks.quest10.title}"
 			x: -4.0d
 			y: -6.0d
 		}
 		{
 			dependencies: ["439C6C61A5263D31"]
-			description: ["{ftbquests.chapter.flux_networks.quest486457F40D2A1D29.description1}"]
+			description: ["{ftbquests.chapter.flux_networks.quest11.description1}"]
 			id: "486457F40D2A1D29"
 			rewards: [
 				{
@@ -270,7 +270,7 @@
 				item: "fluxnetworks:flux_core"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.flux_networks.quest486457F40D2A1D29.title}"
+			title: "{ftbquests.chapter.flux_networks.quest11.title}"
 			x: -2.0d
 			y: -3.0d
 		}

@@ -1,7 +1,7 @@
 {
 	id: "0595EDDADDEA1407"
 	loot_size: 1
-	order_index: 37
+	order_index: 34
 	rewards: [
 		{ item: "botania:elementium_ingot", random_bonus: 1, weight: 25.0f }
 		{ item: "botania:pixie_dust", random_bonus: 1, weight: 25.0f }
@@ -14,6 +14,6 @@
 		{ item: "botania:gaia_ingot" }
 		{ item: "botania:terrasteel_ingot", weight: 3.0f }
 	]
-	title: "{ftbquests.loot_table.402489266001286151.title}"
+	title: "{ftbquests.loot_table_402489266001286151.title}"
 	use_title: true
 }

@@ -283,9 +283,9 @@
 		{
 			dependencies: ["0C43E0D8C4C8743F"]
 			description: [
-				"{ftbquests.chapter.extended_crafting.quest11E16D072634AAF5.description1}"
+				"{ftbquests.chapter.extended_crafting.quest15.description1}"
 				""
-				"{ftbquests.chapter.extended_crafting.quest11E16D072634AAF5.description2}"
+				"{ftbquests.chapter.extended_crafting.quest15.description2}"
 			]
 			id: "11E16D072634AAF5"
 			rewards: [{
@@ -306,7 +306,7 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.extended_crafting.quest11E16D072634AAF5.title}"
+			title: "{ftbquests.chapter.extended_crafting.quest15.title}"
 			x: 9.0d
 			y: -12.5d
 		}
@@ -669,14 +669,14 @@
 			}]
 			shape: "hexagon"
 			size: 2.0d
-			subtitle: "{ftbquests.chapter.extended_crafting.quest3D9A982B63582765.subtitle}"
+			subtitle: "{ftbquests.chapter.extended_crafting.quest31.subtitle}"
 			tasks: [{
 				id: "187735BA60615F3A"
 				item: "extendedcrafting:ultimate_singularity"
 				match_nbt: true
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.extended_crafting.quest3D9A982B63582765.title}"
+			title: "{ftbquests.chapter.extended_crafting.quest31.title}"
 			x: 1.5d
 			y: -0.5d
 		}
@@ -851,13 +851,13 @@
 			}]
 			shape: "hexagon"
 			size: 2.0d
-			subtitle: "{ftbquests.chapter.extended_crafting.quest65FCFDB9AABCE966.subtitle}"
+			subtitle: "{ftbquests.chapter.extended_crafting.quest34.subtitle}"
 			tasks: [{
 				id: "4DA07334BF25E287"
 				item: "extendedcrafting:the_ultimate_ingot"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.extended_crafting.quest65FCFDB9AABCE966.title}"
+			title: "{ftbquests.chapter.extended_crafting.quest34.title}"
 			x: 6.5d
 			y: -0.5d
 		}
@@ -883,7 +883,7 @@
 				id: "02871F2050384194"
 				type: "checkmark"
 			}]
-			title: "{ftbquests.chapter.extended_crafting.quest5530C0D8BF092FCA.title}"
+			title: "{ftbquests.chapter.extended_crafting.quest35.title}"
 			x: 4.0d
 			y: -13.5d
 		}
@@ -905,7 +905,7 @@
 		}
 		{
 			dependencies: ["22698729A224CCBC"]
-			description: ["{ftbquests.chapter.extended_crafting.quest6E79797DBD8A54EA.description1}"]
+			description: ["{ftbquests.chapter.extended_crafting.quest37.description1}"]
 			id: "6E79797DBD8A54EA"
 			rewards: [{
 				id: "48E0D281D8444274"
@@ -925,7 +925,7 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.extended_crafting.quest6E79797DBD8A54EA.title}"
+			title: "{ftbquests.chapter.extended_crafting.quest37.title}"
 			x: 9.0d
 			y: -14.5d
 		}
@@ -1008,7 +1008,7 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.extended_crafting.quest5C6453AF1DC98785.title}"
+			title: "{ftbquests.chapter.extended_crafting.quest41.title}"
 			x: 11.0d
 			y: -13.5d
 		}

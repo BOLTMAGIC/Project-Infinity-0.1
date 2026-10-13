@@ -45,7 +45,7 @@
 	quests: [
 		{
 			dependencies: ["3178A3309DA989AC"]
-			description: ["Allows for the automation of the Advanced Crafting Table."]
+			description: ["{ftbquests.chapter.package_mod.quest1.description1}"]
 			id: "43F28CD6CB3D6523"
 			rewards: [{
 				id: "05ED1ED604513B75"
@@ -57,35 +57,35 @@
 				item: "packagedexcrafting:advanced_crafter"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.package_mod.quest43F28CD6CB3D6523.title}"
+			title: "{ftbquests.chapter.package_mod.quest1.title}"
 			x: -0.5d
 			y: 6.5d
 		}
 		{
 			dependencies: ["1C3B265F18A02D1A"]
 			description: [
-				"{ftbquests.chapter.package_mod.quest2E64A1B7D993EFF8.description1}"
+				"{ftbquests.chapter.package_mod.quest2.description1}"
 				""
-				"{ftbquests.chapter.package_mod.quest2E64A1B7D993EFF8.description2}"
+				"{ftbquests.chapter.package_mod.quest2.description2}"
 				""
-				"{ftbquests.chapter.package_mod.quest2E64A1B7D993EFF8.description3}"
+				"{ftbquests.chapter.package_mod.quest2.description3}"
 				""
-				"{ftbquests.chapter.package_mod.quest2E64A1B7D993EFF8.description4}"
+				"{ftbquests.chapter.package_mod.quest2.description4}"
 				""
-				"{ftbquests.chapter.package_mod.quest2E64A1B7D993EFF8.description5}"
-				"{ftbquests.chapter.package_mod.quest2E64A1B7D993EFF8.description6}"
-				"{ftbquests.chapter.package_mod.quest2E64A1B7D993EFF8.description7}"
+				"{ftbquests.chapter.package_mod.quest2.description5}"
+				"{ftbquests.chapter.package_mod.quest2.description6}"
+				"{ftbquests.chapter.package_mod.quest2.description7}"
 				""
-				"{ftbquests.chapter.package_mod.quest2E64A1B7D993EFF8.description8}"
+				"{ftbquests.chapter.package_mod.quest2.description8}"
 				""
-				"{ftbquests.chapter.package_mod.quest2E64A1B7D993EFF8.description9}"
+				"{ftbquests.chapter.package_mod.quest2.description9}"
 				""
-				"{ftbquests.chapter.package_mod.quest2E64A1B7D993EFF8.description10}"
+				"{ftbquests.chapter.package_mod.quest2.description10}"
 				""
-				"{ftbquests.chapter.package_mod.quest2E64A1B7D993EFF8.description11}"
-				"{ftbquests.chapter.package_mod.quest2E64A1B7D993EFF8.description12}"
+				"{ftbquests.chapter.package_mod.quest2.description11}"
+				"{ftbquests.chapter.package_mod.quest2.description12}"
 				""
-				"{ftbquests.chapter.package_mod.quest2E64A1B7D993EFF8.description13}"
+				"{ftbquests.chapter.package_mod.quest2.description13}"
 			]
 			icon: "packagedexcrafting:combination_crafter"
 			id: "2E64A1B7D993EFF8"
@@ -106,13 +106,13 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.package_mod.quest2E64A1B7D993EFF8.title}"
+			title: "{ftbquests.chapter.package_mod.quest2.title}"
 			x: 7.7d
 			y: 13.0d
 		}
 		{
 			dependencies: ["71222E3AF49A8143"]
-			description: ["Allows for the automation of the &dExtreme Crafting Table&r."]
+			description: ["{ftbquests.chapter.package_mod.quest3.description1}"]
 			id: "740AD1C00684D5CD"
 			rewards: [{
 				id: "3BF1519962387A24"
@@ -124,46 +124,46 @@
 				item: "packagedavaritia:extreme_crafter"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.package_mod.quest740AD1C00684D5CD.title}"
+			title: "{ftbquests.chapter.package_mod.quest3.title}"
 			x: -5.5d
 			y: 11.5d
 		}
 		{
 			dependencies: ["01EFE05083181909"]
 			description: [
-				"{ftbquests.chapter.package_mod.quest18FBAD6FAA74B08D.description1}"
+				"{ftbquests.chapter.package_mod.quest4.description1}"
 				""
-				"{ftbquests.chapter.package_mod.quest18FBAD6FAA74B08D.description2}"
+				"{ftbquests.chapter.package_mod.quest4.description2}"
 				""
-				"{ftbquests.chapter.package_mod.quest18FBAD6FAA74B08D.description3}"
+				"{ftbquests.chapter.package_mod.quest4.description3}"
 				""
-				"{ftbquests.chapter.package_mod.quest18FBAD6FAA74B08D.description4}"
+				"{ftbquests.chapter.package_mod.quest4.description4}"
 				""
-				"{ftbquests.chapter.package_mod.quest18FBAD6FAA74B08D.description5}"
+				"{ftbquests.chapter.package_mod.quest4.description5}"
 				""
-				"{ftbquests.chapter.package_mod.quest18FBAD6FAA74B08D.description6}"
-				"{ftbquests.chapter.package_mod.quest18FBAD6FAA74B08D.description7}"
+				"{ftbquests.chapter.package_mod.quest4.description6}"
+				"{ftbquests.chapter.package_mod.quest4.description7}"
 				""
-				"{ftbquests.chapter.package_mod.quest18FBAD6FAA74B08D.description8}"
+				"{ftbquests.chapter.package_mod.quest4.description8}"
 				""
-				"{ftbquests.chapter.package_mod.quest18FBAD6FAA74B08D.description9}"
+				"{ftbquests.chapter.package_mod.quest4.description9}"
 				""
-				"{ftbquests.chapter.package_mod.quest18FBAD6FAA74B08D.description10}"
-				"{ftbquests.chapter.package_mod.quest18FBAD6FAA74B08D.description11}"
-				"{ftbquests.chapter.package_mod.quest18FBAD6FAA74B08D.description12}"
+				"{ftbquests.chapter.package_mod.quest4.description10}"
+				"{ftbquests.chapter.package_mod.quest4.description11}"
+				"{ftbquests.chapter.package_mod.quest4.description12}"
 				""
-				"{ftbquests.chapter.package_mod.quest18FBAD6FAA74B08D.description13}"
+				"{ftbquests.chapter.package_mod.quest4.description13}"
 				""
-				"{ftbquests.chapter.package_mod.quest18FBAD6FAA74B08D.description14}"
-				"{ftbquests.chapter.package_mod.quest18FBAD6FAA74B08D.description15}"
-				"{ftbquests.chapter.package_mod.quest18FBAD6FAA74B08D.description16}"
+				"{ftbquests.chapter.package_mod.quest4.description14}"
+				"{ftbquests.chapter.package_mod.quest4.description15}"
+				"{ftbquests.chapter.package_mod.quest4.description16}"
 				""
-				"{ftbquests.chapter.package_mod.quest18FBAD6FAA74B08D.description17}"
+				"{ftbquests.chapter.package_mod.quest4.description17}"
 				""
-				"{ftbquests.chapter.package_mod.quest18FBAD6FAA74B08D.description18}"
-				"{ftbquests.chapter.package_mod.quest18FBAD6FAA74B08D.description19}"
-				"{ftbquests.chapter.package_mod.quest18FBAD6FAA74B08D.description20}"
-				"{ftbquests.chapter.package_mod.quest18FBAD6FAA74B08D.description21}"
+				"{ftbquests.chapter.package_mod.quest4.description18}"
+				"{ftbquests.chapter.package_mod.quest4.description19}"
+				"{ftbquests.chapter.package_mod.quest4.description20}"
+				"{ftbquests.chapter.package_mod.quest4.description21}"
 			]
 			id: "18FBAD6FAA74B08D"
 			rewards: [{
@@ -176,35 +176,35 @@
 				item: "packagedauto:fluid_package_filler"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.package_mod.quest18FBAD6FAA74B08D.title}"
+			title: "{ftbquests.chapter.package_mod.quest4.title}"
 			x: 0.5d
 			y: 1.5d
 		}
 		{
 			dependencies: ["35DD7CC1713A9880"]
 			description: [
-				"{ftbquests.chapter.package_mod.quest2E4361DA4E4F0874.description3}"
+				"{ftbquests.chapter.package_mod.quest5.description1}"
 				""
-				"{ftbquests.chapter.package_mod.quest2E4361DA4E4F0874.description4}"
-				"{ftbquests.chapter.package_mod.quest2E4361DA4E4F0874.description5}"
-				"{ftbquests.chapter.package_mod.quest2E4361DA4E4F0874.description6}"
+				"{ftbquests.chapter.package_mod.quest5.description2}"
+				"{ftbquests.chapter.package_mod.quest5.description3}"
+				"{ftbquests.chapter.package_mod.quest5.description4}"
 				""
-				"{ftbquests.chapter.package_mod.quest2E4361DA4E4F0874.description7}"
+				"{ftbquests.chapter.package_mod.quest5.description5}"
 				""
-				"{ftbquests.chapter.package_mod.quest2E4361DA4E4F0874.description8}"
+				"{ftbquests.chapter.package_mod.quest5.description6}"
 				""
-				"{ftbquests.chapter.package_mod.quest2E4361DA4E4F0874.description9}"
+				"{ftbquests.chapter.package_mod.quest5.description7}"
 				""
-				"{ftbquests.chapter.package_mod.quest2E4361DA4E4F0874.description10}"
-				"{ftbquests.chapter.package_mod.quest2E4361DA4E4F0874.description11}"
-				"{ftbquests.chapter.package_mod.quest2E4361DA4E4F0874.description12}"
-				"{ftbquests.chapter.package_mod.quest2E4361DA4E4F0874.description13}"
+				"{ftbquests.chapter.package_mod.quest5.description8}"
+				"{ftbquests.chapter.package_mod.quest5.description9}"
+				"{ftbquests.chapter.package_mod.quest5.description10}"
+				"{ftbquests.chapter.package_mod.quest5.description11}"
 				""
-				"{ftbquests.chapter.package_mod.quest2E4361DA4E4F0874.description14}"
+				"{ftbquests.chapter.package_mod.quest5.description12}"
 				""
-				"{ftbquests.chapter.package_mod.quest2E4361DA4E4F0874.description15}"
+				"{ftbquests.chapter.package_mod.quest5.description13}"
 				""
-				"{ftbquests.chapter.package_mod.quest2E4361DA4E4F0874.description16}"
+				"{ftbquests.chapter.package_mod.quest5.description14}"
 			]
 			id: "2E4361DA4E4F0874"
 			rewards: [{
@@ -217,34 +217,34 @@
 				item: "packageddraconic:fusion_crafter"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.package_mod.quest2E4361DA4E4F0874.title}"
+			title: "{ftbquests.chapter.package_mod.quest5.title}"
 			x: -1.0d
 			y: 13.0d
 		}
 		{
 			dependencies: ["6C24C1BA9673C72C"]
 			description: [
-				"{ftbquests.chapter.package_mod.quest453B1A596BE686ED.description1}"
+				"{ftbquests.chapter.package_mod.quest6.description1}"
 				""
-				"{ftbquests.chapter.package_mod.quest453B1A596BE686ED.description2}"
+				"{ftbquests.chapter.package_mod.quest6.description2}"
 				""
-				"{ftbquests.chapter.package_mod.quest453B1A596BE686ED.description3}"
+				"{ftbquests.chapter.package_mod.quest6.description3}"
 				""
-				"{ftbquests.chapter.package_mod.quest453B1A596BE686ED.description4}"
+				"{ftbquests.chapter.package_mod.quest6.description4}"
 				""
-				"{ftbquests.chapter.package_mod.quest453B1A596BE686ED.description5}"
-				"{ftbquests.chapter.package_mod.quest453B1A596BE686ED.description6}"
-				"{ftbquests.chapter.package_mod.quest453B1A596BE686ED.description7}"
+				"{ftbquests.chapter.package_mod.quest6.description5}"
+				"{ftbquests.chapter.package_mod.quest6.description6}"
+				"{ftbquests.chapter.package_mod.quest6.description7}"
 				""
-				"{ftbquests.chapter.package_mod.quest453B1A596BE686ED.description8}"
+				"{ftbquests.chapter.package_mod.quest6.description8}"
 				""
-				"{ftbquests.chapter.package_mod.quest453B1A596BE686ED.description9}"
+				"{ftbquests.chapter.package_mod.quest6.description9}"
 				""
-				"{ftbquests.chapter.package_mod.quest453B1A596BE686ED.description10}"
+				"{ftbquests.chapter.package_mod.quest6.description10}"
 				""
-				"{ftbquests.chapter.package_mod.quest453B1A596BE686ED.description11}"
-				"{ftbquests.chapter.package_mod.quest453B1A596BE686ED.description12}"
-				"{ftbquests.chapter.package_mod.quest453B1A596BE686ED.description13}"
+				"{ftbquests.chapter.package_mod.quest6.description11}"
+				"{ftbquests.chapter.package_mod.quest6.description12}"
+				"{ftbquests.chapter.package_mod.quest6.description13}"
 			]
 			icon: "packagedexcrafting:flux_crafter"
 			id: "453B1A596BE686ED"
@@ -265,37 +265,37 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.package_mod.quest453B1A596BE686ED.title}"
+			title: "{ftbquests.chapter.package_mod.quest6.title}"
 			x: 5.0d
 			y: 8.0d
 		}
 		{
 			dependencies: ["54832AACF9BC8B54"]
 			description: [
-				"{ftbquests.chapter.package_mod.quest6EE0CF1C19D181CF.description1}"
+				"{ftbquests.chapter.package_mod.quest7.description1}"
 				""
-				"{ftbquests.chapter.package_mod.quest6EE0CF1C19D181CF.description2}"
+				"{ftbquests.chapter.package_mod.quest7.description2}"
 				""
-				"{ftbquests.chapter.package_mod.quest6EE0CF1C19D181CF.description3}"
+				"{ftbquests.chapter.package_mod.quest7.description3}"
 				""
-				"{ftbquests.chapter.package_mod.quest6EE0CF1C19D181CF.description4}"
+				"{ftbquests.chapter.package_mod.quest7.description4}"
 				""
-				"{ftbquests.chapter.package_mod.quest6EE0CF1C19D181CF.description5}"
+				"{ftbquests.chapter.package_mod.quest7.description5}"
 				""
-				"{ftbquests.chapter.package_mod.quest6EE0CF1C19D181CF.description6}"
-				"{ftbquests.chapter.package_mod.quest6EE0CF1C19D181CF.description7}"
-				"{ftbquests.chapter.package_mod.quest6EE0CF1C19D181CF.description8}"
+				"{ftbquests.chapter.package_mod.quest7.description6}"
+				"{ftbquests.chapter.package_mod.quest7.description7}"
+				"{ftbquests.chapter.package_mod.quest7.description8}"
 				""
-				"{ftbquests.chapter.package_mod.quest6EE0CF1C19D181CF.description9}"
+				"{ftbquests.chapter.package_mod.quest7.description9}"
 				""
-				"{ftbquests.chapter.package_mod.quest6EE0CF1C19D181CF.description10}"
+				"{ftbquests.chapter.package_mod.quest7.description10}"
 				""
-				"{ftbquests.chapter.package_mod.quest6EE0CF1C19D181CF.description11}"
+				"{ftbquests.chapter.package_mod.quest7.description11}"
 				""
-				"{ftbquests.chapter.package_mod.quest6EE0CF1C19D181CF.description12}"
-				"{ftbquests.chapter.package_mod.quest6EE0CF1C19D181CF.description13}"
-				"{ftbquests.chapter.package_mod.quest6EE0CF1C19D181CF.description14}"
-				"{ftbquests.chapter.package_mod.quest6EE0CF1C19D181CF.description15}"
+				"{ftbquests.chapter.package_mod.quest7.description12}"
+				"{ftbquests.chapter.package_mod.quest7.description13}"
+				"{ftbquests.chapter.package_mod.quest7.description14}"
+				"{ftbquests.chapter.package_mod.quest7.description15}"
 			]
 			id: "6EE0CF1C19D181CF"
 			rewards: [{
@@ -308,13 +308,13 @@
 				item: "packagedauto:encoder"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.package_mod.quest6EE0CF1C19D181CF.title}"
+			title: "{ftbquests.chapter.package_mod.quest7.title}"
 			x: -1.5d
 			y: 3.0d
 		}
 		{
 			dependencies: ["43F28CD6CB3D6523"]
-			description: ["Allows for the automation of the Elite Crafting Table."]
+			description: ["{ftbquests.chapter.package_mod.quest8.description1}"]
 			id: "1070E5EB5869C5DB"
 			rewards: [{
 				id: "3EA479DC5387CF99"
@@ -326,13 +326,13 @@
 				item: "packagedexcrafting:elite_crafter"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.package_mod.quest1070E5EB5869C5DB.title}"
+			title: "{ftbquests.chapter.package_mod.quest8.title}"
 			x: -2.0d
 			y: 6.5d
 		}
 		{
 			dependencies: ["7167023C7FD28CF0"]
-			description: ["Allows for the automation of the &bEnd Crafting Table&r."]
+			description: ["{ftbquests.chapter.package_mod.quest9.description1}"]
 			id: "71222E3AF49A8143"
 			rewards: [{
 				id: "7AE9A87D7A868B0B"
@@ -344,7 +344,7 @@
 				item: "packagedavaritia:end_crafter"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.package_mod.quest71222E3AF49A8143.title}"
+			title: "{ftbquests.chapter.package_mod.quest9.title}"
 			x: -4.0d
 			y: 11.5d
 		}
@@ -366,35 +366,35 @@
 		}
 		{
 			description: [
-				"{ftbquests.chapter.package_mod.quest54832AACF9BC8B54.description1}"
+				"{ftbquests.chapter.package_mod.quest11.description1}"
 				""
-				"{ftbquests.chapter.package_mod.quest54832AACF9BC8B54.description2}"
+				"{ftbquests.chapter.package_mod.quest11.description2}"
 				""
-				"{ftbquests.chapter.package_mod.quest54832AACF9BC8B54.description3}"
+				"{ftbquests.chapter.package_mod.quest11.description3}"
 				""
-				"{ftbquests.chapter.package_mod.quest54832AACF9BC8B54.description4}"
+				"{ftbquests.chapter.package_mod.quest11.description4}"
 				""
-				"{ftbquests.chapter.package_mod.quest54832AACF9BC8B54.description5}"
-				"{ftbquests.chapter.package_mod.quest54832AACF9BC8B54.description6}"
-				"{ftbquests.chapter.package_mod.quest54832AACF9BC8B54.description7}"
-				"{ftbquests.chapter.package_mod.quest54832AACF9BC8B54.description8}"
+				"{ftbquests.chapter.package_mod.quest11.description5}"
+				"{ftbquests.chapter.package_mod.quest11.description6}"
+				"{ftbquests.chapter.package_mod.quest11.description7}"
+				"{ftbquests.chapter.package_mod.quest11.description8}"
 				""
-				"{ftbquests.chapter.package_mod.quest54832AACF9BC8B54.description9}"
+				"{ftbquests.chapter.package_mod.quest11.description9}"
 				""
-				"{ftbquests.chapter.package_mod.quest54832AACF9BC8B54.description10}"
+				"{ftbquests.chapter.package_mod.quest11.description10}"
 				""
-				"{ftbquests.chapter.package_mod.quest54832AACF9BC8B54.description11}"
+				"{ftbquests.chapter.package_mod.quest11.description11}"
 				""
-				"{ftbquests.chapter.package_mod.quest54832AACF9BC8B54.description12}"
-				"{ftbquests.chapter.package_mod.quest54832AACF9BC8B54.description13}"
-				"{ftbquests.chapter.package_mod.quest54832AACF9BC8B54.description14}"
+				"{ftbquests.chapter.package_mod.quest11.description12}"
+				"{ftbquests.chapter.package_mod.quest11.description13}"
+				"{ftbquests.chapter.package_mod.quest11.description14}"
 				""
-				"{ftbquests.chapter.package_mod.quest54832AACF9BC8B54.description15}"
+				"{ftbquests.chapter.package_mod.quest11.description15}"
 				""
-				"{ftbquests.chapter.package_mod.quest54832AACF9BC8B54.description16}"
-				"{ftbquests.chapter.package_mod.quest54832AACF9BC8B54.description17}"
-				"{ftbquests.chapter.package_mod.quest54832AACF9BC8B54.description18}"
-				"{ftbquests.chapter.package_mod.quest54832AACF9BC8B54.description19}"
+				"{ftbquests.chapter.package_mod.quest11.description16}"
+				"{ftbquests.chapter.package_mod.quest11.description17}"
+				"{ftbquests.chapter.package_mod.quest11.description18}"
+				"{ftbquests.chapter.package_mod.quest11.description19}"
 			]
 			id: "54832AACF9BC8B54"
 			rewards: [{
@@ -414,28 +414,28 @@
 				match_nbt: true
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.package_mod.quest54832AACF9BC8B54.title}"
+			title: "{ftbquests.chapter.package_mod.quest11.title}"
 			x: -3.5d
 			y: 3.0d
 		}
 		{
 			dependencies: ["6EE0CF1C19D181CF"]
 			description: [
-				"{ftbquests.chapter.package_mod.quest1EFE05083181909.description1}"
-				"{ftbquests.chapter.package_mod.quest1EFE05083181909.description2}"
+				"{ftbquests.chapter.package_mod.quest12.description1}"
+				"{ftbquests.chapter.package_mod.quest12.description2}"
 				""
-				"{ftbquests.chapter.package_mod.quest1EFE05083181909.description3}"
+				"{ftbquests.chapter.package_mod.quest12.description3}"
 				""
-				"{ftbquests.chapter.package_mod.quest1EFE05083181909.description4}"
-				"{ftbquests.chapter.package_mod.quest1EFE05083181909.description5}"
-				"{ftbquests.chapter.package_mod.quest1EFE05083181909.description6}"
-				"{ftbquests.chapter.package_mod.quest1EFE05083181909.description7}"
+				"{ftbquests.chapter.package_mod.quest12.description4}"
+				"{ftbquests.chapter.package_mod.quest12.description5}"
+				"{ftbquests.chapter.package_mod.quest12.description6}"
+				"{ftbquests.chapter.package_mod.quest12.description7}"
 				""
-				"{ftbquests.chapter.package_mod.quest1EFE05083181909.description8}"
+				"{ftbquests.chapter.package_mod.quest12.description8}"
 				""
-				"{ftbquests.chapter.package_mod.quest1EFE05083181909.description9}"
+				"{ftbquests.chapter.package_mod.quest12.description9}"
 				""
-				"{ftbquests.chapter.package_mod.quest1EFE05083181909.description10}"
+				"{ftbquests.chapter.package_mod.quest12.description10}"
 			]
 			id: "01EFE05083181909"
 			rewards: [{
@@ -448,51 +448,51 @@
 				item: "packagedauto:crafter"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.package_mod.quest1EFE05083181909.title}"
+			title: "{ftbquests.chapter.package_mod.quest12.title}"
 			x: 0.5d
 			y: 3.0d
 		}
 		{
 			dependencies: ["6EE0CF1C19D181CF"]
 			description: [
-				"{ftbquests.chapter.package_mod.quest1CC35C01F13AE8EF.description1}"
-				"{ftbquests.chapter.package_mod.quest1CC35C01F13AE8EF.description2}"
+				"{ftbquests.chapter.package_mod.quest13.description1}"
+				"{ftbquests.chapter.package_mod.quest13.description2}"
 				""
-				"{ftbquests.chapter.package_mod.quest1CC35C01F13AE8EF.description3}"
+				"{ftbquests.chapter.package_mod.quest13.description3}"
 				""
-				"{ftbquests.chapter.package_mod.quest1CC35C01F13AE8EF.description4}"
+				"{ftbquests.chapter.package_mod.quest13.description4}"
 				""
-				"{ftbquests.chapter.package_mod.quest1CC35C01F13AE8EF.description5}"
-				"{ftbquests.chapter.package_mod.quest1CC35C01F13AE8EF.description6}"
-				"{ftbquests.chapter.package_mod.quest1CC35C01F13AE8EF.description7}"
+				"{ftbquests.chapter.package_mod.quest13.description5}"
+				"{ftbquests.chapter.package_mod.quest13.description6}"
+				"{ftbquests.chapter.package_mod.quest13.description7}"
 				""
-				"{ftbquests.chapter.package_mod.quest1CC35C01F13AE8EF.description8}"
+				"{ftbquests.chapter.package_mod.quest13.description8}"
 				""
-				"{ftbquests.chapter.package_mod.quest1CC35C01F13AE8EF.description9}"
+				"{ftbquests.chapter.package_mod.quest13.description9}"
 				""
-				"{ftbquests.chapter.package_mod.quest1CC35C01F13AE8EF.description10}"
-				"{ftbquests.chapter.package_mod.quest1CC35C01F13AE8EF.description11}"
-				"{ftbquests.chapter.package_mod.quest1CC35C01F13AE8EF.description12}"
+				"{ftbquests.chapter.package_mod.quest13.description10}"
+				"{ftbquests.chapter.package_mod.quest13.description11}"
+				"{ftbquests.chapter.package_mod.quest13.description12}"
 				""
-				"{ftbquests.chapter.package_mod.quest1CC35C01F13AE8EF.description13}"
+				"{ftbquests.chapter.package_mod.quest13.description13}"
 				""
-				"{ftbquests.chapter.package_mod.quest1CC35C01F13AE8EF.description14}"
-				"{ftbquests.chapter.package_mod.quest1CC35C01F13AE8EF.description15}"
-				"{ftbquests.chapter.package_mod.quest1CC35C01F13AE8EF.description16}"
+				"{ftbquests.chapter.package_mod.quest13.description14}"
+				"{ftbquests.chapter.package_mod.quest13.description15}"
+				"{ftbquests.chapter.package_mod.quest13.description16}"
 				""
-				"{ftbquests.chapter.package_mod.quest1CC35C01F13AE8EF.description17}"
+				"{ftbquests.chapter.package_mod.quest13.description17}"
 				""
-				"{ftbquests.chapter.package_mod.quest1CC35C01F13AE8EF.description18}"
-				"{ftbquests.chapter.package_mod.quest1CC35C01F13AE8EF.description19}"
-				"{ftbquests.chapter.package_mod.quest1CC35C01F13AE8EF.description20}"
-				"{ftbquests.chapter.package_mod.quest1CC35C01F13AE8EF.description21}"
+				"{ftbquests.chapter.package_mod.quest13.description18}"
+				"{ftbquests.chapter.package_mod.quest13.description19}"
+				"{ftbquests.chapter.package_mod.quest13.description20}"
+				"{ftbquests.chapter.package_mod.quest13.description21}"
 				""
-				"{ftbquests.chapter.package_mod.quest1CC35C01F13AE8EF.description22}"
+				"{ftbquests.chapter.package_mod.quest13.description22}"
 				""
-				"{ftbquests.chapter.package_mod.quest1CC35C01F13AE8EF.description23}"
-				"{ftbquests.chapter.package_mod.quest1CC35C01F13AE8EF.description24}"
-				"{ftbquests.chapter.package_mod.quest1CC35C01F13AE8EF.description25}"
-				"{ftbquests.chapter.package_mod.quest1CC35C01F13AE8EF.description26}"
+				"{ftbquests.chapter.package_mod.quest13.description23}"
+				"{ftbquests.chapter.package_mod.quest13.description24}"
+				"{ftbquests.chapter.package_mod.quest13.description25}"
+				"{ftbquests.chapter.package_mod.quest13.description26}"
 			]
 			icon: "packagedauto:crafting_proxy"
 			id: "1CC35C01F13AE8EF"
@@ -513,13 +513,13 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.package_mod.quest1CC35C01F13AE8EF.title}"
+			title: "{ftbquests.chapter.package_mod.quest13.title}"
 			x: -1.5d
 			y: 4.5d
 		}
 		{
 			dependencies: ["5AD13B93F716568B"]
-			description: ["Allows for the automation of the &eNether Crafting Table&r."]
+			description: ["{ftbquests.chapter.package_mod.quest14.description1}"]
 			id: "7167023C7FD28CF0"
 			rewards: [{
 				id: "0EB5528049A18051"
@@ -531,13 +531,13 @@
 				item: "packagedavaritia:nether_crafter"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.package_mod.quest7167023C7FD28CF0.title}"
+			title: "{ftbquests.chapter.package_mod.quest14.title}"
 			x: -2.5d
 			y: 11.5d
 		}
 		{
 			dependencies: ["5BD0534CFB6CE886"]
-			description: ["Allows for the automation of the Sculk Crafting Table."]
+			description: ["{ftbquests.chapter.package_mod.quest15.description1}"]
 			id: "5AD13B93F716568B"
 			rewards: [{
 				id: "4AE8FFD4A8DAB114"
@@ -549,13 +549,13 @@
 				item: "packagedavaritia:sculk_crafter"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.package_mod.quest5AD13B93F716568B.title}"
+			title: "{ftbquests.chapter.package_mod.quest15.title}"
 			x: -1.0d
 			y: 11.5d
 		}
 		{
 			dependencies: ["1070E5EB5869C5DB"]
-			description: ["Allows for the automation of the Ultimate Crafting Table."]
+			description: ["{ftbquests.chapter.package_mod.quest16.description1}"]
 			id: "3878C5C2024F29A8"
 			rewards: [{
 				id: "181F18A141E99106"
@@ -567,7 +567,7 @@
 				item: "packagedexcrafting:ultimate_crafter"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.package_mod.quest3878C5C2024F29A8.title}"
+			title: "{ftbquests.chapter.package_mod.quest16.title}"
 			x: -3.5d
 			y: 6.5d
 		}
@@ -606,27 +606,27 @@
 		{
 			dependencies: ["6C24C1BA9673C72C"]
 			description: [
-				"{ftbquests.chapter.package_mod.quest24422A6ACA45CC63.description1}"
+				"{ftbquests.chapter.package_mod.quest19.description1}"
 				""
-				"{ftbquests.chapter.package_mod.quest24422A6ACA45CC63.description2}"
+				"{ftbquests.chapter.package_mod.quest19.description2}"
 				""
-				"{ftbquests.chapter.package_mod.quest24422A6ACA45CC63.description3}"
+				"{ftbquests.chapter.package_mod.quest19.description3}"
 				""
-				"{ftbquests.chapter.package_mod.quest24422A6ACA45CC63.description4}"
+				"{ftbquests.chapter.package_mod.quest19.description4}"
 				""
-				"{ftbquests.chapter.package_mod.quest24422A6ACA45CC63.description5}"
-				"{ftbquests.chapter.package_mod.quest24422A6ACA45CC63.description6}"
-				"{ftbquests.chapter.package_mod.quest24422A6ACA45CC63.description7}"
+				"{ftbquests.chapter.package_mod.quest19.description5}"
+				"{ftbquests.chapter.package_mod.quest19.description6}"
+				"{ftbquests.chapter.package_mod.quest19.description7}"
 				""
-				"{ftbquests.chapter.package_mod.quest24422A6ACA45CC63.description8}"
+				"{ftbquests.chapter.package_mod.quest19.description8}"
 				""
-				"{ftbquests.chapter.package_mod.quest24422A6ACA45CC63.description9}"
+				"{ftbquests.chapter.package_mod.quest19.description9}"
 				""
-				"{ftbquests.chapter.package_mod.quest24422A6ACA45CC63.description10}"
+				"{ftbquests.chapter.package_mod.quest19.description10}"
 				""
-				"{ftbquests.chapter.package_mod.quest24422A6ACA45CC63.description11}"
-				"{ftbquests.chapter.package_mod.quest24422A6ACA45CC63.description12}"
-				"{ftbquests.chapter.package_mod.quest24422A6ACA45CC63.description13}"
+				"{ftbquests.chapter.package_mod.quest19.description11}"
+				"{ftbquests.chapter.package_mod.quest19.description12}"
+				"{ftbquests.chapter.package_mod.quest19.description13}"
 			]
 			icon: "packagedexcrafting:ender_crafter"
 			id: "24422A6ACA45CC63"
@@ -647,13 +647,13 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.package_mod.quest24422A6ACA45CC63.title}"
+			title: "{ftbquests.chapter.package_mod.quest19.title}"
 			x: 6.5d
 			y: 6.5d
 		}
 		{
 			dependencies: ["3878C5C2024F29A8"]
-			description: ["Allows for the automation of the Epic Crafting Table."]
+			description: ["{ftbquests.chapter.package_mod.quest20.description1}"]
 			id: "176CD1F9AEB2D23F"
 			rewards: [{
 				id: "0A0686FD74022512"
@@ -665,7 +665,7 @@
 				item: "packagedexexcrafting:epic_crafter"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.package_mod.quest176CD1F9AEB2D23F.title}"
+			title: "{ftbquests.chapter.package_mod.quest20.title}"
 			x: -5.0d
 			y: 6.5d
 		}
@@ -688,44 +688,44 @@
 		{
 			dependencies: ["01EFE05083181909"]
 			description: [
-				"{ftbquests.chapter.package_mod.quest3CED53CE6C425AD2.description1}"
+				"{ftbquests.chapter.package_mod.quest22.description1}"
 				""
-				"{ftbquests.chapter.package_mod.quest3CED53CE6C425AD2.description2}"
+				"{ftbquests.chapter.package_mod.quest22.description2}"
 				""
-				"{ftbquests.chapter.package_mod.quest3CED53CE6C425AD2.description3}"
+				"{ftbquests.chapter.package_mod.quest22.description3}"
 				""
-				"{ftbquests.chapter.package_mod.quest3CED53CE6C425AD2.description4}"
+				"{ftbquests.chapter.package_mod.quest22.description4}"
 				""
-				"{ftbquests.chapter.package_mod.quest3CED53CE6C425AD2.description5}"
-				"{ftbquests.chapter.package_mod.quest3CED53CE6C425AD2.description6}"
-				"{ftbquests.chapter.package_mod.quest3CED53CE6C425AD2.description7}"
-				"{ftbquests.chapter.package_mod.quest3CED53CE6C425AD2.description8}"
-				"{ftbquests.chapter.package_mod.quest3CED53CE6C425AD2.description9}"
+				"{ftbquests.chapter.package_mod.quest22.description5}"
+				"{ftbquests.chapter.package_mod.quest22.description6}"
+				"{ftbquests.chapter.package_mod.quest22.description7}"
+				"{ftbquests.chapter.package_mod.quest22.description8}"
+				"{ftbquests.chapter.package_mod.quest22.description9}"
 				""
-				"{ftbquests.chapter.package_mod.quest3CED53CE6C425AD2.description10}"
+				"{ftbquests.chapter.package_mod.quest22.description10}"
 				""
-				"{ftbquests.chapter.package_mod.quest3CED53CE6C425AD2.description11}"
+				"{ftbquests.chapter.package_mod.quest22.description11}"
 				""
-				"{ftbquests.chapter.package_mod.quest3CED53CE6C425AD2.description12}"
+				"{ftbquests.chapter.package_mod.quest22.description12}"
 				""
-				"{ftbquests.chapter.package_mod.quest3CED53CE6C425AD2.description13}"
+				"{ftbquests.chapter.package_mod.quest22.description13}"
 				""
-				"{ftbquests.chapter.package_mod.quest3CED53CE6C425AD2.description14}"
-				"{ftbquests.chapter.package_mod.quest3CED53CE6C425AD2.description15}"
+				"{ftbquests.chapter.package_mod.quest22.description14}"
+				"{ftbquests.chapter.package_mod.quest22.description15}"
 				""
-				"{ftbquests.chapter.package_mod.quest3CED53CE6C425AD2.description16}"
-				"{ftbquests.chapter.package_mod.quest3CED53CE6C425AD2.description17}"
-				"{ftbquests.chapter.package_mod.quest3CED53CE6C425AD2.description18}"
+				"{ftbquests.chapter.package_mod.quest22.description16}"
+				"{ftbquests.chapter.package_mod.quest22.description17}"
+				"{ftbquests.chapter.package_mod.quest22.description18}"
 				""
-				"{ftbquests.chapter.package_mod.quest3CED53CE6C425AD2.description19}"
-				"{ftbquests.chapter.package_mod.quest3CED53CE6C425AD2.description20}"
+				"{ftbquests.chapter.package_mod.quest22.description19}"
+				"{ftbquests.chapter.package_mod.quest22.description20}"
 				""
-				"{ftbquests.chapter.package_mod.quest3CED53CE6C425AD2.description21}"
+				"{ftbquests.chapter.package_mod.quest22.description21}"
 				""
-				"{ftbquests.chapter.package_mod.quest3CED53CE6C425AD2.description22}"
-				"{ftbquests.chapter.package_mod.quest3CED53CE6C425AD2.description23}"
-				"{ftbquests.chapter.package_mod.quest3CED53CE6C425AD2.description24}"
-				"{ftbquests.chapter.package_mod.quest3CED53CE6C425AD2.description25}"
+				"{ftbquests.chapter.package_mod.quest22.description22}"
+				"{ftbquests.chapter.package_mod.quest22.description23}"
+				"{ftbquests.chapter.package_mod.quest22.description24}"
+				"{ftbquests.chapter.package_mod.quest22.description25}"
 			]
 			id: "3CED53CE6C425AD2"
 			rewards: [{
@@ -738,46 +738,46 @@
 				item: "packagedauto:packager"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.package_mod.quest3CED53CE6C425AD2.title}"
+			title: "{ftbquests.chapter.package_mod.quest22.title}"
 			x: 3.0d
 			y: 3.0d
 		}
 		{
 			dependencies: ["3CED53CE6C425AD2"]
 			description: [
-				"{ftbquests.chapter.package_mod.quest6A1B3509AB70FA8C.description1}"
+				"{ftbquests.chapter.package_mod.quest23.description1}"
 				""
-				"{ftbquests.chapter.package_mod.quest6A1B3509AB70FA8C.description2}"
+				"{ftbquests.chapter.package_mod.quest23.description2}"
 				""
-				"{ftbquests.chapter.package_mod.quest6A1B3509AB70FA8C.description3}"
+				"{ftbquests.chapter.package_mod.quest23.description3}"
 				""
-				"{ftbquests.chapter.package_mod.quest6A1B3509AB70FA8C.description4}"
+				"{ftbquests.chapter.package_mod.quest23.description4}"
 				""
-				"{ftbquests.chapter.package_mod.quest6A1B3509AB70FA8C.description5}"
+				"{ftbquests.chapter.package_mod.quest23.description5}"
 				""
-				"{ftbquests.chapter.package_mod.quest6A1B3509AB70FA8C.description6}"
-				"{ftbquests.chapter.package_mod.quest6A1B3509AB70FA8C.description7}"
+				"{ftbquests.chapter.package_mod.quest23.description6}"
+				"{ftbquests.chapter.package_mod.quest23.description7}"
 				""
-				"{ftbquests.chapter.package_mod.quest6A1B3509AB70FA8C.description8}"
+				"{ftbquests.chapter.package_mod.quest23.description8}"
 				""
-				"{ftbquests.chapter.package_mod.quest6A1B3509AB70FA8C.description9}"
+				"{ftbquests.chapter.package_mod.quest23.description9}"
 				""
-				"{ftbquests.chapter.package_mod.quest6A1B3509AB70FA8C.description10}"
+				"{ftbquests.chapter.package_mod.quest23.description10}"
 				""
-				"{ftbquests.chapter.package_mod.quest6A1B3509AB70FA8C.description11}"
+				"{ftbquests.chapter.package_mod.quest23.description11}"
 				""
-				"{ftbquests.chapter.package_mod.quest6A1B3509AB70FA8C.description12}"
-				"{ftbquests.chapter.package_mod.quest6A1B3509AB70FA8C.description13}"
-				"{ftbquests.chapter.package_mod.quest6A1B3509AB70FA8C.description14}"
+				"{ftbquests.chapter.package_mod.quest23.description12}"
+				"{ftbquests.chapter.package_mod.quest23.description13}"
+				"{ftbquests.chapter.package_mod.quest23.description14}"
 				""
-				"{ftbquests.chapter.package_mod.quest6A1B3509AB70FA8C.description15}"
+				"{ftbquests.chapter.package_mod.quest23.description15}"
 				""
-				"{ftbquests.chapter.package_mod.quest6A1B3509AB70FA8C.description16}"
+				"{ftbquests.chapter.package_mod.quest23.description16}"
 				""
-				"{ftbquests.chapter.package_mod.quest6A1B3509AB70FA8C.description17}"
-				"{ftbquests.chapter.package_mod.quest6A1B3509AB70FA8C.description18}"
-				"{ftbquests.chapter.package_mod.quest6A1B3509AB70FA8C.description19}"
-				"{ftbquests.chapter.package_mod.quest6A1B3509AB70FA8C.description20}"
+				"{ftbquests.chapter.package_mod.quest23.description17}"
+				"{ftbquests.chapter.package_mod.quest23.description18}"
+				"{ftbquests.chapter.package_mod.quest23.description19}"
+				"{ftbquests.chapter.package_mod.quest23.description20}"
 			]
 			id: "6A1B3509AB70FA8C"
 			rewards: [{
@@ -790,7 +790,7 @@
 				item: "packagedauto:packager_extension"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.package_mod.quest6A1B3509AB70FA8C.title}"
+			title: "{ftbquests.chapter.package_mod.quest23.title}"
 			x: 3.0d
 			y: 1.5d
 		}
@@ -800,43 +800,43 @@
 				"6DE7A57143B0C88E"
 			]
 			description: [
-				"{ftbquests.chapter.package_mod.questAFFE685B5B34A56.description1}"
+				"{ftbquests.chapter.package_mod.quest24.description1}"
 				""
-				"{ftbquests.chapter.package_mod.questAFFE685B5B34A56.description2}"
+				"{ftbquests.chapter.package_mod.quest24.description2}"
 				""
-				"{ftbquests.chapter.package_mod.questAFFE685B5B34A56.description3}"
+				"{ftbquests.chapter.package_mod.quest24.description3}"
 				""
-				"{ftbquests.chapter.package_mod.questAFFE685B5B34A56.description4}"
+				"{ftbquests.chapter.package_mod.quest24.description4}"
 				""
-				"{ftbquests.chapter.package_mod.questAFFE685B5B34A56.description5}"
-				"{ftbquests.chapter.package_mod.questAFFE685B5B34A56.description6}"
-				"{ftbquests.chapter.package_mod.questAFFE685B5B34A56.description7}"
-				"{ftbquests.chapter.package_mod.questAFFE685B5B34A56.description8}"
+				"{ftbquests.chapter.package_mod.quest24.description5}"
+				"{ftbquests.chapter.package_mod.quest24.description6}"
+				"{ftbquests.chapter.package_mod.quest24.description7}"
+				"{ftbquests.chapter.package_mod.quest24.description8}"
 				""
-				"{ftbquests.chapter.package_mod.questAFFE685B5B34A56.description9}"
+				"{ftbquests.chapter.package_mod.quest24.description9}"
 				""
-				"{ftbquests.chapter.package_mod.questAFFE685B5B34A56.description10}"
+				"{ftbquests.chapter.package_mod.quest24.description10}"
 				""
-				"{ftbquests.chapter.package_mod.questAFFE685B5B34A56.description11}"
+				"{ftbquests.chapter.package_mod.quest24.description11}"
 				""
-				"{ftbquests.chapter.package_mod.questAFFE685B5B34A56.description12}"
-				"{ftbquests.chapter.package_mod.questAFFE685B5B34A56.description13}"
-				"{ftbquests.chapter.package_mod.questAFFE685B5B34A56.description14}"
+				"{ftbquests.chapter.package_mod.quest24.description12}"
+				"{ftbquests.chapter.package_mod.quest24.description13}"
+				"{ftbquests.chapter.package_mod.quest24.description14}"
 				""
-				"{ftbquests.chapter.package_mod.questAFFE685B5B34A56.description15}"
-				"{ftbquests.chapter.package_mod.questAFFE685B5B34A56.description16}"
-				"{ftbquests.chapter.package_mod.questAFFE685B5B34A56.description17}"
+				"{ftbquests.chapter.package_mod.quest24.description15}"
+				"{ftbquests.chapter.package_mod.quest24.description16}"
+				"{ftbquests.chapter.package_mod.quest24.description17}"
 				""
-				"{ftbquests.chapter.package_mod.questAFFE685B5B34A56.description18}"
-				"{ftbquests.chapter.package_mod.questAFFE685B5B34A56.description19}"
-				"{ftbquests.chapter.package_mod.questAFFE685B5B34A56.description20}"
+				"{ftbquests.chapter.package_mod.quest24.description18}"
+				"{ftbquests.chapter.package_mod.quest24.description19}"
+				"{ftbquests.chapter.package_mod.quest24.description20}"
 				""
-				"{ftbquests.chapter.package_mod.questAFFE685B5B34A56.description21}"
+				"{ftbquests.chapter.package_mod.quest24.description21}"
 				""
-				"{ftbquests.chapter.package_mod.questAFFE685B5B34A56.description22}"
-				"{ftbquests.chapter.package_mod.questAFFE685B5B34A56.description23}"
-				"{ftbquests.chapter.package_mod.questAFFE685B5B34A56.description24}"
-				"{ftbquests.chapter.package_mod.questAFFE685B5B34A56.description25}"
+				"{ftbquests.chapter.package_mod.quest24.description22}"
+				"{ftbquests.chapter.package_mod.quest24.description23}"
+				"{ftbquests.chapter.package_mod.quest24.description24}"
+				"{ftbquests.chapter.package_mod.quest24.description25}"
 			]
 			icon_scale: 1.1d
 			id: "0AFFE685B5B34A56"
@@ -852,44 +852,44 @@
 				item: "packagedauto:packaging_provider"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.package_mod.questAFFE685B5B34A56.title}"
+			title: "{ftbquests.chapter.package_mod.quest24.title}"
 			x: 3.0d
 			y: 4.5d
 		}
 		{
 			dependencies: ["01EFE05083181909"]
 			description: [
-				"{ftbquests.chapter.package_mod.quest6DE7A57143B0C88E.description1}"
+				"{ftbquests.chapter.package_mod.quest25.description1}"
 				""
-				"{ftbquests.chapter.package_mod.quest6DE7A57143B0C88E.description2}"
+				"{ftbquests.chapter.package_mod.quest25.description2}"
 				""
-				"{ftbquests.chapter.package_mod.quest6DE7A57143B0C88E.description3}"
+				"{ftbquests.chapter.package_mod.quest25.description3}"
 				""
-				"{ftbquests.chapter.package_mod.quest6DE7A57143B0C88E.description4}"
+				"{ftbquests.chapter.package_mod.quest25.description4}"
 				""
-				"{ftbquests.chapter.package_mod.quest6DE7A57143B0C88E.description5}"
-				"{ftbquests.chapter.package_mod.quest6DE7A57143B0C88E.description6}"
-				"{ftbquests.chapter.package_mod.quest6DE7A57143B0C88E.description7}"
-				"{ftbquests.chapter.package_mod.quest6DE7A57143B0C88E.description8}"
-				"{ftbquests.chapter.package_mod.quest6DE7A57143B0C88E.description9}"
+				"{ftbquests.chapter.package_mod.quest25.description5}"
+				"{ftbquests.chapter.package_mod.quest25.description6}"
+				"{ftbquests.chapter.package_mod.quest25.description7}"
+				"{ftbquests.chapter.package_mod.quest25.description8}"
+				"{ftbquests.chapter.package_mod.quest25.description9}"
 				""
-				"{ftbquests.chapter.package_mod.quest6DE7A57143B0C88E.description10}"
+				"{ftbquests.chapter.package_mod.quest25.description10}"
 				""
-				"{ftbquests.chapter.package_mod.quest6DE7A57143B0C88E.description11}"
+				"{ftbquests.chapter.package_mod.quest25.description11}"
 				""
-				"{ftbquests.chapter.package_mod.quest6DE7A57143B0C88E.description12}"
+				"{ftbquests.chapter.package_mod.quest25.description12}"
 				""
-				"{ftbquests.chapter.package_mod.quest6DE7A57143B0C88E.description13}"
-				"{ftbquests.chapter.package_mod.quest6DE7A57143B0C88E.description14}"
+				"{ftbquests.chapter.package_mod.quest25.description13}"
+				"{ftbquests.chapter.package_mod.quest25.description14}"
 				""
-				"{ftbquests.chapter.package_mod.quest6DE7A57143B0C88E.description15}"
+				"{ftbquests.chapter.package_mod.quest25.description15}"
 				""
-				"{ftbquests.chapter.package_mod.quest6DE7A57143B0C88E.description16}"
+				"{ftbquests.chapter.package_mod.quest25.description16}"
 				""
-				"{ftbquests.chapter.package_mod.quest6DE7A57143B0C88E.description17}"
-				"{ftbquests.chapter.package_mod.quest6DE7A57143B0C88E.description18}"
-				"{ftbquests.chapter.package_mod.quest6DE7A57143B0C88E.description19}"
-				"{ftbquests.chapter.package_mod.quest6DE7A57143B0C88E.description20}"
+				"{ftbquests.chapter.package_mod.quest25.description17}"
+				"{ftbquests.chapter.package_mod.quest25.description18}"
+				"{ftbquests.chapter.package_mod.quest25.description19}"
+				"{ftbquests.chapter.package_mod.quest25.description20}"
 			]
 			id: "6DE7A57143B0C88E"
 			rewards: [{
@@ -902,32 +902,32 @@
 				item: "packagedauto:unpackager"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.package_mod.quest6DE7A57143B0C88E.title}"
+			title: "{ftbquests.chapter.package_mod.quest25.title}"
 			x: 0.5d
 			y: 4.5d
 		}
 		{
 			dependencies: ["54832AACF9BC8B54"]
 			description: [
-				"{ftbquests.chapter.package_mod.quest30BEE6FCFFC78A63.description1}"
+				"{ftbquests.chapter.package_mod.quest26.description1}"
 				""
-				"{ftbquests.chapter.package_mod.quest30BEE6FCFFC78A63.description2}"
+				"{ftbquests.chapter.package_mod.quest26.description2}"
 				""
-				"{ftbquests.chapter.package_mod.quest30BEE6FCFFC78A63.description3}"
+				"{ftbquests.chapter.package_mod.quest26.description3}"
 				""
-				"{ftbquests.chapter.package_mod.quest30BEE6FCFFC78A63.description4}"
-				"{ftbquests.chapter.package_mod.quest30BEE6FCFFC78A63.description5}"
+				"{ftbquests.chapter.package_mod.quest26.description4}"
+				"{ftbquests.chapter.package_mod.quest26.description5}"
 				""
-				"{ftbquests.chapter.package_mod.quest30BEE6FCFFC78A63.description6}"
+				"{ftbquests.chapter.package_mod.quest26.description6}"
 				""
-				"{ftbquests.chapter.package_mod.quest30BEE6FCFFC78A63.description7}"
+				"{ftbquests.chapter.package_mod.quest26.description7}"
 				""
-				"{ftbquests.chapter.package_mod.quest30BEE6FCFFC78A63.description8}"
+				"{ftbquests.chapter.package_mod.quest26.description8}"
 				""
-				"{ftbquests.chapter.package_mod.quest30BEE6FCFFC78A63.description9}"
-				"{ftbquests.chapter.package_mod.quest30BEE6FCFFC78A63.description10}"
-				"{ftbquests.chapter.package_mod.quest30BEE6FCFFC78A63.description11}"
-				"{ftbquests.chapter.package_mod.quest30BEE6FCFFC78A63.description12}"
+				"{ftbquests.chapter.package_mod.quest26.description9}"
+				"{ftbquests.chapter.package_mod.quest26.description10}"
+				"{ftbquests.chapter.package_mod.quest26.description11}"
+				"{ftbquests.chapter.package_mod.quest26.description12}"
 			]
 			id: "30BEE6FCFFC78A63"
 			rewards: [{
@@ -940,39 +940,39 @@
 				item: "packagedauto:settings_cloner"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.package_mod.quest30BEE6FCFFC78A63.title}"
+			title: "{ftbquests.chapter.package_mod.quest26.title}"
 			x: -3.5d
 			y: 1.5d
 		}
 		{
 			dependencies: ["54832AACF9BC8B54"]
 			description: [
-				"{ftbquests.chapter.package_mod.quest4AD6B31B2ACFD56E.description1}"
+				"{ftbquests.chapter.package_mod.quest27.description1}"
 				""
-				"{ftbquests.chapter.package_mod.quest4AD6B31B2ACFD56E.description2}"
+				"{ftbquests.chapter.package_mod.quest27.description2}"
 				""
-				"{ftbquests.chapter.package_mod.quest4AD6B31B2ACFD56E.description3}"
+				"{ftbquests.chapter.package_mod.quest27.description3}"
 				""
-				"{ftbquests.chapter.package_mod.quest4AD6B31B2ACFD56E.description4}"
+				"{ftbquests.chapter.package_mod.quest27.description4}"
 				""
-				"{ftbquests.chapter.package_mod.quest4AD6B31B2ACFD56E.description5}"
-				"{ftbquests.chapter.package_mod.quest4AD6B31B2ACFD56E.description6}"
+				"{ftbquests.chapter.package_mod.quest27.description5}"
+				"{ftbquests.chapter.package_mod.quest27.description6}"
 				""
-				"{ftbquests.chapter.package_mod.quest4AD6B31B2ACFD56E.description7}"
+				"{ftbquests.chapter.package_mod.quest27.description7}"
 				""
-				"{ftbquests.chapter.package_mod.quest4AD6B31B2ACFD56E.description8}"
+				"{ftbquests.chapter.package_mod.quest27.description8}"
 				""
-				"{ftbquests.chapter.package_mod.quest4AD6B31B2ACFD56E.description9}"
+				"{ftbquests.chapter.package_mod.quest27.description9}"
 				""
-				"{ftbquests.chapter.package_mod.quest4AD6B31B2ACFD56E.description10}"
+				"{ftbquests.chapter.package_mod.quest27.description10}"
 				""
-				"{ftbquests.chapter.package_mod.quest4AD6B31B2ACFD56E.description11}"
+				"{ftbquests.chapter.package_mod.quest27.description11}"
 				""
-				"{ftbquests.chapter.package_mod.quest4AD6B31B2ACFD56E.description12}"
+				"{ftbquests.chapter.package_mod.quest27.description12}"
 				""
-				"{ftbquests.chapter.package_mod.quest4AD6B31B2ACFD56E.description13}"
-				"{ftbquests.chapter.package_mod.quest4AD6B31B2ACFD56E.description14}"
-				"{ftbquests.chapter.package_mod.quest4AD6B31B2ACFD56E.description15}"
+				"{ftbquests.chapter.package_mod.quest27.description13}"
+				"{ftbquests.chapter.package_mod.quest27.description14}"
+				"{ftbquests.chapter.package_mod.quest27.description15}"
 			]
 			id: "4AD6B31B2ACFD56E"
 			rewards: [{
@@ -985,46 +985,46 @@
 				item: "packagedauto:recipe_holder"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.package_mod.quest4AD6B31B2ACFD56E.title}"
+			title: "{ftbquests.chapter.package_mod.quest27.title}"
 			x: -3.5d
 			y: 4.5d
 		}
 		{
 			dependencies: ["6EE0CF1C19D181CF"]
 			description: [
-				"{ftbquests.chapter.package_mod.quest5E8B7801E15425D7.description1}"
+				"{ftbquests.chapter.package_mod.quest28.description1}"
 				""
-				"{ftbquests.chapter.package_mod.quest5E8B7801E15425D7.description2}"
+				"{ftbquests.chapter.package_mod.quest28.description2}"
 				""
-				"{ftbquests.chapter.package_mod.quest5E8B7801E15425D7.description3}"
+				"{ftbquests.chapter.package_mod.quest28.description3}"
 				""
-				"{ftbquests.chapter.package_mod.quest5E8B7801E15425D7.description4}"
-				"{ftbquests.chapter.package_mod.quest5E8B7801E15425D7.description5}"
-				"{ftbquests.chapter.package_mod.quest5E8B7801E15425D7.description6}"
-				"{ftbquests.chapter.package_mod.quest5E8B7801E15425D7.description7}"
+				"{ftbquests.chapter.package_mod.quest28.description4}"
+				"{ftbquests.chapter.package_mod.quest28.description5}"
+				"{ftbquests.chapter.package_mod.quest28.description6}"
+				"{ftbquests.chapter.package_mod.quest28.description7}"
 				""
-				"{ftbquests.chapter.package_mod.quest5E8B7801E15425D7.description8}"
+				"{ftbquests.chapter.package_mod.quest28.description8}"
 				""
-				"{ftbquests.chapter.package_mod.quest5E8B7801E15425D7.description9}"
-				"{ftbquests.chapter.package_mod.quest5E8B7801E15425D7.description10}"
-				"{ftbquests.chapter.package_mod.quest5E8B7801E15425D7.description11}"
-				"{ftbquests.chapter.package_mod.quest5E8B7801E15425D7.description12}"
+				"{ftbquests.chapter.package_mod.quest28.description9}"
+				"{ftbquests.chapter.package_mod.quest28.description10}"
+				"{ftbquests.chapter.package_mod.quest28.description11}"
+				"{ftbquests.chapter.package_mod.quest28.description12}"
 				""
-				"{ftbquests.chapter.package_mod.quest5E8B7801E15425D7.description13}"
+				"{ftbquests.chapter.package_mod.quest28.description13}"
 				""
-				"{ftbquests.chapter.package_mod.quest5E8B7801E15425D7.description14}"
+				"{ftbquests.chapter.package_mod.quest28.description14}"
 				""
-				"{ftbquests.chapter.package_mod.quest5E8B7801E15425D7.description15}"
-				"{ftbquests.chapter.package_mod.quest5E8B7801E15425D7.description16}"
-				"{ftbquests.chapter.package_mod.quest5E8B7801E15425D7.description17}"
-				"{ftbquests.chapter.package_mod.quest5E8B7801E15425D7.description18}"
+				"{ftbquests.chapter.package_mod.quest28.description15}"
+				"{ftbquests.chapter.package_mod.quest28.description16}"
+				"{ftbquests.chapter.package_mod.quest28.description17}"
+				"{ftbquests.chapter.package_mod.quest28.description18}"
 				""
-				"{ftbquests.chapter.package_mod.quest5E8B7801E15425D7.description19}"
+				"{ftbquests.chapter.package_mod.quest28.description19}"
 				""
-				"{ftbquests.chapter.package_mod.quest5E8B7801E15425D7.description20}"
-				"{ftbquests.chapter.package_mod.quest5E8B7801E15425D7.description21}"
-				"{ftbquests.chapter.package_mod.quest5E8B7801E15425D7.description22}"
-				"{ftbquests.chapter.package_mod.quest5E8B7801E15425D7.description23}"
+				"{ftbquests.chapter.package_mod.quest28.description20}"
+				"{ftbquests.chapter.package_mod.quest28.description21}"
+				"{ftbquests.chapter.package_mod.quest28.description22}"
+				"{ftbquests.chapter.package_mod.quest28.description23}"
 			]
 			icon: "packagedauto:distributor"
 			id: "5E8B7801E15425D7"
@@ -1045,13 +1045,13 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.package_mod.quest5E8B7801E15425D7.title}"
+			title: "{ftbquests.chapter.package_mod.quest28.title}"
 			x: -1.5d
 			y: 1.5d
 		}
 		{
 			dependencies: ["176CD1F9AEB2D23F"]
-			description: ["Allows for the automation of the Legendary Crafting Table."]
+			description: ["{ftbquests.chapter.package_mod.quest29.description1}"]
 			id: "1547B8D21C753435"
 			rewards: [{
 				id: "6B970F75E7ED7971"
@@ -1068,11 +1068,11 @@
 		}
 		{
 			dependencies: ["4FF7FFCD116D1793"]
-			description: ["P.s. You can tick accelerate marked tables."]
+			description: ["{ftbquests.chapter.package_mod.quest30.description1}"]
 			id: "3178A3309DA989AC"
 			tasks: [{
 				id: "1AB4217DE83AB437"
-				title: "Extended Crafting"
+				title: "{ftbquests.chapter.package_mod.quest30.task_1924199765444834359.title}"
 				type: "checkmark"
 			}]
 			x: 1.0d
@@ -1080,11 +1080,11 @@
 		}
 		{
 			dependencies: ["4FF7FFCD116D1793"]
-			description: ["P.s. You can tick accelerate marked tables."]
+			description: ["{ftbquests.chapter.package_mod.quest31.description1}"]
 			id: "5BD0534CFB6CE886"
 			tasks: [{
 				id: "3B831D210DCE252E"
-				title: "Avaritia Crafting"
+				title: "{ftbquests.chapter.package_mod.quest31.task_4288303297989584174.title}"
 				type: "checkmark"
 			}]
 			x: 1.0d
@@ -1093,14 +1093,14 @@
 		{
 			dependencies: ["0AFFE685B5B34A56"]
 			description: [
-				"So, there's our &6&lcrafts&r&r begins!"
+				"{ftbquests.chapter.package_mod.quest32.description1}"
 				""
-				"Don't forget to use &l&4CORRECT&r&r tables when encoding patterns, if you use wrong table, craft will not procced."
+				"{ftbquests.chapter.package_mod.quest32.description2}"
 			]
 			id: "4FF7FFCD116D1793"
 			tasks: [{
 				id: "0879DE2B97F592CA"
-				title: "Let's craft!"
+				title: "{ftbquests.chapter.package_mod.quest32.task_610763503299826378.title}"
 				type: "checkmark"
 			}]
 			x: 3.0d
@@ -1111,7 +1111,7 @@
 			id: "6C24C1BA9673C72C"
 			tasks: [{
 				id: "151E3F17EC34DFD8"
-				title: "Extended Crafting Pt.2"
+				title: "{ftbquests.chapter.package_mod.quest33.task_1521723096077492184.title}"
 				type: "checkmark"
 			}]
 			x: 5.0d
@@ -1122,7 +1122,7 @@
 			id: "35DD7CC1713A9880"
 			tasks: [{
 				id: "2A4E751837EF70A9"
-				title: "Fusion Crafting"
+				title: "{ftbquests.chapter.package_mod.quest34.task_3048502744654508201.title}"
 				type: "checkmark"
 			}]
 			x: 1.0d
@@ -1133,7 +1133,7 @@
 			id: "1C3B265F18A02D1A"
 			tasks: [{
 				id: "4E8A7643912A6BB2"
-				title: "Extended Crafting Pt.3"
+				title: "{ftbquests.chapter.package_mod.quest35.task_5659465914314812338.title}"
 				type: "checkmark"
 			}]
 			x: 5.0d

@@ -282,14 +282,14 @@
 	quests: [
 		{
 			description: [
-				"{ftbquests.chapter.botania.quest68F417391B189AF5.description1}"
+				"{ftbquests.chapter.botania.quest1.description1}"
 				""
-				"{ftbquests.chapter.botania.quest68F417391B189AF5.description2}"
+				"{ftbquests.chapter.botania.quest1.description2}"
 				""
-				"{ftbquests.chapter.botania.quest68F417391B189AF5.description3}"
+				"{ftbquests.chapter.botania.quest1.description3}"
 				""
-				"{ftbquests.chapter.botania.quest68F417391B189AF5.description4}"
-				"{ftbquests.chapter.botania.quest68F417391B189AF5.description5}"
+				"{ftbquests.chapter.botania.quest1.description4}"
+				"{ftbquests.chapter.botania.quest1.description5}"
 			]
 			icon: "botania:lexicon"
 			id: "68F417391B189AF5"
@@ -300,24 +300,24 @@
 			}]
 			shape: "octagon"
 			size: 1.5d
-			subtitle: "{ftbquests.chapter.botania.quest68F417391B189AF5.subtitle}"
+			subtitle: "{ftbquests.chapter.botania.quest1.subtitle}"
 			tasks: [{
 				id: "0315AE155F01871C"
-				title: "{ftbquests.chapter.botania.quest68F417391B189AF5.task.222275163436189468.title}"
+				title: "{ftbquests.chapter.botania.quest1.task_222275163436189468.title}"
 				type: "checkmark"
 			}]
-			title: "{ftbquests.chapter.botania.quest68F417391B189AF5.title}"
+			title: "{ftbquests.chapter.botania.quest1.title}"
 			x: 0.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["68F417391B189AF5"]
 			description: [
-				"{ftbquests.chapter.botania.quest47F3BFD70E52C2D6.description1}"
+				"{ftbquests.chapter.botania.quest2.description1}"
 				""
-				"{ftbquests.chapter.botania.quest47F3BFD70E52C2D6.description2}"
+				"{ftbquests.chapter.botania.quest2.description2}"
 				""
-				"{ftbquests.chapter.botania.quest47F3BFD70E52C2D6.description3}"
+				"{ftbquests.chapter.botania.quest2.description3}"
 			]
 			hide_dependent_lines: true
 			id: "47F3BFD70E52C2D6"
@@ -626,19 +626,19 @@
 			]
 			dependency_requirement: "one_completed"
 			description: [
-				"{ftbquests.chapter.botania.quest52ED0C77D7F32B5A.description1}"
+				"{ftbquests.chapter.botania.quest19.description1}"
 				""
-				"{ftbquests.chapter.botania.quest52ED0C77D7F32B5A.description2}"
+				"{ftbquests.chapter.botania.quest19.description2}"
 				""
-				"{ftbquests.chapter.botania.quest52ED0C77D7F32B5A.description3}"
+				"{ftbquests.chapter.botania.quest19.description3}"
 				""
-				"{ftbquests.chapter.botania.quest52ED0C77D7F32B5A.description4}"
+				"{ftbquests.chapter.botania.quest19.description4}"
 				""
-				"{ftbquests.chapter.botania.quest52ED0C77D7F32B5A.description5}"
+				"{ftbquests.chapter.botania.quest19.description5}"
 				""
 				""
-				"{ftbquests.chapter.botania.quest52ED0C77D7F32B5A.description6}"
-				"{ftbquests.chapter.botania.quest52ED0C77D7F32B5A.description7}"
+				"{ftbquests.chapter.botania.quest19.description6}"
+				"{ftbquests.chapter.botania.quest19.description7}"
 			]
 			hide_dependency_lines: true
 			id: "52ED0C77D7F32B5A"
@@ -683,21 +683,21 @@
 						]
 					}
 				}
-				title: "{ftbquests.chapter.botania.quest52ED0C77D7F32B5A.task.6384958466096206801.title}"
+				title: "{ftbquests.chapter.botania.quest19.task_6384958466096206801.title}"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.botania.quest52ED0C77D7F32B5A.title}"
+			title: "{ftbquests.chapter.botania.quest19.title}"
 			x: 0.0d
 			y: 5.5d
 		}
 		{
 			dependencies: ["52ED0C77D7F32B5A"]
 			description: [
-				"{ftbquests.chapter.botania.questFBB805BCAF6F082.description1}"
+				"{ftbquests.chapter.botania.quest20.description1}"
 				""
-				"{ftbquests.chapter.botania.questFBB805BCAF6F082.description2}"
+				"{ftbquests.chapter.botania.quest20.description2}"
 				""
-				"{ftbquests.chapter.botania.questFBB805BCAF6F082.description3}"
+				"{ftbquests.chapter.botania.quest20.description3}"
 			]
 			id: "0FBB805BCAF6F082"
 			rewards: [
@@ -717,22 +717,22 @@
 				item: "botania:pure_daisy"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.botania.questFBB805BCAF6F082.title}"
+			title: "{ftbquests.chapter.botania.quest20.title}"
 			x: -1.0d
 			y: 7.5d
 		}
 		{
 			dependencies: ["52ED0C77D7F32B5A"]
 			description: [
-				"{ftbquests.chapter.botania.quest3FE28C9E227019CB.description1}"
+				"{ftbquests.chapter.botania.quest21.description1}"
 				""
-				"{ftbquests.chapter.botania.quest3FE28C9E227019CB.description2}"
+				"{ftbquests.chapter.botania.quest21.description2}"
 				""
-				"{ftbquests.chapter.botania.quest3FE28C9E227019CB.description3}"
+				"{ftbquests.chapter.botania.quest21.description3}"
 				""
-				"{ftbquests.chapter.botania.quest3FE28C9E227019CB.description4}"
+				"{ftbquests.chapter.botania.quest21.description4}"
 				""
-				"{ftbquests.chapter.botania.quest3FE28C9E227019CB.description5}"
+				"{ftbquests.chapter.botania.quest21.description5}"
 			]
 			id: "3FE28C9E227019CB"
 			rewards: [
@@ -758,7 +758,7 @@
 				item: "botania:endoflame"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.botania.quest3FE28C9E227019CB.title}"
+			title: "{ftbquests.chapter.botania.quest21.title}"
 			x: 1.0d
 			y: 7.5d
 		}
@@ -769,9 +769,9 @@
 				"70C75B3D37CBFC99"
 			]
 			description: [
-				"{ftbquests.chapter.botania.quest179DE16266875872.description1}"
+				"{ftbquests.chapter.botania.quest22.description1}"
 				""
-				"{ftbquests.chapter.botania.quest179DE16266875872.description2}"
+				"{ftbquests.chapter.botania.quest22.description2}"
 			]
 			id: "179DE16266875872"
 			rewards: [
@@ -792,22 +792,22 @@
 				item: "botania:mana_pool"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.botania.quest179DE16266875872.title}"
+			title: "{ftbquests.chapter.botania.quest22.title}"
 			x: 2.0d
 			y: 9.5d
 		}
 		{
 			dependencies: ["5AA2A36DE532BA06"]
 			description: [
-				"{ftbquests.chapter.botania.quest5D0D8720104C49DA.description1}"
+				"{ftbquests.chapter.botania.quest23.description1}"
 				""
-				"{ftbquests.chapter.botania.quest5D0D8720104C49DA.description2}"
+				"{ftbquests.chapter.botania.quest23.description2}"
 				""
-				"{ftbquests.chapter.botania.quest5D0D8720104C49DA.description3}"
+				"{ftbquests.chapter.botania.quest23.description3}"
 				""
-				"{ftbquests.chapter.botania.quest5D0D8720104C49DA.description4}"
+				"{ftbquests.chapter.botania.quest23.description4}"
 				""
-				"{ftbquests.chapter.botania.quest5D0D8720104C49DA.description5}"
+				"{ftbquests.chapter.botania.quest23.description5}"
 			]
 			id: "5D0D8720104C49DA"
 			rewards: [
@@ -835,7 +835,7 @@
 				}
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.botania.quest5D0D8720104C49DA.title}"
+			title: "{ftbquests.chapter.botania.quest23.title}"
 			x: -1.0d
 			y: 11.5d
 		}
@@ -861,7 +861,7 @@
 				item: "botania:livingwood_log"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.botania.quest5AA2A36DE532BA06.title}"
+			title: "{ftbquests.chapter.botania.quest24.title}"
 			x: -2.0d
 			y: 9.5d
 		}
@@ -880,20 +880,20 @@
 				item: { Count: 8, id: "botania:livingrock" }
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.botania.quest6DA2ED7E58906226.title}"
+			title: "{ftbquests.chapter.botania.quest25.title}"
 			x: 0.0d
 			y: 9.5d
 		}
 		{
 			dependencies: ["5D0D8720104C49DA"]
 			description: [
-				"{ftbquests.chapter.botania.quest70C75B3D37CBFC99.description1}"
+				"{ftbquests.chapter.botania.quest26.description1}"
 				""
-				"{ftbquests.chapter.botania.quest70C75B3D37CBFC99.description2}"
+				"{ftbquests.chapter.botania.quest26.description2}"
 				""
-				"{ftbquests.chapter.botania.quest70C75B3D37CBFC99.description3}"
+				"{ftbquests.chapter.botania.quest26.description3}"
 				""
-				"{ftbquests.chapter.botania.quest70C75B3D37CBFC99.description4}"
+				"{ftbquests.chapter.botania.quest26.description4}"
 			]
 			id: "70C75B3D37CBFC99"
 			rewards: [
@@ -914,18 +914,18 @@
 				item: "botania:mana_spreader"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.botania.quest70C75B3D37CBFC99.title}"
+			title: "{ftbquests.chapter.botania.quest26.title}"
 			x: 1.0d
 			y: 11.5d
 		}
 		{
 			dependencies: ["4D6F2BCF205B2C70"]
 			description: [
-				"{ftbquests.chapter.botania.quest87BE0F5A5B1752F.description1}"
+				"{ftbquests.chapter.botania.quest27.description1}"
 				""
-				"{ftbquests.chapter.botania.quest87BE0F5A5B1752F.description2}"
+				"{ftbquests.chapter.botania.quest27.description2}"
 				""
-				"{ftbquests.chapter.botania.quest87BE0F5A5B1752F.description3}"
+				"{ftbquests.chapter.botania.quest27.description3}"
 			]
 			id: "087BE0F5A5B1752F"
 			rewards: [
@@ -946,16 +946,16 @@
 				item: "botania:mana_tablet"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.botania.quest87BE0F5A5B1752F.title}"
+			title: "{ftbquests.chapter.botania.quest27.title}"
 			x: 4.5d
 			y: 7.5d
 		}
 		{
 			dependencies: ["4D6F2BCF205B2C70"]
 			description: [
-				"{ftbquests.chapter.botania.quest6161D04D870A52A6.description1}"
+				"{ftbquests.chapter.botania.quest28.description1}"
 				""
-				"{ftbquests.chapter.botania.quest6161D04D870A52A6.description2}"
+				"{ftbquests.chapter.botania.quest28.description2}"
 			]
 			id: "6161D04D870A52A6"
 			rewards: [{
@@ -968,16 +968,16 @@
 				item: "botania:mana_distributor"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.botania.quest6161D04D870A52A6.title}"
+			title: "{ftbquests.chapter.botania.quest28.title}"
 			x: 3.0d
 			y: 11.0d
 		}
 		{
 			dependencies: ["087BE0F5A5B1752F"]
 			description: [
-				"{ftbquests.chapter.botania.quest46F2561F4FDAA1A.description1}"
+				"{ftbquests.chapter.botania.quest29.description1}"
 				""
-				"{ftbquests.chapter.botania.quest46F2561F4FDAA1A.description2}"
+				"{ftbquests.chapter.botania.quest29.description2}"
 			]
 			id: "046F2561F4FDAA1A"
 			rewards: [
@@ -1006,7 +1006,7 @@
 				"046F2561F4FDAA1A"
 				"58075F794EB7CF8E"
 			]
-			description: ["{ftbquests.chapter.botania.quest493F08ED3A17B6B4.description1}"]
+			description: ["{ftbquests.chapter.botania.quest30.description1}"]
 			id: "493F08ED3A17B6B4"
 			rewards: [
 				{
@@ -1030,7 +1030,7 @@
 		}
 		{
 			dependencies: ["179DE16266875872"]
-			description: ["{ftbquests.chapter.botania.quest4D6F2BCF205B2C70.description1}"]
+			description: ["{ftbquests.chapter.botania.quest31.description1}"]
 			id: "4D6F2BCF205B2C70"
 			rewards: [{
 				id: "580650353B14A22D"
@@ -1075,19 +1075,19 @@
 						]
 					}
 				}
-				title: "{ftbquests.chapter.botania.quest4D6F2BCF205B2C70.task.99143465788410065.title}"
+				title: "{ftbquests.chapter.botania.quest31.task_99143465788410065.title}"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.botania.quest4D6F2BCF205B2C70.title}"
+			title: "{ftbquests.chapter.botania.quest31.title}"
 			x: 4.5d
 			y: 9.5d
 		}
 		{
 			dependencies: ["179DE16266875872"]
 			description: [
-				"{ftbquests.chapter.botania.quest5C0E5BE2A48B5BFF.description1}"
+				"{ftbquests.chapter.botania.quest32.description1}"
 				""
-				"{ftbquests.chapter.botania.quest5C0E5BE2A48B5BFF.description2}"
+				"{ftbquests.chapter.botania.quest32.description2}"
 			]
 			id: "5C0E5BE2A48B5BFF"
 			optional: true
@@ -1121,19 +1121,19 @@
 						]
 					}
 				}
-				title: "{ftbquests.chapter.botania.quest5C0E5BE2A48B5BFF.task.4319790877380759082.title}"
+				title: "{ftbquests.chapter.botania.quest32.task_4319790877380759082.title}"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.botania.quest5C0E5BE2A48B5BFF.title}"
+			title: "{ftbquests.chapter.botania.quest32.title}"
 			x: 3.0d
 			y: 8.0d
 		}
 		{
 			dependencies: ["4D6F2BCF205B2C70"]
 			description: [
-				"{ftbquests.chapter.botania.quest376298788AA44A74.description1}"
+				"{ftbquests.chapter.botania.quest33.description1}"
 				""
-				"{ftbquests.chapter.botania.quest376298788AA44A74.description2}"
+				"{ftbquests.chapter.botania.quest33.description2}"
 			]
 			hide_dependent_lines: true
 			id: "376298788AA44A74"
@@ -1197,16 +1197,16 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.botania.quest376298788AA44A74.title}"
+			title: "{ftbquests.chapter.botania.quest33.title}"
 			x: 6.0d
 			y: 8.0d
 		}
 		{
 			dependencies: ["4D6F2BCF205B2C70"]
 			description: [
-				"{ftbquests.chapter.botania.quest20251947A216F87C.description1}"
+				"{ftbquests.chapter.botania.quest34.description1}"
 				""
-				"{ftbquests.chapter.botania.quest20251947A216F87C.description2}"
+				"{ftbquests.chapter.botania.quest34.description2}"
 			]
 			hide_dependent_lines: true
 			id: "20251947A216F87C"
@@ -1292,7 +1292,7 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.botania.quest20251947A216F87C.title}"
+			title: "{ftbquests.chapter.botania.quest34.title}"
 			x: 6.0d
 			y: 11.0d
 		}
@@ -1306,15 +1306,15 @@
 			]
 			dependency_requirement: "one_completed"
 			description: [
-				"{ftbquests.chapter.botania.quest630E72809CB9525B.description1}"
+				"{ftbquests.chapter.botania.quest35.description1}"
 				""
-				"{ftbquests.chapter.botania.quest630E72809CB9525B.description2}"
+				"{ftbquests.chapter.botania.quest35.description2}"
 				""
-				"{ftbquests.chapter.botania.quest630E72809CB9525B.description3}"
+				"{ftbquests.chapter.botania.quest35.description3}"
 				""
-				"{ftbquests.chapter.botania.quest630E72809CB9525B.description4}"
+				"{ftbquests.chapter.botania.quest35.description4}"
 				""
-				"{ftbquests.chapter.botania.quest630E72809CB9525B.description5}"
+				"{ftbquests.chapter.botania.quest35.description5}"
 			]
 			id: "630E72809CB9525B"
 			rewards: [
@@ -1334,26 +1334,26 @@
 				item: "botania:lens_normal"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.botania.quest630E72809CB9525B.title}"
+			title: "{ftbquests.chapter.botania.quest35.title}"
 			x: 4.500000000000007d
 			y: 15.357142857142861d
 		}
 		{
 			dependencies: ["4D6F2BCF205B2C70"]
 			description: [
-				"{ftbquests.chapter.botania.quest130A9DE38F9537C7.description1}"
+				"{ftbquests.chapter.botania.quest36.description1}"
 				""
-				"{ftbquests.chapter.botania.quest130A9DE38F9537C7.description2}"
+				"{ftbquests.chapter.botania.quest36.description2}"
 				""
-				"{ftbquests.chapter.botania.quest130A9DE38F9537C7.description3}"
+				"{ftbquests.chapter.botania.quest36.description3}"
 				""
-				"{ftbquests.chapter.botania.quest130A9DE38F9537C7.description4}"
+				"{ftbquests.chapter.botania.quest36.description4}"
 				""
-				"{ftbquests.chapter.botania.quest130A9DE38F9537C7.description5}"
+				"{ftbquests.chapter.botania.quest36.description5}"
 				""
 				""
-				"{ftbquests.chapter.botania.quest130A9DE38F9537C7.description6}"
-				"{ftbquests.chapter.botania.quest130A9DE38F9537C7.description7}"
+				"{ftbquests.chapter.botania.quest36.description6}"
+				"{ftbquests.chapter.botania.quest36.description7}"
 			]
 			id: "130A9DE38F9537C7"
 			tasks: [{
@@ -1361,7 +1361,7 @@
 				item: "botania:runic_altar"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.botania.quest130A9DE38F9537C7.title}"
+			title: "{ftbquests.chapter.botania.quest36.title}"
 			x: 4.5d
 			y: 11.5d
 		}
@@ -1428,12 +1428,12 @@
 		{
 			dependencies: ["4D6F2BCF205B2C70"]
 			description: [
-				"{ftbquests.chapter.botania.quest46DBD1A6292CFEDC.description1}"
+				"{ftbquests.chapter.botania.quest42.description1}"
 				""
 				""
-				"{ftbquests.chapter.botania.quest46DBD1A6292CFEDC.description2}"
+				"{ftbquests.chapter.botania.quest42.description2}"
 				""
-				"{ftbquests.chapter.botania.quest46DBD1A6292CFEDC.description3}"
+				"{ftbquests.chapter.botania.quest42.description3}"
 			]
 			id: "46DBD1A6292CFEDC"
 			rewards: [
@@ -1454,7 +1454,7 @@
 				item: "botania:spark"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.botania.quest46DBD1A6292CFEDC.title}"
+			title: "{ftbquests.chapter.botania.quest42.title}"
 			x: 7.5d
 			y: 10.5d
 		}
@@ -1468,13 +1468,13 @@
 				"1E6DD710F4869937"
 			]
 			description: [
-				"{ftbquests.chapter.botania.quest4235FDAC8F6F8414.description1}"
+				"{ftbquests.chapter.botania.quest43.description1}"
 				""
-				"{ftbquests.chapter.botania.quest4235FDAC8F6F8414.description2}"
+				"{ftbquests.chapter.botania.quest43.description2}"
 				""
-				"{ftbquests.chapter.botania.quest4235FDAC8F6F8414.description3}"
+				"{ftbquests.chapter.botania.quest43.description3}"
 				""
-				"{ftbquests.chapter.botania.quest4235FDAC8F6F8414.description4}"
+				"{ftbquests.chapter.botania.quest43.description4}"
 			]
 			id: "4235FDAC8F6F8414"
 			rewards: [
@@ -1508,16 +1508,16 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.botania.quest4235FDAC8F6F8414.title}"
+			title: "{ftbquests.chapter.botania.quest43.title}"
 			x: 9.5d
 			y: 10.5d
 		}
 		{
 			dependencies: ["4D6F2BCF205B2C70"]
 			description: [
-				"{ftbquests.chapter.botania.quest1F119420D1ED2973.description1}"
+				"{ftbquests.chapter.botania.quest44.description1}"
 				""
-				"{ftbquests.chapter.botania.quest1F119420D1ED2973.description2}"
+				"{ftbquests.chapter.botania.quest44.description2}"
 			]
 			id: "1F119420D1ED2973"
 			tasks: [{
@@ -1525,16 +1525,16 @@
 				item: "botania:alchemy_catalyst"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.botania.quest1F119420D1ED2973.title}"
+			title: "{ftbquests.chapter.botania.quest44.title}"
 			x: 7.0d
 			y: 9.0d
 		}
 		{
 			dependencies: ["1E6DD710F4869937"]
 			description: [
-				"{ftbquests.chapter.botania.quest55795F601DE8A130.description1}"
+				"{ftbquests.chapter.botania.quest45.description1}"
 				""
-				"{ftbquests.chapter.botania.quest55795F601DE8A130.description2}"
+				"{ftbquests.chapter.botania.quest45.description2}"
 			]
 			id: "55795F601DE8A130"
 			rewards: [
@@ -1562,7 +1562,7 @@
 				"55795F601DE8A130"
 				"58075F794EB7CF8E"
 			]
-			description: ["{ftbquests.chapter.botania.quest77997EB944060F4D.description1}"]
+			description: ["{ftbquests.chapter.botania.quest46.description1}"]
 			id: "77997EB944060F4D"
 			rewards: [
 				{
@@ -1587,9 +1587,9 @@
 		{
 			dependencies: ["4235FDAC8F6F8414"]
 			description: [
-				"{ftbquests.chapter.botania.quest7571FD6C9C46926F.description1}"
+				"{ftbquests.chapter.botania.quest47.description1}"
 				""
-				"{ftbquests.chapter.botania.quest7571FD6C9C46926F.description2}"
+				"{ftbquests.chapter.botania.quest47.description2}"
 			]
 			id: "7571FD6C9C46926F"
 			rewards: [
@@ -1609,7 +1609,7 @@
 				item: "botania:terrasteel_ingot"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.botania.quest7571FD6C9C46926F.title}"
+			title: "{ftbquests.chapter.botania.quest47.title}"
 			x: 12.0d
 			y: 10.5d
 		}
@@ -1619,11 +1619,11 @@
 				"7571FD6C9C46926F"
 			]
 			description: [
-				"{ftbquests.chapter.botania.quest7006DD713B305FD6.description1}"
+				"{ftbquests.chapter.botania.quest48.description1}"
 				""
-				"{ftbquests.chapter.botania.quest7006DD713B305FD6.description2}"
+				"{ftbquests.chapter.botania.quest48.description2}"
 				""
-				"{ftbquests.chapter.botania.quest7006DD713B305FD6.description3}"
+				"{ftbquests.chapter.botania.quest48.description3}"
 			]
 			id: "7006DD713B305FD6"
 			optional: true
@@ -1698,20 +1698,20 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.botania.quest7006DD713B305FD6.title}"
+			title: "{ftbquests.chapter.botania.quest48.title}"
 			x: 12.0d
 			y: 8.5d
 		}
 		{
 			dependencies: ["7571FD6C9C46926F"]
 			description: [
-				"{ftbquests.chapter.botania.quest6989D4891C2ABDE3.description1}"
+				"{ftbquests.chapter.botania.quest49.description1}"
 				""
-				"{ftbquests.chapter.botania.quest6989D4891C2ABDE3.description2}"
+				"{ftbquests.chapter.botania.quest49.description2}"
 				""
-				"{ftbquests.chapter.botania.quest6989D4891C2ABDE3.description3}"
+				"{ftbquests.chapter.botania.quest49.description3}"
 				""
-				"{ftbquests.chapter.botania.quest6989D4891C2ABDE3.description4}"
+				"{ftbquests.chapter.botania.quest49.description4}"
 			]
 			id: "6989D4891C2ABDE3"
 			optional: true
@@ -1775,26 +1775,26 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.botania.quest6989D4891C2ABDE3.title}"
+			title: "{ftbquests.chapter.botania.quest49.title}"
 			x: 12.0d
 			y: 12.5d
 		}
 		{
 			dependencies: ["7571FD6C9C46926F"]
 			description: [
-				"{ftbquests.chapter.botania.quest1BA3B78781BB2C22.description1}"
+				"{ftbquests.chapter.botania.quest50.description1}"
 				""
-				"{ftbquests.chapter.botania.quest1BA3B78781BB2C22.description2}"
+				"{ftbquests.chapter.botania.quest50.description2}"
 				""
-				"{ftbquests.chapter.botania.quest1BA3B78781BB2C22.description3}"
+				"{ftbquests.chapter.botania.quest50.description3}"
 				""
-				"{ftbquests.chapter.botania.quest1BA3B78781BB2C22.description4}"
+				"{ftbquests.chapter.botania.quest50.description4}"
 				""
-				"{ftbquests.chapter.botania.quest1BA3B78781BB2C22.description5}"
+				"{ftbquests.chapter.botania.quest50.description5}"
 				""
-				"{ftbquests.chapter.botania.quest1BA3B78781BB2C22.description6}"
+				"{ftbquests.chapter.botania.quest50.description6}"
 				""
-				"{ftbquests.chapter.botania.quest1BA3B78781BB2C22.description7}"
+				"{ftbquests.chapter.botania.quest50.description7}"
 			]
 			id: "1BA3B78781BB2C22"
 			min_width: 300
@@ -1860,17 +1860,17 @@
 							]
 						}
 					}
-					title: "Livingwood or Log"
+					title: "{ftbquests.chapter.botania.quest50.task_1973958050956256904.title}"
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.botania.quest1BA3B78781BB2C22.title}"
+			title: "{ftbquests.chapter.botania.quest50.title}"
 			x: 14.5d
 			y: 10.5d
 		}
 		{
 			dependencies: ["1BA3B78781BB2C22"]
-			description: ["{ftbquests.chapter.botania.quest68D4B660E7F35ADB.image0}"]
+			description: ["{ftbquests.chapter.botania.quest51.image0}"]
 			id: "68D4B660E7F35ADB"
 			min_width: 320
 			rewards: [{
@@ -1880,7 +1880,7 @@
 			}]
 			tasks: [{
 				id: "240196294AC8ABB2"
-				title: "{ftbquests.chapter.botania.quest68D4B660E7F35ADB.task.2594519964434607026.title}"
+				title: "{ftbquests.chapter.botania.quest51.task_2594519964434607026.title}"
 				type: "checkmark"
 			}]
 			x: 14.5d
@@ -1888,7 +1888,7 @@
 		}
 		{
 			dependencies: ["1BA3B78781BB2C22"]
-			description: ["{ftbquests.chapter.botania.quest2AD7EADE571198E1.description1}"]
+			description: ["{ftbquests.chapter.botania.quest52.description1}"]
 			id: "2AD7EADE571198E1"
 			rewards: [{
 				id: "2DA701CDAA8466D1"
@@ -1906,16 +1906,16 @@
 				}
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.botania.quest2AD7EADE571198E1.title}"
+			title: "{ftbquests.chapter.botania.quest52.title}"
 			x: 16.0d
 			y: 9.0d
 		}
 		{
 			dependencies: ["1BA3B78781BB2C22"]
 			description: [
-				"{ftbquests.chapter.botania.questC2063795FE160A8.description1}"
+				"{ftbquests.chapter.botania.quest53.description1}"
 				""
-				"{ftbquests.chapter.botania.questC2063795FE160A8.description2}"
+				"{ftbquests.chapter.botania.quest53.description2}"
 			]
 			id: "0C2063795FE160A8"
 			rewards: [
@@ -1977,16 +1977,16 @@
 						]
 					}
 				}
-				title: "{ftbquests.chapter.botania.questC2063795FE160A8.task.2712867337988763491.title}"
+				title: "{ftbquests.chapter.botania.quest53.task_2712867337988763491.title}"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.botania.questC2063795FE160A8.title}"
+			title: "{ftbquests.chapter.botania.quest53.title}"
 			x: 17.0d
 			y: 13.0d
 		}
 		{
 			dependencies: ["0C2063795FE160A8"]
-			description: ["{ftbquests.chapter.botania.questD1BBC52F3FC53B4.description1}"]
+			description: ["{ftbquests.chapter.botania.quest54.description1}"]
 			id: "0D1BBC52F3FC53B4"
 			rewards: [
 				{
@@ -2006,24 +2006,24 @@
 				item: "botania:conjuration_catalyst"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.botania.questD1BBC52F3FC53B4.title}"
+			title: "{ftbquests.chapter.botania.quest54.title}"
 			x: 15.0d
 			y: 15.0d
 		}
 		{
 			dependencies: ["0C2063795FE160A8"]
 			description: [
-				"{ftbquests.chapter.botania.quest6292C7B74E6E57DE.description1}"
+				"{ftbquests.chapter.botania.quest55.description1}"
 				""
 				""
-				"{ftbquests.chapter.botania.quest6292C7B74E6E57DE.description2}"
+				"{ftbquests.chapter.botania.quest55.description2}"
 				""
 				""
-				"{ftbquests.chapter.botania.quest6292C7B74E6E57DE.description3}"
+				"{ftbquests.chapter.botania.quest55.description3}"
 				""
-				"{ftbquests.chapter.botania.quest6292C7B74E6E57DE.description4}"
+				"{ftbquests.chapter.botania.quest55.description4}"
 				""
-				"{ftbquests.chapter.botania.quest6292C7B74E6E57DE.description5}"
+				"{ftbquests.chapter.botania.quest55.description5}"
 			]
 			id: "6292C7B74E6E57DE"
 			rewards: [
@@ -2064,19 +2064,19 @@
 						]
 					}
 				}
-				title: "{ftbquests.chapter.botania.quest6292C7B74E6E57DE.task.7857269542773648462.title}"
+				title: "{ftbquests.chapter.botania.quest55.task_7857269542773648462.title}"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.botania.quest6292C7B74E6E57DE.title}"
+			title: "{ftbquests.chapter.botania.quest55.title}"
 			x: 17.0d
 			y: 15.5d
 		}
 		{
 			dependencies: ["0C2063795FE160A8"]
 			description: [
-				"{ftbquests.chapter.botania.quest3D9753C5F792B3D1.description1}"
+				"{ftbquests.chapter.botania.quest56.description1}"
 				""
-				"{ftbquests.chapter.botania.quest3D9753C5F792B3D1.description2}"
+				"{ftbquests.chapter.botania.quest56.description2}"
 			]
 			id: "3D9753C5F792B3D1"
 			optional: true
@@ -2126,27 +2126,27 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.botania.quest3D9753C5F792B3D1.title}"
+			title: "{ftbquests.chapter.botania.quest56.title}"
 			x: 17.0d
 			y: 10.5d
 		}
 		{
 			dependencies: ["0C2063795FE160A8"]
 			description: [
-				"{ftbquests.chapter.botania.quest2FD61062F6FDE75C.description1}"
+				"{ftbquests.chapter.botania.quest57.description1}"
 				""
-				"{ftbquests.chapter.botania.quest2FD61062F6FDE75C.description2}"
+				"{ftbquests.chapter.botania.quest57.description2}"
 				""
-				"{ftbquests.chapter.botania.quest2FD61062F6FDE75C.description3}"
-				"{ftbquests.chapter.botania.quest2FD61062F6FDE75C.description4}"
+				"{ftbquests.chapter.botania.quest57.description3}"
+				"{ftbquests.chapter.botania.quest57.description4}"
 				""
-				"{ftbquests.chapter.botania.quest2FD61062F6FDE75C.description5}"
+				"{ftbquests.chapter.botania.quest57.description5}"
 				""
-				"{ftbquests.chapter.botania.quest2FD61062F6FDE75C.description6}"
+				"{ftbquests.chapter.botania.quest57.description6}"
 				""
-				"{ftbquests.chapter.botania.quest2FD61062F6FDE75C.description7}"
+				"{ftbquests.chapter.botania.quest57.description7}"
 				""
-				"{ftbquests.chapter.botania.quest2FD61062F6FDE75C.description8}"
+				"{ftbquests.chapter.botania.quest57.description8}"
 			]
 			id: "2FD61062F6FDE75C"
 			min_width: 300
@@ -2218,20 +2218,20 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.botania.quest2FD61062F6FDE75C.title}"
+			title: "{ftbquests.chapter.botania.quest57.title}"
 			x: 19.0d
 			y: 11.0d
 		}
 		{
 			dependencies: ["6E157656CECF1B5A"]
 			description: [
-				"{ftbquests.chapter.botania.quest8BCCDEF986D39AB.description1}"
+				"{ftbquests.chapter.botania.quest58.description1}"
 				""
-				"{ftbquests.chapter.botania.quest8BCCDEF986D39AB.description2}"
+				"{ftbquests.chapter.botania.quest58.description2}"
 				""
-				"{ftbquests.chapter.botania.quest8BCCDEF986D39AB.description3}"
+				"{ftbquests.chapter.botania.quest58.description3}"
 				""
-				"{ftbquests.chapter.botania.quest8BCCDEF986D39AB.description4}"
+				"{ftbquests.chapter.botania.quest58.description4}"
 			]
 			id: "08BCCDEF986D39AB"
 			rewards: [
@@ -2259,16 +2259,16 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.botania.quest8BCCDEF986D39AB.title}"
+			title: "{ftbquests.chapter.botania.quest58.title}"
 			x: 21.5d
 			y: 13.0d
 		}
 		{
 			dependencies: ["08BCCDEF986D39AB"]
 			description: [
-				"{ftbquests.chapter.botania.quest50A030852881D71.image0}"
+				"{ftbquests.chapter.botania.quest59.image0}"
 				"{@pagebreak}"
-				"{ftbquests.chapter.botania.quest50A030852881D71.image2}"
+				"{ftbquests.chapter.botania.quest59.image2}"
 			]
 			id: "050A030852881D71"
 			min_width: 320
@@ -2279,7 +2279,7 @@
 			}]
 			tasks: [{
 				id: "72A741A4FE1C1F86"
-				title: "{ftbquests.chapter.botania.quest50A030852881D71.task.8261644218328162182.title}"
+				title: "{ftbquests.chapter.botania.quest59.task_8261644218328162182.title}"
 				type: "checkmark"
 			}]
 			x: 21.5d
@@ -2287,7 +2287,7 @@
 		}
 		{
 			dependencies: ["0C2063795FE160A8"]
-			description: ["{ftbquests.chapter.botania.quest36889006941554E8.description1}"]
+			description: ["{ftbquests.chapter.botania.quest60.description1}"]
 			id: "36889006941554E8"
 			rewards: [
 				{
@@ -2316,9 +2316,9 @@
 				"148ACEF973512B49"
 			]
 			description: [
-				"{ftbquests.chapter.botania.quest3322EC6E6CA8BAC3.description1}"
+				"{ftbquests.chapter.botania.quest61.description1}"
 				""
-				"{ftbquests.chapter.botania.quest3322EC6E6CA8BAC3.description2}"
+				"{ftbquests.chapter.botania.quest61.description2}"
 			]
 			id: "3322EC6E6CA8BAC3"
 			rewards: [
@@ -2354,18 +2354,18 @@
 				item: "botania:life_essence"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.botania.quest148ACEF973512B49.title}"
+			title: "{ftbquests.chapter.botania.quest62.title}"
 			x: 24.0d
 			y: 13.0d
 		}
 		{
 			dependencies: ["148ACEF973512B49"]
 			description: [
-				"{ftbquests.chapter.botania.quest45A92631C91077E2.description1}"
+				"{ftbquests.chapter.botania.quest63.description1}"
 				""
-				"{ftbquests.chapter.botania.quest45A92631C91077E2.description2}"
+				"{ftbquests.chapter.botania.quest63.description2}"
 				""
-				"{ftbquests.chapter.botania.quest45A92631C91077E2.description3}"
+				"{ftbquests.chapter.botania.quest63.description3}"
 			]
 			id: "45A92631C91077E2"
 			rewards: [
@@ -2385,18 +2385,18 @@
 				item: "botania:gaia_ingot"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.botania.quest45A92631C91077E2.title}"
+			title: "{ftbquests.chapter.botania.quest63.title}"
 			x: 27.0d
 			y: 13.0d
 		}
 		{
 			dependencies: ["45A92631C91077E2"]
 			description: [
-				"{ftbquests.chapter.botania.quest1BFBC65DE42BE280.description1}"
+				"{ftbquests.chapter.botania.quest64.description1}"
 				""
-				"{ftbquests.chapter.botania.quest1BFBC65DE42BE280.description2}"
+				"{ftbquests.chapter.botania.quest64.description2}"
 				""
-				"{ftbquests.chapter.botania.quest1BFBC65DE42BE280.description3}"
+				"{ftbquests.chapter.botania.quest64.description3}"
 			]
 			id: "1BFBC65DE42BE280"
 			rewards: [{
@@ -2415,9 +2415,9 @@
 		{
 			dependencies: ["45A92631C91077E2"]
 			description: [
-				"{ftbquests.chapter.botania.quest1EA7D6B6A8CF942.description1}"
+				"{ftbquests.chapter.botania.quest65.description1}"
 				""
-				"{ftbquests.chapter.botania.quest1EA7D6B6A8CF942.description2}"
+				"{ftbquests.chapter.botania.quest65.description2}"
 			]
 			id: "01EA7D6B6A8CF942"
 			rewards: [{
@@ -2442,13 +2442,13 @@
 		{
 			dependencies: ["45A92631C91077E2"]
 			description: [
-				"{ftbquests.chapter.botania.questA68C3FAFCE7DCC4.description1}"
+				"{ftbquests.chapter.botania.quest66.description1}"
 				""
-				"{ftbquests.chapter.botania.questA68C3FAFCE7DCC4.description2}"
+				"{ftbquests.chapter.botania.quest66.description2}"
 				""
-				"{ftbquests.chapter.botania.questA68C3FAFCE7DCC4.description3}"
+				"{ftbquests.chapter.botania.quest66.description3}"
 				""
-				"{ftbquests.chapter.botania.questA68C3FAFCE7DCC4.description4}"
+				"{ftbquests.chapter.botania.quest66.description4}"
 			]
 			id: "0A68C3FAFCE7DCC4"
 			rewards: [{
@@ -2467,9 +2467,9 @@
 		{
 			dependencies: ["7571FD6C9C46926F"]
 			description: [
-				"{ftbquests.chapter.botania.questBEF53EE86E33D16.description1}"
+				"{ftbquests.chapter.botania.quest67.description1}"
 				""
-				"{ftbquests.chapter.botania.questBEF53EE86E33D16.description2}"
+				"{ftbquests.chapter.botania.quest67.description2}"
 			]
 			id: "0BEF53EE86E33D16"
 			rewards: [{
@@ -2482,16 +2482,16 @@
 				item: "botania:mana_mirror"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.botania.questBEF53EE86E33D16.title}"
+			title: "{ftbquests.chapter.botania.quest67.title}"
 			x: 10.5d
 			y: 12.0d
 		}
 		{
 			dependencies: ["45A92631C91077E2"]
 			description: [
-				"{ftbquests.chapter.botania.quest4CA282992F2FB2A2.description1}"
+				"{ftbquests.chapter.botania.quest68.description1}"
 				""
-				"{ftbquests.chapter.botania.quest4CA282992F2FB2A2.description2}"
+				"{ftbquests.chapter.botania.quest68.description2}"
 			]
 			id: "4CA282992F2FB2A2"
 			rewards: [{
@@ -2510,11 +2510,11 @@
 		{
 			dependencies: ["4CA282992F2FB2A2"]
 			description: [
-				"{ftbquests.chapter.botania.quest50FD2AE7A062E930.description1}"
+				"{ftbquests.chapter.botania.quest69.description1}"
 				""
-				"{ftbquests.chapter.botania.quest50FD2AE7A062E930.description2}"
+				"{ftbquests.chapter.botania.quest69.description2}"
 				""
-				"{ftbquests.chapter.botania.quest50FD2AE7A062E930.description3}"
+				"{ftbquests.chapter.botania.quest69.description3}"
 			]
 			id: "50FD2AE7A062E930"
 			rewards: [{
@@ -2533,11 +2533,11 @@
 		{
 			dependencies: ["4CA282992F2FB2A2"]
 			description: [
-				"{ftbquests.chapter.botania.quest130C7CD7278EB8CF.description1}"
+				"{ftbquests.chapter.botania.quest70.description1}"
 				""
-				"{ftbquests.chapter.botania.quest130C7CD7278EB8CF.description2}"
+				"{ftbquests.chapter.botania.quest70.description2}"
 				""
-				"{ftbquests.chapter.botania.quest130C7CD7278EB8CF.description3}"
+				"{ftbquests.chapter.botania.quest70.description3}"
 			]
 			id: "130C7CD7278EB8CF"
 			rewards: [{
@@ -2555,7 +2555,7 @@
 		}
 		{
 			dependencies: ["4CA282992F2FB2A2"]
-			description: ["{ftbquests.chapter.botania.quest2A68F095D0E6BB5A.description1}"]
+			description: ["{ftbquests.chapter.botania.quest71.description1}"]
 			id: "2A68F095D0E6BB5A"
 			rewards: [{
 				id: "16715459B29D23D6"
@@ -2573,15 +2573,15 @@
 		{
 			dependencies: ["4CA282992F2FB2A2"]
 			description: [
-				"{ftbquests.chapter.botania.quest2F6C827E4D4D1E20.description1}"
+				"{ftbquests.chapter.botania.quest72.description1}"
 				""
-				"{ftbquests.chapter.botania.quest2F6C827E4D4D1E20.description2}"
+				"{ftbquests.chapter.botania.quest72.description2}"
 				""
-				"{ftbquests.chapter.botania.quest2F6C827E4D4D1E20.description3}"
+				"{ftbquests.chapter.botania.quest72.description3}"
 				""
-				"{ftbquests.chapter.botania.quest2F6C827E4D4D1E20.description4}"
+				"{ftbquests.chapter.botania.quest72.description4}"
 				""
-				"{ftbquests.chapter.botania.quest2F6C827E4D4D1E20.description5}"
+				"{ftbquests.chapter.botania.quest72.description5}"
 			]
 			id: "2F6C827E4D4D1E20"
 			rewards: [{
@@ -2599,7 +2599,7 @@
 		}
 		{
 			dependencies: ["4CA282992F2FB2A2"]
-			description: ["{ftbquests.chapter.botania.quest2B45AC77230925D4.description1}"]
+			description: ["{ftbquests.chapter.botania.quest73.description1}"]
 			id: "2B45AC77230925D4"
 			rewards: [{
 				id: "2B462E24564268E4"
@@ -2616,7 +2616,7 @@
 		}
 		{
 			dependencies: ["4CA282992F2FB2A2"]
-			description: ["{ftbquests.chapter.botania.quest3E2716B23268EE04.description1}"]
+			description: ["{ftbquests.chapter.botania.quest74.description1}"]
 			id: "3E2716B23268EE04"
 			rewards: [{
 				id: "694E2A076F6362F4"
@@ -2645,12 +2645,12 @@
 		{
 			dependencies: ["148ACEF973512B49"]
 			description: [
-				"{ftbquests.chapter.botania.quest4C60FCDAD393F563.description1}"
+				"{ftbquests.chapter.botania.quest75.description1}"
 				""
-				"{ftbquests.chapter.botania.quest4C60FCDAD393F563.description2}"
+				"{ftbquests.chapter.botania.quest75.description2}"
 				""
-				"{ftbquests.chapter.botania.quest4C60FCDAD393F563.description3}"
-				"{ftbquests.chapter.botania.quest4C60FCDAD393F563.description4}"
+				"{ftbquests.chapter.botania.quest75.description3}"
+				"{ftbquests.chapter.botania.quest75.description4}"
 			]
 			id: "4C60FCDAD393F563"
 			rewards: [{
@@ -2699,16 +2699,16 @@
 				}
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.botania.quest4C60FCDAD393F563.title}"
+			title: "{ftbquests.chapter.botania.quest75.title}"
 			x: 26.0d
 			y: 15.0d
 		}
 		{
 			dependencies: ["0C2063795FE160A8"]
 			description: [
-				"[\"\",{\"translate\":\"ftbquests.chapter.botania.quest29290AE9FBE8013C.rich_description1\"},{\"underlined\":true,\"translate\":\"ftbquests.chapter.botania.quest29290AE9FBE8013C.rich_description2\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"39BDA119A3E1B4D5\"}},{\"translate\":\"ftbquests.chapter.botania.quest29290AE9FBE8013C.rich_description3\"}]"
-				"[\"\"]"
-				"[\"\",{\"translate\":\"ftbquests.chapter.botania.quest29290AE9FBE8013C.rich_description4\"},{\"color\":\"aqua\",\"translate\":\"ftbquests.chapter.botania.quest29290AE9FBE8013C.rich_description5\"},{\"translate\":\"ftbquests.chapter.botania.quest29290AE9FBE8013C.rich_description6\"}]"
+				"[\"\",{\"translate\":\"ftbquests.chapter.botania.quest76.rich_description1\"},{\"underlined\":1,\"translate\":\"ftbquests.chapter.botania.quest76.rich_description2\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"39BDA119A3E1B4D5\"},{\"translate\":\"ftbquests.chapter.botania.quest76.rich_description3\"}}]"
+				"[\"\"}]"
+				"[\"\",{\"translate\":\"ftbquests.chapter.botania.quest76.rich_description4\"},{\"color\":\"aqua\",\"translate\":\"ftbquests.chapter.botania.quest76.rich_description5\"},{\"translate\":\"ftbquests.chapter.botania.quest76.rich_description6\"}}]"
 			]
 			icon_scale: 1.5d
 			id: "29290AE9FBE8013C"
@@ -2720,21 +2720,21 @@
 			size: 1.5d
 			tasks: [{
 				id: "55642C000649165F"
-				title: "{ftbquests.chapter.botania.quest29290AE9FBE8013C.task.6153091369512015455.title}"
+				title: "{ftbquests.chapter.botania.quest76.task_6153091369512015455.title}"
 				type: "checkmark"
 			}]
-			title: "{ftbquests.chapter.botania.quest29290AE9FBE8013C.title}"
+			title: "{ftbquests.chapter.botania.quest76.title}"
 			x: 14.5d
 			y: 13.0d
 		}
 		{
 			dependencies: ["0C2063795FE160A8"]
 			description: [
-				"{ftbquests.chapter.botania.quest6E157656CECF1B5A.description1}"
+				"{ftbquests.chapter.botania.quest77.description1}"
 				""
-				"{ftbquests.chapter.botania.quest6E157656CECF1B5A.description2}"
+				"{ftbquests.chapter.botania.quest77.description2}"
 				""
-				"{ftbquests.chapter.botania.quest6E157656CECF1B5A.description3}"
+				"{ftbquests.chapter.botania.quest77.description3}"
 			]
 			id: "6E157656CECF1B5A"
 			rewards: [
@@ -2770,15 +2770,15 @@
 		}
 		{
 			description: [
-				"{ftbquests.chapter.botania.quest24087345074D5728.description1}"
-				"{ftbquests.chapter.botania.quest24087345074D5728.description2}"
+				"{ftbquests.chapter.botania.quest78.description1}"
+				"{ftbquests.chapter.botania.quest78.description2}"
 			]
 			id: "24087345074D5728"
 			invisible: true
 			optional: true
 			tasks: [{
 				id: "116A4D1D3314BCCA"
-				title: "{ftbquests.chapter.botania.quest24087345074D5728.task.1254900233982491850.title}"
+				title: "{ftbquests.chapter.botania.quest78.task_1254900233982491850.title}"
 				type: "checkmark"
 			}]
 			x: 0.0d
@@ -2793,8 +2793,8 @@
 				"646148DD269720B7"
 			]
 			description: [
-				"{ftbquests.chapter.botania.quest3F41FFD99F5748EE.description1}"
-				"{ftbquests.chapter.botania.quest3F41FFD99F5748EE.description2}"
+				"{ftbquests.chapter.botania.quest79.description1}"
+				"{ftbquests.chapter.botania.quest79.description2}"
 			]
 			id: "3F41FFD99F5748EE"
 			rewards: [{
@@ -2813,10 +2813,10 @@
 		{
 			dependencies: ["3322EC6E6CA8BAC3"]
 			description: [
-				"{ftbquests.chapter.botania.quest18230FA49D58A9C.description1}"
-				"{ftbquests.chapter.botania.quest18230FA49D58A9C.description2}"
-				"{ftbquests.chapter.botania.quest18230FA49D58A9C.description3}"
-				"{ftbquests.chapter.botania.quest18230FA49D58A9C.description4}"
+				"{ftbquests.chapter.botania.quest80.description1}"
+				"{ftbquests.chapter.botania.quest80.description2}"
+				"{ftbquests.chapter.botania.quest80.description3}"
+				"{ftbquests.chapter.botania.quest80.description4}"
 			]
 			id: "018230FA49D58A9C"
 			min_width: 350

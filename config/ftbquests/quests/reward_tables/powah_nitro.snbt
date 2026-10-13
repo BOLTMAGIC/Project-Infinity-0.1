@@ -1,7 +1,7 @@
 {
 	id: "13DF975BE0A23373"
 	loot_size: 1
-	order_index: 31
+	order_index: 28
 	rewards: [
 		{ item: "powah:capacitor_nitro", random_bonus: 1, weight: 10.0f }
 		{ item: "powah:crystal_nitro", random_bonus: 3, weight: 25.0f }
@@ -13,6 +13,6 @@
 		{ item: "powah:nitro_crystal_block" }
 		{ item: "powah:solar_panel_nitro" }
 	]
-	title: "{ftbquests.loot_table.1432029627393651571.title}"
+	title: "{ftbquests.loot_table_1432029627393651571.title}"
 	use_title: true
 }

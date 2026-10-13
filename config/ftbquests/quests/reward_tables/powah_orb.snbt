@@ -1,7 +1,7 @@
 {
 	id: "04285B94275AB879"
 	loot_size: 1
-	order_index: 23
+	order_index: 20
 	rewards: [
 		{ item: "powah:energizing_rod_starter", weight: 25.0f }
 		{ item: "powah:energizing_rod_basic", weight: 25.0f }
@@ -12,6 +12,6 @@
 		{ item: "powah:energy_cable_hardened", random_bonus: 2, weight: 5.0f }
 		{ item: "powah:energy_cable_blazing", random_bonus: 2 }
 	]
-	title: "{ftbquests.loot_table.299590067093682297.title}"
+	title: "{ftbquests.loot_table_299590067093682297.title}"
 	use_title: true
 }

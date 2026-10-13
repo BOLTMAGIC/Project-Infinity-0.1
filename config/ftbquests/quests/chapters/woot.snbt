@@ -10,11 +10,11 @@
 	quests: [
 		{
 			description: [
-				"{ftbquests.chapter.woot.quest47F7A992EB772464.description1}"
+				"{ftbquests.chapter.woot.quest1.description1}"
 				""
-				"{ftbquests.chapter.woot.quest47F7A992EB772464.description2}"
+				"{ftbquests.chapter.woot.quest1.description2}"
 				""
-				"{ftbquests.chapter.woot.quest47F7A992EB772464.description3}"
+				"{ftbquests.chapter.woot.quest1.description3}"
 			]
 			id: "47F7A992EB772464"
 			rewards: [
@@ -29,10 +29,10 @@
 					type: "item"
 				}
 			]
-			subtitle: "{ftbquests.chapter.woot.quest47F7A992EB772464.subtitle}"
+			subtitle: "{ftbquests.chapter.woot.quest1.subtitle}"
 			tasks: [{
 				id: "033C41B1F247ED9B"
-				title: "{ftbquests.chapter.woot.quest47F7A992EB772464.task.233133513246240155.title}"
+				title: "{ftbquests.chapter.woot.quest1.task_233133513246240155.title}"
 				type: "checkmark"
 			}]
 			x: -1.0d
@@ -41,9 +41,9 @@
 		{
 			dependencies: ["6D4E0799E6FFA709"]
 			description: [
-				"{ftbquests.chapter.woot.quest198B0683CEA92650.description1}"
+				"{ftbquests.chapter.woot.quest2.description1}"
 				""
-				"{ftbquests.chapter.woot.quest198B0683CEA92650.description2}"
+				"{ftbquests.chapter.woot.quest2.description2}"
 			]
 			id: "198B0683CEA92650"
 			rewards: [{
@@ -51,7 +51,7 @@
 				item: "kubejs:apotheotic_coin"
 				type: "item"
 			}]
-			subtitle: "{ftbquests.chapter.woot.quest198B0683CEA92650.subtitle}"
+			subtitle: "{ftbquests.chapter.woot.quest2.subtitle}"
 			tasks: [
 				{
 					id: "32056A6892CB5C3E"
@@ -62,7 +62,7 @@
 							value: "forge:dyes/yellow"
 						}
 					}
-					title: "{ftbquests.chapter.woot.quest198B0683CEA92650.task.3604404074151894078.title}"
+					title: "{ftbquests.chapter.woot.quest2.task_3604404074151894078.title}"
 					type: "item"
 				}
 				{
@@ -74,7 +74,7 @@
 							value: "forge:dyes/red"
 						}
 					}
-					title: "{ftbquests.chapter.woot.quest198B0683CEA92650.task.5230178948943198723.title}"
+					title: "{ftbquests.chapter.woot.quest2.task_5230178948943198723.title}"
 					type: "item"
 				}
 				{
@@ -86,7 +86,7 @@
 							value: "forge:dyes/blue"
 						}
 					}
-					title: "{ftbquests.chapter.woot.quest198B0683CEA92650.task.6937668338404105054.title}"
+					title: "{ftbquests.chapter.woot.quest2.task_6937668338404105054.title}"
 					type: "item"
 				}
 				{
@@ -98,11 +98,11 @@
 							value: "forge:dyes/white"
 						}
 					}
-					title: "{ftbquests.chapter.woot.quest198B0683CEA92650.task.5712805485730781511.title}"
+					title: "{ftbquests.chapter.woot.quest2.task_5712805485730781511.title}"
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.woot.quest198B0683CEA92650.title}"
+			title: "{ftbquests.chapter.woot.quest2.title}"
 			x: 5.0d
 			y: -2.0d
 		}
@@ -131,7 +131,7 @@
 				}
 				{
 					id: "4348B570EC4C7DE6"
-					title: "{ftbquests.chapter.woot.quest5A157D0B9D1FC996.task.4848324495469739494.title}"
+					title: "{ftbquests.chapter.woot.quest3.task_4848324495469739494.title}"
 					type: "checkmark"
 				}
 			]
@@ -146,7 +146,7 @@
 				item: "kubejs:apotheotic_coin"
 				type: "item"
 			}]
-			subtitle: "{ftbquests.chapter.woot.quest6D4E0799E6FFA709.subtitle}"
+			subtitle: "{ftbquests.chapter.woot.quest4.subtitle}"
 			tasks: [{
 				id: "5A18A96886F311B2"
 				item: "woot_revived:dye_liquifier"
@@ -174,10 +174,10 @@
 		{
 			dependencies: ["6275C512B72FCB89"]
 			description: [
-				"{ftbquests.chapter.woot.quest624853F4A24DBF05.description1}"
-				"{ftbquests.chapter.woot.quest624853F4A24DBF05.description2}"
-				"{ftbquests.chapter.woot.quest624853F4A24DBF05.description3}"
-				"{ftbquests.chapter.woot.quest624853F4A24DBF05.description4}"
+				"{ftbquests.chapter.woot.quest6.description1}"
+				"{ftbquests.chapter.woot.quest6.description2}"
+				"{ftbquests.chapter.woot.quest6.description3}"
+				"{ftbquests.chapter.woot.quest6.description4}"
 			]
 			id: "624853F4A24DBF05"
 			rewards: [{
@@ -185,7 +185,7 @@
 				item: "kubejs:apotheotic_coin"
 				type: "item"
 			}]
-			subtitle: "{ftbquests.chapter.woot.quest624853F4A24DBF05.subtitle}"
+			subtitle: "{ftbquests.chapter.woot.quest6.subtitle}"
 			tasks: [
 				{
 					id: "384F600F7F7A76EC"
@@ -212,9 +212,9 @@
 				"4B2E834139B72ACC"
 			]
 			description: [
-				"{ftbquests.chapter.woot.quest6A87587FE33ED621.description1}"
+				"{ftbquests.chapter.woot.quest7.description1}"
 				""
-				"{ftbquests.chapter.woot.quest6A87587FE33ED621.description2}"
+				"{ftbquests.chapter.woot.quest7.description2}"
 			]
 			id: "6A87587FE33ED621"
 			rewards: [{
@@ -222,7 +222,7 @@
 				item: "kubejs:apotheotic_coin"
 				type: "item"
 			}]
-			subtitle: "{ftbquests.chapter.woot.quest6A87587FE33ED621.subtitle}"
+			subtitle: "{ftbquests.chapter.woot.quest7.subtitle}"
 			tasks: [
 				{
 					id: "653269C3215675CD"
@@ -250,7 +250,7 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.woot.quest6A87587FE33ED621.title}"
+			title: "{ftbquests.chapter.woot.quest7.title}"
 			x: 7.0d
 			y: -1.0d
 		}
@@ -277,9 +277,9 @@
 				"133BE52216E692EA"
 			]
 			description: [
-				"{ftbquests.chapter.woot.quest42CBFE605060FF20.description1}"
+				"{ftbquests.chapter.woot.quest9.description1}"
 				""
-				"{ftbquests.chapter.woot.quest42CBFE605060FF20.description2}"
+				"{ftbquests.chapter.woot.quest9.description2}"
 			]
 			icon: "woot_revived:copper_cell"
 			id: "42CBFE605060FF20"
@@ -336,16 +336,16 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.woot.quest42CBFE605060FF20.title}"
+			title: "{ftbquests.chapter.woot.quest9.title}"
 			x: 9.0d
 			y: -1.0d
 		}
 		{
 			dependencies: ["7346253B0663AAC6"]
 			description: [
-				"{ftbquests.chapter.woot.quest148DE7A379D310AE.description1}"
+				"{ftbquests.chapter.woot.quest10.description1}"
 				""
-				"{ftbquests.chapter.woot.quest148DE7A379D310AE.description2}"
+				"{ftbquests.chapter.woot.quest10.description2}"
 			]
 			id: "148DE7A379D310AE"
 			rewards: [
@@ -369,7 +369,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "{ftbquests.chapter.woot.quest148DE7A379D310AE.subtitle}"
+			subtitle: "{ftbquests.chapter.woot.quest10.subtitle}"
 			tasks: [{
 				id: "323889FCBDCFB896"
 				item: {
@@ -410,15 +410,15 @@
 		{
 			dependencies: ["148DE7A379D310AE"]
 			description: [
-				"{ftbquests.chapter.woot.quest202218039D3147F8.description1}"
+				"{ftbquests.chapter.woot.quest12.description1}"
 				""
 				""
-				"{ftbquests.chapter.woot.quest202218039D3147F8.description2}"
+				"{ftbquests.chapter.woot.quest12.description2}"
 				""
-				"{ftbquests.chapter.woot.quest202218039D3147F8.description3}"
+				"{ftbquests.chapter.woot.quest12.description3}"
 				""
-				"{ftbquests.chapter.woot.quest202218039D3147F8.description4}"
-				"{ftbquests.chapter.woot.quest202218039D3147F8.description5}"
+				"{ftbquests.chapter.woot.quest12.description4}"
+				"{ftbquests.chapter.woot.quest12.description5}"
 			]
 			id: "202218039D3147F8"
 			rewards: [{
@@ -470,9 +470,9 @@
 		{
 			dependencies: ["56E50500670FDCAB"]
 			description: [
-				"{ftbquests.chapter.woot.questFF053D2FF21C2F8.description1}"
+				"{ftbquests.chapter.woot.quest14.description1}"
 				""
-				"{ftbquests.chapter.woot.questFF053D2FF21C2F8.description2}"
+				"{ftbquests.chapter.woot.quest14.description2}"
 			]
 			icon: "woot_revived:vitality_fuel_fluid_bucket"
 			id: "0FF053D2FF21C2F8"
@@ -482,7 +482,7 @@
 				item: "kubejs:apotheotic_coin"
 				type: "item"
 			}]
-			subtitle: "{ftbquests.chapter.woot.questFF053D2FF21C2F8.subtitle}"
+			subtitle: "{ftbquests.chapter.woot.quest14.subtitle}"
 			tasks: [
 				{
 					id: "4EFE82DD6685E77F"
@@ -491,7 +491,7 @@
 				}
 				{
 					id: "1DB8B172E6F65A09"
-					title: "{ftbquests.chapter.woot.questFF053D2FF21C2F8.task.2141656729873963529.title}"
+					title: "{ftbquests.chapter.woot.quest14.task_2141656729873963529.title}"
 					type: "checkmark"
 				}
 			]
@@ -516,7 +516,7 @@
 				}
 				{
 					id: "16848ADBCA7DC041"
-					title: "{ftbquests.chapter.woot.quest56E50500670FDCAB.task.1622574442359930945.title}"
+					title: "{ftbquests.chapter.woot.quest15.task_1622574442359930945.title}"
 					type: "checkmark"
 				}
 			]
@@ -1104,7 +1104,7 @@
 				"42CBFE605060FF20"
 				"0D10194315F6BCC7"
 			]
-			description: ["{ftbquests.chapter.woot.quest33F7680769B9FD4E.description1}"]
+			description: ["{ftbquests.chapter.woot.quest52.description1}"]
 			icon: "woot_revived:iron_cell"
 			id: "33F7680769B9FD4E"
 			rewards: [{
@@ -1144,7 +1144,7 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.woot.quest33F7680769B9FD4E.title}"
+			title: "{ftbquests.chapter.woot.quest52.title}"
 			x: 9.0d
 			y: 3.0d
 		}
@@ -1180,7 +1180,7 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.woot.quest2DF7B0A4E49ACEB1.title}"
+			title: "{ftbquests.chapter.woot.quest53.title}"
 			x: 9.0d
 			y: 5.0d
 		}
@@ -1216,7 +1216,7 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.woot.quest1ED70668BFC6611F.title}"
+			title: "{ftbquests.chapter.woot.quest54.title}"
 			x: 9.0d
 			y: 7.0d
 		}
@@ -1252,7 +1252,7 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.woot.quest449FA7FE3CBD2102.title}"
+			title: "{ftbquests.chapter.woot.quest55.title}"
 			x: 9.0d
 			y: 9.0d
 		}
@@ -1264,7 +1264,7 @@
 				item: "kubejs:apotheotic_coin"
 				type: "item"
 			}]
-			subtitle: "{ftbquests.chapter.woot.quest6275C512B72FCB89.subtitle}"
+			subtitle: "{ftbquests.chapter.woot.quest56.subtitle}"
 			tasks: [
 				{
 					id: "5E8019B16678BFBD"
@@ -1279,7 +1279,7 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.woot.quest6275C512B72FCB89.title}"
+			title: "{ftbquests.chapter.woot.quest56.title}"
 			x: 0.0d
 			y: -1.0d
 		}
@@ -1333,7 +1333,7 @@
 				}
 				{
 					id: "4DDAA6D586F40DA0"
-					title: "{ftbquests.chapter.woot.quest15692A3E16039127.task.5609979721865760160.title}"
+					title: "{ftbquests.chapter.woot.quest59.task_5609979721865760160.title}"
 					type: "checkmark"
 				}
 			]
@@ -1381,11 +1381,11 @@
 		{
 			dependencies: ["624853F4A24DBF05"]
 			description: [
-				"{ftbquests.chapter.woot.quest72E5B2325AD23667.description1}"
-				"{ftbquests.chapter.woot.quest72E5B2325AD23667.description2}"
-				"{ftbquests.chapter.woot.quest72E5B2325AD23667.description3}"
-				"{ftbquests.chapter.woot.quest72E5B2325AD23667.description4}"
-				"{ftbquests.chapter.woot.quest72E5B2325AD23667.description5}"
+				"{ftbquests.chapter.woot.quest62.description1}"
+				"{ftbquests.chapter.woot.quest62.description2}"
+				"{ftbquests.chapter.woot.quest62.description3}"
+				"{ftbquests.chapter.woot.quest62.description4}"
+				"{ftbquests.chapter.woot.quest62.description5}"
 			]
 			id: "72E5B2325AD23667"
 			optional: true
@@ -1394,7 +1394,7 @@
 				item: "kubejs:apotheotic_coin"
 				type: "item"
 			}]
-			subtitle: "{ftbquests.chapter.woot.quest72E5B2325AD23667.subtitle}"
+			subtitle: "{ftbquests.chapter.woot.quest62.subtitle}"
 			tasks: [{
 				id: "2FE760AD83DD273F"
 				item: {
@@ -1404,10 +1404,10 @@
 						value: ".*magmator$"
 					}
 				}
-				title: "{ftbquests.chapter.woot.quest72E5B2325AD23667.task.3451833937760692031.title}"
+				title: "{ftbquests.chapter.woot.quest62.task_3451833937760692031.title}"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.woot.quest72E5B2325AD23667.title}"
+			title: "{ftbquests.chapter.woot.quest62.title}"
 			x: 1.0d
 			y: 0.0d
 		}
@@ -1445,7 +1445,7 @@
 		}
 		{
 			dependencies: ["5651019672601E3C"]
-			description: ["{ftbquests.chapter.woot.quest405320B5E5B9B6AC.description1}"]
+			description: ["{ftbquests.chapter.woot.quest65.description1}"]
 			id: "405320B5E5B9B6AC"
 			rewards: [{
 				id: "36683D5ECF788F14"
@@ -1468,7 +1468,7 @@
 		}
 		{
 			dependencies: ["5651019672601E3C"]
-			description: ["{ftbquests.chapter.woot.quest2A81F7521B32AA3.description1}"]
+			description: ["{ftbquests.chapter.woot.quest66.description1}"]
 			id: "02A81F7521B32AA3"
 			rewards: [{
 				id: "350E22D282480FA8"
@@ -1486,19 +1486,19 @@
 		{
 			dependencies: ["42CBFE605060FF20"]
 			description: [
-				"{ftbquests.chapter.woot.quest34DE689660248715.description1}"
+				"{ftbquests.chapter.woot.quest67.description1}"
 				""
-				"{ftbquests.chapter.woot.quest34DE689660248715.description2}"
-				"{ftbquests.chapter.woot.quest34DE689660248715.description3}"
+				"{ftbquests.chapter.woot.quest67.description2}"
+				"{ftbquests.chapter.woot.quest67.description3}"
 			]
 			id: "34DE689660248715"
-			subtitle: "{ftbquests.chapter.woot.quest34DE689660248715.subtitle}"
+			subtitle: "{ftbquests.chapter.woot.quest67.subtitle}"
 			tasks: [{
 				id: "3F944F816F4F440F"
-				title: "{ftbquests.chapter.woot.quest34DE689660248715.task.4581374138279478287.title}"
+				title: "{ftbquests.chapter.woot.quest67.task_4581374138279478287.title}"
 				type: "checkmark"
 			}]
-			title: "{ftbquests.chapter.woot.quest34DE689660248715.title}"
+			title: "{ftbquests.chapter.woot.quest67.title}"
 			x: 11.0d
 			y: -1.0d
 		}
@@ -1507,17 +1507,17 @@
 				"202218039D3147F8"
 				"0FF053D2FF21C2F8"
 			]
-			description: ["{ftbquests.chapter.woot.quest1EEB0BF605C47C35.description1}"]
+			description: ["{ftbquests.chapter.woot.quest68.description1}"]
 			id: "1EEB0BF605C47C35"
 			rewards: [{
 				id: "64A9C91FA5103248"
 				item: "kubejs:infused_coin"
 				type: "item"
 			}]
-			subtitle: "{ftbquests.chapter.woot.quest1EEB0BF605C47C35.subtitle}"
+			subtitle: "{ftbquests.chapter.woot.quest68.subtitle}"
 			tasks: [{
 				id: "71935F4A88473D45"
-				title: "{ftbquests.chapter.woot.quest1EEB0BF605C47C35.task.8183989721580911941.title}"
+				title: "{ftbquests.chapter.woot.quest68.task_8183989721580911941.title}"
 				type: "checkmark"
 			}]
 			x: 16.0d

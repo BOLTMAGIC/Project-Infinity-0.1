@@ -8,7 +8,7 @@
 	}
 	id: "06C4634E81851A6C"
 	loot_size: 1
-	order_index: 9
+	order_index: 6
 	rewards: [
 		{ item: "mysticalagriculture:imperium_essence", weight: 0.5f }
 		{ item: "minecraft:fox_spawn_egg", weight: 5.0f }
@@ -265,6 +265,6 @@
 		}
 		{ item: "ironfurnaces:gold_furnace" }
 	]
-	title: "{ftbquests.loot_table.487623848494439020.title}"
+	title: "{ftbquests.loot_table_487623848494439020.title}"
 	use_title: true
 }

@@ -1,7 +1,7 @@
 {
 	id: "639509C7B28C90DF"
 	loot_size: 1
-	order_index: 13
+	order_index: 10
 	rewards: [
 		{ item: "apotheosis:library" }
 		{ item: "powah:thermo_generator_nitro" }
@@ -40,6 +40,6 @@
 			weight: 0.75f
 		}
 	]
-	title: "{ftbquests.loot_table.7175652334583451871.title}"
+	title: "{ftbquests.loot_table_7175652334583451871.title}"
 	use_title: true
 }

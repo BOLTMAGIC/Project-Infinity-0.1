@@ -282,7 +282,7 @@
 				type: "kill"
 				value: 1L
 			}]
-			title: "{ftbquests.chapter.allthemodium.quest31BDF73F745954F.title}"
+			title: "{ftbquests.chapter.allthemodium.quest10.title}"
 			x: -7.0d
 			y: -0.875d
 		}
@@ -380,16 +380,16 @@
 						]
 					}
 				}
-				title: "{ftbquests.chapter.allthemodium.quest441BB6FFE77E9620.task.3292266626391628109.title}"
+				title: "{ftbquests.chapter.allthemodium.quest13.task_3292266626391628109.title}"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.allthemodium.quest441BB6FFE77E9620.title}"
+			title: "{ftbquests.chapter.allthemodium.quest13.title}"
 			x: 3.0d
 			y: -5.0d
 		}
 		{
 			dependencies: ["1C014E4F1DE73C03"]
-			description: ["{ftbquests.chapter.allthemodium.quest45FDD8348D8FD770.description1}"]
+			description: ["{ftbquests.chapter.allthemodium.quest14.description1}"]
 			id: "45FDD8348D8FD770"
 			rewards: [
 				{
@@ -416,7 +416,7 @@
 					type: "structure"
 				}
 			]
-			title: "{ftbquests.chapter.allthemodium.quest45FDD8348D8FD770.title}"
+			title: "{ftbquests.chapter.allthemodium.quest14.title}"
 			x: 2.0d
 			y: -5.0d
 		}
@@ -618,10 +618,10 @@
 						]
 					}
 				}
-				title: "{ftbquests.chapter.allthemodium.quest6E56F7739520746C.task.1848596982854942136.title}"
+				title: "{ftbquests.chapter.allthemodium.quest21.task_1848596982854942136.title}"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.allthemodium.quest6E56F7739520746C.title}"
+			title: "{ftbquests.chapter.allthemodium.quest21.title}"
 			x: 4.0d
 			y: -5.0d
 		}
@@ -676,9 +676,9 @@
 		{
 			dependencies: ["1C014E4F1DE73C03"]
 			description: [
-				"{ftbquests.chapter.allthemodium.quest4E22DBF17286B3F4.description1}"
-				"{ftbquests.chapter.allthemodium.quest4E22DBF17286B3F4.description2}"
-				"{ftbquests.chapter.allthemodium.quest4E22DBF17286B3F4.description3}"
+				"{ftbquests.chapter.allthemodium.quest25.description1}"
+				"{ftbquests.chapter.allthemodium.quest25.description2}"
+				"{ftbquests.chapter.allthemodium.quest25.description3}"
 			]
 			id: "4E22DBF17286B3F4"
 			rewards: [{
@@ -946,7 +946,7 @@
 		}
 		{
 			dependencies: ["2909CC7DAE6E69AC"]
-			description: ["{ftbquests.chapter.allthemodium.quest54360494E42CD3.description1}"]
+			description: ["{ftbquests.chapter.allthemodium.quest42.description1}"]
 			id: "0054360494E42CD3"
 			rewards: [{
 				id: "71E87C20576FA3C6"
@@ -966,13 +966,13 @@
 					type: "structure"
 				}
 			]
-			title: "{ftbquests.chapter.allthemodium.quest54360494E42CD3.title}"
+			title: "{ftbquests.chapter.allthemodium.quest42.title}"
 			x: 4.0d
 			y: -1.5d
 		}
 		{
 			dependencies: ["0091DB2772579996"]
-			description: ["{ftbquests.chapter.allthemodium.quest15364C6FD7FA16CD.description1}"]
+			description: ["{ftbquests.chapter.allthemodium.quest43.description1}"]
 			id: "15364C6FD7FA16CD"
 			rewards: [{
 				id: "276D665D2ED48488"
@@ -1033,7 +1033,7 @@
 						]
 					}
 				}
-				title: "{ftbquests.chapter.allthemodium.quest46A49484DF60ECA.task.5037395943044660532.title}"
+				title: "{ftbquests.chapter.allthemodium.quest44.task_5037395943044660532.title}"
 				type: "item"
 			}]
 			x: 4.0d
@@ -1075,7 +1075,7 @@
 				}
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.allthemodium.quest7D0D1117941364E0.title}"
+			title: "{ftbquests.chapter.allthemodium.quest45.title}"
 			x: 5.0d
 			y: -2.5d
 		}
@@ -1119,7 +1119,7 @@
 				}
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.allthemodium.questD7A02DEB12B8D1E.title}"
+			title: "{ftbquests.chapter.allthemodium.quest46.title}"
 			x: 2.0d
 			y: 1.5d
 		}
@@ -1159,7 +1159,7 @@
 				}
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.allthemodium.questABE5C97214D96C7.title}"
+			title: "{ftbquests.chapter.allthemodium.quest47.title}"
 			x: 1.0d
 			y: 1.5d
 		}
@@ -1249,7 +1249,7 @@
 				}
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.allthemodium.quest18F3B67502A52FD7.title}"
+			title: "{ftbquests.chapter.allthemodium.quest50.title}"
 			x: 2.0d
 			y: 0.5d
 		}

@@ -27,7 +27,7 @@
 				type: "item"
 			}]
 			shape: "square"
-			subtitle: "{ftbquests.chapter.nuclear_energy.quest547037A1C1BBB81F.subtitle}"
+			subtitle: "{ftbquests.chapter.nuclear_energy.quest1.subtitle}"
 			tasks: [
 				{
 					count: 2L
@@ -62,19 +62,19 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.nuclear_energy.quest547037A1C1BBB81F.title}"
+			title: "{ftbquests.chapter.nuclear_energy.quest1.title}"
 			x: -10.0d
 			y: -1.0d
 		}
 		{
 			dependencies: ["2F1993EABEC6CC19"]
 			description: [
-				"{ftbquests.chapter.nuclear_energy.quest81C50637C6FF2ED.description1}"
-				"{ftbquests.chapter.nuclear_energy.quest81C50637C6FF2ED.description2}"
-				"{ftbquests.chapter.nuclear_energy.quest81C50637C6FF2ED.description3}"
-				"{ftbquests.chapter.nuclear_energy.quest81C50637C6FF2ED.description4}"
+				"{ftbquests.chapter.nuclear_energy.quest2.description1}"
+				"{ftbquests.chapter.nuclear_energy.quest2.description2}"
+				"{ftbquests.chapter.nuclear_energy.quest2.description3}"
+				"{ftbquests.chapter.nuclear_energy.quest2.description4}"
 				""
-				"{ftbquests.chapter.nuclear_energy.quest81C50637C6FF2ED.description5}"
+				"{ftbquests.chapter.nuclear_energy.quest2.description5}"
 			]
 			id: "081C50637C6FF2ED"
 			rewards: [{
@@ -82,7 +82,7 @@
 				item: "kubejs:apotheotic_coin"
 				type: "item"
 			}]
-			subtitle: "{ftbquests.chapter.nuclear_energy.quest81C50637C6FF2ED.subtitle}"
+			subtitle: "{ftbquests.chapter.nuclear_energy.quest2.subtitle}"
 			tasks: [{
 				id: "626E6DB260B9435F"
 				item: {
@@ -187,7 +187,7 @@
 				}
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.nuclear_energy.quest81C50637C6FF2ED.title}"
+			title: "{ftbquests.chapter.nuclear_energy.quest2.title}"
 			x: -7.0d
 			y: -1.0d
 		}
@@ -197,9 +197,9 @@
 				"2F1993EABEC6CC19"
 			]
 			description: [
-				"{ftbquests.chapter.nuclear_energy.quest42BEC6A82910E9A7.description1}"
+				"{ftbquests.chapter.nuclear_energy.quest3.description1}"
 				""
-				"{ftbquests.chapter.nuclear_energy.quest42BEC6A82910E9A7.description2}"
+				"{ftbquests.chapter.nuclear_energy.quest3.description2}"
 			]
 			icon: "nuclearcraft:fission_reactor_irradiation_chamber"
 			id: "42BEC6A82910E9A7"
@@ -208,13 +208,13 @@
 				item: "kubejs:apotheotic_coin"
 				type: "item"
 			}]
-			subtitle: "{ftbquests.chapter.nuclear_energy.quest42BEC6A82910E9A7.subtitle}"
+			subtitle: "{ftbquests.chapter.nuclear_energy.quest3.subtitle}"
 			tasks: [{
 				id: "0B6262460130ADA6"
 				item: "nuclearcraft:fission_reactor_irradiation_chamber"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.nuclear_energy.quest42BEC6A82910E9A7.title}"
+			title: "{ftbquests.chapter.nuclear_energy.quest3.title}"
 			x: -8.5d
 			y: -2.5d
 		}
@@ -224,9 +224,9 @@
 				"5E016F2B357B859F"
 			]
 			description: [
-				"{ftbquests.chapter.nuclear_energy.quest4E513F38CFF495CD.description1}"
-				"{ftbquests.chapter.nuclear_energy.quest4E513F38CFF495CD.description2}"
-				"{ftbquests.chapter.nuclear_energy.quest4E513F38CFF495CD.description3}"
+				"{ftbquests.chapter.nuclear_energy.quest4.description1}"
+				"{ftbquests.chapter.nuclear_energy.quest4.description2}"
+				"{ftbquests.chapter.nuclear_energy.quest4.description3}"
 			]
 			id: "4E513F38CFF495CD"
 			rewards: [{
@@ -234,7 +234,7 @@
 				item: "kubejs:apotheotic_coin"
 				type: "item"
 			}]
-			subtitle: "{ftbquests.chapter.nuclear_energy.quest4E513F38CFF495CD.subtitle}"
+			subtitle: "{ftbquests.chapter.nuclear_energy.quest4.subtitle}"
 			tasks: [{
 				id: "26D9C96ADDB5F86A"
 				item: {
@@ -275,13 +275,13 @@
 				}
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.nuclear_energy.quest4E513F38CFF495CD.title}"
+			title: "{ftbquests.chapter.nuclear_energy.quest4.title}"
 			x: -7.0d
 			y: 1.5d
 		}
 		{
 			dependencies: ["59C9E81E917EEBFD"]
-			description: ["{ftbquests.chapter.nuclear_energy.questB204EBE35852FA7.description1}"]
+			description: ["{ftbquests.chapter.nuclear_energy.quest5.description1}"]
 			id: "0B204EBE35852FA7"
 			rewards: [{
 				id: "1319B036EF38E1A7"
@@ -313,20 +313,20 @@
 				}
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.nuclear_energy.questB204EBE35852FA7.title}"
+			title: "{ftbquests.chapter.nuclear_energy.quest5.title}"
 			x: -11.5d
 			y: -1.0d
 		}
 		{
 			dependencies: ["32759CFEBBA542EA"]
-			description: ["{ftbquests.chapter.nuclear_energy.quest59C9E81E917EEBFD.description1}"]
+			description: ["{ftbquests.chapter.nuclear_energy.quest6.description1}"]
 			id: "59C9E81E917EEBFD"
 			rewards: [{
 				id: "2A4190CED1DBAE1A"
 				item: "kubejs:apotheotic_coin"
 				type: "item"
 			}]
-			subtitle: "{ftbquests.chapter.nuclear_energy.quest59C9E81E917EEBFD.subtitle}"
+			subtitle: "{ftbquests.chapter.nuclear_energy.quest6.subtitle}"
 			tasks: [{
 				id: "41FB30AB7E1E892B"
 				item: "nuclearcraft:isotope_separator"
@@ -343,7 +343,7 @@
 				item: "kubejs:apotheotic_coin"
 				type: "item"
 			}]
-			subtitle: "{ftbquests.chapter.nuclear_energy.quest7BF786E0EEE4860D.subtitle}"
+			subtitle: "{ftbquests.chapter.nuclear_energy.quest7.subtitle}"
 			tasks: [
 				{
 					id: "5CE3E65D85A5CC15"
@@ -396,14 +396,14 @@
 		{
 			dependencies: ["015E2E9D8B678087"]
 			description: [
-				"{ftbquests.chapter.nuclear_energy.quest77CF3DCEA4A31EFD.description1}"
-				"{ftbquests.chapter.nuclear_energy.quest77CF3DCEA4A31EFD.description2}"
-				"{ftbquests.chapter.nuclear_energy.quest77CF3DCEA4A31EFD.description3}"
-				"{ftbquests.chapter.nuclear_energy.quest77CF3DCEA4A31EFD.description4}"
-				"{ftbquests.chapter.nuclear_energy.quest77CF3DCEA4A31EFD.description5}"
-				"{ftbquests.chapter.nuclear_energy.quest77CF3DCEA4A31EFD.description6}"
-				"{ftbquests.chapter.nuclear_energy.quest77CF3DCEA4A31EFD.description7}"
-				"{ftbquests.chapter.nuclear_energy.quest77CF3DCEA4A31EFD.description8}"
+				"{ftbquests.chapter.nuclear_energy.quest9.description1}"
+				"{ftbquests.chapter.nuclear_energy.quest9.description2}"
+				"{ftbquests.chapter.nuclear_energy.quest9.description3}"
+				"{ftbquests.chapter.nuclear_energy.quest9.description4}"
+				"{ftbquests.chapter.nuclear_energy.quest9.description5}"
+				"{ftbquests.chapter.nuclear_energy.quest9.description6}"
+				"{ftbquests.chapter.nuclear_energy.quest9.description7}"
+				"{ftbquests.chapter.nuclear_energy.quest9.description8}"
 			]
 			id: "77CF3DCEA4A31EFD"
 			rewards: [{
@@ -411,7 +411,7 @@
 				item: "kubejs:apotheotic_coin"
 				type: "item"
 			}]
-			subtitle: "{ftbquests.chapter.nuclear_energy.quest77CF3DCEA4A31EFD.subtitle}"
+			subtitle: "{ftbquests.chapter.nuclear_energy.quest9.subtitle}"
 			tasks: [{
 				count: 64L
 				id: "11645C64AB595E4E"
@@ -424,7 +424,7 @@
 				}
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.nuclear_energy.quest77CF3DCEA4A31EFD.title}"
+			title: "{ftbquests.chapter.nuclear_energy.quest9.title}"
 			x: -7.0d
 			y: 4.5d
 		}
@@ -433,7 +433,7 @@
 				"31DAC3957CC14D84"
 				"3C2C6CF2C5D901D1"
 			]
-			description: ["{ftbquests.chapter.nuclear_energy.quest285863F49493AF62.image0}"]
+			description: ["{ftbquests.chapter.nuclear_energy.quest10.image0}"]
 			id: "285863F49493AF62"
 			rewards: [{
 				id: "74385523AD5B5609"
@@ -441,21 +441,21 @@
 				type: "item"
 			}]
 			shape: "square"
-			subtitle: "{ftbquests.chapter.nuclear_energy.quest285863F49493AF62.subtitle}"
+			subtitle: "{ftbquests.chapter.nuclear_energy.quest10.subtitle}"
 			tasks: [{
 				id: "4F649B50ADE5DCCC"
 				item: "nuclearcraft:fusion_core"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.nuclear_energy.quest285863F49493AF62.title}"
+			title: "{ftbquests.chapter.nuclear_energy.quest10.title}"
 			x: -10.0d
 			y: 4.5d
 		}
 		{
 			dependencies: ["285863F49493AF62"]
 			description: [
-				"{ftbquests.chapter.nuclear_energy.quest15E2E9D8B678087.description1}"
-				"{ftbquests.chapter.nuclear_energy.quest15E2E9D8B678087.description2}"
+				"{ftbquests.chapter.nuclear_energy.quest11.description1}"
+				"{ftbquests.chapter.nuclear_energy.quest11.description2}"
 			]
 			id: "015E2E9D8B678087"
 			rewards: [{
@@ -463,22 +463,22 @@
 				item: "kubejs:apotheotic_coin"
 				type: "item"
 			}]
-			subtitle: "{ftbquests.chapter.nuclear_energy.quest15E2E9D8B678087.subtitle}"
+			subtitle: "{ftbquests.chapter.nuclear_energy.quest11.subtitle}"
 			tasks: [{
 				count: 8L
 				id: "28FE0374088418BF"
 				item: "nuclearcraft:fusion_reactor_connector"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.nuclear_energy.quest15E2E9D8B678087.title}"
+			title: "{ftbquests.chapter.nuclear_energy.quest11.title}"
 			x: -8.5d
 			y: 4.5d
 		}
 		{
 			dependencies: ["2F002C9A0092C10C"]
 			description: [
-				"{ftbquests.chapter.nuclear_energy.quest77C9259E0B0FE5BB.description1}"
-				"{ftbquests.chapter.nuclear_energy.quest77C9259E0B0FE5BB.description2}"
+				"{ftbquests.chapter.nuclear_energy.quest12.description1}"
+				"{ftbquests.chapter.nuclear_energy.quest12.description2}"
 			]
 			id: "77C9259E0B0FE5BB"
 			rewards: [{
@@ -486,7 +486,7 @@
 				item: "kubejs:apotheotic_coin"
 				type: "item"
 			}]
-			subtitle: "{ftbquests.chapter.nuclear_energy.quest77C9259E0B0FE5BB.subtitle}"
+			subtitle: "{ftbquests.chapter.nuclear_energy.quest12.subtitle}"
 			tasks: [{
 				count: 64L
 				id: "5ABBF4E0CD24B02D"
@@ -499,17 +499,17 @@
 				}
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.nuclear_energy.quest77C9259E0B0FE5BB.title}"
+			title: "{ftbquests.chapter.nuclear_energy.quest12.title}"
 			x: -4.0d
 			y: 4.5d
 		}
 		{
 			dependencies: ["77CF3DCEA4A31EFD"]
 			description: [
-				"{ftbquests.chapter.nuclear_energy.quest2F002C9A0092C10C.description1}"
-				"{ftbquests.chapter.nuclear_energy.quest2F002C9A0092C10C.description2}"
-				"{ftbquests.chapter.nuclear_energy.quest2F002C9A0092C10C.description3}"
-				"{ftbquests.chapter.nuclear_energy.quest2F002C9A0092C10C.description4}"
+				"{ftbquests.chapter.nuclear_energy.quest13.description1}"
+				"{ftbquests.chapter.nuclear_energy.quest13.description2}"
+				"{ftbquests.chapter.nuclear_energy.quest13.description3}"
+				"{ftbquests.chapter.nuclear_energy.quest13.description4}"
 			]
 			id: "2F002C9A0092C10C"
 			rewards: [{
@@ -517,7 +517,7 @@
 				item: "kubejs:apotheotic_coin"
 				type: "item"
 			}]
-			subtitle: "{ftbquests.chapter.nuclear_energy.quest2F002C9A0092C10C.subtitle}"
+			subtitle: "{ftbquests.chapter.nuclear_energy.quest13.subtitle}"
 			tasks: [{
 				id: "51B269FBE6FACD45"
 				item: {
@@ -529,18 +529,18 @@
 				}
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.nuclear_energy.quest2F002C9A0092C10C.title}"
+			title: "{ftbquests.chapter.nuclear_energy.quest13.title}"
 			x: -5.5d
 			y: 4.5d
 		}
 		{
 			dependencies: ["42BEC6A82910E9A7"]
 			description: [
-				"{ftbquests.chapter.nuclear_energy.quest31C6C9EB8AD4F3BE.description1}"
-				"{ftbquests.chapter.nuclear_energy.quest31C6C9EB8AD4F3BE.description2}"
-				"{ftbquests.chapter.nuclear_energy.quest31C6C9EB8AD4F3BE.description3}"
-				"{ftbquests.chapter.nuclear_energy.quest31C6C9EB8AD4F3BE.description4}"
-				"{ftbquests.chapter.nuclear_energy.quest31C6C9EB8AD4F3BE.description5}"
+				"{ftbquests.chapter.nuclear_energy.quest14.description1}"
+				"{ftbquests.chapter.nuclear_energy.quest14.description2}"
+				"{ftbquests.chapter.nuclear_energy.quest14.description3}"
+				"{ftbquests.chapter.nuclear_energy.quest14.description4}"
+				"{ftbquests.chapter.nuclear_energy.quest14.description5}"
 			]
 			id: "31C6C9EB8AD4F3BE"
 			rewards: [{
@@ -548,7 +548,7 @@
 				item: "kubejs:apotheotic_coin"
 				type: "item"
 			}]
-			subtitle: "{ftbquests.chapter.nuclear_energy.quest31C6C9EB8AD4F3BE.subtitle}"
+			subtitle: "{ftbquests.chapter.nuclear_energy.quest14.subtitle}"
 			tasks: [{
 				id: "174ECFCD6BDC386F"
 				item: "nuclearcraft:irradiator"
@@ -560,16 +560,16 @@
 		{
 			dependencies: ["7DEDA65F61652C9B"]
 			description: [
-				"{ftbquests.chapter.nuclear_energy.quest42E07CC516A52519.description1}"
-				"{ftbquests.chapter.nuclear_energy.quest42E07CC516A52519.description2}"
-				"{ftbquests.chapter.nuclear_energy.quest42E07CC516A52519.description3}"
+				"{ftbquests.chapter.nuclear_energy.quest15.description1}"
+				"{ftbquests.chapter.nuclear_energy.quest15.description2}"
+				"{ftbquests.chapter.nuclear_energy.quest15.description3}"
 				""
 				"{@pagebreak}"
-				"{ftbquests.chapter.nuclear_energy.quest42E07CC516A52519.image0}"
+				"{ftbquests.chapter.nuclear_energy.quest15.image0}"
 				"{@pagebreak}"
-				"{ftbquests.chapter.nuclear_energy.quest42E07CC516A52519.image2}"
+				"{ftbquests.chapter.nuclear_energy.quest15.image2}"
 				"{@pagebreak}"
-				"{ftbquests.chapter.nuclear_energy.quest42E07CC516A52519.image4}"
+				"{ftbquests.chapter.nuclear_energy.quest15.image4}"
 			]
 			id: "42E07CC516A52519"
 			rewards: [
@@ -591,16 +591,16 @@
 				item: "nuclearcraft:expl"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.nuclear_energy.quest42E07CC516A52519.title}"
+			title: "{ftbquests.chapter.nuclear_energy.quest15.title}"
 			x: 0.5d
 			y: -6.0d
 		}
 		{
 			dependencies: ["25EC23AB0C991018"]
 			description: [
-				"{ftbquests.chapter.nuclear_energy.quest6B7D49391464B4AB.description1}"
-				"{ftbquests.chapter.nuclear_energy.quest6B7D49391464B4AB.description2}"
-				"{ftbquests.chapter.nuclear_energy.quest6B7D49391464B4AB.description3}"
+				"{ftbquests.chapter.nuclear_energy.quest16.description1}"
+				"{ftbquests.chapter.nuclear_energy.quest16.description2}"
+				"{ftbquests.chapter.nuclear_energy.quest16.description3}"
 			]
 			id: "6B7D49391464B4AB"
 			rewards: [{
@@ -609,7 +609,7 @@
 				type: "item"
 			}]
 			shape: "square"
-			subtitle: "{ftbquests.chapter.nuclear_energy.quest6B7D49391464B4AB.subtitle}"
+			subtitle: "{ftbquests.chapter.nuclear_energy.quest16.subtitle}"
 			tasks: [
 				{
 					id: "2FAA08E04CE82A15"
@@ -634,14 +634,14 @@
 		}
 		{
 			dependencies: ["6B7D49391464B4AB"]
-			description: ["{ftbquests.chapter.nuclear_energy.quest1FA85991DDFCC1BE.description1}"]
+			description: ["{ftbquests.chapter.nuclear_energy.quest17.description1}"]
 			id: "1FA85991DDFCC1BE"
 			rewards: [{
 				id: "3B2D97D99733088E"
 				item: "kubejs:apotheotic_coin"
 				type: "item"
 			}]
-			subtitle: "{ftbquests.chapter.nuclear_energy.quest1FA85991DDFCC1BE.subtitle}"
+			subtitle: "{ftbquests.chapter.nuclear_energy.quest17.subtitle}"
 			tasks: [{
 				count: 48L
 				id: "25FC4F3E61946176"
@@ -654,8 +654,8 @@
 		{
 			dependencies: ["1FA85991DDFCC1BE"]
 			description: [
-				"{ftbquests.chapter.nuclear_energy.quest487B2E28017843E5.description1}"
-				"{ftbquests.chapter.nuclear_energy.quest487B2E28017843E5.description2}"
+				"{ftbquests.chapter.nuclear_energy.quest18.description1}"
+				"{ftbquests.chapter.nuclear_energy.quest18.description2}"
 			]
 			id: "487B2E28017843E5"
 			rewards: [{
@@ -663,7 +663,7 @@
 				item: "kubejs:apotheotic_coin"
 				type: "item"
 			}]
-			subtitle: "{ftbquests.chapter.nuclear_energy.quest487B2E28017843E5.subtitle}"
+			subtitle: "{ftbquests.chapter.nuclear_energy.quest18.subtitle}"
 			tasks: [{
 				count: 72L
 				id: "4C30E4F2EE30F2FE"
@@ -681,7 +681,7 @@
 				item: "kubejs:apotheotic_coin"
 				type: "item"
 			}]
-			subtitle: "{ftbquests.chapter.nuclear_energy.quest4B5458B5D29B8CA1.subtitle}"
+			subtitle: "{ftbquests.chapter.nuclear_energy.quest19.subtitle}"
 			tasks: [{
 				count: 26L
 				id: "715A933D599EF3AF"
@@ -694,8 +694,8 @@
 		{
 			dependencies: ["4B5458B5D29B8CA1"]
 			description: [
-				"{ftbquests.chapter.nuclear_energy.quest7DEDA65F61652C9B.description1}"
-				"{ftbquests.chapter.nuclear_energy.quest7DEDA65F61652C9B.description2}"
+				"{ftbquests.chapter.nuclear_energy.quest20.description1}"
+				"{ftbquests.chapter.nuclear_energy.quest20.description2}"
 			]
 			id: "7DEDA65F61652C9B"
 			rewards: [{
@@ -703,7 +703,7 @@
 				item: "kubejs:apotheotic_coin"
 				type: "item"
 			}]
-			subtitle: "{ftbquests.chapter.nuclear_energy.quest7DEDA65F61652C9B.subtitle}"
+			subtitle: "{ftbquests.chapter.nuclear_energy.quest20.subtitle}"
 			tasks: [{
 				count: 6L
 				id: "352FB5293626946C"
@@ -734,7 +734,7 @@
 					type: "fluid"
 				}
 			]
-			title: "{ftbquests.chapter.nuclear_energy.quest6286A200E1CDB1EE.title}"
+			title: "{ftbquests.chapter.nuclear_energy.quest21.title}"
 			x: -13.0d
 			y: 5.0d
 		}
@@ -759,13 +759,13 @@
 					type: "fluid"
 				}
 			]
-			title: "{ftbquests.chapter.nuclear_energy.quest5B7AFD8961BFC00F.title}"
+			title: "{ftbquests.chapter.nuclear_energy.quest22.title}"
 			x: -13.0d
 			y: 4.0d
 		}
 		{
 			dependencies: ["5E016F2B357B859F"]
-			description: ["{ftbquests.chapter.nuclear_energy.quest31DAC3957CC14D84.description1}"]
+			description: ["{ftbquests.chapter.nuclear_energy.quest23.description1}"]
 			id: "31DAC3957CC14D84"
 			rewards: [{
 				id: "1EE03D702AA0925B"
@@ -792,7 +792,7 @@
 					type: "fluid"
 				}
 			]
-			title: "{ftbquests.chapter.nuclear_energy.quest31DAC3957CC14D84.title}"
+			title: "{ftbquests.chapter.nuclear_energy.quest23.title}"
 			x: -10.0d
 			y: 3.0d
 		}
@@ -807,7 +807,7 @@
 				item: "kubejs:apotheotic_coin"
 				type: "item"
 			}]
-			subtitle: "{ftbquests.chapter.nuclear_energy.quest25EC23AB0C991018.subtitle}"
+			subtitle: "{ftbquests.chapter.nuclear_energy.quest24.subtitle}"
 			tasks: [{
 				count: 64L
 				id: "002442110A337938"
@@ -820,22 +820,22 @@
 				}
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.nuclear_energy.quest25EC23AB0C991018.title}"
+			title: "{ftbquests.chapter.nuclear_energy.quest24.title}"
 			x: -8.5d
 			y: -6.0d
 		}
 		{
 			dependencies: ["77C9259E0B0FE5BB"]
 			description: [
-				"{ftbquests.chapter.nuclear_energy.quest187684A795EFACD.description1}"
+				"{ftbquests.chapter.nuclear_energy.quest25.description1}"
 				""
-				"{ftbquests.chapter.nuclear_energy.quest187684A795EFACD.description2}"
+				"{ftbquests.chapter.nuclear_energy.quest25.description2}"
 				""
-				"{ftbquests.chapter.nuclear_energy.quest187684A795EFACD.description3}"
+				"{ftbquests.chapter.nuclear_energy.quest25.description3}"
 				""
-				"{ftbquests.chapter.nuclear_energy.quest187684A795EFACD.description4}"
+				"{ftbquests.chapter.nuclear_energy.quest25.description4}"
 				""
-				"{ftbquests.chapter.nuclear_energy.quest187684A795EFACD.description5}"
+				"{ftbquests.chapter.nuclear_energy.quest25.description5}"
 			]
 			id: "0187684A795EFACD"
 			rewards: [{
@@ -843,30 +843,30 @@
 				item: "kubejs:apotheotic_coin"
 				type: "item"
 			}]
-			subtitle: "{ftbquests.chapter.nuclear_energy.quest187684A795EFACD.subtitle}"
+			subtitle: "{ftbquests.chapter.nuclear_energy.quest25.subtitle}"
 			tasks: [
 				{
 					id: "039915D140DA7F85"
-					title: "{ftbquests.chapter.nuclear_energy.quest187684A795EFACD.task.259262442030923653.title}"
+					title: "{ftbquests.chapter.nuclear_energy.quest25.task_259262442030923653.title}"
 					type: "checkmark"
 				}
 				{
 					id: "031804C8DF48AD16"
-					title: "{ftbquests.chapter.nuclear_energy.quest187684A795EFACD.task.222933442340891926.title}"
+					title: "{ftbquests.chapter.nuclear_energy.quest25.task_222933442340891926.title}"
 					type: "checkmark"
 				}
 				{
 					id: "163073AE066C6C97"
-					title: "{ftbquests.chapter.nuclear_energy.quest187684A795EFACD.task.1598905058985798807.title}"
+					title: "{ftbquests.chapter.nuclear_energy.quest25.task_1598905058985798807.title}"
 					type: "checkmark"
 				}
 				{
 					id: "22EDAECA5C842888"
-					title: "{ftbquests.chapter.nuclear_energy.quest187684A795EFACD.task.2516859950928767112.title}"
+					title: "{ftbquests.chapter.nuclear_energy.quest25.task_2516859950928767112.title}"
 					type: "checkmark"
 				}
 			]
-			title: "{ftbquests.chapter.nuclear_energy.quest187684A795EFACD.title}"
+			title: "{ftbquests.chapter.nuclear_energy.quest25.title}"
 			x: -2.5d
 			y: 4.5d
 		}
@@ -876,9 +876,9 @@
 				"5B7AFD8961BFC00F"
 			]
 			description: [
-				"{ftbquests.chapter.nuclear_energy.quest3C2C6CF2C5D901D1.description1}"
-				"{ftbquests.chapter.nuclear_energy.quest3C2C6CF2C5D901D1.description2}"
-				"{ftbquests.chapter.nuclear_energy.quest3C2C6CF2C5D901D1.description3}"
+				"{ftbquests.chapter.nuclear_energy.quest26.description1}"
+				"{ftbquests.chapter.nuclear_energy.quest26.description2}"
+				"{ftbquests.chapter.nuclear_energy.quest26.description3}"
 			]
 			id: "3C2C6CF2C5D901D1"
 			rewards: [{
@@ -888,23 +888,23 @@
 			}]
 			tasks: [{
 				id: "6C16410649A4DA26"
-				title: "{ftbquests.chapter.nuclear_energy.quest3C2C6CF2C5D901D1.task.7788484100845001254.title}"
+				title: "{ftbquests.chapter.nuclear_energy.quest26.task_7788484100845001254.title}"
 				type: "checkmark"
 			}]
-			title: "{ftbquests.chapter.nuclear_energy.quest3C2C6CF2C5D901D1.title}"
+			title: "{ftbquests.chapter.nuclear_energy.quest26.title}"
 			x: -11.5d
 			y: 4.5d
 		}
 		{
 			dependencies: ["547037A1C1BBB81F"]
-			description: ["{ftbquests.chapter.nuclear_energy.quest31F5766E63603754.description1}"]
+			description: ["{ftbquests.chapter.nuclear_energy.quest27.description1}"]
 			id: "31F5766E63603754"
 			rewards: [{
 				id: "2C9237A13FC7C508"
 				item: "kubejs:apotheotic_coin"
 				type: "item"
 			}]
-			subtitle: "{ftbquests.chapter.nuclear_energy.quest31F5766E63603754.subtitle}"
+			subtitle: "{ftbquests.chapter.nuclear_energy.quest27.subtitle}"
 			tasks: [{
 				id: "2EE9E13000F05353"
 				item: {
@@ -916,7 +916,7 @@
 				}
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.nuclear_energy.quest31F5766E63603754.title}"
+			title: "{ftbquests.chapter.nuclear_energy.quest27.title}"
 			x: -10.0d
 			y: -2.5d
 		}
@@ -939,13 +939,13 @@
 		}
 		{
 			description: [
-				"{ftbquests.chapter.nuclear_energy.questA74B8AAA5A76C67.description1}"
+				"{ftbquests.chapter.nuclear_energy.quest29.description1}"
 				""
-				"{ftbquests.chapter.nuclear_energy.questA74B8AAA5A76C67.description2}"
+				"{ftbquests.chapter.nuclear_energy.quest29.description2}"
 				""
-				"{ftbquests.chapter.nuclear_energy.questA74B8AAA5A76C67.description3}"
+				"{ftbquests.chapter.nuclear_energy.quest29.description3}"
 				""
-				"{ftbquests.chapter.nuclear_energy.questA74B8AAA5A76C67.description4}"
+				"{ftbquests.chapter.nuclear_energy.quest29.description4}"
 			]
 			id: "0A74B8AAA5A76C67"
 			rewards: [{
@@ -954,26 +954,26 @@
 				type: "item"
 			}]
 			shape: "gear"
-			subtitle: "{ftbquests.chapter.nuclear_energy.questA74B8AAA5A76C67.subtitle}"
+			subtitle: "{ftbquests.chapter.nuclear_energy.quest29.subtitle}"
 			tasks: [{
 				id: "1151D40DE60B1ED5"
-				title: "{ftbquests.chapter.nuclear_energy.questA74B8AAA5A76C67.task.1248011727917489877.title}"
+				title: "{ftbquests.chapter.nuclear_energy.quest29.task_1248011727917489877.title}"
 				type: "checkmark"
 			}]
-			title: "{ftbquests.chapter.nuclear_energy.questA74B8AAA5A76C67.title}"
+			title: "{ftbquests.chapter.nuclear_energy.quest29.title}"
 			x: -9.5d
 			y: -6.0d
 		}
 		{
 			dependencies: ["28BB27A54B194C8B"]
-			description: ["{ftbquests.chapter.nuclear_energy.quest3D3D5F0FC190FA04.description1}"]
+			description: ["{ftbquests.chapter.nuclear_energy.quest30.description1}"]
 			id: "3D3D5F0FC190FA04"
 			rewards: [{
 				id: "7BBBD3E04608B236"
 				item: "kubejs:infused_coin"
 				type: "item"
 			}]
-			subtitle: "{ftbquests.chapter.nuclear_energy.quest3D3D5F0FC190FA04.subtitle}"
+			subtitle: "{ftbquests.chapter.nuclear_energy.quest30.subtitle}"
 			tasks: [
 				{
 					id: "165AE5120612A35D"
@@ -986,24 +986,24 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.nuclear_energy.quest3D3D5F0FC190FA04.title}"
+			title: "{ftbquests.chapter.nuclear_energy.quest30.title}"
 			x: -5.5d
 			y: -8.0d
 		}
 		{
 			dependencies: ["1FA85991DDFCC1BE"]
 			description: [
-				"{ftbquests.chapter.nuclear_energy.quest28BB27A54B194C8B.description1}"
-				"{ftbquests.chapter.nuclear_energy.quest28BB27A54B194C8B.description2}"
-				"{ftbquests.chapter.nuclear_energy.quest28BB27A54B194C8B.description3}"
+				"{ftbquests.chapter.nuclear_energy.quest31.description1}"
+				"{ftbquests.chapter.nuclear_energy.quest31.description2}"
+				"{ftbquests.chapter.nuclear_energy.quest31.description3}"
 				""
-				"{ftbquests.chapter.nuclear_energy.quest28BB27A54B194C8B.description4}"
+				"{ftbquests.chapter.nuclear_energy.quest31.description4}"
 				""
-				"{ftbquests.chapter.nuclear_energy.quest28BB27A54B194C8B.description5}"
+				"{ftbquests.chapter.nuclear_energy.quest31.description5}"
 				""
-				"{ftbquests.chapter.nuclear_energy.quest28BB27A54B194C8B.description6}"
+				"{ftbquests.chapter.nuclear_energy.quest31.description6}"
 				""
-				"{ftbquests.chapter.nuclear_energy.quest28BB27A54B194C8B.description7}"
+				"{ftbquests.chapter.nuclear_energy.quest31.description7}"
 			]
 			id: "28BB27A54B194C8B"
 			rewards: [{
@@ -1013,10 +1013,10 @@
 			}]
 			tasks: [{
 				id: "39E570C65BEFC539"
-				title: "{ftbquests.chapter.nuclear_energy.quest28BB27A54B194C8B.task.4171864627076908345.title}"
+				title: "{ftbquests.chapter.nuclear_energy.quest31.task_4171864627076908345.title}"
 				type: "checkmark"
 			}]
-			title: "{ftbquests.chapter.nuclear_energy.quest28BB27A54B194C8B.title}"
+			title: "{ftbquests.chapter.nuclear_energy.quest31.title}"
 			x: -5.5d
 			y: -7.0d
 		}
@@ -1055,7 +1055,7 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.nuclear_energy.quest32759CFEBBA542EA.title}"
+			title: "{ftbquests.chapter.nuclear_energy.quest32.title}"
 			x: -14.5d
 			y: -1.0d
 		}
@@ -1142,7 +1142,7 @@
 				item: "kubejs:apotheotic_coin"
 				type: "item"
 			}]
-			subtitle: "{ftbquests.chapter.nuclear_energy.quest620676DE8D9C27B7.subtitle}"
+			subtitle: "{ftbquests.chapter.nuclear_energy.quest37.subtitle}"
 			tasks: [{
 				amount: 1000L
 				fluid: "nuclearcraft:subliquid_matter"
@@ -1292,8 +1292,8 @@
 		{
 			dependencies: ["1CC02FC59DDC8045"]
 			description: [
-				"{ftbquests.chapter.nuclear_energy.quest5AA72D06752A6DFE.description1}"
-				"{ftbquests.chapter.nuclear_energy.quest5AA72D06752A6DFE.image0}"
+				"{ftbquests.chapter.nuclear_energy.quest44.description1}"
+				"{ftbquests.chapter.nuclear_energy.quest44.image0}"
 			]
 			id: "5AA72D06752A6DFE"
 			rewards: [{
@@ -1341,7 +1341,7 @@
 		}
 		{
 			dependencies: ["5AA72D06752A6DFE"]
-			description: ["{ftbquests.chapter.nuclear_energy.quest411669CC4DF809D5.description1}"]
+			description: ["{ftbquests.chapter.nuclear_energy.quest45.description1}"]
 			id: "411669CC4DF809D5"
 			rewards: [{
 				id: "510FFEF88845442A"
@@ -1359,9 +1359,9 @@
 		{
 			dependencies: ["411669CC4DF809D5"]
 			description: [
-				"{ftbquests.chapter.nuclear_energy.quest1368D3A68133F64D.description1}"
-				"{ftbquests.chapter.nuclear_energy.quest1368D3A68133F64D.description2}"
-				"{ftbquests.chapter.nuclear_energy.quest1368D3A68133F64D.description3}"
+				"{ftbquests.chapter.nuclear_energy.quest46.description1}"
+				"{ftbquests.chapter.nuclear_energy.quest46.description2}"
+				"{ftbquests.chapter.nuclear_energy.quest46.description3}"
 			]
 			id: "1368D3A68133F64D"
 			rewards: [{
@@ -1381,8 +1381,8 @@
 		{
 			dependencies: ["1368D3A68133F64D"]
 			description: [
-				"{ftbquests.chapter.nuclear_energy.quest3449640180DA7A00.description1}"
-				"{ftbquests.chapter.nuclear_energy.quest3449640180DA7A00.description2}"
+				"{ftbquests.chapter.nuclear_energy.quest47.description1}"
+				"{ftbquests.chapter.nuclear_energy.quest47.description2}"
 			]
 			id: "3449640180DA7A00"
 			rewards: [{
@@ -1414,8 +1414,8 @@
 		{
 			dependencies: ["3449640180DA7A00"]
 			description: [
-				"{ftbquests.chapter.nuclear_energy.quest28FE6F1865D3CA24.description1}"
-				"{ftbquests.chapter.nuclear_energy.quest28FE6F1865D3CA24.description2}"
+				"{ftbquests.chapter.nuclear_energy.quest48.description1}"
+				"{ftbquests.chapter.nuclear_energy.quest48.description2}"
 			]
 			id: "28FE6F1865D3CA24"
 			rewards: [{
@@ -1423,7 +1423,7 @@
 				item: "kubejs:apotheotic_coin"
 				type: "item"
 			}]
-			subtitle: "{ftbquests.chapter.nuclear_energy.quest28FE6F1865D3CA24.subtitle}"
+			subtitle: "{ftbquests.chapter.nuclear_energy.quest48.subtitle}"
 			tasks: [{
 				count: 8L
 				id: "481096CE9E7F1C23"
@@ -1436,20 +1436,20 @@
 				}
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.nuclear_energy.quest28FE6F1865D3CA24.title}"
+			title: "{ftbquests.chapter.nuclear_energy.quest48.title}"
 			x: 0.5d
 			y: -4.0d
 		}
 		{
 			dependencies: ["28FE6F1865D3CA24"]
-			description: ["{ftbquests.chapter.nuclear_energy.quest3C19702E2101B710.description1}"]
+			description: ["{ftbquests.chapter.nuclear_energy.quest49.description1}"]
 			id: "3C19702E2101B710"
 			rewards: [{
 				id: "67923F9E736F53CE"
 				item: "kubejs:apotheotic_coin"
 				type: "item"
 			}]
-			subtitle: "{ftbquests.chapter.nuclear_energy.quest3C19702E2101B710.subtitle}"
+			subtitle: "{ftbquests.chapter.nuclear_energy.quest49.subtitle}"
 			tasks: [{
 				count: 4L
 				id: "51951997597EBFB7"
@@ -1462,7 +1462,7 @@
 				}
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.nuclear_energy.quest3C19702E2101B710.title}"
+			title: "{ftbquests.chapter.nuclear_energy.quest49.title}"
 			x: 2.0d
 			y: -4.0d
 		}
@@ -1471,7 +1471,7 @@
 				"3C19702E2101B710"
 				"4A015506040E6C3D"
 			]
-			description: ["{ftbquests.chapter.nuclear_energy.quest7139A8D15E99D767.description1}"]
+			description: ["{ftbquests.chapter.nuclear_energy.quest50.description1}"]
 			id: "7139A8D15E99D767"
 			rewards: [{
 				id: "1242D83F21A3260A"
@@ -1598,16 +1598,16 @@
 				}
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.nuclear_energy.quest7139A8D15E99D767.title}"
+			title: "{ftbquests.chapter.nuclear_energy.quest50.title}"
 			x: 2.0d
 			y: -2.5d
 		}
 		{
-			description: ["{ftbquests.chapter.nuclear_energy.quest4A015506040E6C3D.description1}"]
+			description: ["{ftbquests.chapter.nuclear_energy.quest51.description1}"]
 			id: "4A015506040E6C3D"
 			tasks: [{
 				id: "1E8FBCE1B068A864"
-				title: "{ftbquests.chapter.nuclear_energy.quest4A015506040E6C3D.task.2202186420320774244.title}"
+				title: "{ftbquests.chapter.nuclear_energy.quest51.task_2202186420320774244.title}"
 				type: "checkmark"
 			}]
 			x: 2.0d
@@ -1615,7 +1615,7 @@
 		}
 		{
 			dependencies: ["7139A8D15E99D767"]
-			description: ["{ftbquests.chapter.nuclear_energy.quest536FDAC7EF3BE8E8.description1}"]
+			description: ["{ftbquests.chapter.nuclear_energy.quest52.description1}"]
 			id: "536FDAC7EF3BE8E8"
 			rewards: [{
 				id: "370A0DF9FDB701A4"
@@ -1628,13 +1628,13 @@
 				id: "677934E58EAEE58C"
 				type: "fluid"
 			}]
-			title: "{ftbquests.chapter.nuclear_energy.quest536FDAC7EF3BE8E8.title}"
+			title: "{ftbquests.chapter.nuclear_energy.quest52.title}"
 			x: 3.5d
 			y: -2.5d
 		}
 		{
 			dependencies: ["536FDAC7EF3BE8E8"]
-			description: ["{ftbquests.chapter.nuclear_energy.quest3CCB79E81DC98BD0.description1}"]
+			description: ["{ftbquests.chapter.nuclear_energy.quest53.description1}"]
 			id: "3CCB79E81DC98BD0"
 			rewards: [{
 				id: "0759B46AC29429D5"
@@ -1661,9 +1661,9 @@
 		{
 			dependencies: ["3CCB79E81DC98BD0"]
 			description: [
-				"{ftbquests.chapter.nuclear_energy.quest52AB2E6CC4C6A93.description1}"
-				"{ftbquests.chapter.nuclear_energy.quest52AB2E6CC4C6A93.description2}"
-				"{ftbquests.chapter.nuclear_energy.quest52AB2E6CC4C6A93.description3}"
+				"{ftbquests.chapter.nuclear_energy.quest54.description1}"
+				"{ftbquests.chapter.nuclear_energy.quest54.description2}"
+				"{ftbquests.chapter.nuclear_energy.quest54.description3}"
 			]
 			id: "052AB2E6CC4C6A93"
 			rewards: [{
@@ -1677,20 +1677,20 @@
 				item: { Count: 4, id: "nuclearcraft:target_chamber_beam_port" }
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.nuclear_energy.quest52AB2E6CC4C6A93.title}"
+			title: "{ftbquests.chapter.nuclear_energy.quest54.title}"
 			x: 5.0d
 			y: -4.0d
 		}
 		{
 			dependencies: ["052AB2E6CC4C6A93"]
-			description: ["{ftbquests.chapter.nuclear_energy.quest7B1B6754652C8299.description1}"]
+			description: ["{ftbquests.chapter.nuclear_energy.quest55.description1}"]
 			id: "7B1B6754652C8299"
 			rewards: [{
 				id: "6C6DAB38681E3D97"
 				item: "kubejs:apotheotic_coin"
 				type: "item"
 			}]
-			subtitle: "{ftbquests.chapter.nuclear_energy.quest7B1B6754652C8299.subtitle}"
+			subtitle: "{ftbquests.chapter.nuclear_energy.quest55.subtitle}"
 			tasks: [{
 				id: "70FA393D820854C4"
 				item: "nuclearcraft:target_chamber_camera"
@@ -1702,8 +1702,8 @@
 		{
 			dependencies: ["7B1B6754652C8299"]
 			description: [
-				"{ftbquests.chapter.nuclear_energy.quest7E3209CB27E9AAB0.description1}"
-				"{ftbquests.chapter.nuclear_energy.quest7E3209CB27E9AAB0.description2}"
+				"{ftbquests.chapter.nuclear_energy.quest56.description1}"
+				"{ftbquests.chapter.nuclear_energy.quest56.description2}"
 			]
 			id: "7E3209CB27E9AAB0"
 			rewards: [{
@@ -1743,24 +1743,24 @@
 				}
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.nuclear_energy.quest7E3209CB27E9AAB0.title}"
+			title: "{ftbquests.chapter.nuclear_energy.quest56.title}"
 			x: 6.5d
 			y: -2.5d
 		}
 		{
 			dependencies: ["7E3209CB27E9AAB0"]
 			description: [
-				"{ftbquests.chapter.nuclear_energy.quest6F1FC9E4A28480C6.description1}"
-				"{ftbquests.chapter.nuclear_energy.quest6F1FC9E4A28480C6.description2}"
-				"{ftbquests.chapter.nuclear_energy.quest6F1FC9E4A28480C6.description3}"
-				"{ftbquests.chapter.nuclear_energy.quest6F1FC9E4A28480C6.description4}"
-				"{ftbquests.chapter.nuclear_energy.quest6F1FC9E4A28480C6.description5}"
-				"{ftbquests.chapter.nuclear_energy.quest6F1FC9E4A28480C6.description6}"
+				"{ftbquests.chapter.nuclear_energy.quest57.description1}"
+				"{ftbquests.chapter.nuclear_energy.quest57.description2}"
+				"{ftbquests.chapter.nuclear_energy.quest57.description3}"
+				"{ftbquests.chapter.nuclear_energy.quest57.description4}"
+				"{ftbquests.chapter.nuclear_energy.quest57.description5}"
+				"{ftbquests.chapter.nuclear_energy.quest57.description6}"
 			]
 			id: "6F1FC9E4A28480C6"
 			tasks: [{
 				id: "2644F99795B4E082"
-				title: "{ftbquests.chapter.nuclear_energy.quest6F1FC9E4A28480C6.task.2757603301304623234.title}"
+				title: "{ftbquests.chapter.nuclear_energy.quest57.task_2757603301304623234.title}"
 				type: "checkmark"
 			}]
 			x: 6.5d
@@ -1768,7 +1768,7 @@
 		}
 		{
 			dependencies: ["6F1FC9E4A28480C6"]
-			description: ["{ftbquests.chapter.nuclear_energy.quest28F7D3471591659B.description1}"]
+			description: ["{ftbquests.chapter.nuclear_energy.quest58.description1}"]
 			id: "28F7D3471591659B"
 			rewards: [{
 				id: "0B4DCCB496407076"

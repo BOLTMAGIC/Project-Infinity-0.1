@@ -21,9 +21,9 @@
 	quests: [
 		{
 			description: [
-				"{ftbquests.chapter.welcome.quest23BDBBD3001F9774.description1}"
+				"{ftbquests.chapter.welcome.quest1.description1}"
 				""
-				"{ftbquests.chapter.welcome.quest23BDBBD3001F9774.description2}"
+				"{ftbquests.chapter.welcome.quest1.description2}"
 			]
 			id: "23BDBBD3001F9774"
 			rewards: [
@@ -42,13 +42,13 @@
 			]
 			shape: "hexagon"
 			size: 3.0d
-			subtitle: "{ftbquests.chapter.welcome.quest23BDBBD3001F9774.subtitle}"
+			subtitle: "{ftbquests.chapter.welcome.quest1.subtitle}"
 			tasks: [{
 				id: "6CB3ED756B23BE88"
-				title: "{ftbquests.chapter.welcome.quest23BDBBD3001F9774.task.7832865265491885704.title}"
+				title: "{ftbquests.chapter.welcome.quest1.task_7832865265491885704.title}"
 				type: "checkmark"
 			}]
-			title: "{ftbquests.chapter.welcome.quest23BDBBD3001F9774.title}"
+			title: "{ftbquests.chapter.welcome.quest1.title}"
 			x: 0.0d
 			y: 0.0d
 		}
@@ -56,9 +56,9 @@
 			dependencies: ["23BDBBD3001F9774"]
 			dependency_requirement: "one_completed"
 			description: [
-				"{ftbquests.chapter.welcome.quest3001B2EEE5C6C9AB.description1}"
+				"{ftbquests.chapter.welcome.quest2.description1}"
 				""
-				"[\"\",{\"translate\":\"ftbquests.chapter.welcome.quest3001B2EEE5C6C9AB.rich_description1\"},{\"underlined\":true,\"translate\":\"ftbquests.chapter.welcome.quest3001B2EEE5C6C9AB.rich_description2\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"5A2174711D9219BF\"}}]"
+				"[\"\",{\"translate\":\"ftbquests.chapter.welcome.quest2.rich_description1\"},{\"underlined\":1,\"translate\":\"ftbquests.chapter.welcome.quest2.rich_description2\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"5A2174711D9219BF\"}}]"
 			]
 			icon: "minecraft:oak_log"
 			id: "3001B2EEE5C6C9AB"
@@ -67,22 +67,22 @@
 				item: "kubejs:apotheotic_coin"
 				type: "item"
 			}]
-			subtitle: "{ftbquests.chapter.welcome.quest3001B2EEE5C6C9AB.subtitle}"
+			subtitle: "{ftbquests.chapter.welcome.quest2.subtitle}"
 			tasks: [{
 				count: 8L
 				icon: "minecraft:oak_log"
 				id: "1BB08F6BC4167067"
 				item: "minecraft:oak_log"
-				title: "{ftbquests.chapter.welcome.quest3001B2EEE5C6C9AB.task.1995252327939207271.title}"
+				title: "{ftbquests.chapter.welcome.quest2.task_1995252327939207271.title}"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.welcome.quest3001B2EEE5C6C9AB.title}"
+			title: "{ftbquests.chapter.welcome.quest2.title}"
 			x: 2.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["3001B2EEE5C6C9AB"]
-			description: ["{ftbquests.chapter.welcome.quest744E757CA323FF46.description1}"]
+			description: ["{ftbquests.chapter.welcome.quest3.description1}"]
 			id: "744E757CA323FF46"
 			rewards: [
 				{
@@ -102,7 +102,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "{ftbquests.chapter.welcome.quest744E757CA323FF46.subtitle}"
+			subtitle: "{ftbquests.chapter.welcome.quest3.subtitle}"
 			tasks: [{
 				id: "22FBCA5AA2D1B8B1"
 				item: {
@@ -114,15 +114,15 @@
 				}
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.welcome.quest744E757CA323FF46.title}"
+			title: "{ftbquests.chapter.welcome.quest3.title}"
 			x: 3.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["3856A800287BD8F6"]
 			description: [
-				"{ftbquests.chapter.welcome.quest35EF391AB5344094.description1}"
-				"{ftbquests.chapter.welcome.quest35EF391AB5344094.description2}"
+				"{ftbquests.chapter.welcome.quest4.description1}"
+				"{ftbquests.chapter.welcome.quest4.description2}"
 			]
 			id: "35EF391AB5344094"
 			rewards: [{
@@ -130,7 +130,7 @@
 				item: "kubejs:apotheotic_coin"
 				type: "item"
 			}]
-			subtitle: "{ftbquests.chapter.welcome.quest35EF391AB5344094.subtitle}"
+			subtitle: "{ftbquests.chapter.welcome.quest4.subtitle}"
 			tasks: [{
 				id: "596CB9CDB4192339"
 				item: {
@@ -142,13 +142,13 @@
 				}
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.welcome.quest35EF391AB5344094.title}"
+			title: "{ftbquests.chapter.welcome.quest4.title}"
 			x: -2.0d
 			y: 1.0d
 		}
 		{
 			dependencies: ["744E757CA323FF46"]
-			description: ["{ftbquests.chapter.welcome.quest4A536710A11856F2.description1}"]
+			description: ["{ftbquests.chapter.welcome.quest5.description1}"]
 			id: "4A536710A11856F2"
 			rewards: [
 				{
@@ -163,25 +163,25 @@
 					type: "item"
 				}
 			]
-			subtitle: "{ftbquests.chapter.welcome.quest4A536710A11856F2.subtitle}"
+			subtitle: "{ftbquests.chapter.welcome.quest5.subtitle}"
 			tasks: [{
 				id: "41B28C0567C513BC"
 				item: "minecraft:string"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.welcome.quest4A536710A11856F2.title}"
+			title: "{ftbquests.chapter.welcome.quest5.title}"
 			x: 4.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["4A536710A11856F2"]
 			description: [
-				"{ftbquests.chapter.welcome.quest768F0E715B05D9E4.description1}"
+				"{ftbquests.chapter.welcome.quest6.description1}"
 				""
-				"{ftbquests.chapter.welcome.quest768F0E715B05D9E4.description2}"
+				"{ftbquests.chapter.welcome.quest6.description2}"
 				""
-				"{ftbquests.chapter.welcome.quest768F0E715B05D9E4.description3}"
-				"{ftbquests.chapter.welcome.quest768F0E715B05D9E4.description4}"
+				"{ftbquests.chapter.welcome.quest6.description3}"
+				"{ftbquests.chapter.welcome.quest6.description4}"
 			]
 			id: "768F0E715B05D9E4"
 			rewards: [
@@ -205,7 +205,7 @@
 			]
 			shape: "hexagon"
 			size: 2.0d
-			subtitle: "{ftbquests.chapter.welcome.quest768F0E715B05D9E4.subtitle}"
+			subtitle: "{ftbquests.chapter.welcome.quest6.subtitle}"
 			tasks: [
 				{
 					id: "50082DE6C1394D74"
@@ -218,13 +218,13 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.welcome.quest768F0E715B05D9E4.title}"
+			title: "{ftbquests.chapter.welcome.quest6.title}"
 			x: 6.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["35EF391AB5344094"]
-			description: ["{ftbquests.chapter.welcome.quest11CE392E7A41785F.description1}"]
+			description: ["{ftbquests.chapter.welcome.quest7.description1}"]
 			id: "11CE392E7A41785F"
 			rewards: [
 				{
@@ -251,7 +251,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "{ftbquests.chapter.welcome.quest11CE392E7A41785F.subtitle}"
+			subtitle: "{ftbquests.chapter.welcome.quest7.subtitle}"
 			tasks: [
 				{
 					count: 8L
@@ -272,7 +272,7 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.welcome.quest11CE392E7A41785F.title}"
+			title: "{ftbquests.chapter.welcome.quest7.title}"
 			x: -2.0d
 			y: 2.0d
 		}
@@ -290,7 +290,7 @@
 				item: "exdeorum:flint_mesh"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.welcome.quest2CF0EE5C0651F531.title}"
+			title: "{ftbquests.chapter.welcome.quest8.title}"
 			x: 5.0d
 			y: -1.0d
 		}
@@ -307,7 +307,7 @@
 				item: "exdeorum:iron_mesh"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.welcome.quest11097D91EBF2490D.title}"
+			title: "{ftbquests.chapter.welcome.quest9.title}"
 			x: 6.0d
 			y: -1.5d
 		}
@@ -324,7 +324,7 @@
 				item: "exdeorum:golden_mesh"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.welcome.quest6580DCA54E4C9BC2.title}"
+			title: "{ftbquests.chapter.welcome.quest10.title}"
 			x: 7.0d
 			y: -1.0d
 		}
@@ -355,7 +355,7 @@
 		}
 		{
 			dependencies: ["3856A800287BD8F6"]
-			description: ["{ftbquests.chapter.welcome.quest231765C07B4A12B7.description1}"]
+			description: ["{ftbquests.chapter.welcome.quest12.description1}"]
 			id: "231765C07B4A12B7"
 			rewards: [{
 				id: "4FC6D1192E322DCB"
@@ -364,19 +364,19 @@
 			}]
 			shape: "hexagon"
 			size: 2.0d
-			subtitle: "{ftbquests.chapter.welcome.quest231765C07B4A12B7.subtitle}"
+			subtitle: "{ftbquests.chapter.welcome.quest12.subtitle}"
 			tasks: [{
 				id: "3B51E5B051595390"
 				item: "minecraft:furnace"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.welcome.quest231765C07B4A12B7.title}"
+			title: "{ftbquests.chapter.welcome.quest12.title}"
 			x: -4.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["3001B2EEE5C6C9AB"]
-			description: ["{ftbquests.chapter.welcome.quest42240BED17BA0948.description1}"]
+			description: ["{ftbquests.chapter.welcome.quest13.description1}"]
 			id: "42240BED17BA0948"
 			rewards: [{
 				id: "26EB533DE4557292"
@@ -384,19 +384,19 @@
 				type: "item"
 			}]
 			size: 1.0d
-			subtitle: "{ftbquests.chapter.welcome.quest42240BED17BA0948.subtitle}"
+			subtitle: "{ftbquests.chapter.welcome.quest13.subtitle}"
 			tasks: [{
 				id: "255694580F7FD8B1"
 				item: "exdeorum:oak_barrel"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.welcome.quest42240BED17BA0948.title}"
+			title: "{ftbquests.chapter.welcome.quest13.title}"
 			x: 2.0d
 			y: -1.0d
 		}
 		{
 			dependencies: ["42240BED17BA0948"]
-			description: ["{ftbquests.chapter.welcome.quest53F7B1EE005A696C.description1}"]
+			description: ["{ftbquests.chapter.welcome.quest14.description1}"]
 			id: "53F7B1EE005A696C"
 			rewards: [
 				{
@@ -417,13 +417,13 @@
 				item: "minecraft:clay"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.welcome.quest53F7B1EE005A696C.title}"
+			title: "{ftbquests.chapter.welcome.quest14.title}"
 			x: 3.0d
 			y: -1.0d
 		}
 		{
 			dependencies: ["53F7B1EE005A696C"]
-			description: ["{ftbquests.chapter.welcome.quest40A495FCD317A38D.description1}"]
+			description: ["{ftbquests.chapter.welcome.quest15.description1}"]
 			icon: "exdeorum:porcelain_crucible"
 			id: "40A495FCD317A38D"
 			rewards: [{
@@ -431,13 +431,13 @@
 				item: "kubejs:apotheotic_coin"
 				type: "item"
 			}]
-			subtitle: "{ftbquests.chapter.welcome.quest40A495FCD317A38D.subtitle}"
+			subtitle: "{ftbquests.chapter.welcome.quest15.subtitle}"
 			tasks: [{
 				id: "5F982D6AF1064E10"
 				item: "exdeorum:porcelain_crucible"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.welcome.quest40A495FCD317A38D.title}"
+			title: "{ftbquests.chapter.welcome.quest15.title}"
 			x: 3.0d
 			y: -2.0d
 		}
@@ -445,13 +445,13 @@
 			dependencies: ["40A495FCD317A38D"]
 			icon: "minecraft:campfire"
 			id: "74D15276CA30D62F"
-			subtitle: "{ftbquests.chapter.welcome.quest74D15276CA30D62F.subtitle}"
+			subtitle: "{ftbquests.chapter.welcome.quest16.subtitle}"
 			tasks: [{
 				id: "7F1EEFBE68C82523"
-				title: "{ftbquests.chapter.welcome.quest74D15276CA30D62F.task.9160022293198939427.title}"
+				title: "{ftbquests.chapter.welcome.quest16.task_9160022293198939427.title}"
 				type: "checkmark"
 			}]
-			title: "{ftbquests.chapter.welcome.quest74D15276CA30D62F.title}"
+			title: "{ftbquests.chapter.welcome.quest16.title}"
 			x: 4.0d
 			y: -2.0d
 		}
@@ -470,7 +470,7 @@
 				id: "2019707AE4DAC703"
 				type: "checkmark"
 			}]
-			title: "{ftbquests.chapter.welcome.quest29F82373417B2006.title}"
+			title: "{ftbquests.chapter.welcome.quest17.title}"
 			x: 2.0d
 			y: 1.0d
 		}
@@ -488,13 +488,13 @@
 				item: "exdeorum:diamond_mesh"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.welcome.quest38852A6C2A1F8363.title}"
+			title: "{ftbquests.chapter.welcome.quest18.title}"
 			x: 7.5d
 			y: 0.0d
 		}
 		{
 			dependencies: ["1EFE097BA29A5C0D"]
-			description: ["{ftbquests.chapter.welcome.quest3755C36AE60FF795.description1}"]
+			description: ["{ftbquests.chapter.welcome.quest19.description1}"]
 			icon: "exdeorum:oak_crucible"
 			id: "3755C36AE60FF795"
 			rewards: [{
@@ -507,13 +507,13 @@
 				item: "exdeorum:oak_crucible"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.welcome.quest3755C36AE60FF795.title}"
+			title: "{ftbquests.chapter.welcome.quest19.title}"
 			x: -1.5d
 			y: -3.7d
 		}
 		{
 			dependencies: ["7717A3BEE456FEEE"]
-			description: ["{ftbquests.chapter.welcome.quest1EFE097BA29A5C0D.description1}"]
+			description: ["{ftbquests.chapter.welcome.quest20.description1}"]
 			id: "1EFE097BA29A5C0D"
 			rewards: [
 				{
@@ -527,7 +527,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "{ftbquests.chapter.welcome.quest1EFE097BA29A5C0D.subtitle}"
+			subtitle: "{ftbquests.chapter.welcome.quest20.subtitle}"
 			tasks: [{
 				id: "5674B09AC991D7EB"
 				item: {
@@ -537,10 +537,10 @@
 						value: "minecraft:leaves"
 					}
 				}
-				title: "{ftbquests.chapter.welcome.quest1EFE097BA29A5C0D.task.6229798363413469163.title}"
+				title: "{ftbquests.chapter.welcome.quest20.task_6229798363413469163.title}"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.welcome.quest1EFE097BA29A5C0D.title}"
+			title: "{ftbquests.chapter.welcome.quest20.title}"
 			x: -1.0d
 			y: -2.7d
 		}
@@ -554,19 +554,19 @@
 				item: "kubejs:apotheotic_coin"
 				type: "item"
 			}]
-			subtitle: "{ftbquests.chapter.welcome.quest6CC58829AD442C66.subtitle}"
+			subtitle: "{ftbquests.chapter.welcome.quest21.subtitle}"
 			tasks: [{
 				id: "0405D0B3B51B04C7"
 				item: "minecraft:lava_bucket"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.welcome.quest6CC58829AD442C66.title}"
+			title: "{ftbquests.chapter.welcome.quest21.title}"
 			x: 3.0d
 			y: -3.0d
 		}
 		{
 			dependencies: ["42240BED17BA0948"]
-			description: ["{ftbquests.chapter.welcome.questDE706CEFF3D04DC.description1}"]
+			description: ["{ftbquests.chapter.welcome.quest22.description1}"]
 			id: "0DE706CEFF3D04DC"
 			rewards: [{
 				id: "0DCB34F1647A1279"
@@ -584,9 +584,9 @@
 		{
 			dependencies: ["0DE706CEFF3D04DC"]
 			description: [
-				"{ftbquests.chapter.welcome.quest3B2C5513A8781DD3.description1}"
+				"{ftbquests.chapter.welcome.quest23.description1}"
 				""
-				"{ftbquests.chapter.welcome.quest3B2C5513A8781DD3.description2}"
+				"{ftbquests.chapter.welcome.quest23.description2}"
 			]
 			id: "3B2C5513A8781DD3"
 			rewards: [{
@@ -605,11 +605,11 @@
 		{
 			dependencies: ["23BDBBD3001F9774"]
 			description: [
-				"{ftbquests.chapter.welcome.quest3856A800287BD8F6.description1}"
+				"{ftbquests.chapter.welcome.quest24.description1}"
 				""
 				""
-				"{ftbquests.chapter.welcome.quest3856A800287BD8F6.description2}"
-				"{ftbquests.chapter.welcome.quest3856A800287BD8F6.description3}"
+				"{ftbquests.chapter.welcome.quest24.description2}"
+				"{ftbquests.chapter.welcome.quest24.description3}"
 			]
 			id: "3856A800287BD8F6"
 			rewards: [
@@ -625,7 +625,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "{ftbquests.chapter.welcome.quest3856A800287BD8F6.subtitle}"
+			subtitle: "{ftbquests.chapter.welcome.quest24.subtitle}"
 			tasks: [
 				{
 					count: 64L
@@ -640,14 +640,14 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.welcome.quest3856A800287BD8F6.title}"
+			title: "{ftbquests.chapter.welcome.quest24.title}"
 			x: -2.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["3755C36AE60FF795"]
 			dependency_requirement: "one_completed"
-			description: ["{ftbquests.chapter.welcome.quest1E9CDF0F2C01BBE6.description1}"]
+			description: ["{ftbquests.chapter.welcome.quest25.description1}"]
 			icon: "minecraft:water_bucket"
 			id: "1E9CDF0F2C01BBE6"
 			rewards: [{
@@ -658,22 +658,22 @@
 			}]
 			shape: "hexagon"
 			size: 2.0d
-			subtitle: "{ftbquests.chapter.welcome.quest1E9CDF0F2C01BBE6.subtitle}"
+			subtitle: "{ftbquests.chapter.welcome.quest25.subtitle}"
 			tasks: [{
 				id: "6D9D4B4C98329596"
 				item: "minecraft:water_bucket"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.welcome.quest1E9CDF0F2C01BBE6.title}"
+			title: "{ftbquests.chapter.welcome.quest25.title}"
 			x: 0.0d
 			y: -3.7d
 		}
 		{
 			dependencies: ["07CB0C4388DEBCA3"]
 			description: [
-				"{ftbquests.chapter.welcome.questF714BB148F47C46.description1}"
+				"{ftbquests.chapter.welcome.quest26.description1}"
 				""
-				"[\"\",{\"translate\":\"ftbquests.chapter.welcome.questF714BB148F47C46.rich_description1\"},{\"underlined\":true,\"translate\":\"ftbquests.chapter.welcome.questF714BB148F47C46.rich_description2\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"518405876B7FEB5A\"}}]"
+				"[\"\",{\"translate\":\"ftbquests.chapter.welcome.quest26.rich_description1\"},{\"underlined\":1,\"translate\":\"ftbquests.chapter.welcome.quest26.rich_description2\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"518405876B7FEB5A\"}}]"
 			]
 			icon: "mm:auto_sieve_controller"
 			id: "0F714BB148F47C46"
@@ -820,7 +820,7 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.welcome.questF714BB148F47C46.title}"
+			title: "{ftbquests.chapter.welcome.quest26.title}"
 			x: 9.5d
 			y: 0.0d
 		}
@@ -849,18 +849,18 @@
 				item: "minecraft:obsidian"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.welcome.quest1B3A1C61683F9AC5.title}"
+			title: "{ftbquests.chapter.welcome.quest27.title}"
 			x: 3.0d
 			y: -4.0d
 		}
 		{
 			dependencies: ["349588784C2748E2"]
 			description: [
-				"{ftbquests.chapter.welcome.quest932042F7B58F486.description1}"
+				"{ftbquests.chapter.welcome.quest28.description1}"
 				""
-				"{ftbquests.chapter.welcome.quest932042F7B58F486.description2}"
+				"{ftbquests.chapter.welcome.quest28.description2}"
 				""
-				"{ftbquests.chapter.welcome.quest932042F7B58F486.image0}"
+				"{ftbquests.chapter.welcome.quest28.image0}"
 			]
 			icon: "hunting_dimension_reforged:frame"
 			id: "0932042F7B58F486"
@@ -893,13 +893,13 @@
 					type: "dimension"
 				}
 			]
-			title: "{ftbquests.chapter.welcome.quest932042F7B58F486.title}"
+			title: "{ftbquests.chapter.welcome.quest28.title}"
 			x: 1.0d
 			y: 5.0d
 		}
 		{
 			dependencies: ["6CC58829AD442C66"]
-			description: ["{ftbquests.chapter.welcome.quest443E0B6569414CD8.description1}"]
+			description: ["{ftbquests.chapter.welcome.quest29.description1}"]
 			id: "443E0B6569414CD8"
 			rewards: [{
 				id: "3E7CC611E86F03F9"
@@ -908,7 +908,7 @@
 			}]
 			shape: "hexagon"
 			size: 2.0d
-			subtitle: "{ftbquests.chapter.welcome.quest443E0B6569414CD8.subtitle}"
+			subtitle: "{ftbquests.chapter.welcome.quest29.subtitle}"
 			tasks: [{
 				id: "75C3F64D436F7921"
 				item: "cobblefordays:tier_1"
@@ -983,7 +983,7 @@
 		}
 		{
 			dependencies: ["349588784C2748E2"]
-			description: ["{ftbquests.chapter.welcome.quest2BD5A176D1FF28AB.image0}"]
+			description: ["{ftbquests.chapter.welcome.quest34.image0}"]
 			id: "2BD5A176D1FF28AB"
 			rewards: [{
 				id: "2A648285011CC925"
@@ -1003,7 +1003,7 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.welcome.quest2BD5A176D1FF28AB.title}"
+			title: "{ftbquests.chapter.welcome.quest34.title}"
 			x: 1.0d
 			y: 3.0d
 		}
@@ -1041,7 +1041,7 @@
 				}
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.welcome.quest7717A3BEE456FEEE.title}"
+			title: "{ftbquests.chapter.welcome.quest35.title}"
 			x: 0.0d
 			y: -2.2d
 		}
@@ -1111,7 +1111,7 @@
 		}
 		{
 			dependencies: ["118D3CB18A4991A7"]
-			description: ["{ftbquests.chapter.welcome.quest3FAC609B91158D74.description1}"]
+			description: ["{ftbquests.chapter.welcome.quest40.description1}"]
 			id: "3FAC609B91158D74"
 			rewards: [{
 				id: "535CC797F73AFAFC"
@@ -1129,8 +1129,8 @@
 		{
 			dependencies: ["3FAC609B91158D74"]
 			description: [
-				"{ftbquests.chapter.welcome.quest11CE13AE71F2633C.description1}"
-				"{ftbquests.chapter.welcome.quest11CE13AE71F2633C.description2}"
+				"{ftbquests.chapter.welcome.quest41.description1}"
+				"{ftbquests.chapter.welcome.quest41.description2}"
 			]
 			id: "11CE13AE71F2633C"
 			rewards: [
@@ -1175,7 +1175,7 @@
 				match_nbt: true
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.welcome.quest11CE13AE71F2633C.title}"
+			title: "{ftbquests.chapter.welcome.quest41.title}"
 			x: 1.0d
 			y: -8.5d
 		}
@@ -1189,7 +1189,7 @@
 			}]
 			tasks: [{
 				id: "6F697D0CA2B36869"
-				title: "{ftbquests.chapter.welcome.quest349588784C2748E2.task.8028085303987365993.title}"
+				title: "{ftbquests.chapter.welcome.quest42.task_8028085303987365993.title}"
 				type: "checkmark"
 			}]
 			x: 0.0d
@@ -1197,7 +1197,7 @@
 		}
 		{
 			dependencies: ["349588784C2748E2"]
-			description: ["{ftbquests.chapter.welcome.quest2453487FBB29D7C6.description1}"]
+			description: ["{ftbquests.chapter.welcome.quest43.description1}"]
 			id: "2453487FBB29D7C6"
 			rewards: [{
 				id: "6E22D9BF92B3C5C8"
@@ -1209,13 +1209,13 @@
 				id: "649B8BC46DFD0EA3"
 				type: "dimension"
 			}]
-			title: "{ftbquests.chapter.welcome.quest2453487FBB29D7C6.title}"
+			title: "{ftbquests.chapter.welcome.quest43.title}"
 			x: 0.0d
 			y: 5.5d
 		}
 		{
 			dependencies: ["349588784C2748E2"]
-			description: ["{ftbquests.chapter.welcome.quest759AFC50F72A5727.description1}"]
+			description: ["{ftbquests.chapter.welcome.quest44.description1}"]
 			id: "759AFC50F72A5727"
 			rewards: [{
 				id: "7376CDCA60768AF8"
@@ -1225,16 +1225,16 @@
 			tasks: [{
 				dimension: "minecraft:the_end"
 				id: "7697CB0FE47E3294"
-				title: "{ftbquests.chapter.welcome.quest759AFC50F72A5727.task.8545522087077229204.title}"
+				title: "{ftbquests.chapter.welcome.quest44.task_8545522087077229204.title}"
 				type: "dimension"
 			}]
-			title: "{ftbquests.chapter.welcome.quest759AFC50F72A5727.title}"
+			title: "{ftbquests.chapter.welcome.quest44.title}"
 			x: -1.0d
 			y: 3.0d
 		}
 		{
 			dependencies: ["349588784C2748E2"]
-			description: ["{ftbquests.chapter.welcome.questE502AE18C3C1109.description1}"]
+			description: ["{ftbquests.chapter.welcome.quest45.description1}"]
 			id: "0E502AE18C3C1109"
 			rewards: [{
 				id: "2843AF6D8E448F91"
@@ -1251,7 +1251,7 @@
 		}
 		{
 			dependencies: ["349588784C2748E2"]
-			description: ["{ftbquests.chapter.welcome.quest53A83789E2445C98.description1}"]
+			description: ["{ftbquests.chapter.welcome.quest46.description1}"]
 			id: "53A83789E2445C98"
 			rewards: [{
 				id: "4E4DB0800C9C8A71"
@@ -1268,7 +1268,7 @@
 		}
 		{
 			dependencies: ["349588784C2748E2"]
-			description: ["{ftbquests.chapter.welcome.quest5CCEF4959151BA3F.description1}"]
+			description: ["{ftbquests.chapter.welcome.quest47.description1}"]
 			id: "5CCEF4959151BA3F"
 			rewards: [{
 				id: "09D345DF48563F75"
@@ -1286,7 +1286,7 @@
 		{
 			dependencies: ["768F0E715B05D9E4"]
 			id: "07CB0C4388DEBCA3"
-			subtitle: "{ftbquests.chapter.welcome.quest7CB0C4388DEBCA3.subtitle}"
+			subtitle: "{ftbquests.chapter.welcome.quest48.subtitle}"
 			tasks: [
 				{
 					id: "45E77D2456F74F04"
@@ -1316,13 +1316,13 @@
 				item: "minecraft:dirt"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.welcome.quest3704113E4DFE8EC7.title}"
+			title: "{ftbquests.chapter.welcome.quest49.title}"
 			x: 2.0d
 			y: -2.0d
 		}
 		{
 			dependencies: ["3704113E4DFE8EC7"]
-			description: ["{ftbquests.chapter.welcome.quest504D557E77E19557.description1}"]
+			description: ["{ftbquests.chapter.welcome.quest50.description1}"]
 			id: "504D557E77E19557"
 			rewards: [{
 				id: "30AE761AF416C808"
@@ -1369,10 +1369,10 @@
 		{
 			dependencies: ["349588784C2748E2"]
 			description: [
-				"{ftbquests.chapter.welcome.quest14C6DFD828E30ECE.description1}"
+				"{ftbquests.chapter.welcome.quest53.description1}"
 				""
-				"{ftbquests.chapter.welcome.quest14C6DFD828E30ECE.description2}"
-				"{ftbquests.chapter.welcome.quest14C6DFD828E30ECE.image0}"
+				"{ftbquests.chapter.welcome.quest53.description2}"
+				"{ftbquests.chapter.welcome.quest53.image0}"
 			]
 			id: "14C6DFD828E30ECE"
 			rewards: [{
@@ -1383,21 +1383,21 @@
 			tasks: [{
 				dimension: "lostcities:lostcity"
 				id: "577BD88783E01524"
-				title: "{ftbquests.chapter.welcome.quest14C6DFD828E30ECE.task.6303870179979826468.title}"
+				title: "{ftbquests.chapter.welcome.quest53.task_6303870179979826468.title}"
 				type: "dimension"
 			}]
-			title: "{ftbquests.chapter.welcome.quest14C6DFD828E30ECE.title}"
+			title: "{ftbquests.chapter.welcome.quest53.title}"
 			x: -1.5d
 			y: 4.0d
 		}
 		{
 			dependencies: ["349588784C2748E2"]
 			description: [
-				"{ftbquests.chapter.welcome.quest7EEA94C0D88156AC.description1}"
+				"{ftbquests.chapter.welcome.quest54.description1}"
 				""
-				"{ftbquests.chapter.welcome.quest7EEA94C0D88156AC.description2}"
-				"{ftbquests.chapter.welcome.quest7EEA94C0D88156AC.image0}"
-				"{ftbquests.chapter.welcome.quest7EEA94C0D88156AC.image2}"
+				"{ftbquests.chapter.welcome.quest54.description2}"
+				"{ftbquests.chapter.welcome.quest54.image0}"
+				"{ftbquests.chapter.welcome.quest54.image2}"
 			]
 			id: "7EEA94C0D88156AC"
 			rewards: [{
@@ -1408,24 +1408,24 @@
 			tasks: [{
 				dimension: "twilightforest:twilight_forest"
 				id: "4CC33BA161652E30"
-				title: "{ftbquests.chapter.welcome.quest7EEA94C0D88156AC.task.5531330331650895408.title}"
+				title: "{ftbquests.chapter.welcome.quest54.task_5531330331650895408.title}"
 				type: "dimension"
 			}]
-			title: "{ftbquests.chapter.welcome.quest7EEA94C0D88156AC.title}"
+			title: "{ftbquests.chapter.welcome.quest54.title}"
 			x: -1.0d
 			y: 5.0d
 		}
 		{
 			description: [
-				"{ftbquests.chapter.welcome.quest10649AC32D9EA7B6.description1}"
-				"{ftbquests.chapter.welcome.quest10649AC32D9EA7B6.description2}"
+				"{ftbquests.chapter.welcome.quest55.description1}"
+				"{ftbquests.chapter.welcome.quest55.description2}"
 			]
 			id: "10649AC32D9EA7B6"
 			invisible: true
 			optional: true
 			tasks: [{
 				id: "6FA47CBFB55675F7"
-				title: "{ftbquests.chapter.welcome.quest10649AC32D9EA7B6.task.8044691997213488631.title}"
+				title: "{ftbquests.chapter.welcome.quest55.task_8044691997213488631.title}"
 				type: "checkmark"
 			}]
 			x: -1.5d
@@ -1434,9 +1434,9 @@
 		{
 			dependencies: ["1B3A1C61683F9AC5"]
 			description: [
-				"{ftbquests.chapter.welcome.quest785136490949AC41.description1}"
+				"{ftbquests.chapter.welcome.quest56.description1}"
 				""
-				"{ftbquests.chapter.welcome.quest785136490949AC41.description2}"
+				"{ftbquests.chapter.welcome.quest56.description2}"
 			]
 			id: "785136490949AC41"
 			rewards: [
@@ -1464,22 +1464,22 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.welcome.quest785136490949AC41.title}"
+			title: "{ftbquests.chapter.welcome.quest56.title}"
 			x: 6.0d
 			y: -6.0d
 		}
 		{
 			dependencies: ["785136490949AC41"]
 			description: [
-				"{ftbquests.chapter.welcome.quest65655A9CEA51CE31.description1}"
-				"{ftbquests.chapter.welcome.quest65655A9CEA51CE31.description2}"
+				"{ftbquests.chapter.welcome.quest57.description1}"
+				"{ftbquests.chapter.welcome.quest57.description2}"
 				""
 				""
-				"{ftbquests.chapter.welcome.quest65655A9CEA51CE31.description3}"
+				"{ftbquests.chapter.welcome.quest57.description3}"
 				""
-				"{ftbquests.chapter.welcome.quest65655A9CEA51CE31.description4}"
+				"{ftbquests.chapter.welcome.quest57.description4}"
 				""
-				"{ftbquests.chapter.welcome.quest65655A9CEA51CE31.description5}"
+				"{ftbquests.chapter.welcome.quest57.description5}"
 			]
 			hide_until_deps_complete: true
 			id: "65655A9CEA51CE31"
@@ -1487,12 +1487,12 @@
 				id: "07A99CA3BD1E2408"
 				type: "checkmark"
 			}]
-			title: "{ftbquests.chapter.welcome.quest65655A9CEA51CE31.title}"
+			title: "{ftbquests.chapter.welcome.quest57.title}"
 			x: 6.0d
 			y: -7.0d
 		}
 		{
-			description: ["{ftbquests.chapter.welcome.quest6B3C05DDF66E4294.description1}"]
+			description: ["{ftbquests.chapter.welcome.quest58.description1}"]
 			id: "6B3C05DDF66E4294"
 			tasks: [
 				{
@@ -1506,18 +1506,18 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.welcome.quest6B3C05DDF66E4294.title}"
+			title: "{ftbquests.chapter.welcome.quest58.title}"
 			x: 7.0d
 			y: -6.0d
 		}
 		{
 			dependencies: ["785136490949AC41"]
-			description: ["{ftbquests.chapter.welcome.quest249898A9B4E8035D.description1}"]
+			description: ["{ftbquests.chapter.welcome.quest59.description1}"]
 			hide_until_deps_complete: true
 			id: "249898A9B4E8035D"
 			tasks: [{
 				id: "17E06A42A5FA987D"
-				title: "{ftbquests.chapter.welcome.quest249898A9B4E8035D.task.1720491892140578941.title}"
+				title: "{ftbquests.chapter.welcome.quest59.task_1720491892140578941.title}"
 				type: "checkmark"
 			}]
 			x: 7.0d

@@ -1,0 +1,12 @@
+#Controls how client-side structured perf reports are displayed: SCREEN, CHAT, or BOTH.
+#Allowed Values: SCREEN, CHAT, BOTH
+perf_output_mode = "SCREEN"
+#Controls whether the world perf overlay displays all sampled objects or effective sample strengths of two and above.
+#Allowed Values: ALL, TWO_OR_MORE
+world_overlay_filter = "TWO_OR_MORE"
+#Enable the in-world performance overlay.
+world_overlay_enabled = true
+#Maximum world-overlay markers uploaded to the GPU each frame.
+#Range: 1024 ~ 16384
+world_overlay_marker_limit = 4096
+

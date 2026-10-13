@@ -20,6 +20,9 @@ showJeiMaxParallel = true
 #How often ports with enabled auto push/pull sides transfer, in ticks. Default: 10
 #Range: 1 ~ 200
 portAutoIOInterval = 10
+#How many blocks the controller's Assemble places per tick. Default: 2
+#Range: 1 ~ 64
+assemblyBlocksPerTick = 2
 
 #Preview features that are not yet stable or ready for use.
 [preview_features]
@@ -38,4 +41,28 @@ portAutoIOInterval = 10
 	#How far from a port to look for the controller it belongs to. Must cover your largest multiblock. Default: 16
 	#Range: 4 ~ 64
 	controllerSearchRadius = 16
+
+#Multiblock Tool: item block store energy.
+[tool]
+	#Max FE the Multiblock Tool can store. Default: 1,000,000
+	#Range: > 1
+	energyCapacity = 1000000
+	#FE cost per block placed by the Multiblock Tool. Default: 50
+	#Range: > 0
+	energyPerPlacedBlock = 50
+	#FE cost per block dismantled by the Multiblock Tool. Default: 25
+	#Range: > 0
+	energyPerDismantledBlock = 25
+	#Max FE/t the Multiblock Tool accepts from an external charger. Default: 10,000
+	#Range: > 1
+	energyReceiveRate = 10000
+	#Structure Builder targeting, anchor and placement distance in blocks. Loaded chunks only. Default: 64
+	#Range: 5 ~ 128
+	buildRange = 64
+	#Structure Builder blocks placed per tick in sequential/layer mode. Default: 2
+	#Range: 1 ~ 1024
+	buildBlocksPerTick = 2
+	#Structure Builder placement: SEQUENTIAL, LAYER_BY_LAYER (bottom up), INSTANT (one tick).
+	#Allowed Values: SEQUENTIAL, LAYER_BY_LAYER, INSTANT
+	buildMode = "SEQUENTIAL"
 

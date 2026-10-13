@@ -36,4 +36,10 @@ lastOtherKeyTypesFilter = false
 favoritedItemsFirst = false
 #Serialized client-side favorite AE keys for WCWT terminal sorting and overlays.
 favoritedKeys = []
+#If true: show the first two toolkit rows as left and right HUD hotbars while in the world.
+showToolkitHotbars = true
+#If true: in the pattern management area, providers with only empty slots are grouped and shown compactly, matching EAEP behaviour.
+patternManagementAutoCompactEmptySlots = true
+#If true: when uploading a pattern and multiple providers share the same name, open the EAEP provider-select screen instead of silently skipping. Requires ExtendedAE Plus.
+patternUploadMultiMatchOpenEaepScreen = true
 

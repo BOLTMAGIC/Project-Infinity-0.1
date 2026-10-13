@@ -14,9 +14,9 @@
 	WARNING_SPAWN_ENABLED = false
 	#Whether you gain naughtiness from certain actions
 	NAUGHTINESS_ENABLED = true
-	#Chaotic Spring event enabled
+	#Forces the Chaotic Spring event on outside its usual dates (Born in Chaos's seasonal events game rule still applies)
 	CHAOTIC_SPRING_ENABLED = true
-	#Chilling Horror event enabled
+	#Forces the Chilling Horror event on outside its usual dates (Born in Chaos's seasonal events game rule still applies)
 	CHILLING_HORROR_ENABLED = true
 
 [Weapons]
@@ -29,1404 +29,3052 @@
 	#Amount of seconds for the cooldown of pumpkin pistol
 	#Range: > 0
 	PUMPKIN_PISTOL_COOLDOWN = 2
-	#Chance to proc head effect with nutcracker
-	#Range: 0.0 ~ 1.0
-	NUTBREAKER_HEAD_CHANCE = 0.3499999940395355
 	#Amount of Mr.Pumpkins spawned
 	#Range: > 1
 	PUMPKIN_STAFF_SUMMON_AMOUNT = 1
 
+	#Stats for every Born in Chaos mob. Every stat defaults to -1, which keeps Born in Chaos's own value,
+	#so updating Born in Chaos never leaves you on outdated numbers. Set a stat to 0 or higher to override it.
 	[Weapons.Mobs]
 
+		#Applies to: born_in_chaos_v1:baby_skeleton, born_in_chaos_v1:baby_skeleton_minion
 		[Weapons.Mobs."Baby Skeleton"]
-			#.
-			#Range: 0.0 ~ 1.7976931348623157E308
-			BABY_SKELETON_ARMOR = 1.0
-			#.
-			#Range: 0.0 ~ 1.7976931348623157E308
-			BABY_SKELETON_DAMAGE = 2.0
-			#.
-			#Range: 0.0 ~ 1.7976931348623157E308
-			BABY_SKELETON_HEALTH = 10.0
-			#.
-			#Range: 0.0 ~ 1.7976931348623157E308
-			BABY_SKELETON_KNOCKBACK = 0.1
-			#.
+			#Whether Baby Skeleton can spawn
 			BABY_SKELETON_SPAWNING_ENABLED = true
-			#.
-			#Range: 0.0 ~ 1.7976931348623157E308
-			BABY_SKELETON_SPEED = 0.3
-			#.
-			#Range: 0.0 ~ 1.7976931348623157E308
-			BABY_SKELETON_KNOCKBACK_RESISTANCE = 0.0
+			#Born in Chaos default: 10
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			MAX_HEALTH = -1.0
+			#Born in Chaos default: 1
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			ARMOR = -1.0
+			#Born in Chaos default: 0
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			ARMOR_TOUGHNESS = -1.0
+			#Born in Chaos default: 2
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			ATTACK_DAMAGE = -1.0
+			#Born in Chaos default: 0.1
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			ATTACK_KNOCKBACK = -1.0
+			#Born in Chaos default: 0
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			KNOCKBACK_RESISTANCE = -1.0
+			#Born in Chaos default: baby_skeleton 0.31, baby_skeleton_minion 0.3
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			MOVEMENT_SPEED = -1.0
+			#Born in Chaos default: 16
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			FOLLOW_RANGE = -1.0
 
+		#Applies to: born_in_chaos_v1:baby_spider, born_in_chaos_v1:baby_spider_controlled
 		[Weapons.Mobs."Baby Spider"]
-			#.
-			#Range: 0.0 ~ 1.7976931348623157E308
-			BABY_SPIDER_ARMOR = 1.0
-			#.
-			#Range: 0.0 ~ 1.7976931348623157E308
-			BABY_SPIDER_DAMAGE = 2.0
-			#.
-			#Range: 0.0 ~ 1.7976931348623157E308
-			BABY_SPIDER_HEALTH = 10.0
-			#.
-			#Range: 0.0 ~ 1.7976931348623157E308
-			BABY_SPIDER_KNOCKBACK = 0.1
-			#.
+			#Whether Baby Spider can spawn
 			BABY_SPIDER_SPAWNING_ENABLED = true
-			#.
-			#Range: 0.0 ~ 1.7976931348623157E308
-			BABY_SPIDER_SPEED = 0.3
-			#.
-			#Range: 0.0 ~ 1.7976931348623157E308
-			BABY_SPIDER_KNOCKBACK_RESISTANCE = 0.2
+			#Born in Chaos default: 10
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			MAX_HEALTH = -1.0
+			#Born in Chaos default: 0
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			ARMOR = -1.0
+			#Born in Chaos default: 0
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			ARMOR_TOUGHNESS = -1.0
+			#Born in Chaos default: 2
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			ATTACK_DAMAGE = -1.0
+			#Born in Chaos default: 0.1
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			ATTACK_KNOCKBACK = -1.0
+			#Born in Chaos default: 0.2
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			KNOCKBACK_RESISTANCE = -1.0
+			#Born in Chaos default: 0.3
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			MOVEMENT_SPEED = -1.0
+			#Born in Chaos default: baby_spider 32, baby_spider_controlled 20
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			FOLLOW_RANGE = -1.0
 
+		#Applies to: born_in_chaos_v1:barrel_zombie
 		[Weapons.Mobs."Barrel Zombie"]
-			#.
-			#Range: 0.0 ~ 1.7976931348623157E308
-			ZOMBIE_BARREL_ARMOR = 6.0
-			#.
-			#Range: 0.0 ~ 1.7976931348623157E308
-			ZOMBIE_BARREL_DAMAGE = 3.0
-			#.
-			#Range: 0.0 ~ 1.7976931348623157E308
-			ZOMBIE_BARREL_HEALTH = 30.0
-			#.
-			#Range: 0.0 ~ 1.7976931348623157E308
-			ZOMBIE_BARREL_KNOCKBACK = 0.1
-			#.
-			#Range: 0.0 ~ 1.7976931348623157E308
-			ZOMBIE_BARREL_KNOCKBACK_RESISTANCE = 0.1
-			#.
+			#Whether Barrel Zombie can spawn
 			ZOMBIE_BARREL_SPAWNING_ENABLED = true
-			#.
-			#Range: 0.0 ~ 1.7976931348623157E308
-			ZOMBIE_BARREL_SPEED = 0.2
+			#Born in Chaos default: 30
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			MAX_HEALTH = -1.0
+			#Born in Chaos default: 6
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			ARMOR = -1.0
+			#Born in Chaos default: 0
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			ARMOR_TOUGHNESS = -1.0
+			#Born in Chaos default: 3
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			ATTACK_DAMAGE = -1.0
+			#Born in Chaos default: 0.1
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			ATTACK_KNOCKBACK = -1.0
+			#Born in Chaos default: 0.3
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			KNOCKBACK_RESISTANCE = -1.0
+			#Born in Chaos default: 0.2
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			MOVEMENT_SPEED = -1.0
+			#Born in Chaos default: 30
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			FOLLOW_RANGE = -1.0
 
+		#Applies to: born_in_chaos_v1:bloody_gadfly
 		[Weapons.Mobs."Bloody Gadfly"]
-			#.
-			#Range: 0.0 ~ 1.7976931348623157E308
-			BLOODY_GADFLY_ARMOR = 0.5
-			#.
-			#Range: 0.0 ~ 1.7976931348623157E308
-			BLOODY_GADFLY_DAMAGE = 3.0
-			#.
-			#Range: 0.0 ~ 1.7976931348623157E308
-			BLOODY_GADFLY_HEALTH = 20.0
-			#.
-			#Range: 0.0 ~ 1.7976931348623157E308
-			BLOODY_GADFLY_KNOCKBACK = 0.1
-			#.
-			#Range: 0.0 ~ 1.7976931348623157E308
-			BLOODY_GADFLY_KNOCKBACK_RESISTANCE = 0.4
-			#.
+			#Whether Bloody Gadfly can spawn
 			BLOODY_GADFLY_SPAWNING_ENABLED = true
-			#.
-			#Range: 0.0 ~ 1.7976931348623157E308
-			BLOODY_GADFLY_SPEED = 0.28
+			#Born in Chaos default: 20
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			MAX_HEALTH = -1.0
+			#Born in Chaos default: 0.5
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			ARMOR = -1.0
+			#Born in Chaos default: 0
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			ARMOR_TOUGHNESS = -1.0
+			#Born in Chaos default: 3
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			ATTACK_DAMAGE = -1.0
+			#Born in Chaos default: 0.1
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			ATTACK_KNOCKBACK = -1.0
+			#Born in Chaos default: 0.4
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			KNOCKBACK_RESISTANCE = -1.0
+			#Born in Chaos default: 0.28
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			MOVEMENT_SPEED = -1.0
+			#Born in Chaos default: 20
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			FOLLOW_RANGE = -1.0
 
+		#Applies to: born_in_chaos_v1:bonescaller, born_in_chaos_v1:bonescaller_not_despawn
 		[Weapons.Mobs."Bones Caller"]
-			#.
-			#Range: 0.0 ~ 1.7976931348623157E308
-			BONES_CALLER_ARMOR = 1.0
-			#.
-			#Range: 0.0 ~ 1.7976931348623157E308
-			BONES_CALLER_DAMAGE = 3.0
-			#.
-			#Range: 0.0 ~ 1.7976931348623157E308
-			BONES_CALLER_HEALTH = 25.0
-			#.
-			#Range: 0.0 ~ 1.7976931348623157E308
-			BONES_CALLER_KNOCKBACK = 0.2
-			#.
-			#Range: 0.0 ~ 1.7976931348623157E308
-			BONES_CALLER_KNOCKBACK_RESISTANCE = 0.2
-			#.
+			#Whether Bones Caller can spawn
 			BONES_CALLER_SPAWNING_ENABLED = true
-			#.
-			#Range: 0.0 ~ 1.7976931348623157E308
-			BONES_CALLER_SPEED = 0.2
+			#Born in Chaos default: 25
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			MAX_HEALTH = -1.0
+			#Born in Chaos default: bonescaller 1, bonescaller_not_despawn 0.5
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			ARMOR = -1.0
+			#Born in Chaos default: 0
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			ARMOR_TOUGHNESS = -1.0
+			#Born in Chaos default: 3
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			ATTACK_DAMAGE = -1.0
+			#Born in Chaos default: 0.2
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			ATTACK_KNOCKBACK = -1.0
+			#Born in Chaos default: 0.2
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			KNOCKBACK_RESISTANCE = -1.0
+			#Born in Chaos default: 0.2
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			MOVEMENT_SPEED = -1.0
+			#Born in Chaos default: 16
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			FOLLOW_RANGE = -1.0
 
+		#Applies to: born_in_chaos_v1:bone_imp, born_in_chaos_v1:bone_imp_minion
 		[Weapons.Mobs."Bone Imp"]
-			#.
-			#Range: 0.0 ~ 1.7976931348623157E308
-			BONE_IMP_ARMOR = 3.5
-			#.
-			#Range: 0.0 ~ 1.7976931348623157E308
-			BONE_IMP_DAMAGE = 3.0
-			#.
-			#Range: 0.0 ~ 1.7976931348623157E308
-			BONE_IMP_HEALTH = 20.0
-			#.
-			#Range: 0.0 ~ 1.7976931348623157E308
-			BONE_IMP_KNOCKBACK = 1.0
-			#.
-			#Range: 0.0 ~ 1.7976931348623157E308
-			BONE_IMP_KNOCKBACK_RESISTANCE = 0.1
-			#.
+			#Whether Bone Imp can spawn
 			BONE_IMP_SPAWNING_ENABLED = true
-			#.
-			#Range: 0.0 ~ 1.7976931348623157E308
-			BONE_IMP_SPEED = 0.3
+			#Born in Chaos default: 20
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			MAX_HEALTH = -1.0
+			#Born in Chaos default: 3.5
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			ARMOR = -1.0
+			#Born in Chaos default: 0
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			ARMOR_TOUGHNESS = -1.0
+			#Born in Chaos default: 3
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			ATTACK_DAMAGE = -1.0
+			#Born in Chaos default: 1
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			ATTACK_KNOCKBACK = -1.0
+			#Born in Chaos default: 0.1
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			KNOCKBACK_RESISTANCE = -1.0
+			#Born in Chaos default: bone_imp 0.31, bone_imp_minion 0.3
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			MOVEMENT_SPEED = -1.0
+			#Born in Chaos default: 16
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			FOLLOW_RANGE = -1.0
 
+		#Applies to: born_in_chaos_v1:controlled_baby_skeleton
 		[Weapons.Mobs."Controlled Baby Skeleton"]
-			#.
-			#Range: 0.0 ~ 1.7976931348623157E308
-			CONTROLLED_BABY_SKELETON_ARMOR = 1.0
-			#.
-			#Range: 0.0 ~ 1.7976931348623157E308
-			CONTROLLED_BABY_SKELETON_DAMAGE = 4.0
-			#.
-			#Range: 0.0 ~ 1.7976931348623157E308
-			CONTROLLED_BABY_SKELETON_HEALTH = 20.0
-			#.
-			#Range: 0.0 ~ 1.7976931348623157E308
-			CONTROLLED_BABY_SKELETON_KNOCKBACK = 0.1
-			#.
-			#Range: 0.0 ~ 1.7976931348623157E308
-			CONTROLLED_BABY_SKELETON_KNOCKBACK_RESISTANCE = 0.0
-			#.
-			#Range: 0.0 ~ 1.7976931348623157E308
-			CONTROLLED_BABY_SKELETON_SPEED = 0.3
+			#Born in Chaos default: 20
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			MAX_HEALTH = -1.0
+			#Born in Chaos default: 1
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			ARMOR = -1.0
+			#Born in Chaos default: 0
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			ARMOR_TOUGHNESS = -1.0
+			#Born in Chaos default: 4
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			ATTACK_DAMAGE = -1.0
+			#Born in Chaos default: 0.1
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			ATTACK_KNOCKBACK = -1.0
+			#Born in Chaos default: 0
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			KNOCKBACK_RESISTANCE = -1.0
+			#Born in Chaos default: 0.3
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			MOVEMENT_SPEED = -1.0
+			#Born in Chaos default: 20
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			FOLLOW_RANGE = -1.0
 
+		#Applies to: born_in_chaos_v1:controlled_spiritual_assistant
 		[Weapons.Mobs."Controlled Spiritual Assistant"]
-			#.
-			#Range: 0.0 ~ 1.7976931348623157E308
-			CONTROLLED_SPIRITUAL_ASSISTANT_ARMOR = 3.0
-			#.
-			#Range: 0.0 ~ 1.7976931348623157E308
-			CONTROLLED_SPIRITUAL_ASSISTANT_DAMAGE = 6.0
-			#.
-			#Range: 0.0 ~ 1.7976931348623157E308
-			CONTROLLED_SPIRITUAL_ASSISTANT_HEALTH = 30.0
-			#.
-			#Range: 0.0 ~ 1.7976931348623157E308
-			CONTROLLED_SPIRITUAL_ASSISTANT_KNOCKBACK = 0.3
-			#.
-			#Range: 0.0 ~ 1.7976931348623157E308
-			CONTROLLED_SPIRITUAL_ASSISTANT_KNOCKBACK_RESISTANCE = 0.0
-			#.
-			#Range: 0.0 ~ 1.7976931348623157E308
-			CONTROLLED_SPIRITUAL_ASSISTANT_SPEED = 0.3
+			#Born in Chaos default: 30
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			MAX_HEALTH = -1.0
+			#Born in Chaos default: 3
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			ARMOR = -1.0
+			#Born in Chaos default: 0
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			ARMOR_TOUGHNESS = -1.0
+			#Born in Chaos default: 6
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			ATTACK_DAMAGE = -1.0
+			#Born in Chaos default: 0.3
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			ATTACK_KNOCKBACK = -1.0
+			#Born in Chaos default: 0
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			KNOCKBACK_RESISTANCE = -1.0
+			#Born in Chaos default: 0.3
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			MOVEMENT_SPEED = -1.0
+			#Born in Chaos default: 23
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			FOLLOW_RANGE = -1.0
 
+		#Applies to: born_in_chaos_v1:corpse_fish
 		[Weapons.Mobs."Corpse Fish"]
-			#.
-			#Range: 0.0 ~ 1.7976931348623157E308
-			CORPSE_FISH_ARMOR = 0.0
-			#.
-			#Range: 0.0 ~ 1.7976931348623157E308
-			CORPSE_FISH_DAMAGE = 2.0
-			#.
-			#Range: 0.0 ~ 1.7976931348623157E308
-			CORPSE_FISH_HEALTH = 12.0
-			#.
-			#Range: 0.0 ~ 1.7976931348623157E308
-			CORPSE_FISH_KNOCKBACK = 0.1
-			#.
-			#Range: 0.0 ~ 1.7976931348623157E308
-			CORPSE_FISH_KNOCKBACK_RESISTANCE = 0.4
-			#.
+			#Whether Corpse Fish can spawn
 			CORPSE_FISH_SPAWNING_ENABLED = true
-			#.
-			#Range: 0.0 ~ 1.7976931348623157E308
-			CORPSE_FISH_SPEED = 0.7
-			#.
-			#Range: 0.0 ~ 1.7976931348623157E308
-			CORPSE_FISH_SWIM_SPEED = 0.7
+			#Born in Chaos default: 12
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			MAX_HEALTH = -1.0
+			#Born in Chaos default: 0
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			ARMOR = -1.0
+			#Born in Chaos default: 0
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			ARMOR_TOUGHNESS = -1.0
+			#Born in Chaos default: 2
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			ATTACK_DAMAGE = -1.0
+			#Born in Chaos default: 0.1
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			ATTACK_KNOCKBACK = -1.0
+			#Born in Chaos default: 0.4
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			KNOCKBACK_RESISTANCE = -1.0
+			#Born in Chaos default: 0.7
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			MOVEMENT_SPEED = -1.0
+			#Born in Chaos default: 20
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			FOLLOW_RANGE = -1.0
+			#Born in Chaos default: 0.7
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			SWIM_SPEED = -1.0
 
+		#Applies to: born_in_chaos_v1:corpse_fly
 		[Weapons.Mobs."Corpse Fly"]
-			#.
-			#Range: 0.0 ~ 1.7976931348623157E308
-			CORPSE_FLY_ARMOR = 0.0
-			#.
-			#Range: 0.0 ~ 1.7976931348623157E308
-			CORPSE_FLY_DAMAGE = 2.0
-			#.
-			#Range: 0.0 ~ 1.7976931348623157E308
-			CORPSE_FLY_HEALTH = 10.0
-			#.
-			#Range: 0.0 ~ 1.7976931348623157E308
-			CORPSE_FLY_KNOCKBACK = 0.1
-			#.
-			#Range: 0.0 ~ 1.7976931348623157E308
-			CORPSE_FLY_KNOCKBACK_RESISTANCE = 0.3
-			#.
+			#Whether Corpse Fly can spawn
 			CORPSE_FLY_SPAWNING_ENABLED = true
-			#.
-			#Range: 0.0 ~ 1.7976931348623157E308
-			CORPSE_FLY_SPEED = 0.29
+			#Born in Chaos default: 10
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			MAX_HEALTH = -1.0
+			#Born in Chaos default: 0
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			ARMOR = -1.0
+			#Born in Chaos default: 0
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			ARMOR_TOUGHNESS = -1.0
+			#Born in Chaos default: 2
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			ATTACK_DAMAGE = -1.0
+			#Born in Chaos default: 0.1
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			ATTACK_KNOCKBACK = -1.0
+			#Born in Chaos default: 0.3
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			KNOCKBACK_RESISTANCE = -1.0
+			#Born in Chaos default: 0.29
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			MOVEMENT_SPEED = -1.0
+			#Born in Chaos default: 15
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			FOLLOW_RANGE = -1.0
 
+		#Applies to: born_in_chaos_v1:dark_vortex
 		[Weapons.Mobs."Dark Vortex"]
-			#.
-			#Range: 0.0 ~ 1.7976931348623157E308
-			DARK_VORTEX_ARMOR = 0.0
-			#.
-			#Range: 0.0 ~ 1.7976931348623157E308
-			DARK_VORTEX_DAMAGE = 4.0
-			#.
-			#Range: 0.0 ~ 1.7976931348623157E308
-			DARK_VORTEX_HEALTH = 35.0
-			#.
-			#Range: 0.0 ~ 1.7976931348623157E308
-			DARK_VORTEX_KNOCKBACK = 0.4
-			#.
-			#Range: 0.0 ~ 1.7976931348623157E308
-			DARK_VORTEX_KNOCKBACK_RESISTANCE = 0.7
-			#.
+			#Whether Dark Vortex can spawn
 			DARK_VORTEX_SPAWNING_ENABLED = true
-			#.
-			#Range: 0.0 ~ 1.7976931348623157E308
-			DARK_VORTEX_SPEED = 0.3
+			#Born in Chaos default: 35
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			MAX_HEALTH = -1.0
+			#Born in Chaos default: 0
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			ARMOR = -1.0
+			#Born in Chaos default: 0
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			ARMOR_TOUGHNESS = -1.0
+			#Born in Chaos default: 4
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			ATTACK_DAMAGE = -1.0
+			#Born in Chaos default: 0.4
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			ATTACK_KNOCKBACK = -1.0
+			#Born in Chaos default: 0.7
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			KNOCKBACK_RESISTANCE = -1.0
+			#Born in Chaos default: 0.3
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			MOVEMENT_SPEED = -1.0
+			#Born in Chaos default: 17
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			FOLLOW_RANGE = -1.0
 
+		#Applies to: born_in_chaos_v1:decaying_zombie, born_in_chaos_v1:decaying_zombie_not_despawn
 		[Weapons.Mobs."Decaying Zombie"]
-			#.
-			#Range: 0.0 ~ 1.7976931348623157E308
-			DECAYING_ZOMBIE_ARMOR = 0.5
-			#.
-			#Range: 0.0 ~ 1.7976931348623157E308
-			DECAYING_ZOMBIE_DAMAGE = 4.0
-			#.
-			#Range: 0.0 ~ 1.7976931348623157E308
-			DECAYING_ZOMBIE_HEALTH = 30.0
-			#.
-			#Range: 0.0 ~ 1.7976931348623157E308
-			DECAYING_ZOMBIE_KNOCKBACK = 0.1
-			#.
-			#Range: 0.0 ~ 1.7976931348623157E308
-			DECAYING_ZOMBIE_KNOCKBACK_RESISTANCE = 0.0
-			#.
+			#Whether Decaying Zombie can spawn
 			DECAYING_ZOMBIE_SPAWNING_ENABLED = true
-			#.
-			#Range: 0.0 ~ 1.7976931348623157E308
-			DECAYING_ZOMBIE_SPEED = 0.2
+			#Born in Chaos default: decaying_zombie 25, decaying_zombie_not_despawn 30
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			MAX_HEALTH = -1.0
+			#Born in Chaos default: 0.5
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			ARMOR = -1.0
+			#Born in Chaos default: 0
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			ARMOR_TOUGHNESS = -1.0
+			#Born in Chaos default: 4
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			ATTACK_DAMAGE = -1.0
+			#Born in Chaos default: 0.1
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			ATTACK_KNOCKBACK = -1.0
+			#Born in Chaos default: 0
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			KNOCKBACK_RESISTANCE = -1.0
+			#Born in Chaos default: 0.2
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			MOVEMENT_SPEED = -1.0
+			#Born in Chaos default: 35
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			FOLLOW_RANGE = -1.0
 
+		#Applies to: born_in_chaos_v1:decrepit_skeleton
 		[Weapons.Mobs."Decrepit Skeleton"]
-			#.
-			#Range: 0.0 ~ 1.7976931348623157E308
-			DECREPIT_SKELETON_ARMOR = 1.0
-			#.
-			#Range: 0.0 ~ 1.7976931348623157E308
-			DECREPIT_SKELETON_DAMAGE = 3.0
-			#.
-			#Range: 0.0 ~ 1.7976931348623157E308
-			DECREPIT_SKELETON_HEALTH = 15.0
-			#.
-			#Range: 0.0 ~ 1.7976931348623157E308
-			DECREPIT_SKELETON_KNOCKBACK = 0.1
-			#.
+			#Whether Decrepit Skeleton can spawn
 			DECREPIT_SKELETON_SPAWNING_ENABLED = true
-			#.
-			#Range: 0.0 ~ 1.7976931348623157E308
-			DECREPIT_SKELETON_KNOCKBACK_RESISTANCE = 0.0
-			#.
-			#Range: 0.0 ~ 1.7976931348623157E308
-			DECREPIT_SKELETON_SPEED = 0.23
+			#Born in Chaos default: 15
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			MAX_HEALTH = -1.0
+			#Born in Chaos default: 0
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			ARMOR = -1.0
+			#Born in Chaos default: 0
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			ARMOR_TOUGHNESS = -1.0
+			#Born in Chaos default: 3
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			ATTACK_DAMAGE = -1.0
+			#Born in Chaos default: 0.1
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			ATTACK_KNOCKBACK = -1.0
+			#Born in Chaos default: 0
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			KNOCKBACK_RESISTANCE = -1.0
+			#Born in Chaos default: 0.23
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			MOVEMENT_SPEED = -1.0
+			#Born in Chaos default: 16
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			FOLLOW_RANGE = -1.0
 
+		#Applies to: born_in_chaos_v1:diamond_termite
 		[Weapons.Mobs."Diamond Thermite"]
-			#.
-			#Range: 0.0 ~ 1.7976931348623157E308
-			DIAMOND_TERMITE_ARMOR = 7.0
-			#.
-			#Range: 0.0 ~ 1.7976931348623157E308
-			DIAMOND_TERMITE_DAMAGE = 2.0
-			#.
-			#Range: 0.0 ~ 1.7976931348623157E308
-			DIAMOND_TERMITE_HEALTH = 14.0
-			#.
-			#Range: 0.0 ~ 1.7976931348623157E308
-			DIAMOND_TERMITE_KNOCKBACK = 0.1
-			#.
-			#Range: 0.0 ~ 1.7976931348623157E308
-			DIAMOND_TERMITE_KNOCKBACK_RESISTANCE = 0.2
-			#.
-			#Range: 0.0 ~ 1.7976931348623157E308
-			DIAMOND_TERMITE_SPEED = 0.3
+			#Born in Chaos default: 14
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			MAX_HEALTH = -1.0
+			#Born in Chaos default: 8
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			ARMOR = -1.0
+			#Born in Chaos default: 0
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			ARMOR_TOUGHNESS = -1.0
+			#Born in Chaos default: 2
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			ATTACK_DAMAGE = -1.0
+			#Born in Chaos default: 0.1
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			ATTACK_KNOCKBACK = -1.0
+			#Born in Chaos default: 0.2
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			KNOCKBACK_RESISTANCE = -1.0
+			#Born in Chaos default: 0.3
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			MOVEMENT_SPEED = -1.0
+			#Born in Chaos default: 14
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			FOLLOW_RANGE = -1.0
 
+		#Applies to: born_in_chaos_v1:dire_hound_leader
 		[Weapons.Mobs."Dire Hound Leader"]
-			#.
+			#Whether Dire Hound Leader can spawn
 			DIRE_HOUND_SPAWNING_ENABLED = true
-			#.
-			#Range: 0.0 ~ 1.7976931348623157E308
-			DIRE_HOUND_LEADER_ARMOR = 0.5
-			#.
-			#Range: 0.0 ~ 1.7976931348623157E308
-			DIRE_HOUND_LEADER_DAMAGE = 10.0
-			#.
-			#Range: 0.0 ~ 1.7976931348623157E308
-			DIRE_HOUND_LEADER_HEALTH = 100.0
-			#.
-			#Range: 0.0 ~ 1.7976931348623157E308
-			DIRE_HOUND_LEADER_KNOCKBACK = 1.4
-			#.
-			#Range: 0.0 ~ 1.7976931348623157E308
-			DIRE_HOUND_LEADER_KNOCKBACK_RESISTANCE = 0.7
-			#.
-			#Range: 0.0 ~ 1.7976931348623157E308
-			DIRE_HOUND_LEADER_SPEED = 0.34
+			#Born in Chaos default: 100
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			MAX_HEALTH = -1.0
+			#Born in Chaos default: 0.5
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			ARMOR = -1.0
+			#Born in Chaos default: 0
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			ARMOR_TOUGHNESS = -1.0
+			#Born in Chaos default: 10
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			ATTACK_DAMAGE = -1.0
+			#Born in Chaos default: 1.4
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			ATTACK_KNOCKBACK = -1.0
+			#Born in Chaos default: 0.7
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			KNOCKBACK_RESISTANCE = -1.0
+			#Born in Chaos default: 0.34
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			MOVEMENT_SPEED = -1.0
+			#Born in Chaos default: 18
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			FOLLOW_RANGE = -1.0
 
+		#Applies to: born_in_chaos_v1:door_knight, born_in_chaos_v1:door_knight_not_despawn
 		[Weapons.Mobs."Door Knight"]
-			#.
-			#Range: 0.0 ~ 1.7976931348623157E308
-			DOOR_KNIGHT_ARMOR = 7.0
-			#.
-			#Range: 0.0 ~ 1.7976931348623157E308
-			DOOR_KNIGHT_DAMAGE = 6.0
-			#.
-			#Range: 0.0 ~ 1.7976931348623157E308
-			DOOR_KNIGHT_HEALTH = 30.0
-			#.
-			#Range: 0.0 ~ 1.7976931348623157E308
-			DOOR_KNIGHT_KNOCKBACK = 0.5
-			#.
-			#Range: 0.0 ~ 1.7976931348623157E308
-			DOOR_KNIGHT_KNOCKBACK_RESISTANCE = 0.3
-			#.
+			#Whether Door Knight can spawn
 			DOOR_KNIGHT_SPAWNING_ENABLED = true
-			#.
-			#Range: 0.0 ~ 1.7976931348623157E308
-			DOOR_KNIGHT_SPEED = 0.21
+			#Born in Chaos default: 30
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			MAX_HEALTH = -1.0
+			#Born in Chaos default: 7
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			ARMOR = -1.0
+			#Born in Chaos default: 0
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			ARMOR_TOUGHNESS = -1.0
+			#Born in Chaos default: 6
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			ATTACK_DAMAGE = -1.0
+			#Born in Chaos default: 0.5
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			ATTACK_KNOCKBACK = -1.0
+			#Born in Chaos default: 0.3
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			KNOCKBACK_RESISTANCE = -1.0
+			#Born in Chaos default: 0.21
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			MOVEMENT_SPEED = -1.0
+			#Born in Chaos default: 27
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			FOLLOW_RANGE = -1.0
 
+		#Applies to: born_in_chaos_v1:dread_hound, born_in_chaos_v1:dread_hound_not_despawn
 		[Weapons.Mobs."Dread Hound"]
-			#.
-			#Range: 0.0 ~ 1.7976931348623157E308
-			DREAD_HOUND_ARMOR = 0.5
-			#.
-			#Range: 0.0 ~ 1.7976931348623157E308
-			DREAD_HOUND_DAMAGE = 5.0
-			#.
-			#Range: 0.0 ~ 1.7976931348623157E308
-			DREAD_HOUND_HEALTH = 17.0
-			#.
-			#Range: 0.0 ~ 1.7976931348623157E308
-			DREAD_HOUND_KNOCKBACK = 0.1
-			#.
-			#Range: 0.0 ~ 1.7976931348623157E308
-			DREAD_HOUND_KNOCKBACK_RESISTANCE = 0.1
-			#.
+			#Whether Dread Hound can spawn
 			DREAD_HOUND_SPAWNING_ENABLED = true
-			#.
-			#Range: 0.0 ~ 1.7976931348623157E308
-			DREAD_HOUND_SPEED = 0.34
+			#Born in Chaos default: 17
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			MAX_HEALTH = -1.0
+			#Born in Chaos default: 0.5
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			ARMOR = -1.0
+			#Born in Chaos default: 0
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			ARMOR_TOUGHNESS = -1.0
+			#Born in Chaos default: 5
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			ATTACK_DAMAGE = -1.0
+			#Born in Chaos default: 0.1
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			ATTACK_KNOCKBACK = -1.0
+			#Born in Chaos default: 0.1
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			KNOCKBACK_RESISTANCE = -1.0
+			#Born in Chaos default: 0.34
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			MOVEMENT_SPEED = -1.0
+			#Born in Chaos default: 18
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			FOLLOW_RANGE = -1.0
 
+		#Applies to: born_in_chaos_v1:fallen_chaos_knight
 		[Weapons.Mobs."Fallen Chaos Knight"]
-			#.
-			#Range: 0.0 ~ 1.7976931348623157E308
-			FALLEN_KNIGHT_ARMOR = 20.0
-			#.
-			#Range: 0.0 ~ 1.7976931348623157E308
-			FALLEN_KNIGHT_DAMAGE = 5.0
-			#.
-			#Range: 0.0 ~ 1.7976931348623157E308
-			FALLEN_KNIGHT_HEALTH = 40.0
-			#.
-			#Range: 0.0 ~ 1.7976931348623157E308
-			FALLEN_KNIGHT_KNOCKBACK = 0.1
-			#.
-			#Range: 0.0 ~ 1.7976931348623157E308
-			FALLEN_KNIGHT_KNOCKBACK_RESISTANCE = 0.7
-			#.
+			#Whether Fallen Chaos Knight can spawn
 			FALLEN_KNIGHT_SPAWNING_ENABLED = true
-			#.
-			#Range: 0.0 ~ 1.7976931348623157E308
-			FALLEN_KNIGHT_SPEED = 0.32
 			#Whether Fallen Knights inflict cursed marks
 			FALLEN_KNIGHT_CURSE_ENABLED = true
+			#Born in Chaos default: 40
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			MAX_HEALTH = -1.0
+			#Born in Chaos default: 20
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			ARMOR = -1.0
+			#Born in Chaos default: 0
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			ARMOR_TOUGHNESS = -1.0
+			#Born in Chaos default: 5
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			ATTACK_DAMAGE = -1.0
+			#Born in Chaos default: 0.1
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			ATTACK_KNOCKBACK = -1.0
+			#Born in Chaos default: 0.9
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			KNOCKBACK_RESISTANCE = -1.0
+			#Born in Chaos default: 0.32
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			MOVEMENT_SPEED = -1.0
+			#Born in Chaos default: 30
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			FOLLOW_RANGE = -1.0
 
+		#Applies to: born_in_chaos_v1:felsteed, born_in_chaos_v1:riding_felsteed
 		[Weapons.Mobs.Felsteed]
-			#.
-			#Range: 0.0 ~ 1.7976931348623157E308
-			FELSTEED_ARMOR = 2.0
-			#.
-			#Range: 0.0 ~ 1.7976931348623157E308
-			FELSTEED_DAMAGE = 3.0
-			#.
-			#Range: 0.0 ~ 1.7976931348623157E308
-			FELSTEED_HEALTH = 60.0
-			#.
-			#Range: 0.0 ~ 1.7976931348623157E308
-			FELSTEED_KNOCKBACK = 2.3
-			#.
-			#Range: 0.0 ~ 1.7976931348623157E308
-			FELSTEED_KNOCKBACK_RESISTANCE = 0.6
-			#.
-			#Range: 0.0 ~ 1.7976931348623157E308
-			FELSTEED_SPEED = 0.36
+			#Born in Chaos default: 60
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			MAX_HEALTH = -1.0
+			#Born in Chaos default: felsteed 2, riding_felsteed 10
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			ARMOR = -1.0
+			#Born in Chaos default: 0
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			ARMOR_TOUGHNESS = -1.0
+			#Born in Chaos default: 3
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			ATTACK_DAMAGE = -1.0
+			#Born in Chaos default: 2.3
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			ATTACK_KNOCKBACK = -1.0
+			#Born in Chaos default: 0.6
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			KNOCKBACK_RESISTANCE = -1.0
+			#Born in Chaos default: felsteed 0.36, riding_felsteed 0.3
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			MOVEMENT_SPEED = -1.0
+			#Born in Chaos default: felsteed 26, riding_felsteed 16
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			FOLLOW_RANGE = -1.0
 
+		#Applies to: born_in_chaos_v1:firelight, born_in_chaos_v1:firelight_not_despawn
 		[Weapons.Mobs.Firelight]
-			#.
-			#Range: 0.0 ~ 1.7976931348623157E308
-			FIRELIGHT_ARMOR = 0.0
-			#.
-			#Range: 0.0 ~ 1.7976931348623157E308
-			FIRELIGHT_DAMAGE = 2.0
-			#.
-			#Range: 0.0 ~ 1.7976931348623157E308
-			FIRELIGHT_HEALTH = 15.0
-			#.
-			#Range: 0.0 ~ 1.7976931348623157E308
-			FIRELIGHT_KNOCKBACK = 0.1
-			#.
+			#Whether Firelight can spawn
 			FIRELIGHT_SPAWNING_ENABLED = true
-			#.
-			#Range: 0.0 ~ 1.7976931348623157E308
-			FIRELIGHT_SPEED = 0.3
-			#.
-			#Range: 0.0 ~ 1.7976931348623157E308
-			FIRELIGHT_KNOCKBACK_RESISTANCE = 0.1
+			#Born in Chaos default: 15
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			MAX_HEALTH = -1.0
+			#Born in Chaos default: 0
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			ARMOR = -1.0
+			#Born in Chaos default: 0
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			ARMOR_TOUGHNESS = -1.0
+			#Born in Chaos default: 2
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			ATTACK_DAMAGE = -1.0
+			#Born in Chaos default: 0
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			ATTACK_KNOCKBACK = -1.0
+			#Born in Chaos default: 0.1
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			KNOCKBACK_RESISTANCE = -1.0
+			#Born in Chaos default: 0.3
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			MOVEMENT_SPEED = -1.0
+			#Born in Chaos default: 16
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			FOLLOW_RANGE = -1.0
 
+		#Applies to: born_in_chaos_v1:glutton_fish
 		[Weapons.Mobs."Glutton Fish"]
-			#.
-			#Range: 0.0 ~ 1.7976931348623157E308
-			GLUTTON_FISH_ARMOR = 3.0
-			#.
-			#Range: 0.0 ~ 1.7976931348623157E308
-			GLUTTON_FISH_DAMAGE = 12.0
-			#.
-			#Range: 0.0 ~ 1.7976931348623157E308
-			GLUTTON_FISH_HEALTH = 90.0
-			#.
-			#Range: 0.0 ~ 1.7976931348623157E308
-			GLUTTON_FISH_KNOCKBACK = 0.9
-			#.
-			#Range: 0.0 ~ 1.7976931348623157E308
-			GLUTTON_FISH_KNOCKBACK_RESISTANCE = 0.5
-			#.
+			#Whether Glutton Fish can spawn
 			GLUTTON_FISH_SPAWNING_ENABLED = true
-			#.
-			#Range: 0.0 ~ 1.7976931348623157E308
-			GLUTTON_FISH_SPEED = 0.7
-			#.
-			#Range: 0.0 ~ 1.7976931348623157E308
-			GLUTTON_FISH_SWIM_SPEED = 0.7
+			#Born in Chaos default: 90
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			MAX_HEALTH = -1.0
+			#Born in Chaos default: 3
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			ARMOR = -1.0
+			#Born in Chaos default: 0
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			ARMOR_TOUGHNESS = -1.0
+			#Born in Chaos default: 12
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			ATTACK_DAMAGE = -1.0
+			#Born in Chaos default: 0.9
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			ATTACK_KNOCKBACK = -1.0
+			#Born in Chaos default: 0.5
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			KNOCKBACK_RESISTANCE = -1.0
+			#Born in Chaos default: 0.7
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			MOVEMENT_SPEED = -1.0
+			#Born in Chaos default: 30
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			FOLLOW_RANGE = -1.0
+			#Born in Chaos default: 0.7
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			SWIM_SPEED = -1.0
 
+		#Applies to: born_in_chaos_v1:infernal_spirit
 		[Weapons.Mobs."Infernal Spirit"]
-			#.
-			#Range: 0.0 ~ 1.7976931348623157E308
-			INFERNAL_SPIRIT_ARMOR = 0.22
-			#.
-			#Range: 0.0 ~ 1.7976931348623157E308
-			INFERNAL_SPIRIT_DAMAGE = 16.0
-			#.
-			#Range: 0.0 ~ 1.7976931348623157E308
-			INFERNAL_SPIRIT_HEALTH = 90.0
-			#.
-			#Range: 0.0 ~ 1.7976931348623157E308
-			INFERNAL_SPIRIT_KNOCKBACK = 2.3
-			#.
-			#Range: 0.0 ~ 1.7976931348623157E308
-			INFERNAL_SPIRIT_KNOCKBACK_RESISTANCE = 0.9
-			#.
-			#Range: 0.0 ~ 1.7976931348623157E308
-			INFERNAL_SPIRIT_SPEED = 0.22
+			#Born in Chaos default: 90
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			MAX_HEALTH = -1.0
+			#Born in Chaos default: 12
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			ARMOR = -1.0
+			#Born in Chaos default: 0
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			ARMOR_TOUGHNESS = -1.0
+			#Born in Chaos default: 16
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			ATTACK_DAMAGE = -1.0
+			#Born in Chaos default: 2.3
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			ATTACK_KNOCKBACK = -1.0
+			#Born in Chaos default: 0.9
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			KNOCKBACK_RESISTANCE = -1.0
+			#Born in Chaos default: 0.22
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			MOVEMENT_SPEED = -1.0
+			#Born in Chaos default: 19
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			FOLLOW_RANGE = -1.0
 
+		#Applies to: born_in_chaos_v1:krampus_henchman
 		[Weapons.Mobs."Krampus Henchman"]
-			#.
-			#Range: 0.0 ~ 1.7976931348623157E308
-			KRAMPUS_HENCHMAN_ARMOR = 5.0
-			#.
-			#Range: 0.0 ~ 1.7976931348623157E308
-			KRAMPUS_HENCHMAN_DAMAGE = 4.0
-			#.
-			#Range: 0.0 ~ 1.7976931348623157E308
-			KRAMPUS_HENCHMAN_HEALTH = 30.0
-			#.
-			#Range: 0.0 ~ 1.7976931348623157E308
-			KRAMPUS_HENCHMAN_KNOCKBACK = 0.6
-			#.
-			#Range: 0.0 ~ 1.7976931348623157E308
-			KRAMPUS_HENCHMAN_KNOCKBACK_RESISTANCE = 0.9
-			#.
-			#Range: 0.0 ~ 1.7976931348623157E308
-			KRAMPUS_HENCHMAN_SPEED = 0.29
-			#.
+			#Whether Krampus Henchman can spawn
 			KRAMPUS_HENCHMAN_SPAWNING_ENABLED = true
 			#Whether Krampus Henchnmen make you drop your items when hit
 			KRAMPUS_HENCHMAN_DROPING_ENABLED = true
+			#Born in Chaos default: 30
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			MAX_HEALTH = -1.0
+			#Born in Chaos default: 5
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			ARMOR = -1.0
+			#Born in Chaos default: 0
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			ARMOR_TOUGHNESS = -1.0
+			#Born in Chaos default: 4
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			ATTACK_DAMAGE = -1.0
+			#Born in Chaos default: 0.6
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			ATTACK_KNOCKBACK = -1.0
+			#Born in Chaos default: 0.2
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			KNOCKBACK_RESISTANCE = -1.0
+			#Born in Chaos default: 0.29
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			MOVEMENT_SPEED = -1.0
+			#Born in Chaos default: 32
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			FOLLOW_RANGE = -1.0
 
+		#Applies to: born_in_chaos_v1:krampus
 		[Weapons.Mobs.Krampus]
-			#.
-			#Range: 0.0 ~ 1.7976931348623157E308
-			KRAMPUS_ARMOR = 10.0
-			#.
-			#Range: 0.0 ~ 1.7976931348623157E308
-			KRAMPUS_DAMAGE = 14.0
-			#.
-			#Range: 0.0 ~ 1.7976931348623157E308
-			KRAMPUS_HEALTH = 250.0
-			#.
-			#Range: 0.0 ~ 1.7976931348623157E308
-			KRAMPUS_KNOCKBACK = 2.3
-			#.
-			#Range: 0.0 ~ 1.7976931348623157E308
-			KRAMPUS_KNOCKBACK_RESISTANCE = 0.9
-			#.
-			#Range: 0.0 ~ 1.7976931348623157E308
-			KRAMPUS_SPEED = 0.26
-			#.
+			#Whether Krampus can spawn
 			KRAMPUS_SPAWNING_ENABLED = true
+			#Born in Chaos default: 250
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			MAX_HEALTH = -1.0
+			#Born in Chaos default: 10
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			ARMOR = -1.0
+			#Born in Chaos default: 0
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			ARMOR_TOUGHNESS = -1.0
+			#Born in Chaos default: 14
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			ATTACK_DAMAGE = -1.0
+			#Born in Chaos default: 2
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			ATTACK_KNOCKBACK = -1.0
+			#Born in Chaos default: 0.9
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			KNOCKBACK_RESISTANCE = -1.0
+			#Born in Chaos default: 0.26
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			MOVEMENT_SPEED = -1.0
+			#Born in Chaos default: 32
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			FOLLOW_RANGE = -1.0
 
+		#Applies to: born_in_chaos_v1:lifestealer, born_in_chaos_v1:lifestealer_true_form
 		[Weapons.Mobs.Lifestealer]
 			#Days till Lifestealer spawns
 			#Range: 1 ~ 999999
 			DAYS_TILL_LIFESTEALER = 10
-			#.
-			#Range: 0.0 ~ 1.7976931348623157E308
-			LIFESTEALER_ARMOR = 16.0
-			#.
-			#Range: 0.0 ~ 1.7976931348623157E308
-			LIFESTEALER_DAMAGE = 7.0
-			#.
-			#Range: 0.0 ~ 1.7976931348623157E308
-			LIFESTEALER_HEALTH = 100.0
-			#.
-			#Range: 0.0 ~ 1.7976931348623157E308
-			LIFESTEALER_KNOCKBACK = 1.5
-			#.
-			#Range: 0.0 ~ 1.7976931348623157E308
-			LIFESTEALER_KNOCKBACK_RESISTANCE = 0.9
-			#.
+			#Whether Lifestealer can spawn
 			LIFESTEALER_SPAWNING_ENABLED = true
-			#.
-			#Range: 0.0 ~ 1.7976931348623157E308
-			LIFESTEALER_SPEED = 0.26
+			#Born in Chaos default: 100
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			MAX_HEALTH = -1.0
+			#Born in Chaos default: lifestealer 16, lifestealer_true_form 15
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			ARMOR = -1.0
+			#Born in Chaos default: 0
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			ARMOR_TOUGHNESS = -1.0
+			#Born in Chaos default: 7
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			ATTACK_DAMAGE = -1.0
+			#Born in Chaos default: 1.5
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			ATTACK_KNOCKBACK = -1.0
+			#Born in Chaos default: lifestealer 0.9, lifestealer_true_form 1
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			KNOCKBACK_RESISTANCE = -1.0
+			#Born in Chaos default: lifestealer 0.26, lifestealer_true_form 0.28
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			MOVEMENT_SPEED = -1.0
+			#Born in Chaos default: 30
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			FOLLOW_RANGE = -1.0
 
+		#Applies to: born_in_chaos_v1:lord_pumpkinhead
 		[Weapons.Mobs."Lord Pumpkin Head"]
-			#.
-			#Range: 0.0 ~ 1.7976931348623157E308
-			LORD_PUMPKIN_HEAD_ARMOR = 12.0
-			#.
-			#Range: 0.0 ~ 1.7976931348623157E308
-			LORD_PUMPKIN_HEAD_DAMAGE = 12.0
-			#.
-			#Range: 0.0 ~ 1.7976931348623157E308
-			LORD_PUMPKIN_HEAD_HEALTH = 600.0
-			#.
-			#Range: 0.0 ~ 1.7976931348623157E308
-			LORD_PUMPKIN_HEAD_KNOCKBACK = 1.3
-			#.
-			#Range: 0.0 ~ 1.7976931348623157E308
-			LORD_PUMPKIN_HEAD_KNOCKBACK_RESISTANCE = 0.9
-			#.
-			#Range: 0.0 ~ 1.7976931348623157E308
-			LORD_PUMPKIN_HEAD_SPEED = 0.36
-			#.
-			#Range: 0.0 ~ 1.7976931348623157E308
-			LORD_PUMPKIN_HEAD_HEAD_ARMOR = 4.0
-			#.
-			#Range: 0.0 ~ 1.7976931348623157E308
-			LORD_PUMPKIN_HEAD_HEAD_DAMAGE = 3.0
-			#.
-			#Range: 0.0 ~ 1.7976931348623157E308
-			LORD_PUMPKIN_HEAD_HEAD_HEALTH = 160.0
-			#.
-			#Range: 0.0 ~ 1.7976931348623157E308
-			LORD_PUMPKIN_HEAD_HEAD_KNOCKBACK = 0.3
-			#.
-			#Range: 0.0 ~ 1.7976931348623157E308
-			LORD_PUMPKIN_HEAD_HEAD_KNOCKBACK_RESISTANCE = 0.6
-			#.
-			#Range: 0.0 ~ 1.7976931348623157E308
-			LORD_PUMPKIN_HEAD_HEAD_SPEED = 0.33
+			#Born in Chaos default: 666
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			MAX_HEALTH = -1.0
+			#Born in Chaos default: 20
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			ARMOR = -1.0
+			#Born in Chaos default: 0
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			ARMOR_TOUGHNESS = -1.0
+			#Born in Chaos default: 12
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			ATTACK_DAMAGE = -1.0
+			#Born in Chaos default: 1.6
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			ATTACK_KNOCKBACK = -1.0
+			#Born in Chaos default: 0.9
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			KNOCKBACK_RESISTANCE = -1.0
+			#Born in Chaos default: 0.36
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			MOVEMENT_SPEED = -1.0
+			#Born in Chaos default: 26
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			FOLLOW_RANGE = -1.0
 
+		#Applies to: born_in_chaos_v1:lord_pumpkinhead_withouta_horse
 		[Weapons.Mobs."Lord Pumpkin Head Horseless"]
-			#.
-			#Range: 0.0 ~ 1.7976931348623157E308
-			LORD_PUMPKIN_HEAD_HORSELESS_ARMOR = 12.0
-			#.
-			#Range: 0.0 ~ 1.7976931348623157E308
-			LORD_PUMPKIN_HEAD_HORSELESS_DAMAGE = 12.0
-			#.
-			#Range: 0.0 ~ 1.7976931348623157E308
-			LORD_PUMPKIN_HEAD_HORSELESS_HEALTH = 200.0
-			#.
-			#Range: 0.0 ~ 1.7976931348623157E308
-			LORD_PUMPKIN_HEAD_HORSELESS_KNOCKBACK = 2.3
-			#.
-			#Range: 0.0 ~ 1.7976931348623157E308
-			LORD_PUMPKIN_HEAD_HORSELESS_KNOCKBACK_RESISTANCE = 0.9
-			#.
-			#Range: 0.0 ~ 1.7976931348623157E308
-			LORD_PUMPKIN_HEAD_HORSELESS_SPEED = 0.3
+			#Born in Chaos default: 400
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			MAX_HEALTH = -1.0
+			#Born in Chaos default: 13
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			ARMOR = -1.0
+			#Born in Chaos default: 0
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			ARMOR_TOUGHNESS = -1.0
+			#Born in Chaos default: 6
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			ATTACK_DAMAGE = -1.0
+			#Born in Chaos default: 0
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			ATTACK_KNOCKBACK = -1.0
+			#Born in Chaos default: 0.6
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			KNOCKBACK_RESISTANCE = -1.0
+			#Born in Chaos default: 0.27
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			MOVEMENT_SPEED = -1.0
+			#Born in Chaos default: 26
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			FOLLOW_RANGE = -1.0
 
+		#Applies to: born_in_chaos_v1:lord_the_headless
 		[Weapons.Mobs."Lord Pumpkin Head Headless"]
-			#.
-			#Range: 0.0 ~ 1.7976931348623157E308
-			LORD_HEADLESS_ARMOR = 6.0
-			#.
-			#Range: 0.0 ~ 1.7976931348623157E308
-			LORD_HEADLESS_DAMAGE = 6.0
-			#.
-			#Range: 0.0 ~ 1.7976931348623157E308
-			LORD_HEADLESS_HEALTH = 300.0
-			#.
-			#Range: 0.0 ~ 1.7976931348623157E308
-			LORD_HEADLESS_KNOCKBACK = 0.0
-			#.
-			#Range: 0.0 ~ 1.7976931348623157E308
-			LORD_HEADLESS_KNOCKBACK_RESISTANCE = 0.3
-			#.
-			#Range: 0.0 ~ 1.7976931348623157E308
-			LORD_HEADLESS_SPEED = 0.27
+			#Born in Chaos default: 300
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			MAX_HEALTH = -1.0
+			#Born in Chaos default: 20
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			ARMOR = -1.0
+			#Born in Chaos default: 0
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			ARMOR_TOUGHNESS = -1.0
+			#Born in Chaos default: 13
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			ATTACK_DAMAGE = -1.0
+			#Born in Chaos default: 2.3
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			ATTACK_KNOCKBACK = -1.0
+			#Born in Chaos default: 0.9
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			KNOCKBACK_RESISTANCE = -1.0
+			#Born in Chaos default: 0.3
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			MOVEMENT_SPEED = -1.0
+			#Born in Chaos default: 36
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			FOLLOW_RANGE = -1.0
 
+		#Applies to: born_in_chaos_v1:lords_felsteed
 		[Weapons.Mobs."Lord Felsteed"]
-			#.
-			#Range: 0.0 ~ 1.7976931348623157E308
-			LORD_FELSTEED_ARMOR = 12.0
-			#.
-			#Range: 0.0 ~ 1.7976931348623157E308
-			LORD_FELSTEED_DAMAGE = 9.0
-			#.
-			#Range: 0.0 ~ 1.7976931348623157E308
-			LORD_FELSTEED_HEALTH = 200.0
-			#.
-			#Range: 0.0 ~ 1.7976931348623157E308
-			LORD_FELSTEED_KNOCKBACK = 3.6
-			#.
-			#Range: 0.0 ~ 1.7976931348623157E308
-			LORD_FELSTEED_KNOCKBACK_RESISTANCE = 0.6
-			#.
-			#Range: 0.0 ~ 1.7976931348623157E308
-			LORD_FELSTEED_SPEED = 0.36
+			#Born in Chaos default: 260
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			MAX_HEALTH = -1.0
+			#Born in Chaos default: 16
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			ARMOR = -1.0
+			#Born in Chaos default: 0
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			ARMOR_TOUGHNESS = -1.0
+			#Born in Chaos default: 9
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			ATTACK_DAMAGE = -1.0
+			#Born in Chaos default: 3.6
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			ATTACK_KNOCKBACK = -1.0
+			#Born in Chaos default: 0.6
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			KNOCKBACK_RESISTANCE = -1.0
+			#Born in Chaos default: 0.36
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			MOVEMENT_SPEED = -1.0
+			#Born in Chaos default: 26
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			FOLLOW_RANGE = -1.0
 
+		#Applies to: born_in_chaos_v1:maggot
 		[Weapons.Mobs.Maggots]
-			#.
-			#Range: 0.0 ~ 1.7976931348623157E308
-			MAGGOT_ARMOR = 0.0
-			#.
-			#Range: 0.0 ~ 1.7976931348623157E308
-			MAGGOT_DAMAGE = 1.0
-			#.
-			#Range: 0.0 ~ 1.7976931348623157E308
-			MAGGOT_HEALTH = 6.0
-			#.
-			#Range: 0.0 ~ 1.7976931348623157E308
-			MAGGOT_KNOCKBACK = 1.0
-			#.
-			#Range: 0.0 ~ 1.7976931348623157E308
-			MAGGOT_KNOCKBACK_RESISTANCE = 0.2
-			#.
-			#Range: 0.0 ~ 1.7976931348623157E308
-			MAGGOT_SPEED = 0.2
-			#.
+			#Whether Maggots can spawn
 			MAGGOT_SPAWNING_ENABLED = true
+			#Born in Chaos default: 6
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			MAX_HEALTH = -1.0
+			#Born in Chaos default: 0
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			ARMOR = -1.0
+			#Born in Chaos default: 0
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			ARMOR_TOUGHNESS = -1.0
+			#Born in Chaos default: 1
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			ATTACK_DAMAGE = -1.0
+			#Born in Chaos default: 0
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			ATTACK_KNOCKBACK = -1.0
+			#Born in Chaos default: 0.2
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			KNOCKBACK_RESISTANCE = -1.0
+			#Born in Chaos default: 0.2
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			MOVEMENT_SPEED = -1.0
+			#Born in Chaos default: 13
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			FOLLOW_RANGE = -1.0
 
+		#Applies to: born_in_chaos_v1:missioner, born_in_chaos_v1:missionary_raider
 		[Weapons.Mobs.Missioner]
 			#Days till The Missioner spawns
 			#Range: 1 ~ 999999
 			DAYS_TILL_MISSIONER = 10
-			#.
-			#Range: 0.0 ~ 1.7976931348623157E308
-			MISSIONER_ARMOR = 10.0
-			#.
-			#Range: 0.0 ~ 1.7976931348623157E308
-			MISSIONER_DAMAGE = 9.0
-			#.
-			#Range: 0.0 ~ 1.7976931348623157E308
-			MISSIONER_HEALTH = 150.0
-			#.
-			#Range: 0.0 ~ 1.7976931348623157E308
-			MISSIONER_KNOCKBACK = 1.0
-			#.
-			#Range: 0.0 ~ 1.7976931348623157E308
-			MISSIONER_KNOCKBACK_RESISTANCE = 1.0
-			#.
+			#Whether Missioner can spawn
 			MISSIONER_SPAWNING_ENABLED = true
-			#.
-			#Range: 0.0 ~ 1.7976931348623157E308
-			MISSIONER_SPEED = 0.24
 			#Missioner can switch weather to rain
 			MISSIONER_RAIN_ENABLED = false
 			#Missioner can spawn in raids
 			MISSIONER_RAID_ENABLED = true
+			#Born in Chaos default: 150
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			MAX_HEALTH = -1.0
+			#Born in Chaos default: 10
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			ARMOR = -1.0
+			#Born in Chaos default: 0
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			ARMOR_TOUGHNESS = -1.0
+			#Born in Chaos default: 9
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			ATTACK_DAMAGE = -1.0
+			#Born in Chaos default: 1
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			ATTACK_KNOCKBACK = -1.0
+			#Born in Chaos default: 1
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			KNOCKBACK_RESISTANCE = -1.0
+			#Born in Chaos default: 0.24
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			MOVEMENT_SPEED = -1.0
+			#Born in Chaos default: 21
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			FOLLOW_RANGE = -1.0
 
+		#Applies to: born_in_chaos_v1:mother_spider
 		[Weapons.Mobs."Mother Spider"]
-			#.
+			#Whether Mother Spider can spawn
 			MOTHER_SPIDER_SPAWNING_ENABLED = true
-			#.
-			#Range: 0.0 ~ 1.7976931348623157E308
-			MOTHER_SPIDER_ARMOR = 0.0
-			#.
-			#Range: 0.0 ~ 1.7976931348623157E308
-			MOTHER_SPIDER_DAMAGE = 6.0
-			#.
-			#Range: 0.0 ~ 1.7976931348623157E308
-			MOTHER_SPIDER_HEALTH = 90.0
-			#.
-			#Range: 0.0 ~ 1.7976931348623157E308
-			MOTHER_SPIDER_KNOCKBACK = 1.0
-			#.
-			#Range: 0.0 ~ 1.7976931348623157E308
-			MOTHER_SPIDER_KNOCKBACK_RESISTANCE = 1.0
-			#.
-			#Range: 0.0 ~ 1.7976931348623157E308
-			MOTHER_SPIDER_SPEED = 0.3
+			#Born in Chaos default: 90
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			MAX_HEALTH = -1.0
+			#Born in Chaos default: 0
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			ARMOR = -1.0
+			#Born in Chaos default: 0
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			ARMOR_TOUGHNESS = -1.0
+			#Born in Chaos default: 6
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			ATTACK_DAMAGE = -1.0
+			#Born in Chaos default: 1.3
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			ATTACK_KNOCKBACK = -1.0
+			#Born in Chaos default: 1
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			KNOCKBACK_RESISTANCE = -1.0
+			#Born in Chaos default: 0.3
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			MOVEMENT_SPEED = -1.0
+			#Born in Chaos default: 32
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			FOLLOW_RANGE = -1.0
 
+		#Applies to: born_in_chaos_v1:mr_pumpkin, born_in_chaos_v1:mr_pumpkin_controlled
 		[Weapons.Mobs."Mr Pumpkin Head"]
-			#.
+			#Whether Mr Pumpkin Head can spawn
 			MR_PUMPKIN_SPAWNING_ENABLED = true
-			#.
-			#Range: 0.0 ~ 1.7976931348623157E308
-			MR_PUMPKIN_ARMOR = 0.0
-			#.
-			#Range: 0.0 ~ 1.7976931348623157E308
-			MR_PUMPKIN_DAMAGE = 3.0
-			#.
-			#Range: 0.0 ~ 1.7976931348623157E308
-			MR_PUMPKIN_FLYING_SPEED = 0.35
-			#.
-			#Range: 0.0 ~ 1.7976931348623157E308
-			MR_PUMPKIN_HEALTH = 12.0
-			#.
-			#Range: 0.0 ~ 1.7976931348623157E308
-			MR_PUMPKIN_KNOCKBACK = 0.3
-			#.
-			#Range: 0.0 ~ 1.7976931348623157E308
-			MR_PUMPKIN_KNOCKBACK_RESISTANCE = 0.9
-			#.
-			#Range: 0.0 ~ 1.7976931348623157E308
-			MR_PUMPKIN_SPEED = 0.35
+			#Born in Chaos default: mr_pumpkin 12, mr_pumpkin_controlled 26
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			MAX_HEALTH = -1.0
+			#Born in Chaos default: 0
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			ARMOR = -1.0
+			#Born in Chaos default: 0
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			ARMOR_TOUGHNESS = -1.0
+			#Born in Chaos default: 3
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			ATTACK_DAMAGE = -1.0
+			#Born in Chaos default: 0.3
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			ATTACK_KNOCKBACK = -1.0
+			#Born in Chaos default: mr_pumpkin 0.9, mr_pumpkin_controlled 1.2
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			KNOCKBACK_RESISTANCE = -1.0
+			#Born in Chaos default: mr_pumpkin 0.35, mr_pumpkin_controlled 0.36
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			MOVEMENT_SPEED = -1.0
+			#Born in Chaos default: mr_pumpkin 20, mr_pumpkin_controlled 30
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			FOLLOW_RANGE = -1.0
+			#Born in Chaos default: mr_pumpkin 0.35, mr_pumpkin_controlled 0.36
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			FLYING_SPEED = -1.0
 
+		#Applies to: born_in_chaos_v1:mrs_pumpkin
 		[Weapons.Mobs."Ms Pumpkin Head"]
-			#.
+			#Whether Ms Pumpkin Head can spawn
 			MS_PUMPKIN_SPAWNING_ENABLED = true
-			#.
-			#Range: 0.0 ~ 1.7976931348623157E308
-			MS_PUMPKIN_ARMOR = 1.0
-			#.
-			#Range: 0.0 ~ 1.7976931348623157E308
-			MS_PUMPKIN_DAMAGE = 3.0
-			#.
-			#Range: 0.0 ~ 1.7976931348623157E308
-			MS_PUMPKIN_FLYING_SPEED = 0.35
-			#.
-			#Range: 0.0 ~ 1.7976931348623157E308
-			MS_PUMPKIN_HEALTH = 25.0
-			#.
-			#Range: 0.0 ~ 1.7976931348623157E308
-			MS_PUMPKIN_KNOCKBACK = 0.0
-			#.
-			#Range: 0.0 ~ 1.7976931348623157E308
-			MS_PUMPKIN_KNOCKBACK_RESISTANCE = 0.8
-			#.
-			#Range: 0.0 ~ 1.7976931348623157E308
-			MS_PUMPKIN_SPEED = 0.2
+			#Born in Chaos default: 30
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			MAX_HEALTH = -1.0
+			#Born in Chaos default: 1
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			ARMOR = -1.0
+			#Born in Chaos default: 0
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			ARMOR_TOUGHNESS = -1.0
+			#Born in Chaos default: 3
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			ATTACK_DAMAGE = -1.0
+			#Born in Chaos default: 0
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			ATTACK_KNOCKBACK = -1.0
+			#Born in Chaos default: 0.8
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			KNOCKBACK_RESISTANCE = -1.0
+			#Born in Chaos default: 0.2
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			MOVEMENT_SPEED = -1.0
+			#Born in Chaos default: 23
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			FOLLOW_RANGE = -1.0
 
+		#Applies to: born_in_chaos_v1:nightmare_stalker
 		[Weapons.Mobs."Nightmare Stalker"]
 			#Whether nightmare stalker, gets stronger the longer the world is
 			NIGHTMARE_STRENGTH_ENABLED = true
 			#Whether nightmare stalker freezes water
 			NIGHTMARE_FREEZE_ENABLED = true
-			#.
+			#Whether Nightmare Stalker can spawn
 			NIGHTMARE_STALKER_SPAWNING_ENABLED = true
 			#Days till Nightmare Stalker spawns
 			#Range: 1 ~ 999999
 			DAYS_TILL_NIGHTMARE = 3
 			#Whether Nightmare Stalker has its base immunity to certain things
 			STALKER_IMMUNITY_ENABLED = true
-			#.
-			#Range: 0.0 ~ 1.7976931348623157E308
-			NIGHTMARE_STALKER_ARMOR = 4.0
-			#.
-			#Range: 0.0 ~ 1.7976931348623157E308
-			NIGHTMARE_STALKER_DAMAGE = 7.0
-			#.
-			#Range: 0.0 ~ 1.7976931348623157E308
-			NIGHTMARE_STALKER_HEALTH = 70.0
-			#.
-			#Range: 0.0 ~ 1.7976931348623157E308
-			NIGHTMARE_STALKER_KNOCKBACK = 1.7
-			#.
-			#Range: 0.0 ~ 1.7976931348623157E308
-			NIGHTMARE_STALKER_KNOCKBACK_RESISTANCE = 0.8
-			#.
-			#Range: 0.0 ~ 1.7976931348623157E308
-			NIGHTMARE_STALKER_SPEED = 0.28
+			#Born in Chaos default: 70
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			MAX_HEALTH = -1.0
+			#Born in Chaos default: 4
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			ARMOR = -1.0
+			#Born in Chaos default: 0
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			ARMOR_TOUGHNESS = -1.0
+			#Born in Chaos default: 7
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			ATTACK_DAMAGE = -1.0
+			#Born in Chaos default: 1.7
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			ATTACK_KNOCKBACK = -1.0
+			#Born in Chaos default: 0.8
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			KNOCKBACK_RESISTANCE = -1.0
+			#Born in Chaos default: 0.28
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			MOVEMENT_SPEED = -1.0
+			#Born in Chaos default: 80
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			FOLLOW_RANGE = -1.0
 
+		#Applies to: born_in_chaos_v1:phantom_creeper, born_in_chaos_v1:phantom_creeper_copy
 		[Weapons.Mobs."Phantom Creeper"]
-			#.
-			#Range: 0.0 ~ 1.7976931348623157E308
-			PHANTOM_CREEPER_ARMOR = 0.0
-			#.
-			#Range: 0.0 ~ 1.7976931348623157E308
-			PHANTOM_CREEPER_DAMAGE = 3.0
-			#.
-			#Range: 0.0 ~ 1.7976931348623157E308
-			PHANTOM_CREEPER_HEALTH = 20.0
-			#.
+			#Whether Phantom Creeper can spawn
 			PHANTOM_CREEPER_SPAWNING_ENABLED = true
-			#.
-			#Range: 0.0 ~ 1.7976931348623157E308
-			PHANTOM_CREEPER_SPEED = 0.25
-			#.
-			#Range: 0.0 ~ 1.7976931348623157E308
-			PHANTOM_CREEPER_KNOCKBACK_RESISTANCE = 0.0
+			#Born in Chaos default: 20
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			MAX_HEALTH = -1.0
+			#Born in Chaos default: phantom_creeper 0, phantom_creeper_copy 4
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			ARMOR = -1.0
+			#Born in Chaos default: 0
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			ARMOR_TOUGHNESS = -1.0
+			#Born in Chaos default: 3
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			ATTACK_DAMAGE = -1.0
+			#Born in Chaos default: 0
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			ATTACK_KNOCKBACK = -1.0
+			#Born in Chaos default: phantom_creeper 0, phantom_creeper_copy 0.1
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			KNOCKBACK_RESISTANCE = -1.0
+			#Born in Chaos default: 0.25
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			MOVEMENT_SPEED = -1.0
+			#Born in Chaos default: 16
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			FOLLOW_RANGE = -1.0
 
+		#Applies to: born_in_chaos_v1:pumpkin_bruiser
 		[Weapons.Mobs."Pumpkin Bruiser"]
-			#.
-			#Range: 0.0 ~ 1.7976931348623157E308
-			PUMPKIN_BRUISER_ARMOR = 2.0
-			#.
-			#Range: 0.0 ~ 1.7976931348623157E308
-			PUMPKIN_BRUISER_DAMAGE = 8.0
-			#.
-			#Range: 0.0 ~ 1.7976931348623157E308
-			PUMPKIN_BRUISER_HEALTH = 90.0
-			#.
+			#Whether Pumpkin Bruiser can spawn
 			PUMPKIN_BRUISER_SPAWNING_ENABLED = true
-			#.
-			#Range: 0.0 ~ 1.7976931348623157E308
-			PUMPKIN_BRUISER_SPEED = 0.26
-			#.
-			#Range: 0.0 ~ 1.7976931348623157E308
-			PUMPKIN_BRUISER_KNOCKBACK = 3.6
-			#.
-			#Range: 0.0 ~ 1.7976931348623157E308
-			PUMPKIN_BRUISER_KNOCKBACK_RESISTANCE = 0.6
+			#Born in Chaos default: 90
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			MAX_HEALTH = -1.0
+			#Born in Chaos default: 6
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			ARMOR = -1.0
+			#Born in Chaos default: 0
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			ARMOR_TOUGHNESS = -1.0
+			#Born in Chaos default: 9
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			ATTACK_DAMAGE = -1.0
+			#Born in Chaos default: 3.6
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			ATTACK_KNOCKBACK = -1.0
+			#Born in Chaos default: 0.6
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			KNOCKBACK_RESISTANCE = -1.0
+			#Born in Chaos default: 0.26
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			MOVEMENT_SPEED = -1.0
+			#Born in Chaos default: 26
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			FOLLOW_RANGE = -1.0
 
+		#Applies to: born_in_chaos_v1:pumpkin_dunce
 		[Weapons.Mobs."Pumpkin Dunce"]
-			#.
-			#Range: 0.0 ~ 1.7976931348623157E308
-			PUMPKIN_DUNCE_ARMOR = 0.0
-			#.
-			#Range: 0.0 ~ 1.7976931348623157E308
-			PUMPKIN_DUNCE_DAMAGE = 3.0
-			#.
-			#Range: 0.0 ~ 1.7976931348623157E308
-			PUMPKIN_DUNCE_HEALTH = 18.0
-			#.
+			#Whether Pumpkin Dunce can spawn
 			PUMPKIN_DUNCE_SPAWNING_ENABLED = true
-			#.
-			#Range: 0.0 ~ 1.7976931348623157E308
-			PUMPKIN_DUNCE_SPEED = 0.26
-			#.
-			#Range: 0.0 ~ 1.7976931348623157E308
-			PUMPKIN_DUNCE_KNOCKBACK = 0.5
-			#.
-			#Range: 0.0 ~ 1.7976931348623157E308
-			PUMPKIN_DUNCE_KNOCKBACK_RESISTANCE = 0.3
+			#Born in Chaos default: 20
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			MAX_HEALTH = -1.0
+			#Born in Chaos default: 0
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			ARMOR = -1.0
+			#Born in Chaos default: 0
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			ARMOR_TOUGHNESS = -1.0
+			#Born in Chaos default: 3
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			ATTACK_DAMAGE = -1.0
+			#Born in Chaos default: 0.5
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			ATTACK_KNOCKBACK = -1.0
+			#Born in Chaos default: 0.3
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			KNOCKBACK_RESISTANCE = -1.0
+			#Born in Chaos default: 0.26
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			MOVEMENT_SPEED = -1.0
+			#Born in Chaos default: 20
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			FOLLOW_RANGE = -1.0
 
+		#Applies to: born_in_chaos_v1:pumpkinhead
 		[Weapons.Mobs."Pumpkin Head"]
-			#.
+			#Whether Pumpkin Head can spawn
 			PUMPKIN_HEAD_SPAWNING_ENABLED = true
-			#.
-			#Range: 0.0 ~ 1.7976931348623157E308
-			PUMPKIN_HEAD_ARMOR = 4.0
-			#.
-			#Range: 0.0 ~ 1.7976931348623157E308
-			PUMPKIN_HEAD_DAMAGE = 3.0
-			#.
-			#Range: 0.0 ~ 1.7976931348623157E308
-			PUMPKIN_HEAD_HEALTH = 65.0
-			#.
-			#Range: 0.0 ~ 1.7976931348623157E308
-			PUMPKIN_HEAD_KNOCKBACK = 0.3
-			#.
-			#Range: 0.0 ~ 1.7976931348623157E308
-			PUMPKIN_HEAD_KNOCKBACK_RESISTANCE = 0.6
-			#.
-			#Range: 0.0 ~ 1.7976931348623157E308
-			PUMPKIN_HEAD_SPEED = 0.32
+			#Born in Chaos default: 65
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			MAX_HEALTH = -1.0
+			#Born in Chaos default: 4
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			ARMOR = -1.0
+			#Born in Chaos default: 0
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			ARMOR_TOUGHNESS = -1.0
+			#Born in Chaos default: 3
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			ATTACK_DAMAGE = -1.0
+			#Born in Chaos default: 0.3
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			ATTACK_KNOCKBACK = -1.0
+			#Born in Chaos default: 0.6
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			KNOCKBACK_RESISTANCE = -1.0
+			#Born in Chaos default: 0.33
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			MOVEMENT_SPEED = -1.0
+			#Born in Chaos default: 36
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			FOLLOW_RANGE = -1.0
 
+		#Applies to: born_in_chaos_v1:pumpkin_spirit
 		[Weapons.Mobs."Pumpkin Spirit"]
-			#.
-			#Range: 0.0 ~ 1.7976931348623157E308
-			PUMPKIN_SPIRIT_ARMOR = 12.0
-			#.
-			#Range: 0.0 ~ 1.7976931348623157E308
-			PUMPKIN_SPIRIT_DAMAGE = 13.0
-			#.
-			#Range: 0.0 ~ 1.7976931348623157E308
-			PUMPKIN_SPIRIT_HEALTH = 66.0
-			#.
-			#Range: 0.0 ~ 1.7976931348623157E308
-			PUMPKIN_SPIRIT_KNOCKBACK = 2.0
-			#.
-			#Range: 0.0 ~ 1.7976931348623157E308
-			PUMPKIN_SPIRIT_KNOCKBACK_RESISTANCE = 0.9
-			#.
-			#Range: 0.0 ~ 1.7976931348623157E308
-			PUMPKIN_SPIRIT_SPEED = 0.22
+			#Born in Chaos default: 66
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			MAX_HEALTH = -1.0
+			#Born in Chaos default: 12
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			ARMOR = -1.0
+			#Born in Chaos default: 0
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			ARMOR_TOUGHNESS = -1.0
+			#Born in Chaos default: 13
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			ATTACK_DAMAGE = -1.0
+			#Born in Chaos default: 2
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			ATTACK_KNOCKBACK = -1.0
+			#Born in Chaos default: 0.9
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			KNOCKBACK_RESISTANCE = -1.0
+			#Born in Chaos default: 0.22
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			MOVEMENT_SPEED = -1.0
+			#Born in Chaos default: 16
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			FOLLOW_RANGE = -1.0
 
+		#Applies to: born_in_chaos_v1:restless_spirit
 		[Weapons.Mobs."Restless Spirit"]
-			#.
-			#Range: 0.0 ~ 1.7976931348623157E308
-			RESTLESS_SPIRIT_ARMOR = 0.0
-			#.
-			#Range: 0.0 ~ 1.7976931348623157E308
-			RESTLESS_SPIRIT_DAMAGE = 2.0
-			#.
-			#Range: 0.0 ~ 1.7976931348623157E308
-			RESTLESS_SPIRIT_FLYING_SPEED = 0.4
-			#.
-			#Range: 0.0 ~ 1.7976931348623157E308
-			RESTLESS_SPIRIT_HEALTH = 24.0
-			#.
-			#Range: 0.0 ~ 1.7976931348623157E308
-			RESTLESS_SPIRIT_KNOCKBACK = 0.1
-			#.
-			#Range: 0.0 ~ 1.7976931348623157E308
-			RESTLESS_SPIRIT_KNOCKBACK_RESISTANCE = 1.0
-			#.
+			#Whether Restless Spirit can spawn
 			RESTLESS_SPIRIT_SPAWNING_ENABLED = true
-			#.
-			#Range: 0.0 ~ 1.7976931348623157E308
-			RESTLESS_SPIRIT_SPEED = 0.4
+			#Born in Chaos default: 24
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			MAX_HEALTH = -1.0
+			#Born in Chaos default: 0
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			ARMOR = -1.0
+			#Born in Chaos default: 0
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			ARMOR_TOUGHNESS = -1.0
+			#Born in Chaos default: 2
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			ATTACK_DAMAGE = -1.0
+			#Born in Chaos default: 0.1
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			ATTACK_KNOCKBACK = -1.0
+			#Born in Chaos default: 1
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			KNOCKBACK_RESISTANCE = -1.0
+			#Born in Chaos default: 0.3
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			MOVEMENT_SPEED = -1.0
+			#Born in Chaos default: 34
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			FOLLOW_RANGE = -1.0
+			#Born in Chaos default: 0.3
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			FLYING_SPEED = -1.0
 
+		#Applies to: born_in_chaos_v1:riding_lords_felsteed
 		[Weapons.Mobs."Rideable Lord Felsteed"]
-			#.
-			#Range: 0.0 ~ 1.7976931348623157E308
-			RIDEABLE_LORD_FELSTEED_ARMOR = 12.0
-			#.
-			#Range: 0.0 ~ 1.7976931348623157E308
-			RIDEABLE_LORD_FELSTEED_DAMAGE = 9.0
-			#.
-			#Range: 0.0 ~ 1.7976931348623157E308
-			RIDEABLE_LORD_FELSTEED_HEALTH = 90.0
-			#.
-			#Range: 0.0 ~ 1.7976931348623157E308
-			RIDEABLE_LORD_FELSTEED_KNOCKBACK = 0.1
-			#.
-			#Range: 0.0 ~ 1.7976931348623157E308
-			RIDEABLE_LORD_FELSTEED_KNOCKBACK_RESISTANCE = 0.6
-			#.
-			#Range: 0.0 ~ 1.7976931348623157E308
-			RIDEABLE_LORD_FELSTEED_SPEED = 3.6
+			#Born in Chaos default: 90
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			MAX_HEALTH = -1.0
+			#Born in Chaos default: 12
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			ARMOR = -1.0
+			#Born in Chaos default: 0
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			ARMOR_TOUGHNESS = -1.0
+			#Born in Chaos default: 9
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			ATTACK_DAMAGE = -1.0
+			#Born in Chaos default: 3.6
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			ATTACK_KNOCKBACK = -1.0
+			#Born in Chaos default: 0.6
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			KNOCKBACK_RESISTANCE = -1.0
+			#Born in Chaos default: 0.31
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			MOVEMENT_SPEED = -1.0
+			#Born in Chaos default: 16
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			FOLLOW_RANGE = -1.0
 
+		#Applies to: born_in_chaos_v1:scarlet_persecutor
 		[Weapons.Mobs."Scarlet Prosecuter"]
 			#Amount of Scarlet Prosecuters (setting it to 0 will cause non to spawn)
 			#Range: 0 ~ 1000
 			SCARLET_SPAWN_AMMOUNT = 5
-			#.
-			#Range: 0.0 ~ 1.7976931348623157E308
-			SCARLET_PROSECUTER_ARMOR = 0.0
-			#.
-			#Range: 0.0 ~ 1.7976931348623157E308
-			SCARLET_PROSECUTER_DAMAGE = 5.0
-			#.
-			#Range: 0.0 ~ 1.7976931348623157E308
-			SCARLET_PROSECUTER_FLYING_SPEED = 0.6
-			#.
-			#Range: 0.0 ~ 1.7976931348623157E308
-			SCARLET_PROSECUTER_HEALTH = 35.0
-			#.
-			#Range: 0.0 ~ 1.7976931348623157E308
-			SCARLET_PROSECUTER_KNOCKBACK = 0.5
-			#.
-			#Range: 0.0 ~ 1.7976931348623157E308
-			SCARLET_PROSECUTER_KNOCKBACK_RESISTANCE = 0.9
-			#.
-			#Range: 0.0 ~ 1.7976931348623157E308
-			SCARLET_PROSECUTER_SPEED = 0.6
+			#Born in Chaos default: 35
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			MAX_HEALTH = -1.0
+			#Born in Chaos default: 0
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			ARMOR = -1.0
+			#Born in Chaos default: 0
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			ARMOR_TOUGHNESS = -1.0
+			#Born in Chaos default: 5
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			ATTACK_DAMAGE = -1.0
+			#Born in Chaos default: 0.5
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			ATTACK_KNOCKBACK = -1.0
+			#Born in Chaos default: 0.9
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			KNOCKBACK_RESISTANCE = -1.0
+			#Born in Chaos default: 0.6
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			MOVEMENT_SPEED = -1.0
+			#Born in Chaos default: 150
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			FOLLOW_RANGE = -1.0
+			#Born in Chaos default: 0.6
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			FLYING_SPEED = -1.0
 
+		#Applies to: born_in_chaos_v1:seared_spirit, born_in_chaos_v1:seared_spirit_not_despawn
 		[Weapons.Mobs."Seared Spirit"]
-			#.
+			#Whether Seared Spirit can spawn
 			SEARED_SPIRIT_SPAWNING_ENABLED = true
-			#.
-			#Range: 0.0 ~ 1.7976931348623157E308
-			SEARED_SPIRIT_ARMOR = 3.0
-			#.
-			#Range: 0.0 ~ 1.7976931348623157E308
-			SEARED_SPIRIT_DAMAGE = 10.0
-			#.
-			#Range: 0.0 ~ 1.7976931348623157E308
-			SEARED_SPIRIT_HEALTH = 50.0
-			#.
-			#Range: 0.0 ~ 1.7976931348623157E308
-			SEARED_SPIRIT_KNOCKBACK = 2.0
-			#.
-			#Range: 0.0 ~ 1.7976931348623157E308
-			SEARED_SPIRIT_KNOCKBACK_RESISTANCE = 0.3
-			#.
-			#Range: 0.0 ~ 1.7976931348623157E308
-			SEARED_SPIRIT_SPEED = 0.23
+			#Born in Chaos default: 50
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			MAX_HEALTH = -1.0
+			#Born in Chaos default: 3
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			ARMOR = -1.0
+			#Born in Chaos default: 0
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			ARMOR_TOUGHNESS = -1.0
+			#Born in Chaos default: 10
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			ATTACK_DAMAGE = -1.0
+			#Born in Chaos default: 2
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			ATTACK_KNOCKBACK = -1.0
+			#Born in Chaos default: 0.3
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			KNOCKBACK_RESISTANCE = -1.0
+			#Born in Chaos default: 0.23
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			MOVEMENT_SPEED = -1.0
+			#Born in Chaos default: 16
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			FOLLOW_RANGE = -1.0
 
+		#Applies to: born_in_chaos_v1:senor_pumpkin
 		[Weapons.Mobs."Senor Pumpkinhead"]
-			#.
-			SEARED_SPIRIT_SPAWNING_ENABLED = true
-			#.
-			#Range: 0.0 ~ 1.7976931348623157E308
-			SENOR_PUMPKIN_ARMOR = 2.0
-			#.
-			#Range: 0.0 ~ 1.7976931348623157E308
-			SENOR_PUMPKIN_DAMAGE = 5.0
-			#.
-			#Range: 0.0 ~ 1.7976931348623157E308
-			SENOR_PUMPKIN_FLYING_SPEED = 0.5
-			#.
-			#Range: 0.0 ~ 1.7976931348623157E308
-			SENOR_PUMPKIN_HEALTH = 35.0
-			#.
-			#Range: 0.0 ~ 1.7976931348623157E308
-			SENOR_PUMPKIN_KNOCKBACK = 1.0
-			#.
-			#Range: 0.0 ~ 1.7976931348623157E308
-			SENOR_PUMPKIN_KNOCKBACK_RESISTANCE = 0.9
-			#.
-			#Range: 0.0 ~ 1.7976931348623157E308
-			SENOR_PUMPKIN_SPEED = 0.5
+			#Whether Senor Pumpkinhead can spawn
+			SENOR_PUMPKIN_SPAWNING_ENABLED = true
+			#Born in Chaos default: 35
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			MAX_HEALTH = -1.0
+			#Born in Chaos default: 2
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			ARMOR = -1.0
+			#Born in Chaos default: 0
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			ARMOR_TOUGHNESS = -1.0
+			#Born in Chaos default: 5
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			ATTACK_DAMAGE = -1.0
+			#Born in Chaos default: 1
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			ATTACK_KNOCKBACK = -1.0
+			#Born in Chaos default: 0.9
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			KNOCKBACK_RESISTANCE = -1.0
+			#Born in Chaos default: 0.5
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			MOVEMENT_SPEED = -1.0
+			#Born in Chaos default: 25
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			FOLLOW_RANGE = -1.0
+			#Born in Chaos default: 0.5
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			FLYING_SPEED = -1.0
 
+		#Applies to: born_in_chaos_v1:siamese_skeletons
 		[Weapons.Mobs."Siamese Skeletons"]
-			#.
-			#Range: 0.0 ~ 1.7976931348623157E308
-			SIAMESE_SKELETON_ARMOR = 2.0
-			#.
-			#Range: 0.0 ~ 1.7976931348623157E308
-			SIAMESE_SKELETON_DAMAGE = 3.0
-			#.
-			#Range: 0.0 ~ 1.7976931348623157E308
-			SIAMESE_SKELETON_HEALTH = 20.0
-			#.
-			#Range: 0.0 ~ 1.7976931348623157E308
-			SIAMESE_SKELETON_KNOCKBACK = 0.1
-			#.
-			#Range: 0.0 ~ 1.7976931348623157E308
-			SENOR_PUMPKIN_KNOCKBACK_RESISTANCE = 0.0
-			#.
+			#Whether Siamese Skeletons can spawn
 			SIAMESE_SKELETON_SPAWNING_ENABLED = true
-			#.
-			#Range: 0.0 ~ 1.7976931348623157E308
-			SIAMESE_SKELETON_SPEED = 0.3
+			#Born in Chaos default: 20
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			MAX_HEALTH = -1.0
+			#Born in Chaos default: 2
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			ARMOR = -1.0
+			#Born in Chaos default: 0
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			ARMOR_TOUGHNESS = -1.0
+			#Born in Chaos default: 3
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			ATTACK_DAMAGE = -1.0
+			#Born in Chaos default: 0.1
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			ATTACK_KNOCKBACK = -1.0
+			#Born in Chaos default: 0
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			KNOCKBACK_RESISTANCE = -1.0
+			#Born in Chaos default: 0.3
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			MOVEMENT_SPEED = -1.0
+			#Born in Chaos default: 16
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			FOLLOW_RANGE = -1.0
 
+		#Applies to: born_in_chaos_v1:sir_pumpkinhead
 		[Weapons.Mobs."Sir Pumpkinhead"]
-			#.
-			#Range: 0.0 ~ 1.7976931348623157E308
-			SIR_PUMPKINHEAD_ARMOR = 9.0
-			#.
-			#Range: 0.0 ~ 1.7976931348623157E308
-			SIR_PUMPKINHEAD_DAMAGE = 6.0
-			#.
-			#Range: 0.0 ~ 1.7976931348623157E308
-			SIR_PUMPKINHEAD_HEALTH = 160.0
-			#.
-			#Range: 0.0 ~ 1.7976931348623157E308
-			SIR_PUMPKINHEAD_KNOCKBACK = 1.2
-			#.
-			#Range: 0.0 ~ 1.7976931348623157E308
-			SIR_PUMPKINHEAD_KNOCKBACK_RESISTANCE = 0.9
-			#.
+			#Whether Sir Pumpkinhead can spawn
 			SIR_PUMPKINHEAD_SPAWNING_ENABLED = false
-			#.
-			#Range: 0.0 ~ 1.7976931348623157E308
-			SIR_PUMPKINHEAD_SPEED = 0.36
+			#Born in Chaos default: 160
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			MAX_HEALTH = -1.0
+			#Born in Chaos default: 9
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			ARMOR = -1.0
+			#Born in Chaos default: 0
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			ARMOR_TOUGHNESS = -1.0
+			#Born in Chaos default: 6
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			ATTACK_DAMAGE = -1.0
+			#Born in Chaos default: 1.2
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			ATTACK_KNOCKBACK = -1.0
+			#Born in Chaos default: 0.9
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			KNOCKBACK_RESISTANCE = -1.0
+			#Born in Chaos default: 0.36
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			MOVEMENT_SPEED = -1.0
+			#Born in Chaos default: 20
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			FOLLOW_RANGE = -1.0
 
+		#Applies to: born_in_chaos_v1:sir_pumpkinhead_without_horse
 		[Weapons.Mobs."Sir Pumpkinhead Horseless"]
-			#.
-			#Range: 0.0 ~ 1.7976931348623157E308
-			SIR_PUMPKINHEAD_HORSELESS_ARMOR = 4.0
-			#.
-			#Range: 0.0 ~ 1.7976931348623157E308
-			SIR_PUMPKINHEAD_HORSELESS_DAMAGE = 3.0
-			#.
-			#Range: 0.0 ~ 1.7976931348623157E308
-			SIR_PUMPKINHEAD_HORSELESS_HEALTH = 120.0
-			#.
-			#Range: 0.0 ~ 1.7976931348623157E308
-			SIR_PUMPKINHEAD_HORSELESS_KNOCKBACK = 0.0
-			#.
-			#Range: 0.0 ~ 1.7976931348623157E308
-			SIR_PUMPKINHEAD_HORSELESS_KNOCKBACK_RESISTANCE = 0.3
-			#.
-			#Range: 0.0 ~ 1.7976931348623157E308
-			SIR_PUMPKINHEAD_HORSELESS_SPEED = 0.25
+			#Born in Chaos default: 120
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			MAX_HEALTH = -1.0
+			#Born in Chaos default: 4
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			ARMOR = -1.0
+			#Born in Chaos default: 0
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			ARMOR_TOUGHNESS = -1.0
+			#Born in Chaos default: 3
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			ATTACK_DAMAGE = -1.0
+			#Born in Chaos default: 0
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			ATTACK_KNOCKBACK = -1.0
+			#Born in Chaos default: 0.3
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			KNOCKBACK_RESISTANCE = -1.0
+			#Born in Chaos default: 0.25
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			MOVEMENT_SPEED = -1.0
+			#Born in Chaos default: 30
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			FOLLOW_RANGE = -1.0
 
+		#Applies to: born_in_chaos_v1:sir_the_headless
 		[Weapons.Mobs."Sir Pumpkinhead Headless"]
-			#.
-			#Range: 0.0 ~ 1.7976931348623157E308
-			SIR_PUMPKINHEAD_HEADLESS_ARMOR = 4.0
-			#.
-			#Range: 0.0 ~ 1.7976931348623157E308
-			SIR_PUMPKINHEAD_HEADLESS_DAMAGE = 4.0
-			#.
-			#Range: 0.0 ~ 1.7976931348623157E308
-			SIR_PUMPKINHEAD_HEADLESS_HEALTH = 70.0
-			#.
-			#Range: 0.0 ~ 1.7976931348623157E308
-			SIR_PUMPKINHEAD_HEADLESS_KNOCKBACK = 1.4
-			#.
-			#Range: 0.0 ~ 1.7976931348623157E308
-			SIR_PUMPKINHEAD_HEADLESS_KNOCKBACK_RESISTANCE = 0.3
-			#.
-			#Range: 0.0 ~ 1.7976931348623157E308
-			SIR_PUMPKINHEAD_HEADLESS_SPEED = 0.26
+			#Born in Chaos default: 70
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			MAX_HEALTH = -1.0
+			#Born in Chaos default: 4
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			ARMOR = -1.0
+			#Born in Chaos default: 0
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			ARMOR_TOUGHNESS = -1.0
+			#Born in Chaos default: 4
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			ATTACK_DAMAGE = -1.0
+			#Born in Chaos default: 1.4
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			ATTACK_KNOCKBACK = -1.0
+			#Born in Chaos default: 0.3
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			KNOCKBACK_RESISTANCE = -1.0
+			#Born in Chaos default: 0.26
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			MOVEMENT_SPEED = -1.0
+			#Born in Chaos default: 30
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			FOLLOW_RANGE = -1.0
 
+		#Applies to: born_in_chaos_v1:skeleton_demoman
 		[Weapons.Mobs."Skeleton Demoman"]
-			#.
-			#Range: 0.0 ~ 1.7976931348623157E308
-			SKELETON_DEMOMAN_ARMOR = 0.5
-			#.
-			#Range: 0.0 ~ 1.7976931348623157E308
-			SKELETON_DEMOMAN_DAMAGE = 3.0
-			#.
-			#Range: 0.0 ~ 1.7976931348623157E308
-			SKELETON_DEMOMAN_HEALTH = 25.0
-			#.
-			#Range: 0.0 ~ 1.7976931348623157E308
-			SKELETON_DEMOMAN_KNOCKBACK = 0.1
-			#.
-			#Range: 0.0 ~ 1.7976931348623157E308
-			SKELETON_DEMOMAN_SPEED = 0.22
-			#.
-			#Range: 0.0 ~ 1.7976931348623157E308
-			SKELETON_DEMOMAN_KNOCKBACK_RESISTANCE = 0.0
-			#.
+			#Whether Skeleton Demoman can spawn
 			SKELETON_DEMOMAN_SPAWNING_ENABLED = true
+			#Born in Chaos default: 25
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			MAX_HEALTH = -1.0
+			#Born in Chaos default: 2
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			ARMOR = -1.0
+			#Born in Chaos default: 0
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			ARMOR_TOUGHNESS = -1.0
+			#Born in Chaos default: 3
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			ATTACK_DAMAGE = -1.0
+			#Born in Chaos default: 0.1
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			ATTACK_KNOCKBACK = -1.0
+			#Born in Chaos default: 0
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			KNOCKBACK_RESISTANCE = -1.0
+			#Born in Chaos default: 0.22
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			MOVEMENT_SPEED = -1.0
+			#Born in Chaos default: 16
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			FOLLOW_RANGE = -1.0
 
+		#Applies to: born_in_chaos_v1:skeleton_thrasher, born_in_chaos_v1:skeleton_thrasher_not_despawn
 		[Weapons.Mobs."Skeleton Thrasher"]
-			#.
-			#Range: 0.0 ~ 1.7976931348623157E308
-			SKELETON_THRASHER_ARMOR = 7.0
-			#.
-			#Range: 0.0 ~ 1.7976931348623157E308
-			SKELETON_THRASHER_DAMAGE = 8.0
-			#.
-			#Range: 0.0 ~ 1.7976931348623157E308
-			SKELETON_THRASHER_HEALTH = 50.0
-			#.
-			#Range: 0.0 ~ 1.7976931348623157E308
-			SKELETON_THRASHER_KNOCKBACK = 4.4
-			#.
-			#Range: 0.0 ~ 1.7976931348623157E308
-			SKELETON_THRASHER_KNOCKBACK_RESISTANCE = 1.0
-			#.
+			#Whether Skeleton Thrasher can spawn
 			SKELETON_THRASHER_SPAWNING_ENABLED = true
-			#.
-			#Range: 0.0 ~ 1.7976931348623157E308
-			SKELETON_THRASHER_SPEED = 0.21
+			#Born in Chaos default: 50
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			MAX_HEALTH = -1.0
+			#Born in Chaos default: skeleton_thrasher 10, skeleton_thrasher_not_despawn 8
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			ARMOR = -1.0
+			#Born in Chaos default: 0
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			ARMOR_TOUGHNESS = -1.0
+			#Born in Chaos default: 8
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			ATTACK_DAMAGE = -1.0
+			#Born in Chaos default: 4.4
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			ATTACK_KNOCKBACK = -1.0
+			#Born in Chaos default: 1
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			KNOCKBACK_RESISTANCE = -1.0
+			#Born in Chaos default: 0.21
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			MOVEMENT_SPEED = -1.0
+			#Born in Chaos default: 14
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			FOLLOW_RANGE = -1.0
 
+		#Applies to: born_in_chaos_v1:spirit_guide
 		[Weapons.Mobs."Spirit Guide"]
-			#.
-			#Range: 0.0 ~ 1.7976931348623157E308
-			SPIRIT_GUIDE_ARMOR = 2.0
-			#.
-			#Range: 0.0 ~ 1.7976931348623157E308
-			SPIRIT_GUIDE_DAMAGE = 3.0
-			#.
-			#Range: 0.0 ~ 1.7976931348623157E308
-			SPIRIT_GUIDE_HEALTH = 32.0
-			#.
-			#Range: 0.0 ~ 1.7976931348623157E308
-			SPIRIT_GUIDE_KNOCKBACK = 0.9
-			#.
-			#Range: 0.0 ~ 1.7976931348623157E308
-			SPIRIT_GUIDE_KNOCKBACK_RESISTANCE = 0.2
-			#.
+			#Whether Spirit Guide can spawn
 			SPIRIT_GUIDE_SPAWNING_ENABLED = true
-			#.
-			#Range: 0.0 ~ 1.7976931348623157E308
-			SPIRIT_GUIDE_SPEED = 0.22
+			#Born in Chaos default: 32
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			MAX_HEALTH = -1.0
+			#Born in Chaos default: 3
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			ARMOR = -1.0
+			#Born in Chaos default: 0
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			ARMOR_TOUGHNESS = -1.0
+			#Born in Chaos default: 3
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			ATTACK_DAMAGE = -1.0
+			#Born in Chaos default: 0.9
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			ATTACK_KNOCKBACK = -1.0
+			#Born in Chaos default: 0.2
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			KNOCKBACK_RESISTANCE = -1.0
+			#Born in Chaos default: 0.22
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			MOVEMENT_SPEED = -1.0
+			#Born in Chaos default: 16
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			FOLLOW_RANGE = -1.0
 
-		[Weapons.Mobs."Spirit Assitant"]
-			#.
-			#Range: 0.0 ~ 1.7976931348623157E308
-			SPIRIT_GUIDE_ASSISTANT_ARMOR = 3.0
-			#.
-			#Range: 0.0 ~ 1.7976931348623157E308
-			SPIRIT_GUIDE_ASSISTANT_DAMAGE = 2.0
-			#.
-			#Range: 0.0 ~ 1.7976931348623157E308
-			SPIRIT_GUIDE_ASSISTANT_HEALTH = 15.0
-			#.
-			#Range: 0.0 ~ 1.7976931348623157E308
-			SPIRIT_GUIDE_ASSISTANT_KNOCKBACK_RESISTANCE = 0.0
-			#.
-			#Range: 0.0 ~ 1.7976931348623157E308
-			SPIRIT_GUIDE_ASSISTANT_KNOCKBACK = 0.1
-			#.
-			#Range: 0.0 ~ 1.7976931348623157E308
-			SPIRIT_GUIDE_ASSISTANT_SPEED = 0.3
-
+		#Applies to: born_in_chaos_v1:spiritof_chaos
 		[Weapons.Mobs."Spirit Of Chaos"]
-			#.
-			#Range: 0.0 ~ 1.7976931348623157E308
-			SPIRIT_OF_CHAOS_ARMOR = 0.0
-			#.
-			#Range: 0.0 ~ 1.7976931348623157E308
-			SPIRIT_OF_CHAOS_DAMAGE = 3.0
-			#.
-			#Range: 0.0 ~ 1.7976931348623157E308
-			SPIRIT_OF_CHAOS_HEALTH = 15.0
-			#.
-			#Range: 0.0 ~ 1.7976931348623157E308
-			SPIRIT_OF_CHAOS_KNOCKBACK_RESISTANCE = 0.6
-			#.
-			#Range: 0.0 ~ 1.7976931348623157E308
-			SPIRIT_OF_CHAOS_SPEED = 0.3
-			#.
-			#Range: 0.0 ~ 1.7976931348623157E308
-			SPIRIT_OF_CHAOS_RESISTANCE = 0.2
-			#.
+			#Whether Spirit Of Chaos can spawn
 			SPIRIT_OF_CHAOS_SPAWNING_ENABLED = true
+			#Born in Chaos default: 15
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			MAX_HEALTH = -1.0
+			#Born in Chaos default: 0
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			ARMOR = -1.0
+			#Born in Chaos default: 0
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			ARMOR_TOUGHNESS = -1.0
+			#Born in Chaos default: 3
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			ATTACK_DAMAGE = -1.0
+			#Born in Chaos default: 0
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			ATTACK_KNOCKBACK = -1.0
+			#Born in Chaos default: 0.6
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			KNOCKBACK_RESISTANCE = -1.0
+			#Born in Chaos default: 0.3
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			MOVEMENT_SPEED = -1.0
+			#Born in Chaos default: 25
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			FOLLOW_RANGE = -1.0
 
+		#Applies to: born_in_chaos_v1:supreme_bonescaller, born_in_chaos_v1:supreme_bonescaller_not_despawn
 		[Weapons.Mobs."Supreme Bonescaller"]
-			#.
+			#Whether Supreme Bonescaller can spawn
 			SUPREME_BONESCALLER_SPAWNING_ENABLED = true
-			#.
-			#Range: 0.0 ~ 1.7976931348623157E308
-			SUPREME_BONESCALLER_ARMOR = 5.0
-			#.
-			#Range: 0.0 ~ 1.7976931348623157E308
-			SUPREME_BONESCALLER_DAMAGE = 5.0
-			#.
-			#Range: 0.0 ~ 1.7976931348623157E308
-			SUPREME_BONESCALLER_HEALTH = 65.0
-			#.
-			#Range: 0.0 ~ 1.7976931348623157E308
-			SUPREME_BONESCALLER_KNOCKBACK = 0.2
-			#.
-			#Range: 0.0 ~ 1.7976931348623157E308
-			SUPREME_BONESCALLER_KNOCKBACK_RESISTANCE = 0.5
-			#.
-			#Range: 0.0 ~ 1.7976931348623157E308
-			SUPREME_BONESCALLER_SPEED = 0.2
-			#.
-			#Range: 0.0 ~ 1.7976931348623157E308
-			SUPREME_BONESCALLER_PHASE_2_ARMOR = 5.0
-			#.
-			#Range: 0.0 ~ 1.7976931348623157E308
-			SUPREME_BONESCALLER_PHASE_2_DAMAGE = 5.0
-			#.
-			#Range: 0.0 ~ 1.7976931348623157E308
-			SUPREME_BONESCALLER_PHASE_2_HEALTH = 60.0
-			#.
-			#Range: 0.0 ~ 1.7976931348623157E308
-			SUPREME_BONESCALLER_PHASE_2_KNOCKBACK = 0.2
-			#.
-			#Range: 0.0 ~ 1.7976931348623157E308
-			SUPREME_BONESCALLER_PHASE_2_KNOCKBACK_RESISTANCE = 0.5
-			#.
-			#Range: 0.0 ~ 1.7976931348623157E308
-			SUPREME_BONESCALLER_PHASE_2_SPEED = 0.2
+			#Born in Chaos default: 65
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			MAX_HEALTH = -1.0
+			#Born in Chaos default: 5
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			ARMOR = -1.0
+			#Born in Chaos default: 0
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			ARMOR_TOUGHNESS = -1.0
+			#Born in Chaos default: 5
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			ATTACK_DAMAGE = -1.0
+			#Born in Chaos default: 0.2
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			ATTACK_KNOCKBACK = -1.0
+			#Born in Chaos default: 0.5
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			KNOCKBACK_RESISTANCE = -1.0
+			#Born in Chaos default: 0.2
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			MOVEMENT_SPEED = -1.0
+			#Born in Chaos default: 15
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			FOLLOW_RANGE = -1.0
 
+		#Applies to: born_in_chaos_v1:swarmer
 		[Weapons.Mobs.Swarmer]
-			#.
+			#Whether Swarmer can spawn
 			SWARMER_SPAWNING_ENABLED = true
-			#.
-			#Range: 0.0 ~ 1.7976931348623157E308
-			SWARMER_ARMOR = 4.0
-			#.
-			#Range: 0.0 ~ 1.7976931348623157E308
-			SWARMER_DAMAGE = 4.0
-			#.
-			#Range: 0.0 ~ 1.7976931348623157E308
-			SWARMER_HEALTH = 40.0
-			#.
-			#Range: 0.0 ~ 1.7976931348623157E308
-			SWARMER_KNOCKBACK = 0.1
-			#.
-			#Range: 0.0 ~ 1.7976931348623157E308
-			SWARMER_KNOCKBACK_RESISTANCE = 0.5
-			#.
-			#Range: 0.0 ~ 1.7976931348623157E308
-			SWARMER_SPEED = 0.2
+			#Born in Chaos default: 40
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			MAX_HEALTH = -1.0
+			#Born in Chaos default: 4
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			ARMOR = -1.0
+			#Born in Chaos default: 0
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			ARMOR_TOUGHNESS = -1.0
+			#Born in Chaos default: 4
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			ATTACK_DAMAGE = -1.0
+			#Born in Chaos default: 0.1
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			ATTACK_KNOCKBACK = -1.0
+			#Born in Chaos default: 0.5
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			KNOCKBACK_RESISTANCE = -1.0
+			#Born in Chaos default: 0.2
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			MOVEMENT_SPEED = -1.0
+			#Born in Chaos default: 14
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			FOLLOW_RANGE = -1.0
 
+		#Applies to: born_in_chaos_v1:thornshell_crab
 		[Weapons.Mobs.THORNSHELL_CRAB]
-			#.
-			#Range: 0.0 ~ 1.7976931348623157E308
-			THORNSHELL_CRAB_ARMOR = 5.0
-			#.
-			#Range: 0.0 ~ 1.7976931348623157E308
-			THORNSHELL_CRAB_DAMAGE = 4.0
-			#.
-			#Range: 0.0 ~ 1.7976931348623157E308
-			THORNSHELL_CRAB_HEALTH = 25.0
-			#.
-			#Range: 0.0 ~ 1.7976931348623157E308
-			THORNSHELL_CRAB_KNOCKBACK = 0.7
-			#.
-			#Range: 0.0 ~ 1.7976931348623157E308
-			THORNSHELL_CRAB_KNOCKBACK_RESISTANCE = 0.8
-			#.
+			#Whether THORNSHELL_CRAB can spawn
 			THORNSHELL_CRAB_SPAWNING_ENABLED = false
-			#.
-			#Range: 0.0 ~ 1.7976931348623157E308
-			THORNSHELL_CRAB_SPEED = 0.25
+			#Born in Chaos default: 25
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			MAX_HEALTH = -1.0
+			#Born in Chaos default: 14
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			ARMOR = -1.0
+			#Born in Chaos default: 0
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			ARMOR_TOUGHNESS = -1.0
+			#Born in Chaos default: 4
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			ATTACK_DAMAGE = -1.0
+			#Born in Chaos default: 0.7
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			ATTACK_KNOCKBACK = -1.0
+			#Born in Chaos default: 0.8
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			KNOCKBACK_RESISTANCE = -1.0
+			#Born in Chaos default: 0.25
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			MOVEMENT_SPEED = -1.0
+			#Born in Chaos default: 14
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			FOLLOW_RANGE = -1.0
 
+		#Applies to: born_in_chaos_v1:zombie_bruiser
 		[Weapons.Mobs."Zombie Bruiser"]
-			#.
-			#Range: 0.0 ~ 1.7976931348623157E308
-			ZOMBIE_BRUISER_ARMOR = 2.0
-			#.
-			#Range: 0.0 ~ 1.7976931348623157E308
-			ZOMBIE_BRUISER_DAMAGE = 6.0
-			#.
-			#Range: 0.0 ~ 1.7976931348623157E308
-			ZOMBIE_BRUISER_HEALTH = 60.0
-			#.
-			#Range: 0.0 ~ 1.7976931348623157E308
-			ZOMBIE_BRUISER_KNOCKBACK = 3.6
-			#.
-			#Range: 0.0 ~ 1.7976931348623157E308
-			ZOMBIE_BRUISER_KNOCKBACK_RESISTANCE = 0.6
-			#.
+			#Whether Zombie Bruiser can spawn
 			ZOMBIE_BRUISER_SPAWNING_ENABLED = true
-			#.
-			#Range: 0.0 ~ 1.7976931348623157E308
-			ZOMBIE_BRUISER_SPEED = 0.26
+			#Born in Chaos default: 60
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			MAX_HEALTH = -1.0
+			#Born in Chaos default: 2
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			ARMOR = -1.0
+			#Born in Chaos default: 0
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			ARMOR_TOUGHNESS = -1.0
+			#Born in Chaos default: 6
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			ATTACK_DAMAGE = -1.0
+			#Born in Chaos default: 3.6
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			ATTACK_KNOCKBACK = -1.0
+			#Born in Chaos default: 0.6
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			KNOCKBACK_RESISTANCE = -1.0
+			#Born in Chaos default: 0.26
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			MOVEMENT_SPEED = -1.0
+			#Born in Chaos default: 30
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			FOLLOW_RANGE = -1.0
 
+		#Applies to: born_in_chaos_v1:zombie_clown, born_in_chaos_v1:zombie_clown_not_despawn
 		[Weapons.Mobs."Zombie Clown"]
-			#.
-			#Range: 0.0 ~ 1.7976931348623157E308
-			ZOMBIE_CLOWN_ARMOR = 4.0
-			#.
-			#Range: 0.0 ~ 1.7976931348623157E308
-			ZOMBIE_CLOWN_DAMAGE = 3.0
-			#.
-			#Range: 0.0 ~ 1.7976931348623157E308
-			ZOMBIE_CLOWN_HEALTH = 35.0
-			#.
-			#Range: 0.0 ~ 1.7976931348623157E308
-			ZOMBIE_CLOWN_KNOCKBACK = 0.4
-			#.
-			#Range: 0.0 ~ 1.7976931348623157E308
-			ZOMBIE_CLOWN_KNOCKBACK_RESISTANCE = 0.5
-			#.
+			#Whether Zombie Clown can spawn
 			ZOMBIE_CLOWN_SPAWNING_ENABLED = true
-			#.
-			#Range: 0.0 ~ 1.7976931348623157E308
-			ZOMBIE_CLOWN_SPEED = 0.21
+			#Born in Chaos default: zombie_clown 35, zombie_clown_not_despawn 60
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			MAX_HEALTH = -1.0
+			#Born in Chaos default: 4
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			ARMOR = -1.0
+			#Born in Chaos default: 0
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			ARMOR_TOUGHNESS = -1.0
+			#Born in Chaos default: zombie_clown 3, zombie_clown_not_despawn 5
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			ATTACK_DAMAGE = -1.0
+			#Born in Chaos default: 0.4
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			ATTACK_KNOCKBACK = -1.0
+			#Born in Chaos default: 0.5
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			KNOCKBACK_RESISTANCE = -1.0
+			#Born in Chaos default: 0.21
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			MOVEMENT_SPEED = -1.0
+			#Born in Chaos default: 25
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			FOLLOW_RANGE = -1.0
 
+		#Applies to: born_in_chaos_v1:zombie_fisherman
 		[Weapons.Mobs."Zombie Fisherman"]
-			#.
-			#Range: 0.0 ~ 1.7976931348623157E308
-			ZOMBIE_FISHERMAN_ARMOR = 4.0
-			#.
-			#Range: 0.0 ~ 1.7976931348623157E308
-			ZOMBIE_FISHERMAN_DAMAGE = 4.0
-			#.
-			#Range: 0.0 ~ 1.7976931348623157E308
-			ZOMBIE_FISHERMAN_HEALTH = 25.0
-			#.
-			#Range: 0.0 ~ 1.7976931348623157E308
-			ZOMBIE_FISHERMAN_KNOCKBACK = 0.4
-			#.
-			#Range: 0.0 ~ 1.7976931348623157E308
-			ZOMBIE_FISHERMAN_KNOCKBACK_RESISTANCE = 0.1
-			#.
+			#Whether Zombie Fisherman can spawn
 			ZOMBIE_FISHERMAN_SPAWNING_ENABLED = true
-			#.
-			#Range: 0.0 ~ 1.7976931348623157E308
-			ZOMBIE_FISHERMAN_SPEED = 0.2
+			#Born in Chaos default: 25
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			MAX_HEALTH = -1.0
+			#Born in Chaos default: 4
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			ARMOR = -1.0
+			#Born in Chaos default: 0
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			ARMOR_TOUGHNESS = -1.0
+			#Born in Chaos default: 4
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			ATTACK_DAMAGE = -1.0
+			#Born in Chaos default: 0.4
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			ATTACK_KNOCKBACK = -1.0
+			#Born in Chaos default: 0.1
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			KNOCKBACK_RESISTANCE = -1.0
+			#Born in Chaos default: 0.2
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			MOVEMENT_SPEED = -1.0
+			#Born in Chaos default: 35
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			FOLLOW_RANGE = -1.0
 
+		#Applies to: born_in_chaos_v1:zombie_lumberjack
 		[Weapons.Mobs."Zombie Lumberjack"]
-			#.
-			#Range: 0.0 ~ 1.7976931348623157E308
-			ZOMBIE_LUMBERJACK_ARMOR = 4.0
-			#.
-			#Range: 0.0 ~ 1.7976931348623157E308
-			ZOMBIE_LUMBERJACK_DAMAGE = 9.0
-			#.
-			#Range: 0.0 ~ 1.7976931348623157E308
-			ZOMBIE_LUMBERJACK_HEALTH = 25.0
-			#.
-			#Range: 0.0 ~ 1.7976931348623157E308
-			ZOMBIE_LUMBERJACK_KNOCKBACK = 0.3
-			#.
-			#Range: 0.0 ~ 1.7976931348623157E308
-			ZOMBIE_LUMBERJACK_KNOCKBACK_RESISTANCE = 0.1
-			#.
+			#Whether Zombie Lumberjack can spawn
 			ZOMBIE_LUMBERJACK_SPAWNING_ENABLED = true
-			#.
-			#Range: 0.0 ~ 1.7976931348623157E308
-			ZOMBIE_LUMBERJACK_SPEED = 0.2
+			#Born in Chaos default: 25
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			MAX_HEALTH = -1.0
+			#Born in Chaos default: 4
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			ARMOR = -1.0
+			#Born in Chaos default: 0
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			ARMOR_TOUGHNESS = -1.0
+			#Born in Chaos default: 9
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			ATTACK_DAMAGE = -1.0
+			#Born in Chaos default: 0.3
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			ATTACK_KNOCKBACK = -1.0
+			#Born in Chaos default: 0.1
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			KNOCKBACK_RESISTANCE = -1.0
+			#Born in Chaos default: 0.2
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			MOVEMENT_SPEED = -1.0
+			#Born in Chaos default: 35
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			FOLLOW_RANGE = -1.0
+
+		#Applies to: born_in_chaos_v1:lord_pumpkinhead_head
+		[Weapons.Mobs."Lord Pumpkin Head Head"]
+			#Born in Chaos default: 200
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			MAX_HEALTH = -1.0
+			#Born in Chaos default: 9
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			ARMOR = -1.0
+			#Born in Chaos default: 0
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			ARMOR_TOUGHNESS = -1.0
+			#Born in Chaos default: 6
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			ATTACK_DAMAGE = -1.0
+			#Born in Chaos default: 0.3
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			ATTACK_KNOCKBACK = -1.0
+			#Born in Chaos default: 0.9
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			KNOCKBACK_RESISTANCE = -1.0
+			#Born in Chaos default: 0.33
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			MOVEMENT_SPEED = -1.0
+			#Born in Chaos default: 36
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			FOLLOW_RANGE = -1.0
+
+		#Applies to: born_in_chaos_v1:siamese_skeletonsleft, born_in_chaos_v1:siamese_skeletonsright
+		[Weapons.Mobs."Siamese Skeleton Halves"]
+			#Born in Chaos default: 10
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			MAX_HEALTH = -1.0
+			#Born in Chaos default: 1
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			ARMOR = -1.0
+			#Born in Chaos default: 0
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			ARMOR_TOUGHNESS = -1.0
+			#Born in Chaos default: 2
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			ATTACK_DAMAGE = -1.0
+			#Born in Chaos default: 0.1
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			ATTACK_KNOCKBACK = -1.0
+			#Born in Chaos default: 0
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			KNOCKBACK_RESISTANCE = -1.0
+			#Born in Chaos default: 0.3
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			MOVEMENT_SPEED = -1.0
+			#Born in Chaos default: 16
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			FOLLOW_RANGE = -1.0
+
+		#Applies to: born_in_chaos_v1:spirit_guide_assistant
+		[Weapons.Mobs."Spirit Guide Assistant"]
+			#Born in Chaos default: 15
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			MAX_HEALTH = -1.0
+			#Born in Chaos default: 3
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			ARMOR = -1.0
+			#Born in Chaos default: 0
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			ARMOR_TOUGHNESS = -1.0
+			#Born in Chaos default: 2
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			ATTACK_DAMAGE = -1.0
+			#Born in Chaos default: 0.1
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			ATTACK_KNOCKBACK = -1.0
+			#Born in Chaos default: 0
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			KNOCKBACK_RESISTANCE = -1.0
+			#Born in Chaos default: 0.3
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			MOVEMENT_SPEED = -1.0
+			#Born in Chaos default: 16
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			FOLLOW_RANGE = -1.0
+
+		#Applies to: born_in_chaos_v1:supreme_bonescaller_stage_2
+		[Weapons.Mobs."Supreme Bonescaller Phase 2"]
+			#Born in Chaos default: 60
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			MAX_HEALTH = -1.0
+			#Born in Chaos default: 5
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			ARMOR = -1.0
+			#Born in Chaos default: 0
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			ARMOR_TOUGHNESS = -1.0
+			#Born in Chaos default: 5
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			ATTACK_DAMAGE = -1.0
+			#Born in Chaos default: 0.2
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			ATTACK_KNOCKBACK = -1.0
+			#Born in Chaos default: 0.5
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			KNOCKBACK_RESISTANCE = -1.0
+			#Born in Chaos default: 0.2
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			MOVEMENT_SPEED = -1.0
+			#Born in Chaos default: 15
+			#-1 keeps Born in Chaos's value
+			#Range: -1.0 ~ 1000000.0
+			FOLLOW_RANGE = -1.0
+
+	#Applies to: born_in_chaos_v1:birch_branches
+	[Weapons."Birch Branches"]
+		#Born in Chaos default: 3
+		#-1 keeps Born in Chaos's value
+		#Range: -1.0 ~ 1000000.0
+		ATTACK_DAMAGE = -1.0
+		#Born in Chaos default: 1.6
+		#-1 keeps Born in Chaos's value
+		#Range: -1.0 ~ 1000000.0
+		ATTACK_SPEED = -1.0
+		#Born in Chaos default: 300
+		#-1 keeps Born in Chaos's value, 0 makes it unbreakable
+		#Range: > -1
+		DURABILITY = -1
+
+	#Applies to: born_in_chaos_v1:carrot_sword
+	[Weapons."Carrot Sword"]
+		#Born in Chaos default: 6.5
+		#-1 keeps Born in Chaos's value
+		#Range: -1.0 ~ 1000000.0
+		ATTACK_DAMAGE = -1.0
+		#Born in Chaos default: 1.6
+		#-1 keeps Born in Chaos's value
+		#Range: -1.0 ~ 1000000.0
+		ATTACK_SPEED = -1.0
+		#Born in Chaos default: 600
+		#-1 keeps Born in Chaos's value, 0 makes it unbreakable
+		#Range: > -1
+		DURABILITY = -1
+
+	#Applies to: born_in_chaos_v1:dark_ritual_dagger
+	[Weapons."Dark Ritual Dagger"]
+		#Born in Chaos default: 6
+		#-1 keeps Born in Chaos's value
+		#Range: -1.0 ~ 1000000.0
+		ATTACK_DAMAGE = -1.0
+		#Born in Chaos default: 2
+		#-1 keeps Born in Chaos's value
+		#Range: -1.0 ~ 1000000.0
+		ATTACK_SPEED = -1.0
+		#Born in Chaos default: 700
+		#-1 keeps Born in Chaos's value, 0 makes it unbreakable
+		#Range: > -1
+		DURABILITY = -1
+
+	#Applies to: born_in_chaos_v1:darkwarblade
+	[Weapons."Dark Warblade"]
+		#Born in Chaos default: 20
+		#-1 keeps Born in Chaos's value
+		#Range: -1.0 ~ 1000000.0
+		ATTACK_DAMAGE = -1.0
+		#Born in Chaos default: 0.8
+		#-1 keeps Born in Chaos's value
+		#Range: -1.0 ~ 1000000.0
+		ATTACK_SPEED = -1.0
+		#Born in Chaos default: 4000
+		#-1 keeps Born in Chaos's value, 0 makes it unbreakable
+		#Range: > -1
+		DURABILITY = -1
+
+	#Applies to: born_in_chaos_v1:frostbitten_blade
+	[Weapons."Frostbitten Blade"]
+		#Born in Chaos default: 6
+		#-1 keeps Born in Chaos's value
+		#Range: -1.0 ~ 1000000.0
+		ATTACK_DAMAGE = -1.0
+		#Born in Chaos default: 1.4
+		#-1 keeps Born in Chaos's value
+		#Range: -1.0 ~ 1000000.0
+		ATTACK_SPEED = -1.0
+		#Born in Chaos default: 1100
+		#-1 keeps Born in Chaos's value, 0 makes it unbreakable
+		#Range: > -1
+		DURABILITY = -1
+
+	#Applies to: born_in_chaos_v1:great_reaper_axe
+	[Weapons."Great Reaper Axe"]
+		#Born in Chaos default: 10
+		#-1 keeps Born in Chaos's value
+		#Range: -1.0 ~ 1000000.0
+		ATTACK_DAMAGE = -1.0
+		#Born in Chaos default: 1
+		#-1 keeps Born in Chaos's value
+		#Range: -1.0 ~ 1000000.0
+		ATTACK_SPEED = -1.0
+		#Born in Chaos default: 1100
+		#-1 keeps Born in Chaos's value, 0 makes it unbreakable
+		#Range: > -1
+		DURABILITY = -1
+
+	#Applies to: born_in_chaos_v1:icy_sweetness
+	[Weapons."Icy Sweetness"]
+		#Born in Chaos default: 6
+		#-1 keeps Born in Chaos's value
+		#Range: -1.0 ~ 1000000.0
+		ATTACK_DAMAGE = -1.0
+		#Born in Chaos default: 1.4
+		#-1 keeps Born in Chaos's value
+		#Range: -1.0 ~ 1000000.0
+		ATTACK_SPEED = -1.0
+		#Born in Chaos default: 2000
+		#-1 keeps Born in Chaos's value, 0 makes it unbreakable
+		#Range: > -1
+		DURABILITY = -1
+
+	#Applies to: born_in_chaos_v1:intoxicating_dagger
+	[Weapons."Intoxicating Dagger"]
+		#Born in Chaos default: 6
+		#-1 keeps Born in Chaos's value
+		#Range: -1.0 ~ 1000000.0
+		ATTACK_DAMAGE = -1.0
+		#Born in Chaos default: 2
+		#-1 keeps Born in Chaos's value
+		#Range: -1.0 ~ 1000000.0
+		ATTACK_SPEED = -1.0
+		#Born in Chaos default: 1100
+		#-1 keeps Born in Chaos's value, 0 makes it unbreakable
+		#Range: > -1
+		DURABILITY = -1
+
+	#Applies to: born_in_chaos_v1:nightmare_scythe
+	[Weapons."Nightmare Scythe"]
+		#Born in Chaos default: 9
+		#-1 keeps Born in Chaos's value
+		#Range: -1.0 ~ 1000000.0
+		ATTACK_DAMAGE = -1.0
+		#Born in Chaos default: 1.1
+		#-1 keeps Born in Chaos's value
+		#Range: -1.0 ~ 1000000.0
+		ATTACK_SPEED = -1.0
+		#Born in Chaos default: 700
+		#-1 keeps Born in Chaos's value, 0 makes it unbreakable
+		#Range: > -1
+		DURABILITY = -1
+
+	#Applies to: born_in_chaos_v1:nut_hammer
+	[Weapons."Nut Hammer"]
+		#Born in Chaos default: 5
+		#-1 keeps Born in Chaos's value
+		#Range: -1.0 ~ 1000000.0
+		ATTACK_DAMAGE = -1.0
+		#Born in Chaos default: 1.3
+		#-1 keeps Born in Chaos's value
+		#Range: -1.0 ~ 1000000.0
+		ATTACK_SPEED = -1.0
+		#Born in Chaos default: 250
+		#-1 keeps Born in Chaos's value, 0 makes it unbreakable
+		#Range: > -1
+		DURABILITY = -1
+
+	#Applies to: born_in_chaos_v1:trident_hayfork
+	[Weapons.Pitchfork]
+		#Born in Chaos default: 9
+		#-1 keeps Born in Chaos's value
+		#Range: -1.0 ~ 1000000.0
+		ATTACK_DAMAGE = -1.0
+		#Born in Chaos default: 1.3
+		#-1 keeps Born in Chaos's value
+		#Range: -1.0 ~ 1000000.0
+		ATTACK_SPEED = -1.0
+		#Born in Chaos default: 270
+		#-1 keeps Born in Chaos's value, 0 makes it unbreakable
+		#Range: > -1
+		DURABILITY = -1
+
+	#Applies to: born_in_chaos_v1:sharpened_dark_metal_sword
+	[Weapons."Sharpened Dark Metal Sword"]
+		#Born in Chaos default: 7
+		#-1 keeps Born in Chaos's value
+		#Range: -1.0 ~ 1000000.0
+		ATTACK_DAMAGE = -1.0
+		#Born in Chaos default: 1.7
+		#-1 keeps Born in Chaos's value
+		#Range: -1.0 ~ 1000000.0
+		ATTACK_SPEED = -1.0
+		#Born in Chaos default: 1100
+		#-1 keeps Born in Chaos's value, 0 makes it unbreakable
+		#Range: > -1
+		DURABILITY = -1
+
+	#Applies to: born_in_chaos_v1:shell_mace
+	[Weapons."Shell Mace"]
+		#Born in Chaos default: 8
+		#-1 keeps Born in Chaos's value
+		#Range: -1.0 ~ 1000000.0
+		ATTACK_DAMAGE = -1.0
+		#Born in Chaos default: 1.4
+		#-1 keeps Born in Chaos's value
+		#Range: -1.0 ~ 1000000.0
+		ATTACK_SPEED = -1.0
+		#Born in Chaos default: 400
+		#-1 keeps Born in Chaos's value, 0 makes it unbreakable
+		#Range: > -1
+		DURABILITY = -1
+
+	#Applies to: born_in_chaos_v1:skullbreaker_hammer
+	[Weapons."Skullbreaker Hammer"]
+		#Born in Chaos default: 11
+		#-1 keeps Born in Chaos's value
+		#Range: -1.0 ~ 1000000.0
+		ATTACK_DAMAGE = -1.0
+		#Born in Chaos default: 0.9
+		#-1 keeps Born in Chaos's value
+		#Range: -1.0 ~ 1000000.0
+		ATTACK_SPEED = -1.0
+		#Born in Chaos default: 1700
+		#-1 keeps Born in Chaos's value, 0 makes it unbreakable
+		#Range: > -1
+		DURABILITY = -1
+
+	#Applies to: born_in_chaos_v1:soul_cutlass
+	[Weapons."Soul Saber"]
+		#Born in Chaos default: 6
+		#-1 keeps Born in Chaos's value
+		#Range: -1.0 ~ 1000000.0
+		ATTACK_DAMAGE = -1.0
+		#Born in Chaos default: 1.8
+		#-1 keeps Born in Chaos's value
+		#Range: -1.0 ~ 1000000.0
+		ATTACK_SPEED = -1.0
+		#Born in Chaos default: 700
+		#-1 keeps Born in Chaos's value, 0 makes it unbreakable
+		#Range: > -1
+		DURABILITY = -1
+
+	#Applies to: born_in_chaos_v1:soulbane
+	[Weapons.Soulbane]
+		#Born in Chaos default: 12
+		#-1 keeps Born in Chaos's value
+		#Range: -1.0 ~ 1000000.0
+		ATTACK_DAMAGE = -1.0
+		#Born in Chaos default: 1.7
+		#-1 keeps Born in Chaos's value
+		#Range: -1.0 ~ 1000000.0
+		ATTACK_SPEED = -1.0
+		#Born in Chaos default: 3000
+		#-1 keeps Born in Chaos's value, 0 makes it unbreakable
+		#Range: > -1
+		DURABILITY = -1
+
+	#Applies to: born_in_chaos_v1:spider_bite_sword
+	[Weapons."Spider Bite"]
+		#Born in Chaos default: 6
+		#-1 keeps Born in Chaos's value
+		#Range: -1.0 ~ 1000000.0
+		ATTACK_DAMAGE = -1.0
+		#Born in Chaos default: 1.6
+		#-1 keeps Born in Chaos's value
+		#Range: -1.0 ~ 1000000.0
+		ATTACK_SPEED = -1.0
+		#Born in Chaos default: 1100
+		#-1 keeps Born in Chaos's value, 0 makes it unbreakable
+		#Range: > -1
+		DURABILITY = -1
+
+	#Applies to: born_in_chaos_v1:spiritual_sword
+	[Weapons."Spirit Divider"]
+		#Born in Chaos default: 5
+		#-1 keeps Born in Chaos's value
+		#Range: -1.0 ~ 1000000.0
+		ATTACK_DAMAGE = -1.0
+		#Born in Chaos default: 1.8
+		#-1 keeps Born in Chaos's value
+		#Range: -1.0 ~ 1000000.0
+		ATTACK_SPEED = -1.0
+		#Born in Chaos default: 500
+		#-1 keeps Born in Chaos's value, 0 makes it unbreakable
+		#Range: > -1
+		DURABILITY = -1
+
+	#Applies to: born_in_chaos_v1:supreme_measure
+	[Weapons."Supreme Measure"]
+		#Born in Chaos default: 5000
+		#-1 keeps Born in Chaos's value
+		#Range: -1.0 ~ 1000000.0
+		ATTACK_DAMAGE = -1.0
+		#Born in Chaos default: 1
+		#-1 keeps Born in Chaos's value
+		#Range: -1.0 ~ 1000000.0
+		ATTACK_SPEED = -1.0
+		#Born in Chaos default: 0
+		#-1 keeps Born in Chaos's value, 0 makes it unbreakable
+		#Range: > -1
+		DURABILITY = -1
+
+	#Applies to: born_in_chaos_v1:sweet_axe
+	[Weapons."Sweet Axe"]
+		#Born in Chaos default: 9
+		#-1 keeps Born in Chaos's value
+		#Range: -1.0 ~ 1000000.0
+		ATTACK_DAMAGE = -1.0
+		#Born in Chaos default: 0.9
+		#-1 keeps Born in Chaos's value
+		#Range: -1.0 ~ 1000000.0
+		ATTACK_SPEED = -1.0
+		#Born in Chaos default: 600
+		#-1 keeps Born in Chaos's value, 0 makes it unbreakable
+		#Range: > -1
+		DURABILITY = -1
+
+	#Applies to: born_in_chaos_v1:sweet_sword
+	[Weapons."Sweet Sword"]
+		#Born in Chaos default: 6.5
+		#-1 keeps Born in Chaos's value
+		#Range: -1.0 ~ 1000000.0
+		ATTACK_DAMAGE = -1.0
+		#Born in Chaos default: 1.6
+		#-1 keeps Born in Chaos's value
+		#Range: -1.0 ~ 1000000.0
+		ATTACK_SPEED = -1.0
+		#Born in Chaos default: 600
+		#-1 keeps Born in Chaos's value, 0 makes it unbreakable
+		#Range: > -1
+		DURABILITY = -1
+
+	#Applies to: born_in_chaos_v1:wood_splitter_axe
+	[Weapons."Wood Splitter"]
+		#Born in Chaos default: 10
+		#-1 keeps Born in Chaos's value
+		#Range: -1.0 ~ 1000000.0
+		ATTACK_DAMAGE = -1.0
+		#Born in Chaos default: 1
+		#-1 keeps Born in Chaos's value
+		#Range: -1.0 ~ 1000000.0
+		ATTACK_SPEED = -1.0
+		#Born in Chaos default: 270
+		#-1 keeps Born in Chaos's value, 0 makes it unbreakable
+		#Range: > -1
+		DURABILITY = -1
+
+	#Applies to: born_in_chaos_v1:bonescaller_staff
+	[Weapons."Bonescaller Staff"]
+		#Born in Chaos default: 150
+		#-1 keeps Born in Chaos's value, 0 makes it unbreakable
+		#Range: > -1
+		DURABILITY = -1
+
+	#Applies to: born_in_chaos_v1:pumpkinhandgun
+	[Weapons."Pumpkin Pistol"]
+		#Born in Chaos default: 3000
+		#-1 keeps Born in Chaos's value, 0 makes it unbreakable
+		#Range: > -1
+		DURABILITY = -1
+
+	#Applies to: born_in_chaos_v1:pumpkinstaffa
+	[Weapons."Pumpkin Staff"]
+		#Born in Chaos default: 360
+		#-1 keeps Born in Chaos's value, 0 makes it unbreakable
+		#Range: > -1
+		DURABILITY = -1
+
+	#Applies to: born_in_chaos_v1:staffof_blindness
+	[Weapons."Staff of Blindness"]
+		#Born in Chaos default: 100
+		#-1 keeps Born in Chaos's value, 0 makes it unbreakable
+		#Range: > -1
+		DURABILITY = -1
+
+	#Applies to: born_in_chaos_v1:staff_of_magic_arrows
+	[Weapons."Staff of Magic Arrows"]
+		#Born in Chaos default: 150
+		#-1 keeps Born in Chaos's value, 0 makes it unbreakable
+		#Range: > -1
+		DURABILITY = -1
+
+	#Applies to: born_in_chaos_v1:stormcallers_horn
+	[Weapons."Stormcaller's Horn"]
+		#Born in Chaos default: 150
+		#-1 keeps Born in Chaos's value, 0 makes it unbreakable
+		#Range: > -1
+		DURABILITY = -1
+
+[Armor]
+
+	#Applies to: born_in_chaos_v1:damned_demomans_hat_helmet
+	[Armor."Damned Demoman's Hat"]
+		#Born in Chaos default: 2
+		#-1 keeps Born in Chaos's value
+		#Range: -1.0 ~ 1000000.0
+		ARMOR = -1.0
+		#Born in Chaos default: 0
+		#-1 keeps Born in Chaos's value
+		#Range: -1.0 ~ 1000000.0
+		ARMOR_TOUGHNESS = -1.0
+		#Born in Chaos default: 0
+		#-1 keeps Born in Chaos's value
+		#Range: -1.0 ~ 1000000.0
+		KNOCKBACK_RESISTANCE = -1.0
+		#Born in Chaos default: 330
+		#-1 keeps Born in Chaos's value, 0 makes it unbreakable
+		#Range: > -1
+		DURABILITY = -1
+
+	#Applies to: born_in_chaos_v1:dark_metal_armor_helmet
+	[Armor."Dark Metal Helmet"]
+		#Born in Chaos default: 4
+		#-1 keeps Born in Chaos's value
+		#Range: -1.0 ~ 1000000.0
+		ARMOR = -1.0
+		#Born in Chaos default: 5
+		#-1 keeps Born in Chaos's value
+		#Range: -1.0 ~ 1000000.0
+		ARMOR_TOUGHNESS = -1.0
+		#Born in Chaos default: 0.1
+		#-1 keeps Born in Chaos's value
+		#Range: -1.0 ~ 1000000.0
+		KNOCKBACK_RESISTANCE = -1.0
+		#Born in Chaos default: 550
+		#-1 keeps Born in Chaos's value, 0 makes it unbreakable
+		#Range: > -1
+		DURABILITY = -1
+
+	#Applies to: born_in_chaos_v1:dark_metal_armor_chestplate
+	[Armor."Dark Metal Chestplate"]
+		#Born in Chaos default: 10
+		#-1 keeps Born in Chaos's value
+		#Range: -1.0 ~ 1000000.0
+		ARMOR = -1.0
+		#Born in Chaos default: 5
+		#-1 keeps Born in Chaos's value
+		#Range: -1.0 ~ 1000000.0
+		ARMOR_TOUGHNESS = -1.0
+		#Born in Chaos default: 0.1
+		#-1 keeps Born in Chaos's value
+		#Range: -1.0 ~ 1000000.0
+		KNOCKBACK_RESISTANCE = -1.0
+		#Born in Chaos default: 800
+		#-1 keeps Born in Chaos's value, 0 makes it unbreakable
+		#Range: > -1
+		DURABILITY = -1
+
+	#Applies to: born_in_chaos_v1:dark_metal_armor_leggings
+	[Armor."Dark Metal Leggings"]
+		#Born in Chaos default: 7
+		#-1 keeps Born in Chaos's value
+		#Range: -1.0 ~ 1000000.0
+		ARMOR = -1.0
+		#Born in Chaos default: 5
+		#-1 keeps Born in Chaos's value
+		#Range: -1.0 ~ 1000000.0
+		ARMOR_TOUGHNESS = -1.0
+		#Born in Chaos default: 0.1
+		#-1 keeps Born in Chaos's value
+		#Range: -1.0 ~ 1000000.0
+		KNOCKBACK_RESISTANCE = -1.0
+		#Born in Chaos default: 750
+		#-1 keeps Born in Chaos's value, 0 makes it unbreakable
+		#Range: > -1
+		DURABILITY = -1
+
+	#Applies to: born_in_chaos_v1:dark_metal_armor_boots
+	[Armor."Dark Metal Boots"]
+		#Born in Chaos default: 3
+		#-1 keeps Born in Chaos's value
+		#Range: -1.0 ~ 1000000.0
+		ARMOR = -1.0
+		#Born in Chaos default: 5
+		#-1 keeps Born in Chaos's value
+		#Range: -1.0 ~ 1000000.0
+		ARMOR_TOUGHNESS = -1.0
+		#Born in Chaos default: 0.1
+		#-1 keeps Born in Chaos's value
+		#Range: -1.0 ~ 1000000.0
+		KNOCKBACK_RESISTANCE = -1.0
+		#Born in Chaos default: 650
+		#-1 keeps Born in Chaos's value, 0 makes it unbreakable
+		#Range: > -1
+		DURABILITY = -1
+
+	#Applies to: born_in_chaos_v1:killer_rabbit_ears_helmet
+	[Armor."Killer Rabbit Ears"]
+		#Born in Chaos default: 2
+		#-1 keeps Born in Chaos's value
+		#Range: -1.0 ~ 1000000.0
+		ARMOR = -1.0
+		#Born in Chaos default: 0
+		#-1 keeps Born in Chaos's value
+		#Range: -1.0 ~ 1000000.0
+		ARMOR_TOUGHNESS = -1.0
+		#Born in Chaos default: 0
+		#-1 keeps Born in Chaos's value
+		#Range: -1.0 ~ 1000000.0
+		KNOCKBACK_RESISTANCE = -1.0
+		#Born in Chaos default: 220
+		#-1 keeps Born in Chaos's value, 0 makes it unbreakable
+		#Range: > -1
+		DURABILITY = -1
+
+	#Applies to: born_in_chaos_v1:lord_pumpkinheads_hat_helmet
+	[Armor."Lord Pumpkinhead's Hat"]
+		#Born in Chaos default: 3
+		#-1 keeps Born in Chaos's value
+		#Range: -1.0 ~ 1000000.0
+		ARMOR = -1.0
+		#Born in Chaos default: 1.5
+		#-1 keeps Born in Chaos's value
+		#Range: -1.0 ~ 1000000.0
+		ARMOR_TOUGHNESS = -1.0
+		#Born in Chaos default: 0
+		#-1 keeps Born in Chaos's value
+		#Range: -1.0 ~ 1000000.0
+		KNOCKBACK_RESISTANCE = -1.0
+		#Born in Chaos default: 3300
+		#-1 keeps Born in Chaos's value, 0 makes it unbreakable
+		#Range: > -1
+		DURABILITY = -1
+
+	#Applies to: born_in_chaos_v1:missionary_hat_helmet
+	[Armor."Missionary Hat"]
+		#Born in Chaos default: 3
+		#-1 keeps Born in Chaos's value
+		#Range: -1.0 ~ 1000000.0
+		ARMOR = -1.0
+		#Born in Chaos default: 0.5
+		#-1 keeps Born in Chaos's value
+		#Range: -1.0 ~ 1000000.0
+		ARMOR_TOUGHNESS = -1.0
+		#Born in Chaos default: 0
+		#-1 keeps Born in Chaos's value
+		#Range: -1.0 ~ 1000000.0
+		KNOCKBACK_RESISTANCE = -1.0
+		#Born in Chaos default: 440
+		#-1 keeps Born in Chaos's value, 0 makes it unbreakable
+		#Range: > -1
+		DURABILITY = -1
+
+	#Applies to: born_in_chaos_v1:nightmare_mantleofthe_night_helmet
+	[Armor."Nightmare Mask"]
+		#Born in Chaos default: 4
+		#-1 keeps Born in Chaos's value
+		#Range: -1.0 ~ 1000000.0
+		ARMOR = -1.0
+		#Born in Chaos default: 1
+		#-1 keeps Born in Chaos's value
+		#Range: -1.0 ~ 1000000.0
+		ARMOR_TOUGHNESS = -1.0
+		#Born in Chaos default: 0
+		#-1 keeps Born in Chaos's value
+		#Range: -1.0 ~ 1000000.0
+		KNOCKBACK_RESISTANCE = -1.0
+		#Born in Chaos default: 330
+		#-1 keeps Born in Chaos's value, 0 makes it unbreakable
+		#Range: > -1
+		DURABILITY = -1
+
+	#Applies to: born_in_chaos_v1:nightmare_mantleofthe_night_chestplate
+	[Armor."Nightmare Robe"]
+		#Born in Chaos default: 7
+		#-1 keeps Born in Chaos's value
+		#Range: -1.0 ~ 1000000.0
+		ARMOR = -1.0
+		#Born in Chaos default: 1
+		#-1 keeps Born in Chaos's value
+		#Range: -1.0 ~ 1000000.0
+		ARMOR_TOUGHNESS = -1.0
+		#Born in Chaos default: 0
+		#-1 keeps Born in Chaos's value
+		#Range: -1.0 ~ 1000000.0
+		KNOCKBACK_RESISTANCE = -1.0
+		#Born in Chaos default: 480
+		#-1 keeps Born in Chaos's value, 0 makes it unbreakable
+		#Range: > -1
+		DURABILITY = -1
+
+	#Applies to: born_in_chaos_v1:nightmare_mantleofthe_night_leggings
+	[Armor."Nightmare Pants"]
+		#Born in Chaos default: 6
+		#-1 keeps Born in Chaos's value
+		#Range: -1.0 ~ 1000000.0
+		ARMOR = -1.0
+		#Born in Chaos default: 1
+		#-1 keeps Born in Chaos's value
+		#Range: -1.0 ~ 1000000.0
+		ARMOR_TOUGHNESS = -1.0
+		#Born in Chaos default: 0
+		#-1 keeps Born in Chaos's value
+		#Range: -1.0 ~ 1000000.0
+		KNOCKBACK_RESISTANCE = -1.0
+		#Born in Chaos default: 450
+		#-1 keeps Born in Chaos's value, 0 makes it unbreakable
+		#Range: > -1
+		DURABILITY = -1
+
+	#Applies to: born_in_chaos_v1:nightmare_mantleofthe_night_boots
+	[Armor."Nightmare Boots"]
+		#Born in Chaos default: 2
+		#-1 keeps Born in Chaos's value
+		#Range: -1.0 ~ 1000000.0
+		ARMOR = -1.0
+		#Born in Chaos default: 1
+		#-1 keeps Born in Chaos's value
+		#Range: -1.0 ~ 1000000.0
+		ARMOR_TOUGHNESS = -1.0
+		#Born in Chaos default: 0
+		#-1 keeps Born in Chaos's value
+		#Range: -1.0 ~ 1000000.0
+		KNOCKBACK_RESISTANCE = -1.0
+		#Born in Chaos default: 390
+		#-1 keeps Born in Chaos's value, 0 makes it unbreakable
+		#Range: > -1
+		DURABILITY = -1
+
+	#Applies to: born_in_chaos_v1:spiny_shell_armor_helmet
+	[Armor."Spiny Shell Helmet"]
+		#Born in Chaos default: 3
+		#-1 keeps Born in Chaos's value
+		#Range: -1.0 ~ 1000000.0
+		ARMOR = -1.0
+		#Born in Chaos default: 1
+		#-1 keeps Born in Chaos's value
+		#Range: -1.0 ~ 1000000.0
+		ARMOR_TOUGHNESS = -1.0
+		#Born in Chaos default: 0
+		#-1 keeps Born in Chaos's value
+		#Range: -1.0 ~ 1000000.0
+		KNOCKBACK_RESISTANCE = -1.0
+		#Born in Chaos default: 220
+		#-1 keeps Born in Chaos's value, 0 makes it unbreakable
+		#Range: > -1
+		DURABILITY = -1
+
+	#Applies to: born_in_chaos_v1:spiny_shell_armor_chestplate
+	[Armor."Spiny Shell Chestplate"]
+		#Born in Chaos default: 7
+		#-1 keeps Born in Chaos's value
+		#Range: -1.0 ~ 1000000.0
+		ARMOR = -1.0
+		#Born in Chaos default: 1
+		#-1 keeps Born in Chaos's value
+		#Range: -1.0 ~ 1000000.0
+		ARMOR_TOUGHNESS = -1.0
+		#Born in Chaos default: 0
+		#-1 keeps Born in Chaos's value
+		#Range: -1.0 ~ 1000000.0
+		KNOCKBACK_RESISTANCE = -1.0
+		#Born in Chaos default: 320
+		#-1 keeps Born in Chaos's value, 0 makes it unbreakable
+		#Range: > -1
+		DURABILITY = -1
+
+	#Applies to: born_in_chaos_v1:spiritual_guide_sombrero_helmet
+	[Armor."Spiritual Guide Sombrero"]
+		#Born in Chaos default: 3
+		#-1 keeps Born in Chaos's value
+		#Range: -1.0 ~ 1000000.0
+		ARMOR = -1.0
+		#Born in Chaos default: 0.5
+		#-1 keeps Born in Chaos's value
+		#Range: -1.0 ~ 1000000.0
+		ARMOR_TOUGHNESS = -1.0
+		#Born in Chaos default: 0
+		#-1 keeps Born in Chaos's value
+		#Range: -1.0 ~ 1000000.0
+		KNOCKBACK_RESISTANCE = -1.0
+		#Born in Chaos default: 385
+		#-1 keeps Born in Chaos's value, 0 makes it unbreakable
+		#Range: > -1
+		DURABILITY = -1
 

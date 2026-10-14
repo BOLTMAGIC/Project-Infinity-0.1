@@ -46,6 +46,7 @@ Recipe changes and fixes:
 - removed RFToolsDim recipes to prepare for the removal of the mod in 0.0.53.0
 - new Nuclearcraft Reactor in the MBTool (credits to Tuxedo !)
 - gave Power Flowers and Collectors EMC
+- fixed Rose gold / Manyullyn / Cobalt seeds not appearing in JEI (credits to Supa'Spider and Anto)
 
 Quest changes:
 - Removed dedicated Naquadah Reactor questline, added it to the Mekanism questline

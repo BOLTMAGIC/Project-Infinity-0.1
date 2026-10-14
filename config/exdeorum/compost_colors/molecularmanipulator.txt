@@ -1,0 +1,3 @@
+// Compost colors for molecularmanipulator. You may add your own colors, change existing ones, or remove colors that aren't needed.
+black_hole, #d4b4a4
+white_hole, #ffffff

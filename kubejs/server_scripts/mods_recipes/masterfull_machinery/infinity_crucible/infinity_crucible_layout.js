@@ -4,6 +4,15 @@ MMEvents.createStructures((event) => {
     .create('mm:infinity_crucible_structure')
     .controllerId('mm:infinity_crucible_controller')
     .name('Infinity Crucible')
+    .geoModel({
+      model: 'mm:geo/black_hole.geo.json',
+      texture: 'mm:textures/block/black_hole.png',
+      animations: 'mm:animations/black_hole.animation.json',
+      idle: 'animation.black_hole.idle',
+      working: 'animation.black_hole.working',
+      offset: [0, 7, 1],
+      scale: 5,
+    })
     .layout((a) => {
       a.portsAnywhere(true);
       a.layer(['   ', ' P ', '   '])

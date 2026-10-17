@@ -163,8 +163,6 @@
 				"{ftbquests.chapter.masterful_machinery.quest1.description3}"
 				""
 				"{ftbquests.chapter.masterful_machinery.quest1.description4}"
-				""
-				"{ftbquests.chapter.masterful_machinery.quest1.description5}"
 			]
 			hide_dependent_lines: true
 			id: "4402587B0EAC4EEC"
@@ -184,28 +182,19 @@
 			size: 2.0d
 			tasks: [{
 				id: "141F2705D423F3AF"
-				title: "{ftbquests.chapter.masterful_machinery.quest4402587B0EAC4EEC.task.1449920511024034735.title}"
+				title: "{ftbquests.chapter.masterful_machinery.quest1.task_1449920511024034735.title}"
 				type: "checkmark"
 			}]
-			title: "{ftbquests.chapter.masterful_machinery.quest1.task_1449920511024034735.title}"
+			title: "{ftbquests.chapter.masterful_machinery.quest1.title}"
 			x: 0.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["4402587B0EAC4EEC"]
 			description: [
-				"The Event Horizon Antimatter Synthesizer is a powerful alternative to produce Mekanism Antimatter. It is recommended to use multiple Synthesizers together with a Naquadah Reactor (see the &eMekanism&r chapter)."
-				"JEI shows all replacement recipes under the uses of the Controller."
+				"{ftbquests.chapter.masterful_machinery.quest2.description1}"
 				""
-				"&eController:&r a &6Supreme Purifying Factory&r (Mekanism Extras) and an &6Antiprotonic Nucleosynthesizer&r (Mekanism), plus the usual 2 Redstone Servos, 2 Redstone Reception Coils, 2 Cobalt Blocks and a Manasteel Ingot."
-				"{@pagebreak}"
-				"&eStructure:&r every block is listed as a task. Check the structure preview in JEI (uses of the Controller) or let a &eMultiblock Builder&r place it for you."
-				""
-				"&ePorts:&r a recipe only starts if its inputs and outputs fit in the ports, so these are the sizes that run every recipe:"
-				"- 2x Fluid Input: &eSmall&r or bigger"
-				"- 2x Fluid Output: &eSmall&r or bigger"
-				""
-				"The Gigantic Energy and Colossal Gas ports are fixed parts of the structure and are listed as tasks."
+				"{ftbquests.chapter.masterful_machinery.quest2.description2}"
 			]
 			id: "363152D3E6DCCBA7"
 			rewards: [{
@@ -292,7 +281,7 @@
 							]
 						}
 					}
-					title: "Fluid Input Port (Small or bigger)"
+					title: "{ftbquests.chapter.masterful_machinery.quest2.task_9179189341109988298.title}"
 					type: "item"
 				}
 				{
@@ -326,22 +315,22 @@
 							]
 						}
 					}
-					title: "Fluid Output Port (Small or bigger)"
+					title: "{ftbquests.chapter.masterful_machinery.quest2.task_4926921050469696268.title}"
 					type: "item"
 				}
 			]
-			title: "&eEvent Horizon Antimatter Synthesizer&r"
+			title: "{ftbquests.chapter.masterful_machinery.quest2.title}"
 			x: 4.0d
 			y: 1.5d
 		}
 		{
 			dependencies: ["4402587B0EAC4EEC"]
 			description: [
-				"The Fire Attuned Machine offers a few high temperature recipes:"
+				"{ftbquests.chapter.masterful_machinery.quest3.description1}"
 				""
-				"- Bulk Lava from Cobblestone"
-				"- Life Essence from &aTerrasteel&r (skips the Blood Altar grind)"
-				"- Late game fluids: &dEther Gas&r, &dLiquid Sculk Matter&r, &dLiquid Dragon Breath&r"
+				"{ftbquests.chapter.masterful_machinery.quest3.description2}"
+				"{ftbquests.chapter.masterful_machinery.quest3.description3}"
+				"{ftbquests.chapter.masterful_machinery.quest3.description4}"
 			]
 			id: "3F6F01364D47157D"
 			rewards: [{
@@ -370,6 +359,18 @@
 							items: [
 								{
 									Count: 1b
+									id: "mm:tiny_energy_port_input"
+								}
+								{
+									Count: 1b
+									id: "mm:small_energy_port_input"
+								}
+								{
+									Count: 1b
+									id: "mm:normal_energy_port_input"
+								}
+								{
+									Count: 1b
 									id: "mm:big_energy_port_input"
 								}
 								{
@@ -383,7 +384,7 @@
 							]
 						}
 					}
-					title: "Energy Input Port (Big or bigger)"
+					title: "{ftbquests.chapter.masterful_machinery.quest3.task_5908068302926552106.title}"
 					type: "item"
 				}
 				{
@@ -393,6 +394,10 @@
 						id: "itemfilters:or"
 						tag: {
 							items: [
+								{
+									Count: 1b
+									id: "mm:tiny_item_port_output"
+								}
 								{
 									Count: 1b
 									id: "mm:small_item_port_output"
@@ -432,7 +437,7 @@
 							]
 						}
 					}
-					title: "Item Output Port (Small or bigger)"
+					title: "{ftbquests.chapter.masterful_machinery.quest3.task_8448606096061364950.title}"
 					type: "item"
 				}
 				{
@@ -442,6 +447,10 @@
 						id: "itemfilters:or"
 						tag: {
 							items: [
+								{
+									Count: 1b
+									id: "mm:tiny_item_port_input"
+								}
 								{
 									Count: 1b
 									id: "mm:small_item_port_input"
@@ -481,7 +490,7 @@
 							]
 						}
 					}
-					title: "Item Input Port (Small or bigger)"
+					title: "{ftbquests.chapter.masterful_machinery.quest3.task_3202758509875062602.title}"
 					type: "item"
 				}
 				{
@@ -514,7 +523,7 @@
 							]
 						}
 					}
-					title: "Fluid Input Port (Small or bigger)"
+					title: "{ftbquests.chapter.masterful_machinery.quest3.task_1272389418802652823.title}"
 					type: "item"
 				}
 				{
@@ -547,35 +556,25 @@
 							]
 						}
 					}
-					title: "Fluid Output Port (Small or bigger)"
+					title: "{ftbquests.chapter.masterful_machinery.quest3.task_8075826063782438849.title}"
 					type: "item"
 				}
 			]
-			title: "&eFire Attuned Tier 1&r"
+			title: "{ftbquests.chapter.masterful_machinery.quest3.title}"
 			x: 0.0d
 			y: 4.0d
 		}
 		{
 			dependencies: ["3F6F01364D47157D"]
 			description: [
-				"Upgrades the Fire Attuned Machine from Tier 1 to Tier 2."
+				"{ftbquests.chapter.masterful_machinery.quest4.description1}"
 				""
-				"&eSwap:&r take out 1x Factory Blue Framed Circuit and put the blocks from the tasks in their place."
-				""
-				"&ePorts:&r this tier needs bigger ports to run all its recipes:"
-				"- 1x Energy Input: &eGigantic&r &7(Enormous runs 8 of 11 recipes)&r"
-				"- 1x Item Output: &eGigantic&r or bigger &7(Enormous runs 2 of 3 recipes)&r"
-				"- 1x Item Input: &eBig&r or bigger &7(Normal runs 10 of 11 recipes)&r"
-				""
-				"Tier 2 runs much bigger batches (about 5-10x per craft), runs faster and unlocks &dLiquid Malic Acid&r from apples."
-				"A Tier 2 build only runs Tier 2 recipes, so make sure your inputs and power can keep up."
-				""
-				"Check the structure preview in JEI (uses of the Controller) for the exact layout."
+				"{ftbquests.chapter.masterful_machinery.quest4.description2}"
 			]
 			id: "11A1BCC8C45E26A9"
 			rewards: [{
 				id: "4934A75F738FC2A2"
-				item: "kubejs:apotheotic_coin"
+				item: "kubejs:ascended_coin"
 				type: "item"
 			}]
 			size: 0.75d
@@ -599,6 +598,26 @@
 							items: [
 								{
 									Count: 1b
+									id: "mm:tiny_item_port_output"
+								}
+								{
+									Count: 1b
+									id: "mm:small_item_port_output"
+								}
+								{
+									Count: 1b
+									id: "mm:normal_item_port_output"
+								}
+								{
+									Count: 1b
+									id: "mm:big_item_port_output"
+								}
+								{
+									Count: 1b
+									id: "mm:enormous_item_port_output"
+								}
+								{
+									Count: 1b
 									id: "mm:gigantic_item_port_output"
 								}
 								{
@@ -620,7 +639,7 @@
 							]
 						}
 					}
-					title: "Item Output Port (Gigantic or bigger)"
+					title: "{ftbquests.chapter.masterful_machinery.quest4.task_1301244928586560374.title}"
 					type: "item"
 				}
 				{
@@ -630,6 +649,18 @@
 						id: "itemfilters:or"
 						tag: {
 							items: [
+								{
+									Count: 1b
+									id: "mm:tiny_item_port_input"
+								}
+								{
+									Count: 1b
+									id: "mm:small_item_port_input"
+								}
+								{
+									Count: 1b
+									id: "mm:normal_item_port_input"
+								}
 								{
 									Count: 1b
 									id: "mm:big_item_port_input"
@@ -661,11 +692,11 @@
 							]
 						}
 					}
-					title: "Item Input Port (Big or bigger)"
+					title: "{ftbquests.chapter.masterful_machinery.quest4.task_620608253478046912.title}"
 					type: "item"
 				}
 			]
-			title: "&eFire Attuned Tier 2&r"
+			title: "{ftbquests.chapter.masterful_machinery.quest4.title}"
 			x: 0.0d
 			y: 5.25d
 		}
@@ -675,21 +706,11 @@
 				"45FD2226287B545E"
 			]
 			description: [
-				"The Loot Fabrication Plant produces loot from mob predictions."
-				"Unlike the Loot Fabricator you don't choose an item in the GUI but place the desired item in the input port along with the predictions. The \"blueprint\" item is not consumed."
-				"For all available loot fabrications look up the uses of the Controller."
+				"{ftbquests.chapter.masterful_machinery.quest5.description1}"
 				""
-				"&eController:&r a &6Simulator Modeling&r and a &6Merger Camera&r (Extra Hostile Neural Networks, see the &eHostile Neural Networks&r chapter), plus the usual 2 Redstone Servos, 2 Redstone Reception Coils, 2 Cobalt Blocks and a Manasteel Ingot."
-				"{@pagebreak}"
-				"&eLoot Fabrication Plant Tier 1 structure:&r every block is listed as a task. Check the structure preview in JEI (uses of the Controller) or let a &eMultiblock Builder&r place it for you."
+				"{ftbquests.chapter.masterful_machinery.quest5.description2}"
 				""
-				"&ePorts:&r a recipe only starts if its inputs and outputs fit in the ports, so these are the sizes that run every recipe:"
-				"- 1x Item Input: &eNormal&r or bigger"
-				"- 1x Item Output: &eCompressed Titanic&r or bigger &7(Titanic runs 80 of 201 recipes)&r"
-				""
-				"Each craft returns a huge pile of loot, so the output port has to be big. Smaller output ports only run the recipes with small outputs."
-				""
-				"Higher tiers are optional upgrades, see the quests further out."
+				"{ftbquests.chapter.masterful_machinery.quest5.description3}"
 			]
 			id: "74D33264B4291BCB"
 			rewards: [{
@@ -775,6 +796,14 @@
 							items: [
 								{
 									Count: 1b
+									id: "mm:tiny_item_port_input"
+								}
+								{
+									Count: 1b
+									id: "mm:small_item_port_input"
+								}
+								{
+									Count: 1b
 									id: "mm:normal_item_port_input"
 								}
 								{
@@ -808,7 +837,7 @@
 							]
 						}
 					}
-					title: "Item Input Port (Normal or bigger)"
+					title: "{ftbquests.chapter.masterful_machinery.quest5.task_4976510332332534034.title}"
 					type: "item"
 				}
 				{
@@ -820,6 +849,38 @@
 							items: [
 								{
 									Count: 1b
+									id: "mm:tiny_item_port_output"
+								}
+								{
+									Count: 1b
+									id: "mm:small_item_port_output"
+								}
+								{
+									Count: 1b
+									id: "mm:normal_item_port_output"
+								}
+								{
+									Count: 1b
+									id: "mm:big_item_port_output"
+								}
+								{
+									Count: 1b
+									id: "mm:enormous_item_port_output"
+								}
+								{
+									Count: 1b
+									id: "mm:gigantic_item_port_output"
+								}
+								{
+									Count: 1b
+									id: "mm:colossal_item_port_output"
+								}
+								{
+									Count: 1b
+									id: "mm:titanic_item_port_output"
+								}
+								{
+									Count: 1b
 									id: "mm:compressed_titanic_item_port_output"
 								}
 								{
@@ -829,33 +890,21 @@
 							]
 						}
 					}
-					title: "Item Output Port (Compressed Titanic or bigger)"
+					title: "{ftbquests.chapter.masterful_machinery.quest5.task_589405069317548174.title}"
 					type: "item"
 				}
 			]
-			title: "&eLoot Fabrication Plant Tier 1&r"
+			title: "{ftbquests.chapter.masterful_machinery.quest5.title}"
 			x: -4.0d
 			y: -1.5d
 		}
 		{
 			dependencies: ["74D33264B4291BCB"]
-			description: [
-				"Upgrades the Loot Fabrication Plant from Tier 1 to Tier 2."
-				""
-				"&eChanges:&r take out 2x Ultimate Loot Fabricator V1, 2x Ultimate Sim Chamber V1, 1x Crimson Dragonstone Block, then add the blocks from the tasks."
-				""
-				"&ePorts:&r this tier needs bigger ports to run all its recipes:"
-				"- 1x Item Input: &eCompressed Titanic&r or bigger"
-				"- 1x Item Output: &eSuper Compressed Titanic&r &7(Compressed Titanic runs 46 of 201 recipes)&r"
-				""
-				"Tier 2 turns 32x more predictions into loot per craft and finishes a craft every tick."
-				""
-				"Check the structure preview in JEI (uses of the Controller) for the exact layout."
-			]
+			description: ["{ftbquests.chapter.masterful_machinery.quest6.description1}"]
 			id: "05DACDD9D82ED9A2"
 			rewards: [{
-				id: "63FC1B9DE9A1BB58"
-				item: "kubejs:apotheotic_coin"
+				id: "3D360861EEC4F1A1"
+				item: "kubejs:ascended_coin"
 				type: "item"
 			}]
 			size: 0.75d
@@ -892,6 +941,38 @@
 							items: [
 								{
 									Count: 1b
+									id: "mm:tiny_item_port_input"
+								}
+								{
+									Count: 1b
+									id: "mm:small_item_port_input"
+								}
+								{
+									Count: 1b
+									id: "mm:normal_item_port_input"
+								}
+								{
+									Count: 1b
+									id: "mm:big_item_port_input"
+								}
+								{
+									Count: 1b
+									id: "mm:enormous_item_port_input"
+								}
+								{
+									Count: 1b
+									id: "mm:gigantic_item_port_input"
+								}
+								{
+									Count: 1b
+									id: "mm:colossal_item_port_input"
+								}
+								{
+									Count: 1b
+									id: "mm:titanic_item_port_input"
+								}
+								{
+									Count: 1b
 									id: "mm:compressed_titanic_item_port_input"
 								}
 								{
@@ -901,7 +982,7 @@
 							]
 						}
 					}
-					title: "Item Input Port (Compressed Titanic or bigger)"
+					title: "{ftbquests.chapter.masterful_machinery.quest6.task_1036253372104691824.title}"
 					type: "item"
 				}
 				{
@@ -910,7 +991,7 @@
 					type: "item"
 				}
 			]
-			title: "&eLoot Fabrication Plant Tier 2&r"
+			title: "{ftbquests.chapter.masterful_machinery.quest6.title}"
 			x: -5.17d
 			y: -1.94d
 		}
@@ -920,19 +1001,9 @@
 				"33B09B78983BA676"
 			]
 			description: [
-				"The Prediction Chamber Machine is the big brother to the (Extra) Hostile Neural Networks Simulation Chambers."
-				"It needs &6Prediction Matrices&r and an Extra Data Model (Tier: Omnipotent) of a single mob to run."
-				"For all usable Data Models look up the uses of the Controller."
+				"{ftbquests.chapter.masterful_machinery.quest7.description1}"
 				""
-				"&eController:&r a &6Merger Camera&r and a &6Simulator Modeling&r (see the &eHostile Neural Networks&r chapter), plus the usual 2 Redstone Servos, 2 Redstone Reception Coils, 2 Cobalt Blocks and a Manasteel Ingot."
-				"{@pagebreak}"
-				"&ePrediction Chamber Tier 1 structure:&r every block is listed as a task. Check the structure preview in JEI (uses of the Controller) or let a &eMultiblock Builder&r place it for you."
-				""
-				"&ePorts:&r a recipe only starts if its inputs and outputs fit in the ports, so these are the sizes that run every recipe:"
-				"- 2x Item Output: &eNormal&r or bigger"
-				"- 2x Item Input: &eSmall&r or bigger"
-				""
-				"Higher tiers are optional upgrades, see the quests further out."
+				"{ftbquests.chapter.masterful_machinery.quest7.description2}"
 			]
 			id: "59290400D20A1EB2"
 			rewards: [
@@ -944,7 +1015,7 @@
 				}
 				{
 					id: "225863AB67996DC9"
-					item: "kubejs:apotheotic_coin"
+					item: "kubejs:infused_coin"
 					type: "item"
 				}
 			]
@@ -1011,6 +1082,14 @@
 							items: [
 								{
 									Count: 1b
+									id: "mm:tiny_item_port_output"
+								}
+								{
+									Count: 1b
+									id: "mm:small_item_port_output"
+								}
+								{
+									Count: 1b
 									id: "mm:normal_item_port_output"
 								}
 								{
@@ -1044,7 +1123,7 @@
 							]
 						}
 					}
-					title: "Item Output Port (Normal or bigger)"
+					title: "{ftbquests.chapter.masterful_machinery.quest7.task_4291571471735693905.title}"
 					type: "item"
 				}
 				{
@@ -1055,6 +1134,10 @@
 						id: "itemfilters:or"
 						tag: {
 							items: [
+								{
+									Count: 1b
+									id: "mm:tiny_item_port_input"
+								}
 								{
 									Count: 1b
 									id: "mm:small_item_port_input"
@@ -1094,33 +1177,25 @@
 							]
 						}
 					}
-					title: "Item Input Port (Small or bigger)"
+					title: "{ftbquests.chapter.masterful_machinery.quest7.task_7579736580128724705.title}"
 					type: "item"
 				}
 			]
-			title: "&ePrediction Chamber Tier 1&r"
+			title: "{ftbquests.chapter.masterful_machinery.quest7.title}"
 			x: -3.0d
 			y: -3.0d
 		}
 		{
 			dependencies: ["59290400D20A1EB2"]
 			description: [
-				"Upgrades the Prediction Chamber from Tier 1 to Tier 2."
+				"{ftbquests.chapter.masterful_machinery.quest8.description1}"
 				""
-				"&eSwap:&r take out 1x Crimson Dragonstone Block and put the blocks from the tasks in their place."
-				""
-				"&ePorts:&r this tier needs bigger ports to run all its recipes:"
-				"- 2x Item Output: &eTitanic&r or bigger"
-				"- 2x Item Input: &eEnormous&r or bigger"
-				""
-				"Tier 2 makes many more predictions per craft and finishes a craft every tick instead of every 5 seconds."
-				""
-				"Check the structure preview in JEI (uses of the Controller) for the exact layout."
+				"{ftbquests.chapter.masterful_machinery.quest8.description2}"
 			]
 			id: "30FEA8AED1C0A7D0"
 			rewards: [{
 				id: "450D1E8F59A68CC2"
-				item: "kubejs:apotheotic_coin"
+				item: "kubejs:ascended_coin"
 				type: "item"
 			}]
 			size: 0.75d
@@ -1140,6 +1215,34 @@
 							items: [
 								{
 									Count: 1b
+									id: "mm:tiny_item_port_output"
+								}
+								{
+									Count: 1b
+									id: "mm:small_item_port_output"
+								}
+								{
+									Count: 1b
+									id: "mm:normal_item_port_output"
+								}
+								{
+									Count: 1b
+									id: "mm:big_item_port_output"
+								}
+								{
+									Count: 1b
+									id: "mm:enormous_item_port_output"
+								}
+								{
+									Count: 1b
+									id: "mm:gigantic_item_port_output"
+								}
+								{
+									Count: 1b
+									id: "mm:colossal_item_port_output"
+								}
+								{
+									Count: 1b
 									id: "mm:titanic_item_port_output"
 								}
 								{
@@ -1153,7 +1256,7 @@
 							]
 						}
 					}
-					title: "Item Output Port (Titanic or bigger)"
+					title: "{ftbquests.chapter.masterful_machinery.quest8.task_3168377534157726295.title}"
 					type: "item"
 				}
 				{
@@ -1164,6 +1267,22 @@
 						id: "itemfilters:or"
 						tag: {
 							items: [
+								{
+									Count: 1b
+									id: "mm:tiny_item_port_input"
+								}
+								{
+									Count: 1b
+									id: "mm:small_item_port_input"
+								}
+								{
+									Count: 1b
+									id: "mm:normal_item_port_input"
+								}
+								{
+									Count: 1b
+									id: "mm:big_item_port_input"
+								}
 								{
 									Count: 1b
 									id: "mm:enormous_item_port_input"
@@ -1191,31 +1310,27 @@
 							]
 						}
 					}
-					title: "Item Input Port (Enormous or bigger)"
+					title: "{ftbquests.chapter.masterful_machinery.quest8.task_5737328512743030562.title}"
 					type: "item"
 				}
 			]
-			title: "&ePrediction Chamber Tier 2&r"
+			title: "{ftbquests.chapter.masterful_machinery.quest8.title}"
 			x: -3.88d
 			y: -3.88d
 		}
 		{
 			dependencies: ["4402587B0EAC4EEC"]
 			description: [
-				"The Infinity Crucible is the way to automate renewable Draconic Evolution &6Chaos Shards&r."
-				"It also has a few massive bulk recipes (Draconium Ingots, Time Crystals) that need the biggest item ports in the game."
+				"{ftbquests.chapter.masterful_machinery.quest9.description1}"
 				""
-				"&eController:&r a &6Starmetal Block&r and &6Black Concrete&r, plus the usual 2 Redstone Servos, 2 Redstone Reception Coils, 2 Cobalt Blocks and a Manasteel Ingot."
-				"{@pagebreak}"
-				"&eStructure:&r every block is listed as a task. Check the structure preview in JEI (uses of the Controller) or let a &eMultiblock Builder&r place it for you."
-				""
-				"&ePorts:&r a recipe only starts if its inputs and outputs fit in the ports, so these are the sizes that run every recipe:"
-				"- 1x Item Input: &eCompressed Titanic&r or bigger &7(Titanic runs 3 of 6 recipes)&r"
-				"- 1x Item Output: &eSuper Compressed Titanic&r &7(Compressed Titanic runs 3 of 6 recipes)&r"
-				""
-				"The Chaos Shard recipes only need a Normal input and a Tiny output port. The bigger ports listed are for the bulk Draconium Ingot and Time Crystal recipes."
+				"{ftbquests.chapter.masterful_machinery.quest9.description2}"
 			]
 			id: "1E051F9FF87E7F6C"
+			rewards: [{
+				id: "47E29F470F023E44"
+				item: "kubejs:ascended_coin"
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "265C129FF4B197DF"
@@ -1297,6 +1412,38 @@
 							items: [
 								{
 									Count: 1b
+									id: "mm:tiny_item_port_input"
+								}
+								{
+									Count: 1b
+									id: "mm:small_item_port_input"
+								}
+								{
+									Count: 1b
+									id: "mm:normal_item_port_input"
+								}
+								{
+									Count: 1b
+									id: "mm:big_item_port_input"
+								}
+								{
+									Count: 1b
+									id: "mm:enormous_item_port_input"
+								}
+								{
+									Count: 1b
+									id: "mm:gigantic_item_port_input"
+								}
+								{
+									Count: 1b
+									id: "mm:colossal_item_port_input"
+								}
+								{
+									Count: 1b
+									id: "mm:titanic_item_port_input"
+								}
+								{
+									Count: 1b
 									id: "mm:compressed_titanic_item_port_input"
 								}
 								{
@@ -1306,7 +1453,7 @@
 							]
 						}
 					}
-					title: "Item Input Port (Compressed Titanic or bigger)"
+					title: "{ftbquests.chapter.masterful_machinery.quest9.task_7244997443651945292.title}"
 					type: "item"
 				}
 				{
@@ -1315,27 +1462,13 @@
 					type: "item"
 				}
 			]
-			title: "&eInfinity Crucible&r"
+			title: "{ftbquests.chapter.masterful_machinery.quest9.title}"
 			x: -1.5d
 			y: -4.0d
 		}
 		{
 			dependencies: ["4402587B0EAC4EEC"]
-			description: [
-				"The Pinky Machine accelerates the production of two pink-ish ingots: &dPink Slime Ingots&r and &dCrimson Iron Ingots&r."
-				""
-				"&eController:&r a &6Pink Slime Ingot&r and a &6Dissolution Chamber&r (see the &eIndustrial Foregoing&r chapter), plus the usual 2 Redstone Servos, 2 Redstone Reception Coils, 2 Cobalt Blocks and a Manasteel Ingot."
-				"{@pagebreak}"
-				"&ePinky Machine Tier 1 structure:&r every block is listed as a task. Check the structure preview in JEI (uses of the Controller) or let a &eMultiblock Builder&r place it for you."
-				""
-				"&ePorts:&r a recipe only starts if its inputs and outputs fit in the ports, so these are the sizes that run every recipe:"
-				"- 1x Energy Input: &eTiny&r or bigger"
-				"- 1x Item Input: &eSmall&r or bigger"
-				"- 1x Fluid Input: &eSmall&r or bigger"
-				"- 1x Item Output: &eTiny&r or bigger"
-				""
-				"Higher tiers are optional upgrades, see the quests further out."
-			]
+			description: ["{ftbquests.chapter.masterful_machinery.quest10.description1}"]
 			id: "76B341B45BB5DBB0"
 			rewards: [{
 				id: "7433E993F86550E8"
@@ -1394,7 +1527,7 @@
 							]
 						}
 					}
-					title: "Energy Input Port (Tiny or bigger)"
+					title: "{ftbquests.chapter.masterful_machinery.quest10.task_7986744118150446109.title}"
 					type: "item"
 				}
 				{
@@ -1404,6 +1537,10 @@
 						id: "itemfilters:or"
 						tag: {
 							items: [
+								{
+									Count: 1b
+									id: "mm:tiny_item_port_input"
+								}
 								{
 									Count: 1b
 									id: "mm:small_item_port_input"
@@ -1443,7 +1580,7 @@
 							]
 						}
 					}
-					title: "Item Input Port (Small or bigger)"
+					title: "{ftbquests.chapter.masterful_machinery.quest10.task_5918425606735301400.title}"
 					type: "item"
 				}
 				{
@@ -1476,7 +1613,7 @@
 							]
 						}
 					}
-					title: "Fluid Input Port (Small or bigger)"
+					title: "{ftbquests.chapter.masterful_machinery.quest10.task_1540570423460421171.title}"
 					type: "item"
 				}
 				{
@@ -1529,33 +1666,21 @@
 							]
 						}
 					}
-					title: "Item Output Port (Tiny or bigger)"
+					title: "{ftbquests.chapter.masterful_machinery.quest10.task_6962039638426785239.title}"
 					type: "item"
 				}
 			]
-			title: "&ePinky Tier 1&r"
+			title: "{ftbquests.chapter.masterful_machinery.quest10.title}"
 			x: 3.0d
 			y: 3.0d
 		}
 		{
 			dependencies: ["76B341B45BB5DBB0"]
-			description: [
-				"Upgrades the Pinky Machine from Tier 1 to Tier 2."
-				""
-				"&eSwap:&r take out 1x Factory Blue Framed Circuit and put the blocks from the tasks in their place."
-				""
-				"&ePorts:&r this tier needs bigger ports to run all its recipes:"
-				"- 1x Energy Input: &eNormal&r or bigger"
-				"- 1x Item Input: &eNormal&r or bigger &7(Small runs 1 of 2 recipes)&r"
-				""
-				"Tier 2 crafts 16x more per craft and finishes every tick."
-				""
-				"Check the structure preview in JEI (uses of the Controller) for the exact layout."
-			]
+			description: ["{ftbquests.chapter.masterful_machinery.quest11.description1}"]
 			id: "2B2CEF4C08F11968"
 			rewards: [{
 				id: "20BC97DC6A00CC80"
-				item: "kubejs:apotheotic_coin"
+				item: "kubejs:ascended_coin"
 				type: "item"
 			}]
 			size: 0.75d
@@ -1572,6 +1697,14 @@
 						id: "itemfilters:or"
 						tag: {
 							items: [
+								{
+									Count: 1b
+									id: "mm:tiny_energy_port_input"
+								}
+								{
+									Count: 1b
+									id: "mm:small_energy_port_input"
+								}
 								{
 									Count: 1b
 									id: "mm:normal_energy_port_input"
@@ -1591,7 +1724,7 @@
 							]
 						}
 					}
-					title: "Energy Input Port (Normal or bigger)"
+					title: "{ftbquests.chapter.masterful_machinery.quest11.task_754069934949549306.title}"
 					type: "item"
 				}
 				{
@@ -1601,6 +1734,14 @@
 						id: "itemfilters:or"
 						tag: {
 							items: [
+								{
+									Count: 1b
+									id: "mm:tiny_item_port_input"
+								}
+								{
+									Count: 1b
+									id: "mm:small_item_port_input"
+								}
 								{
 									Count: 1b
 									id: "mm:normal_item_port_input"
@@ -1636,11 +1777,11 @@
 							]
 						}
 					}
-					title: "Item Input Port (Normal or bigger)"
+					title: "{ftbquests.chapter.masterful_machinery.quest11.task_7254229453416606585.title}"
 					type: "item"
 				}
 			]
-			title: "&ePinky Tier 2&r"
+			title: "{ftbquests.chapter.masterful_machinery.quest11.title}"
 			x: 3.88d
 			y: 3.88d
 		}
@@ -1650,21 +1791,9 @@
 				"07CB0C4388DEBCA3"
 			]
 			description: [
-				"The Auto Crusher Machine provides selected hammering and crushing related recipes."
-				"Recommended as part of basic resource generation together with the Auto Sieve Machine."
-				"Not all recipes are available for all Machine Tiers. For all recipes look up the uses of the Controller."
+				"{ftbquests.chapter.masterful_machinery.quest12.description1}"
 				""
-				"&eController:&r an &6Ultimate Crushing Factory&r (Mekanism) and a &6Double Crusher&r (Actually Additions), plus the usual 2 Redstone Servos, 2 Redstone Reception Coils, 2 Cobalt Blocks and a Manasteel Ingot."
-				"{@pagebreak}"
-				"&eAuto Crusher Tier 1 structure:&r every block is listed as a task. Check the structure preview in JEI (uses of the Controller) or let a &eMultiblock Builder&r place it for you."
-				""
-				"&ePorts:&r a recipe only starts if its inputs and outputs fit in the ports. These sizes run most recipes; the few that need bigger ports are named:"
-				"- 2x Item Output: &eTiny&r or bigger &7(up to &eSmall&7 for: Cobblestone)&r"
-				"- 1x Energy Input: &eTiny&r or bigger &7(up to &eSmall&7 for: Cobblestone, Raw Eclipsealloy)&r"
-				"- 2x Item Input: &eTiny&r or bigger &7(up to &eSmall&7 for: Raw Eclipsealloy)&r"
-				"- 2x Fluid Input: &eSmall&r or bigger"
-				""
-				"Higher tiers are optional upgrades, see the quests further out."
+				"{ftbquests.chapter.masterful_machinery.quest12.description2}"
 			]
 			id: "50F61B9BCC25618F"
 			rewards: [{
@@ -1767,7 +1896,7 @@
 							]
 						}
 					}
-					title: "Item Output Port (Tiny or bigger)"
+					title: "{ftbquests.chapter.masterful_machinery.quest12.task_2408909923920260894.title}"
 					type: "item"
 				}
 				{
@@ -1804,7 +1933,7 @@
 							]
 						}
 					}
-					title: "Energy Input Port (Tiny or bigger)"
+					title: "{ftbquests.chapter.masterful_machinery.quest12.task_4558487694986436997.title}"
 					type: "item"
 				}
 				{
@@ -1858,7 +1987,7 @@
 							]
 						}
 					}
-					title: "Item Input Port (Tiny or bigger)"
+					title: "{ftbquests.chapter.masterful_machinery.quest12.task_4682836474546514695.title}"
 					type: "item"
 				}
 				{
@@ -1892,34 +2021,27 @@
 							]
 						}
 					}
-					title: "Fluid Input Port (Small or bigger)"
+					title: "{ftbquests.chapter.masterful_machinery.quest12.task_1162296598317333526.title}"
 					type: "item"
 				}
 			]
-			title: "&eAuto Crusher Tier 1&r"
+			title: "{ftbquests.chapter.masterful_machinery.quest12.title}"
 			x: -3.0d
 			y: 3.0d
 		}
 		{
 			dependencies: ["50F61B9BCC25618F"]
 			description: [
-				"Upgrades the Auto Crusher from Tier 1 to Tier 1.5 (Blackstone)."
+				"{ftbquests.chapter.masterful_machinery.quest13.description1}"
 				""
-				"&eChanges:&r take out 1x Quartz Glass, then add the blocks from the tasks."
+				"{ftbquests.chapter.masterful_machinery.quest13.description2}"
 				""
-				"&ePorts:&r this tier needs bigger ports to run all its recipes:"
-				"- 2x Item Output: &eSmall&r or bigger &7(Tiny runs 14 of 15 recipes)&r"
-				"- 1x Energy Input: &eSmall&r or bigger &7(Tiny runs 13 of 15 recipes)&r"
-				"- 2x Item Input: &eSmall&r or bigger &7(Tiny runs 13 of 14 recipes)&r"
-				""
-				"A side upgrade of Tier 1: the same recipes plus a fast &dBlackstone&r recipe. Tier 2 builds on Tier 1, not on this one."
-				""
-				"Check the structure preview in JEI (uses of the Controller) for the exact layout."
+				"{ftbquests.chapter.masterful_machinery.quest13.description3}"
 			]
 			id: "6A822759C2F21490"
 			rewards: [{
 				id: "08F874A6C7FE4BF4"
-				item: "kubejs:apotheotic_coin"
+				item: "kubejs:infused_coin"
 				type: "item"
 			}]
 			size: 0.75d
@@ -1949,6 +2071,10 @@
 						id: "itemfilters:or"
 						tag: {
 							items: [
+								{
+									Count: 1b
+									id: "mm:tiny_item_port_output"
+								}
 								{
 									Count: 1b
 									id: "mm:small_item_port_output"
@@ -1988,7 +2114,7 @@
 							]
 						}
 					}
-					title: "Item Output Port (Small or bigger)"
+					title: "{ftbquests.chapter.masterful_machinery.quest13.task_5833668176492949445.title}"
 					type: "item"
 				}
 				{
@@ -1998,6 +2124,10 @@
 						id: "itemfilters:or"
 						tag: {
 							items: [
+								{
+									Count: 1b
+									id: "mm:tiny_energy_port_input"
+								}
 								{
 									Count: 1b
 									id: "mm:small_energy_port_input"
@@ -2021,7 +2151,7 @@
 							]
 						}
 					}
-					title: "Energy Input Port (Small or bigger)"
+					title: "{ftbquests.chapter.masterful_machinery.quest13.task_4286009458095470020.title}"
 					type: "item"
 				}
 				{
@@ -2032,6 +2162,10 @@
 						id: "itemfilters:or"
 						tag: {
 							items: [
+								{
+									Count: 1b
+									id: "mm:tiny_item_port_input"
+								}
 								{
 									Count: 1b
 									id: "mm:small_item_port_input"
@@ -2071,34 +2205,21 @@
 							]
 						}
 					}
-					title: "Item Input Port (Small or bigger)"
+					title: "{ftbquests.chapter.masterful_machinery.quest13.task_7393782585098419271.title}"
 					type: "item"
 				}
 			]
-			title: "&eAuto Crusher Tier 1.5&r (Blackstone)"
+			title: "{ftbquests.chapter.masterful_machinery.quest13.title}"
 			x: -3.88d
 			y: 3.88d
 		}
 		{
 			dependencies: ["50F61B9BCC25618F"]
-			description: [
-				"Upgrades the Auto Crusher from Tier 1 to Tier 2."
-				""
-				"&eSwap:&r take out 1x Factory Blue Framed Circuit, 1x Ultimate Enriching Factory, 1x Ultimate Purifying Factory, 1x Ultimate Crushing Factory and put the blocks from the tasks in their place."
-				""
-				"&ePorts:&r this tier needs bigger ports to run all its recipes:"
-				"- 2x Item Output: &eNormal&r or bigger &7(Small runs 13 of 14 recipes)&r"
-				"- 1x Energy Input: &eBig&r or bigger &7(Normal runs 13 of 14 recipes)&r"
-				"- 2x Item Input: &eSmall&r or bigger &7(Tiny runs 12 of 13 recipes)&r"
-				""
-				"Tier 2 swaps the Ultimate factories for Absolute ones and runs bigger, faster batches."
-				""
-				"Check the structure preview in JEI (uses of the Controller) for the exact layout."
-			]
+			description: ["{ftbquests.chapter.masterful_machinery.quest14.description1}"]
 			id: "68505A4507846109"
 			rewards: [{
 				id: "32243AA156356065"
-				item: "kubejs:apotheotic_coin"
+				item: "kubejs:infused_coin"
 				type: "item"
 			}]
 			size: 0.75d
@@ -2131,6 +2252,14 @@
 						id: "itemfilters:or"
 						tag: {
 							items: [
+								{
+									Count: 1b
+									id: "mm:tiny_item_port_output"
+								}
+								{
+									Count: 1b
+									id: "mm:small_item_port_output"
+								}
 								{
 									Count: 1b
 									id: "mm:normal_item_port_output"
@@ -2166,7 +2295,7 @@
 							]
 						}
 					}
-					title: "Item Output Port (Normal or bigger)"
+					title: "{ftbquests.chapter.masterful_machinery.quest14.task_1935864751678615153.title}"
 					type: "item"
 				}
 				{
@@ -2176,6 +2305,18 @@
 						id: "itemfilters:or"
 						tag: {
 							items: [
+								{
+									Count: 1b
+									id: "mm:tiny_energy_port_input"
+								}
+								{
+									Count: 1b
+									id: "mm:small_energy_port_input"
+								}
+								{
+									Count: 1b
+									id: "mm:normal_energy_port_input"
+								}
 								{
 									Count: 1b
 									id: "mm:big_energy_port_input"
@@ -2191,7 +2332,7 @@
 							]
 						}
 					}
-					title: "Energy Input Port (Big or bigger)"
+					title: "{ftbquests.chapter.masterful_machinery.quest14.task_2872447221798877450.title}"
 					type: "item"
 				}
 				{
@@ -2202,6 +2343,10 @@
 						id: "itemfilters:or"
 						tag: {
 							items: [
+								{
+									Count: 1b
+									id: "mm:tiny_item_port_input"
+								}
 								{
 									Count: 1b
 									id: "mm:small_item_port_input"
@@ -2241,33 +2386,21 @@
 							]
 						}
 					}
-					title: "Item Input Port (Small or bigger)"
+					title: "{ftbquests.chapter.masterful_machinery.quest14.task_6019282679908084068.title}"
 					type: "item"
 				}
 			]
-			title: "&eAuto Crusher Tier 2&r"
+			title: "{ftbquests.chapter.masterful_machinery.quest14.title}"
 			x: -3.03d
 			y: 4.58d
 		}
 		{
 			dependencies: ["68505A4507846109"]
-			description: [
-				"Upgrades the Auto Crusher from Tier 2 to Tier 3."
-				""
-				"&eSwap:&r take out 1x Absolute Enriching Factory, 1x Absolute Purifying Factory, 1x Absolute Crushing Factory, 1x Azurine Block and put the blocks from the tasks in their place."
-				""
-				"&ePorts:&r this tier needs bigger ports to run all its recipes:"
-				"- 2x Item Output: &eColossal&r or bigger &7(Gigantic runs 13 of 14 recipes)&r"
-				"- 1x Energy Input: &eEnormous&r or bigger &7(Big runs 13 of 14 recipes)&r"
-				""
-				"Tier 3 swaps the Absolute factories for Infinite ones. The Cobblestone recipe makes 6144 Cobblestone per craft, which is why the output port is so big."
-				""
-				"Check the structure preview in JEI (uses of the Controller) for the exact layout."
-			]
+			description: ["{ftbquests.chapter.masterful_machinery.quest15.description1}"]
 			id: "1F8A2B2DEF6BC924"
 			rewards: [{
 				id: "4D0D88A3B4FAE569"
-				item: "kubejs:apotheotic_coin"
+				item: "kubejs:ascended_coin"
 				type: "item"
 			}]
 			size: 0.75d
@@ -2302,6 +2435,30 @@
 							items: [
 								{
 									Count: 1b
+									id: "mm:tiny_item_port_output"
+								}
+								{
+									Count: 1b
+									id: "mm:small_item_port_output"
+								}
+								{
+									Count: 1b
+									id: "mm:normal_item_port_output"
+								}
+								{
+									Count: 1b
+									id: "mm:big_item_port_output"
+								}
+								{
+									Count: 1b
+									id: "mm:enormous_item_port_output"
+								}
+								{
+									Count: 1b
+									id: "mm:gigantic_item_port_output"
+								}
+								{
+									Count: 1b
 									id: "mm:colossal_item_port_output"
 								}
 								{
@@ -2319,7 +2476,7 @@
 							]
 						}
 					}
-					title: "Item Output Port (Colossal or bigger)"
+					title: "{ftbquests.chapter.masterful_machinery.quest15.task_6010979299258136235.title}"
 					type: "item"
 				}
 				{
@@ -2331,6 +2488,22 @@
 							items: [
 								{
 									Count: 1b
+									id: "mm:tiny_energy_port_input"
+								}
+								{
+									Count: 1b
+									id: "mm:small_energy_port_input"
+								}
+								{
+									Count: 1b
+									id: "mm:normal_energy_port_input"
+								}
+								{
+									Count: 1b
+									id: "mm:big_energy_port_input"
+								}
+								{
+									Count: 1b
 									id: "mm:enormous_energy_port_input"
 								}
 								{
@@ -2340,11 +2513,11 @@
 							]
 						}
 					}
-					title: "Energy Input Port (Enormous or bigger)"
+					title: "{ftbquests.chapter.masterful_machinery.quest15.task_4442882857837728685.title}"
 					type: "item"
 				}
 			]
-			title: "&eAuto Crusher Tier 3&r"
+			title: "{ftbquests.chapter.masterful_machinery.quest15.title}"
 			x: -4.77d
 			y: 4.77d
 		}
@@ -2353,22 +2526,7 @@
 				"4402587B0EAC4EEC"
 				"07CB0C4388DEBCA3"
 			]
-			description: [
-				"The Auto Sieve will provide the basic resources you need in your daily skyblock adventures."
-				"Processing speed and amounts increase with Multiblock Tier. For all recipes look up the uses of the Controller."
-				"Probability-wise, processing 64 blocks in a manual sieve is better than using the Auto Sieve."
-				""
-				"&eController:&r any &6Ex Deorum Sieve&r and an &6Auto Mechanical Sieve&r (see &eThe Beginning&r chapter), plus the usual 2 Redstone Servos, 2 Redstone Reception Coils, 2 Cobalt Blocks and a Manasteel Ingot."
-				"{@pagebreak}"
-				"&eAuto Sieve Tier 1 structure:&r every block is listed as a task. Check the structure preview in JEI (uses of the Controller) or let a &eMultiblock Builder&r place it for you."
-				""
-				"&ePorts:&r a recipe only starts if its inputs and outputs fit in the ports. These sizes run most recipes; the few that need bigger ports are named:"
-				"- 2x Item Output: &eNormal&r or bigger &7(Small runs 3 of 8 recipes)&r"
-				"- 2x Item Input: &eTiny&r or bigger"
-				"- 2x Energy Input: &eTiny&r or bigger &7(up to &eNormal&7 for: Infinity 11)&r"
-				""
-				"Higher tiers are optional upgrades, see the quests further out."
-			]
+			description: ["{ftbquests.chapter.masterful_machinery.quest16.description1}"]
 			id: "3174B21A62F4B32C"
 			rewards: [{
 				id: "3FBB1DD3929DA0A3"
@@ -2425,6 +2583,14 @@
 							items: [
 								{
 									Count: 1b
+									id: "mm:tiny_item_port_output"
+								}
+								{
+									Count: 1b
+									id: "mm:small_item_port_output"
+								}
+								{
+									Count: 1b
 									id: "mm:normal_item_port_output"
 								}
 								{
@@ -2458,7 +2624,7 @@
 							]
 						}
 					}
-					title: "Item Output Port (Normal or bigger)"
+					title: "{ftbquests.chapter.masterful_machinery.quest16.task_6489611365137600660.title}"
 					type: "item"
 				}
 				{
@@ -2512,7 +2678,7 @@
 							]
 						}
 					}
-					title: "Item Input Port (Tiny or bigger)"
+					title: "{ftbquests.chapter.masterful_machinery.quest16.task_2356434845475497520.title}"
 					type: "item"
 				}
 				{
@@ -2550,32 +2716,21 @@
 							]
 						}
 					}
-					title: "Energy Input Port (Tiny or bigger)"
+					title: "{ftbquests.chapter.masterful_machinery.quest16.task_192162108917689478.title}"
 					type: "item"
 				}
 			]
-			title: "&eAuto Sieve Tier 1&r"
+			title: "{ftbquests.chapter.masterful_machinery.quest16.title}"
 			x: -4.0d
 			y: 1.5d
 		}
 		{
 			dependencies: ["3174B21A62F4B32C"]
-			description: [
-				"Upgrades the Auto Sieve from Tier 1 to Tier 2."
-				""
-				"&eAdd:&r the blocks from the tasks."
-				""
-				"&ePorts:&r this tier needs bigger ports to run all its recipes:"
-				"- 2x Energy Input: &eNormal&r or bigger &7(Small runs 7 of 8 recipes)&r"
-				""
-				"Tier 2 is twice as fast as Tier 1."
-				""
-				"Check the structure preview in JEI (uses of the Controller) for the exact layout."
-			]
+			description: ["{ftbquests.chapter.masterful_machinery.quest17.description1}"]
 			id: "2AA1E6D577029E24"
 			rewards: [{
 				id: "7399A91B81C779C2"
-				item: "kubejs:apotheotic_coin"
+				item: "kubejs:infused_coin"
 				type: "item"
 			}]
 			size: 0.75d
@@ -2595,6 +2750,14 @@
 							items: [
 								{
 									Count: 1b
+									id: "mm:tiny_energy_port_input"
+								}
+								{
+									Count: 1b
+									id: "mm:small_energy_port_input"
+								}
+								{
+									Count: 1b
 									id: "mm:normal_energy_port_input"
 								}
 								{
@@ -2612,31 +2775,21 @@
 							]
 						}
 					}
-					title: "Energy Input Port (Normal or bigger)"
+					title: "{ftbquests.chapter.masterful_machinery.quest17.task_3733231164703773394.title}"
 					type: "item"
 				}
 			]
-			title: "&eAuto Sieve Tier 2&r"
+			title: "{ftbquests.chapter.masterful_machinery.quest17.title}"
 			x: -5.17d
 			y: 1.94d
 		}
 		{
 			dependencies: ["2AA1E6D577029E24"]
-			description: [
-				"Upgrades the Auto Sieve from Tier 2 to Tier 3."
-				""
-				"&eSwap:&r take out 1x Citrinetine Block and put the blocks from the tasks in their place."
-				""
-				"&ePorts:&r the ports from the previous tier are big enough."
-				""
-				"Tier 3 finishes a craft every 4 ticks."
-				""
-				"Check the structure preview in JEI (uses of the Controller) for the exact layout."
-			]
+			description: ["{ftbquests.chapter.masterful_machinery.quest18.description1}"]
 			id: "17F974450AE9DDCA"
 			rewards: [{
 				id: "45F53E79544C73EC"
-				item: "kubejs:apotheotic_coin"
+				item: "kubejs:infused_coin"
 				type: "item"
 			}]
 			size: 0.75d
@@ -2645,28 +2798,17 @@
 				item: "voidminers:amethystine_block"
 				type: "item"
 			}]
-			title: "&eAuto Sieve Tier 3&r"
+			title: "{ftbquests.chapter.masterful_machinery.quest18.title}"
 			x: -6.34d
 			y: 2.38d
 		}
 		{
 			dependencies: ["17F974450AE9DDCA"]
-			description: [
-				"Upgrades the Auto Sieve from Tier 3 to Tier 4."
-				""
-				"&eSwap:&r take out 1x Amethystine Block and put the blocks from the tasks in their place."
-				""
-				"&ePorts:&r this tier needs bigger ports to run all its recipes:"
-				"- 2x Energy Input: &eBig&r or bigger &7(Normal runs 7 of 8 recipes)&r"
-				""
-				"Tier 4 finishes a craft every tick."
-				""
-				"Check the structure preview in JEI (uses of the Controller) for the exact layout."
-			]
+			description: ["{ftbquests.chapter.masterful_machinery.quest19.description1}"]
 			id: "5E09629EAF13A7AC"
 			rewards: [{
 				id: "4887A3BD13E3C6F2"
-				item: "kubejs:apotheotic_coin"
+				item: "kubejs:ascended_coin"
 				type: "item"
 			}]
 			size: 0.75d
@@ -2686,6 +2828,18 @@
 							items: [
 								{
 									Count: 1b
+									id: "mm:tiny_energy_port_input"
+								}
+								{
+									Count: 1b
+									id: "mm:small_energy_port_input"
+								}
+								{
+									Count: 1b
+									id: "mm:normal_energy_port_input"
+								}
+								{
+									Count: 1b
 									id: "mm:big_energy_port_input"
 								}
 								{
@@ -2699,30 +2853,20 @@
 							]
 						}
 					}
-					title: "Energy Input Port (Big or bigger)"
+					title: "{ftbquests.chapter.masterful_machinery.quest19.task_6173385576237717418.title}"
 					type: "item"
 				}
 			]
-			title: "&eAuto Sieve Tier 4&r"
+			title: "{ftbquests.chapter.masterful_machinery.quest19.title}"
 			x: -7.51d
 			y: 2.82d
 		}
 		{
 			dependencies: ["4402587B0EAC4EEC"]
 			description: [
-				"The Mechanical Empowerer removes the fiddly automation from the Actually Additions Empowerer and a few other recipes. Notably, the automation of EnderIO recipes including Soul Vials."
-				"For all available recipes look up the uses of the Controller."
+				"{ftbquests.chapter.masterful_machinery.quest20.description1}"
 				""
-				"&eController:&r an &6Empowered Emeradic Crystal Block&r and an &6Empowered Diamatine Crystal Block&r (Actually Additions), plus the usual 2 Redstone Servos, 2 Redstone Reception Coils, 2 Cobalt Blocks and a Manasteel Ingot."
-				"{@pagebreak}"
-				"&eMechanical Empowerer Tier 1 structure:&r every block is listed as a task. Check the structure preview in JEI (uses of the Controller) or let a &eMultiblock Builder&r place it for you."
-				""
-				"&ePorts:&r a recipe only starts if its inputs and outputs fit in the ports. These sizes run most recipes; the few that need bigger ports are named:"
-				"- 3x Energy Input: &eNormal&r or bigger &7(Small runs 19 of 38 recipes)&r"
-				"- 1x Item Output: &eTiny&r or bigger &7(up to &eSmall&7 for: Empty Soul Vial)&r"
-				"- 1x Item Input: &eNormal&r or bigger &7(Small runs 28 of 38 recipes)&r"
-				""
-				"Higher tiers are optional upgrades, see the quests further out."
+				"{ftbquests.chapter.masterful_machinery.quest20.description2}"
 			]
 			id: "30DE5CFF66D40BB8"
 			rewards: [{
@@ -2776,6 +2920,14 @@
 							items: [
 								{
 									Count: 1b
+									id: "mm:tiny_energy_port_input"
+								}
+								{
+									Count: 1b
+									id: "mm:small_energy_port_input"
+								}
+								{
+									Count: 1b
 									id: "mm:normal_energy_port_input"
 								}
 								{
@@ -2793,7 +2945,7 @@
 							]
 						}
 					}
-					title: "Energy Input Port (Normal or bigger)"
+					title: "{ftbquests.chapter.masterful_machinery.quest20.task_8055970172681082305.title}"
 					type: "item"
 				}
 				{
@@ -2846,7 +2998,7 @@
 							]
 						}
 					}
-					title: "Item Output Port (Tiny or bigger)"
+					title: "{ftbquests.chapter.masterful_machinery.quest20.task_5052524520934008561.title}"
 					type: "item"
 				}
 				{
@@ -2856,6 +3008,14 @@
 						id: "itemfilters:or"
 						tag: {
 							items: [
+								{
+									Count: 1b
+									id: "mm:tiny_item_port_input"
+								}
+								{
+									Count: 1b
+									id: "mm:small_item_port_input"
+								}
 								{
 									Count: 1b
 									id: "mm:normal_item_port_input"
@@ -2891,35 +3051,21 @@
 							]
 						}
 					}
-					title: "Item Input Port (Normal or bigger)"
+					title: "{ftbquests.chapter.masterful_machinery.quest20.task_6835974485620141085.title}"
 					type: "item"
 				}
 			]
-			title: "&eMechanical Empowerer Tier 1&r"
+			title: "{ftbquests.chapter.masterful_machinery.quest20.title}"
 			x: 1.5d
 			y: -4.0d
 		}
 		{
 			dependencies: ["30DE5CFF66D40BB8"]
-			description: [
-				"Upgrades the Mechanical Empowerer from Tier 1 to Tier 2."
-				""
-				"&eSwap:&r take out 1x Dark Steel Block, 3x Mob Masher and put the blocks from the tasks in their place."
-				""
-				"&ePorts:&r this tier needs bigger ports to run all its recipes:"
-				"- 3x Energy Input: &eGigantic&r &7(Enormous runs 38 of 73 recipes)&r"
-				"- 1x Item Output: &eTitanic&r or bigger &7(Colossal runs 60 of 73 recipes)&r"
-				"- 1x Item Input: &eCompressed Titanic&r or bigger &7(Titanic runs 70 of 73 recipes)&r"
-				""
-				"Tier 2 runs every recipe in big batches and adds AE2 related recipes (processors, charged crystals, singularities). It also needs a fixed Gigantic Fluid Input port."
-				"The ports are sized for the biggest batches. With smaller ports only some of the recipes will start."
-				""
-				"Check the structure preview in JEI (uses of the Controller) for the exact layout."
-			]
+			description: ["{ftbquests.chapter.masterful_machinery.quest21.description1}"]
 			id: "74FD52F505EF73C8"
 			rewards: [{
 				id: "1BFE2A76BBADAA0E"
-				item: "kubejs:apotheotic_coin"
+				item: "kubejs:infused_coin"
 				type: "item"
 			}]
 			size: 0.75d
@@ -2950,6 +3096,34 @@
 							items: [
 								{
 									Count: 1b
+									id: "mm:tiny_item_port_output"
+								}
+								{
+									Count: 1b
+									id: "mm:small_item_port_output"
+								}
+								{
+									Count: 1b
+									id: "mm:normal_item_port_output"
+								}
+								{
+									Count: 1b
+									id: "mm:big_item_port_output"
+								}
+								{
+									Count: 1b
+									id: "mm:enormous_item_port_output"
+								}
+								{
+									Count: 1b
+									id: "mm:gigantic_item_port_output"
+								}
+								{
+									Count: 1b
+									id: "mm:colossal_item_port_output"
+								}
+								{
+									Count: 1b
 									id: "mm:titanic_item_port_output"
 								}
 								{
@@ -2963,7 +3137,7 @@
 							]
 						}
 					}
-					title: "Item Output Port (Titanic or bigger)"
+					title: "{ftbquests.chapter.masterful_machinery.quest21.task_8993443966019817438.title}"
 					type: "item"
 				}
 				{
@@ -2975,6 +3149,38 @@
 							items: [
 								{
 									Count: 1b
+									id: "mm:tiny_item_port_input"
+								}
+								{
+									Count: 1b
+									id: "mm:small_item_port_input"
+								}
+								{
+									Count: 1b
+									id: "mm:normal_item_port_input"
+								}
+								{
+									Count: 1b
+									id: "mm:big_item_port_input"
+								}
+								{
+									Count: 1b
+									id: "mm:enormous_item_port_input"
+								}
+								{
+									Count: 1b
+									id: "mm:gigantic_item_port_input"
+								}
+								{
+									Count: 1b
+									id: "mm:colossal_item_port_input"
+								}
+								{
+									Count: 1b
+									id: "mm:titanic_item_port_input"
+								}
+								{
+									Count: 1b
 									id: "mm:compressed_titanic_item_port_input"
 								}
 								{
@@ -2984,28 +3190,20 @@
 							]
 						}
 					}
-					title: "Item Input Port (Compressed Titanic or bigger)"
+					title: "{ftbquests.chapter.masterful_machinery.quest21.task_8746061356396761551.title}"
 					type: "item"
 				}
 			]
-			title: "&eMechanical Empowerer Tier 2&r"
+			title: "{ftbquests.chapter.masterful_machinery.quest21.title}"
 			x: 1.94d
 			y: -5.17d
 		}
 		{
 			dependencies: ["4402587B0EAC4EEC"]
 			description: [
-				"A basic water generator. Higher Tiers provide more water per operation."
+				"{ftbquests.chapter.masterful_machinery.quest22.description1}"
 				""
-				"&eController:&r a &6Simple Black Hole Tank&r (Industrial Foregoing) and an &6Elite Fluid Tank&r (Mekanism), plus the usual 2 Redstone Servos, 2 Redstone Reception Coils, 2 Cobalt Blocks and a Manasteel Ingot."
-				"{@pagebreak}"
-				"&eWater Condenser Tier 1 structure:&r every block is listed as a task. Check the structure preview in JEI (uses of the Controller) or let a &eMultiblock Builder&r place it for you."
-				""
-				"&ePorts:&r a recipe only starts if its inputs and outputs fit in the ports, so these are the sizes that run every recipe:"
-				"- 2x Energy Input: &eTiny&r or bigger"
-				"- 4x Fluid Output: &eSmall&r or bigger"
-				""
-				"Higher tiers are optional upgrades, see the quests further out."
+				"{ftbquests.chapter.masterful_machinery.quest22.description2}"
 			]
 			id: "38B38D416DA41D43"
 			rewards: [{
@@ -3071,7 +3269,7 @@
 							]
 						}
 					}
-					title: "Energy Input Port (Tiny or bigger)"
+					title: "{ftbquests.chapter.masterful_machinery.quest22.task_3259907218096778320.title}"
 					type: "item"
 				}
 				{
@@ -3105,32 +3303,21 @@
 							]
 						}
 					}
-					title: "Fluid Output Port (Small or bigger)"
+					title: "{ftbquests.chapter.masterful_machinery.quest22.task_1867883006517838132.title}"
 					type: "item"
 				}
 			]
-			title: "&eWater Condenser Tier 1&r"
+			title: "{ftbquests.chapter.masterful_machinery.quest22.title}"
 			x: 1.5d
 			y: 4.0d
 		}
 		{
 			dependencies: ["38B38D416DA41D43"]
-			description: [
-				"Upgrades the Water Condenser from Tier 1 to Tier 2."
-				""
-				"&eSwap:&r take out 1x Empowered Diamatine Crystal Block and put the blocks from the tasks in their place."
-				""
-				"&ePorts:&r this tier needs bigger ports to run all its recipes:"
-				"- 2x Energy Input: &eNormal&r or bigger"
-				""
-				"Tier 2 makes 1,000,000 mB of water per craft."
-				""
-				"Check the structure preview in JEI (uses of the Controller) for the exact layout."
-			]
+			description: ["{ftbquests.chapter.masterful_machinery.quest23.description1}"]
 			id: "7BD3F442AC83151E"
 			rewards: [{
 				id: "5D38E2BD91A0F1C6"
-				item: "kubejs:apotheotic_coin"
+				item: "kubejs:infused_coin"
 				type: "item"
 			}]
 			size: 0.75d
@@ -3150,6 +3337,14 @@
 							items: [
 								{
 									Count: 1b
+									id: "mm:tiny_energy_port_input"
+								}
+								{
+									Count: 1b
+									id: "mm:small_energy_port_input"
+								}
+								{
+									Count: 1b
 									id: "mm:normal_energy_port_input"
 								}
 								{
@@ -3167,33 +3362,21 @@
 							]
 						}
 					}
-					title: "Energy Input Port (Normal or bigger)"
+					title: "{ftbquests.chapter.masterful_machinery.quest23.task_1772676448667973806.title}"
 					type: "item"
 				}
 			]
-			title: "&eWater Condenser Tier 2&r"
+			title: "{ftbquests.chapter.masterful_machinery.quest23.title}"
 			x: 1.94d
 			y: 5.17d
 		}
 		{
 			dependencies: ["7BD3F442AC83151E"]
-			description: [
-				"Upgrades the Water Condenser from Tier 2 to Tier 3."
-				""
-				"&eSwap:&r take out 1x Supremium Gemstone Block and put the blocks from the tasks in their place."
-				""
-				"&ePorts:&r this tier needs bigger ports to run all its recipes:"
-				"- 2x Energy Input: &eGigantic&r"
-				"- 4x Fluid Output: &eEnormous&r or bigger"
-				""
-				"Tier 3 makes 100,000,000 mB of water per craft."
-				""
-				"Check the structure preview in JEI (uses of the Controller) for the exact layout."
-			]
+			description: ["{ftbquests.chapter.masterful_machinery.quest24.description1}"]
 			id: "27EAC836DDE0A136"
 			rewards: [{
 				id: "79D7BB249388D5AD"
-				item: "kubejs:apotheotic_coin"
+				item: "kubejs:ascended_coin"
 				type: "item"
 			}]
 			size: 0.75d
@@ -3219,6 +3402,18 @@
 							items: [
 								{
 									Count: 1b
+									id: "mm:small_fluid_port_output"
+								}
+								{
+									Count: 1b
+									id: "mm:normal_fluid_port_output"
+								}
+								{
+									Count: 1b
+									id: "mm:big_fluid_port_output"
+								}
+								{
+									Count: 1b
 									id: "mm:enormous_fluid_port_output"
 								}
 								{
@@ -3228,11 +3423,11 @@
 							]
 						}
 					}
-					title: "Fluid Output Port (Enormous or bigger)"
+					title: "{ftbquests.chapter.masterful_machinery.quest24.task_8140302484480072809.title}"
 					type: "item"
 				}
 			]
-			title: "&eWater Condenser Tier 3&r"
+			title: "{ftbquests.chapter.masterful_machinery.quest24.title}"
 			x: 2.38d
 			y: 6.34d
 		}
@@ -3242,16 +3437,9 @@
 				"586C269FAAC6D0AB"
 			]
 			description: [
-				"The &eAdvanced Awakening Altar&r combines a few of the most used recipes from Draconic Evolution's Infusion crafting and Mystical Agriculture's Awakening Altar into one Block. This makes automation of Awakened Draconium and Awakened Supremium a breeze."
+				"{ftbquests.chapter.masterful_machinery.quest25.description1}"
 				""
-				"&eController:&r an &6Awakened Draconium Block&r (Draconic Evolution) and an &6Awakening Altar&r (Mystical Agriculture), plus the usual 2 Redstone Servos, 2 Redstone Reception Coils, 2 Cobalt Blocks and a Manasteel Ingot."
-				"{@pagebreak}"
-				"&eAdvanced Awakening Altar Tier 1 structure:&r every block is listed as a task. Check the structure preview in JEI (uses of the Controller) or let a &eMultiblock Builder&r place it for you."
-				""
-				"&ePorts:&r a recipe only starts if its inputs and outputs fit in the ports. These sizes run most recipes; the few that need bigger ports are named:"
-				"- 4x Item Output: &eTiny&r or bigger"
-				"- 4x Energy Input: &eEnormous&r or bigger &7(up to &eGigantic&7 for: Infinity 8, Draconic Relay Crystal)&r"
-				"- 4x Item Input: &eSmall&r or bigger &7(Tiny runs 4 of 8 recipes)&r"
+				"{ftbquests.chapter.masterful_machinery.quest25.description2}"
 			]
 			id: "537E288F211B3167"
 			rewards: [
@@ -3263,6 +3451,11 @@
 				{
 					id: "7CDCE83CC8A9EABF"
 					item: "mysticalagriculture:awakened_supremium_block"
+					type: "item"
+				}
+				{
+					id: "268DED0372CA010F"
+					item: "kubejs:infused_coin"
 					type: "item"
 				}
 			]
@@ -3382,7 +3575,7 @@
 							]
 						}
 					}
-					title: "Item Output Port (Tiny or bigger)"
+					title: "{ftbquests.chapter.masterful_machinery.quest25.task_4459314132312455306.title}"
 					type: "item"
 				}
 				{
@@ -3395,6 +3588,22 @@
 							items: [
 								{
 									Count: 1b
+									id: "mm:tiny_energy_port_input"
+								}
+								{
+									Count: 1b
+									id: "mm:small_energy_port_input"
+								}
+								{
+									Count: 1b
+									id: "mm:normal_energy_port_input"
+								}
+								{
+									Count: 1b
+									id: "mm:big_energy_port_input"
+								}
+								{
+									Count: 1b
 									id: "mm:enormous_energy_port_input"
 								}
 								{
@@ -3404,7 +3613,7 @@
 							]
 						}
 					}
-					title: "Energy Input Port (Enormous or bigger)"
+					title: "{ftbquests.chapter.masterful_machinery.quest25.task_6982254759346373458.title}"
 					type: "item"
 				}
 				{
@@ -3415,6 +3624,10 @@
 						id: "itemfilters:or"
 						tag: {
 							items: [
+								{
+									Count: 1b
+									id: "mm:tiny_item_port_input"
+								}
 								{
 									Count: 1b
 									id: "mm:small_item_port_input"
@@ -3454,32 +3667,21 @@
 							]
 						}
 					}
-					title: "Item Input Port (Small or bigger)"
+					title: "{ftbquests.chapter.masterful_machinery.quest25.task_5852138291751944166.title}"
 					type: "item"
 				}
 			]
-			title: "&eAdvanced Awakening Altar Tier 1"
+			title: "{ftbquests.chapter.masterful_machinery.quest25.title}"
 			x: 0.0d
 			y: -4.0d
 		}
 		{
 			dependencies: ["537E288F211B3167"]
-			description: [
-				"Upgrades the Advanced Awakening Altar from Tier 1 to Tier 2."
-				""
-				"&eSwap:&r take out 2x Awakened Draconium Block and put the blocks from the tasks in their place."
-				""
-				"&ePorts:&r this tier needs bigger ports to run all its recipes:"
-				"- 4x Energy Input: &eGigantic&r &7(Enormous runs 3 of 8 recipes)&r"
-				""
-				"Tier 2 runs 4x bigger batches and finishes a craft in 2 ticks instead of 100."
-				""
-				"Check the structure preview in JEI (uses of the Controller) for the exact layout."
-			]
+			description: ["{ftbquests.chapter.masterful_machinery.quest26.description1}"]
 			id: "5A68F0FBEB12F839"
 			rewards: [{
-				id: "290C45A4944EAF33"
-				item: "kubejs:infused_coin"
+				id: "4255F1B4E2E67DD8"
+				item: "kubejs:ascended_coin"
 				type: "item"
 			}]
 			size: 0.75d
@@ -3497,7 +3699,7 @@
 					type: "item"
 				}
 			]
-			title: "&eAdvanced Awakening Altar Tier 2"
+			title: "{ftbquests.chapter.masterful_machinery.quest26.title}"
 			x: 0.0d
 			y: -5.25d
 		}
@@ -3507,29 +3709,16 @@
 				"7A822E0A7F810F44"
 			]
 			description: [
-				"The Multi Compressor Machine has the single purpose of helping you make singularities faster. Producing the required resources fast enough is for you to figure out."
-				"The recipes for each singularity may differ from the ones in the Quantum Compressor, so make sure to check JEI!"
+				"{ftbquests.chapter.masterful_machinery.quest27.description1}"
 				""
-				"&eController:&r a &6Compacting Drawer&r (Functional Storage) and a &6Compacter&r, plus the usual 2 Redstone Servos, 2 Redstone Reception Coils, 2 Cobalt Blocks and a Manasteel Ingot."
-				"{@pagebreak}"
-				"&eStructure:&r every block is listed as a task. Check the structure preview in JEI (uses of the Controller) or let a &eMultiblock Builder&r place it for you."
+				"{ftbquests.chapter.masterful_machinery.quest27.description2}"
 				""
-				"&ePorts:&r a recipe only starts if its inputs and outputs fit in the ports. These sizes run most recipes; the few that need bigger ports are named:"
-				"- 7x Item Input: &eNormal&r or bigger &7(up to &eGigantic&7 for: Coal Singularity, Ethereal Spirit Singularity, Extreme Ingot Singularity, Glowstone Singularity, Tough Alloy Ingot Singularity)&r"
-				"- 4x Fluid Input: &eSmall&r or bigger"
-				"- 4x Energy Input: &eBig&r or bigger"
-				"- 1x Item Output: &eTiny&r or bigger"
+				"{ftbquests.chapter.masterful_machinery.quest27.description3}"
 			]
 			id: "75229C9000F5B3AB"
 			rewards: [{
 				id: "1475325FB3F96A7A"
-				item: {
-					Count: 1
-					id: "extendedcrafting:singularity"
-					tag: {
-						Id: "extendedcrafting:abyssal_ingot"
-					}
-				}
+				item: "kubejs:ascended_coin"
 				type: "item"
 			}]
 			tasks: [
@@ -3572,6 +3761,14 @@
 							items: [
 								{
 									Count: 1b
+									id: "mm:tiny_item_port_input"
+								}
+								{
+									Count: 1b
+									id: "mm:small_item_port_input"
+								}
+								{
+									Count: 1b
 									id: "mm:normal_item_port_input"
 								}
 								{
@@ -3605,7 +3802,7 @@
 							]
 						}
 					}
-					title: "Item Input Port (Normal or bigger)"
+					title: "{ftbquests.chapter.masterful_machinery.quest27.task_4060707694732741980.title}"
 					type: "item"
 				}
 				{
@@ -3639,7 +3836,7 @@
 							]
 						}
 					}
-					title: "Fluid Input Port (Small or bigger)"
+					title: "{ftbquests.chapter.masterful_machinery.quest27.task_8388272417005116937.title}"
 					type: "item"
 				}
 				{
@@ -3650,6 +3847,18 @@
 						id: "itemfilters:or"
 						tag: {
 							items: [
+								{
+									Count: 1b
+									id: "mm:tiny_energy_port_input"
+								}
+								{
+									Count: 1b
+									id: "mm:small_energy_port_input"
+								}
+								{
+									Count: 1b
+									id: "mm:normal_energy_port_input"
+								}
 								{
 									Count: 1b
 									id: "mm:big_energy_port_input"
@@ -3665,7 +3874,7 @@
 							]
 						}
 					}
-					title: "Energy Input Port (Big or bigger)"
+					title: "{ftbquests.chapter.masterful_machinery.quest27.task_9076053514062526508.title}"
 					type: "item"
 				}
 				{
@@ -3718,26 +3927,26 @@
 							]
 						}
 					}
-					title: "Item Output Port (Tiny or bigger)"
+					title: "{ftbquests.chapter.masterful_machinery.quest27.task_9040065541158102407.title}"
 					type: "item"
 				}
 			]
-			title: "&eMulti Compressor&r"
+			title: "{ftbquests.chapter.masterful_machinery.quest27.title}"
 			x: 4.0d
 			y: -1.5d
 		}
 		{
 			dependencies: ["4402587B0EAC4EEC"]
 			description: [
-				"The &eEssenceforge&r is your midgame to endgame resource production using Mystical Agriculture."
+				"{ftbquests.chapter.masterful_machinery.quest28.description1}"
 				""
-				"Using some Ether Gas, the &eEssenceforge&r processes Mystical Agriculture seeds to produce the corresponding essences."
+				"{ftbquests.chapter.masterful_machinery.quest28.description2}"
 				""
-				"The seeds and cruxes are NOT consumed, as is indicated by the small &4x&r in the recipe."
+				"{ftbquests.chapter.masterful_machinery.quest28.description3}"
 				""
-				"It is recommended to use the &eFire Attuned&r multiblock to produce the necessary Ether Gas."
+				"{ftbquests.chapter.masterful_machinery.quest28.description4}"
 				""
-				"This tier allows for 3 parallels meaning you can run 3 different recipes (3 different seeds) at the same time."
+				"{ftbquests.chapter.masterful_machinery.quest28.description5}"
 			]
 			id: "244180B3CF50DBD7"
 			rewards: [{
@@ -3817,7 +4026,7 @@
 							]
 						}
 					}
-					title: "Fluid Input Port (Small or bigger)"
+					title: "{ftbquests.chapter.masterful_machinery.quest28.task_8275673614446352509.title}"
 					type: "item"
 				}
 				{
@@ -3828,6 +4037,14 @@
 						id: "itemfilters:or"
 						tag: {
 							items: [
+								{
+									Count: 1b
+									id: "mm:tiny_energy_port_input"
+								}
+								{
+									Count: 1b
+									id: "mm:small_energy_port_input"
+								}
 								{
 									Count: 1b
 									id: "mm:normal_energy_port_input"
@@ -3847,7 +4064,7 @@
 							]
 						}
 					}
-					title: "Energy Input Port (Normal or bigger)"
+					title: "{ftbquests.chapter.masterful_machinery.quest28.task_5395364589787167274.title}"
 					type: "item"
 				}
 				{
@@ -3900,7 +4117,7 @@
 							]
 						}
 					}
-					title: "Item Input Port (Tiny or bigger)"
+					title: "{ftbquests.chapter.masterful_machinery.quest28.task_4424713575353631355.title}"
 					type: "item"
 				}
 				{
@@ -3953,20 +4170,20 @@
 							]
 						}
 					}
-					title: "Item Output Port (Tiny or bigger)"
+					title: "{ftbquests.chapter.masterful_machinery.quest28.task_4601767132213178606.title}"
 					type: "item"
 				}
 			]
-			title: "&eEssenceforge Tier 1&r"
+			title: "{ftbquests.chapter.masterful_machinery.quest28.title}"
 			x: -1.5d
 			y: 4.0d
 		}
 		{
 			dependencies: ["244180B3CF50DBD7"]
 			description: [
-				"Direct upgrade from the T1, this tier is 2x faster and produces 4x more essences every craft !"
+				"{ftbquests.chapter.masterful_machinery.quest29.description1}"
 				""
-				"This tier allows for 3 parallels meaning you can run 3 different recipes (3 different seeds) at the same time."
+				"{ftbquests.chapter.masterful_machinery.quest29.description2}"
 			]
 			id: "1B84D976F6DC4535"
 			rewards: [{
@@ -4017,6 +4234,14 @@
 							items: [
 								{
 									Count: 1b
+									id: "mm:tiny_item_port_input"
+								}
+								{
+									Count: 1b
+									id: "mm:small_item_port_input"
+								}
+								{
+									Count: 1b
 									id: "mm:normal_item_port_input"
 								}
 								{
@@ -4050,7 +4275,7 @@
 							]
 						}
 					}
-					title: "Item Input Port (Normal or bigger)"
+					title: "{ftbquests.chapter.masterful_machinery.quest29.task_9101855893634253358.title}"
 					type: "item"
 				}
 				{
@@ -4060,6 +4285,34 @@
 						id: "itemfilters:or"
 						tag: {
 							items: [
+								{
+									Count: 1b
+									id: "mm:tiny_item_port_output"
+								}
+								{
+									Count: 1b
+									id: "mm:small_item_port_output"
+								}
+								{
+									Count: 1b
+									id: "mm:normal_item_port_output"
+								}
+								{
+									Count: 1b
+									id: "mm:big_item_port_output"
+								}
+								{
+									Count: 1b
+									id: "mm:enormous_item_port_output"
+								}
+								{
+									Count: 1b
+									id: "mm:gigantic_item_port_output"
+								}
+								{
+									Count: 1b
+									id: "mm:colossal_item_port_output"
+								}
 								{
 									Count: 1b
 									id: "mm:titanic_item_port_output"
@@ -4075,25 +4328,25 @@
 							]
 						}
 					}
-					title: "Item Output Port (Titanic or bigger)"
+					title: "{ftbquests.chapter.masterful_machinery.quest29.task_4290297201832258070.title}"
 					type: "item"
 				}
 			]
-			title: "&eEssenceforge Tier 2&r"
+			title: "{ftbquests.chapter.masterful_machinery.quest29.title}"
 			x: -1.94d
 			y: 5.17d
 		}
 		{
 			dependencies: ["1B84D976F6DC4535"]
 			description: [
-				"Indirect upgrade from the T2, this tier is faster and produces more essences than the T2 but it needs to have the correct group of seeds (see recipes in JEI)."
+				"{ftbquests.chapter.masterful_machinery.quest30.description1}"
 				""
-				"This tier does not allow for parallels."
+				"{ftbquests.chapter.masterful_machinery.quest30.description2}"
 			]
 			id: "45D9916070E1980F"
 			rewards: [{
 				id: "42B9FE3D48C66C56"
-				item: "kubejs:apotheotic_coin"
+				item: "kubejs:infused_coin"
 				type: "item"
 			}]
 			size: 0.75d
@@ -4145,21 +4398,21 @@
 					type: "item"
 				}
 			]
-			title: "&eEssenceforge Tier 3&r"
+			title: "{ftbquests.chapter.masterful_machinery.quest30.title}"
 			x: -2.38d
 			y: 6.34d
 		}
 		{
 			dependencies: ["45D9916070E1980F"]
 			description: [
-				"Indirect upgrade from the T3, Tier 4 processes entire seed tiers each craft."
+				"{ftbquests.chapter.masterful_machinery.quest31.description1}"
 				""
-				"This tier does not allow for parallels."
+				"{ftbquests.chapter.masterful_machinery.quest31.description2}"
 			]
 			id: "1DC6EF989D6A594B"
 			rewards: [{
 				id: "1B6FFAFFF188711C"
-				item: "kubejs:apotheotic_coin"
+				item: "kubejs:ascended_coin"
 				type: "item"
 			}]
 			size: 0.75d
@@ -4196,6 +4449,22 @@
 							items: [
 								{
 									Count: 1b
+									id: "mm:tiny_item_port_input"
+								}
+								{
+									Count: 1b
+									id: "mm:small_item_port_input"
+								}
+								{
+									Count: 1b
+									id: "mm:normal_item_port_input"
+								}
+								{
+									Count: 1b
+									id: "mm:big_item_port_input"
+								}
+								{
+									Count: 1b
 									id: "mm:enormous_item_port_input"
 								}
 								{
@@ -4221,7 +4490,7 @@
 							]
 						}
 					}
-					title: "Item Input Port (Enormous or bigger)"
+					title: "{ftbquests.chapter.masterful_machinery.quest31.task_371726008310119652.title}"
 					type: "item"
 				}
 				{
@@ -4234,6 +4503,38 @@
 							items: [
 								{
 									Count: 1b
+									id: "mm:tiny_item_port_output"
+								}
+								{
+									Count: 1b
+									id: "mm:small_item_port_output"
+								}
+								{
+									Count: 1b
+									id: "mm:normal_item_port_output"
+								}
+								{
+									Count: 1b
+									id: "mm:big_item_port_output"
+								}
+								{
+									Count: 1b
+									id: "mm:enormous_item_port_output"
+								}
+								{
+									Count: 1b
+									id: "mm:gigantic_item_port_output"
+								}
+								{
+									Count: 1b
+									id: "mm:colossal_item_port_output"
+								}
+								{
+									Count: 1b
+									id: "mm:titanic_item_port_output"
+								}
+								{
+									Count: 1b
 									id: "mm:compressed_titanic_item_port_output"
 								}
 								{
@@ -4243,28 +4544,20 @@
 							]
 						}
 					}
-					title: "Item Output Port (Compressed Titanic or bigger)"
+					title: "{ftbquests.chapter.masterful_machinery.quest31.task_1956545606104731614.title}"
 					type: "item"
 				}
 			]
-			title: "&eEssenceforge Tier 4&r"
+			title: "{ftbquests.chapter.masterful_machinery.quest31.title}"
 			x: -2.82d
 			y: 7.51d
 		}
 		{
 			dependencies: ["4402587B0EAC4EEC"]
 			description: [
-				"The Multi Compactor Machine compacts Mystical Agriculture Essences and ProjectE Alchemical Fuels."
-				"As a bonus you can try to produce the elusive Intricate Hellforged Parts with huge amounts of Coal and Gems (WIP)."
-				"For all available recipes look up the uses of the Controller."
+				"{ftbquests.chapter.masterful_machinery.quest32.description1}"
 				""
-				"&eController:&r a &6Master Infusion Crystal&r (Mystical Agriculture), 2 &6Pink Fuel Blocks&r (ProjectExpansion) and a &6Philosopher's Stone&r, plus 2 Redstone Servos, 2 Redstone Reception Coils and a Manasteel Ingot."
-				"{@pagebreak}"
-				"&eStructure:&r every block is listed as a task. Check the structure preview in JEI (uses of the Controller) or let a &eMultiblock Builder&r place it for you."
-				""
-				"&ePorts:&r a recipe only starts if its inputs and outputs fit in the ports. These sizes run most recipes; the few that need bigger ports are named:"
-				"- 7x Item Input: &eTiny&r or bigger"
-				"- 1x Item Output: &eTiny&r or bigger &7(up to &eSmall&7 for: Intricate Hellforged Parts)&r"
+				"{ftbquests.chapter.masterful_machinery.quest32.description2}"
 			]
 			id: "49F7A2C0AB76A359"
 			rewards: [{
@@ -4365,7 +4658,7 @@
 							]
 						}
 					}
-					title: "Item Input Port (Tiny or bigger)"
+					title: "{ftbquests.chapter.masterful_machinery.quest32.task_3983977383347841361.title}"
 					type: "item"
 				}
 				{
@@ -4418,27 +4711,29 @@
 							]
 						}
 					}
-					title: "Item Output Port (Tiny or bigger)"
+					title: "{ftbquests.chapter.masterful_machinery.quest32.task_4981244275737940919.title}"
 					type: "item"
 				}
 			]
-			title: "&eMulti Compactor&r"
+			title: "{ftbquests.chapter.masterful_machinery.quest32.title}"
 			x: 3.0d
 			y: -3.0d
 		}
 		{
 			dependencies: ["4402587B0EAC4EEC"]
 			description: [
-				"The Resource Foundry is the multiblock for creating a lot of items. You input essences and get items back."
-				"Because it is 1 big craft and not many small ones, it does not take as much server resources."
+				"{ftbquests.chapter.masterful_machinery.quest33.description1}"
 				""
-				"&eController:&r &6Hypercharged Alloy&r (Evolved Mekanism) and &6Radiance Alloy&r (Mekanism Extras), plus the usual 2 Redstone Servos, 2 Redstone Reception Coils, 2 Cobalt Blocks and a Manasteel Ingot."
-				"{@pagebreak}"
-				"&eStructure:&r every block is listed as a task. Check the structure preview in JEI (uses of the Controller) or let a &eMultiblock Builder&r place it for you."
+				"{ftbquests.chapter.masterful_machinery.quest33.description2}"
 				""
-				"All ports of the Resource Foundry are fixed parts of the structure and are listed as tasks."
+				"{ftbquests.chapter.masterful_machinery.quest33.description3}"
 			]
 			id: "7BA932E34079CBAA"
+			rewards: [{
+				id: "173F2213A8720B0C"
+				item: "kubejs:ascended_coin"
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "14A40F9A909628A0"
@@ -4568,25 +4863,19 @@
 					type: "item"
 				}
 			]
-			title: "&eRessource Foundry&r"
+			title: "{ftbquests.chapter.masterful_machinery.quest33.title}"
 			x: -4.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["4402587B0EAC4EEC"]
-			description: [
-				"The Infinity Cell Factory is your best friend for creating all your Infinity Cells."
-				""
-				"&eController:&r &6Subatomic Alloy&r, &6Thermonuclear Alloy&r, 2 &6Netherite-Diamond Blocks&r and a &6Block of Manasteel&r, plus 2 Redstone Servos and 2 Redstone Reception Coils."
-				"{@pagebreak}"
-				"&eStructure:&r every block is listed as a task. Check the structure preview in JEI (uses of the Controller) or let a &eMultiblock Builder&r place it for you."
-				""
-				"&ePorts:&r a recipe only starts if its inputs and outputs fit in the ports. These sizes run most recipes; the few that need bigger ports are named:"
-				"- 2x Item Input: &eNormal&r or bigger &7(up to &eEnormous&7 for: Prosperity Shard Infinity Cell)&r"
-				"- 2x Fluid Input: &eSmall&r or bigger"
-				"- 2x Item Output: &eTiny&r or bigger"
-			]
+			description: ["{ftbquests.chapter.masterful_machinery.quest34.description1}"]
 			id: "4BD5CD621782DFB8"
+			rewards: [{
+				id: "3CAC0D2EEA1538C3"
+				item: "kubejs:infused_coin"
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "2B2ACF58F8DC22B8"
@@ -4662,6 +4951,14 @@
 							items: [
 								{
 									Count: 1b
+									id: "mm:tiny_item_port_input"
+								}
+								{
+									Count: 1b
+									id: "mm:small_item_port_input"
+								}
+								{
+									Count: 1b
 									id: "mm:normal_item_port_input"
 								}
 								{
@@ -4695,7 +4992,7 @@
 							]
 						}
 					}
-					title: "Item Input Port (Normal or bigger)"
+					title: "{ftbquests.chapter.masterful_machinery.quest34.task_2791785029746276629.title}"
 					type: "item"
 				}
 				{
@@ -4729,7 +5026,7 @@
 							]
 						}
 					}
-					title: "Fluid Input Port (Small or bigger)"
+					title: "{ftbquests.chapter.masterful_machinery.quest34.task_7853410904155477861.title}"
 					type: "item"
 				}
 				{
@@ -4783,20 +5080,19 @@
 							]
 						}
 					}
-					title: "Item Output Port (Tiny or bigger)"
+					title: "{ftbquests.chapter.masterful_machinery.quest34.task_8047989276279454302.title}"
 					type: "item"
 				}
 			]
-			title: "&eInfinity Cell Factory&r"
+			title: "{ftbquests.chapter.masterful_machinery.quest34.title}"
 			x: 4.0d
 			y: 0.0d
 		}
 		{
 			description: [
-				"{ftbquests.chapter.masterful_machinery.quest18.description1}"
-				"{ftbquests.chapter.masterful_machinery.quest18.description2}"
+				"{ftbquests.chapter.masterful_machinery.quest35.description1}"
+				"{ftbquests.chapter.masterful_machinery.quest35.description2}"
 				""
-				"{ftbquests.chapter.masterful_machinery.quest18.description3}"
 			]
 			id: "7721ABD591D762C6"
 			invisible: true
@@ -4805,29 +5101,17 @@
 				id: "0A182847E1718BB1"
 				type: "checkmark"
 			}]
-			title: "{ftbquests.chapter.masterful_machinery.quest18.title}"
-			x: 0.0d
-			y: -1.5d
+			title: "{ftbquests.chapter.masterful_machinery.quest35.title}"
+			x: 1.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["4402587B0EAC4EEC"]
-			description: [
-				"The Tank Encapsulator Multiblock lets you create some Fluid and Chemical Tanks so you don't have problems with NBT."
-				""
-				"&eController:&r an &6Absolute Fluid Tank&r and an &6Absolute Chemical Tank&r (Mekanism Extras), plus the usual 2 Redstone Servos, 2 Redstone Reception Coils, 2 Cobalt Blocks and a Manasteel Ingot."
-				"{@pagebreak}"
-				"&eStructure:&r every block is listed as a task. Check the structure preview in JEI (uses of the Controller) or let a &eMultiblock Builder&r place it for you."
-				""
-				"&ePorts:&r a recipe only starts if its inputs and outputs fit in the ports, so these are the sizes that run every recipe:"
-				"- 1x Item Input: &eTiny&r or bigger"
-				"- 1x Item Output: &eTiny&r or bigger"
-				""
-				"The fluid and chemical ports are fixed parts of the structure and are listed as tasks."
-			]
+			description: ["{ftbquests.chapter.masterful_machinery.quest36.description1}"]
 			id: "1451DABE6CCAC3AD"
 			rewards: [{
 				id: "2E4A11590F5ED49A"
-				item: "kubejs:apotheotic_coin"
+				item: "kubejs:infused_coin"
 				type: "item"
 			}]
 			tasks: [
@@ -4950,7 +5234,7 @@
 							]
 						}
 					}
-					title: "Item Input Port (Tiny or bigger)"
+					title: "{ftbquests.chapter.masterful_machinery.quest36.task_4889807296641230891.title}"
 					type: "item"
 				}
 				{
@@ -5003,13 +5287,249 @@
 							]
 						}
 					}
-					title: "Item Output Port (Tiny or bigger)"
+					title: "{ftbquests.chapter.masterful_machinery.quest36.task_7594190132828208666.title}"
 					type: "item"
 				}
 			]
-			title: "&eTank Encapsulator&r"
+			title: "{ftbquests.chapter.masterful_machinery.quest36.title}"
 			x: 0.0d
 			y: 2.0d
+		}
+		{
+			dependencies: ["4402587B0EAC4EEC"]
+			description: [
+				"{ftbquests.chapter.masterful_machinery.quest37.description1}"
+				""
+				"{ftbquests.chapter.masterful_machinery.quest37.description2}"
+				""
+				"{ftbquests.chapter.masterful_machinery.quest37.description3}"
+				""
+				"{ftbquests.chapter.masterful_machinery.quest37.description4}"
+				""
+				"{ftbquests.chapter.masterful_machinery.quest37.description5}"
+				""
+				"{ftbquests.chapter.masterful_machinery.quest37.description6}"
+			]
+			id: "30DD7FB3E1B98952"
+			rewards: [{
+				id: "7B423739A3D02FE8"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "4CC3D3C3881AEF18"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "mm:tiny_energy_port_input"
+								}
+								{
+									Count: 1b
+									id: "mm:small_energy_port_input"
+								}
+								{
+									Count: 1b
+									id: "mm:normal_energy_port_input"
+								}
+								{
+									Count: 1b
+									id: "mm:big_energy_port_input"
+								}
+								{
+									Count: 1b
+									id: "mm:enormous_energy_port_input"
+								}
+								{
+									Count: 1b
+									id: "mm:gigantic_energy_port_input"
+								}
+							]
+						}
+					}
+					title: "{ftbquests.chapter.masterful_machinery.quest37.task_5531497604096651032.title}"
+					type: "item"
+				}
+				{
+					id: "7D73F25100BDE8C6"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "mm:tiny_item_port_input"
+								}
+								{
+									Count: 1b
+									id: "mm:small_item_port_input"
+								}
+								{
+									Count: 1b
+									id: "mm:normal_item_port_input"
+								}
+								{
+									Count: 1b
+									id: "mm:big_item_port_input"
+								}
+								{
+									Count: 1b
+									id: "mm:enormous_item_port_input"
+								}
+								{
+									Count: 1b
+									id: "mm:gigantic_item_port_input"
+								}
+								{
+									Count: 1b
+									id: "mm:colossal_item_port_input"
+								}
+								{
+									Count: 1b
+									id: "mm:titanic_item_port_input"
+								}
+								{
+									Count: 1b
+									id: "mm:compressed_titanic_item_port_input"
+								}
+								{
+									Count: 1b
+									id: "mm:super_compressed_titanic_item_port_input"
+								}
+							]
+						}
+					}
+					title: "{ftbquests.chapter.masterful_machinery.quest37.task_9039835306781436102.title}"
+					type: "item"
+				}
+				{
+					id: "01025E2627C2D4C7"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "mm:tiny_item_port_output"
+								}
+								{
+									Count: 1b
+									id: "mm:small_item_port_output"
+								}
+								{
+									Count: 1b
+									id: "mm:normal_item_port_output"
+								}
+								{
+									Count: 1b
+									id: "mm:big_item_port_output"
+								}
+								{
+									Count: 1b
+									id: "mm:enormous_item_port_output"
+								}
+								{
+									Count: 1b
+									id: "mm:gigantic_item_port_output"
+								}
+								{
+									Count: 1b
+									id: "mm:colossal_item_port_output"
+								}
+								{
+									Count: 1b
+									id: "mm:titanic_item_port_output"
+								}
+								{
+									Count: 1b
+									id: "mm:compressed_titanic_item_port_output"
+								}
+								{
+									Count: 1b
+									id: "mm:super_compressed_titanic_item_port_output"
+								}
+							]
+						}
+					}
+					title: "{ftbquests.chapter.masterful_machinery.quest37.task_72724061960197319.title}"
+					type: "item"
+				}
+				{
+					id: "15876E12588C9E68"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "mm:small_fluid_port_input"
+								}
+								{
+									Count: 1b
+									id: "mm:normal_fluid_port_input"
+								}
+								{
+									Count: 1b
+									id: "mm:big_fluid_port_input"
+								}
+								{
+									Count: 1b
+									id: "mm:enormous_fluid_port_input"
+								}
+								{
+									Count: 1b
+									id: "mm:gigantic_fluid_port_input"
+								}
+							]
+						}
+					}
+					title: "{ftbquests.chapter.masterful_machinery.quest37.task_1551329621726502504.title}"
+					type: "item"
+				}
+				{
+					id: "47F7F15EC4A0A173"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "mm:small_fluid_port_output"
+								}
+								{
+									Count: 1b
+									id: "mm:normal_fluid_port_output"
+								}
+								{
+									Count: 1b
+									id: "mm:big_fluid_port_output"
+								}
+								{
+									Count: 1b
+									id: "mm:enormous_fluid_port_output"
+								}
+								{
+									Count: 1b
+									id: "mm:gigantic_fluid_port_output"
+								}
+							]
+						}
+					}
+					title: "{ftbquests.chapter.masterful_machinery.quest37.task_5185878885268496755.title}"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.masterful_machinery.quest37.title}"
+			x: 0.0d
+			y: -1.5d
 		}
 	]
 	title: "{ftbquests.chapter.masterful_machinery.title}"

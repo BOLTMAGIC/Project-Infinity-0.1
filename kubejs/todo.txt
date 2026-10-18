@@ -41,6 +41,7 @@ Recipe changes and fixes:
 - removed Refined Storage recipes to prepare for the removal of the mod in 0.0.53.0
 - removed RFToolsDim recipes to prepare for the removal of the mod in 0.0.53.0
 - remove Infinity 1 from Eclipe Alloy items crafts
+- remove recipe for laserio:filter_count to fix dupe
 
 Quest changes:
 - Removed dedicated Naquadah Reactor questline, added it to the Mekanism questline

@@ -38,7 +38,6 @@ const removeRecipebyOutput = [
   'enderio:energy_conduit',
   'avaritia:neutron_compressor',
   'cyclic:item_infinite',
-
   'solarflux:twilightforest/twilight_cell_1',
   'solarflux:twilightforest/twilight_cell_2',
   'solarflux:sp_tf.carminite',
@@ -170,6 +169,7 @@ const removeRecipebyOutput = [
   'thermal:florb',
   'silentgems:soul_gem',
   'projectcell:emc_storage_cell',
+  'laserio:filter_count',
 ];
 
 //#region ID removal

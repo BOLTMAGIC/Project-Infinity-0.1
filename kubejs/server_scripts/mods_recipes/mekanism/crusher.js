@@ -31,6 +31,13 @@ ServerEvents.recipes((event) => {
     'draconicevolution:draconium_dust'
   );
 
+  crush(
+    event,
+    'minecraft:snow',
+    4,
+    'minecraft:snowball'
+  );
+
   crush(event, '#forge:ingots/graphite', 1, 'nuclearcraft:graphite_dust');
 
   crush(event, 'minecraft:sand', 1, 'exdeorum:dust', 2);

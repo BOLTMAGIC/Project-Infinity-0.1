@@ -7,6 +7,11 @@ JEIEvents.addItems(event => {
     event.add('mysticalagriculture:basalt_essence');
 
     event.add('mysticalagriculture:rose_gold_seeds');
+    event.add('mysticalagriculture:rose_gold_essence');
+
     event.add('mysticalagriculture:manyullyn_seeds');
+    event.add('mysticalagriculture:manyullyn_essence');
+
     event.add('mysticalagriculture:cobalt_seeds');
+    event.add('mysticalagriculture:cobalt_essence');
 });

@@ -38,14 +38,6 @@
 			x: 5.0d
 			y: -4.0d
 		}
-		{
-			height: 7.0d
-			image: "kubejs:block/screen/bloodmagic_altar_6"
-			rotation: 0.0d
-			width: 7.397450753186558d
-			x: 4.0d
-			y: 1.5d
-		}
 	]
 	order_index: 4
 	quest_links: [ ]

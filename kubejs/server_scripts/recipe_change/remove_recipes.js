@@ -590,7 +590,7 @@ const removeRecipebyRecipeID = [
   'molecularmanipulator:molecular_manipulator',
   'functionalstorage:oak_drawer_alternate_x2',
   'functionalstorage:oak_drawer_alternate_x4',
-  '',
+  'molecularmanipulator:event_horizon_singularity_hub',
   '',
   '',
   '',

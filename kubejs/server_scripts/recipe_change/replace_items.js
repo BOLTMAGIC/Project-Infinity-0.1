@@ -372,6 +372,11 @@ ServerEvents.recipes((event) => {
     'extendedcrafting:legendary_table'
   );
   event.replaceInput(
+    { output: 'botania:rune_winter' },
+    'minecraft:cake',
+    'enderio:cake_base'
+  );
+  event.replaceInput(
     { input: 'armorplus:compressed_obsidian' },
     'armorplus:compressed_obsidian',
     'compressium:obsidian_1'

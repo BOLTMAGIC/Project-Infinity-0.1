@@ -226,6 +226,12 @@ ItemEvents.tooltip((event) => {
     Text.translate('tooltip.compactmachines.info')
   );
 
+  // OmniSequence
+  event.add(
+    ['molecularmanipulator:event_horizon_singularity_hub'],
+    Text.translate('tooltip.omnisequence.disabled_block')
+  );
+
   // --- Advanced Tooltips ---
 
   const holdShiftText = () => [

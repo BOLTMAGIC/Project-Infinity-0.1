@@ -21,11 +21,11 @@
 		#FE consumed per millibucket of singularity sequence matter. Full-cycle FE cost = black-hole count * matter_per_black_hole * fe_per_unit.
 		#每生产 1 mB 奇点序质流体消耗的 FE；满速每次消耗 = 黑洞数量 × matter_per_black_hole × fe_per_unit。
 		#Range: > 1
-		fe_per_unit = 9999999999999
+		fe_per_unit = 2147483647
 		#AE power consumed per millibucket of singularity sequence matter. Full-cycle AE cost = black-hole count * matter_per_black_hole * ae_per_unit.
 		#每生产 1 mB 奇点序质流体消耗的 AE；满速每次消耗 = 黑洞数量 × matter_per_black_hole × ae_per_unit。
 		#Range: > 1
-		ae_per_unit = 9999999999999
+		ae_per_unit = 2147483647
 		#Energy sources attempted in order. FE scans adjacent energy capabilities; AE uses the connected ME grid.
 		#能源优先级，按顺序尝试。FE 会扫描相邻能源能力，AE 使用已连接 ME 网络的能源。
 		energy_priority = ["fe", "ae"]

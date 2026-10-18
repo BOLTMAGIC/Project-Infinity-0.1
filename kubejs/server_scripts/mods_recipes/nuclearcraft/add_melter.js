@@ -36,4 +36,6 @@ ServerEvents.recipes((event) => {
   melter(event, 'thermal:basalz_rod', 1000, 'kubejs:molten_basalz');
   melter(event, 'thermal:blizz_rod', 1000, 'kubejs:molten_blizz');
   melter(event, 'thermal:blitz_rod', 1000, 'kubejs:molten_blitz');
+  melter(event, 'minecraft:magma_block', 1000, 'cyclic:magma');
+  melter(event, 'minecraft:honey_block', 1000, 'cyclic:honey');
 });

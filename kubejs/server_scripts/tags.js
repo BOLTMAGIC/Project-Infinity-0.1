@@ -4,6 +4,10 @@ ServerEvents.tags('item', (event) => {
 
   event.add('forge:plastic', 'pneumaticcraft:plastic');
 
+  event.add('c:ingots', 'megacells:sky_steel_ingot');
+  event.add('forge:ingots', 'megacells:sky_steel_ingot');
+  event.add('balm:ingots', 'megacells:sky_steel_ingot');
+
   event.add('mysticalagriculture:essences', [
     'mysticalagriculture:boron_essence',
     'mysticalagriculture:cognizant_dust_essence',
@@ -55,7 +59,7 @@ ServerEvents.tags('item', (event) => {
     'kubejs:allthemodium_hammer',
     'kubejs:vibranium_hammer',
     'kubejs:unobtainium_hammer',
-    'kubejs:allthemodium_alloy_hammer'
+    'kubejs:allthemodium_alloy_hammer',
   ]);
 
   event.add('minecraft:wooden_slabs', 'minecraft:wooden_slabs');
@@ -98,7 +102,7 @@ ServerEvents.tags('item', (event) => {
     'kubejs:allthemodium_hammer',
     'kubejs:vibranium_hammer',
     'kubejs:unobtainium_hammer',
-    'kubejs:allthemodium_alloy_hammer'
+    'kubejs:allthemodium_alloy_hammer',
   ]);
 
   event.add('kubejs:hammers_with_durability', [
@@ -121,6 +125,34 @@ ServerEvents.tags('item', (event) => {
     'kubejs:netherite_emerald_hammer',
     'kubejs:netherite_diamond_hammer',
   ]);
+
+  event.add('forge:gems/flint', 'minecraft:flint');
+  event.add('forge:ghast_tear', 'minecraft:ghast_tear');
+  event.add('forge:magma_cream', 'minecraft:magma_cream');
+  event.add('forge:chorus_flower', 'minecraft:chorus_flower');
+  event.add('forge:sculk_shrieker', 'minecraft:sculk_shrieker');
+  event.add('forge:echo_shard', 'minecraft:echo_shard');
+  event.add('forge:bone', 'minecraft:bone');
+
+  event.add('forge:dusts/sky_dust', 'ae2:sky_dust');
+  event.add(
+    'forge:gems/propsperity_shard',
+    'mysticalagriculture:prosperity_shard'
+  );
+  event.add(
+    'forge:gems/dimensional_shard',
+    'dimensionalpocketsii:dimensional_shard'
+  );
+  event.add('forge:ores/azure_silver_ore', 'kubejs:azure_silver_ore');
+  event.add('forge:sculk_core', 'exdeorum:sculk_core');
+  event.add(
+    'forge:crops/crimson_nylium_spores',
+    'exdeorum:crimson_nylium_spores'
+  );
+  event.add(
+    'forge:crops/warped_nylium_spores',
+    'exdeorum:warped_nylium_spores'
+  );
 });
 
 //remove Tags from Items
@@ -153,9 +185,7 @@ ServerEvents.tags('fluid', (event) => {
     'minecraft:nether_star',
   ]);
 
-  event.add('c:experience', [
-    'justdirethings:xp_fluid',
-  ]);
+  event.add('c:experience', ['justdirethings:xp_fluid']);
 });
 
 //add Tags to Blocks

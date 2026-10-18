@@ -5,18 +5,37 @@
 	group: "3D3A412C3395C674"
 	icon: "woot_revived:xp_shard"
 	id: "55BA93F38D365986"
+	images: [
+		{
+			height: 3.0d
+			image: "kubejs:block/screen/woot_revived"
+			rotation: 0.0d
+			width: 9.0d
+			x: -2.0d
+			y: -4.0d
+		}
+		{
+			height: 6.0d
+			image: "kubejs:block/screen/fake_spawner_location"
+			rotation: 0.0d
+			width: 5.0d
+			x: 12.5d
+			y: -0.5d
+		}
+	]
 	order_index: 4
 	quest_links: [ ]
 	quests: [
 		{
 			description: [
-				"{ftbquests.chapter.woot.quest1.description1}"
+				"&6Woot Revived&r is a &bmultiblock mod&r for &aMinecraft 1.20.1&r that allows players to &eautomate mob drops&r without spawning the mobs themselves. By &dcapturing&r any &cmob&r and &9programming&r it into a &bFactory structure&r, the mod generates &6loot&r, &aexperience&r, and other drops entirely through automation."
 				""
-				"{ftbquests.chapter.woot.quest1.description2}"
+				"&bFactories&r come in &eMultiple Tiers&r, with higher tiers capable of handling stronger mobs such as the &4Wither&r. A &9Layout Block&r helps guide construction, while various &dUpgrades&r — like &6Looting&r, &eRate&r, &aMass&r, &bEfficiency&r, &aXP&r, and &cDecapitation&r — enhance production at the cost of higher &2energy consumption&r."
 				""
-				"{ftbquests.chapter.woot.quest1.description3}"
+				"This makes &6Woot Revived&r a powerful alternative to traditional &cmob farms&r, eliminating &clag&r and &4danger&r while providing fully automated &6resource generation&r."
 			]
 			id: "47F7A992EB772464"
+			min_width: 350
 			rewards: [
 				{
 					id: "3561AB174E58A4C7"
@@ -29,21 +48,21 @@
 					type: "item"
 				}
 			]
-			subtitle: "{ftbquests.chapter.woot.quest1.subtitle}"
+			subtitle: "woot is going on"
 			tasks: [{
 				id: "033C41B1F247ED9B"
-				title: "{ftbquests.chapter.woot.quest1.task_233133513246240155.title}"
+				title: "Woot"
 				type: "checkmark"
 			}]
 			x: -1.0d
-			y: -1.0d
+			y: -0.5d
 		}
 		{
 			dependencies: ["6D4E0799E6FFA709"]
 			description: [
-				"{ftbquests.chapter.woot.quest2.description1}"
+				"Combine 1 of each:"
 				""
-				"{ftbquests.chapter.woot.quest2.description2}"
+				"&4Red&r, &9Blue&r, &eYellow&r, White"
 			]
 			id: "198B0683CEA92650"
 			rewards: [{
@@ -51,7 +70,7 @@
 				item: "kubejs:apotheotic_coin"
 				type: "item"
 			}]
-			subtitle: "{ftbquests.chapter.woot.quest2.subtitle}"
+			subtitle: "Pure Dye"
 			tasks: [
 				{
 					id: "32056A6892CB5C3E"
@@ -62,7 +81,7 @@
 							value: "forge:dyes/yellow"
 						}
 					}
-					title: "{ftbquests.chapter.woot.quest2.task_3604404074151894078.title}"
+					title: "Any yellow dye"
 					type: "item"
 				}
 				{
@@ -74,7 +93,7 @@
 							value: "forge:dyes/red"
 						}
 					}
-					title: "{ftbquests.chapter.woot.quest2.task_5230178948943198723.title}"
+					title: "Any red dye"
 					type: "item"
 				}
 				{
@@ -86,7 +105,7 @@
 							value: "forge:dyes/blue"
 						}
 					}
-					title: "{ftbquests.chapter.woot.quest2.task_6937668338404105054.title}"
+					title: "Any blue dye"
 					type: "item"
 				}
 				{
@@ -98,13 +117,13 @@
 							value: "forge:dyes/white"
 						}
 					}
-					title: "{ftbquests.chapter.woot.quest2.task_5712805485730781511.title}"
+					title: "Any white dye"
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.woot.quest2.title}"
+			title: "Dyes"
 			x: 5.0d
-			y: -2.0d
+			y: 1.0d
 		}
 		{
 			dependencies: ["198B0683CEA92650"]
@@ -123,20 +142,13 @@
 					type: "item"
 				}
 			]
-			tasks: [
-				{
-					id: "1D2C909481140C33"
-					item: "woot_revived:pure_dye_fluid_bucket"
-					type: "item"
-				}
-				{
-					id: "4348B570EC4C7DE6"
-					title: "{ftbquests.chapter.woot.quest3.task_4848324495469739494.title}"
-					type: "checkmark"
-				}
-			]
+			tasks: [{
+				id: "1D2C909481140C33"
+				item: "woot_revived:pure_dye_fluid_bucket"
+				type: "item"
+			}]
 			x: 6.0d
-			y: -2.0d
+			y: 1.0d
 		}
 		{
 			dependencies: ["250A93D9CB798267"]
@@ -146,14 +158,14 @@
 				item: "kubejs:apotheotic_coin"
 				type: "item"
 			}]
-			subtitle: "{ftbquests.chapter.woot.quest4.subtitle}"
+			subtitle: "Liquefies Dyes"
 			tasks: [{
 				id: "5A18A96886F311B2"
 				item: "woot_revived:dye_liquifier"
 				type: "item"
 			}]
 			x: 4.0d
-			y: -2.0d
+			y: 1.0d
 		}
 		{
 			dependencies: ["250A93D9CB798267"]
@@ -169,23 +181,18 @@
 				type: "item"
 			}]
 			x: 4.0d
-			y: -1.0d
+			y: -0.5d
 		}
 		{
 			dependencies: ["6275C512B72FCB89"]
-			description: [
-				"{ftbquests.chapter.woot.quest6.description1}"
-				"{ftbquests.chapter.woot.quest6.description2}"
-				"{ftbquests.chapter.woot.quest6.description3}"
-				"{ftbquests.chapter.woot.quest6.description4}"
-			]
+			description: ["Place the &dStygian Anvil &rabove the &4Magma block"]
 			id: "624853F4A24DBF05"
 			rewards: [{
 				id: "7A77B46B35DD9A68"
 				item: "kubejs:apotheotic_coin"
 				type: "item"
 			}]
-			subtitle: "{ftbquests.chapter.woot.quest6.subtitle}"
+			subtitle: "Hammer Time"
 			tasks: [
 				{
 					id: "384F600F7F7A76EC"
@@ -204,82 +211,128 @@
 				}
 			]
 			x: 1.0d
-			y: -1.0d
+			y: -0.5d
 		}
 		{
 			dependencies: [
 				"5A157D0B9D1FC996"
 				"4B2E834139B72ACC"
 			]
-			description: [
-				"{ftbquests.chapter.woot.quest7.description1}"
-				""
-				"{ftbquests.chapter.woot.quest7.description2}"
-			]
 			id: "6A87587FE33ED621"
+			min_required_tasks: 1
 			rewards: [{
 				id: "3186ED216179BEEF"
 				item: "kubejs:apotheotic_coin"
 				type: "item"
 			}]
-			subtitle: "{ftbquests.chapter.woot.quest7.subtitle}"
-			tasks: [
-				{
-					id: "653269C3215675CD"
-					item: "woot_revived:red_dye_plate"
-					type: "item"
+			tasks: [{
+				id: "08360B4CED20EA1A"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "woot_revived:light_gray_dye_plate"
+							}
+							{
+								Count: 1b
+								id: "woot_revived:gray_dye_plate"
+							}
+							{
+								Count: 1b
+								id: "woot_revived:lime_dye_plate"
+							}
+							{
+								Count: 1b
+								id: "woot_revived:yellow_dye_plate"
+							}
+							{
+								Count: 1b
+								id: "woot_revived:light_blue_dye_plate"
+							}
+							{
+								Count: 1b
+								id: "woot_revived:magenta_dye_plate"
+							}
+							{
+								Count: 1b
+								id: "woot_revived:orange_dye_plate"
+							}
+							{
+								Count: 1b
+								id: "woot_revived:white_dye_plate"
+							}
+							{
+								Count: 1b
+								id: "woot_revived:cyan_dye_plate"
+							}
+							{
+								Count: 1b
+								id: "woot_revived:purple_dye_plate"
+							}
+							{
+								Count: 1b
+								id: "woot_revived:blue_dye_plate"
+							}
+							{
+								Count: 1b
+								id: "woot_revived:brown_dye_plate"
+							}
+							{
+								Count: 1b
+								id: "woot_revived:green_dye_plate"
+							}
+							{
+								Count: 1b
+								id: "woot_revived:red_dye_plate"
+							}
+							{
+								Count: 1b
+								id: "woot_revived:black_dye_plate"
+							}
+						]
+					}
 				}
-				{
-					id: "59E09DC98D0F4CD9"
-					item: "woot_revived:light_blue_dye_plate"
-					type: "item"
-				}
-				{
-					id: "2172BEF028750825"
-					item: "woot_revived:orange_dye_plate"
-					type: "item"
-				}
-				{
-					id: "0FB19C5CA9107086"
-					item: "woot_revived:cyan_dye_plate"
-					type: "item"
-				}
-				{
-					id: "01C433D762D8E360"
-					item: "woot_revived:blue_dye_plate"
-					type: "item"
-				}
-			]
-			title: "{ftbquests.chapter.woot.quest7.title}"
+				title: "Dye Plates"
+				type: "item"
+			}]
 			x: 7.0d
-			y: -1.0d
+			y: 1.0d
 		}
 		{
 			dependencies: ["39284D579D009F83"]
+			hide_dependency_lines: false
 			id: "250A93D9CB798267"
 			rewards: [{
 				id: "72351D89127EA883"
 				item: "kubejs:apotheotic_coin"
 				type: "item"
 			}]
+			subtitle: "You'll need a lot of these!"
 			tasks: [{
 				id: "3CA2890DBD91726D"
 				item: "woot_revived:factory_base"
 				type: "item"
 			}]
 			x: 3.0d
-			y: -1.0d
+			y: -0.5d
 		}
 		{
 			dependencies: [
 				"58ED248608169157"
 				"6A87587FE33ED621"
 				"133BE52216E692EA"
+				"0FF053D2FF21C2F8"
+				"202218039D3147F8"
 			]
 			description: [
-				"{ftbquests.chapter.woot.quest9.description1}"
+				"You dont need to use a pipe to output the items from the loot exporter."
 				""
-				"{ftbquests.chapter.woot.quest9.description2}"
+				"Just place a barrel beside the loot exporter and its auto exporting to the barrel!"
+				""
+				"You need to place the &9Fake Spawner&r manually and Multiblock Placer wont place it"
 			]
 			icon: "woot_revived:copper_cell"
 			id: "42CBFE605060FF20"
@@ -336,16 +389,16 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.woot.quest9.title}"
+			title: "Tier 1 Multiblock"
 			x: 9.0d
-			y: -1.0d
+			y: -0.5d
 		}
 		{
 			dependencies: ["7346253B0663AAC6"]
 			description: [
-				"{ftbquests.chapter.woot.quest10.description1}"
+				"1. &6Hit&r the desired &cmob&r with the &dshard&r"
 				""
-				"{ftbquests.chapter.woot.quest10.description2}"
+				"2. &4KILL&r 5"
 			]
 			id: "148DE7A379D310AE"
 			rewards: [
@@ -369,7 +422,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "{ftbquests.chapter.woot.quest10.subtitle}"
+			subtitle: "the hard part"
 			tasks: [{
 				id: "323889FCBDCFB896"
 				item: {
@@ -384,11 +437,11 @@
 				}
 				type: "item"
 			}]
-			x: 13.5d
-			y: -2.0d
+			x: 5.5d
+			y: -5.0d
 		}
 		{
-			dependencies: ["34DE689660248715"]
+			dependencies: ["624853F4A24DBF05"]
 			id: "7346253B0663AAC6"
 			rewards: [{
 				id: "72245E67326444E3"
@@ -404,21 +457,21 @@
 				}
 				type: "item"
 			}]
-			x: 12.5d
-			y: -2.0d
+			x: 4.0d
+			y: -5.0d
 		}
 		{
 			dependencies: ["148DE7A379D310AE"]
 			description: [
-				"{ftbquests.chapter.woot.quest12.description1}"
+				"Place the &aFake Spawner&r on a &ePrimary&r or &eSecondary Base&r."
 				""
+				"&9Certain mobs&r have other input requirements:"
 				""
-				"{ftbquests.chapter.woot.quest12.description2}"
+				"After placing the &aFake Spawner&r inside the Multiblock you can left click the mob in the Factory Heart and it will tell you the items you have to input."
 				""
-				"{ftbquests.chapter.woot.quest12.description3}"
+				"Example:"
 				""
-				"{ftbquests.chapter.woot.quest12.description4}"
-				"{ftbquests.chapter.woot.quest12.description5}"
+				"Wither needs 4 Soul Sand and 3 Wither Skeleton Skulls"
 			]
 			id: "202218039D3147F8"
 			rewards: [{
@@ -441,11 +494,12 @@
 				}
 				type: "item"
 			}]
-			x: 14.5d
-			y: -2.0d
+			x: 7.0d
+			y: -5.0d
 		}
 		{
-			dependencies: ["34DE689660248715"]
+			dependencies: ["250A93D9CB798267"]
+			hide_dependency_lines: false
 			id: "236FE521685C7B4A"
 			rewards: [{
 				id: "6B1D9A75C0E6223D"
@@ -464,15 +518,15 @@
 					type: "item"
 				}
 			]
-			x: 12.5d
-			y: 0.0d
+			x: 4.0d
+			y: -3.5d
 		}
 		{
 			dependencies: ["56E50500670FDCAB"]
 			description: [
-				"{ftbquests.chapter.woot.quest14.description1}"
+				"Input the &9fuel&r into the &aVitality Cell&r of the Multiblock."
 				""
-				"{ftbquests.chapter.woot.quest14.description2}"
+				"&oPerhaps this farm can sustain itself...&r"
 			]
 			icon: "woot_revived:vitality_fuel_fluid_bucket"
 			id: "0FF053D2FF21C2F8"
@@ -482,21 +536,14 @@
 				item: "kubejs:apotheotic_coin"
 				type: "item"
 			}]
-			subtitle: "{ftbquests.chapter.woot.quest14.subtitle}"
-			tasks: [
-				{
-					id: "4EFE82DD6685E77F"
-					item: "woot_revived:vitality_fuel_fluid_bucket"
-					type: "item"
-				}
-				{
-					id: "1DB8B172E6F65A09"
-					title: "{ftbquests.chapter.woot.quest14.task_2141656729873963529.title}"
-					type: "checkmark"
-				}
-			]
-			x: 14.5d
-			y: 0.0d
+			subtitle: "Self Sustaining Farm"
+			tasks: [{
+				id: "4EFE82DD6685E77F"
+				item: "woot_revived:vitality_fuel_fluid_bucket"
+				type: "item"
+			}]
+			x: 7.0d
+			y: -3.5d
 		}
 		{
 			dependencies: ["236FE521685C7B4A"]
@@ -508,23 +555,16 @@
 				item: "kubejs:apotheotic_coin"
 				type: "item"
 			}]
-			tasks: [
-				{
-					id: "030EB6BC93B02E85"
-					item: "woot_revived:mob_tears_fluid_bucket"
-					type: "item"
-				}
-				{
-					id: "16848ADBCA7DC041"
-					title: "{ftbquests.chapter.woot.quest15.task_1622574442359930945.title}"
-					type: "checkmark"
-				}
-			]
-			x: 13.5d
-			y: 0.0d
+			tasks: [{
+				id: "030EB6BC93B02E85"
+				item: "woot_revived:mob_tears_fluid_bucket"
+				type: "item"
+			}]
+			x: 5.5d
+			y: -3.5d
 		}
 		{
-			hide_dependent_lines: true
+			dependencies: ["6A87587FE33ED621"]
 			id: "5651019672601E3C"
 			rewards: [{
 				id: "7ED1559307B715ED"
@@ -536,11 +576,12 @@
 				item: "woot_revived:upgrade_base"
 				type: "item"
 			}]
-			x: 2.0d
-			y: 1.5d
+			x: 7.0d
+			y: 2.5d
 		}
 		{
 			dependencies: ["5651019672601E3C"]
+			hide_dependency_lines: true
 			id: "0F462AAD66E6DBF3"
 			rewards: [{
 				id: "0ACD2B57C9E38D8B"
@@ -552,11 +593,12 @@
 				item: "woot_revived:burn_upgrade"
 				type: "item"
 			}]
-			x: 0.0d
-			y: 3.0d
+			x: -1.0d
+			y: 4.0d
 		}
 		{
 			dependencies: ["5651019672601E3C"]
+			hide_dependency_lines: true
 			id: "2CFC444D6930C94A"
 			rewards: [{
 				id: "5C1F71ED518B8E0E"
@@ -568,8 +610,8 @@
 				item: "woot_revived:copper_decapitate_upgrade"
 				type: "item"
 			}]
-			x: 0.0d
-			y: 4.0d
+			x: -1.0d
+			y: 5.0d
 		}
 		{
 			dependencies: ["2CFC444D6930C94A"]
@@ -584,8 +626,8 @@
 				item: "woot_revived:iron_decapitate_upgrade"
 				type: "item"
 			}]
-			x: 1.0d
-			y: 4.0d
+			x: 0.0d
+			y: 5.0d
 		}
 		{
 			dependencies: ["63CAF5186A72D9B6"]
@@ -600,8 +642,8 @@
 				item: "woot_revived:gold_decapitate_upgrade"
 				type: "item"
 			}]
-			x: 2.0d
-			y: 4.0d
+			x: 1.0d
+			y: 5.0d
 		}
 		{
 			dependencies: ["0E38291F83AB92E4"]
@@ -616,11 +658,12 @@
 				item: "woot_revived:diamond_decapitate_upgrade"
 				type: "item"
 			}]
-			x: 3.0d
-			y: 4.0d
+			x: 2.0d
+			y: 5.0d
 		}
 		{
 			dependencies: ["5651019672601E3C"]
+			hide_dependency_lines: true
 			id: "22223576698F0160"
 			rewards: [{
 				id: "47E76118B7C1BCE5"
@@ -632,8 +675,8 @@
 				item: "woot_revived:copper_efficiency_upgrade"
 				type: "item"
 			}]
-			x: 0.0d
-			y: 5.0d
+			x: -1.0d
+			y: 6.0d
 		}
 		{
 			dependencies: ["1F05A6F653BE5883"]
@@ -648,8 +691,8 @@
 				item: "woot_revived:netherite_decapitate_upgrade"
 				type: "item"
 			}]
-			x: 4.0d
-			y: 4.0d
+			x: 3.0d
+			y: 5.0d
 		}
 		{
 			dependencies: ["22223576698F0160"]
@@ -664,8 +707,8 @@
 				item: "woot_revived:iron_efficiency_upgrade"
 				type: "item"
 			}]
-			x: 1.0d
-			y: 5.0d
+			x: 0.0d
+			y: 6.0d
 		}
 		{
 			dependencies: ["59364F349862D84B"]
@@ -680,8 +723,8 @@
 				item: "woot_revived:gold_efficiency_upgrade"
 				type: "item"
 			}]
-			x: 2.0d
-			y: 5.0d
+			x: 1.0d
+			y: 6.0d
 		}
 		{
 			dependencies: ["6FA0D8B56B8F8E19"]
@@ -696,8 +739,8 @@
 				item: "woot_revived:diamond_efficiency_upgrade"
 				type: "item"
 			}]
-			x: 3.0d
-			y: 5.0d
+			x: 2.0d
+			y: 6.0d
 		}
 		{
 			dependencies: ["5F26DFE3C71E71B2"]
@@ -712,11 +755,12 @@
 				item: "woot_revived:netherite_efficiency_upgrade"
 				type: "item"
 			}]
-			x: 4.0d
-			y: 5.0d
+			x: 3.0d
+			y: 6.0d
 		}
 		{
 			dependencies: ["5651019672601E3C"]
+			hide_dependency_lines: true
 			id: "1022C75E0DD23FDE"
 			rewards: [{
 				id: "40F3FFF7B910729B"
@@ -728,8 +772,8 @@
 				item: "woot_revived:copper_looting_upgrade"
 				type: "item"
 			}]
-			x: 0.0d
-			y: 6.0d
+			x: -1.0d
+			y: 7.0d
 		}
 		{
 			dependencies: ["1022C75E0DD23FDE"]
@@ -744,8 +788,8 @@
 				item: "woot_revived:iron_looting_upgrade"
 				type: "item"
 			}]
-			x: 1.0d
-			y: 6.0d
+			x: 0.0d
+			y: 7.0d
 		}
 		{
 			dependencies: ["3C8D85D5B602210A"]
@@ -760,8 +804,8 @@
 				item: "woot_revived:gold_looting_upgrade"
 				type: "item"
 			}]
-			x: 2.0d
-			y: 6.0d
+			x: 1.0d
+			y: 7.0d
 		}
 		{
 			dependencies: ["2C455483A5CB99F5"]
@@ -776,8 +820,8 @@
 				item: "woot_revived:diamond_looting_upgrade"
 				type: "item"
 			}]
-			x: 3.0d
-			y: 6.0d
+			x: 2.0d
+			y: 7.0d
 		}
 		{
 			dependencies: ["07590CA70CDE1CA2"]
@@ -792,11 +836,12 @@
 				item: "woot_revived:netherite_looting_upgrade"
 				type: "item"
 			}]
-			x: 4.0d
-			y: 6.0d
+			x: 3.0d
+			y: 7.0d
 		}
 		{
 			dependencies: ["5651019672601E3C"]
+			hide_dependency_lines: true
 			id: "7498B32C4FB9387E"
 			rewards: [{
 				id: "79EAFE306304A99A"
@@ -808,8 +853,8 @@
 				item: "woot_revived:copper_mass_upgrade"
 				type: "item"
 			}]
-			x: 0.0d
-			y: 7.0d
+			x: -1.0d
+			y: 8.0d
 		}
 		{
 			dependencies: ["7498B32C4FB9387E"]
@@ -824,8 +869,8 @@
 				item: "woot_revived:iron_mass_upgrade"
 				type: "item"
 			}]
-			x: 1.0d
-			y: 7.0d
+			x: 0.0d
+			y: 8.0d
 		}
 		{
 			dependencies: ["2A4F54D0A79BB61F"]
@@ -840,8 +885,8 @@
 				item: "woot_revived:gold_mass_upgrade"
 				type: "item"
 			}]
-			x: 2.0d
-			y: 7.0d
+			x: 1.0d
+			y: 8.0d
 		}
 		{
 			dependencies: ["4667CE07C1B8E825"]
@@ -856,8 +901,8 @@
 				item: "woot_revived:diamond_mass_upgrade"
 				type: "item"
 			}]
-			x: 3.0d
-			y: 7.0d
+			x: 2.0d
+			y: 8.0d
 		}
 		{
 			dependencies: ["116C801C5063C392"]
@@ -872,11 +917,12 @@
 				item: "woot_revived:netherite_mass_upgrade"
 				type: "item"
 			}]
-			x: 4.0d
-			y: 7.0d
+			x: 3.0d
+			y: 8.0d
 		}
 		{
 			dependencies: ["5651019672601E3C"]
+			hide_dependency_lines: true
 			id: "2FD2F9771B031C24"
 			rewards: [{
 				id: "2F27A5BC0C221277"
@@ -888,8 +934,8 @@
 				item: "woot_revived:copper_rate_upgrade"
 				type: "item"
 			}]
-			x: 0.0d
-			y: 8.0d
+			x: -1.0d
+			y: 9.0d
 		}
 		{
 			dependencies: ["2FD2F9771B031C24"]
@@ -904,8 +950,8 @@
 				item: "woot_revived:iron_rate_upgrade"
 				type: "item"
 			}]
-			x: 1.0d
-			y: 8.0d
+			x: 0.0d
+			y: 9.0d
 		}
 		{
 			dependencies: ["509FBC83929D1CC6"]
@@ -920,8 +966,8 @@
 				item: "woot_revived:gold_rate_upgrade"
 				type: "item"
 			}]
-			x: 2.0d
-			y: 8.0d
+			x: 1.0d
+			y: 9.0d
 		}
 		{
 			dependencies: ["3BA7C8D7E65D1F40"]
@@ -936,8 +982,8 @@
 				item: "woot_revived:diamond_rate_upgrade"
 				type: "item"
 			}]
-			x: 3.0d
-			y: 8.0d
+			x: 2.0d
+			y: 9.0d
 		}
 		{
 			dependencies: ["75FA6480DBA8BB62"]
@@ -952,11 +998,12 @@
 				item: "woot_revived:netherite_rate_upgrade"
 				type: "item"
 			}]
-			x: 4.0d
-			y: 8.0d
+			x: 3.0d
+			y: 9.0d
 		}
 		{
 			dependencies: ["5651019672601E3C"]
+			hide_dependency_lines: false
 			id: "0D10194315F6BCC7"
 			rewards: [{
 				id: "61128AD937F53157"
@@ -968,8 +1015,8 @@
 				item: "woot_revived:iron_shard_drop_upgrade"
 				type: "item"
 			}]
-			x: 5.5d
-			y: 3.0d
+			x: 7.0d
+			y: 4.0d
 		}
 		{
 			dependencies: ["0D10194315F6BCC7"]
@@ -984,8 +1031,8 @@
 				item: "woot_revived:gold_shard_drop_upgrade"
 				type: "item"
 			}]
-			x: 5.5d
-			y: 5.0d
+			x: 7.0d
+			y: 6.0d
 		}
 		{
 			dependencies: ["37B575BA3FA20275"]
@@ -1000,8 +1047,8 @@
 				item: "woot_revived:diamond_shard_drop_upgrade"
 				type: "item"
 			}]
-			x: 5.5d
-			y: 7.0d
+			x: 7.0d
+			y: 8.0d
 		}
 		{
 			dependencies: ["57FB4A3AC70F5038"]
@@ -1016,11 +1063,12 @@
 				item: "woot_revived:netherite_shard_drop_upgrade"
 				type: "item"
 			}]
-			x: 5.5d
-			y: 9.0d
+			x: 7.0d
+			y: 10.0d
 		}
 		{
 			dependencies: ["5651019672601E3C"]
+			hide_dependency_lines: true
 			id: "3CA630FED1481114"
 			rewards: [{
 				id: "305F97FBD963EE53"
@@ -1032,8 +1080,8 @@
 				item: "woot_revived:copper_xp_upgrade"
 				type: "item"
 			}]
-			x: 0.0d
-			y: 9.0d
+			x: -1.0d
+			y: 10.0d
 		}
 		{
 			dependencies: ["3CA630FED1481114"]
@@ -1048,8 +1096,8 @@
 				item: "woot_revived:iron_xp_upgrade"
 				type: "item"
 			}]
-			x: 1.0d
-			y: 9.0d
+			x: 0.0d
+			y: 10.0d
 		}
 		{
 			dependencies: ["184178E14CED4FA2"]
@@ -1064,8 +1112,8 @@
 				item: "woot_revived:gold_xp_upgrade"
 				type: "item"
 			}]
-			x: 2.0d
-			y: 9.0d
+			x: 1.0d
+			y: 10.0d
 		}
 		{
 			dependencies: ["593D8F8670581D12"]
@@ -1080,8 +1128,8 @@
 				item: "woot_revived:diamond_xp_upgrade"
 				type: "item"
 			}]
-			x: 3.0d
-			y: 9.0d
+			x: 2.0d
+			y: 10.0d
 		}
 		{
 			dependencies: ["4ABDA031A378AE59"]
@@ -1096,15 +1144,15 @@
 				item: "woot_revived:netherite_xp_upgrade"
 				type: "item"
 			}]
-			x: 4.0d
-			y: 9.0d
+			x: 3.0d
+			y: 10.0d
 		}
 		{
 			dependencies: [
 				"42CBFE605060FF20"
 				"0D10194315F6BCC7"
 			]
-			description: ["{ftbquests.chapter.woot.quest52.description1}"]
+			description: ["need the shard drop upgrade 1 to upgrade to tier 2"]
 			icon: "woot_revived:iron_cell"
 			id: "33F7680769B9FD4E"
 			rewards: [{
@@ -1144,9 +1192,9 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.woot.quest52.title}"
+			title: "Tier 2 Multiblock"
 			x: 9.0d
-			y: 3.0d
+			y: 4.0d
 		}
 		{
 			dependencies: [
@@ -1180,9 +1228,9 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.woot.quest53.title}"
+			title: "Tier 3 Multiblock"
 			x: 9.0d
-			y: 5.0d
+			y: 6.0d
 		}
 		{
 			dependencies: [
@@ -1216,9 +1264,9 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.woot.quest54.title}"
+			title: "Tier 4 Multiblock"
 			x: 9.0d
-			y: 7.0d
+			y: 8.0d
 		}
 		{
 			dependencies: [
@@ -1252,9 +1300,9 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.woot.quest55.title}"
+			title: "Tier 5 Multiblock"
 			x: 9.0d
-			y: 9.0d
+			y: 10.0d
 		}
 		{
 			dependencies: ["47F7A992EB772464"]
@@ -1264,7 +1312,7 @@
 				item: "kubejs:apotheotic_coin"
 				type: "item"
 			}]
-			subtitle: "{ftbquests.chapter.woot.quest56.subtitle}"
+			subtitle: "Main resource of the mod"
 			tasks: [
 				{
 					id: "5E8019B16678BFBD"
@@ -1279,25 +1327,39 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.woot.quest56.title}"
+			title: "Stygian Madness"
 			x: 0.0d
-			y: -1.0d
+			y: -0.5d
 		}
 		{
 			dependencies: ["624853F4A24DBF05"]
+			description: [
+				"1. Right-Click in the mold."
+				""
+				"2. Right-Click in the ingredients."
+				""
+				"3. Right-Click with the &dStygian Hammer."
+			]
 			id: "39284D579D009F83"
 			rewards: [{
 				id: "66E668164579C884"
 				item: "kubejs:apotheotic_coin"
 				type: "item"
 			}]
-			tasks: [{
-				id: "51D89D2B4A276F45"
-				item: "woot_revived:stygian_plate"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "7850DB4F9E5193C4"
+					item: "woot_revived:plate_mold"
+					type: "item"
+				}
+				{
+					id: "2C6658BDEFFC13ED"
+					item: "woot_revived:stygian_plate"
+					type: "item"
+				}
+			]
 			x: 2.0d
-			y: -1.0d
+			y: -0.5d
 		}
 		{
 			dependencies: ["250A93D9CB798267"]
@@ -1313,7 +1375,7 @@
 				type: "item"
 			}]
 			x: 4.0d
-			y: 0.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["7385B78670A0E3B4"]
@@ -1325,20 +1387,13 @@
 				item: "kubejs:apotheotic_coin"
 				type: "item"
 			}]
-			tasks: [
-				{
-					id: "103DE6F03EA7DFE8"
-					item: "woot_revived:enchanted_fluid_bucket"
-					type: "item"
-				}
-				{
-					id: "4DDAA6D586F40DA0"
-					title: "{ftbquests.chapter.woot.quest59.task_5609979721865760160.title}"
-					type: "checkmark"
-				}
-			]
-			x: 5.0d
-			y: 0.0d
+			tasks: [{
+				id: "103DE6F03EA7DFE8"
+				item: "woot_revived:enchanted_fluid_bucket"
+				type: "item"
+			}]
+			x: 5.5d
+			y: -2.0d
 		}
 		{
 			dependencies: [
@@ -1357,7 +1412,7 @@
 				type: "item"
 			}]
 			x: 7.0d
-			y: 0.0d
+			y: -2.0d
 		}
 		{
 			dependencies: [
@@ -1376,16 +1431,16 @@
 				type: "item"
 			}]
 			x: 7.0d
-			y: -2.0d
+			y: -0.5d
 		}
 		{
 			dependencies: ["624853F4A24DBF05"]
 			description: [
-				"{ftbquests.chapter.woot.quest62.description1}"
-				"{ftbquests.chapter.woot.quest62.description2}"
-				"{ftbquests.chapter.woot.quest62.description3}"
-				"{ftbquests.chapter.woot.quest62.description4}"
-				"{ftbquests.chapter.woot.quest62.description5}"
+				"&cCopper&r: &a50&r ticks"
+				"Iron: &a20&r ticks"
+				"&eGold&r: &a10&r ticks"
+				"&bDiamond&r: &a5&r ticks"
+				"&0Netherite&r: &a1&r tick"
 			]
 			id: "72E5B2325AD23667"
 			optional: true
@@ -1394,7 +1449,7 @@
 				item: "kubejs:apotheotic_coin"
 				type: "item"
 			}]
-			subtitle: "{ftbquests.chapter.woot.quest62.subtitle}"
+			subtitle: "Outputs to adjacent chests"
 			tasks: [{
 				id: "2FE760AD83DD273F"
 				item: {
@@ -1404,15 +1459,16 @@
 						value: ".*magmator$"
 					}
 				}
-				title: "{ftbquests.chapter.woot.quest62.task_3451833937760692031.title}"
+				title: "{ftbquests.chapter.woot.quest72E5B2325AD23667.task.3451833937760692031.title}"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.woot.quest62.title}"
+			title: "Anvil Automation"
 			x: 1.0d
-			y: 0.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["5651019672601E3C"]
+			hide_dependency_lines: true
 			id: "68196721D954B624"
 			rewards: [{
 				id: "238A26C5651BF45F"
@@ -1424,11 +1480,12 @@
 				item: "ifwootaddon:mob_slaughter_factory_upgrade"
 				type: "item"
 			}]
-			x: 1.0d
-			y: 3.0d
+			x: 0.0d
+			y: 4.0d
 		}
 		{
 			dependencies: ["5651019672601E3C"]
+			hide_dependency_lines: true
 			id: "2C744FE8B814C875"
 			rewards: [{
 				id: "3B7C865538476589"
@@ -1440,12 +1497,13 @@
 				item: "ifwootaddon:mob_crusher_upgrade"
 				type: "item"
 			}]
-			x: 2.0d
-			y: 3.0d
+			x: 1.0d
+			y: 4.0d
 		}
 		{
 			dependencies: ["5651019672601E3C"]
-			description: ["{ftbquests.chapter.woot.quest65.description1}"]
+			description: ["Use a &aLaser Lens&r on the upgrade after it is placed into the &dUpgrade Slot&r."]
+			hide_dependency_lines: true
 			id: "405320B5E5B9B6AC"
 			rewards: [{
 				id: "36683D5ECF788F14"
@@ -1463,12 +1521,13 @@
 				}
 				type: "item"
 			}]
-			x: 3.0d
-			y: 3.0d
+			x: 2.0d
+			y: 4.0d
 		}
 		{
 			dependencies: ["5651019672601E3C"]
-			description: ["{ftbquests.chapter.woot.quest66.description1}"]
+			description: ["Uses &cLP&r from your&a soul network&r. So, make sure to always have enough LP in your network."]
+			hide_dependency_lines: true
 			id: "02A81F7521B32AA3"
 			rewards: [{
 				id: "350E22D282480FA8"
@@ -1480,48 +1539,8 @@
 				item: "bloodmagicwootaddon:blood_collector_upgrade"
 				type: "item"
 			}]
-			x: 4.0d
-			y: 3.0d
-		}
-		{
-			dependencies: ["42CBFE605060FF20"]
-			description: [
-				"{ftbquests.chapter.woot.quest67.description1}"
-				""
-				"{ftbquests.chapter.woot.quest67.description2}"
-				"{ftbquests.chapter.woot.quest67.description3}"
-			]
-			id: "34DE689660248715"
-			subtitle: "{ftbquests.chapter.woot.quest67.subtitle}"
-			tasks: [{
-				id: "3F944F816F4F440F"
-				title: "{ftbquests.chapter.woot.quest67.task_4581374138279478287.title}"
-				type: "checkmark"
-			}]
-			title: "{ftbquests.chapter.woot.quest67.title}"
-			x: 11.0d
-			y: -1.0d
-		}
-		{
-			dependencies: [
-				"202218039D3147F8"
-				"0FF053D2FF21C2F8"
-			]
-			description: ["{ftbquests.chapter.woot.quest68.description1}"]
-			id: "1EEB0BF605C47C35"
-			rewards: [{
-				id: "64A9C91FA5103248"
-				item: "kubejs:infused_coin"
-				type: "item"
-			}]
-			subtitle: "{ftbquests.chapter.woot.quest68.subtitle}"
-			tasks: [{
-				id: "71935F4A88473D45"
-				title: "{ftbquests.chapter.woot.quest68.task_8183989721580911941.title}"
-				type: "checkmark"
-			}]
-			x: 16.0d
-			y: -1.0d
+			x: 3.0d
+			y: 4.0d
 		}
 	]
 	title: "{ftbquests.chapter.woot.title}"

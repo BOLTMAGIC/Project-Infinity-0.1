@@ -60,3 +60,4 @@ Other changes:
 - MBTool will be able to place the highest 2 tiers of Item Input/Output if you don't have the one defined by the Structure
 - fixed MBTool structures
 - speed up Apothecary machines
+- twilightforest:meef_stroganoff stacks to 64

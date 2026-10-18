@@ -726,13 +726,13 @@ ItemEvents.tooltip((event) => {
     year_12_cake: 6,
   };
 
-  for (const cake of Object.keys(cakes)) {
+  Object.keys(cakes).forEach(cake => {
     event.addAdvanced([`kubejs:${cake}`], (item, advanced, text) => {
       for (let i = 1; i <= cakes[cake]; i++) {
         text.add(i, Text.translate(`tooltip.kubejs.${cake}_${i}`));
       }
     });
-  }
+  })
 
   event.addAdvanced(
     'kubejs:fake_transmutation_tablet',

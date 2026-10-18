@@ -22,6 +22,8 @@ This will break all old crazyAE2 multiblocks!
     - Born in Chaos
     - Refined Storage
     - RFToolsDim
+    - Dimensional Pockets II
+    - Dynamic Dungeons
 ----------
 Recipe changes and fixes:
 - removed EMC from Extra HNN data model (thx to bacopn)
@@ -30,23 +32,16 @@ Recipe changes and fixes:
 - changed woot tier 3-5 vitality fluid value (need more fluid) (thx to exzials)
 - changed recipe for treasure shelf from inf 8 to inf 1 (thx to potatoman999)
 - replaced portable 256k fe cell with 64k normal fe cell (not portable) (thx to therealpilpoh)
-- fixed MBTool structures
-- speed up Apothecary machines
 - added blasting recipes to all kubejs ores
 - removed AE2 processors recipes using Redstone Blocks from the Mechanical Empowerer multiblock so it stops conflicting with other recipes; with the new tiers of Alloyers, it should be fast enough
-- MBTool will no longer place any BloodMagic runes if you don't have the one defined by the Structure
-- MBTool will be able to place the highest 2 tiers of Item Input/Output if you don't have the one defined by the Structure
-- remove the port requirement for Masterful Machinery machines, any port will form the multiblocks (you still need to have a big enough port for the recipe you are trying to run !)
 - added a block recipe for Prismalium Blocks in the Alloyer
-- added missing lang keys in "kubejs\assets\kubejs\lang\en_us.json"
-- added the Fake Philosopher's Stone
+- added the Fake Philosopher's Stone 
 - boosted Raw Eclipse Alloy recipe in Auto Crusher multiblocks
-- fixed custom hammers not working for exdeorum block breaking recipes
+- fixed custom Allthemodium hammers not working for exdeorum block breaking recipes
 - removed Refined Storage recipes to prepare for the removal of the mod in 0.0.53.0
 - removed RFToolsDim recipes to prepare for the removal of the mod in 0.0.53.0
-- new Nuclearcraft Reactor in the MBTool (credits to Tuxedo !)
-- gave Power Flowers and Collectors EMC
-- fixed Rose gold / Manyullyn / Cobalt seeds not appearing in JEI (credits to Supa'Spider and Anto)
+- remove Infinity 1 from Eclipe Alloy items crafts
+- remove recipe for laserio:filter_count to fix dupe
 
 Quest changes:
 - Removed dedicated Naquadah Reactor questline, added it to the Mekanism questline
@@ -57,3 +52,16 @@ Quest changes:
 Other changes:
 - Auto Crusher KubeJS Code Cleaning (credits to oTurquoise !)
 - removed recipes in KubeJS from mods that no longer are in the modpack
+- custom Allthemodium hammers now break ExDeorum blocks with the correct speed
+- fixed Rose gold / Manyullyn / Cobalt seeds not appearing in JEI (credits to Supa'Spider and Anto)
+- gave Power Flowers and Collectors EMC
+- new Nuclearcraft Reactor in the MBTool (credits to Tuxedo !)
+- added missing lang keys in "kubejs\assets\kubejs\lang\en_us.json"
+- remove the port requirement for Masterful Machinery machines, any port will form the multiblocks (you still need to have a big enough port for the recipe you are trying to run !)
+- MBTool will no longer place any BloodMagic runes if you don't have the one defined by the Structure
+- MBTool will be able to place the highest 2 tiers of Item Input/Output if you don't have the one defined by the Structure
+- fixed MBTool structures
+- speed up Apothecary machines
+- twilightforest:meef_stroganoff stacks to 64
+- Time in a Bottle recipe is easier
+- Replace the floor of the Antimatter Protomolecular Transmutator multiblocks in the MBTool with Structural Glass so it's cheaper

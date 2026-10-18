@@ -31,31 +31,44 @@ StartupEvents.registry('item', (event) => {
 
 //ATM Varient Hammers
 StartupEvents.registry('item', (event) => {
-  event
-    .create('allthemodium_hammer', 'pickaxe')
-    .tier('netherite')
-    .modifyTier((tier) => {
-      tier.uses = -1;
-    });
+  const $HammerItem = Java.loadClass("thedarkcolour.exdeorum.item.HammerItem")
+  const $Tier = Java.loadClass("net.minecraft.world.item.Tier")
+  const $Item$Properties = Java.loadClass("net.minecraft.world.item.Item$Properties")
 
-  event
-    .create('vibranium_hammer', 'pickaxe')
-    .tier('netherite')
-    .modifyTier((tier) => {
-      tier.uses = -1;
-    });
+  let hammers = [
+    { ingot: "allthemodium",       speed: 10 },
+    { ingot: "vibranium",          speed: 12 },
+    { ingot: "unobtainium",        speed: 14 },
+    { ingot: "allthemodium_alloy", speed: 16 }
+  ]
 
-  event
-    .create('unobtainium_hammer', 'pickaxe')
-    .tier('netherite')
-    .modifyTier((tier) => {
-      tier.uses = -1;
-    });
-
-  event
-    .create('allthemodium_alloy_hammer', 'pickaxe')
-    .tier('netherite')
-    .modifyTier((tier) => {
-      tier.uses = -1;
-    });
+  hammers.forEach(hammer => {
+    event.createCustom(
+      hammer.ingot + '_hammer',
+      () =>
+        new $HammerItem(
+          new JavaAdapter($Tier, {
+            /*getLevel*/ m_6604_ () {
+              return 5;
+            },
+            /*getUses*/ m_6609_ () {
+              return 0;
+            },
+            /*getSpeed*/ m_6624_ () {
+              return hammer.speed;
+            },
+            /*getAttackDamageBonus*/ m_6631_ () {
+              return 11.0;
+            },
+            /*getEnchantmentValue*/ m_6601_ () {
+              return 85;
+            },
+            /*getRepairIngredient*/ m_6282_ () {
+              return Ingredient.of('#forge:ingots/' + hammer.ingot);
+            },
+          }),
+          new $Item$Properties()
+        )
+    );
+  })
 });

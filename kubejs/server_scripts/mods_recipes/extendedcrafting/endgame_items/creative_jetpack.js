@@ -19,7 +19,7 @@ ServerEvents.recipes((event) => {
           type: 'forge:partial_nbt',
           item: 'ironjetpacks:jetpack',
           count: 1,
-          nbt: '{Energy:12000000,Id:\"ironjetpacks:steel\"}',
+          nbt: '{Id:\"ironjetpacks:steel\"}',
         },
         B: {
           item: 'kubejs:infinity_12',
@@ -28,7 +28,7 @@ ServerEvents.recipes((event) => {
           type: 'forge:partial_nbt',
           item: 'ironjetpacks:jetpack',
           count: 1,
-          nbt: '{Energy:100000,Id:\"ironjetpacks:stone\"}',
+          nbt: '{Id:\"ironjetpacks:stone\"}',
         },
         D: {
           item: 'evolvedmekanism:block_plaslitherite',
@@ -43,13 +43,13 @@ ServerEvents.recipes((event) => {
           type: 'forge:partial_nbt',
           item: 'ironjetpacks:jetpack',
           count: 1,
-          nbt: '{Energy:12000000,Id:\"ironjetpacks:invar\"}',
+          nbt: '{Id:\"ironjetpacks:invar\"}',
         },
         G: {
           type: 'forge:partial_nbt',
           item: 'ironjetpacks:jetpack',
           count: 1,
-          nbt: '{Energy:48000000,Id:\"ironjetpacks:emerald\"}',
+          nbt: '{Id:\"ironjetpacks:emerald\"}',
         },
         H: {
           item: 'evolvedmekanism:creative_control_circuit',
@@ -58,7 +58,7 @@ ServerEvents.recipes((event) => {
           type: 'forge:partial_nbt',
           item: 'ironjetpacks:jetpack',
           count: 1,
-          nbt: '{Energy:1200000,Id:\"ironjetpacks:silver\"}',
+          nbt: '{Id:\"ironjetpacks:silver\"}',
         },
         J: {
           type: 'forge:partial_nbt',

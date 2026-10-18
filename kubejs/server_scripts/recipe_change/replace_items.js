@@ -346,6 +346,16 @@ ServerEvents.recipes((event) => {
     'extendedcrafting:ultimate_auto_table',
     'extendedcrafting:ultimate_table'
   );
+    event.replaceInput(
+    { output: 'packagedexcrafting:ender_crafter' },
+    'extendedcrafting:auto_ender_crafter',
+    'extendedcrafting:ender_crafter'
+  );
+  event.replaceInput(
+    { output: 'packagedexcrafting:flux_crafter' },
+    'extendedcrafting:auto_flux_crafter',
+    'extendedcrafting:flux_crafter'
+  );
   event.replaceInput(
     { output: 'tiab:time_in_a_bottle' },
     'minecraft:gold_ingot',

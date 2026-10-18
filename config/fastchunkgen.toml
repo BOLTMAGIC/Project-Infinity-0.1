@@ -63,6 +63,8 @@ maxViewDistance = "default"
 	forgeChunkDataEventsOnMainThread = "default"
 	# (Default: true) Snapshot block entity NBT on the server thread when a chunk save starts. Disabling serializes them on IO workers instead, which is faster but races modded block entities and Forge capabilities.
 	serializeBlockEntitiesOnMainThread = "default"
+	# (Default: true) Check that the oversized chunk file exists before deleting it after each chunk save. Avoids an internal exception per save on Windows.
+	skipMissingExternalChunkDelete = "default"
 
 [vanillaWorldGenOptimizations]
 	# (Default: true) Cheaper random instances during world generation.
@@ -79,6 +81,8 @@ maxViewDistance = "default"
 	skipRedundantDensityFunctionWrapping = "default"
 	# (Default: true) Reuse density function nodes whose inputs did not change when a chunk maps the noise router instead of rebuilding every node per chunk, and skip the throwaway holder pair NoiseChunk unwraps immediately.
 	identityPreservingDensityFunctionMapAll = "default"
+	# (Default: true) Compute noise that neighbouring chunks both need once instead of in each chunk.
+	shareNoiseBetweenChunks = "default"
 
 [threadedLighting]
 	# (Default: true) Run light updates on a dedicated thread.

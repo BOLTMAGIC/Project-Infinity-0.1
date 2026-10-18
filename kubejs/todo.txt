@@ -23,6 +23,7 @@ This will break all old crazyAE2 multiblocks!
     - Refined Storage
     - RFToolsDim
     - Dimensional Pockets II
+    - Dynamic Dungeons
 ----------
 Recipe changes and fixes:
 - removed EMC from Extra HNN data model (thx to bacopn)

@@ -62,3 +62,4 @@ Other changes:
 - speed up Apothecary machines
 - twilightforest:meef_stroganoff stacks to 64
 - Time in a Bottle recipe is easier
+- Replace the floor of the Antimatter Protomolecular Transmutator multiblocks in the MBTool with Structural Glass so it's cheaper

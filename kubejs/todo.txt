@@ -61,3 +61,4 @@ Other changes:
 - fixed MBTool structures
 - speed up Apothecary machines
 - twilightforest:meef_stroganoff stacks to 64
+- Time in a Bottle recipe is easier

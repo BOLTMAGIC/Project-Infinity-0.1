@@ -349,7 +349,7 @@ ServerEvents.recipes((event) => {
   event.replaceInput(
     { output: 'tiab:time_in_a_bottle' },
     'minecraft:gold_ingot',
-    'justdirethings:time_crystal_block'
+    'extendedcrafting:black_iron_ingot'
   );
   event.replaceInput(
     { output: 'packagedexexcrafting:epic_crafter' },

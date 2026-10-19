@@ -6,7 +6,21 @@ Mod Info:
 CrazyAE2 will get updated to the newest version in 0.0.53.0.
 This will break all old crazyAE2 multiblocks!
 - MODS UPDATED:
-    - Way too long to list here, please see https://github.com/BOLTMAGIC/Project-Infinity-0.1/blob/main/mods_info.md#00520
+    - Way too long to list fully here, please see https://github.com/BOLTMAGIC/Project-Infinity-0.1/blob/main/mods_info.md#00520
+    - Botanical Extra Machinery Reforged
+      - fix rune crafting sometimes giving back more runes then used
+      - fix the upgrades to the altar not being able to craft mob seeds
+      - Greenhouse will always auto output all of it's mana to connected AE2 network
+    - Enchant Limiter
+      - added a config to disable the limit upo obtaining an achievement (Infinity 1)
+    - Evolved Mekanism APT Only
+      - Fix Turkish OS language making the mod not load (THX to MiniMaxi)
+      - Fix upgrading an alloying factory with a tier installer (e.g. basic → advanced) deleting installed upgrades, input/output items and progress. (THX to Knozyy)
+      - Added four new alloying factories when Mekanism Extras is installed: Absolute, Supreme, Cosmic and Infinite (11 / 13 / 15 / 17 processes). (THX to Knozyy)
+      - When Mekanism Extras is installed, the alloyer and the basic → ultimate alloying factories accept Extras' creative upgrade. With it installed the machine uses no energy and finishes an operation every tick, the same behaviour as Extras' own machines. (THX to Knozyy)
+      - Antimatter Protomolecular Transmutator can now accept items before the chemical
+    - Masterfull Machinery
+      - Waaaaaay to many things to list here. You will be surprised by how much everything is different (Knozyy gets all the credits here)
 - MODS ADDED:
     - FastChunkGen
     - Functional Storage: Creative Limiter 

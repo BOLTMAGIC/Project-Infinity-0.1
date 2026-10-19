@@ -15,15 +15,20 @@ This will break all old crazyAE2 multiblocks!
 - MODS UPDATED:
     - 
 - MODS ADDED:
-    - 
-- MODS REMOVED:
-    - 
+    - FastChunkGen
+    - Functional Storage: Creative Limiter 
+    - IFUE x Functional Storage Dupe Fix
+    - ServerWarashi (Observable alternative)
 - MODS GETTING REMOVED in 0.0.53.0:
     - Born in Chaos
+    - Born In Configuration
     - Refined Storage
-    - RFToolsDim
     - Dimensional Pockets II
     - Dynamic Dungeons
+    - RFTools Dim
+    - RFTools Power
+    - RFTools Storage
+    - RFTools Control
 ----------
 Recipe changes and fixes:
 - removed EMC from Extra HNN data model (thx to bacopn)

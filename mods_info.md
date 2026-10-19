@@ -1,5 +1,7 @@
 # 0.0.52.0
+
 ## Mods Updated
+
 * AdvancedCoreInfo `1.1.0` -> `1.5.0` (`AdvancedCoreInfo-forge-1.20.1-1.1.0.jar` -> `AdvancedCoreInfo-forge-1.20.1-1.5.0.jar`)
 * AdvancedLootInfo `2.1.0` -> `2.5.0` (`AdvancedLootInfo-forge-1.20.1-2.1.0.jar` -> `AdvancedLootInfo-forge-1.20.1-2.5.0.jar`)
 * AE All Pattern `0.2.3-beta.2` -> `0.2.6-beta.1` (`aeallpattern-1.20.1-forge-0.2.3-beta.2.jar` -> `aeallpattern-1.20.1-forge-0.2.6-beta.1.jar`)
@@ -14,7 +16,6 @@
 * Balm `7.3.43` -> `7.3.44` (`balm-forge-1.20.1-7.3.43.jar` -> `balm-forge-1.20.1-7.3.44.jar`)
 * Botania `1.20.1-455-FORGE` -> `1.20.1-456-FORGE` (`Botania-1.20.1-455-FORGE.jar` -> `Botania-1.20.1-456-FORGE.jar`)
 * Botanical Extra Machinery Reforged `1.3.0.2` -> `1.3.0.5` (`botanicalextramachinery-1.3.0.2.jar` -> `botanicalextramachinery-1.3.0.5.jar`)
-* CC: Tweaked `1.120.0` -> `1.120.2` (`cc-tweaked-1.20.1-forge-1.120.0.jar` -> `cc-tweaked-1.20.1-forge-1.120.2.jar`)
 * Collections Of Optimizations `3.0` -> `5.1` (`collections_of_optimizations-3.0-all.jar` -> `collections_of_optimizations-5.1-all.jar`)
 * Connectivity Mod `1.20.1-7.6` -> `1.20.1-7.7` (`connectivity-1.20.1-7.6.jar` -> `connectivity-1.20.1-7.7.jar`)
 * Cupboard utilities `1.20.1-4.1` -> `1.20.1-4.2` (`cupboard-1.20.1-4.1.jar` -> `cupboard-1.20.1-4.2.jar`)
@@ -38,16 +39,15 @@
 * ModernFix `5.27.83+mc1.20.1` -> `5.27.89+mc1.20.1` (`modernfix-forge-5.27.83+mc1.20.1.jar` -> `modernfix-forge-5.27.89+mc1.20.1.jar`)
 * Moog's Structure Lib `3.1.2` -> `3.4.2` (`MoogsStructureLib-forge-1.20-3.1.2.jar` -> `MoogsStructureLib-forge-1.20-3.4.2.jar`)
 * MoogsNetherStructures `3.0.0` -> `3.1.0` (`MoogsNetherStructures-1.20-3.0.0.jar` -> `MoogsNetherStructures-universal-1.20-3.1.0.jar`)
-* Multibuilder ->ol `1.0.27` -> `1.0.28` (`MultiBuilder->ol-1.20.1-1.0.27.jar` -> `MultiBuilder->ol-1.20.1-1.0.28.jar`)
-* Observable `4.4.1` -> `4.4.2` (`observable-4.4.1.jar` -> `observable-4.4.2.jar`)
+* MultiBuilderTool `1.0.27` -> `1.0.28` (`MultiBuilderTool-1.20.1-1.0.27.jar` -> `MultiBuilderTool-1.20.1-1.0.28.jar`)
 * OmniSequence: Transfinite `2.0.3-forge` -> `2.0.9-forge` (`omnisequence-transfinite-2.0.3-forge.jar` -> `omnisequence-transfinite-2.0.9-forge.jar`)
 * Puzzles Lib `8.1.33` -> `8.1.36` (`PuzzlesLib-v8.1.33-1.20.1-Forge.jar` -> `PuzzlesLib-v8.1.36-1.20.1-Forge.jar`)
 * Radium Re-Reforged `0.14.2+git.587348c-dirty` -> `0.14.3+git.e141a47` (`radium-re-reforged-mc1.20.1-0.14.2+git.d4b4f2a.jar` -> `radium-re-reforged-mc1.20.1-0.14.3+git.e141a47.jar`)
 * Sanguine Neural Networks `2.0` -> `2.0.1` (`sanguine_networks-1.20.1-2.0.jar` -> `sanguine_networks-1.20.1-2.0.1.jar`)
 * Sky Logistics `1.3.1` -> `1.3.3` (`skylogistics-1.3.1+1.20.1.jar` -> `skylogistics-1.3.3+1.20.1.jar`)
-* Sophisticated Backpacks `3.26.3.2157` -> `3.26.12.2215` (`sophisticatedbackpacks-1.20.1-3.26.3.2157.jar` -> `sophisticatedbackpacks-1.20.1-3.26.12.2215.jar`)
-* Sophisticated Core `1.5.1.2335` -> `1.5.12.2415` (`sophisticatedcore-1.20.1-1.5.1.2335.jar` -> `sophisticatedcore-1.20.1-1.5.12.2415.jar`)
-* Sophisticated S->rage `1.4.86.2131` -> `1.5.6.2183` (`sophisticateds->rage-1.20.1-1.4.86.2131.jar` -> `sophisticateds->rage-1.20.1-1.5.6.2183.jar`)
+* Sophisticated Backpacks `3.26.3.2157` -> `3.26.13.2215` (`sophisticatedbackpacks-1.20.1-3.26.3.2157.jar` -> `sophisticatedbackpacks-1.20.1-3.26.13.2215.jar`)
+* Sophisticated Core `1.5.1.2335` -> `1.5.13.2415` (`sophisticatedcore-1.20.1-1.5.1.2335.jar` -> `sophisticatedcore-1.20.1-1.5.13.2415.jar`)
+* Sophisticated Storage `1.4.86.2131` -> `1.5.6.2183` (`sophisticatedstorage-1.20.1-1.4.86.2131.jar` -> `sophisticatedstorage-1.20.1-1.5.6.2183.jar`)
 * SuperMartijn642's Core Lib `1.1.24+a` -> `1.1.25+a` (`supermartijn642corelib-1.1.24a-forge-mc1.20.1.jar` -> `supermartijn642corelib-1.1.25a-forge-mc1.20.1.jar`)
 * Team ProjectE `1.1.5` -> `1.1.6` (`teamprojecte-1.20.1-1.1.5.jar` -> `teamprojecte-1.20.1-1.1.6.jar`)
 * Thermal Extra `3.3.1-1.20.1` -> `3.3.3-1.20.1` (`ThermalExtra-3.3.1-1.20.1.jar` -> `ThermalExtra-3.3.3-1.20.1.jar`)
@@ -66,4 +66,5 @@
 * ProjectCell Reforked (`1.0.5`) (`projectcell-1.0.5.jar`)
 
 # Mods Removed
+
 * ProjectCell (`1.0.1`) (`ProjectCell-1.20.1-1.0.1.jar`)

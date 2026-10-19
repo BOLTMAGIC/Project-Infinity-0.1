@@ -6,17 +6,22 @@ Mod Info:
 CrazyAE2 will get updated to the newest version in 0.0.53.0.
 This will break all old crazyAE2 multiblocks!
 - MODS UPDATED:
-    - 
+    - Way too long to list here, please see https://github.com/BOLTMAGIC/Project-Infinity-0.1/blob/main/mods_info.md#00520
 - MODS ADDED:
-    - 
-- MODS REMOVED:
-    - 
+    - FastChunkGen
+    - Functional Storage: Creative Limiter 
+    - IFUE x Functional Storage Dupe Fix
+    - ServerWarashi (Observable alternative)
 - MODS GETTING REMOVED in 0.0.53.0:
     - Born in Chaos
+    - Born In Configuration
     - Refined Storage
-    - RFToolsDim
     - Dimensional Pockets II
     - Dynamic Dungeons
+    - RFTools Dim
+    - RFTools Power
+    - RFTools Storage
+    - RFTools Control
 ----------
 Recipe changes and fixes:
 - removed EMC from Extra HNN data model (thx to bacopn)

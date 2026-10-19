@@ -245,5 +245,63 @@ MMEvents.createProcesses((event) => {
       }
     });
   }
-});
 
+  event
+    .create('mm:essenceforge_tier4_inferium_seed')
+    .structureId('mm:essenceforge_tier4_structure')
+    .ticks(60)
+    .input({
+      type: 'mm:input/consume',
+      ingredient: { type: 'mm:energy', amount: 2147483647 },
+    })
+    .input({
+      type: 'mm:input/consume',
+      chance: 0.0,
+      ingredient: {
+        type: 'mm:item',
+        item: 'mysticalagriculture:inferium_seeds',
+        count: 1,
+      },
+    })
+    .input({
+      type: 'mm:input/consume',
+      chance: 0.0,
+      ingredient: {
+        type: 'mm:item',
+        item: 'mysticalexpansion:extremium_block',
+        count: 256,
+      },
+    })
+    .input({
+      type: 'mm:input/consume',
+      ingredient: {
+        type: 'mm:item',
+        item: 'pneumaticcraft:memory_essence_bucket',
+        count: 10,
+      },
+    })
+    .input({
+      type: 'mm:input/consume',
+      ingredient: {
+        type: 'mm:item',
+        item: 'mob_grinding_utils:solid_xp_baby',
+        count: 64,
+      },
+    })
+    .input({
+      type: 'mm:input/consume',
+      ingredient: {
+        type: 'mm:fluid',
+        fluid: 'ifeu:liquid_dragon_breath',
+        amount: 5000,
+      },
+    })
+    .output({
+      type: 'mm:output/simple',
+      ingredient: {
+        type: 'mm:item',
+        item: 'mysticalexpansion:extremium_essence',
+        count: 6144,
+      },
+    });
+});

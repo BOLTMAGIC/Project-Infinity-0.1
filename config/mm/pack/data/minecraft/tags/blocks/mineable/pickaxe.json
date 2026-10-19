@@ -14,7 +14,6 @@
     "mm:multi_compactor_controller",
     "mm:pinky_controller",
     "mm:prediction_chamber_controller",
-    "mm:resource_foundry_controller",
     "mm:tank_encapsulator_controller",
     "mm:water_condenser_controller",
     "mm:tiny_item_port_input",

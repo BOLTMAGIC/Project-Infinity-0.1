@@ -83,6 +83,8 @@ maxViewDistance = "default"
 	identityPreservingDensityFunctionMapAll = "default"
 	# (Default: true) Compute noise that neighbouring chunks both need once instead of in each chunk.
 	shareNoiseBetweenChunks = "default"
+	# (Default: true) Build the surface rule tree once per worker and point it at each new chunk and carved block instead of rebuilding every rule object each time.
+	reuseSurfaceRules = "default"
 
 [threadedLighting]
 	# (Default: true) Run light updates on a dedicated thread.

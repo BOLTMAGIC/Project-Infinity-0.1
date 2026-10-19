@@ -44,6 +44,8 @@
 [blockswap]
 	#Filter the retro-gen chunk sweep through each section's block state palette.
 	paletteFilteredRetroGen = true
+	#Find the tracked blocks of a chunk section by reading its storage once and testing each palette entry once, instead of looking up all 4096 positions in a hash map. Needs paletteFilteredRetroGen. The same blocks are swapped in the same order. Turn it off for the per position lookup.
+	scanPaletteIds = true
 
 #Just Dire Things patches.
 [justdirethings]
@@ -105,6 +107,8 @@
 	#Let mobs that are only a few pixels tall on your screen redo their animation once per game tick instead of on every frame. 0 turns this off, which is the default. Any other number is the on screen height in pixels below which a mob counts as small, worked out from its size, its distance, your field of view, zoom and window height, so it follows spyglasses and resolution instead of a fixed block distance. 24 is about where a two block tall mob sits at 60 blocks at 1080p. A small mob reuses its own pose from earlier in the same tick, never another mob's, so nothing ever pops into the wrong pose, and it moves on to the next pose as soon as the next tick starts, so it is at most one tick behind. Bosses, players, the entity you are looking through, anything riding or being ridden, mobs in the middle of an animation change or a triggered animation, and animations with sound, particle or script keyframes are always animated every frame, so no sound or effect is ever skipped. Head turning and other per frame tweaks a mod adds on top still run every frame. This is the useful part of GeckoLib Animation Optimizer done without its bug where distant mobs of the same kind borrow each other's poses, and it stands down if that mod is installed.
 	#Range: 0 ~ 256
 	holdDistantPosePixels = 0
+	#Stop reading animation files throwing a stack trace for every formula. GeckoLib reads each keyframe value in an animation file by first trying to turn the text into a number and, when that fails because the value is a Molang formula such as math.sin(query.anim_time), catching the NumberFormatException and parsing it as a formula instead. A model pack reads thousands of formulas at launch and every failed number parse copies the loading thread's call stack. With this on the text is only handed to the number parser when its first character, after any spaces and sign, could start a number at all, a digit, a dot, or the N and I of NaN and Infinity, and everything else gets one shared exception with no stack that the same catch block handles in the same way. Anything the real number parser accepts still goes through it unchanged. Client.
+	parseMolangNumbersWithoutExceptions = true
 
 #Saint's Dragons patches.
 [saintsdragons]
@@ -151,6 +155,8 @@
 	dropZeroAngerEntries = true
 	#Remember each nbt() animation result per entity for one client tick instead of serialising the whole entity to NBT and regex matching it on every frame. Equipment or inventory changes show up at most one tick later. Client.
 	cacheNbtPerTick = true
+	#Stop the animation expression parser throwing a stack trace for every variable name it reads. Each piece of an animation expression in a model file, a bone angle formula, a condition, a variable, is first handed to the number parser, and anything that is not a number, which is nearly every name like head_rx or is_hurt, makes it throw a NumberFormatException that the parser catches to learn that the piece is a variable. A model pack with a few hundred animated models builds hundreds of thousands of those at launch, each one copying the loading thread's deep call stack. With this on a piece is only handed to the real number parser when its first character, after any spaces and sign, could start a number at all, which are a digit, a dot, or the N and I of NaN and Infinity, and everything else gets one shared exception with no stack that the same catch block handles in the same way. Every number the real parser accepts, including 1f, .5, hex floats, NaN and Infinity, still goes through it unchanged. Client.
+	parseTokensWithoutExceptions = true
 
 #Oculus / Iris shadow pass patches.
 [oculus]
@@ -199,6 +205,8 @@
 	threadLocalAreaCache = true
 	#Build a TerraBlender namespace's surface rules only when a chunk first needs them. For every chunk's surface pass TerraBlender builds the full surface rule tree of every mod that registered surface rules, hundreds of objects each, although a chunk usually only ever reaches one or two of them. With this on, a namespace whose rules are made only of vanilla rule types is built the first time a block in that chunk actually asks for it, with the very same call. Vanilla's rule conditions work out their answer from the chunk's current position whenever they are first asked, so building them later gives the same blocks. A namespace containing any other mod's rule types is built up front as before, and if any other mod changes the vanilla rule classes this patch has not checked, everything is built up front and the log says why once. Turn it off for stock behaviour.
 	lazyNamespaceRules = true
+	#Drop repeated layers of TerraBlender's overworld and nether surface rules. TerraBlender writes its wrapped surface rules into level.dat and wraps them again on the next load, so every time a world is opened one more full copy of every mod's surface rules is stacked under the last. Below the surface each copy is walked in turn and gives the same answer as the first, so a world opened fifteen times runs the rules fifteen times per block and level.dat keeps growing. With this on, a layer whose rules are identical to a layer above it is skipped; layers that differ, such as rules saved by an older version of a mod, are kept in order, so the generated blocks are the same. Turn it off for stock behaviour.
+	dedupeStackedLayers = true
 
 #Terramity patches.
 [terramity]
@@ -322,6 +330,12 @@
 	cacheItemIds = true
 	#Skip the two resource scans at the start of Punchy's reload that list and parse every geo and every block and item model JSON in every pack, twice per launch. Punchy 2.8c keeps the result in two maps that nothing reads. Turn this off if a newer Punchy starts using resource pack geo models. Client.
 	skipUnusedGeoScan = true
+	#Work out the list of active animation pack ids once per resource pack change instead of rebuilding and lowercasing every pack name each time a tuning slot is read. Client.
+	memoActiveMixOptions = true
+	#Merge an item's custom animation list with the default list once instead of on every lookup. Stock builds a fresh map of every default entry each time, lowercasing and rebuilding each entry's key and serialising the selectors of every interaction entry with a new Gson, several times a tick and every frame. The merged list is shared between callers, which only read it. Client.
+	memoAnimationMerge = true
+	#Remember whether an item is a spear by its class and by its registry name instead of lowercasing both names every time Punchy picks a tool kind. Client.
+	memoSpearChecks = true
 
 #L2 Hostility patches.
 [l2hostility]
@@ -389,6 +403,8 @@
 	cacheEffectRenderTypes = true
 	#Hand back the leader an Elokosa follower already knows instead of scanning a 64 block cube of entities for it, which the leap goal does twice per candidate block and six times per block. Server.
 	reuseKnownLeader = true
+	#Do not throw and swallow a NullPointerException for every frozen mob that has no remembered attack target when its frozen data is loaded. Stock reads the target with a call that fails on a missing tag and catches the failure; with this on the tag is checked first and the target is only set when it is there, exactly as before. Server.
+	skipMissingPrevTargetThrow = true
 
 #Pick Up Notifier patches.
 [pickupnotifier]
@@ -476,6 +492,8 @@
 	oneRangeCheck = true
 	#Skip the blocked chest and sitting cat check for a chest ticker whose chest is not underwater.
 	dryChestTicker = true
+	#Keep the random offsets vanilla's biome zoom works out for each corner of a biome cell instead of recomputing all eight corners with nine hash steps each for every display tick sample. The offsets only depend on the world seed and the cell, so the same biome is picked. Needs displayTickPlan. Client.
+	memoBiomeFiddles = true
 
 #Ars Energistique patches.
 [arseng]
@@ -686,6 +704,18 @@
 	shareColumnHeights = true
 	#Index each zipped resource pack or data pack once so listing a folder inside it only walks the files under that folder. Vanilla walks every file in the zip for every listing, and a reload lists every folder of every namespace the zip has, so a big pack with many namespaces is walked thousands of times per reload. Same files in the same order.
 	indexZipPacks = true
+	#Build a mod jar's file index on a background thread and keep answering from the jar until it is ready, instead of making whoever asks first wait for the whole walk while every other thread asking about the same jar waits on its lock. Needs indexModFiles. Turn it off to build the index in place.
+	indexModFilesInBackground = true
+	#Remember which namespaces a mod jar's assets and data folders hold instead of walking the jar again each time somebody asks. FancyMenu asks every one of a few hundred mod packs for its namespace list every time it lists resources, and each answer is a directory walk inside the jar that, for every mod without a data folder or without an assets folder, ends in a file not found exception that is caught and turned into an empty list, which is tens of thousands of exceptions and walks at launch. Only packs read from inside a jar are remembered, a pack that is an ordinary folder on disk is always asked again, and every caller still gets its own fresh set with the same contents, in the same order, that the walk returned.
+	cachePackNamespaces = true
+	#Skip listing a mod jar for a namespace it does not have. Loading models, textures, lang files and recipes asks every mod pack to list a namespace, and a pack that has no folder for it answers by searching a path that is not there and throwing a file not found exception that is caught and ignored, which is the biggest single source of exceptions at launch. With this on the pack's remembered namespace list is checked first and a pack that does not have the namespace lists nothing, which is the same result. Needs cachePackNamespaces.
+	skipAbsentPackNamespaces = true
+	#Place features with plain loops instead of a stream pipeline. Vanilla builds a stream with a lambda and a flat map stage for every placement modifier of every feature placement, which makes up a large part of the garbage world generation produces. Positions come out in the same order and the random source is used in the same order. Does nothing when Bye Pregen's own placement rewrite is active.
+	placeFeaturesWithoutStreams = true
+	#Skip parsing an empty owner name as a UUID when a tameable animal is loaded. Every wild wolf, cat, parrot and modded tameable has an empty owner, and vanilla throws and swallows an exception to find that out. The owner stays unset.
+	skipEmptyOwnerUuidParse = true
+	#Reuse the processor, graphics card and memory module lines of a crash report after the first one has been built. Building a crash report asks the hardware library for them again every time, which reads files from every mod jar, throws thousands of exceptions and takes a few hundred milliseconds, and mods build crash reports for errors they handle. Live memory figures are still read fresh.
+	cacheStaticHardwareReport = true
 
 #Xaero's World Map patches.
 [xaeroworldmap]
@@ -1232,6 +1262,8 @@
 	cacheLightToggle = true
 	#Return straight away from the dynamic light distance scans when nothing in the world is currently emitting dynamic light. Both scans take the shared read lock, allocate an iterator and walk the whole light source set before clamping the result, and they run once per quad during chunk meshing and once per entity per frame. Entities only enter that set while they are actually lit, so most of the time it is empty and the scan can only ever return zero, which is the value the fast path hands back. When anything is lit the stock scan runs exactly as before.
 	skipEmptyLightScan = true
+	#Wrap Hexerei's connected texture block models the first time each one is asked for instead of all at once while the models are baked. Hexerei looks up every block state model of its connected blocks when the model event fires, which with ModernFix's dynamic resources forces every one of them to be baked at launch, over a second and a half. With this on, each swap is queued and runs the first time that model is read, replaced or removed, with the same base model and the same wrapper, and everything else that touches those entries finishes the queued swap first. Only applies with ModernFix dynamic resources. Client. Turn it off for stock behaviour.
+	lazyModelSwaps = false
 
 #Covenant of the Seven patches.
 [covenantoftheseven]
@@ -2023,6 +2055,8 @@
 	fixHashPaletteCopy = true
 	#Keep block entities following world border changes under Radium. Radium remembers for every ticking block entity whether it is inside the world border and drops that memory when the border moves, but changing the border's warning time, warning distance, damage amount or damage buffer also unsubscribed every block entity without clearing what they remembered. After the next real border change, machines that ended up outside kept ticking and ones the border grew over never ticked again. With this on those four changes leave the subscriptions alone, so the remembered answer always matches vanilla's border test. Turn it off for stock behaviour.
 	keepBorderListeners = true
+	#Answer Radium's override search from a per class list of declared methods instead of asking each class in the chain and catching the exception it throws when the method is not there. The first time a block class is analysed, every level of its parent chain used to throw one. The answer is the same and the error handling for classes that cannot be analysed is still Radium's own. Turn it off for stock behaviour.
+	noThrowMethodOverrideScan = true
 
 #Forge patches. These touch Forge's own code, so they apply in every pack.
 [forge]
@@ -2047,6 +2081,8 @@
 	maxDepthForListTag = 2147483647
 	#Let packets carry item and block data of any size instead of vanilla's two megabyte cap, same as LongNbtKiller's setting of the same name. Turn it off to bring the cap back.
 	removeByteBufTagLimit = true
+	#Collect a compound's entries first and then build its map at the exact size, instead of starting at two entries and rehashing every time it fills up. Most chunk, entity and structure compounds hold three to ten entries, so the old way threw away two or three sets of arrays per compound. The map holds the same entries; entries that hash alike can come out in a different order. Needs fastLoad. Turn it off for the growing map.
+	presizeCompounds = true
 
 #Embeddium patches.
 [embeddium]
@@ -2095,4 +2131,14 @@
 [apothicattributes]
 	#Skip building vanilla's attribute modifier lines in item tooltips. Apothic Attributes deletes every one of those lines and writes its own, so vanilla's pass is thrown away on every tooltip, and JEI builds a tooltip for every item when you join a world. The tooltip you see is the same. Client.
 	skipReplacedTooltipModifiers = true
+
+#LDLib patches.
+[ldlib]
+	#Stop the block texture loader throwing an exception for every texture that has no LDLib metadata. When a block atlas is stitched LDLib asks the resource of every sprite for its ldlib section in the texture's mcmeta, and nearly every texture has none, so the lookup calls get on an empty Optional and the resulting NoSuchElementException is caught and thrown away to mean no metadata. A big pack asks about tens of thousands of textures at launch and each exception copies the call stack. With this on an empty answer is handed straight back as the same missing metadata marker the catch used to leave behind, and that result is cached exactly as before. Textures that do have the section are untouched. Client.
+	skipMissingMetadataThrow = true
+
+#Entity Texture Features patches.
+[etf]
+	#Stop the missing property error from copying a call stack. When a texture or model rule file leaves out a property, Entity Texture Features builds that property by reading it from the file and throwing its own error if the key is not there, and the code that asked catches it, discards it and moves on, which happens for every property type of every rule in every file. A big pack throws over ten thousand of those at launch and each one copies the loading thread's call stack, which nothing ever reads, because the only thing the mod does with the error is log its message. With this on the same error with the same message is thrown without capturing a stack. Client.
+	stacklessPropertyExceptions = true
 

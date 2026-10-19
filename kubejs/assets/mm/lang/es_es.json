@@ -51,7 +51,6 @@
   "block.mm.normal_item_port_output": "Puerto de Salida de Objetos Normal",
   "block.mm.pinky_controller": "Controlador de Máquina Rosa",
   "block.mm.prediction_chamber_controller": "Controlador de Cámara de Predicción",
-  "block.mm.resource_foundry_controller": "Controlador de Fundidora de Recursos",
   "block.mm.small_energy_port_input": "Puerto de Entrada de Energía Pequeño",
   "block.mm.small_energy_port_output": "Puerto de Salida de Energía Pequeño",
   "block.mm.small_fluid_port_input": "Puerto de Entrada de Fluidos Pequeño",

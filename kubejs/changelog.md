@@ -1,3 +1,79 @@
+%#red%**Version 0.0.52.0**%#%
+
+MAKE A BACKUP AND UPDATE TO A NEW INSTANCE!!!
+
+Mod Info:
+CrazyAE2 will get updated to the newest version in 0.0.53.0.
+This will break all old crazyAE2 multiblocks!
+- MODS UPDATED:
+    - 
+- MODS ADDED:
+    - 
+- MODS REMOVED:
+    - 
+- MODS GETTING REMOVED in 0.0.53.0:
+    - Born in Chaos
+    - Refined Storage
+    - RFToolsDim
+    - Dimensional Pockets II
+    - Dynamic Dungeons
+----------
+Recipe changes and fixes:
+- removed EMC from Extra HNN data model (thx to bacopn)
+- fixed wither token bug (thx to tahir 09)
+- added recipe for ME linker and input gateway (Masterful Machinery)
+- changed woot tier 3-5 vitality fluid value (need more fluid) (thx to exzials)
+- changed recipe for treasure shelf from inf 8 to inf 1 (thx to potatoman999)
+- replaced portable 256k fe cell with 64k normal fe cell (not portable) (thx to therealpilpoh)
+- added blasting recipes to all kubejs ores
+- removed AE2 processors recipes using Redstone Blocks from the Mechanical Empowerer multiblock so it stops conflicting with other recipes; with the new tiers of Alloyers, it should be fast enough
+- added a block recipe for Prismalium Blocks in the Alloyer
+- added the Fake Philosopher's Stone 
+- boosted Raw Eclipse Alloy recipe in Auto Crusher multiblocks
+- fixed custom Allthemodium hammers not working for exdeorum block breaking recipes
+- removed Refined Storage recipes to prepare for the removal of the mod in 0.0.53.0
+- removed RFToolsDim recipes to prepare for the removal of the mod in 0.0.53.0
+- remove Infinity 1 from Eclipe Alloy items crafts
+- remove recipe for laserio filter count to fix dupe
+- removed recipe for molecularmanipulator event horizon singularity hub
+- added snow --> snowball recipe in mekanism crusher (thx to Clood)
+- fixed tags for sky steel ingot (thx to Arkantos)
+- fixed some tags (thx to atothek for the code)
+- changed recipe for rune of water and rune of winter so you can craft them faster (thx to hi-5979)
+- added cyclic magma and honey to Nuclearcraft melter (thx to hi-5979)
+- added a reordered WOOT questline (thx to Clood)
+- removed resource foundry multiblock
+- removed tiny tnt (thx to DidaS)
+- enabled AppliedE recipes again (thx to Kyo for the fix)
+- replaced phil stone recipes with the fake phil stone
+- changed insanium recipe dupe in the EssenceForge
+
+Quest changes:
+- Removed dedicated Naquadah Reactor questline, added it to the Mekanism questline
+- Reworked the Naquadah Reactor quests, should be easy to follow now
+- Removed Refined Storage questline to prepare for the removal of the mod in 0.0.53.0
+- Reworked Masterful Machinery questline (credits to Sn0wye)
+
+Other changes:
+- Auto Crusher KubeJS Code Cleaning (credits to oTurquoise !)
+- removed recipes in KubeJS from mods that no longer are in the modpack
+- custom Allthemodium hammers now break ExDeorum blocks with the correct speed
+- fixed Rose gold / Manyullyn / Cobalt seeds (essences) not appearing in JEI (credits to Supa'Spider and Anto)
+- gave Power Flowers and Collectors EMC
+- new Nuclearcraft Reactor in the MBTool (credits to Tuxedo !)
+- added missing lang keys in "kubejs\assets\kubejs\lang\en us.json"
+- remove the port requirement for Masterful Machinery machines, any port will form the multiblocks (you still need to have a big enough port for the recipe you are trying to run !)
+- MBTool will no longer place any BloodMagic runes if you don't have the one defined by the Structure
+- MBTool will be able to place the highest 2 tiers of Item Input/Output if you don't have the one defined by the Structure
+- fixed MBTool structures
+- speed up Apothecary machines
+- twilightforest meef stroganoff stacks to 64
+- Time in a Bottle recipe is easier
+- Replace the floor of the Antimatter Protomolecular Transmutator multiblocks in the MBTool with Structural Glass so it's cheaper
+- changed Essenceforge recipes visual a bit (tell me what you think)
+----------
+----------
+----------
 %#red%**Version 0.0.51.4-hotfix-2**%#%
 
 MAKE A BACKUP AND UPDATE TO A NEW INSTANCE!!!

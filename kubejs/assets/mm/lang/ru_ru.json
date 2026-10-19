@@ -49,7 +49,6 @@
   "block.mm.normal_item_port_output": "Обычный порт для предметов (выход)",
   "block.mm.pinky_controller": "Контроллер машины Пинки",
   "block.mm.prediction_chamber_controller": "Контроллер камеры предсказаний",
-  "block.mm.resource_foundry_controller": "Контроллер литейного цеха ресурсов",
   "block.mm.small_energy_port_input": "Малый энергетический порт (вход)",
   "block.mm.small_energy_port_output": "Малый энергетический порт (выход)",
   "block.mm.small_fluid_port_input": "Малый порт для жидкостей (вход)",

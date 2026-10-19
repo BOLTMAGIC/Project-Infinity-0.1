@@ -499,6 +499,10 @@
     {
       "item": "kubejs:fake_transmutation_tablet",
       "emc": 1
+    },
+    {
+      "item": "kubejs:fake_philosophers_stone",
+      "emc": 1
     }
   ]
 }

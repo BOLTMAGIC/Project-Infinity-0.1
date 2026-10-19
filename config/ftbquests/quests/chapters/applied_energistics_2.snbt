@@ -2051,6 +2051,7 @@
 						}
 					}
 				}
+				match_nbt: true
 				type: "item"
 			}]
 			x: -2.0d
@@ -2076,6 +2077,7 @@
 						}
 					}
 				}
+				match_nbt: true
 				type: "item"
 			}]
 			x: -2.0d

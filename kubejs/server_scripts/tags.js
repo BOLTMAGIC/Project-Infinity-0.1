@@ -289,6 +289,10 @@ ServerEvents.tags('block', (event) => {
     'projectexpansion:white_power_flower',
     'projectexpansion:fading_power_flower',
     'projectexpansion:final_power_flower',
+    'avaritia:neutron_collector',
+    'avaritia:dense_neutron_collector',
+    'avaritia:denser_neutron_collector',
+    'avaritia:densest_neutron_collector',
   ]);
 
   event.add('justdirethings:tick_speed_deny', [
@@ -321,6 +325,10 @@ ServerEvents.tags('block', (event) => {
     'projectexpansion:white_power_flower',
     'projectexpansion:fading_power_flower',
     'projectexpansion:final_power_flower',
+    'avaritia:neutron_collector',
+    'avaritia:dense_neutron_collector',
+    'avaritia:denser_neutron_collector',
+    'avaritia:densest_neutron_collector',
   ]);
 
   event.add('justdirethings:paradox_deny', [
@@ -353,5 +361,9 @@ ServerEvents.tags('block', (event) => {
     'projectexpansion:white_power_flower',
     'projectexpansion:fading_power_flower',
     'projectexpansion:final_power_flower',
+    'avaritia:neutron_collector',
+    'avaritia:dense_neutron_collector',
+    'avaritia:denser_neutron_collector',
+    'avaritia:densest_neutron_collector',
   ]);
 });

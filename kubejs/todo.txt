@@ -55,7 +55,10 @@ Recipe changes and fixes:
 - added cyclic magma and honey to Nuclearcraft melter (thx to hi-5979)
 - added a reordered WOOT questline (thx to Clood)
 - removed resource foundry multiblock
-- 
+- removed tiny tnt (thx to DidaS)
+- enabled AppliedE recipes again (thx to Kyo for the fix)
+- replaced phil stone recipes with the fake phil stone
+- changed insanium recipe dupe in the EssenceForge
 
 Quest changes:
 - Removed dedicated Naquadah Reactor questline, added it to the Mekanism questline
@@ -79,3 +82,4 @@ Other changes:
 - twilightforest meef stroganoff stacks to 64
 - Time in a Bottle recipe is easier
 - Replace the floor of the Antimatter Protomolecular Transmutator multiblocks in the MBTool with Structural Glass so it's cheaper
+- changed Essenceforge recipes visual a bit (tell me what you think)

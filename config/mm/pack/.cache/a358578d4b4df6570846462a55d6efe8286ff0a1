@@ -1,4 +1,4 @@
-// 1.20.1	2026-09-25T16:25:05.3555478	Block States: mm
+// 1.20.1	2026-10-19T15:32:12.8125821	Block States: mm
 42091dcd851f73b65f8ff15fd333e2b674afe83e assets/mm/blockstates/advanced_awakening_altar_controller.json
 3ae15ac6dd6b2bee3d4f52a3f8438b0e5a4688c5 assets/mm/blockstates/auto_crusher_controller.json
 63f0ceb4d11a5908c5d4f2cee7abe9bd88681110 assets/mm/blockstates/auto_sieve_controller.json
@@ -49,7 +49,6 @@ f8cc20e9dafd1e3aa6f1278b7a419a726208f6cf assets/mm/blockstates/normal_fluid_port
 e8c176f600c27ae795b630d592c91bd252f5de85 assets/mm/blockstates/normal_item_port_output.json
 ca88bb1652b5cbb9de17d6d1417a187e2f26808b assets/mm/blockstates/pinky_controller.json
 335d5ddb03f61dd568076690ced266a83dde384f assets/mm/blockstates/prediction_chamber_controller.json
-2e3d39d4720e668ac789a08b0cdcad1e5d3f9a2a assets/mm/blockstates/resource_foundry_controller.json
 829d19c3f43d0abf7235e46cc95a14b8972bb4c2 assets/mm/blockstates/small_energy_port_input.json
 5617379dee06a0dc9a468e788bd926bf0512a3f6 assets/mm/blockstates/small_energy_port_output.json
 8e6bba7b800bc2da9ffbb5811aff6515ee28cf16 assets/mm/blockstates/small_fluid_port_input.json
@@ -144,9 +143,6 @@ e8f239bf19d3df5f172b25dea81b86e8b43b60ff assets/mm/models/block/pinky_controller
 81dd265f31c18a9c5f14092d7043a99a55765ae8 assets/mm/models/block/prediction_chamber_controller.json
 e8f239bf19d3df5f172b25dea81b86e8b43b60ff assets/mm/models/block/prediction_chamber_controller_idle.json
 8618fe39d3ef6949253beac7656bf663266912f3 assets/mm/models/block/prediction_chamber_controller_working.json
-81dd265f31c18a9c5f14092d7043a99a55765ae8 assets/mm/models/block/resource_foundry_controller.json
-e8f239bf19d3df5f172b25dea81b86e8b43b60ff assets/mm/models/block/resource_foundry_controller_idle.json
-8618fe39d3ef6949253beac7656bf663266912f3 assets/mm/models/block/resource_foundry_controller_working.json
 7fb6beadb06b9d90fd128b14fb9e4b8332f5eb7f assets/mm/models/block/small_energy_port_input.json
 49653aa83e9d2a963eca07e6a200552c5bdab436 assets/mm/models/block/small_energy_port_output.json
 13ea9887d05481fad0136031ba07772b27eaa237 assets/mm/models/block/small_fluid_port_input.json

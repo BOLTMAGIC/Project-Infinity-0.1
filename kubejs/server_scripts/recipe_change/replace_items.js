@@ -26,6 +26,11 @@ ServerEvents.recipes((event) => {
     'projecte:body_stone'
   );
   event.replaceInput(
+    { input: 'projecte:philosophers_stone' },
+    'projecte:philosophers_stone',
+    'kubejs:fake_philosophers_stone'
+  );
+  event.replaceInput(
     { output: 'draconicevolution:creative_capacitor' },
     'draconicevolution:chaotic_capacitor',
     'kubejs:chaotic_capacitor'
@@ -346,7 +351,7 @@ ServerEvents.recipes((event) => {
     'extendedcrafting:ultimate_auto_table',
     'extendedcrafting:ultimate_table'
   );
-    event.replaceInput(
+  event.replaceInput(
     { output: 'packagedexcrafting:ender_crafter' },
     'extendedcrafting:auto_ender_crafter',
     'extendedcrafting:ender_crafter'

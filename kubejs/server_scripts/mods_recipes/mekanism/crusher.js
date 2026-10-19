@@ -33,7 +33,7 @@ ServerEvents.recipes((event) => {
 
   crush(
     event,
-    'minecraft:snow',
+    'minecraft:snow_block',
     4,
     'minecraft:snowball'
   );

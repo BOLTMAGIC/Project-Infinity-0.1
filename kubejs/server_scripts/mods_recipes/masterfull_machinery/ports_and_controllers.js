@@ -782,18 +782,6 @@ ServerEvents.recipes((event) => {
     'thermal:redstone_servo',
   ]);
 
-  create3x3(event, 'mm:resource_foundry_controller', [
-    'thermal:redstone_servo',
-    'evolvedmekanism:alloy_hypercharged',
-    'thermal:rf_coil',
-    'common_ore_library:cobalt_block',
-    'botania:manasteel_ingot',
-    'common_ore_library:cobalt_block',
-    'thermal:rf_coil',
-    'mekanism_extras:alloy_radiance',
-    'thermal:redstone_servo',
-  ]);
-
   create3x3(event, 'mm:tank_encapsulator_controller', [
     'thermal:redstone_servo',
     'mekanism_extras:absolute_fluid_tank',

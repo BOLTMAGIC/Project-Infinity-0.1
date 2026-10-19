@@ -1199,6 +1199,7 @@
 						Id: "extendedcrafting:unobtainium_allthemodium_alloy_ingot"
 					}
 				}
+				match_nbt: true
 				type: "item"
 			}]
 			x: -2.5d

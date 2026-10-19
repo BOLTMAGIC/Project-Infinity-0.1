@@ -409,16 +409,13 @@ ServerEvents.recipes((event) => {
     '#minecraft:leaves',
   ]);
 
-  //#region AppliedE
-  shapeless(event, 'projectcell:emc_storage_cell', ['appliede:emc_module']);
-
   //#region Project Cell
   create3x3(event, 'projectcell:emc_storage_cell', [
     'projecte:red_matter_block',
     'kubejs:fake_philosophers_stone',
     'projecte:red_matter_block',
     'projecte:dark_matter_block',
-    'projecte:transmutation_table',
+    'projecte:transmutation_tablet',
     'projecte:dark_matter_block',
     'projecte:red_matter_block',
     'ae2:item_cell_housing',

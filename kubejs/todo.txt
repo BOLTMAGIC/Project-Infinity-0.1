@@ -95,5 +95,5 @@ Other changes:
 - speed up Apothecary machines
 - twilightforest meef stroganoff stacks to 64
 - Time in a Bottle recipe is easier
-- Replace the floor of the Antimatter Protomolecular Transmutator multiblocks in the MBTool with Structural Glass so it's cheaper
+- Replace the floor of the Antimatter Protomolecular Transmutator multiblocks in the MBTool with Structural Glass so it's cheaper (credits to HostileSloth24)
 - changed Essenceforge recipes visual a bit (tell me what you think)

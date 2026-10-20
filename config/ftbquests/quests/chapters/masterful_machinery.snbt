@@ -129,27 +129,19 @@
 		}
 		{
 			height: 1.0d
-			image: "avaritia:block/machine/compressor/compressor_front"
-			rotation: 0.0d
-			width: 1.0d
-			x: -8.4d
-			y: 0.0d
-		}
-		{
-			height: 1.0d
 			image: "cyclic:block/water_fake"
 			rotation: 0.0d
 			width: 0.66d
-			x: 0.3214285714285623d
-			y: 2.0d
+			x: -8.214285714285715d
+			y: 0.0d
 		}
 		{
 			height: 1.0d
 			image: "minecraft:block/lava_flow"
 			rotation: 0.0d
 			width: 0.66d
-			x: -0.2500000000000071d
-			y: 2.0d
+			x: -8.785714285714292d
+			y: 0.0d
 		}
 	]
 	order_index: 0
@@ -4721,154 +4713,6 @@
 		}
 		{
 			dependencies: ["4402587B0EAC4EEC"]
-			description: [
-				"{ftbquests.chapter.masterful_machinery.quest33.description1}"
-				""
-				"{ftbquests.chapter.masterful_machinery.quest33.description2}"
-				""
-				"{ftbquests.chapter.masterful_machinery.quest33.description3}"
-			]
-			id: "7BA932E34079CBAA"
-			rewards: [{
-				id: "173F2213A8720B0C"
-				item: "kubejs:ascended_coin"
-				type: "item"
-			}]
-			tasks: [
-				{
-					id: "14A40F9A909628A0"
-					item: "mm:resource_foundry_controller"
-					type: "item"
-				}
-				{
-					count: 28L
-					id: "41B8A1C563BDFA1D"
-					item: "chisel_chipped_integration:factory_blue_framed_circuit"
-					type: "item"
-				}
-				{
-					count: 4L
-					id: "14B333A35F428124"
-					item: "enderio:dark_steel_block"
-					type: "item"
-				}
-				{
-					count: 23L
-					id: "029D505047648142"
-					item: "kubejs:starmetal_block"
-					type: "item"
-				}
-				{
-					count: 3L
-					id: "5489E131BAA7BC9C"
-					item: "mm:gigantic_energy_port_input"
-					type: "item"
-				}
-				{
-					count: 2L
-					id: "325F7E5FE85A4297"
-					item: "botanicalextramachinery:shadow_dragonstone_block"
-					type: "item"
-				}
-				{
-					count: 2L
-					id: "04DCC8E0151518BE"
-					item: "mysticalexpansion:divinium_gemstone_block"
-					type: "item"
-				}
-				{
-					count: 8L
-					id: "68B7BCD696679570"
-					item: "bloodmagic:dungeon_metal"
-					type: "item"
-				}
-				{
-					count: 3L
-					id: "39B425321EA3FD25"
-					item: "kubejs:empowered_super_block"
-					type: "item"
-				}
-				{
-					count: 6L
-					id: "033AA188EE007823"
-					item: "mm:super_compressed_titanic_item_port_input"
-					type: "item"
-				}
-				{
-					count: 20L
-					id: "2DEE9BEFBCEEC24B"
-					item: "advancednetherite:netherite_diamond_block"
-					type: "item"
-				}
-				{
-					count: 6L
-					id: "392EE63026EF0CD2"
-					item: "mm:super_compressed_titanic_item_port_output"
-					type: "item"
-				}
-				{
-					count: 2L
-					id: "430B9A99EC0B4582"
-					item: "mekanism_extras:block_naquadah"
-					type: "item"
-				}
-				{
-					count: 2L
-					id: "6176B883C0AEDB97"
-					item: "justdirethings:time_crystal_block"
-					type: "item"
-				}
-				{
-					count: 2L
-					id: "185C8F95C7AC4462"
-					item: "crazyae2addons:super_singularity_block"
-					type: "item"
-				}
-				{
-					id: "1E555C0A8E3B93FF"
-					item: "allthemodium:allthemodium_block"
-					type: "item"
-				}
-				{
-					id: "032438A0ECAE5FF3"
-					item: "allthemodium:vibranium_block"
-					type: "item"
-				}
-				{
-					id: "055CFA82544D447F"
-					item: "allthemodium:unobtainium_block"
-					type: "item"
-				}
-				{
-					count: 4L
-					id: "2F29E78B240331F5"
-					item: "evolvedmekanism:block_alloy_exoversal"
-					type: "item"
-				}
-				{
-					id: "2EF07E8E1C0F27F3"
-					item: "mm:gigantic_fluid_port_input"
-					type: "item"
-				}
-				{
-					count: 2L
-					id: "1C93321F1742BE38"
-					item: "pneumaticcraft:smooth_plastic_brick_blue"
-					type: "item"
-				}
-				{
-					count: 2L
-					id: "03A1B6FEB36FB2FE"
-					item: "kubejs:sculk_alloy_block"
-					type: "item"
-				}
-			]
-			title: "{ftbquests.chapter.masterful_machinery.quest33.title}"
-			x: -4.0d
-			y: 0.0d
-		}
-		{
-			dependencies: ["4402587B0EAC4EEC"]
 			description: ["{ftbquests.chapter.masterful_machinery.quest34.description1}"]
 			id: "4BD5CD621782DFB8"
 			rewards: [{
@@ -5292,8 +5136,8 @@
 				}
 			]
 			title: "{ftbquests.chapter.masterful_machinery.quest36.title}"
-			x: 0.0d
-			y: 2.0d
+			x: -4.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["4402587B0EAC4EEC"]

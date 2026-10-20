@@ -2142,3 +2142,18 @@
 	#Stop the missing property error from copying a call stack. When a texture or model rule file leaves out a property, Entity Texture Features builds that property by reading it from the file and throwing its own error if the key is not there, and the code that asked catches it, discards it and moves on, which happens for every property type of every rule in every file. A big pack throws over ten thousand of those at launch and each one copies the loading thread's call stack, which nothing ever reads, because the only thing the mod does with the error is log its message. With this on the same error with the same message is thrown without capturing a stack. Client.
 	stacklessPropertyExceptions = true
 
+#Immersive Weathering patches.
+[immersiveweathering]
+	#Work out whether stone, cobblestone and bricks should start mossing or cracking without the throwaway Random, maps, lists and pairs Immersive Weathering builds on every neighbor update. Same answer for every block.
+	fastSpread = true
+	#Look block growths up from a table built on reload instead of wrapping them in Optionals and a memoized biome on every random tick, and skip growths that can never fire.
+	growthTable = true
+	#Roll once for a whole row of growths on a randomly ticked block instead of once per growth. Every growth still fires at the same odds. Needs growthTable.
+	oneChanceRoll = true
+	#Scan the area around a growth from a cached offset table with no BlockPos list, stream or shuffle copies. Same blocks in the same order.
+	areaScan = true
+	#Run lava generators like basalt and burnt moss without the EnumMap, lambdas and suppliers made on every lava update.
+	leanFluidGenerators = true
+	#Remember the faded leaf pile colour instead of converting it through LAB space for every tinted quad. Client.
+	leafPileTint = true
+

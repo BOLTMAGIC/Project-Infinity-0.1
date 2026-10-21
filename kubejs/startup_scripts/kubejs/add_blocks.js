@@ -353,6 +353,7 @@ StartupEvents.registry('block', (event) => {
   //#region pneumaticraft_repressurized
   event
     .create('double_compressed_iron_block')
+    .displayName('Compressed Compressed Iron (1x)')
     .soundType('metal')
     .hardness(0.8)
     .resistance(1.0)
@@ -361,6 +362,7 @@ StartupEvents.registry('block', (event) => {
 
   event
     .create('triple_compressed_iron_block')
+    .displayName('Compressed Compressed Iron (2x)')
     .soundType('metal')
     .hardness(0.8)
     .resistance(1.0)

@@ -216,6 +216,7 @@
 		}
 		{
 			can_repeat: false
+			description: ["throw chemical x potion on a Zombie to transform it into a Mutant Zombie"]
 			hide_details_until_startable: false
 			hide_text_until_complete: false
 			hide_until_deps_visible: false
@@ -496,6 +497,7 @@
 		}
 		{
 			can_repeat: false
+			description: ["feed pig fermented spider eye and throw chemical x potion on it to transform it into a Mutant Spider-Pig"]
 			hide_details_until_startable: false
 			hide_text_until_complete: false
 			hide_until_deps_visible: false
@@ -759,6 +761,7 @@
 		}
 		{
 			can_repeat: false
+			description: ["throw chemical x potion on a Enderman to transform it into a Mutant Enderman"]
 			hide_details_until_startable: false
 			hide_text_until_complete: false
 			hide_until_deps_visible: false
@@ -1035,6 +1038,7 @@
 		}
 		{
 			can_repeat: false
+			description: ["throw chemical x potion on a Creeper to transform it into a Mutant Creeper"]
 			hide_details_until_startable: false
 			hide_text_until_complete: false
 			hide_until_deps_visible: false
@@ -1170,6 +1174,7 @@
 		}
 		{
 			can_repeat: false
+			description: ["throw chemical x potion on a Skeleton to transform it into a Mutant Skeleton"]
 			hide_details_until_startable: false
 			hide_text_until_complete: false
 			hide_until_deps_visible: false
@@ -1362,6 +1367,7 @@
 		}
 		{
 			can_repeat: false
+			description: ["throw chemical x potion on a Snowman to transform it into a Mutant Snowman"]
 			hide_details_until_startable: false
 			hide_text_until_complete: false
 			hide_until_deps_visible: false

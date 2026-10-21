@@ -33,4 +33,6 @@ Recipe changes and fixes:
 - changed universal bulk storage cell (thx to Kyo)
 - fixed EssenceForge Tier 2 Recipes 
 - removed all the quartz enriched seeds and essence uses and recipes (thx to ion983)
-- 
+- renamed double/ tripple compressed iron block to Compressed Compressed Iron (1x)/ (2x)
+- removed smooth quartz recipe from alloy smelter
+-

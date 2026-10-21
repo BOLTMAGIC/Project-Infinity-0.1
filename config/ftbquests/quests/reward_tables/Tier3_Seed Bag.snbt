@@ -24,7 +24,6 @@
 		{ item: "mysticalagriculture:skeleton_seeds", weight: 3.0f }
 		{ item: "mysticalagriculture:lead_seeds", weight: 3.0f }
 		{ item: "mysticalagriculture:certus_quartz_seeds", weight: 2.0f }
-		{ item: "mysticalagriculture:quartz_enriched_iron_seeds" }
 		{ item: "mysticalagriculture:no_fall_damage_augment" }
 		{ item: "mysticalagriculture:mining_aoe_ii_augment" }
 		{ item: "mysticalagriculture:tertium_essence", random_bonus: 2, weight: 10.0f }

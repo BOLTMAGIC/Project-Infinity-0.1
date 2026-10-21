@@ -585,7 +585,7 @@ const removeRecipebyRecipeID = [
   'molecularmanipulator:event_horizon_singularity_hub',
   'ae2:misc/tiny_tnt',
   'molecularmanipulator:assembler_matrix_molecular_core',
-  '',
+  'enderio:smelting/minecraft/smooth_quartz',
   '',
   '',
   '',

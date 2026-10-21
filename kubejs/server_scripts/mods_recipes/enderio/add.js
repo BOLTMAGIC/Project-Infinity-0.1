@@ -1,7 +1,7 @@
 ServerEvents.recipes((event) => {
   create_conduit_craft(event, '8x enderio:conductive_conduit', [
     'enderio:conduit_binder',
-    'refinedstorage:quartz_enriched_iron',
+    'minecraft:iron_ingot',
   ]);
 
   create_conduit_craft(event, '8x enderio:energetic_conduit', [

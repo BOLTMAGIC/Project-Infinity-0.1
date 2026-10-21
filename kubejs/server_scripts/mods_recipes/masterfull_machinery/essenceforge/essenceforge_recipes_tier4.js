@@ -48,7 +48,6 @@ MMEvents.createProcesses((event) => {
   // --- Tier 3 ---
   const tier3Seeds = [
     'mysticalagriculture:boron_seeds',
-    'mysticalagriculture:quartz_enriched_iron_seeds',
     'mysticalagriculture:cognizant_dust_seeds',
     'mysticalagriculture:lithium_seeds',
     'mysticalagriculture:tin_seeds',

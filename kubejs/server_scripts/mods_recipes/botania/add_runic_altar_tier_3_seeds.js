@@ -146,10 +146,6 @@ ServerEvents.recipes(function (event) {
       mats: ['enderio:conductive_alloy_ingot*4'],
     },
     {
-      out: 'mysticalagriculture:quartz_enriched_iron_seeds',
-      mats: ['refinedstorage:quartz_enriched_iron*4'],
-    },
-    {
       out: 'mysticalagriculture:copper_alloy_seeds',
       mats: ['enderio:copper_alloy_ingot*4'],
     },

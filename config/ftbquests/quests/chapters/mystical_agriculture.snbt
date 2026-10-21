@@ -3418,22 +3418,6 @@
 			y: 7.0d
 		}
 		{
-			dependencies: ["0EE7C12766C3CA1B"]
-			id: "6DB3E36446A4DEB6"
-			rewards: [{
-				id: "144059507DB4989B"
-				item: "kubejs:apotheotic_coin"
-				type: "item"
-			}]
-			tasks: [{
-				id: "5477B0C35029C985"
-				item: "mysticalagriculture:quartz_enriched_iron_seeds"
-				type: "item"
-			}]
-			x: -10.0d
-			y: 7.0d
-		}
-		{
 			dependencies: ["3763C9494249EC62"]
 			id: "73F70AC5E861B74F"
 			rewards: [{
@@ -4554,7 +4538,7 @@
 				type: "item"
 			}]
 			x: -10.0d
-			y: 8.0d
+			y: 7.0d
 		}
 		{
 			dependencies: ["28586493542A3B3A"]

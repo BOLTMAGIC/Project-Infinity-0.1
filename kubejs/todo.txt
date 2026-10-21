@@ -15,7 +15,7 @@ This will break all old crazyAE2 multiblocks!
 - MODS UPDATED:
     - 
 - MODS ADDED:
-    - 
+    - FlowLine (thx to Knozy)
 - MODS GETTING REMOVED in 0.0.53.0:
     - Born in Chaos
     - Born In Configuration
@@ -32,4 +32,5 @@ Recipe changes and fixes:
 - removed recipe for assembler matrix molecular core
 - changed universal bulk storage cell (thx to Kyo)
 - fixed EssenceForge Tier 2 Recipes 
+- removed all the quartz enriched seeds and essence uses and recipes (thx to ion983)
 - 

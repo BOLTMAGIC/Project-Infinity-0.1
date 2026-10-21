@@ -105,10 +105,7 @@ ServerEvents.recipes((event) => {
         },
         {
           item: 'mysticalagriculture:certus_quartz_essence',
-        },
-        {
-          item: 'mysticalagriculture:quartz_enriched_iron_essence',
-        },
+        }
       ],
       result: {
         item: 'kubejs:tier3_super_essence',

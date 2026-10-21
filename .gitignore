@@ -50,3 +50,4 @@ pregenerated_emc.json
 /kubejs/assets/nuclearcraft
 observable_announce
 config/ae2/common.json
+config/ae2/client.json

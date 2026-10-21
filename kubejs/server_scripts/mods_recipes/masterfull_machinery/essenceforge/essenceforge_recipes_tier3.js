@@ -37,7 +37,7 @@ MMEvents.createProcesses((event) => {
         tag: 'mysticalagriculture:seeds',
         count: 1,
       },
-      max_types: 4,
+      max_types: 5,
       chance: 0,
       max_tier: 5,
     })

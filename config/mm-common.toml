@@ -23,6 +23,9 @@ portAutoIOInterval = 10
 #How many blocks the controller's Assemble places per tick. Default: 2
 #Range: 1 ~ 64
 assemblyBlocksPerTick = 2
+#In JEI, show a flex recipe's input slot once per kind a run can take ("max_types", up to 9),
+#so players see how many kinds they can put in. When false, one slot. Default: true
+showJeiFlexInputCopies = true
 
 #Preview features that are not yet stable or ready for use.
 [preview_features]

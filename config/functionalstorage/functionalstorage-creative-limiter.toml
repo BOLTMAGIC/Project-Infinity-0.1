@@ -1,0 +1,29 @@
+
+[DrawerFilter]
+	#Items the Creative Vending Upgrade won't make infinite.
+	#Listed items can still be stored and upgraded like in any other drawer; a creative drawer just keeps
+	#their real amount instead of handing out an endless supply.
+	#
+	#Entry types (quoted and comma separated):
+	#  "modid:item"       a single item         e.g. "minecraft:diamond"
+	#  "#namespace:tag"   every item in a tag   e.g. "#forge:ingots/iron"
+	#  "modid:*"          every item of a mod   e.g. "mekanism:*"
+	#Example: blockedItems = ["functionalstorage:creative_vending_upgrade", "minecraft:diamond", "#forge:ingots/iron"]
+	#
+	#Finding ids: press F3 + H in game to turn on advanced tooltips; hovering an item then shows its id
+	#at the bottom of the tooltip (JEI also shows an item's tags).
+	#
+	#Ops can also edit the list in game: hold an item and run /creativelimiter add or /creativelimiter remove;
+	#/creativelimiter list shows the current entries. The commands save this file. Permission mods can grant
+	#the commands to non-op admins with the fscreativelimiter.command node.
+	#On a server only the server's file counts; it is sent to players when they join and on every change.
+	#
+	#Changes are picked up as soon as the file is saved, no restart needed. latest.log shows a
+	#"Creative Limiter list loaded" line with the new counts. If the file has a syntax error (missing quote or comma)
+	#Forge may reset it to the default, so keep a copy before editing.
+	#
+	#Normal drawers decide per slot: only the listed item's slot stops being infinite.
+	#Compacting drawers stop being creative entirely if any tier of their chain is listed, otherwise
+	#an infinite allowed tier (e.g. nuggets) could be crafted into the listed one (e.g. ingots).
+	blockedItems = ["functionalstorage:creative_vending_upgrade"]
+

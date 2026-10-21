@@ -178,6 +178,9 @@
 	#Maximum container conversion candidates Lootr may examine per server tick.
 	#Range: 0 ~ 65536
 	tileTickerBudget = 512
+	#Run Lootr's container conversion pass every this many server ticks instead of every tick. Each pass rechecks every waiting chest against the 25 chunks around it, and chests at the edge of a large view distance wait there for minutes. New loot chests still turn into Lootr chests, at most this many ticks later. 1 is stock behaviour.
+	#Range: 1 ~ 100
+	tileTickerInterval = 5
 
 #Nature's Aura patches.
 [naturesaura]
@@ -716,6 +719,8 @@
 	skipEmptyOwnerUuidParse = true
 	#Reuse the processor, graphics card and memory module lines of a crash report after the first one has been built. Building a crash report asks the hardware library for them again every time, which reads files from every mod jar, throws thousands of exceptions and takes a few hundred milliseconds, and mods build crash reports for errors they handle. Live memory figures are still read fresh.
 	cacheStaticHardwareReport = true
+	#Every tick the game walks every chunk that has an overdue block or fluid tick and asks whether that chunk is close enough to a player to run it. Chunks loaded by a large view distance but outside the simulation distance never are, so their overdue ticks are asked about again every single tick, twice. With this on, a chunk that says no is asked again a second later instead. Its ticks still run once a player gets close, at most one second later than they would have. Turn it off for stock behaviour.
+	deferBlockedTickContainers = true
 
 #Xaero's World Map patches.
 [xaeroworldmap]

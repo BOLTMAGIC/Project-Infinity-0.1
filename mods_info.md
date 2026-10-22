@@ -1,3 +1,17 @@
+# 0.0.52.1
+
+## Mods Updated
+
+* AE2 Crafting Time `1.2.18` -> `1.3.0` (`ae2-crafting-time-1.2.18-forge-1.20.1.jar` -> `ae2-crafting-time-1.3.0-forge-1.20.1.jar`)
+* Collections Of Optimizations `5.1` -> `5.4` (`collections_of_optimizations-5.1-all.jar` -> `collections_of_optimizations-5.4-all.jar`)
+* FastChunkGen `0.36` -> `0.38` (`fastchunkgen-0.36-all.jar` -> `fastchunkgen-0.38-all.jar`)
+* Just Dire Things `1.1.10` -> `1.1.11` (`[Forge] justdirethings-1.1.10.jar` -> `[Forge] justdirethings-1.1.11.jar`)
+* Masterful Machinery `3-1.20.1-0.1.35.8.1` -> `3-1.20.1-0.1.35.10` (`MasterfulMachinery-3-1.20.1-0.1.35.8.1.jar` -> `MasterfulMachinery-3-1.20.1-0.1.35.10.jar`)
+* Sophisticated Backpacks `3.26.12.2206` -> `3.26.14.2226` (`sophisticatedbackpacks-1.20.1-3.26.12.2206.jar` -> `sophisticatedbackpacks-1.20.1-3.26.14.2226.jar`)
+* Sophisticated Core `1.5.12.2412` -> `1.5.15.2427` (`sophisticatedcore-1.20.1-1.5.12.2412.jar` -> `sophisticatedcore-1.20.1-1.5.15.2427.jar`)
+* Sophisticated Storage `1.5.6.2183` -> `1.5.7.2195` (`sophisticatedstorage-1.20.1-1.5.6.2183.jar` -> `sophisticatedstorage-1.20.1-1.5.7.2195.jar`)
+* Trash Cans `1.1.1+a` -> `1.1.2` (`trashcans-1.1.1a-forge-mc1.20.4.jar` -> `trashcans-1.1.2-forge-mc1.20.4.jar`)
+
 # 0.0.52.0
 
 ## Mods Updated

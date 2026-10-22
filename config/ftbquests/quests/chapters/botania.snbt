@@ -2705,11 +2705,7 @@
 		}
 		{
 			dependencies: ["0C2063795FE160A8"]
-			description: [
-				"[\"\",{\"translate\":\"ftbquests.chapter.botania.quest76.rich_description1\"},{\"underlined\":1,\"translate\":\"ftbquests.chapter.botania.quest76.rich_description2\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"39BDA119A3E1B4D5\"},{\"translate\":\"ftbquests.chapter.botania.quest76.rich_description3\"}}]"
-				"[\"\"}]"
-				"[\"\",{\"translate\":\"ftbquests.chapter.botania.quest76.rich_description4\"},{\"color\":\"aqua\",\"translate\":\"ftbquests.chapter.botania.quest76.rich_description5\"},{\"translate\":\"ftbquests.chapter.botania.quest76.rich_description6\"}}]"
-			]
+			description: ["{ftbquests.chapter.botania.quest76.description1}"]
 			icon_scale: 1.5d
 			id: "29290AE9FBE8013C"
 			rewards: [{

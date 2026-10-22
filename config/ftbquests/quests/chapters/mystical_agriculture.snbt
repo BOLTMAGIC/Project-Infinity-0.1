@@ -4606,11 +4606,7 @@
 		}
 		{
 			dependencies: ["60B83836D990E8AC"]
-			description: [
-				"{ftbquests.chapter.mystical_agriculture.quest202.description1}"
-				""
-				"{ftbquests.chapter.mystical_agriculture.quest202.description2}"
-			]
+			description: [""]
 			id: "2B7ACC7B3F0C13E4"
 			rewards: [{
 				id: "165F86E1726CDE32"
@@ -4660,11 +4656,8 @@
 		}
 		{
 			description: [
-				"{ftbquests.chapter.mystical_agriculture.quest205.description1}"
 				""
-				"{ftbquests.chapter.mystical_agriculture.quest205.description2}"
 				""
-				"{ftbquests.chapter.mystical_agriculture.quest205.description3}"
 			]
 			id: "76729738389C5C5F"
 			min_width: 350

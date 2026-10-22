@@ -1322,9 +1322,7 @@
 				""
 				"{ftbquests.chapter.neo_eco_ae2.quest51.description6}"
 				""
-				"[\"\",{\"translate\":\"ftbquests.chapter.neo_eco_ae2.quest51.rich_description1\"},{\"underlined\":1,\"translate\":\"ftbquests.chapter.neo_eco_ae2.quest51.rich_description2\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"6C6546FBCB6ED113\"},{\"translate\":\"ftbquests.chapter.neo_eco_ae2.quest51.rich_description3\"}}]"
-				""
-				"{ftbquests.chapter.neo_eco_ae2.quest51.description8}"
+				"{ftbquests.chapter.neo_eco_ae2.quest51.description7}"
 			]
 			id: "53916AEFDD45D596"
 			min_width: 425
@@ -1373,8 +1371,6 @@
 				"{ftbquests.chapter.neo_eco_ae2.quest53.description6}"
 				""
 				"{ftbquests.chapter.neo_eco_ae2.quest53.description7}"
-				""
-				"[\"\",{\"translate\":\"ftbquests.chapter.neo_eco_ae2.quest53.rich_description1\"},{\"underlined\":1,\"translate\":\"ftbquests.chapter.neo_eco_ae2.quest53.rich_description2\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"04D62CCE8E8E243D\"},{\"translate\":\"ftbquests.chapter.neo_eco_ae2.quest53.rich_description3\"}}]"
 			]
 			id: "437C628A947832BF"
 			min_width: 425

@@ -137,12 +137,8 @@
 			description: [
 				"{ftbquests.chapter.welcome_2.quest3.description1}"
 				""
-				"[\"\",{\"translate\":\"ftbquests.chapter.welcome_2.quest3.rich_description1\"},{\"underlined\":1,\"translate\":\"ftbquests.chapter.welcome_2.quest3.rich_description2\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"53A9A5F61BF1DBC8\"},{\"translate\":\"ftbquests.chapter.welcome_2.quest3.rich_description3\"}}]"
+				"{ftbquests.chapter.welcome_2.quest3.description2}"
 				""
-				""
-				"{ftbquests.chapter.welcome_2.quest3.description3}"
-				""
-				"{ftbquests.chapter.welcome_2.quest3.description4}"
 			]
 			id: "607C8F5BDF00A3C1"
 			min_width: 340

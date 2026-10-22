@@ -58,7 +58,7 @@
 			description: [
 				"{ftbquests.chapter.welcome.quest2.description1}"
 				""
-				"[\"\",{\"translate\":\"ftbquests.chapter.welcome.quest2.rich_description1\"},{\"underlined\":1,\"translate\":\"ftbquests.chapter.welcome.quest2.rich_description2\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"5A2174711D9219BF\"}}]"
+				"[\"\",{\"translate\":\"ftbquests.chapter.welcome.quest2.rich_description1\"},{\"translate\":\"ftbquests.chapter.welcome.quest2.rich_description2\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"5A2174711D9219BF\"}}]"
 			]
 			icon: "minecraft:oak_log"
 			id: "3001B2EEE5C6C9AB"
@@ -673,7 +673,7 @@
 			description: [
 				"{ftbquests.chapter.welcome.quest26.description1}"
 				""
-				"[\"\",{\"translate\":\"ftbquests.chapter.welcome.quest26.rich_description1\"},{\"underlined\":1,\"translate\":\"ftbquests.chapter.welcome.quest26.rich_description2\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"518405876B7FEB5A\"}}]"
+				"[\"\",{\"translate\":\"ftbquests.chapter.welcome.quest26.rich_description1\"},{\"translate\":\"ftbquests.chapter.welcome.quest26.rich_description2\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"518405876B7FEB5A\"}}]"
 			]
 			icon: "mm:auto_sieve_controller"
 			id: "0F714BB148F47C46"

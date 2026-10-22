@@ -216,7 +216,7 @@
 		}
 		{
 			can_repeat: false
-			description: ["throw chemical x potion on a Zombie to transform it into a Mutant Zombie"]
+			description: ["{ftbquests.chapter.trophies.quest4.description1}"]
 			hide_details_until_startable: false
 			hide_text_until_complete: false
 			hide_until_deps_visible: false
@@ -497,7 +497,7 @@
 		}
 		{
 			can_repeat: false
-			description: ["feed pig fermented spider eye and throw chemical x potion on it to transform it into a Mutant Spider-Pig"]
+			description: ["{ftbquests.chapter.trophies.quest10.description1}"]
 			hide_details_until_startable: false
 			hide_text_until_complete: false
 			hide_until_deps_visible: false
@@ -761,7 +761,7 @@
 		}
 		{
 			can_repeat: false
-			description: ["throw chemical x potion on a Enderman to transform it into a Mutant Enderman"]
+			description: ["{ftbquests.chapter.trophies.quest16.description1}"]
 			hide_details_until_startable: false
 			hide_text_until_complete: false
 			hide_until_deps_visible: false
@@ -1038,7 +1038,7 @@
 		}
 		{
 			can_repeat: false
-			description: ["throw chemical x potion on a Creeper to transform it into a Mutant Creeper"]
+			description: ["{ftbquests.chapter.trophies.quest22.description1}"]
 			hide_details_until_startable: false
 			hide_text_until_complete: false
 			hide_until_deps_visible: false
@@ -1174,7 +1174,7 @@
 		}
 		{
 			can_repeat: false
-			description: ["throw chemical x potion on a Skeleton to transform it into a Mutant Skeleton"]
+			description: ["{ftbquests.chapter.trophies.quest25.description1}"]
 			hide_details_until_startable: false
 			hide_text_until_complete: false
 			hide_until_deps_visible: false
@@ -1367,7 +1367,7 @@
 		}
 		{
 			can_repeat: false
-			description: ["throw chemical x potion on a Snowman to transform it into a Mutant Snowman"]
+			description: ["{ftbquests.chapter.trophies.quest29.description1}"]
 			hide_details_until_startable: false
 			hide_text_until_complete: false
 			hide_until_deps_visible: false

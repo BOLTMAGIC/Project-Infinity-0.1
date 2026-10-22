@@ -372,7 +372,7 @@
 		}
 		{
 			dependencies: ["3E7BA0C70B5569D4"]
-			description: ["[\"\",{\"translate\":\"ftbquests.chapter.ae2_addons.quest7.rich_description1\"},{\"underlined\":1,\"translate\":\"ftbquests.chapter.ae2_addons.quest7.rich_description2\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"2E66DFDA5014FCD7\"},{\"translate\":\"ftbquests.chapter.ae2_addons.quest7.rich_description3\"}}]"]
+			description: ["{ftbquests.chapter.ae2_addons.quest7.description1}"]
 			icon: "crazyae2addons:super_singularity"
 			id: "37C1E9E74F83826F"
 			rewards: [{
@@ -458,7 +458,7 @@
 				""
 				"{ftbquests.chapter.ae2_addons.quest10.description8}"
 				""
-				"[\"\",{\"translate\":\"ftbquests.chapter.ae2_addons.quest10.rich_description1\"},{\"underlined\":1,\"translate\":\"ftbquests.chapter.ae2_addons.quest10.rich_description2\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"340776B18E840067\"},{\"translate\":\"ftbquests.chapter.ae2_addons.quest10.rich_description3\"}}]"
+				"{ftbquests.chapter.ae2_addons.quest10.description9}"
 			]
 			icon: "neoecoae:energized_crystal"
 			id: "2A8BE548681A5CD5"

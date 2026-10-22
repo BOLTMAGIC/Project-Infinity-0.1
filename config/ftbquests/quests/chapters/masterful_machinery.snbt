@@ -4713,7 +4713,7 @@
 		}
 		{
 			dependencies: ["4402587B0EAC4EEC"]
-			description: ["{ftbquests.chapter.masterful_machinery.quest34.description1}"]
+			description: ["{ftbquests.chapter.masterful_machinery.quest33.description1}"]
 			id: "4BD5CD621782DFB8"
 			rewards: [{
 				id: "3CAC0D2EEA1538C3"
@@ -4836,7 +4836,7 @@
 							]
 						}
 					}
-					title: "{ftbquests.chapter.masterful_machinery.quest34.task_2791785029746276629.title}"
+					title: "{ftbquests.chapter.masterful_machinery.quest33.task_2791785029746276629.title}"
 					type: "item"
 				}
 				{
@@ -4870,7 +4870,7 @@
 							]
 						}
 					}
-					title: "{ftbquests.chapter.masterful_machinery.quest34.task_7853410904155477861.title}"
+					title: "{ftbquests.chapter.masterful_machinery.quest33.task_7853410904155477861.title}"
 					type: "item"
 				}
 				{
@@ -4924,18 +4924,17 @@
 							]
 						}
 					}
-					title: "{ftbquests.chapter.masterful_machinery.quest34.task_8047989276279454302.title}"
+					title: "{ftbquests.chapter.masterful_machinery.quest33.task_8047989276279454302.title}"
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.masterful_machinery.quest34.title}"
+			title: "{ftbquests.chapter.masterful_machinery.quest33.title}"
 			x: 4.0d
 			y: 0.0d
 		}
 		{
 			description: [
-				"{ftbquests.chapter.masterful_machinery.quest35.description1}"
-				"{ftbquests.chapter.masterful_machinery.quest35.description2}"
+				"{ftbquests.chapter.masterful_machinery.quest34.description1}"
 				""
 			]
 			id: "7721ABD591D762C6"
@@ -4945,13 +4944,13 @@
 				id: "0A182847E1718BB1"
 				type: "checkmark"
 			}]
-			title: "{ftbquests.chapter.masterful_machinery.quest35.title}"
+			title: "{ftbquests.chapter.masterful_machinery.quest34.title}"
 			x: 1.5d
 			y: 0.0d
 		}
 		{
 			dependencies: ["4402587B0EAC4EEC"]
-			description: ["{ftbquests.chapter.masterful_machinery.quest36.description1}"]
+			description: ["{ftbquests.chapter.masterful_machinery.quest35.description1}"]
 			id: "1451DABE6CCAC3AD"
 			rewards: [{
 				id: "2E4A11590F5ED49A"
@@ -5078,7 +5077,7 @@
 							]
 						}
 					}
-					title: "{ftbquests.chapter.masterful_machinery.quest36.task_4889807296641230891.title}"
+					title: "{ftbquests.chapter.masterful_machinery.quest35.task_4889807296641230891.title}"
 					type: "item"
 				}
 				{
@@ -5131,28 +5130,22 @@
 							]
 						}
 					}
-					title: "{ftbquests.chapter.masterful_machinery.quest36.task_7594190132828208666.title}"
+					title: "{ftbquests.chapter.masterful_machinery.quest35.task_7594190132828208666.title}"
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.masterful_machinery.quest36.title}"
+			title: "{ftbquests.chapter.masterful_machinery.quest35.title}"
 			x: -4.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["4402587B0EAC4EEC"]
 			description: [
-				"{ftbquests.chapter.masterful_machinery.quest37.description1}"
 				""
-				"{ftbquests.chapter.masterful_machinery.quest37.description2}"
 				""
-				"{ftbquests.chapter.masterful_machinery.quest37.description3}"
 				""
-				"{ftbquests.chapter.masterful_machinery.quest37.description4}"
 				""
-				"{ftbquests.chapter.masterful_machinery.quest37.description5}"
 				""
-				"{ftbquests.chapter.masterful_machinery.quest37.description6}"
 			]
 			id: "30DD7FB3E1B98952"
 			rewards: [{
@@ -5195,7 +5188,7 @@
 							]
 						}
 					}
-					title: "{ftbquests.chapter.masterful_machinery.quest37.task_5531497604096651032.title}"
+					title: "{ftbquests.chapter.masterful_machinery.quest36.task_5531497604096651032.title}"
 					type: "item"
 				}
 				{
@@ -5248,7 +5241,7 @@
 							]
 						}
 					}
-					title: "{ftbquests.chapter.masterful_machinery.quest37.task_9039835306781436102.title}"
+					title: "{ftbquests.chapter.masterful_machinery.quest36.task_9039835306781436102.title}"
 					type: "item"
 				}
 				{
@@ -5301,7 +5294,7 @@
 							]
 						}
 					}
-					title: "{ftbquests.chapter.masterful_machinery.quest37.task_72724061960197319.title}"
+					title: "{ftbquests.chapter.masterful_machinery.quest36.task_72724061960197319.title}"
 					type: "item"
 				}
 				{
@@ -5334,7 +5327,7 @@
 							]
 						}
 					}
-					title: "{ftbquests.chapter.masterful_machinery.quest37.task_1551329621726502504.title}"
+					title: "{ftbquests.chapter.masterful_machinery.quest36.task_1551329621726502504.title}"
 					type: "item"
 				}
 				{
@@ -5367,11 +5360,11 @@
 							]
 						}
 					}
-					title: "{ftbquests.chapter.masterful_machinery.quest37.task_5185878885268496755.title}"
+					title: "{ftbquests.chapter.masterful_machinery.quest36.task_5185878885268496755.title}"
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.masterful_machinery.quest37.title}"
+			title: "{ftbquests.chapter.masterful_machinery.quest36.title}"
 			x: 0.0d
 			y: -1.5d
 		}

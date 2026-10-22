@@ -72,18 +72,18 @@ ServerEvents.recipes((event) => {
   combining(
     event,
     1,
-    'thermal:steel_ingot',
-    1,
     'nuclearcraft:boron_ingot',
+    1,
+    'thermal:steel_ingot',
     'nuclearcraft:ferroboron_ingot',
     1
   );
   combining(
     event,
     1,
-    'thermal:steel_block',
-    1,
     'nuclearcraft:boron_block',
+    1,
+    'thermal:steel_block',
     'kubejs:ferroboron_block',
     1
   );
@@ -142,15 +142,6 @@ ServerEvents.recipes((event) => {
     1,
     'kubejs:hard_carbon_block',
     'kubejs:extreme_block',
-    1
-  );
-  combining(
-    event,
-    1,
-    'nuclearcraft:boron_ingot',
-    1,
-    'thermal:steel_ingot',
-    'nuclearcraft:ferroboron_dust',
     1
   );
 });

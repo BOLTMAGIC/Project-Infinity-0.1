@@ -1752,7 +1752,7 @@
 				"46844D4E57821B05"
 				"21F6DAE21CB20EF6"
 			]
-			description: ["[\"\",{\"translate\":\"ftbquests.chapter.applied_energistics_2.quest61.rich_description1\"},{\"underlined\":1,\"translate\":\"ftbquests.chapter.applied_energistics_2.quest61.rich_description2\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"3E7BA0C70B5569D4\"},{\"translate\":\"ftbquests.chapter.applied_energistics_2.quest61.rich_description3\"}}]"]
+			description: ["{ftbquests.chapter.applied_energistics_2.quest61.description1}"]
 			id: "6EE4B174356FB915"
 			optional: true
 			rewards: [{

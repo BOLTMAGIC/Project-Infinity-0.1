@@ -584,7 +584,6 @@
 			}]
 			tasks: [{
 				id: "323BFA1B7512E1A5"
-				title: "{ftbquests.chapter.voidminer.quest14.task_3619761721357558181.title}"
 				type: "checkmark"
 			}]
 			title: "{ftbquests.chapter.voidminer.quest14.title}"

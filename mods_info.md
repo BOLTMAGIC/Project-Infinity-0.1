@@ -12,6 +12,10 @@
 * Sophisticated Storage `1.5.6.2183` -> `1.5.7.2195` (`sophisticatedstorage-1.20.1-1.5.6.2183.jar` -> `sophisticatedstorage-1.20.1-1.5.7.2195.jar`)
 * Trash Cans `1.1.1+a` -> `1.1.2` (`trashcans-1.1.1a-forge-mc1.20.4.jar` -> `trashcans-1.1.2-forge-mc1.20.4.jar`)
 
+# Mods Added
+
+* Flowline (`0.3.5+1.20.1`) (`flowline-0.3.5+1.20.1.jar`)
+
 # 0.0.52.0
 
 ## Mods Updated

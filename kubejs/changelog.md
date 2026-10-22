@@ -2,6 +2,54 @@
 
 MAKE A BACKUP AND UPDATE TO A NEW INSTANCE!!!
 
+Known issues:
+- The crafting tree button when requesting an AE2 craft crashes the game
+
+Mod Info:
+CrazyAE2 will get updated to the newest version in 0.0.53.0.
+This will break all old crazyAE2 multiblocks!
+- MODS UPDATED:
+    - Please see https://github.com/BOLTMAGIC/Project-Infinity-0.1/blob/main/mods_info.md#00520
+- MODS ADDED:
+    - FlowLine (thx to Knozy)
+- MODS GETTING REMOVED in 0.0.53.0:
+    - Born in Chaos
+    - Born In Configuration
+    - Refined Storage
+    - Cable Tiers
+    - Extra Storage
+    - Refined Polymorphism
+    - Refined Storage Addons
+    - RSRequestify
+    - RS Insert Export Upgrade
+    - REInfinityBooster
+    - Dimensional Pockets II
+    - Dynamic Dungeons
+    - RFTools Dim
+    - RFTools Power
+    - RFTools Storage
+    - RFTools Control
+
+----------
+
+Recipe changes and fixes:
+- changed recipe for network linker and input gateway from inf 8 to inf 1 (thx to Kyo)
+- removed recipe for assembler matrix molecular core (Use the Matrix Array !)
+- changed universal bulk storage cell craft (thx to Kyo)
+- fixed EssenceForge Tier 2 / Tier 3 Recipes 
+- removed all the quartz enriched seeds and essence uses and recipes (thx to ion983)
+- renamed double/ tripple compressed iron block to Compressed Compressed Iron (1x)/ (2x)
+- removed smooth quartz recipe from alloy smelter
+- restored the Tiny TNT craft
+- fix Ferroboron recipe in Combiner
+
+Quests changes:
+- Removed or fixed erroring quests
+
+%#red%**Version 0.0.52.0**%#%
+
+MAKE A BACKUP AND UPDATE TO A NEW INSTANCE!!!
+
 Mod Info:
 CrazyAE2 will get updated to the newest version in 0.0.53.0.
 This will break all old crazyAE2 multiblocks!

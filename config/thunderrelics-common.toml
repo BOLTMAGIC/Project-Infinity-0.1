@@ -1,0 +1,13 @@
+
+#雷霆君王属性
+#Thunder King attributes
+[thunder_king]
+	#最大生命值，修改后重启游戏生效。原版 generic.max_health 实际上限为 1024，超过部分会被属性系统截断。
+	#Maximum health; restart the game after changing it. Vanilla generic.max_health is capped at 1024, so higher values are clamped by the attribute system.
+	#Range: 1 ~ 1000000
+	max_health = 800
+	#护甲值，修改后重启游戏生效。原版 generic.armor 实际上限为 30，超过部分会被属性系统截断。
+	#Armor value; restart the game after changing it. Vanilla generic.armor is capped at 30, so higher values are clamped by the attribute system.
+	#Range: 0 ~ 1000
+	armor = 25
+

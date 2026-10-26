@@ -1,5 +1,5 @@
 const EF_TICKS3 = 100;
-const EF_ENERGY3 = 1000000000;
+const EF_ENERGY3 = 800000000;
 const EF_ETHER3 = 250;
 const EF_ETHER3_T6 = 500;
 const EF_ESSENCE3 = 512;

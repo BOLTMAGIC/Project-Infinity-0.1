@@ -1,0 +1,13 @@
+
+#客户端特效
+[vfx]
+	#优化大型技能的几何细分、重叠光层及视野外冲击波和印记；龙鳞弹幕保持原样 / Optimize heavy effects; scale barrage remains unchanged
+	optimizeHeavyEffects = true
+	#启用空间扭曲特效（需要拷贝画面，光影包下可能失效）
+	enableDistortion = true
+	#启用全屏色差、白闪与暗角
+	enableScreenEffects = true
+	#镜头震动强度倍率
+	#Range: 0.0 ~ 5.0
+	cameraShake = 1.0
+

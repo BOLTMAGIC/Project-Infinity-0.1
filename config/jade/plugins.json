@@ -145,8 +145,13 @@
   "framedblocks": {
     "framed_item_frame": true
   },
+  "flowline": {
+    "pipe_side": true
+  },
   "mm": {
+    "port_machine": true,
     "port_priority": true,
+    "pattern_port": true,
     "controller_progress": true
   },
   "compactmachines": {

@@ -227,28 +227,6 @@
 			y: -10.5d
 		}
 		{
-			dependencies: [
-				"5974F712DA017C94"
-				"7E21D8137624442D"
-				"65FCFDB9AABCE966"
-			]
-			hide_dependency_lines: true
-			id: "3CB10BBE42C7A96C"
-			rewards: [{
-				id: "346E01ABAF4267A2"
-				item: "kubejs:apotheotic_coin"
-				type: "item"
-			}]
-			shape: "square"
-			tasks: [{
-				id: "6496DE982C9FFD9A"
-				item: "extendedcrafting:the_ultimate_component"
-				type: "item"
-			}]
-			x: 9.5d
-			y: -10.5d
-		}
-		{
 			dependencies: ["5530C0D8BF092FCA"]
 			id: "22698729A224CCBC"
 			rewards: [{
@@ -500,57 +478,6 @@
 			y: -8.0d
 		}
 		{
-			dependencies: ["6735CD1B161A8AB2"]
-			id: "6C791BA6842F1E47"
-			rewards: [{
-				id: "6E808181E1BE7692"
-				item: "kubejs:apotheotic_coin"
-				type: "item"
-			}]
-			shape: "rsquare"
-			tasks: [{
-				id: "786FDE4F5F813304"
-				item: "packagedexcrafting:advanced_crafter"
-				type: "item"
-			}]
-			x: 1.5d
-			y: -6.5d
-		}
-		{
-			dependencies: ["083AABDD7093C1E4"]
-			id: "4C230E52619BEC30"
-			rewards: [{
-				id: "258CA95BBE9BB5A8"
-				item: "kubejs:apotheotic_coin"
-				type: "item"
-			}]
-			shape: "rsquare"
-			tasks: [{
-				id: "0A9E65E17EAD43F1"
-				item: "packagedexcrafting:elite_crafter"
-				type: "item"
-			}]
-			x: 2.5d
-			y: -6.5d
-		}
-		{
-			dependencies: ["588BD1C2DEC4DEE6"]
-			id: "14D8F70EEA0CE1E7"
-			rewards: [{
-				id: "6F788C0E26A9A33E"
-				item: "kubejs:apotheotic_coin"
-				type: "item"
-			}]
-			shape: "rsquare"
-			tasks: [{
-				id: "4DA25965C24F2915"
-				item: "packagedexcrafting:ultimate_crafter"
-				type: "item"
-			}]
-			x: 3.5d
-			y: -6.5d
-		}
-		{
 			dependencies: ["66958504698EE334"]
 			id: "23BBDF8CF20438C6"
 			rewards: [{
@@ -695,23 +622,6 @@
 				type: "item"
 			}]
 			x: 8.5d
-			y: -9.5d
-		}
-		{
-			dependencies: ["3CB10BBE42C7A96C"]
-			id: "0556703DAFD956F0"
-			rewards: [{
-				id: "7A53FA0E84EE0E80"
-				item: "kubejs:apotheotic_coin"
-				type: "item"
-			}]
-			shape: "octagon"
-			tasks: [{
-				id: "0AF69654B5379B18"
-				item: "extendedcrafting:the_ultimate_catalyst"
-				type: "item"
-			}]
-			x: 9.5d
 			y: -9.5d
 		}
 		{
@@ -983,36 +893,6 @@
 			y: -15.0d
 		}
 		{
-			dependencies: [
-				"11E16D072634AAF5"
-				"6E79797DBD8A54EA"
-			]
-			hide_dependency_lines: true
-			hide_until_deps_visible: false
-			id: "5C6453AF1DC98785"
-			rewards: [{
-				id: "4E85C16A73EB14BF"
-				item: "kubejs:apotheotic_coin"
-				type: "item"
-			}]
-			shape: "rsquare"
-			tasks: [
-				{
-					id: "15C6599010C94009"
-					item: "extendedcrafting:auto_ender_crafter"
-					type: "item"
-				}
-				{
-					id: "3445E0658213FEB4"
-					item: "extendedcrafting:auto_flux_crafter"
-					type: "item"
-				}
-			]
-			title: "{ftbquests.chapter.extended_crafting.quest41.title}"
-			x: 11.0d
-			y: -13.5d
-		}
-		{
 			dependencies: ["6C8754CBAA4B7D90"]
 			id: "095FFE54A4BE60A3"
 			rewards: [{
@@ -1029,24 +909,13 @@
 			y: -14.5d
 		}
 		{
-			dependencies: ["294EAB81A6EA6D7C"]
-			id: "36CC62B6266919BC"
-			rewards: [{
-				id: "712C4A73534DB288"
-				item: "kubejs:apotheotic_coin"
-				type: "item"
-			}]
-			shape: "rsquare"
-			tasks: [{
-				id: "6A6A820C6C5E86D1"
-				item: "packagedexexcrafting:epic_crafter"
-				type: "item"
-			}]
-			x: 5.0d
-			y: -6.5d
-		}
-		{
-			dependencies: ["588BD1C2DEC4DEE6"]
+			dependencies: [
+				"588BD1C2DEC4DEE6"
+				"1CBD77D9822D9F8B"
+				"73B42C0D21A49E3E"
+				"618B0D093FBA3493"
+				"771A061136A9EB5B"
+			]
 			id: "294EAB81A6EA6D7C"
 			rewards: [{
 				id: "709AEEDAF864FE81"
@@ -4749,7 +4618,10 @@
 			y: 0.5d
 		}
 		{
-			dependencies: ["294EAB81A6EA6D7C"]
+			dependencies: [
+				"294EAB81A6EA6D7C"
+				"096B6FA766A45B4B"
+			]
 			id: "42A92B5A9BEFF09D"
 			rewards: [{
 				id: "6F9674F16EECEF87"
@@ -4763,23 +4635,6 @@
 			}]
 			x: 6.5d
 			y: -8.0d
-		}
-		{
-			dependencies: ["42A92B5A9BEFF09D"]
-			id: "5E3E4AEAFE185BEE"
-			rewards: [{
-				id: "6ACDB26B725A47D3"
-				item: "kubejs:apotheotic_coin"
-				type: "item"
-			}]
-			shape: "rsquare"
-			tasks: [{
-				id: "5B1748E25B4C0CAE"
-				item: "packagedexexexcrafting:legendary_crafter"
-				type: "item"
-			}]
-			x: 6.5d
-			y: -6.5d
 		}
 		{
 			id: "708BF133B9975344"

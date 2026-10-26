@@ -4656,8 +4656,10 @@
 		}
 		{
 			description: [
-				""
-				""
+				"Kill the Mutated Enderman. "
+				"While his death animation he throws purple crystals in the air. Rightclick them with a empty hand. "
+				"Then throw a eye of ender on the purple crystals to spawn a Endersoul Hand. "
+				"It will not be full. Then kill the Mutated Enderman again and throw the Endersoul Hand on the purple crystals. "
 			]
 			id: "76729738389C5C5F"
 			min_width: 350

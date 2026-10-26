@@ -1,0 +1,6 @@
+
+[general]
+	#输出 Boss 技能与阶段切换的调试日志
+	#Log boss skill and phase debug messages
+	debug_log = false
+

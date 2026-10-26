@@ -13,7 +13,7 @@ maxViewDistance = "default"
 	generalThreadingIssues = "default"
 	# (Default: true) Fix thread-safety issues in vanilla world generation. Required by threadedWorldGen.
 	worldGenThreadingIssues = "default"
-	# (Default: false) Crash instead of warn when something uses the world random off-thread. For debugging.
+	# (Default: false) Crash instead of warn. Mainly for debugging.
 	enforceSafeWorldRandomAccess = "default"
 	# (Default: true) Fix vanilla world generation bugs.
 	vanillaWorldGenBugs = "default"
@@ -21,7 +21,7 @@ maxViewDistance = "default"
 [generalOptimizations]
 	# (Default: true) Reduce allocations in hot paths.
 	reduceAllocations = "default"
-	# (Default: true) Apply our world generation allocation patches ahead of ModernFix's equivalent ones. Disable to let ModernFix win instead.
+	# (Default: true) Apply world generation allocation patches ahead of ModernFix.
 	overrideModernFixWorldGenAllocations = "default"
 	# (Default: true) Serve off-thread chunk requests without blocking the server thread.
 	optimizeAsyncChunkRequest = "default"
@@ -55,13 +55,13 @@ maxViewDistance = "default"
 	replaceImpl = "default"
 	# (Default: true) Load and unload chunks off the server thread.
 	async = "default"
-	# (Default: true) Regenerate chunks that fail to load. Destroys their contents.
+	# (Default: true) Regenerate chunks that fail to load. Genuienly regenerates them. Whatever was inside it is gone.
 	recoverFromErrors = "default"
-	# (Default: true) Fire Forge ChunkDataEvent.Save on async saves. Off means mods lose per-chunk data.
+	# (Default: true) Fire Forge ChunkDataEvent.Save on async saves. Turning off may cause some data-loss.
 	fireForgeChunkDataEvents = "default"
-	# (Default: true) Fire Forge chunk data events and deserialize chunk capabilities on the server thread. Off is unsafe for most mods.
+	# (Default: true) Fire Forge chunk data events and deserialize chunk capabilities on the server thread. Crash and data-loss risk on some mods.
 	forgeChunkDataEventsOnMainThread = "default"
-	# (Default: true) Snapshot block entity NBT on the server thread when a chunk save starts. Disabling serializes them on IO workers instead, which is faster but races modded block entities and Forge capabilities.
+	# (Default: true) Snapshot block entity NBT on the server thread when a chunk save starts. Disabling it WILL improve performance but will also cause many possible problems in modded environments.
 	serializeBlockEntitiesOnMainThread = "default"
 	# (Default: true) Check that the oversized chunk file exists before deleting it after each chunk save. Avoids an internal exception per save on Windows.
 	skipMissingExternalChunkDelete = "default"
@@ -75,15 +75,15 @@ maxViewDistance = "default"
 	optimizeAquifer = "default"
 	# (Default: true) Cache End biome lookups.
 	useEndBiomeCache = "default"
-	# (Default: true) Cache the hashCode of density function and spline records. They are immutable, so the value never changes.
+	# (Default: true) Cache the hashCode of density function and spline records. Their value never changes anyways!
 	cacheDensityFunctionHashes = "default"
-	# (Default: true) Skip the NoiseChunk wrapper map for density functions it would hand straight back. Only marker nodes own a cache that has to be shared.
+	# (Default: true) Skip the NoiseChunk wrapper map for density functions.
 	skipRedundantDensityFunctionWrapping = "default"
-	# (Default: true) Reuse density function nodes whose inputs did not change when a chunk maps the noise router instead of rebuilding every node per chunk, and skip the throwaway holder pair NoiseChunk unwraps immediately.
+	# (Default: true) Cache unchanged density function nodes during chunk mapping instead of rebuilding them, and eliminate redundant calculations
 	identityPreservingDensityFunctionMapAll = "default"
 	# (Default: true) Compute noise that neighbouring chunks both need once instead of in each chunk.
 	shareNoiseBetweenChunks = "default"
-	# (Default: true) Build the surface rule tree once per worker and point it at each new chunk and carved block instead of rebuilding every rule object each time.
+	# (Default: true) Build the surface rule tree once per worker and some less GC churns.
 	reuseSurfaceRules = "default"
 
 [threadedLighting]
@@ -93,12 +93,12 @@ maxViewDistance = "default"
 [threadedWorldGen]
 	# (Default: true) Generate chunks on multiple threads.
 	enabled = "default"
-	# (Default: true) Generate features (trees, ores, structures) in parallel.
+	# (Default: true) Generate features (trees, ores, structures) in parallel. Will improve performance significantly.
 	allowThreadedFeatures = "default"
-	# (Default: true) Lock fewer neighbouring chunks per generation step. More parallelism.
+	# (Default: true) Lock fewer neighbouring chunks per generation step. More parallelism = more performance.
 	reduceLockRadius = "default"
 	# (Default: true) Schedule generation tasks off the server thread.
 	asyncScheduling = "default"
-	# (Default: true) Abort an in-progress generation step when the chunk is no longer requested. Set to false if a pregenerator reports skipped chunks.
+	# (Default: true) Abort an in-progress generation step when the chunk is no longer requested. Disable this if it causes any issue with pre-gen mods!
 	allowGenerationCancellation = "default"
 

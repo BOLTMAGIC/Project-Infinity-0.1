@@ -1,0 +1,70 @@
+
+[dragon]
+	#天空巨龙基础攻击力；重启后应用 / Base attack damage; applied after restart
+	#Range: 0.0 ~ 2048.0
+	attackDamage = 18.0
+
+	[dragon.skillMultipliers]
+		#天穹龙息每次命中伤害倍率 / Damage multiplier for breath
+		#Range: 0.0 ~ 100.0
+		breath = 0.5
+		#风暴羽刃伤害倍率 / Damage multiplier for feather
+		#Range: 0.0 ~ 100.0
+		feather = 0.6
+		#苍穹陨晶伤害倍率 / Damage multiplier for crystal
+		#Range: 0.0 ~ 100.0
+		crystal = 1.0
+		#天雷审判与雷霆咆哮的落雷伤害倍率 / Damage multiplier for thunder
+		#Range: 0.0 ~ 100.0
+		thunder = 1.2
+		#龙翼飓风伤害倍率 / Damage multiplier for gale
+		#Range: 0.0 ~ 100.0
+		gale = 0.4
+		#左右裂空爪击伤害倍率 / Damage multiplier for claw
+		#Range: 0.0 ~ 100.0
+		claw = 1.4
+		#天坠重踏每道震波伤害倍率 / Damage multiplier for stomp
+		#Range: 0.0 ~ 100.0
+		stomp = 1.0
+		#龙首冲撞伤害倍率 / Damage multiplier for charge
+		#Range: 0.0 ~ 100.0
+		charge = 1.2
+		#尾刃回旋伤害倍率 / Damage multiplier for tail
+		#Range: 0.0 ~ 100.0
+		tail = 1.0
+		#晶棘潮涌伤害倍率 / Damage multiplier for spike
+		#Range: 0.0 ~ 100.0
+		spike = 0.9
+		#天尾坠击伤害倍率 / Damage multiplier for tailSlam
+		#Range: 0.0 ~ 100.0
+		tailSlam = 1.3
+		#天穹震息落点每次命中伤害倍率 / Damage multiplier for quakeBreath
+		#Range: 0.0 ~ 100.0
+		quakeBreath = 0.5
+		#天穹震息每道震荡波伤害倍率 / Damage multiplier for ripple
+		#Range: 0.0 ~ 100.0
+		ripple = 0.8
+
+[mount]
+	#驯服天境龙的最大生命值 / Max health of the tamed Aether Dragon mount
+	#Range: 1.0 ~ 4096.0
+	maxHealth = 300.0
+	#驯服天境龙的飞行速度（格/刻）/ Flying speed of the mount in blocks per tick
+	#Range: 0.1 ~ 5.0
+	flySpeed = 3.4
+	#骑乘激光每 4 刻结算一次的基础伤害 / Base mount laser damage dealt every 4 ticks
+	#Range: 0.0 ~ 2048.0
+	laserDamage = 7.0
+	#骑乘激光额外伤害 = 骑手攻击力 × 此倍率 / Extra laser damage = rider attack damage × this multiplier
+	#Range: 0.0 ~ 100.0
+	laserAttackScale = 0.2
+	#骑乘激光最大射程（格）/ Maximum range of the mount laser in blocks
+	#Range: 4.0 ~ 128.0
+	laserRange = 48.0
+	#驯服天境龙的地面移动速度 / Ground movement speed of the mount
+	#Range: 0.05 ~ 2.0
+	walkSpeed = 0.35
+	#驯服天境龙死亡后再次召唤的冷却秒数 / Seconds before a dead mount can be summoned again
+	#Range: 0 ~ 86400
+	respawnSeconds = 2400
+

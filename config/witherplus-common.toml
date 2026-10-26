@@ -1,0 +1,221 @@
+
+#凋零基础属性
+[wither]
+	#是否增强所有凋零；false 时恢复原版凋零
+	enhanceAll = true
+	#凋零最大生命值
+	#Range: 1.0 ~ 1000000.0
+	maxHealth = 1200.0
+	#凋零基础攻击力，所有技能伤害 = 基础攻击力 × 技能倍率
+	#Range: 0.0 ~ 10000.0
+	attackDamage = 24.0
+	#击退整体倍率，实际击退还会乘以 (1 - 击退抗性)
+	#Range: 0.0 ~ 10.0
+	knockbackMultiplier = 0.5
+	#进入第二阶段的血量百分比
+	#Range: 0.0 ~ 1.0
+	stageTwoHealth = 0.5
+	#进入第三阶段的血量百分比
+	#Range: 0.0 ~ 1.0
+	stageThreeHealth = 0.2
+	#两次技能之间的最短间隔（tick）
+	#Range: 0 ~ 10000
+	actionInterval = 50
+	#第三阶段冷却倍率
+	#Range: 0.05 ~ 10.0
+	rageCooldownMultiplier = 0.6
+	#索敌范围
+	#Range: 8.0 ~ 512.0
+	combatRange = 48.0
+	#技能命中附加凋零效果的秒数，0 为不附加
+	#Range: 0 ~ 600
+	witherSeconds = 4
+	#技能命中附加凋零效果的等级（0 为 I 级）
+	#Range: 0 ~ 9
+	witherAmplifier = 1
+	#输出技能调试日志
+	debugLogging = false
+
+#技能配置
+[skills]
+	#启用魂焰三重吐息
+	soulPyre_enabled = true
+	#魂焰三重吐息冷却（tick）
+	#Range: 0 ~ 100000
+	soulPyre_cooldown = 150
+	#魂焰三重吐息伤害倍率
+	#Range: 0.0 ~ 1000.0
+	soulPyre_damageMultiplier = 0.3
+	#魂焰三重吐息选择权重
+	#Range: 0 ~ 1000
+	soulPyre_weight = 10
+	#魂火焦痕每次伤害倍率
+	#Range: 0.0 ~ 100.0
+	soulPyre_scorchMultiplier = 0.12
+	#启用骷髅陨落
+	skullMeteor_enabled = true
+	#骷髅陨落冷却（tick）
+	#Range: 0 ~ 100000
+	skullMeteor_cooldown = 170
+	#骷髅陨落伤害倍率
+	#Range: 0.0 ~ 1000.0
+	skullMeteor_damageMultiplier = 1.1
+	#骷髅陨落选择权重
+	#Range: 0 ~ 1000
+	skullMeteor_weight = 10
+	#陨落骷髅数量
+	#Range: 1 ~ 64
+	skullMeteor_count = 7
+	#骷髅爆炸半径
+	#Range: 0.5 ~ 32.0
+	skullMeteor_radius = 3.5
+	#启用冥魂锁链
+	soulChains_enabled = true
+	#冥魂锁链冷却（tick）
+	#Range: 0 ~ 100000
+	soulChains_cooldown = 190
+	#冥魂锁链伤害倍率
+	#Range: 0.0 ~ 1000.0
+	soulChains_damageMultiplier = 1.3
+	#冥魂锁链选择权重
+	#Range: 0 ~ 1000
+	soulChains_weight = 8
+	#最多锁定目标数
+	#Range: 1 ~ 16
+	soulChains_targets = 3
+	#锁链拉扯强度
+	#Range: 0.0 ~ 2.0
+	soulChains_pull = 0.07
+	#启用暗影突袭
+	shadeDash_enabled = true
+	#暗影突袭冷却（tick）
+	#Range: 0 ~ 100000
+	shadeDash_cooldown = 130
+	#暗影突袭伤害倍率
+	#Range: 0.0 ~ 1000.0
+	shadeDash_damageMultiplier = 1.2
+	#暗影突袭选择权重
+	#Range: 0 ~ 1000
+	shadeDash_weight = 9
+	#冲刺次数
+	#Range: 1 ~ 10
+	shadeDash_count = 3
+	#启用骨刺狱
+	boneSpires_enabled = true
+	#骨刺狱冷却（tick）
+	#Range: 0 ~ 100000
+	boneSpires_cooldown = 160
+	#骨刺狱伤害倍率
+	#Range: 0.0 ~ 1000.0
+	boneSpires_damageMultiplier = 1.0
+	#骨刺狱选择权重
+	#Range: 0 ~ 1000
+	boneSpires_weight = 9
+	#骨刺射线数量
+	#Range: 1 ~ 32
+	boneSpires_rays = 6
+	#启用黑日
+	blackSun_enabled = true
+	#黑日冷却（tick）
+	#Range: 0 ~ 100000
+	blackSun_cooldown = 280
+	#黑日伤害倍率
+	#Range: 0.0 ~ 1000.0
+	blackSun_damageMultiplier = 2.0
+	#黑日选择权重
+	#Range: 0 ~ 1000
+	blackSun_weight = 7
+	#黑日牵引强度
+	#Range: 0.0 ~ 2.0
+	blackSun_pull = 0.06
+	#黑日魂焰弹伤害倍率
+	#Range: 0.0 ~ 100.0
+	blackSun_boltMultiplier = 0.5
+	#启用魂渊风暴
+	maelstrom_enabled = true
+	#魂渊风暴冷却（tick）
+	#Range: 0 ~ 100000
+	maelstrom_cooldown = 210
+	#魂渊风暴伤害倍率
+	#Range: 0.0 ~ 1000.0
+	maelstrom_damageMultiplier = 0.7
+	#魂渊风暴选择权重
+	#Range: 0 ~ 1000
+	maelstrom_weight = 8
+	#旋臂最大半径
+	#Range: 4.0 ~ 64.0
+	maelstrom_radius = 16.0
+	#启用死亡宣判
+	deathSentence_enabled = true
+	#死亡宣判冷却（tick）
+	#Range: 0 ~ 100000
+	deathSentence_cooldown = 200
+	#死亡宣判伤害倍率
+	#Range: 0.0 ~ 1000.0
+	deathSentence_damageMultiplier = 1.6
+	#死亡宣判选择权重
+	#Range: 0 ~ 1000
+	deathSentence_weight = 8
+	#宣判轮数
+	#Range: 1 ~ 10
+	deathSentence_rounds = 3
+	#启用三首狂怒
+	hydraFury_enabled = true
+	#三首狂怒冷却（tick）
+	#Range: 0 ~ 100000
+	hydraFury_cooldown = 150
+	#三首狂怒伤害倍率
+	#Range: 0.0 ~ 1000.0
+	hydraFury_damageMultiplier = 0.6
+	#三首狂怒选择权重
+	#Range: 0 ~ 1000
+	hydraFury_weight = 10
+	#骷髅弹数量
+	#Range: 1 ~ 200
+	hydraFury_bolts = 30
+	#启用冥河潮汐
+	styxTide_enabled = true
+	#冥河潮汐冷却（tick）
+	#Range: 0 ~ 100000
+	styxTide_cooldown = 170
+	#冥河潮汐伤害倍率
+	#Range: 0.0 ~ 1000.0
+	styxTide_damageMultiplier = 1.4
+	#冥河潮汐选择权重
+	#Range: 0 ~ 1000
+	styxTide_weight = 9
+	#潮汐波数
+	#Range: 1 ~ 10
+	styxTide_waves = 3
+	#启用骸骨王冠（第二阶段转阶段）
+	boneCrown_enabled = true
+	#骸骨王冠（第二阶段转阶段）冷却（tick）
+	#Range: 0 ~ 100000
+	boneCrown_cooldown = 0
+	#骸骨王冠（第二阶段转阶段）伤害倍率
+	#Range: 0.0 ~ 1000.0
+	boneCrown_damageMultiplier = 1.0
+	#骸骨王冠（第二阶段转阶段）选择权重
+	#Range: 0 ~ 1000
+	boneCrown_weight = 0
+	#骸骨王冠持续时间（tick）
+	#Range: 40 ~ 2400
+	boneCrown_duration = 120
+	#骸骨王冠召唤凋零骷髅数量
+	#Range: 0 ~ 32
+	boneCrown_summons = 4
+	#启用终焉安魂曲（第三阶段开场）
+	requiem_enabled = true
+	#终焉安魂曲（第三阶段开场）冷却（tick）
+	#Range: 0 ~ 100000
+	requiem_cooldown = 0
+	#终焉安魂曲（第三阶段开场）伤害倍率
+	#Range: 0.0 ~ 1000.0
+	requiem_damageMultiplier = 2.4
+	#终焉安魂曲（第三阶段开场）选择权重
+	#Range: 0 ~ 1000
+	requiem_weight = 0
+	#安魂曲法阵半径
+	#Range: 6.0 ~ 64.0
+	requiem_radius = 22.0
+

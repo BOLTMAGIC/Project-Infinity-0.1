@@ -655,6 +655,7 @@ twilightforest:vanilla_roots
 twilightforest:water_lake
 twilightforest:webs
 twilightforest:well_placer
+void_lords:big_end_island
 waystones:blackstone_waystone
 waystones:deepslate_waystone
 waystones:end_stone_waystone

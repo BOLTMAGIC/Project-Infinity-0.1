@@ -15,11 +15,6 @@ MMEvents.createProcesses((event) => {
   );
   createSimple12(
     event,
-    'minecraft:redstone_block',
-    'actuallyadditions:restonia_crystal_block'
-  );
-  createSimple12(
-    event,
     'minecraft:lapis_block',
     'actuallyadditions:palis_crystal_block'
   );
@@ -229,6 +224,16 @@ MMEvents.createProcesses((event) => {
     ],
     'kubejs:earth_ingot',
     64
+  );
+
+  createRecipe22(
+    event,
+    [
+      { item: 'minecraft:redstone_block', count: 512 },
+      { item: 'actuallyadditions:restonia_crystal_block', count: 1 },
+    ],
+    'actuallyadditions:restonia_crystal_block',
+    512
   );
 
   //#region Black Lotus Botania

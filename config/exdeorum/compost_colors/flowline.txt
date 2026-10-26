@@ -1,0 +1,7 @@
+// Compost colors for flowline. You may add your own colors, change existing ones, or remove colors that aren't needed.
+filter_card, #d7e3e1
+filter_upgrade, #6c8784
+knozy_upgrade, #79769a
+speed_upgrade, #62768c
+stack_upgrade, #987f79
+wrench, #9ba0a7

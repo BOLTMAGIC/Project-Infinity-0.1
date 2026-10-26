@@ -696,7 +696,7 @@
 			y: -7.0d
 		}
 		{
-			dependencies: ["55ED711EFD438FC3"]
+			dependencies: ["3353D17D82959D0C"]
 			description: ["{ftbquests.chapter.avaritia.quest32.description1}"]
 			id: "54C6961ACAFC8D8B"
 			rewards: [
@@ -717,8 +717,8 @@
 				item: "avaritia:endest_pearl"
 				type: "item"
 			}]
-			x: -6.5d
-			y: -5.0d
+			x: -5.5d
+			y: -1.0d
 		}
 		{
 			dependencies: [
@@ -761,7 +761,6 @@
 			y: -3.0d
 		}
 		{
-			dependencies: ["54C6961ACAFC8D8B"]
 			description: ["{ftbquests.chapter.avaritia.quest35.description1}"]
 			id: "3353D17D82959D0C"
 			shape: "hexagon"

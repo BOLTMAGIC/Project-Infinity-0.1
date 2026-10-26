@@ -1,0 +1,225 @@
+
+#General settings for every boss (also in Mods > Void Lords > Config)
+[general]
+	#Bosses (except the Warden) only take damage from their own forged weapons. Set to false to let any weapon hurt them
+	onlySpecialWeapons = true
+	#Multiplier for every boss's health (1.0 = default)
+	#Range: 0.1 ~ 10.0
+	bossHealthMultiplier = 2.0
+	#Multiplier for all damage the bosses deal (1.0 = default)
+	#Range: 0.0 ~ 10.0
+	bossDamageMultiplier = 2.0
+	#Multiplier for all damage the bosses take (1.0 = default, higher = easier)
+	#Range: 0.1 ~ 10.0
+	damageTakenMultiplier = 1.25
+
+#Ancient City robots (Sentinel, Seeker, Bulwark). Neutral after the city is awakened
+[robots]
+	#Multiplier for robot health (1.0 = default)
+	#Range: 0.1 ~ 10.0
+	robotHealthMultiplier = 1.0
+	#Multiplier for robot damage (1.0 = default)
+	#Range: 0.0 ~ 10.0
+	robotDamageMultiplier = 1.0
+
+#Ancient Golem (Ancient City boss). Takes damage from any weapon
+[ancient_golem]
+	#Golem health
+	#Range: 10.0 ~ 1000000.0
+	health = 800.0
+
+#Ancient Anvil: the Ancient Stamp gives +1 effective level to every multi-level, non-curse enchantment on an item (once per item)
+[ancient_stamp]
+	#Allow stamping items on the Ancient Anvil
+	enabled = true
+	#Energy Cells needed for one stamp
+	#Range: 0 ~ 64
+	cost = 1
+
+#Warden of the Void (cathedral boss)
+[void_warden]
+	#Warden health
+	#Range: 10.0 ~ 1000000.0
+	health = 500.0
+	#Multiplier for damage the Warden deals
+	#Range: 0.0 ~ 100.0
+	damageMultiplier = 1.0
+
+#Multiplayer
+[multiplayer]
+	#Extra boss health for each additional player nearby (0.75 = +75%). Applies to all bosses; health only scales up.
+	#Range: 0.0 ~ 10.0
+	healthPerExtraPlayer = 0.75
+
+#Cultists
+[cultists]
+	#Cultist health multiplier
+	#Range: 0.1 ~ 100.0
+	cultistHealthMultiplier = 1.0
+	#Cultist damage multiplier
+	#Range: 0.0 ~ 100.0
+	cultistDamageMultiplier = 1.0
+
+#Cathedral
+[cathedral]
+	#Cathedral protection (unbreakable, explosion-proof, no teleporting in from outside)
+	protection = true
+	#Keep the protection after the Warden is defeated
+	keepProtectionAfterWarden = false
+	#Players in creative mode ignore the protection
+	creativeCanBuild = true
+	#Play custom music during the Warden fight
+	bossMusic = true
+
+[ulthaar]
+
+	#Ul-Thaar, the Drowned God (ocean boss) - health and damage
+	[ulthaar.balance]
+		#Health of each phase (phase 1 and phase 2 separately)
+		#Range: 100.0 ~ 1000000.0
+		phaseHealth = 8000.0
+		#Damage multiplier for body, arms and legs
+		#Range: 0.0 ~ 10.0
+		bodyDamageMultiplier = 0.5
+		#Damage multiplier for the head
+		#Range: 0.0 ~ 10.0
+		headDamageMultiplier = 1.5
+		#Damage multiplier for the Abyss Heart (weak point on the chest)
+		#Range: 0.0 ~ 10.0
+		heartDamageMultiplier = 3.0
+		#Maximum damage a single hit can deal (protection against rockets/bombs)
+		#Range: 1.0 ~ 1000000.0
+		maxDamagePerHit = 200.0
+		#Multiplier for all damage the boss deals
+		#Range: 0.0 ~ 100.0
+		bossDamageMultiplier = 1.0
+		#Melee weapon damage multiplier against the boss (weapon damage x this)
+		#Range: 0.0 ~ 100.0
+		meleeWeaponMultiplier = 8.0
+		#Staff bolt damage multiplier against the boss (bolt damage 8 x this)
+		#Range: 0.0 ~ 100.0
+		rangedWeaponMultiplier = 4.0
+
+	#Arena and chasing
+	[ulthaar.arena]
+		#How far (blocks) the boss may move from its summon point
+		#Range: 32 ~ 2000
+		leashRadius = 200
+		#Radius of the phase 2 waterspout arena
+		#Range: 24 ~ 256
+		arenaRadius = 64
+		#Rotate the phase 2 waterspout slices around the boss
+		rotatingSlices = true
+		#Seconds for one full rotation of the slices
+		#Range: 5 ~ 3600
+		sliceRotationSeconds = 60
+		#Attack players in creative mode (for testing)
+		attackCreativePlayers = false
+
+	#World settings
+	[ulthaar.world]
+		#Block travel to the Nether and lighting Nether portals
+		disableNether = false
+		#Block travel to the End
+		disableEnd = false
+
+	#Music
+	[ulthaar.music]
+		#Play custom boss music during the fight (volume: Music slider)
+		bossMusic = true
+
+#Gor'Makh, the Ash Gnawer (Nether boss)
+[gormakh]
+	#Health (phase 1; it revives once with the same health as its enraged phase 2)
+	#Range: 100.0 ~ 1000000.0
+	health = 5000.0
+	#Damage multiplier for hits on the head (mouth)
+	#Range: 0.0 ~ 10.0
+	headDamageMultiplier = 1.0
+	#Damage multiplier for hits on the armored body
+	#Range: 0.0 ~ 10.0
+	bodyDamageMultiplier = 0.3
+	#Body damage multiplier in phase 2 (after its armor cracks)
+	#Range: 0.0 ~ 10.0
+	bodyDamageMultiplierEnraged = 0.5
+	#Whirlpool Blade damage multiplier
+	#Range: 0.0 ~ 100.0
+	meleeWeaponMultiplier = 8.0
+	#Deluge Staff bolt damage multiplier (bolt damage 8 x this)
+	#Range: 0.0 ~ 100.0
+	rangedWeaponMultiplier = 4.0
+	#Maximum damage a single hit can deal
+	#Range: 1.0 ~ 1000000.0
+	maxDamagePerHit = 200.0
+	#Multiplier for all damage Gor'Makh deals
+	#Range: 0.0 ~ 100.0
+	bossDamageMultiplier = 1.0
+	#How far (blocks) from its summon point it will chase players
+	#Range: 32 ~ 1000
+	leashRadius = 120
+	#Attack players in creative mode (for testing)
+	attackCreativePlayers = false
+
+[nyx]
+
+	#Nyx'Arrath, the Star Eater (End boss) - health and damage
+	[nyx.balance]
+		#Total phase 1 health (split evenly between the 4 elements)
+		#Range: 100.0 ~ 1.0E7
+		phase1Health = 8500.0
+		#Phase 2 (prismatic) health
+		#Range: 100.0 ~ 1.0E7
+		phase2Health = 7000.0
+		#Damage multiplier for body, neck and tail
+		#Range: 0.0 ~ 10.0
+		bodyMultiplier = 0.8
+		#Damage multiplier for the head (weak point)
+		#Range: 0.0 ~ 10.0
+		headMultiplier = 2.0
+		#Damage multiplier for the wings
+		#Range: 0.0 ~ 10.0
+		wingMultiplier = 0.5
+		#Maximum damage a single hit can deal
+		#Range: 1.0 ~ 1.0E7
+		maxHitDamage = 150.0
+		#Multiplier for all damage the dragon deals
+		#Range: 0.0 ~ 100.0
+		bossDamageMultiplier = 1.0
+		#Melee weapon damage multiplier against the boss (weapon damage x this)
+		#Range: 0.0 ~ 100.0
+		meleeWeaponMultiplier = 7.0
+		#Staff bolt damage multiplier against the boss (bolt damage 8 x this)
+		#Range: 0.0 ~ 100.0
+		rangedWeaponMultiplier = 3.5
+
+	#Arena
+	[nyx.arena]
+		#How far (blocks) the dragon may leave the arena center
+		#Range: 64 ~ 4000
+		leashRadius = 300
+		#Attack players in creative mode (for testing)
+		attackCreativePlayers = false
+
+	#World
+	[nyx.world]
+		#Enlarge the main End island (only affects newly generated terrain)
+		bigEndIsland = false
+		#Radius of the enlarged main island (blocks)
+		#Range: 120 ~ 900
+		endIslandRadius = 350
+		#Base drop multiplier for elemental essences (1.0 = default rates)
+		#Range: 0.0 ~ 100.0
+		essenceDropMultiplier = 1.0
+
+	#Visuals (client side)
+	[nyx.visuals]
+		#Replace the End sky with the Void Lords sky (galaxies, Milky Way and the orbiting black hole)
+		customEndSky = true
+		#With a shader pack (Oculus/Iris) active, draw the Void Lords End sky on top of the shader's sky. Turn off if it looks wrong with your shader pack
+		shaderCompatSky = true
+
+	#Music
+	[nyx.music]
+		#Play custom boss music during the fight (volume: Music slider)
+		bossMusic = true
+

@@ -1,0 +1,11 @@
+
+#客户端特效
+[vfx]
+	#启用全屏去饱和、闪屏与暗角
+	enableScreenEffects = true
+	#启用凋零模型发光层
+	enableGlowLayer = true
+	#镜头震动强度倍率
+	#Range: 0.0 ~ 5.0
+	cameraShake = 1.0
+

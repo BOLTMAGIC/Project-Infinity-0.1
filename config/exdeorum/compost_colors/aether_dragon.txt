@@ -1,0 +1,5 @@
+// Compost colors for aether_dragon. You may add your own colors, change existing ones, or remove colors that aren't needed.
+aether_dragon_flute, #a2c9e4
+shaday_chestplate, #d2c5a8
+shaday_helmet, #dec89b
+shaday_leggings, #e1d6bf

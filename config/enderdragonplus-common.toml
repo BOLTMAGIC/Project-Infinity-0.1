@@ -1,0 +1,231 @@
+
+#末影龙基础属性
+[dragon]
+	#是否需要用终焉水晶特殊召唤才会出现加强版末影龙；false 时所有末影龙都是加强版
+	requireSpecialSummon = true
+	#末影龙最大生命值
+	#Range: 1.0 ~ 1000000.0
+	maxHealth = 1000.0
+	#末影龙基础攻击力，所有技能伤害 = 基础攻击力 × 技能倍率
+	#Range: 0.0 ~ 10000.0
+	attackDamage = 20.0
+	#头部撞击伤害倍率
+	#Range: 0.0 ~ 100.0
+	headContactMultiplier = 1.0
+	#翅膀拍击伤害倍率
+	#Range: 0.0 ~ 100.0
+	wingContactMultiplier = 0.5
+	#击退整体倍率，实际击退还会乘以 (1 - 击退抗性)
+	#Range: 0.0 ~ 10.0
+	knockbackMultiplier = 0.5
+	#进入第二阶段的血量百分比
+	#Range: 0.0 ~ 1.0
+	stageTwoHealth = 0.5
+	#进入第三阶段（狂暴）的血量百分比
+	#Range: 0.0 ~ 1.0
+	stageThreeHealth = 0.25
+	#两次技能之间的最短间隔（tick）
+	#Range: 0 ~ 10000
+	actionInterval = 60
+	#狂暴阶段的冷却倍率
+	#Range: 0.05 ~ 10.0
+	rageCooldownMultiplier = 0.6
+	#索敌范围
+	#Range: 16.0 ~ 1024.0
+	combatRange = 150.0
+
+#技能配置
+[skills]
+	#启用虚空吐息
+	voidBreath_enabled = true
+	#虚空吐息冷却（tick）
+	#Range: 0 ~ 100000
+	voidBreath_cooldown = 150
+	#虚空吐息伤害倍率
+	#Range: 0.0 ~ 1000.0
+	voidBreath_damageMultiplier = 0.35
+	#虚空吐息选择权重
+	#Range: 0 ~ 1000
+	voidBreath_weight = 10
+	#虚空灼痕每次伤害倍率
+	#Range: 0.0 ~ 100.0
+	voidBreath_scorchMultiplier = 0.15
+	#吐息落点追踪玩家的速度（格/tick），玩家疾跑约为 0.28
+	#Range: 0.0 ~ 5.0
+	voidBreath_trackSpeed = 0.27
+	#启用末影陨星
+	meteor_enabled = true
+	#末影陨星冷却（tick）
+	#Range: 0 ~ 100000
+	meteor_cooldown = 180
+	#末影陨星伤害倍率
+	#Range: 0.0 ~ 1000.0
+	meteor_damageMultiplier = 1.2
+	#末影陨星选择权重
+	#Range: 0 ~ 1000
+	meteor_weight = 10
+	#陨星数量
+	#Range: 1 ~ 64
+	meteor_count = 6
+	#陨星爆炸半径
+	#Range: 0.5 ~ 32.0
+	meteor_radius = 4.5
+	#陨星是否破坏方块
+	meteor_breakBlocks = false
+	#启用空间裂隙冲刺
+	riftDash_enabled = true
+	#空间裂隙冲刺冷却（tick）
+	#Range: 0 ~ 100000
+	riftDash_cooldown = 130
+	#空间裂隙冲刺伤害倍率
+	#Range: 0.0 ~ 1000.0
+	riftDash_damageMultiplier = 1.5
+	#空间裂隙冲刺选择权重
+	#Range: 0 ~ 1000
+	riftDash_weight = 8
+	#转阶段护盾持续时间（tick）
+	#Range: 20 ~ 2400
+	shield_duration = 120
+	#护盾破碎冲击伤害倍率
+	#Range: 0.0 ~ 100.0
+	shield_burstMultiplier = 0.8
+	#护盾升华时是否复活所有黑曜石柱上的末影水晶
+	shield_reviveCrystals = true
+	#护盾升华结束后随机引爆的水晶比例
+	#Range: 0.0 ~ 1.0
+	shield_crystalExplodeRatio = 0.5
+	#进入第二阶段后，末影水晶回血不会超过第二阶段血量阈值
+	stageHealCap = true
+	#启用黑洞
+	blackHole_enabled = true
+	#黑洞冷却（tick）
+	#Range: 0 ~ 100000
+	blackHole_cooldown = 300
+	#黑洞伤害倍率
+	#Range: 0.0 ~ 1000.0
+	blackHole_damageMultiplier = 0.4
+	#黑洞选择权重
+	#Range: 0 ~ 1000
+	blackHole_weight = 7
+	#黑洞牵引半径
+	#Range: 2.0 ~ 128.0
+	blackHole_radius = 22.0
+	#黑洞牵引强度
+	#Range: 0.0 ~ 2.0
+	blackHole_pull = 0.09
+	#启用龙鳞弹幕
+	scaleBarrage_enabled = true
+	#龙鳞弹幕冷却（tick）
+	#Range: 0 ~ 100000
+	scaleBarrage_cooldown = 160
+	#龙鳞弹幕伤害倍率
+	#Range: 0.0 ~ 1000.0
+	scaleBarrage_damageMultiplier = 0.5
+	#龙鳞弹幕选择权重
+	#Range: 0 ~ 1000
+	scaleBarrage_weight = 9
+	#弹幕波数
+	#Range: 1 ~ 20
+	scaleBarrage_waves = 3
+	#每波弹体数量
+	#Range: 1 ~ 128
+	scaleBarrage_perWave = 18
+	#启用终焉新星
+	finalNova_enabled = true
+	#终焉新星冷却（tick）
+	#Range: 0 ~ 100000
+	finalNova_cooldown = 450
+	#终焉新星伤害倍率
+	#Range: 0.0 ~ 1000.0
+	finalNova_damageMultiplier = 3.0
+	#终焉新星选择权重
+	#Range: 0 ~ 1000
+	finalNova_weight = 4
+	#终焉新星蓄力时间（tick）
+	#Range: 20 ~ 2400
+	finalNova_chargeTicks = 100
+	#安全区数量
+	#Range: 1 ~ 16
+	finalNova_safeZones = 3
+	#安全区半径
+	#Range: 1.0 ~ 32.0
+	finalNova_safeRadius = 4.0
+	#启用虚空地脉
+	voidRupture_enabled = true
+	#虚空地脉冷却（tick）
+	#Range: 0 ~ 100000
+	voidRupture_cooldown = 140
+	#虚空地脉伤害倍率
+	#Range: 0.0 ~ 1000.0
+	voidRupture_damageMultiplier = 0.9
+	#虚空地脉选择权重
+	#Range: 0 ~ 1000
+	voidRupture_weight = 9
+	#启用翼刃风暴
+	wingBlades_enabled = true
+	#翼刃风暴冷却（tick）
+	#Range: 0 ~ 100000
+	wingBlades_cooldown = 150
+	#翼刃风暴伤害倍率
+	#Range: 0.0 ~ 1000.0
+	wingBlades_damageMultiplier = 0.8
+	#翼刃风暴选择权重
+	#Range: 0 ~ 1000
+	wingBlades_weight = 9
+	#翼刃风暴每轮月刃数量
+	#Range: 1 ~ 32
+	wingBlades_perVolley = 5
+	#启用末影雷暴
+	enderStorm_enabled = true
+	#末影雷暴冷却（tick）
+	#Range: 0 ~ 100000
+	enderStorm_cooldown = 210
+	#末影雷暴伤害倍率
+	#Range: 0.0 ~ 1000.0
+	enderStorm_damageMultiplier = 0.9
+	#末影雷暴选择权重
+	#Range: 0 ~ 1000
+	enderStorm_weight = 8
+	#末影雷暴落雷次数
+	#Range: 1 ~ 64
+	enderStorm_strikes = 12
+	#启用裂空环波
+	ringWaves_enabled = true
+	#裂空环波冷却（tick）
+	#Range: 0 ~ 100000
+	ringWaves_cooldown = 190
+	#裂空环波伤害倍率
+	#Range: 0.0 ~ 1000.0
+	ringWaves_damageMultiplier = 1.0
+	#裂空环波选择权重
+	#Range: 0 ~ 1000
+	ringWaves_weight = 8
+	#启用虚空长枪
+	voidLances_enabled = true
+	#虚空长枪冷却（tick）
+	#Range: 0 ~ 100000
+	voidLances_cooldown = 180
+	#虚空长枪伤害倍率
+	#Range: 0.0 ~ 1000.0
+	voidLances_damageMultiplier = 1.4
+	#虚空长枪选择权重
+	#Range: 0 ~ 1000
+	voidLances_weight = 9
+	#虚空长枪数量
+	#Range: 1 ~ 32
+	voidLances_count = 5
+	#启用陨灭俯冲
+	cataclysmDive_enabled = true
+	#陨灭俯冲冷却（tick）
+	#Range: 0 ~ 100000
+	cataclysmDive_cooldown = 240
+	#陨灭俯冲伤害倍率
+	#Range: 0.0 ~ 1000.0
+	cataclysmDive_damageMultiplier = 2.2
+	#陨灭俯冲选择权重
+	#Range: 0 ~ 1000
+	cataclysmDive_weight = 7
+	#陨灭俯冲落地冲击半径
+	#Range: 2.0 ~ 32.0
+	cataclysmDive_radius = 9.0
+

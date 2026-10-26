@@ -1,0 +1,21 @@
+
+[vfx]
+	#显示本模组的 Boss 技能特效与地面预警
+	#Render boss skill effects and ground warnings
+	enabled = true
+	#Boss 重击时的镜头震动
+	#Camera shake on heavy boss impacts
+	screen_shake = true
+	#镜头震动强度倍率
+	#Camera shake strength multiplier
+	#Range: 0.0 ~ 3.0
+	shake_strength = 1.0
+	#本模组自绘碎片/光点同时存在的上限（不使用原版粒子）
+	#Maximum self-rendered shards and sparks alive at once (vanilla particles are not used)
+	#Range: 0 ~ 1500
+	max_shards = 240
+	#特效画质：LOW 碎片约 35%，MEDIUM 约 65%，HIGH 全量
+	#Effect quality: LOW ~35% shards, MEDIUM ~65%, HIGH full
+	#Allowed Values: LOW, MEDIUM, HIGH
+	quality = "HIGH"
+

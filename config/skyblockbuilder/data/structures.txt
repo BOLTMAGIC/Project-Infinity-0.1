@@ -1,4 +1,6 @@
 ae2:meteorite
+aether_dragon:dragon_aether
+aether_dragon:dragon_overworld
 allthemodium:ancient_pyramid
 allthemodium:dungeon
 allthemodium:piglin_village
@@ -195,6 +197,8 @@ mythicbotany:elven_house
 nuclearcraft:wasteland_village
 outer_end:catacombs
 outer_end:end_tower
+thunderrelics:thunder_court
+twilight_forest_reviving_ancient_buildings:infernal_dragon_nest
 twilightforest:aurora_palace
 twilightforest:dark_tower
 twilightforest:final_castle
@@ -211,3 +215,5 @@ twilightforest:quest_grove
 twilightforest:small_hollow_hill
 twilightforest:troll_cave
 twilightforest:yeti_cave
+void_lords:ancient_city
+void_lords:cathedral

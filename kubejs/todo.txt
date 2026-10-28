@@ -26,6 +26,8 @@ This will break all old crazyAE2 multiblocks!
         - Twilight Forest Plus (all bosses got new skills, are tougher and harder to kill)
     - Mods changing structures:
         - Twilight Forest: Reviving Ancient Buildings (changes every arena! finally!)
+    -Mods fixing something:
+        - Night Config Fixes
 
 - MODS GETTING REMOVED in 0.0.53.0:
     - Born in Chaos
@@ -48,7 +50,12 @@ This will break all old crazyAE2 multiblocks!
 Recipe changes and fixes:
 - changed heat values again
 - changed restonia crystal block recipe in mechanical empowerer tier 2 (thx to )
+- added compressium dirt 1x - 9x the correct tags (thx to luminosity)
+- changed fake philosophers stone recipe
+- fixed crying obsidian and azure electrum ingot recipes (thx to iSithin)
+- changed recipe for soulstone and repair talisman from mazarine to crimson (easier)
+- removed lifedrain scepter
 - 
 
 Quests changes:
-- 
+- added a draconic evolution questline (thx to zeteeny22!!!)

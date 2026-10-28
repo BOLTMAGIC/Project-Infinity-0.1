@@ -11,6 +11,12 @@ LootJS.modifiers((event) => {
 
 LootJS.modifiers((event) => {
   event
+    .addLootTypeModifier(LootType.ENTITY, LootType.CHEST)
+    .removeLoot(['twilightforest:lifedrain_scepter']);
+});
+
+LootJS.modifiers((event) => {
+  event
     .addEntityLootModifier('allthemodium:piglich')
     .removeLoot([
       'allthemodium:allthemodium_helmet',

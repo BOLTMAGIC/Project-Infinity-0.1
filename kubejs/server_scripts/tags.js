@@ -366,4 +366,60 @@ ServerEvents.tags('block', (event) => {
     'avaritia:denser_neutron_collector',
     'avaritia:densest_neutron_collector',
   ]);
+
+  event.add('minecraft:mineable/shovel', [
+    'compressium:dirt_1',
+    'compressium:dirt_2',
+    'compressium:dirt_3',
+    'compressium:dirt_4',
+    'compressium:dirt_5',
+    'compressium:dirt_6',
+    'compressium:dirt_7',
+    'compressium:dirt_8',
+    'compressium:dirt_9',
+  ]);
+  event.add('cucumber:mineable/paxel', [
+    'compressium:dirt_1',
+    'compressium:dirt_2',
+    'compressium:dirt_3',
+    'compressium:dirt_4',
+    'compressium:dirt_5',
+    'compressium:dirt_6',
+    'compressium:dirt_7',
+    'compressium:dirt_8',
+    'compressium:dirt_9',
+  ]);
+  event.add('actuallyadditions:mineable/aio', [
+    'compressium:dirt_1',
+    'compressium:dirt_2',
+    'compressium:dirt_3',
+    'compressium:dirt_4',
+    'compressium:dirt_5',
+    'compressium:dirt_6',
+    'compressium:dirt_7',
+    'compressium:dirt_8',
+    'compressium:dirt_9',
+  ]);
+  event.add('forge:mineable/paxel', [
+    'compressium:dirt_1',
+    'compressium:dirt_2',
+    'compressium:dirt_3',
+    'compressium:dirt_4',
+    'compressium:dirt_5',
+    'compressium:dirt_6',
+    'compressium:dirt_7',
+    'compressium:dirt_8',
+    'compressium:dirt_9',
+  ]);
+  event.add('minecraft:mineable/mattock', [
+    'compressium:dirt_1',
+    'compressium:dirt_2',
+    'compressium:dirt_3',
+    'compressium:dirt_4',
+    'compressium:dirt_5',
+    'compressium:dirt_6',
+    'compressium:dirt_7',
+    'compressium:dirt_8',
+    'compressium:dirt_9',
+  ]);
 });

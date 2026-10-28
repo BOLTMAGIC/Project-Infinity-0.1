@@ -257,6 +257,20 @@ JEIEvents.hideItems((event) => {
     'thermal:basalz_spawn_egg',
     'thermal:blizz_spawn_egg',
     'thermal:blitz_spawn_egg',
+    'void_lords:ul_thaar_spawn_egg',
+    'void_lords:gormakh_spawn_egg',
+    'void_lords:nyx_arrath_spawn_egg',
+    'void_lords:acolyte_spawn_egg',
+    'void_lords:preacher_spawn_egg',
+    'void_lords:penitent_spawn_egg',
+    'void_lords:zealot_spawn_egg',
+    'void_lords:priest_spawn_egg',
+    'void_lords:void_warden_spawn_egg',
+    'void_lords:ancient_bulwark_spawn_egg',
+    'void_lords:ancient_golem_spawn_egg',
+    'void_lords:ancient_seeker_spawn_egg',
+    'void_lords:ancient_sentinel_spawn_egg',
+    'void_lords:mysterious_stranger_spawn_egg',
   ];
 
   event.hide(eggs);

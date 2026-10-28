@@ -1,0 +1,192 @@
+
+[minoshroom]
+	#启用米诺菇增强，关闭后保持暮色原版；开启时原版冲锋与震地被新技能取代
+	#Enable the Minoshroom rework; disable to keep vanilla. When enabled the vanilla charge and ground slam are replaced
+	enabled = true
+	#最大生命倍率
+	#Max health multiplier
+	#Range: 0.1 ~ 100.0
+	health_multiplier = 3.0
+	#攻击力倍率，所有技能伤害都以攻击力为基础（含钻石牛头人斧加成）
+	#Attack damage multiplier; every skill scales from attack damage (including the diamond minotaur axe)
+	#Range: 0.1 ~ 100.0
+	attack_multiplier = 1.2
+	#技能击退倍率，再乘以 1 - 击退抗性
+	#Skill knockback multiplier, also scaled by 1 - knockback resistance
+	#Range: 0.0 ~ 2.0
+	skill_knockback = 1.0
+	#两个技能之间的最短间隔（tick）
+	#Minimum ticks between two skills
+	#Range: 0 ~ 1200
+	skill_interval_ticks = 50
+	#冲锋撞墙后的眩晕时间（tick）
+	#Stun duration after ramming a wall, in ticks
+	#Range: 0 ~ 400
+	stun_ticks = 50
+	#眩晕期间额外承受的伤害比例
+	#Extra damage taken while stunned (ratio)
+	#Range: 0.0 ~ 5.0
+	stun_damage_bonus = 0.3
+
+	[minoshroom.phase]
+		#进入二阶段的血量比例，进入时强制释放迷宫震地
+		#Health ratio to enter phase two; forces Labyrinth Quake
+		#Range: 0.0 ~ 1.0
+		phase_two_health = 0.6
+		#进入三阶段的血量比例，进入时释放狂牛之怒
+		#Health ratio to enter phase three; triggers Bull Rage
+		#Range: 0.0 ~ 1.0
+		phase_three_health = 0.3
+		#三阶段技能冷却倍率
+		#Skill cooldown multiplier in phase three
+		#Range: 0.1 ~ 1.0
+		rage_cooldown_multiplier = 0.7
+		#三阶段移动速度加成（比例）
+		#Movement speed bonus in phase three (ratio)
+		#Range: 0.0 ~ 2.0
+		rage_speed_bonus = 0.15
+
+	#全阶段：蛮牛冲锋，刨地蓄力后沿预警线冲锋；撞墙会眩晕，举盾可挡下伤害但盾牌会被击破；三阶段连续冲锋两次
+	#All phases: Gore Rush, paws the ground then charges along a telegraphed line; ramming a wall stuns it, a shield blocks the damage but gets disabled; charges twice in phase three
+	[minoshroom.gore_rush]
+		#启用蛮牛冲锋
+		#Enable Gore Rush
+		enabled = true
+		#蛮牛冲锋冷却（tick）
+		#Gore Rush cooldown in ticks
+		#Range: 1 ~ 12000
+		cooldown_ticks = 70
+		#蛮牛冲锋伤害倍率，伤害 = 米诺菇攻击力 * 倍率
+		#Gore Rush damage multiplier; damage = Minoshroom attack damage * multiplier
+		#Range: 0.0 ~ 100.0
+		multiplier = 1.3
+		#冲锋蓄力时间（tick）
+		#Gore Rush windup in ticks
+		#Range: 5 ~ 100
+		windup_ticks = 18
+
+	#全阶段：裂地战斧，战斧劈地，地裂沿直线向前推进并掀飞地面目标
+	#All phases: Axe Fissure, an axe slam that sends a fissure racing forward along the ground
+	[minoshroom.axe_fissure]
+		#启用裂地战斧
+		#Enable Axe Fissure
+		enabled = true
+		#裂地战斧冷却（tick）
+		#Axe Fissure cooldown in ticks
+		#Range: 1 ~ 12000
+		cooldown_ticks = 80
+		#裂地战斧伤害倍率，伤害 = 米诺菇攻击力 * 倍率
+		#Axe Fissure damage multiplier; damage = Minoshroom attack damage * multiplier
+		#Range: 0.0 ~ 100.0
+		multiplier = 1.0
+
+	#全阶段：斧刃连斩，玩家贴身时先横扫再竖劈，竖劈落点会崩裂地面
+	#All phases: Axe Cleave, a close-range horizontal sweep followed by an overhead chop that cracks the ground
+	[minoshroom.axe_cleave]
+		#启用斧刃连斩
+		#Enable Axe Cleave
+		enabled = true
+		#斧刃连斩冷却（tick）
+		#Axe Cleave cooldown in ticks
+		#Range: 1 ~ 12000
+		cooldown_ticks = 45
+		#斧刃连斩伤害倍率，伤害 = 米诺菇攻击力 * 倍率
+		#Axe Cleave damage multiplier; damage = Minoshroom attack damage * multiplier
+		#Range: 0.0 ~ 100.0
+		multiplier = 0.9
+		#竖劈伤害倍率，伤害 = 米诺菇攻击力 * 倍率
+		#Overhead chop damage multiplier; damage = Minoshroom attack damage * multiplier
+		#Range: 0.0 ~ 100.0
+		chop_multiplier = 1.3
+
+	#全阶段：孢子爆发，在目标周围撒下孢子云，云中持续受伤并减速虚弱
+	#All phases: Spore Burst, spore clouds around the target that hurt, slow and weaken
+	[minoshroom.spore_burst]
+		#启用孢子爆发
+		#Enable Spore Burst
+		enabled = true
+		#孢子爆发冷却（tick）
+		#Spore Burst cooldown in ticks
+		#Range: 1 ~ 12000
+		cooldown_ticks = 120
+		#孢子爆发伤害倍率，伤害 = 米诺菇攻击力 * 倍率
+		#Spore Burst damage multiplier; damage = Minoshroom attack damage * multiplier
+		#Range: 0.0 ~ 100.0
+		multiplier = 0.25
+		#孢子云持续时间（tick）
+		#Spore cloud duration in ticks
+		#Range: 20 ~ 1200
+		cloud_ticks = 120
+
+	#二阶段：旋风斧，持斧旋转并缓慢逼近目标
+	#Phase 2: Whirlwind, spins with the axe while slowly closing in
+	[minoshroom.whirlwind]
+		#启用旋风斧
+		#Enable Whirlwind
+		enabled = true
+		#旋风斧冷却（tick）
+		#Whirlwind cooldown in ticks
+		#Range: 1 ~ 12000
+		cooldown_ticks = 130
+		#旋风斧伤害倍率，伤害 = 米诺菇攻击力 * 倍率
+		#Whirlwind damage multiplier; damage = Minoshroom attack damage * multiplier
+		#Range: 0.0 ~ 100.0
+		multiplier = 0.6
+
+	#二阶段：迷宫震地，重踏震伤地面目标，随后迷宫顶部落石
+	#Phase 2: Labyrinth Quake, a stomp that hurts grounded targets followed by falling rubble
+	[minoshroom.labyrinth_quake]
+		#启用迷宫震地
+		#Enable Labyrinth Quake
+		enabled = true
+		#迷宫震地冷却（tick）
+		#Labyrinth Quake cooldown in ticks
+		#Range: 1 ~ 12000
+		cooldown_ticks = 150
+		#迷宫震地伤害倍率，伤害 = 米诺菇攻击力 * 倍率
+		#Labyrinth Quake damage multiplier; damage = Minoshroom attack damage * multiplier
+		#Range: 0.0 ~ 100.0
+		multiplier = 1.2
+		#落石伤害倍率
+		#Falling rubble damage multiplier
+		#Range: 0.0 ~ 100.0
+		rubble_multiplier = 0.9
+		#落石数量
+		#Number of falling rubble
+		#Range: 0 ~ 30
+		rubble_count = 6
+
+	#二阶段：菌丝缠绕，菌丝法阵定身目标后立即接一次蛮牛冲锋
+	#Phase 2: Mycelium Snare, roots the target with mycelium then immediately follows with a Gore Rush
+	[minoshroom.mycelium_snare]
+		#启用菌丝缠绕
+		#Enable Mycelium Snare
+		enabled = true
+		#菌丝缠绕冷却（tick）
+		#Mycelium Snare cooldown in ticks
+		#Range: 1 ~ 12000
+		cooldown_ticks = 140
+		#菌丝缠绕伤害倍率，伤害 = 米诺菇攻击力 * 倍率
+		#Mycelium Snare damage multiplier; damage = Minoshroom attack damage * multiplier
+		#Range: 0.0 ~ 100.0
+		multiplier = 0.4
+		#定身时间（tick）
+		#Root duration in ticks
+		#Range: 5 ~ 200
+		root_ticks = 30
+
+	#三阶段：狂牛之怒，转阶段时怒吼重踏，释放两道可跳跃躲避的冲击环并撒下孢子云
+	#Phase 3: Bull Rage, a roaring stomp on entering phase three with two jumpable shockwave rings and spore clouds
+	[minoshroom.bull_rage]
+		#启用狂牛之怒
+		#Enable Bull Rage
+		enabled = true
+		#狂牛之怒冷却（tick）
+		#Bull Rage cooldown in ticks
+		#Range: 1 ~ 12000
+		cooldown_ticks = 1
+		#狂牛之怒伤害倍率，伤害 = 米诺菇攻击力 * 倍率
+		#Bull Rage damage multiplier; damage = Minoshroom attack damage * multiplier
+		#Range: 0.0 ~ 100.0
+		multiplier = 0.8
+

@@ -2,7 +2,7 @@
 #末影龙基础属性
 [dragon]
 	#是否需要用终焉水晶特殊召唤才会出现加强版末影龙；false 时所有末影龙都是加强版
-	requireSpecialSummon = true
+	requireSpecialSummon = false
 	#末影龙最大生命值
 	#Range: 1.0 ~ 1000000.0
 	maxHealth = 1000.0

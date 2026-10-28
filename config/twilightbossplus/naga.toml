@@ -1,0 +1,203 @@
+
+[naga]
+	#启用娜迦增强，关闭后保持暮色原版
+	#Enable the Naga rework; disable to keep vanilla Twilight Forest behavior
+	enabled = true
+	#最大生命倍率
+	#Max health multiplier
+	#Range: 0.1 ~ 100.0
+	health_multiplier = 2.0
+	#攻击力倍率，所有技能伤害都以攻击力为基础
+	#Attack damage multiplier; every skill scales from attack damage
+	#Range: 0.1 ~ 100.0
+	attack_multiplier = 1.2
+	#近战击退倍率（原版为 1.0），再乘以 1 - 击退抗性
+	#Melee knockback multiplier (vanilla 1.0), also scaled by 1 - knockback resistance
+	#Range: 0.0 ~ 1.0
+	melee_knockback = 0.45
+	#技能击退倍率，再乘以 1 - 击退抗性
+	#Skill knockback multiplier, also scaled by 1 - knockback resistance
+	#Range: 0.0 ~ 2.0
+	skill_knockback = 1.0
+	#两个技能之间的最短间隔（tick）
+	#Minimum ticks between two skills
+	#Range: 0 ~ 1200
+	skill_interval_ticks = 60
+
+	[naga.phase]
+		#进入二阶段的血量比例，进入时强制释放潜地伏击
+		#Health ratio to enter phase two; forces a Burrow Ambush
+		#Range: 0.0 ~ 1.0
+		phase_two_health = 0.6
+		#进入三阶段的血量比例，进入时释放狂怒嘶啸
+		#Health ratio to enter phase three; triggers Frenzied Hiss
+		#Range: 0.0 ~ 1.0
+		phase_three_health = 0.3
+		#三阶段技能冷却倍率
+		#Skill cooldown multiplier in phase three
+		#Range: 0.1 ~ 1.0
+		rage_cooldown_multiplier = 0.7
+		#三阶段移动速度加成（比例）
+		#Movement speed bonus in phase three (ratio)
+		#Range: 0.0 ~ 2.0
+		rage_speed_bonus = 0.2
+
+	#一阶段：蛇袭突进，盘身蓄力后沿预警线直线突进，被举盾挡下会陷入眩晕
+	#Phase 1: Serpent Lunge, a telegraphed straight dash; blocking it with a shield dazes the Naga
+	[naga.serpent_lunge]
+		#启用蛇袭突进
+		#Enable Serpent Lunge
+		enabled = true
+		#蛇袭突进冷却（tick）
+		#Serpent Lunge cooldown in ticks
+		#Range: 1 ~ 12000
+		cooldown_ticks = 70
+		#蛇袭突进伤害倍率，伤害 = 娜迦攻击力 * 倍率
+		#Serpent Lunge damage multiplier; damage = Naga attack damage * multiplier
+		#Range: 0.0 ~ 100.0
+		multiplier = 1.2
+		#蛇袭突进蓄力时间（tick）
+		#Serpent Lunge windup in ticks
+		#Range: 5 ~ 100
+		windup_ticks = 20
+
+	#一阶段：毒涎喷吐，抛射毒液团，落点留下毒池
+	#Phase 1: Venom Spit, lobbed venom globs that leave poison pools
+	[naga.venom_spit]
+		#启用毒涎喷吐
+		#Enable Venom Spit
+		enabled = true
+		#毒涎喷吐冷却（tick）
+		#Venom Spit cooldown in ticks
+		#Range: 1 ~ 12000
+		cooldown_ticks = 100
+		#毒涎喷吐伤害倍率，伤害 = 娜迦攻击力 * 倍率
+		#Venom Spit damage multiplier; damage = Naga attack damage * multiplier
+		#Range: 0.0 ~ 100.0
+		multiplier = 0.6
+		#毒池每 0.5 秒伤害倍率
+		#Poison pool damage multiplier per half second
+		#Range: 0.0 ~ 100.0
+		pool_multiplier = 0.15
+		#毒池持续时间（tick）
+		#Poison pool duration in ticks
+		#Range: 20 ~ 1200
+		pool_ticks = 120
+
+	#一阶段：尾鞭横扫，玩家贴近尾部时甩尾
+	#Phase 1: Tail Lash, swings the tail at players hugging the body
+	[naga.tail_lash]
+		#启用尾鞭横扫
+		#Enable Tail Lash
+		enabled = true
+		#尾鞭横扫冷却（tick）
+		#Tail Lash cooldown in ticks
+		#Range: 1 ~ 12000
+		cooldown_ticks = 50
+		#尾鞭横扫伤害倍率，伤害 = 娜迦攻击力 * 倍率
+		#Tail Lash damage multiplier; damage = Naga attack damage * multiplier
+		#Range: 0.0 ~ 100.0
+		multiplier = 0.9
+
+	#一阶段：毒牙连咬，玩家贴近蛇头时张口连续撕咬前方并施加中毒
+	#Phase 1: Fang Snap, snaps the jaws at players close to the head and poisons them
+	[naga.fang_snap]
+		#启用毒牙连咬
+		#Enable Fang Snap
+		enabled = true
+		#毒牙连咬冷却（tick）
+		#Fang Snap cooldown in ticks
+		#Range: 1 ~ 12000
+		cooldown_ticks = 45
+		#毒牙连咬伤害倍率，伤害 = 娜迦攻击力 * 倍率
+		#Fang Snap damage multiplier; damage = Naga attack damage * multiplier
+		#Range: 0.0 ~ 100.0
+		multiplier = 0.8
+		#毒牙连咬撕咬次数
+		#Number of bites in Fang Snap
+		#Range: 1 ~ 5
+		snaps = 2
+
+	#二阶段：震地猛击，跃起砸地并扩散三道可跳跃躲避的冲击环
+	#Phase 2: Quake Slam, leaps and slams, sending three jumpable shockwave rings
+	[naga.quake_slam]
+		#启用震地猛击
+		#Enable Quake Slam
+		enabled = true
+		#震地猛击冷却（tick）
+		#Quake Slam cooldown in ticks
+		#Range: 1 ~ 12000
+		cooldown_ticks = 130
+		#震地猛击伤害倍率，伤害 = 娜迦攻击力 * 倍率
+		#Quake Slam damage multiplier; damage = Naga attack damage * multiplier
+		#Range: 0.0 ~ 100.0
+		multiplier = 1.3
+		#冲击环伤害倍率
+		#Shockwave ring damage multiplier
+		#Range: 0.0 ~ 100.0
+		wave_multiplier = 0.7
+
+	#二阶段：潜地伏击，钻入地下追踪目标后破土而出
+	#Phase 2: Burrow Ambush, burrows, tracks the target underground and erupts
+	[naga.burrow_ambush]
+		#启用潜地伏击
+		#Enable Burrow Ambush
+		enabled = true
+		#潜地伏击冷却（tick）
+		#Burrow Ambush cooldown in ticks
+		#Range: 1 ~ 12000
+		cooldown_ticks = 160
+		#潜地伏击伤害倍率，伤害 = 娜迦攻击力 * 倍率
+		#Burrow Ambush damage multiplier; damage = Naga attack damage * multiplier
+		#Range: 0.0 ~ 100.0
+		multiplier = 1.5
+
+	#三阶段：狂怒嘶啸，转阶段时释放的冲击波
+	#Phase 3: Frenzied Hiss, the shockwave released when entering phase three
+	[naga.frenzied_hiss]
+		#启用狂怒嘶啸
+		#Enable Frenzied Hiss
+		enabled = true
+		#狂怒嘶啸冷却（tick）
+		#Frenzied Hiss cooldown in ticks
+		#Range: 1 ~ 12000
+		cooldown_ticks = 1
+		#狂怒嘶啸伤害倍率，伤害 = 娜迦攻击力 * 倍率
+		#Frenzied Hiss damage multiplier; damage = Naga attack damage * multiplier
+		#Range: 0.0 ~ 100.0
+		multiplier = 0.5
+
+	#三阶段：毒雾吐息，向前方扇形持续喷吐毒雾并缓慢转向
+	#Phase 3: Venom Breath, a sweeping cone of poison mist
+	[naga.venom_breath]
+		#启用毒雾吐息
+		#Enable Venom Breath
+		enabled = true
+		#毒雾吐息冷却（tick）
+		#Venom Breath cooldown in ticks
+		#Range: 1 ~ 12000
+		cooldown_ticks = 120
+		#毒雾吐息伤害倍率，伤害 = 娜迦攻击力 * 倍率
+		#Venom Breath damage multiplier; damage = Naga attack damage * multiplier
+		#Range: 0.0 ~ 100.0
+		multiplier = 0.3
+
+	#三阶段：连环蛇袭，连续多次蛇袭突进
+	#Phase 3: Serpent Chain, several Serpent Lunges in a row
+	[naga.serpent_chain]
+		#启用连环蛇袭
+		#Enable Serpent Chain
+		enabled = true
+		#连环蛇袭冷却（tick）
+		#Serpent Chain cooldown in ticks
+		#Range: 1 ~ 12000
+		cooldown_ticks = 140
+		#连环蛇袭伤害倍率，伤害 = 娜迦攻击力 * 倍率
+		#Serpent Chain damage multiplier; damage = Naga attack damage * multiplier
+		#Range: 0.0 ~ 100.0
+		multiplier = 1.0
+		#连环蛇袭突进次数
+		#Number of lunges in Serpent Chain
+		#Range: 2 ~ 6
+		lunges = 3
+

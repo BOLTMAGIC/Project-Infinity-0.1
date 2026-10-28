@@ -204,6 +204,8 @@
 	deferRadarUpdate = true
 	#Skip the radar entity lists while the minimap is hidden and no screen is open. The radar sorts every loaded entity into its categories each tick, and with the minimap turned off nothing reads the result. The world map still gets them while it is open. Client.
 	skipHiddenRadar = true
+	#Skip a minimap element renderer (waypoints in the world, and the like) for the rest of a client tick when it drew nothing on the first frame of that tick. With no waypoint in view it still set up its buffers and walked its lists every frame. A new waypoint shows up at most one tick later. Client.
+	skipEmptyElementRenderers = true
 
 #Xaero's + Waystones compatibility patches.
 [w2w2]
@@ -939,6 +941,8 @@
 [morehitboxes]
 	#Skip More Hitboxes' multipart pass over the result of every entity box query when the result holds no multipart. The pass allocates a hash set and re-tests the predicate for each hit, and almost every query returns none.
 	skipAbsentMultiPartFilter = true
+	#More Hitboxes walks every multipart mob in the world on every typed entity search and ran a slow list scan before the cheap box check. Check the box first, so the list scan only runs for parts that are actually inside the search.
+	boxFirstPartQuery = true
 
 #More Relics patches.
 [morerelics]
@@ -2313,4 +2317,21 @@
 [immersiveoptimization]
 	#Keep Immersive Optimization's block entity tick rates in a plain map per world instead of one shared concurrent map of boxed chunk positions. The mod asks for the rate of every ticking block entity every tick on both the client and the server, and each ask did two hash lookups, boxed the chunk position and walked a tree of colliding keys, because the boxed chunk positions of nearby chunks hash to the same few buckets. The rates and the tick pattern are the same; the client and the server each keep their own copy instead of sharing one.
 	fastBlockEntitySchedule = true
+
+#Ritchie's Projectile Library patches.
+[ritchiesprojectilelib]
+	#Skip the projectile chunk loader's tick on every world while no shell has asked for a chunk. It used to allocate a set and an array and mark its save file dirty on every world every tick, so each autosave rewrote an empty file per dimension.
+	skipIdleChunkTick = true
+
+#Wither Reincarnated patches.
+[witherreincarnated]
+	#Answer "is this mob possessed" from a remembered reference instead of looking the capability up again. The mod asks this on every team check, ally check, attack check and wander check of every mob. Mobs with nothing going on also skip the possession tick.
+	fastPossessionChecks = true
+	#While no Wither is loaded, skip the box search every mob runs to look for a Wither to flee from, and the client's scan of every entity for Wither music.
+	skipIdleWitherScans = true
+
+#Composite Material patches.
+[compositematerial]
+	#Every heal on any mob searched a 32 block box for every living thing, only to find players blocking with the dungeon shield. Look at the world's players instead. Mobs that heal every tick made this a real server cost.
+	healPlayersOnly = true
 

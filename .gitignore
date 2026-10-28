@@ -51,3 +51,4 @@ pregenerated_emc.json
 observable_announce
 config/ae2/common.json
 config/ae2/client.json
+config/collections_of_optimizations/warm-classes.txt

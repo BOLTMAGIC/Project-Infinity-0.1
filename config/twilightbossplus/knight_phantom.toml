@@ -1,0 +1,154 @@
+
+[knight_phantom]
+	#启用幻影骑士增强，关闭后保持暮色原版；开启时原版的冲锋与投掷武器被骑士团技能取代
+	#Enable the Knight Phantom rework; disable to keep vanilla. When enabled the vanilla charge and weapon throws are replaced by squad skills
+	enabled = true
+	#每名骑士的最大生命倍率
+	#Max health multiplier of each knight
+	#Range: 0.1 ~ 100.0
+	health_multiplier = 3.0
+	#基础攻击力，骑士原版攻击力只有 1，所有技能伤害以此为基础
+	#Base attack damage; vanilla knights only have 1 attack so every skill scales from this value
+	#Range: 0.0 ~ 1000.0
+	base_attack = 7.0
+	#攻击力倍率
+	#Attack damage multiplier
+	#Range: 0.1 ~ 100.0
+	attack_multiplier = 1.2
+	#技能击退倍率，再乘以 1 - 击退抗性，锁链拉拽同样受此影响
+	#Skill knockback multiplier, also scaled by 1 - knockback resistance; chain pulls use it too
+	#Range: 0.0 ~ 2.0
+	skill_knockback = 1.0
+	#两个技能之间的最短间隔（tick）
+	#Minimum ticks between two skills
+	#Range: 0 ~ 1200
+	skill_interval_ticks = 40
+
+	[knight_phantom.phase]
+		#骑士团总血量比例低于此值进入二阶段，进入时强制释放枪阵冲锋
+		#Squad health ratio to enter phase two; forces Lance Phalanx
+		#Range: 0.0 ~ 1.0
+		phase_two_health = 0.6
+		#骑士团总血量比例低于此值进入三阶段，进入时强制释放誓约圣剑
+		#Squad health ratio to enter phase three; forces Oathblade
+		#Range: 0.0 ~ 1.0
+		phase_three_health = 0.3
+		#三阶段或只剩最后一名骑士时的技能冷却倍率
+		#Skill cooldown multiplier in phase three or when only one knight remains
+		#Range: 0.1 ~ 1.0
+		rage_cooldown_multiplier = 0.7
+
+	#全阶段：回响连斩，持剑骑士现形贴身连斩三次，每一斩都会留下残影，在原地延迟重演一次
+	#All phases: Echo Slash, a sword knight manifests for three close slashes; each slash leaves an afterimage that replays it after a delay
+	[knight_phantom.echo_slash]
+		#启用回响连斩
+		#Enable Echo Slash
+		enabled = true
+		#回响连斩冷却（tick）
+		#Echo Slash cooldown in ticks
+		#Range: 1 ~ 12000
+		cooldown_ticks = 50
+		#回响连斩伤害倍率，伤害 = 骑士攻击力 * 倍率
+		#Echo Slash damage multiplier; damage = knight attack damage * multiplier
+		#Range: 0.0 ~ 100.0
+		multiplier = 1.0
+		#残影重演斩击的伤害倍率
+		#Damage multiplier of the replayed afterimage slash
+		#Range: 0.0 ~ 100.0
+		echo_multiplier = 0.8
+
+	#全阶段：回旋幽斧，持斧骑士凝聚巨大幽灵斧沿弧线掷出并飞回，去程与回程各判定一次；二阶段起双斧交叉
+	#All phases: Revenant Axe, an axe knight hurls a giant spectral axe along a curved path that returns; out and back hit separately, two crossing axes from phase two
+	[knight_phantom.revenant_axe]
+		#启用回旋幽斧
+		#Enable Revenant Axe
+		enabled = true
+		#回旋幽斧冷却（tick）
+		#Revenant Axe cooldown in ticks
+		#Range: 1 ~ 12000
+		cooldown_ticks = 70
+		#回旋幽斧伤害倍率，伤害 = 骑士攻击力 * 倍率
+		#Revenant Axe damage multiplier; damage = knight attack damage * multiplier
+		#Range: 0.0 ~ 100.0
+		multiplier = 1.2
+
+	#全阶段：锁魂钩镐，持镐骑士掷出锁链镐钩，命中后把目标拽向自己并重击；落空则顺着锁链飞向钩点砸地
+	#All phases: Chain Hook, a pick knight throws a chained hook that drags the target in for a heavy blow; on a miss it reels itself to the hook and slams the ground
+	[knight_phantom.chain_hook]
+		#启用锁魂钩镐
+		#Enable Chain Hook
+		enabled = true
+		#锁魂钩镐冷却（tick）
+		#Chain Hook cooldown in ticks
+		#Range: 1 ~ 12000
+		cooldown_ticks = 80
+		#锁魂钩镐伤害倍率，伤害 = 骑士攻击力 * 倍率
+		#Chain Hook damage multiplier; damage = knight attack damage * multiplier
+		#Range: 0.0 ~ 100.0
+		multiplier = 1.5
+		#落空后砸地的伤害倍率
+		#Damage multiplier of the ground slam after a miss
+		#Range: 0.0 ~ 100.0
+		slam_multiplier = 1.0
+
+	#全阶段：幽链绞阵，至少三名骑士围住目标，用锁链连成旋转收缩的多边形；锁链贴地，跳起可躲，打伤链上的骑士可以打断锁链
+	#All phases: Chain Noose, three or more knights surround the target with a rotating, shrinking polygon of chains; the chains are low and can be jumped, and hurting a knight breaks its chains
+	[knight_phantom.chain_noose]
+		#启用幽链绞阵
+		#Enable Chain Noose
+		enabled = true
+		#幽链绞阵冷却（tick）
+		#Chain Noose cooldown in ticks
+		#Range: 1 ~ 12000
+		cooldown_ticks = 180
+		#幽链绞阵伤害倍率，伤害 = 骑士攻击力 * 倍率
+		#Chain Noose damage multiplier; damage = knight attack damage * multiplier
+		#Range: 0.0 ~ 100.0
+		multiplier = 0.45
+		#绞阵收紧到底时中心爆发的伤害倍率
+		#Damage multiplier of the snap when the noose fully closes
+		#Range: 0.0 ~ 100.0
+		snap_multiplier = 1.2
+		#骑士在绞阵中受到的伤害达到其最大生命的该比例时，它两侧的锁链断裂
+		#A knight's chains break once it takes this fraction of its max health during the noose
+		#Range: 0.01 ~ 1.0
+		break_ratio = 0.15
+
+	#二阶段：枪阵冲锋，骑士团在一侧列成横排，地面标出冲锋路线并留出一条空档，随后整排持幽灵长枪冲过场地；三阶段会从垂直方向再冲一次
+	#Phase 2: Lance Phalanx, the squad lines up with one gap, telegraphs the lanes and charges across with spectral lances; a second perpendicular pass in phase three
+	[knight_phantom.lance_phalanx]
+		#启用枪阵冲锋
+		#Enable Lance Phalanx
+		enabled = true
+		#枪阵冲锋冷却（tick）
+		#Lance Phalanx cooldown in ticks
+		#Range: 1 ~ 12000
+		cooldown_ticks = 160
+		#枪阵冲锋伤害倍率，伤害 = 骑士攻击力 * 倍率
+		#Lance Phalanx damage multiplier; damage = knight attack damage * multiplier
+		#Range: 0.0 ~ 100.0
+		multiplier = 1.4
+
+	#三阶段：誓约圣剑，骑士团升空环绕目标，以光束在其头顶铸成巨剑，锁定后插落地面，并向四周射出幽灵飞剑
+	#Phase 3: Oathblade, the squad rises around the target and forges a giant sword above it with beams; it locks, plunges into the ground and fires spectral blades outward
+	[knight_phantom.oathblade]
+		#启用誓约圣剑
+		#Enable Oathblade
+		enabled = true
+		#誓约圣剑冷却（tick）
+		#Oathblade cooldown in ticks
+		#Range: 1 ~ 12000
+		cooldown_ticks = 300
+		#誓约圣剑伤害倍率，伤害 = 骑士攻击力 * 倍率
+		#Oathblade damage multiplier; damage = knight attack damage * multiplier
+		#Range: 0.0 ~ 100.0
+		multiplier = 2.2
+		#向外射出的幽灵飞剑伤害倍率
+		#Damage multiplier of the outward spectral blades
+		#Range: 0.0 ~ 100.0
+		blade_multiplier = 0.8
+		#幽灵飞剑数量
+		#Number of spectral blades
+		#Range: 0 ~ 24
+		blades = 8
+

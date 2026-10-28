@@ -359,7 +359,7 @@ ServerEvents.recipes((event) => {
     'kubejs:azure_silver_block',
   ]);
 
-  create3x3(event, 'kubejs:azure_electrum_ingot', [
+  create3x3(event, Item.of('kubejs:azure_electrum_ingot', 1), [
     'minecraft:gold_ingot',
     'minecraft:air',
     'minecraft:gold_ingot',
@@ -530,16 +530,5 @@ ServerEvents.recipes((event) => {
     event,
     'kubejs:blood_altar_tier_card_5_block',
     'bmaddon:blood_altar_tier_card_5'
-  );
-
-  shapeless(
-    event,
-    'projecte:philosophers_stone',
-    'kubejs:fake_philosophers_stone'
-  );
-  shapeless(
-    event,
-    'kubejs:fake_philosophers_stone',
-    'projecte:philosophers_stone'
   );
 });

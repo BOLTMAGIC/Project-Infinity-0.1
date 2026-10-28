@@ -741,7 +741,7 @@
 				item: "enderio:me_conduit"
 				type: "item"
 			}]
-			x: 1.0d
+			x: 0.5d
 			y: 6.5d
 		}
 		{
@@ -757,7 +757,7 @@
 				item: "enderio:dense_me_conduit"
 				type: "item"
 			}]
-			x: 2.0d
+			x: 1.5d
 			y: 6.5d
 		}
 		{
@@ -774,21 +774,6 @@
 			}]
 			x: 2.0d
 			y: 3.5d
-		}
-		{
-			id: "6551C9A6327EA956"
-			rewards: [{
-				id: "722ACA2B629DB422"
-				item: "kubejs:apotheotic_coin"
-				type: "item"
-			}]
-			tasks: [{
-				id: "61521429CCE1B3B8"
-				item: "enderio:refined_storage_conduit"
-				type: "item"
-			}]
-			x: 0.0d
-			y: 6.5d
 		}
 		{
 			id: "1E70A565B8C851DE"

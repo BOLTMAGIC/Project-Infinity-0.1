@@ -1,0 +1,182 @@
+
+[lich]
+	#启用巫妖增强，关闭后保持暮色原版
+	#Enable the Lich rework; disable to keep vanilla Twilight Forest behavior
+	enabled = true
+	#最大生命倍率
+	#Max health multiplier
+	#Range: 0.1 ~ 100.0
+	health_multiplier = 3.0
+	#攻击力倍率，所有技能伤害都以攻击力为基础（原版攻击力 3）
+	#Attack damage multiplier; every skill scales from attack damage (vanilla attack is 3)
+	#Range: 0.1 ~ 100.0
+	attack_multiplier = 1.7
+	#技能击退倍率，再乘以 1 - 击退抗性
+	#Skill knockback multiplier, also scaled by 1 - knockback resistance
+	#Range: 0.0 ~ 2.0
+	skill_knockback = 1.0
+	#两个技能之间的最短间隔（tick）
+	#Minimum ticks between two skills
+	#Range: 0 ~ 1200
+	skill_interval_ticks = 50
+
+	[lich.phase]
+		#巫妖的阶段沿用暮色原版：护盾期（影分身）→ 召唤期（亡灵仆从）→ 近战期（金剑）
+		#Lich phases follow vanilla Twilight Forest: shield (shadow clones) -> minions -> melee (golden sword)
+		#狂怒血量比例，首次低于该比例时释放暮色坍缩
+		#Health ratio for rage; Twilight Collapse is cast the first time health drops below it
+		#Range: 0.0 ~ 1.0
+		rage_health = 0.3
+		#狂怒后技能冷却倍率
+		#Skill cooldown multiplier after rage
+		#Range: 0.1 ~ 1.0
+		rage_cooldown_multiplier = 0.7
+
+	#护盾期：幻影交叉射线，本体与影分身同时锁定目标并齐射暮光射线
+	#Shield phase: Shadow Crossfire, the Lich and its shadow clones lock on and fire twilight beams together
+	[lich.shadow_crossfire]
+		#启用幻影交叉射线
+		#Enable Shadow Crossfire
+		enabled = true
+		#幻影交叉射线冷却（tick）
+		#Shadow Crossfire cooldown in ticks
+		#Range: 1 ~ 12000
+		cooldown_ticks = 80
+		#幻影交叉射线伤害倍率，伤害 = 巫妖攻击力 * 倍率
+		#Shadow Crossfire damage multiplier; damage = Lich attack damage * multiplier
+		#Range: 0.0 ~ 100.0
+		multiplier = 2.0
+		#射线锁定预警时间（tick）
+		#Beam lock-on warning in ticks
+		#Range: 8 ~ 100
+		windup_ticks = 22
+
+	#全阶段：暮光星阵，在目标脚下连续落下星光法阵，延迟后喷发光柱
+	#All phases: Twilight Constellation, sigils fall under the target and erupt into light pillars
+	[lich.twilight_constellation]
+		#启用暮光星阵
+		#Enable Twilight Constellation
+		enabled = true
+		#暮光星阵冷却（tick）
+		#Twilight Constellation cooldown in ticks
+		#Range: 1 ~ 12000
+		cooldown_ticks = 110
+		#暮光星阵伤害倍率，伤害 = 巫妖攻击力 * 倍率
+		#Twilight Constellation damage multiplier; damage = Lich attack damage * multiplier
+		#Range: 0.0 ~ 100.0
+		multiplier = 2.2
+		#星阵数量
+		#Number of sigils
+		#Range: 1 ~ 12
+		stars = 5
+
+	#护盾期：护盾反震，每次护盾被击碎时向四周释放冲击，最后一层碎裂时范围更大
+	#Shield phase: Shield Backlash, a shockwave each time a shield layer breaks; larger on the final layer
+	[lich.shield_backlash]
+		#启用护盾反震
+		#Enable Shield Backlash
+		enabled = true
+		#护盾反震冷却（tick）
+		#Shield Backlash cooldown in ticks
+		#Range: 1 ~ 12000
+		cooldown_ticks = 30
+		#护盾反震伤害倍率，伤害 = 巫妖攻击力 * 倍率
+		#Shield Backlash damage multiplier; damage = Lich attack damage * multiplier
+		#Range: 0.0 ~ 100.0
+		multiplier = 1.2
+
+	#召唤期：尸爆，标记一只亡灵仆从，引信结束后将其引爆
+	#Minion phase: Corpse Detonation, marks a minion and detonates it after a fuse
+	[lich.corpse_detonation]
+		#启用尸爆
+		#Enable Corpse Detonation
+		enabled = true
+		#尸爆冷却（tick）
+		#Corpse Detonation cooldown in ticks
+		#Range: 1 ~ 12000
+		cooldown_ticks = 100
+		#尸爆伤害倍率，伤害 = 巫妖攻击力 * 倍率
+		#Corpse Detonation damage multiplier; damage = Lich attack damage * multiplier
+		#Range: 0.0 ~ 100.0
+		multiplier = 3.0
+		#尸爆引信时间（tick）
+		#Corpse Detonation fuse in ticks
+		#Range: 10 ~ 200
+		fuse_ticks = 40
+
+	#召唤期起：生命汲取，持续吸取目标生命治疗自身，阻断视线即可打断
+	#Minion phase onward: Life Drain, channels a beam that heals the Lich; breaking line of sight interrupts it
+	[lich.life_drain]
+		#启用生命汲取
+		#Enable Life Drain
+		enabled = true
+		#生命汲取冷却（tick）
+		#Life Drain cooldown in ticks
+		#Range: 1 ~ 12000
+		cooldown_ticks = 130
+		#生命汲取伤害倍率，伤害 = 巫妖攻击力 * 倍率
+		#Life Drain damage multiplier; damage = Lich attack damage * multiplier
+		#Range: 0.0 ~ 100.0
+		multiplier = 0.8
+		#实际造成伤害转化为治疗的比例
+		#Ratio of dealt damage converted into healing
+		#Range: 0.0 ~ 10.0
+		heal_ratio = 1.0
+
+	#召唤期起：冥狱囚笼，在目标处升起灵魂牢笼，触碰牢笼边缘会受伤并被弹回
+	#Minion phase onward: Soul Prison, a soul cage around the target; touching its edge hurts and bounces you back
+	[lich.soul_prison]
+		#启用冥狱囚笼
+		#Enable Soul Prison
+		enabled = true
+		#冥狱囚笼冷却（tick）
+		#Soul Prison cooldown in ticks
+		#Range: 1 ~ 12000
+		cooldown_ticks = 160
+		#冥狱囚笼伤害倍率，伤害 = 巫妖攻击力 * 倍率
+		#Soul Prison damage multiplier; damage = Lich attack damage * multiplier
+		#Range: 0.0 ~ 100.0
+		multiplier = 1.0
+		#牢笼持续时间（tick）
+		#Cage duration in ticks
+		#Range: 20 ~ 600
+		duration_ticks = 80
+
+	#近战期：暗影闪袭，闪现到目标身后挥出横斩，可连续多次
+	#Melee phase: Shadow Blink, teleports behind the target and slashes, several times in a row
+	[lich.shadow_blink]
+		#启用暗影闪袭
+		#Enable Shadow Blink
+		enabled = true
+		#暗影闪袭冷却（tick）
+		#Shadow Blink cooldown in ticks
+		#Range: 1 ~ 12000
+		cooldown_ticks = 70
+		#暗影闪袭伤害倍率，伤害 = 巫妖攻击力 * 倍率
+		#Shadow Blink damage multiplier; damage = Lich attack damage * multiplier
+		#Range: 0.0 ~ 100.0
+		multiplier = 2.5
+		#闪袭次数，狂怒后额外 +1
+		#Number of blinks; +1 after rage
+		#Range: 1 ~ 6
+		blinks = 2
+
+	#狂怒：暮色坍缩，升空并把周围目标吸向中心，随后引爆并扩散可跳跃躲避的冲击环
+	#Rage: Twilight Collapse, rises and pulls targets in, then detonates and sends a jumpable shockwave ring
+	[lich.twilight_collapse]
+		#启用暮色坍缩
+		#Enable Twilight Collapse
+		enabled = true
+		#暮色坍缩冷却（tick）
+		#Twilight Collapse cooldown in ticks
+		#Range: 1 ~ 12000
+		cooldown_ticks = 1
+		#暮色坍缩伤害倍率，伤害 = 巫妖攻击力 * 倍率
+		#Twilight Collapse damage multiplier; damage = Lich attack damage * multiplier
+		#Range: 0.0 ~ 100.0
+		multiplier = 4.0
+		#冲击环伤害倍率
+		#Shockwave ring damage multiplier
+		#Range: 0.0 ~ 100.0
+		wave_multiplier = 1.2
+

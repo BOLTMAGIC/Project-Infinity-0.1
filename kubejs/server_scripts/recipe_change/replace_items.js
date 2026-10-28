@@ -48,12 +48,12 @@ ServerEvents.recipes((event) => {
   event.replaceInput(
     { output: 'cyclic:soulstone' },
     'thermal:netherite_nugget',
-    'botanicalextramachinery:mazarine_dragonstone'
+    'botanicalextramachinery:crimson_dragonstone'
   );
   event.replaceInput(
     { output: 'projecte:repair_talisman' },
     '#bookshelf:strings',
-    'botanicalextramachinery:mazarine_dragonstone'
+    'botanicalextramachinery:crimson_dragonstone'
   );
   event.replaceInput(
     { output: 'voidminers:ultimate_frame' },

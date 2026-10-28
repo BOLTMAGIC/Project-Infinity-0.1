@@ -1,0 +1,165 @@
+
+[hydra]
+	#启用九头蛇增强，关闭后保持暮色原版；开启时原版的咬击、喷火与迫击炮被新技能取代
+	#Enable the Hydra rework; disable to keep vanilla. When enabled the vanilla bite, flame and mortar attacks are replaced
+	enabled = true
+	#最大生命倍率
+	#Max health multiplier
+	#Range: 0.1 ~ 100.0
+	health_multiplier = 3.0
+	#基础攻击力，九头蛇本身没有攻击力属性，所有技能伤害以此为基础
+	#Base attack damage; the Hydra has no attack attribute so every skill scales from this value
+	#Range: 0.0 ~ 1000.0
+	base_attack = 10.0
+	#攻击力倍率
+	#Attack damage multiplier
+	#Range: 0.1 ~ 100.0
+	attack_multiplier = 1.2
+	#技能击退倍率，再乘以 1 - 击退抗性
+	#Skill knockback multiplier, also scaled by 1 - knockback resistance
+	#Range: 0.0 ~ 2.0
+	skill_knockback = 1.0
+	#两个技能之间的最短间隔（tick）
+	#Minimum ticks between two skills
+	#Range: 0 ~ 1200
+	skill_interval_ticks = 30
+
+	[hydra.phase]
+		#进入二阶段的血量比例，进入时强制释放九首炎冠
+		#Health ratio to enter phase two; forces Inferno Crown
+		#Range: 0.0 ~ 1.0
+		phase_two_health = 0.6
+		#进入三阶段的血量比例，进入时释放再生咆哮
+		#Health ratio to enter phase three; triggers Regrowth Roar
+		#Range: 0.0 ~ 1.0
+		phase_three_health = 0.3
+		#三阶段技能冷却倍率
+		#Skill cooldown multiplier in phase three
+		#Range: 0.1 ~ 1.0
+		rage_cooldown_multiplier = 0.7
+
+	#全阶段：熔核连射，数个头张口抛射熔岩弹，落点有预警，落地留下熔岩池；张口期间头部受到完整伤害
+	#All phases: Magma Volley, several heads lob telegraphed magma shells that leave lava pools; open mouths take full damage
+	[hydra.magma_volley]
+		#启用熔核连射
+		#Enable Magma Volley
+		enabled = true
+		#熔核连射冷却（tick）
+		#Magma Volley cooldown in ticks
+		#Range: 1 ~ 12000
+		cooldown_ticks = 60
+		#熔核连射伤害倍率，伤害 = 九头蛇攻击力 * 倍率
+		#Magma Volley damage multiplier; damage = Hydra attack damage * multiplier
+		#Range: 0.0 ~ 100.0
+		multiplier = 1.1
+		#每个头发射的熔岩弹数量
+		#Shells fired by each head
+		#Range: 1 ~ 10
+		shells_per_head = 3
+		#熔岩池每次灼烧的伤害倍率
+		#Lava pool damage multiplier per pulse
+		#Range: 0.0 ~ 100.0
+		pool_multiplier = 0.2
+		#熔岩池持续时间（tick）
+		#Lava pool duration in ticks
+		#Range: 0 ~ 1200
+		pool_ticks = 80
+
+	#全阶段：炎河横扫，前方的头喷出火焰柱扫过扇形区域，地面先出现扇形预警
+	#All phases: Flame Sweep, a front head sweeps a fire beam across a telegraphed fan
+	[hydra.flame_sweep]
+		#启用炎河横扫
+		#Enable Flame Sweep
+		enabled = true
+		#炎河横扫冷却（tick）
+		#Flame Sweep cooldown in ticks
+		#Range: 1 ~ 12000
+		cooldown_ticks = 80
+		#炎河横扫伤害倍率，伤害 = 九头蛇攻击力 * 倍率
+		#Flame Sweep damage multiplier; damage = Hydra attack damage * multiplier
+		#Range: 0.0 ~ 100.0
+		multiplier = 0.45
+
+	#全阶段：獠牙突咬，近身时前方的头锁定落点后猛咬，会击破举起的盾牌
+	#All phases: Jaw Strike, a close-range bite on a locked spot that breaks raised shields
+	[hydra.jaw_strike]
+		#启用獠牙突咬
+		#Enable Jaw Strike
+		enabled = true
+		#獠牙突咬冷却（tick）
+		#Jaw Strike cooldown in ticks
+		#Range: 1 ~ 12000
+		cooldown_ticks = 40
+		#獠牙突咬伤害倍率，伤害 = 九头蛇攻击力 * 倍率
+		#Jaw Strike damage multiplier; damage = Hydra attack damage * multiplier
+		#Range: 0.0 ~ 100.0
+		multiplier = 2.0
+
+	#全阶段：熔岩践踏，群首咆哮后重踏地面，身边受到冲击并扩散出可跳跃躲避的火焰冲击环
+	#All phases: Magma Stomp, a roaring stomp that hurts nearby targets and sends out a jumpable ring of fire
+	[hydra.magma_stomp]
+		#启用熔岩践踏
+		#Enable Magma Stomp
+		enabled = true
+		#熔岩践踏冷却（tick）
+		#Magma Stomp cooldown in ticks
+		#Range: 1 ~ 12000
+		cooldown_ticks = 100
+		#熔岩践踏伤害倍率，伤害 = 九头蛇攻击力 * 倍率
+		#Magma Stomp damage multiplier; damage = Hydra attack damage * multiplier
+		#Range: 0.0 ~ 100.0
+		multiplier = 1.0
+		#火焰冲击环伤害倍率
+		#Fire ring damage multiplier
+		#Range: 0.0 ~ 100.0
+		wave_multiplier = 0.8
+
+	#二阶段：九首炎冠，所有头朝外喷火并绕身体旋转扫过地面，贴近本体可以躲开
+	#Phase 2: Inferno Crown, every head breathes fire outward while the beams rotate across the ground; hugging the body is safe
+	[hydra.inferno_crown]
+		#启用九首炎冠
+		#Enable Inferno Crown
+		enabled = true
+		#九首炎冠冷却（tick）
+		#Inferno Crown cooldown in ticks
+		#Range: 1 ~ 12000
+		cooldown_ticks = 200
+		#九首炎冠伤害倍率，伤害 = 九头蛇攻击力 * 倍率
+		#Inferno Crown damage multiplier; damage = Hydra attack damage * multiplier
+		#Range: 0.0 ~ 100.0
+		multiplier = 0.35
+
+	#二阶段：余烬火雨，后方的头仰天喷吐，熔岩弹在目标周围大范围落下
+	#Phase 2: Ember Rain, rear heads spew upward and magma shells rain down around the target
+	[hydra.ember_rain]
+		#启用余烬火雨
+		#Enable Ember Rain
+		enabled = true
+		#余烬火雨冷却（tick）
+		#Ember Rain cooldown in ticks
+		#Range: 1 ~ 12000
+		cooldown_ticks = 150
+		#余烬火雨伤害倍率，伤害 = 九头蛇攻击力 * 倍率
+		#Ember Rain damage multiplier; damage = Hydra attack damage * multiplier
+		#Range: 0.0 ~ 100.0
+		multiplier = 0.9
+		#火雨熔岩弹数量
+		#Number of shells in Ember Rain
+		#Range: 1 ~ 60
+		shells = 14
+
+	#三阶段：再生咆哮，转阶段时断掉的头全部重生，群首咆哮并扩散两道火焰冲击环
+	#Phase 3: Regrowth Roar, severed heads regrow on entering phase three and two rings of fire spread out
+	[hydra.regrowth_roar]
+		#启用再生咆哮
+		#Enable Regrowth Roar
+		enabled = true
+		#再生咆哮冷却（tick）
+		#Regrowth Roar cooldown in ticks
+		#Range: 1 ~ 12000
+		cooldown_ticks = 1
+		#再生咆哮伤害倍率，伤害 = 九头蛇攻击力 * 倍率
+		#Regrowth Roar damage multiplier; damage = Hydra attack damage * multiplier
+		#Range: 0.0 ~ 100.0
+		multiplier = 0.8
+

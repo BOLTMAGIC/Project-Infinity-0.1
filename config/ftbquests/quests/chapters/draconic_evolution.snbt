@@ -1,0 +1,1696 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "draconic_evolution"
+	group: "5255C8D5C49409ED"
+	id: "29C5AB5D4E58060D"
+	order_index: 9
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["The foundation of your journey to godhood. Smelted from Draconium Dust, this metal is highly conductive and capable of holding massive amounts of energy. You will need thousands of these, so start mining."]
+			id: "6108516C1DCC0791"
+			rewards: [
+				{
+					count: 3
+					id: "1A01EE4F1DFBEF12"
+					item: "draconicevolution:draconium_ingot"
+					type: "item"
+				}
+				{
+					id: "10707231957BDE10"
+					type: "xp"
+					xp: 5
+				}
+			]
+			size: 2.5d
+			tasks: [{
+				id: "62C73A0E292D49A0"
+				item: "draconicevolution:draconium_ingot"
+				type: "item"
+			}]
+			x: -16.25d
+			y: -7.5d
+		}
+		{
+			dependencies: ["6108516C1DCC0791"]
+			dependency_requirement: "one_completed"
+			description: ["The baseline processing unit for Draconic technology. Crafted by infusing Draconium with gold and redstone, this core is required to build your first machines and basic power transfer systems."]
+			hide_dependency_lines: false
+			id: "153621F4EDB2B28A"
+			rewards: [{
+				count: 3
+				id: "0FFB514B7D4D1AB2"
+				item: "draconicevolution:draconium_ingot"
+				type: "item"
+			}]
+			size: 1.5d
+			tasks: [{
+				id: "4851520C3EA6B56E"
+				item: "draconicevolution:draconium_core"
+				type: "item"
+			}]
+			x: -13.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["153621F4EDB2B28A"]
+			description: ["Conventional crafting has reached its limits. Use this core to fuse materials together with raw energy and create things that should not be possible."]
+			id: "1E22CBAE8B9A42F1"
+			rewards: [{
+				count: 2
+				id: "3E82C8596A8D2851"
+				item: "draconicevolution:draconium_core"
+				type: "item"
+			}]
+			size: 1.5d
+			tasks: [{
+				id: "6E57DAEEDCD6C1F9"
+				item: "draconicevolution:crafting_core"
+				type: "item"
+			}]
+			x: -9.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["542A4800E4E6A937"]
+			description: ["The basic injectors can no longer supply enough power for what you are attempting. Upgrade your setup and unlock more demanding fusion recipes."]
+			id: "7BCC894DA5269252"
+			rewards: [
+				{
+					count: 3
+					id: "7B96AF3D4E236EC4"
+					item: "draconicevolution:draconium_ingot"
+					type: "item"
+				}
+				{
+					id: "03AB85A311D338D0"
+					type: "xp"
+					xp: 10
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				id: "64E8DEB78E45EC3E"
+				item: "draconicevolution:wyvern_crafting_injector"
+				type: "item"
+			}]
+			x: -5.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["1E22CBAE8B9A42F1"]
+			description: ["Fusion requires more than a core. These injectors provide the ingredients and energy needed to perform the first level of advanced crafting. "]
+			id: "542A4800E4E6A937"
+			rewards: [
+				{
+					count: 3
+					id: "2BF8E424A6BBC6A2"
+					item: "draconicevolution:draconium_ingot"
+					type: "item"
+				}
+				{
+					id: "114E2089BD57B1EC"
+					type: "xp"
+					xp: 10
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				count: 6L
+				id: "7A55ACD0E130F66D"
+				item: { Count: 6, id: "draconicevolution:basic_crafting_injector" }
+				type: "item"
+			}]
+			x: -7.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["7BCC894DA5269252"]
+			description: ["The energy requirements are climbing rapidly. These injectors allow your Fusion Crafting setup to handle the next generation of Draconic creations."]
+			id: "3AE7FE6B1A238DF8"
+			rewards: [
+				{
+					count: 3
+					id: "35191D4A974F2119"
+					item: "draconicevolution:awakened_draconium_ingot"
+					type: "item"
+				}
+				{
+					id: "6D7CDEFB6D75C3B5"
+					type: "xp"
+					xp: 10
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				id: "67E50A06EEA9A705"
+				item: "draconicevolution:awakened_crafting_injector"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["7BCC894DA5269252"]
+			description: ["A massive leap over standard Diamond or Netherite. Wyvern gear is powered by Forge Energy (FE) and boasts modular upgradeability. As long as it has power, it will vastly outperform vanilla equipment."]
+			id: "11AED7801592BBCF"
+			rewards: [{
+				id: "4689B88770AAACF9"
+				type: "xp"
+				xp: 15
+			}]
+			tasks: [{
+				id: "7FB1963D3D42219E"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: {
+							energy: {
+								energy: 0
+							}
+							module_host: {
+								modules: [ ]
+								properties: { }
+								provider_id: [I;
+									1487501393
+									-1302837428
+									-1334622806
+									2018695644
+								]
+							}
+						}
+					}
+					id: "draconicevolution:wyvern_sword"
+				}
+				type: "item"
+			}]
+			x: -5.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["7BCC894DA5269252"]
+			id: "33975F25725855BF"
+			rewards: [{
+				id: "7F920193C7DE0DFB"
+				type: "xp"
+				xp: 15
+			}]
+			tasks: [{
+				id: "517810397C2C9B97"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: {
+							energy: {
+								energy: 0
+							}
+							module_host: {
+								modules: [ ]
+								properties: {
+									mining_speed: {
+										hud: 1b
+										value: 1.0d
+									}
+								}
+								provider_id: [I;
+									662321982
+									-1168617633
+									-1474392295
+									-683371572
+								]
+							}
+						}
+					}
+					id: "draconicevolution:wyvern_pickaxe"
+				}
+				type: "item"
+			}]
+			x: -5.0d
+			y: -10.0d
+		}
+		{
+			dependencies: ["7BCC894DA5269252"]
+			id: "22B7DBDB45CFE080"
+			rewards: [{
+				id: "4EEC19830C26FD59"
+				type: "xp"
+				xp: 15
+			}]
+			tasks: [{
+				id: "1ED862028F5EC08E"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: {
+							energy: {
+								energy: 0
+							}
+							module_host: {
+								modules: [ ]
+								properties: {
+									mining_speed: {
+										hud: 1b
+										value: 1.0d
+									}
+								}
+								provider_id: [I;
+									2028588195
+									-767998426
+									-1718128702
+									1588768227
+								]
+							}
+						}
+					}
+					id: "draconicevolution:wyvern_axe"
+				}
+				type: "item"
+			}]
+			x: -6.0d
+			y: -10.0d
+		}
+		{
+			dependencies: ["7BCC894DA5269252"]
+			id: "15F76E3BCD8A5071"
+			rewards: [{
+				id: "0972BB3FC7F50705"
+				type: "xp"
+				xp: 15
+			}]
+			tasks: [{
+				id: "5B8999625E409EA0"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: {
+							energy: {
+								energy: 0
+							}
+							module_host: {
+								modules: [ ]
+								properties: {
+									mining_speed: {
+										hud: 1b
+										value: 1.0d
+									}
+								}
+								provider_id: [I;
+									-1455786741
+									414664197
+									-1403895280
+									725376956
+								]
+							}
+						}
+					}
+					id: "draconicevolution:wyvern_shovel"
+				}
+				type: "item"
+			}]
+			x: -4.0d
+			y: -10.0d
+		}
+		{
+			dependencies: ["7BCC894DA5269252"]
+			id: "1FB84A9DA7A9C653"
+			rewards: [{
+				id: "6B515FE7CF309B3C"
+				type: "xp"
+				xp: 15
+			}]
+			tasks: [{
+				id: "0097E6333288EA05"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: {
+							energy: {
+								energy: 0
+							}
+							module_host: {
+								modules: [ ]
+								properties: { }
+								provider_id: [I;
+									1903043653
+									-618380331
+									-1550480345
+									212958
+								]
+							}
+						}
+					}
+					id: "draconicevolution:wyvern_hoe"
+				}
+				type: "item"
+			}]
+			x: -6.0d
+			y: -11.0d
+		}
+		{
+			dependencies: ["7BCC894DA5269252"]
+			id: "61D293ADC1971A33"
+			rewards: [{
+				id: "2AF3C3DCBDC3A6E3"
+				type: "xp"
+				xp: 30
+			}]
+			tasks: [{
+				id: "26DBBF25797BC098"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: {
+							energy: {
+								energy: 0
+							}
+							module_host: {
+								modules: [ ]
+								properties: { }
+								provider_id: [I;
+									-132432136
+									-757120377
+									-1942069797
+									-606252899
+								]
+							}
+						}
+					}
+					id: "draconicevolution:wyvern_chestpiece"
+				}
+				type: "item"
+			}]
+			x: -5.0d
+			y: -11.0d
+		}
+		{
+			dependencies: ["7BCC894DA5269252"]
+			id: "2AE3B57CD501B8EF"
+			rewards: [{
+				count: 3
+				id: "70C20D21DED8424F"
+				item: "draconicevolution:awakened_draconium_ingot"
+				type: "item"
+			}]
+			tasks: [{
+				id: "20BFA76CC35851AC"
+				item: "draconicevolution:awakened_draconium_block"
+				type: "item"
+			}]
+			x: -5.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["7BCC894DA5269252"]
+			description: ["A portable battery that passively charges FE-powered items in your inventory or hotbar. Shift-right-click to configure its charging modes. It is essential for keeping your early-tier Draconic gear operational while away from your base."]
+			id: "32E8B169937AF6C3"
+			rewards: [{
+				id: "3401EAB9B8BD6823"
+				type: "xp"
+				xp: 25
+			}]
+			tasks: [{
+				id: "672B1AB30C7E2FED"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: {
+							energy: {
+								energy: 0
+							}
+							module_host: {
+								modules: [ ]
+								properties: {
+									charge_armor: {
+										hud: 1b
+									}
+									charge_curios: {
+										hud: 1b
+									}
+									charge_held_item: {
+										hud: 1b
+									}
+									charge_hot_bar: {
+										hud: 1b
+									}
+									charge_main: {
+										hud: 1b
+									}
+								}
+								provider_id: [I;
+									-1293360130
+									-1552268389
+									-1111360215
+									1080212848
+								]
+							}
+						}
+					}
+					id: "draconicevolution:wyvern_capacitor"
+				}
+				type: "item"
+			}]
+			x: -5.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["7BCC894DA5269252"]
+			description: ["The advanced processing unit required for Draconic-tier technology. Forged using Awakened Draconium, this core handles the massive energy flow necessary to craft and operate high-tier armor, weapons, and complex multiblock components."]
+			id: "042E8EC183C11489"
+			rewards: [{
+				id: "59ADA90A5A7B0384"
+				type: "xp"
+				xp: 25
+			}]
+			tasks: [{
+				id: "070F67651E75D8DB"
+				item: "draconicevolution:awakened_core"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["7BCC894DA5269252"]
+			description: ["Say goodbye to messy cables. These crystals allow you to beam millions of FE across your base instantly."]
+			id: "49359AC1456F9444"
+			rewards: [{
+				id: "239F0EF8DA0F5805"
+				type: "xp"
+				xp: 25
+			}]
+			tasks: [{
+				id: "794B56ACA68FF580"
+				item: "draconicevolution:wyvern_relay_crystal"
+				type: "item"
+			}]
+			x: -6.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["3AE7FE6B1A238DF8"]
+			description: ["The armor of gods. Draconic gear provides an energy-based shield that grants near-invulnerability, provided your power reserves hold out. The tools offer immense area-of-effect mining capabilities."]
+			id: "6DB823F66A78E474"
+			rewards: [{
+				id: "79BE7A32D3021E72"
+				type: "xp"
+				xp: 25
+			}]
+			tasks: [{
+				id: "4790E862C4D3A761"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: {
+							energy: {
+								energy: 0
+							}
+							module_host: {
+								modules: [ ]
+								properties: { }
+								provider_id: [I;
+									-324380907
+									888096556
+									-2127797356
+									-1984132111
+								]
+							}
+						}
+					}
+					id: "draconicevolution:draconic_sword"
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: -9.0d
+		}
+		{
+			dependencies: ["7BCC894DA5269252"]
+			id: "5FD6FC46747910CB"
+			rewards: [{
+				id: "3239744F63D60952"
+				type: "xp"
+				xp: 15
+			}]
+			tasks: [{
+				id: "0FEF49F1F0597420"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: {
+							energy: {
+								energy: 0
+							}
+							module_host: {
+								modules: [ ]
+								properties: { }
+								provider_id: [I;
+									-349108416
+									-1181595244
+									-2087173978
+									604710747
+								]
+							}
+						}
+					}
+					id: "draconicevolution:wyvern_bow"
+				}
+				type: "item"
+			}]
+			x: -4.0d
+			y: -11.0d
+		}
+		{
+			dependencies: ["3AE7FE6B1A238DF8"]
+			id: "148C5C8FE2C0D1EA"
+			rewards: [{
+				id: "65B0F139AE94B252"
+				type: "xp"
+				xp: 25
+			}]
+			tasks: [{
+				id: "44BAA7A57CA85223"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: {
+							energy: {
+								energy: 0
+							}
+							module_host: {
+								modules: [ ]
+								properties: {
+									mining_speed: {
+										hud: 1b
+										value: 1.0d
+									}
+								}
+								provider_id: [I;
+									1232760223
+									1898398709
+									-1186216024
+									1567533961
+								]
+							}
+						}
+					}
+					id: "draconicevolution:draconic_pickaxe"
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: -10.0d
+		}
+		{
+			dependencies: ["3AE7FE6B1A238DF8"]
+			id: "2DDD74F684D058EB"
+			rewards: [{
+				id: "11CD628CD04A6F41"
+				type: "xp"
+				xp: 25
+			}]
+			tasks: [{
+				id: "2E771763E5C208D9"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: {
+							energy: {
+								energy: 0
+							}
+							module_host: {
+								modules: [ ]
+								properties: { }
+								provider_id: [I;
+									-1600954757
+									-1855173033
+									-2110547437
+									1548092940
+								]
+							}
+						}
+					}
+					id: "draconicevolution:draconic_hoe"
+				}
+				type: "item"
+			}]
+			x: -2.5d
+			y: -11.0d
+		}
+		{
+			dependencies: ["3AE7FE6B1A238DF8"]
+			id: "3EFCE755147B0520"
+			rewards: [{
+				id: "155C71E39721C23E"
+				type: "xp"
+				xp: 25
+			}]
+			tasks: [{
+				id: "216653A71777E256"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: {
+							energy: {
+								energy: 0
+							}
+							module_host: {
+								modules: [ ]
+								properties: {
+									mining_speed: {
+										hud: 1b
+										value: 1.0d
+									}
+								}
+								provider_id: [I;
+									1027330381
+									-1902689816
+									-2146462987
+									-450673042
+								]
+							}
+						}
+					}
+					id: "draconicevolution:draconic_axe"
+				}
+				type: "item"
+			}]
+			x: -2.5d
+			y: -10.0d
+		}
+		{
+			dependencies: ["3AE7FE6B1A238DF8"]
+			id: "1BD239A2093856B6"
+			rewards: [{
+				id: "1FBC1C29CF8BB5E2"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "59E8317DD0FDE03F"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: {
+							energy: {
+								energy: 0
+							}
+							module_host: {
+								modules: [ ]
+								properties: { }
+								provider_id: [I;
+									-2060828130
+									1780696528
+									-1875895929
+									-458920533
+								]
+							}
+						}
+					}
+					id: "draconicevolution:draconic_chestpiece"
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: -11.0d
+		}
+		{
+			dependencies: ["3AE7FE6B1A238DF8"]
+			id: "0DED93E4F00C4759"
+			rewards: [{
+				id: "1741E662331658F7"
+				type: "xp"
+				xp: 25
+			}]
+			tasks: [{
+				id: "4785985290F5D01B"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: {
+							energy: {
+								energy: 0
+							}
+							module_host: {
+								modules: [ ]
+								properties: { }
+								provider_id: [I;
+									-639230374
+									-1011332204
+									-2016093634
+									-777073565
+								]
+							}
+						}
+					}
+					id: "draconicevolution:draconic_bow"
+				}
+				type: "item"
+			}]
+			x: -0.5d
+			y: -11.0d
+		}
+		{
+			dependencies: ["3AE7FE6B1A238DF8"]
+			id: "6C0C03CD27FDF4F0"
+			rewards: [{
+				id: "2433B4D3E112EABC"
+				type: "xp"
+				xp: 25
+			}]
+			tasks: [{
+				id: "4E83F7EC85AC1012"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: {
+							energy: {
+								energy: 0
+							}
+							module_host: {
+								modules: [ ]
+								properties: {
+									mining_speed: {
+										hud: 1b
+										value: 1.0d
+									}
+								}
+								provider_id: [I;
+									-971703515
+									2065386019
+									-1617471684
+									2096135726
+								]
+							}
+						}
+					}
+					id: "draconicevolution:draconic_shovel"
+				}
+				type: "item"
+			}]
+			x: -0.5d
+			y: -10.0d
+		}
+		{
+			dependencies: ["3AE7FE6B1A238DF8"]
+			description: ["The absolute pinnacle of Draconic crafting components. Infused with the highly unstable power of Chaos Shards harvested from the Chaos Guardian, this core is strictly required to build end-game Chaotic machinery and equipment."]
+			id: "5B1393A4C5B646AE"
+			rewards: [
+				{
+					count: 3
+					id: "20E4A368138461EF"
+					item: "draconicevolution:awakened_draconium_ingot"
+					type: "item"
+				}
+				{
+					id: "38F5E2F625323A73"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [{
+				id: "49FE9646D8A164DC"
+				item: "draconicevolution:chaotic_core"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["3AE7FE6B1A238DF8"]
+			description: ["Say goodbye to messy cables. These crystals allow you to beam millions of FE across your base instantly."]
+			id: "26E206C0706BD820"
+			rewards: [{
+				id: "0BAFAA31D0F3C4F4"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "41CE1CF5837801D6"
+				item: "draconicevolution:draconic_relay_crystal"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["3AE7FE6B1A238DF8"]
+			description: ["A massive upgrade to your personal power storage. This capacitor holds vastly more FE than the Wyvern variant, ensuring your energy-hungry Draconic-tier shields and tools do not run dry during extended combat or mining sessions."]
+			id: "0A4086EF08C0A05C"
+			rewards: [{
+				id: "61F122FDFA817236"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "4F3175C1F106DE0D"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: {
+							energy: {
+								energy: 0
+							}
+							module_host: {
+								modules: [ ]
+								properties: {
+									charge_armor: {
+										hud: 1b
+									}
+									charge_curios: {
+										hud: 1b
+									}
+									charge_held_item: {
+										hud: 1b
+									}
+									charge_hot_bar: {
+										hud: 1b
+									}
+									charge_main: {
+										hud: 1b
+									}
+								}
+								provider_id: [I;
+									1558974973
+									-1063892850
+									-1290472270
+									-678367041
+								]
+							}
+						}
+					}
+					id: "draconicevolution:draconic_capacitor"
+				}
+				type: "item"
+			}]
+			x: -0.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["3AE7FE6B1A238DF8"]
+			description: ["You have reached the final tier of Fusion Crafting. At this level, the amount of energy involved is almost absurd."]
+			id: "55F66076BD2DD956"
+			rewards: [
+				{
+					id: "7DE1FA52FDA61024"
+					item: "draconicevolution:large_chaos_frag"
+					type: "item"
+				}
+				{
+					id: "03C67777DE9F8338"
+					type: "xp"
+					xp: 150
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				id: "74811DB6F521F8BB"
+				item: "draconicevolution:chaotic_crafting_injector"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["3AE7FE6B1A238DF8"]
+			id: "6839980BA57C544E"
+			rewards: [{
+				id: "40F1972C8ADD1534"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "4C106EFDE7D301AF"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: {
+							energy: {
+								energy: 0
+							}
+							module_host: {
+								modules: [ ]
+								properties: {
+									mining_speed: {
+										hud: 1b
+										value: 1.0d
+									}
+								}
+								provider_id: [I;
+									2140306099
+									-1685828693
+									-1559295892
+									-1562702662
+								]
+							}
+						}
+					}
+					id: "draconicevolution:draconic_staff"
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: -12.0d
+		}
+		{
+			dependencies: ["55F66076BD2DD956"]
+			description: ["The ultimate end-game equipment. Forged with Chaos Shards, this gear makes you effectively immortal and deals catastrophic damage. Managing its monstrous energy consumption is your only real challenge."]
+			id: "36E9C80ED3095E83"
+			rewards: [{
+				id: "2FC5ED63628D62FD"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "2101B404F72466EF"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: {
+							energy: {
+								energy: 0
+							}
+							module_host: {
+								modules: [ ]
+								properties: { }
+								provider_id: [I;
+									-1897340663
+									974800377
+									-2085379750
+									-1588165521
+								]
+							}
+						}
+					}
+					id: "draconicevolution:chaotic_sword"
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["55F66076BD2DD956"]
+			id: "5EB8EFE6B142EE8C"
+			rewards: [{
+				id: "5F4C3CA06D998238"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "73B9AAE84DB4E189"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: {
+							energy: {
+								energy: 0
+							}
+							module_host: {
+								modules: [ ]
+								properties: {
+									mining_speed: {
+										hud: 1b
+										value: 1.0d
+									}
+								}
+								provider_id: [I;
+									1109423118
+									154223598
+									-1669769454
+									-204047212
+								]
+							}
+						}
+					}
+					id: "draconicevolution:chaotic_pickaxe"
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: -10.0d
+		}
+		{
+			dependencies: ["55F66076BD2DD956"]
+			id: "4A10F2806C42AF5E"
+			rewards: [{
+				id: "0773EA5354819843"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "3CBD54F6CD389F3B"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: {
+							energy: {
+								energy: 0
+							}
+							module_host: {
+								modules: [ ]
+								properties: {
+									mining_speed: {
+										hud: 1b
+										value: 1.0d
+									}
+								}
+								provider_id: [I;
+									-1798394849
+									-1287893668
+									-1970597452
+									1422467539
+								]
+							}
+						}
+					}
+					id: "draconicevolution:chaotic_axe"
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: -10.0d
+		}
+		{
+			dependencies: ["55F66076BD2DD956"]
+			id: "010A9286D0C3B464"
+			rewards: [{
+				id: "30800D8A34E66421"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "6C970F4399A78008"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: {
+							energy: {
+								energy: 0
+							}
+							module_host: {
+								modules: [ ]
+								properties: { }
+								provider_id: [I;
+									-89921553
+									-365933080
+									-1937834324
+									695405774
+								]
+							}
+						}
+					}
+					id: "draconicevolution:chaotic_hoe"
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: -11.0d
+		}
+		{
+			dependencies: ["55F66076BD2DD956"]
+			id: "22BAA1E4D6E87C89"
+			rewards: [{
+				id: "25BE22BBB76BE971"
+				type: "xp"
+				xp: 150
+			}]
+			tasks: [{
+				id: "35106CCFA82E38C9"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: {
+							energy: {
+								energy: 0
+							}
+							module_host: {
+								modules: [ ]
+								properties: { }
+								provider_id: [I;
+									-1637229563
+									1534279734
+									-1429708745
+									-1120331926
+								]
+							}
+						}
+					}
+					id: "draconicevolution:chaotic_chestpiece"
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: -11.0d
+		}
+		{
+			dependencies: ["55F66076BD2DD956"]
+			id: "7754890CC827DD08"
+			rewards: [{
+				id: "7EFF8DFE23929EFB"
+				type: "xp"
+				xp: 150
+			}]
+			tasks: [{
+				id: "2EC4069ADCCB8257"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: {
+							energy: {
+								energy: 0
+							}
+							module_host: {
+								modules: [ ]
+								properties: {
+									mining_speed: {
+										hud: 1b
+										value: 1.0d
+									}
+								}
+								provider_id: [I;
+									1533639461
+									919683806
+									-1308695728
+									392530608
+								]
+							}
+						}
+					}
+					id: "draconicevolution:chaotic_staff"
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: -12.0d
+		}
+		{
+			dependencies: ["55F66076BD2DD956"]
+			id: "0F15ED9179D4E655"
+			rewards: [{
+				id: "274297248801DDF6"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "2A537BF6FEB599D4"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: {
+							energy: {
+								energy: 0
+							}
+							module_host: {
+								modules: [ ]
+								properties: { }
+								provider_id: [I;
+									-2054264955
+									1865959167
+									-1653628766
+									2123276117
+								]
+							}
+						}
+					}
+					id: "draconicevolution:chaotic_hoe"
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: -10.0d
+		}
+		{
+			dependencies: ["55F66076BD2DD956"]
+			id: "0FD0BC413717DB88"
+			rewards: [{
+				id: "364FA04A0F2254FE"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "74A0CDE8D9FE1D15"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: {
+							energy: {
+								energy: 0
+							}
+							module_host: {
+								modules: [ ]
+								properties: { }
+								provider_id: [I;
+									1570802060
+									-383825678
+									-1368975548
+									360352333
+								]
+							}
+						}
+					}
+					id: "draconicevolution:chaotic_bow"
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: -11.0d
+		}
+		{
+			dependencies: ["55F66076BD2DD956"]
+			description: ["The ultimate portable energy reserve. Storing an astronomical amount of power, this capacitor is virtually mandatory for sustaining the immense, continuous energy drain of end-game Chaotic-tier armor and weapons."]
+			id: "482F9F83572BDE34"
+			rewards: [{
+				id: "31B9A9DD5F1663F4"
+				type: "xp"
+				xp: 200
+			}]
+			tasks: [{
+				id: "7A0C40D1E34A1C45"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: {
+							energy: {
+								energy: 0
+							}
+							module_host: {
+								modules: [ ]
+								properties: {
+									charge_armor: {
+										hud: 1b
+									}
+									charge_curios: {
+										hud: 1b
+									}
+									charge_held_item: {
+										hud: 1b
+									}
+									charge_hot_bar: {
+										hud: 1b
+									}
+									charge_main: {
+										hud: 1b
+									}
+								}
+								provider_id: [I;
+									1409464708
+									838486010
+									-2039238924
+									-305129999
+								]
+							}
+						}
+					}
+					id: "draconicevolution:chaotic_capacitor"
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["55F66076BD2DD956"]
+			description: ["Your primary tool for managing wireless energy networks. Use it to link Energy Relays and Transceivers to your machines, generators, and storage blocks. Shift-right-click to change its binding modes."]
+			id: "4ABAAE90495B31CA"
+			rewards: [{
+				id: "52E969AFBD450845"
+				type: "xp"
+				xp: 100
+			}]
+			size: 1.5d
+			tasks: [{
+				id: "425C0B5C22698435"
+				item: "draconicevolution:crystal_binder"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["4ABAAE90495B31CA"]
+			description: ["The entry point for wireless energy transfer. Attach these directly to your machines, generators, or energy storage blocks to insert or extract Forge Energy (FE) from your Draconic crystal network. Link them together using the Crystal Binder."]
+			id: "7D30B636245E910B"
+			rewards: [{
+				id: "507CDD12553C210F"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "6AC5C36DA890EA4F"
+				item: "draconicevolution:basic_io_crystal"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -8.5d
+		}
+		{
+			dependencies: ["4ABAAE90495B31CA"]
+			description: ["Say goodbye to messy cables. These crystals allow you to beam millions of FE across your base instantly."]
+			id: "444DF598C3278F6B"
+			rewards: [{
+				id: "03F1110C6068EA08"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "0B459FA59234038C"
+				item: "draconicevolution:energy_transfuser"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -6.5d
+		}
+		{
+			description: ["Once you have beaten the ender dragon, you can go on your journey to find the Chaos Guardian. It can be found every 10000th block."]
+			id: "562790AC54FCC85A"
+			rewards: [{
+				id: "4B7C0802954844AC"
+				type: "xp"
+				xp: 1
+			}]
+			size: 1.75d
+			tasks: [{
+				dimension: "minecraft:the_end"
+				id: "63277E99446B0EC6"
+				type: "dimension"
+			}]
+			x: -11.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["562790AC54FCC85A"]
+			icon: "minecraft:end_crystal"
+			id: "6239359A3F52851C"
+			rewards: [{
+				id: "343E70838B78D933"
+				type: "xp"
+				xp: 25
+			}]
+			size: 1.75d
+			tasks: [{
+				id: "736C625FF37930E7"
+				title: "Find The Chaos Guardian"
+				type: "checkmark"
+			}]
+			x: -9.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["6239359A3F52851C"]
+			description: ["Congratulation. You have beaten one of the most powerful bosses in the entire game"]
+			icon: {
+				Count: 1
+				id: "hostilenetworks:data_model"
+				tag: {
+					data_model: {
+						id: "hostilenetworks:draconicevolution/draconic_guardian"
+					}
+				}
+			}
+			id: "27742192512DF2D4"
+			rewards: [
+				{
+					id: "787D4191501E67B9"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "56260F7752D67514"
+					item: "kubejs:ascended_coin"
+					type: "item"
+				}
+			]
+			size: 1.75d
+			tasks: [{
+				entity: "draconicevolution:draconic_guardian"
+				id: "02C161EF6A797D78"
+				type: "kill"
+				value: 1L
+			}]
+			x: -7.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["27742192512DF2D4"]
+			description: ["With the Chaos Shards, you can make end game items from this mod, and later on, it will be required for the ME Creative Cell as well."]
+			id: "7980F1699C36C6AF"
+			rewards: [{
+				id: "6C4AB51F64701320"
+				type: "xp"
+				xp: 100
+			}]
+			size: 1.75d
+			tasks: [{
+				id: "3DE739A5C0ABE698"
+				item: "draconicevolution:chaos_shard"
+				type: "item"
+			}]
+			x: -5.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["6108516C1DCC0791"]
+			hide_dependency_lines: true
+			id: "5ABBC7A3C683E260"
+			rewards: [{
+				count: 3
+				id: "046CC810C4E1168C"
+				item: "draconicevolution:draconium_ingot"
+				type: "item"
+			}]
+			size: 2.0d
+			tasks: [{
+				id: "21F9DDC75A2812C0"
+				item: "draconicevolution:reactor_injector"
+				type: "item"
+			}]
+			x: 12.0d
+			y: -11.0d
+		}
+		{
+			dependencies: ["6108516C1DCC0791"]
+			hide_dependency_lines: true
+			id: "7B5B789F6EB35823"
+			rewards: [
+				{
+					count: 3
+					id: "4E6BAB1A7364E238"
+					item: "draconicevolution:draconium_ingot"
+					type: "item"
+				}
+				{
+					id: "233133A64F7ACAB4"
+					type: "xp"
+					xp: 150
+				}
+			]
+			size: 2.0d
+			tasks: [{
+				id: "4D26F38A200361AD"
+				item: "draconicevolution:reactor_stabilizer"
+				type: "item"
+			}]
+			x: 15.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["6108516C1DCC0791"]
+			hide_dependency_lines: true
+			id: "72BEFC194B40A61C"
+			rewards: [
+				{
+					count: 3
+					id: "3090044A0A909319"
+					item: "draconicevolution:draconium_ingot"
+					type: "item"
+				}
+				{
+					id: "3E270B2E3B045D88"
+					type: "xp"
+					xp: 150
+				}
+			]
+			size: 2.0d
+			tasks: [{
+				id: "072D18FBD8F38FE6"
+				item: "draconicevolution:reactor_prt_focus_ring"
+				type: "item"
+			}]
+			x: 12.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["6108516C1DCC0791"]
+			hide_dependency_lines: true
+			id: "00EFB617FB81AA5B"
+			rewards: [
+				{
+					count: 3
+					id: "15D2DE2BAE5478ED"
+					item: "draconicevolution:draconium_ingot"
+					type: "item"
+				}
+				{
+					id: "6F3658A52055286C"
+					type: "xp"
+					xp: 150
+				}
+			]
+			size: 2.0d
+			tasks: [{
+				id: "6442F2E5636B731B"
+				item: "draconicevolution:reactor_prt_stab_frame"
+				type: "item"
+			}]
+			x: 9.0d
+			y: -8.0d
+		}
+		{
+			dependencies: [
+				"7B5B789F6EB35823"
+				"72BEFC194B40A61C"
+				"00EFB617FB81AA5B"
+				"5ABBC7A3C683E260"
+			]
+			description: ["The ultimate power source, and the ultimate bomb. The reactor generates mind-boggling amounts of energy but requires meticulous balancing of fuel, containment fields, and temperature. Warning: If you let the containment field drop to zero, the resulting explosion will obliterate your base and everything around it."]
+			id: "63FBD7103476B628"
+			rewards: [
+				{
+					count: 5
+					id: "57B3D5793A73195E"
+					item: "draconicevolution:small_chaos_frag"
+					type: "item"
+				}
+				{
+					id: "758B1D2C6E60DF25"
+					type: "xp"
+					xp: 500
+				}
+			]
+			size: 3.0d
+			tasks: [{
+				id: "1BFA1B5A53A612D8"
+				item: "draconicevolution:reactor_core"
+				type: "item"
+			}]
+			x: 12.0d
+			y: -8.0d
+		}
+		{
+			dependencies: [
+				"4EA04B67CF7776B5"
+				"33EF9B9431CDB72E"
+				"69F0BCC334454328"
+			]
+			description: ["A multi-block structure capable of storing unimaginable amounts of power. You will need to construct the core and surround it with stabilizers. Upgrade its tier to increase its capacity into the trillions."]
+			id: "6EB0B4666703605B"
+			rewards: [{
+				id: "47089B45FA8D49D5"
+				type: "xp"
+				xp: 250
+			}]
+			size: 1.5d
+			tasks: [{
+				id: "4E1B2DC4DBB9DB59"
+				item: "draconicevolution:energy_core_stabilizer"
+				type: "item"
+			}]
+			x: 7.0d
+			y: -14.5d
+		}
+		{
+			description: ["Storing a few million units of energy is no longer impressive. Construct an Energy Core and begin building a power reserve worthy of Draconic technology."]
+			id: "4EA04B67CF7776B5"
+			rewards: [{
+				id: "7215B899B9DC7936"
+				type: "xp"
+				xp: 150
+			}]
+			tasks: [{
+				id: "150B242CA5E8DD8A"
+				item: "draconicevolution:energy_core"
+				type: "item"
+			}]
+			x: 8.5d
+			y: -14.5d
+		}
+		{
+			description: ["Connecting an Energy Core to the outside world requires precision. These pylons provide the bridge between your storage system and your machines."]
+			id: "33EF9B9431CDB72E"
+			rewards: [{
+				id: "4CA9BED4A135ACB6"
+				type: "xp"
+				xp: 150
+			}]
+			tasks: [{
+				id: "37655C6BE5F02294"
+				item: "draconicevolution:energy_pylon"
+				type: "item"
+			}]
+			x: 7.0d
+			y: -16.0d
+		}
+		{
+			description: ["Say goodbye to messy cables. These crystals allow you to beam millions of FE across your base instantly."]
+			id: "69F0BCC334454328"
+			rewards: [{
+				id: "1BE1ABDC50ACAA6C"
+				type: "xp"
+				xp: 150
+			}]
+			tasks: [{
+				id: "73378B75F5E74BD4"
+				item: "draconicevolution:energy_transfuser"
+				type: "item"
+			}]
+			x: 5.5d
+			y: -14.5d
+		}
+		{
+			dependencies: ["153621F4EDB2B28A"]
+			description: ["A significant step up in processing power. Infused with Nether Stars, the Wyvern Core handles the immense energy throughput required to break into mid-tier Draconic Evolution technology."]
+			id: "12673AD748A45608"
+			rewards: [
+				{
+					count: 3
+					id: "0CA415E68605C8F1"
+					item: "draconicevolution:draconium_ingot"
+					type: "item"
+				}
+				{
+					id: "477EBE9A8BC4FCEC"
+					type: "xp"
+					xp: 15
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				id: "1A19E090EB2D3FEB"
+				item: "draconicevolution:wyvern_core"
+				type: "item"
+			}]
+			x: -11.25d
+			y: -7.5d
+		}
+		{
+			id: "2DECAA076C75E4CC"
+			optional: true
+			rewards: [{
+				id: "1A4CBCB0797CEFCE"
+				item: "botania:terrasteel_nugget"
+				type: "item"
+			}]
+			secret: true
+			subtitle: "{ftbquests.chapter.solarflux_reborn.quest36.subtitle}"
+			tasks: [{
+				id: "677A4E0F1CC53E11"
+				title: "Quest added by zeteeny22."
+				type: "checkmark"
+			}]
+			x: -14.5d
+			y: -6.5d
+		}
+	]
+	title: "Draconic Evolution"
+}

@@ -1,7 +1,7 @@
 
 #凋零基础属性
 [wither]
-	#是否增强所有凋零；false 时恢复原版凋零
+	#是否启用凋零增强；false 时恢复原版凋零
 	enhanceAll = true
 	#凋零最大生命值
 	#Range: 1.0 ~ 1000000.0
@@ -35,6 +35,8 @@
 	witherAmplifier = 1
 	#输出技能调试日志
 	debugLogging = false
+	#是否要求使用特殊凋零骷髅头召唤才启用增强；默认关闭
+	requireSpecialSkull = false
 
 #技能配置
 [skills]

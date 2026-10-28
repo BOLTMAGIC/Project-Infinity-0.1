@@ -459,7 +459,8 @@ MMEvents.createProcesses((event) => {
         type: 'mm:item',
         item: 'kubejs:fluid_tank_token',
         count: 1,
-        nbt_snbt: '{fluid_id:"justdirethings:time_fluid",tank_level:"absolute"}',
+        nbt_snbt:
+          '{fluid_id:"justdirethings:time_fluid",tank_level:"absolute"}',
         nbt_match: 'weak',
       },
     })
@@ -476,6 +477,36 @@ MMEvents.createProcesses((event) => {
         type: 'mm:item',
         item: 'justdirethings:time_crystal',
         count: 65536,
+      },
+    });
+
+  //fake_philosophers_stone
+  event
+    .create('mm:infinity_crucible_recipe7')
+    .structureId('mm:infinity_crucible_structure')
+    .ticks(20)
+    .input({
+      type: 'mm:input/consume',
+      chance: 0.0,
+      ingredient: {
+        type: 'mm:item',
+        item: 'projecte:philosophers_stone',
+        count: 1,
+      },
+    })
+    .input({
+      type: 'mm:input/consume',
+      ingredient: {
+        type: 'mm:energy',
+        amount: 15000000,
+      },
+    })
+    .output({
+      type: 'mm:output/simple',
+      ingredient: {
+        type: 'mm:item',
+        item: 'kubejs:fake_philosophers_stone',
+        count: 64,
       },
     });
 });

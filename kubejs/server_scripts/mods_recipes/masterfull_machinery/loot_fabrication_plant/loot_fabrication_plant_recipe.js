@@ -283,7 +283,6 @@
       { item: 'twilightforest:lich_trophy', outCount: 4 },
       { item: 'minecraft:ender_pearl', outCount: 24 },
       { item: 'minecraft:bone', outCount: 32 },
-      { item: 'twilightforest:lifedrain_scepter', outCount: 1 },
       { item: 'twilightforest:fortification_scepter', outCount: 1 },
       { item: 'twilightforest:zombie_scepter', outCount: 1 },
       { item: 'twilightforest:twilight_scepter', outCount: 1 },

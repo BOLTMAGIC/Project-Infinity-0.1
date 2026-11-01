@@ -137,7 +137,7 @@
   "item.kubejs.filled_zombie_soul_vial": "Filled Zombie Soul Vial Dummy Item",
   "item.kubejs.filled_villager_soul_vial": "Filled Villager Soul Vial Dummy Item",
 
-    "item.kubejs.ultimate_vanilla_prediction": "§dUltimate Vanilla Prediction",
+  "item.kubejs.ultimate_vanilla_prediction": "§dUltimate Vanilla Prediction",
   "item.kubejs.ultimate_boss_prediction": "§dUltimate Boss Prediction",
   "item.kubejs.ultimate_misc_prediction": "§dUltimate Misc Prediction",
   "item.kubejs.wither_token": "§7Wither Token",
@@ -583,5 +583,13 @@
   "tooltip.kubejs.fake_transmutation_tablet.warning_2": "This item will be consumed by it's recipes.",
   "tooltip.kubejs.fake_transmutation_tablet.warning_3": "You should learn this item and duplicate it.",
 
-  "tooltip.kubejs.botanicalextramachinery_catalyst_speed": "I can only be used in Advanced/Ultimate Industrial Agglomeration Factory."
+  "tooltip.kubejs.botanicalextramachinery_catalyst_speed": "I can only be used in Advanced/Ultimate Industrial Agglomeration Factory.",
+
+  "item.armorplus.en_chainmail": "Enhanced: Chainmail",
+  "item.armorplus.en_gold": "Enhanced: Golden Ingot",
+  "item.armorplus.en_iron": "Enhanced: Iron Ingot",
+  "item.armorplus.en_diamond": "Enhanced: Diamond",
+  "item.armorplus.en_netherite": "Enhanced: Netherite Ingot",
+
+  "item.ifeu.creative_chance_addon": "Creative Addon: Chance"
 }

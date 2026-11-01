@@ -175,6 +175,15 @@ const removeRecipebyOutput = [
   'extendedae_plus:super_assembler_matrix_frame',
   'extendedae_plus:ultimate_super_assembler_matrix_builder',
   'extendedae_plus:xbai',
+  'cyclic:generator_fuel',
+  'cyclic:generator_food',
+  'cyclic:generator_fluid',
+  'cyclic:generator_item',
+  'cyclic:generator_solar',
+  'cyclic:peat_fuel_enriched',
+  'cyclic:peat_fuel',
+  '',
+  '',
   '',
   '',
   '',
@@ -666,6 +675,8 @@ const removeRecipebyType = [
   'packagedauto:package_recipe',
   'packagedauto:packaging',
   'mekanism:bin_insert',
+  'cyclic:generator_fluid',
+  'cyclic:generator_item'
 ];
 
 //Function to remove the items above

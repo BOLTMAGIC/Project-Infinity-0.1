@@ -59,6 +59,7 @@ Recipe changes and fixes:
 - Sequence Array Controller and Omni-Computation Core requires Infinity 4 (thx to DidaS)
 - added most reaction chamber crafts to the Matter Fabrication Well Controller (thx to KYO297)
 - removed Assembler Matrix blocks recipes from the Matter Fabrication Well
+- removed Cyclic generators recipes
 
 Quests changes:
 - added a draconic evolution questline (thx to zeteeny22!!!)

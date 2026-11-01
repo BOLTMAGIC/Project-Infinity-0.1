@@ -146,16 +146,6 @@ ServerEvents.recipes((event) => {
     'allthemodium:unobtainium_gear'
   );
   event.replaceInput(
-    { output: 'molecularmanipulator:molecular_center_controller' },
-    'minecraft:netherite_block',
-    'kubejs:infinity_4'
-  );
-  event.replaceInput(
-    { output: 'molecularmanipulator:omni_computation_controller' },
-    'advanced_ae:quantum_processor',
-    'kubejs:infinity_4'
-  );
-  event.replaceInput(
     { output: 'megacells:bulk_item_cell' },
     'megacells:bulk_cell_component',
     'megacells:cell_component_1m'

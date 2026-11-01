@@ -56,6 +56,7 @@ Recipe changes and fixes:
 - changed recipe for soulstone and repair talisman from mazarine to crimson (easier)
 - removed lifedrain scepter
 - remove recipes for the Super Assembler Matrix blocks (it's buggy and shouldn't be used)
+- Sequence Array Controller and Omni-Computation Core requires Infinity 4 (thx to DidaS)
 
 Quests changes:
 - added a draconic evolution questline (thx to zeteeny22!!!)

@@ -1,0 +1,50 @@
+{
+  "type": "molecularmanipulator:matter_fabrication",
+  "ingredients": [
+    {
+      "ingredient": {
+        "item": "advanced_ae:quantum_core"
+      },
+      "count": 4
+    },
+    {
+      "ingredient": {
+        "item": "advanced_ae:data_entangler"
+      },
+      "count": 1
+    },
+    {
+      "ingredient": {
+        "item": "advanced_ae:quantum_processor"
+      },
+      "count": 2
+    },
+    {
+      "ingredient": {
+        "item": "advanced_ae:quantum_crafter"
+      },
+      "count": 1
+    },
+    {
+      "ingredient": {
+        "item": "kubejs:infinity_4"
+      },
+      "count": 1
+    }
+  ],
+  "results": [
+    {
+      "id": "molecularmanipulator:omni_computation_controller",
+      "count": 1
+    }
+  ],
+  "processing_time": 400,
+  "ae_per_tick": 1024,
+  "requires_research": true,
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "advanced_ae"
+    }
+  ]
+}

@@ -20,17 +20,17 @@
 	[advanced_infuser.types]
 		#Allow curses (e.g. curse of vanishing) to be applied using the enchanting infuser.
 		#This option takes precedence over option for treasure enchantments (as curses are also treasure enchantments internally).
-		allow_curses_enchantments = false
+		allow_curses_enchantments = true
 		#Allow treasure enchantments (e.g. mending) to be applied using the enchanting infuser.
 		allow_treasure_enchantments = false
 		#Allow untradeable enchantments (e.g. soul speed) to be applied using the enchanting infuser.
 		#This option takes precedence over other options for treasure and curse enchantments.
-		allow_untradeable_enchantments = false
+		allow_untradeable_enchantments = true
 		#Allow enchantments that can normally not be obtained from an enchanting table, but can be put on the item in an anvil (e.g. sharpness on an axe).
 		allow_anvil_enchantments = true
 		#Allow undiscoverable enchantments (e.g. soul speed) to be applied using the enchanting infuser.
 		#This option takes precedence over other options for treasure, curse and tradeable enchantments.
-		allow_undiscoverable_enchantments = false
+		allow_undiscoverable_enchantments = true
 
 	[advanced_infuser.repair]
 		#Cost multiplier in levels for each repair step, result will be rounded up.

@@ -27,7 +27,7 @@ This will break all old crazyAE2 multiblocks!
     - Mods changing structures:
         - Twilight Forest: Reviving Ancient Buildings (changes every arena! finally!)
     -Mods fixing something:
-        - Night Config Fixes
+        - Night Config Fixes (Hopefully fixes some crashes)
 
 - MODS GETTING REMOVED in 0.0.53.0:
     - Born in Chaos
@@ -57,6 +57,7 @@ Recipe changes and fixes:
 - removed lifedrain scepter
 - remove recipes for the Super Assembler Matrix blocks (it's buggy and shouldn't be used)
 - Sequence Array Controller and Omni-Computation Core requires Infinity 4 (thx to DidaS)
+- added most reaction chamber crafts to the Matter Fabrication Well Controller (thx to KYO297)
 
 Quests changes:
 - added a draconic evolution questline (thx to zeteeny22!!!)

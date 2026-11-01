@@ -48,7 +48,7 @@ This will break all old crazyAE2 multiblocks!
     - RFTools Control
 ----------
 Recipe changes and fixes:
-- changed heat values again
+- changed heat values for ExDeorum Crucible again
 - changed restonia crystal block recipe in mechanical empowerer tier 2 (thx to )
 - added compressium dirt 1x - 9x the correct tags (thx to luminosity)
 - changed fake philosophers stone recipe
@@ -58,6 +58,7 @@ Recipe changes and fixes:
 - remove recipes for the Super Assembler Matrix blocks (it's buggy and shouldn't be used)
 - Sequence Array Controller and Omni-Computation Core requires Infinity 4 (thx to DidaS)
 - added most reaction chamber crafts to the Matter Fabrication Well Controller (thx to KYO297)
+- removed Assembler Matrix blocks recipes from the Matter Fabrication Well
 
 Quests changes:
 - added a draconic evolution questline (thx to zeteeny22!!!)

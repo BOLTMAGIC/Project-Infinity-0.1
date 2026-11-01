@@ -138,9 +138,15 @@ ServerEvents.recipes((event) => {
     'minecraft:prismarine_crystals': 0.125,
     'minecraft:raw_gold': 0.25,
     'minecraft:lapis_lazuli': 0.4,
-    'exdeorum:gold_ore_chunk': 0.25,
+    'thermal:sulfur': 0.25,
+    'thermal:niter': 0.25,
+    'thermal:cinnabar': 0.25,
+    'thermal:apatite': 0.25,
+    'thermal:ruby': 0.25,
+    'thermal:sapphire': 0.25,
     'mekanism:fluorite_gem': 0.25,
     'mysticalagriculture:inferium_essence': 0.1,
+    'exdeorum:gold_ore_chunk': 0.25,
   };
 
   Object.entries(drops).forEach(([drops, base_chance]) => {
@@ -167,9 +173,15 @@ ServerEvents.recipes((event) => {
     'minecraft:prismarine_crystals': 0.2,
     'minecraft:raw_gold': 0.35,
     'minecraft:lapis_lazuli': 0.5,
+    'thermal:sulfur': 0.35,
+    'thermal:niter': 0.35,
+    'thermal:cinnabar': 0.35,
+    'thermal:apatite': 0.35,
+    'thermal:ruby': 0.35,
+    'thermal:sapphire': 0.35,
+    'mekanism:fluorite_gem': 0.45,
     'mysticalagriculture:inferium_essence': 0.15,
     'exdeorum:gold_ore_chunk': 0.35,
-    'mekanism:fluorite_gem': 0.45,
     'allthemodium:allthemodium_nugget': 0.000001,
   };
 
@@ -197,9 +209,15 @@ ServerEvents.recipes((event) => {
     'minecraft:prismarine_crystals': 0.3,
     'minecraft:raw_gold': 0.45,
     'minecraft:lapis_lazuli': 0.65,
+    'thermal:sulfur': 0.45,
+    'thermal:niter': 0.45,
+    'thermal:cinnabar': 0.45,
+    'thermal:apatite': 0.45,
+    'thermal:ruby': 0.45,
+    'thermal:sapphire': 0.45,
+    'mekanism:fluorite_gem': 0.55,
     'mysticalagriculture:inferium_essence': 0.25,
     'exdeorum:gold_ore_chunk': 0.45,
-    'mekanism:fluorite_gem': 0.55,
     'allthemodium:allthemodium_nugget': 0.00025,
   };
 

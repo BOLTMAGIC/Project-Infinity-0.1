@@ -55,7 +55,7 @@ Recipe changes and fixes:
 - fixed crying obsidian and azure electrum ingot recipes (thx to iSithin)
 - changed recipe for soulstone and repair talisman from mazarine to crimson (easier)
 - removed lifedrain scepter
-- 
+- remove recipes for the Super Assembler Matrix blocks (it's buggy and shouldn't be used)
 
 Quests changes:
 - added a draconic evolution questline (thx to zeteeny22!!!)

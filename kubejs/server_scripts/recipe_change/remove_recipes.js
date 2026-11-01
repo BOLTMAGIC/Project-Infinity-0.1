@@ -170,6 +170,17 @@ const removeRecipebyOutput = [
   'silentgems:soul_gem',
   'projectcell:emc_storage_cell',
   'laserio:filter_count',
+  'extendedae_plus:assembler_matrix_hybrid_plus',
+  'extendedae_plus:super_assembler_matrix_wall',
+  'extendedae_plus:super_assembler_matrix_frame',
+  'extendedae_plus:ultimate_super_assembler_matrix_builder',
+  'extendedae_plus:xbai',
+  '',
+  '',
+  '',
+  '',
+  '',
+  ''
 ];
 
 //#region ID removal

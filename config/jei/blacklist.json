@@ -8043,5 +8043,10 @@
   "waystones:white_sharestone",
   "waystones:yellow_sharestone",
   "woot_revived:creative_power",
-  "woot_revived:creative_tank"
+  "woot_revived:creative_tank",
+  "extendedae_plus:assembler_matrix_hybrid_plus",
+  "extendedae_plus:super_assembler_matrix_wall",
+  "extendedae_plus:super_assembler_matrix_frame",
+  "extendedae_plus:ultimate_super_assembler_matrix_builder",
+  "extendedae_plus:xbai"
 ]

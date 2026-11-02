@@ -15,7 +15,7 @@
 	tooltipDetail = "COMPACT"
 	#Attempts to translate biome names before fixing the unlocalized names. Unlike structures, almost every biome is named by the game itself or by the mod that adds it, so there is rarely anything left to fix up.
 	translateBiomeNames = true
-	#Mirrors each waypoint the compass records into Xaero's Minimap as well. Has no effect when that mod is not installed. The compass keeps a waypoint of its own for every place it locates either way, marked on the direction strip and listed on the waypoints screen; this is about whether the minimap gets a copy.
+	#Mirrors each waypoint the compass records into Xaero's Minimap as well. Has no effect when that mod is not installed. The compass keeps a waypoint of its own for every place it locates either way, marked on the direction strip and listed on the waypoints screen; this is about whether the minimap gets a copy. It is also what keeps the two in step the other way: a copy renamed, recoloured, moved or deleted in the minimap does the same to the compass's waypoint.
 	createXaeroWaypoints = true
 	#The color of the waypoints the compass records, as an index into Xaero's Minimap's own color list, which is also the game's list of text colors. Used on the direction strip as well as in the minimap.
 	#Range: 0 ~ 15
@@ -64,4 +64,8 @@
 	#The shape a waypoint is marked with on the direction strip, and beside its name on the waypoints screen. BOOKMARK hangs a notched ribbon from the top of the strip; PIN stands a round-headed pin on the bottom of it; FLAG stands a pole with a pennant; DIAMOND puts a small diamond in the middle, which takes the least room. Ex: BOOKMARK, PIN, FLAG, DIAMOND
 	#Allowed Values: BOOKMARK, PIN, FLAG, DIAMOND
 	directionBarWaypointStyle = "BOOKMARK"
+	#Takes the waypoints the player makes in Xaero's Minimap in as waypoints of the compass too, so that they are marked on the direction strip, listed on the waypoints screen, and can be pointed at and travelled to. The minimap's death markers and its temporary waypoints are left alone. Needs the setting above. A world never takes in more than maxWaypointsPerWorld allows it to keep.
+	importXaeroWaypoints = true
+	#Marks chests and other loot containers on a structure preview, even through walls, so they can be found without cutting the building open. The button on the preview screen switches this on and off as well.
+	structurePreviewLootMarkers = true
 

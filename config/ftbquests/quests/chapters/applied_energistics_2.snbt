@@ -73,8 +73,12 @@
 					type: "item"
 				}
 				{
-					id: "19B9247040619F99"
-					item: "ae2:meteorite_compass"
+					id: "127C923B7D424BB6"
+					item: {
+						Count: 1
+						id: "explorerscompass:explorerscompass"
+						tag: { }
+					}
 					type: "item"
 				}
 			]

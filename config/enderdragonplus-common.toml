@@ -33,6 +33,8 @@
 	#索敌范围
 	#Range: 16.0 ~ 1024.0
 	combatRange = 150.0
+	#强化版末影龙的物品战利品表路径，默认原版空表；不影响经验和龙蛋 / Enhanced dragon item loot table; defaults to the empty vanilla dragon table; does not affect experience or the dragon egg
+	enhancedLootTable = "minecraft:entities/ender_dragon"
 
 #技能配置
 [skills]

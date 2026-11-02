@@ -1,0 +1,258 @@
+
+#监守者增强总设置 / General settings for the enhanced Warden
+[general]
+	#是否启用重做后的监守者技能 / Enable reworked Warden skills
+	enabled = true
+	#回响监守者最大生命倍率，只在转化时应用一次 / Echo Warden max health multiplier, applied once on conversion
+	#Range: 0.1 ~ 100.0
+	healthMultiplier = 1.0
+	#所有技能伤害的全局倍率，技能伤害 = 攻击力 × 技能倍率 × 本值 / Global multiplier for skill damage, damage = attack × skill ratio × this
+	#Range: 0.0 ~ 100.0
+	skillDamageMultiplier = 1.0
+	#技能击退倍率，仍会受击退抗性影响 / Skill knockback scale, still reduced by knockback resistance
+	#Range: 0.0 ~ 5.0
+	knockbackScale = 1.0
+	#进入二阶段的生命百分比 / Health ratio that starts stage two
+	#Range: 0.0 ~ 1.0
+	stageTwoThreshold = 0.5
+	#进入三阶段的生命百分比 / Health ratio that starts stage three
+	#Range: 0.0 ~ 1.0
+	stageThreeThreshold = 0.25
+	#转阶段时的无敌时长（tick），0 为关闭；共鸣苏醒期间全程无敌 / Invulnerable ticks on stage transition, 0 disables; awakening is fully invulnerable
+	#Range: 0 ~ 400
+	transitionInvulnerableTicks = 40
+	#二、三阶段技能冷却倍率 / Skill cooldown scale in stage two and three
+	#Range: 0.1 ~ 2.0
+	lateStageCooldownScale = 0.75
+	#两次技能之间的最短间隔（刻） / Minimum ticks between two skills
+	#Range: 0 ~ 1200
+	globalCooldown = 50
+	#共鸣苏醒期间受到伤害的倍率 / Damage taken multiplier while awakening
+	#Range: 0.0 ~ 1.0
+	awakenDamageTaken = 0.3
+	#战斗时是否显示 Boss 血条 / Show a boss bar while fighting
+	bossBar = true
+	#Boss 血条显示范围（格） / Boss bar range in blocks
+	#Range: 8 ~ 256
+	bossBarRange = 48
+
+#转化设置：自然生成的都是普通监守者，用物品右键转化 / Conversion: natural Wardens are vanilla, right click with an item to convert
+[conversion]
+	#是否允许右键转化 / Allow right click conversion
+	enabled = true
+	#是否允许转化为回响监守者（暂未开放） / Allow converting into the Echo Warden (not released yet)
+	echoEnabled = false
+	#转化为回响监守者的物品 ID / Item ID that converts into the Echo Warden
+	echoItem = "minecraft:echo_shard"
+	#转化为末影监守者的物品 ID / Item ID that converts into the Ender Warden
+	enderItem = "minecraft:ender_pearl"
+	#生存模式下是否消耗物品 / Consume the item in survival
+	consumeItem = true
+
+#末影监守者设置 / Ender Warden settings
+[ender]
+	#最大生命倍率，只在转化时应用一次 / Max health multiplier, applied once on conversion
+	#Range: 0.1 ~ 100.0
+	healthMultiplier = 2.0
+	#攻击力倍率，只在转化时应用一次 / Attack damage multiplier, applied once on conversion
+	#Range: 0.1 ~ 100.0
+	attackMultiplier = 1.2
+	#普攻命中后把目标随机传送走的概率 / Chance that a melee hit teleports the target
+	#Range: 0.0 ~ 1.0
+	touchChance = 0.35
+	#普攻传送的冷却（刻） / Melee teleport cooldown in ticks
+	#Range: 0 ~ 72000
+	touchCooldown = 30
+	#普攻传送最近距离（格） / Melee teleport min distance
+	#Range: 1.0 ~ 64.0
+	touchMinDistance = 5.0
+	#普攻传送最远距离（格） / Melee teleport max distance
+	#Range: 1.0 ~ 64.0
+	touchMaxDistance = 10.0
+	#相位闪避：被弹射物击中时传送躲开的概率 / Phase Dodge: chance to teleport away from projectiles
+	#Range: 0.0 ~ 1.0
+	dodgeChance = 0.6
+	#相位闪避冷却（刻） / Phase Dodge cooldown in ticks
+	#Range: 0 ~ 72000
+	dodgeCooldown = 20
+	#裂隙千音最少传送次数 / Rift Sonic Barrage min teleports
+	#Range: 1 ~ 10
+	sonicMinJumps = 3
+	#裂隙千音最多传送次数，三阶段固定取最大值 / Rift Sonic Barrage max teleports, stage three always uses max
+	#Range: 1 ~ 10
+	sonicMaxJumps = 5
+	#裂隙千音结束后的宕机时间（刻） / Stun after Rift Sonic Barrage in ticks
+	#Range: 0 ~ 600
+	sonicStunTicks = 60
+	#宕机期间受到伤害的倍率 / Damage taken multiplier while stunned
+	#Range: 0.0 ~ 10.0
+	sonicStunDamageTaken = 1.25
+	#裂隙千音致盲范围（格） / Rift Sonic Barrage darkness radius
+	#Range: 0.0 ~ 256.0
+	darknessRadius = 40.0
+	#裂隙千音黑暗中的可见距离（格），会随黑暗脉动缩短到一半；0 为全黑，原版黑暗约为 15；技能特效与预警不受影响 / Visible distance inside the Rift Sonic Barrage darkness, shrinks to half with the darkness pulse; 0 is pitch black, vanilla Darkness is about 15; skill effects and warnings stay visible
+	#Range: 0.0 ~ 64.0
+	darknessVisibility = 7.0
+	#末影监守者使用的战利品表 ID / Loot table ID used by the Ender Warden
+	lootTable = "minecraft:entities/warden"
+
+#回响监守者各技能设置，伤害为攻击力倍率 / Echo Warden skills, damage is a ratio of attack damage
+[skills]
+
+	#震脉践踏 / Seismic Pulse
+	[skills.seismic_pulse]
+		#是否启用 / Enabled
+		enabled = true
+		#伤害倍率 / Damage ratio
+		#Range: 0.0 ~ 20.0
+		damageRatio = 0.4
+		#冷却（刻） / Cooldown in ticks
+		#Range: 0 ~ 72000
+		cooldown = 80
+
+	#幽匿缠须 / Sculk Snare
+	[skills.sculk_snare]
+		#是否启用 / Enabled
+		enabled = true
+		#伤害倍率 / Damage ratio
+		#Range: 0.0 ~ 20.0
+		damageRatio = 0.3
+		#冷却（刻） / Cooldown in ticks
+		#Range: 0 ~ 72000
+		cooldown = 100
+
+	#潜渊突袭 / Abyssal Burrow
+	[skills.abyssal_burrow]
+		#是否启用 / Enabled
+		enabled = true
+		#伤害倍率 / Damage ratio
+		#Range: 0.0 ~ 20.0
+		damageRatio = 0.6
+		#冷却（刻） / Cooldown in ticks
+		#Range: 0 ~ 72000
+		cooldown = 180
+
+	#心跳领域 / Heartbeat Domain
+	[skills.heartbeat_domain]
+		#是否启用 / Enabled
+		enabled = true
+		#伤害倍率 / Damage ratio
+		#Range: 0.0 ~ 20.0
+		damageRatio = 0.28
+		#冷却（刻） / Cooldown in ticks
+		#Range: 0 ~ 72000
+		cooldown = 260
+
+	#回响棱晶 / Echo Prism
+	[skills.echo_prism]
+		#是否启用 / Enabled
+		enabled = true
+		#伤害倍率 / Damage ratio
+		#Range: 0.0 ~ 20.0
+		damageRatio = 0.25
+		#冷却（刻） / Cooldown in ticks
+		#Range: 0 ~ 72000
+		cooldown = 140
+
+	#寂灭回响 / Silent Collapse
+	[skills.silent_collapse]
+		#是否启用 / Enabled
+		enabled = true
+		#伤害倍率 / Damage ratio
+		#Range: 0.0 ~ 20.0
+		damageRatio = 1.1
+		#冷却（刻） / Cooldown in ticks
+		#Range: 0 ~ 72000
+		cooldown = 450
+
+	#共鸣苏醒 / Resonant Awakening
+	[skills.awaken]
+		#是否启用 / Enabled
+		enabled = true
+		#伤害倍率 / Damage ratio
+		#Range: 0.0 ~ 20.0
+		damageRatio = 0.2
+		#冷却（刻） / Cooldown in ticks
+		#Range: 0 ~ 72000
+		cooldown = 0
+
+#末影监守者各技能设置，伤害为攻击力倍率 / Ender Warden skills, damage is a ratio of attack damage
+[ender_skills]
+
+	#末影闪击 / Ender Blink Slam
+	[ender_skills.blink_slam]
+		#是否启用 / Enabled
+		enabled = true
+		#伤害倍率 / Damage ratio
+		#Range: 0.0 ~ 20.0
+		damageRatio = 0.7
+		#冷却（刻） / Cooldown in ticks
+		#Range: 0 ~ 72000
+		cooldown = 90
+
+	#擒摔 / Grapple Slam
+	[ender_skills.grapple_slam]
+		#是否启用 / Enabled
+		enabled = true
+		#伤害倍率 / Damage ratio
+		#Range: 0.0 ~ 20.0
+		damageRatio = 0.5
+		#冷却（刻） / Cooldown in ticks
+		#Range: 0 ~ 72000
+		cooldown = 130
+
+	#虚空回环摔 / Void Loop Slam
+	[ender_skills.void_loop]
+		#是否启用 / Enabled
+		enabled = true
+		#伤害倍率 / Damage ratio
+		#Range: 0.0 ~ 20.0
+		damageRatio = 1.0
+		#冷却（刻） / Cooldown in ticks
+		#Range: 0 ~ 72000
+		cooldown = 300
+
+	#末影置换 / Ender Swap
+	[ender_skills.ender_swap]
+		#是否启用 / Enabled
+		enabled = true
+		#伤害倍率 / Damage ratio
+		#Range: 0.0 ~ 20.0
+		damageRatio = 0.4
+		#冷却（刻） / Cooldown in ticks
+		#Range: 0 ~ 72000
+		cooldown = 210
+
+	#裂隙追猎 / Rift Hunt
+	[ender_skills.rift_hunt]
+		#是否启用 / Enabled
+		enabled = true
+		#伤害倍率 / Damage ratio
+		#Range: 0.0 ~ 20.0
+		damageRatio = 0.5
+		#冷却（刻） / Cooldown in ticks
+		#Range: 0 ~ 72000
+		cooldown = 100
+
+	#八方裂隙 / Rift Octet
+	[ender_skills.rift_octet]
+		#是否启用 / Enabled
+		enabled = true
+		#伤害倍率 / Damage ratio
+		#Range: 0.0 ~ 20.0
+		damageRatio = 0.35
+		#冷却（刻） / Cooldown in ticks
+		#Range: 0 ~ 72000
+		cooldown = 280
+
+	#裂隙千音 / Rift Sonic Barrage
+	[ender_skills.rift_sonic]
+		#是否启用 / Enabled
+		enabled = true
+		#伤害倍率 / Damage ratio
+		#Range: 0.0 ~ 20.0
+		damageRatio = 0.4
+		#冷却（刻） / Cooldown in ticks
+		#Range: 0 ~ 72000
+		cooldown = 600
+

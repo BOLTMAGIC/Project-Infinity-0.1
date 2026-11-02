@@ -20,10 +20,30 @@ LootJS.modifiers((event) => {
 
 LootJS.modifiers((event) => {
   event
+    .addEntityLootModifier('minecraft:ender_dragon')
+    .randomChance(0.1)
+    .addLoot(Item.of('minecraft:enchanted_golden_apple', 8));
+
+  event
+    .addEntityLootModifier('minecraft:ender_dragon')
+    .randomChance(0.1)
+    .addLoot(Item.of('minecraft:dragon_breath', 16));
+
+  event
+    .addEntityLootModifier('minecraft:ender_dragon')
+    .randomChance(0.01)
+    .addLoot(Item.of('draconicevolution:draconium_block', 2));
+});
+
+LootJS.modifiers((event) => {
+  event
     .addEntityLootModifier('minecraft:wither')
-    .removeLoot('mysticalagradditions:insanium_essence')
+    .removeLoot('mysticalagradditions:insanium_essence');
+
+  event
+    .addEntityLootModifier('minecraft:wither')
     .randomChance(0.02)
-    .addLoot('mysticalagradditions:insanium_essence');
+    .addLoot(Item.of('mysticalagradditions:insanium_essence', 1));
 });
 
 LootJS.modifiers((event) => {
@@ -155,4 +175,37 @@ LootJS.modifiers((event) => {
     .addLootTableModifier('minecraft:chests/ancient_city')
     .randomChance(0.025)
     .addLoot('allthemodium:allthemodium_upgrade_smithing_template');
+});
+
+//#region Warden Plus Loot
+EntityEvents.death((event) => {
+  let entity = event.entity;
+  let type = entity.type;
+
+  let drops = {
+    'minecraft:warden': [
+      { item: 'bhc:blue_heart_canister', count: 1, chance: 0.05 },
+      { item: 'compressium:netherite_1', count: 1, chance: 0.005 },
+    ],
+  };
+
+  if (!drops[type]) return;
+
+  let enhanced = false;
+
+  if (type == 'minecraft:warden') {
+    let variant = entity.nbt
+      .getCompound('ForgeData')
+      .getString('wardenplus_variant');
+
+    enhanced = variant == 'echo' || variant == 'ender';
+  }
+
+  if (!enhanced) return;
+
+  drops[type].forEach((drop) => {
+    if (Math.random() < drop.chance) {
+      entity.block.popItem(Item.of(drop.item, drop.count));
+    }
+  });
 });

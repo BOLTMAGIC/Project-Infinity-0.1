@@ -1,0 +1,2 @@
+// Compost colors for twilight_forest_reviving_ancient_buildings. You may add your own colors, change existing ones, or remove colors that aren't needed.
+end_battery, #7346a2

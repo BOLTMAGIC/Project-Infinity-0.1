@@ -1257,6 +1257,22 @@
 			x: -16.0d
 			y: -7.2d
 		}
+		{
+			id: "394A0952FA11CFF9"
+			optional: true
+			rewards: [{
+				command: "/ftbquests change_progress @s complete 26B04A86EAAA4E9C"
+				id: "19C4FCB96979642A"
+				type: "command"
+			}]
+			tasks: [{
+				id: "592DD0B75BC13E1C"
+				title: "Click when in hardcore"
+				type: "checkmark"
+			}]
+			x: 4.5d
+			y: -5.5d
+		}
 	]
 	title: "{ftbquests.chapter.ultimate_challenges.title}"
 }

@@ -3,15 +3,15 @@
 	#
 	#Creative Botany Pot Speed
 	#Range: > 1
-	creativeBotanyPotSpeed = 10
+	creativeBotanyPotSpeed = 5
 	#
 	#Ultra Botany Pot Speed
 	#Range: > 1
-	ultraBotanyPotSpeed = 6
+	ultraBotanyPotSpeed = 3
 	#
 	#Ultra Botany Pot Multiplier
 	#Range: > 1
-	ultraBotanyPotMultiplier = 6
+	ultraBotanyPotMultiplier = 3
 	#
 	#Elite Botany Pot Speed
 	#Range: > 1
@@ -23,5 +23,5 @@
 	#
 	#Creative Botany Pot Multiplier
 	#Range: > 1
-	creativeBotanyPotMultiplier = 10
+	creativeBotanyPotMultiplier = 5
 

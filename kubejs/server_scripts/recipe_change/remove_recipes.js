@@ -189,7 +189,7 @@ const removeRecipebyOutput = [
   '',
   '',
   '',
-  ''
+  '',
 ];
 
 //#region ID removal
@@ -612,7 +612,7 @@ const removeRecipebyRecipeID = [
   'molecularmanipulator:fabrication/research_materials/extendedae/assembler_matrix_wall',
   'molecularmanipulator:fabrication/research_materials/extendedae/assembler_matrix_crafter',
   'molecularmanipulator:fabrication/research_materials/extendedae/assembler_matrix_pattern',
-  '',
+  'avaritia:densest_neutron_collector',
   '',
   '',
   '',
@@ -676,7 +676,7 @@ const removeRecipebyType = [
   'packagedauto:packaging',
   'mekanism:bin_insert',
   'cyclic:generator_fluid',
-  'cyclic:generator_item'
+  'cyclic:generator_item',
 ];
 
 //Function to remove the items above
@@ -722,6 +722,13 @@ ServerEvents.recipes((event) => {
   event.remove({
     type: 'avaritia:shaped_table',
     output: /dragon_egg/,
+  });
+  event.remove({
+    mod: 'curvy_pipes',
+    output: /energy_pipe/,
+  });
+  event.remove({
+    id: /^nuclearcraft:manufactory\/exdeorum_.*_chunk$/,
   });
   event.remove({
     type: 'packagedauto:fluid_package_contents',

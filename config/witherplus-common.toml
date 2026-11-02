@@ -37,6 +37,8 @@
 	debugLogging = false
 	#是否要求使用特殊凋零骷髅头召唤才启用增强；默认关闭
 	requireSpecialSkull = false
+	#强化版凋零使用的实体战利品表路径；默认使用原版凋零
+	enhancedLootTable = "minecraft:entities/wither"
 
 #技能配置
 [skills]

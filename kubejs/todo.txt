@@ -21,8 +21,9 @@ This will break all old crazyAE2 multiblocks!
         - Thunder Relics (1 new Boss, 1 new structure)
         - Void Lords (5 new Bosses, 2 new structures, 8 new mobs)
     - Mods changing bosses:
-        - Wither Plus (three stage boss, 12 skills, new model, hits harder, more hp)
-        - Ender Dragon Plus (three stage boss, 12 skills, hits harder, more hp, needs new crystals to spawn. normal dragon still killable)
+        - Wither Plus (three stage boss, 12 skills, new model, hits harder, more hp.)
+        - Ender Dragon Plus (three stage boss, 12 skills, hits harder, more hp, needs new crystals to spawn.)
+        - More Warden Plus (three stage boss, 12 skills, new model, hits harder, more hp. normal warden still killable. right click the warden with a ender pearl)
         - Twilight Forest Plus (all bosses got new skills, are tougher and harder to kill)
     - Mods changing structures:
         - Twilight Forest: Reviving Ancient Buildings (changes every arena! finally!)
@@ -60,6 +61,9 @@ Recipe changes and fixes:
 - added most reaction chamber crafts to the Matter Fabrication Well Controller (thx to KYO297)
 - removed Assembler Matrix blocks recipes from the Matter Fabrication Well
 - removed Cyclic generators recipes
+- removed curvy energy pipes
+- changed botany pots upgrades from 2x, 6x, 10x to 2x, 3x, 4x
+- 
 
 Quests changes:
 - added a draconic evolution questline (thx to zeteeny22!!!)

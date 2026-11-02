@@ -13,7 +13,7 @@ METHOD_SHADER_DUMP = false
 	X = 8
 	#Pixels away from the bottom of the GUI in the y axis
 	#Range: > 0
-	Y = 80
+	Y = 90
 
 ["Main Menu Button"]
 	#Enabled

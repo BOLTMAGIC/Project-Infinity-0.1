@@ -341,4 +341,16 @@ ServerEvents.recipes((event) => {
       Item.of('ironjetpacks:thruster', '{Id:"ironjetpacks:emerald"}').weakNBT(),
     ]
   );
+
+  shapeless(
+    event,
+    'kubejs:fake_creative_jetpack',
+    Item.of('ironjetpacks:jetpack', '{Id:"ironjetpacks:creative"}').weakNBT()
+  );
+
+  shapeless(
+    event,
+    Item.of('ironjetpacks:jetpack', '{Id:"ironjetpacks:creative"}'),
+    'kubejs:fake_creative_jetpack'
+  );
 });

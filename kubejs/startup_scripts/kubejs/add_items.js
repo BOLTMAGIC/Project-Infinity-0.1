@@ -427,6 +427,8 @@ StartupEvents.registry('item', (e) => {
   e.create('fake_transmutation_tablet');
 
   e.create('fake_philosophers_stone');
+
+  e.create('fake_creative_jetpack');
 });
 
 //#region Custom Capacitors

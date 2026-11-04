@@ -95,10 +95,7 @@ ServerEvents.recipes((event) => {
           item: 'kubejs:infinity_essence',
         },
         Y: {
-          type: 'forge:partial_nbt',
-          item: 'ironjetpacks:jetpack',
-          count: 1,
-          nbt: '{Id:"ironjetpacks:creative"}',
+          item: 'kubejs:fake_creative_jetpack',
         },
         Z: {
           item: 'voidminers:ultimate_block',

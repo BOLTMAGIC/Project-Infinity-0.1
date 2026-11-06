@@ -49,10 +49,10 @@ ServerEvents.recipes((event) => {
           item: 'draconicadditions:inert_potato_boots',
         },
         L: {
-          item: 'born_in_chaos_v1:nightmare_mantleofthe_night_boots',
+          item: 'thunderrelics:royal_boots',
         },
         M: {
-          item: 'born_in_chaos_v1:dark_metal_armor_boots',
+          item: 'aether_dragon:aether_dragon_flute',
         },
         N: {
           item: 'twilightforest:yeti_boots',

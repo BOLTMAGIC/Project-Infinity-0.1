@@ -11,7 +11,6 @@ ServerEvents.tags('item', (event) => {
   event.add('mysticalagriculture:essences', [
     'mysticalagriculture:boron_essence',
     'mysticalagriculture:cognizant_dust_essence',
-    'mysticalagriculture:dark_metal_ingot_essence',
     'mysticalagriculture:ignitium_essence',
     'mysticalagriculture:niter_essence',
     'mysticalagriculture:plastic_essence',
@@ -26,7 +25,6 @@ ServerEvents.tags('item', (event) => {
   event.add('mysticalagriculture:seeds', [
     'mysticalagriculture:boron_seeds',
     'mysticalagriculture:cognizant_dust_seeds',
-    'mysticalagriculture:dark_metal_ingot_seeds',
     'mysticalagriculture:niter_seeds',
     'mysticalagriculture:plastic_seeds',
     'mysticalagriculture:ignitium_seeds',
@@ -193,7 +191,6 @@ ServerEvents.tags('block', (event) => {
   event.add('mysticalagriculture:crops', [
     'mysticalagriculture:boron_crop',
     'mysticalagriculture:cognizant_dust_crop',
-    'mysticalagriculture:dark_metal_ingot_crop',
     'mysticalagriculture:niter_crop',
     'mysticalagriculture:plastic_crop',
     'mysticalagriculture:ignitium_crop',

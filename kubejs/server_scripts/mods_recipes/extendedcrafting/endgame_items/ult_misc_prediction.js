@@ -26,12 +26,6 @@ ServerEvents.recipes((event) => {
           type: 'forge:nbt',
           item: 'hostilenetworks:prediction',
           count: 1,
-          nbt: '{data_model:{id:"hostilenetworks:born_in_chaos/dark_vortex"}}',
-        },
-        {
-          type: 'forge:nbt',
-          item: 'hostilenetworks:prediction',
-          count: 1,
           nbt: '{data_model:{id:"hostilenetworks:twilightforest/death_tome"}}',
         },
         {
@@ -44,19 +38,7 @@ ServerEvents.recipes((event) => {
           type: 'forge:nbt',
           item: 'hostilenetworks:prediction',
           count: 1,
-          nbt: '{data_model:{id:"hostilenetworks:born_in_chaos/dire_hound_leader"}}',
-        },
-        {
-          type: 'forge:nbt',
-          item: 'hostilenetworks:prediction',
-          count: 1,
           nbt: '{data_model:{id:"hostilenetworks:twilightforest/minotaur"}}',
-        },
-        {
-          type: 'forge:nbt',
-          item: 'hostilenetworks:prediction',
-          count: 1,
-          nbt: '{data_model:{id:"hostilenetworks:born_in_chaos/missioner"}}',
         },
         {
           type: 'forge:nbt',

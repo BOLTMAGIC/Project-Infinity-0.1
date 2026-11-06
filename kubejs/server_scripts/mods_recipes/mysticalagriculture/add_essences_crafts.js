@@ -3,10 +3,6 @@ ServerEvents.recipes((event) => {
     'mysticalagriculture:cognizant_dust_essence',
   ]);
 
-  create323(event, '4x born_in_chaos_v1:dark_metal_ingot', [
-    'mysticalagriculture:dark_metal_ingot_essence',
-  ]);
-
   create323(event, '4x cataclysm:ignitium_ingot', [
     'mysticalagriculture:ignitium_essence',
   ]);

@@ -216,7 +216,7 @@ MMEvents.createProcesses((event) => {
   createSingularityRecipe(event, 'minecraft:diamond', 'diamond');
   createSingularityRecipe(event, 'minecraft:iron_ingot', 'iron');
   createSingularityRecipe(event, 'advancednetherite:netherite_gold_ingot', 'netherite_gold_ingot');
-  createSingularityRecipe(event, 'born_in_chaos_v1:ethereal_spirit', 'ethereal_spirit');
+  createSingularityRecipe(event, 'botania:life_essence', 'gaia_spirit');
   createSingularityRecipe(event, 'thermal:nickel_ingot', 'nickel');
   createSingularityRecipe(event, 'mysticalagriculture:soulium_ingot', 'soulium_ingot');
   createSingularityRecipe(event, 'mekanism:ingot_refined_obsidian', 'ingot_refined_obsidian');
@@ -228,7 +228,7 @@ MMEvents.createProcesses((event) => {
   createSingularityRecipe(event, 'thermal:enderium_ingot', 'enderium_ingot');
   createSingularityRecipe(event, 'advancednetherite:netherite_iron_ingot', 'netherite_iron_ingot');
   createSingularityRecipe(event, 'dimensionalpocketsii:dimensional_ingot', 'dimensional_ingot');
-  createSingularityRecipe(event, 'born_in_chaos_v1:dark_metal_ingot', 'dark_metal_ingot');
+  createSingularityRecipe(event, 'neoecoae:energized_superconductive_ingot', 'energized_superconductive_ingot');
   createSingularityRecipe(event, 'thermal_extra:dragonsteel_ingot', 'dragonsteel_ingot');
   createSingularityRecipe(event, 'advancednetherite:netherite_diamond_ingot', 'netherite_diamond_ingot');
   createSingularityRecipe(event, 'mysticalagriculture:tertium_ingot', 'tertium_ingot');

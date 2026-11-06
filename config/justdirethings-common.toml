@@ -216,7 +216,7 @@
 	#Each entry is a regex searched (not fully matched) against the entity ID, so partial matches work.
 	#Example: "somebossmod:big_boss" blocks that exact entity,
 	#or "^somebossmod:" blocks all entities from that mod.
-	polymorph_blacklist = ["draconicevolution:draconic_guardian", "^pneumaticcraft:", "^avaritia:", "^twilightforest:", "^thermal:", "nuclearcraft:feral_ghoul_boss", "^mutantmonsters:", "^justdirethings:", "^cyclic:", "^cataclysm:", "^botania:", "born_in_chaos_v1:lord_pumpkinhead"]
+	polymorph_blacklist = ["draconicevolution:draconic_guardian", "^pneumaticcraft:", "^avaritia:", "^twilightforest:", "^thermal:", "nuclearcraft:feral_ghoul_boss", "^mutantmonsters:", "^justdirethings:", "^cyclic:", "^cataclysm:", "^botania:", "^void_lords:"]
 
 #Goo settings
 [goo]

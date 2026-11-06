@@ -1,0 +1,11 @@
+{
+  "name": "singularity.extendedcrafting.life_essence",
+  "colors": [
+    "bd0826",
+    "e85d74"
+  ],
+  "ingredient": {
+    "item": "botania:life_essence"
+  },
+  "materialCount": 12500
+}

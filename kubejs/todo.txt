@@ -2,13 +2,15 @@
 //main
 finish quests high prio
 draconic evolution armor and upgrades recipe change
+https://www.curseforge.com/minecraft/mc-mods/kryzenth
+https://www.curseforge.com/minecraft/mc-mods/antarchy
 ----------
-changelog v. 0.0.52.2
+changelog v. 0.0.53.0
 
 MAKE A BACKUP AND UPDATE TO A NEW INSTANCE!!!
 
 Known issues:
-- The crafting tree button when requesting an AE2 craft crashes the game
+-
 
 Mod Info:
 CrazyAE2 will get updated to the newest version in 0.0.53.0.
@@ -30,7 +32,7 @@ This will break all old crazyAE2 multiblocks!
     -Mods fixing something:
         - Night Config Fixes (Hopefully fixes some crashes)
 
-- MODS GETTING REMOVED in 0.0.53.0:
+- MODS REMOVED:
     - Born in Chaos
     - Born In Configuration
     - Refined Storage

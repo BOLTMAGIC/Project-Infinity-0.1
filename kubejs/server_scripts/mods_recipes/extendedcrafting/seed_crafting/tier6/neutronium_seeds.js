@@ -52,7 +52,7 @@ ServerEvents.recipes((event) => {
           item: 'botania:corporea_index',
         },
         M: {
-          item: 'born_in_chaos_v1:lifestealer_skull',
+          item: 'void_lords:warden_heart',
         },
       },
       result: {

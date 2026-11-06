@@ -322,20 +322,6 @@ ItemEvents.tooltip((event) => {
     }
   );
 
-  event.addAdvanced(
-    ['born_in_chaos_v1:chaos_component'],
-    (item, advanced, text) => {
-      if (!event.shift) {
-        text.add(1, holdShiftText());
-      } else {
-        text.add(
-          1,
-          Text.translate('tooltip.born_in_chaos.chaos_component').green()
-        );
-      }
-    }
-  );
-
   event.addAdvanced(['outer_end:ancient_ice'], (item, advanced, text) => {
     text.add(1, Text.translate('tooltip.outer_end.ancient_ice').green());
   });
@@ -385,16 +371,6 @@ ItemEvents.tooltip((event) => {
         1,
         Text.translate('tooltip.credit.recipe_added', 'kylesexton').red()
       );
-    }
-  );
-
-  event.addAdvanced(
-    [
-      'born_in_chaos_v1:lord_pumpkinheads_hat_helmet',
-      'born_in_chaos_v1:transmuting_elixir',
-    ],
-    (item, advanced, text) => {
-      text.add(1, Text.translate('tooltip.born_in_chaos.pumpkinhead').green());
     }
   );
 
@@ -612,18 +588,6 @@ ItemEvents.tooltip((event) => {
     ['sanguine_networks:virtual_sacrificer'],
     Text.translate('tooltip.sanguine_networks.virtual_sacrificer').green()
   );
-
-  event.addAdvanced(['hostilenetworks:data_model'], (item, advanced, text) => {
-    if (
-      item.nbt.data_model.id == 'hostilenetworks:born_in_chaos/lord_pumpkinhead'
-    ) {
-      text.add(
-        Text.translate(
-          'tooltip.hostilenetworks.data_model.lord_pumpkinhead'
-        ).red()
-      );
-    }
-  });
 
   event.addAdvanced(['kubejs:fluid_tank_token'], (item, advanced, text) => {
     if (!item.nbt) return;

@@ -6,7 +6,7 @@ ServerEvents.recipes((event) => {
   );
 
   event.smithing('kubejs:allthemodium_mesh',
-    'born_in_chaos_v1:dark_upgrade',
+    'cataclysm:cursium_upgrade_smithing_template',
     'exdeorum:netherite_mesh',
     'allthemodium:allthemodium_nugget',
   );

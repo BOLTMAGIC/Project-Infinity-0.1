@@ -27,7 +27,7 @@ ServerEvents.recipes((event) => {
         'bhc:green_heart',
         'bhc:blue_heart',
         'bhc:soul_heart_crystal',
-        'born_in_chaos_v1:bone_heart',
+        'void_lords:warden_heart',
         'cyclic:heart',
         'cyclic:heart_empty',
         'bosses_of_mass_destruction:obsidian_heart',

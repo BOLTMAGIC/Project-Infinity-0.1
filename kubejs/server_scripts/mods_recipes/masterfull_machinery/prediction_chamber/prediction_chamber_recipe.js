@@ -58,19 +58,15 @@ const dataModelsBossArray = [
   'bomd/void_blossom',
   'warden',
   'wither',
-  'born_in_chaos/lord_pumpkinhead',
 ];
 
 const dataModelsMiscArray = [
   'thermal/basalz',
   'thermal/blitz',
   'thermal/blizz',
-  'born_in_chaos/dark_vortex',
   'twilightforest/death_tome',
   'twilightforest/deer',
-  'born_in_chaos/dire_hound_leader',
   'twilightforest/minotaur',
-  'born_in_chaos/missioner',
   'twilightforest/redcap',
   'twilightforest/skeleton_druid',
   'twilightforest/troll',

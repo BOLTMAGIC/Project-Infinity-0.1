@@ -971,48 +971,6 @@
 			x: 8.0d
 			y: -5.0d
 		}
-		{
-			icon: {
-				Count: 1
-				id: "draconicevolution:mob_soul"
-				tag: {
-					EntityName: "born_in_chaos_v1:lord_pumpkinhead"
-				}
-			}
-			icon_scale: 2.0d
-			id: "73BA98EF0E5184FE"
-			rewards: [
-				{
-					id: "52B4F602C7541D6A"
-					type: "xp"
-					xp: 100
-				}
-				{
-					id: "08777127382D7FAE"
-					item: "minecraft:pumpkin_pie"
-					type: "item"
-				}
-				{
-					id: "3204D9F9B616CBD4"
-					item: {
-						Count: 1
-						id: "born_in_chaos_v1:lord_pumpkinheads_lamp"
-						tag: { }
-					}
-					type: "item"
-				}
-			]
-			size: 1.5d
-			tasks: [{
-				advancement: "born_in_chaos_v1:pumpkin_lord"
-				criterion: ""
-				id: "75C06F2C5CD4AAB0"
-				type: "advancement"
-			}]
-			title: "{ftbquests.chapter.bounty_board.quest33.title}"
-			x: 4.5d
-			y: 4.5d
-		}
 	]
 	title: "{ftbquests.chapter.bounty_board.title}"
 }

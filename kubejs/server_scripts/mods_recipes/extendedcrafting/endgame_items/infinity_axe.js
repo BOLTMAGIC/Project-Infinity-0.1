@@ -115,7 +115,7 @@ ServerEvents.recipes((event) => {
           item: 'mysticalagriculture:awakened_supremium_axe',
         },
         h: {
-          item: 'born_in_chaos_v1:great_reaper_axe',
+          item: 'thunderrelics:royal_glaive',
         },
         i: {
           item: 'cataclysm:infernal_forge',

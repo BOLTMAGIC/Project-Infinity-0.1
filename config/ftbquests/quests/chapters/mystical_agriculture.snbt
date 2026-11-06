@@ -4382,22 +4382,6 @@
 		}
 		{
 			dependencies: ["4970CC2851818A02"]
-			id: "5332B11632821B76"
-			rewards: [{
-				id: "4B74B4CAF2C3C0A0"
-				item: "kubejs:ascended_coin"
-				type: "item"
-			}]
-			tasks: [{
-				id: "319AA991C8233D4A"
-				item: "mysticalagriculture:dark_metal_ingot_seeds"
-				type: "item"
-			}]
-			x: 7.0d
-			y: 1.0d
-		}
-		{
-			dependencies: ["4970CC2851818A02"]
 			id: "0F347A29EBA3E332"
 			rewards: [{
 				id: "799DFEC067A09F9E"
@@ -4521,8 +4505,8 @@
 				item: "mysticalagriculture:plutonium_seeds"
 				type: "item"
 			}]
-			x: 8.0d
-			y: 3.0d
+			x: 7.0d
+			y: 1.0d
 		}
 		{
 			dependencies: ["0EE7C12766C3CA1B"]

@@ -19,7 +19,7 @@ ServerEvents.recipes((event) => {
           item: 'voidminers:ultimate_stellar_core',
         },
         B: {
-          item: 'born_in_chaos_v1:ethereal_spirit',
+          item: 'void_lords:nyx_core',
         },
         C: {
           item: 'extendedcrafting:enhanced_ender_catalyst',

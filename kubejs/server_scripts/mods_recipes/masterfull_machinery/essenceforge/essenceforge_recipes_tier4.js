@@ -108,7 +108,6 @@ MMEvents.createProcesses((event) => {
     'mysticalagriculture:cobalt_seeds',
     'mysticalagriculture:rose_gold_seeds',
     'mysticalagriculture:soularium_seeds',
-    'mysticalagriculture:dark_steel_seeds',
     'mysticalagriculture:pulsating_alloy_seeds',
     'mysticalagriculture:energetic_alloy_seeds',
     'mysticalagriculture:elementium_seeds',
@@ -150,7 +149,6 @@ MMEvents.createProcesses((event) => {
   // --- Tier 6 ---
   const tier6Seeds = [
     'mysticalagriculture:allthemodium_seeds',
-    'mysticalagriculture:dark_metal_ingot_seeds',
     'mysticalagriculture:plutonium_seeds',
     'mysticalagriculture:unobtainium_seeds',
     'mysticalagriculture:vibranium_seeds',
@@ -163,8 +161,6 @@ MMEvents.createProcesses((event) => {
   ];
   const seedToCrux = {
     'mysticalagriculture:allthemodium_seeds': 'allthemodium:allthemodium_block',
-    'mysticalagriculture:dark_metal_ingot_seeds':
-      'born_in_chaos_v1:dark_metal_block',
     'mysticalagriculture:plutonium_seeds': 'evolvedmekanism:block_better_gold',
     'mysticalagriculture:unobtainium_seeds': 'allthemodium:unobtainium_block',
     'mysticalagriculture:vibranium_seeds': 'allthemodium:vibranium_block',

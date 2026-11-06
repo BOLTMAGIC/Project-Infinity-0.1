@@ -370,7 +370,7 @@ MMEvents.createProcesses((event) => {
       type: 'mm:input/consume',
       ingredient: {
         type: 'mm:item',
-        item: 'born_in_chaos_v1:fel_soil',
+        item: 'twilightforest:uberous_soil',
         count: 8,
       },
     },

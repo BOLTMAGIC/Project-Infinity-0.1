@@ -12,9 +12,6 @@ ServerEvents.recipes((event) => {
           item: 'mysticalagriculture:allthemodium_essence',
         },
         {
-          item: 'mysticalagriculture:dark_metal_ingot_essence',
-        },
-        {
           item: 'mysticalagriculture:plutonium_essence',
         },
         {

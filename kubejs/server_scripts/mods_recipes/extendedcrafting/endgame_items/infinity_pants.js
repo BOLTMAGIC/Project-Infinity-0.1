@@ -88,7 +88,7 @@ ServerEvents.recipes((event) => {
           item: 'armorplus:ender_dragon_leggings',
         },
         Y: {
-          item: 'born_in_chaos_v1:nightmare_mantleofthe_night_leggings',
+          item: 'thunderrelics:royal_leggings',
         },
         Z: {
           item: 'cataclysm:ignitium_leggings',

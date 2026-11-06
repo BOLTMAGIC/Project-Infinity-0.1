@@ -23,7 +23,6 @@ ServerEvents.recipes((event) => {
         'minecraft:glistering_melon_slice',
         'bhc:blue_heart_melted',
         'bhc:blue_heart',
-        'born_in_chaos_v1:holiday_candy',
         'bosses_of_mass_destruction:crystal_fruit',
         'cyclic:apple_iron',
         'cyclic:apple_ender',

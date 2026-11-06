@@ -147,13 +147,7 @@ ServerEvents.recipes((event) => {
           item: 'hostilenetworks:prediction',
           count: 1,
           nbt: '{data_model:{id:"hostilenetworks:wither"}}',
-        },
-        {
-          type: 'forge:nbt',
-          item: 'hostilenetworks:prediction',
-          count: 1,
-          nbt: '{data_model:{id:"hostilenetworks:born_in_chaos/lord_pumpkinhead"}}',
-        },
+        }
       ],
       result: {
         item: 'kubejs:ultimate_boss_prediction',

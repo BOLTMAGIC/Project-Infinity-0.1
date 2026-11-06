@@ -94,7 +94,7 @@ ServerEvents.recipes((event) => {
           item: 'twilightforest:yeti_helmet',
         },
         a: {
-          item: 'born_in_chaos_v1:missionary_hat_helmet',
+          item: 'thunderrelics:royal_helmet',
         },
         b: {
           item: 'twilightforest:phantom_helmet',
@@ -109,13 +109,13 @@ ServerEvents.recipes((event) => {
           item: 'armorplus:super_star_helmet',
         },
         f: {
-          item: 'born_in_chaos_v1:dark_metal_armor_helmet',
+          item: 'aether_dragon:shaday_helmet',
         },
         g: {
           item: 'twilightforest:knightmetal_helmet',
         },
         h: {
-          item: 'born_in_chaos_v1:nightmare_mantleofthe_night_helmet',
+          item: 'mythicbotany:alfsteel_helmet',
         },
       },
       result: {

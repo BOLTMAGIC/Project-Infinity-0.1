@@ -16,7 +16,7 @@ ServerEvents.recipes((event) => {
       ],
       key: {
         A: {
-          item: 'born_in_chaos_v1:sharpened_dark_metal_sword',
+          item: 'thunderrelics:royal_glaive',
         },
         B: {
           item: 'thermal_extra:shellite_sword',

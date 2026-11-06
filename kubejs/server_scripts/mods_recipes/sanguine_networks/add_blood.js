@@ -27,8 +27,6 @@ ServerEvents.recipes((event) => {
       blood: [0, 25, 65, 95, 130],
       energy: 15000,
       entities: [
-        'born_in_chaos_v1:dire_hound_leader',
-        'born_in_chaos_v1:dark_vortex',
         'thermal:basalz',
         'thermal:blizz',
         'thermal:blitz',
@@ -58,7 +56,6 @@ ServerEvents.recipes((event) => {
       blood: [0, 40, 95, 145, 180],
       energy: 75000,
       entities: [
-        'born_in_chaos_v1:missioner',
         'twilightforest:alpha_yeti',
         'twilightforest:knight_phantom',
         'twilightforest:giant_miner',
@@ -78,7 +75,6 @@ ServerEvents.recipes((event) => {
         'bosses_of_mass_destruction:lich',
         'bosses_of_mass_destruction:obsidilith',
         'bosses_of_mass_destruction:void_blossom',
-        'born_in_chaos_v1:lord_pumpkinhead',
         'botania:doppleganger',
         'cataclysm:ender_golem',
         'cataclysm:ancient_remnant',

@@ -41,9 +41,9 @@ MMEvents.createProcesses((event) => {
       inputItem: 'avaritia:crystal_matrix_ingot',
       count: 125,
     },
-    dark_metal_ingot: {
-      inputItem: 'born_in_chaos_v1:dark_metal_block',
-      count: 278,
+    energized_superconductive_ingot: {
+      inputItem: 'neoecoae:energized_superconductive_ingot',
+      count: 12500,
     },
     diamond: {
       inputItem: 'compressium:diamond_2',
@@ -96,7 +96,7 @@ MMEvents.createProcesses((event) => {
       count: 2223,
     },
     ethereal_spirit: {
-      inputItem: 'born_in_chaos_v1:ethereal_spirit',
+      inputItem: 'botania:life_essence',
       count: 12500,
     },
     extreme_ingot: {

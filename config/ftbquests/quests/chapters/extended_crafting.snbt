@@ -1251,7 +1251,7 @@
 					Count: 1
 					id: "extendedcrafting:singularity"
 					tag: {
-						Id: "extendedcrafting:ethereal_spirit"
+						Id: "extendedcrafting:energized_superconductive_ingot"
 					}
 				}
 				match_nbt: true
@@ -1515,7 +1515,7 @@
 					Count: 1
 					id: "extendedcrafting:singularity"
 					tag: {
-						Id: "extendedcrafting:dark_metal_ingot"
+						Id: "extendedcrafting:life_essence"
 					}
 				}
 				match_nbt: true
@@ -3253,7 +3253,7 @@
 				item: "kubejs:sculk_alloy_ingot"
 				type: "item"
 			}]
-			x: 10.0d
+			x: 11.0d
 			y: -1.5d
 		}
 		{
@@ -3269,7 +3269,7 @@
 				item: "kubejs:voidmetal_ingot"
 				type: "item"
 			}]
-			x: 15.0d
+			x: 16.0d
 			y: -1.5d
 		}
 		{
@@ -3333,7 +3333,7 @@
 				item: "kubejs:bunny_steel_ingot"
 				type: "item"
 			}]
-			x: 11.0d
+			x: 12.0d
 			y: -1.5d
 		}
 		{
@@ -3349,7 +3349,7 @@
 				item: "kubejs:plasteel_ingot"
 				type: "item"
 			}]
-			x: 12.0d
+			x: 13.0d
 			y: -1.5d
 		}
 		{
@@ -3397,7 +3397,7 @@
 				item: "kubejs:arcmetal_ingot"
 				type: "item"
 			}]
-			x: 13.0d
+			x: 14.0d
 			y: -1.5d
 		}
 		{
@@ -3413,7 +3413,7 @@
 				item: "kubejs:solarmetal_ingot"
 				type: "item"
 			}]
-			x: 14.0d
+			x: 15.0d
 			y: -1.5d
 		}
 		{
@@ -3445,7 +3445,7 @@
 				item: "botania:terrasteel_ingot"
 				type: "item"
 			}]
-			x: 16.0d
+			x: 17.0d
 			y: -1.5d
 		}
 		{
@@ -3493,7 +3493,7 @@
 				item: "botania:elementium_ingot"
 				type: "item"
 			}]
-			x: 17.0d
+			x: 18.0d
 			y: -1.5d
 		}
 		{
@@ -3509,8 +3509,8 @@
 				item: "botania:gaia_ingot"
 				type: "item"
 			}]
-			x: 18.0d
-			y: -1.5d
+			x: 8.0d
+			y: -0.5d
 		}
 		{
 			id: "3865F30526797424"
@@ -3525,7 +3525,7 @@
 				item: "kubejs:midnight_iron_ingot"
 				type: "item"
 			}]
-			x: 9.0d
+			x: 10.0d
 			y: -1.5d
 		}
 		{
@@ -3541,7 +3541,7 @@
 				item: "dimensionalpocketsii:dimensional_ingot_enhanced"
 				type: "item"
 			}]
-			x: 8.0d
+			x: 9.0d
 			y: -0.5d
 		}
 		{
@@ -3653,7 +3653,7 @@
 				item: "pneumaticcraft:ingot_iron_compressed"
 				type: "item"
 			}]
-			x: 9.0d
+			x: 10.0d
 			y: -0.5d
 		}
 		{
@@ -3669,7 +3669,7 @@
 				item: "twilightforest:ironwood_ingot"
 				type: "item"
 			}]
-			x: 10.0d
+			x: 11.0d
 			y: -0.5d
 		}
 		{
@@ -3685,7 +3685,7 @@
 				item: "twilightforest:knightmetal_ingot"
 				type: "item"
 			}]
-			x: 11.0d
+			x: 12.0d
 			y: -0.5d
 		}
 		{
@@ -3701,7 +3701,7 @@
 				item: "twilightforest:fiery_ingot"
 				type: "item"
 			}]
-			x: 12.0d
+			x: 13.0d
 			y: -0.5d
 		}
 		{
@@ -3729,12 +3729,12 @@
 			}]
 			shape: "hexagon"
 			tasks: [{
-				id: "01D485F64358AA2F"
-				item: "born_in_chaos_v1:dark_metal_ingot"
+				id: "5864FB755526AFAC"
+				item: "justdirethings:blazegold_ingot"
 				type: "item"
 			}]
-			x: 13.0d
-			y: -0.5d
+			x: 8.0d
+			y: -1.5d
 		}
 		{
 			id: "32687AE635CC0FE1"
@@ -4649,7 +4649,7 @@
 				item: "justdirethings:eclipsealloy_ingot"
 				type: "item"
 			}]
-			x: 8.0d
+			x: 9.0d
 			y: -1.5d
 		}
 		{

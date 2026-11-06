@@ -20,7 +20,7 @@ ServerEvents.recipes((event) => {
           item: 'draconicevolution:wyvern_core',
         },
         C: {
-          item: 'born_in_chaos_v1:ethereal_spirit',
+          item: 'void_lords:energy_cell',
         },
         D: {
           item: 'draconicevolution:small_chaos_frag',

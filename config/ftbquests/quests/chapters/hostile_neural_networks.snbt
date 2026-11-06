@@ -1616,70 +1616,6 @@
 		}
 		{
 			dependencies: ["14B3542ECB59869C"]
-			id: "3DAE0AAC1B00DC16"
-			rewards: [
-				{
-					id: "5B1C08C4A47D77CC"
-					type: "xp"
-					xp: 50
-				}
-				{
-					id: "4E2DF1502AB92DBE"
-					item: "kubejs:apotheotic_coin"
-					type: "item"
-				}
-			]
-			tasks: [{
-				id: "2A011D21DACC7C0A"
-				item: {
-					Count: 1
-					id: "hostilenetworks:prediction"
-					tag: {
-						data_model: {
-							id: "hostilenetworks:born_in_chaos/dark_vortex"
-						}
-					}
-				}
-				match_nbt: true
-				type: "item"
-			}]
-			x: -5.5d
-			y: 12.5d
-		}
-		{
-			dependencies: ["14B3542ECB59869C"]
-			id: "0FB1999626E6BE91"
-			rewards: [
-				{
-					id: "09349835F8255DF3"
-					type: "xp"
-					xp: 50
-				}
-				{
-					id: "50DE8A8032EE6040"
-					item: "kubejs:apotheotic_coin"
-					type: "item"
-				}
-			]
-			tasks: [{
-				id: "331CE2D12E4435C0"
-				item: {
-					Count: 1
-					id: "hostilenetworks:prediction"
-					tag: {
-						data_model: {
-							id: "hostilenetworks:born_in_chaos/dire_hound_leader"
-						}
-					}
-				}
-				match_nbt: true
-				type: "item"
-			}]
-			x: -2.5d
-			y: 11.5d
-		}
-		{
-			dependencies: ["14B3542ECB59869C"]
 			id: "3BC36E66A25BE409"
 			rewards: [
 				{
@@ -2027,8 +1963,8 @@
 				match_nbt: true
 				type: "item"
 			}]
-			x: -3.0d
-			y: 18.5d
+			x: -2.5d
+			y: 11.5d
 		}
 		{
 			dependencies: ["14B3542ECB59869C"]
@@ -2524,7 +2460,6 @@
 				"1B0F2AEB913BD3D1"
 				"473143213D0B330B"
 				"4B9FA6ACD48E7FAD"
-				"3DAE0AAC1B00DC16"
 				"78EE970AE4954E64"
 				"1C77C432FDB7A867"
 				"35684CFF37366F34"
@@ -2550,7 +2485,6 @@
 				"5905241071D1960A"
 				"3B85E2D0774F53CA"
 				"24157BFA5B85DCBA"
-				"0FB1999626E6BE91"
 				"2C6D0311960BC625"
 				"68153B68FA878DAE"
 				"5AE5D2F42A75FEB1"
@@ -2579,15 +2513,12 @@
 				"60DF1E309C61BAF8"
 				"77E99195D495A01F"
 				"1D35AF8EB12AC817"
-				"288336487A6E909C"
-				"14B643094C08155A"
 				"594619EB772D66D6"
 				"31F9C2F89E2999A3"
 				"781D9FF888063BE3"
 				"7D297E6E96ED222B"
 				"3079968FBAE16A13"
 				"53BD6FD6895D3332"
-				"557A735F03952B37"
 				"11F89517B10284E7"
 				"0A3CD5FC93519E9A"
 				"6707FEF3D2EA068E"
@@ -2602,7 +2533,6 @@
 				"0A55D28869FD1E3C"
 				"2A803A69722143D7"
 				"3CB6355AD1AC2161"
-				"2DB815F43FEC7284"
 				"568B3D8A3B4BF46E"
 				"6609826CA4A14763"
 				"06DFF343185B196E"
@@ -2612,7 +2542,6 @@
 				"70960FD26474069C"
 				"4BD42180CDAEF949"
 				"07D5CD2D4F6A1827"
-				"298DC28266064CBC"
 				"015793FE7E94F20B"
 				"17E3F67BEB060129"
 				"4A697536C4C29CA5"
@@ -2649,7 +2578,6 @@
 				"08F27B1F8C2BB530"
 				"687C7C69170EBBED"
 				"59C99BD278F86994"
-				"2CB8298248812440"
 				"3324EB394FE52A06"
 				"507FB6EA46D8E15B"
 				"4F28D7DA6E0177B8"
@@ -2677,74 +2605,6 @@
 			}]
 			x: -9.357142857142861d
 			y: 21.398809523809526d
-		}
-		{
-			dependencies: ["14B3542ECB59869C"]
-			hide_until_deps_visible: false
-			id: "288336487A6E909C"
-			optional: true
-			rewards: [
-				{
-					id: "785D91B1B3834CBB"
-					type: "xp"
-					xp: 50
-				}
-				{
-					id: "4AF1BE7F0C919D5C"
-					item: "kubejs:apotheotic_coin"
-					type: "item"
-				}
-			]
-			tasks: [{
-				id: "3FA39A0581D586ED"
-				item: {
-					Count: 1
-					id: "hostilenetworks:prediction"
-					tag: {
-						data_model: {
-							id: "hostilenetworks:born_in_chaos/lord_pumpkinhead"
-						}
-					}
-				}
-				match_nbt: true
-				type: "item"
-			}]
-			x: -6.0d
-			y: 16.5d
-		}
-		{
-			dependencies: ["14B3542ECB59869C"]
-			hide_until_deps_visible: false
-			id: "14B643094C08155A"
-			optional: true
-			rewards: [
-				{
-					id: "4FCED5C2320A1EFC"
-					type: "xp"
-					xp: 50
-				}
-				{
-					id: "4E9FCE828BD22AE8"
-					item: "kubejs:apotheotic_coin"
-					type: "item"
-				}
-			]
-			tasks: [{
-				id: "1C4B5D224E5B343C"
-				item: {
-					Count: 1
-					id: "hostilenetworks:prediction"
-					tag: {
-						data_model: {
-							id: "hostilenetworks:born_in_chaos/missioner"
-						}
-					}
-				}
-				match_nbt: true
-				type: "item"
-			}]
-			x: 1.0d
-			y: 16.5d
 		}
 		{
 			dependencies: ["14B3542ECB59869C"]
@@ -2811,8 +2671,8 @@
 				match_nbt: true
 				type: "item"
 			}]
-			x: -2.0d
-			y: 18.5d
+			x: -6.0d
+			y: 16.5d
 		}
 		{
 			dependencies: ["14B3542ECB59869C"]
@@ -2945,8 +2805,8 @@
 				match_nbt: true
 				type: "item"
 			}]
-			x: -6.0d
-			y: 17.5d
+			x: -5.5d
+			y: 12.5d
 		}
 		{
 			dependencies: ["14B3542ECB59869C"]
@@ -2978,7 +2838,7 @@
 				type: "item"
 			}]
 			x: 1.0d
-			y: 17.5d
+			y: 16.5d
 		}
 		{
 			dependencies: ["6C878E306E620FAE"]
@@ -3210,8 +3070,8 @@
 				match_nbt: true
 				type: "item"
 			}]
-			x: -16.5d
-			y: 18.5d
+			x: -16.0d
+			y: 11.5d
 		}
 		{
 			dependencies: ["14B3542ECB59869C"]
@@ -3799,31 +3659,6 @@
 		}
 		{
 			dependencies: ["14B3542ECB59869C"]
-			id: "298DC28266064CBC"
-			rewards: [{
-				id: "70113AF3917AF7D4"
-				type: "xp"
-				xp: 50
-			}]
-			tasks: [{
-				id: "3F1AF05A4EA01E6D"
-				item: {
-					Count: 1
-					id: "hostilenetworks:data_model"
-					tag: {
-						data_model: {
-							id: "hostilenetworks:born_in_chaos/dire_hound_leader"
-						}
-					}
-				}
-				match_nbt: true
-				type: "item"
-			}]
-			x: -16.0d
-			y: 11.5d
-		}
-		{
-			dependencies: ["14B3542ECB59869C"]
 			id: "4F92EE684C7AEE45"
 			rewards: [{
 				id: "7FD1AF8EE09AA32A"
@@ -3895,31 +3730,6 @@
 				type: "item"
 			}]
 			x: -20.0d
-			y: 12.5d
-		}
-		{
-			dependencies: ["14B3542ECB59869C"]
-			id: "557A735F03952B37"
-			rewards: [{
-				id: "0BFB711B67A4BB7A"
-				type: "xp"
-				xp: 50
-			}]
-			tasks: [{
-				id: "5AFE710623D40CA1"
-				item: {
-					Count: 1
-					id: "hostilenetworks:data_model"
-					tag: {
-						data_model: {
-							id: "hostilenetworks:born_in_chaos/dark_vortex"
-						}
-					}
-				}
-				match_nbt: true
-				type: "item"
-			}]
-			x: -19.0d
 			y: 12.5d
 		}
 		{
@@ -4425,31 +4235,6 @@
 		}
 		{
 			dependencies: ["14B3542ECB59869C"]
-			id: "2CB8298248812440"
-			rewards: [{
-				id: "08C925942EECF7BA"
-				type: "xp"
-				xp: 50
-			}]
-			tasks: [{
-				id: "0DDA467E94CF745F"
-				item: {
-					Count: 1
-					id: "hostilenetworks:data_model"
-					tag: {
-						data_model: {
-							id: "hostilenetworks:born_in_chaos/lord_pumpkinhead"
-						}
-					}
-				}
-				match_nbt: true
-				type: "item"
-			}]
-			x: -19.5d
-			y: 16.5d
-		}
-		{
-			dependencies: ["14B3542ECB59869C"]
 			id: "599061305CDE3B68"
 			rewards: [{
 				id: "1BDB75FBCCD07605"
@@ -4525,31 +4310,6 @@
 		}
 		{
 			dependencies: ["14B3542ECB59869C"]
-			id: "2DB815F43FEC7284"
-			rewards: [{
-				id: "7655FCC973A4B3B2"
-				type: "xp"
-				xp: 50
-			}]
-			tasks: [{
-				id: "3DEDDED9BFA87A00"
-				item: {
-					Count: 1
-					id: "hostilenetworks:data_model"
-					tag: {
-						data_model: {
-							id: "hostilenetworks:born_in_chaos/missioner"
-						}
-					}
-				}
-				match_nbt: true
-				type: "item"
-			}]
-			x: -12.5d
-			y: 16.5d
-		}
-		{
-			dependencies: ["14B3542ECB59869C"]
 			id: "1524A18B83113DEB"
 			rewards: [{
 				id: "4D9FD08E5A2940E2"
@@ -4570,8 +4330,8 @@
 				match_nbt: true
 				type: "item"
 			}]
-			x: -19.5d
-			y: 17.5d
+			x: -19.0d
+			y: 12.5d
 		}
 		{
 			dependencies: ["14B3542ECB59869C"]
@@ -4671,7 +4431,7 @@
 				type: "item"
 			}]
 			x: -12.5d
-			y: 17.5d
+			y: 16.5d
 		}
 		{
 			dependencies: ["14B3542ECB59869C"]
@@ -4720,8 +4480,8 @@
 				match_nbt: true
 				type: "item"
 			}]
-			x: -15.5d
-			y: 18.5d
+			x: -19.5d
+			y: 16.5d
 		}
 		{
 			dependencies: ["14B3542ECB59869C"]

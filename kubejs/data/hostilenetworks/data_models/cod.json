@@ -25,10 +25,6 @@
         {
             "item": "minecraft:bone_meal",
             "count": 2
-        },
-        {
-            "item": "born_in_chaos_v1:rotten_fish",
-            "count": 4
         }
     ],
     "tier_data": [

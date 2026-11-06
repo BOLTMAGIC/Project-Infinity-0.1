@@ -182,7 +182,7 @@ ServerEvents.recipes((event) => {
           type: 'forge:nbt',
           item: 'extendedcrafting:singularity',
           count: 1,
-          nbt: '{Id:"extendedcrafting:ethereal_spirit"}',
+          nbt: '{Id:"extendedcrafting:life_essence"}',
         },
         {
           type: 'forge:nbt',
@@ -416,7 +416,7 @@ ServerEvents.recipes((event) => {
           type: 'forge:nbt',
           item: 'extendedcrafting:singularity',
           count: 1,
-          nbt: '{Id:"extendedcrafting:dark_metal_ingot"}',
+          nbt: '{Id:"extendedcrafting:energized_superconductive_ingot"}',
         },
         {
           type: 'forge:nbt',

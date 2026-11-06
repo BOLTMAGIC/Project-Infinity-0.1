@@ -23,7 +23,7 @@ ServerEvents.recipes((event) => {
           item: 'kubejs:infinity_7',
         },
         B: {
-          item: 'mysticalagriculture:dark_metal_ingot_seeds',
+          item: 'kubejs:tier6_crafting_seed',
         },
         C: {
           item: 'mysticalagriculture:plutonium_seeds',

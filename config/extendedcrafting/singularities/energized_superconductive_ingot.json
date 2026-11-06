@@ -1,0 +1,11 @@
+{
+  "name": "singularity.extendedcrafting.energized_superconductive_ingot",
+  "colors": [
+    "006aff",
+    "00fff7"
+  ],
+  "ingredient": {
+    "item": "neoecoae:energized_superconductive_ingot"
+  },
+  "materialCount": 12500
+}

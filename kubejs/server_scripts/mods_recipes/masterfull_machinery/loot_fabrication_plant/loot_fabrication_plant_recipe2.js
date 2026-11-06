@@ -38,27 +38,6 @@
       { item: 'bosses_of_mass_destruction:crystal_fruit', outCount: 1 },
     ],
 
-    'born_in_chaos/dark_vortex': [
-      { item: 'born_in_chaos_v1:ethereal_spirit', outCount: 4 },
-    ],
-
-    'born_in_chaos/dire_hound_leader': [
-      { item: 'born_in_chaos_v1:monster_flesh', outCount: 32 },
-      { item: 'born_in_chaos_v1:fangofthe_hound_leader', outCount: 8 },
-    ],
-
-    'born_in_chaos/lord_pumpkinhead': [
-      { item: 'born_in_chaos_v1:lord_pumpkinheads_lamp', outCount: 1 },
-      { item: 'minecraft:pumpkin_seeds', outCount: 64 },
-      { item: 'born_in_chaos_v1:holiday_candy', outCount: 16 },
-    ],
-
-    'born_in_chaos/missioner': [
-      { item: 'born_in_chaos_v1:pieceofdarkmetal', outCount: 3 },
-      { item: 'born_in_chaos_v1:ethereal_spirit', outCount: 1 },
-      { item: 'bhc:red_heart', outCount: 1 },
-    ],
-
     'botania/gaia_spirit': [{ item: 'botania:life_essence', outCount: 1 }],
 
     'cataclysm/ancient_remnant': [
@@ -88,7 +67,6 @@
     cod: [
       { item: 'minecraft:cod', outCount: 32 },
       { item: 'minecraft:bone_meal', outCount: 2 },
-      { item: 'born_in_chaos_v1:rotten_fish', outCount: 4 },
     ],
 
     cow: [
@@ -369,7 +347,6 @@
       { item: 'minecraft:carrot', outCount: 16 },
       { item: 'minecraft:potato', outCount: 16 },
       { item: 'bhc:red_heart', outCount: 1 },
-      { item: 'born_in_chaos_v1:rotten_fish', outCount: 16 },
     ],
 
     zombified_piglin: [

@@ -38,11 +38,6 @@ armorplus:ore_frost_crystal_stone
 armorplus:ore_lava_crystal
 armorplus:ore_lava_crystal_obsidian
 armorplus:ore_lava_crystal_stone
-born_in_chaos_v1:black_argillite
-born_in_chaos_v1:infected_deepslate_diamond_ore_feature
-born_in_chaos_v1:infected_diamond_ore_feature
-born_in_chaos_v1:marigolds
-born_in_chaos_v1:river_mint
 botania:black_mystical_flower_patch
 botania:blue_mystical_flower_patch
 botania:brown_mystical_flower_patch

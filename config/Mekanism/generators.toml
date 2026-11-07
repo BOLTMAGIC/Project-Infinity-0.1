@@ -71,7 +71,7 @@
 		#Range: -2032 ~ 2030
 		minY = 24
 		#The maximum Y value that affects the Wind Generators Power generation. This value gets clamped at the world's logical height.
-		maxY = 2031
+		maxY = 312
 		#The list of dimension ids that the Wind Generator will not generate power in.
 		windGenerationDimBlacklist = []
 

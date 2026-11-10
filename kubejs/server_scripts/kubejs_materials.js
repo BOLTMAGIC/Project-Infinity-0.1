@@ -171,16 +171,6 @@ ServerEvents.recipes((event) => {
     'pneumaticcraft:plastic',
   ]);
 
-  shapeless(
-    event,
-    'compactmekanismmachines:compressed_wind_generator_x532480',
-    [
-      'compactmekanismmachines:compressed_wind_generator_x131072',
-      'compactmekanismmachines:compressed_wind_generator_x131072',
-      'kubejs:infinity_10',
-    ]
-  );
-
   create3x3(event, 'kubejs:chaotic_essence', [
     'draconicevolution:medium_chaos_frag',
     'draconicevolution:medium_chaos_frag',

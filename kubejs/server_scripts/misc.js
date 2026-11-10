@@ -201,14 +201,6 @@ ServerEvents.recipes((event) => {
     'ironfurnaces:netherite_furnace',
   ]);
 
-  shapeless(event, 'lrdynamicdungeon:dungeon_pass', [
-    'minecraft:paper',
-    'minecraft:paper',
-    'minecraft:paper',
-    '#lrdynamicdungeon:monster_parts',
-    'mekanism:alloy_reinforced',
-  ]);
-
   create3x3(event, Item.of('twilightforest:quest_ram_trophy', 4), [
     'twilightforest:naga_trophy',
     'twilightforest:lich_trophy',

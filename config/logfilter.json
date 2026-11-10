@@ -189,13 +189,6 @@
     {
       "name": "Suppress",
       "enabled": true,
-      "type": "LOGGER_REGEX",
-      "pattern": "com.lrdynamicdungeon.init.AttributeTweaks:expandMaxHealth:15",
-      "action": "DENY"
-    },
-    {
-      "name": "Suppress",
-      "enabled": true,
       "type": "MESSAGE_REGEX",
       "pattern": "Failed to load book",
       "action": "DENY"
@@ -437,13 +430,6 @@
       "enabled": true,
       "type": "MESSAGE_REGEX",
       "pattern": "Method overwrite conflict for removeIf",
-      "action": "DENY"
-    },
-    {
-      "name": "Suppress",
-      "enabled": true,
-      "type": "LOGGER_REGEX",
-      "pattern": "com.lrdynamicdungeon.world.DungeonController",
       "action": "DENY"
     },
     {

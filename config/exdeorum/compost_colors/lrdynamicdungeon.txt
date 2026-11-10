@@ -1,5 +1,0 @@
-// Compost colors for lrdynamicdungeon. You may add your own colors, change existing ones, or remove colors that aren't needed.
-challenger_pass, #ffaee6
-dungeon_pass, #ffffa5
-dungeon_refill, #deffff
-stage_refill, #feffff

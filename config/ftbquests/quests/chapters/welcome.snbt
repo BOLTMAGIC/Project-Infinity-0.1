@@ -982,32 +982,6 @@
 			y: -3.0d
 		}
 		{
-			dependencies: ["349588784C2748E2"]
-			description: ["{ftbquests.chapter.welcome.quest34.image0}"]
-			id: "2BD5A176D1FF28AB"
-			rewards: [{
-				id: "2A648285011CC925"
-				item: "kubejs:apotheotic_coin"
-				type: "item"
-			}]
-			tasks: [
-				{
-					count: 14L
-					id: "10300058D430D399"
-					item: "minecraft:chiseled_stone_bricks"
-					type: "item"
-				}
-				{
-					id: "6C45E476C627EF68"
-					item: "lrdynamicdungeon:dungeon_pass"
-					type: "item"
-				}
-			]
-			title: "{ftbquests.chapter.welcome.quest34.title}"
-			x: 1.0d
-			y: 3.0d
-		}
-		{
 			dependencies: ["23BDBBD3001F9774"]
 			id: "7717A3BEE456FEEE"
 			rewards: [{
@@ -1263,8 +1237,8 @@
 				item: "jamd:nether_portal"
 				type: "item"
 			}]
-			x: 2.5d
-			y: 4.0d
+			x: 1.5d
+			y: 3.0d
 		}
 		{
 			dependencies: ["349588784C2748E2"]
@@ -1280,8 +1254,8 @@
 				item: "jamd:end_portal"
 				type: "item"
 			}]
-			x: 3.5d
-			y: 4.0d
+			x: 2.5d
+			y: 3.5d
 		}
 		{
 			dependencies: ["768F0E715B05D9E4"]

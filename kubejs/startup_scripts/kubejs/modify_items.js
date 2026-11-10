@@ -3,10 +3,6 @@ ItemEvents.modification((event) => {
     item.maxStackSize = 64;
   });
 
-  event.modify('dimensionalpocketsii:dimensional_ingot_enhanced', (item) => {
-    item.maxStackSize = 64;
-  });
-
   event.modify('cataclysm:void_core', (item) => {
     item.maxStackSize = 64;
   });

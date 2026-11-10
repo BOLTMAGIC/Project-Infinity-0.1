@@ -28,7 +28,7 @@ ServerEvents.recipes((event) => {
           item: 'avaritia:infinity_ingot',
         },
         E: {
-          item: 'dimensionalpocketsii:dimensional_sword',
+          item: 'avaritia:crystal_sword',
         },
         F: {
           item: 'ae2:fluix_sword',
@@ -52,7 +52,7 @@ ServerEvents.recipes((event) => {
           item: 'kubejs:chaotic_sword',
         },
         M: {
-          item: 'dimensionalpocketsii:dimensional_sword_enhanced',
+          item: 'twilightforest:glass_sword',
         },
         N: {
           item: 'thermal_extra:twinite_sword',

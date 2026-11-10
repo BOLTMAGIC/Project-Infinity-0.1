@@ -94,7 +94,6 @@ ServerEvents.recipes((event) => {
     'minecraft:iron_nugget': 0.2,
     'minecraft:gold_nugget': 0.1,
     'minecraft:blaze_powder': 0.15,
-    'dimensionalpocketsii:dimensional_shard': 0.04,
   };
 
   Object.entries(drops).forEach(([drops, base_chance]) => {
@@ -126,7 +125,6 @@ ServerEvents.recipes((event) => {
     'minecraft:gold_nugget': 0.15,
     'minecraft:blaze_powder': 0.2,
     'rftoolsbase:dimensionalshard': 0.1,
-    'dimensionalpocketsii:dimensional_shard': 0.1,
   };
 
   Object.entries(drops).forEach(([drops, base_chance]) => {
@@ -158,7 +156,6 @@ ServerEvents.recipes((event) => {
     'minecraft:gold_nugget': 0.23,
     'minecraft:blaze_powder': 0.35,
     'rftoolsbase:dimensionalshard': 0.2,
-    'dimensionalpocketsii:dimensional_shard': 0.2,
   };
 
   Object.entries(drops).forEach(([drops, base_chance]) => {
@@ -190,7 +187,6 @@ ServerEvents.recipes((event) => {
     'minecraft:gold_nugget': 0.3,
     'minecraft:blaze_powder': 0.45,
     'rftoolsbase:dimensionalshard': 0.25,
-    'dimensionalpocketsii:dimensional_shard': 0.25,
   };
 
   Object.entries(drops).forEach(([drops, base_chance]) => {
@@ -222,7 +218,6 @@ ServerEvents.recipes((event) => {
     'minecraft:gold_nugget': 0.4,
     'minecraft:blaze_powder': 0.55,
     'rftoolsbase:dimensionalshard': 0.35,
-    'dimensionalpocketsii:dimensional_shard': 0.35,
   };
 
   Object.entries(drops).forEach(([drops, base_chance]) => {

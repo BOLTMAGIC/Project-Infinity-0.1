@@ -1,0 +1,11 @@
+{
+  "name": "singularity.extendedcrafting.element_ingot",
+  "colors": [
+    "a63d35",
+    "2a7526"
+  ],
+  "ingredient": {
+    "item": "kubejs:element_ingot"
+  },
+  "materialCount": 15000
+}

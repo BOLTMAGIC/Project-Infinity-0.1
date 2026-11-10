@@ -392,4 +392,35 @@ ServerEvents.recipes((event) => {
     'ae2:item_cell_housing',
     'projecte:red_matter_block',
   ]);
+
+  shapeless(event, '3x kubejs:starmetal_dust', [
+    'kubejs:blaze_gold_dust',
+    '2x kubejs:azure_silver_dust',
+    'kubejs:azure_electrum_dust',
+    'ender_dragon_loot:dragon_shard',
+  ]);
+
+  create3x3(event, 'entangled:block', [
+    'allthemodium:allthemodium_ingot',
+    'minecraft:obsidian',
+    'minecraft:ender_pearl',
+    'minecraft:obsidian',
+    'minecraft:nether_star',
+    'minecraft:obsidian',
+    'minecraft:ender_pearl',
+    'minecraft:obsidian',
+    'allthemodium:allthemodium_ingot',
+  ]);
+
+  create3x3(event, 'entangled:block', [
+    'minecraft:obsidian',
+    'allthemodium:allthemodium_ingot',
+    'minecraft:obsidian',
+    'minecraft:ender_pearl',
+    'minecraft:nether_star',
+    'minecraft:ender_pearl',
+    'minecraft:obsidian',
+    'allthemodium:allthemodium_ingot',
+    'minecraft:obsidian',
+  ]);
 });

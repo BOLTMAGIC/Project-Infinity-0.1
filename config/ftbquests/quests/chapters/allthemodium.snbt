@@ -793,7 +793,7 @@
 			}]
 			tasks: [{
 				id: "2A181F9EBF80BBFD"
-				item: "dimensionalpocketsii:dimensional_ingot_enhanced"
+				item: "kubejs:element_ingot"
 				type: "item"
 			}]
 			x: -2.0d
@@ -840,7 +840,7 @@
 			}]
 			tasks: [{
 				id: "210DA11F6C7395C5"
-				item: "dimensionalpocketsii:nether_star_shard"
+				item: "ender_dragon_loot:dragon_shard"
 				type: "item"
 			}]
 			x: 4.0d

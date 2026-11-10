@@ -64,7 +64,7 @@ ServerEvents.recipes((event) => {
           item: 'thermal_extra:enderium_pickaxe',
         },
         Q: {
-          item: 'dimensionalpocketsii:dimensional_pickaxe',
+          item: 'twilightforest:knightmetal_pickaxe',
         },
         R: {
           item: 'armorplus:super_star_pickaxe',
@@ -88,7 +88,7 @@ ServerEvents.recipes((event) => {
           item: 'bloodmagic:soulpickaxe',
         },
         Y: {
-          item: 'dimensionalpocketsii:dimensional_pickaxe_enhanced',
+          item: 'neoecoae:aluminum_pickaxe',
         },
         Z: {
           item: 'armorplus:infused_lava_pickaxe',

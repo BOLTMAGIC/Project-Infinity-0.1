@@ -25,10 +25,10 @@ ServerEvents.recipes((event) => {
           item: 'avaritia:infinity_catalyst',
         },
         D: {
-          item: 'dimensionalpocketsii:dimensional_leggings',
+          item: 'botania:elementium_leggings',
         },
         E: {
-          item: 'dimensionalpocketsii:dimensional_leggings_enhanced',
+          item: 'thermal:hazmat_leggings',
         },
         F: {
           item: 'armorplus:infused_lava_leggings',

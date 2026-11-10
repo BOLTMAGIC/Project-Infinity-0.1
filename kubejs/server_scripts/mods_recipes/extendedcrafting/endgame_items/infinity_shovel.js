@@ -67,7 +67,7 @@ ServerEvents.recipes((event) => {
           item: 'mysticalagriculture:tertium_shovel',
         },
         R: {
-          item: 'dimensionalpocketsii:dimensional_shovel',
+          item: 'twilightforest:steeleaf_shovel',
         },
         S: {
           item: 'thermal_extra:soul_infused_shovel',
@@ -94,7 +94,7 @@ ServerEvents.recipes((event) => {
           item: 'allthemodium:allthemodium_shovel',
         },
         1: {
-          item: 'dimensionalpocketsii:dimensional_shovel_enhanced',
+          item: 'justdirethings:blazegold_shovel',
         },
         2: {
           item: 'mysticalagriculture:imperium_shovel',

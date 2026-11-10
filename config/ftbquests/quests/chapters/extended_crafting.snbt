@@ -3538,7 +3538,7 @@
 			shape: "hexagon"
 			tasks: [{
 				id: "01A7D76F038D2CDF"
-				item: "dimensionalpocketsii:dimensional_ingot_enhanced"
+				item: "nuclearcraft:chromium_ingot"
 				type: "item"
 			}]
 			x: 9.0d

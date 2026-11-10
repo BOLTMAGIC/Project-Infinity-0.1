@@ -22,13 +22,13 @@ ServerEvents.recipes((event) => {
           item: 'avaritia:neutron_ingot',
         },
         C: {
-          item: 'dimensionalpocketsii:dimensional_chestplate_enhanced',
+          item: 'thunderrelics:royal_chestplate',
         },
         D: {
           item: 'twilightforest:naga_chestplate',
         },
         E: {
-          item: 'dimensionalpocketsii:dimensional_elytraplate',
+          item: 'thermal:hazmat_chestplate',
         },
         F: {
           item: 'allthemodium:unobtainium_chestplate',

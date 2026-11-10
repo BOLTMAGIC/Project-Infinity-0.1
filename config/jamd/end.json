@@ -452,45 +452,6 @@
       ]
     },
     {
-      "ore_size": 12,
-      "discard_on_air_chance": 0.0,
-      "modifiers": [
-        {
-          "count": 20,
-          "type": "minecraft:count"
-        },
-        {
-          "type": "minecraft:in_square"
-        },
-        {
-          "height": {
-            "min_inclusive": {
-              "absolute": 0
-            },
-            "max_inclusive": {
-              "absolute": 128
-            },
-            "type": "minecraft:uniform"
-          },
-          "type": "minecraft:height_range"
-        },
-        {
-          "type": "minecraft:biome"
-        }
-      ],
-      "targets": [
-        {
-          "target": {
-            "block": "minecraft:end_stone",
-            "predicate_type": "minecraft:block_match"
-          },
-          "state": {
-            "Name": "dimensionalpocketsii:block_dimensional_ore_end"
-          }
-        }
-      ]
-    },
-    {
       "ore_size": 0,
       "discard_on_air_chance": 0.0,
       "modifiers": [

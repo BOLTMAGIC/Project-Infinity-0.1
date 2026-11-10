@@ -52,13 +52,13 @@ ServerEvents.recipes((event) => {
           item: 'mysticaladaptations:insanium_helmet',
         },
         M: {
-          item: 'dimensionalpocketsii:dimensional_helmet',
+          item: 'pneumaticcraft:pneumatic_helmet',
         },
         N: {
           item: 'allthemodium:vibranium_helmet',
         },
         O: {
-          item: 'dimensionalpocketsii:dimensional_helmet_enhanced',
+          item: 'thermal:hazmat_helmet',
         },
         P: {
           item: 'allthemodium:allthemodium_helmet',

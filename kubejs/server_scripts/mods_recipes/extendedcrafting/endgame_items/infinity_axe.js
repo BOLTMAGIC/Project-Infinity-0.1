@@ -55,7 +55,7 @@ ServerEvents.recipes((event) => {
           item: 'allthemodium:alloy_axe',
         },
         N: {
-          item: 'dimensionalpocketsii:dimensional_axe',
+          item: 'neoecoae:aluminum_alloy_axe',
         },
         O: {
           item: 'ender_dragon_loot:dragon_axe',
@@ -100,7 +100,7 @@ ServerEvents.recipes((event) => {
           item: 'mysticaladaptations:insanium_axe',
         },
         c: {
-          item: 'dimensionalpocketsii:dimensional_axe_enhanced',
+          item: 'twilightforest:knightmetal_axe',
         },
         d: {
           item: 'armorplus:infused_lava_battle_axe',

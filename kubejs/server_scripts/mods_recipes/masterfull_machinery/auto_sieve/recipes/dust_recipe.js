@@ -99,15 +99,6 @@ MMEvents.createProcesses((event) => {
         item: 'rftoolsbase:dimensionalshard',
         count: 1,
       },
-    })
-    .output({
-      type: 'mm:output/simple',
-      chance: 0.2,
-      ingredient: {
-        type: 'mm:item',
-        item: 'dimensionalpocketsii:dimensional_shard',
-        count: 1,
-      },
     });
 
   event
@@ -207,15 +198,6 @@ MMEvents.createProcesses((event) => {
       ingredient: {
         type: 'mm:item',
         item: 'rftoolsbase:dimensionalshard',
-        count: 4,
-      },
-    })
-    .output({
-      type: 'mm:output/simple',
-      chance: 0.2,
-      ingredient: {
-        type: 'mm:item',
-        item: 'dimensionalpocketsii:dimensional_shard',
         count: 4,
       },
     });
@@ -319,15 +301,6 @@ MMEvents.createProcesses((event) => {
         item: 'rftoolsbase:dimensionalshard',
         count: 16,
       },
-    })
-    .output({
-      type: 'mm:output/simple',
-      chance: 0.2,
-      ingredient: {
-        type: 'mm:item',
-        item: 'dimensionalpocketsii:dimensional_shard',
-        count: 16,
-      },
     });
 
   event
@@ -427,15 +400,6 @@ MMEvents.createProcesses((event) => {
       ingredient: {
         type: 'mm:item',
         item: 'rftoolsbase:dimensionalshard',
-        count: 64,
-      },
-    })
-    .output({
-      type: 'mm:output/simple',
-      chance: 0.2,
-      ingredient: {
-        type: 'mm:item',
-        item: 'dimensionalpocketsii:dimensional_shard',
         count: 64,
       },
     });

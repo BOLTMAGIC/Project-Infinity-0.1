@@ -52,7 +52,7 @@ ServerEvents.recipes((event) => {
           item: 'thunderrelics:royal_boots',
         },
         M: {
-          item: 'aether_dragon:aether_dragon_flute',
+          item: 'thermal_extra:abyssal_boots',
         },
         N: {
           item: 'twilightforest:yeti_boots',
@@ -85,10 +85,10 @@ ServerEvents.recipes((event) => {
           item: 'twilightforest:fiery_boots',
         },
         X: {
-          item: 'dimensionalpocketsii:dimensional_boots',
+          item: 'thermal_extra:twinite_boots',
         },
         Y: {
-          item: 'dimensionalpocketsii:dimensional_boots_enhanced',
+          item: 'twilightforest:ironwood_boots',
         },
         Z: {
           item: 'thermal:diving_boots',

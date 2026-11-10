@@ -45,6 +45,7 @@ This will break all old crazyAE2 multiblocks!
     - RS Insert Export Upgrade
     - RSInfinityBooster
     - Dimensional Pockets II
+    - Cosmos Library (for Dim Pockets II)
     - Dynamic Dungeons
     - RFTools Dim
     - RFTools Power
@@ -67,7 +68,7 @@ Recipe changes and fixes:
 - removed curvy energy pipes
 - changed botany pots upgrades from 2x, 6x, 10x to 2x, 3x, 4x
 - added fake creative jetpack
-- changed recipes of all compressed generator tiers (Thx to KYO297!!!
+- changed recipes of all compressed generator tiers (Thx to KYO297!!!)
 - 
 
 Quests changes:

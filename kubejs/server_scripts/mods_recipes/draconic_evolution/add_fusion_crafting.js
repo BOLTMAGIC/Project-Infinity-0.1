@@ -83,7 +83,7 @@ ServerEvents.recipes((event) => {
           item: 'draconicevolution:awakened_core',
         },
         {
-          item: 'dimensionalpocketsii:dimensional_ingot_enhanced',
+          item: 'kubejs:element_ingot',
         },
       ],
       result: {

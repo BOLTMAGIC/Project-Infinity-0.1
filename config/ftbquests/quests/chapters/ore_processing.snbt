@@ -3,7 +3,7 @@
 	default_quest_shape: ""
 	filename: "ore_processing"
 	group: "29543B666C58207C"
-	icon: "dimensionalpocketsii:module_furnace"
+	icon: "minecraft:furnace"
 	id: "37AB42FA8DAE38F0"
 	images: [
 		{
@@ -736,21 +736,6 @@
 			}]
 			x: 2.0d
 			y: 5.5d
-		}
-		{
-			id: "59232C7F8D5484ED"
-			rewards: [{
-				id: "1439DBCE95B65360"
-				item: "kubejs:apotheotic_coin"
-				type: "item"
-			}]
-			tasks: [{
-				id: "6C1B4BFF3A608B85"
-				item: "dimensionalpocketsii:module_furnace"
-				type: "item"
-			}]
-			x: 2.0d
-			y: 6.5d
 		}
 		{
 			id: "76CF1421EE174866"

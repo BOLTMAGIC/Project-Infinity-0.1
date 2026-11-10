@@ -60,7 +60,7 @@ ServerEvents.recipes((event) => {
         'botania:terrasteel_ingot',
         'botania:elementium_ingot',
         'botania:gaia_ingot',
-        'dimensionalpocketsii:dimensional_ingot_enhanced',
+        'nuclearcraft:chromium_ingot',
         'pneumaticcraft:ingot_iron_compressed',
         'twilightforest:ironwood_ingot',
         'twilightforest:knightmetal_ingot',

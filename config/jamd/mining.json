@@ -4233,54 +4233,6 @@
       ]
     },
     {
-      "ore_size": 12,
-      "discard_on_air_chance": 0.0,
-      "modifiers": [
-        {
-          "count": 12,
-          "type": "minecraft:count"
-        },
-        {
-          "type": "minecraft:in_square"
-        },
-        {
-          "height": {
-            "min_inclusive": {
-              "absolute": -64
-            },
-            "max_inclusive": {
-              "absolute": 64
-            },
-            "type": "minecraft:uniform"
-          },
-          "type": "minecraft:height_range"
-        },
-        {
-          "type": "minecraft:biome"
-        }
-      ],
-      "targets": [
-        {
-          "target": {
-            "tag": "minecraft:stone_ore_replaceables",
-            "predicate_type": "minecraft:tag_match"
-          },
-          "state": {
-            "Name": "dimensionalpocketsii:block_dimensional_ore"
-          }
-        },
-        {
-          "target": {
-            "tag": "minecraft:deepslate_ore_replaceables",
-            "predicate_type": "minecraft:tag_match"
-          },
-          "state": {
-            "Name": "dimensionalpocketsii:block_deepslate_dimensional_ore"
-          }
-        }
-      ]
-    },
-    {
       "ore_size": 24,
       "discard_on_air_chance": 0.0,
       "modifiers": [

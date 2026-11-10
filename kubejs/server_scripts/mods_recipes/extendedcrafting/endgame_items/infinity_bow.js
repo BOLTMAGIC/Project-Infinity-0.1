@@ -82,7 +82,7 @@ ServerEvents.recipes((event) => {
           item: 'armorplus:super_star_bow',
         },
         W: {
-          item: 'dimensionalpocketsii:dimensional_bow',
+          item: 'twilightforest:seeker_bow',
         },
         X: {
           item: 'kubejs:wyvern_bow',
@@ -91,7 +91,7 @@ ServerEvents.recipes((event) => {
           item: 'armorplus:obsidian_bow',
         },
         Z: {
-          item: 'dimensionalpocketsii:dimensional_bow_enhanced',
+          item: 'twilightforest:ender_bow',
         },
         1: {
           item: 'armorplus:guardian_bow',

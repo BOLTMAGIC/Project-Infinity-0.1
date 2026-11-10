@@ -39,7 +39,7 @@ ServerEvents.recipes((event) => {
     'custom_capacitors:precision_capacitor',
     'igleelib:iglium_upgrade_smithing_template',
     'cataclysm:cursium_upgrade_smithing_template',
-    'dimensionalpocketsii:dimensional_upgrade_template',
+    'ender_dragon_loot:dragon_upgrade_template',
     'custom_capacitors:precision_capacitor',
     'ender_dragon_loot:dragon_upgrade_template',
     'allthemodium:unobtainium_upgrade_smithing_template',

@@ -68,9 +68,6 @@ cyclic:flower_absalon
 cyclic:flower_cyan
 cyclic:flower_lime
 cyclic:flower_purple
-dimensionalpocketsii:dimensional_ore_end
-dimensionalpocketsii:dimensional_ore_nether
-dimensionalpocketsii:dimensional_ore_overworld
 draconicevolution:chaos_island
 draconicevolution:end_comet
 draconicevolution:end_draconium_ore

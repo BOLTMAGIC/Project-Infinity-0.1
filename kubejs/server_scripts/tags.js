@@ -137,10 +137,6 @@ ServerEvents.tags('item', (event) => {
     'forge:gems/propsperity_shard',
     'mysticalagriculture:prosperity_shard'
   );
-  event.add(
-    'forge:gems/dimensional_shard',
-    'dimensionalpocketsii:dimensional_shard'
-  );
   event.add('forge:ores/azure_silver_ore', 'kubejs:azure_silver_ore');
   event.add('forge:sculk_core', 'exdeorum:sculk_core');
   event.add(

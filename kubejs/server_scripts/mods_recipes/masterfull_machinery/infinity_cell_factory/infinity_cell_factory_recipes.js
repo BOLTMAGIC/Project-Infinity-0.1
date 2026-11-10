@@ -354,7 +354,7 @@ MMEvents.createProcesses((event) => {
       type: 'mm:input/consume',
       ingredient: {
         type: 'mm:item',
-        item: 'dimensionalpocketsii:block_dimensional',
+        item: 'armorplus:lava_crystal',
         count: 256,
       },
     },

@@ -49,9 +49,9 @@ MMEvents.createProcesses((event) => {
       inputItem: 'compressium:diamond_2',
       count: 69,
     },
-    dimensional_ingot: {
-      inputItem: 'dimensionalpocketsii:block_dimensional_metal',
-      count: 1667,
+    element_ingot: {
+      inputItem: 'kubejs:element_ingot',
+      count: 15000,
     },
     draconium_ingot: {
       inputItem: 'draconicevolution:draconium_block',

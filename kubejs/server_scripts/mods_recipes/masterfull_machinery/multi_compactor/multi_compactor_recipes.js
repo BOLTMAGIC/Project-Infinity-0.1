@@ -227,7 +227,7 @@ MMEvents.createProcesses((event) => {
   createSingularityRecipe(event, 'thermal:steel_ingot', 'steel');
   createSingularityRecipe(event, 'thermal:enderium_ingot', 'enderium_ingot');
   createSingularityRecipe(event, 'advancednetherite:netherite_iron_ingot', 'netherite_iron_ingot');
-  createSingularityRecipe(event, 'dimensionalpocketsii:dimensional_ingot', 'dimensional_ingot');
+  createSingularityRecipe(event, 'kubejs:element_ingot', 'element_ingot');
   createSingularityRecipe(event, 'neoecoae:energized_superconductive_ingot', 'energized_superconductive_ingot');
   createSingularityRecipe(event, 'thermal_extra:dragonsteel_ingot', 'dragonsteel_ingot');
   createSingularityRecipe(event, 'advancednetherite:netherite_diamond_ingot', 'netherite_diamond_ingot');

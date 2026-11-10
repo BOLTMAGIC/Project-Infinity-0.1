@@ -75,7 +75,6 @@
 - "blueprint:original_source_marker"
 - "endlessbiomes:penumbral_forest"
 - "minecraft:plains"
-- "dimensionalpocketsii:pocket"
 - "outer_end:primordial_pools"
 - "minecraft:river"
 - "minecraft:savanna"

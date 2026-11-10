@@ -55,7 +55,7 @@ ServerEvents.recipes((event) => {
           item: 'exdeorum:sculk_core',
         },
         M: {
-          item: 'dimensionalpocketsii:dimensional_pearl',
+          item: 'powah:aerial_pearl',
         },
         N: {
           type: 'forge:nbt',

@@ -112,7 +112,7 @@ ServerEvents.recipes((event) => {
           item: 'thermal_extra:lumium_hoe',
         },
         g: {
-          item: 'dimensionalpocketsii:dimensional_hoe_enhanced',
+          item: 'neoecoae:black_tungsten_alloy_hoe',
         },
         h: {
           item: 'botania:manasteel_hoe',
@@ -127,7 +127,7 @@ ServerEvents.recipes((event) => {
           item: 'allthemodium:allthemodium_hoe',
         },
         l: {
-          item: 'dimensionalpocketsii:dimensional_hoe',
+          item: 'justdirethings:blazegold_hoe',
         },
         m: {
           item: 'kubejs:infinity_12',

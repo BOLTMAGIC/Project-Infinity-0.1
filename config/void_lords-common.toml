@@ -184,7 +184,7 @@
 		maxHitDamage = 150.0
 		#Multiplier for all damage the dragon deals
 		#Range: 0.0 ~ 100.0
-		bossDamageMultiplier = 1.0
+		bossDamageMultiplier = 2.0
 		#Melee weapon damage multiplier against the boss (weapon damage x this)
 		#Range: 0.0 ~ 100.0
 		meleeWeaponMultiplier = 7.0

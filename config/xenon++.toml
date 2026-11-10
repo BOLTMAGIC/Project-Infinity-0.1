@@ -55,7 +55,7 @@
 				#Uses ResourceLocation to identify it
 				#Example 1: "minecraft:bat" - Ignores bats only
 				#Example 2: "alexsmobs:*" - ignores all entities for alexmobs mod
-				whitelist = ["minecraft:ghast", "minecraft:ender_dragon", "iceandfire:*", "create:*", "molecularmanipulator:singularity_assembly"]
+				whitelist = ["minecraft:ghast", "minecraft:ender_dragon", "iceandfire:*", "create:*", "molecularmanipulator:singularity_assembly", "void_lords:*"]
 
 			[xenonextras.performance.distanceCulling.tileEntities]
 				#Configure horizontal max distance before cull Block entities

@@ -67,7 +67,12 @@
     "createbigcannons:cannon_carriage",
     "createbigcannons:pitch_contraption",
     "cinematiccataclysm:ignis_cutscene",
-    "voidscape:corrupted_pawn"
+    "voidscape:corrupted_pawn",
+    "void_lords:nyx_arrath",
+    "void_lords:void_warden",
+    "void_lords:ul_thaar",
+    "void_lords:gormakh",
+    "void_lords:ancient_golem"
   ],
   "disableF3": false,
   "skipEntityCulling": false,

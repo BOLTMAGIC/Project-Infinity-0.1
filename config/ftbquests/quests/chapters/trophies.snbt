@@ -73,6 +73,14 @@
 			x: -18.0d
 			y: -3.5d
 		}
+		{
+			height: 5.0d
+			image: "kubejs:block/screen/void_lords_logo"
+			rotation: 0.0d
+			width: 5.0d
+			x: -7.5d
+			y: -4.5d
+		}
 	]
 	order_index: 0
 	quest_links: [ ]
@@ -1857,6 +1865,319 @@
 				value: 1L
 			}]
 			x: -15.0d
+			y: -1.0d
+		}
+		{
+			can_repeat: false
+			hide_details_until_startable: false
+			hide_text_until_complete: false
+			hide_until_deps_visible: false
+			icon_scale: 2.0d
+			id: "0850124BAE657921"
+			rewards: [
+				{
+					id: "4654C8B26C8B5DE8"
+					item: "kubejs:ascended_coin"
+					type: "item"
+				}
+				{
+					id: "3214DEEC9134A506"
+					item: {
+						Count: 1
+						id: "obtrophies:display_trophy"
+						tag: {
+							BlockEntityTag: {
+								display: {
+									display: "void_lords:nyx_core"
+									scale: 2.0f
+								}
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 2.0d
+			subtitle: "The END Dimension. Place the four elemental crystals on the bedrock in the middle."
+			tasks: [{
+				entity: "void_lords:nyx_arrath"
+				icon: {
+					Count: 1
+					id: "obtrophies:display_trophy"
+					tag: {
+						BlockEntityTag: {
+							display: {
+								display: "void_lords:nyx_core"
+								scale: 2.0f
+							}
+						}
+					}
+				}
+				id: "4A035E63BB10DE8F"
+				type: "kill"
+				value: 1L
+			}]
+			x: -3.0d
+			y: -1.0d
+		}
+		{
+			can_repeat: false
+			hide_details_until_startable: false
+			hide_text_until_complete: false
+			hide_until_deps_visible: false
+			icon_scale: 2.0d
+			id: "4A599FF578604244"
+			rewards: [
+				{
+					id: "196C51040FDF958B"
+					item: "kubejs:ascended_coin"
+					type: "item"
+				}
+				{
+					id: "69ED6A80F0492B29"
+					item: {
+						Count: 1
+						id: "obtrophies:display_trophy"
+						tag: {
+							BlockEntityTag: {
+								display: {
+									display: "void_lords:energy_cell"
+									scale: 2.0f
+								}
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 2.0d
+			subtitle: "Find me in the Lost Cities or Hunting Dim. Ancient City (VoidLords) and right click the Golem in the basement with a Energy Cell"
+			tasks: [{
+				entity: "void_lords:ancient_golem"
+				icon: {
+					Count: 1
+					id: "obtrophies:display_trophy"
+					tag: {
+						BlockEntityTag: {
+							display: {
+								display: "void_lords:energy_cell"
+								scale: 2.0f
+							}
+						}
+					}
+				}
+				id: "27C419B12FD3A3F5"
+				type: "kill"
+				value: 1L
+			}]
+			x: -1.0d
+			y: -1.0d
+		}
+		{
+			can_repeat: false
+			hide_details_until_startable: false
+			hide_text_until_complete: false
+			hide_until_deps_visible: false
+			icon_scale: 2.0d
+			id: "6B608906881C1E38"
+			rewards: [
+				{
+					id: "13B2157731CCD08A"
+					item: "kubejs:ascended_coin"
+					type: "item"
+				}
+				{
+					id: "00E75C73C2221F7A"
+					item: {
+						Count: 1
+						id: "obtrophies:display_trophy"
+						tag: {
+							BlockEntityTag: {
+								display: {
+									display: "void_lords:warden_heart"
+									scale: 2.0f
+								}
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 2.0d
+			subtitle: "Find me in the Lost Cities or Hunting Dim. The Cathedral"
+			tasks: [{
+				entity: "void_lords:void_warden"
+				icon: {
+					Count: 1
+					id: "obtrophies:display_trophy"
+					tag: {
+						BlockEntityTag: {
+							display: {
+								display: "void_lords:warden_heart"
+								scale: 2.0f
+							}
+						}
+					}
+				}
+				id: "3A0D23AF54EF4AFC"
+				type: "kill"
+				value: 1L
+			}]
+			x: -9.0d
+			y: -1.0d
+		}
+		{
+			can_repeat: false
+			hide_details_until_startable: false
+			hide_text_until_complete: false
+			hide_until_deps_visible: false
+			icon: {
+				Count: 1
+				id: "obtrophies:display_trophy"
+				tag: {
+					BlockEntityTag: {
+						display: {
+							display: "void_lords:gormakh_fang"
+							scale: 2.0f
+						}
+					}
+				}
+			}
+			icon_scale: 2.0d
+			id: "37AF40C61C56CB98"
+			rewards: [
+				{
+					id: "79A7A588D94C10BD"
+					item: "kubejs:ascended_coin"
+					type: "item"
+				}
+				{
+					id: "53E2B7BC3C9A93B0"
+					item: {
+						Count: 1
+						id: "obtrophies:display_trophy"
+						tag: {
+							BlockEntityTag: {
+								display: {
+									display: "void_lords:gormakh_fang"
+									scale: 2.0f
+								}
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 2.0d
+			subtitle: "Throw the Eye into the Lava in the Nether to spawn the Boss"
+			tasks: [
+				{
+					entity: "void_lords:gormakh"
+					icon: {
+						Count: 1
+						id: "obtrophies:display_trophy"
+						tag: {
+							BlockEntityTag: {
+								display: {
+									display: "void_lords:gormakh_fang"
+									scale: 2.0f
+								}
+							}
+						}
+					}
+					id: "3EC841EE11288202"
+					type: "kill"
+					value: 1L
+				}
+				{
+					id: "6763F463A0713D6B"
+					item: "void_lords:drowned_god_eye"
+					type: "item"
+				}
+			]
+			x: -5.0d
+			y: -1.0d
+		}
+		{
+			can_repeat: false
+			hide_details_until_startable: false
+			hide_text_until_complete: false
+			hide_until_deps_visible: false
+			icon: {
+				Count: 1
+				id: "obtrophies:display_trophy"
+				tag: {
+					BlockEntityTag: {
+						display: {
+							display: "void_lords:drowned_god_eye"
+							scale: 2.0f
+						}
+					}
+				}
+			}
+			icon_scale: 2.0d
+			id: "3985316059BC3A2E"
+			rewards: [
+				{
+					id: "724BE54E10D17AFB"
+					item: "kubejs:ascended_coin"
+					type: "item"
+				}
+				{
+					id: "4E0DD3453237F579"
+					item: {
+						Count: 1
+						id: "obtrophies:display_trophy"
+						tag: {
+							BlockEntityTag: {
+								display: {
+									display: "void_lords:drowned_god_eye"
+									scale: 2.0f
+								}
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 2.0d
+			subtitle: "Hunting Dim or Lost Cities. Place a Abyss Altar on water and right click with a Abyss Heart. Blow a Goat Horn nearby"
+			tasks: [
+				{
+					entity: "void_lords:ul_thaar"
+					icon: {
+						Count: 1
+						id: "obtrophies:display_trophy"
+						tag: {
+							BlockEntityTag: {
+								display: {
+									display: "void_lords:drowned_god_eye"
+									scale: 2.0f
+								}
+							}
+						}
+					}
+					id: "0B02E65BDF1F028E"
+					type: "kill"
+					value: 1L
+				}
+				{
+					id: "517C26457BFAF9CE"
+					item: "void_lords:abyss_altar"
+					type: "item"
+				}
+				{
+					id: "5B43213BBA04B52B"
+					item: "void_lords:abyss_heart"
+					type: "item"
+				}
+			]
+			x: -7.0d
 			y: -1.0d
 		}
 	]

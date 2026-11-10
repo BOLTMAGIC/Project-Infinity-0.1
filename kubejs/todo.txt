@@ -29,7 +29,7 @@ This will break all old crazyAE2 multiblocks!
         - More Warden Plus (three stage boss, 12 skills, new model, hits harder, more hp. normal warden still killable. right click the warden with a ender pearl)
         - Twilight Forest Plus (all bosses got new skills, are tougher and harder to kill)
     - Mods changing structures:
-        - Twilight Forest: Reviving Ancient Buildings (changes every arena! finally!)
+        - Twilight Forest: Reviving Ancient Buildings (changes every arena! finally! and added a new final boss, the END CUBE. he spawns in the basement of the Final Castle)
     -Mods fixing something:
         - Night Config Fixes (Hopefully fixes some crashes)
 

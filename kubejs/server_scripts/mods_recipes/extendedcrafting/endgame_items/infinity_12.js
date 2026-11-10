@@ -19,7 +19,7 @@ ServerEvents.recipes((event) => {
           item: 'voidminers:ultimate_stellar_core',
         },
         B: {
-          item: 'void_lords:nyx_core',
+          item: 'kubejs:zahraanite',
         },
         C: {
           item: 'extendedcrafting:enhanced_ender_catalyst',
@@ -28,7 +28,7 @@ ServerEvents.recipes((event) => {
           item: 'avaritia:endest_pearl',
         },
         E: {
-          item: 'kubejs:zahraanite',
+          item: 'void_lords:nyx_core',
         },
         F: {
           item: 'bosses_of_mass_destruction:blazing_eye',

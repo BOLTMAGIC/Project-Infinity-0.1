@@ -1,0 +1,3 @@
+// Compost colors for valkyrielib. You may add your own colors, change existing ones, or remove colors that aren't needed.
+guide, #a4a4a2
+info_tablet, #a4a4a2

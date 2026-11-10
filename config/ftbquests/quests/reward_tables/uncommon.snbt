@@ -2,7 +2,7 @@
 	icon: "ftbquests:lootcrate"
 	id: "3A3BDBA4E9AD13C4"
 	loot_size: 1
-	order_index: 7
+	order_index: 6
 	rewards: [
 		{ item: "mob_grinding_utils:saw", weight: 3.0f }
 		{

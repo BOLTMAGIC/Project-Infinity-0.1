@@ -69,17 +69,6 @@
 	#Range: > 1
 	pocket_gen_fe_per_tick = 5000
 
-#Time Crystals
-[time_crystal]
-	#Do you want to customize Time Crystal Growth Dimensions? If set to true, the following 3 fields MUST be populated. Defaults to false, which means normal growth rules: Stage 1 = Overworld, Stage 2 = Nether, Stage 3 = End.
-	time_crystal_custom_dimensions = false
-	#Dimensions where Stage 0 -> Stage 1 growth occurs. Example: ["minecraft:overworld"]
-	time_crystal_stage1_dimensions = ["minecraft:overworld"]
-	#Dimensions where Stage 1 -> Stage 2 growth occurs. Example: ["minecraft:the_nether"]
-	time_crystal_stage2_dimensions = ["minecraft:the_nether"]
-	#Dimensions where Stage 2 -> Stage 3 growth occurs. Example: ["minecraft:the_end"]
-	time_crystal_stage3_dimensions = ["minecraft:the_end"]
-
 #Fluid Fuel FE per mB values
 [fluid_fuel]
 	#FE generated per mB of Refined Fuel T2

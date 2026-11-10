@@ -624,22 +624,6 @@
       "name": "Suppress",
       "enabled": true,
       "type": "MESSAGE_REGEX",
-      "pattern": "refinedstorage:cover",
-      "action": "DENY",
-      "level": "WARN"
-    },
-    {
-      "name": "Suppress",
-      "enabled": true,
-      "type": "MESSAGE_REGEX",
-      "pattern": "refinedstorage:hollow_cover",
-      "action": "DENY",
-      "level": "WARN"
-    },
-    {
-      "name": "Suppress",
-      "enabled": true,
-      "type": "MESSAGE_REGEX",
       "pattern": "custom_capacitors:",
       "action": "DENY",
       "level": "WARN"
@@ -796,6 +780,69 @@
       "enabled": true,
       "type": "MESSAGE_REGEX",
       "pattern": "Refusing to mount universal cell whose storage domain",
+      "action": "DENY"
+    },
+    {
+      "name": "Suppress",
+      "enabled": true,
+      "type": "MESSAGE_REGEX",
+      "pattern": "Mixins added to allowed list:",
+      "action": "DENY"
+    },
+    {
+      "name": "Suppress",
+      "enabled": true,
+      "type": "MESSAGE_REGEX",
+      "pattern": "Class dev.uncandango.alltheleaks.leaks.common",
+      "action": "DENY"
+    },
+    {
+      "name": "Suppress",
+      "enabled": true,
+      "type": "MESSAGE_REGEX",
+      "pattern": "dependency=",
+      "action": "DENY"
+    },
+    {
+      "name": "Suppress",
+      "enabled": true,
+      "type": "MESSAGE_REGEX",
+      "pattern": "Registering S2C receiver",
+      "action": "DENY"
+    },
+    {
+      "name": "Suppress",
+      "enabled": true,
+      "type": "MESSAGE_REGEX",
+      "pattern": "Registering C2S receiver",
+      "action": "DENY"
+    },
+    {
+      "name": "Suppress",
+      "enabled": true,
+      "type": "MESSAGE_REGEX",
+      "pattern": "Registered bus=",
+      "action": "DENY"
+    },
+    {
+      "name": "Suppress",
+      "enabled": true,
+      "type": "MESSAGE_REGEX",
+      "pattern": "Hooked Lorg/zeith/",
+      "action": "DENY"
+    },
+    {
+      "name": "Suppress",
+      "enabled": true,
+      "type": "MESSAGE_REGEX",
+      "pattern": "[org.spongepowered.asm.util.Locals:generateLocalVariableTable:719]",
+      "action": "DENY"
+    },
+    {
+      "name": "Suppress",
+      "enabled": true,
+      "type": "MESSAGE_REGEX",
+      "pattern": "Considering integration cn.dancingsnow.neoecoae.integration",
       "action": "DENY"
     }
   ]

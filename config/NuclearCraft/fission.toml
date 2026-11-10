@@ -61,7 +61,7 @@
 	#Number of pebbles that can be stored per fuel cell. Determines the maximum pebble capacity.
 	#Range: 2 ~ 100
 	pebbles_per_fuel_cell = 10
-	#mB of shared internal volume contributed per fuel cell block. Salt, coolant and pebbles all draw from this budget.
+	#mB of molten salt volume contributed per fuel cell block.
 	#Range: 1 ~ 1000000
 	volume_per_fuel_cell = 10000
 

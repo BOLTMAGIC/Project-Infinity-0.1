@@ -361,7 +361,6 @@ const removeRecipebyRecipeID = [
   'projectexpansion:collector/mk1_conversion',
   'projectexpansion:collector/basic',
   'advanced_ae:regeneration_card',
-  'enderio:smelting/refinedstorage/silicon',
   'voidminers:the_end/tier8_miner/ultimate_stellar_core',
   'avaritia:neutron_ring',
   'avaritia:infinity_ring',
@@ -690,24 +689,6 @@ ServerEvents.recipes((event) => {
   });
   event.remove({
     mod: 'libraryferret',
-  });
-  event.remove({
-    mod: 'refinedstorage',
-  });
-  event.remove({
-    mod: 'rsinfinitybooster',
-  });
-  event.remove({
-    mod: 'extrastorage',
-  });
-  event.remove({
-    mod: 'rsrequestify',
-  });
-  event.remove({
-    mod: 'universalgrid',
-  });
-  event.remove({
-    mod: 'refinedstorageaddons',
   });
   event.remove({
     mod: 'rftoolsdim',

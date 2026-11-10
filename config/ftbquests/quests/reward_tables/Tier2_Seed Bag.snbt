@@ -2,7 +2,7 @@
 	icon: "mysticalagriculture:prudentium_gemstone"
 	id: "21B1896C13F84C09"
 	loot_size: 1
-	order_index: 13
+	order_index: 12
 	rewards: [
 		{ item: "mysticalagradditions:prudentium_apple", weight: 7.0f }
 		{ item: "mysticalagradditions:prudentium_coal_block", weight: 3.0f }

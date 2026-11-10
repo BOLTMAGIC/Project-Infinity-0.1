@@ -19,7 +19,6 @@ BlockEvents.rightClicked('mekanism:creative_bin', (event) => {
 
     'minecraft:bundle',
 
-    /^refinedstorage:.*_storage_(disk|block)$/, // uuid based item, can't filter with NBT
 
     'expatternprovider:package',
 
@@ -34,10 +33,6 @@ BlockEvents.rightClicked('mekanism:creative_bin', (event) => {
 
     'justdirethings:inventoryholder',
     'justdirethings:creaturecatcher',
-    'refinedstorageaddons:wireless_crafting_grid',
-    'refinedstorageaddons:creative_wireless_crafting_grid',
-    'universalgrid:wireless_universal_grid',
-    'universalgrid:creative_wireless_universal_grid',
     'megacells:bulk_item_cell',
 
     /^ae2:portable_item_cell_.*$/,

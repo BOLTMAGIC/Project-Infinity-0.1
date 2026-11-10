@@ -15,7 +15,7 @@
 		}
 		{
 			height: 1.5d
-			image: "neoecoae:item/eco_cell_compat/quantum_omni_cell_layer"
+			image: "neoecoae:item/eco_cells/ae2omnicells/quantum_omni_cell_layer"
 			rotation: 0.0d
 			width: 1.5d
 			x: -2.5d
@@ -31,7 +31,7 @@
 		}
 		{
 			height: 1.5d
-			image: "neoecoae:textures/gui/card_background.png"
+			image: "neoecoae:textures/gui/common/card_background.png"
 			rotation: 0.0d
 			width: 1.5d
 			x: 4.5272108843537495d

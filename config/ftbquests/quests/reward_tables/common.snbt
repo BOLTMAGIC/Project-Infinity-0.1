@@ -8,7 +8,7 @@
 	}
 	id: "06C4634E81851A6C"
 	loot_size: 1
-	order_index: 6
+	order_index: 5
 	rewards: [
 		{ item: "mysticalagriculture:imperium_essence", weight: 0.5f }
 		{ item: "minecraft:fox_spawn_egg", weight: 5.0f }

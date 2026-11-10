@@ -4,6 +4,7 @@ finish quests high prio
 draconic evolution armor and upgrades recipe change
 https://www.curseforge.com/minecraft/mc-mods/kryzenth
 https://www.curseforge.com/minecraft/mc-mods/antarchy
+https://www.curseforge.com/minecraft/mc-mods/polycore
 ----------
 changelog v. 0.0.53.0
 
@@ -66,6 +67,7 @@ Recipe changes and fixes:
 - removed curvy energy pipes
 - changed botany pots upgrades from 2x, 6x, 10x to 2x, 3x, 4x
 - added fake creative jetpack
+- changed recipes of all compressed generator tiers (Thx to KYO297!!!
 - 
 
 Quests changes:

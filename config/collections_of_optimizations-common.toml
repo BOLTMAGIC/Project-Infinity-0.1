@@ -86,6 +86,8 @@
 	singlePassContraptionCollision = true
 	#Skip the behaviours of a Create block that have nothing to tick. Every tick every Create machine, shaft and cog walks all of its behaviours and calls their tick, and for most behaviours that tick only counts down a timer that leads to nothing because they never react to it. With this on only behaviours that actually do something on tick or on their slow tick are called, in the same order; the rest are skipped. Both sides.
 	skipIdleBehaviourTicks = true
+	#Create works out its wood cutting recipes by checking every item in the game against a few patterns, on the main thread, every time a world is opened. The answer only depends on which items exist, so work it out once in the background when loading finishes and reuse it.
+	cacheRuntimeData = true
 
 #XaeroLib patches.
 [xaerolib]
@@ -93,6 +95,8 @@
 	cacheConfigProfile = true
 	#Answer the server-enforcement check once per client tick. Stock runs a second full config read inside every config read.
 	cacheEnforcementCheck = true
+	#Keep the map colour Xaero's minimap and world map work out for each block texture in a small file and reuse it next time. Without it, the first time each kind of block shows up in a session the map reads that block's texture out of its mod file on the render thread, a few milliseconds each, which is a stutter when you walk into a new structure. The file starts over by itself when mods or resource packs change.
+	persistBlockColors = true
 
 #GeckoLib patches.
 [geckolib]
@@ -133,6 +137,10 @@
 	singleBufferLookup = true
 	#End only the render layers that were actually drawn into instead of walking every fixed buffer on each flush.
 	skipIdleLayers = true
+	#Reuse the small buffer lists ImmediatelyFast keeps for each mob and item texture instead of building new ones every frame. Every texture that is not one of the fixed render layers gets a fresh list when something draws with it and the list is thrown away when the batch is drawn, which in a village or a structure full of mobs is tens of megabytes of garbage per second and more frequent garbage collection pauses. With this on a drawn list is emptied and kept for the next texture, the draw order stays exactly the same. Client. Turn it off for stock behaviour.
+	reuseFallbackSets = true
+	#Remember the draw order of each batched layer instead of working it out again inside the sort every time a batch is drawn. The order only depends on the layer's texture and name, which never change, and working it out cut texture paths into new strings, so drawing the batched entities of a busy scene made megabytes of garbage a second. Same order as before.
+	memoLayerOrder = true
 
 #FancyMenu patches.
 [fancymenu]
@@ -163,6 +171,10 @@
 	parseTokensWithoutExceptions = true
 	#Answer the misses of the model file existence check from the list EMF already made. EMF lists every model file under emf/cem and optifine/cem once per resource reload, but for every file that is not in that list it still asked each resource pack in turn, hundreds of packs on disk, whether the file exists, and nearly every such question is a miss. With this on those misses are answered from the list, and files are found exactly as before. Client.
 	indexedResourceExists = true
+	#Compile the handful of regular expressions EMF checks every animation variable against once instead of on every check, and walk animation text with a plain character loop instead of a stream, while models load.
+	compiledPatterns = true
+	#Keep each compiled animation class EMF makes and hand the same class back whenever a model with the same animations is built again. EMF turns the animation formulas of every animated model into a small class with its own class loader each time that model is built, and models are built again at runtime, for example statues and other blocks or mobs that make a fresh model. Every rebuilt model left a dead class behind, and each time the garbage collector found a dead class it had to sweep the whole compiled code cache during its remark pause, which turned a 35 ms pause into a 70 ms freeze every minute or so. With this on the bytes of each new animation class are compared with the classes already made and an identical class is reused, so no animation class ever dies and the remark pause stays short. Animations run the same code as before. Client.
+	reuseCompiledAnimations = true
 
 #Oculus / Iris shadow pass patches.
 [oculus]
@@ -204,8 +216,6 @@
 	deferRadarUpdate = true
 	#Skip the radar entity lists while the minimap is hidden and no screen is open. The radar sorts every loaded entity into its categories each tick, and with the minimap turned off nothing reads the result. The world map still gets them while it is open. Client.
 	skipHiddenRadar = true
-	#Skip a minimap element renderer (waypoints in the world, and the like) for the rest of a client tick when it drew nothing on the first frame of that tick. With no waypoint in view it still set up its buffers and walked its lists every frame. A new waypoint shows up at most one tick later. Client.
-	skipEmptyElementRenderers = true
 
 #Xaero's + Waystones compatibility patches.
 [w2w2]
@@ -487,6 +497,8 @@
 	cacheEveryScaleType = true
 	#Walk a fixed copy of the scale type list when every entity ticks its scales, instead of stepping through the linked nodes of the registry map for every entity on every tick. Same types, same order. The copy is rebuilt if the number of scale types changes.
 	snapshotTickTypes = true
+	#When a scale is not changing, return it as it is instead of working out the in-between value of a change that is not happening. Every entity drawn asks for its model width and height scale with the frame's partial tick every frame, and each ask ran the easing function with a boxed float and an Optional even for a mob that was never resized. The value returned is the same number.
+	steadyBaseScale = true
 
 #Tons Of Enchants patches.
 [tonsofenchants]
@@ -567,6 +579,8 @@
 	cacheShakeScan = true
 	#Share one BrewEffects table between the Patchouli brewing page processors instead of walking every item and entity type in the registry for each page. Rebuilt after five seconds. Client.
 	cacheBrewEffects = true
+	#Look for a servant's owner in the servant's own dimension first. The stock lookup walks every loaded dimension in a fixed order, several times per servant per tick, so with 25 dimensions a servant next to its owner in the Nether still asked the other dimensions first.
+	sameLevelOwnerLookup = true
 
 #Myths and Legends patches.
 [mythsandlegends]
@@ -631,6 +645,14 @@
 	cacheShakeScan = true
 	#Find nearby attracting and repelling magnets with one point of interest search instead of two for every magnetic entity on every tick. Server.
 	singleMagnetQuery = true
+	#Alex's Caves replaces the whole entity movement collision step to add magnet block collisions, which also throws away Radium's faster entity collision lookup. Every moving entity then checks every nearby entity, item drops included, on both client and server. Keep Alex's Caves' step but ask Radium for the entity collisions, the same way Radium does for unmodified movement. Same collisions, far fewer entity checks.
+	radiumEntityCollisions = true
+	#When every cave biome is set to disabled_completely in alexscaves_biome_generation, skip Alex's Caves' cave biome placement check on every biome lookup in every dimension. It can never place anything then. Worldgen.
+	skipDisabledBiomeHook = true
+	#End a cave map search right away when its biome is disabled_completely and the map is used outside the Alex's Caves dimensions, instead of sampling up to cave_map_search_attempts spots that can never match. Server.
+	skipDeadCaveMaps = true
+	#With Dimensions of Alex's Caves installed, underground cabin chests keep rolling cave tablet and cave book loot for every cave, even the ones disabled_completely in the overworld, since the caves are still reachable through their dimensions.
+	cabinLootWithDimensions = true
 
 #Ad Astra patches.
 [adastra]
@@ -785,6 +807,47 @@
 	snapshotEntityUnloads = true
 	#Answer an attribute lookup that already has an instance, or that the entity can never have, without going through the map's compute call. Every attribute read on every living entity, which the game does constantly for movement, combat and gear, went through HashMap.computeIfAbsent with a lambda that builds the attribute instance, even though the instance is almost always there already. With this on, an existing instance is returned straight from the map, and an attribute the entity type does not have at all is answered with nothing straight away, which is the same answer the stock path ends up with without storing anything. Anything else still takes the stock path.
 	fastAttributeInstanceLookup = true
+	#When a world is opened Forge re-applies the registry ids saved in it and rebuilds every registry, even when the ids are exactly the ones the game already uses. Skip that when every saved id, alias and owner matches the running game. Anything different takes the normal path.
+	skipIdenticalRegistrySnapshot = true
+	#Build the biome lookup trees TerraBlender and vanilla make on every world load with each node's sort keys worked out once instead of on every comparison. The trees come out identical.
+	fastBiomeTreeSort = true
+	#Search the biome lookup trees from flat number arrays instead of walking linked node objects. Same visiting order and same answers as vanilla, every tree checks itself against the vanilla search when it is built and keeps the vanilla search if they ever disagree.
+	flatBiomeSearch = true
+	#Forge grows each registry's holder list by exactly one slot per registered entry, copying the whole list every time. Grow it in bigger steps instead. The list holds the same entries, only its spare room differs.
+	geometricHolderGrowth = true
+	#After each registry is filled at startup Forge refreshes every registry object reference in the game just to update the ones for that registry. Keep them sorted by registry so each refresh only touches its own. References Forge cannot place are still refreshed every time.
+	indexedObjectHolders = true
+	#Recipe filters like {input: [...]} test every listed item against every ingredient of every recipe. For plain ingredients look each ingredient item up in a set of the listed items instead. Same matches.
+	kubejsIngredientMatchItemSet = true
+	#Skip a short list of tick listeners on the client that only ever do something on the server. Forge posts every living entity tick and player tick on both sides, so a server side mod listener runs for every mob your client ticks too, twenty times a second, even though the first thing it checks deep inside is whether the world is a server world. Each listener on the list was read and does nothing at all on the client, so it is simply not called there. It still runs on the server exactly as before. Needs guardedEvents. Client.
+	skipServerOnlyListenersOnClient = true
+	#Villager and zombie villager outfits are drawn as up to three extra passes of the whole villager model (biome, profession, level badge), each walking every bone and transforming every vertex again with the exact same pose. Walk the model once, keep the finished vertices, and copy them into the other outfit textures. Pixels are identical; models from mods that draw bones themselves are detected and left alone.
+	replayVillagerLayers = true
+	#While ticking block entities, ask whether a chunk is block-ticking once per run of block entities in that chunk instead of once per block entity. The answer comes from chunk ticket levels, which only change between ticks, so the result is identical. Big storage rooms and factories tick thousands of block entities per tick, mostly grouped by chunk.
+	memoBlockTickChunk = true
+	#Terrain height lookups (structure placement, meteorites, spawn checks) each build the noise for one 4x4 block cell from scratch, so asking for the 16 columns of the same cell computes the same corner noise 16 times. Keep the last few cells per worker thread and only redo the cheap part per column. Same heights as before.
+	reuseNoiseColumnCells = true
+	#Before letting anyone in, vanilla waits for all 441 spawn chunks to be loaded and ticking, which on a new world means generating them first (10 seconds on a fast PC, much longer on a slow one) and on an existing world means loading them even when nobody stands there. Start once the 7x7 core around spawn is ticking instead; the rest of the spawn chunks keep loading in the background with the same ticket, so spawn chunk farms and anything else that relies on them work exactly as before. Server.
+	earlyStart = true
+	#Remember the biome picked at each biome cell for the noise biome source. While generating, every chunk asks again for the biomes just outside its own edges, which are the edge biomes its neighbours already worked out, and each answer is a full climate sample plus a search over every biome in the pack. Answers come from the same biome source, so biomes are identical.
+	cacheBiomeLookups = true
+	#Spread the client tick of mobs over the next few frames instead of doing all of them inside the one frame that runs the tick. The client tick already makes one frame out of every twenty several milliseconds longer than the rest, and with many mobs around most of that is mob ticks, so those frames are the 1% lows. A mob that has not had its tick yet is drawn exactly where the tick starts it, so nothing moves differently on screen. Every mob still ticks once per tick, all of them before the next tick starts. The player, the camera, riders and ridden mobs tick as before. Client.
+	spreadEntityTicks = true
+	#When the game runs far faster than a mob's pose needs to change, build each mob's model once every few frames and draw the same model again in between, moved to where the mob and the camera are this frame. At several hundred frames per second most of the frame goes into posing and building the same mobs again and again, and a screen can only show a new pose once per refresh, so each mob is rebuilt at least once per monitor refresh (at least 120 times a second) and only the frames in between reuse it. Below about twice the refresh rate, and with a shader pack, every frame builds every mob as before. Players, hurt or dying mobs, leashed or glowing mobs and any mob whose renderer draws outside the shared buffers are always built every frame. Client.
+	reuseEntityMeshes = true
+	#The same as reuseEntityMeshes for block entities with a renderer, such as chests, banners, signs, statues and notice boards: each is built at least once per monitor refresh and drawn again from that build on the frames in between. Castles and villages hold hundreds of them, and drawing them is most of what a frame does there. Client.
+	reuseBlockEntityMeshes = true
+	#With reuseEntityMeshes on, a mob shorter than this many pixels on your screen gets a new pose half as often, and one under half this height a third as often. It still moves smoothly every frame; only its limbs and animation step a little less often, which is hard to see at that size. Worked out from the mob's size, its distance, your field of view and window height. 0 turns this off. Client.
+	#Range: 0 ~ 2000
+	reuseSmallMobPixels = 120
+	#With spreadEntityTicks on, spread the client ticks of dropped items, experience orbs, arrows and thrown items the same way. Each of these is drawn from values its tick interpolates between, so drawing it exactly where its tick starts it shows the same position, spin and bob. After a fight there can be dozens of drops on the ground, each moving on the client every tick. Client.
+	spreadMoreEntityTicks = true
+	#With spreadEntityTicks on, also spread the client ticks of block entities that have no block entity renderer, such as most machines, over the next few frames. Nothing on screen is drawn from their tick state, so ticking them a frame or two later cannot show; their sounds and particles start a few milliseconds later. Block entities with a renderer, like chests and campfires, tick as before. Client.
+	spreadBlockEntityTicks = true
+	#Run the mods' end-of-client-tick and end-of-player-tick handlers on the client over the next few frames instead of all inside the frame that runs the tick. Over a hundred mods hook the end of the client tick or the player tick, and together they add a millisecond or more to that one frame. The handlers run in the same order as before, each once per tick, and all of them finish before the next tick starts; most run one or two frames, a few milliseconds, later than before. Off by default: some mods advance animation clocks there (Punchy's first-person arms, Create's spinning parts, camera effects), and running them late makes those jitter. Client.
+	spreadClientTickListeners = false
+	#Run the next frame's client tick and queued tasks right before the finished frame is handed to the screen instead of right after. Handing over the frame makes the game wait until the graphics card has drawn it, and the tick that followed left the graphics card idle while it ran. Now the tick runs while the card is still drawing, so the wait and the tick overlap. The tick, its order and what it sees are the same; it only starts a fraction of a millisecond earlier. Client.
+	preSwapTicks = true
 
 #Xaero's World Map patches.
 [xaeroworldmap]
@@ -1053,6 +1116,8 @@
 	leanClimbCurioScan = true
 	#Check that the entity is a spell casting mob before reading its effect map in the Blackout and Casting handlers.
 	leanCastEffectChecks = true
+	#Hand Traveloptics' armour, weapon and mob models the same resource location every time they ask for their model, animation or texture file instead of building and validating a new one on every frame for every piece worn, held or shown. Client.
+	reuseModelLocations = true
 
 #Celestial Enchantments patches.
 [celestialenchantments]
@@ -1322,6 +1387,8 @@
 	safeCollarPrune = true
 	#Answer Domestication Innovation's is-tamed question with a plain no for entities that can never be tamed. The check runs against every entity the mod's handlers see and went through a chain of type checks each time. With this on, whether an entity type can be tamed at all is worked out once per type and remembered, an entity type that is none of the animals the mod handles gets the no straight away, and every other entity still takes the stock check.
 	skipImpossibleTamedCheck = true
+	#Find the Healing Aura pets near a hurt mob from a list of the pets that actually have Healing Aura instead of scanning every entity in a 32 by 8 by 32 box. The stock scan runs on every single hit to any mob, which made it a quarter of the server tick in big fights. Pets join the list when they load in or when their upgrades change, so the same pets get found.
+	indexedHealers = true
 
 #More Artifacts patches.
 [moreartifacts]
@@ -1688,6 +1755,8 @@
 [transmog]
 	#Look the transmogged appearance up by the tag it is stored in instead of hashing that tag every time. Transmog keeps the appearance item you picked as a full item stack written into the real item's NBT, and every time anything needs to draw that item it asks the mod to turn that NBT back into an item stack. The mod does cache the result, but it keys the cache on the hash code of the appearance NBT, so every single lookup walks the whole appearance compound, tag by tag, to compute that number, boxes it into an Integer and allocates a lambda, and then does it again for the next lookup. A player wearing transmogged armour pays that for every armour slot on every frame, and the item renderer asks three separate times for every item it draws, so a few people in transmogged gear on screen is thousands of full NBT walks a second. Two smaller problems come with it: the cache is one shared access ordered LinkedHashMap touched from the render thread and the server thread with no locking, which is the kind of map that can corrupt itself or spin forever when two threads read it at once, and because the key is only a hash code, two different appearances that happen to hash the same silently render as each other. With this on the lookup is keyed on the stored NBT compound itself, per thread, so a repeat lookup is a single reference compare with no walking, no boxing and no allocation, nothing is shared across threads, and a hash collision cannot swap two appearances any more. The appearance you see is unchanged. Turn it off for stock behaviour.
 	identityAppearanceCache = true
+	#Remember for the rest of the frame whether an equipped item carries a transmog. Every armour layer, held item layer and many other mods ask a mob for its equipment several times per frame, and for each ask the transmog check looked the transmog key up in the item's NBT again; every damageable item has NBT, so in a fight that was a map lookup for every slot of every mob dozens of times a frame. The answer is checked once per item per frame. Client.
+	frameMemo = true
 
 #Iron's Spells 'n Spellbooks patches.
 [ironsspellbooks]
@@ -1854,6 +1923,8 @@
 	fixWantLootingCheck = true
 	#Skip the Draugr Necromancer's minion count while it has nothing to fight. The necromancer's summon goal asks the world for every living entity in a hundred and twenty eight by thirty two by a hundred and twenty eight block box around it and counts the ones it owns, and it does that before checking whether it even has a living target, is not already casting, and is off cooldown, so an idle necromancer pays that whole sweep every other tick for a result it then ignores. With this on the sweep is skipped while the necromancer has no living target or is already casting, which are cases where the goal could never start anyway, and it runs exactly as before otherwise. Turn it off for stock behaviour.
 	leanNecromancerSummonCheck = true
+	#Reset the pose of the Goety Cataclysm servant models, the Draugr Necromancer, the Flare Bomb and the Storm Serpent with a plain loop. They are copies of the newer Cataclysm models and rebuild a chain of Java streams over every part of the model, every frame, only to put each part back to its starting pose. With this on the same parts are reset the same way by walking the model directly. Client. Turn it off for stock behaviour.
+	leanPoseReset = true
 
 #Sanguine Neural Networks patches.
 [sanguinenetworks]
@@ -1988,6 +2059,8 @@
 [sophisticatedbackpacks]
 	#Let Sophisticated Backpacks leave alone every mob that is not carrying one of its backpacks. The mod listens to the living tick event, which fires for every living entity on the server every single tick, and the first thing it does there is ask the entity for its Forge persistent data and then pull the sophisticatedbackpacks compound out of it, twice. Asking for the persistent data creates and permanently attaches an empty compound to any entity that did not already have one, and that empty compound is then written into the save file as a ForgeData tag for the rest of that entity's life, while pulling out a compound that is not there hands back a freshly allocated one that is thrown away immediately. A world with a few hundred mobs loaded is paying a couple of thousand throwaway compound tags a second and is quietly growing the saved data of everything that has ever ticked, all to find out that the mob has no backpack. This reads the persistent data field directly without creating it, and if the mob has no sophisticatedbackpacks compound then neither branch of the handler could have done anything, so the handler is skipped outright. The same check is put in front of the chunk unload path that clears a dropped backpack's contents id, which reads the same data the same way for every monster that leaves the level. Mobs that actually spawned wearing a backpack take exactly the stock path, so mob backpack spawning, the jukebox upgrade they can carry and the contents cleanup all behave as before. Turn it off for stock behaviour.
 	skipEntityDataChecks = true
+	#Work out each backpack block's outline shape the first time it is needed instead of all of them on the main thread at every resource reload.
+	lazyShapes = true
 
 #The Undergarden patches.
 [undergarden]
@@ -2170,6 +2243,8 @@
 	plainTranslationFormat = true
 	#Stop modded network packets from leaking off heap memory on the client. When a mod packet arrives, Forge versions before 47.4.24 copy its data into Netty's pooled off heap memory and never give that copy back, and some mods that read the data themselves never give it back either, so on a busy server direct memory keeps growing until the game runs out. With this on the copy is made in normal memory instead, with the same bytes and the same read position, so the garbage collector cleans it up whether or not anyone releases it. Turn it off for stock behaviour.
 	customPayloadHeapCopy = true
+	#Remember armor texture paths instead of formatting them again for every armor piece on every mob in every frame. Forge builds the path of each worn armor texture with a full string format call each time it is drawn, so a room full of armored piglins or zombies spends a noticeable part of the frame parsing the same format string. With this on each finished path is kept and handed back for the same material, layer and overlay, mods that pick their own armor textures are still asked every time, and the texture that ends up drawn is exactly the same. Client. Turn it off for stock behaviour.
+	armorTexturePathCache = true
 
 #NBT loading patches. These take over how compound and list tags are read from chunk files, saves and packets, and they cover everything LongNbtKiller does, so that mod can be removed. They work with or without LongNbtKiller installed.
 [nbtload]
@@ -2327,11 +2402,28 @@
 [witherreincarnated]
 	#Answer "is this mob possessed" from a remembered reference instead of looking the capability up again. The mod asks this on every team check, ally check, attack check and wander check of every mob. Mobs with nothing going on also skip the possession tick.
 	fastPossessionChecks = true
-	#While no Wither is loaded, skip the box search every mob runs to look for a Wither to flee from, and the client's scan of every entity for Wither music.
+	#While no Wither is loaded, skip the box search every mob runs to look for a Wither to flee from, and the client's scans of every entity for Wither music and for the Wither glow it draws every frame.
 	skipIdleWitherScans = true
+	#Let go of a Wither's animation state once the client stops tracking it. The mod keeps every Wither it has ever animated in a map it never empties, and each one holds on to the whole world it was in, so after a fight and a dimension change or a trip back to the title screen the old world stays in memory. With this on a Wither is dropped from that map when it leaves the client world, and the map is emptied when you leave the world. Client.
+	fixAnimationLeak = true
 
 #Composite Material patches.
 [compositematerial]
 	#Every heal on any mob searched a 32 block box for every living thing, only to find players blocking with the dungeon shield. Look at the world's players instead. Mobs that heal every tick made this a real server cost.
 	healPlayersOnly = true
+
+#Bigger Stacks patches.
+[biggerstacks]
+	#Skip the full stack trace Bigger Stacks captures on every stack size lookup before a world is loaded. It only feeds a debug log line that is off.
+	skipCallerLookup = true
+
+#Remnants Of A Cruel World patches.
+[roacw]
+	#Skip the shadowflame effect sync for mobs that have no effects and had none last tick. Every living entity used to build a fresh set of its effect ids every tick on the server just to find out nothing changed. Mobs with effects take the full path, so the client sees the same packets. Server.
+	skipIdleFireSync = true
+
+#Jerotes Warehouse patches.
+[jerotes]
+	#Work out a mob's true faction in one pass. Jerotes asks for it four times per faction check, and every faction check runs for each possible target a mob looks at, so with many mobs around this adds up fast. Each time it looked up the owner twice and built the full faction list twice, only to hand back the mob's own faction name in the end. Now the owner and the saved faction are read once, and the faction list is only built when the mob has no faction name of its own. Same faction as before. Server.
+	trueFactionOnce = true
 

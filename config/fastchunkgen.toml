@@ -31,6 +31,8 @@ maxViewDistance = "default"
 	optimizeScheduling = "default"
 	# (Default: 100000) Nanoseconds between chunk tasks run inside the tick loop. -1 disables.
 	midTickChunkTasksInterval = "default"
+	# (Default: -1) Chunks a player may have loading at once while exploring. Vanilla allows 4, each freed only when its chunk is fully ready. -1 matches the worker thread count (never below 4!!).
+	playerTicketSlots = "default"
 
 	[generalOptimizations.autoSave]
 		# (Default: ENHANCED) VANILLA, ENHANCED (save during idle time) or PERIODIC (every 6000 ticks). Keep the quotes.
@@ -65,6 +67,8 @@ maxViewDistance = "default"
 	serializeBlockEntitiesOnMainThread = "default"
 	# (Default: true) Check that the oversized chunk file exists before deleting it after each chunk save. Avoids an internal exception per save on Windows.
 	skipMissingExternalChunkDelete = "default"
+	# (Default: true) Write chunk section block palettes straight to NBT instead of through codecs. Same output.
+	directBlockStateEncoding = "default"
 
 [vanillaWorldGenOptimizations]
 	# (Default: true) Cheaper random instances during world generation.
@@ -85,6 +89,12 @@ maxViewDistance = "default"
 	shareNoiseBetweenChunks = "default"
 	# (Default: true) Build the surface rule tree once per worker and some less GC churns.
 	reuseSurfaceRules = "default"
+	# (Default: true) Skip post-processing fluid ticks and shape updates that provably change nothing.
+	skipNoOpPostProcessing = "default"
+	# (Default: true) Faster biome parameter lookup with the same results.
+	flatClimateSearch = "default"
+	# (Default: true) Sample height-independent climate noise once per biome column.
+	columnClimateCache = "default"
 
 [threadedLighting]
 	# (Default: true) Run light updates on a dedicated thread.

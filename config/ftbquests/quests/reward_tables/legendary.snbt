@@ -1,7 +1,7 @@
 {
 	id: "639509C7B28C90DF"
 	loot_size: 1
-	order_index: 10
+	order_index: 9
 	rewards: [
 		{ item: "apotheosis:library" }
 		{ item: "powah:thermo_generator_nitro" }

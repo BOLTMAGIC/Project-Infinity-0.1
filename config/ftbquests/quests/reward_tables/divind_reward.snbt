@@ -2,7 +2,7 @@
 	icon: "voidminers:ultimate_stellar_core"
 	id: "7EADDEB8EB560C7C"
 	loot_size: 1
-	order_index: 40
+	order_index: 39
 	rewards: [
 		{
 			command: "/execute at @p run gamemode creative"

@@ -187,10 +187,6 @@
     "fluid_vault": true,
     "item_vault": true
   },
-  "extrastorage": {
-    "crafter": true,
-    "advanced_crafter": true
-  },
   "expatternprovider": {
     "jade_chamber": true,
     "jade_wireless": true

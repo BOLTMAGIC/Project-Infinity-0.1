@@ -4,64 +4,71 @@
 	default_quest_shape: ""
 	filename: "voidminer"
 	group: "29543B666C58207C"
-	icon: "voidminers:rubetine"
+	icon: "voidminers:solar_ultimate_panel"
 	id: "518584706242A148"
 	images: [
 		{
 			height: 1.0d
 			image: "voidminers:item/rubetine"
+			order: 1
 			rotation: 0.0d
 			width: 1.0d
-			x: -11.5d
-			y: 1.500000000000007d
+			x: -3.011904761904752d
+			y: 8.018367346938795d
 		}
 		{
 			height: 1.0d
 			image: "voidminers:item/aurantium"
+			order: 1
 			rotation: 0.0d
 			width: 1.0d
-			x: -12.0d
-			y: 2.000000000000007d
+			x: -3.5833333333333215d
+			y: 8.68503401360546d
 		}
 		{
 			height: 1.0d
 			image: "voidminers:item/citrinetine"
+			order: 1
 			rotation: 0.0d
 			width: 1.0d
-			x: -12.0d
-			y: 3.000000000000007d
+			x: -3.6785714285714093d
+			y: 9.780272108843555d
 		}
 		{
 			height: 1.0d
 			image: "voidminers:item/verdium"
+			order: 1
 			rotation: 0.0d
 			width: 1.0d
-			x: -11.5d
-			y: 4.000000000000007d
+			x: -3.0d
+			y: 10.5d
 		}
 		{
 			height: 1.0d
 			image: "voidminers:item/azurine"
+			order: 1
 			rotation: 0.0d
 			width: 1.0d
-			x: -10.5d
-			y: 4.000000000000007d
+			x: -2.0d
+			y: 10.5d
 		}
 		{
 			height: 1.0d
 			image: "voidminers:item/caerium"
+			order: 1
 			rotation: 0.0d
 			width: 1.0d
-			x: -10.0d
-			y: 3.000000000000007d
+			x: -1.2499999999999858d
+			y: 9.780272108843555d
 		}
 		{
 			height: 1.0d
 			image: "voidminers:item/amethystine"
+			order: 1
 			rotation: 0.0d
 			width: 1.0d
-			x: -10.0d
-			y: 2.000000000000007d
+			x: -1.2499999999999858d
+			y: 8.87551020408165d
 		}
 		{
 			height: 1.0d
@@ -69,25 +76,24 @@
 			order: 50000
 			rotation: 0.0d
 			width: 1.0d
-			x: -10.728214285714273d
-			y: 1.5d
+			x: -1.8690476190476062d
+			y: 8.018367346938795d
 		}
 		{
 			height: 5.5d
 			image: "kubejs:block/screen/voidminers_miners1"
 			rotation: 0.0d
 			width: 10.0d
-			x: 1.5d
-			y: -3.0d
+			x: -2.5d
+			y: -4.627891156462567d
 		}
 		{
 			height: 5.5d
 			image: "kubejs:block/screen/voidminers_miners2"
-			order: -1
 			rotation: 0.0d
 			width: 10.0d
-			x: 1.5d
-			y: 1.5d
+			x: -2.5d
+			y: 1.25d
 		}
 		{
 			height: 5.0d
@@ -95,8 +101,8 @@
 			order: 1
 			rotation: 0.0d
 			width: 9.0d
-			x: -21.5d
-			y: -4.0d
+			x: -17.950680272108848d
+			y: -4.627891156462567d
 		}
 		{
 			height: 5.0d
@@ -104,24 +110,69 @@
 			order: 1
 			rotation: 0.0d
 			width: 9.0d
-			x: -21.5d
-			y: 2.5d
+			x: -17.0d
+			y: 8.5d
 		}
 		{
 			height: 5.0d
 			image: "kubejs:block/screen/solar_panels1"
 			rotation: 0.0d
 			width: 9.0d
-			x: -21.5d
-			y: -0.5d
+			x: -17.955782312925166d
+			y: 1.25d
 		}
 		{
 			height: 1.0d
 			image: "voidminers:item/ultimate_item"
+			order: 1
 			rotation: 0.0d
 			width: 1.0d
-			x: -11.013928571428565d
-			y: 2.7142857142857153d
+			x: -2.4404761904761756d
+			y: 9.256462585034036d
+		}
+		{
+			height: 17.5d
+			image: "betterblockz:block/agon_blockz_3"
+			order: -1
+			rotation: 0.0d
+			width: 17.5d
+			x: -18.166666666666657d
+			y: 8.57363945578232d
+		}
+		{
+			height: 17.5d
+			image: "betterblockz:block/agon_blockz_3"
+			order: -1
+			rotation: 0.0d
+			width: 17.5d
+			x: -3.1734693877551052d
+			y: 8.586394557823134d
+		}
+		{
+			height: 17.5d
+			image: "betterblockz:block/agon_blockz_3"
+			order: -1
+			rotation: 0.0d
+			width: 17.5d
+			x: -18.166666666666657d
+			y: -6.401700680272107d
+		}
+		{
+			height: 17.5d
+			image: "betterblockz:block/agon_blockz_3"
+			order: -1
+			rotation: 0.0d
+			width: 17.5d
+			x: -3.1734693877551052d
+			y: -6.401700680272107d
+		}
+		{
+			height: 15.0d
+			image: "enderio:textures/gui/icons/weather_sun.png"
+			rotation: 0.0d
+			width: 15.0d
+			x: -2.551020408163268d
+			y: 10.542176870748314d
 		}
 	]
 	order_index: 9
@@ -175,6 +226,7 @@
 				type: "xp"
 				xp: 10
 			}]
+			shape: "gear"
 			size: 2.0d
 			tasks: [{
 				id: "25FADFE2900B9911"
@@ -182,16 +234,29 @@
 				type: "checkmark"
 			}]
 			title: "{ftbquests.chapter.voidminer.quest1.title}"
-			x: -11.0d
-			y: -8.0d
+			x: -10.7d
+			y: -8.56496598639454d
 		}
 		{
 			dependencies: ["613DA71A509DC39C"]
 			description: [
 				"{ftbquests.chapter.voidminer.quest2.description1}"
 				""
-				"{ftbquests.chapter.voidminer.quest2.description2}"
-				"{ftbquests.chapter.voidminer.quest2.description3}"
+				"To extract &bitems&r from miner, you can use any &bitem&r pipe or wireless &bitem&r transfer. &bItems&r can only be extracted from the Void Miner; extraction from the frame or any other block is not possible."
+				""
+				"And you will a lot of &cpower&r, so look at &eSolar Void panels&r, on the other side of this quest chapter! After a few tiers, they become very good sources of &cenergy&r!"
+				""
+				"&lAnd remember!&r Void miner work only in vanilla minecraft dimensions - Overworld ( Your first dimension ) Nether and End. In other dimensions, like Mining or Lost cities it doesn't work!"
+				""
+				"Also you &ncan't tick accelerate&r any of Void miner! Blocked in config."
+				""
+				"Tier 1 - &dRubetine miner"
+				"&rOptimal upgrades:"
+				""
+				"No modifier slots"
+				"————————————————————"
+				"&b1 item every 1,000 ticks"
+				"&r&cPower consume 3,000 RF/t&r"
 			]
 			icon: "voidminers:rubetine_miner"
 			id: "6A5C0FD659ACF33A"
@@ -209,19 +274,19 @@
 				{
 					count: 20L
 					id: "338D5EA13ADBF6AF"
-					item: { Count: 20, id: "voidminers:rubetine_frame" }
+					item: "voidminers:rubetine_frame"
 					type: "item"
 				}
 				{
 					count: 9L
 					id: "63A58033E0D136C1"
-					item: { Count: 9, id: "voidminers:glass_panel" }
+					item: "voidminers:glass_panel"
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.voidminer.quest2.title}"
-			x: -9.5d
-			y: -2.5d
+			title: "&fTier 1 - Rubetine miner"
+			x: -8.5d
+			y: -4.5d
 		}
 		{
 			dependencies: [
@@ -229,6 +294,7 @@
 				"4A1B83D6B3D68FA8"
 				"24CC64ABC1D2FADE"
 			]
+			description: ["That's how it begins!"]
 			id: "613DA71A509DC39C"
 			tasks: [{
 				count: 100L
@@ -236,8 +302,8 @@
 				item: "voidminers:rubetine"
 				type: "item"
 			}]
-			x: -9.0d
-			y: -3.5d
+			x: -8.5d
+			y: -5.5d
 		}
 		{
 			dependencies: ["10650AD3F8696D4C"]
@@ -253,8 +319,8 @@
 				item: "minecraft:diamond"
 				type: "item"
 			}]
-			x: -9.0d
-			y: -5.0d
+			x: -10.7d
+			y: -4.5d
 		}
 		{
 			dependencies: ["10650AD3F8696D4C"]
@@ -270,8 +336,8 @@
 				item: "minecraft:blaze_powder"
 				type: "item"
 			}]
-			x: -10.0d
-			y: -5.0d
+			x: -10.7d
+			y: -5.5d
 		}
 		{
 			dependencies: ["10650AD3F8696D4C"]
@@ -287,11 +353,22 @@
 				item: "minecraft:redstone"
 				type: "item"
 			}]
-			x: -8.0d
-			y: -5.0d
+			x: -10.7d
+			y: -6.5d
 		}
 		{
 			dependencies: ["6A5C0FD659ACF33A"]
+			description: [
+				"Tier 2 - &dAurantium miner&r"
+				"Optimal modifiers:"
+				""
+				"2 Rubertine item modifiers"
+				"————————————————————"
+				"&b2 items every 900 ticks&r"
+				"&cPower consume 7,875 RF/t&r"
+				""
+				"P.s Aurantium or Citrinetine item modifiers don't help, still &b2 items every 900 ticks&r"
+			]
 			icon: "voidminers:aurantium_miner"
 			id: "4447B5220839E9E6"
 			rewards: [{
@@ -308,27 +385,44 @@
 				{
 					count: 36L
 					id: "42C76A6F2E92DDB1"
-					item: { Count: 36, id: "voidminers:aurantium_frame" }
+					item: "voidminers:aurantium_frame"
 					type: "item"
 				}
 				{
 					count: 23L
 					id: "4DEC8094A116BD54"
-					item: { Count: 23, id: "voidminers:glass_panel" }
+					item: "voidminers:glass_panel"
 					type: "item"
 				}
 				{
 					count: 2L
 					id: "30CFF633DBC23ABD"
-					item: { Count: 2, id: "voidminers:null_modifier" }
+					item: "voidminers:null_modifier"
 					type: "item"
 				}
 			]
-			x: -10.0d
-			y: -1.5d
+			title: "&fTier 2 - Aurantium miner"
+			x: -8.5d
+			y: -3.5d
 		}
 		{
 			dependencies: ["4447B5220839E9E6"]
+			description: [
+				"Tier 3 - &dCitrinetine miner"
+				"&rOptimal modifiers:"
+				""
+				"4 Citrinetine item modifiers"
+				"————————————————————"
+				"&b8 items every 800 ticks&r"
+				"&cPower consume 26,214 RF/t&r"
+				""
+				"&a&l-OR-&r&r"
+				""
+				"4 Verdium item modifiers"
+				"————————————————————"
+				"&b10 items every 800 ticks&r"
+				"&cPower consume 29,648 RF/t&r"
+			]
 			icon: "voidminers:citrinetine_miner"
 			id: "192B8110318C3955"
 			rewards: [{
@@ -345,27 +439,44 @@
 				{
 					count: 36L
 					id: "76FF348890B577AC"
-					item: { Count: 36, id: "voidminers:citrinetine_frame" }
+					item: "voidminers:citrinetine_frame"
 					type: "item"
 				}
 				{
 					count: 21L
 					id: "014A45D765427D68"
-					item: { Count: 21, id: "voidminers:glass_panel" }
+					item: "voidminers:glass_panel"
 					type: "item"
 				}
 				{
 					count: 4L
 					id: "02BC48B252047B2D"
-					item: { Count: 4, id: "voidminers:null_modifier" }
+					item: "voidminers:null_modifier"
 					type: "item"
 				}
 			]
-			x: -10.0d
-			y: -0.5d
+			title: "&fTier 3 - Citrinetine miner"
+			x: -8.5d
+			y: -2.5d
 		}
 		{
 			dependencies: ["192B8110318C3955"]
+			description: [
+				"Tier 4 - &dVerdium miner"
+				"&rOptimal modifiers:"
+				"&0"
+				"6 Verdium item modifiers"
+				"————————————————————"
+				"&b34 items every 700 ticks&r"
+				"&cPower consume 90,806 RF/t&r"
+				""
+				"&a&l-OR-&r&r&r"
+				""
+				"6 Azurine item modifiers"
+				"————————————————————"
+				"&c47 items every 700 ticks&r"
+				"&bPower consume 108,619 RF/t&r"
+			]
 			icon: "voidminers:verdium_miner"
 			id: "6B9BB75EDF5BD254"
 			rewards: [{
@@ -382,27 +493,44 @@
 				{
 					count: 44L
 					id: "5B1ADCE78AFE009B"
-					item: { Count: 44, id: "voidminers:verdium_frame" }
+					item: "voidminers:verdium_frame"
 					type: "item"
 				}
 				{
 					count: 39L
 					id: "07EBE545873D7E6B"
-					item: { Count: 39, id: "voidminers:glass_panel" }
+					item: "voidminers:glass_panel"
 					type: "item"
 				}
 				{
 					count: 6L
 					id: "3059583A9571C989"
-					item: { Count: 6, id: "voidminers:null_modifier" }
+					item: "voidminers:null_modifier"
 					type: "item"
 				}
 			]
-			x: -9.5d
-			y: 0.5d
+			title: "&fTier 4 - Verdium miner"
+			x: -8.5d
+			y: -1.5d
 		}
 		{
 			dependencies: ["6B9BB75EDF5BD254"]
+			description: [
+				"Tier 5 - &dAzurine miner"
+				"&rOptimal modifiers:"
+				""
+				"8 Azurine item modifiers"
+				"————————————————————"
+				"&b169 items every 600 ticks"
+				"&r&cPower consume 348,787 RF/t"
+				"&r"
+				"&a&l-OR-"
+				"&r"
+				"&r8 Caerium item modifiers"
+				"————————————————————"
+				"&b256 items every 600 ticks"
+				"&r&cPower consume 439,819 RF/t&r"
+			]
 			icon: "voidminers:azurine_miner"
 			id: "19E0BEAB98B9F41E"
 			rewards: [{
@@ -419,27 +547,50 @@
 				{
 					count: 48L
 					id: "0E58EAD37978D30F"
-					item: { Count: 48, id: "voidminers:azurine_frame" }
+					item: "voidminers:azurine_frame"
 					type: "item"
 				}
 				{
 					count: 37L
 					id: "42C56536ADE9A9B8"
-					item: { Count: 37, id: "voidminers:glass_panel" }
+					item: "voidminers:glass_panel"
 					type: "item"
 				}
 				{
 					count: 8L
 					id: "0EB33FE413FEBDF1"
-					item: { Count: 8, id: "voidminers:null_modifier" }
+					item: "voidminers:null_modifier"
 					type: "item"
 				}
 			]
+			title: "&fTier 5 - Azurine miner"
 			x: -8.5d
-			y: 0.5d
+			y: -0.5d
 		}
 		{
 			dependencies: ["19E0BEAB98B9F41E"]
+			description: [
+				"Tier 6 - &dCaerium miner"
+				"&rOptimal modifiers:"
+				""
+				"10 Caerium item modifiers"
+				"————————————————————"
+				"&b1024 items every 500 ticks "
+				"&r&cPower consume 1,481,641 RF/t"
+				""
+				"&r( Needs T2 storage upgrade )"
+				""
+				"&a&l-OR-"
+				"&r"
+				"&r1 Aurantium item modifier"
+				"1 Azurine item modifier"
+				"8 Amethystine item modifiers"
+				"————————————————————"
+				"&b1149 items every 500 ticks"
+				"&r&cPower consume 1,597,067 RF/t"
+				"&r"
+				"( Needs T2 storage upgrade )"
+			]
 			icon: "voidminers:caerium_miner"
 			id: "42A2799543E39385"
 			rewards: [{
@@ -456,27 +607,53 @@
 				{
 					count: 44L
 					id: "60B8FFBC1D6798D8"
-					item: { Count: 44, id: "voidminers:caerium_frame" }
+					item: "voidminers:caerium_frame"
 					type: "item"
 				}
 				{
 					count: 35L
 					id: "15FA408B8BA96258"
-					item: { Count: 35, id: "voidminers:glass_panel" }
+					item: "voidminers:glass_panel"
 					type: "item"
 				}
 				{
 					count: 10L
 					id: "472186B9B5D0C2E8"
-					item: { Count: 10, id: "voidminers:null_modifier" }
+					item: "voidminers:null_modifier"
 					type: "item"
 				}
 			]
-			x: -8.0d
-			y: -0.5d
+			title: "&fTier 6 - Caerium miner"
+			x: -8.5d
+			y: 0.5d
 		}
 		{
 			dependencies: ["42A2799543E39385"]
+			description: [
+				"Tier 7 - &dAmethystine miner&r"
+				"Optimal modifiers:"
+				""
+				"1 Aurantium item modifier"
+				"1 Azurine item modifier"
+				"8 Amethystine item modifiers"
+				"2 Amethystine speed modifiers"
+				"————————————————————"
+				"&b1149 items every 243 ticks&r"
+				"&cPower consume 2,593,173 RF/t"
+				"&r"
+				"( Needs T2 storage upgrade )"
+				""
+				"&a&l-OR-"
+				"&r"
+				"&r2 Amethystine item modifiers"
+				"7 Rosarium item modifiers"
+				"3 Rosarium speed modifiers"
+				"————————————————————"
+				"&b1100 items every 175 ticks"
+				"&r&cPower consume 2,748,928 RF/t"
+				"&r"
+				"( Needs T2 storage upgrade )"
+			]
 			icon: "voidminers:amethystine_miner"
 			id: "304EEA2DC9E23142"
 			rewards: [{
@@ -493,27 +670,52 @@
 				{
 					count: 44L
 					id: "3241DB1A9A0ED049"
-					item: { Count: 44, id: "voidminers:amethystine_frame" }
+					item: "voidminers:amethystine_frame"
 					type: "item"
 				}
 				{
 					count: 25L
 					id: "133856B8F508F64F"
-					item: { Count: 25, id: "voidminers:glass_panel" }
+					item: "voidminers:glass_panel"
 					type: "item"
 				}
 				{
 					count: 12L
 					id: "7FA7133044EBF2FB"
-					item: { Count: 12, id: "voidminers:null_modifier" }
+					item: "voidminers:null_modifier"
 					type: "item"
 				}
 			]
-			x: -8.0d
-			y: -1.5d
+			title: "&fTier 7 - Amethystine miner"
+			x: -8.5d
+			y: 1.5d
 		}
 		{
 			dependencies: ["304EEA2DC9E23142"]
+			description: [
+				"Tier 8 - &dRosarium miner"
+				"&rOptimal modifiers:"
+				""
+				"2 Amethystine item modifiers"
+				"7 Rosarium item modifiers"
+				"7 Rosarium speed modifiers"
+				"————————————————————"
+				"&b1100 items every 43 ticks"
+				"&r&cPower consume 7,040,642 RF/t"
+				"&r"
+				"(needs T2 storage upgrade)"
+				""
+				"&l&a-OR-"
+				"&r"
+				"&r1 Rubetine item modifiers"
+				"8 Ultimate item modifiers"
+				"7 Ultimate speed modifiers"
+				"————————————————————"
+				"&b2288 items every 24 ticks"
+				"&r&cPower consume 15,662,026 RF/t"
+				"&r"
+				"(needs T3 storage upgrade)"
+			]
 			icon: "voidminers:rosarium_miner"
 			id: "2AA3081EC2F565CC"
 			rewards: [{
@@ -532,24 +734,25 @@
 				{
 					count: 60L
 					id: "662D38DD236D188B"
-					item: { Count: 60, id: "voidminers:rosarium_frame" }
+					item: "voidminers:rosarium_frame"
 					type: "item"
 				}
 				{
 					count: 30L
 					id: "4B58B041211B2924"
-					item: { Count: 30, id: "voidminers:glass_panel" }
+					item: "voidminers:glass_panel"
 					type: "item"
 				}
 				{
 					count: 16L
 					id: "654982B8F0E74FEF"
-					item: { Count: 13, id: "voidminers:null_modifier" }
+					item: "voidminers:null_modifier"
 					type: "item"
 				}
 			]
-			x: -7.5d
-			y: -3.0d
+			title: "&fTier 8 - Rosarium miner"
+			x: -8.55d
+			y: 3.0d
 		}
 		{
 			dependencies: ["4447B5220839E9E6"]
@@ -574,7 +777,6 @@
 				"{ftbquests.chapter.voidminer.quest14.description12}"
 				"{ftbquests.chapter.voidminer.quest14.description13}"
 			]
-			hide_dependency_lines: true
 			id: "7A53D218AE346717"
 			min_width: 300
 			rewards: [{
@@ -587,15 +789,16 @@
 				type: "checkmark"
 			}]
 			title: "{ftbquests.chapter.voidminer.quest14.title}"
-			x: -6.0d
-			y: 1.0d
+			x: -9.5d
+			y: -3.5d
 		}
 		{
 			dependencies: [
-				"3CF8F5666110D88F"
-				"2F904B520C4AFBA5"
-				"76F5BDC7F3F7612B"
+				"512222D9CB8B09F2"
+				"4A1B83D6B3D68FA8"
+				"24CC64ABC1D2FADE"
 			]
+			description: ["That how it begins!"]
 			id: "6FF80530D4F0FD81"
 			rewards: [{
 				id: "576F9BA3F7EF3A6F"
@@ -609,61 +812,19 @@
 				type: "item"
 			}]
 			x: -13.0d
-			y: -3.5d
-		}
-		{
-			dependencies: ["10650AD3F8696D4C"]
-			id: "76F5BDC7F3F7612B"
-			rewards: [{
-				id: "550440CB975C81AC"
-				type: "xp"
-				xp: 10
-			}]
-			tasks: [{
-				count: 100L
-				id: "1F6D0A023FBF12F1"
-				item: { Count: 100, id: "minecraft:glowstone_dust" }
-				type: "item"
-			}]
-			x: -14.0d
-			y: -5.0d
-		}
-		{
-			dependencies: ["10650AD3F8696D4C"]
-			id: "3CF8F5666110D88F"
-			rewards: [{
-				id: "5A6EB1E4282707F7"
-				type: "xp"
-				xp: 10
-			}]
-			tasks: [{
-				count: 100L
-				id: "3C6FEDE13D5115CB"
-				item: { Count: 100, id: "minecraft:diamond" }
-				type: "item"
-			}]
-			x: -13.0d
-			y: -5.0d
-		}
-		{
-			dependencies: ["10650AD3F8696D4C"]
-			id: "2F904B520C4AFBA5"
-			rewards: [{
-				id: "5CE77DADA195B939"
-				type: "xp"
-				xp: 10
-			}]
-			tasks: [{
-				count: 25L
-				id: "555266A6A3AA3486"
-				item: { Count: 25, id: "minecraft:redstone" }
-				type: "item"
-			}]
-			x: -12.0d
-			y: -5.0d
+			y: -5.5d
 		}
 		{
 			dependencies: ["6FF80530D4F0FD81"]
+			description: [
+				"Tier 1 - &eSolar Rubetine panel"
+				"&r"
+				"No modifier slots."
+				"————————————————————"
+				"&2Produce 512 RF/t"
+				"&r"
+				"Remember that you &ncan't tick accelerate&r any of Void solar panel! Blocked in config."
+			]
 			id: "6E34E7248F1B7E27"
 			rewards: [{
 				id: "601D2807D223A469"
@@ -675,17 +836,24 @@
 				item: "voidminers:solar_rubetine_panel"
 				type: "item"
 			}]
-			x: -12.5d
-			y: -2.5d
+			title: "&fTier 1 - Solar Rubetine panel"
+			x: -13.0d
+			y: -4.5d
 		}
 		{
 			dependencies: ["6E34E7248F1B7E27"]
 			description: [
-				"{ftbquests.chapter.voidminer.quest20.description1}"
+				"Tier 2 - &eSolar Aurantium panel&r"
 				""
-				"{ftbquests.chapter.voidminer.quest20.description2}"
-				""
-				"{ftbquests.chapter.voidminer.quest20.description3}"
+				"Without modifier slots."
+				"————————————————————"
+				"&2Produce 2,048 RF/t"
+				"&r"
+				"&a&l-OR-"
+				"&r"
+				"&r2 Citrinetine efficiency modifiers"
+				"————————————————————"
+				"&2Produce 2,344 RF/t&r"
 			]
 			id: "00BFF2A289A45C93"
 			rewards: [{
@@ -698,11 +866,25 @@
 				item: "voidminers:solar_aurantium_panel"
 				type: "item"
 			}]
-			x: -12.0d
-			y: -1.5d
+			title: "&fTier 2 -  Solar Aurantium panel"
+			x: -13.0d
+			y: -3.5d
 		}
 		{
 			dependencies: ["00BFF2A289A45C93"]
+			description: [
+				"Tier 3 - &eSolar Citrinetine panel"
+				"&r"
+				"Without modifier slots."
+				"————————————————————"
+				"&2Produce 8,192 RF/t"
+				"&r"
+				"&a&l-OR-"
+				""
+				"&r&r4 Verdium efficiency modifiers"
+				"————————————————————"
+				"&2Produce 11,145 RF/t&r"
+			]
 			id: "7A90741510A28F4B"
 			rewards: [{
 				id: "33869343881BC7CE"
@@ -714,11 +896,25 @@
 				item: "voidminers:solar_citrinetine_panel"
 				type: "item"
 			}]
-			x: -12.0d
-			y: -0.5d
+			title: "&fTier 3 - Solar Citrinetine panel"
+			x: -13.0d
+			y: -2.5d
 		}
 		{
 			dependencies: ["7A90741510A28F4B"]
+			description: [
+				"Tier 4 - &eSolar Verdium panel"
+				"&r"
+				"Without modifier slots."
+				"————————————————————"
+				"&2Produce 32,768 RF/t"
+				"&r"
+				"&a&l-OR-"
+				"&r"
+				"&r6 Azurine efficiency modifiers"
+				"————————————————————"
+				"&2Produce 54,955 RF/t&r"
+			]
 			id: "1C9447B840223651"
 			rewards: [{
 				id: "15134EE4FEA40DBC"
@@ -730,11 +926,25 @@
 				item: "voidminers:solar_verdium_panel"
 				type: "item"
 			}]
-			x: -12.5d
-			y: 0.5d
+			title: "&fTier 4 - Solar Verdium panel"
+			x: -13.0d
+			y: -1.5d
 		}
 		{
 			dependencies: ["1C9447B840223651"]
+			description: [
+				"Tier 5 - &eSolar Azurine panel"
+				"&r"
+				"Without modifier slots."
+				"————————————————————"
+				"&2Produce 65,536 RF/t"
+				"&r"
+				"&a&l-OR-"
+				"&r"
+				"&r8 Caerium efficiency modifiers"
+				"————————————————————"
+				"&2Produce 151,030 RF/t&r"
+			]
 			id: "060875F3B7C81315"
 			rewards: [{
 				id: "4F2155F5A4C7C6FC"
@@ -746,11 +956,25 @@
 				item: "voidminers:solar_azurine_panel"
 				type: "item"
 			}]
-			x: -13.5d
-			y: 0.5d
+			title: "&fTier 5 - Solar Azurine panel"
+			x: -13.0d
+			y: -0.5d
 		}
 		{
 			dependencies: ["060875F3B7C81315"]
+			description: [
+				"Tier 6 - &eSolar Caerium panel"
+				"&r"
+				"Without modifier slots."
+				"————————————————————"
+				"&2Produce 262,144 RF/t"
+				"&r"
+				"&a&l-OR-"
+				"&r"
+				"&r10 Amethystine efficiency modifiers"
+				"————————————————————"
+				"&2Produce 889,865 RF/t&r"
+			]
 			id: "39D243515A8CCB04"
 			rewards: [{
 				id: "2EBF960CD69CB94C"
@@ -762,11 +986,27 @@
 				item: "voidminers:solar_caerium_panel"
 				type: "item"
 			}]
-			x: -14.0d
-			y: -0.5d
+			title: "&fTier 6 - Solar Caerium panel"
+			x: -13.0d
+			y: 0.5d
 		}
 		{
 			dependencies: ["39D243515A8CCB04"]
+			description: [
+				"Tier 7 - &eSolar Amethystine panel"
+				"&r"
+				"Without modifier slots."
+				"————————————————————"
+				"&2Produce 524,288 RF/t"
+				"&r"
+				"&a&l-OR-"
+				"&r"
+				"&r12 Rosarium efficiency modifiers"
+				"————————————————————"
+				"&2Produce 2,525,969 RF/t"
+				""
+				"It's where real &2energy generation&r comes in!"
+			]
 			id: "3B023D3A72B6DB76"
 			rewards: [{
 				id: "30FEC7DDD178D7A7"
@@ -778,11 +1018,31 @@
 				item: "voidminers:solar_amethystine_panel"
 				type: "item"
 			}]
-			x: -14.0d
-			y: -1.5d
+			title: "&fTier 7 - Solar Amethystine panel"
+			x: -13.0d
+			y: 1.5d
 		}
 		{
 			dependencies: ["3B023D3A72B6DB76"]
+			description: [
+				"Tier 8 - &eRosarium solar miner&r"
+				""
+				"Without modifier slots."
+				"————————————————————"
+				"&2Produce 8,388,608 RF/t"
+				"&r"
+				"&a&l-OR-"
+				"&r"
+				"&r16 Rosarium efficiency modifiers"
+				"————————————————————"
+				"&2Produce 68,260,184 RF/t"
+				""
+				"&r&a&l-OR-&r&r"
+				""
+				"16 Ultimate efficiency modifiers"
+				"————————————————————"
+				"&2Produce 78,497,392 RF/t&r"
+			]
 			id: "224DA46DAC47E550"
 			rewards: [{
 				id: "275422952168ADDF"
@@ -795,11 +1055,29 @@
 				item: "voidminers:solar_rosarium_panel"
 				type: "item"
 			}]
-			x: -14.25d
-			y: -3.0d
+			title: "&fTier 8 - Solar Rosarium panel"
+			x: -12.95d
+			y: 3.0d
 		}
 		{
-			dependencies: ["224DA46DAC47E550"]
+			dependencies: ["56B12812539BC8D2"]
+			description: [
+				"Tier 9 - &eUltimate Solar miner&r"
+				""
+				"Without modifier slots."
+				"————————————————————"
+				"&2Produce - 203,685,477 RF/t&r"
+				""
+				"&a&l-OR-"
+				""
+				"&r&r24 Ultimate efficiency modifiers"
+				"————————————————————"
+				"&2Produce - 5,830,530,560 RF/t&r"
+				""
+				""
+				""
+				"This is the best &2energy generator&r, until you get &dCreative power source&r or &dCreative energy cube&r."
+			]
 			id: "1F7ACEEDD4FE9EBA"
 			rewards: [{
 				id: "55F8CD59C798F5BA"
@@ -813,11 +1091,30 @@
 				item: "voidminers:solar_ultimate_panel"
 				type: "item"
 			}]
-			x: -16.0d
-			y: -3.0d
+			title: "&fTier 9 - Ultimate Solar Miner"
+			x: -11.589115646258506d
+			y: 8.559183673469384d
 		}
 		{
-			dependencies: ["2AA3081EC2F565CC"]
+			dependencies: ["56B12812539BC8D2"]
+			description: [
+				"Tier 9 - &dUltimate miner"
+				"&rBest modifiers setup:"
+				""
+				"1 Verdium item modifier"
+				"9 Caerium item modifiers"
+				"1 Ultimate item modifier"
+				"13 Ultimate speed modifiers"
+				"————————————————————"
+				"&b2304 items every tick"
+				"&r&cPower consume 107,700,496 RF/t"
+				"&r"
+				"( Needs T3 storage upgrade )"
+				""
+				""
+				""
+				"[ \"Now, you have Ultimate miner, it's most useful in End dimension, because of acces to Naquadah reactor, a lot of coal and Gems that you can spend to produce Hellforge parts in \", { \"text\": \"Multicompactor\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"49F7A2C0AB76A359\" } }, \" multiblock, also you will get a lot of Unobtainium ore and Draconium ore!\" ]"
+			]
 			id: "1680C380DBB6EC24"
 			rewards: [{
 				id: "4EBF40CEE64F628D"
@@ -831,8 +1128,9 @@
 				item: "voidminers:ultimate_miner"
 				type: "item"
 			}]
-			x: -5.740119047619061d
-			y: -2.999999999999993d
+			title: "&fTier 9 - Ultimate miner"
+			x: -9.762585034013618d
+			y: 8.581292517006801d
 		}
 		{
 			dependencies: ["7A53D218AE346717"]
@@ -857,8 +1155,8 @@
 				type: "item"
 			}]
 			title: "{ftbquests.chapter.voidminer.quest29.title}"
-			x: -7.0d
-			y: 2.0d
+			x: -9.5d
+			y: -2.5d
 		}
 		{
 			dependencies: ["7A53D218AE346717"]
@@ -883,8 +1181,8 @@
 				type: "item"
 			}]
 			title: "{ftbquests.chapter.voidminer.quest30.title}"
-			x: -6.0d
-			y: 3.0d
+			x: -9.5d
+			y: -0.5d
 		}
 		{
 			dependencies: ["7A53D218AE346717"]
@@ -909,8 +1207,8 @@
 				type: "item"
 			}]
 			title: "{ftbquests.chapter.voidminer.quest31.title}"
-			x: -5.0d
-			y: 2.0d
+			x: -9.5d
+			y: -1.5d
 		}
 		{
 			dependencies: ["13D8005BEF796C17"]
@@ -927,8 +1225,8 @@
 				type: "item"
 			}]
 			title: "{ftbquests.chapter.voidminer.quest32.title}"
-			x: -11.0d
-			y: -4.0d
+			x: -7.5d
+			y: -2.5d
 		}
 		{
 			dependencies: ["05A5749D17D78A93"]
@@ -945,8 +1243,8 @@
 				type: "item"
 			}]
 			title: "{ftbquests.chapter.voidminer.quest33.title}"
-			x: -11.0d
-			y: -3.0d
+			x: -7.5d
+			y: -1.5d
 		}
 		{
 			dependencies: ["39308E4C2876748C"]
@@ -963,11 +1261,11 @@
 				type: "item"
 			}]
 			title: "{ftbquests.chapter.voidminer.quest34.title}"
-			x: -11.0d
-			y: -2.0d
+			x: -7.5d
+			y: -0.5d
 		}
 		{
-			dependencies: ["10650AD3F8696D4C"]
+			dependencies: ["6A5C0FD659ACF33A"]
 			description: [
 				"{ftbquests.chapter.voidminer.quest35.description1}"
 				"{ftbquests.chapter.voidminer.quest35.description2}"
@@ -991,11 +1289,11 @@
 				title: "{ftbquests.chapter.voidminer.quest35.task_1341017415347997823.title}"
 				type: "checkmark"
 			}]
-			x: -11.0d
-			y: -5.0d
+			x: -7.5d
+			y: -3.5d
 		}
 		{
-			dependencies: ["00BFF2A289A45C93"]
+			dependencies: ["6547673342C07AE1"]
 			description: [
 				"{ftbquests.chapter.voidminer.quest36.description1}"
 				""
@@ -1005,7 +1303,6 @@
 				""
 				"{ftbquests.chapter.voidminer.quest36.description5}"
 			]
-			hide_dependency_lines: true
 			id: "457A6496FA02E39E"
 			rewards: [{
 				id: "78A02E4004B9386B"
@@ -1018,11 +1315,11 @@
 				type: "item"
 			}]
 			title: "{ftbquests.chapter.voidminer.quest36.title}"
-			x: -16.5d
-			y: 2.0d
+			x: -12.0d
+			y: -2.5d
 		}
 		{
-			dependencies: ["00BFF2A289A45C93"]
+			dependencies: ["6547673342C07AE1"]
 			description: [
 				"{ftbquests.chapter.voidminer.quest37.description1}"
 				"{ftbquests.chapter.voidminer.quest37.description2}"
@@ -1033,7 +1330,6 @@
 				""
 				"{ftbquests.chapter.voidminer.quest37.description6}"
 			]
-			hide_dependency_lines: true
 			id: "399AB99920896FE3"
 			rewards: [{
 				id: "69B3733B674041F5"
@@ -1046,8 +1342,344 @@
 				type: "item"
 			}]
 			title: "{ftbquests.chapter.voidminer.quest37.title}"
-			x: -15.5d
-			y: 2.0d
+			x: -12.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["00BFF2A289A45C93"]
+			description: [
+				"Upgrades for &esolar&r Void miner."
+				""
+				"Highly recommend use solar &cefficiency&r modifiers!"
+			]
+			id: "6547673342C07AE1"
+			tasks: [{
+				id: "3FF35141627B3147"
+				title: "Optimizng"
+				type: "checkmark"
+			}]
+			title: "&d&lOptimizing the solar Void"
+			x: -12.0d
+			y: -3.5d
+		}
+		{
+			dependencies: [
+				"2AA3081EC2F565CC"
+				"224DA46DAC47E550"
+			]
+			description: [
+				"So, you diceded to make T9 &eSolar Ultimate panel&r or T9 &dVoid miner&r, it's not just a crafting recipe! "
+				""
+				"You will need to proceed some kind of &nritual&r to get one!"
+			]
+			id: "58F6EAA18D2F908F"
+			min_width: 250
+			tasks: [{
+				id: "6EBEF37BCC628243"
+				title: "Tier 9 Void ritual"
+				type: "checkmark"
+			}]
+			title: "&d&lTier 9 Void ritual"
+			x: -10.7d
+			y: 3.025d
+		}
+		{
+			dependencies: ["58F6EAA18D2F908F"]
+			description: [
+				"You need to craft &b48x&r of rune holders and &b1x&r central rune holder from MythicBotany mod. "
+				""
+				"And build the structure with them, you can use JEI and build it manually or use Multibuilder tool."
+			]
+			id: "5C9BB19048D84834"
+			tasks: [
+				{
+					id: "5D0F034649504880"
+					item: "mythicbotany:central_rune_holder"
+					type: "item"
+				}
+				{
+					count: 48L
+					id: "680925FC6D7019F1"
+					item: "mythicbotany:rune_holder"
+					type: "item"
+				}
+			]
+			title: "&d&lFirst step"
+			x: -10.7d
+			y: 4.0d
+		}
+		{
+			dependencies: ["5C9BB19048D84834"]
+			description: [
+				"You need to craft special &3runes&r from MythicBotany mod. and place them, same as it's show in JEI, world coordinates doesn't count! Or the ritual won’t work! "
+				""
+				"And place other &bitems&r like Infinity 6 in rune holders! ( Items that you need are always shown in JEI )"
+				""
+				"Runes aren't disappear after ritual."
+			]
+			id: "3AE8F089B22622A4"
+			min_width: 260
+			tasks: [
+				{
+					count: 2L
+					id: "6785011A0094A994"
+					item: "mythicbotany:niflheim_rune"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "78765CC5B8CD06DD"
+					item: "mythicbotany:joetunheim_rune"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "0723B4EA4C5868C9"
+					item: "mythicbotany:muspelheim_rune"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "3DC97662FF2C6CE1"
+					item: "mythicbotany:vanaheim_rune"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "2476694D1FE603C7"
+					item: "mythicbotany:helheim_rune"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "6213294A429CCCE5"
+					item: "mythicbotany:alfheim_rune"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "20C67A6486CF934A"
+					item: "mythicbotany:nidavellir_rune"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "59D7FE2AE6D9BD2D"
+					item: "mythicbotany:midgard_rune"
+					type: "item"
+				}
+			]
+			title: "&d&lSecond step"
+			x: -10.7d
+			y: 5.0d
+		}
+		{
+			dependencies: ["3AE8F089B22622A4"]
+			description: [
+				"You will need to drink from well of Mimir, it's required to start the ritual. How to do it? I will explain it to you."
+				""
+				"You need to craft Branch of Yggdrassil place it in the world, and put into it Horn of the Wild. "
+				"Then you need to put some &bmana&r into Branch, use any &bMana spreader&r for this. "
+				""
+				"And you will get your Well of Mimir, just have a drink of this juicy water!"
+				""
+				"It's one time procces, so you not need to make it all again, if you want to do second ritual."
+			]
+			id: "6A5C790DE08EA3C6"
+			min_width: 260
+			tasks: [
+				{
+					id: "51368E250D3953D2"
+					item: "mythicbotany:yggdrasil_branch"
+					type: "item"
+				}
+				{
+					id: "684906B0F4603512"
+					item: "botania:horn_grass"
+					type: "item"
+				}
+				{
+					id: "2F920B0CED4C8548"
+					item: "mythicbotany:gjallar_horn_empty"
+					type: "item"
+				}
+				{
+					id: "75E7FD951EF28B8E"
+					item: "mythicbotany:gjallar_horn_full"
+					type: "item"
+				}
+			]
+			title: "&d&lThird step"
+			x: -10.7d
+			y: 6.0d
+		}
+		{
+			dependencies: ["6A5C790DE08EA3C6"]
+			description: [
+				"You almost done the ritual! "
+				""
+				"You need any Mana holder with half of Mana pool in it (&b500.000 Mana&r) it's need to be in your inventory or Curio slot to procced the ritual. "
+				"(&bMana tablet&r, &bband of Mana&r or something else)"
+				""
+				"So, it's the last step. Drop ingots that shown in JEI onto central rune holder. "
+				""
+				"Press with Wand of forest on central rune holder with shift button pressed, and if you make all steps correct, ritual will be proceed!"
+			]
+			id: "56B12812539BC8D2"
+			min_width: 260
+			tasks: [
+				{
+					id: "400B9ADFBFC3FCE2"
+					item: "botanicalextramachinery:crimson_ingot"
+					type: "item"
+				}
+				{
+					id: "4C71E3391B6389AD"
+					item: "botanicalextramachinery:shadow_ingot"
+					type: "item"
+				}
+				{
+					id: "00D50E877793838E"
+					item: "botanicalextramachinery:saffron_ingot"
+					type: "item"
+				}
+				{
+					id: "045B12B6DE13CAA5"
+					item: "mythicbotany:alfsteel_ingot"
+					type: "item"
+				}
+				{
+					id: "5393463CE6EB26B8"
+					item: "botania:gaia_ingot"
+					type: "item"
+				}
+				{
+					id: "3016C71EF5C2CD4C"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "botania:mana_tablet"
+								}
+								{
+									Count: 1b
+									id: "botania:mana_ring"
+								}
+								{
+									Count: 1b
+									id: "botania:mana_ring_greater"
+								}
+								{
+									Count: 1b
+									id: "botania:mana_mirror"
+									tag: { }
+								}
+							]
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "&d&lLast step!"
+			x: -10.7d
+			y: 7.0d
+		}
+		{
+			dependencies: [
+				"1F7ACEEDD4FE9EBA"
+				"1680C380DBB6EC24"
+			]
+			dependency_requirement: "one_completed"
+			description: [
+				"Now, after first ritual you are able to do a legit dupe of your T9 &eSolar Ultimate panel&r or T9 &dVoid miner&r."
+				""
+				"You can just craft it in crafting grid using Infinity 7 ingots and Ultimate stellar core!)"
+				""
+				"( &nReward are not actual miner, it's just a Trophy!&r )"
+			]
+			icon: "bloodmagic:dungeon_alternator"
+			id: "6D9733E86B1CFE18"
+			rewards: [
+				{
+					id: "7D1F140ABD4579D5"
+					item: {
+						Count: 1
+						id: "obtrophies:display_trophy"
+						tag: {
+							BlockEntityTag: {
+								display: {
+									display: "voidminers:ultimate_miner"
+									scale: 2.0f
+								}
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5658A15FF1CF7580"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			size: 1.75d
+			tasks: [
+				{
+					count: 2L
+					id: "23C436473E113EF9"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "voidminers:solar_ultimate_panel"
+								}
+								{
+									Count: 1b
+									id: "voidminers:ultimate_miner"
+								}
+							]
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "4B16E3F6C3D1DF98"
+					item: "kubejs:infinity_7"
+					type: "item"
+				}
+			]
+			title: "&d&lAnd — there's dupe coming!"
+			x: -10.66734693877553d
+			y: 10.390816326530611d
+		}
+		{
+			dependencies: [
+				"6547673342C07AE1"
+				"7A53D218AE346717"
+			]
+			dependency_requirement: "one_completed"
+			description: [
+				"In each except Tier 1 multiblocks we have \"Null modifiers\" for upgrading your multiblock, you simply need to replace \"Null modifiers\" with your modifiers blocks."
+				""
+				"For storage upgrade, you need to press Right Mouse Button on Void miner with storage upgrade in your hand. ( Works only with miners )"
+			]
+			id: "7632F0FFADD1E44A"
+			min_width: 250
+			size: 1.1d
+			tasks: [{
+				id: "28419087D12556D7"
+				title: "How to upgrade?"
+				type: "checkmark"
+			}]
+			x: -10.7d
+			y: -3.5d
 		}
 	]
 	title: "{ftbquests.chapter.voidminer.title}"

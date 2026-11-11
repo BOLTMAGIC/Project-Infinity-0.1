@@ -4,7 +4,7 @@
 	default_quest_shape: ""
 	filename: "crazy_ae2"
 	group: "29543B666C58207C"
-	icon: "crazyae2addons:super_singularity"
+	icon: "insaneae2addons:super_singularity"
 	id: "7422FAB7EA32F136"
 	images: [
 		{
@@ -35,7 +35,7 @@
 			click: "https://www.youtube.com/playlist?list=PLB8Rr5Xojkr5T1qoPr_4JdETiBkF4qF6r"
 			height: 1.0d
 			hover: ["ftbquests.chapter.crazy_ae2.image.hovertext1"]
-			image: "crazyae2addons:item/super_singularity"
+			image: "insaneae2addons:item/super_singularity"
 			rotation: 0.0d
 			width: 1.0d
 			x: -3.0d
@@ -159,7 +159,7 @@
 				""
 				"{ftbquests.chapter.crazy_ae2.quest2.description13}"
 			]
-			icon: "crazyae2addons:research_station"
+			icon: "insaneae2addons:research_station"
 			id: "2038BB072CF5A537"
 			min_width: 300
 			rewards: [
@@ -178,19 +178,19 @@
 			tasks: [
 				{
 					id: "4F701D191C0CCBF7"
-					item: "crazyae2addons:research_station"
+					item: "insaneae2addons:research_station"
 					type: "item"
 				}
 				{
 					count: 8L
 					id: "50A43452F32B7603"
-					item: "crazyae2addons:research_pedestal_bottom"
+					item: "insaneae2addons:research_pedestal_bottom"
 					type: "item"
 				}
 				{
 					count: 8L
 					id: "087B5C23793FC865"
-					item: "crazyae2addons:research_pedestal_top"
+					item: "insaneae2addons:research_pedestal_top"
 					type: "item"
 				}
 			]
@@ -230,7 +230,7 @@
 				""
 				"{ftbquests.chapter.crazy_ae2.quest3.description19}"
 			]
-			icon: "crazyae2addons:research_unit"
+			icon: "insaneae2addons:research_unit"
 			id: "45FC26A201DB8F40"
 			rewards: [{
 				id: "1AA7AE215B172D14"
@@ -240,13 +240,13 @@
 			tasks: [
 				{
 					id: "6DC34411268AD53D"
-					item: "crazyae2addons:research_unit"
+					item: "insaneae2addons:research_unit"
 					type: "item"
 				}
 				{
 					count: 43L
 					id: "1457DF1D6F9744E9"
-					item: "crazyae2addons:research_unit_frame"
+					item: "insaneae2addons:research_unit_frame"
 					type: "item"
 				}
 				{
@@ -291,7 +291,7 @@
 				"{ftbquests.chapter.crazy_ae2.quest4.description15}"
 				"{ftbquests.chapter.crazy_ae2.quest4.description16}"
 			]
-			icon: "crazyae2addons:data_drive"
+			icon: "insaneae2addons:data_drive"
 			id: "5672D678F1141D28"
 			min_width: 250
 			rewards: [{
@@ -302,12 +302,12 @@
 			tasks: [
 				{
 					id: "03BFA174EDDFA2C3"
-					item: "crazyae2addons:data_drive"
+					item: "insaneae2addons:data_drive"
 					type: "item"
 				}
 				{
 					id: "16FFB82F842723F3"
-					item: "crazyae2addons:research_fluid_bucket"
+					item: "insaneae2addons:research_fluid_bucket"
 					type: "item"
 				}
 			]
@@ -398,9 +398,9 @@
 				id: "0A663DEE507D4290"
 				item: {
 					Count: 1
-					id: "crazyae2addons:data_drive"
+					id: "insaneae2addons:data_drive"
 					tag: {
-						keys: ["crazyae2addons:pattern_modifier_research"]
+						keys: ["insaneae2addons:pattern_modifier_research"]
 					}
 				}
 				match_nbt: true
@@ -606,12 +606,12 @@
 			}]
 			tasks: [{
 				id: "2B8782E39F2DF871"
-				item: "crazyae2addons:auto_enchanter"
+				item: "insaneae2addons:auto_enchanter"
 				type: "item"
 			}]
 			title: "{ftbquests.chapter.crazy_ae2.quest11.title}"
-			x: 12.0d
-			y: 0.0d
+			x: 14.0d
+			y: -3.5d
 		}
 		{
 			dependencies: ["6BED74AB906CBFE5"]
@@ -667,12 +667,12 @@
 			}]
 			tasks: [{
 				id: "4754856C3CB6152B"
-				item: "crazyae2addons:builder_pattern"
+				item: "insaneae2addons:builder_pattern"
 				type: "item"
 			}]
 			title: "{ftbquests.chapter.crazy_ae2.quest12.title}"
 			x: 16.0d
-			y: 0.0d
+			y: -1.0d
 		}
 		{
 			dependencies: ["6BED74AB906CBFE5"]
@@ -730,7 +730,7 @@
 			}]
 			tasks: [{
 				id: "5307B2D060A7E3BD"
-				item: "crazyae2addons:cpu_prio_tuner"
+				item: "crazyae2addons:cpu_priority_tuner"
 				type: "item"
 			}]
 			title: "{ftbquests.chapter.crazy_ae2.quest13.title}"
@@ -780,11 +780,7 @@
 			}]
 			tasks: [{
 				id: "729541C23ACC8748"
-				item: {
-					Count: 1
-					id: "crazyae2addons:crazy_pattern_provider"
-					tag: { }
-				}
+				item: "crazyae2addons:crazy_pattern_provider"
 				type: "item"
 			}]
 			title: "{ftbquests.chapter.crazy_ae2.quest14.title}"
@@ -830,112 +826,8 @@
 				type: "item"
 			}]
 			title: "{ftbquests.chapter.crazy_ae2.quest15.title}"
-			x: 13.0d
-			y: 0.0d
-		}
-		{
-			dependencies: ["6BED74AB906CBFE5"]
-			description: [
-				"{ftbquests.chapter.crazy_ae2.quest16.description1}"
-				"{ftbquests.chapter.crazy_ae2.quest16.description2}"
-				""
-				"{ftbquests.chapter.crazy_ae2.quest16.description3}"
-				"{ftbquests.chapter.crazy_ae2.quest16.description4}"
-				""
-				"{ftbquests.chapter.crazy_ae2.quest16.description5}"
-				"{ftbquests.chapter.crazy_ae2.quest16.description6}"
-				"{ftbquests.chapter.crazy_ae2.quest16.description7}"
-				""
-				"{ftbquests.chapter.crazy_ae2.quest16.description8}"
-				"{ftbquests.chapter.crazy_ae2.quest16.description9}"
-				""
-				"{ftbquests.chapter.crazy_ae2.quest16.description10}"
-				"{ftbquests.chapter.crazy_ae2.quest16.description11}"
-				"{ftbquests.chapter.crazy_ae2.quest16.description12}"
-				"{ftbquests.chapter.crazy_ae2.quest16.description13}"
-				""
-				"{ftbquests.chapter.crazy_ae2.quest16.description14}"
-				"{ftbquests.chapter.crazy_ae2.quest16.description15}"
-				""
-				"{ftbquests.chapter.crazy_ae2.quest16.description16}"
-				"{ftbquests.chapter.crazy_ae2.quest16.description17}"
-				"{ftbquests.chapter.crazy_ae2.quest16.description18}"
-				"{ftbquests.chapter.crazy_ae2.quest16.description19}"
-				""
-				"{ftbquests.chapter.crazy_ae2.quest16.description20}"
-				"{ftbquests.chapter.crazy_ae2.quest16.description21}"
-				"{ftbquests.chapter.crazy_ae2.quest16.description22}"
-				"{ftbquests.chapter.crazy_ae2.quest16.description23}"
-				""
-				"{ftbquests.chapter.crazy_ae2.quest16.description24}"
-				"{ftbquests.chapter.crazy_ae2.quest16.description25}"
-				"{ftbquests.chapter.crazy_ae2.quest16.description26}"
-				""
-				"{ftbquests.chapter.crazy_ae2.quest16.description27}"
-				"{ftbquests.chapter.crazy_ae2.quest16.description28}"
-			]
-			id: "6B173D14C7EF8E1B"
-			rewards: [{
-				id: "756A25C63315B559"
-				item: "kubejs:apotheotic_coin"
-				type: "item"
-			}]
-			tasks: [{
-				id: "5141AF43AD6F4E63"
-				item: "crazyae2addons:energy_exporter"
-				type: "item"
-			}]
-			title: "{ftbquests.chapter.crazy_ae2.quest16.title}"
-			x: 16.0d
-			y: -3.0d
-		}
-		{
-			dependencies: ["6BED74AB906CBFE5"]
-			description: [
-				"{ftbquests.chapter.crazy_ae2.quest17.description1}"
-				""
-				"{ftbquests.chapter.crazy_ae2.quest17.description2}"
-				""
-				"{ftbquests.chapter.crazy_ae2.quest17.description3}"
-				"{ftbquests.chapter.crazy_ae2.quest17.description4}"
-				"{ftbquests.chapter.crazy_ae2.quest17.description5}"
-				""
-				"{ftbquests.chapter.crazy_ae2.quest17.description6}"
-				""
-				"{ftbquests.chapter.crazy_ae2.quest17.description7}"
-				"{ftbquests.chapter.crazy_ae2.quest17.description8}"
-				"{ftbquests.chapter.crazy_ae2.quest17.description9}"
-				""
-				"{ftbquests.chapter.crazy_ae2.quest17.description10}"
-				"{ftbquests.chapter.crazy_ae2.quest17.description11}"
-				""
-				"{ftbquests.chapter.crazy_ae2.quest17.description12}"
-				"{ftbquests.chapter.crazy_ae2.quest17.description13}"
-				""
-				"{ftbquests.chapter.crazy_ae2.quest17.description14}"
-				""
-				"{ftbquests.chapter.crazy_ae2.quest17.description15}"
-				"{ftbquests.chapter.crazy_ae2.quest17.description16}"
-				"{ftbquests.chapter.crazy_ae2.quest17.description17}"
-				"{ftbquests.chapter.crazy_ae2.quest17.description18}"
-				""
-				"{ftbquests.chapter.crazy_ae2.quest17.description19}"
-				"{ftbquests.chapter.crazy_ae2.quest17.description20}"
-			]
-			id: "1714F010F020306F"
-			rewards: [{
-				id: "2A9C25E10E7CECB1"
-				item: "kubejs:apotheotic_coin"
-				type: "item"
-			}]
-			tasks: [{
-				id: "2FBE4B0B858A8093"
-				item: "crazyae2addons:energy_interface"
-				type: "item"
-			}]
-			title: "{ftbquests.chapter.crazy_ae2.quest17.title}"
-			x: 16.0d
-			y: -4.0d
+			x: 12.5d
+			y: -2.0d
 		}
 		{
 			dependencies: ["6BED74AB906CBFE5"]
@@ -984,70 +876,12 @@
 			}]
 			tasks: [{
 				id: "467D3CA279AFCBDB"
-				item: "crazyae2addons:entity_ticker"
+				item: "insaneae2addons:entity_ticker"
 				type: "item"
 			}]
 			title: "{ftbquests.chapter.crazy_ae2.quest18.title}"
 			x: 15.0d
 			y: -4.0d
-		}
-		{
-			dependencies: ["6BED74AB906CBFE5"]
-			description: [
-				"{ftbquests.chapter.crazy_ae2.quest19.description1}"
-				""
-				"{ftbquests.chapter.crazy_ae2.quest19.description2}"
-				"{ftbquests.chapter.crazy_ae2.quest19.description3}"
-				""
-				"{ftbquests.chapter.crazy_ae2.quest19.description4}"
-				""
-				"{ftbquests.chapter.crazy_ae2.quest19.description5}"
-				"{ftbquests.chapter.crazy_ae2.quest19.description6}"
-				"{ftbquests.chapter.crazy_ae2.quest19.description7}"
-				"{ftbquests.chapter.crazy_ae2.quest19.description8}"
-				""
-				"{ftbquests.chapter.crazy_ae2.quest19.description9}"
-				"{ftbquests.chapter.crazy_ae2.quest19.description10}"
-				"{ftbquests.chapter.crazy_ae2.quest19.description11}"
-				"{ftbquests.chapter.crazy_ae2.quest19.description12}"
-				""
-				"{ftbquests.chapter.crazy_ae2.quest19.description13}"
-				"{ftbquests.chapter.crazy_ae2.quest19.description14}"
-				"{ftbquests.chapter.crazy_ae2.quest19.description15}"
-				"{ftbquests.chapter.crazy_ae2.quest19.description16}"
-				""
-				"{ftbquests.chapter.crazy_ae2.quest19.description17}"
-				"{ftbquests.chapter.crazy_ae2.quest19.description18}"
-				"{ftbquests.chapter.crazy_ae2.quest19.description19}"
-				"{ftbquests.chapter.crazy_ae2.quest19.description20}"
-				"{ftbquests.chapter.crazy_ae2.quest19.description21}"
-			]
-			id: "77F0D8D9873A1478"
-			rewards: [{
-				id: "1BF4FE692E1122E5"
-				item: "kubejs:apotheotic_coin"
-				type: "item"
-			}]
-			tasks: [
-				{
-					id: "23E261D3B7A52CEC"
-					item: "crazyae2addons:extracting_fe_p2p_tunnel"
-					type: "item"
-				}
-				{
-					id: "26ED82CDDB440652"
-					item: "crazyae2addons:extracting_item_p2p_tunnel"
-					type: "item"
-				}
-				{
-					id: "77043F5984208514"
-					item: "crazyae2addons:extracting_fluid_p2p_tunnel"
-					type: "item"
-				}
-			]
-			title: "{ftbquests.chapter.crazy_ae2.quest19.title}"
-			x: 16.0d
-			y: -1.0d
 		}
 		{
 			dependencies: ["6BED74AB906CBFE5"]
@@ -1082,12 +916,12 @@
 			}]
 			tasks: [{
 				id: "66543FB938DD0F87"
-				item: "crazyae2addons:mob_cell_housing"
+				item: "insaneae2addons:mob_cell_housing"
 				type: "item"
 			}]
 			title: "{ftbquests.chapter.crazy_ae2.quest20.title}"
-			x: 15.0d
-			y: 0.0d
+			x: 15.5d
+			y: -2.0d
 		}
 		{
 			dependencies: ["6BED74AB906CBFE5"]
@@ -1105,18 +939,12 @@
 			}]
 			tasks: [{
 				id: "1EA648DD758F8D2B"
-				item: {
-					Count: 1
-					id: "crazyae2addons:crazy_pattern_multiplier"
-					tag: {
-						limit: 0
-					}
-				}
+				item: "crazyae2addons:pattern_multiplier"
 				type: "item"
 			}]
 			title: "{ftbquests.chapter.crazy_ae2.quest21.title}"
-			x: 12.0d
-			y: -4.0d
+			x: 16.0d
+			y: -3.0d
 		}
 		{
 			dependencies: [
@@ -1224,7 +1052,7 @@
 				"{@pagebreak}"
 				"{ftbquests.chapter.crazy_ae2.quest23.image0}"
 			]
-			icon: "crazyae2addons:spawner_extractor_controller"
+			icon: "insaneae2addons:spawner_extractor_controller"
 			id: "352A145082DCB3F4"
 			min_width: 300
 			rewards: [{
@@ -1235,13 +1063,13 @@
 			tasks: [
 				{
 					id: "498BB78DFD7D92B4"
-					item: "crazyae2addons:spawner_extractor_controller"
+					item: "insaneae2addons:spawner_extractor_controller"
 					type: "item"
 				}
 				{
 					count: 101L
 					id: "430FC51F9B2AFD83"
-					item: "crazyae2addons:spawner_extractor_wall"
+					item: "insaneae2addons:spawner_extractor_wall"
 					type: "item"
 				}
 				{
@@ -1274,12 +1102,12 @@
 			tasks: [
 				{
 					id: "078EA1468D78FD9E"
-					item: "crazyae2addons:xp_shard"
+					item: "insaneae2addons:xp_shard"
 					type: "item"
 				}
 				{
 					id: "610DA977883277C9"
-					item: "crazyae2addons:mob_key_selector"
+					item: "insaneae2addons:mob_key_selector"
 					type: "item"
 				}
 			]
@@ -1341,7 +1169,7 @@
 				""
 				"{ftbquests.chapter.crazy_ae2.quest25.description37}"
 			]
-			icon: "crazyae2addons:mob_farm_controller"
+			icon: "insaneae2addons:mob_farm_controller"
 			id: "7DF3F73F9A238F51"
 			min_width: 300
 			rewards: [{
@@ -1352,31 +1180,31 @@
 			tasks: [
 				{
 					id: "37E4AA24E37DB3FF"
-					item: "crazyae2addons:mob_farm_controller"
+					item: "insaneae2addons:mob_farm_controller"
 					type: "item"
 				}
 				{
 					count: 9L
 					id: "0A4E21028E6F7F97"
-					item: { Count: 9, id: "crazyae2addons:mob_farm_collector" }
+					item: { Count: 9, id: "insaneae2addons:mob_farm_collector" }
 					type: "item"
 				}
 				{
 					count: 27L
 					id: "5BBF9994B950C2BF"
-					item: { Count: 27, id: "crazyae2addons:mob_farm_damage" }
+					item: { Count: 27, id: "insaneae2addons:mob_farm_damage" }
 					type: "item"
 				}
 				{
 					count: 85L
 					id: "718FC5216C7BDBD9"
-					item: { Count: 64, id: "crazyae2addons:mob_farm_wall" }
+					item: { Count: 64, id: "insaneae2addons:mob_farm_wall" }
 					type: "item"
 				}
 				{
 					count: 36L
 					id: "5C995DCC67A718C7"
-					item: { Count: 36, id: "crazyae2addons:mob_farm_input" }
+					item: { Count: 36, id: "insaneae2addons:mob_farm_input" }
 					type: "item"
 				}
 				{
@@ -1424,7 +1252,7 @@
 				"{ftbquests.chapter.crazy_ae2.quest26.description21}"
 				"{ftbquests.chapter.crazy_ae2.quest26.description22}"
 			]
-			icon: "crazyae2addons:entropy_cradle_controller"
+			icon: "insaneae2addons:entropy_cradle_controller"
 			id: "553EF8386D321C37"
 			min_width: 300
 			rewards: [{
@@ -1435,19 +1263,19 @@
 			tasks: [
 				{
 					id: "7C441F03A3ED06F2"
-					item: "crazyae2addons:entropy_cradle_controller"
+					item: "insaneae2addons:entropy_cradle_controller"
 					type: "item"
 				}
 				{
 					count: 24L
 					id: "1487053E921B3A41"
-					item: { Count: 24, id: "crazyae2addons:entropy_cradle_capacitor" }
+					item: { Count: 24, id: "insaneae2addons:entropy_cradle_capacitor" }
 					type: "item"
 				}
 				{
 					count: 236L
 					id: "1CCB16EE8A105BE5"
-					item: { Count: 236, id: "crazyae2addons:entropy_cradle" }
+					item: { Count: 236, id: "insaneae2addons:entropy_cradle" }
 					type: "item"
 				}
 			]
@@ -1572,7 +1400,7 @@
 				"{ftbquests.chapter.crazy_ae2.quest27.description75}"
 				"{ftbquests.chapter.crazy_ae2.quest27.description76}"
 			]
-			icon: "crazyae2addons:penrose_controller"
+			icon: "insaneae2addons:portable_penrose_sphere_controller"
 			id: "50797EF7D8C92A29"
 			min_width: 300
 			rewards: [{
@@ -1583,47 +1411,47 @@
 			tasks: [
 				{
 					id: "7D70DE7C20203E64"
-					item: "crazyae2addons:penrose_controller"
+					item: "insaneae2addons:portable_penrose_sphere_controller"
 					type: "item"
 				}
 				{
 					id: "15A74908F0ADB184"
-					item: "crazyae2addons:penrose_port"
+					item: "insaneae2addons:penrose_port"
 					type: "item"
 				}
 				{
 					id: "04309663918F8A67"
-					item: "crazyae2addons:penrose_coil"
+					item: "insaneae2addons:penrose_coil"
 					type: "item"
 				}
 				{
 					id: "3B570723120E7819"
-					item: "crazyae2addons:penrose_frame"
+					item: "insaneae2addons:penrose_frame"
 					type: "item"
 				}
 				{
 					id: "512DDCD2733A63AF"
-					item: "crazyae2addons:penrose_injection_port"
+					item: "insaneae2addons:penrose_injection_port"
 					type: "item"
 				}
 				{
 					id: "1BC8B86CA1B7DFA9"
-					item: "crazyae2addons:penrose_mass_emitter"
+					item: "insaneae2addons:penrose_mass_emitter"
 					type: "item"
 				}
 				{
 					id: "2B66FE1C40295535"
-					item: "crazyae2addons:penrose_hawking_vent"
+					item: "insaneae2addons:penrose_hawking_vent"
 					type: "item"
 				}
 				{
 					id: "0B3E17213508B388"
-					item: "crazyae2addons:penrose_heat_emitter"
+					item: "insaneae2addons:penrose_heat_emitter"
 					type: "item"
 				}
 				{
 					id: "2C6040F31CB02DE9"
-					item: "crazyae2addons:penrose_heat_vent"
+					item: "insaneae2addons:penrose_heat_vent"
 					type: "item"
 				}
 			]
@@ -1649,27 +1477,27 @@
 			tasks: [
 				{
 					id: "276EF8FD7A3C0A22"
-					item: "crazyae2addons:energy_storage_1k"
+					item: "insaneae2addons:energy_storage_1k"
 					type: "item"
 				}
 				{
 					id: "1A8B00D6886DAD0D"
-					item: "crazyae2addons:energy_storage_4k"
+					item: "insaneae2addons:energy_storage_4k"
 					type: "item"
 				}
 				{
 					id: "2E31C22CC7F755C9"
-					item: "crazyae2addons:energy_storage_16k"
+					item: "insaneae2addons:energy_storage_16k"
 					type: "item"
 				}
 				{
 					id: "311D2E6B8001DD8F"
-					item: "crazyae2addons:energy_storage_64k"
+					item: "insaneae2addons:energy_storage_64k"
 					type: "item"
 				}
 				{
 					id: "1D80041EA9A6B428"
-					item: "crazyae2addons:energy_storage_256k"
+					item: "insaneae2addons:energy_storage_256k"
 					type: "item"
 				}
 			]
@@ -1698,27 +1526,27 @@
 			tasks: [
 				{
 					id: "495D70617A72C1E2"
-					item: "crazyae2addons:energy_storage_1m"
+					item: "insaneae2addons:energy_storage_1m"
 					type: "item"
 				}
 				{
 					id: "39EF80EB31A3D8B5"
-					item: "crazyae2addons:energy_storage_4m"
+					item: "insaneae2addons:energy_storage_4m"
 					type: "item"
 				}
 				{
 					id: "62105D1AFF2AD8AA"
-					item: "crazyae2addons:energy_storage_16m"
+					item: "insaneae2addons:energy_storage_16m"
 					type: "item"
 				}
 				{
 					id: "412E640E2F63F6C1"
-					item: "crazyae2addons:energy_storage_64m"
+					item: "insaneae2addons:energy_storage_64m"
 					type: "item"
 				}
 				{
 					id: "3E8375A926EF4AB3"
-					item: "crazyae2addons:energy_storage_256m"
+					item: "insaneae2addons:energy_storage_256m"
 					type: "item"
 				}
 			]
@@ -1738,7 +1566,7 @@
 			}]
 			tasks: [{
 				id: "76352D139BBAC28D"
-				item: "crazyae2addons:spawner_extractor_controller"
+				item: "insaneae2addons:spawner_extractor_controller"
 				type: "item"
 			}]
 			title: "{ftbquests.chapter.crazy_ae2.quest30.title}"
@@ -1764,7 +1592,7 @@
 			}]
 			tasks: [{
 				id: "5F1088867C946061"
-				item: "crazyae2addons:penrose_frame"
+				item: "insaneae2addons:penrose_frame"
 				type: "item"
 			}]
 			title: "{ftbquests.chapter.crazy_ae2.quest31.title}"
@@ -1810,7 +1638,7 @@
 			}]
 			tasks: [{
 				id: "48DE4E4F450ED148"
-				item: "crazyae2addons:super_singularity_block"
+				item: "insaneae2addons:super_singularity_block"
 				type: "item"
 			}]
 			title: "{ftbquests.chapter.crazy_ae2.quest33.title}"
@@ -1825,7 +1653,7 @@
 				"{ftbquests.chapter.crazy_ae2.quest34.description2}"
 			]
 			hide_dependent_lines: true
-			icon: "crazyae2addons:super_singularity"
+			icon: "insaneae2addons:super_singularity"
 			id: "2299E34F6E800580"
 			rewards: [{
 				id: "69DC5DD26CFA5913"
@@ -1835,12 +1663,12 @@
 			tasks: [
 				{
 					id: "0C79F78EFCF7F5EC"
-					item: "crazyae2addons:reinforced_matter_condenser"
+					item: "insaneae2addons:reinforced_matter_condenser"
 					type: "item"
 				}
 				{
 					id: "2DEAB3C1183A151B"
-					item: "crazyae2addons:super_singularity"
+					item: "insaneae2addons:super_singularity"
 					type: "item"
 				}
 			]

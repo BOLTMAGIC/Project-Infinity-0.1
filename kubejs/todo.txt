@@ -14,10 +14,8 @@ Known issues:
 -
 
 Mod Info:
-CrazyAE2 will get updated to the newest version in 0.0.53.0.
-This will break all old crazyAE2 multiblocks!
 - MODS UPDATED:
-    - 
+    - CrazyAE2 from 2.6.2 to 3.2.5 and added Insane AE2 Addons 3.2.3
 - MODS ADDED:
     - Mods adding new mobs:
         - Aether Dragon (1 new Boss, 1 new structure)
@@ -32,6 +30,7 @@ This will break all old crazyAE2 multiblocks!
         - Twilight Forest: Reviving Ancient Buildings (changes every arena! finally! and added a new final boss, the END CUBE. he spawns in the basement of the Final Castle)
     -Mods fixing something:
         - Night Config Fixes (Hopefully fixes some crashes)
+        - Reliable Replacer (replaces blocks in world to another blocks. added because of CrazyAE2 update)
 
 - MODS REMOVED:
     - Born in Chaos

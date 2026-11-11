@@ -51,7 +51,7 @@ ServerEvents.recipes((event) => {
           item: 'ae2omnicells:omni_cell_component_256m',
         },
         L: {
-          item: 'crazyae2addons:energy_storage_256m',
+          item: 'insaneae2addons:energy_storage_256m',
         },
         M: {
           item: 'megacells:bulk_cell_component',
@@ -90,13 +90,13 @@ ServerEvents.recipes((event) => {
           item: 'ae2omnicells:complex_omni_cell_component_256m',
         },
         Y: {
-          item: 'crazyae2addons:mob_cell_housing',
+          item: 'insaneae2addons:mob_cell_housing',
         },
         Z: {
           item: 'ae2omnicells:spent_nuclear_waste_singularity',
         },
         a: {
-          item: 'crazyae2addons:super_singularity_block',
+          item: 'insaneae2addons:super_singularity_block',
         },
         b: {
           item: 'ae2:item_cell_housing',

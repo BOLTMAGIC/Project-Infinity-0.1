@@ -2,13 +2,13 @@ ServerEvents.recipes((event) => {
   //Infinity 9 Block Research Data Drive
   event
     .custom({
-      type: 'crazyae2addons:research',
+      type: 'insaneae2addons:research',
       duration: 41472000,
       energy_per_tick: 500,
       gadget: true,
       consumables: [
         {
-          item: 'crazyae2addons:super_singularity',
+          item: 'insaneae2addons:super_singularity',
           count: 64,
           computation: 432,
         },

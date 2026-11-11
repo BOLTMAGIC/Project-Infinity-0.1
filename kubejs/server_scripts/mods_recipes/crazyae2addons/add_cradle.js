@@ -2,7 +2,7 @@ ServerEvents.recipes((event) => {
   //Infinity 9 Block
   event
     .custom({
-      type: 'crazyae2addons:cradle',
+      type: 'insaneae2addons:cradle',
       result_block: 'kubejs:infinity_9_block',
       preview_nbt: 'kubejs:infinity_9_structure.nbt',
       pattern: {
@@ -30,14 +30,14 @@ ServerEvents.recipes((event) => {
   //Spawner Extractor Recipe
   event
     .custom({
-      type: 'crazyae2addons:cradle',
-      result_block: 'crazyae2addons:spawner_extractor_controller',
+      type: 'insaneae2addons:cradle',
+      result_block: 'insaneae2addons:spawner_extractor_controller',
       preview_nbt: 'kubejs:spawner_extractor_recipe.nbt',
       pattern: {
         symbols: {
-          A: ['crazyae2addons:spawner_extractor_wall'],
+          A: ['insaneae2addons:spawner_extractor_wall'],
           B: ['minecraft:obsidian'],
-          C: ['crazyae2addons:energy_storage_256m'],
+          C: ['insaneae2addons:energy_storage_256m'],
           D: ['minecraft:iron_block'],
           E: ['extendedcrafting:nether_star_block'],
           F: ['botanicalextramachinery:saffron_dragonstone_block'],
@@ -58,7 +58,7 @@ ServerEvents.recipes((event) => {
   //CompactMachines Maxmium Block
   event
     .custom({
-      type: 'crazyae2addons:cradle',
+      type: 'insaneae2addons:cradle',
       result_block: 'compactmachines:machine_maximum',
       preview_nbt: 'kubejs:compactmachines_maximum_structure.nbt',
       pattern: {
@@ -88,7 +88,7 @@ ServerEvents.recipes((event) => {
   //Blood Altar Tier Card 3 Block
   event
     .custom({
-      type: 'crazyae2addons:cradle',
+      type: 'insaneae2addons:cradle',
       result_block: 'kubejs:blood_altar_tier_card_3_block',
       preview_nbt: 'kubejs:blood_altar_tier_card_3_block_structure.nbt',
       pattern: {
@@ -114,7 +114,7 @@ ServerEvents.recipes((event) => {
   //Blood Altar Tier Card 4 Block
   event
     .custom({
-      type: 'crazyae2addons:cradle',
+      type: 'insaneae2addons:cradle',
       result_block: 'kubejs:blood_altar_tier_card_4_block',
       preview_nbt: 'kubejs:blood_altar_tier_card_4_block_structure.nbt',
       pattern: {
@@ -140,7 +140,7 @@ ServerEvents.recipes((event) => {
   //Blood Altar Tier Card 5 Block
   event
     .custom({
-      type: 'crazyae2addons:cradle',
+      type: 'insaneae2addons:cradle',
       result_block: 'kubejs:blood_altar_tier_card_5_block',
       preview_nbt: 'kubejs:blood_altar_tier_card_5_block_structure.nbt',
       pattern: {

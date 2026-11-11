@@ -373,7 +373,7 @@
 		{
 			dependencies: ["3E7BA0C70B5569D4"]
 			description: ["{ftbquests.chapter.ae2_addons.quest7.description1}"]
-			icon: "crazyae2addons:super_singularity"
+			icon: "insaneae2addons:super_singularity"
 			id: "37C1E9E74F83826F"
 			rewards: [{
 				id: "30DD2EEEA18841C7"
@@ -951,7 +951,7 @@
 				id: "5CBF210FE7A4FCFF"
 				item: {
 					Count: 1
-					id: "crazyae2addons:mob_storage_cell_1k"
+					id: "insaneae2addons:mob_storage_cell_1k"
 					tag: { }
 				}
 				type: "item"

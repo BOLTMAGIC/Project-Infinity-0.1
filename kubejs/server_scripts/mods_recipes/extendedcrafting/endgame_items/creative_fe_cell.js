@@ -37,7 +37,7 @@ ServerEvents.recipes((event) => {
           item: 'ae2omnicells:quantum_omni_cell_component_256m',
         },
         H: {
-          item: 'crazyae2addons:energy_storage_256m',
+          item: 'insaneae2addons:energy_storage_256m',
         },
         I: {
           item: 'appflux:mega_fe_cell_housing',

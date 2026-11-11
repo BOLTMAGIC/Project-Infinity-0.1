@@ -166,6 +166,7 @@ BlockEvents.rightClicked('mekanism:creative_bin', (event) => {
     },
 
     { pattern: /^crazyae2addons:.*/, nbtPath: 'keys', check: (value) => value },
+    { pattern: /^insaneae2addons:.*/, nbtPath: 'keys', check: (value) => value },
 
     {
       pattern: 'mbtool:mbtool',
@@ -438,7 +439,7 @@ BlockEvents.rightClicked('mekanism:creative_bin', (event) => {
       check: (value) => value && value.length > 0,
     },
     {
-      pattern: 'crazyae2addons:crazy_pattern_provider',
+      pattern: 'insaneae2addons:crazy_pattern_provider',
       nbtPath: 'returnInv',
       check: (value) => value && value.length > 0,
     },

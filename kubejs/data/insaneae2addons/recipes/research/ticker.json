@@ -1,5 +1,5 @@
 {
-      "type": "crazyae2addons:research",
+      "type": "insaneae2addons:research",
       "duration": 1036800,
       "energy_per_tick": 500,
       "gadget": true,
@@ -15,8 +15,8 @@
       ],
       "drive": true,
       "unlock": {
-        "key": "crazyae2addons:entity_ticker_research",
+        "key": "insaneae2addons:entity_ticker_research",
         "label": "Entity ticker",
-        "item": "crazyae2addons:entity_ticker"
+        "item": "insaneae2addons:entity_ticker"
       }
     }

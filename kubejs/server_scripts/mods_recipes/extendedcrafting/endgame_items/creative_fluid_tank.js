@@ -120,7 +120,7 @@ ServerEvents.recipes((event) => {
           type: 'forge:partial_nbt',
           item: 'mekanism:ultimate_fluid_tank',
           count: 1,
-          nbt: '{mekData:{FluidTanks:[{stored:{Amount:256000,FluidName:"crazyae2addons:research_fluid"}}]}}',
+          nbt: '{mekData:{FluidTanks:[{stored:{Amount:256000,FluidName:"insaneae2addons:research_fluid"}}]}}',
         },
         Z: {
           item: 'pneumaticcraft:fluid_mixer',
@@ -313,7 +313,7 @@ ServerEvents.recipes((event) => {
           type: 'forge:partial_nbt',
           item: 'kubejs:fluid_tank_token',
           count: 1,
-          nbt: '{tank_level:"ultimate", fluid_id:"crazyae2addons:research_fluid"}',
+          nbt: '{tank_level:"ultimate", fluid_id:"insaneae2addons:research_fluid"}',
         },
         Z: {
           item: 'pneumaticcraft:fluid_mixer',

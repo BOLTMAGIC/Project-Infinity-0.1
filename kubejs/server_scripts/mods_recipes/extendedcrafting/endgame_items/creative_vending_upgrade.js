@@ -70,7 +70,7 @@ ServerEvents.recipes((event) => {
           item: 'projectexpansion:fading_matter',
         },
         S: {
-          item: 'crazyae2addons:super_singularity_block',
+          item: 'insaneae2addons:super_singularity_block',
         },
         T: {
           item: 'functionalstorage:storage_controller',

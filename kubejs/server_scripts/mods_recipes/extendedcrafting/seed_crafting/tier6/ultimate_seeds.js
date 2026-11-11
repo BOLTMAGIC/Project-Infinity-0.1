@@ -92,7 +92,7 @@ ServerEvents.recipes((event) => {
           item: 'mekanism_extras:alloy_spectrum',
         },
         Y: {
-          item: 'crazyae2addons:super_singularity',
+          item: 'insaneae2addons:super_singularity',
         },
         Z: {
           item: 'avaritia:infinity_ingot',

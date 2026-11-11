@@ -1,180 +1,194 @@
 
-#Crazy AE2 Addons - Config
-[general]
+#Crazy AE2 Addons - Common Config
+#All feature toggles and feature-specific options are defined here.
+#For every config entry that defines a limit, -1 means no limit.
+[features]
 
-	[general.Features]
-		#Allow Spawner Controller to work in Peaceful mode
-		enablePeacefullSpawner = true
-		#Enable/disable Entity Ticker
-		enableEntityTicker = true
-		#Power cost multiplier for Entity Ticker
+	#Display feature.
+	#A part that renders dynamic text, images, and AE2-related data.
+	#Supports token-based content, colors, icons, stock/delta rendering, and merged multi-display surfaces.
+	[features.display]
+		#Enable or disable the entire display feature.
+		enabled = true
+		#Enable or disable ME Display Database.
+		#When disabled, the database GUI will not open, ComputerCraft peripheral methods will not work,
+		#and display database tokens such as &key will not resolve.
+		databaseEnabled = true
+		#Enable or disable uploading and rendering custom images on displays.
+		imagesEnabled = true
+		#Maximum size in bytes of a single uploaded image.
+		#Uploads are split into chunks, so this is not limited by the vanilla packet size.
+		#Range: 1048576 ~ 67108864
+		imageMaxBytes = 16777216
+		#Maximum width and height in pixels of a single uploaded image.
+		#Larger images are downscaled by the client before they are sent.
+		#Range: 16 ~ 4096
+		imageMaxDimension = 2048
+		#Total size in bytes of all images stored in the world.
+		#Identical images are stored once and shared, so copying a display with a memory card is free.
+		#Range: 67108864 ~ 536870912
+		imagesTotalBytes = 134217728
+		#Enable or disable playback of animated images such as GIFs.
+		#When disabled, animated images render their first frame only.
+		imageAnimationEnabled = true
+		#Maximum number of frames kept when an animated image is imported.
+		#Longer animations are sampled evenly down to this many frames.
+		#Range: 1 ~ 512
+		imageMaxFrames = 256
+		#Enable or disable dynamic rendering of resource amounts from the connected network on displays.
+		stockEnabled = true
+		#Enable or disable rendering inline resource icons on displays.
+		iconsEnabled = true
+		#Enable or disable dynamic rendering of resource amount changes over time on displays.
+		deltaEnabled = true
+
+	#Emitter terminal feature.
+	#The emitter terminal allows the player to access, query, and configure
+	#all level emitters in the connected grid from a single terminal.
+	[features.emitterTerminal]
+		#Enable or disable the emitter terminal feature.
+		enabled = true
+		#Enable or disable the wireless variant.
+		wirelessEnabled = true
+
+	#Wireless notification terminal feature.
+	#The wireless notification terminal allows the player to configure
+	#tracked resources in the connected grid and display their amounts
+	#when they are above or below a given threshold.
+	[features.wirelessNotificationTerminal]
+		#Enable or disable the wireless notification terminal feature.
+		enabled = true
+		#Configure how many slots the wireless notification terminal should have.
 		#Range: > 0
-		EntityTickerCost = 32768
-		#Blocks on which Entity Ticker should not work
-		EntityTickerBlackList = ["projectexpansion:basic_power_flower", "projectexpansion:dark_power_flower", "projectexpansion:red_power_flower", "projectexpansion:magenta_power_flower", "projectexpansion:pink_power_flower", "projectexpansion:purple_power_flower", "projectexpansion:violet_power_flower", "projectexpansion:blue_power_flower", "projectexpansion:cyan_power_flower", "projectexpansion:green_power_flower", "projectexpansion:lime_power_flower", "projectexpansion:yellow_power_flower", "projectexpansion:orange_power_flower", "projectexpansion:white_power_flower", "projectexpansion:fading_power_flower", "projectexpansion:final_power_flower", "solarflux:sp_1", "solarflux:sp_2", "solarflux:sp_3", "solarflux:sp_4", "solarflux:sp_5", "solarflux:sp_6", "solarflux:sp_7", "solarflux:sp_8", "solarflux:sp_de.wyvern", "solarflux:sp_de.draconic", "solarflux:sp_de.chaotic", "solarflux:sp_avaritia.neutronium", "solarflux:sp_avaritia.infinity"]
-		#Allow routing P2P tunnels through a Wormhole tunnel
-		nestedP2Pwormhole = false
-		#Allow teleporting through a Wormhole P2P
-		wormholeP2PTeleportation = false
-		#Create immersive portals on wormhole p2ps. Expect visual glitches with shaders.
-		#You need to install additional library for this feature to work
-		immersiveP2PWormhole = false
-		#Maximum number of speed cards that can be installed in Entity Ticker
-		#Range: 0 ~ 8
-		entityTickerMaxSpeedCards = 8
+		configSlot = 16
 
-	[general.Machines]
-		#XP cost multiplier for Auto Enchanter
-		#Range: 0 ~ 100
-		autoEnchanterCost = 10
-		#Allow Wormhole P2P to transfer EU
-		wormholeEUP2PGT = true
-		#Allow Wormhole P2P to transfer EU to more than 1 output simultaneously
-		wormholeGoodEUP2PGT = false
-
-	[general.Autobuilder]
-		#FE cost multiplier for Autobuilder
-		#Range: 0 ~ 100
-		autobuilderCost = 5
-		#Ticks to wait after each broken block
-		#Range: 0 ~ 10
-		autobuilderMineDelay = 2
-		#Operations per tick Autobuilder can perform
+	#Multi level emitter feature.
+	#The multi level emitter tracks and triggers multiple conditions at once.
+	[features.multiLevelEmitter]
+		#Enable or disable the multi level emitter feature.
+		enabled = true
+		#Configure how many slots the multi level emitter should have.
 		#Range: > 0
-		autobuilderSpeed = 128
-		#How many preview blocks Autobuilder can show at once
-		#Range: > 0
-		autobuilderPreviewLimit = 8192
+		configSlot = 16
 
-	[general.CrazyPatternProvider]
-		#How many times player can upgrade the provider; -1 to disable limit
+	#Tag level emitter feature.
+	#The tag level emitter tracks resources based on a tag expression
+	#and can monitor multiple resources at once.
+	[features.tagLevelEmitter]
+		#Enable or disable the tag level emitter feature.
+		enabled = true
+
+	#Redstone emitter / terminal feature.
+	#The redstone terminal allows the player to control the redstone output
+	#of connected redstone emitters.
+	[features.redstoneEmitterTerminal]
+		#Enable or disable the redstone emitter / terminal feature.
+		enabled = true
+		#Enable or disable the wireless terminal variant.
+		wirelessEnabled = true
+
+	#Wormhole feature.
+	#Wormhole is a large feature that acts as a universal capability proxy
+	#and also allows remote interactions or teleportation.
+	#The tunnel always forwards from any output to the input,
+	#or from the input to the closest output. It never splits
+	#resources between multiple outputs. But can merge from many
+	#outputs to the same input.
+	[features.wormhole]
+		#Enable or disable the entire wormhole feature.
+		enabled = true
+		#Enable or disable teleportation through wormholes.
+		#This controls whether clicking on a wormhole with an ender pearl
+		#teleports the player to the other side.
+		teleportationEnabled = true
+		#Allow routing P2P tunnels through a wormhole tunnel.
+		nestedP2psEnabled = false
+		#Allow item proxying through wormholes.
+		itemProxyEnabled = true
+		#Allow fluid proxying through wormholes.
+		fluidProxyEnabled = true
+		#Allow FE proxying through wormholes.
+		feProxyEnabled = true
+		#Allow GregTech EU proxying through wormholes.
+		euProxyEnabled = true
+		#Allow proxying of other capabilities through wormholes.
+		#Example: Mekanism heat pipes.
+		otherCapabilityProxyEnabled = true
+		#Allow merged capability proxying through wormholes.
+		#Allow merging all output handlers that are the same type (e.g. items)
+		#so the input sees them all at the same time.
+		mergedCapabilityProxyEnabled = true
+		#Allow remote interactions through wormholes.
+		#This controls whether clicking on one side of a wormhole
+		#opens the GUI of the machine on the other side.
+		remoteInteractionsEnabled = true
+
+	#Round robin P2P features.
+	#Round robin P2P tunnels always split inputs evenly between all outputs,
+	#even across multiple insertions.
+	[features.roundRobinP2p]
+		#Enable or disable round robin item P2P.
+		itemEnabled = true
+		#Enable or disable round robin fluid P2P.
+		fluidEnabled = true
+
+	#CPU priorities feature.
+	#CPU priorities make higher-priority CPUs receive crafting jobs more often,
+	#receive crafted results before lower-priority CPUs,
+	#and use machines before lower-priority CPUs.
+	[features.cpuPriorities]
+		#Enable or disable CPU priorities.
+		enabled = true
+
+	#Tag view cell feature.
+	#The tag view cell filters the terminal it is placed in based on a tag expression
+	#instead of selected individual resources.
+	[features.tagViewCell]
+		#Enable or disable tag view cells.
+		enabled = true
+
+	#Pattern multiplier feature.
+	#The pattern multiplier allows the player to multiply patterns, multiply them up to a limit,
+	#or clear all patterns inside it. It can also multiply all patterns in any container
+	#such as a pattern provider or chest when shift-right-clicked on it.
+	[features.patternMultiplier]
+		#Enable or disable the pattern multiplier feature.
+		enabled = true
+
+	#Crazy pattern provider features.
+	#The crazy pattern provider starts with 72 pattern slots
+	#and can be upgraded using crazy upgrades.
+	#Each upgrade adds 1 row (9 slots) to the pattern inventory.
+	[features.crazyPatternProvider]
+		#Enable or disable the crazy pattern provider block.
+		blockEnabled = true
+		#Enable or disable the crazy pattern provider part.
+		partEnabled = true
+		#Maximum number of upgrades allowed for the crazy pattern provider.
+		#-1 means no limit.
+		#Note: each upgrade adds 1 row (9 slots).
 		#Range: > -1
-		crazyProviderMaxAddRows = -1
+		maxUpgrades = -1
 
-	[general.EntropyCradle]
-		#How much FE Entropy Cradle can store
-		#Range: > 0
-		cradleCapacity = 600000000
-		#How much FE the cradle uses per operation
-		#Range: > 0
-		cradleCost = 600000000
-		#How much FE per second the cradle can receive
-		#Range: > 0
-		cradleChargingSpeed = 50000000
+	#Ejector feature.
+	#The ejector allows the player to configure its 36-slot config inventory
+	#with any amount of any resource. When provided with a redstone signal,
+	#it ejects those resources from the connected network storage to
+	#the adjacent inventory. It can also craft missing resources
+	#if the system has the required patterns and ingredients.
+	#Crafting is performed atomically as a single crafting operation
+	#using one crafting job / CPU.
+	[features.ejector]
+		#Enable or disable the ejector feature.
+		enabled = true
+		#Allow the ejector to craft missing items.
+		craftMissingEnabled = false
 
-	[general.PenroseSphere]
-		#Enable FE output from Penrose Sphere.
-		#Set to false to completely disable FE output.
-		penroseFeOutputEnabled = true
-		#Enable EU output from Penrose Sphere.
-		#Set to true if Penrose should give GregTech EU output.
-		penroseEuOutputEnabled = false
-		#GT hatch tiers allowed for the Penrose Sphere.
-		#Works only when penroseEuOutputEnabled is set to true.
-		#Default: ULV, LV, MV, HV, EV, IV, LuV, ZPM, UV, UHV, UEV, UIV, UXV, OpV, MAX
-		penroseGtTiers = ["ULV", "LV", "MV", "HV", "EV", "IV", "LuV", "ZPM", "UV", "UHV", "UEV", "UIV", "UXV", "OpV", "MAX"]
-		#Enable/disable Penrose Sphere entirely.
-		penroseSphereEnabled = true
-
-		[general.PenroseSphere.Meltdown]
-			#Enable/disable meltdown world effect (explosions + black hole field).
-			#Default: true.
-			penroseMeltdownExplosionsEnabled = true
-			#Radius used by BlackHoleManager.start(...) after meltdown.
-			#Set to 0 to disable the field entirely.
-			#Range: 0 ~ 4096
-			penroseMeltdownFieldRadius = 768
-
-		[general.PenroseSphere.Startup]
-			#How many Super Singularity items are consumed to start the black hole.
-			#Units: items. Default: 32512.
-			#Range: 0 ~ 9223372036854775807
-			penroseStartupCostSingu = 32512
-
-		[general.PenroseSphere.Balance]
-			#Initial black hole mass at startup.
-			#Units: MU (internal mass unit). Default matches old hardcoded value.
-			#Range: 0 ~ 9223372036854775807
-			penroseInitialMassMu = 268435456
-			#Allowed mass window above initial mass before meltdown triggers.
-			#Max mass = initialMassMu + massWindowMu.
-			#Units: MU. Default: 1113600.
-			#Range: 0 ~ 9223372036854775807
-			penroseMassWindowMu = 1113600
-			#Max mass factor multiplier at the sweet-spot (peak of the mass curve).
-			#massFactorSweet(): 1.0 .. massFactorMax.
-			#Default: 2.0 (matches current).
-			#Range: 1.0 ~ 64.0
-			penroseMassFactorMax = 2.0
-			#Duty-cycle compensation multiplier used in energy calculations.
-			#Default: 4/3 (~1.3333333).
-			#Range: 0.0 ~ 1000.0
-			penroseDutyCompensation = 1.3333333333333333
-			#Base FE produced per 1.0 singu/t disk flow at heatEff=1 and massFactor=1.
-			#Units: FE per tick per (singu/t).
-			#Default equals current PenroseControllerBE FE_BASE_PER_SINGU.
-			#Range: 0.0 ~ 1.0E18
-			penroseFeBasePerSinguFlow = 6.7108864E7
-			#Heat added per tick per 1.0 singu/t disk flow at massFactor=1.
-			#Units: MK per tick per (singu/t).
-			#Range: 0.0 ~ 1.0E12
-			penroseHeatPerSinguFlow = 0.5
-			#Heat value where the efficiency curve peaks (heatEff reaches 1.0 at heat=peak).
-			#Used by computeHeatEff(): x=heat/peak; eff=2x-x^2 clamped to [0..1].
-			#Units: MK. Default: 50000.
-			#Range: 1.0 ~ 1.0E12
-			penroseHeatPeakMK = 50000.0
-			#Overheat threshold. If heat >= maxHeat -> meltdown.
-			#Units: MK. Default: 100000.
-			#Range: 0.0 ~ 1.0E12
-			penroseMaxHeatMK = 100000.0
-			#Hard cap on how many singularities per tick can be injected into the disk.
-			#Units: items/t. Default: 4096.
-			#Range: > 0
-			penroseMaxFeedPerTick = 4096
-
-	[general.Research]
-		#Enable research mechanic (if false: Recipe Fabricator works without data drive)
-		researchEnabled = true
-
-		#Extra blocks allowed in the Research Unit multiblock in 'Q' slots.
-		#Format: TOML map of "namespace:block" -> integer.
-		#The integer is currently used as a multiplier for computation (count * value).
-		#Keys with ':' must be quoted, e.g. { "minecraft:glass" = 1 }.
-		#Default: empty map.
-		[general.Research.researchUnitExtraQBlocks]
-			"avaritia:infinity" = 52
-			"avaritia:neutron" = 25
-			"avaritia:crystal_matrix" = 22
-			"kubejs:empowered_super_block" = 20
-
-	[general.EnergyParts]
-		#Enable Energy Exporter
-		energyExporterEnabled = true
-		#Enable Energy Interface
-		energyInterfaceEnabled = true
-		#Allow Energy Exporter part to export EU if a GregTech battery is inserted
-		energyExporterGT = false
-
-	[general.P2PSpeeds]
-		#Extract speed for FE P2P (FE/t)
-		#Range: > 0
-		fep2pSpeed = 2147483647
-		#Extract speed for Fluid P2P (mB/t)
-		#Range: > 0
-		fluidp2pSpeed = 250
-		#Extract speed for Item P2P (items/t)
-		#Range: > 0
-		itemp2pSpeed = 4
-		#Enable/disable Extracting FE P2P tunnel entirely
-		fep2pEnabled = true
-		#Enable/disable Extracting Fluid P2P tunnel entirely
-		fluidp2pEnabled = true
-		#Enable/disable Extracting Item P2P tunnel entirely
-		itemp2pEnabled = true
-
-	[general."Portable Spatial IO"]
-		#FE cost multiplier for Portable Spatial IO
-		#Range: 0 ~ 100
-		portableSpatialStorageCost = 5
+	#Resource tracking terminal feature.
+	#The resource tracking terminal shows per-minute consumption of every resource
+	#in the connected grid, grouped by what consumes it (crafting, machines, interfaces),
+	#and can highlight the consuming block in the world.
+	[features.resourceTrackingTerminal]
+		#Enable or disable the resource tracking terminal feature.
+		enabled = true
 

@@ -14,7 +14,7 @@ MMEvents.createProcesses((event) => {
         type: 'mm:input/consume',
         ingredient: {
           type: 'mm:fluid',
-          fluid: 'crazyae2addons:research_fluid',
+          fluid: 'insaneae2addons:research_fluid',
           amount: 320000,
         },
       })
@@ -54,7 +54,7 @@ MMEvents.createProcesses((event) => {
         type: 'mm:input/consume',
         ingredient: {
           type: 'mm:item',
-          item: 'crazyae2addons:super_singularity',
+          item: 'insaneae2addons:super_singularity',
           count: 1,
         },
       })

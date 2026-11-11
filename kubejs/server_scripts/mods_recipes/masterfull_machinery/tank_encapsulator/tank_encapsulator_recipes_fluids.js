@@ -88,7 +88,7 @@ MMEvents.createProcesses((event) => {
   );
   fluidTankEncapsulator('ultimate', 'industrialforegoing:meat');
   fluidTankEncapsulator('supreme', 'mekanism:sodium');
-  fluidTankEncapsulator('ultimate', 'crazyae2addons:research_fluid');
+  fluidTankEncapsulator('ultimate', 'insaneae2addons:research_fluid');
   fluidTankEncapsulator('supreme', 'minecraft:water');
   fluidTankEncapsulator('absolute', 'nuclearcraft:polonium');
   fluidTankEncapsulator('basic', 'exdeorum:witch_water');

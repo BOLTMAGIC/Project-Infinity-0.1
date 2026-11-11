@@ -800,7 +800,7 @@ ServerEvents.recipes((event) => {
     'allthemodium:allthemodium_ingot',
     'wcwt:wireless_comprehensive_work_terminal',
     'kubejs:infinity_1',
-    'crazyae2addons:super_singularity',
+    'insaneae2addons:super_singularity',
     'kubejs:infinity_1',
     'armorplus:soul_slayer',
     'allthemodium:allthemodium_ingot',

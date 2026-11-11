@@ -1,0 +1,263 @@
+
+#Insane AE2 Addons - Common Config
+#All feature toggles and feature-specific options are defined here.
+#For every config entry that defines a limit, -1 means no limit.
+[features]
+
+	#Autobuilder feature.
+	#The autobuilder places or breaks blocks in a region based on a builder pattern.
+	[features.autoBuilder]
+		#FE cost multiplier for the autobuilder.
+		#Range: 0 ~ 100
+		costMultiplier = 5
+		#Ticks to wait after each broken block.
+		#Range: 0 ~ 10
+		mineDelay = 2
+		#Operations per tick the autobuilder can perform.
+		#Range: > 0
+		speed = 128
+		#How many preview blocks the autobuilder can show at once.
+		#Range: > 0
+		previewLimit = 8192
+
+	#Research feature.
+	#The research multiblock unlocks insane fabrication recipes onto a Data Drive.
+	[features.research]
+		#When true, insane fabrication recipes require the matching research unlock on a Data Drive.
+		required = true
+		#Extra blocks allowed in the 3x3 core ('Q' slots) of the Research Unit, each with the
+		#computation it grants per block in the core.
+		#Format: one entry per line as "namespace:block=computation", e.g. minecraft:diamond_block=8.
+		#The value is added per matching block (block count * value). The built-in crafting storage
+		#blocks (1k-256k) are always allowed and counted separately.
+		unitExtraQBlocks = ["avaritia:infinity=52", "avaritia:neutron=25", "avaritia:crystal_matrix=22", "kubejs:empowered_super_block=20"]
+		#Divisor applied to the summed tier value of the core blocks to get base computation.
+		#Lower means more computation per core. computation = tierSum / divisor + extra blocks.
+		#Range: > 1
+		unitComputationDivisor = 16
+		#AE drawn per point of computation per tick while the unit is researching.
+		#Range: > 0
+		unitComputationPowerCost = 64
+		#Computation divided by this gives research fluid (mB) consumed per tick.
+		#Range: > 1
+		unitFluidDivisor = 4
+		#Research fluid buffer capacity (mB) held by the research unit.
+		#Range: > 1
+		unitFluidBuffer = 64000
+		#AE power buffer capacity held by the research unit.
+		#Range: > 1
+		unitPowerBuffer = 200000
+		#Radius in blocks around the research station scanned for pedestals.
+		#Range: 1 ~ 16
+		stationPedestalRange = 3
+
+	#NBT tools feature.
+	#NBT view cell and NBT filtering buses match items by their NBT via a matcher expression.
+	[features.nbtTools]
+		#Enables the NBT view cell and its recognition in AE2 view cell slots.
+		nbtViewCellEnabled = true
+		#Enables the NBT storage bus.
+		nbtStorageBusEnabled = true
+		#Enables the NBT export bus.
+		nbtExportBusEnabled = true
+		#Items moved per operation by the NBT export bus (operations * this factor).
+		#Range: > 1
+		nbtExportBusTransferFactor = 4
+
+	#Ampere meter feature.
+	#An inline block that measures FE/EU throughput passing through it and can
+	#emit a redstone signal based on the measured transfer rate.
+	[features.ampereMeter]
+		#Ticks without any transfer after which the displayed rate resets to zero.
+		#Range: > 0
+		inactivityResetTicks = 10
+
+	#Broken pattern provider feature.
+	#A pattern provider with a single pattern slot.
+	#Note: disabling only hides it from JEI/EMI and marks it in the tooltip;
+	#already-placed providers keep working (a full functional off would need a mixin).
+	[features.brokenPatternProvider]
+		#Enables the broken pattern provider (hide from JEI/EMI and tooltip when off).
+		enabled = true
+
+	#Crazy pattern provider upgrade cards.
+	#Automation card: the provider only serves crafting requests coming from machines.
+	#Player card: the provider only serves requests coming from players.
+	#Both cards work on the block and the cable part.
+	[features.providerCards]
+		#Enables the player/automation cards (hide from JEI/EMI, tooltip, and source filtering when off).
+		enabled = true
+
+	#Auto enchanter feature.
+	#A machine placed under an enchanting table that enchants items/books pulled from the
+	#network, spending lapis and XP stored as xp shards or XP fluids (forge:experience,
+	#forge:xpjuice). Uses Apotheosis enchanting stats when Apotheosis is installed.
+	[features.autoEnchanter]
+		#Enables the auto enchanter (hide from JEI/EMI, tooltip, and stops working when off).
+		enabled = true
+		#XP cost multiplier for the auto enchanter.
+		#Range: 0 ~ 100
+		cost = 10
+
+	#Energy storage feature.
+	#Standalone AE energy cells in ten tiers (1k to 256m) that store network power.
+	#Crafted in the entropy cradle from AE energy cells and crafting storages.
+	#Note: disabling only hides them from JEI/EMI and marks them in the tooltip;
+	#placed blocks keep storing power.
+	[features.energyStorage]
+		#Enables the energy storage blocks (hide from JEI/EMI and tooltip when off).
+		enabled = true
+		#Multiplies the stored-energy capacity of every energy storage tier.
+		#Range: > 1
+		capacityMultiplier = 1
+
+	#Entropy cradle feature.
+	#A multiblock that stores AE power as FE and, on a redstone pulse, transmutes a
+	#block pattern placed inside its 5x5x5 chamber into a result block.
+	[features.entropyCradle]
+		#Maximum FE the entropy cradle can store.
+		#Range: > 1
+		capacity = 600000000
+		#Maximum AE the entropy cradle can pull from the network per tick.
+		#Range: > 1
+		chargingSpeed = 10000000
+		#FE consumed by the entropy cradle per transmutation pulse.
+		#Range: > 1
+		cost = 600000000
+
+	#Portable Penrose Sphere feature.
+	#A multiblock that feeds matter into a black hole and taps the accretion disc for power.
+	#Note: disabling only hides its items from JEI/EMI and marks them in the tooltip;
+	#placed spheres keep running.
+	[features.penroseSphere]
+		#Enables the Portable Penrose Sphere (hide from JEI/EMI and tooltip when off).
+		enabled = true
+		#Lets the sphere expose its FE buffer through the controller and its output ports.
+		feOutputEnabled = true
+		#Lets GregTech dynamo hatches count as sphere ports and drain its FE buffer as EU.
+		#The exchange rate is GregTech's own feToEuRatio, 4 FE per EU by default.
+		#Has no effect without GregTech.
+		euOutputEnabled = true
+		#Hard cap on singularities injected into the accretion disc per tick.
+		#Units: items/t.
+		#Range: > 0
+		maxFeedPerTick = 4096
+
+		#Mass, heat and power curves. Changing these rebalances the whole feature.
+		[features.penroseSphere.balance]
+			#Super singularities that must sit in the disk on the central research pedestal to create the black hole.
+			#Units: items.
+			#Range: 0 ~ 9223372036854775807
+			creationCostSingularities = 32512
+			#Black hole mass right after ignition. Units: MU (internal mass unit).
+			#Range: 0 ~ 9223372036854775807
+			initialMass = 268435456
+			#How far above the initial mass the black hole may grow before meltdown.
+			#Max mass = initialMass + massWindow, sweet spot sits in the middle. Units: MU.
+			#Range: 0 ~ 9223372036854775807
+			massWindow = 1113600
+			#Output multiplier at the sweet spot. Falls off linearly to 1.0 at the window edges.
+			#Range: 1.0 ~ 64.0
+			massFactorMax = 2.0
+			#Duty-cycle compensation applied to generated power.
+			#Range: 0.0 ~ 1000.0
+			dutyCompensation = 1.3333333333333333
+			#FE per tick produced per 1.0 singu/t of disc flow at full heat efficiency
+			#and mass factor 1.0.
+			#Range: 0.0 ~ 1.0E18
+			feBasePerSinguFlow = 6.7108864E7
+			#Heat added per tick per 1.0 singu/t of disc flow at mass factor 1.0. Units: MK/t.
+			#Range: 0.0 ~ 1.0E12
+			heatPerSinguFlow = 0.5
+			#Heat at which efficiency peaks. Efficiency curve is 2x-x^2 for x=heat/peak,
+			#clamped to [0..1], so running colder or hotter than the peak both cost output.
+			#Units: MK.
+			#Range: 1.0 ~ 1.0E12
+			heatPeak = 50000.0
+			#Meltdown threshold. Reaching this heat destroys the black hole. Units: MK.
+			#Range: 0.0 ~ 1.0E12
+			maxHeat = 100000.0
+
+		#Coolant consumed by heat vents. Swap the fluid for anything the pack provides -
+		#the vent only cares that the fluid id resolves and that it is fed enough of it.
+		[features.penroseSphere.coolant]
+			#Fluid the heat vents accept, as a registry id.
+			fluid = "insaneae2addons:penrose_coolant"
+			#Millibuckets of coolant needed to remove 1 MK of heat.
+			#Default 125 makes the 16 singu/t optimum (8 MK/t) draw ~1 B/t; overfeeding scales the
+			#coolant demand into the unproducible range as an intentional noob trap.
+			#Range: 1.0E-4 ~ 1000000.0
+			mbPerMK = 125.0
+			#Coolant buffer of a single heat vent, in millibuckets.
+			#Range: > 1
+			ventCapacity = 64000
+
+		#Penrose lasers standing outside a formed sphere fire a beam on a redstone pulse.
+		#The beam carries the charge that was stored at the moment it fired and spends it on
+		#whatever it passes through, so a full 2.1 GFE charge reaches a lot further through air
+		#than through obsidian. Lasers that are part of a formed sphere never fire a beam.
+		[features.penroseSphere.laser]
+			#FE spent per 1.0 block hardness. A full charge clears 140 stone (1.5) or 4 obsidian (50).
+			#Blocks costing more than the beam has left stop it instead of breaking.
+			#Range: 1 ~ 9223372036854775807
+			fePerHardness = 10000000
+			#FE spent per point of damage (half a heart) actually absorbed by an entity.
+			#A full charge is worth 210 damage.
+			#Range: 1 ~ 9223372036854775807
+			fePerDamage = 10000000
+			#Upper bound on the damage a single entity can take from one beam, so that one mob
+			#with absurd health cannot swallow the whole charge.
+			#Range: 1.0 ~ 1.0E9
+			maxDamagePerEntity = 1024.0
+			#Hard cap on beam length in blocks. The beam also stops at the first unloaded chunk,
+			#which in practice is the tighter limit on a server.
+			#Range: 1 ~ 4096
+			maxRange = 1024
+
+		#What happens when the sphere melts down.
+		[features.penroseSphere.meltdown]
+			#Lets a meltdown explode and spawn the black hole field. Turn off for a silent reset.
+			explosionsEnabled = true
+			#Radius of the block-eating black hole field left behind by a meltdown.
+			#0 disables the field but keeps the explosion.
+			#Range: 0 ~ 4096
+			fieldRadius = 768
+			#Server time per tick the black hole field may spend eating blocks, in microseconds.
+			#Shared between all active fields. The default deliberately exceeds a full tick (50000 us):
+			#a meltdown is meant to hurt, and the field should carve the sphere out fast.
+			#Range: 100 ~ 200000
+			fieldBudgetMicros = 100000
+
+	#Spawner extractor feature.
+	#A multiblock built around a vanilla spawner. It suppresses the spawner and
+	#inserts the mob it would spawn into the network as a mob key instead.
+	[features.spawnerExtractor]
+		#Lets the spawner extractor keep working on peaceful difficulty.
+		worksOnPeaceful = true
+
+	#Mob farm feature.
+	#A multiblock that consumes mob keys from the network and inserts the loot and
+	#experience shards those mobs would drop when killed by a player.
+	[features.mobFarm]
+		#Mobs killed per cycle (every 20 ticks) without any speed cards.
+		#Range: > 1
+		baseSpeed = 16
+		#Extra mobs killed per cycle for each installed speed card.
+		#Range: > 0
+		speedPerCard = 12
+
+	#Entity ticker feature.
+	#A cable part that force-ticks the block entity it faces, multiplying its speed
+	#based on installed speed cards at the cost of network power.
+	[features.entityTicker]
+		#Enables the entity ticker part.
+		enabled = true
+		#Base AE cost per tick. Scales by 4^(speed cards).
+		#Range: > 0
+		cost = 65536
+		#Maximum speed cards the entity ticker accepts.
+		#Range: 0 ~ 8
+		maxSpeedCards = 8
+		#Block ids the entity ticker refuses to tick, e.g. minecraft:spawner.
+		blacklist = ["projectexpansion:basic_power_flower", "projectexpansion:dark_power_flower", "projectexpansion:red_power_flower", "projectexpansion:magenta_power_flower", "projectexpansion:pink_power_flower", "projectexpansion:purple_power_flower", "projectexpansion:violet_power_flower", "projectexpansion:blue_power_flower", "projectexpansion:cyan_power_flower", "projectexpansion:green_power_flower", "projectexpansion:lime_power_flower", "projectexpansion:yellow_power_flower", "projectexpansion:orange_power_flower", "projectexpansion:white_power_flower", "projectexpansion:fading_power_flower", "projectexpansion:final_power_flower", "solarflux:sp_1", "solarflux:sp_2", "solarflux:sp_3", "solarflux:sp_4", "solarflux:sp_5", "solarflux:sp_6", "solarflux:sp_7", "solarflux:sp_8", "solarflux:sp_de.wyvern", "solarflux:sp_de.draconic", "solarflux:sp_de.chaotic", "solarflux:sp_avaritia.neutronium", "solarflux:sp_avaritia.infinity"]
+

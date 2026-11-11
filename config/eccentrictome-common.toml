@@ -10,7 +10,7 @@
 	#Whitelisted names
 	names = ["book", "tome", "lexicon", "nomicon", "manual", "knowledge", "pedia", "compendium", "guide", "codex", "journal", "enchiridion", "grimoire"]
 	#Mod aliases
-	aliases = ["mythicbotany=botania", "integratedtunnels=integrateddynamics", "integratedterminals=integrateddynamics", "integratedcrafting=integrateddynamics", "rftoolsbuilder=rftoolsbase", "rftoolscontrol=rftoolsbase", "rftoolsdim=rftoolsbase", "rftoolspower=rftoolsbase", "rftoolsstorage=rftoolsbase", "rftoolsutility=rftoolsbase", "rftoolspower=rftoolsbase", "deepresonance=rftoolsbase", "xnet=rftoolsbase", "mysticalaggraditions=mysticalagriculture"]
+	aliases = ["mythicbotany=botania", "integratedtunnels=integrateddynamics", "integratedterminals=integrateddynamics", "integratedcrafting=integrateddynamics", "rftoolsbuilder=rftoolsbase", "rftoolsutility=rftoolsbase", "deepresonance=rftoolsbase", "xnet=rftoolsbase", "mysticalaggraditions=mysticalagriculture"]
 	#Blacklisted mods
 	exclude = []
 	#Blacklisted items

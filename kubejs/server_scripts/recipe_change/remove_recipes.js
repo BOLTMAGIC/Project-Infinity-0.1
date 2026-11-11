@@ -690,9 +690,6 @@ ServerEvents.recipes((event) => {
     mod: 'libraryferret',
   });
   event.remove({
-    mod: 'rftoolsdim',
-  });
-  event.remove({
     input: 'mysticalagriculture:saltpeter_essence',
   });
   event.remove({

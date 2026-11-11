@@ -95,6 +95,8 @@ maxViewDistance = "default"
 	flatClimateSearch = "default"
 	# (Default: true) Sample height-independent climate noise once per biome column.
 	columnClimateCache = "default"
+	# (Default: true) Hold the terrain noise interpolation arrays only while a chunk's terrain is being filled instead of for as long as the unfinished chunk exists.
+	releaseInterpolationSlices = "default"
 
 [threadedLighting]
 	# (Default: true) Run light updates on a dedicated thread.

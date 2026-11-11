@@ -25,9 +25,3 @@ LootJS.modifiers((event) => {
     .randomChance(0.125)
     .addLoot('allthemodium:piglich_heart');
 });
-
-LootJS.modifiers((event) => {
-  event
-    .addLootTypeModifier(LootType.ENTITY, LootType.CHEST)
-    .removeLoot([/.*dimlet*/]);
-});

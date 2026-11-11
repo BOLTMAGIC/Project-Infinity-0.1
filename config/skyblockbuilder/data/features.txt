@@ -425,7 +425,6 @@ rftoolsbase:dimshard_dimensions
 rftoolsbase:dimshard_end
 rftoolsbase:dimshard_nether
 rftoolsbase:dimshard_overworld
-rftoolsdim:rftfeature
 silent:arcmetal_ore
 silent:azure_silver_ore
 silent:plasteel_ore

@@ -1,6 +1,0 @@
-// Compost colors for rftoolspower. You may add your own colors, change existing ones, or remove colors that aren't needed.
-blazing_rod, #ffe123
-power_core1, #845a5c
-power_core2, #5b3233
-power_core3, #461b1e
-powercell_card, #dc5576

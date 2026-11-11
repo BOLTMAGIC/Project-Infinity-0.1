@@ -1,9 +1,0 @@
-// Compost colors for rftoolsstorage. You may add your own colors, change existing ones, or remove colors that aren't needed.
-dump_module, #73a2e3
-storage_control_module, #82c2b9
-storage_module0, #55bb65
-storage_module1, #61bf68
-storage_module2, #68c06b
-storage_module3, #69c26c
-storage_module6, #c5d7b9
-tablet_scanner, #86a19a

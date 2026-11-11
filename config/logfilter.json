@@ -693,14 +693,6 @@
       "name": "Suppress",
       "enabled": true,
       "type": "MESSAGE_REGEX",
-      "pattern": "minecraft",
-      "action": "DENY",
-      "level": "WARN"
-    },
-    {
-      "name": "Suppress",
-      "enabled": true,
-      "type": "MESSAGE_REGEX",
       "pattern": "Attempting to load Living Armour Upgrade",
       "action": "DENY"
     },
@@ -743,14 +735,6 @@
       "name": "Suppress",
       "enabled": true,
       "type": "MESSAGE_REGEX",
-      "pattern": "Hiding ",
-      "action": "DENY",
-      "level": "INFO"
-    },
-    {
-      "name": "Suppress",
-      "enabled": true,
-      "type": "MESSAGE_REGEX",
       "pattern": "ignoring heat properties for block",
       "action": "DENY"
     },
@@ -780,34 +764,6 @@
       "enabled": true,
       "type": "MESSAGE_REGEX",
       "pattern": "Class dev.uncandango.alltheleaks.leaks.common",
-      "action": "DENY"
-    },
-    {
-      "name": "Suppress",
-      "enabled": true,
-      "type": "MESSAGE_REGEX",
-      "pattern": "dependency=",
-      "action": "DENY"
-    },
-    {
-      "name": "Suppress",
-      "enabled": true,
-      "type": "MESSAGE_REGEX",
-      "pattern": "Registering S2C receiver",
-      "action": "DENY"
-    },
-    {
-      "name": "Suppress",
-      "enabled": true,
-      "type": "MESSAGE_REGEX",
-      "pattern": "Registering C2S receiver",
-      "action": "DENY"
-    },
-    {
-      "name": "Suppress",
-      "enabled": true,
-      "type": "MESSAGE_REGEX",
-      "pattern": "Registered bus=",
       "action": "DENY"
     },
     {

@@ -7,15 +7,6 @@
 	id: "6BD02BDE3155F746"
 	images: [
 		{
-			height: 5.0d
-			image: "rftoolspower:block/endergenic/floatingsphere"
-			order: 5
-			rotation: 45.0d
-			width: 5.0d
-			x: -5.0d
-			y: -1.0d
-		}
-		{
 			height: 11.0d
 			image: "modularrouters:block/template_frame"
 			rotation: 0.0d
@@ -46,6 +37,14 @@
 			width: 3.0d
 			x: -7.5d
 			y: 10.0d
+		}
+		{
+			height: 3.0d
+			image: "rftoolsdim:block/light"
+			rotation: 0.0d
+			width: 3.0d
+			x: -5.0d
+			y: -1.0d
 		}
 	]
 	order_index: 1

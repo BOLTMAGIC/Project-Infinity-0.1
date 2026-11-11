@@ -41,12 +41,6 @@ BlockEvents.rightClicked('mekanism:creative_bin', (event) => {
     'rftoolsbuilder:builder',
     'rftoolsbuilder:mover',
     'rftoolsbuilder:vehicle_builder',
-    'rftoolscontrol:craftingstation',
-    'rftoolscontrol:processor',
-    'rftoolscontrol:programmer',
-    'rftoolscontrol:workbench',
-    'rftoolsdim:dimlet_workbench',
-    'rftoolsstorage:storage_scanner',
     'rftoolsutility:screen',
     'rftoolsutility:matter_beamer',
 

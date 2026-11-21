@@ -1,1 +1,17 @@
-{}
+{
+    "mysticalagriculture:marble": {
+        "enabled": true
+    },
+    "mysticalagriculture:basalt": {
+        "enabled": true
+    },
+    "mysticalagriculture:rose_gold": {
+        "enabled": true
+    },
+    "mysticalagriculture:manyullyn": {
+        "enabled": true
+    },
+    "mysticalagriculture:cobalt": {
+        "enabled": true
+    }
+}

@@ -1,0 +1,6 @@
+#Use a dark gray theme for the Multibuilder GUI.
+darkMode = false
+#Preferred block per server-defined equivalency set (set ID=block ID).
+#Saved for this client across tools, worlds and servers. Unmatched sets are ignored.
+blockReplacements = []
+

@@ -73,7 +73,7 @@
 				#Uses ResourceLocation to identify it
 				#Example 1: "minecraft:chest" - Ignores chests only
 				#Example 2: "ae2:*" - ignores all Block entities from Applied Energetics 2
-				whitelist = ["waterframes:*", "molecularmanipulator:event_horizon_singularity_hub", "molecularmanipulator:cosmic_singularity", "molecularmanipulator:white_hole_resource_core"]
+				whitelist = ["waterframes:*", "molecularmanipulator:event_horizon_singularity_hub", "molecularmanipulator:cosmic_singularity", "molecularmanipulator:white_hole_resource_core", "molecularmanipulator:star_computation_engine_core"]
 
 	[xenonextras.others]
 		#Configure if borderless fullscreen option should be attached to F11 or replace vanilla fullscreen

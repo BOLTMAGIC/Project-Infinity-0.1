@@ -58,7 +58,7 @@ ServerEvents.recipes((event) => {
           item: 'twilightforest:fiery_tears',
         },
         O: {
-          item: 'enderio:octadic_capacitor',
+          item: 'custom_capacitors:cobalt_capacitor',
         },
         P: {
           item: 'botania:third_eye',

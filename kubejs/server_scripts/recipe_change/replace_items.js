@@ -46,6 +46,11 @@ ServerEvents.recipes((event) => {
     'mysticalagradditions:dragon_scale'
   );
   event.replaceInput(
+    { output: 'mysticalagradditions:insanium_essence' },
+    'mysticalagriculture:supremium_essence',
+    'mysticalagriculture:awakened_supremium_essence'
+  );
+  event.replaceInput(
     { output: 'cyclic:soulstone' },
     'thermal:netherite_nugget',
     'botanicalextramachinery:crimson_dragonstone'
@@ -332,14 +337,29 @@ ServerEvents.recipes((event) => {
     'extendedcrafting:advanced_table'
   );
   event.replaceInput(
+    { output: 'packagedexcrafting:advanced_crafter' },
+    'extendedcrafting:crystaltine_component',
+    'extendedcrafting:advanced_component'
+  );
+  event.replaceInput(
     { output: 'packagedexcrafting:elite_crafter' },
     'extendedcrafting:elite_auto_table',
     'extendedcrafting:elite_table'
   );
   event.replaceInput(
+    { output: 'packagedexcrafting:elite_crafter' },
+    'extendedcrafting:crystaltine_component',
+    'extendedcrafting:elite_component'
+  );
+  event.replaceInput(
     { output: 'packagedexcrafting:ultimate_crafter' },
     'extendedcrafting:ultimate_auto_table',
     'extendedcrafting:ultimate_table'
+  );
+  event.replaceInput(
+    { output: 'packagedexcrafting:ultimate_crafter' },
+    'extendedcrafting:crystaltine_component',
+    'extendedcrafting:ultimate_component'
   );
   event.replaceInput(
     { output: 'packagedexcrafting:ender_crafter' },

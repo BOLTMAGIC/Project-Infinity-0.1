@@ -91,6 +91,7 @@ ServerEvents.recipes((event) => {
     [
       { count: 1, item: 'minecraft:copper_ingot' },
       { count: 3, item: 'kubejs:infinity_4' },
+      { count: 1, item: 'enderio:octadic_capacitor' },
     ],
     'kubejs:infinity_5',
     1
@@ -100,6 +101,7 @@ ServerEvents.recipes((event) => {
     [
       { count: 1, item: 'thermal:silver_ingot' },
       { count: 15, item: 'kubejs:infinity_4' },
+      { count: 5, item: 'enderio:octadic_capacitor' },
     ],
     'kubejs:infinity_5',
     5
@@ -110,6 +112,7 @@ ServerEvents.recipes((event) => {
     [
       { count: 1, item: 'minecraft:gold_ingot' },
       { count: 30, item: 'kubejs:infinity_4' },
+      { count: 10, item: 'enderio:octadic_capacitor' },
     ],
     'kubejs:infinity_5',
     10
@@ -120,6 +123,7 @@ ServerEvents.recipes((event) => {
     [
       { count: 1, item: 'ae2omnicells:ender_ingot' },
       { count: 45, item: 'kubejs:infinity_4' },
+      { count: 15, item: 'enderio:octadic_capacitor' },
     ],
     'kubejs:infinity_5',
     15
@@ -130,6 +134,7 @@ ServerEvents.recipes((event) => {
     [
       { count: 1, item: 'minecraft:netherite_ingot' },
       { count: 60, item: 'kubejs:infinity_4' },
+      { count: 20, item: 'enderio:octadic_capacitor' },
     ],
     'kubejs:infinity_5',
     20
@@ -141,6 +146,7 @@ ServerEvents.recipes((event) => {
       { count: 1, item: 'kubejs:starmetal_ingot' },
       { count: 64, item: 'kubejs:infinity_4' },
       { count: 64, item: 'kubejs:infinity_4' },
+      { count: 42, item: 'enderio:octadic_capacitor' },
     ],
     'kubejs:infinity_5',
     45

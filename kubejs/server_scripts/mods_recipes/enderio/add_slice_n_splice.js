@@ -8,19 +8,25 @@ ServerEvents.recipes((event) => {
           item: 'kubejs:infinity_5',
         },
         {
-          item: 'allthemodium:allthemodium_ingot',
-        },
-        {
-          item: 'kubejs:infinity_5',
-        },
-        {
-          item: 'allthemodium:vibranium_ingot',
-        },
-        {
-          item: 'kubejs:infinity_5',
-        },
-        {
           item: 'allthemodium:unobtainium_ingot',
+        },
+        {
+          item: 'kubejs:infinity_5',
+        },
+        {
+          type: 'forge:partial_nbt',
+          item: 'extendedcrafting:singularity',
+          count: 1,
+          nbt: '{Id:"extendedcrafting:lapis_lazuli"}',
+        },
+        {
+          item: 'kubejs:infinity_5',
+        },
+        {
+          type: 'forge:partial_nbt',
+          item: 'extendedcrafting:singularity',
+          count: 1,
+          nbt: '{Id:"extendedcrafting:redstone_ingot"}',
         },
       ],
       output: {

@@ -1,0 +1,5 @@
+# classes Sleepium's analyses read beyond the entities: kept as they load (no pass through Mixin's transformer)
+net/minecraft/world/level/block/Block
+net/minecraft/world/level/block/state/BlockBehaviour
+net/minecraftforge/common/ForgeHooks
+net/minecraft/util/Mth

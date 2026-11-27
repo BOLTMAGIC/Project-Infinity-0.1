@@ -96,7 +96,6 @@ BlockEvents.rightClicked(
     "mysticalagradditions:nitro_crystal_crux",
     "minecraft:soul_soil",
     "minecraft:dried_kelp_block",
-    "mysticalagradditions:neutronium_crux",
     "minecraft:sand",
     "snad:red_snad",
     "allthemodium:vibranium_block",

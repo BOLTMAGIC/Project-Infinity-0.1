@@ -26,7 +26,7 @@ ServerEvents.recipes((event) => {
           item: 'armorplus:ender_dragon_scale',
         },
         E: {
-          item: 'kubejs:infinity_8',
+          item: 'kubejs:infinity_5',
         },
         F: {
           item: 'mekanism:ultimate_compressing_factory',

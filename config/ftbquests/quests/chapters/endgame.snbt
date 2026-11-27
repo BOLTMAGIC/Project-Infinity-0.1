@@ -177,7 +177,7 @@
 		{
 			dependencies: [
 				"09E417572962783A"
-				"74D98B0C85B0A6D9"
+				"1C55B400F87F2E30"
 			]
 			description: ["{ftbquests.chapter.endgame.quest5.description1}"]
 			id: "1CCDE53F4A707C91"
@@ -303,10 +303,7 @@
 			y: 0.0d
 		}
 		{
-			dependencies: [
-				"7B5143F86F4FAC74"
-				"1C55B400F87F2E30"
-			]
+			dependencies: ["7B5143F86F4FAC74"]
 			description: ["{ftbquests.chapter.endgame.quest9.description1}"]
 			id: "3B7AEEE67CA9D3BC"
 			rewards: [{
@@ -516,17 +513,6 @@
 			y: 1.5d
 		}
 		{
-			description: ["{ftbquests.chapter.endgame.quest18.description1}"]
-			id: "74D98B0C85B0A6D9"
-			tasks: [{
-				id: "2C9A8FA11F0DBE8D"
-				item: "bloodmagic:altar"
-				type: "item"
-			}]
-			x: -12.0d
-			y: -1.5d
-		}
-		{
 			description: ["{ftbquests.chapter.endgame.quest19.description1}"]
 			id: "60340E1C5D797B8B"
 			tasks: [{
@@ -600,7 +586,7 @@
 				item: "draconicevolution:crafting_core"
 				type: "item"
 			}]
-			x: -8.0d
+			x: -12.0d
 			y: -1.5d
 		}
 		{

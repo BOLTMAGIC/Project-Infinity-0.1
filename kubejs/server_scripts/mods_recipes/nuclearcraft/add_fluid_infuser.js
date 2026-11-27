@@ -3,7 +3,7 @@ ServerEvents.recipes((event) => {
     event,
     input_item,
     input_fluid_amount,
-    input_fluid_tag,
+    input_fluid,
     output_item,
     powerModifier,
     radiation,
@@ -24,7 +24,7 @@ ServerEvents.recipes((event) => {
       inputFluids: [
         {
           amount: input_fluid_amount,
-          tag: input_fluid_tag
+          fluid: input_fluid
         }
       ],
       output: [
@@ -39,7 +39,7 @@ ServerEvents.recipes((event) => {
       .id('fluid_infusing_' + output_item.replace(/:/g, '_'));
   }
 
-  fluidInfuser(event, 'kubejs:infinity_1', 500, 'kubejs:molten_basalz', 'kubejs:infinity_1_333333');
-  fluidInfuser(event, 'kubejs:infinity_1', 500, 'kubejs:molten_blizz', 'kubejs:infinity_1_666666');
-  fluidInfuser(event, 'kubejs:infinity_1', 500, 'kubejs:molten_blitz', 'kubejs:infinity_1_999999');
+  fluidInfuser(event, 'kubejs:infinity_1', 1000, 'kubejs:molten_basalz', 'kubejs:infinity_1_333333');
+  fluidInfuser(event, 'kubejs:infinity_1', 1000, 'kubejs:molten_blizz', 'kubejs:infinity_1_666666');
+  fluidInfuser(event, 'kubejs:infinity_1', 1000, 'kubejs:molten_blitz', 'kubejs:infinity_1_999999');
 });

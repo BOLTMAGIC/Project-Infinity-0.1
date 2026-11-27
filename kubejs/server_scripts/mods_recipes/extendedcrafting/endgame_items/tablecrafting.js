@@ -158,7 +158,7 @@ ServerEvents.recipes((event) => {
           item: 'extendedcrafting:enhanced_ender_catalyst',
         },
         X: {
-          item: 'extendedcrafting:elite_table',
+          item: 'extendedcrafting:ultimate_table',
         },
       },
       result: {
@@ -219,13 +219,13 @@ ServerEvents.recipes((event) => {
           item: 'justdirethings:eclipsealloy_ingot',
         },
         L: {
-          item: 'extendedcrafting:black_iron_slate',
+          item: 'extendedcrafting:ultimate_catalyst',
         },
         M: {
           item: 'kubejs:ultimate_gem',
         },
         N: {
-          item: 'extendedcrafting:enhanced_ender_component',
+          item: 'extendedcrafting:crystaltine_component',
         },
         O: {
           item: 'avaritia:ultimate_stew',
@@ -237,7 +237,7 @@ ServerEvents.recipes((event) => {
           item: 'extendedcrafting:epic_table',
         },
         R: {
-          item: 'extendedcrafting:enhanced_ender_catalyst',
+          item: 'extendedcrafting:crystaltine_catalyst',
         },
         S: {
           item: 'mekanism_extras:alloy_thermonuclear',

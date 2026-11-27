@@ -654,48 +654,6 @@
 			y: -8.5d
 		}
 		{
-			dependencies: ["42DF944251E8538F"]
-			description: ["{ftbquests.chapter.avaritia.quest29.description1}"]
-			id: "5DD4B5780494D422"
-			tasks: [{
-				id: "60EBF03A28F6FDC3"
-				item: "avaritia:dense_neutron_collector"
-				type: "item"
-			}]
-			x: -3.0d
-			y: -7.0d
-		}
-		{
-			dependencies: ["5DD4B5780494D422"]
-			description: ["{ftbquests.chapter.avaritia.quest30.description1}"]
-			id: "2DD3DE061E0BD676"
-			tasks: [{
-				id: "3B7213EB1C2B3422"
-				item: "avaritia:denser_neutron_collector"
-				type: "item"
-			}]
-			x: -1.5d
-			y: -7.0d
-		}
-		{
-			dependencies: ["2DD3DE061E0BD676"]
-			description: ["{ftbquests.chapter.avaritia.quest31.description1}"]
-			id: "13931F57613DCC60"
-			rewards: [{
-				count: 2
-				id: "0BA14D3A4EE3CC88"
-				item: "avaritia:neutron"
-				type: "item"
-			}]
-			tasks: [{
-				id: "3FCCED5435F3B675"
-				item: "avaritia:densest_neutron_collector"
-				type: "item"
-			}]
-			x: 0.0d
-			y: -7.0d
-		}
-		{
 			dependencies: ["3353D17D82959D0C"]
 			description: ["{ftbquests.chapter.avaritia.quest32.description1}"]
 			id: "54C6961ACAFC8D8B"

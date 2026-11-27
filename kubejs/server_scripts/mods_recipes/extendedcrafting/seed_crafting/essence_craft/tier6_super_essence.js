@@ -33,9 +33,6 @@ ServerEvents.recipes((event) => {
           item: 'mysticalagriculture:awakened_draconium_essence',
         },
         {
-          item: 'mysticalagriculture:neutronium_essence',
-        },
-        {
           item: 'mysticalagriculture:nitro_crystal_essence',
         },
       ],

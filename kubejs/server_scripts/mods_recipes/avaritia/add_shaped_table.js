@@ -55,48 +55,6 @@ ServerEvents.recipes((event) => {
     })
     .id('kubejs:sculk_alloy_block');
 
-  //densest_neutron_collector
-  event.custom({
-    type: 'avaritia:shaped_table',
-    category: 'equipment',
-    key: {
-      A: {
-        item: 'minecraft:redstone_block',
-      },
-      B: {
-        item: 'avaritia:neutron_ingot',
-      },
-      C: {
-        item: 'avaritia:neutron_gear',
-      },
-      X: {
-        item: 'avaritia:denser_neutron_collector',
-      },
-      Y: {
-        type: 'forge:nbt',
-        item: 'extendedcrafting:singularity',
-        count: 1,
-        nbt: "{Id:'extendedcrafting:black_iron_ingot'}",
-      },
-    },
-    pattern: [
-      'CC     CC',
-      'C  BBB  C',
-      '  AAAAA  ',
-      ' BAXXXAB ',
-      ' BAXYXAB ',
-      ' BAXXXAB ',
-      '  AAAAA  ',
-      'C  BBB  C',
-      'CC     CC',
-    ],
-    result: {
-      item: 'avaritia:densest_neutron_collector',
-    },
-    show_notification: true,
-    tier: 4,
-  });
-
   //blaze_cube
   event.custom({
     type: 'avaritia:shaped_table',

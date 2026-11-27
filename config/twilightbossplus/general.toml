@@ -3,4 +3,36 @@
 	#输出 Boss 技能与阶段切换的调试日志
 	#Log boss skill and phase debug messages
 	debug_log = false
+	#是否需要手持 Boss 对应的战利品（奖杯）右键 Boss 才切换为强化形态；默认 false（默认即为强化形态）
+	#Require right-clicking a boss with its corresponding trophy drop to awaken its enhanced form; false by default (enhanced by default)
+	require_trophy_activation = false
+	#右键激活 Boss 强化形态时是否消耗 1 个手持物品（创造模式不消耗）
+	#Consume 1 held item when right-clicking a boss to awaken its enhanced form (not consumed in Creative mode)
+	consume_activation_item = true
+
+	[general.activation_items]
+		#右键激活娜迦强化形态的物品 ID 列表
+		#Item IDs that can awaken Naga's enhanced form
+		naga = ["twilightforest:naga_trophy"]
+		#右键激活巫妖强化形态的物品 ID 列表
+		#Item IDs that can awaken Lich's enhanced form
+		lich = ["twilightforest:lich_trophy"]
+		#右键激活米诺菇强化形态的物品 ID 列表
+		#Item IDs that can awaken Minoshroom's enhanced form
+		minoshroom = ["twilightforest:minoshroom_trophy"]
+		#右键激活九头蛇强化形态的物品 ID 列表
+		#Item IDs that can awaken Hydra's enhanced form
+		hydra = ["twilightforest:hydra_trophy"]
+		#右键激活幻影骑士强化形态的物品 ID 列表
+		#Item IDs that can awaken Knight Phantom's enhanced form
+		knight_phantom = ["twilightforest:knight_phantom_trophy"]
+		#右键激活暮初恶魂强化形态的物品 ID 列表
+		#Item IDs that can awaken Ur-Ghast's enhanced form
+		ur_ghast = ["twilightforest:ur_ghast_trophy"]
+		#右键激活雪怪首领强化形态的物品 ID 列表
+		#Item IDs that can awaken Alpha Yeti's enhanced form
+		alpha_yeti = ["twilightforest:alpha_yeti_trophy"]
+		#右键激活冰雪女王强化形态的物品 ID 列表
+		#Item IDs that can awaken Snow Queen's enhanced form
+		snow_queen = ["twilightforest:snow_queen_trophy"]
 

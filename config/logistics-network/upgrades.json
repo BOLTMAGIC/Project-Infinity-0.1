@@ -35,7 +35,7 @@
     "minTicks": 1,
     "itemBatch": 10000,
     "fluidBatch": 1000000,
-    "energyBatch": 2147483647,
+    "energyBatch": 137438953408,
     "chemicalBatch": 1000000,
     "sourceBatch": 1000000
   }

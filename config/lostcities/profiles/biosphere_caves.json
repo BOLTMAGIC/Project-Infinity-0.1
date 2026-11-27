@@ -177,5 +177,5 @@
     "sphereSurfaceVariation": 1.0,
     "grid32": false
   },
-  "public": false
+  "public": true
 }

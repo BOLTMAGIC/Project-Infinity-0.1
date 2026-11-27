@@ -267,6 +267,23 @@ ItemEvents.tooltip((event) => {
   );
 
   event.addAdvanced(
+    [
+      'mekanism:basic_logistical_transporter',
+      'mekanism:advanced_logistical_transporter',
+    ],
+    (item, advanced, text) => {
+      if (!event.shift) {
+        text.add(1, holdShiftText());
+      } else {
+        text.add(
+          1,
+          Text.translate('tooltip.mekanism.logistical_transporter').green()
+        );
+      }
+    }
+  );
+
+  event.addAdvanced(
     ['mekanism_extras:end_naquadah_ore'],
     (item, advanced, text) => {
       if (!event.shift) {
@@ -696,13 +713,13 @@ ItemEvents.tooltip((event) => {
     year_12_cake: 6,
   };
 
-  Object.keys(cakes).forEach(cake => {
+  Object.keys(cakes).forEach((cake) => {
     event.addAdvanced([`kubejs:${cake}`], (item, advanced, text) => {
       for (let i = 1; i <= cakes[cake]; i++) {
         text.add(i, Text.translate(`tooltip.kubejs.${cake}_${i}`));
       }
     });
-  })
+  });
 
   event.addAdvanced(
     'kubejs:fake_transmutation_tablet',

@@ -1,227 +1,530 @@
 {
-	"format_version": "1.8.0",
-	"animations": {
-		"animation.black_hole.rotate": {
-			"loop": true,
-			"animation_length": 12,
-			"bones": {
-				"core": {
-					"rotation": {
-						"0.0": [0, 0, 0],
-						"1.0": [0, 30, 0],
-						"2.0": [0, 60, 0],
-						"3.0": [0, 90, 0],
-						"4.0": [0, 120, 0],
-						"5.0": [0, 150, 0],
-						"6.0": [0, 180, 0],
-						"7.0": [0, 210, 0],
-						"8.0": [0, 240, 0],
-						"9.0": [0, 270, 0],
-						"10.0": [0, 300, 0],
-						"11.0": [0, 330, 0],
-						"12.0": [0, 360, 0]
-					}
-				},
-				"disk_inner": {
-					"rotation": {
-						"0.0": [0, 0, 0],
-						"1.0": [0, 120, 0],
-						"2.0": [0, 240, 0],
-						"3.0": [0, 360, 0],
-						"4.0": [0, 480, 0],
-						"5.0": [0, 600, 0],
-						"6.0": [0, 720, 0],
-						"7.0": [0, 840, 0],
-						"8.0": [0, 960, 0],
-						"9.0": [0, 1080, 0],
-						"10.0": [0, 1200, 0],
-						"11.0": [0, 1320, 0],
-						"12.0": [0, 1440, 0]
-					}
-				},
-				"disk_middle": {
-					"rotation": {
-						"0.0": [0, 0, 0],
-						"1.0": [0, 90, 0],
-						"2.0": [0, 180, 0],
-						"3.0": [0, 270, 0],
-						"4.0": [0, 360, 0],
-						"5.0": [0, 450, 0],
-						"6.0": [0, 540, 0],
-						"7.0": [0, 630, 0],
-						"8.0": [0, 720, 0],
-						"9.0": [0, 810, 0],
-						"10.0": [0, 900, 0],
-						"11.0": [0, 990, 0],
-						"12.0": [0, 1080, 0]
-					}
-				},
-				"disk_outer": {
-					"rotation": {
-						"0.0": [0, 0, 0],
-						"1.0": [0, 60, 0],
-						"2.0": [0, 120, 0],
-						"3.0": [0, 180, 0],
-						"4.0": [0, 240, 0],
-						"5.0": [0, 300, 0],
-						"6.0": [0, 360, 0],
-						"7.0": [0, 420, 0],
-						"8.0": [0, 480, 0],
-						"9.0": [0, 540, 0],
-						"10.0": [0, 600, 0],
-						"11.0": [0, 660, 0],
-						"12.0": [0, 720, 0]
-					}
-				}
-			}
-		},
-		"animation.black_hole.idle": {
-			"loop": true,
-			"animation_length": 12,
-			"bones": {
-				"core": {
-					"rotation": {
-						"0.0": [0, 0, 0],
-						"1.0": [0, 30, 0],
-						"2.0": [0, 60, 0],
-						"3.0": [0, 90, 0],
-						"4.0": [0, 120, 0],
-						"5.0": [0, 150, 0],
-						"6.0": [0, 180, 0],
-						"7.0": [0, 210, 0],
-						"8.0": [0, 240, 0],
-						"9.0": [0, 270, 0],
-						"10.0": [0, 300, 0],
-						"11.0": [0, 330, 0],
-						"12.0": [0, 360, 0]
-					}
-				},
-				"disk_inner": {
-					"rotation": {
-						"0.0": [0, 0, 0],
-						"1.0": [0, 120, 0],
-						"2.0": [0, 240, 0],
-						"3.0": [0, 360, 0],
-						"4.0": [0, 480, 0],
-						"5.0": [0, 600, 0],
-						"6.0": [0, 720, 0],
-						"7.0": [0, 840, 0],
-						"8.0": [0, 960, 0],
-						"9.0": [0, 1080, 0],
-						"10.0": [0, 1200, 0],
-						"11.0": [0, 1320, 0],
-						"12.0": [0, 1440, 0]
-					}
-				},
-				"disk_middle": {
-					"rotation": {
-						"0.0": [0, 0, 0],
-						"1.0": [0, 90, 0],
-						"2.0": [0, 180, 0],
-						"3.0": [0, 270, 0],
-						"4.0": [0, 360, 0],
-						"5.0": [0, 450, 0],
-						"6.0": [0, 540, 0],
-						"7.0": [0, 630, 0],
-						"8.0": [0, 720, 0],
-						"9.0": [0, 810, 0],
-						"10.0": [0, 900, 0],
-						"11.0": [0, 990, 0],
-						"12.0": [0, 1080, 0]
-					}
-				},
-				"disk_outer": {
-					"rotation": {
-						"0.0": [0, 0, 0],
-						"1.0": [0, 60, 0],
-						"2.0": [0, 120, 0],
-						"3.0": [0, 180, 0],
-						"4.0": [0, 240, 0],
-						"5.0": [0, 300, 0],
-						"6.0": [0, 360, 0],
-						"7.0": [0, 420, 0],
-						"8.0": [0, 480, 0],
-						"9.0": [0, 540, 0],
-						"10.0": [0, 600, 0],
-						"11.0": [0, 660, 0],
-						"12.0": [0, 720, 0]
-					}
-				}
-			}
-		},
-		"animation.black_hole.working": {
-			"loop": true,
-			"animation_length": 12,
-			"bones": {
-				"core": {
-					"rotation": {
-						"0.0": [0, 0, 0],
-						"1.0": [0, 30, 0],
-						"2.0": [0, 60, 0],
-						"3.0": [0, 90, 0],
-						"4.0": [0, 120, 0],
-						"5.0": [0, 150, 0],
-						"6.0": [0, 180, 0],
-						"7.0": [0, 210, 0],
-						"8.0": [0, 240, 0],
-						"9.0": [0, 270, 0],
-						"10.0": [0, 300, 0],
-						"11.0": [0, 330, 0],
-						"12.0": [0, 360, 0]
-					}
-				},
-				"disk_inner": {
-					"rotation": {
-						"0.0": [0, 0, 0],
-						"1.0": [0, 120, 0],
-						"2.0": [0, 240, 0],
-						"3.0": [0, 360, 0],
-						"4.0": [0, 480, 0],
-						"5.0": [0, 600, 0],
-						"6.0": [0, 720, 0],
-						"7.0": [0, 840, 0],
-						"8.0": [0, 960, 0],
-						"9.0": [0, 1080, 0],
-						"10.0": [0, 1200, 0],
-						"11.0": [0, 1320, 0],
-						"12.0": [0, 1440, 0]
-					}
-				},
-				"disk_middle": {
-					"rotation": {
-						"0.0": [0, 0, 0],
-						"1.0": [0, 90, 0],
-						"2.0": [0, 180, 0],
-						"3.0": [0, 270, 0],
-						"4.0": [0, 360, 0],
-						"5.0": [0, 450, 0],
-						"6.0": [0, 540, 0],
-						"7.0": [0, 630, 0],
-						"8.0": [0, 720, 0],
-						"9.0": [0, 810, 0],
-						"10.0": [0, 900, 0],
-						"11.0": [0, 990, 0],
-						"12.0": [0, 1080, 0]
-					}
-				},
-				"disk_outer": {
-					"rotation": {
-						"0.0": [0, 0, 0],
-						"1.0": [0, 60, 0],
-						"2.0": [0, 120, 0],
-						"3.0": [0, 180, 0],
-						"4.0": [0, 240, 0],
-						"5.0": [0, 300, 0],
-						"6.0": [0, 360, 0],
-						"7.0": [0, 420, 0],
-						"8.0": [0, 480, 0],
-						"9.0": [0, 540, 0],
-						"10.0": [0, 600, 0],
-						"11.0": [0, 660, 0],
-						"12.0": [0, 720, 0]
-					}
-				}
-			}
-		}
-	}
+ "format_version": "1.8.0",
+ "animations": {
+  "animation.black_hole.idle": {
+   "loop": true,
+   "animation_length": 360,
+   "bones": {
+    "disk_ring_0": {
+     "rotation": [
+      "0",
+      "((variable.mm_cam_on > 0.5) ? (math.atan2(variable.mm_cam_x, variable.mm_cam_z) * 57.29578) : (110 * math.mod(query.life_time, 360)))",
+      "0"
+     ]
+    },
+    "disk_ring_1": {
+     "rotation": [
+      "0",
+      "((variable.mm_cam_on > 0.5) ? (math.atan2(variable.mm_cam_x, variable.mm_cam_z) * 57.29578) : (84 * math.mod(query.life_time, 360)))",
+      "0"
+     ]
+    },
+    "disk_ring_2": {
+     "rotation": [
+      "0",
+      "((variable.mm_cam_on > 0.5) ? (math.atan2(variable.mm_cam_x, variable.mm_cam_z) * 57.29578) : (65 * math.mod(query.life_time, 360)))",
+      "0"
+     ]
+    },
+    "disk_ring_3": {
+     "rotation": [
+      "0",
+      "((variable.mm_cam_on > 0.5) ? (math.atan2(variable.mm_cam_x, variable.mm_cam_z) * 57.29578) : (51 * math.mod(query.life_time, 360)))",
+      "0"
+     ]
+    },
+    "disk_ring_4": {
+     "rotation": [
+      "0",
+      "((variable.mm_cam_on > 0.5) ? (math.atan2(variable.mm_cam_x, variable.mm_cam_z) * 57.29578) : (40 * math.mod(query.life_time, 360)))",
+      "0"
+     ]
+    },
+    "disk_ring_5": {
+     "rotation": [
+      "0",
+      "((variable.mm_cam_on > 0.5) ? (math.atan2(variable.mm_cam_x, variable.mm_cam_z) * 57.29578) : (32 * math.mod(query.life_time, 360)))",
+      "0"
+     ]
+    },
+    "fil_up_1": {
+     "rotation": [
+      "0",
+      "70 * math.mod(query.life_time, 360)",
+      "0"
+     ]
+    },
+    "fil_dn_1": {
+     "rotation": [
+      "0",
+      "62 * math.mod(query.life_time, 360)",
+      "0"
+     ]
+    },
+    "fil_up_2": {
+     "rotation": [
+      "0",
+      "54 * math.mod(query.life_time, 360)",
+      "0"
+     ]
+    },
+    "fil_dn_2": {
+     "rotation": [
+      "0",
+      "48 * math.mod(query.life_time, 360)",
+      "0"
+     ]
+    },
+    "fil_up_3": {
+     "rotation": [
+      "0",
+      "42 * math.mod(query.life_time, 360)",
+      "0"
+     ]
+    },
+    "fil_dn_3": {
+     "rotation": [
+      "0",
+      "37 * math.mod(query.life_time, 360)",
+      "0"
+     ]
+    },
+    "fil_up_4": {
+     "rotation": [
+      "0",
+      "33 * math.mod(query.life_time, 360)",
+      "0"
+     ]
+    },
+    "fil_dn_4": {
+     "rotation": [
+      "0",
+      "29 * math.mod(query.life_time, 360)",
+      "0"
+     ]
+    },
+    "fil_up_5": {
+     "rotation": [
+      "0",
+      "27 * math.mod(query.life_time, 360)",
+      "0"
+     ]
+    },
+    "fil_dn_5": {
+     "rotation": [
+      "0",
+      "24 * math.mod(query.life_time, 360)",
+      "0"
+     ]
+    },
+    "hot_ring": {
+     "rotation": [
+      "0",
+      "150 * math.mod(query.life_time, 360)",
+      "0"
+     ],
+     "scale": [
+      "0.001",
+      "0.001",
+      "0.001"
+     ]
+    },
+    "lens": {
+     "rotation": [
+      "(((variable.mm_cam_y - 16) > 0) ? (0 - 1) : 1) * (math.asin((variable.mm_cam_y - 16) / (math.sqrt(variable.mm_cam_x * variable.mm_cam_x + (variable.mm_cam_y - 16) * (variable.mm_cam_y - 16) + variable.mm_cam_z * variable.mm_cam_z) + 0.0001)) * 57.29578)",
+      "math.atan2(variable.mm_cam_x, variable.mm_cam_z) * 57.29578 + (((variable.mm_cam_y - 16) > 0) ? 180 : 0)",
+      "0"
+     ],
+     "scale": [
+      "1 + 19 * variable.mm_cam_on",
+      "1 + 19 * variable.mm_cam_on",
+      "1 + 19 * variable.mm_cam_on"
+     ]
+    },
+    "lens_push": {
+     "position": [
+      "0",
+      "0",
+      "((((variable.mm_cam_y - 16) > 0) ? 1 : (0 - 1)) * 0.015)"
+     ]
+    },
+    "lens_arc_top": {
+     "scale": [
+      "(0.68 + 0.32 * math.exp(0 - math.pow(((math.asin((variable.mm_cam_y - 16) / (math.sqrt(variable.mm_cam_x * variable.mm_cam_x + (variable.mm_cam_y - 16) * (variable.mm_cam_y - 16) + variable.mm_cam_z * variable.mm_cam_z) + 0.0001)) * 57.29578) - 15) / 35, 2)))",
+      "(0.68 + 0.32 * math.exp(0 - math.pow(((math.asin((variable.mm_cam_y - 16) / (math.sqrt(variable.mm_cam_x * variable.mm_cam_x + (variable.mm_cam_y - 16) * (variable.mm_cam_y - 16) + variable.mm_cam_z * variable.mm_cam_z) + 0.0001)) * 57.29578) - 15) / 35, 2)))",
+      "(0.68 + 0.32 * math.exp(0 - math.pow(((math.asin((variable.mm_cam_y - 16) / (math.sqrt(variable.mm_cam_x * variable.mm_cam_x + (variable.mm_cam_y - 16) * (variable.mm_cam_y - 16) + variable.mm_cam_z * variable.mm_cam_z) + 0.0001)) * 57.29578) - 15) / 35, 2)))"
+     ]
+    },
+    "lens_arc_bottom": {
+     "scale": [
+      "(0.68 + 0.32 * math.exp(0 - math.pow(((0 - (math.asin((variable.mm_cam_y - 16) / (math.sqrt(variable.mm_cam_x * variable.mm_cam_x + (variable.mm_cam_y - 16) * (variable.mm_cam_y - 16) + variable.mm_cam_z * variable.mm_cam_z) + 0.0001)) * 57.29578)) - 15) / 35, 2)))",
+      "(0.68 + 0.32 * math.exp(0 - math.pow(((0 - (math.asin((variable.mm_cam_y - 16) / (math.sqrt(variable.mm_cam_x * variable.mm_cam_x + (variable.mm_cam_y - 16) * (variable.mm_cam_y - 16) + variable.mm_cam_z * variable.mm_cam_z) + 0.0001)) * 57.29578)) - 15) / 35, 2)))",
+      "(0.68 + 0.32 * math.exp(0 - math.pow(((0 - (math.asin((variable.mm_cam_y - 16) / (math.sqrt(variable.mm_cam_x * variable.mm_cam_x + (variable.mm_cam_y - 16) * (variable.mm_cam_y - 16) + variable.mm_cam_z * variable.mm_cam_z) + 0.0001)) * 57.29578)) - 15) / 35, 2)))"
+     ]
+    },
+    "photon_ring_hot": {
+     "position": [
+      "0",
+      "0",
+      "((((variable.mm_cam_y - 16) > 0) ? (0 - 1) : 1) * 0.0025)"
+     ],
+     "scale": [
+      "0.001",
+      "0.001",
+      "0.001"
+     ]
+    }
+   }
+  },
+  "animation.black_hole.working": {
+   "loop": true,
+   "animation_length": 360,
+   "bones": {
+    "disk_ring_0": {
+     "rotation": [
+      "0",
+      "((variable.mm_cam_on > 0.5) ? (math.atan2(variable.mm_cam_x, variable.mm_cam_z) * 57.29578) : (110 * math.mod(query.life_time, 360)))",
+      "0"
+     ]
+    },
+    "disk_ring_1": {
+     "rotation": [
+      "0",
+      "((variable.mm_cam_on > 0.5) ? (math.atan2(variable.mm_cam_x, variable.mm_cam_z) * 57.29578) : (84 * math.mod(query.life_time, 360)))",
+      "0"
+     ]
+    },
+    "disk_ring_2": {
+     "rotation": [
+      "0",
+      "((variable.mm_cam_on > 0.5) ? (math.atan2(variable.mm_cam_x, variable.mm_cam_z) * 57.29578) : (65 * math.mod(query.life_time, 360)))",
+      "0"
+     ]
+    },
+    "disk_ring_3": {
+     "rotation": [
+      "0",
+      "((variable.mm_cam_on > 0.5) ? (math.atan2(variable.mm_cam_x, variable.mm_cam_z) * 57.29578) : (51 * math.mod(query.life_time, 360)))",
+      "0"
+     ]
+    },
+    "disk_ring_4": {
+     "rotation": [
+      "0",
+      "((variable.mm_cam_on > 0.5) ? (math.atan2(variable.mm_cam_x, variable.mm_cam_z) * 57.29578) : (40 * math.mod(query.life_time, 360)))",
+      "0"
+     ]
+    },
+    "disk_ring_5": {
+     "rotation": [
+      "0",
+      "((variable.mm_cam_on > 0.5) ? (math.atan2(variable.mm_cam_x, variable.mm_cam_z) * 57.29578) : (32 * math.mod(query.life_time, 360)))",
+      "0"
+     ]
+    },
+    "fil_up_1": {
+     "rotation": [
+      "0",
+      "70 * math.mod(query.life_time, 360)",
+      "0"
+     ]
+    },
+    "fil_dn_1": {
+     "rotation": [
+      "0",
+      "62 * math.mod(query.life_time, 360)",
+      "0"
+     ]
+    },
+    "fil_up_2": {
+     "rotation": [
+      "0",
+      "54 * math.mod(query.life_time, 360)",
+      "0"
+     ]
+    },
+    "fil_dn_2": {
+     "rotation": [
+      "0",
+      "48 * math.mod(query.life_time, 360)",
+      "0"
+     ]
+    },
+    "fil_up_3": {
+     "rotation": [
+      "0",
+      "42 * math.mod(query.life_time, 360)",
+      "0"
+     ]
+    },
+    "fil_dn_3": {
+     "rotation": [
+      "0",
+      "37 * math.mod(query.life_time, 360)",
+      "0"
+     ]
+    },
+    "fil_up_4": {
+     "rotation": [
+      "0",
+      "33 * math.mod(query.life_time, 360)",
+      "0"
+     ]
+    },
+    "fil_dn_4": {
+     "rotation": [
+      "0",
+      "29 * math.mod(query.life_time, 360)",
+      "0"
+     ]
+    },
+    "fil_up_5": {
+     "rotation": [
+      "0",
+      "27 * math.mod(query.life_time, 360)",
+      "0"
+     ]
+    },
+    "fil_dn_5": {
+     "rotation": [
+      "0",
+      "24 * math.mod(query.life_time, 360)",
+      "0"
+     ]
+    },
+    "hot_ring": {
+     "rotation": [
+      "0",
+      "150 * math.mod(query.life_time, 360)",
+      "0"
+     ],
+     "scale": [
+      "1",
+      "1",
+      "1"
+     ]
+    },
+    "lens": {
+     "rotation": [
+      "(((variable.mm_cam_y - 16) > 0) ? (0 - 1) : 1) * (math.asin((variable.mm_cam_y - 16) / (math.sqrt(variable.mm_cam_x * variable.mm_cam_x + (variable.mm_cam_y - 16) * (variable.mm_cam_y - 16) + variable.mm_cam_z * variable.mm_cam_z) + 0.0001)) * 57.29578)",
+      "math.atan2(variable.mm_cam_x, variable.mm_cam_z) * 57.29578 + (((variable.mm_cam_y - 16) > 0) ? 180 : 0)",
+      "0"
+     ],
+     "scale": [
+      "1 + 19 * variable.mm_cam_on",
+      "1 + 19 * variable.mm_cam_on",
+      "1 + 19 * variable.mm_cam_on"
+     ]
+    },
+    "lens_push": {
+     "position": [
+      "0",
+      "0",
+      "((((variable.mm_cam_y - 16) > 0) ? 1 : (0 - 1)) * 0.015)"
+     ]
+    },
+    "lens_arc_top": {
+     "scale": [
+      "(0.68 + 0.32 * math.exp(0 - math.pow(((math.asin((variable.mm_cam_y - 16) / (math.sqrt(variable.mm_cam_x * variable.mm_cam_x + (variable.mm_cam_y - 16) * (variable.mm_cam_y - 16) + variable.mm_cam_z * variable.mm_cam_z) + 0.0001)) * 57.29578) - 15) / 35, 2)))",
+      "(0.68 + 0.32 * math.exp(0 - math.pow(((math.asin((variable.mm_cam_y - 16) / (math.sqrt(variable.mm_cam_x * variable.mm_cam_x + (variable.mm_cam_y - 16) * (variable.mm_cam_y - 16) + variable.mm_cam_z * variable.mm_cam_z) + 0.0001)) * 57.29578) - 15) / 35, 2)))",
+      "(0.68 + 0.32 * math.exp(0 - math.pow(((math.asin((variable.mm_cam_y - 16) / (math.sqrt(variable.mm_cam_x * variable.mm_cam_x + (variable.mm_cam_y - 16) * (variable.mm_cam_y - 16) + variable.mm_cam_z * variable.mm_cam_z) + 0.0001)) * 57.29578) - 15) / 35, 2)))"
+     ]
+    },
+    "lens_arc_bottom": {
+     "scale": [
+      "(0.68 + 0.32 * math.exp(0 - math.pow(((0 - (math.asin((variable.mm_cam_y - 16) / (math.sqrt(variable.mm_cam_x * variable.mm_cam_x + (variable.mm_cam_y - 16) * (variable.mm_cam_y - 16) + variable.mm_cam_z * variable.mm_cam_z) + 0.0001)) * 57.29578)) - 15) / 35, 2)))",
+      "(0.68 + 0.32 * math.exp(0 - math.pow(((0 - (math.asin((variable.mm_cam_y - 16) / (math.sqrt(variable.mm_cam_x * variable.mm_cam_x + (variable.mm_cam_y - 16) * (variable.mm_cam_y - 16) + variable.mm_cam_z * variable.mm_cam_z) + 0.0001)) * 57.29578)) - 15) / 35, 2)))",
+      "(0.68 + 0.32 * math.exp(0 - math.pow(((0 - (math.asin((variable.mm_cam_y - 16) / (math.sqrt(variable.mm_cam_x * variable.mm_cam_x + (variable.mm_cam_y - 16) * (variable.mm_cam_y - 16) + variable.mm_cam_z * variable.mm_cam_z) + 0.0001)) * 57.29578)) - 15) / 35, 2)))"
+     ]
+    },
+    "photon_ring_hot": {
+     "position": [
+      "0",
+      "0",
+      "((((variable.mm_cam_y - 16) > 0) ? (0 - 1) : 1) * 0.0025)"
+     ],
+     "scale": [
+      "1",
+      "1",
+      "1"
+     ]
+    }
+   }
+  },
+  "animation.black_hole.rotate": {
+   "loop": true,
+   "animation_length": 360,
+   "bones": {
+    "disk_ring_0": {
+     "rotation": [
+      "0",
+      "((variable.mm_cam_on > 0.5) ? (math.atan2(variable.mm_cam_x, variable.mm_cam_z) * 57.29578) : (110 * math.mod(query.life_time, 360)))",
+      "0"
+     ]
+    },
+    "disk_ring_1": {
+     "rotation": [
+      "0",
+      "((variable.mm_cam_on > 0.5) ? (math.atan2(variable.mm_cam_x, variable.mm_cam_z) * 57.29578) : (84 * math.mod(query.life_time, 360)))",
+      "0"
+     ]
+    },
+    "disk_ring_2": {
+     "rotation": [
+      "0",
+      "((variable.mm_cam_on > 0.5) ? (math.atan2(variable.mm_cam_x, variable.mm_cam_z) * 57.29578) : (65 * math.mod(query.life_time, 360)))",
+      "0"
+     ]
+    },
+    "disk_ring_3": {
+     "rotation": [
+      "0",
+      "((variable.mm_cam_on > 0.5) ? (math.atan2(variable.mm_cam_x, variable.mm_cam_z) * 57.29578) : (51 * math.mod(query.life_time, 360)))",
+      "0"
+     ]
+    },
+    "disk_ring_4": {
+     "rotation": [
+      "0",
+      "((variable.mm_cam_on > 0.5) ? (math.atan2(variable.mm_cam_x, variable.mm_cam_z) * 57.29578) : (40 * math.mod(query.life_time, 360)))",
+      "0"
+     ]
+    },
+    "disk_ring_5": {
+     "rotation": [
+      "0",
+      "((variable.mm_cam_on > 0.5) ? (math.atan2(variable.mm_cam_x, variable.mm_cam_z) * 57.29578) : (32 * math.mod(query.life_time, 360)))",
+      "0"
+     ]
+    },
+    "fil_up_1": {
+     "rotation": [
+      "0",
+      "70 * math.mod(query.life_time, 360)",
+      "0"
+     ]
+    },
+    "fil_dn_1": {
+     "rotation": [
+      "0",
+      "62 * math.mod(query.life_time, 360)",
+      "0"
+     ]
+    },
+    "fil_up_2": {
+     "rotation": [
+      "0",
+      "54 * math.mod(query.life_time, 360)",
+      "0"
+     ]
+    },
+    "fil_dn_2": {
+     "rotation": [
+      "0",
+      "48 * math.mod(query.life_time, 360)",
+      "0"
+     ]
+    },
+    "fil_up_3": {
+     "rotation": [
+      "0",
+      "42 * math.mod(query.life_time, 360)",
+      "0"
+     ]
+    },
+    "fil_dn_3": {
+     "rotation": [
+      "0",
+      "37 * math.mod(query.life_time, 360)",
+      "0"
+     ]
+    },
+    "fil_up_4": {
+     "rotation": [
+      "0",
+      "33 * math.mod(query.life_time, 360)",
+      "0"
+     ]
+    },
+    "fil_dn_4": {
+     "rotation": [
+      "0",
+      "29 * math.mod(query.life_time, 360)",
+      "0"
+     ]
+    },
+    "fil_up_5": {
+     "rotation": [
+      "0",
+      "27 * math.mod(query.life_time, 360)",
+      "0"
+     ]
+    },
+    "fil_dn_5": {
+     "rotation": [
+      "0",
+      "24 * math.mod(query.life_time, 360)",
+      "0"
+     ]
+    },
+    "hot_ring": {
+     "rotation": [
+      "0",
+      "150 * math.mod(query.life_time, 360)",
+      "0"
+     ],
+     "scale": [
+      "0.001",
+      "0.001",
+      "0.001"
+     ]
+    },
+    "lens": {
+     "rotation": [
+      "(((variable.mm_cam_y - 16) > 0) ? (0 - 1) : 1) * (math.asin((variable.mm_cam_y - 16) / (math.sqrt(variable.mm_cam_x * variable.mm_cam_x + (variable.mm_cam_y - 16) * (variable.mm_cam_y - 16) + variable.mm_cam_z * variable.mm_cam_z) + 0.0001)) * 57.29578)",
+      "math.atan2(variable.mm_cam_x, variable.mm_cam_z) * 57.29578 + (((variable.mm_cam_y - 16) > 0) ? 180 : 0)",
+      "0"
+     ],
+     "scale": [
+      "1 + 19 * variable.mm_cam_on",
+      "1 + 19 * variable.mm_cam_on",
+      "1 + 19 * variable.mm_cam_on"
+     ]
+    },
+    "lens_push": {
+     "position": [
+      "0",
+      "0",
+      "((((variable.mm_cam_y - 16) > 0) ? 1 : (0 - 1)) * 0.015)"
+     ]
+    },
+    "lens_arc_top": {
+     "scale": [
+      "(0.68 + 0.32 * math.exp(0 - math.pow(((math.asin((variable.mm_cam_y - 16) / (math.sqrt(variable.mm_cam_x * variable.mm_cam_x + (variable.mm_cam_y - 16) * (variable.mm_cam_y - 16) + variable.mm_cam_z * variable.mm_cam_z) + 0.0001)) * 57.29578) - 15) / 35, 2)))",
+      "(0.68 + 0.32 * math.exp(0 - math.pow(((math.asin((variable.mm_cam_y - 16) / (math.sqrt(variable.mm_cam_x * variable.mm_cam_x + (variable.mm_cam_y - 16) * (variable.mm_cam_y - 16) + variable.mm_cam_z * variable.mm_cam_z) + 0.0001)) * 57.29578) - 15) / 35, 2)))",
+      "(0.68 + 0.32 * math.exp(0 - math.pow(((math.asin((variable.mm_cam_y - 16) / (math.sqrt(variable.mm_cam_x * variable.mm_cam_x + (variable.mm_cam_y - 16) * (variable.mm_cam_y - 16) + variable.mm_cam_z * variable.mm_cam_z) + 0.0001)) * 57.29578) - 15) / 35, 2)))"
+     ]
+    },
+    "lens_arc_bottom": {
+     "scale": [
+      "(0.68 + 0.32 * math.exp(0 - math.pow(((0 - (math.asin((variable.mm_cam_y - 16) / (math.sqrt(variable.mm_cam_x * variable.mm_cam_x + (variable.mm_cam_y - 16) * (variable.mm_cam_y - 16) + variable.mm_cam_z * variable.mm_cam_z) + 0.0001)) * 57.29578)) - 15) / 35, 2)))",
+      "(0.68 + 0.32 * math.exp(0 - math.pow(((0 - (math.asin((variable.mm_cam_y - 16) / (math.sqrt(variable.mm_cam_x * variable.mm_cam_x + (variable.mm_cam_y - 16) * (variable.mm_cam_y - 16) + variable.mm_cam_z * variable.mm_cam_z) + 0.0001)) * 57.29578)) - 15) / 35, 2)))",
+      "(0.68 + 0.32 * math.exp(0 - math.pow(((0 - (math.asin((variable.mm_cam_y - 16) / (math.sqrt(variable.mm_cam_x * variable.mm_cam_x + (variable.mm_cam_y - 16) * (variable.mm_cam_y - 16) + variable.mm_cam_z * variable.mm_cam_z) + 0.0001)) * 57.29578)) - 15) / 35, 2)))"
+     ]
+    },
+    "photon_ring_hot": {
+     "position": [
+      "0",
+      "0",
+      "((((variable.mm_cam_y - 16) > 0) ? (0 - 1) : 1) * 0.0025)"
+     ],
+     "scale": [
+      "0.001",
+      "0.001",
+      "0.001"
+     ]
+    }
+   }
+  }
+ }
 }

@@ -4,7 +4,6 @@ finish quests high prio
 draconic evolution armor and upgrades recipe change
 https://www.curseforge.com/minecraft/mc-mods/kryzenth
 https://www.curseforge.com/minecraft/mc-mods/antarchy
-https://www.curseforge.com/minecraft/mc-mods/polycore
 ----------
 changelog v. 0.0.53.0
 
@@ -16,6 +15,7 @@ Known issues:
 Mod Info:
 - MODS UPDATED:
     - CrazyAE2 from 2.6.2 to 3.2.5 and added Insane AE2 Addons 3.2.3
+    - JEI updated to 15.74.0.234 (newer versions will change all the numbers in recipes)
 - MODS ADDED:
     - Mods adding new mobs:
         - Aether Dragon (1 new Boss, 1 new structure)
@@ -31,6 +31,8 @@ Mod Info:
     -Mods fixing something:
         - Night Config Fixes (Hopefully fixes some crashes)
         - Reliable Replacer (replaces blocks in world to another blocks. added because of CrazyAE2 update)
+        - Sleepium
+        - Polycore
 
 - MODS REMOVED:
     - Born in Chaos
@@ -68,7 +70,25 @@ Recipe changes and fixes:
 - changed botany pots upgrades from 2x, 6x, 10x to 2x, 3x, 4x
 - added fake creative jetpack
 - changed recipes of all compressed generator tiers (Thx to KYO297!!!)
-- 
+- packaged auto crafter recipe change. uses the correct components instead of crystaltine component (thx to DidaS)
+- changed legendary table recipe (thx to DidaS)
+- epic crafting table (tier 5) uses ultimate table (tier 4) and not elite table (tier 3) in the recipe (thx to DidaS)
+- infinity 1 recipe change. uses supremium ingot instead of awakened supremium ingot
+- infinity 1.3333, 1.6666, 1.9999 recipe change. uses 1000 mB of fluid not 500 mB (thx to DidaS)
+- infinity 2 recipe change. uses diamond lattice block (thx to DidaS)
+- infinity 3 recipe change. uses nitro crystal block
+- infinity 4 recipe change. needs draconic evolution fusion crafting and uses awakened supremium ingot (thx to DidaS)
+- infinity 5 recipe change. uses enderio octadic capacitor (thx to DidaS)
+- infinity 6 recipe change. uses redstone ingot and lapis singularity (thx to DidaS)
+- changed recipe for extendedcrafting compressor from Inf 8 to inf 5 (thx to DidaS)
+- changed philosophers stone recipe from octadic capacitor to cobalt capacitor (thx to DidaS)
+- changed geckolib model for the infinity crucible (thx to Ketchup)
+- insanium essence needs awakened supremium essence instead of supremium essence (thx to DidaS)
+- added a recipe for soul lava
+- removed dense, denser and densest neutronium collector recipes (thx to DidaS)
+- removed neutronium seeds (thx to DidaS)
+- added a way to get neutronium (thx to DidaS)
+- removed the reaction chamber recipes from the mechanical empowerer tier 2
 
 Quests changes:
 - added a draconic evolution questline (thx to zeteeny22!!!)

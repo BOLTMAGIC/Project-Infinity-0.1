@@ -7,10 +7,6 @@ ServerEvents.recipes((event) => {
     'mysticalagriculture:ignitium_essence',
   ]);
 
-  create323(event, 'avaritia:neutron_pile', [
-    'mysticalagriculture:neutronium_essence',
-  ]);
-
   create323(event, '2x industrialforegoing:plastic', [
     'mysticalagriculture:plastic_essence',
   ]);

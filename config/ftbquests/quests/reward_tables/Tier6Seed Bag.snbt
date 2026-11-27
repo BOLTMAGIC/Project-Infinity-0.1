@@ -19,7 +19,6 @@
 		{ item: "mysticalagriculture:supremium_essence", random_bonus: 3, weight: 10.0f }
 		{ item: "mysticalagriculture:flight_augment", weight: 3.0f }
 		{ item: "mysticalagriculture:allthemodium_seeds" }
-		{ item: "mysticalagriculture:dark_metal_ingot_seeds" }
 		{ item: "mysticalagriculture:plutonium_seeds" }
 		{ item: "mysticalagriculture:vibranium_seeds" }
 		{ item: "mysticalagriculture:unobtainium_seeds" }
@@ -27,7 +26,6 @@
 		{ item: "mysticalagriculture:dragon_egg_seeds" }
 		{ item: "mysticalagriculture:gaia_spirit_seeds" }
 		{ item: "mysticalagriculture:awakened_draconium_seeds" }
-		{ item: "mysticalagriculture:neutronium_seeds" }
 		{ item: "mysticalagriculture:nitro_crystal_seeds" }
 	]
 	title: "{ftbquests.loot_table_3663852184954822005.title}"

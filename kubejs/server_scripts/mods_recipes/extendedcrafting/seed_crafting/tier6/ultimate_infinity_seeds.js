@@ -47,13 +47,13 @@ ServerEvents.recipes((event) => {
           item: 'mysticalagriculture:awakened_draconium_seeds',
         },
         J: {
-          item: 'mysticalagriculture:neutronium_seeds',
+          item: 'mysticalagriculture:allthemodium_seeds',
         },
         K: {
           item: 'mysticalagriculture:nitro_crystal_seeds',
         },
         L: {
-          item: 'mysticalagriculture:allthemodium_seeds',
+          item: 'kubejs:tier6_crafting_seed',
         },
         M: {
           item: 'ifeu:dragon_star',

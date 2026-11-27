@@ -13,6 +13,9 @@ ServerEvents.recipes((event) => {
         {
           item: 'kubejs:infinity_2',
         },
+        {
+          item: 'powah:nitro_crystal_block',
+        },
       ],
       output: [
         {

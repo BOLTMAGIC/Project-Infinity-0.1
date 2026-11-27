@@ -31,6 +31,7 @@ ServerEvents.recipes((event) => {
     'kubejs:infinity_1_333333',
     'kubejs:infinity_1_666666',
     'kubejs:infinity_1_999999',
+    'avaritia:diamond_lattice_block',
   ]);
 
   shapeless(event, 'kubejs:infinity_10_block', ['kubejs:infinity_10']);
@@ -165,7 +166,7 @@ ServerEvents.recipes((event) => {
     'nuclearcraft:neutronium_ingot',
     'draconicevolution:awakened_core',
     'enderio:end_steel_ingot',
-    'mysticalagriculture:awakened_supremium_ingot',
+    'mysticalagriculture:supremium_ingot',
     'justdirethings:eclipsealloy_ingot',
     'cataclysm:ignitium_ingot',
     'pneumaticcraft:plastic',

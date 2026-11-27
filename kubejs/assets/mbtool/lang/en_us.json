@@ -83,5 +83,7 @@
     "mbtool.structure.neoeco_c9_computation_controller": "NeoEco C9 Computation Multiblock",
     "mbtool.structure.neoeco_f9_crafting_controller": "NeoEco F9 Crafting Multiblock",
     "mbtool.structure.neoeco_l9_storage_controller": "NeoEco L9 Storage Multiblock",
-    "mbtool.structure.good_nuclearcraft_reactor": "Good Fission Reactor (any fuel / water-cooled)"
+    "mbtool.structure.neoeco_integrated_working_station": "NeoEco Integrated Working Station"
 }
+
+

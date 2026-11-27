@@ -76,7 +76,7 @@ ServerEvents.recipes((event) => {
     .custom({
       type: 'powah:energizing',
       ingredients: [{ tag: 'forge:storage_blocks/uranium' }],
-      energy: 4500000,
+      energy: 270000,
       result: {
         item: 'powah:uraninite_block',
       },

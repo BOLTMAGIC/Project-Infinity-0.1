@@ -1,0 +1,7 @@
+{
+  "hudEnabled": false,
+  "hudCorner": "TOP_LEFT",
+  "toastsEnabled": false,
+  "refreshTicks": 10,
+  "lastPage": "server.reports"
+}

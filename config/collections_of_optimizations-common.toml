@@ -25,6 +25,8 @@
 	threadSafeCaches = true
 	#Answer other mods' capability questions on living entities without looking up the entity's curio slots first. Every time any mod asks any living entity for any capability, Curios is asked too, and before it even checks whether the question is about its own inventory it looks up the slot layout for that entity type. For every capability that is not the Curios inventory the answer is always nothing, whether the entity has slots or not. With this on that same nothing comes back straight away, and questions about the Curios inventory go through the normal lookup. Turn it off for stock behaviour.
 	skipForeignCapabilityLookup = true
+	#Keep a mob's set of worn curios until its curio inventory actually changes instead of rebuilding it every tick. Zombies, skeletons and other mobs that Artifacts gives curio slots to had the set rebuilt on every tick. Players still rebuild every tick.
+	lastingMobPresence = true
 
 #Artifacts patches.
 [artifacts]
@@ -88,6 +90,8 @@
 	skipIdleBehaviourTicks = true
 	#Create works out its wood cutting recipes by checking every item in the game against a few patterns, on the main thread, every time a world is opened. The answer only depends on which items exist, so work it out once in the background when loading finishes and reuse it.
 	cacheRuntimeData = true
+	#Free each contraption's client render world when the contraption goes away. Every moving contraption the client renders gets its own small copy of a world, and Flywheel builds a visualization manager for it the moment a block entity is placed in that copy. Flywheel only lets go of a manager when its world unloads, and these copies never unload, so every contraption you have ever seen stays in memory with its blocks, its block entities, the real world it points to and the manager's buffers, until the next resource reload. With this on the copy is treated as unloaded when its contraption entity leaves the client, which is exactly what Flywheel does for a real world. Client.
+	releaseContraptionRenderLevels = true
 
 #XaeroLib patches.
 [xaerolib]
@@ -117,6 +121,8 @@
 	parseMolangNumbersWithoutExceptions = true
 	#Write each GeckoLib cube's vertices straight into the render buffer in one batch through Embeddium's vertex writer, instead of one vertex call per corner. Renderers that change how a quad is written keep their own path.
 	fastCubeWrite = true
+	#Keep one copy of equal keyframe data instead of one per keyframe. GeckoLib reads every keyframe of every animation file into its own objects: a number object per axis, a keyframe object per axis and an empty easing list per keyframe. A big pack ends up with over two million of each, most of them equal (zero, the same angle, the same step), and all of it stays in memory for the whole session, which makes the collector start its cleanup cycles sooner. With this on equal numbers and equal keyframes without easing arguments are created once and shared while animation files load. They are never changed after loading, so every pose is what it was. The lookup tables are dropped a few seconds after loading ends. Client.
+	shareAnimationData = true
 
 #Saint's Dragons patches.
 [saintsdragons]
@@ -175,6 +181,8 @@
 	compiledPatterns = true
 	#Keep each compiled animation class EMF makes and hand the same class back whenever a model with the same animations is built again. EMF turns the animation formulas of every animated model into a small class with its own class loader each time that model is built, and models are built again at runtime, for example statues and other blocks or mobs that make a fresh model. Every rebuilt model left a dead class behind, and each time the garbage collector found a dead class it had to sweep the whole compiled code cache during its remark pause, which turned a 35 ms pause into a 70 ms freeze every minute or so. With this on the bytes of each new animation class are compared with the classes already made and an identical class is reused, so no animation class ever dies and the remark pause stays short. Animations run the same code as before. Client.
 	reuseCompiledAnimations = true
+	#Write the boxes of resource pack mob models straight into the vertex buffer the way Embeddium already does for vanilla models. EMF replaces the models of most vanilla mobs and moved every corner of every box three times over through the slow path. Looks the same. Client.
+	fastModelRender = true
 
 #Oculus / Iris shadow pass patches.
 [oculus]
@@ -317,6 +325,10 @@
 	cacheModPresence = true
 	#Skip the max posture calculation for mobs with no posture damage. Soulslike Weaponry works out every mob's max posture from its scaled hitbox every tick, but a mob at 0 posture can never break.
 	skipIdlePostureMax = true
+	#Remember that an entity has no despawn timer until the mod sets one, instead of looking it up in the entity's saved data on every tick.
+	rememberNoDespawnTimer = true
+	#Skip Soulslike Weaponry's posture, bleed and frost check for a mob that has none of the three built up. Stock looks up the mob's stats seven times, three entity tags and its saved data on every tick of every living thing. The check still runs in full on the tick where the mod's own frost timer fires, so nothing about the mod changes. Players are never skipped.
+	skipIdleBuildupTick = true
 
 #Kind of Nice Weapon patches.
 [konweapon]
@@ -361,6 +373,8 @@
 	memoAnimationMerge = true
 	#Remember whether an item is a spear by its class and by its registry name instead of lowercasing both names every time Punchy picks a tool kind. Client.
 	memoSpearChecks = true
+	#Remember Punchy's item blacklist answer for the exact stack in each hand, and its spear charge check for each animation type. With TaCZ installed the per-item memo above stays off because guns are matched by their data, so Punchy rebuilt the key list, cut strings and compiled wildcard patterns for both hands every frame. The answer is reused only while the same stack with the same data is held.
+	cacheBlacklistMatch = true
 
 #L2 Hostility patches.
 [l2hostility]
@@ -470,6 +484,8 @@
 	memoClimateSample = true
 	#Remember which Elysium sound transformer applies to each block. Elysium searched its whole transformer registry with a fresh stream every time any block was asked for its sound, which happens constantly while chunks are meshed and entities walk. The answer is worked out again after a world change or a tag reload.
 	cacheSoundTransformers = true
+	#With TerraBlender installed, ElysiumAPI works out every overworld and nether biome lookup itself to see whether one of its biome replacers applies, and when none does it lets the lookup carry on, so TerraBlender works out the same biome a second time: the climate sample, the region choice and the biome tree search all run twice. ElysiumAPI also asked the mod loader whether TerraBlender is installed, copied its replacer registry into a new list and built a new random generator and set on every lookup. With this on the biome is worked out once, with the same TerraBlender call, and handed back directly, and the replacers are checked without the throwaway objects. Same biomes, same replacements. Server.
+	resolveBiomeOnce = true
 
 #Balm patches.
 [balm]
@@ -546,6 +562,8 @@
 [quark]
 	#Stop attaching a persistent data compound to every animal in the world.
 	skipPigLitterTagChurn = true
+	#Do not give every item stack its own empty map. Quark adds a field to every item stack that holds the attribute lines it captured for its tooltips, and fills it with a new HashMap when the stack is created. Only a stack whose tooltip is being drawn ever uses it, and the tooltip code replaces the map with a fresh one first. A big pack keeps over 700,000 item stacks alive (recipes, loot tables, quest and recipe viewers), so that is 700,000 empty maps, plus one more for every stack the game copies. With this on the map is only created when Quark first asks for it. Tooltips are what they were.
+	lazyCapturedAttributes = true
 
 #Zeta patches. Zeta is Quark's module and event framework.
 [zeta]
@@ -553,6 +571,8 @@
 	leanStructureReplacement = true
 	#Build one Zeta event wrapper per dispatch instead of one per listener.
 	shareEventWrappers = true
+	#Quark's big stone clusters and underground styles visit every cluster source in the surrounding five by five chunks for every chunk generated, and for each one read the block and run its replace rules for every block of the chunk across the cluster's height, before checking whether the block is inside the cluster's ellipsoid at all. Most sources cannot reach the chunk and most of the box is outside the ellipsoid. Skip a chunk outright when even its closest column is outside the ellipsoid, and check the ellipsoid first for the rest, with the same arithmetic, so the block read only happens where the cluster can reach. Everything inside keeps the original order, so the same blocks are placed.
+	clusterBoundsFirst = true
 
 #Dungeon Crawl patches.
 [dungeoncrawl]
@@ -581,6 +601,8 @@
 	cacheBrewEffects = true
 	#Look for a servant's owner in the servant's own dimension first. The stock lookup walks every loaded dimension in a fixed order, several times per servant per tick, so with 25 dimensions a servant next to its owner in the Nether still asked the other dimensions first.
 	sameLevelOwnerLookup = true
+	#Find the mobs with an enchanting tether once per tick instead of every frame. Goety walks every entity in the world and looks up each one's enchanter every frame to draw tether beams that almost never exist. A tether that starts this tick shows up on the next one. Client.
+	tickListEnchantBeams = true
 
 #Myths and Legends patches.
 [mythsandlegends]
@@ -653,6 +675,8 @@
 	skipDeadCaveMaps = true
 	#With Dimensions of Alex's Caves installed, underground cabin chests keep rolling cave tablet and cave book loot for every cave, even the ones disabled_completely in the overworld, since the caves are still reachable through their dimensions.
 	cabinLootWithDimensions = true
+	#Look up the biomes around the camera once per tick for Alex's Caves' sky, fog and light colours. It asked for the same 216 biome spots six times every tick, one round per colour. The colours come out exactly the same. Client.
+	biomeSampleTickCache = true
 
 #Ad Astra patches.
 [adastra]
@@ -833,11 +857,11 @@
 	cacheBiomeLookups = true
 	#Spread the client tick of mobs over the next few frames instead of doing all of them inside the one frame that runs the tick. The client tick already makes one frame out of every twenty several milliseconds longer than the rest, and with many mobs around most of that is mob ticks, so those frames are the 1% lows. A mob that has not had its tick yet is drawn exactly where the tick starts it, so nothing moves differently on screen. Every mob still ticks once per tick, all of them before the next tick starts. The player, the camera, riders and ridden mobs tick as before. Client.
 	spreadEntityTicks = true
-	#When the game runs far faster than a mob's pose needs to change, build each mob's model once every few frames and draw the same model again in between, moved to where the mob and the camera are this frame. At several hundred frames per second most of the frame goes into posing and building the same mobs again and again, and a screen can only show a new pose once per refresh, so each mob is rebuilt at least once per monitor refresh (at least 120 times a second) and only the frames in between reuse it. Below about twice the refresh rate, and with a shader pack, every frame builds every mob as before. Players, hurt or dying mobs, leashed or glowing mobs and any mob whose renderer draws outside the shared buffers are always built every frame. Client.
+	#When the game runs far faster than a mob's pose needs to change, build each mob's model once every few frames and draw the same model again in between, moved to where the mob and the camera are this frame. At several hundred frames per second most of the frame goes into posing and building the same mobs again and again, and a screen can only show a new pose once per refresh, so each mob is rebuilt at least once per monitor refresh (at least 120 times a second) and only the frames in between reuse it. Below about twice the refresh rate, and with a shader pack, every frame builds every mob as before. Players, leashed or glowing mobs and any mob whose renderer draws outside the shared buffers are always built every frame. Client.
 	reuseEntityMeshes = true
 	#The same as reuseEntityMeshes for block entities with a renderer, such as chests, banners, signs, statues and notice boards: each is built at least once per monitor refresh and drawn again from that build on the frames in between. Castles and villages hold hundreds of them, and drawing them is most of what a frame does there. Client.
 	reuseBlockEntityMeshes = true
-	#With reuseEntityMeshes on, a mob shorter than this many pixels on your screen gets a new pose half as often, and one under half this height a third as often. It still moves smoothly every frame; only its limbs and animation step a little less often, which is hard to see at that size. Worked out from the mob's size, its distance, your field of view and window height. 0 turns this off. Client.
+	#With reuseEntityMeshes on, a mob shorter than this many pixels on your screen gets a new pose half as often, and one under half this height a third as often. It still moves smoothly every frame; only its limbs and animation step a little less often, which is hard to see at that size. Worked out from the mob's size, its distance, your field of view and window height. Below twice the refresh rate only mobs under half this height are drawn this way, and never under 30 poses a second. 0 turns this off. Client.
 	#Range: 0 ~ 2000
 	reuseSmallMobPixels = 120
 	#With spreadEntityTicks on, spread the client ticks of dropped items, experience orbs, arrows and thrown items the same way. Each of these is drawn from values its tick interpolates between, so drawing it exactly where its tick starts it shows the same position, spin and bob. After a fight there can be dozens of drops on the ground, each moving on the client every tick. Client.
@@ -848,6 +872,44 @@
 	spreadClientTickListeners = false
 	#Run the next frame's client tick and queued tasks right before the finished frame is handed to the screen instead of right after. Handing over the frame makes the game wait until the graphics card has drawn it, and the tick that followed left the graphics card idle while it ran. Now the tick runs while the card is still drawing, so the wait and the tick overlap. The tick, its order and what it sees are the same; it only starts a fraction of a millisecond earlier. Client.
 	preSwapTicks = true
+	#Let a closed world's biome data go. Every biome lookup tree remembers, for each thread, the last biome it found, and that memory holds the biome, which reaches the whole world generation registry of its world. The game's worker threads outlive the world, so after you close a singleplayer world they keep its registries in memory until they happen to look up a biome again. With this on the memory points at the biome weakly. A tree holds all of its biomes, so while the tree can still be searched the memory is never cleared and every lookup starts from the same biome as before, ties included; once the tree is gone the biome and its registries can be freed. Takes effect for trees built after the config loads.
+	weakBiomeSearchSlot = true
+	#Packs whose overworld or nether keeps its biome list inside level.dat (thousands of entries in big packs) encode that whole list again on the server thread at every autosave, /save and world close, entry by entry through the game's codecs. While the list is the very same list holding the very same entries, written against the same biome registry, hand back a copy of the encoding made at the last save instead. The first two reuses are also encoded fresh and compared, and any difference turns this off for good, so level.dat holds exactly the same data. Server.
+	reuseBiomeListEncoding = true
+	#Every frame the game blends the glowing-outline image over the whole screen, even when nothing glows and the image is still fully transparent from its clear. That changes no pixel but still costs the GPU a full-screen pass. Skip only that one draw call when the image was cleared to fully transparent and nothing has bound it since. Every GL state change around the draw still happens, so the screen and the GL state are exactly what they would have been. Steps aside while a shader pack is in use. Client.
+	skipEmptyOutlineOverlay = true
+	#Answer which mod jar holds a file from one lookup across every jar that shares the namespace, instead of asking each jar in turn. Forge puts all mod resources into one pack and checks a file against every mod that ships assets in that namespace, about 150 jars for minecraft, so every texture, model or sound a mod probes for and does not find costs a search in each of them. Entity Texture Features probes a few dozen files the first time it sees a mob texture, which froze the game for 20 to 40 ms when walking into a village. The jar that answers is still asked for the file, so results are the same. Needs indexModFiles.
+	indexDelegatingPacks = true
+	#Build the path of a file inside a zipped resource pack by joining three strings instead of running String.format, which every lookup into every zipped pack did. Same path.
+	fastZipPackPaths = true
+	#Run the slow one-time setup of a few client classes at the title screen instead of in the middle of play. Supplementaries word-wraps its whole Bee Movie easter egg text the first time any of its signs is drawn, which froze the game for about 20 ms when walking up to the first sign. Client.
+	warmHeavyClassInit = true
+	#Give every model part one reusable rotation instead of a new quaternion each time it is posed. Vanilla allocates one per rotated part of every entity model every frame, and Embeddium still runs that code for each part it draws. The quaternion is fully overwritten before use and never kept, so the result is identical. Client.
+	reuseModelPartRotation = true
+	#Hand the finished frame's last drawing commands to the graphics card on their own, right before the frame is shown and right before the client tick that runs there. The driver otherwise keeps them back and sends them together with the request to show the frame, and on AMD cards that left the card waiting at the end of every frame. The picture is exactly the same. Client.
+	flushBeforeSwap = true
+	#Copy the finished picture to the window with the graphics card's own copy instead of drawing it as a full-screen picture with a shader. Only when the picture and the window are the same size, which is the normal case. Same pixels. Client.
+	framebufferBlit = true
+	#Reuse one random number generator per thread for the surface rules' gradient bands (the bedrock, deepslate and similar fades). Vanilla builds a new generator, three objects, for every block it checks there, only to read one number from it. The reused one is reseeded the same way and gives the same number, checked against vanilla at startup.
+	reuseGradientRandom = true
+	#Fancy World Animations draws every swinging lantern and chain in the loaded world from scratch each frame. Write those blocks straight into the block buffer in its own layout, all at once at the end, instead of one quad at a time through the generic model path. The picture is identical. Not used with a shader pack. Client.
+	fastFancyWorldAnimations = true
+	#Fancy World Animations swings every lantern and chain up to 256 blocks away, which costs most of the frame in villages and castles. Lanterns and chains farther than this many blocks are drawn as normal still blocks with the rest of the terrain, which costs nothing per frame; closer ones swing as before. At this distance the swing is about a pixel. 0 swings all of them. Client.
+	#Range: 0 ~ 256
+	fancyWorldAnimationsSwingDistance = 64
+	#Give back the graphics memory of an off-screen picture that a mod threw away without releasing it. Normally that memory stays taken until the game closes. Only frees what the graphics card confirms belongs to that picture, and writes a line to the log naming it. Costs nothing while no mod leaks. Client.
+	freeLeakedRenderTargets = true
+	#Milliseconds between refreshes of the text on the F3 debug screen. Vanilla rebuilds every line on every frame drawn, which means looking up chunks, entities and the integrated server and formatting dozens of strings, and the mods that add their own lines run again each time too. The text is rebuilt at most this often instead and the last copy is shown in between, so lines from other mods stay and keep updating. The FPS line only changes once a second anyway. 0 rebuilds on every frame. Client.
+	#Range: 0 ~ 1000
+	debugScreenRefreshMs = 100
+	#A loading chunk asked for the same sections around it to be redrawn about 1600 times, once for every section of sky light, block light and blocks. Ask once per section. Looks the same. Client.
+	markLoadedChunkOnce = true
+	#Answer whether a feature may grow in a biome from the biomes of the chunk sections around it. The exact biome, which hashes eight corners, is only looked up where those biomes disagree. Same answer. Needs placeFeaturesWithoutStreams.
+	featureBiomeMasks = true
+	#Move a chunk section to a bigger block palette by translating each palette entry once instead of looking up all 4096 blocks one by one. Same palette and same blocks.
+	copyPalettesByEntry = true
+	#List the distinct blocks or biomes of a chunk section with a bit mask instead of searching a growing array for every entry. Same values in the same order.
+	listPaletteWithMask = true
 
 #Xaero's World Map patches.
 [xaeroworldmap]
@@ -873,6 +935,16 @@
 	lazyTileHeights = true
 	#Skip the world map's texture upload benchmark. For the first few hundred map texture uploads of every launch, of each of seven kinds, Xaero's World Map waits for the graphics card to finish all queued work twice per upload just to time it, and the timings are only ever shown in a debug line. Each wait stalls the frame for as long as the card takes to drain, which is what made the map stutter while you explore early in a session. Uploads themselves are unchanged. Client.
 	skipUploadBenchmark = true
+	#Mark a map region's other cave layers as outdated once per frame instead of once for every chunk written into it. In singleplayer every region is world save data, so stock looks up and flags the same region in every loaded cave layer for each chunk the map writer visits, which is about half of the writer's render thread time and grows with every cave depth you have mapped. The flags only ever get set, so the map is identical. Client.
+	markLayersOnce = true
+	#A block change, a light update or a chunk loading or unloading made the map redraw that chunk and all eight around it on the render thread. The map does not read across chunk borders, so only the chunk that changed is redrawn. Looks the same. Client.
+	markOnlyChangedChunk = true
+	#Every chunk that loads made the map work out the colour of all 4096 pixels of its 4x4 chunk square again on the render thread. A square that keeps changing is redrawn at most this often in milliseconds, so freshly explored land can take that long to show up on the map. 0 disables. Client.
+	#Range: 0 ~ 10000
+	tileRefreshMillis = 1500
+	#How many already mapped chunks the map writer may walk past per millisecond. Stock keeps walking through every loaded chunk until it finds one to update or has used 8.7 % of the frame, so with a large loaded area it always takes that 8.7 %, even standing still. 16 still visits 4000 loaded chunks four times a second. The world map screen is never limited. 0 restores the stock behaviour. Client.
+	#Range: 0 ~ 10000
+	skippedChunksPerMilli = 16
 
 #L_Ender's Cataclysm patches.
 [cataclysm]
@@ -1670,6 +1742,8 @@
 	#Let a limpet look for players to be scared of this many ticks apart instead of every tick. Every limpet that is not already fleeing asks the level for every player inside an eight by eight by eight block box every single tick, allocating a capturing filter and a consumer each time, purely to push its scared timer back up to one hundred ticks. Since the timer only counts down one per tick, refreshing it ten times a second is a hundred times more often than it needs to be. With this at ten a limpet can take up to half a second longer to notice a player walking up to it, and once it is scared it stays scared exactly as long as before. Set to 1 for stock behaviour.
 	#Range: 1 ~ 200
 	limpetScareScanInterval = 10
+	#Every inventory slot read and every equipment read asks Species whether a disguise is being ticked on this thread, through a thread local. With this on it first looks at the counter of disguises being ticked anywhere, which is zero almost always. Same result.
+	skipIdleDisguiseCheck = true
 
 #Cooking for Blockheads patches.
 [cookingforblockheads]
@@ -1766,6 +1840,8 @@
 	clearStaleSyncedData = true
 	#Hand the armour models the same resource location every time they ask for their model, texture or animation file instead of building and validating a new one on every draw. A cultist wearing its armour asked three times per frame. The transmog aware generic armour model is left alone. Client.
 	reuseArmorModelLocations = true
+	#Every mob on screen built a whole new empty spell record every frame just to learn that it is not casting anything. They share one empty record now, the way players without spells already do. Looks the same. Client.
+	shareEmptySyncedData = true
 
 #Shoulder Surfing Reloaded patches.
 [shouldersurfing]
@@ -2209,6 +2285,8 @@
 [citadel]
 	#Draw Citadel model boxes (Alex's Mobs, Alex's Caves and every other Citadel model) through Embeddium's bulk vertex writer, the same path Embeddium gives vanilla models. Stock allocates a vector per quad and per vertex and pushes every vertex through the per-vertex BufferBuilder path, which is several times slower and much slower again with a shader pack.
 	fastModelRender = true
+	#Stop Citadel firing an event for every water block the chunk builder meshes. Citadel builds a new event object and sends it through the whole Forge event bus every time the game asks which render layer a fluid block goes in, so a mod could swap it. In this pack only Alex's Mobs listens, and it only ever changes lava while you have Lava Vision. With this on the event still fires for lava exactly as before, but is skipped for every other fluid while Alex's Mobs is the only listener. If any other mod starts listening it fires for everything again. Client side only. Turn it off for stock behaviour.
+	skipNonLavaFluidRenderEvent = true
 
 #Architectury API patches.
 [architectury]
@@ -2219,6 +2297,8 @@
 [jei]
 	#Stop JEI keeping every old world in memory after you respawn or change dimension. When JEI looks for a recipe transfer button it asks the open menu for its type, and the player inventory menu has none and answers with an error, so JEI notes that menu in a list of menus to stop asking about. That list holds on to the menu for the whole session, the menu holds your player, and your player holds the entire client world with its chunks and entities. Every respawn and every dimension change makes a new player, so each one leaves another full world stuck in memory until you log out. With this on the list forgets a menu as soon as nothing else uses it, which is the moment it could never be asked about again anyway, so the transfer buttons behave exactly the same. Takes effect the next time JEI starts. Turn it off for stock behaviour.
 	weakUnsupportedContainers = true
+	#Stop JEI keeping your first player, and with it the first world, in memory for the whole session. JEI works out anvil costs and grindstone results with a fake anvil and a fake grindstone that it builds once around the player it saw first. Every respawn and dimension change makes a new player, but the fake menus keep the old one, and JEI never lets go of the grindstone one at all, not even when you log out. With this on both are dropped on respawn, dimension change and logout, and JEI builds them again around the current player the next time it needs them, so the recipes and costs are the same. Client.
+	releaseFakeMenus = true
 
 #Radium patches. These fix or speed up Radium itself and only apply to the exact Radium build they were checked against.
 [radium]
@@ -2245,6 +2325,8 @@
 	customPayloadHeapCopy = true
 	#Remember armor texture paths instead of formatting them again for every armor piece on every mob in every frame. Forge builds the path of each worn armor texture with a full string format call each time it is drawn, so a room full of armored piglins or zombies spends a noticeable part of the frame parsing the same format string. With this on each finished path is kept and handed back for the same material, layer and overlay, mods that pick their own armor textures are still asked every time, and the texture that ends up drawn is exactly the same. Client. Turn it off for stock behaviour.
 	armorTexturePathCache = true
+	#Stop rebuilding Forge's registry id table from scratch on every world save. Each autosave, /save and world close writes the id of every block, item, entity, sound and so on into level.dat, and Forge first builds a sorted copy of every saved registry to write it from, tens of thousands of sorted inserts on the server thread, although the ids almost never change while a world is open. With this on each registry checks everything that copy is made from (every id with its value and name, in order, the aliases, the blocked ids and the overrides) against the copy it built at the last save, and uses that copy again when all of it is the same. Any change rebuilds it on that save, so level.dat comes out exactly the same. The copies sent to joining players are always built fresh. Server.
+	reuseRegistrySnapshots = true
 
 #NBT loading patches. These take over how compound and list tags are read from chunk files, saves and packets, and they cover everything LongNbtKiller does, so that mod can be removed. They work with or without LongNbtKiller installed.
 [nbtload]
@@ -2265,6 +2347,8 @@
 [embeddium]
 	#Keep each chunk shader source after it is first read. Embeddium reads every shader file again on each renderer reload by asking the class loader, which searches every mod jar and throws a missing file error for each one that lacks it, a stall of over 100 ms in a large pack. Shader files inside mod jars never change while the game runs. Client.
 	cacheShaderSources = true
+	#Do not fill the block copy of an empty chunk section with air again when it still holds air from the section meshed before it. Every chunk mesh copies 27 sections and most of the ones above the ground are empty.
+	keepAirSections = true
 
 #All The Leaks patches.
 [alltheleaks]
@@ -2324,6 +2408,8 @@
 [etf]
 	#Stop the missing property error from copying a call stack. When a texture or model rule file leaves out a property, Entity Texture Features builds that property by reading it from the file and throwing its own error if the key is not there, and the code that asked catches it, discards it and moves on, which happens for every property type of every rule in every file. A big pack throws over ten thousand of those at launch and each one copies the loading thread's call stack, which nothing ever reads, because the only thing the mod does with the error is log its message. With this on the same error with the same message is thrown without capturing a stack. Client.
 	stacklessPropertyExceptions = true
+	#Remember which mob textures Entity Texture Features has looked at and prepare them again at the title screen on the next launch, a couple of milliseconds per tick, instead of the first time each mob comes into view. Preparing a texture looks up its random, emissive, blinking and enchanted variants in every resource pack, which froze the game for 20 to 60 ms when walking into a village or a fight full of mob types not seen yet this session. The list is config/collections_of_optimizations/warm-etf.txt. Client.
+	warmTextures = true
 
 #Immersive Weathering patches.
 [immersiveweathering]
@@ -2362,6 +2448,8 @@
 [flywheel]
 	#Wake Flywheel's worker threads by parking and unparking them instead of a shared lock. With the lock, the render thread had to wait for a low priority worker that was holding it while chunk generation kept every core busy, which showed up as 50 to 90 ms hitches while flying. Takes effect on the next launch.
 	parkWorkers = true
+	#Remember which Flywheel shader programs the game had to build (chests, bells, Create machines and so on) and build them again right after start-up, one per tick, starting on the title screen. Flywheel only builds a program the first time something needs it, and each one froze the game for about 20 ms, so walking into a village or a structure stuttered once per new kind of block. The list is kept in config/collections_of_optimizations/warm-flywheel.txt. Client.
+	warmPrograms = true
 
 #Mekanism patches.
 [mekanism]
@@ -2426,4 +2514,36 @@
 [jerotes]
 	#Work out a mob's true faction in one pass. Jerotes asks for it four times per faction check, and every faction check runs for each possible target a mob looks at, so with many mobs around this adds up fast. Each time it looked up the owner twice and built the full faction list twice, only to hand back the mob's own faction name in the end. Now the owner and the saved faction are read once, and the faction list is only built when the mob has no faction name of its own. Same faction as before. Server.
 	trueFactionOnce = true
+
+#Structure Essentials patches.
+[structureessentials]
+	#Structure Essentials checks the final block of every jigsaw connector each time a structure piece is copied, by parsing the same block text again, which happens thousands of times while structures are laid out. With this on each distinct text is checked once; a broken one still fails the same way every time.
+	checkFinalStateOnce = true
+
+#Does Potato Tick? patches.
+[doespotatotick]
+	#Remember that an entity already has the mod's one-time update fix instead of reading the marker from its saved data on every tick.
+	rememberUpdateFix = true
+
+#Immersive Engineering patches.
+[immersiveengineering]
+	#Skip Immersive Engineering's failed wire connection overlay when there are no failed connections to show. It set up a fresh set of render buffers and started two empty draw batches every frame for nothing.
+	skipIdleConnectionPass = true
+
+#MGN's Flowers patches.
+[mgnflowers]
+	#Build the noise that picks which tall allium or tall tulip grows where once instead of once per flower. The meadow allium patches and the flower forest tall tulip patches rebuild the same fixed seed noise from scratch for every flower they try to place, up to 96 times per patch. The noise only depends on the patch's own settings, so with this on it is built once per patch type and shared, and every flower comes out exactly the same. Server.
+	reuseFlowerNoise = true
+	#Keep the lush cave flowers in open air. The lush cave flower patch only checks the block under the spot it picked, so it also plants grottal blooms and lampblossoms inside dirt and moss underground and in lush cave pools, deleting the stone or water that was there and leaving glowing flowers buried in the walls, and its glowing tall tulips keep growing up into a low cave ceiling, replacing the ceiling blocks with more tulip on top of the flower head. With this on the flowers only go where the patch meant them to, on air, grass or moss carpet, and a tall tulip stops at its head under a low ceiling. Only changes chunks generated from now on. Server. Turn it off for stock behaviour.
+	keepLushFlowersInOpenAir = true
+
+#Bye Pregen patches.
+[byepregen]
+	#Read the chunk section a feature check needs through the generation region class instead of through the interface Bye Pregen adds to it. The interface checks are slow on a class many mods add interfaces to, worse with many generation threads. Same section.
+	directSectionLookup = true
+
+#Flerovium patches.
+[flerovium]
+	#Flerovium replaces the frustum test of Embeddium with one that only looks at the middle of a box and treats every box as one chunk section, 18 blocks wide. Block entities with a bigger render box disappear while a part of them is still on screen, and small ones keep being drawn 9 blocks outside of the screen. With this on the real size of the box is used, chunk sections give the same answer as before.
+	realBoxSize = true
 

@@ -406,7 +406,7 @@ MMEvents.createProcesses((event) => {
       },
     });
 
-      //Energized Crystal Dust
+  //Energized Crystal Dust
   event
     .create('mm:energized_crystal_dust_recipe2')
     .structureId('mm:fire_attuned_structure2')
@@ -441,6 +441,172 @@ MMEvents.createProcesses((event) => {
         type: 'mm:item',
         item: 'neoecoae:energized_crystal_dust',
         count: 2048,
+      },
+    });
+
+  //Soul Lava
+  event
+    .create('mm:soul_lava_recipe2')
+    .structureId('mm:fire_attuned_structure2')
+    .ticks(1)
+    .input({
+      type: 'mm:input/consume',
+      ingredient: {
+        type: 'mm:item',
+        item: 'thermal_extra:soul_infused_ingot',
+        count: 16,
+      },
+    })
+    .input({
+      type: 'mm:input/consume',
+      ingredient: {
+        type: 'mm:item',
+        item: 'mysticalagriculture:soulium_ingot',
+        count: 16,
+      },
+    })
+    .input({
+      type: 'mm:input/consume',
+      ingredient: {
+        type: 'mm:item',
+        item: 'enderio:soularium_ingot',
+        count: 16,
+      },
+    })
+    .input({
+      type: 'mm:input/consume',
+      ingredient: {
+        type: 'mm:item',
+        item: 'bhc:soul_heart_crystal',
+        count: 32,
+      },
+    })
+    .input({
+      type: 'mm:input/consume',
+      ingredient: {
+        type: 'mm:item',
+        item: 'kubejs:starmetal_ingot',
+        count: 16,
+      },
+    })
+    .input({
+      type: 'mm:input/consume',
+      ingredient: {
+        type: 'mm:item',
+        item: 'armorplus:infused_lava_crystal',
+        count: 64,
+      },
+    })
+    .input({
+      type: 'mm:input/consume',
+      chance: 0.0,
+      ingredient: {
+        type: 'mm:item',
+        item: 'void_lords:drowned_god_eye',
+        count: 4,
+      },
+    })
+    .input({
+      type: 'mm:input/consume',
+      ingredient: {
+        type: 'mm:item',
+        item: 'projecte:soul_stone',
+        count: 4,
+      },
+    })
+    .input({
+      type: 'mm:input/consume',
+      ingredient: {
+        type: 'mm:item',
+        item: 'bosses_of_mass_destruction:soul_star',
+        count: 256,
+      },
+    })
+    .input({
+      type: 'mm:input/consume',
+      ingredient: {
+        type: 'mm:fluid',
+        fluid: 'minecraft:lava',
+        amount: 256000,
+      },
+    })
+    .input({
+      type: 'mm:input/consume',
+      ingredient: {
+        type: 'mm:energy',
+        amount: 2000000000,
+      },
+    })
+    .output({
+      type: 'mm:output/simple',
+      ingredient: {
+        type: 'mm:fluid',
+        fluid: 'allthemodium:soul_lava',
+        amount: 256000,
+      },
+    });
+
+  //Neutronium Pellets
+  event
+    .create('mm:neutronium_pellets_recipe2')
+    .structureId('mm:fire_attuned_structure2')
+    .ticks(1)
+    .input({
+      type: 'mm:input/consume',
+      ingredient: {
+        type: 'mm:item',
+        item: 'nuclearcraft:neutronium_ingot',
+        count: 9,
+      },
+    })
+    .input({
+      type: 'mm:input/consume',
+      ingredient: {
+        type: 'mm:fluid',
+        fluid: 'kubejs:neutronium_condensate_fluid',
+        amount: 1000,
+      },
+    })
+    .input({
+      type: 'mm:input/consume',
+      ingredient: {
+        type: 'mm:energy',
+        amount: 2147483647,
+      },
+    })
+    .output({
+      type: 'mm:output/simple',
+      ingredient: {
+        type: 'mm:item',
+        item: 'avaritia:neutron_pile',
+        count: 50,
+      },
+    })
+    .output({
+      type: 'mm:output/simple',
+      chance: 0.45,
+      ingredient: {
+        type: 'mm:item',
+        item: 'avaritia:neutron_nugget',
+        count: 8,
+      },
+    })
+    .output({
+      type: 'mm:output/simple',
+      chance: 0.05,
+      ingredient: {
+        type: 'mm:item',
+        item: 'avaritia:neutron_ingot',
+        count: 3,
+      },
+    })
+    .output({
+      type: 'mm:output/simple',
+      chance: 0.001,
+      ingredient: {
+        type: 'mm:item',
+        item: 'avaritia:neutron',
+        count: 1,
       },
     });
 });

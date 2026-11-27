@@ -720,20 +720,11 @@
 				item: "kubejs:apotheotic_coin"
 				type: "item"
 			}]
-			tasks: [
-				{
-					amount: 1000L
-					fluid: "nuclearcraft:deuterium"
-					id: "14749DEC619B39AD"
-					type: "fluid"
-				}
-				{
-					amount: 1000L
-					fluid: "mekanismgenerators:deuterium"
-					id: "5D3A11AA7DFF6D12"
-					type: "fluid"
-				}
-			]
+			tasks: [{
+				id: "48227CBB3C3B8DD1"
+				item: "nuclearcraft:deuterium_bucket"
+				type: "item"
+			}]
 			title: "{ftbquests.chapter.nuclear_energy.quest21.title}"
 			x: -13.0d
 			y: 5.0d
@@ -745,20 +736,11 @@
 				item: "kubejs:apotheotic_coin"
 				type: "item"
 			}]
-			tasks: [
-				{
-					amount: 1000L
-					fluid: "nuclearcraft:tritium"
-					id: "3FB98773E6683EF1"
-					type: "fluid"
-				}
-				{
-					amount: 1000L
-					fluid: "mekanismgenerators:tritium"
-					id: "0178BF98265E7D8D"
-					type: "fluid"
-				}
-			]
+			tasks: [{
+				id: "29507AB6D580FA0F"
+				item: "nuclearcraft:tritium_bucket"
+				type: "item"
+			}]
 			title: "{ftbquests.chapter.nuclear_energy.quest22.title}"
 			x: -13.0d
 			y: 4.0d
@@ -774,22 +756,19 @@
 			}]
 			tasks: [
 				{
-					amount: 1000L
-					fluid: "minecraft:water"
-					id: "002602E1603F378F"
-					type: "fluid"
+					id: "3B0177F472A002D1"
+					item: "minecraft:water_bucket"
+					type: "item"
 				}
 				{
-					amount: 1000L
-					fluid: "nuclearcraft:liquid_helium"
-					id: "5F16A2EC7EE4FEF8"
-					type: "fluid"
+					id: "02287BF2F8E5B815"
+					item: "nuclearcraft:liquid_helium_bucket"
+					type: "item"
 				}
 				{
-					amount: 1000L
-					fluid: "nuclearcraft:liquid_nitrogen"
-					id: "1A31524C7D66F005"
-					type: "fluid"
+					id: "730B8F691AC449FB"
+					item: "nuclearcraft:liquid_nitrogen_bucket"
+					type: "item"
 				}
 			]
 			title: "{ftbquests.chapter.nuclear_energy.quest23.title}"
@@ -810,14 +789,8 @@
 			subtitle: "{ftbquests.chapter.nuclear_energy.quest24.subtitle}"
 			tasks: [{
 				count: 64L
-				id: "002442110A337938"
-				item: {
-					Count: 1
-					id: "itemfilters:tag"
-					tag: {
-						value: "forge:ingots/neutronium"
-					}
-				}
+				id: "469AE7388D062D47"
+				item: { Count: 64, id: "nuclearcraft:neutronium_ingot" }
 				type: "item"
 			}]
 			title: "{ftbquests.chapter.nuclear_energy.quest24.title}"
@@ -1623,10 +1596,9 @@
 				type: "item"
 			}]
 			tasks: [{
-				amount: 1000L
-				fluid: "nuclearcraft:diborane"
-				id: "677934E58EAEE58C"
-				type: "fluid"
+				id: "529C63E290E40CFD"
+				item: "nuclearcraft:diborane_bucket"
+				type: "item"
 			}]
 			title: "{ftbquests.chapter.nuclear_energy.quest52.title}"
 			x: 3.5d

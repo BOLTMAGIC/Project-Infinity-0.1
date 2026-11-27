@@ -41,7 +41,51 @@ ServerEvents.recipes((event) => {
     .id('kubejs:infinity_8')
     .keepIngredient('bloodmagic:masterbloodorb');
 
-      //Unobtainium Ingot
+  //Infinity 4
+  event
+    .custom({
+      type: 'draconicevolution:fusion_crafting',
+      catalyst: {
+        item: 'kubejs:blood_ingot',
+      },
+      ingredients: [
+        {
+          item: 'kubejs:infinity_3',
+        },
+        {
+          item: 'kubejs:infinity_3',
+        },
+        {
+          item: 'kubejs:infinity_3',
+        },
+        {
+          type: 'forge:partial_nbt',
+          item: 'botania:brew_flask',
+          count: 1,
+          nbt: '{brewKey:"botania:bloodthirst"}',
+        },
+        {
+          item: 'twilightforest:fiery_tears',
+        },
+        {
+          item: 'twilightforest:fiery_tears',
+        },
+        {
+          item: 'mysticalagriculture:awakened_supremium_ingot',
+        },
+        {
+          item: 'mysticalagriculture:awakened_supremium_ingot',
+        },
+      ],
+      result: {
+        item: 'kubejs:infinity_4',
+      },
+      tier: 'CHAOTIC',
+      total_energy: 128000000,
+    })
+    .id('kubejs:infinity_4');
+
+  //Unobtainium Ingot
   event
     .custom({
       type: 'draconicevolution:fusion_crafting',

@@ -68,6 +68,9 @@
 	#The FE per Tick that the generator charges other items at
 	#Range: > 1
 	pocket_gen_fe_per_tick = 5000
+	#Extra burn speed multiplier applied when a vanilla Coal Block is used as fuel in the Pocket Generator. Stacks with the burn speed multiplier above
+	#Range: 1 ~ 1000
+	pocket_gen_vanilla_coal_block_multiplier = 1
 
 #Fluid Fuel FE per mB values
 [fluid_fuel]
@@ -267,4 +270,105 @@
 	player_accessor_validation_time = 100
 	#A list of dimension names to blacklist for the Player Accessor feature.
 	player_accessor_blacklisted_dimensions = []
+
+#Ability settings: For disabling certain abilities
+[abilities]
+	#mobscanner
+	mobscanner = true
+	#oreminer
+	oreminer = true
+	#orescanner
+	orescanner = true
+	#lawnmower
+	lawnmower = true
+	#skysweeper
+	skysweeper = true
+	#treefeller
+	treefeller = true
+	#leafbreaker
+	leafbreaker = true
+	#runspeed
+	runspeed = true
+	#walkspeed
+	walkspeed = true
+	#stepheight
+	stepheight = true
+	#jumpboost
+	jumpboost = true
+	#mindfog
+	mindfog = true
+	#invulnerability
+	invulnerability = true
+	#potionarrow
+	potionarrow = true
+	#splash
+	splash = true
+	#lingering
+	lingering = true
+	#homing
+	homing = true
+	#epicarrow
+	epicarrow = true
+	#smelter
+	smelter = true
+	#smoker
+	smoker = true
+	#hammer
+	hammer = true
+	#lavarepair
+	lavarepair = true
+	#polymorph_random
+	polymorph_random = true
+	#cauterizewounds
+	cauterizewounds = true
+	#airburst
+	airburst = true
+	#swimspeed
+	swimspeed = true
+	#groundstomp
+	groundstomp = true
+	#extinguish
+	extinguish = true
+	#stupefy
+	stupefy = true
+	#dropteleport
+	dropteleport = true
+	#voidshift
+	voidshift = true
+	#negatefalldamage
+	negatefalldamage = true
+	#nightvision
+	nightvision = true
+	#elytra
+	elytra = true
+	#decoy
+	decoy = true
+	#waterbreathing
+	waterbreathing = true
+	#orexray
+	orexray = true
+	#glowing
+	glowing = true
+	#instabreak
+	instabreak = true
+	#eclipsegate
+	eclipsegate = true
+	#deathprotection
+	deathprotection = true
+	#debuffremover
+	debuffremover = true
+	#earthquake
+	earthquake = true
+	#noai
+	noai = true
+	#flight
+	flight = true
+	#lavaimmunity
+	lavaimmunity = true
+	#phase
+	phase = true
+	#timeprotection
+	timeprotection = true
+	#polymorph_target
+	polymorph_target = true
 

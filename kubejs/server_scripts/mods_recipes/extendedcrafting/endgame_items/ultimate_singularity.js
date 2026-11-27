@@ -98,7 +98,7 @@ ServerEvents.recipes((event) => {
           type: 'forge:nbt',
           item: 'extendedcrafting:singularity',
           count: 1,
-          nbt: '{Id:"extendedcrafting:dimensional_ingot"}',
+          nbt: '{Id:"extendedcrafting:element_ingot"}',
         },
         {
           type: 'forge:nbt',

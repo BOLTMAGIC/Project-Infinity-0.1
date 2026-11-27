@@ -4446,22 +4446,6 @@
 		}
 		{
 			dependencies: ["4970CC2851818A02"]
-			id: "22DD21F73C452A00"
-			rewards: [{
-				id: "0C764ED49F99F351"
-				item: "kubejs:ascended_coin"
-				type: "item"
-			}]
-			tasks: [{
-				id: "5C05BA5DE90B88D2"
-				item: "mysticalagriculture:neutronium_seeds"
-				type: "item"
-			}]
-			x: 9.0d
-			y: 2.0d
-		}
-		{
-			dependencies: ["4970CC2851818A02"]
 			id: "68E1D0C161717599"
 			rewards: [{
 				id: "0E7EC68DEECFA632"
@@ -4473,8 +4457,8 @@
 				item: "mysticalagriculture:nitro_crystal_seeds"
 				type: "item"
 			}]
-			x: 7.0d
-			y: 3.0d
+			x: 9.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["41E5E6BF7CB5063F"]

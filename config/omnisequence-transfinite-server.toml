@@ -11,9 +11,13 @@
 #视界奇点天枢的资源采集与物质复制设置。
 [singularity_hub]
 
-	#Singularity sequence-matter duplication and black-hole energy settings.
-	#奇点序质复制与黑洞能源设置。
+	#Item duplication blacklist, sequence-matter production and black-hole energy settings.
+	#物品复制黑名单、奇点序质生产与黑洞能源设置。
 	[singularity_hub.singularity_duplication]
+		#Exact item IDs that cannot be copied by either Singularity Hub, regardless of item NBT. An empty list blocks nothing. Does not affect collection or Sequence Matter generation.
+		#两种奇点天枢共用的复制物品 ID 黑名单，同一物品的所有 NBT 变体均禁止复制；留空 [] 不限制。不影响资源采集或奇点序质生产。
+		#Default / 默认：item_blacklist = []
+		item_blacklist = []
 		#Sequence Matter per miniature black hole per cycle, in mB; requires energy and ME fluid space, not a sample.
 		#每个微型黑洞每次的奇点序质产量（mB）；需能源和 ME 流体空间，无需样品。
 		#Range: 1 ~ 1000000
@@ -76,7 +80,7 @@
 		#Range: > 256
 		omni_compat_dispatch_max_calls_per_tick = 2147483647
 		#Maximum single-craft dispatch time per tick in microseconds, shared by all active Omni-Computation Cores. The budget shrinks as average server MSPT approaches 45.
-		#所有活跃万物演算核心共享的每 tick 单份配方派发时间预算（微秒）；平均 MSPT 接近 45 时自动收缩。
+		#所有活跃万物演算核心共享的每 tick 单份配方派发时间预算（微秒），平均 MSPT 接近 45 时自动收缩。
 		#Range: 250 ~ 50000
 		omni_compat_dispatch_max_time_us = 50000
 		#Return UselessMod intermediate outputs directly to their live bound CPU on the same network. Unsupported queues use normal return.
@@ -88,6 +92,9 @@
 		#Combine output-return notifications for each resource to reduce repeated updates.
 		#合并同种资源的产物回收通知，减少重复更新。
 		omni_coalesce_return_notifications = true
+		#Enforce per-controller work and call limits and the server-wide single-craft time budget.
+		#启用每个核心的工作单元和单份推送次数上限，以及全服共享的单份派发时间预算。
+		omni_dispatch_limits_enabled = true
 
 #Sequence Array controller, construction, and power settings.
 #构序阵列控制器、结构施工与耗电设置。

@@ -1,6 +1,6 @@
 StartupEvents.registry('item', (e) => {
   // The texture for this item has to be placed in kubejs/assets/kubejs/textures/item/test_item.png
-  e.create('zahraanite')
+  e.create('zahraanite');
 
   e.create('ultimate_gem')
     .tag('balm:gems')
@@ -8,13 +8,13 @@ StartupEvents.registry('item', (e) => {
     ////////.displayName('§dUltimate Gem')
     .glow(true);
 
-  e.create('ultimate_prediction')
-    .tag('kubejs:ultimate_prediction')
-    ////////.displayName('§dUltimate Prediction')
+  e.create('ultimate_prediction').tag('kubejs:ultimate_prediction');
+  ////////.displayName('§dUltimate Prediction')
 
-  e.create('ultimate_vanilla_prediction')
-    .tag('kubejs:ultimate_vanilla_prediction')
-    ////////.displayName('§dUltimate Vanilla Prediction')
+  e.create('ultimate_vanilla_prediction').tag(
+    'kubejs:ultimate_vanilla_prediction'
+  );
+  ////////.displayName('§dUltimate Vanilla Prediction')
 
   e.create('ultimate_boss_prediction')
     .tag('kubejs:ultimate_boss_prediction')
@@ -36,8 +36,8 @@ StartupEvents.registry('item', (e) => {
     ////////.displayName('§aVibranium Mesh')
     .glow(true);
 
-  e.create('wither_token')
-    ////////.displayName('§7Wither Token')
+  e.create('wither_token');
+  ////////.displayName('§7Wither Token')
 
   e.create('left_dragon_heart')
     .tag('kubejs:left_dragon_heart')
@@ -52,28 +52,22 @@ StartupEvents.registry('item', (e) => {
     ////////.displayName('§aRight Dragon Heart')
     .glow(true);
 
-  e.create('ultimate_heart')
-    .tag('kubejs:ultimate_heart')
-    ////////.displayName('§dUltimate Heart')
+  e.create('ultimate_heart').tag('kubejs:ultimate_heart');
+  ////////.displayName('§dUltimate Heart')
 
-  e.create('wither_heart')
-    .tag('kubejs:wither_heart')
-    ////////.displayName('§7Wither Heart')
+  e.create('wither_heart').tag('kubejs:wither_heart');
+  ////////.displayName('§7Wither Heart')
 
-  e.create('warden_heart')
-    .tag('kubejs:warden_heart')
-    ////////.displayName('§1Warden Heart')
+  e.create('warden_heart').tag('kubejs:warden_heart');
+  ////////.displayName('§1Warden Heart')
 
-  e.create('creeper_heart')
-    .tag('kubejs:creeper_heart')
-    ////////.displayName('§2Creeper Heart')
+  e.create('creeper_heart').tag('kubejs:creeper_heart');
+  ////////.displayName('§2Creeper Heart')
 
-  e.create('blaze_heart')
-    .tag('kubejs:blaze_heart')
-    ////////.displayName('§6Blaze Heart')
+  e.create('blaze_heart').tag('kubejs:blaze_heart');
+  ////////.displayName('§6Blaze Heart')
 
-  e.create('compressed_warden_tendril')
-    .tag('kubejs:compressed_warden_tendril')
+  e.create('compressed_warden_tendril').tag('kubejs:compressed_warden_tendril');
 
   //#region infinity 1-12 items
   e.create('infinity_1')
@@ -214,7 +208,7 @@ StartupEvents.registry('item', (e) => {
   e.create('starmetal_ingot')
     .tag('forge:ingots/starmetal_ingot')
     .tag('forge:ingots')
-    .tag('balm:ingots')
+    .tag('balm:ingots');
 
   //#region Element Ingots
   e.create('fire_ingot')
@@ -242,6 +236,16 @@ StartupEvents.registry('item', (e) => {
     .tag('forge:ingots')
     .tag('balm:ingots');
 
+  //#region Ingots for Inf 4
+  e.create('empty_ingot')
+    .tag('forge:ingots/empty_ingot')
+    .tag('forge:ingots')
+    .tag('balm:ingots');
+  e.create('blood_ingot')
+    .tag('forge:ingots/blood_ingot')
+    .tag('forge:ingots')
+    .tag('balm:ingots');
+
   //#region coins
   e.create('apotheotic_coin').tag('minecraft:beacon_payment_items');
   e.create('infused_coin').tag('minecraft:beacon_payment_items');
@@ -250,46 +254,59 @@ StartupEvents.registry('item', (e) => {
   e.create('azure_silver_ore_chunk').tag('exdeorum:ore_chunks');
 
   //tier 1-6 crafting seeds
-  e.create('tier1_crafting_seed')
-    .texture('kubejs:item/mysticalagriculture/tier1_crafting_seed');
+  e.create('tier1_crafting_seed').texture(
+    'kubejs:item/mysticalagriculture/tier1_crafting_seed'
+  );
   ////////.displayName('§aTier 1 Crafting Seed');
-  e.create('tier2_crafting_seed')
-    .texture('kubejs:item/mysticalagriculture/tier2_crafting_seed');
+  e.create('tier2_crafting_seed').texture(
+    'kubejs:item/mysticalagriculture/tier2_crafting_seed'
+  );
   ////////.displayName('§2Tier 2 Crafting Seed');
-  e.create('tier3_crafting_seed')
-    .texture('kubejs:item/mysticalagriculture/tier3_crafting_seed');
+  e.create('tier3_crafting_seed').texture(
+    'kubejs:item/mysticalagriculture/tier3_crafting_seed'
+  );
   ////////.displayName('§6Tier 3 Crafting Seed');
-  e.create('tier4_crafting_seed')
-    .texture('kubejs:item/mysticalagriculture/tier4_crafting_seed');
+  e.create('tier4_crafting_seed').texture(
+    'kubejs:item/mysticalagriculture/tier4_crafting_seed'
+  );
   ////////.displayName('§9Tier 4 Crafting Seed');
-  e.create('tier5_crafting_seed')
-    .texture('kubejs:item/mysticalagriculture/tier5_crafting_seed');
+  e.create('tier5_crafting_seed').texture(
+    'kubejs:item/mysticalagriculture/tier5_crafting_seed'
+  );
   ////////.displayName('§4Tier 5 Crafting Seed');
-  e.create('tier6_crafting_seed')
-    .texture('kubejs:item/mysticalagriculture/tier6_crafting_seed');
+  e.create('tier6_crafting_seed').texture(
+    'kubejs:item/mysticalagriculture/tier6_crafting_seed'
+  );
   ////////.displayName('§5Tier 6 Crafting Seed');
 
   //tier 1-6 super essence and ultimate essence
-  e.create('tier1_super_essence')
-    .texture('kubejs:item/mysticalagriculture/tier1_super_essence');
+  e.create('tier1_super_essence').texture(
+    'kubejs:item/mysticalagriculture/tier1_super_essence'
+  );
   ////////.displayName('§aTier 1 Super Essence');
-  e.create('tier2_super_essence')
-    .texture('kubejs:item/mysticalagriculture/tier2_super_essence');
+  e.create('tier2_super_essence').texture(
+    'kubejs:item/mysticalagriculture/tier2_super_essence'
+  );
   ////////.displayName('§2Tier 2 Super Essence');
-  e.create('tier3_super_essence')
-    .texture('kubejs:item/mysticalagriculture/tier3_super_essence');
+  e.create('tier3_super_essence').texture(
+    'kubejs:item/mysticalagriculture/tier3_super_essence'
+  );
   ////////.displayName('§6Tier 3 Super Essence');
-  e.create('tier4_super_essence')
-    .texture('kubejs:item/mysticalagriculture/tier4_super_essence');
+  e.create('tier4_super_essence').texture(
+    'kubejs:item/mysticalagriculture/tier4_super_essence'
+  );
   ////////.displayName('§9Tier 4 Super Essence');
-  e.create('tier5_super_essence')
-    .texture('kubejs:item/mysticalagriculture/tier5_super_essence');
+  e.create('tier5_super_essence').texture(
+    'kubejs:item/mysticalagriculture/tier5_super_essence'
+  );
   ////////.displayName('§4Tier 5 Super Essence');
-  e.create('tier6_super_essence')
-    .texture('kubejs:item/mysticalagriculture/tier6_super_essence');
+  e.create('tier6_super_essence').texture(
+    'kubejs:item/mysticalagriculture/tier6_super_essence'
+  );
   ////////.displayName('§5Tier 6 Super Essence');
-  e.create('infinity_essence')
-    .texture('kubejs:item/mysticalagriculture/infinity_essence');
+  e.create('infinity_essence').texture(
+    'kubejs:item/mysticalagriculture/infinity_essence'
+  );
   ////////.displayName('§dInfinity Essence');
 
   //#region Chaotic Essence

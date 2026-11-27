@@ -353,4 +353,106 @@ MMEvents.createProcesses((event) => {
         count: 128,
       },
     });
+
+  //Soul Lava
+  event
+    .create('mm:soul_lava_recipe1')
+    .structureId('mm:fire_attuned_structure1')
+    .ticks(8)
+    .input({
+      type: 'mm:input/consume',
+      ingredient: {
+        type: 'mm:item',
+        item: 'thermal_extra:soul_infused_ingot',
+        count: 4,
+      },
+    })
+    .input({
+      type: 'mm:input/consume',
+      ingredient: {
+        type: 'mm:item',
+        item: 'mysticalagriculture:soulium_ingot',
+        count: 4,
+      },
+    })
+    .input({
+      type: 'mm:input/consume',
+      ingredient: {
+        type: 'mm:item',
+        item: 'enderio:soularium_ingot',
+        count: 4,
+      },
+    })
+    .input({
+      type: 'mm:input/consume',
+      ingredient: {
+        type: 'mm:item',
+        item: 'bhc:soul_heart_crystal',
+        count: 8,
+      },
+    })
+    .input({
+      type: 'mm:input/consume',
+      ingredient: {
+        type: 'mm:item',
+        item: 'kubejs:starmetal_ingot',
+        count: 4,
+      },
+    })
+    .input({
+      type: 'mm:input/consume',
+      ingredient: {
+        type: 'mm:item',
+        item: 'armorplus:infused_lava_crystal',
+        count: 16,
+      },
+    })
+    .input({
+      type: 'mm:input/consume',
+      chance: 0.0,
+      ingredient: {
+        type: 'mm:item',
+        item: 'void_lords:drowned_god_eye',
+        count: 1,
+      },
+    })
+    .input({
+      type: 'mm:input/consume',
+      ingredient: {
+        type: 'mm:item',
+        item: 'projecte:soul_stone',
+        count: 1,
+      },
+    })
+    .input({
+      type: 'mm:input/consume',
+      ingredient: {
+        type: 'mm:item',
+        item: 'bosses_of_mass_destruction:soul_star',
+        count: 64,
+      },
+    })
+    .input({
+      type: 'mm:input/consume',
+      ingredient: {
+        type: 'mm:fluid',
+        fluid: 'minecraft:lava',
+        amount: 64000,
+      },
+    })
+    .input({
+      type: 'mm:input/consume',
+      ingredient: {
+        type: 'mm:energy',
+        amount: 500000000,
+      },
+    })
+    .output({
+      type: 'mm:output/simple',
+      ingredient: {
+        type: 'mm:fluid',
+        fluid: 'allthemodium:soul_lava',
+        amount: 64000,
+      },
+    });
 });

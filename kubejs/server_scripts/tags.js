@@ -20,6 +20,11 @@ ServerEvents.tags('item', (event) => {
     'mysticalagriculture:vibranium_essence',
     'mysticalagriculture:plutonium_essence',
     'mysticalagriculture:lithium_essence',
+    'mysticalagriculture:marble_essence',
+    'mysticalagriculture:basalt_essence',
+    'mysticalagriculture:rose_gold_essence',
+    'mysticalagriculture:manyullyn_essence',
+    'mysticalagriculture:cobalt_essence',
   ]);
 
   event.add('mysticalagriculture:seeds', [
@@ -34,6 +39,11 @@ ServerEvents.tags('item', (event) => {
     'mysticalagriculture:vibranium_seeds',
     'mysticalagriculture:plutonium_seeds',
     'mysticalagriculture:lithium_seeds',
+    'mysticalagriculture:marble_seeds',
+    'mysticalagriculture:basalt_seeds',
+    'mysticalagriculture:rose_gold_seeds',
+    'mysticalagriculture:manyullyn_seeds',
+    'mysticalagriculture:cobalt_seeds',
   ]);
 
   event.add('forge:clay_balls', 'minecraft:clay_ball');

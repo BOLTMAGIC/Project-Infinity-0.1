@@ -20,4 +20,10 @@ StartupEvents.registry('fluid', (event) => {
     .thickTexture(0xa1fff7)
     .noBucket()
     .tag('kubejs:cryotheum_coolant');
+
+      event
+    .create('neutronium_condensate_fluid')
+    .thickTexture(0x4a4a4a)
+    .noBucket()
+    .tag('kubejs:neutronium_condensate_fluid');
 });

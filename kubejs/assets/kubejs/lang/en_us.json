@@ -297,7 +297,7 @@
   "singularity.extendedcrafting.brass_ingot": "Brass Ingot",
   "singularity.extendedcrafting.crystal_matrix_ingot": "Crystal Matrix Ingot",
   "singularity.extendedcrafting.energized_superconductive_ingot": "Energized Superconductive Ingot",
-  "singularity.extendedcrafting.dimensional_ingot": "Dimensional Ingot",
+  "singularity.extendedcrafting.element_ingot": "Element Ingot",
   "singularity.extendedcrafting.draconium_ingot": "Draconium Ingot",
   "singularity.extendedcrafting.dragonsteel_ingot": "Dragonsteel Ingot",
   "singularity.extendedcrafting.elementium_ingot": "Elementium Ingot",
@@ -356,6 +356,8 @@
   "singularity.extendedcrafting.vibranium_ingot": "Vibranium Ingot",
 
   "tooltip.avaritia.infinity_tools": "You can right click me.",
+
+  "tooltip.mekanism.logistical_transporter": "Higher tiers of logistical transporter/ pipes are disabled because they are causing lag.",
   
   "tooltip.nuclearcraft.water_collector": "%s mB every 2 sec. Put this item inside the Pump(Nuclearcraft). You can Upgrade the speed and energy.",
   

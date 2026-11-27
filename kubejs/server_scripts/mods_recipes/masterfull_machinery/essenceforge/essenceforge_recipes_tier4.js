@@ -156,7 +156,6 @@ MMEvents.createProcesses((event) => {
     'mysticalagriculture:dragon_egg_seeds',
     'mysticalagriculture:gaia_spirit_seeds',
     'mysticalagriculture:awakened_draconium_seeds',
-    'mysticalagriculture:neutronium_seeds',
     'mysticalagriculture:nitro_crystal_seeds',
   ];
   const seedToCrux = {
@@ -172,8 +171,6 @@ MMEvents.createProcesses((event) => {
       'mysticalagradditions:gaia_spirit_crux',
     'mysticalagriculture:awakened_draconium_seeds':
       'mysticalagradditions:awakened_draconium_crux',
-    'mysticalagriculture:neutronium_seeds':
-      'mysticalagradditions:neutronium_crux',
     'mysticalagriculture:nitro_crystal_seeds':
       'mysticalagradditions:nitro_crystal_crux',
   };

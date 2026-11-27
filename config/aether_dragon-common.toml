@@ -1,8 +1,14 @@
 
 [dragon]
-	#天空巨龙基础攻击力；重启后应用 / Base attack damage; applied after restart
+	#天空巨龙基础攻击力；仅在实体首次应用配置时生效一次，后续加载不再覆盖 / Base attack damage; applied once per entity via NBT flag
 	#Range: 0.0 ~ 2048.0
 	attackDamage = 18.0
+	#天空巨龙最大生命值；仅在实体首次应用配置时生效一次，后续加载不再覆盖 / Max health; applied once per entity via NBT flag
+	#Range: 1.0 ~ 1.7976931348623157E308
+	maxHealth = 800.0
+	#天空巨龙护甲值；仅在实体首次应用配置时生效一次，后续加载不再覆盖 / Armor value; applied once per entity via NBT flag
+	#Range: 0.0 ~ 1.7976931348623157E308
+	armor = 0.6
 
 	[dragon.skillMultipliers]
 		#天穹龙息每次命中伤害倍率 / Damage multiplier for breath

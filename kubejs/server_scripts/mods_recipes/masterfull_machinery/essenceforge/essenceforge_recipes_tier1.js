@@ -34,6 +34,12 @@ MMEvents.createProcesses((event) => {
       max_types: 3,
       chance: 0,
       max_tier: 4,
+      exclude: [
+        'mysticalagriculture:amethyst_bronze_seeds',
+        'mysticalagriculture:slimesteel_seeds',
+        'mysticalagriculture:pig_iron_seeds',
+        
+      ],
     })
     .flexOutput('seed', '(.+)_seeds', '{ns}:$1_essence', EF_ESSENCE1);
 });

@@ -6,4 +6,12 @@ maxRenderedNodes = 200
 maxVisibleNodes = 500
 #GUI theme for logistics node screens: light, dark, redstone, nebula, glass, terminal, pastel, brutalist
 theme = "dark"
+#Invert the wrench copy/paste controls so right-click pastes and modifier 1 + right-click copies.
+invertCopyPasteControls = false
+#Ask for confirmation before creating a network.
+confirmNetworkCreation = true
+#Whether adjacent visible nodes should render as connected.
+connectedNodeTextures = true
+#Whether newly placed nodes should be visible by default.
+defaultNodeVisibility = true
 

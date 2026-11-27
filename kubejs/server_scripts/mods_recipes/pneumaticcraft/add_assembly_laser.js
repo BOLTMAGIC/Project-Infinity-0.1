@@ -1,3 +1,4 @@
+//TO-DO: Change this recipe. max 1 Input is allowed.... Add cosmic meatballs and ult stew
 ServerEvents.recipes((event) => {
   event
     .custom({

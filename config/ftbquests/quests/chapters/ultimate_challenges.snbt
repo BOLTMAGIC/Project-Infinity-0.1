@@ -501,7 +501,7 @@
 				stat: "minecraft:pig_one_cm"
 				title: "{ftbquests.chapter.ultimate_challenges.quest17.task_7799801037722010436.title}"
 				type: "stat"
-				value: 10000
+				value: 1000000
 			}]
 			title: "{ftbquests.chapter.ultimate_challenges.quest17.title}"
 			x: 0.8d

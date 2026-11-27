@@ -20,7 +20,7 @@
     "cityThreshold": 0.2,
     "cityStyleAlternative": "",
     "cityPerlinInnerScale": 0.1,
-    "cityMinHeight": 50,
+    "cityMinHeight": 40,
     "cityLevel2Height": 60,
     "oceanCorrectionBorder": 4,
     "cityLevel7Height": 98,
